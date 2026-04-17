@@ -1,0 +1,91 @@
+.header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.titleZh {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.titleEn {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.metaIcon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.sourceRow,
+.translatorRow {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.sourceLabel {
+  font-weight: 500;
+}
+
+.sourceLink {
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.sourceLink:hover {
+  text-decoration: underline;
+}
+
+.tagsRow {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  font-size: 0.7rem;
+  color: var(--accent);
+  background: var(--year-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .titleZh {
+    font-size: 1.5rem;
+  }
+  .titleEn {
+    font-size: 0.9rem;
+  }
+}

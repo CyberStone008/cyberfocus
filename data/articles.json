@@ -1,0 +1,917 @@
+[
+  {
+    "id": "anthropic:ai-for-science-program",
+    "slug": "ai-for-science-program",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/ai-for-science-program",
+    "publishedAt": "2026-04-17T05:11:14.099Z",
+    "titleEn": "Introducing Anthropic&#x27;s AI for Science Program",
+    "titleZh": "介绍 Anthropic 的科学 AI 计划",
+    "abstractEn": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+    "abstractZh": "Anthropic 是一家致力于构建可靠、可解释和可操控 AI 系统的 AI 安全与研究公司。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog",
+    "contentMd": "## 公告\n\n### Announcements\n\n## 推出 Anthropic 科学 AI 计划\n\n### Introducing Anthropic's AI for Science Program\n\n2025 年 5 月 5 日\n\n今天，我们正式推出 Anthropic 的科学 AI 计划——一项通过 API 访问来加速科学研究和发现的新举措。该计划将为研究人员提供免费的 API 额度，支持他们开展高影响力的科学项目，尤其聚焦于生物学和生命科学领域的应用。\n\n## 为什么要用科学 AI？\n\n### Why AI for Science?\n\n在 Anthropic，我们相信 AI 有潜力显著加速科学进步。先进的 AI 推理和语言能力可以帮助研究人员分析复杂的科学数据、生成假设、设计实验以及更有效地沟通研究发现。通过减少科学发现所需的时间和资源，我们可以帮助应对人类面临的一些最紧迫挑战。这一举措与我们要构建为人类创造价值的 AI 系统的愿景相一致，正如我们的 CEO Dario Amodei 在《Machines of Loving Grace》中所讨论的那样。我们特别感兴趣的是支持那些 AI 能够帮助加速理解复杂生物系统、分析基因数据、加速药物发现（尤其是针对全球最大疾病负担的疾病）、提高农业生产力等应用。\n\n## 计划详情\n\n### Program Details\n\n科学 AI 计划将为符合条件的研究人员提供可观的 API 额度。研究人员的选择将基于他们对科学的贡献、拟议研究的潜在影响，以及 AI 是否能够有意义地加速他们的工作。\n\n## 如何申请\n\n### How to Apply\n\n隶属于研究机构且对科学 AI 计划感兴趣的研究人员，可以通过我们的申请表进行申请。申请将由我们的团队进行评审，包括相关领域的专家。我们期待看到研究人员如何使用我们的 API 来突破科学发现的边界，在世界上创造积极的影响。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-17T05:13:05.741Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-17"
+  },
+  {
+    "id": "anthropic:advancing-claude-for-financial-services",
+    "slug": "advancing-claude-for-financial-services",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+    "publishedAt": "2026-04-17T05:11:10.315Z",
+    "titleEn": "Advancing Claude for Financial Services",
+    "titleZh": "推进 Claude 在金融服务领域的应用",
+    "abstractEn": "Claude for Financial Services now supports a native Excel plug-in, new connectors to real-time market, and pre-built skills for modeling, comp analysis, and earnings reports.",
+    "abstractZh": "Claude for Financial Services 现在支持原生 Excel 插件、新的实时市场连接器,以及用于建模、可比分析和财报的预构建技能。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:advancing-claude-for-education",
+    "slug": "advancing-claude-for-education",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/advancing-claude-for-education",
+    "publishedAt": "2026-04-17T05:11:06.084Z",
+    "titleEn": "Advancing Claude for Education",
+    "titleZh": "推进 Claude 在教育领域的应用",
+    "abstractEn": "A first look at new education-specific integrations, expanded student programs, and university updates.",
+    "abstractZh": "首次展示新的教育专用集成、扩展的学生项目以及大学更新。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:activating-asl3-protections",
+    "slug": "activating-asl3-protections",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/activating-asl3-protections",
+    "publishedAt": "2026-04-17T05:11:02.844Z",
+    "titleEn": "Activating AI Safety Level 3 protections",
+    "titleZh": "激活 AI 安全级别 3 保护措施",
+    "abstractEn": "We have activated the AI Safety Level 3 (ASL-3) Deployment and Security Standards described in Anthropic’s Responsible Scaling Policy (RSP) in conjunction with launching Claude Opus 4. The ASL-3 Security Standard involves increased internal security measures that make it harder to steal model weights, while the corresponding Deployment Standard covers a narrowly targeted set of deployment measures",
+    "abstractZh": "我们已激活 Anthropic 负责任扩展政策 (RSP) 中描述的 AI 安全级别 3 (ASL-3) 部署和安全标准,同时推出了 Claude Opus 4。ASL-3 安全标准涉及增强的内部安全措施,使窃取模型权重变得更加困难,而相应的部署标准则涵盖",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:acquires-vercept",
+    "slug": "acquires-vercept",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/acquires-vercept",
+    "publishedAt": "2026-04-17T05:10:57.246Z",
+    "titleEn": "Anthropic acquires Vercept to advance Claude&#x27;s computer use capabilities",
+    "titleZh": "Anthropic 收购 Vercept 以推进 Claude 的计算机使用能力",
+    "abstractEn": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+    "abstractZh": "Anthropic 是一家致力于构建可靠、可解释和可操控 AI 系统的 AI 安全与研究公司。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:accenture-aws-anthropic",
+    "slug": "accenture-aws-anthropic",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/accenture-aws-anthropic",
+    "publishedAt": "2026-04-17T05:10:54.441Z",
+    "titleEn": "Accenture, AWS, Anthropic Collaboration",
+    "titleZh": "埃森哲、AWS、Anthropic 合作",
+    "abstractEn": "Anthropic, AWS, and Accenture Team Up to Build Trusted Solutions for Enterprises",
+    "abstractZh": "Anthropic、AWS 和埃森哲联手为企业构建值得信赖的解决方案",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:accelerating-scientific-research",
+    "slug": "accelerating-scientific-research",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/accelerating-scientific-research",
+    "publishedAt": "2026-04-17T05:10:50.794Z",
+    "titleEn": "How scientists are using Claude to accelerate research and discovery",
+    "titleZh": "科学家如何使用 Claude 加速研究和发现",
+    "abstractEn": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+    "abstractZh": "Anthropic 是一家致力于构建可靠、可解释和可操控 AI 系统的 AI 安全与研究公司。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:a-new-initiative-for-developing-third-party-model-evaluations",
+    "slug": "a-new-initiative-for-developing-third-party-model-evaluations",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+    "publishedAt": "2026-04-17T05:10:47.381Z",
+    "titleEn": "A new initiative for developing third-party model evaluations",
+    "titleZh": "开发第三方模型评估的新倡议",
+    "abstractEn": "A robust, third-party evaluation ecosystem is essential for assessing AI capabilities and risks, but the current evaluations landscape is limited. Developing high-quality, safety-relevant evaluations (evals) remains challenging, and the demand is outpacing the supply. To address this, today we&#x27;re introducing a new initiative to fund evaluations developed by third-party organizations that can ",
+    "abstractZh": "一个稳健的第三方评估生态系统对于评估 AI 能力和风险至关重要,但当前的评估格局仍然有限。开发高质量、与安全相关的评估 (evals) 仍然具有挑战性,且需求正在超过供应。为解决这一问题,今天我们推出了一项新倡议来资助评估",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:3-5-models-and-computer-use",
+    "slug": "3-5-models-and-computer-use",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "publishedAt": "2026-04-17T05:10:42.921Z",
+    "titleEn": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+    "titleZh": "介绍计算机使用、全新的 Claude 3.5 Sonnet 和 Claude 3.5 Haiku",
+    "abstractEn": "A refreshed, more powerful Claude 3.5 Sonnet, Claude 3.5 Haiku, and a new experimental AI capability: computer use.",
+    "abstractZh": "升级后的更强大的 Claude 3.5 Sonnet、Claude 3.5 Haiku,以及一项新的实验性 AI 能力：计算机使用。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "anthropic:100k-context-windows",
+    "slug": "100k-context-windows",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/100k-context-windows",
+    "publishedAt": "2026-04-17T05:10:38.917Z",
+    "titleEn": "Introducing 100K Context Windows",
+    "titleZh": "介绍 100K 上下文窗口",
+    "abstractEn": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+    "abstractZh": "Anthropic 是一家致力于构建可靠、可解释和可操控 AI 系统的 AI 安全与研究公司。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog"
+  },
+  {
+    "id": "arxiv:2604.13151",
+    "slug": "exploration-and-exploitation-errors-are-measurable-for-language-model-agents-2604-13151",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13151",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+    "titleZh": "语言模型智能体的探索与利用误差是可测量的",
+    "abstractEn": "Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and quantifying exploration and exploitation from observed actions without access to the agent's internal ",
+    "abstractZh": "语言模型（LM）智能体越来越多地用于复杂开放式决策任务，从 AI 编程到物理 AI。在这些场景中，核心要求是能够有效探索问题空间并利用已获取的知识。然而，从可观察数据中系统地区分和量化探索与利用仍然存在挑战。",
+    "authors": [
+      "Jaden Park",
+      "Jungtaek Kim",
+      "Jongwon Jeong",
+      "Robert D. Nowak",
+      "Kangwook Lee"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13180",
+    "slug": "scifi-a-safe-lightweight-user-friendly-and-fully-autonomous-agentic-ai-workflow-2604-13180",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13180",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+    "titleZh": "SciFi：一个面向科学应用的安全、轻量级、用户友好的完全自主智能体 AI 工作流",
+    "abstractEn": "Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the autonomous execution of well-defined scientific tasks. The framework combines an isolated execution environme",
+    "abstractZh": "智能体 AI 的最新进展使得越来越自主的工作流成为可能，但现有系统在实现现实世界科学研究中的可靠部署方面仍面临重大挑战。在这项工作中，我们提出了一个安全、轻量级且用户友好的智能体框架，用于自主执行明确定义的科学任务。",
+    "authors": [
+      "Qibin Liu",
+      "Julia Gonski"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13206",
+    "slug": "numerical-instability-and-chaos-quantifying-the-unpredictability-of-large-langua-2604-13206",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13206",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+    "titleZh": "数值不稳定与混沌：量化大型语言模型的不可预测性",
+    "abstractEn": "As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstream effects of these instabilities, the root causes and underlying mechanisms remain poorly understood. In this paper, we present a rigorous analysis ",
+    "abstractZh": "随着大型语言模型（LLM）越来越多地集成到智能体工作流中，由数值不稳定引起的不可预测性已成为一个关键的可信度问题。虽然近期研究表明这些不稳定因素具有显著的下游影响，但其根本原因和潜在机制仍缺乏深入理解。",
+    "authors": [
+      "Chashi Mahiul Islam",
+      "Alan Villarreal",
+      "Mao Nishino",
+      "Shaeke Salman",
+      "Xiuwen Liu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13283",
+    "slug": "optimizing-earth-observation-satellite-schedules-under-unknown-operational-const-2604-13283",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13283",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Optimizing Earth Observation Satellite Schedules under Unknown Operational Constraints: An Active Constraint Acquisition Approach",
+    "titleZh": "未知操作约束下的地球观测卫星调度优化：一种主动约束获取方法",
+    "abstractEn": "Earth Observation (EO) satellite scheduling (deciding which imaging tasks to perform and when) is a well-studied combinatorial optimization problem. Existing methods typically assume that the operational constraint model is fully specified in advance. In practice, however, constraints governing separation between observations, power budgets, and thermal limits are often embedded in engineering art",
+    "abstractZh": "地球观测（EO）卫星调度（决定执行哪些成像任务及何时执行）是一个经过充分研究的组合优化问题。现有方法通常假设操作约束模型已预先完全指定。然而在实践中，管理观测间隔、电源预算等的约束往往在事前并不明确。",
+    "authors": [
+      "Mohamed-Bachir Belaid"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13318",
+    "slug": "webxskill-skill-learning-for-autonomous-web-agents-2604-13318",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13318",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "WebXSkill: Skill Learning for Autonomous Web Agents",
+    "titleZh": "WebXSkill：自主 Web 智能体的技能学习",
+    "abstractEn": "Autonomous web agents powered by large language models (LLMs) have shown promise in completing complex browser tasks, yet they still struggle with long-horizon workflows. A key bottleneck is the grounding gap in existing skill formulations: textual workflow skills provide natural language guidance but cannot be directly executed, while code-based skills are executable but opaque to the agent, offe",
+    "abstractZh": "由大型语言模型（LLM）驱动的自主 Web 智能体在完成复杂浏览器任务方面展现出前景，但在长周期工作流方面仍面临困难。一个关键瓶颈在于现有技能表述中的落地差距：基于文本的工作流技能提供自然语言指导但无法直接执行，而基于代码的技能...",
+    "authors": [
+      "Zhaoyang Wang",
+      "Qianhui Wu",
+      "Xuchao Zhang",
+      "Chaoyun Zhang",
+      "Wenlin Yao"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13348",
+    "slug": "listening-alone-understanding-together-collaborative-context-recovery-for-privac-2604-13348",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13348",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Listening Alone, Understanding Together: Collaborative Context Recovery for Privacy-Aware AI",
+    "titleZh": "独自聆听，共同理解：面向隐私感知 AI 的协作上下文恢复",
+    "abstractEn": "We introduce CONCORD, a privacy-aware asynchronous assistant-to-assistant (A2A) framework that leverages collaboration between proactive speech-based AI. As agents evolve from reactive to always-listening assistants, they face a core privacy risk (of capturing non-consenting speakers), which makes their social deployment a challenge. To overcome this, we implement CONCORD, which enforces owner-onl",
+    "abstractZh": "我们引入了 CONCORD，一个隐私感知的异步助手间（A2A）框架，利用主动性语音 AI 之间的协作。随着智能体从反应式发展为始终聆听的助手，它们面临核心隐私风险（捕获未经同意的说话者），这使得其社会部署成为一项挑战。",
+    "authors": [
+      "Tanmay Srivastava",
+      "Amartya Basu",
+      "Shubham Jain",
+      "Vaishnavi Ranganathan"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13392",
+    "slug": "ress-learning-reasoning-models-for-tabular-data-prediction-via-symbolic-scaffold-2604-13392",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13392",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "ReSS: Learning Reasoning Models for Tabular Data Prediction via Symbolic Scaffold",
+    "titleZh": "ReSS：通过符号支架学习表格数据预测的推理模型",
+    "abstractEn": "Tabular data remains prevalent in high-stakes domains such as healthcare and finance, where predictive models are expected to provide both high accuracy and faithful, human-understandable reasoning. While symbolic models offer verifiable logic, they lack semantic expressiveness. Meanwhile, general-purpose LLMs often require specialized fine-tuning to master domain-specific tabular reasoning. To ad",
+    "abstractZh": "表格数据在医疗和金融等高风险领域仍然普遍存在，其中预测模型需要同时提供高准确性和忠实、人类可理解的推理。虽然符号模型提供可验证的逻辑，但它们缺乏语义表达能力。同时，通用 LLM 通常需要专门的微调...",
+    "authors": [
+      "Chenlang Yi",
+      "Gang Li",
+      "Zizhan Xiong",
+      "Tue Minh Cao",
+      "Yanmin Gong"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13395",
+    "slug": "quantifying-and-understanding-uncertainty-in-large-reasoning-models-2604-13395",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13395",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Quantifying and Understanding Uncertainty in Large Reasoning Models",
+    "titleZh": "量化与理解大型推理模型中的不确定性",
+    "abstractEn": "Large Reasoning Models (LRMs) have recently demonstrated significant improvements in complex reasoning. While quantifying generation uncertainty in LRMs is crucial, traditional methods are often insufficient because they do not provide finite-sample guarantees for reasoning-answer generation. Conformal prediction (CP) stands out as a distribution-free and model-agnostic methodology that constructs",
+    "abstractZh": "大型推理模型（LRM）最近在复杂推理方面显示出显著改进。虽然量化 LRM 中的生成不确定性至关重要，但传统方法通常不足，因为它们不提供推理答案生成的有限样本保证。一致性预测（CP）作为分布无关方法脱颖而出...",
+    "authors": [
+      "Yangyi Li",
+      "Chenxu Zhao",
+      "Mengdi Huai"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13488",
+    "slug": "towards-scalable-lightweight-gui-agents-via-multi-role-orchestration-2604-13488",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13488",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Towards Scalable Lightweight GUI Agents via Multi-role Orchestration",
+    "titleZh": "通过多角色编排实现可扩展的轻量级 GUI 智能体",
+    "abstractEn": "Autonomous Graphical User Interface (GUI) agents powered by Multimodal Large Language Models (MLLMs) enable digital automation on end-user devices. While scaling both parameters and data has yielded substantial gains, advanced methods still suffer from prohibitive deployment costs on resource-constrained devices. When facing complex in-the-wild scenarios, lightweight GUI agents are bottlenecked by",
+    "abstractZh": "由多模态大型语言模型（MLLM）驱动的自主图形用户界面（GUI）智能体实现了终端用户设备上的数字自动化。虽然同时扩展参数和数据带来了显著收益，但先进方法在资源受限设备上仍然面临不可接受的部署成本。当面对复杂的野外场景时...",
+    "authors": [
+      "Ziwei Wang",
+      "Junjie Zheng",
+      "Leyang Yang",
+      "Sheng Zhou",
+      "Xiaoxuan Tang"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13531",
+    "slug": "riskwebworld-a-realistic-interactive-benchmark-for-gui-agents-in-e-commerce-risk-2604-13531",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13531",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
+    "titleZh": "RiskWebWorld：电子商务风险管理中 GUI 智能体的真实交互基准",
+    "abstractEn": "Graphical User Interface (GUI) agents show strong capabilities for automating web tasks, but existing interactive benchmarks primarily target benign, predictable consumer environments. Their effectiveness in high-stakes, investigative domains such as authentic e-commerce risk management remains underexplored. To bridge this gap, we present RiskWebWorld, the first highly realistic interactive bench",
+    "abstractZh": "图形用户界面（GUI）智能体在自动化 Web 任务方面展现出强大能力，但现有交互基准主要针对良性、可预测的消费环境。它们在高风险、调查性领域（如真实的电子商务风险管理）中的有效性仍未得到充分探索。为弥合这一差距，我们提出了 RiskWebW...",
+    "authors": [
+      "Renqi Chen",
+      "Zeyin Tao",
+      "Jianming Guo",
+      "Jing Wang",
+      "Zezhou Xu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13694",
+    "slug": "weight-patching-toward-source-level-mechanistic-localization-in-llms-2604-13694",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13694",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Weight Patching: Toward Source-Level Mechanistic Localization in LLMs",
+    "titleZh": "权重修补：迈向 LLM 源级机制定位",
+    "abstractEn": "Mechanistic interpretability seeks to localize model behavior to the internal components that causally realize it. Prior work has advanced activation-space localization and causal tracing, but modules that appear important in activation space may merely aggregate or amplify upstream signals rather than encode the target capability in their own parameters. To address this gap, we propose Weight Pat",
+    "abstractZh": "机制可解释性旨在将模型行为定位到因果实现它的内部组件。先前的工作推进了激活空间定位和因果追踪，但在激活空间中显得重要的模块可能只是聚合或放大上游信号，而不是在其自身参数中编码目标能力",
+    "authors": [
+      "Chenghao Sun",
+      "Chengsheng Zhang",
+      "Guanzheng Qin",
+      "Rui Dai",
+      "Xinmei Tian"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13757",
+    "slug": "rethinking-ai-hardware-a-three-layer-cognitive-architecture-for-autonomous-agent-2604-13757",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13757",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Rethinking AI Hardware: A Three-Layer Cognitive Architecture for Autonomous Agents",
+    "titleZh": "重新思考 AI 硬件：自主智能体的三层认知架构",
+    "abstractEn": "The next generation of autonomous AI systems will be constrained not only by model capability, but by how intelligence is structured across heterogeneous hardware. Current paradigms -- cloud-centric AI, on-device inference, and edge-cloud pipelines -- treat planning, reasoning, and execution as a monolithic process, leading to unnecessary latency, energy consumption, and fragmented behavioral cont",
+    "abstractZh": "下一代自主 AI 系统不仅会受到模型能力的约束，还会受到智能如何在异构硬件上结构化的限制。当前范式——以云为中心的 AI、设备端推理和边缘云管道——将规划、推理和执行视为一个整体过程，导致不必要的延迟",
+    "authors": [
+      "Li Chen"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13759",
+    "slug": "the-cognitive-companion-a-lightweight-parallel-monitoring-architecture-for-detec-2604-13759",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13759",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents",
+    "titleZh": "认知伴侣：用于检测和恢复 LLM 智能体推理退化的轻量级并行监控架构",
+    "abstractEn": "Large language model (LLM) agents on multi-step tasks suffer reasoning degradation, looping, drift, stuck states, at rates up to 30% on hard tasks. Current solutions include hard step limits (abrupt) or LLM-as-judge monitoring (10-15% overhead per step). This paper introduces the Cognitive Companion, a parallel monitoring architecture with two implementations: an LLM-based Companion and a novel ze",
+    "abstractZh": "大型语言模型（LLM）智能体在多步骤任务上会遭受推理退化、循环、漂移、卡顿状态，在困难任务中的发生率高达 30%。当前的解决方案包括硬性步骤限制（突然中断）或 LLM 作为评判者的监控（每步 10-15% 的开销）。本文介绍了认知伴侣，这是一种具有两种实现的并行监控架构",
+    "authors": [
+      "Rafflesia Khan",
+      "Nafiul Islam Khan"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13812",
+    "slug": "alphacnot-learning-cnot-minimization-with-model-based-planning-2604-13812",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13812",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "AlphaCNOT: Learning CNOT Minimization with Model-Based Planning",
+    "titleZh": "AlphaCNOT：基于模型规划的 CNOT 最小化学习",
+    "abstractEn": "Quantum circuit optimization is a central task in Quantum Computing, as current Noisy Intermediate Scale Quantum devices suffer from error propagation that often scales with the number of operations. Among quantum operations, the CNOT gate is of fundamental importance, being the only 2-qubit gate in the universal Clifford+T set. The problem of CNOT gates minimization has been addressed by heuristi",
+    "abstractZh": "量子电路优化是量子计算的核心任务，因为当前的噪声中间尺度量子设备遭受错误传播的影响，这种传播通常与操作次数成正比。在量子操作中，CNOT 门具有基础重要性，是通用 Clifford+T 集合中唯一的 2 量子比特门。CNOT 问题",
+    "authors": [
+      "Jacopo Cossio",
+      "Daniele Lizzio Bosco",
+      "Riccardo Romanello",
+      "Giuseppe Serra",
+      "Carla Piazza"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13888",
+    "slug": "geoagentbench-a-dynamic-execution-benchmark-for-tool-augmented-agents-in-spatial-2604-13888",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13888",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+    "titleZh": "GeoAgentBench：空间分析中工具增强智能体的动态执行基准",
+    "abstractEn": "The integration of Large Language Models (LLMs) into Geographic Information Systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating these LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal na",
+    "abstractZh": "大型语言模型（LLM）与地理信息系统（GIS）的集成标志着向自主空间分析的范式转变。然而，由于地理空间工作流程的复杂、多步骤性质，评估这些基于 LLM 的智能体仍然具有挑战性。现有基准主要依赖静态文本或代码匹配，忽视",
+    "authors": [
+      "Bo Yu",
+      "Cheng Yang",
+      "Dongyang Hou",
+      "Chengfu Liu",
+      "Jiayao Liu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13940",
+    "slug": "ai-assisted-peer-review-at-scale-the-aaai-26-ai-review-pilot-2604-13940",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13940",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+    "titleZh": "大规模 AI 辅助同行评审：AAAI-26 AI 评审试点",
+    "abstractEn": "Scientific peer review faces mounting strain as submission volumes surge, making it increasingly difficult to sustain review quality, consistency, and timeliness. Recent advances in AI have led the community to consider its use in peer review, yet a key unresolved question is whether AI can generate technically sound reviews at real-world conference scale. Here we report the first large-scale fiel",
+    "abstractZh": "随着投稿量激增，科学同行评审面临日益严峻的压力，越来越难以维持评审质量、一致性和及时性。AI 的最新进展促使社区考虑其在同行评审中的使用，但一个关键未决问题是 AI 是否能在现实世界会议中生成技术可靠的评审",
+    "authors": [
+      "Joydeep Biswas",
+      "Sheila Schoepp",
+      "Gautham Vasan",
+      "Anthony Opipari",
+      "Arthur Zhang"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13959",
+    "slug": "emerging-ideas-artificial-tripartite-intelligence-a-bio-inspired-sensor-first-ar-2604-13959",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13959",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "[Emerging Ideas] Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI",
+    "titleZh": "[新兴思想] 人工智能三方智能：受生物启发的传感器优先物理 AI 架构",
+    "abstractEn": "As AI moves from data centers to robots and wearables, scaling ever-larger models becomes insufficient. Physical AI operates under tight latency, energy, privacy, and reliability constraints, and its performance depends not only on model capacity but also on how signals are acquired through controllable sensors in dynamic environments. We present Artificial Tripartite Intelligence (ATI), a bio-ins",
+    "abstractZh": "随着 AI 从数据中心转向机器人和可穿戴设备，扩展越来越大的模型已变得不足。物理 AI 在严格的延迟、能耗、隐私和可靠性约束下运行，其性能不仅取决于模型容量，还取决于信号如何通过可控传感器在动态环境中获取。我们提出",
+    "authors": [
+      "You Rim Choi",
+      "Subeom Park",
+      "Hyung-Sin Kim"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.13993",
+    "slug": "reward-design-for-physical-reasoning-in-vision-language-models-2604-13993",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.13993",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Reward Design for Physical Reasoning in Vision-Language Models",
+    "titleZh": "视觉语言模型中物理推理的奖励设计",
+    "abstractEn": "Physical reasoning over visual inputs demands tight integration of visual perception, domain knowledge, and multi-step symbolic inference. Yet even state-of-the-art Vision Language Models (VLMs) fall far short of human performance on physics benchmarks. While post-training algorithms such as Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO) have demonstrated strong reasoni",
+    "abstractZh": "视觉输入上的物理推理需要视觉感知、领域知识和多步骤符号推理的紧密集成。然而，即使是最先进的视觉语言模型（VLM）在物理基准上的表现也远逊于人类。虽然监督微调（SFT）和组相对策略优",
+    "authors": [
+      "Derek Lilienthal",
+      "Manisha Mukherjee",
+      "Sameera Horawalavithana"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.14004",
+    "slug": "memory-transfer-learning-how-memories-are-transferred-across-domains-in-coding-a-2604-14004",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.14004",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+    "titleZh": "记忆迁移学习：编码智能体中记忆如何在域间迁移",
+    "abstractEn": "Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations, such as runtime environments and programming languages, that exist across diverse real-world coding problems. To address this limitation, we investigate \\textbf{",
+    "abstractZh": "基于记忆的自我进化已成为编码智能体的一种有前途的范式。然而，现有方法通常将记忆使用限制在同类任务域内，未能利用存在于多样化现实世界编码问题中的共享基础设施基础，如运行时环境和编程语言",
+    "authors": [
+      "Kangsan Kim",
+      "Minki Kang",
+      "Taeil Kim",
+      "Yanlai Yang",
+      "Mengye Ren"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.14032",
+    "slug": "hierarchical-reinforcement-learning-with-runtime-safety-shielding-for-power-grid-2604-14032",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.14032",
+    "publishedAt": "2026-04-17T04:00:00.000Z",
+    "titleEn": "Hierarchical Reinforcement Learning with Runtime Safety Shielding for Power Grid Operation",
+    "titleZh": "具有运行时安全屏蔽的电网分层强化学习",
+    "abstractEn": "Reinforcement learning has shown promise for automating power-grid operation tasks such as topology control and congestion management. However, its deployment in real-world power systems remains limited by strict safety requirements, brittleness under rare disturbances, and poor generalization to unseen grid topologies. In safety-critical infrastructure, catastrophic failures cannot be tolerated, ",
+    "abstractZh": "强化学习在自动化电网运行任务（如拓扑控制和拥塞管理）方面显示出前景。然而，由于严格的安全要求、在罕见扰动下的脆弱性以及对未见电网拓扑的泛化能力差，其在现实世界电力系统中的部署仍然有限。在安全关键的基础设施",
+    "authors": [
+      "Gitesh Malik"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "openai:introducing-gpt-rosalind",
+    "slug": "introducing-gpt-rosalind",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-rosalind/",
+    "publishedAt": "2026-04-17T00:33:02.303Z",
+    "titleEn": "Introducing GPT Rosalind",
+    "titleZh": "介绍 GPT Rosalind",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "arxiv:2504.10479",
+    "slug": "constitutional-ai-harmlessness-from-ai-feedback",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2504.10479",
+    "publishedAt": "2026-04-14T00:00:00.000Z",
+    "titleEn": "Constitutional AI: Harmlessness from AI Feedback",
+    "titleZh": "宪法式 AI：通过 AI 反馈实现无害性",
+    "abstractEn": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs.",
+    "abstractZh": "随着 AI 系统能力不断提升，我们希望借助 AI 的力量来监督其他 AI。我们实验了一种无需人工标注有害输出即可通过自我改进训练无害 AI 助手的方法。",
+    "authors": [
+      "Yuntao Bai",
+      "Saurav Kadavath",
+      "Sandipan Kundu"
+    ],
+    "institution": "Anthropic",
+    "docType": "Paper",
+    "tags": [
+      "Alignment",
+      "RLHF",
+      "AI Safety"
+    ],
+    "featured": false
+  },
+  {
+    "id": "hf:2504.07955",
+    "slug": "scaling-laws-for-neural-language-models",
+    "source": "HuggingFace Daily",
+    "sourceUrl": "https://arxiv.org/abs/2504.07955",
+    "publishedAt": "2026-04-13T00:00:00.000Z",
+    "titleEn": "Scaling Laws for Neural Language Models",
+    "titleZh": "神经语言模型的缩放定律",
+    "abstractEn": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training.",
+    "abstractZh": "我们研究了语言模型在交叉熵损失上的经验缩放定律。损失随模型规模、数据集大小和训练所用计算量呈幂律缩放关系。",
+    "authors": [
+      "Jared Kaplan",
+      "Sam McCandlish",
+      "Tom Henighan"
+    ],
+    "institution": "OpenAI",
+    "docType": "Paper",
+    "tags": [
+      "Scaling Laws",
+      "LLM"
+    ],
+    "featured": false
+  },
+  {
+    "id": "anthropic:claude-skills",
+    "slug": "introducing-agent-skills",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://claude.com/blog/skills",
+    "publishedAt": "2026-04-12T00:00:00.000Z",
+    "titleEn": "Introducing Agent Skills",
+    "titleZh": "Agent Skills 功能介绍",
+    "abstractEn": "Claude can now use Skills — folders containing instructions, scripts, and resources — to enhance task performance. Skills load contextually when relevant.",
+    "abstractZh": "Claude 现已支持 Skills——这是一种包含指令、脚本和资源的文件夹，用于增强任务处理能力。Skills 会在相关场景下按需加载。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog",
+    "tags": [
+      "Skills",
+      "Agent",
+      "Claude"
+    ],
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-12T10:00:00.000Z"
+    },
+    "contentMd": "## Agent Skills 功能介绍\n### Introducing Agent Skills\n\nClaude 现已支持 **Skills**——这是一种包含指令、脚本和资源的文件夹，用于帮助 Claude 更好地完成特定任务。Skills 会在相关场景下按需加载，让 Claude 具备更丰富的专业能力。\n\n你可以把 Skills 理解为 Claude 的**自定义入职材料（custom onboarding materials）**：它告诉 Claude 在特定场景下应该如何思考、应该调用哪些工具、应该遵循哪些规范。\n\n## Skills 工作原理\n### How Skills Work\n\nSkills 有四个核心特性：\n\n- **可组合（Composable）**：多个 Skills 可以相互叠加，组合出复杂的工作流\n- **可移植（Portable）**：同一个 Skill 可以在不同的 Claude 产品间通用\n- **高效（Efficient）**：Skills 仅在被需要时加载到上下文，不浪费 token\n- **强大（Powerful）**：可以包含可执行的代码片段，实现真正的工作流自动化\n\n> 💡 **译者注**：原文使用了 \"stack together\" 来形容 Skills 的组合特性，这与软件工程中 \"middleware stack\" 的思想一脉相承。\n\n## 适配所有 Claude 产品\n### Skills work with every Claude product\n\n### Claude 应用端\n\nPro、Max、Team、Enterprise 用户都可以使用 Skills。Claude 会根据对话上下文**自动调用（automatic invocation）**相关的 Skill，无需用户手动指定。\n\n此外，Claude 还提供了一个 `skill-creator` 工具，帮助用户从零开始构建自己的 Skill。\n\n### Claude 开发者平台（API）\n\n开发者可以通过以下 API 接入 Skills：\n\n```bash\nPOST /v1/skills\nContent-Type: application/json\n\n{\n  \"name\": \"my-skill\",\n  \"description\": \"My custom skill\",\n  \"instructions\": \"...\"\n}\n```\n\n使用 Skills 需要同时启用 **Code Execution Tool**。具体配置可以参考[官方文档](https://docs.claude.com/skills)。\n\n## 核心设计原则\n### Core Design Principles\n\n| 原则 (Principle) | 含义 | 实现方式 |\n|------------------|------|----------|\n| Progressive Disclosure | 渐进式披露 | 仅在需要时加载相关 Skill |\n| Composability | 可组合性 | 多个 Skill 可叠加使用 |\n| Portability | 可移植性 | 跨产品通用的标准格式 |\n\n## 最佳实践\n### Best Practices\n\n1. **保持 Skill 职责单一**：一个 Skill 只做一件事，避免大而全\n2. **明确触发条件**：在 `description` 中清晰描述何时应该调用此 Skill\n3. **提供示例**：在指令中包含具体的输入/输出示例\n4. **充分测试**：在多种对话场景下验证 Skill 的行为\n\n> ⚠️ **注意**：Skills 目前处于公开预览阶段，API 可能会有变化。建议关注官方 [changelog](https://docs.claude.com/changelog)。\n\n## 总结\n### Summary\n\nSkills 代表了 Claude 生态的一个重要演进——从单纯的对话模型转向**可定制、可复用、可组合**的 AI 平台。对于开发者和企业用户来说，这意味着可以用更低的成本构建专业化的 AI 工作流。",
+    "featured": true,
+    "featuredDate": "2026-04-17"
+  },
+  {
+    "id": "openai:introducing-the-model-spec",
+    "slug": "introducing-the-model-spec",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/introducing-the-model-spec/",
+    "publishedAt": "2026-04-09T16:35:08.590Z",
+    "titleEn": "Introducing The Model Spec",
+    "titleZh": "介绍模型规范",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:instruction-hierarchy-challenge",
+    "slug": "instruction-hierarchy-challenge",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/instruction-hierarchy-challenge/",
+    "publishedAt": "2026-04-07T23:56:35.513Z",
+    "titleEn": "Instruction Hierarchy Challenge",
+    "titleZh": "指令层次结构挑战",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:why-we-no-longer-evaluate-swe-bench-verified",
+    "slug": "why-we-no-longer-evaluate-swe-bench-verified",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+    "publishedAt": "2026-04-07T21:41:03.084Z",
+    "titleEn": "Why We No Longer Evaluate SWE Bench Verified",
+    "titleZh": "为何我们不再评估 SWE Bench Verified",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:evaluating-chain-of-thought-monitorability",
+    "slug": "evaluating-chain-of-thought-monitorability",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
+    "publishedAt": "2026-04-07T21:40:52.550Z",
+    "titleEn": "Evaluating Chain Of Thought Monitorability",
+    "titleZh": "评估思维链可监控性",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:our-approach-to-the-model-spec",
+    "slug": "our-approach-to-the-model-spec",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/our-approach-to-the-model-spec/",
+    "publishedAt": "2026-04-07T21:21:35.725Z",
+    "titleEn": "Our Approach To The Model Spec",
+    "titleZh": "我们对模型规范的方法",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:accelerating-biological-research-in-the-wet-lab",
+    "slug": "accelerating-biological-research-in-the-wet-lab",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
+    "publishedAt": "2026-04-06T22:31:28.489Z",
+    "titleEn": "Accelerating Biological Research In The Wet Lab",
+    "titleZh": "加速湿实验中的生物研究",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:frontierscience",
+    "slug": "frontierscience",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/frontierscience/",
+    "publishedAt": "2026-04-06T22:30:50.323Z",
+    "titleEn": "Frontierscience",
+    "titleZh": "前沿科学",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:gdpval",
+    "slug": "gdpval",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/gdpval/",
+    "publishedAt": "2026-04-06T22:30:39.544Z",
+    "titleEn": "Gdpval",
+    "titleZh": "Gdpval",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:the-state-of-enterprise-ai-2025-report",
+    "slug": "the-state-of-enterprise-ai-2025-report",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/the-state-of-enterprise-ai-2025-report/",
+    "publishedAt": "2026-04-06T22:17:33.519Z",
+    "titleEn": "The State Of Enterprise AI 2025 Report",
+    "titleZh": "2025年企业AI现状报告",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:how-confessions-can-keep-language-models-honest",
+    "slug": "how-confessions-can-keep-language-models-honest",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
+    "publishedAt": "2026-04-06T22:02:36.286Z",
+    "titleEn": "How Confessions Can Keep Language Models Honest",
+    "titleZh": "自白如何保持语言模型的诚实性",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:sora-2",
+    "slug": "sora-2",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/sora-2/",
+    "publishedAt": "2026-04-06T21:49:42.383Z",
+    "titleEn": "Sora 2",
+    "titleZh": "Sora 2",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:understanding-neural-networks-through-sparse-circuits",
+    "slug": "understanding-neural-networks-through-sparse-circuits",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
+    "publishedAt": "2026-04-06T21:44:38.051Z",
+    "titleEn": "Understanding Neural Networks Through Sparse Circuits",
+    "titleZh": "通过稀疏电路理解神经网络",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:introducing-indqa",
+    "slug": "introducing-indqa",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/introducing-indqa/",
+    "publishedAt": "2026-04-06T21:36:35.175Z",
+    "titleEn": "Introducing Indqa",
+    "titleZh": "介绍 Indqa",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "openai:introducing-aardvark",
+    "slug": "introducing-aardvark",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/introducing-aardvark/",
+    "publishedAt": "2026-04-06T21:32:57.573Z",
+    "titleEn": "Introducing Aardvark",
+    "titleZh": "介绍 Aardvark",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  },
+  {
+    "id": "arxiv:2503.19786",
+    "slug": "deepseek-r1-reasoning-rl",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2503.19786",
+    "publishedAt": "2025-12-28T00:00:00.000Z",
+    "titleEn": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "titleZh": "DeepSeek-R1：通过强化学习激励大语言模型的推理能力",
+    "abstractEn": "We introduce DeepSeek-R1, a large language model trained with reinforcement learning to enhance reasoning. DeepSeek-R1 achieves performance comparable to OpenAI-o1 across math, code, and reasoning tasks.",
+    "abstractZh": "我们介绍 DeepSeek-R1，这是一个通过强化学习训练以增强推理能力的大语言模型。DeepSeek-R1 在数学、代码和推理任务上达到了与 OpenAI-o1 相当的性能。",
+    "authors": [
+      "DeepSeek-AI"
+    ],
+    "institution": "DeepSeek",
+    "docType": "Paper",
+    "tags": [
+      "Reasoning",
+      "RL",
+      "LLM"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arxiv:2412.19437",
+    "slug": "gemini-2-most-capable-model",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2412.19437",
+    "publishedAt": "2024-12-27T00:00:00.000Z",
+    "titleEn": "Gemini 2.0: Our Most Capable Model Yet",
+    "titleZh": "Gemini 2.0：我们迄今最强大的模型",
+    "abstractEn": "We present Gemini 2.0, Google's most capable AI model to date. Gemini 2.0 delivers significant improvements in multimodal understanding, coding, reasoning, and agentic capabilities.",
+    "abstractZh": "我们推出 Gemini 2.0，这是 Google 迄今能力最强的 AI 模型。Gemini 2.0 在多模态理解、编码、推理和智能体能力方面带来了显著提升。",
+    "authors": [
+      "Google DeepMind Team"
+    ],
+    "institution": "Google DeepMind",
+    "docType": "Report",
+    "tags": [
+      "Multimodal",
+      "Gemini"
+    ],
+    "featured": false
+  }
+]

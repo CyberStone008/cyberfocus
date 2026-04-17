@@ -2,15 +2,28 @@
   "name": "ai-research-aggregator",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pipeline": "node scripts/pipeline.js",
+    "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.89.0",
+    "cheerio": "^1.2.0",
+    "katex": "^0.16.45",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-katex": "^7.0.1",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@types/node": "^20",

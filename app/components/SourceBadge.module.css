@@ -1,0 +1,24 @@
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.arxiv-ai { background: #fff3e0; color: #e65100; }
+.huggingface { background: #fff8e1; color: #f57f17; }
+.anthropic { background: #f3e5f5; color: #6a1b9a; }
+.openai { background: #e8f5e9; color: #1b5e20; }
+.deepmind { background: #e3f2fd; color: #0d47a1; }
+.pwc { background: #e8eaf6; color: #283593; }
+.default { background: var(--bg-secondary); color: var(--text-muted); }
+
+[data-theme='dark'] .arxiv-ai { background: #3e2000; color: #ffb74d; }
+[data-theme='dark'] .huggingface { background: #3e3000; color: #ffd54f; }
+[data-theme='dark'] .anthropic { background: #2a0030; color: #ce93d8; }
+[data-theme='dark'] .openai { background: #003010; color: #81c784; }
+[data-theme='dark'] .deepmind { background: #001030; color: #64b5f6; }
+[data-theme='dark'] .pwc { background: #0d1040; color: #9fa8da; }

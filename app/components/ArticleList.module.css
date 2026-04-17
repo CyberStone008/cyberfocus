@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.yearDivider {
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0 1rem;
+  gap: 1rem;
+}
+
+.list > div:first-child .yearDivider {
+  margin-top: 0.5rem;
+}
+
+.yearDivider::before,
+.yearDivider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-soft);
+}
+
+.yearLabel {
+  padding: 0.28rem 0.95rem;
+  background: var(--year-bg);
+  color: var(--year-text);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
