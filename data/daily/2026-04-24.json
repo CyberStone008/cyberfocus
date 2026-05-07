@@ -1,0 +1,68 @@
+[
+  {
+    "id": "arxiv:2604.20862",
+    "slug": "architecture-of-an-ai-based-automated-course-of-action-generation-system-for-mil-2604-20862",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.20862",
+    "publishedAt": "2026-04-24T04:00:00.000Z",
+    "titleEn": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+    "titleZh": "基于 AI 的军事行动自动化行动方案生成系统架构",
+    "abstractEn": "The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA planning increasingly challenging. Consequently, the development of an AI-based automated CoA planning system is becoming increasingly necessary. Accord",
+    "abstractZh": "行动方案（CoA）规划的自动化系统是未来战争的核心要素。随着机动速度加快、侦察范围扩大以及武器射程增加，作战区域不断扩张，使得传统人工主导的 CoA 规划日益困难。因此，开发基于 AI 的自动化 CoA 规划系统变得至关重要。",
+    "authors": [
+      "Ji-il Park",
+      "Inwook Shim",
+      "Chong Hui Kim"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n本研究提出了一个基于人工智能的自动行动方案生成系统的架构设计，旨在解决现代军事作战中日益复杂的规划难题。随着作战机动速度的提升、监视范围的扩大和武器射程的增长，传统的人工行动方案规划方式已难以适应现代战场的快节奏和高强度需求。该研究通过系统化的架构设计，为未来作战指挥决策提供了智能化、自动化的解决方案，具有显著的军事应用价值和前瞻性意义。\n\n## 研究背景\n### Background\n\n在信息化战争时代，作战环境正经历着深刻变革。战场的时空维度被大幅拓展，指挥官需要在更广阔的作战空间、更短的时间窗口内做出更加复杂的决策。传统的基于人工的经验式行动方案规划方式，在面对海量战场信息、多维度约束条件和快速变化的态势时，显得力不从心。因此，开发基于人工智能的自动规划系统已成为提升作战效能、缩短决策周期的迫切需求，这也正是本研究关注的核心问题所在。\n\n## 技术架构\n### Technical Architecture\n\n虽然摘要中未详细披露具体技术细节，但基于当前 AI 军事应用的研究趋势，这类系统通常采用多模块协同架构。可能的核心组件包括：战场态势感知模块、知识库与规则引擎、强化学习或基于搜索的规划算法、多目标优化决策模型以及人机交互界面。系统需要将现代 AI 技术与军事作战理论深度融合，通过算法自动化地生成符合战术要求、满足约束条件的最优行动方案，同时确保人类指挥官的有效监督与最终决策权。\n\n## 意义与影响\n### Significance & Impact\n\n这项研究代表了人工智能技术在军事指挥决策领域的重要探索方向。从战术层面看，自动 CoA 生成系统能够显著提升规划效率、减轻参谋人员认知负荷、提高方案的一致性和可追溯性。从战略层面看，此类系统是未来智能化战争体系的关键基础设施，对于构建下一代作战指挥系统具有重要的参考价值。同时，研究也触及了人机协同决策、AI 系统可信度与可解释性等深层次问题，为相关领域的后续研究奠定了基础。\n\n> ⚠️ **注意**：由于当前仅获取到论文摘要部分，具体的技术方法、实验数据和评估结果需查阅完整论文后进行补充。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-24T11:20:01.462Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-24"
+  },
+  {
+    "id": "arxiv:2604.20972",
+    "slug": "escaping-the-agreement-trap-defensibility-signals-for-evaluating-rule-governed-a-2604-20972",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.20972",
+    "publishedAt": "2026-04-24T04:00:00.000Z",
+    "titleEn": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
+    "titleZh": "逃离协议陷阱：用于评估规则约束型 AI 的可防御性信号",
+    "abstractEn": "Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize valid decisions while mischaracterizing ambiguity as error - a failure mode we term the Agreement Trap. We formalize evaluation as policy-grounded co",
+    "abstractZh": "内容审核系统通常通过测量与人工标签的一致性来评估效果。在规则约束的环境中，这一假设失效：多个决策可能在逻辑上都符合既定策略，而一致性指标会惩罚有效决策，并将模糊性误判为错误——我们将这种失效模式称为协议陷阱。",
+    "authors": [
+      "Michael O'Herlihy",
+      "Rosa Catal\\`a"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n本文揭示了内容审核系统评估中的一个关键问题——\"协议陷阱\"（Agreement Trap）。在规则驱动的环境中，传统的基于人工标签一致性的评估方法存在根本性缺陷。作者指出，同一个内容审核政策下，多个决策可能在逻辑上都是合理且一致的，而一致性指标会错误地惩罚这些有效决策，同时将政策本身的模糊性误判为系统错误。研究提出了\"防御性信号\"（Defensibility Signals）作为新的评估框架，将评估基准从与人类标签的一致性转向政策 grounding，即判断决策是否能在政策框架内得到合理辩护。\n\n## 研究背景\n### Background\n\n现有的 AI 内容审核系统通常通过与人类标注员标签的一致率来评估性能。这种做法基于一个隐含假设：存在唯一正确的审核决策。然而，在现实世界的规则治理环境中，审核政策往往包含模糊性和多义性。例如，某个内容是否构成\"仇恨言论\"可能取决于上下文、文化背景和解释框架。在这种情况下，多个不同的审核决策可能都是政策允许的合理选择。作者发现，当系统做出与人类标注不同的但符合政策精神的决策时，会被误判为错误，这导致了评估失真和资源浪费。\n\n## 技术方法\n### Technical Approach\n\n研究提出了将评估形式化为\"政策 grounded 共理\"（policy-grounded co-...）的新框架。虽然摘要在此处截断，但核心思路是引入\"防御性信号\"来评估决策的可辩护性，而非简单的一致性。这种方法要求评估者回答：给定审核政策，该决策能否在逻辑上得到支持？这实际上是从\"是否与人类一致\"转向\"是否符合政策\"的范式转变。作者可能采用了逻辑推理、政策解释性分析或形式化验证等方法来构建这一评估体系。\n\n## 意义与影响\n### Significance & Impact\n\n这项研究对 AI 内容审核领域具有重要实践价值。首先，它纠正了行业中长期存在的评估偏见，避免了将合理的多解性误判为错误。其次，新框架能够更准确地识别出系统真正的性能瓶颈——不是与人类不一致，而是无法为决策提供政策依据。对于平台运营方而言，这意味着可以更精确地定位需要改进的方向。从更广泛的角度看，这项工作推动了 AI 评估方法论的发展，提醒我们：在规则驱动的应用场景中，\"正确\"的定义本身就是复杂且多维的。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-24T11:20:19.707Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-24"
+  },
+  {
+    "id": "openai:introducing-openai-privacy-filter",
+    "slug": "introducing-openai-privacy-filter",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/introducing-openai-privacy-filter/",
+    "publishedAt": "2026-04-24T01:31:43.503Z",
+    "titleEn": "Introducing Openai Privacy Filter",
+    "titleZh": "推出 OpenAI 隐私过滤器",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "openai:why-language-models-hallucinate",
+    "slug": "why-language-models-hallucinate",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/why-language-models-hallucinate/",
+    "publishedAt": "2026-04-22T01:38:44.476Z",
+    "titleEn": "Why Language Models Hallucinate",
+    "titleZh": "语言模型为何产生幻觉",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": [],
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n这篇文章深入剖析了语言模型产生幻觉（hallucination）的根本原因，揭示了模型生成错误信息的内在机制。OpenAI 研究团队通过系统性的分析，阐明了语言模型作为概率预测器的本质特征——它们基于训练数据中的模式来预测下一个词，而非基于事实知识的检索与验证。这种工作方式使得模型在缺乏足够上下文或面对不确定性时，倾向于\"自信地\"生成看似合理但实则错误的内容。文章为理解大语言模型的局限性提供了重要的理论框架，也为后续改进模型的可靠性和准确性指明了方向。\n\n## 研究背景\n### Background\n\n随着大型语言模型在各类应用中的广泛部署，其\"一本正经胡说八道\"的问题日益凸显。幻觉现象表现为模型生成看似流畅、权威但完全虚构的信息，这在医疗、法律、新闻等对事实准确性要求极高的领域可能造成严重后果。研究显示，这种现象并非模型的\"恶意\"行为，而是源于其训练目标和架构设计的固有特性。语言模型通过最大化预测下一词的概率进行训练，本质上是模拟人类语言的统计规律，而非构建和存储结构化的知识库。这种根本性的差异决定了幻觉问题的不可避免性。\n\n## 技术方法\n### Technical Approach\n\nOpenAI 采用多角度分析方法来解构幻觉现象。首先，从模型架构层面探讨 Transformer 中的注意力机制（attention mechanism）如何在生成过程中可能放大虚假关联；其次，从训练数据角度分析数据中的偏见、错误和不一致如何被模型内化；再次，从解码策略角度考察温度参数（temperature）和 top-k 采样等对生成多样性与准确性之间的权衡影响。研究还对比了基于检索的方法与纯生成方法的差异，指出引入外部知识验证是缓解幻觉的有效路径之一。\n\n## 主要发现\n### Key Findings\n\n研究表明，语言模型在处理训练数据中未充分覆盖的主题时，幻觉风险显著升高。当模型面对超出其知识边界的问题时，它仍会试图基于语言模式生成回答，而非坦诚地表达\"不知道\"。此外，研究发现了\"虚假自信\"现象：模型对错误信息的置信度往往与正确信息相当，这使得用户难以判断生成内容的可靠性。另一重要发现是，增加模型规模并不必然减少幻觉，有时更大的参数量反而可能使模型更加\"熟练地\"编造信息。\n\n## 意义与影响\n### Significance & Impact\n\n这项研究为 AI 领域提供了重要的理论启示：完全消除语言模型的幻觉可能是不现实的，更可行的目标是通过架构改进、训练策略优化和外部验证机制来降低幻觉的发生率和影响范围。文章呼吁开发者和用户建立合理的期望，将大语言模型定位为\"创造性助手\"而非\"事实百科全书\"。这一观点直接影响着 AI 产品的设计哲学和应用边界，推动行业向更加负责任和透明的 AI 发展方向迈进。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-22T02:04:08.872Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-22"
+  },
+  {
+    "id": "openai:detecting-and-reducing-scheming-in-ai-models",
+    "slug": "detecting-and-reducing-scheming-in-ai-models",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+    "publishedAt": "2026-04-22T01:37:27.515Z",
+    "titleEn": "Detecting And Reducing Scheming In AI Models",
+    "titleZh": "检测并减少AI模型中的阴谋行为",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  }
+]

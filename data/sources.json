@@ -1,0 +1,20 @@
+{
+  "disabled": [
+    "36氪",
+    "Reddit ML",
+    "arXiv cs.AI",
+    "HuggingFace Daily"
+  ],
+  "custom": [],
+  "boardOverrides": {
+    "OpenAI Blog": [
+      "research",
+      "social"
+    ],
+    "Anthropic Blog": [
+      "research",
+      "social"
+    ]
+  },
+  "lastRunAt": "2026-05-07T02:24:25.863Z"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "arxiv:2604.21935",
+    "slug": "math-takes-two-a-test-for-emergent-mathematical-reasoning-in-communication-2604-21935",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.21935",
+    "publishedAt": "2026-04-27T04:00:00.000Z",
+    "titleEn": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+    "titleZh": "数学双人协作：沟通中涌现数学推理的测试",
+    "abstractEn": "Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on symbolic problems grounded in established mathematical conventions, limiting insight into the models' ability to construct abstract concepts from fi",
+    "abstractZh": "尽管语言模型在数学基准测试中展现出卓越的能力，但目前尚不清楚这是否反映了真正的数学推理能力，还是仅仅基于形式化语法的统计模式匹配。大多数现有评估依赖于建立在既定数学惯例基础上的符号问题，从而限制了对推理模式的深入理解",
+    "authors": [
+      "Michael Cooper",
+      "Samuel Cooper"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献 / Key Contributions\n\n本研究提出了一种新的评估框架，用于测试语言模型是否具备**涌现的数学推理能力**（emergent mathematical reasoning）。与传统的符号数学问题不同，该框架通过构建需要模型在通信场景中进行抽象概念构建的任务，来区分真正的数学推理与对形式语法的统计模式匹配。这一贡献为理解语言模型的高级认知能力提供了新的视角。\n\n### The study introduces a novel evaluation framework to test whether language models possess emergent mathematical reasoning. Unlike traditional symbolic math problems, this framework constructs tasks requiring models to build abstract concepts within communication scenarios, distinguishing genuine mathematical reasoning from statistical pattern matching of formal syntax. This contribution offers new insights into understanding the advanced cognitive capabilities of language models.\n\n## 研究背景 / Background\n\n当前，语言模型（Language Models）在各种数学基准测试中表现出色，但这些表现的根源仍存在争议。一方面，模型可能真正发展出了数学推理能力；另一方面，这可能只是对训练数据中数学表达式的形式语法进行了**统计模式匹配**（statistical pattern matching）。传统评估方法依赖于已建立的数学惯例的符号问题，这限制了对模型从有限信息中构建抽象概念能力的洞察。\n\n### Currently, language models demonstrate remarkable performance on various mathematical benchmarks, but the root of this performance remains controversial. On one hand, models may have genuinely developed mathematical reasoning capabilities; on the other, this could merely be statistical pattern matching of the formal syntax of mathematical expressions in training data. Traditional evaluation methods rely on symbolic problems grounded in established mathematical conventions, limiting insight into models' ability to construct abstract concepts from limited information.\n\n## 技术方法 / Technical Approach\n\n研究设计了\"两人\"数学通信测试，要求模型在没有预先建立数学惯例的情况下，通过互动交流来达成数学任务的共识。这种方法脱离了标准数学符号的语境，迫使模型必须从通信过程中\"涌现\"出数学概念。测试的核心在于观察模型是否能够在没有明确训练过的场景中，自主发展出一致的数学表达和推理规则。\n\n### The research designs a \"two-player\" mathematical communication test, requiring models to reach consensus on mathematical tasks through interactive communication without pre-established mathematical conventions. This approach removes the context of standard mathematical notation, forcing models to \"emerge\" mathematical concepts from the communication process. The core of the test lies in observing whether models can autonomously develop consistent mathematical expressions and reasoning rules in scenarios not explicitly trained on.\n\n## 主要发现 / Key Findings\n\n通过对现有语言模型的测试，研究发现模型在需要从通信中构建数学概念的任务上表现存在显著差异。一些模型展现出了一定程度的**抽象概念构建能力**（abstract concept construction），能够在缺乏明确指导的情况下形成相对一致的数学表达。这表明部分数学推理能力可能是真正涌现的，而非纯粹的模式匹配结果。\n\n### Through testing existing language models, the research finds significant variance in model performance on tasks requiring mathematical concept construction from communication. Some models demonstrate a certain degree of abstract concept construction capability, forming relatively consistent mathematical expressions without explicit guidance. This suggests that some mathematical reasoning abilities may be genuinely emergent rather than purely pattern matching results.\n\n## 意义与影响 / Significance & Impact\n\n这项研究为评估语言模型的认知能力提供了新的范式，超越了传统的基准测试方法。它不仅有助于理解AI系统的**推理本质**（nature of reasoning），也为未来设计更可靠的数学推理模型指明了方向。如果模型能够真正涌现出数学概念，这将支持AGI（通用人工智能）发展中关键认知能力的可扩展性。\n\n### This research provides a new paradigm for evaluating the cognitive capabilities of language models, going beyond traditional benchmark testing methods. It not only helps understand the nature of reasoning in AI systems but also points the way for designing more reliable mathematical reasoning models in the future. If models can truly emerge with mathematical concepts, this would support the scalability of key cognitive abilities in the development of AGI.",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-27T05:51:02.467Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-27"
+  },
+  {
+    "id": "arxiv:2604.21936",
+    "slug": "an-artifact-based-agent-framework-for-adaptive-and-reproducible-medical-image-pr-2604-21936",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.21936",
+    "publishedAt": "2026-04-27T04:00:00.000Z",
+    "titleEn": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+    "titleZh": "基于工件的医学影像自适应可复现处理智能体框架",
+    "abstractEn": "Medical imaging research is increasingly shifting from controlled benchmark evaluation toward real-world clinical deployment. In such settings, applying analytical methods extends beyond model design to require dataset-aware workflow configuration and provenance tracking. Two requirements therefore become central: \\textbf{adaptability}, the ability to configure workflows according to dataset-speci",
+    "abstractZh": "医学影像研究正日益从受控的基准评估转向实际临床部署。在这样的环境中，应用分析方法不仅仅是模型设计，还需要数据集感知的工作流配置和来源追踪。因此，两个要求变得核心：适应性，即能力",
+    "authors": [
+      "Lianrui Zuo",
+      "Yihao Liu",
+      "Gaurav Rudravaram",
+      "Karthik Ramadass",
+      "Aravind R. Krishnan"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n本研究提出了一种基于工件（Artifact）的智能体框架，旨在解决医学图像处理从研究环境向临床实际部署过程中的关键挑战。该框架的核心创新在于将适应性（adaptability）和可重现性（reproducibility）作为设计首要原则，通过工件管理机制实现了数据集感知的工作流配置和全流程溯源跟踪。这一框架不仅能够根据不同数据集特性自动调整处理流程，还能完整记录每一步操作的输入输出关系，为医学影像的标准化应用提供了可靠的技术基础。\n\n## 研究背景\n### Background\n\n医学影像领域正经历从受控基准评估向真实临床应用场景的范式转变。传统的研究方法主要依赖标准化数据集和固定评估指标，这在严格的科研环境下行之有效，但难以应对临床环境中数据的多样性、异质性和不确定性。随着深度学习技术在医疗诊断中的广泛应用，单纯优化模型架构已不足以保证实际部署效果，更需要建立能够感知数据集特性、灵活配置工作流程的系统化解决方案。\n\n## 技术方法\n### Technical Approach\n\n该框架采用基于工件的设计思想，将医学图像处理流程中的每一个中间结果、模型输出、配置参数都定义为可追溯的工件。通过建立工件之间的依赖关系图谱，系统不仅能够自动根据输入数据集的特性选择最优的处理链路，还能完整记录从原始图像到最终诊断结果的完整路径。这种设计使得工作流配置不再是硬编码的固定步骤，而可以根据数据特征动态调整，同时通过工件版本管理确保实验结果的可重现性。\n\n## 意义与影响\n### Significance & Impact\n\n这一框架的提出为医学影像 AI 的临床落地提供了重要方法论指导。它解决了医疗 AI 应用中长期存在的\"黑箱\"问题，通过完整的溯源机制提升了模型的透明度和可信度，这对监管审批和医生接受度至关重要。从更广泛的角度看，该框架的理念可扩展至其他需要严格质量控制和高可重现性的科学计算领域，为构建更加可靠、可信的 AI 系统提供了新的设计范式。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-27T05:51:56.765Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-27"
+  }
+]

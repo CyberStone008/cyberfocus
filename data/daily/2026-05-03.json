@@ -1,0 +1,644 @@
+[
+  {
+    "id": "reddit:1t27wja",
+    "slug": "reddit-1t27wja-gpt-5-5-just-leaked-its-chain-of-thought-to-me-in-codex-and-it-lo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t27wja/gpt_55_just_leaked_its_chain_of_thought_to_me_in/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t27wja/gpt_55_just_leaked_its_chain_of_thought_to_me_in/",
+    "publishedAt": "2026-05-03T01:35:03.000Z",
+    "titleEn": "GPT 5.5 just leaked its chain of thought to me in codex, and it looks like an idea from 5 months ago in this sub.",
+    "titleZh": "GPT 5.5 在 Codex 中向我泄露了其思维链，看起来像是这个子版块 5 个月前的一个想法",
+    "abstractEn": "https://www.reddit.com/r/LocalLLaMA/comments/1p0lnlo/make_your_ai_talk_like_a_caveman_and_decrease/\n\nIn the middle of a project I'm working on, I got this output from GPT 5.5-medium via codex:\n\nImplemented the narrower fix in Homm3ImportUnitPreviewModelHook.cs? Need absolute path. Need know cwd abso",
+    "abstractZh": "https://www.reddit.com/r/LocalLLaMA/comments/1p0lnlo/make_your_ai_talk_like_a_caveman_and_decrease/\n\n在我正在进行的项目中，我通过 Codex 从 GPT 5.5-medium 获得了以下输出：\n\n在 Homm3ImportUnitPreviewModelHook.cs 中实现了更窄的修复？需要绝对路径。需要知道当前工作目录的绝对路",
+    "authors": [
+      "u/Homeschooled316"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 0,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t27cf0",
+    "slug": "reddit-1t27cf0-local-image-generation-on-mac-10-models-compared-sd-1-5-flux-dev",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/b7zbv2z2otyg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t27cf0/local_image_generation_on_mac_10_models_compared/",
+    "publishedAt": "2026-05-03T01:08:59.000Z",
+    "titleEn": "Local image generation on Mac: 10 models compared (SD 1.5 → Flux dev → Qwen-Image → Gemini)",
+    "titleZh": "Mac 上的本地图像生成：10 个模型对比评测（SD 1.5 → Flux dev → Qwen-Image → Gemini）",
+    "abstractEn": "Tested 10 image generation models on M1 Max 64GB for photorealism, text rendering, and cultural accuracy (Japanese/Asian content).\n\nKey findings:\n\n* Qwen-Image Lightning (8-step distillation) beats the full model in quality while being 9x faster (10min vs 93min)\n* Flux dev is the best local model fo",
+    "abstractZh": "在 M1 Max 64GB 上测试了 10 个图像生成模型，涵盖照片真实感、文本渲染和文化准确性（日文/亚洲内容）。\n\n主要发现：\n\n* Qwen-Image Lightning（8 步蒸馏）在质量上优于完整模型，同时速度快 9 倍（10 分钟 vs 93 分钟）\n* Flux dev 是最佳的本地模型",
+    "authors": [
+      "u/Full-Definition6215"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 2,
+    "commentCount": 0,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47991995",
+    "slug": "hn-47991995-am-i-the-only-one-who-hates-delivery-robots",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban",
+    "commentUrl": "https://news.ycombinator.com/item?id=47991995",
+    "publishedAt": "2026-05-03T00:31:58.000Z",
+    "titleEn": "Am I the only one who hates delivery robots?",
+    "titleZh": "只有我讨厌配送机器人吗？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "robotlaunch"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 6,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:5f286c9a1651",
+    "slug": "gnews-5f286c9a1651",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORzFsMHlfUkYzMWFMTmpfR3k3U1JuSl9WdlBTang5eXFmQmt4c2dLWnR0bEw5bEkxYno2ZjJ6WDRHaGI2M2RPVGcxX1lPelhKd2o0dUtBRWJFb0tBcl9xMXR0LUJScXM2UUdUZXNBMTIzVUNXOGYwLTBBYjlkMlRBdy1RQ0ZEUmxySks3NjNTYTZaWDNKQ0JUemdMZmdxZVcxY1dHNzNBOEFGVUtGck5YZTF1ZlgwaUFOUnhZcTN3?oc=5",
+    "publishedAt": "2026-05-03T00:09:20.000Z",
+    "titleEn": "Meta Acquisition of Robotics AI Startup Framed as High-Risk Long-Term Bet",
+    "titleZh": "Meta 收购机器人 AI 初创公司被解读为高风险长期押注",
+    "abstractEn": "Meta Acquisition of Robotics AI Startup Framed as High-Risk Long-Term Bet  TipRanks",
+    "abstractZh": "Meta 收购机器人 AI 初创公司被解读为高风险长期押注 TipRanks",
+    "authors": [
+      "TipRanks"
+    ],
+    "institution": "TipRanks",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:bb46cbf0d376",
+    "slug": "gnews-bb46cbf0d376",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVkwSFVpcnZVRThwVDRLSy1veXpLMDQ5bHpBSy1XeUNJV2JmcXhCanRMQndFN3lkWUt2cklwdjFTaUI2OEg2Ym03eWx6anBzOHd5aHd0WDNJU1FaRTZKeGRVZEdfYWh2OVN5MzZjM1loa2N6R2xyNDVhVUdrUlhOWXQtWnEyS0NfeG55cHFieENKSVEzYkJrUmRVcmVZbmdfc0pnM0Rn?oc=5",
+    "publishedAt": "2026-05-03T00:09:00.000Z",
+    "titleEn": "Why China Intervened in Meta’s $2 Billion Manus AI Deal Post-Completion",
+    "titleZh": "为何中国在 Meta 20 亿美元收购 Manus AI 交易完成后进行干预",
+    "abstractEn": "Why China Intervened in Meta’s $2 Billion Manus AI Deal Post-Completion  Open Magazine",
+    "abstractZh": "为何中国在 Meta 20 亿美元收购 Manus AI 交易完成后进行干预 Open Magazine",
+    "authors": [
+      "Open Magazine"
+    ],
+    "institution": "Open Magazine",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t25ohs",
+    "slug": "reddit-1t25ohs-qwen3-6-27b-vs-35b-i-prefer-35b-but-more-people-here-post-about-2",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t25ohs/qwen3627b_vs_35b_i_prefer_35b_but_more_people/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t25ohs/qwen3627b_vs_35b_i_prefer_35b_but_more_people/",
+    "publishedAt": "2026-05-02T23:51:44.000Z",
+    "titleEn": "Qwen3.6-27B vs 35B, I prefer 35B but more people here post about 27B...",
+    "titleZh": "Qwen3.6-27B 对比 35B，我更喜欢 35B 但这里更多人发布关于 27B 的内容...",
+    "abstractEn": "I've had better results quality wise with 35B AND it's much faster than 27B.  Just curious cause I see lots of people post about 27B.   Am I doing something wrong with 27B?\n\nUse cases are multi-stage pipelines for coding and internet research. I also use Opencode a bit.  All use cases I normally app",
+    "abstractZh": "在质量方面，35B 给了我更好的结果，而且它比 27B 快得多。只是好奇，因为我看到很多人发布关于 27B 的内容。我在 27B 上做错了什么吗？\n\n用例是编码和网络研究的多阶段流水线。我也使用一些 Opencode。我通常应用的所有用例",
+    "authors": [
+      "u/Snoo_27681"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 28,
+    "commentCount": 38,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t24y4p",
+    "slug": "reddit-1t24y4p-i-made-a-visualizer-for-hugging-face-models",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/6sr5z6ys4tyg1.gif",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t24y4p/i_made_a_visualizer_for_hugging_face_models/",
+    "publishedAt": "2026-05-02T23:18:20.000Z",
+    "titleEn": "I made a visualizer for Hugging Face models",
+    "titleZh": "我为 Hugging Face 模型制作了一个可视化工具",
+    "abstractEn": "I built [hfviewer.com](http://hfviewer.com), a small tool for visually exploring Hugging Face model architectures.\n\nYou can paste a Hugging Face URL and get an **interactive visualization** of the architecture, which can make it easier to understand how different models are structured and compare th",
+    "abstractZh": "我构建了 [hfviewer.com](http://hfviewer.com)，这是一个用于可视化探索 Hugging Face 模型架构的小工具。\n\n你可以粘贴 Hugging Face URL，获取架构的**交互式可视化**，这样可以更轻松地理解不同模型的结构并比较它们",
+    "authors": [
+      "u/Course_Latter"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 111,
+    "commentCount": 11,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "id": "reddit:1t24qle",
+    "slug": "reddit-1t24qle-tinygrad-driver-testing",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/o23vc9h53tyg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t24qle/tinygrad_driver_testing/",
+    "publishedAt": "2026-05-02T23:09:06.000Z",
+    "titleEn": "Tinygrad Driver testing!",
+    "titleZh": "Tinygrad 驱动测试！",
+    "abstractEn": "Boutta Thrash some MoE speeds on a blackwell + m3 Ultra RDMA cluster. Theres a bit less than 2tb of ram here. I want to exchange ideas with you guys and make some cool experiments. what benches would you guys like to see?\n\nEDIT: Given all the interest on this post, I will be streaming this on the su",
+    "abstractZh": "打算在 Blackwell + M3 Ultra RDMA 集群上测试一些 MoE 速度。这里大约有不到 2TB 内存。我想和你们交流想法并做一些很酷的实验。你们想看到哪些基准测试？\n\n编辑：鉴于这篇帖子很有兴趣，我会在这个论坛上直播这个",
+    "authors": [
+      "u/Street-Buyer-2428"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 45,
+    "commentCount": 41,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47991487",
+    "slug": "hn-47991487-waymo-drives-off-with-south-bay-mans-luggage",
+    "source": "Hacker News",
+    "sourceUrl": "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47991487",
+    "publishedAt": "2026-05-02T23:04:42.000Z",
+    "titleEn": "Waymo Drives Off with South Bay Man's Luggage",
+    "titleZh": "Waymo 带走南湾男子的行李后离开",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "toss1"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 55,
+    "commentCount": 30,
+    "tags": []
+  },
+  {
+    "id": "hn:47991018",
+    "slug": "hn-47991018-voice-ai-for-beginners-a-curated-learning-path-for-developers",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/mahimairaja/voiceai",
+    "commentUrl": "https://news.ycombinator.com/item?id=47991018",
+    "publishedAt": "2026-05-02T22:03:15.000Z",
+    "titleEn": "Voice-AI-for-Beginners – A curated learning path for developers",
+    "titleZh": "Voice-AI-for-Beginners —— 为开发者量身打造的学习路径",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "mahimai"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 22,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t227hk",
+    "slug": "reddit-1t227hk-ban-phrases-on-llama-cpp-with-this-script",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/qgokvp3xjsyg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t227hk/ban_phrases_on_llamacpp_with_this_script/",
+    "publishedAt": "2026-05-02T21:22:08.000Z",
+    "titleEn": "Ban phrases on llama.cpp with this script.",
+    "titleZh": "用这个脚本在 llama.cpp 上禁用短语。",
+    "abstractEn": "Check the README for setup instructions: [https://github.com/BigStationW/llama-cpp-phrase-ban](https://github.com/BigStationW/llama-cpp-phrase-ban)",
+    "abstractZh": "查看 README 获取设置说明：[https://github.com/BigStationW/llama-cpp-phrase-ban](https://github.com/BigStationW/llama-cpp-phrase-ban)",
+    "authors": [
+      "u/Total-Resort-3120"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 20,
+    "commentCount": 21,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "hn:47990675",
+    "slug": "hn-47990675-the-agent-harness-belongs-outside-the-sandbox",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+    "commentUrl": "https://news.ycombinator.com/item?id=47990675",
+    "publishedAt": "2026-05-02T21:21:27.000Z",
+    "titleEn": "The agent harness belongs outside the sandbox",
+    "titleZh": "代理控制带应位于沙箱之外",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "shad42"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 64,
+    "commentCount": 52,
+    "tags": []
+  },
+  {
+    "id": "hn:47990464",
+    "slug": "hn-47990464-apple-raises-mac-mini-starting-price-599-to-799-256gb-storage-discon",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.macrumors.com/2026/05/01/mac-mini-now-starts-at-799/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47990464",
+    "publishedAt": "2026-05-02T21:00:36.000Z",
+    "titleEn": "Apple raises Mac Mini starting price $599 to $799, 256GB storage discontinued",
+    "titleZh": "Apple 将 Mac Mini 起售价从 599 美元上调至 799 美元，256GB 存储版本停产",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pak"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 15,
+    "commentCount": 4,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t208qv",
+    "slug": "reddit-1t208qv-implemented-turboquant-and-results-dont-fully-match-paper",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t208qv/implemented_turboquant_and_results_dont_fully/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t208qv/implemented_turboquant_and_results_dont_fully/",
+    "publishedAt": "2026-05-02T20:05:02.000Z",
+    "titleEn": "Implemented TurboQuant and results don’t fully match paper",
+    "titleZh": "实现了 TurboQuant 但结果与论文不完全匹配",
+    "abstractEn": "I attempted to implement TurboQuant (arXiv:2504.19874) from scratch over the last few days.\n\nThought I would check something with folks here since my numbers do not match those in the paper.  \n\n\nObservations:\n\nMSE version performs well (compression &amp; distortion as expected)  \n\n\nPROD version:\n\ncl",
+    "abstractZh": "过去几天我尝试从零实现 TurboQuant (arXiv:2504.19874)。\n\n我想和这里的人确认一下，因为我的数字与论文中的不符。\n\n观察结果：\n\nMSE 版本表现良好（压缩和失真如预期）\n\nPROD 版本：\n\ncl",
+    "authors": [
+      "u/Routine-Thanks-572"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 23,
+    "commentCount": 15,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47989883",
+    "slug": "hn-47989883-vs-code-inserting-co-authored-by-copilot-into-commits-regardless-of",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/microsoft/vscode/pull/310226",
+    "commentUrl": "https://news.ycombinator.com/item?id=47989883",
+    "publishedAt": "2026-05-02T19:57:26.000Z",
+    "titleEn": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+    "titleZh": "VS Code 无论使用与否都在提交信息中插入 'Co-Authored-by Copilot'",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "indrora"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 764,
+    "commentCount": 356,
+    "tags": []
+  },
+  {
+    "id": "hn:47989824",
+    "slug": "hn-47989824-pixel-embeddings-beat-vision-encoders-for-unified-understanding-and",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/facebookresearch/tuna-2",
+    "commentUrl": "https://news.ycombinator.com/item?id=47989824",
+    "publishedAt": "2026-05-02T19:50:53.000Z",
+    "titleEn": "Pixel Embeddings Beat Vision Encoders for Unified Understanding and Generation",
+    "titleZh": "像素嵌入在统一理解与生成方面优于视觉编码器",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "neehao"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t1z4cp",
+    "slug": "reddit-1t1z4cp-i-built-my-first-model-from-scratch",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1z4cp/i_built_my_first_model_from_scratch/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1z4cp/i_built_my_first_model_from_scratch/",
+    "publishedAt": "2026-05-02T19:21:27.000Z",
+    "titleEn": "I BUILT MY FIRST MODEL FROM SCRATCH",
+    "titleZh": "我从零构建了我的第一个模型",
+    "abstractEn": "Sup, I'm Crownelius, I made that popular opus distill dataset. \n\nTODAY YOU ARE INTRODUCED TO SHARD a 40m parameter mal-formed LLM. \n\nRight now I'm working on a series of tiny LLM's, with a goal to run a coherent model for IoT tasks. I've researched atomic models, and while doing that I came across a",
+    "abstractZh": "嘿，我是 Crownelius，我制作了那个流行的 opus distill 数据集。\n\n今天向你介绍 SHARD，一个 40M 参数的畸形 LLM。\n\n现在我正在开发一系列微型 LLM，目标是运行一个用于物联网任务的连贯模型。我研究了原子模型，在此过程中我遇到了一个",
+    "authors": [
+      "u/volious-ka"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 16,
+    "commentCount": 22,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1t1x9jv",
+    "slug": "reddit-1t1x9jv-i-built-a-transformer-in-c-17-from-scratch-no-pytorch-no-blas-no",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1x9jv/i_built_a_transformer_in_c17_from_scratch_no/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1x9jv/i_built_a_transformer_in_c17_from_scratch_no/",
+    "publishedAt": "2026-05-02T18:11:34.000Z",
+    "titleEn": "I built a transformer in C++17 from scratch — no PyTorch, no BLAS, no dependencies. Trains on CPU. 0.83M params, full analytical backprop, 76 min to val loss 1.64.",
+    "titleZh": "我从零用 C++17 构建了一个 Transformer — 没有 PyTorch，没有 BLAS，没有任何依赖。在 CPU 上训练。0.83M 参数，完整解析反向传播，76 分钟达到验证损失 1.64。",
+    "abstractEn": "For the past few months I've been working on Quadtrix.cpp — a complete GPT-style language model implemented in C++17. No PyTorch. No LibTorch. No BLAS. No auto-differentiation library of any kind. The only dependency is the C++17 standard library and POSIX sockets.\n\nRepo:  [https://github.com/Eamon2",
+    "abstractZh": "过去几个月我一直在开发 Quadtrix.cpp — 一个用 C++17 实现的完整 GPT 风格语言模型。没有 PyTorch。没有 LibTorch。没有 BLAS。没有任何自动微分库。唯一的依赖是 C++17 标准库和 POSIX 套接字。\n\n代码仓库：[https://github.com/Eamon2",
+    "authors": [
+      "u/Suspicious_Gap1121"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 137,
+    "commentCount": 20,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1t1w920",
+    "slug": "reddit-1t1w920-warpdrv-my-open-source-llama-cpp-launcher-for-daily-driving-qwen",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/gallery/1t1w920",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1w920/warpdrv_my_opensource_llamacpp_launcher_for/",
+    "publishedAt": "2026-05-02T17:33:52.000Z",
+    "titleEn": "Warpdrv - my open-source Llama.cpp launcher for daily-driving Qwen 35b + 27b on Strix Halo + RTX Pro.",
+    "titleZh": "Warpdrv - 我的开源 Llama.cpp 启动器，用于在 Strix Halo + RTX Pro 上日常驱动 Qwen 35b + 27b。",
+    "abstractEn": "I wanted to share an open-source app that I built for running LLMs locally on my setup.\n\n# My setup\n\n**Hardware**\n\n* FEVM FAEX1 (128GB)\n* RTX Pro 5000 Blackwell (48GB), connected over OCuLink\n* Aoostar AG02\n* 2x2TB internal m.2 drives on raid-0 using `mdadm`.\n\n**Software**: Ubuntu 25.10, llama.cpp b",
+    "abstractZh": "我想分享一个我构建的开源应用程序，用于在我的设置上本地运行 LLM。\n\n# 我的设置\n\n**硬件**\n\n* FEVM FAEX1 (128GB)\n* RTX Pro 5000 Blackwell (48GB)，通过 OCuLink 连接\n* Aoostar AG02\n* 2x2TB 内部 m.2 驱动器，使用 `mdadm` 做 raid-0。\n\n**软件**：Ubuntu 25.10，llama.cpp b",
+    "authors": [
+      "u/xornullvoid"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 20,
+    "commentCount": 12,
+    "tags": [
+      "Tutorial | Guide"
+    ]
+  },
+  {
+    "id": "hn:47988501",
+    "slug": "hn-47988501-flue-is-a-typescript-framework-for-building-the-next-generation-of-a",
+    "source": "Hacker News",
+    "sourceUrl": "https://flueframework.com/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47988501",
+    "publishedAt": "2026-05-02T17:32:07.000Z",
+    "titleEn": "Flue is a TypeScript framework for building the next generation of agents",
+    "titleZh": "Flue 是一个用于构建下一代代理的 TypeScript 框架",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "momentmaker"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 83,
+    "commentCount": 47,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t1u6e7",
+    "slug": "reddit-1t1u6e7-bruh",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/9qld8gx11ryg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1u6e7/bruh/",
+    "publishedAt": "2026-05-02T16:14:50.000Z",
+    "titleEn": "Bruh",
+    "titleZh": "额",
+    "abstractEn": "Do reporting bots even do anything?",
+    "abstractZh": "举报机器人真的有用吗？",
+    "authors": [
+      "u/Icy_Butterscotch6661"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 374,
+    "commentCount": 162,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:73916c0e745e",
+    "slug": "gnews-73916c0e745e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vUy00YjVXSW10Tmt2aHhzVDkyVDJ0d1owcG1HMzRxUGQyQVhUWFd1NmMtcFAxLUNjVzFlWHNzMFpjMWxZY0dXdENLQ1FGckZncUE?oc=5",
+    "publishedAt": "2026-05-02T16:10:05.000Z",
+    "titleEn": "Between April 25 and May 02, 2026, as many as 18 Indian startups from diverse sectors raised over $232 million in funding from investors. These sectors include Gaming, Fintech, AI, Climatetech, Sportstech, Deeptech, Energytech, Lending, Stock broking, Sup",
+    "titleZh": "2026 年 4 月 25 日至 5 月 2 日期间，多达 18 家来自不同领域的印度初创公司从投资者那里筹集了超过 2.32 亿美元资金。这些领域包括游戏、金融科技、AI、气候科技、体育科技、深科技、能源科技、借贷、股票经纪等",
+    "abstractEn": "Between April 25 and May 02, 2026, as many as 18 Indian startups from diverse sectors raised over $232 million in funding from investors. These sectors include Gaming, Fintech, AI, Climatetech, Sportstech, Deeptech, Energytech, Lending, Stock broking, Sup  instagram.com",
+    "abstractZh": "2026 年 4 月 25 日至 5 月 2 日期间，多达 18 家来自不同领域的印度初创公司从投资者那里筹集了超过 2.32 亿美元资金。这些领域包括游戏、金融科技、AI、气候科技、体育科技、深科技、能源科技、借贷、股票经纪等 instagram.com",
+    "authors": [
+      "instagram.com"
+    ],
+    "institution": "instagram.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t1te8y",
+    "slug": "reddit-1t1te8y-qwen-3-6-wins-the-benchmarks-but-gemma-4-wins-reality-7-things-i",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1te8y/qwen_36_wins_the_benchmarks_but_gemma_4_wins/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1te8y/qwen_36_wins_the_benchmarks_but_gemma_4_wins/",
+    "publishedAt": "2026-05-02T15:44:53.000Z",
+    "titleEn": "Qwen 3.6 wins the benchmarks, but Gemma 4 wins reality. 7 things I learned testing 27B/31B Vision models locally (vLLM / FP8) side by side. Benchmaxing seems real.",
+    "titleZh": "Qwen 3.6 赢得了基准测试，但 Gemma 4 赢得了现实。我在本地并排测试 27B/31B 视觉模型 (vLLM / FP8) 时学到的 7 件事。基准测试似乎是真实的。",
+    "abstractEn": "Hey guys,\n\nA couple of weeks ago, I asked this sub for the hardest Vision use cases you were dealing with to test the newly dropped Qwen 3.6 against Gemma 4. I finally finished running the gauntlet side-by-side locally on vLLM (FP8 quants) using my custom GUI.\n\nIf you look at the Benchmarks then Qwe",
+    "abstractZh": "大家好，\n\n几周前，我在这个版块询问你们正在处理的最困难的 Vision 用例，以测试新发布的 Qwen 3.6 与 Gemma 4。我终于在 vLLM (FP8 量化) 上使用我的自定义 GUI 并排完成了测试。\n\n如果你看基准测试，那么 Qwe",
+    "authors": [
+      "u/FantasticNature7590"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 50,
+    "commentCount": 41,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1t1t4nw",
+    "slug": "reddit-1t1t4nw-kv-cache-quantization-ignorance-or-malice",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1t4nw/kv_cache_quantization_ignorance_or_malice/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1t4nw/kv_cache_quantization_ignorance_or_malice/",
+    "publishedAt": "2026-05-02T15:34:22.000Z",
+    "titleEn": "Kv cache quantization: ignorance, or malice?",
+    "titleZh": "KV 缓存量化：无知，还是恶意？",
+    "abstractEn": "I run Qwen-3.6 27B with the FP8 safetensors on vllm for long-horizon agentic coding harness workloads with high context window and concurrent sub-agents. On two 3090s that aren’t used for anything else, it seems reasonable to expect a good balance between speed and reliability. I want to bring up a ",
+    "abstractZh": "我在 vllm 上使用 FP8 safetensors 运行 Qwen-3.6 27B，用于长周期代理编码工具工作负载，具有高上下文窗口和并发子代理。在两张不用于其他用途的 3090 上，期望速度和可靠性之间的良好平衡似乎是合理的。我想提出一个",
+    "authors": [
+      "u/wombweed"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 36,
+    "commentCount": 77,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47987256",
+    "slug": "hn-47987256-ai-self-preferencing-in-algorithmic-hiring-empirical-evidence-and-in",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2509.00462",
+    "commentUrl": "https://news.ycombinator.com/item?id=47987256",
+    "publishedAt": "2026-05-02T15:28:13.000Z",
+    "titleEn": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+    "titleZh": "算法招聘中的 AI 自我偏好：实证证据与洞察",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "laurex"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 316,
+    "commentCount": 170,
+    "tags": []
+  },
+  {
+    "id": "gnews:8fd45968d318",
+    "slug": "gnews-8fd45968d318",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGRHa3hKQk4zNVQ1YmJZa01VeUpLbG41a0xEQXRjUTBZck9uazhRQnhyTFVkblZkd0FfOUljaEJDSk1od0ZHOERfQi0tWWNuckVNcFRUMzh0ZXkyR3B2bjVsUWx6UnRLQTdtVjN0UnRkNzg4VUhkbHRCNnMycWo2UjJZX3FKQVdSRW9FdkF5OVdQQ0JmLUE?oc=5",
+    "publishedAt": "2026-05-02T14:07:04.000Z",
+    "titleEn": "Washington Policy Signals May Reshape Bitcoin Regulation",
+    "titleZh": "华盛顿政策信号可能重塑比特币监管格局",
+    "abstractEn": "Washington Policy Signals May Reshape Bitcoin Regulation  Intellectia AI",
+    "abstractZh": "华盛顿政策信号可能重塑比特币监管格局 Intellectia AI",
+    "authors": [
+      "Intellectia AI"
+    ],
+    "institution": "Intellectia AI",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:edb79cf0827c",
+    "slug": "gnews-edb79cf0827c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR21zdUdGN2o4c01pTHUxb0Zod2hIck80cjB1N2pCbFVsRTV6ZGRTY2w5RFJaTEtyMzluaGFLZ1ZoTlpoWE1qTVBiR3gxMUVHaDdZbUJxTVJBbmgxcVRWOTFDTEFMTG1QSFVvY1ZOWkRIYUpSdXlhcG5ZcjdxOXM3Y3dSdTc4SWFkQ0Y3emRsN0NuYUd0ejNUUDJjaUpnbmg4VWtZSWw5R1dUcWpyZ1NnQnhGLXlXS0ZULTFFR0ZyVmFOdnVNVVlkZW0wS2ZDOFRReXc3LTB3YlR6LUFOdUVoVWV6YjFxZnFTcDdMVg?oc=5",
+    "publishedAt": "2026-05-02T13:00:00.000Z",
+    "titleEn": "OpenAI wants to put its most powerful model at all levels of government to fight hackers",
+    "titleZh": "OpenAI 希望将其最强大的模型部署到各级政府以对抗黑客",
+    "abstractEn": "OpenAI wants to put its most powerful model at all levels of government to fight hackers  WLFI News 18",
+    "abstractZh": "OpenAI 希望将其最强大的模型部署到各级政府以对抗黑客 WLFI News 18",
+    "authors": [
+      "WLFI News 18"
+    ],
+    "institution": "WLFI News 18",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:98e7e0873b1d",
+    "slug": "gnews-98e7e0873b1d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdTM3MlFQcTI4eHVHTzg2RE1tN2doLU53TjFUT3pjR29KOFdqbE1fOVlVUW1McENQZlpSVDluVXFtNGc2Q0haM0tTQ0RuMENTNGl4Q3VzeFhzSjBaeC1oUTB5SlhNSUdZY0R4czdBN2RjMFNvTUZWYmFac1I5bDhhREdiU1hxenl6enZxVS10aDBIUjVTOExKMGVMeHFidW41RGUtcTVvZTVITmNyb2hRU09GUEV5Vnd4a3B0bWhSZHM?oc=5",
+    "publishedAt": "2026-05-02T12:00:00.000Z",
+    "titleEn": "Anthropic's most powerful AI model just exposed a crisis in corporate governance. Here's the framework every CEO needs.",
+    "titleZh": "Anthropic 最强大的 AI 模型刚刚揭示了公司治理危机。以下是每位 CEO 都需要的框架",
+    "abstractEn": "Anthropic's most powerful AI model just exposed a crisis in corporate governance. Here's the framework every CEO needs.  Fortune",
+    "abstractZh": "Anthropic 最强大的 AI 模型刚刚揭示了公司治理危机。以下是每位 CEO 都需要的框架。 Fortune",
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:15a889937915",
+    "slug": "gnews-15a889937915",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aaEZoN1RmdWxkQ2I0bTZzQWpaNHAwbHk5U0lOTXZZQnVzMTdUNGRZeXFPYVhxZ3JlcVJweVVtWDJPdVlnNFlHcnY5bENlYUVLZk1WSDZPT1BaQ1dJZDVxZERCRDVFdjdoc3phTzROakJaOHV4Nkk1Vg?oc=5",
+    "publishedAt": "2026-05-02T11:56:26.000Z",
+    "titleEn": "South Africa withdraws national AI policy draft after fake sources found",
+    "titleZh": "南非在发现虚假来源后撤回国家 AI 政策草案",
+    "abstractEn": "South Africa withdraws national AI policy draft after fake sources found  mezha.net",
+    "abstractZh": "南非在发现虚假来源后撤回国家 AI 政策草案 mezha.net",
+    "authors": [
+      "mezha.net"
+    ],
+    "institution": "mezha.net",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  }
+]

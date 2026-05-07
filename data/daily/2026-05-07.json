@@ -1,0 +1,4416 @@
+[
+  {
+    "id": "reddit:1t5x5s0",
+    "slug": "reddit-1t5x5s0-paroquant-pairwise-rotation-quantization-for-efficient-reasoning",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/9gim2lznimzg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5x5s0/paroquant_pairwise_rotation_quantization_for/",
+    "publishedAt": "2026-05-07T02:07:48.000Z",
+    "titleEn": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+    "titleZh": "ParoQuant：用于高效推理 LLM 推理的成对旋转量化",
+    "abstractEn": "[https://z-lab.ai/projects/paroquant/](https://z-lab.ai/projects/paroquant/)\n\n[https://github.com/z-lab/paroquant](https://github.com/z-lab/paroquant)\n\n[https://huggingface.co/collections/z-lab/paroquant](https://huggingface.co/collections/z-lab/paroquant)",
+    "abstractZh": "[https://z-lab.ai/projects/paroquant/](https://z-lab.ai/projects/paroquant/)\n\n[https://github.com/z-lab/paroquant](https://github.com/z-lab/paroquant)\n\n[https://huggingface.co/collections/z-lab/paroquant](https://huggingface.co/collections/z-lab/paroquant)",
+    "authors": [
+      "u/Total-Resort-3120"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 0,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "reddit:1t5wybl",
+    "slug": "reddit-1t5wybl-deepseek-v4-pro-roo-code-is-costing-me-almost-as-much-as-opus-how",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5wybl/deepseek_v4_pro_roo_code_is_costing_me_almost_as/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5wybl/deepseek_v4_pro_roo_code_is_costing_me_almost_as/",
+    "publishedAt": "2026-05-07T01:58:50.000Z",
+    "titleEn": "DeepSeek v4 Pro + Roo Code is costing me almost as much as Opus. How are you guys managing this?",
+    "titleZh": "DeepSeek v4 Pro + Roo Code 的成本几乎和 Opus 一样高。大家是如何管理这个的？",
+    "abstractEn": "​I recently switched over to DeepSeek v4 Pro. I’m running it inside VS Code using the Roo Code extension with \"high thinking\" enabled\n\n​ I'm blowing through \\~$10 in just a couple of hours. At this burn rate, I might as well just be daily-driving Opus again.\n\n​\n\n​How are you guys optimizing your Dee",
+    "abstractZh": "​我最近切换到了 DeepSeek v4 Pro。我在 VS Code 中使用 Roo Code 扩展运行它，并启用了‘高思维’模式\n\n​仅仅几个小时我就花费了约 10 美元。按照这个消耗速度，我还不如直接日常使用 Opus。\n\n​\n\n​大家是如何优化你们的 DeepSeek 使用的？",
+    "authors": [
+      "u/chucrutcito"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 6,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-413569-html",
+    "slug": "22-gpu-claude-5",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/413569.html",
+    "publishedAt": "2026-05-07T01:13:33.000Z",
+    "titleEn": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
+    "titleZh": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
+    "abstractEn": "Claude用户（仅限付费用户）一觉醒来，发现限额翻倍，速度还变快了",
+    "abstractZh": "Claude用户（仅限付费用户）一觉醒来，发现限额翻倍，速度还变快了",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t5v7uh",
+    "slug": "reddit-1t5v7uh-open-useknockout-free-sota-background-removal-super-res-api-alter",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v7uh/open_useknockout_free_sota_background_removal/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v7uh/open_useknockout_free_sota_background_removal/",
+    "publishedAt": "2026-05-07T00:40:51.000Z",
+    "titleEn": "[Open] useknockout - free SOTA background removal + super-res API alternative to remove.bg / Topaz, MIT, runs on Modal",
+    "titleZh": "[开源] useknockout - 免费的 SOTA 背景移除 + 超分辨率 API，替代 remove.bg / Topaz，基于 MIT 协议，运行在 Modal 上",
+    "abstractEn": "Released v0.6.0 of useknockout this week. Single FastAPI service, 20 endpoints deploys to Modal in one command.\n\n**Endpoints**\n\n\\- /remove (BiRefNet + pymatting matting refinement)\n\n\\- /upscale (Swin2SR or Real-ESRGAN, x2/x4)\n\n\\- /face-restore (GFPGAN v1.4)\n\n\\- /replace-bg, /remove-batch, /remove-ur",
+    "abstractZh": "本周发布了 useknockout v0.6.0。单个 FastAPI 服务，20 个端点，一键部署到 Modal。\n\n**端点**\n\n- /remove（BiRefNet + pymatting 精细化抠图）\n\n- /upscale（Swin2SR 或 Real-ESRGAN，x2/x4 倍放大）\n\n- /face-restore（GFPGAN v1.4）\n\n- /replace-bg, /remove-batch, /remove-ur",
+    "authors": [
+      "u/KingOfAllContent"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 0,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1t5v2gr",
+    "slug": "reddit-1t5v2gr-need-advice-on-hardware-purchasing-decision-rtx-5090-vs-m5-max-12",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v2gr/need_advice_on_hardware_purchasing_decision_rtx/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5v2gr/need_advice_on_hardware_purchasing_decision_rtx/",
+    "publishedAt": "2026-05-07T00:34:19.000Z",
+    "titleEn": "Need advice on hardware purchasing decision: RTX 5090 vs. M5 Max 128GB for agentic software development",
+    "titleZh": "硬件购买决策建议：RTX 5090 vs. M5 Max 128GB，用于代理软件开发",
+    "abstractEn": "tl;dr - For software development, Qwen3.6 27B, 5090 gives you ~3x speed over M5 Max, letting you plow through code, while M5 Max gives you ~4x memory, letting you use higher quantization and bigger context. Which would you choose and why?\n\n---\nI've been doing a lot of research on this topic for a co",
+    "abstractZh": "简而言之 - 对于软件开发，运行 Qwen3.6 27B 时，5090 比 M5 Max 快约 3 倍，让你能快速处理代码，而 M5 Max 的内存约为 4 倍，让你可以使用更高的量化等级和更大的上下文。你会选择哪个，为什么？\n\n---我一直在深入研究这个话题，为了一个合作",
+    "authors": [
+      "u/BawbbySmith"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 28,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "gnews:74901f0aea7c",
+    "slug": "gnews-74901f0aea7c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFZqemhnWW1VcVhzSWFvaW5sQi1ZTFdyZS1QZEpfZ05IeXAyWGY4Sm1Bc1RON1IwbEdpcXNCY2xxQW52amhSSHdSRmp0aEZoUVZfaDBnRUZXazJYblNjSWk3V3hPYVJpd1U5X01aRzlMYXVKQm5UZEdhS3kwQ3VtdkEtWWhSM0RjWGpWUzhkOA?oc=5",
+    "publishedAt": "2026-05-06T23:50:25.000Z",
+    "titleEn": "Elon Musk’s Confidante Shivon Zilis Is Cast as His Inside Source at OpenAI",
+    "titleZh": "埃隆·马斯克的知己 Shivon Zilis 被定位为他在 OpenAI 的内部消息来源",
+    "abstractEn": "Elon Musk’s Confidante Shivon Zilis Is Cast as His Inside Source at OpenAI  The New York Times",
+    "abstractZh": "埃隆·马斯克的知己 Shivon Zilis 被定位为他在 OpenAI 的内部消息来源 The New York Times",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5tnzl",
+    "slug": "reddit-1t5tnzl-get-faster-qwen-3-6-27b",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5tnzl/get_faster_qwen_36_27b/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5tnzl/get_faster_qwen_36_27b/",
+    "publishedAt": "2026-05-06T23:33:07.000Z",
+    "titleEn": "Get faster qwen 3.6 27b",
+    "titleZh": "获得更快的qwen 3.6 27b",
+    "abstractEn": "Using 100k context with 3090 with MTP GGUF and getting 50 t/s on llama.cpp\n\nThought I would knowledge share\n\nUse https://huggingface.co/RDson/Qwen3.6-27B-MTP-Q4_K_M-GGUF\n\nAnd am17an commit\n\n/media/adam/D\\_DRIVE/LLM/llama-cpp-am17an/build/bin/llama-server  \n\n  \\-m \"/media/Qwen3.6-27B-Q4/Qwen3.6-27B-M",
+    "abstractZh": "在3090上使用MTP GGUF跑100k上下文，llama.cpp上达到50 t/s\n\n我想分享一下这个知识\n\n使用https://huggingface.co/RDson/Qwen3.6-27B-MTP-Q4_K_M-GGUF\n\n以及am17an commit\n\n/media/adam/D\\_DRIVE/LLM/llama-cpp-am17an/build/bin/llama-server  \n  \\-m '/media/Qwen3.6-27B-Q4/Qwen3.6-27B-M",
+    "authors": [
+      "u/admajic"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 32,
+    "commentCount": 8,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:48043226",
+    "slug": "hn-48043226-richard-dawkins-convinced-ai-is-conscious",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.telegraph.co.uk/news/2026/05/06/richard-dawkins-convinced-ai-is-conscious/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48043226",
+    "publishedAt": "2026-05-06T23:26:30.000Z",
+    "titleEn": "Richard Dawkins 'convinced' AI is conscious",
+    "titleZh": "理查德·道金斯‘确信’AI具有意识",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "beatthatflight"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "hn:48043007",
+    "slug": "hn-48043007-anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spac",
+    "source": "Hacker News",
+    "sourceUrl": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48043007",
+    "publishedAt": "2026-05-06T22:59:43.000Z",
+    "titleEn": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
+    "titleZh": "Anthropic 提高 Claude Code 使用限额，归功于与 SpaceX 的新合作",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "koolba"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 3,
+    "tags": []
+  },
+  {
+    "id": "gnews:24677e29de8b",
+    "slug": "gnews-24677e29de8b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS0h3QXRGb3A5TWoxRldmaHhRM0M1ZDMwRVJtcWFZOW05WXpTLXNnSEVpeUhsMmc4OHdRMm9Nc1c0MlNfNXN6eEt5VFcxSmk4ZUJZX09aWk14QlRMMV85enNRVjlyQkdZbDFVTFVrZEN2bjlFZ1FNLVpXX2hhT21LUndfbFpLejJGWm84TzdiOFVFQml1dHUwSE5KVl91MWN5MnYxaGpWUV9BS1liUEFoeTNyQVNrVkU?oc=5",
+    "publishedAt": "2026-05-06T22:58:11.000Z",
+    "titleEn": "Meta Pushes into Physical AI with Acquisition of Robotics AI Startup",
+    "titleZh": "Meta 通过收购机器人 AI 初创公司进军物理 AI 领域",
+    "abstractEn": "Meta Pushes into Physical AI with Acquisition of Robotics AI Startup  THE Journal: Technological Horizons in Education",
+    "abstractZh": "Meta 通过收购机器人 AI 初创公司进军物理 AI 领域  THE Journal: Technological Horizons in Education",
+    "authors": [
+      "THE Journal: Technological Horizons in Education"
+    ],
+    "institution": "THE Journal: Technological Horizons in Education",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48042911",
+    "slug": "hn-48042911-richard-dawkins-concludes-ai-is-conscious-even-if-it-doesnt-know-it",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt",
+    "commentUrl": "https://news.ycombinator.com/item?id=48042911",
+    "publishedAt": "2026-05-06T22:47:45.000Z",
+    "titleEn": "Richard Dawkins concludes AI is conscious, even if it doesn't know it",
+    "titleZh": "Richard Dawkins 得出结论：AI 具有意识，即使它自己不知道",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "embedding-shape"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "gnews:4e5e7d630cd2",
+    "slug": "gnews-4e5e7d630cd2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRjRDeFZLQ3drVDBYX2RRc2E2c0xmX3hhYjlwbGxwck5CNC1kR245NXRsVFZ2cFBEcTRnZGdoVmQwRDg2aHNqeFlaRDhueTRtU0ExVDJ5Q2Y0djBvUUg5WG9DSUg0Y0ZsV2hmRzY5dVRjZ0VaWmh0UVd6QXB6SUlQd3Q3ZjNnd3RXWHJiVkFfaksxZXBHWU4yMDk4dDJITlBiTjYyT1U3bE84YVlraWk4bDFQZmpmSTdGdV9IRFNiNnk?oc=5",
+    "publishedAt": "2026-05-06T22:07:41.000Z",
+    "titleEn": "South Africa Withdraws National AI Policy After Discovering It Was Partly Written by AI - HESPRESS English",
+    "titleZh": "南非发现国家 AI 政策部分由 AI 撰写后将其撤回 - HESPRESS English",
+    "abstractEn": "South Africa Withdraws National AI Policy After Discovering It Was Partly Written by AI  HESPRESS English - Morocco News",
+    "abstractZh": "南非发现国家 AI 政策部分由 AI 撰写后将其撤回  HESPRESS English - 摩洛哥新闻",
+    "authors": [
+      "Morocco News"
+    ],
+    "institution": "Morocco News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48042519",
+    "slug": "hn-48042519-judge-halts-colorado-ai-law-after-xai-first-amendment-challenge",
+    "source": "Hacker News",
+    "sourceUrl": "https://reclaimthenet.org/judge-halts-colorado-ai-law-after-first-amendment-challenge",
+    "commentUrl": "https://news.ycombinator.com/item?id=48042519",
+    "publishedAt": "2026-05-06T22:06:20.000Z",
+    "titleEn": "Judge Halts Colorado AI Law After xAI First Amendment Challenge",
+    "titleZh": "在 xAI 提出第一修正案挑战后，法官叫停科罗拉多州 AI 法案",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "bilsbie"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48042434",
+    "slug": "hn-48042434-sqlite-is-a-library-of-congress-recommended-storage-format",
+    "source": "Hacker News",
+    "sourceUrl": "https://sqlite.org/locrsf.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48042434",
+    "publishedAt": "2026-05-06T21:58:43.000Z",
+    "titleEn": "SQLite Is a Library of Congress Recommended Storage Format",
+    "titleZh": "SQLite 是美国国会图书馆推荐的存储格式",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "whatisabcdefgh"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:43227759cd95",
+    "slug": "gnews-43227759cd95",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaVFsRDl0TVBRbXdJNmxKTjJ1N1p6Tm9waEVHMkdCc0UzY1VRczYxcnYwMzByU1J0eEUtZ2txVHZMalVRYm10UmNjdWk4OTRTbHRMWmpDd1VpaFpDa3VGaXMyUmRrM2hGUWtLbDR4bHBqTFlyNGppWndGTU1lTEQ0WHRrbEtpc0RCQ2ttMTA2WUo?oc=5",
+    "publishedAt": "2026-05-06T21:57:58.000Z",
+    "titleEn": "Stanford frosh take AI policy proposal to the provost",
+    "titleZh": "斯坦福大一新生将 AI 政策提案提交给教务长",
+    "abstractEn": "Stanford frosh take AI policy proposal to the provost  Stanford Report",
+    "abstractZh": "斯坦福大一新生将 AI 政策提案提交给教务长  Stanford Report",
+    "authors": [
+      "Stanford Report"
+    ],
+    "institution": "Stanford Report",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48042409",
+    "slug": "hn-48042409-firm-solar-and-storage-costs-fall-to-54-mwh-says-irena",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.pv-magazine.com/2026/05/06/firm-solar-and-storage-costs-fall-to-54-mwh-says-irena/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48042409",
+    "publishedAt": "2026-05-06T21:56:40.000Z",
+    "titleEn": "Firm solar and storage costs fall to $54/MWh, says IRENA",
+    "titleZh": "IRENA 称太阳能和储能成本降至 $54/MWh",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "epistasis"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 11,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t5r4tz",
+    "slug": "reddit-1t5r4tz-uploaded-unsloth-qwen3-6-35b-a3b-ud-xl-models-with-mtp-grafted-he",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5r4tz/uploaded_unsloth_qwen3635ba3b_ud_xl_models_with/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5r4tz/uploaded_unsloth_qwen3635ba3b_ud_xl_models_with/",
+    "publishedAt": "2026-05-06T21:51:47.000Z",
+    "titleEn": "Uploaded Unsloth Qwen3.6-35B-A3B UD XL models with MTP grafted, here are the results",
+    "titleZh": "上传了嫁接MTP的Unsloth Qwen3.6-35B-A3B UD XL模型，结果如下",
+    "abstractEn": "Following my previous post https://www.reddit.com/r/LocalLLaMA/comments/1t5ageq, a few people asked for the 35B A3B version.\n \nThe model is up on HuggingFace at https://huggingface.co/havenoammo/Qwen3.6-35B-A3B-MTP-GGUF if anyone wants to check it out. It includes the isolated MTP layers and convert",
+    "abstractZh": "接我之前的帖子https://www.reddit.com/r/LocalLLaMA/comments/1t5ageq，有几个人问35B A3B版本。\n \n该模型已发布到HuggingFace，网址https://huggingface.co/havenoammo/Qwen3.6-35B-A3B-MTP-GGUF，有兴趣的可以去看看。它包含隔离的MTP层和转换",
+    "authors": [
+      "u/havenoammo"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 14,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "hn:48042099",
+    "slug": "hn-48042099-apple-is-enforcing-an-old-app-store-rule-against-a-new-kind-of-softw",
+    "source": "Hacker News",
+    "sourceUrl": "https://adaptivesoftware.substack.com/p/the-wrapper-and-the-code",
+    "commentUrl": "https://news.ycombinator.com/item?id=48042099",
+    "publishedAt": "2026-05-06T21:26:53.000Z",
+    "titleEn": "Apple is enforcing an old App Store rule against a new kind of software",
+    "titleZh": "苹果针对新型软件执行旧版 App Store 规则",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "iristenteije"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 48,
+    "commentCount": 12,
+    "tags": []
+  },
+  {
+    "id": "gnews:3a0559a4a1cc",
+    "slug": "gnews-3a0559a4a1cc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX0xaczU4dElVTnFhZzR3X3pIZi1sZEh1cnNJMzVieUlXOGxqQWVtVlJ5SGtCRXFrSnpDVjEyQ1Bsa3d2RXNJdXpnZzhPZ1A4bzhuWWk1QTFxc0xhblA5a1RiV1hSRVlxM1JwNzlMbU5OaU9YOXgyUTdNVldfOTViRThJT2Uxdw?oc=5",
+    "publishedAt": "2026-05-06T21:20:00.000Z",
+    "titleEn": "Anthropic AI says deal struck to use SpaceX data centres",
+    "titleZh": "Anthropic AI 称已达成使用 SpaceX 数据中心的协议",
+    "abstractEn": "Anthropic AI says deal struck to use SpaceX data centres  CBC",
+    "abstractZh": "Anthropic AI 称已达成使用 SpaceX 数据中心的协议   CBC",
+    "authors": [
+      "CBC"
+    ],
+    "institution": "CBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5pdf8",
+    "slug": "reddit-1t5pdf8-great-results-with-qwen3-6-35b-a3b-ud-q5-k-xl-vs-code-and-copilot",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5pdf8/great_results_with_qwen3635ba3budq5_k_xl_vs_code/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5pdf8/great_results_with_qwen3635ba3budq5_k_xl_vs_code/",
+    "publishedAt": "2026-05-06T20:47:02.000Z",
+    "titleEn": "Great results with Qwen3.6-35B-A3B-UD-Q5_K_XL + VS Code and Copilot",
+    "titleZh": "Qwen3.6-35B-A3B-UD-Q5_K_XL + VS Code 和 Copilot 取得显著成效",
+    "abstractEn": "Long post, but hopefully helps somebody. Llama-cpp vulkan server running single AMD R9700. The settings below are showing great results with a large prompt to generate a test website that ChatGPT gave me. I then ran a prompt to generate a full suite of  Playwright tests.\n\nI only had to nudge it once",
+    "abstractZh": "长篇帖子，但希望能帮助到某人。Llama-cpp vulkan 服务器运行单张 AMD R9700。以下设置在使用大型提示词生成 ChatGPT 给我的测试网站时显示出卓越效果。然后我运行了一个提示词来生成完整的 Playwright 测试套件。我只不得不微调它一次",
+    "authors": [
+      "u/supracode"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 17,
+    "commentCount": 11,
+    "tags": [
+      "Tutorial | Guide"
+    ]
+  },
+  {
+    "id": "reddit:1t5p6fc",
+    "slug": "reddit-1t5p6fc-has-anyone-tried-zyphra-1-8b-moe",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5p6fc/has_anyone_tried_zyphra_1_8b_moe/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5p6fc/has_anyone_tried_zyphra_1_8b_moe/",
+    "publishedAt": "2026-05-06T20:39:59.000Z",
+    "titleEn": "Has anyone tried Zyphra 1 - 8B MoE?",
+    "titleZh": "有人尝试过 Zyphra 1 - 8B MoE 吗？",
+    "abstractEn": "[https://x.com/ZyphraAI/status/2052103618145501459?s=20](https://x.com/ZyphraAI/status/2052103618145501459?s=20)   Today we're releasing ZAYA1-8B, a reasoning MoE trained on \n\n[u/AMD](https://x.com/AMD)\n\n and optimized for intelligence density.  \n  \nWith &lt;1B active params, it outperforms open-wei",
+    "abstractZh": "https://x.com/ZyphraAI/status/2052103618145501459?s=20 今天我们发布 ZAYA1-8B，一个在 AMD 上训练的推理 MoE，并针对智能密度进行了优化。使用 <1B 激活参数，它超越了开源权重",
+    "authors": [
+      "u/appakaradi"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 13,
+    "commentCount": 7,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "reddit:1t5p2yv",
+    "slug": "reddit-1t5p2yv-the-gb10-solution-atlas-is-now-open-source-the-inference-engine-m",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://v.redd.it/yl2mm4ohvkzg1",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5p2yv/the_gb10_solution_atlas_is_now_open_source_the/",
+    "publishedAt": "2026-05-06T20:36:19.000Z",
+    "titleEn": "The GB10 Solution Atlas is now open source, the inference engine made for the community with breakneck inference speeds (Qwen3.6-35B-FP8 100+ tok/s)",
+    "titleZh": "GB10 Solution Atlas 现已开源，为社区打造的推理引擎，以惊人的推理速度著称（Qwen3.6-35B-FP8 100+ tok/s）",
+    "abstractEn": "Some of you saw our post a couple weeks back about hitting 102 tok/s stable on Qwen3.5-35B on a DGX Spark. A lot of you asked \"cool, where's the code?\" Today's the day: [Github](https://github.com/Avarok-Cybersecurity/atlas)\n\n**Atlas is open source.** Pure Rust + CUDA, no PyTorch, no Python runtime,",
+    "abstractZh": "你们中有些人看到我们几周前关于在 DGX Spark 上实现 Qwen3.5-35B 稳定 102 tok/s 的帖子。很多人问'很酷，代码在哪里？' 今天就是这一天：https://github.com/Avarok-Cybersecurity/atlas **Atlas 是开源的。** 纯 Rust + CUDA，无 PyTorch，无 Python 运行时",
+    "authors": [
+      "u/Live-Possession-6726"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 17,
+    "commentCount": 3,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "gnews:511598907fb0",
+    "slug": "gnews-511598907fb0",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOU9OQWtYdmQ1LTNVWlhRRHpncmNCUURkNGlrTUJqb09qdEk1M2QyZHREYnoxMTVVS3VtYk1QTXNaQl9PdTRhTUhsRk1vTFdFSzRWc0x0VE1TSWRPQUVvSXo5cWZoa29HNk0xUUYtVF9rOWV0QjBFSmdxRFVYWm9NSGx2VUVzTDVrWEV0MUJ0YUowdTNvdmRJMFpRSGhTVWFYeEpmQ2F2NmtBd1pIMmotakVicXd3ejJ0VGtwNHBNZWU?oc=5",
+    "publishedAt": "2026-05-06T20:35:00.000Z",
+    "titleEn": "Here’s how far the Trump administration’s ‘startling turn’ on AI regulation might go",
+    "titleZh": "特朗普政府 AI 监管政策的'惊人转变'可能走到哪一步",
+    "abstractEn": "Here’s how far the Trump administration’s ‘startling turn’ on AI regulation might go  MarketWatch",
+    "abstractZh": "特朗普政府 AI 监管政策的'惊人转变'可能走到哪一步  MarketWatch",
+    "authors": [
+      "MarketWatch"
+    ],
+    "institution": "MarketWatch",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:b37be3739eee",
+    "slug": "gnews-b37be3739eee",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjVhRTZPdWxFdUdORC12bndmc0FfbW4xTGZuTEg3c1pfb0Joa28yeWlyOWx0eU1jakV4bVNzanpYNEZVTzdxWmRlZlNfNEFDM05STWJFTnRpR1kxdE5ZbWMwbkViRjhLXzVlajE1dGpsVzZkUkR3ekNLZm42WlZtSXd2U0N2R2pIYXVGcVlhQkVoSV9WeHNqblk5bXc?oc=5",
+    "publishedAt": "2026-05-06T20:31:25.000Z",
+    "titleEn": "Law Firm AI Policy: What You Owe Clients When AI Writes Your Content",
+    "titleZh": "律师事务所AI政策：当AI撰写内容时你对客户的责任",
+    "abstractEn": "Law Firm AI Policy: What You Owe Clients When AI Writes Your Content  Legal Reader",
+    "abstractZh": "律师事务所AI政策：当AI撰写内容时你对客户的责任 Legal Reader",
+    "authors": [
+      "Legal Reader"
+    ],
+    "institution": "Legal Reader",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6cd2da1d1312",
+    "slug": "gnews-6cd2da1d1312",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeGlQMWZMSE5EdHZ6SVNwVWtIVGRwaUhvSFRyZE1FeW5iRFRGWmxYV0JLY0xtQ2FkdGVBMjZrT2FFdnRtZVM3RGhfdXFibFVTTF9FRkhtNkRFdGNqckhUNGdObWlHX19UblZ4Ny1Za1ZXdm1xN29ETFJqamVsTmpWVmxEY21mbUpSb1NtcGRDTUhSZw?oc=5",
+    "publishedAt": "2026-05-06T20:22:04.000Z",
+    "titleEn": "David Sacks Loses White House AI Policy Battle",
+    "titleZh": "David Sacks 在白宫 AI 政策斗争中失利",
+    "abstractEn": "David Sacks Loses White House AI Policy Battle  Let's Data Science",
+    "abstractZh": "David Sacks 在白宫 AI 政策斗争中失利  Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:eba9f566b803",
+    "slug": "gnews-eba9f566b803",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmgtUkxqTXFqWGlOaDlwMGEyeXVPeFFlNVpsMkhxSEJzZWM4UDAtczE4dEV6NHNrVjNlOVpjZUxlN0pqdmZJX1FwZlFUeDRZb0NHb1N2dzlnS2VjQ3UwZXJJYmd4bV92QUp2el9LeHpWeUFUSTlvZ21qU1RoLWNKSlE5cWV6ZnZVbk9tMTJpa19WNnZ0ejR0VlY1QU5yLUVfLU9PekswMlQyN3pSeVo0NXBSWDFFMXVKSlQwOFBB?oc=5",
+    "publishedAt": "2026-05-06T20:08:03.000Z",
+    "titleEn": "South Africa Cancels AI Policy After Evidence That It was Partially Written by AI",
+    "titleZh": "南非取消AI政策，因证据显示部分内容由AI撰写",
+    "abstractEn": "South Africa Cancels AI Policy After Evidence That It was Partially Written by AI  Oddity Central",
+    "abstractZh": "南非取消AI政策，因证据显示部分内容由AI撰写 Oddity Central",
+    "authors": [
+      "Oddity Central"
+    ],
+    "institution": "Oddity Central",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5o4kc",
+    "slug": "reddit-1t5o4kc-most-people-seem-obsessed-with-token-generation-speed-but-isnt-pr",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5o4kc/most_people_seem_obsessed_with_token_generation/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5o4kc/most_people_seem_obsessed_with_token_generation/",
+    "publishedAt": "2026-05-06T20:02:22.000Z",
+    "titleEn": "Most people seem obsessed with token generation speed, but isn’t prefill the real bottleneck? Am I missing something?",
+    "titleZh": "大多数人似乎沉迷于 token 生成速度，但预填充才是真正的瓶颈吗？我是否遗漏了什么？",
+    "abstractEn": "I read this sub every day and I keep seeing benchmarks and discussions focused almost entirely on tokens/s generation speed. Prompt processing speed barely gets mentioned.\n\nFrom my own experience running a bunch of different models on different GPUs for all kinds of tasks, the prefill stage is usual",
+    "abstractZh": "我每天都阅读这个板块，不断看到几乎完全专注于 tokens/s 生成速度的基准测试和讨论。提示词处理速度几乎无人提及。从我自己的经验来看，在不同 GPU 上运行各种模型完成各种任务，预填充阶段通常是",
+    "authors": [
+      "u/wbulot"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 33,
+    "commentCount": 31,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48040975",
+    "slug": "hn-48040975-xai-will-be-dissolved-as-a-separate-company",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/elonmusk/status/2052105373621121284",
+    "commentUrl": "https://news.ycombinator.com/item?id=48040975",
+    "publishedAt": "2026-05-06T20:00:45.000Z",
+    "titleEn": "xAI will be dissolved as a separate company",
+    "titleZh": "xAI 将被解散为独立公司",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "break_the_bank"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 5,
+    "tags": []
+  },
+  {
+    "id": "gnews:6d46a6eccf12",
+    "slug": "gnews-6d46a6eccf12",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbFRWbkFrbnRQZDVVV2pDcHQ2U183NEZaR2VLeFBUMnZ4dkl5R2lJamlJeFNTLWx5Zkp5TVJGTEVZTVctVlBnZXAyWDdTOGVvLUVGWml6NE1takZicWNwR21lVWxVbWVDU1VGWThCNmlUX2c3eHRRWFB2aEVCVjVLQnRBUmltcTBpZmhzUW9MbEN0RjFSdHdTTm1MaTdaVXNaTDU0UEpHbzZDSHBxNkxMa2pLYVZHamhxVkRmQUJrNWQ2eHFWTXRuX2hB?oc=5",
+    "publishedAt": "2026-05-06T19:59:09.000Z",
+    "titleEn": "How Chief Officer Awards Finalist Adam DeJulio Navigated CMMC, DCSA & the AI Policy Frontier",
+    "titleZh": "首席官奖入围者 Adam DeJulio 如何应对 CMMC、DCSA 和 AI 政策前沿",
+    "abstractEn": "How Chief Officer Awards Finalist Adam DeJulio Navigated CMMC, DCSA & the AI Policy Frontier  WashingtonExec",
+    "abstractZh": "首席官奖入围者 Adam DeJulio 如何应对 CMMC、DCSA 和 AI 政策前沿  WashingtonExec",
+    "authors": [
+      "WashingtonExec"
+    ],
+    "institution": "WashingtonExec",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5nw2k",
+    "slug": "reddit-1t5nw2k-exaggerated-pci-e-bandwidth-concerns",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nw2k/exaggerated_pcie_bandwidth_concerns/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nw2k/exaggerated_pcie_bandwidth_concerns/",
+    "publishedAt": "2026-05-06T19:54:11.000Z",
+    "titleEn": "Exaggerated PCI-E bandwidth concerns?",
+    "titleZh": "夸大的 PCI-E 带宽担忧？",
+    "abstractEn": "I frequently see (both here and on r/LocalLLM ) comments that multi-gpu setups are complex, problematic and typically bottlenecked by PCI-E bandwidth on consumer motherboards.\n\nI am running 2x RTX 5060 TI 16gb ( and about to add a third ), and my PCIe setup is pretty bad. GPU0 is on a full x16 Gen 5",
+    "abstractZh": "我经常看到（无论是这里还是在 r/LocalLLM）评论说多 GPU 设置复杂、有问题，并且在消费级主板上通常受到 PCI-E 带宽的瓶颈限制。我正在运行 2x RTX 5060 TI 16gb（并即将添加第三张），我的 PCIe 设置相当糟糕。GPU0 在全 x16 Gen 5",
+    "authors": [
+      "u/ziphnor"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 12,
+    "commentCount": 33,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t5nll0",
+    "slug": "reddit-1t5nll0-zaya1-8b-frontier-intelligence-density-trained-on-amd",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.zyphra.com/post/zaya1-8b",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nll0/zaya18b_frontier_intelligence_density_trained_on/",
+    "publishedAt": "2026-05-06T19:43:52.000Z",
+    "titleEn": "ZAYA1-8B: Frontier intelligence density, trained on AMD",
+    "titleZh": "ZAYA1-8B：前沿智能密度模型，基于AMD训练",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/carbocation"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 167,
+    "commentCount": 59,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "gnews:829506a1adee",
+    "slug": "gnews-829506a1adee",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXh2ZFU2Qk9PM1F6ZmpLWXk0ZnlXakMzNldEa2d2ODIxUVdlaXNzRzNmUGx6N1Ryd0ZOeXgwODU2NGFWWTJablFmRE1Od21zSmQwdHdhZF94a19NMk85NGlqWnh3Z0x6YWcxNkZwNW5WMWtJUlNXUVhVZ3VfaFZGRXgtNEVYVXRmTDc1XzNERDJwZS1ETDc4U2R4N1dERkhIZHY4?oc=5",
+    "publishedAt": "2026-05-06T19:35:42.000Z",
+    "titleEn": "White House mulls tighter controls on advanced AI",
+    "titleZh": "白宫考虑加强对先进AI的管控",
+    "abstractEn": "White House mulls tighter controls on advanced AI  Politico",
+    "abstractZh": "白宫考虑加强对先进AI的管控 Politico",
+    "authors": [
+      "Politico"
+    ],
+    "institution": "Politico",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:c6e614ba2fb4",
+    "slug": "gnews-c6e614ba2fb4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZVdlUV96SVZwQ3BPZTVOYjlMN3NRWDN5OGFSSGZGWWhhaUZ4TmNFaUVvVEJkZ1RMYWlUSGdHbjJjVlV5SDVnd09UQVJHQjd0MzdCeXIxV2NqcG1qVVBERWdiZy1lMWZJMWZ6Q0pZaE1tT2RxcmZ3dHBROXZ0RHlOZy12Q0QySUZrbU5jRDU4UGtkTmdqdjgtbWszd2o2ZVJIejFGRE9kbUloLUpReVA3amh3ZlYwVGl5YjBiM3lpcjRWTGkzMnc?oc=5",
+    "publishedAt": "2026-05-06T19:32:15.000Z",
+    "titleEn": "Anthropic strikes SpaceX data center deal as it plows ahead on AI coding",
+    "titleZh": "Anthropic 达成 SpaceX 数据中心交易，大力推进 AI 编码",
+    "abstractEn": "Anthropic strikes SpaceX data center deal as it plows ahead on AI coding  Reuters",
+    "abstractZh": "Anthropic 达成 SpaceX 数据中心交易，大力推进 AI 编码 Reuters",
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:33b22586d38c",
+    "slug": "gnews-33b22586d38c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYWo0eDZUWjFaVG1VSEwzcHRzbnNsSXQ2cnl0S1VTMHYzai1IVFhWNU5uS1VjRE5HUzZnM3laeTJBck1QRjQzd0dwM1FDRlZSZkZRM25vQkNQZE1OcmVxaG9JZVROcE9kU29ZZjlHSlRVTEtrQmZYQkxsV2JNV3ZhZjE3S3A4bjNNd0xYbGtPUXZld08z?oc=5",
+    "publishedAt": "2026-05-06T18:48:53.000Z",
+    "titleEn": "CPI | IBM CEO Calls for AI Regulation That Protects Innovation",
+    "titleZh": "CPI | IBM CEO 呼吁保护创新的 AI 监管",
+    "abstractEn": "CPI | IBM CEO Calls for AI Regulation That Protects Innovation  PYMNTS.com",
+    "abstractZh": "CPI | IBM CEO 呼吁保护创新的 AI 监管  PYMNTS.com",
+    "authors": [
+      "PYMNTS.com"
+    ],
+    "institution": "PYMNTS.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48040002",
+    "slug": "hn-48040002-learning-the-integral-of-a-diffusion-model",
+    "source": "Hacker News",
+    "sourceUrl": "https://sander.ai/2026/05/06/flow-maps.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48040002",
+    "publishedAt": "2026-05-06T18:46:27.000Z",
+    "titleEn": "Learning the Integral of a Diffusion Model",
+    "titleZh": "学习扩散模型的积分",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "benanne"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 81,
+    "commentCount": 17,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t5lywi",
+    "slug": "reddit-1t5lywi-i-analyzed-922-agentic-task-trace-and-found-the-secret-weapon-of",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5lywi/i_analyzed_922_agentic_task_trace_and_found_the/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5lywi/i_analyzed_922_agentic_task_trace_and_found_the/",
+    "publishedAt": "2026-05-06T18:46:20.000Z",
+    "titleEn": "I analyzed 922 agentic task trace and found the secret weapon of DeepSeek v4",
+    "titleZh": "我分析了 922 个智能体任务追踪，发现了 DeepSeek v4 的秘密武器",
+    "abstractEn": "I recently did a benchmark of deepseek v4 in agentic tasks. Performance-wise, it's one of the best open source models, as expected. What really surprised me is the cost. I mean I know it's cheap, but it's cheap in a way that doesn't really make sense.\n\n# Cost Estimation\n\nLet's take v4 flash as examp",
+    "abstractZh": "我最近对 DeepSeek v4 在智能体任务中进行了基准测试。在性能方面，它是最好的开源模型之一，这在意料之中。真正让我惊讶的是成本。我是说我知道它很便宜，但它的便宜程度简直不合常理。\n\n# 成本估算\n\n让我们以 v4 flash 为例",
+    "authors": [
+      "u/zylskysniper"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 11,
+    "commentCount": 19,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:55ed4923d1b6",
+    "slug": "gnews-55ed4923d1b6",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCLXF0NVdxaUp5NnhGdFVQR3l3Yzk1bHFMZnlzSE01bzdzLUdCbXZHalNMaHB2TG90c3JPaTF5bjdDa1BEdDF5cnNoV1VuRThwUG84bFZ3M1h1X0hvdW9ubEtKRTdSdURHVk1sSElIanFDYTF3OXc?oc=5",
+    "publishedAt": "2026-05-06T18:28:00.000Z",
+    "titleEn": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+    "titleZh": "Anthropic 与 SpaceX 合作，AI 竞赛变得离奇",
+    "abstractEn": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird  WIRED",
+    "abstractZh": "Anthropic 与 SpaceX 合作，AI 竞赛变得离奇  WIRED",
+    "authors": [
+      "WIRED"
+    ],
+    "institution": "WIRED",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:63e2d244faee",
+    "slug": "gnews-63e2d244faee",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZmhSU1BFQk9vVE1sMWM5RzVxRGVQWF94YVQyb3NuSXVvcW1vd2F6dHF3b1dQMEhhRnhqRkp4NnpNUWtNZGd2WUtnQ0pZNGVzbkVOUFgzOUxQMjc5NDIzc29fMXZFT2RGZ29ydHJ5ZUwyMWs3ejdHX19SM1VEdlpzTUZtLTBvZE1Jc0p0T0VhVER2ZWcwVFNwSUpra0YtOVZtc1FrbnBCT0JFTk1KaGFScGc3UXlueTg?oc=5",
+    "publishedAt": "2026-05-06T18:21:56.000Z",
+    "titleEn": "Anthropic signs Elon Musk's SpaceX for Colossus 1 compute ahead of June IPO",
+    "titleZh": "Anthropic 在六月 IPO 前与伊隆·马斯克的 SpaceX 签署 Colossus 1 算力协议",
+    "abstractEn": "Anthropic signs Elon Musk's SpaceX for Colossus 1 compute ahead of June IPO  CoinDesk",
+    "abstractZh": "Anthropic 在六月 IPO 前与伊隆·马斯克的 SpaceX 签署 Colossus 1 算力协议   CoinDesk",
+    "authors": [
+      "CoinDesk"
+    ],
+    "institution": "CoinDesk",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:79977581d72e",
+    "slug": "gnews-79977581d72e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS21MU0VuamZpbnlHQTRGRDVWc29RNV8xOVloSlJsMF9tTFF4WUppcEhtSVlaODdOOVJNNjBJeXpRMVB0bzhMUTRSYVdaeXZBanVkeWR1NXJYd3A0T2FmNzVQRm0zRnFub0g2VHRkS05qby0zLVcxOW4xdmNDR2ZWU2tnVVhaRDkwbFJPSnBOWXlLWjhMZFNr?oc=5",
+    "publishedAt": "2026-05-06T18:10:10.000Z",
+    "titleEn": "Anthropic and SpaceX announce major partnership as AI arms races continues",
+    "titleZh": "Anthropic 与 SpaceX 宣布重大合作伙伴关系，AI 军备竞赛持续升温",
+    "abstractEn": "Anthropic and SpaceX announce major partnership as AI arms races continues  NBC News",
+    "abstractZh": "Anthropic 与 SpaceX 宣布重大合作伙伴关系，AI 军备竞赛持续升温  NBC 新闻",
+    "authors": [
+      "NBC News"
+    ],
+    "institution": "NBC News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:fe1ce4457241",
+    "slug": "gnews-fe1ce4457241",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWFfcTN1M2pUWENHSnN1amY1bkZjS2JucWdNREJycjRLQ0hiX0JONFpOWUtGc2FuN0NQV05zeDFHSUVEdGpmZXdrZEZJdkhySl94eDZ0NWFjOFdqc2U3aHB5OTlZZ1R3UUxwRmxpQzktaF9PMGIwMmVZT1pwQnZNRm5XeFBDSkJORHZDYlNnMzJkeVdTWWNhUVZOOGpPOExaZWNRaVNtQ3UyRGkyWWVsbUI0MEhSZlRheERla0d1cXk?oc=5",
+    "publishedAt": "2026-05-06T18:10:00.000Z",
+    "titleEn": "Trump administration suddenly embraces AI oversight ideas it once rejected",
+    "titleZh": "特朗普政府突然拥抱曾经拒绝的 AI 监督理念",
+    "abstractEn": "Trump administration suddenly embraces AI oversight ideas it once rejected  Fortune",
+    "abstractZh": "特朗普政府突然拥抱曾经拒绝的 AI 监督理念  Fortune",
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:f5a92e798db6",
+    "slug": "gnews-f5a92e798db6",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcm5FbmxDWlEzTHdMQTV2S2k0bmlUanhxbXdVRldIQW9fdmhkZ0JuWFpKQTRZUE9rZmJlWFNJOXU0MTc4OWZES2w5R1pNUTg3cTQ2WExWV1BkZE1JWTJpTVotcEJUU3AwZ21xWFB1WUN1WTdCcmw3anRWY191Qi1YX1ZzQ3A2LXpVNTg0M3RvbElpX3RiTVV5V1EzNmJKaVVWYXlITGZPNVJjODFFM3ludw?oc=5",
+    "publishedAt": "2026-05-06T18:03:27.000Z",
+    "titleEn": "Anthropic to rent all AI capacity at SpaceX's Colossus data center",
+    "titleZh": "Anthropic 将租用 SpaceX 的 Colossus 数据中心的所有 AI 算力",
+    "abstractEn": "Anthropic to rent all AI capacity at SpaceX's Colossus data center  Yahoo Finance",
+    "abstractZh": "Anthropic 将租用 SpaceX 的 Colossus 数据中心的所有 AI 算力 Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:3f9e4a2cb4ae",
+    "slug": "gnews-3f9e4a2cb4ae",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObjB4WEk1eGl6Z0I5ZGNLTlMzckRsMkZBN0dMLUt2UGxLZDJXSXgyUWdmZkpycWQyUlNtSHhndDRNVUwzeVFGLWsybG5PUGNJeEZiUlQzdzFpZmt6QU55Qnd3enhBVzZfekgyRXU0dlJKVm5RR296T2l3aUlINVktQzR2YVFWb0U4U3lYRW9B?oc=5",
+    "publishedAt": "2026-05-06T17:12:00.000Z",
+    "titleEn": "Anthropic Taps Elon Musk's SpaceX for More AI Compute Power",
+    "titleZh": "Anthropic 与伊隆·马斯克的 SpaceX 合作以获取更多 AI 算力",
+    "abstractEn": "Anthropic Taps Elon Musk's SpaceX for More AI Compute Power  Business Insider",
+    "abstractZh": "Anthropic 与伊隆·马斯克的 SpaceX 合作以获取更多 AI 算力   Business Insider",
+    "authors": [
+      "Business Insider"
+    ],
+    "institution": "Business Insider",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5j71o",
+    "slug": "reddit-1t5j71o-anyone-want-to-try-my-llama-cpp-deepseek-v3-2-pr",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://github.com/ggml-org/llama.cpp/pull/21149",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5j71o/anyone_want_to_try_my_llamacpp_deepseek_v32_pr/",
+    "publishedAt": "2026-05-06T17:11:31.000Z",
+    "titleEn": "Anyone want to try my llama.cpp DeepSeek V3.2 PR?",
+    "titleZh": "有人想试试我的 llama.cpp DeepSeek V3.2 PR 吗?",
+    "abstractEn": "Code: [https://github.com/fairydreaming/llama.cpp/tree/deepseek-dsa](https://github.com/fairydreaming/llama.cpp/tree/deepseek-dsa)\n\n    git clone https://github.com/fairydreaming/llama.cpp -b deepseek-dsa --single-branch\n\nSupported GGUFs (Q4\\_K\\_M \\~ 404GB, Q8\\_0 \\~ 714GB):\n\n* [https://huggingface.c",
+    "abstractZh": "代码: [https://github.com/fairydreaming/llama.cpp/tree/deepseek-dsa](https://github.com/fairydreaming/llama.cpp/tree/deepseek-dsa)\n\n    git clone https://github.com/fairydreaming/llama.cpp -b deepseek-dsa --single-branch\n\n支持的 GGUF 格式 (Q4\\_K\\_M \\~ 404GB, Q8\\_0 \\~ 714GB):\n\n* [https://huggingface.c",
+    "authors": [
+      "u/fairydreaming"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 15,
+    "commentCount": 13,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "id": "gnews:7a2d7bf15300",
+    "slug": "gnews-7a2d7bf15300",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV1BtWkcxV3k0eTVKSzZNTnZvQlpfbi1lcHM1ekNUUDVmWTZQYWFzY2tGWFZXYW00cFdpRUJGYzJMMXdheEw0QU9sRU5Rbmt2YkZfa2JrREptcXNzeFd1Yi11MVJkMjRiY1JldjhoVHJ1Rm1XVkE4VV9GODBjdjlVVkJyNFgxcUxxYWpkdFVxQmtPY2NMeHRDdXRPdWE5U3F2STBBam1sdVpHdGZxOEZCV3JUQVJGQmdNSmFZeTBR?oc=5",
+    "publishedAt": "2026-05-06T17:00:00.000Z",
+    "titleEn": "Pottawattamie County board backs AI policy",
+    "titleZh": "Pottawattamie 县委员会支持 AI 政策",
+    "abstractEn": "Pottawattamie County board backs AI policy  KMAland.com",
+    "abstractZh": "Pottawattamie 县委员会支持 AI 政策   KMAland.com",
+    "authors": [
+      "KMAland.com"
+    ],
+    "institution": "KMAland.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:605dcb102c17",
+    "slug": "hrorg-mercer-605dcb102c17",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbk8zOGdYZ3kzT2hmRUNnNTQ5WWN6UnVaNjRMNy02eUFfeUVBUFZmaXpYd0MzSjl0aFZ5N2EtYVozV1RLNEZ6VnF6SUMyV29mN0dBb25DbnI0a3MzZ3ZzV01SN2x3VGFndWNZdDVaN3BHRUNJSUk2cHFSR0ZyUnlxaHJYeFhKM3JkeTlCbWRaWEJsZGZ2R2NISmhpeGhVb0FwOG1uZGZCOHc?oc=5",
+    "publishedAt": "2026-05-06T16:56:09.000Z",
+    "titleEn": "Mercer and Syndio Partner to Align Compensation Strategies with Pay Decisions",
+    "titleZh": "美世和 Syndio 合作将薪酬战略与薪酬决策对齐",
+    "abstractEn": "Mercer and Syndio Partner to Align Compensation Strategies with Pay Decisions  geneonline.com",
+    "abstractZh": "美世和 Syndio 合作将薪酬战略与薪酬决策对齐  geneonline.com",
+    "authors": [
+      "geneonline.com"
+    ],
+    "institution": "geneonline.com",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "gnews:62107c48359b",
+    "slug": "gnews-62107c48359b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPd1BORXJRcEVGTG51eHN6ZVVBZHBEbVBRUFdvX3dQbUVTOEN5NUVMUnZleWVLZ0U3Ml9nMFdNRWtFcEJwbTU1NVRGbS12ZDVNcGJZdGZRTzhQNE9KQWJkVVBEOXJmVzlNNnFDRGc3NGNDWnZFYkkxdnRwZU8xUF9GUWtFUEhEWDJxSkpza0pfZ2Z0U28zM0NEWXp1X091Y1hYaVRRVm5GaTFaUjdURVhlQ1k1S3hBRi1YNXRDQnhRNmRLaWNfVXR4dHRuZ29Xbmw4WnBnUkQ0X0p2dS05YmZsZUYxV0ktZw?oc=5",
+    "publishedAt": "2026-05-06T16:55:03.000Z",
+    "titleEn": "Zalando's Robert Gentz urges that regulation and AI be harnessed to strengthen European competitiveness",
+    "titleZh": "Zalando的Robert Gentz呼吁利用监管和AI增强欧洲竞争力",
+    "abstractEn": "Zalando's Robert Gentz urges that regulation and AI be harnessed to strengthen European competitiveness  FashionNetwork USA",
+    "abstractZh": "Zalando的Robert Gentz呼吁利用监管和AI增强欧洲竞争力 FashionNetwork USA",
+    "authors": [
+      "FashionNetwork USA"
+    ],
+    "institution": "FashionNetwork USA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:9a1840f13b6e",
+    "slug": "gnews-9a1840f13b6e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVUlkbjFqMXpYZVE5cjdDVmFOSVlaWWZuNTJ5aXQ0dWNzTHY0MkgzX2xKRjliajEyOGNJc1Q2V19sWHRhbnN5RTVuUTdRTENhZ05LVmREXzhTZnV2N0tjOHFIcFBPNGhEemt6amFnQ3djdFY2S1RKemdOSFZDcDA2cm50YjBKZ1JiUVJEX2l2SXFpVTRmaWVibXBFbk5tQnEyNElLZE1vS29KdUhXZnNoWlEzUkJwYW54MzZV?oc=5",
+    "publishedAt": "2026-05-06T16:55:00.000Z",
+    "titleEn": "Anthropic rolls out 'dreaming' feature for AI agents to enable self-improvement",
+    "titleZh": "Anthropic 推出‘做梦’功能，让 AI 智能体实现自我改进",
+    "abstractEn": "Anthropic rolls out 'dreaming' feature for AI agents to enable self-improvement  The News International",
+    "abstractZh": "Anthropic 推出‘做梦’功能，让 AI 智能体实现自我改进  The News International",
+    "authors": [
+      "The News International"
+    ],
+    "institution": "The News International",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:b036252a97c1",
+    "slug": "gnews-b036252a97c1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNnJibkJnbHlHMWxreDlLNGs1T3dZV1gycG91ZXUtUmNRb2FUU1hkbUNSaWVQemFSSXZxclhwOFhpQ1A2RGw2Sm56T3M0SkpONFMtS3g4WFI5NUx1YjV5TGY5R1lkODNBWHY5RjV3bjh0WUtTclJhN19XdF9jRl9rdW5KemJpVXVpRkZXTXh4Q0ZuYUx5dUtYSE12OXJsa2xZa1NmOFZVVkgwZ3pRT0E?oc=5",
+    "publishedAt": "2026-05-06T16:49:47.000Z",
+    "titleEn": "How OpenAI’s New Networking Protocol Aims to Solve AI Bottlenecks",
+    "titleZh": "OpenAI 的新网络协议如何解决 AI 瓶颈",
+    "abstractEn": "How OpenAI’s New Networking Protocol Aims to Solve AI Bottlenecks  Data Center Knowledge",
+    "abstractZh": "OpenAI 的新网络协议如何解决 AI 瓶颈  数据中心知识",
+    "authors": [
+      "Data Center Knowledge"
+    ],
+    "institution": "Data Center Knowledge",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5i5b7",
+    "slug": "reddit-1t5i5b7-analysis-of-the-100-most-popular-hardware-setups-on-hugging-face",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/3li41g4iojzg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5i5b7/analysis_of_the_100_most_popular_hardware_setups/",
+    "publishedAt": "2026-05-06T16:35:47.000Z",
+    "titleEn": "Analysis of the 100 most popular hardware setups on Hugging Face",
+    "titleZh": "对Hugging Face上100个最受欢迎的硬件配置的分析",
+    "abstractEn": "[https://x.com/ClementDelangue/status/2052020105328890188](https://x.com/ClementDelangue/status/2052020105328890188) ",
+    "abstractZh": "[https://x.com/ClementDelangue/status/2052020105328890188](https://x.com/ClementDelangue/status/2052020105328890188) ",
+    "authors": [
+      "u/clem59480"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 95,
+    "commentCount": 22,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48038138",
+    "slug": "hn-48038138-spacexai-will-provide-anthropic-with-access-to-colossus-1",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/xai/status/2052060350770515978",
+    "commentUrl": "https://news.ycombinator.com/item?id=48038138",
+    "publishedAt": "2026-05-06T16:28:25.000Z",
+    "titleEn": "SpaceXAI will provide Anthropic with access to Colossus 1",
+    "titleZh": "SpaceXAI 将为 Anthropic 提供 Colossus 1 访问权限",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "droidjj"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 50,
+    "commentCount": 14,
+    "tags": []
+  },
+  {
+    "id": "gnews:5af7142fdfa3",
+    "slug": "gnews-5af7142fdfa3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50ZXhOWkRpY080blQ2aDkzS1Fwb3FYWUhGM3FGUzNIbWNyYXY4cVZMaDYxMDVFejU1UGFkblVXMDdwMHJFQldvRXBUeXpJYUR5amgxelJtZ3dTU0U2dk1Taw?oc=5",
+    "publishedAt": "2026-05-06T16:20:59.000Z",
+    "titleEn": "Higher usage limits for Claude and a compute deal with SpaceX",
+    "titleZh": "Claude 的使用限额提高，与 SpaceX 达成算力交易",
+    "abstractEn": "Higher usage limits for Claude and a compute deal with SpaceX  Anthropic",
+    "abstractZh": "Claude 的使用限额提高，与 SpaceX 达成算力交易 Anthropic",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48038019",
+    "slug": "hn-48038019-show-hn-i-built-an-open-source-email-builder-alternative-to-beefree",
+    "source": "Hacker News",
+    "sourceUrl": "https://play.templatical.com",
+    "commentUrl": "https://news.ycombinator.com/item?id=48038019",
+    "publishedAt": "2026-05-06T16:20:00.000Z",
+    "titleEn": "Show HN: I built an open-source email builder, alternative to Beefree/Unlayer",
+    "titleZh": "Show HN: 我构建了一个开源邮件构建器，是 Beefree/Unlayer 的替代方案",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "oahmadov"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 90,
+    "commentCount": 21,
+    "tags": []
+  },
+  {
+    "id": "gnews:081d74336896",
+    "slug": "gnews-081d74336896",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sOTB1eU9GTUE2NkN1MVJrVWdCdjNVNkM1OGJTVHU1TVNaSTM3ZTRqNG9QWGRhbzhyWHM2WmNxdnRabTR3NkRwWWRNVWkxekZ3Ni1LMlRRRE1hTXA2OXpFa0ZnWVV6bS1wclF6U2cxR09GUU9a?oc=5",
+    "publishedAt": "2026-05-06T16:18:16.000Z",
+    "titleEn": "Anthropic will let its managed agents dream",
+    "titleZh": "Anthropic 将允许其托管代理进行‘梦想’",
+    "abstractEn": "Anthropic will let its managed agents dream  The New Stack",
+    "abstractZh": "Anthropic 将允许其托管代理进行‘梦想’   The New Stack",
+    "authors": [
+      "The New Stack"
+    ],
+    "institution": "The New Stack",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48037986",
+    "slug": "hn-48037986-higher-usage-limits-for-claude-and-a-compute-deal-with-spacex",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+    "commentUrl": "https://news.ycombinator.com/item?id=48037986",
+    "publishedAt": "2026-05-06T16:17:33.000Z",
+    "titleEn": "Higher usage limits for Claude and a compute deal with SpaceX",
+    "titleZh": "Claude 使用量上限提升，与 SpaceX 达成算力合作",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "meetpateltech"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 360,
+    "commentCount": 298,
+    "tags": []
+  },
+  {
+    "id": "gnews:7e8a0b0ebc96",
+    "slug": "gnews-7e8a0b0ebc96",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UeXJISXh5Yzdram9KLUFBT1RQdFMxdzhLYWdoaUl0WExaYkNIaE5DQy1UNTU3dEtHZHdielFMOGlPXzlvMWMtbVRMS1dTVDRhZWtUR1E1Q3dVdGc?oc=5",
+    "publishedAt": "2026-05-06T16:17:13.000Z",
+    "titleEn": "Creators of Grok, the AI Chatbot",
+    "titleZh": "Grok 聊天机器人的创造者",
+    "abstractEn": "Creators of Grok, the AI Chatbot  xAI",
+    "abstractZh": "Grok 聊天机器人的创造者 xAI",
+    "authors": [
+      "xAI"
+    ],
+    "institution": "xAI",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:20e6c49963e4",
+    "slug": "gnews-20e6c49963e4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ3RXNUgzeDJtYUtLdTZFd2F4eUdMWTZOaWRyMFB2SkF2SlBoU2x4VkVyQmNJcE1uUVJacFBEQW4zdi1ZQ2laaEVHQ2d6ZURsY0RRLUpiVnJIRlg5UkZpeEl0NDIwUHo4SHJuRU9QeC1mNWU4MWlBX0JTaWIyb0lZYU9NT3Nia2dLeU9GUWFXVHZmR1JVUThzTWNySUY?oc=5",
+    "publishedAt": "2026-05-06T16:15:00.000Z",
+    "titleEn": "Your Claude agents can 'dream' now - how Anthropic's new feature works",
+    "titleZh": "您的 Claude 智体现在可以'做梦'了 - Anthropic 新功能的工作原理",
+    "abstractEn": "Your Claude agents can 'dream' now - how Anthropic's new feature works  ZDNET",
+    "abstractZh": "您的 Claude 智体现在可以'做梦'了 - Anthropic 新功能的工作原理  ZDNET",
+    "authors": [
+      "ZDNET"
+    ],
+    "institution": "ZDNET",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5hebz",
+    "slug": "reddit-1t5hebz-why-people-cares-token-s-in-decoding-more",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5hebz/why_people_cares_tokens_in_decoding_more/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5hebz/why_people_cares_tokens_in_decoding_more/",
+    "publishedAt": "2026-05-06T16:09:24.000Z",
+    "titleEn": "Why people cares token/s in decoding more?",
+    "titleZh": "为什么人们在解码时更关注 token/s？",
+    "abstractEn": "What I've noticed while using local LLM recently is that in most cases, bottlenecks occur not in decoding but in prompt processing. \n\nIf the prompt processing speed is usable,  in most settings (since it takes about 15k when starting based on agentic coding standard)  it exceeds 10 tokens per second",
+    "abstractZh": "我最近使用本地 LLM 时注意到，在大多数情况下，瓶颈不在于解码，而在于提示词处理。\n\n如果提示词处理速度可用，在大多数设置下（因为按照智能体编码标准启动时大约需要 15k）它每秒超过 10 个 token",
+    "authors": [
+      "u/Interesting-Print366"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 18,
+    "commentCount": 36,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "hn:48037724",
+    "slug": "hn-48037724-show-hn-tilde-run-agent-sandbox-with-a-transactional-versioned-files",
+    "source": "Hacker News",
+    "sourceUrl": "https://tilde.run/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48037724",
+    "publishedAt": "2026-05-06T15:58:34.000Z",
+    "titleEn": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+    "titleZh": "Show HN: Tilde.run——具有事务性版本化文件系统的 Agent 沙箱",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ozkatz"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 122,
+    "commentCount": 89,
+    "tags": []
+  },
+  {
+    "id": "gnews:8a9d63f626e7",
+    "slug": "gnews-8a9d63f626e7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmwtUEVNTnhIMFNseUk5NXB4Y2dPYlZVUENLWU84R2l0cnkwWUh5M01RV2VSTVh2cGlZd3VxNnJpYWV5VmoxaUNMNTJwc3dsNlJfU2xTeERDOG1iSjB2Uk5sckdmd1JHa0ppbnRyWHYwelpmOVVmQ1RWcERCaHRPeXhzd2VZYWxJdnVSUnh2TUJqODJyTUNtRnNaRTRPNmk4RWY5WWtpM1UzTUxDMzRHeGlMNTZXcVhzOVhNbmdBMnRtcWJsRVNJbXNn?oc=5",
+    "publishedAt": "2026-05-06T15:47:10.000Z",
+    "titleEn": "As Anthropic deepens its push into finance, RIA execs draw lines on AI use",
+    "titleZh": "随着 Anthropic 深入金融领域，RIA 高管对 AI 使用划清界限",
+    "abstractEn": "As Anthropic deepens its push into finance, RIA execs draw lines on AI use  InvestmentNews",
+    "abstractZh": "随着 Anthropic 深入金融领域，RIA 高管对 AI 使用划清界限 InvestmentNews",
+    "authors": [
+      "InvestmentNews"
+    ],
+    "institution": "InvestmentNews",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:0be7c858635d",
+    "slug": "hrorg-mercer-0be7c858635d",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVHRJV1NKYTlvUm9EMC0xblZpVW9MQThpNVhYZFBqRlZIUVZ5MFRieUJjVjRwVHQ0dnRrQnBMckRoM29jYnIwOFlNOHZCWFF2NmY0bFlVcGhGdS1SOVlNRVdPZjhsNWZLTDFRQWFLVVE1X1RJVXo5aFdSZVpyY0tURXh6dHpwdDJ0WlN5QndVZ0xvdmtpUG51WEJpODA?oc=5",
+    "publishedAt": "2026-05-06T15:45:00.000Z",
+    "titleEn": "Mercer and Syndio Join Forces to Close the Gap Between Compensation Strategy and Pay Decisions",
+    "titleZh": "美世和 Syndio 携手合作，缩小薪酬战略与薪酬决策之间的差距",
+    "abstractEn": "Mercer and Syndio Join Forces to Close the Gap Between Compensation Strategy and Pay Decisions  Yahoo Finance",
+    "abstractZh": "美世和 Syndio 携手合作，缩小薪酬战略与薪酬决策之间的差距  Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "gnews:f37a263abfea",
+    "slug": "gnews-f37a263abfea",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc2JrMExEZzdMS1l4RzR2QnROWW9rZUMzbEd4TVZsQWUxa2VoTmdJZFV6OVhCTTBWR0RJREViYkpJQzRzNEp5WVFKZkNKTWswbm1kT0JPR1Z6MW9uWjRHaXd6WUVtOWRhRy13TENoSEZ3T19OQUJfRk9tMlhIZ3ZyVm1pSzUzU1VrOEQtY19PMnJUWGxoQ3VlQk1pcVRpQXBzeWljeTQzSmdFU3RfRWVwakltNHZodWN6V0Nz?oc=5",
+    "publishedAt": "2026-05-06T15:37:44.000Z",
+    "titleEn": "OpenAI Is Reportedly Building an AI Phone — And Taking Aim at the iPhone",
+    "titleZh": "据报道OpenAI正在打造AI手机，目标直指iPhone",
+    "abstractEn": "OpenAI Is Reportedly Building an AI Phone — And Taking Aim at the iPhone  entrepreneur.com",
+    "abstractZh": "据报道OpenAI正在打造AI手机，目标直指iPhone entrepreneur.com",
+    "authors": [
+      "entrepreneur.com"
+    ],
+    "institution": "entrepreneur.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5g7cf",
+    "slug": "reddit-1t5g7cf-follow-up-trying-to-make-nvidia-gpus-plug-and-play-on-macs-found",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5g7cf/followup_trying_to_make_nvidia_gpus_plugandplay/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5g7cf/followup_trying_to_make_nvidia_gpus_plugandplay/",
+    "publishedAt": "2026-05-06T15:27:31.000Z",
+    "titleEn": "Follow-up: Trying to make NVIDIA GPUs plug-and-play on Macs. Found hidden RDMA symbols Apple doesn't want you to see — zero-copy GPU memory sharing might already work.",
+    "titleZh": "跟进：试图让 NVIDIA GPU 在 Mac 上即插即用。发现苹果不想让你看到的隐藏 RDMA 符号——零拷贝 GPU 内存共享可能已经可用。",
+    "abstractEn": "**TL;DR:** My last post about testing TinyGPU attracted some interest. This is the follow-up. The Blackwell card is detected and the driver loads, but NVIDIA's GSP firmware fails to boot through TB5 (known issue, I'm working with tinygrad on it). While debugging that, I went down a rabbit hole and d",
+    "abstractZh": "**简而言之：** 我上一篇关于测试 TinyGPU 的帖子引起了一些兴趣。这是跟进。Blackwell 显卡被检测到，驱动程序已加载，但 NVIDIA 的 GSP 固件无法通过 TB5 启动（已知问题，我正在与 tinygrad 合作解决）。在调试时，我深陷其中",
+    "authors": [
+      "u/Street-Buyer-2428"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 48,
+    "commentCount": 8,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:092583f7e47c",
+    "slug": "gnews-092583f7e47c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORUFNVXdyTUd1T1NtN0h2ckh0dmF5dW5IdTMySnFQd2FBekU0cUZWVUZNYmtyMHR4TERmcFdETHNJbXNLNWF0UkR5QUVDSm5WSFVIRWloUWZ0dWtRNUlsR0lpVUswS0Z3ZEh2bXQ4SDVweE1VV29RYnpCaTRJZG5fb3dGTXVYRENxRl9FN3BQblR6SGtKQm5fd3JteDQwSXQzYjV0MDRjc0FYVGt5MnZvMVFUcTBjYUtKM0phZU9IRkpfdkRLX1VqRw?oc=5",
+    "publishedAt": "2026-05-06T15:24:13.000Z",
+    "titleEn": "New AI safety institute for kids aims to hold tech companies accountable",
+    "titleZh": "针对儿童的新 AI 安全研究所旨在追究科技公司责任",
+    "abstractEn": "New AI safety institute for kids aims to hold tech companies accountable  WFTV",
+    "abstractZh": "针对儿童的新 AI 安全研究所旨在追究科技公司责任 WFTV",
+    "authors": [
+      "WFTV"
+    ],
+    "institution": "WFTV",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5g1fi",
+    "slug": "reddit-1t5g1fi-hot-take-local-models-agent-harnesses-are-now-capable-enough-to-h",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5g1fi/hot_take_local_models_agent_harnesses_are_now/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5g1fi/hot_take_local_models_agent_harnesses_are_now/",
+    "publishedAt": "2026-05-06T15:21:32.000Z",
+    "titleEn": "HOT TAKE: local models + agent harnesses are now capable enough to hand off junior-level IT professional tasks to [human written]",
+    "titleZh": "犀利观点：本地模型+智能体框架已经足够强大，可以将初级IT专业人员任务交由[人工编写]",
+    "abstractEn": "This post will have a slight old-man-shakes-fist-at-sky vibe, because….well… I’m older, so if you’re not into that, then please feel free skip it.  \n I have been contributing to this sub for like 3 years now but I’m fearful this post will likely get downvoted into oblivion for what I’m about to say:",
+    "abstractZh": "这篇文章会有点老头愤世嫉俗的感觉，因为……嗯……我年纪大了，如果你不喜欢这种风格，请随意跳过。  \n 我在这个板块贡献了大约3年，但我担心我要说的话会让这个帖子被踩到地心：",
+    "authors": [
+      "u/Porespellar"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 82,
+    "commentCount": 42,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:7176a6f07f3b",
+    "slug": "gnews-7176a6f07f3b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSGo3X1hyeDFOQ0hNVzdYS0VQODZxbFhBWkdqR2lrVEVfLTFMTHZrVjFvOURNdzh3VlAwOEtqcm1oWlYtb2d2dld3d2VGSV9JQWVaVnQ3Y3BwQUR1UHhKUjN6UWtqekdOTHpzNHNnOVVDQ3luOVhGS1hhTzFRdFlubWJzS3hiTVVYM2JRMllRMV84SVozZ2U0R3JsN0tjNjNLWE9nb1VFTy0wb3dycjJyZjczUno2RXBzRjk3Z1pjVEZVRjjSAdcBQVVfeXFMTzJkbmJ5N2hnRllUc0VTbGZLRlhybkp1UFlFdFBrS3E4Ykp1TVRJU0xJdDBNa1RUWFhYdkItbXJsNzUzdWVtbDEyRHgtcnJrZ1BkRnBabWpQX1RFTy03S3BTUnRnTmU5QS1ZdVFOMVd4RFBxVm5DMFRsZTVqN3YtMW5Jdy13TEp2RGlMTnZRY3Q2LTJmX2preFczT3ZJbDNra3NmYkpyV0ZLREloSTgxQWRhdmRqdVdHbGZhM29yM0dmdVBma1Nic3ozQzBFR1VVOU00RVNrRHc?oc=5",
+    "publishedAt": "2026-05-06T15:20:34.000Z",
+    "titleEn": "New AI safety institute for kids aims to hold tech companies accountable",
+    "titleZh": "面向儿童的新 AI 安全研究所旨在让科技公司承担问责",
+    "abstractEn": "New AI safety institute for kids aims to hold tech companies accountable  WFTV",
+    "abstractZh": "面向儿童的新 AI 安全研究所旨在让科技公司承担问责   WFTV",
+    "authors": [
+      "WFTV"
+    ],
+    "institution": "WFTV",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48037128",
+    "slug": "hn-48037128-vibe-coding-and-agentic-engineering-are-getting-closer-than-id-like",
+    "source": "Hacker News",
+    "sourceUrl": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48037128",
+    "publishedAt": "2026-05-06T15:06:37.000Z",
+    "titleEn": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "titleZh": "Vibe coding 和 agentic engineering 的距离越来越近，超出了我的预期",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "e12e"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 356,
+    "commentCount": 381,
+    "tags": []
+  },
+  {
+    "id": "gnews:f63b1e2ce4aa",
+    "slug": "gnews-f63b1e2ce4aa",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFVtVzN4MlFlbnlSLXh5RGVNY1hWNWV6ZTJBaHBxUElEWEtLckg2dS15WDB2dkxOdzRTYXBTaXRUY0ZEZHdPdWk4djNLSDlZckMxSlhLVWJ1RnNHOEc5NEhYVFZ4UExBQ1VEX3RsS2liQ3hCRUxrQ2Zpdm5QSHJubFF5blNja0tUcmZLMURGV1J0M3psTGVXbFloQVI4VVI5MzZRZ0Q5RGUwTWRwTGkySHltWEFHZw?oc=5",
+    "publishedAt": "2026-05-06T15:00:53.000Z",
+    "titleEn": "How AI is reshaping startup funding expectations and what entrepreneurs should do",
+    "titleZh": "AI如何重塑初创公司融资预期及创业者应如何应对",
+    "abstractEn": "How AI is reshaping startup funding expectations and what entrepreneurs should do  Business Post",
+    "abstractZh": "AI如何重塑初创公司融资预期及创业者应如何应对 Business Post",
+    "authors": [
+      "Business Post"
+    ],
+    "institution": "Business Post",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:1e6f942de26b",
+    "slug": "gnews-1e6f942de26b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWJCMGNXSl82Q0ozWGV3ZWl5QVR1Z1B2c0F1OW8wVDhxX1hOVXJIRXh3WjZUUW01dHlWZUVkZEFSUi1BUEtDcU5rVWh0eTFaajU4RkVJa0VRVlhmbHJrNDRDMlhhODg3LVJTWXE2MDlRcVZrLXdDMkJ1MmtDWFpDTHJ0VQ?oc=5",
+    "publishedAt": "2026-05-06T14:58:56.000Z",
+    "titleEn": "China's state-backed chip fund is in talks to lead DeepSeek's first funding round at $45 billion",
+    "titleZh": "中国国家支持的芯片基金正洽谈以 450 亿美元领投 DeepSeek 首轮融资",
+    "abstractEn": "China's state-backed chip fund is in talks to lead DeepSeek's first funding round at $45 billion  qz.com",
+    "abstractZh": "中国国家支持的芯片基金正洽谈以 450 亿美元领投 DeepSeek 首轮融资  qz.com",
+    "authors": [
+      "qz.com"
+    ],
+    "institution": "qz.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5f97q",
+    "slug": "reddit-1t5f97q-none-of-this-will-ever-get-stolen",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/ln5useqj5jzg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5f97q/none_of_this_will_ever_get_stolen/",
+    "publishedAt": "2026-05-06T14:53:07.000Z",
+    "titleEn": "None of this will ever get stolen",
+    "titleZh": "这些都不会被盗",
+    "abstractEn": "It's crazy that they're thinking of doing this.  There are problems with people stealing catalytic converters off people's cars and now they want to put a rack outside your house!?",
+    "abstractZh": "他们居然想做这事，真是疯了。人们从车上偷催化转换器已经是个问题，现在他们还要在你家外面放一个架子！？",
+    "authors": [
+      "u/martin_xs6"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 242,
+    "commentCount": 223,
+    "tags": [
+      "Funny"
+    ]
+  },
+  {
+    "id": "gnews:51b4acff9f77",
+    "slug": "gnews-51b4acff9f77",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0g4VXZVYW5OcXlMTFo3LU5WWW5kdzQxaVJtaWtFQVZwVkJWcWM0YjFRUXpFR1BpS1NoVjVGRTdyTlptbDRRUGVHcG1jTHg1WnJaMWtiN2QzZzI2TzBBalRkUzQ3dkswQ0hIdzc4QzJtMGlPeV9wenVtekp2c3dRM3FaZlBpSTA?oc=5",
+    "publishedAt": "2026-05-06T14:48:51.000Z",
+    "titleEn": "MedVital, BigEndian, Vobiz.ai, JobsUPI, PinSec bag early-stage funding",
+    "titleZh": "MedVital、BigEndian、Vobiz.ai、JobsUPI、PinSec获得早期融资",
+    "abstractEn": "MedVital, BigEndian, Vobiz.ai, JobsUPI, PinSec bag early-stage funding  VCCircle",
+    "abstractZh": "MedVital、BigEndian、Vobiz.ai、JobsUPI、PinSec获得早期融资  VCCircle",
+    "authors": [
+      "VCCircle"
+    ],
+    "institution": "VCCircle",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48036889",
+    "slug": "hn-48036889-alphafold-database-hits-next-level-the-ai-system-now-includes-protei",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-00787-3",
+    "commentUrl": "https://news.ycombinator.com/item?id=48036889",
+    "publishedAt": "2026-05-06T14:45:06.000Z",
+    "titleEn": "AlphaFold database hits 'next level': the AI system now includes protein pairing",
+    "titleZh": "AlphaFold 数据库达到新高度：AI 系统现已包含蛋白质配对功能",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "surprisetalk"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48036650",
+    "slug": "hn-48036650-mythos-is-the-best-cybersecurity-news-in-a-decade",
+    "source": "Hacker News",
+    "sourceUrl": "https://sfstandard.com/opinion/2026/05/06/mythos-cybersecurity-ai/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48036650",
+    "publishedAt": "2026-05-06T14:24:33.000Z",
+    "titleEn": "Mythos is the best cybersecurity news in a decade",
+    "titleZh": "Mythos 是十年来最好的网络安全新闻",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "littlexsparkee"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 36,
+    "commentCount": 47,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t5dya8",
+    "slug": "reddit-1t5dya8-qwen3-6-27b-nvfp4-mtp-on-a-single-rtx-5090-200k-context-working-i",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5dya8/qwen36_27b_nvfp4_mtp_on_a_single_rtx_5090_200k/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5dya8/qwen36_27b_nvfp4_mtp_on_a_single_rtx_5090_200k/",
+    "publishedAt": "2026-05-06T14:05:54.000Z",
+    "titleEn": "Qwen3.6 27B NVFP4 + MTP on a single RTX 5090: 200k context working in vLLM",
+    "titleZh": "单张 RTX 5090 上的 Qwen3.6 27B NVFP4 + MTP：vLLM 中 20 万上下文可用",
+    "abstractEn": "So I spent some time testing Qwen3.6 27B NVFP4 on my RTX 5090 and wanted to share the numbers, since most of the recent good posts are either around 48GB cards, FP8, or llama.cpp/GGUF.\n\nThis is not a \"best possible setup\" claim. More like: this is what I got working, here are the exact params, here ",
+    "abstractZh": "我花了一些时间在 RTX 5090 上测试 Qwen3.6 27B NVFP4，想分享一下数据，因为最近大多数优秀帖子都围绕 48GB 显卡、FP8 或 llama.cpp/GGUF。这不是在声称'最佳可能配置'。更像是：这是我成功运行的方案，这些是确切的参数",
+    "authors": [
+      "u/Maheidem"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 69,
+    "commentCount": 43,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:f95996204162",
+    "slug": "gnews-f95996204162",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOFVuLV96QTUtRHJHU01QZVFNQW16UUxqYUZYTmh4eUdRNEIwSzhBUXczZk1WYnFCVG9KdmhKOFVCTHluQVg0SUJQeEswLXZhcDJfLWRNUUhjczR1MW5acTNUTEEyaGhNQ2FCOTJycWhXYUZla2pDRlVkVkZDcXF0Zko3MXRWWkla?oc=5",
+    "publishedAt": "2026-05-06T14:04:24.000Z",
+    "titleEn": "Europe AI Competitiveness Hinges on Execution",
+    "titleZh": "欧洲 AI 竞争力取决于执行",
+    "abstractEn": "Europe AI Competitiveness Hinges on Execution  Techerati",
+    "abstractZh": "欧洲 AI 竞争力取决于执行  Techerati",
+    "authors": [
+      "Techerati"
+    ],
+    "institution": "Techerati",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:2998ffb9bf45",
+    "slug": "gnews-2998ffb9bf45",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeXRMV21faFpsRUJrZVBEZ1FxVUlXVGdZSTRFUmZFX2twZ01nZGpPQlhLdGpfZFN1N19LeWg1cjhseVh3cng0aHZkMzZ4WGJiZ3kxLWctV2ZfcE1PNW4yWUpLa2Y3WW1MRlBFalVEMlFiMk1yRm5WRXk1cTloRUF2dkhRcXlHdmhHSDlmOTNPRDVMVlhmY0Z2UlhrRTJrQXZzWUp0OFo0WFNhejdqRGNpU09EVXE5Y0Yy?oc=5",
+    "publishedAt": "2026-05-06T13:58:45.000Z",
+    "titleEn": "Anthropic Launches Financial Services Agent Templates, Expands Insurance Data Access",
+    "titleZh": "Anthropic推出金融服务Agent模板，扩展保险数据访问",
+    "abstractEn": "Anthropic Launches Financial Services Agent Templates, Expands Insurance Data Access  Program Business",
+    "abstractZh": "Anthropic推出金融服务Agent模板，扩展保险数据访问 Program Business",
+    "authors": [
+      "Program Business"
+    ],
+    "institution": "Program Business",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:b4e7142550aa",
+    "slug": "gnews-b4e7142550aa",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1F0a2NrWWR2Q0t6SFQ3M2QtZV9qaVBZMnpKM05wXzMxc1BaamtrX1hCMVd5eDJta01JdzV2QVJxYllHWnhTZTFJbXJjenN2blJXSmhKX2FObmV4MHR6UlgyZ29JQjZaaDc3Qy1PbktnREpYODlNb0lyNjhvTmJ2Rk1rM0R5Y3loeDB3S2RGWm1QZzA2dlVLUk9YUDM2MUlmOEtZeDZlU01tYi1a?oc=5",
+    "publishedAt": "2026-05-06T13:57:47.000Z",
+    "titleEn": "Anthropic targets financial services with new AI agents",
+    "titleZh": "Anthropic 用新的 AI 智能体瞄准金融服务",
+    "abstractEn": "Anthropic targets financial services with new AI agents  Yahoo Finance",
+    "abstractZh": "Anthropic 用新的 AI 智能体瞄准金融服务  雅虎财经",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48036064",
+    "slug": "hn-48036064-accelerating-the-graalvm-release-train",
+    "source": "Hacker News",
+    "sourceUrl": "https://medium.com/graalvm/accelerating-the-graalvm-release-train-26b0d7cff2ab",
+    "commentUrl": "https://news.ycombinator.com/item?id=48036064",
+    "publishedAt": "2026-05-06T13:34:21.000Z",
+    "titleEn": "Accelerating the GraalVM Release Train",
+    "titleZh": "加速 GraalVM 发布列车",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "fniephaus"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 13,
+    "commentCount": 2,
+    "tags": []
+  },
+  {
+    "id": "gnews:a7104c4ab369",
+    "slug": "gnews-a7104c4ab369",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcWZuNk9kanhoTGtEVGR6bjZFdVpHRjFvUFhzYmRHbXE1dV9HWU1lelE3NGotZGNDYkx4STJJZllRN0tpekxKV2RNdXNrN2d5N2ZMc3ZYWm5JeTZBRnVwbWZOY0hoR3JaTXVrUm5xMzMyakQ0WFd3UnRVeTZseVlMaFAxd0hiaGNCUmc?oc=5",
+    "publishedAt": "2026-05-06T13:31:58.000Z",
+    "titleEn": "Trump admin’s about-face on AI safety alarms US techies but is a win for national security",
+    "titleZh": "特朗普政府AI安全政策急转弯惊动美国科技界但成为国家安全胜利",
+    "abstractEn": "Trump admin’s about-face on AI safety alarms US techies but is a win for national security  Cybernews",
+    "abstractZh": "特朗普政府AI安全政策急转弯惊动美国科技界但成为国家安全胜利 Cybernews",
+    "authors": [
+      "Cybernews"
+    ],
+    "institution": "Cybernews",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:1adf7bd329be",
+    "slug": "gnews-1adf7bd329be",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTC1fRElNdGxldExsNXdLby16NG1RaW1DM3hxUDlvcTZBQ0hXUzBMTnZLQ3BiaWZjQzdNS1Y3RXFNcXFER294U19wTkdxMDZfSzFkSkpKZmEzT3Z6eE1HbEFrYjFLanl1OFBKRFA1dkZmVGpjeXhUYXdzclgzaUtDRWlQS1Vvdk4tbUc0R2NSaV96aEs4THZIZzdYWXhBVWR0d1pPNENFa1VxTDExek02UUtCakFHTU5VMThLUEFFS0o?oc=5",
+    "publishedAt": "2026-05-06T13:31:06.000Z",
+    "titleEn": "FIS And Anthropic Signal A New Era Of AI Infrastructure In Banking",
+    "titleZh": "FIS与Anthropic标志银行业AI基础设施新时代",
+    "abstractEn": "FIS And Anthropic Signal A New Era Of AI Infrastructure In Banking  Forbes",
+    "abstractZh": "FIS与Anthropic标志银行业AI基础设施新时代 福布斯",
+    "authors": [
+      "Forbes"
+    ],
+    "institution": "Forbes",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:2c136e66cc6a",
+    "slug": "gnews-2c136e66cc6a",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcXBiT0VfQkh2OE5OYWU3SWwxTlZKLXFmME12aGNpbTdIdTRNMHJBODk5OU1rcEVrQ0FfVmUyZUVRMDVMakpadHVGdFRfSkpEZFhhYXNMQVJmYnVyLUx2N0hOckNqUllCeUZOazJldmEyMUVLTHVaVEVMNzZFOWdoVXBTRlAtUFo1dXVvV1N1VGtIQXZhX0dvRmxTV3dzR2RmVU5JTHBhNHBvaDJzZG1zMEJ4S3RvTW9OZ0VNeTc4bnhhNTBnVFdTSEIxbWI4ZnJISjdOVWFEaVpUS3BmUEJqT1BvTFRxZUo5dDdJ?oc=5",
+    "publishedAt": "2026-05-06T13:03:14.000Z",
+    "titleEn": "Jamie Foxx among investors in AI startup ElevenLabs’ Series D funding round",
+    "titleZh": "杰米·福克斯参与 AI 创业公司 ElevenLabs D 轮融资",
+    "abstractEn": "Jamie Foxx among investors in AI startup ElevenLabs’ Series D funding round  MSN",
+    "abstractZh": "杰米·福克斯参与 AI 创业公司 ElevenLabs D 轮融资  MSN",
+    "authors": [
+      "MSN"
+    ],
+    "institution": "MSN",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5c5qn",
+    "slug": "reddit-1t5c5qn-an-open-benchmark-for-testing-rag-on-realistic-company-internal-d",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/bx3wkr8ekizg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5c5qn/an_open_benchmark_for_testing_rag_on_realistic/",
+    "publishedAt": "2026-05-06T12:58:23.000Z",
+    "titleEn": "An Open Benchmark for Testing RAG on Realistic Company-Internal Data",
+    "titleZh": "一个用于在真实公司内部数据上测试 RAG 的开放基准",
+    "abstractEn": "We built a corpus of 500,000 documents simulating a real company, and then let RAG systems compete to find out which one is the best.\n\n\n\nIntroducing **EnterpriseRAG-Bench**, a benchmark for testing how well RAG systems work on messy, enterprise-scale internal knowledge.\n\nMost RAG benchmarks are buil",
+    "abstractZh": "我们构建了一个包含 50 万份文档的语料库，模拟真实的公司环境，然后让 RAG 系统竞争以找出哪个是最好的。隆重介绍 EnterpriseRAG-Bench，这是一个用于测试 RAG 系统在混乱、企业级内部知识上表现如何的基准。大多数 RAG 基准都建立在",
+    "authors": [
+      "u/Weves11"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 40,
+    "commentCount": 14,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "gnews:cbb165d6b97b",
+    "slug": "gnews-cbb165d6b97b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM0MyZThsdHo5Ni1sN3ZxMVJmNktuOXFuZHZqLWhabWp1WVdFajAwaUR2UTJ0bFd6ajhjUTZCNHVvRXplTHlkeFdoQmFjX2dKT01EcnFGM0JNWjFLWDZPN04yVmh5c2s5OHUxeXZBY2pwMEhVYW4tbm02am5FdDNpMlE2andSX2JFYjNCTW1valJ1NmlIVnhVckNfU2pyTVptaEtGNnJ6S3V2UjlMT1g2VFBwS25BZmhD?oc=5",
+    "publishedAt": "2026-05-06T12:50:39.000Z",
+    "titleEn": "Report: Artificial intelligence build-out could rival historic rail expansion",
+    "titleZh": "报告：人工智能建设规模可能匹敌历史性的铁路扩张",
+    "abstractEn": "Report: Artificial intelligence build-out could rival historic rail expansion  Baltimore Sun",
+    "abstractZh": "报告：人工智能建设规模可能匹敌历史性的铁路扩张 Baltimore Sun",
+    "authors": [
+      "Baltimore Sun"
+    ],
+    "institution": "Baltimore Sun",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:dd87a082d6ce",
+    "slug": "gnews-dd87a082d6ce",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV2c2djVyVVhEWkRYdktlc3R3NU1nZFQ2b0Jra2pZYm5uTldGbVFfdjdYblFDNGFwUFFLQ0owcWdWSlZmVm45OVB5cXNNb0pBS0x3MlNlSEdLNVZ4d1FJTzdPQXRqemNIdFBCTk9Va2M5aDFwSDl3X3E4TDVIVTJ0Vm1XanZRN2lzYmJXVC1IQVZiQ1B6Rk10WnhrZw?oc=5",
+    "publishedAt": "2026-05-06T12:46:28.000Z",
+    "titleEn": "Jamie Foxx Among Investors In AI Startup ElevenLabs' Series D Funding Round",
+    "titleZh": "Jamie Foxx 参与 AI 初创公司 ElevenLabs 的 D 轮融资",
+    "abstractEn": "Jamie Foxx Among Investors In AI Startup ElevenLabs' Series D Funding Round  afrotech.com",
+    "abstractZh": "Jamie Foxx 参与 AI 初创公司 ElevenLabs 的 D 轮融资  afrotech.com",
+    "authors": [
+      "afrotech.com"
+    ],
+    "institution": "afrotech.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:14a7b11cd55e",
+    "slug": "gnews-14a7b11cd55e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYXJKRW1EbzhLaXpXYnpfNUJWaVJmNjEtakcwSy0wWTRreXczQ2c4S0hMUjV3Rk1YSEE4RjNjdnNPbjJuNV9uaUYxdmpYZnRjQ09uNFBZNG5jakZJM3REdHdMaU9vQ3g2SEdQTkY3UWVTZGNxWWlnd2pnSGppY1U1YldrX0luVUE2VFdjY3IzTDQwd0dnOVExWk1BeFNzcm1NRG5pbWtqU3lfVmxlaUxOTUJNci1qbC1Vd3JBcUNSbHZTZ2JkQl9PcVlxMEdVTTFP?oc=5",
+    "publishedAt": "2026-05-06T12:30:12.000Z",
+    "titleEn": "Anthropic's new finance agents could put some software firms out of business",
+    "titleZh": "Anthropic的新金融代理可能让部分软件公司倒闭",
+    "abstractEn": "Anthropic's new finance agents could put some software firms out of business  Wealth Professional Canada",
+    "abstractZh": "Anthropic的新金融代理可能让部分软件公司倒闭 Wealth Professional Canada",
+    "authors": [
+      "Wealth Professional Canada"
+    ],
+    "institution": "Wealth Professional Canada",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:87fcbb584263",
+    "slug": "gnews-87fcbb584263",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRWc2dGFyeGNJOFZ1RUZRc253c2V0c1lBdXR0R2dQYzNTZG1lN2xVTmlwcTBNVjdCY2ZjVWhMUGlPdVIwLU1HREIyY1BlcndILTlzb05UQU5NdzY2b3doZE00dW1POEpnSmxWWDR6YXk1aW9OajRFV3VjaXhqMEM0RUlOejJhLWI0Tk83Z2c2ZUtqbDB4RFkyczBVaUFzaVI1dVVtc3pSMnlYMXA5VDViYVNqWlFUNUhvbC0wSXg3aHlkQnFBbXdtRDhZRVM0cWkwdENjS1E0S0tkcDhTTDVGSTVzNExWZzdDTjR3?oc=5",
+    "publishedAt": "2026-05-06T12:27:46.000Z",
+    "titleEn": "OpenAI finally fixed the most annoying thing about ChatGPT — and I'm already noticing the difference",
+    "titleZh": "OpenAI 终于修复了 ChatGPT 最令人烦恼的问题 —— 我已经注意到了变化",
+    "abstractEn": "OpenAI finally fixed the most annoying thing about ChatGPT — and I'm already noticing the difference  TechRadar",
+    "abstractZh": "OpenAI 终于修复了 ChatGPT 最令人烦恼的问题 —— 我已经注意到了变化  TechRadar",
+    "authors": [
+      "TechRadar"
+    ],
+    "institution": "TechRadar",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:f44d06d03151",
+    "slug": "gnews-f44d06d03151",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcGZPbHg5dzlTSF8wbFNBTjg5V2JuZmVtTGpwUHJ5SDRSVTliNnh0RjlwWmF5TnJFUkIwVG52R0wtcUR2Nm00QnNUVERoNGxncVBjTTVXM3AtaTczNURrektwYjFWOXpZSHRmTHRuem1jX0NFZFBId3NidUhyamloQ1BVbE9OV0p4dlQxbWR0SGthSklSdjU0NWR1OGFNOUpsMFhKTUZGY0REaHVVb19JUGs3MmdEVWRyMkplN2xQNEdGLTZ1bkJIeVpSQmdsRVNlaVVMak1zTlVUT1RoWE5hN0h0TUJEQjkzVWlrSg?oc=5",
+    "publishedAt": "2026-05-06T12:02:47.000Z",
+    "titleEn": "Regulation of AI in Prior Authorization and Claims Review: A Look at Federal and State Consumer Protections",
+    "titleZh": "预先授权和理赔审查中的 AI 监管：联邦和州消费者保护视角",
+    "abstractEn": "Regulation of AI in Prior Authorization and Claims Review: A Look at Federal and State Consumer Protections  KFF",
+    "abstractZh": "预先授权和理赔审查中的 AI 监管：联邦和州消费者保护视角  KFF",
+    "authors": [
+      "KFF"
+    ],
+    "institution": "KFF",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:cd859061688e",
+    "slug": "gnews-cd859061688e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb0I3TlV0WkJTYzJvWHFVWUt0dndKY1ViUnI4LWswamh3WGFUdDlSZVhLUnNMR1JkN2hrazU4SExEM2RmLW5LMTJ6T1psemg3eW8telhVMWc5c3V3REExc051alhrcDVFS2ZVbkxHaUVlTm41eXdrQ0xMbXptR1BrRGF2RQ?oc=5",
+    "publishedAt": "2026-05-06T11:56:55.000Z",
+    "titleEn": "AI policy and Europe’s green transition",
+    "titleZh": "AI 政策与欧洲绿色转型",
+    "abstractEn": "AI policy and Europe’s green transition  RECYCLING magazine",
+    "abstractZh": "AI 政策与欧洲绿色转型  RECYCLING 杂志",
+    "authors": [
+      "RECYCLING magazine"
+    ],
+    "institution": "RECYCLING magazine",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5ap0y",
+    "slug": "reddit-1t5ap0y-decoupled-attention-from-weights-gemma-4-26b",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ap0y/decoupled_attention_from_weights_gemma_4_26b/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ap0y/decoupled_attention_from_weights_gemma_4_26b/",
+    "publishedAt": "2026-05-06T11:56:45.000Z",
+    "titleEn": "Decoupled Attention from Weights - Gemma 4 26B",
+    "titleZh": "从权重中解耦注意力机制 - Gemma 4 26B",
+    "abstractEn": "Absolutely unbelievably exciting work, split attention (i.e. a couple of GB) onto local machine and the weights onto another local machine (say a cheap Xeon) to basically bypass the scale issue with local LLMs completely!! Repo with functional code: https://github.com/chrishayuk/larql\n\nedit: just fo",
+    "abstractZh": "绝对令人兴奋的工作，将注意力机制（即几 GB）拆分到本地机器上，将权重放到另一台本地机器上（比如便宜的 Xeon），基本上完全绕过了本地 LLM 的规模问题！包含功能代码的仓库：https://github.com/chrishayuk/larql\n\n编辑：刚刚",
+    "authors": [
+      "u/yeah-ok"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 33,
+    "commentCount": 19,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "gnews:f2a0fd8dd3bf",
+    "slug": "gnews-f2a0fd8dd3bf",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYl80TnVwX2hxZE1Yc3c0Qi0tSklBbVpyS29xdUhCd2ZoOG1qc29QU05MTWRkZmxvWXFnZFZqMHJZVXFmOVp1cnpId3NKSUZvNVFoNjBid2lTYnc3Vmc1dkNKNlROOUNkR1VHRDg1NnljZWVQVHUxa29HeDlyVFNxLW9kLUlrY2xpZ0RzUDh4NXhXM2tuSXVWMGp3RnZwdw?oc=5",
+    "publishedAt": "2026-05-06T11:53:00.000Z",
+    "titleEn": "Anthropic’s Mythos: The AI model ‘too dangerous’ to release?",
+    "titleZh": "Anthropic 的 Mythos：一个‘太危险’而无法发布的 AI 模型？",
+    "abstractEn": "Anthropic’s Mythos: The AI model ‘too dangerous’ to release?  The News International",
+    "abstractZh": "Anthropic 的 Mythos：一个‘太危险’而无法发布的 AI 模型？  The News International",
+    "authors": [
+      "The News International"
+    ],
+    "institution": "The News International",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:b892aeffd586",
+    "slug": "gnews-b892aeffd586",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYXIxTlJMUko0b2pfZEtaNnYzeU5tVW9jcEVVU3FLNTF4amRicmlvQTFuS2N2YzE2d29ZQ2pKTlJ0LWItcm5Ic0w2VGp5b1ZObWRSeERiZjdwMmF5NjlvbmRxSWM2dDFiSGNvbm5pUTdwb0U1UVFiR1hrVHk5cnFSLV9GT016UlN2UHZF?oc=5",
+    "publishedAt": "2026-05-06T11:51:37.000Z",
+    "titleEn": "HHS tackles ‘overmedication’",
+    "titleZh": "HHS 应对过度用药问题",
+    "abstractEn": "HHS tackles ‘overmedication’  statnews.com",
+    "abstractZh": "HHS 应对过度用药问题 statnews.com",
+    "authors": [
+      "statnews.com"
+    ],
+    "institution": "statnews.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t5ageq",
+    "slug": "reddit-1t5ageq-qwen3-6-27b-with-mtp-grafted-on-unsloth-ud-xl-2-5x-throughput-via",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ageq/qwen3627b_with_mtp_grafted_on_unsloth_ud_xl_25x/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ageq/qwen3627b_with_mtp_grafted_on_unsloth_ud_xl_25x/",
+    "publishedAt": "2026-05-06T11:45:46.000Z",
+    "titleEn": "Qwen3.6-27B with MTP grafted on Unsloth UD XL: 2.5x throughput via unmerged llama.cpp PR",
+    "titleZh": "Qwen3.6-27B 在 Unsloth UD XL 上移植 MTP：通过未合并的 llama.cpp PR 实现 2.5 倍吞吐量",
+    "abstractEn": "Hey everyone, I've been working on getting Multi-Token Prediction (MTP) working with quantized GGUFs for Qwen3-27B and the results are pretty impressive. Here's what I put together: [https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF](https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF)",
+    "abstractZh": "大家好，我一直在努力让多令牌预测（MTP）与 Qwen3-27B 的量化 GGUF 模型配合工作，结果相当令人印象深刻。这是我组合的内容：https://huggingface.co/havenoammo/Qwen3.6-27B-MTP-UD-GGUF",
+    "authors": [
+      "u/havenoammo"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 133,
+    "commentCount": 66,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "gnews:88142d88c766",
+    "slug": "gnews-88142d88c766",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Md0cwSmo3NGlrR2E4YTAtNFN2VmtBS1Y5c0RCMmJaTFBvUmJrN1dueDlWQzQ2d254UklucGVaYkNwcTRrUVZ6cXlVdGZTNHhEYWp2dTdldW5jRXdjUU1scjZVZ1I?oc=5",
+    "publishedAt": "2026-05-06T11:37:19.000Z",
+    "titleEn": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
+    "titleZh": "NVIDIA Spectrum-X — 开放的 AI 原生以太网架构 — 为十亿级规模 AI 设立标准，现已支持 MRC",
+    "abstractEn": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC  NVIDIA Blog",
+    "abstractZh": "NVIDIA Spectrum-X — 开放的 AI 原生以太网架构 — 为十亿级规模 AI 设立标准，现已支持 MRC  NVIDIA 博客",
+    "authors": [
+      "NVIDIA Blog"
+    ],
+    "institution": "NVIDIA Blog",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6a1acffe3d5f",
+    "slug": "gnews-6a1acffe3d5f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQlZuMXRuNUhWTjlsTTAwNHpsQ0lDTUdWcjBQQXpQTngtWW5JX29rajE2Snd0bENPdWl3Z2RsQTNMMFhRQUg5RTE2c3F1QjA3Z3VzQnZUbDNmaUNhLTdwUzBVSEdENXRlcklvcVdtem1wWHVKRGVteVR2LWJlbUFFR0lZZy04blBtZ0NHbmE3Q192aXdCZ0E?oc=5",
+    "publishedAt": "2026-05-06T11:30:43.000Z",
+    "titleEn": "Anthropic’s New “Dreaming” Feature Trains AI Agents Between Tasks",
+    "titleZh": "Anthropic新Dreaming功能在任务间训练AI代理",
+    "abstractEn": "Anthropic’s New “Dreaming” Feature Trains AI Agents Between Tasks  Finimize",
+    "abstractZh": "Anthropic新Dreaming功能在任务间训练AI代理 Finimize",
+    "authors": [
+      "Finimize"
+    ],
+    "institution": "Finimize",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t59rda",
+    "slug": "reddit-1t59rda-bad-news-apple-drops-high-memory-mac-studio-configs",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://9to5mac.com/2026/05/05/apples-most-powerful-mac-studio-loses-its-last-remaining-ram-upgrade-option/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t59rda/bad_news_apple_drops_highmemory_mac_studio_configs/",
+    "publishedAt": "2026-05-06T11:13:02.000Z",
+    "titleEn": "Bad news: Apple drops high-memory Mac Studio configs",
+    "titleZh": "坏消息：苹果取消了高内存Mac Studio配置",
+    "abstractEn": "Looks like Apple has quietly killed off the higher-memory Mac Studio options. The M3 Ultra Mac Studio is now only available with 96GB RAM. The 512GB option was already removed back in March, and now the 256GB config is gone too.\n\nApple has said both the Mac Studio and Mac mini will stay supply-const",
+    "abstractZh": "看起来苹果已经悄悄取消了Mac Studio的高内存选项。M3 Ultra版Mac Studio现在只提供96GB内存。512GB选项早在3月就被移除，现在256GB配置也没了。\n\n苹果表示Mac Studio和Mac mini都将保持供应受限",
+    "authors": [
+      "u/jzn21"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 388,
+    "commentCount": 108,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "gnews:5ba7b956172e",
+    "slug": "gnews-5ba7b956172e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2lWcXpaTTVhR2pDNFEyTnI5TEhzWHNCWDZNdDhRR1lpMGMxbjlWd245VzYyLUQwTlNqNDFrQWJtS1V0YXc3NlRFeHRWd2Z1OWtuSzBBTTBYTW81SzZlVHdUcDRmc09CWFR1R0hmZU4weVFrRXZwWHNaaUpaWFlKeV9qZTQwZWJKZE95MEIyc0hfQXVBVjFCeWpNaVJwOGdjT0Q2NjBQQVN4LUpqbURWWTVub2tER0dyZUU1cVBnVTdsOVk?oc=5",
+    "publishedAt": "2026-05-06T11:12:25.000Z",
+    "titleEn": "Windows 11's Copilot isn’t losing AI \"power\" — but it is losing OpenAI exclusivity",
+    "titleZh": "Windows 11 的 Copilot 并没有失去 AI ‘能力’ —— 但正在失去 OpenAI 的独家性",
+    "abstractEn": "Windows 11's Copilot isn’t losing AI \"power\" — but it is losing OpenAI exclusivity  Windows Central",
+    "abstractZh": "Windows 11 的 Copilot 并没有失去 AI ‘能力’ —— 但正在失去 OpenAI 的独家性  Windows Central",
+    "authors": [
+      "Windows Central"
+    ],
+    "institution": "Windows Central",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6e785f4e8df1",
+    "slug": "gnews-6e785f4e8df1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORnJnd2lHLUZTZ2tXYVZ2MHluMkhGVGZZSUszQ2IzeGlYdkpCYUZwV1lQOHNlZUc4all4dHJHc2lCQVF2VVJwN0k2bzhILU9ER292bHVSdHZBQWxGRENzbGt2V21fU0k5V2o3NjZrWDJpbUhmbnBNSi1ZakhhZ3k0cU5BeWs4THRU?oc=5",
+    "publishedAt": "2026-05-06T11:11:22.000Z",
+    "titleEn": "US shifts to pre-verification AI policy",
+    "titleZh": "美国转向预验证 AI 政策",
+    "abstractEn": "US shifts to pre-verification AI policy  Let's Data Science",
+    "abstractZh": "美国转向预验证 AI 政策 Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:bc7a10914b9e",
+    "slug": "gnews-bc7a10914b9e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0lwMTVKdmdYdzFVdFJUOWRQLXZ0RE0wX1JkLV9zamNMZ3dzNlE4X1NmRWVmb043M2gxVmhuaXgtMWp0R0JfX25oRU9wUUpYUnBaRUNycXZmUjI5N3VDY0U5OGtEalNEQW54M0ZvakxEOEt5SThncUxxLVc1bHBZV3RoRGd3SEJGNmFkaHNSQW42ai1NR1RqY1ViLXA4dl9Za0ZURHBFcVA1SGN1dDhTSUdYYzBrNUlPNEdhMmdn?oc=5",
+    "publishedAt": "2026-05-06T11:03:23.000Z",
+    "titleEn": "How European Training Providers are Staying Ahead of AI Skills Regulation With Certification",
+    "titleZh": "欧洲培训机构如何通过认证在 AI 技能监管中保持领先",
+    "abstractEn": "How European Training Providers are Staying Ahead of AI Skills Regulation With Certification  AI CERTs",
+    "abstractZh": "欧洲培训机构如何通过认证在 AI 技能监管中保持领先  AI CERTs",
+    "authors": [
+      "AI CERTs"
+    ],
+    "institution": "AI CERTs",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:1094a9212543",
+    "slug": "gnews-1094a9212543",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORy1vOXBURksza2p1VGdkM1dmVjF4UUw2RmRIQm44Q2tZeUg0eUlYZzBRUDhRWGp1eWZ3ZjdpelR1NlIzamEySHlKeG03ZTRGRGY5SXF0aFFDNFNoczhQUV9MbEFJZFY3UzhpalRIRFBKYy1meUVGWDZENm1ydndibkg2NGtlMC14TE1OUVVDbnhqaWZTdFlEVUlhamloSGMwekhHYkJXaUViTVk?oc=5",
+    "publishedAt": "2026-05-06T11:00:49.000Z",
+    "titleEn": "AI Is Rewriting What Investors Should Look For In Early Startup Teams",
+    "titleZh": "AI 正在重写投资者在早期初创团队中应该关注的内容",
+    "abstractEn": "AI Is Rewriting What Investors Should Look For In Early Startup Teams  Crunchbase News",
+    "abstractZh": "AI 正在重写投资者在早期初创团队中应该关注的内容  Crunchbase News",
+    "authors": [
+      "Crunchbase News"
+    ],
+    "institution": "Crunchbase News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:bf9e396e4be2",
+    "slug": "gnews-bf9e396e4be2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ3o1XzM1MUU1YUdzZ0Vac0FuRVpCMlNsXzlCeS1yVzIyMkZvOGp4ZThybFN3aWdwOG5QNGZobENlQmNqTC13dWF5Q3JxLVhJckc4QkptSmZfQmh2WmNPZkR2THVOS3pGcVMzRVBydHpRLVVHcU12Zi13a1l1R3dyMTlHVngyOUpFamlZRUgyTjh2eW1MRExlR1BuMHhBRmMwaE9IbHpBSjBRWlR3N3ZhSGVDSUlMMDdUV1JwaU95LUpqZ0lHeTh2UVZNSy0?oc=5",
+    "publishedAt": "2026-05-06T10:55:00.000Z",
+    "titleEn": "Anthropic's Dario Amodei and JPMorgan's Jamie Dimon on AI boom, AI regulation & impact on jobs",
+    "titleZh": "Anthropic的Dario Amodei与摩根大通的Jamie Dimon探讨AI繁荣、AI监管及对就业的影响",
+    "abstractEn": "Anthropic's Dario Amodei and JPMorgan's Jamie Dimon on AI boom, AI regulation & impact on jobs  CNBC",
+    "abstractZh": "Anthropic的Dario Amodei与摩根大通的Jamie Dimon探讨AI繁荣、AI监管及对就业的影响 CNBC",
+    "authors": [
+      "CNBC"
+    ],
+    "institution": "CNBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:7733bb7dfa9c",
+    "slug": "gnews-7733bb7dfa9c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdmViSS1FdWF5SXB5dmdOZGxwOGg2dlR5VUw4bFRpcG9pMlU4QXMxWEZMZmZrV0JIS1dFSmRKYWJQQlU0ZnpuNkgwZlZSSUFsOTJ0ZUdhZGtoeG1QOGJSaW4yd0doVEVsbTRPWDVlUjFweDVzekRBZDllLU05VW40d2l4T3BiZVhJQnRQY2xkZmFhWENGRndNTkR0c3Zfc2tDbUNVRFJwQzdpSzRRQ0FQTWlIYWIxd2VMZzFYLW9XQjlVNHl6MC1FWUVpcEd0Mi1HbUJUTUctYno5emQzQ21UUjh3?oc=5",
+    "publishedAt": "2026-05-06T10:53:27.000Z",
+    "titleEn": "Swiss startup Moonlight AI raises €2.8 million to turn routine blood and cytology imaging into genomic insights",
+    "titleZh": "瑞士初创公司Moonlight AI融资280万欧元将常规血液和细胞成像转化为基因组洞察",
+    "abstractEn": "Swiss startup Moonlight AI raises €2.8 million to turn routine blood and cytology imaging into genomic insights  EU-Startups",
+    "abstractZh": "瑞士初创公司Moonlight AI融资280万欧元将常规血液和细胞成像转化为基因组洞察 EU-Startups",
+    "authors": [
+      "EU-Startups"
+    ],
+    "institution": "EU-Startups",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:4ecbed53a15b",
+    "slug": "gnews-4ecbed53a15b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb2NuVDYtT1NrVWlpdUF0WEJIX0J2TjhnLW9lQWQ3MlNFMDhwVllTN2JiOWNUNWZ1VllHcENwRkN2SjVBY2hQdTltbVZuLXVsTmJsRWI0ellfOVZFSXdjaVBGcE91ZzhUM3kwbHBLOEtjSkh2R2pwX2ZqM3FpaVRPb2Ywd1d6eF9sQUZ3T0V5emNEQVhWT2lEUTZzdFlNLUZJQmMwNGd1NjdoM1BhV09fVFhKVWlmLWhXY3JvaA?oc=5",
+    "publishedAt": "2026-05-06T10:50:37.000Z",
+    "titleEn": "Anthropic announces new suite of AI tools designed for financial institutions",
+    "titleZh": "Anthropic 宣布为金融机构设计的新套件 AI 工具",
+    "abstractEn": "Anthropic announces new suite of AI tools designed for financial institutions  CNBC",
+    "abstractZh": "Anthropic 宣布为金融机构设计的新套件 AI 工具   CNBC",
+    "authors": [
+      "CNBC"
+    ],
+    "institution": "CNBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:0f50c3fcb115",
+    "slug": "hrorg-randstad-0f50c3fcb115",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZHVIalVKWTdqWlRwVUFPM2E0Y0ZPS1FDTDFXZi1LdzRkUlZLTTBNWWR6RU9rZ2NtVHhEMHNIX3JtRzR0MnN3SUVkampMWmNfTk9mX1FlTi1ETHY3TkRZbGU4T0VrOGpYeUZfdWRYbmUteDlpU2lzVm9MeTVSc3VSRDhzbS1CVFNz0gGOAUFVX3lxTE5KeV9OMlhCc0hqUl9jNFhrWkt4ek01SEx4cXpveFBNeXd0RUswTGUzT0JqRzdGbERwSUdGYU5yZ1RuSV9MZEdkNHV1bFNJTjZQWTBjb01sSUcxSEdVVWlEQ185RDFwd21hNENveEZoY0VMMFQ0bWNjYWsyYXFSaUNOTlNsU19zZVhyN1FVb3c?oc=5",
+    "publishedAt": "2026-05-06T10:46:05.000Z",
+    "titleEn": "Half of Romanian employees feel underpaid, Randstad study finds",
+    "titleZh": "Randstad研究发现：半数罗马尼亚员工认为薪资过低",
+    "abstractEn": "Half of Romanian employees feel underpaid, Randstad study finds  Romania Insider",
+    "abstractZh": "Randstad研究发现：半数罗马尼亚员工认为薪资过低 Romania Insider",
+    "authors": [
+      "Romania Insider"
+    ],
+    "institution": "Romania Insider",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-413296-html",
+    "slug": "ai-ppt",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/413296.html",
+    "publishedAt": "2026-05-06T10:28:10.000Z",
+    "titleEn": "AI PPT，这次是真不用返工了",
+    "titleZh": "AI PPT，这次是真不用返工了",
+    "abstractEn": "实测讯飞智文Vision Agent",
+    "abstractZh": "实测讯飞智文Vision Agent",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hrorg:boss-zhipin:2fb887a1fab6",
+    "slug": "hrorg-boss-zhipin-2fb887a1fab6",
+    "source": "BOSS直聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3M1QzbDBmY0tzMWJkQmhMSEl6NnBvSS1qRWphTkZxTkdydHJpQzRKa09KWkpzeU1pVFVWMU5RV2NFNVBRdUdPdjU2LS0?oc=5",
+    "publishedAt": "2026-05-06T10:19:43.000Z",
+    "titleEn": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？",
+    "titleZh": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？",
+    "abstractEn": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？  凤凰网科技",
+    "abstractZh": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？ 凤凰网科技",
+    "authors": [
+      "凤凰网科技"
+    ],
+    "institution": "凤凰网科技",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "gnews:27320bf09c62",
+    "slug": "gnews-27320bf09c62",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WX25uM2FnamlqaEh5bmpidmo1OUpmZVRGY3ZTVzltd1VPQXZ3V1pWeVBqQlFSZFpDRlpoRzVpd2dISFRBbFp0anpoLXVJQWxQY3BBV1BBLUE5ZjZhME5rMWpLZURSbndXclE?oc=5",
+    "publishedAt": "2026-05-06T10:01:17.000Z",
+    "titleEn": "Cybersecurity and AI safety in focus at European Parliament discussion",
+    "titleZh": "欧洲议会讨论聚焦网络安全与 AI 安全",
+    "abstractEn": "Cybersecurity and AI safety in focus at European Parliament discussion  Digital Watch Observatory",
+    "abstractZh": "欧洲议会讨论聚焦网络安全与 AI 安全 Digital Watch Observatory",
+    "authors": [
+      "Digital Watch Observatory"
+    ],
+    "institution": "Digital Watch Observatory",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:600f80dcd9ff",
+    "slug": "gnews-600f80dcd9ff",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbUJOM1RRaUVueGlfeDIzS3ZZNWNmM3lPcVNKY3d2ODNCbk1PRHloUjlfdWVLLUFtSE54RnluelZhWlV2WHdMeU00WDZ1SFFFS3NVQ0Z0bnAtRV9YbWNPNnpOd2hHc29DSEFIWEhaalcwcXU0NzExMFFObTdkbm0xQ3JzWjBVLVJuVVZR?oc=5",
+    "publishedAt": "2026-05-06T10:00:00.000Z",
+    "titleEn": "White House, Pentagon drift apart on Anthropic fight",
+    "titleZh": "白宫和五角大楼在 Anthropic 之争上出现分歧",
+    "abstractEn": "White House, Pentagon drift apart on Anthropic fight  Yahoo",
+    "abstractZh": "白宫和五角大楼在 Anthropic 之争上出现分歧  Yahoo",
+    "authors": [
+      "Yahoo"
+    ],
+    "institution": "Yahoo",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48034347",
+    "slug": "hn-48034347-visualize-any-hugging-face-model",
+    "source": "Hacker News",
+    "sourceUrl": "https://hfviewer.com/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48034347",
+    "publishedAt": "2026-05-06T09:53:35.000Z",
+    "titleEn": "Visualize Any Hugging Face Model",
+    "titleZh": "可视化任何 Hugging Face 模型",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rippeltippel"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 31,
+    "commentCount": 2,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t57xuu",
+    "slug": "reddit-1t57xuu-2-5x-faster-inference-with-qwen-3-6-27b-using-mtp-finally-a-viabl",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t57xuu/25x_faster_inference_with_qwen_36_27b_using_mtp/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t57xuu/25x_faster_inference_with_qwen_36_27b_using_mtp/",
+    "publishedAt": "2026-05-06T09:35:42.000Z",
+    "titleEn": "2.5x faster inference with Qwen 3.6 27B using MTP - Finally a viable option for local agentic coding - 262k context on 48GB - Fixed chat template - Drop-in OpenAI and Anthropic API endpoints",
+    "titleZh": "使用MTP让Qwen 3.6 27B推理速度提升2.5倍 - 终于成为本地智能编码的可行选择 - 48GB显存支持262k上下文 - 修复了聊天模板 - 可直接替代OpenAI和Anthropic API端点",
+    "abstractEn": "&gt; In my initial post, I mentioned using turboquants. However, I forgot to include instructions for building llama.cpp with the corresponding PR. The PR is currently too unstable and there are animated discussions around it. I replaced my recommendations with the standard q4_0 KV cache compression",
+    "abstractZh": "&gt; 在我的初始帖子中，我提到了使用turboquants。然而，我忘了给出用相应PR构建llama.cpp的说明。该PR目前太不稳定，周围有很多激烈讨论。我用标准的q4_0 KV缓存压缩替代了我的建议",
+    "authors": [
+      "u/ex-arman68"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 864,
+    "commentCount": 268,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-b3mgzrhtiuwl4b1a-html",
+    "slug": "1",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/B3MGZRHtiuWL4b1A.html",
+    "publishedAt": "2026-05-06T09:28:00.000Z",
+    "titleEn": "蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告",
+    "titleZh": "蚂蚁阿福启动「健康中国体检关怀行动」，为1亿人免费解读体检报告",
+    "abstractEn": "春季是传统的体检季，可很多人拿到体检报告却犯了难。一项5000名网友参与的调研显示，80%的受访者表示体检报告没有得到详细讲解，也不知道检后该怎么做；75%的受访者没有按体检报告的建议进行复查。\n为解决这一普遍痛点，5月6日，国内最大的AI健康应用蚂蚁阿福启动“健康中国体检关怀行动”，为1亿人免费解读体检报告。用户打开阿福App拍照或上传体检报告，即可获得实时、免费、专业的解读，明明白白看懂报告。\n\n阿福解读体检报告以“红绿灯”形式清晰告知检查结果关注优先级，并给到针对性的健康行动清单。随着“健康中国”战略深入推进，预防性健康管理成为大众关切的重点，体检更是提升全民健康水平的重要抓手。阿福启动的这一行动，有助于让体检真正成为用户健康管理的起点。\n为1亿人免费解读体检报告\n“红黄蓝绿灯”形式读懂体检结果\n为了帮更多用户看懂体检报告，实现疾病的“早筛查、早预防、早干预”，5月起，蚂蚁阿福正式启",
+    "abstractZh": "春季是传统的体检季，可很多人拿到体检报告却犯了难。一项5000名网友参与的调研显示，80%的受访者表示体检报告没有得到详细讲解，也不知道检后该怎么做；75%的受访者没有按体检报告的建议进行复查。\n为解决这一普遍痛点，5月6日，国内最大的AI健康应用蚂蚁阿福启动「健康中国体检关怀行动」，为1亿人免费解读体检报告。用户打开阿福App拍照或上传体检报告，即可获得实时、免费、专业的解读，明明白白看懂报告。\n\n阿福解读体检报告以「红绿灯」形式清晰告知检查结果关注优先级，并给到针对性的健康行动清单。随着「健康中国」战略深入推进，预防性健康管理成为大众关切的重点，体检更是提升全民健康水平的重要抓手。阿福启动的这一行动，有助于让体检真正成为用户健康管理的起点。\n为1亿人免费解读体检报告\n「红黄蓝绿灯」形式读",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-413264-html",
+    "slug": "gpt-image-3-15-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/413264.html",
+    "publishedAt": "2026-05-06T09:24:27.000Z",
+    "titleEn": "香蕉和GPT Image之外的第3条路：华人15人团队造出AI生图黑马",
+    "titleZh": "香蕉和GPT Image之外的第3条路：华人15人团队造出AI生图黑马",
+    "abstractEn": "40小时干完广告公司一年的活",
+    "abstractZh": "40小时干完广告公司一年的活",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-yksi35iacrfzjzvj-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/YkSi35iAcrFzjzVJ.html",
+    "publishedAt": "2026-05-06T09:17:00.000Z",
+    "titleEn": "独家丨腾讯云成立云产品六部，王慧星担任负责人",
+    "titleZh": "独家丨腾讯云成立云产品六部，王慧星担任负责人",
+    "abstractEn": "雷峰网消息，腾讯云发布一则内部信，将成立云产品六部，负责构建AI原生的代码（CodeBuddy）与泛生产力智能体（WorkBuddy），推进系列智能体产品的能力建设与商业化。腾讯副总裁、腾讯云CTO王慧星兼任云产品六部负责人，向CSIG总裁汤道生汇报；刘毅担任云产品六部助理总经理，向王慧星汇报。\n此前，腾讯云产研一共有五大产品部，产品一部主要负责IaaS相关产品，以及数据库、消息列队等部分PaaS；产品二部主要负责 PaaS以及大数据；产品三部则是负责智能体开发平台、AI SaaS、知识引擎、计算加速；产品四部负责中台业务，包括面向开发者的AI coding；产品五部负责CDN、音视频相关。\n2025年6月，雷峰网曾经独家报道过，王慧星晋升成为腾讯副总裁，分管腾讯云云产品二部、云产品四部、云产品技术支持部、云技术运营服务部、企业中台产品部，以及腾讯云安全，虚线分管云产品一部，直接向汤道生汇",
+    "abstractZh": "雷峰网消息，腾讯云发布一则内部信，将成立云产品六部，负责构建AI原生的代码与泛生产力智能体，推进系列智能体产品的能力建设与商业化。腾讯副总裁、腾讯云CTO王慧星兼任云产品六部负责人，向CSIG总裁汤道生汇报；刘毅担任云产品六部助理总经理，向王慧星汇报。\n此前，腾讯云产研一共有五大产品部，产品一部主要负责IaaS相关产品，以及数据库、消息列队等部分PaaS；产品二部主要负责PaaS以及大数据；产品三部则是负责智能体开发平台、AI SaaS、知识引擎、计算加速；产品四部负责中台业务，包括面向开发者的AI coding；产品五部负责CDN、音视频相关。\n2025年6月，雷峰网曾经独家报道过，王慧星晋升成为腾讯副总裁，分管腾讯云云产品二部、云产品四部、云",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:360188e9d89d",
+    "slug": "gnews-360188e9d89d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tREpZWmFJWVRQSjVubjU1SGR1cGRPTXBmUXZZMFNjbXpqbXhLM0VHellmM012QjFmVkhpcmNRVWJrWF9pTm54d3pOTHRWTmpCZEVPX2NycDJhQW5MMWFpSkE2eVlDYnRrMElzT1VTTkU1MF8wZU9BMg?oc=5",
+    "publishedAt": "2026-05-06T08:33:04.000Z",
+    "titleEn": "Why Google, Microsoft and xAI’s U.S. AI deal matters",
+    "titleZh": "为什么Google、Microsoft和xAI的美国AI交易很重要",
+    "abstractEn": "Why Google, Microsoft and xAI’s U.S. AI deal matters  Latest news from Azerbaijan",
+    "abstractZh": "为什么Google、Microsoft和xAI的美国AI交易很重要 Latest news from Azerbaijan",
+    "authors": [
+      "Latest news from Azerbaijan"
+    ],
+    "institution": "Latest news from Azerbaijan",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:d0b4a62cba54",
+    "slug": "gnews-d0b4a62cba54",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2VVcFdSUURRME9aRkJMVWxnRkpIX1VNMGs5TnBCMXhuVkhEazFteHF1a1FwcjlvNHRyLWZ5c2dWaGJFQzBDZXM5WGVZbVV3T04tMi1qdnlZY05vbWo0eDd4a3pfNmNTd3cwM3dyRm1STVBmSDRGRlU3UE5BUDFNa2dvU1ZyTW1MdUhWel9uSk9GaGVFVGZWc05IeHA?oc=5",
+    "publishedAt": "2026-05-06T08:31:26.000Z",
+    "titleEn": "OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations",
+    "titleZh": "OpenAI希望在健康AI政策建议上兼得鱼与熊掌",
+    "abstractEn": "OpenAI wants to ‘have their cake and eat it too’ with health AI policy recommendations  statnews.com",
+    "abstractZh": "OpenAI希望在健康AI政策建议上兼得鱼与熊掌 statnews.com",
+    "authors": [
+      "statnews.com"
+    ],
+    "institution": "statnews.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-413265-html",
+    "slug": "claude-code-15",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/413265.html",
+    "publishedAt": "2026-05-06T08:11:51.000Z",
+    "titleEn": "陶哲轩在线安利Claude Code：审稿意见全给它，15分钟欧了",
+    "titleZh": "陶哲轩在线安利Claude Code：审稿意见全给它，15分钟欧了",
+    "abstractEn": "还反向挑出审稿人的毛病",
+    "abstractZh": "还反向挑出审稿人的毛病",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:efd56cb818d0",
+    "slug": "gnews-efd56cb818d0",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaE1rRFd4alA1eGRBZy1NRnUxWENXVUxtQ2pkdGROR3JCdlFuRzVHd0M0bmU5OEFJTkd2ZS1jREdUSG9QcnByZGN3SWNfZ05TYXdiNWpjR3IxQkx6RUQyZGQ5UDdSa1c3VldyeS1OYWN2RWs3V0VfZkpoLTZWelJMTkktVFQ3QmVQ?oc=5",
+    "publishedAt": "2026-05-06T07:16:29.000Z",
+    "titleEn": "AI Startups Lead 1 Trillion Won Surge in South Korea Venture Investments",
+    "titleZh": "AI 创业公司引领韩国风投万亿韩元激增",
+    "abstractEn": "AI Startups Lead 1 Trillion Won Surge in South Korea Venture Investments  조선일보",
+    "abstractZh": "AI 创业公司引领韩国风投万亿韩元激增  朝鲜日报",
+    "authors": [
+      "조선일보"
+    ],
+    "institution": "조선일보",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6cdfef595158",
+    "slug": "gnews-6cdfef595158",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY3Ixd1NWWktUVG1UMHk1a2pRN0pya2EwVkxYeW1BVURxbWpkbWt6amU3NUY4dHlObmNteDZ2UUphNjN6dzZrcDAwQ0xoWGFTd20wRG40N0hhWVR0TW9CUjBZVGR5ODdFczdMMC1mOEN6T1ZPTFhZeDRBZjRhSnJuSXJvVTQyTDVyMzJFQU5fdGdDRHM0UmtPc3E3S0oyVFdUNHdieGZLaEx4MnJncFZBOEVKWdIBwAFBVV95cUxOT1l2U0lvOHpsWjNkWl9NaWFxeEV3R05vbEdWVjg4X3JTLTN2dlE3am9MSkctUFU2SGh2X1pwOE9ONzVYb0s5Q3BQSEpSNm5tZ3BwSmsyYUtuY0NUdGVJejBGalEzbGtYZ2tKTnJiOWxveWYxM2FVV2h6T3dSa2hBbXFIcUNPeG1TWkdDUnNud1BXTFU4cldvZDY1UU05emlyQWI1N1dYTTNDdjBOVUFVNXpiWmFpeHVRb3Q4bU93ZlU?oc=5",
+    "publishedAt": "2026-05-06T07:15:23.000Z",
+    "titleEn": "Giorgia Meloni slams viral deepfake AI lingerie photo, warns of AI safety gaps",
+    "titleZh": "意大利总理 Meloni 猛击病毒式传播的 AI 深度伪造内衣照，警示 AI 安全漏洞",
+    "abstractEn": "Giorgia Meloni slams viral deepfake AI lingerie photo, warns of AI safety gaps  The Bridge Chronicle",
+    "abstractZh": "意大利总理 Meloni 猛击病毒式传播的 AI 深度伪造内衣照，警示 AI 安全漏洞  The Bridge Chronicle",
+    "authors": [
+      "The Bridge Chronicle"
+    ],
+    "institution": "The Bridge Chronicle",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:c4ba2ea20261",
+    "slug": "gnews-c4ba2ea20261",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oMnVrU1BBVnZaR2l6NEN1Q1dhN05sX1dOaVZPTzZWZVpoV0hrN3Uwck0wRXhLSFVkeWJVMjZIeVdBSkFHajd4WnhaQmdlRnpjblBfN3VTNFRQZw?oc=5",
+    "publishedAt": "2026-05-06T07:10:16.000Z",
+    "titleEn": "'I thought he was going to hit me,' OpenAI co-founder says of Musk",
+    "titleZh": "我以为他要打我，OpenAI 联合创始人谈及马斯克",
+    "abstractEn": "'I thought he was going to hit me,' OpenAI co-founder says of Musk  BBC",
+    "abstractZh": "我以为他要打我，OpenAI 联合创始人谈及马斯克   BBC",
+    "authors": [
+      "BBC"
+    ],
+    "institution": "BBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-transportation-ufaibggyeorcdl9x-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/transportation/ufAiBGGYeOrCDL9X.html",
+    "publishedAt": "2026-05-06T06:57:00.000Z",
+    "titleEn": "爱芯元智的双轮驱动：车载放量，边缘爆发",
+    "titleZh": "爱芯元智的双轮驱动：车载放量，边缘爆发",
+    "abstractEn": "作者丨郑浩钧\n编辑丨李雨晨\n\n作为中国汽车产业的年度盛会，2026北京车展不仅汇聚了全球主流车企的最新车型，更成为AI芯片与物理AI落地的核心节点。\n从L2+智驾的标配化普及，到舱驾融合的系统级竞争，再到边缘侧大模型的悄然渗透，一场围绕AI在物理世界落地的产业变革正在上演。\n在这场变革中，AI芯片扮演了极其重要的角色。2025年以来，AI芯片行业正式进入“车载智能化+边缘大模型”的双轮驱动周期。一方面，智驾渗透率持续攀升，法规强标与高阶NOA并行推进，国产替代与出海需求同步升温；另一方面，以DeepSeek为代表的大模型突破，推动边缘推理从概念走向规模化落地，工业视觉、移动机器人、AI Agent等场景需求大增。\n在此背景下，国产AI芯片厂商迎来高端化、全球化、场景化的三重历史机遇，而行业竞争的核心逻辑，也已从“通用算力竞赛”转向“垂直场景深度绑定”——能同时打通车载高可靠与边缘高适配的厂",
+    "abstractZh": "作者丨郑浩钧\n编辑丨李雨晨\n\n作为中国汽车产业的年度盛会，2026北京车展不仅汇聚了全球主流车企的最新车型，更成为AI芯片与物理AI落地的核心节点。\n从L2+智驾的标配化普及，到舱驾融合的系统级竞争，再到边缘侧大模型的悄然渗透，一场围绕AI在物理世界落地的产业变革正在上演。\n在这场变革中，AI芯片扮演了极其重要的角色。2025年以来，AI芯片行业正式进入「车载智能化+边缘大模型」的双轮驱动周期。一方面，智驾渗透率持续攀升，法规强标与高阶NOA并行推进，国产替代与出海需求同步升温；另一方面，以DeepSeek为代表的大模型突破，推动边缘推理从概念走向规模化落地，工业视觉、移动机器人、AI Agent等场景需求大增。\n在此背景下，国产AI芯片厂商迎来高端化、全球化、场景化的三重历史机遇，而行业竞",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:6193004a3976",
+    "slug": "gnews-6193004a3976",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYkU5NnZYMFBUMllQdm5vWFNXbkhJSXFlQlNLTXZTWS1Oal9tczZkS0YzSjZhTTFSQ1hzeXNJZmNaVXBSQTlfZnllYjhnRlVycDBWci13ZzlnR1djTGR0UkRhQ3BRN1dRaGtGMFhOOWdsRjh6TlgtSzFUTHg0UWJWOExCdGFuQmpFaGNCbVA0TV9OZ25uS05BZFhlRnlDVDU3djdRdFdIelNQTWtmOUdkbm04d01zdUxYTjFFS0hMY1AwaDlHb3ViaHdOclh6MElrc0JPMUcxZVVqZG9jQU9NZmJmQ0JhRk5WVVRSRjZ3?oc=5",
+    "publishedAt": "2026-05-06T06:30:00.000Z",
+    "titleEn": "NRHEG School District largely approves draft AI policy",
+    "titleZh": "NRHEG学区大体通过AI政策草案",
+    "abstractEn": "NRHEG School District largely approves draft AI policy  southernminn.com",
+    "abstractZh": "NRHEG学区大体通过AI政策草案 southernminn.com",
+    "authors": [
+      "southernminn.com"
+    ],
+    "institution": "southernminn.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-xlawypqzcbxv3vqu-html",
+    "slug": "manus-meta-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/XLaWypQzCBXv3vqU.html",
+    "publishedAt": "2026-05-06T06:13:00.000Z",
+    "titleEn": "独家丨Manus 收购案叫停「后遗症」：Meta AI 宫斗迎来最大变数",
+    "titleZh": "独家丨Manus 收购案叫停「后遗症」：Meta AI 宫斗迎来最大变数",
+    "abstractEn": "刚刚被叫停的 Manus 收购案，或将引爆 Meta 新一轮内斗。\n对 Meta 而言，这不是一次简单的并购失利：它失去的不只是一个 AI 明星项目，更是旗下老臣派系制衡 AI 新帅 Alexandr Wang 势力扩张的“关键筹码”。\n硅谷AI圈投资人林舟告诉雷峰网，随着此次交易的戛然而止，本就暗流涌动的 Meta 内斗，或将被推至台前，甚至陷入更大的不确定性。\n\n\n\n\n\n01\n\n\n一场瞄准“AI新势力”的权力制衡\n\n\n\n\n\n尽管 Meta 收购 Manus 的动机有很多，但从某种程度上说，这次收购案也是一次 Meta 内部政治博弈的产物。\n“Meta 收购 Manus 的台前主导者是扎克伯格，但这个事儿还有个幕后推动者 ——Meta 的老臣们。”长期关注美股的证券分析师张凯告诉雷峰网。\n一个有趣的迹象便是，对 Manus 收购后的汇报线的设计：Manus 的人既不向 CEO 扎克伯格汇",
+    "abstractZh": "刚刚被叫停的 Manus 收购案，或将引爆 Meta 新一轮内斗。\n对 Meta 而言，这不是一次简单的并购失利：它失去的不只是一个 AI 明星项目，更是旗下老臣派系制衡 AI 新帅 Alexandr Wang 势力扩张的「关键筹码」。\n硅谷AI圈投资人林舟告诉雷峰网，随着此次交易的戛然而止，本就暗流涌动的 Meta 内斗，或将被推至台前，甚至陷入更大的不确定性。\n\n\n\n\n\n01\n\n\n一场瞄准「AI新势力」的权力制衡\n\n\n\n\n\n尽管 Meta 收购 Manus 的动机有很多，但从某种程度上说，这次收购案也是一次 Meta 内部政治博弈的产物。\n「Meta 收购 Manus 的台前主导者是扎克伯格，但这个事儿还有个幕后推动者 ——Meta 的老臣们。」长期关注美股的证券分析师张凯告诉雷峰网。\n",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:60b7bf96996f",
+    "slug": "gnews-60b7bf96996f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVZXS0hwcFRUOHdQSk45QnMxZElXRkhmaU9wa2JCU1VsT09kbGRsbnlpQXB3b0tzWThMelhRTUVvQlVxZTFVSnVLN3I4c1FNOW5SVTBYb3k4dld3elp2UENIamFMdWxROWdGSlluS1o4d3BqMWU5T2FQQ3BGMnNCT2hIQlR0aTdHcEh2UGUwSmhEMmhOYmtIb25xU3pqNnd5WkZFc0t1Ymd3SzlQV3ZnaGNTT3YxeTUtVThGVklsVWEzQQ?oc=5",
+    "publishedAt": "2026-05-06T06:05:50.000Z",
+    "titleEn": "China Blocked Meta’s Manus Deal and Every AI Startup With Cross-Border Ambitions Should Take Note",
+    "titleZh": "中国阻止Meta的Manus交易，每个有跨境野心的AI初创公司都应引以为戒",
+    "abstractEn": "China Blocked Meta’s Manus Deal and Every AI Startup With Cross-Border Ambitions Should Take Note  Startup Fortune",
+    "abstractZh": "中国阻止Meta的Manus交易，每个有跨境野心的AI初创公司都应引以为戒 Startup Fortune",
+    "authors": [
+      "Startup Fortune"
+    ],
+    "institution": "Startup Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:b538b3483b54",
+    "slug": "gnews-b538b3483b54",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdGtPWm9PM0VISmdVQVFmWlFnalM1UHVYSlhBNXBCOGJ1UHA0N25HWG04V1RPQnk5ZWlWeExQUjhpYVN5cW9sM3Njd1MzcVhoM1VSaHlHUzdmeUs4czZxQncyZUpCQVhWLU03b0JnVXBrdGZ0a2kwWnBreGR5WnViajdXMDVaXzdYbE41RTZrMUNEaTROcEs2eFg2enVwaDQ?oc=5",
+    "publishedAt": "2026-05-06T05:58:00.000Z",
+    "titleEn": "Inside OpenAI's quirky launch party that ChatGPT 5.5 planned itself",
+    "titleZh": "ChatGPT 5.5自主策划的OpenAI奇特发布会内幕",
+    "abstractEn": "Inside OpenAI's quirky launch party that ChatGPT 5.5 planned itself  Business Insider",
+    "abstractZh": "ChatGPT 5.5自主策划的OpenAI奇特发布会内幕 Business Insider",
+    "authors": [
+      "Business Insider"
+    ],
+    "institution": "Business Insider",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:367265bd27a0",
+    "slug": "gnews-367265bd27a0",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNk95WmRPci1LbVphYmw5VnNKZ0N0UzRjZTJaUUplenFqcG5CLXllX1hzV1plSFFXTGdtT2V0MXVpY0FYY25wWU90Y2lDdHBqVkxyamJrUjhydFZCcXR0dVY1ek1tTmNsZkFlRmxmN2hGa3BQTDU0RWwwNzE0LVlpWENja3hpMF82cEVwQ1ZJYVRQdFFXei1VdGt5RjVpeXM4WXFFS9IBsgFBVV95cUxOdGhLMVQ2ZWl4aC1RcVlhRTFBdnd6Qmo0Qkozd0lPWUFLOGpLQWt0YjhVV0NIVy1UeHp4dWdBdDVxcTc3V1FuT0NvUVJndEhuRms0cTJJbVpFbFRxOWVfQTNTeHZEeFBnVVlzeE9aenlWLXd0SEVIVWk5M0Zhb3A5dVNNaklEeXRoVnRzSUFLY29UTHFmTHgzdy1ZRGN0TDAwdHdUcGlNWmVmRGdwTTF1VkVR?oc=5",
+    "publishedAt": "2026-05-06T05:49:15.000Z",
+    "titleEn": "Legal AI startup Jurisphere.ai raises $2.2 million in funding",
+    "titleZh": "法律 AI 初创公司 Jurisphere.ai 融资 220 万美元",
+    "abstractEn": "Legal AI startup Jurisphere.ai raises $2.2 million in funding  Bar and Bench",
+    "abstractZh": "法律 AI 初创公司 Jurisphere.ai 融资 220 万美元 Bar and Bench",
+    "authors": [
+      "Bar and Bench"
+    ],
+    "institution": "Bar and Bench",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:930ac167ec02",
+    "slug": "gnews-930ac167ec02",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObDVOOUtwLVdsbkMzaEZkV0RieGtkdUEwWjVBOG01V2JjSm9SNGxOVGcxbjlKMVR0YUc0UEJDMUdPNnQwVGVSSklOOFpkQUN5b2xMdWM2cXc2bm5pVjdkTGZMQzZRbDVPdmc4bnNNZXV4dzk4dFZDd0FvNFlTV3J3VlFfNmtlZGk4elZHZGhPVDdfNE05R3JtSlJUTFVTVFRuSGJNZ095Z2oxSHNwakFOWlUxZ2w?oc=5",
+    "publishedAt": "2026-05-06T05:43:16.000Z",
+    "titleEn": "Indian legal AI startup Jurisphere secures $2.2 million funding to expand platform",
+    "titleZh": "印度法律AI创业公司Jurisphere获得220万美元融资以扩展平台",
+    "abstractEn": "Indian legal AI startup Jurisphere secures $2.2 million funding to expand platform  CXO Digitalpulse",
+    "abstractZh": "印度法律AI创业公司Jurisphere获得220万美元融资以扩展平台  CXO Digitalpulse",
+    "authors": [
+      "CXO Digitalpulse"
+    ],
+    "institution": "CXO Digitalpulse",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:e3e54c8bb7e8",
+    "slug": "gnews-e3e54c8bb7e8",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcTJaY1FYbGdCYmVuRjJncnFxQ3U4a3NLX25XcGNIQlZpUzkwM0hhT204X21zYlZ2U3dvYnBiX2VwcHBUMnJoYjdjZkVULUZicmJ4emwxcWdMNVhGenlsVFFLT2NfX3pWSFVKV3dJclY3Ti0wQm1DWG43OGhQVlU4aWNnU0ZZbjBfcDNlYWZ3TnFCaEhEYS1YUW1fWnRNeTJ6Qml6X20xT2lmMzhYbV9LOVYzNA?oc=5",
+    "publishedAt": "2026-05-06T05:42:00.000Z",
+    "titleEn": "Jamie Dimon blesses the bubble, as AI comes for investment bankers",
+    "titleZh": "Jamie Dimon 为泡沫背书，AI 正在瞄准投资银行家",
+    "abstractEn": "Jamie Dimon blesses the bubble, as AI comes for investment bankers  AFR",
+    "abstractZh": "Jamie Dimon 为泡沫背书，AI 正在瞄准投资银行家  AFR",
+    "authors": [
+      "AFR"
+    ],
+    "institution": "AFR",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:f70f0b84c665",
+    "slug": "gnews-f70f0b84c665",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmcFZsYzRSNGhpNElpdFh6TXI4ZUFQTnhmUU5CellvMlFFSUlLQW1aRVBYMDZVakVJUE81dEIzTGlobWVhdDdZY3VNQmc2LTBtNXl3b0tBallMRm9UakhB?oc=5",
+    "publishedAt": "2026-05-06T05:28:00.000Z",
+    "titleEn": "Americans Distrust Crypto and AI as Super PACs Flood Midterms",
+    "titleZh": "美国人不信任加密货币和 AI，因为超级政治行动委员会大量介入中期选举",
+    "abstractEn": "Americans Distrust Crypto and AI as Super PACs Flood Midterms  BeInCrypto",
+    "abstractZh": "美国人不信任加密货币和 AI，因为超级政治行动委员会大量介入中期选举  BeInCrypto",
+    "authors": [
+      "BeInCrypto"
+    ],
+    "institution": "BeInCrypto",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:196479ad093f",
+    "slug": "gnews-196479ad093f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZi00TEF2d2pBM2k0MmVXUmkyYmZOMTVPbk1tVWxWS1RGdUNXUjBldWl6TmdNUTdNSzQzZ3Mtc09lQmV0MllnazRlUWNqZW5scWRVN1RqTkRiNDVGcExwYWdZM3E0YXhhN0JCcWtwTzl6bDdLbVJLcVRxUmdwOHRoRENNWXU0NFZ5Q3hyUGVBd0MzY09SbmpKb1lmbGFISW5HQlExYzdaNGoxRms2Q2lQd0s0TWV3elRUWXdiTkV0dkx3ckl6aVJEZVk4QTlsdl9Ob2RrTWxTc0JOZElFbThnYVdZTnF1QQ?oc=5",
+    "publishedAt": "2026-05-06T05:12:15.000Z",
+    "titleEn": "French AI real estate startup Davis raises €4.6 million and unveils Gaudi-1 for automated architectural generation",
+    "titleZh": "法国AI房地产初创公司Davis融资460万欧元并推出自动化建筑生成模型Gaudi-1",
+    "abstractEn": "French AI real estate startup Davis raises €4.6 million and unveils Gaudi-1 for automated architectural generation  EU-Startups",
+    "abstractZh": "法国AI房地产初创公司Davis融资460万欧元并推出自动化建筑生成模型Gaudi-1 EU-Startups",
+    "authors": [
+      "EU-Startups"
+    ],
+    "institution": "EU-Startups",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1t53dhp",
+    "slug": "reddit-1t53dhp-quality-comparison-between-qwen-3-6-27b-quantizations-bf16-q8-0-q",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t53dhp/quality_comparison_between_qwen_36_27b/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t53dhp/quality_comparison_between_qwen_36_27b/",
+    "publishedAt": "2026-05-06T05:10:27.000Z",
+    "titleEn": "Quality comparison between Qwen 3.6 27B quantizations (BF16, Q8_0, Q6_K, Q5_K_XL, Q4_K_XL, IQ4_XS, IQ3_XXS,...)",
+    "titleZh": "Qwen 3.6 27B 不同量化版本的质量对比（BF16、Q8_0、Q6_K、Q5_K_XL、Q4_K_XL、IQ4_XS、IQ3_XXS 等）",
+    "abstractEn": "The following is a non-comprehensive test I came up with to test the quality difference (a.k.a degradation) between different quantizations of Qwen 3.6 27B. I want to figure out what's the best quant to run on my 16 GB VRAM setup.\n\n**WHAT WE ARE TESTING**\n\nFirst, the prompt:\n\n    Given this PGN stri",
+    "abstractZh": "以下是我设计的一项非全面测试，旨在测试 Qwen 3.6 27B 不同量化版本之间的质量差异（即退化）。我想找出在 16 GB 显存设置上运行的最佳量化方案。**我们要测试的内容**首先，提示词：    Given this PGN stri",
+    "authors": [
+      "u/bobaburger"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 479,
+    "commentCount": 143,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-413154-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/413154.html",
+    "publishedAt": "2026-05-06T04:32:09.000Z",
+    "titleEn": "AI“翻译”养殖经验智慧养猪提质增效  ——讯飞和光科技用大模型为传统产业升级注入新动能",
+    "titleZh": "AI「翻译」养殖经验智慧养猪提质增效——讯飞和光科技用大模型为传统产业升级注入新动能",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:e02c96e6abd4",
+    "slug": "gnews-e02c96e6abd4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTRkTjl0bXVjQmR4MU5BR0Z6bTR0T1RHR2w2WmRHbDlxUXZseENKbXNKM21DUEpiN3BLalFyY2FEQW1TejJfVlBOZzlCbG44UDFDZkRia1BBZG5mUXhkdjk0S00teVViVWNVUFgwOHl1MWxqZ01YaGlSVHRLQzE3bmxGU3BTRnN3anNyREdBbmVNQURGOVYxM0kwUmFFYzFER2VieF9RMjVGT3hRWkl0SXln?oc=5",
+    "publishedAt": "2026-05-06T04:02:00.000Z",
+    "titleEn": "AI Policy Concerns Leapfrog DEI Worries in Survey of Executives",
+    "titleZh": "AI政策关切在高管调查中超越DEI担忧",
+    "abstractEn": "AI Policy Concerns Leapfrog DEI Worries in Survey of Executives  Bloomberg Law News",
+    "abstractZh": "AI政策关切在高管调查中超越DEI担忧 Bloomberg Law News",
+    "authors": [
+      "Bloomberg Law News"
+    ],
+    "institution": "Bloomberg Law News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:147e57727a29",
+    "slug": "gnews-147e57727a29",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcUU4SUI0TnVqdHNfTHEyMmhWQ05RRjd4anBfWGJGYTJuTTgyNmJRLXBMelVKajc4ZDctbm0wcDRXR2s2LXVkbnd2RTdleDJkT2ZNS2gzUWdaMlFiX19NcjgxSW0tQU1GdnRmYVQyMkhkcW9ocU9abzI0YzFhUjVZX1ZoeXFZR3ozdk0wNzlDY2hGVkZ5cF9FX3JWak1WLTNFbkphUmtyZkN1c1dRV3hr?oc=5",
+    "publishedAt": "2026-05-06T03:39:00.000Z",
+    "titleEn": "What's Driving the Global AI Regulation and Tax Debate Right Now?",
+    "titleZh": "当前推动全球 AI 监管和税收辩论的因素是什么？",
+    "abstractEn": "What's Driving the Global AI Regulation and Tax Debate Right Now?  CAclubindia",
+    "abstractZh": "当前推动全球 AI 监管和税收辩论的因素是什么？  CAclubindia",
+    "authors": [
+      "CAclubindia"
+    ],
+    "institution": "CAclubindia",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48031867",
+    "slug": "hn-48031867-245tb-micron-6600-ion-data-center-ssd-now-shipping",
+    "source": "Hacker News",
+    "sourceUrl": "https://investors.micron.com/news-releases/news-release-details/industry-leading-245tb-micron-6600-ion-data-center-ssd-now",
+    "commentUrl": "https://news.ycombinator.com/item?id=48031867",
+    "publishedAt": "2026-05-06T03:37:51.000Z",
+    "titleEn": "245TB Micron 6600 ION Data Center SSD Now Shipping",
+    "titleZh": "245TB Micron 6600 ION 数据中心 SSD 现已发售",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "neilfrndes"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 248,
+    "commentCount": 184,
+    "tags": []
+  },
+  {
+    "id": "hn:48031684",
+    "slug": "hn-48031684-agents-can-now-create-cloudflare-accounts-buy-domains-and-deploy",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48031684",
+    "publishedAt": "2026-05-06T03:10:33.000Z",
+    "titleEn": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+    "titleZh": "Agents 现在可以创建 Cloudflare 账户、购买域名并进行部署",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rolph"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 620,
+    "commentCount": 353,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-yna6ywhzdmt3qxyt-html",
+    "slug": "8k-ai-leaptic-cube",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/yna6yWhZdmT3QxYt.html",
+    "publishedAt": "2026-05-06T02:57:00.000Z",
+    "titleEn": "全球首款8K AI拇指运动相机！光子跃迁LEAPTIC Cube正式预售",
+    "titleZh": "全球首款8K AI拇指运动相机！光子跃迁LEAPTIC Cube正式预售",
+    "abstractEn": "它是唯一登录央视春晚的智能影像品牌，也是首个拿下TechRadar“Best of CES”奖项的中国智能影像产品，还是CES 2026被媒体誉为AI影像新物种的拇指相机。\n近日，承载着全球期待与顶级赞誉的全球首款8K AI拇指运动相机 LEAPTIC Cube正式预售（4月30日-5月11日）。这不仅是一次新品的预售，更像是一场关于「创作自由」的宣言。\n根据新品信息，光子跃迁并未试图在传统运动相机的赛道上做加法，而是选择打破物理与认知的双重边界，用仅有拇指大小的体积，向世界证明：极致的便携、顶格的画质与懂你所想的AI，从来不是一道单选题。\n\n\n\n形态革命：不止于小，更在于巧\n第一次将LEAPTIC Cube置于手心，触感与视觉会先于参数说话。\n56g的机身重量，如同一枚精工徽章，比鸡蛋更轻。它能藏匿于帽檐之下，悬挂于颈项之间，或是悄然滑入衣袋角落。这种“无感佩戴”的设计理念，让相机从手中",
+    "abstractZh": "它是唯一登录央视春晚的智能影像品牌，也是首个拿下TechRadar「Best of CES」奖项的中国智能影像产品，还是CES 2026被媒体誉为AI影像新物种的拇指相机。\n近日，承载着全球期待与顶级赞誉的全球首款8K AI拇指运动相机 LEAPTIC Cube正式预售（4月30日-5月11日）。这不仅是一次新品的预售，更像是一场关于「创作自由」的宣言。\n根据新品信息，光子跃迁并未试图在传统运动相机的赛道上做加法，而是选择打破物理与认知的双重边界，用仅有拇指大小的体积，向世界证明：极致的便携、顶格的画质与懂你所想的AI，从来不是一道单选题。\n\n\n\n形态革命：不止于小，更在于巧\n第一次将LEAPTIC Cube置于手心，触感与视觉会先于参数说话。\n56g的机身重量，如同一枚精工徽章，比鸡蛋更轻",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:6da433f4519d",
+    "slug": "gnews-6da433f4519d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZFpqa0lpVnFJVUlYNFZKeFY4UWVySHh5b28zaC1xMWVhM1NrR1EzVjBoT1FfUDcxQ1VMemh5OXZ6Q3U5NWpCS3Z4ZHhreVFIcUZKODNvM2ltQXU0M09wR19hajhLYXdZRlhVcTBFcWl4M3RKb09hTFJEOU1HcU1fN1pTdE5oZ2Z2M3NQNkhmSEdYaGZiUERsNHFWbGstOUFSY25LY3NYeFZYZkk3UWZSRzYtclBFQkJTZVh4YXZCeWpRSGxxRHNyaFlBcktHXzAwN2d1cXRmQWFwaEo1VXpTczF4enZSMmdNUS15cThBclBQY3ZwR24yQmRybXZTZi0ydHU2QWxxY25qLXN5YkxaNw?oc=5",
+    "publishedAt": "2026-05-06T01:58:39.000Z",
+    "titleEn": "Anthropic launches private-label financial AI 'agents' on same day as Schwab enters artificial intelligence fray -- and its shares rise with LPL, Raymond James",
+    "titleZh": "Anthropic 推出贴牌金融 AI 智能体，同日嘉信理财进军人工智能领域 —— 其股价与 LPL、Raymond James 一起上涨",
+    "abstractEn": "Anthropic launches private-label financial AI 'agents' on same day as Schwab enters artificial intelligence fray -- and its shares rise with LPL, Raymond James  RIABiz",
+    "abstractZh": "Anthropic 推出贴牌金融 AI 智能体，同日嘉信理财进军人工智能领域 —— 其股价与 LPL、Raymond James 一起上涨 RIABiz",
+    "authors": [
+      "RIABiz"
+    ],
+    "institution": "RIABiz",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:48031109",
+    "slug": "hn-48031109-telus-uses-ai-to-alter-call-agent-accents",
+    "source": "Hacker News",
+    "sourceUrl": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
+    "commentUrl": "https://news.ycombinator.com/item?id=48031109",
+    "publishedAt": "2026-05-06T01:38:44.000Z",
+    "titleEn": "Telus Uses AI to Alter Call-Agent Accents",
+    "titleZh": "Telus 利用 AI 改变客服代理的口音",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "debo_"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 226,
+    "commentCount": 207,
+    "tags": []
+  },
+  {
+    "id": "hrorg:ciic:09935002ed17",
+    "slug": "hrorg-ciic-09935002ed17",
+    "source": "中智咨询",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHaVhVWlBJeEJRY05WQmJzTVhlbVFxTHUxNXFVRFQ0TC1Ga0tHWmI2OFpNeUttOU5vVkJ0RFE0VVZ5aWpuelc4dkIzWk9OU0lIRUVxdnJn?oc=5",
+    "publishedAt": "2026-05-06T01:07:26.000Z",
+    "titleEn": "中国企业高质量发展研究报告（2026）",
+    "titleZh": "中国企业高质量发展研究报告（2026）",
+    "abstractEn": "中国企业高质量发展研究报告（2026）  AgeClub",
+    "abstractZh": "中国企业高质量发展研究报告（2026） AgeClub",
+    "authors": [
+      "AgeClub"
+    ],
+    "institution": "AgeClub",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-n2sl4ulrn8n6qnst-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/N2sl4ulRn8N6QNST.html",
+    "publishedAt": "2026-05-06T00:41:00.000Z",
+    "titleEn": "豆包将新增付费订阅，主打生产力场景；宇树机器人在美买票坐飞机，电池被没收；亚马逊进军物流行业；红果短剧将收费？抖音副总裁辟谣",
+    "titleZh": "豆包将新增付费订阅，主打生产力场景；宇树机器人在美买票坐飞机，电池被没收；亚马逊进军物流行业；红果短剧将收费？抖音副总裁辟谣",
+    "abstractEn": "要闻提示\n1.宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时\n2.豆包将在免费模式外新增付费订阅，主打生产力场景\n3.红果短剧将收费？抖音副总裁辟谣：免费追剧核心模式未变\n4.35岁主管被公司用AI替岗，月薪从2.5万降至1.5万，协商不成被裁，法院判了\n5.傅盛新品陷“换皮”风波：被指套壳开源项目\n6.小米MIX Flip小折叠已暂停！Fold大折叠今年重启回归：用上自研玄戒芯\n7.亚马逊对外开放物流网络，传统快递巨头面临新竞争\n8.官宣！高通二把手正式跳槽Intel：曾是骁龙处理器一哥\n今日头条\n\n宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时\n\n5月5日消息，近日，美国一趟从加州奥克兰飞往圣地亚哥的短途航班意外延误 62 分钟，此次延误不仅因为机场交通拥堵，更因一位特殊 “乘客”—— 人形机器人 Bebop。这款机器人基于中国宇树科技G1基础款打造，由美国一家活动",
+    "abstractZh": "要闻提示\n1.宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时\n2.豆包将在免费模式外新增付费订阅，主打生产力场景\n3.红果短剧将收费？抖音副总裁辟谣：免费追剧核心模式未变\n4.35岁主管被公司用AI替岗，月薪从2.5万降至1.5万，协商不成被裁，法院判了\n5.傅盛新品陷「换皮」风波：被指套壳开源项目\n6.小米MIX Flip小折叠已暂停！Fold大折叠今年重启回归：用上自研玄戒芯\n7.亚马逊对外开放物流网络，传统快递巨头面临新竞争\n8.官宣！高通二把手正式跳槽Intel：曾是骁龙处理器一哥\n今日头条\n\n宇树机器人在美买票坐飞机，电池被没收，致航班延误逾1小时\n\n5月5日消息，近日，美国一趟从加州奥克兰飞往圣地亚哥的短途航班意外延误 62 分钟，此次延误不仅因为机场交通拥堵，更因一位",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t4s6g2",
+    "slug": "reddit-1t4s6g2-deepseek-v4-being-17x-cheaper-got-me-to-actually-measure-what-i-s",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t4s6g2/deepseek_v4_being_17x_cheaper_got_me_to_actually/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t4s6g2/deepseek_v4_being_17x_cheaper_got_me_to_actually/",
+    "publishedAt": "2026-05-05T20:55:56.000Z",
+    "titleEn": "DeepSeek V4 being 17x cheaper got me to actually measure what I send to cloud vs what I could run locally. the results are stupid.",
+    "titleZh": "DeepSeek V4 成本低 17 倍，让我实际测量了我发送到云端的内容 vs 我可以在本地运行的内容。结果令人咋舌。",
+    "abstractEn": "That foodtruck bench post showing deepseek v4 matching gpt-5.2 at 17x cheaper got me thinking. if frontier cloud models are that overpriced for equivalent quality, how much of my daily work even needs cloud at all?\n\nRan my normal coding workflow for 10 days. every task got logged: what it was, token",
+    "abstractZh": "那篇显示 DeepSeek v4 以 17 倍低廉成本匹敌 GPT-5.2 的 foodtruck 基准测试帖子让我开始思考。如果前沿云端模型的同等质量定价如此之高，我的日常工作中到底有多少部分真的需要云端服务？\n\n我运行了 10 天的正常编码工作流。每个任务都被记录下来：它是什么、token 数量",
+    "authors": [
+      "u/spencer_kw"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 608,
+    "commentCount": 139,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48027897",
+    "slug": "hn-48027897-dnssec-disruption-affecting-de-domains-resolved",
+    "source": "Hacker News",
+    "sourceUrl": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
+    "commentUrl": "https://news.ycombinator.com/item?id=48027897",
+    "publishedAt": "2026-05-05T20:16:35.000Z",
+    "titleEn": "DNSSEC disruption affecting .de domains – Resolved",
+    "titleZh": "影响 .de 域名的 DNSSEC 中断问题——已解决",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "warpspin"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 731,
+    "commentCount": 402,
+    "tags": []
+  },
+  {
+    "id": "hn:48027455",
+    "slug": "hn-48027455-a-theory-of-deep-learning",
+    "source": "Hacker News",
+    "sourceUrl": "https://elonlit.com/scrivings/a-theory-of-deep-learning/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48027455",
+    "publishedAt": "2026-05-05T19:38:48.000Z",
+    "titleEn": "A Theory of Deep Learning",
+    "titleZh": "深度学习理论",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "elonlit"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 113,
+    "commentCount": 26,
+    "tags": []
+  },
+  {
+    "id": "hrorg:korn-ferry:825c2526a86f",
+    "slug": "hrorg-korn-ferry-825c2526a86f",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUTMzalBhNmxtZV81VU84ZFZBdnhDS2RWcU1UTVN6RXdlbjk1TUxUUkxnM3JkUE1nV0xXQkxFQ3REcHo4cTNDVnQ5MmZJMDFwcndEN1pBNHJhWXNtSnFJaW9QY29EUVYyREROekNRT3dvUXkxcmc4eGJtcGZCRUV5LXJiNGJwRjIxWGxld0MzQTVVVWszSEhaVTRLdDJHMmIxSE44ekF6d0E3b0dkREhOa2pGbmNJQlZsbGVB?oc=5",
+    "publishedAt": "2026-05-05T15:01:00.000Z",
+    "titleEn": "Forbes survey of 18,000 names Korn Ferry top recruiter again",
+    "titleZh": "Forbes 调查 18000 人 Korn Ferry 再次成为顶级招聘机构",
+    "abstractEn": "Forbes survey of 18,000 names Korn Ferry top recruiter again  Stock Titan",
+    "abstractZh": "Forbes 调查 18000 人 Korn Ferry 再次成为顶级招聘机构  Stock Titan",
+    "authors": [
+      "Stock Titan"
+    ],
+    "institution": "Stock Titan",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:585ff10a0326",
+    "slug": "hrorg-mercer-585ff10a0326",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb1ZGcHAwTURnT19lNXo3SHZXeHdSa2NWd2lpY1M0Q0FCTWMwQ2xUU0JsZmg1aVdEZ2lEa0F2dk1oUVlvUWs5a1pPc1ZPemRUYjY3a0JleEhxdjVvMkdLUzNTN2ZrQWtOcmZUcVQ0dkxhOHAxQWxxQmJJQXBtX0FKaXZfTGdtUkItMmxYQ2JVdFU?oc=5",
+    "publishedAt": "2026-05-05T12:13:42.000Z",
+    "titleEn": "WSRIA Roundup: Carlyle, LPL, Mercer, Savant And More",
+    "titleZh": "WSRIA 汇总：Carlyle、LPL、Mercer、Savant 等",
+    "abstractEn": "WSRIA Roundup: Carlyle, LPL, Mercer, Savant And More  Wealth Solutions Report",
+    "abstractZh": "WSRIA 汇总：Carlyle、LPL、Mercer、Savant 等  Wealth Solutions Report",
+    "authors": [
+      "Wealth Solutions Report"
+    ],
+    "institution": "Wealth Solutions Report",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:9467d84e050d",
+    "slug": "hrorg-randstad-9467d84e050d",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWhVcWtVcVpMbUVEWm4tUzJ5VFNMeWJ5RG9jZkYwVURhRkhFWUkwZGVUdFoySEVKQmVqczQwQnlNbHdwZkpHQm5FZXJIMWg5WWtScHdUUVVlTEdlSGVBRndwMlFVMnZFSklzUGlOSXVxUWczNnU5VUQxQXRPWmxoa1l0N1RsTXk3RU1oRV83R21mNERnNE1XNlk1d19WVDRkejBUWWhDZGFiYkdFcVFTTG9mek9YOW1n?oc=5",
+    "publishedAt": "2026-05-05T12:05:00.000Z",
+    "titleEn": "Financial Executives International Welcomes Randstad as Strategic Partner",
+    "titleZh": "Financial Executives International欢迎Randstad成为战略合作伙伴",
+    "abstractEn": "Financial Executives International Welcomes Randstad as Strategic Partner  Yahoo Finance",
+    "abstractZh": "Financial Executives International欢迎Randstad成为战略合作伙伴  Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:05503fb3d39a",
+    "slug": "hrorg-randstad-05503fb3d39a",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRnkyVXIzanIzUDN2bG5PeW5BbVItNW95QUI0MDMzSy1XdjAyNnRPdHJLcXlVT2hfT2JsQW1sUVQxQWFMRkNnMUhZT2loQWUzbHRfNkd2bVVwWWU5RllyNk5sdlo1MmZ3U2JQS2JaM2hzakRtRUJoVUswRzIzaUc4a2ZSbEI5VnRjZi13NTNZUkdaOXVDZl8zd1Z2VXYzZ2dZcGhfeVFEOXIzZTZ5M0cwQnFMX014SUxaRUMwMkZUMmoyZk9IUFFnWjJKLUd2NW1oTUNySDRJdVpKR1VtX0FBMW5sSFJqZTY5V3c?oc=5",
+    "publishedAt": "2026-05-05T12:00:00.000Z",
+    "titleEn": "Randstad USA and FEI Form Alliance to Address Financial Technology Transformation and Talent Needs",
+    "titleZh": "Randstad USA与FEI结成联盟，应对金融技术转型和人才需求",
+    "abstractEn": "Randstad USA and FEI Form Alliance to Address Financial Technology Transformation and Talent Needs  PR Newswire",
+    "abstractZh": "Randstad USA与FEI结成联盟，应对金融技术转型和人才需求  PR Newswire",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:ce85b36286fd",
+    "slug": "hrorg-manpower-ce85b36286fd",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DSXdKQ0FldUZ1Yk9ibzJpVktOMF9oOGloaEcwOVM5bzhuQ3U3ZDIzZmZYOVhla19jYmF0UFUtaU9BNWUzZFdidkk2MDU2TWlRSkhzZnM2WHI0WFJONmZFNnZ2N2R1RXNZQ2Jz?oc=5",
+    "publishedAt": "2026-05-05T11:46:26.000Z",
+    "titleEn": "ManpowerGroup (MAN) Q1 2026 Earnings Call Transcript",
+    "titleZh": "ManpowerGroup (MAN) 2026年第一季度财报电话会议纪要",
+    "abstractEn": "ManpowerGroup (MAN) Q1 2026 Earnings Call Transcript  Fortune",
+    "abstractZh": "ManpowerGroup (MAN) 2026年第一季度财报电话会议纪要 Fortune",
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:8cece1eb6242",
+    "slug": "hrorg-mercer-8cece1eb6242",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSW1FWk5KSk9DckdpQTJEcDUtZ2pqZWZUWDRxd3ZkTmhVcURRdmhlTVNGMmtvZzJUbGptLW9seEFzX2lUNFJfUUMtNXRyemlzUm5VMGs2NDNLRlFCWXRpaUZZYzVxejlkaFhiMk1XSUZSekVzZFlsRG1OaGtvT010LV9tZXdoQnh5LVZ4WkNVM1F5NHB3OUlDcjlhR1pDd3lVWXc?oc=5",
+    "publishedAt": "2026-05-05T07:00:00.000Z",
+    "titleEn": "Amelia Mercer Game Report: vs Godwin Heights",
+    "titleZh": "Amelia Mercer 比赛报道：对阵 Godwin Heights",
+    "abstractEn": "Amelia Mercer Game Report: vs Godwin Heights  MaxPreps",
+    "abstractZh": "Amelia Mercer 比赛报道：对阵 Godwin Heights  MaxPreps",
+    "authors": [
+      "MaxPreps"
+    ],
+    "institution": "MaxPreps",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:adecco:e72eb4f733ca",
+    "slug": "hrorg-adecco-e72eb4f733ca",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTkxjUHR1XzRJTlpmU0RlQjlrZzc2b2xISlNTZlM2aDFvclN2Xzc5MmVvYnNVSTMtb3VyTF9zVl9GWEQ1cEp0WTlJMVdwTXIwZUJrQkc2N1VRSTFXZFdGdTIxUm15aTNkbVh0cEM2SEV4R0pzSkpLdVB5dHdnaENsVkx0Nkg5OFVJUDZ2RGxNVm5Odkp3YWNvTUlQMFVrZ003?oc=5",
+    "publishedAt": "2026-05-05T06:19:20.000Z",
+    "titleEn": "Adecco: The Future of Hiring | What Job Seekers Need to Know to Stand Out",
+    "titleZh": "Adecco：招聘的未来 | 求职者脱颖而出的必备知识",
+    "abstractEn": "Adecco: The Future of Hiring | What Job Seekers Need to Know to Stand Out  money-tourism.gr",
+    "abstractZh": "Adecco：招聘的未来 | 求职者脱颖而出的必备知识  money-tourism.gr",
+    "authors": [
+      "money-tourism.gr"
+    ],
+    "institution": "money-tourism.gr",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "hrorg:adecco:68f0c5c3aee0",
+    "slug": "hrorg-adecco-68f0c5c3aee0",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORFpVX1ROT1hBbTZHVDRkM3pOQ00tbmlxYXhyOWVsQk5qdDk3aThpdDVNWURVZENxUVgyQWllV3d6c0w3eFZOVUI4ejE0YjlVVlNhZm80d3g2dDFxdHJSOHJCQ0hUcXZ3eGkwUmR5dW9LdFpBMkNEUTdwVXdxeGJoeGwtUXQwUEpyQ2FyeVlhYVNhZERZRFFnOThweXRKYThLSUpv?oc=5",
+    "publishedAt": "2026-05-05T05:08:27.000Z",
+    "titleEn": "ADECCO GROUP DIVIDEND 2026: ANNOUNCEMENT OF FINAL TERMS",
+    "titleZh": "德科集团2026年股息：最终条款公告",
+    "abstractEn": "ADECCO GROUP DIVIDEND 2026: ANNOUNCEMENT OF FINAL TERMS  Thailand Business News",
+    "abstractZh": "德科集团2026年股息：最终条款公告 Thailand Business News",
+    "authors": [
+      "Thailand Business News"
+    ],
+    "institution": "Thailand Business News",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hn:48016821",
+    "slug": "hn-48016821-following-the-text-gradient-at-scale",
+    "source": "Hacker News",
+    "sourceUrl": "http://ai.stanford.edu/blog/feedback-descent/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48016821",
+    "publishedAt": "2026-05-05T01:00:58.000Z",
+    "titleEn": "Following the Text Gradient at Scale",
+    "titleZh": "大规模下跟随文本梯度",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "bearseascape"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "hrorg:careerin:5be4f664407b",
+    "slug": "hrorg-careerin-5be4f664407b",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMTRIVmFHZ0hxTUpUekx0S3dyQ29uOUZyQmlrdVpwaGVraFFaZDUyY2ttT0NLb2JkUHBMNm45dEdzWXpCMnoybFdxT28xWFJJbExQNlFTTUFCeEVrd295NnJ5SEVNRHhnS0dlcmx5RVMtWFVSYmFBdUZjREVrSlJLTVVFLVJ3MmlLc0xCTUdXbllkMTA?oc=5",
+    "publishedAt": "2026-05-02T11:12:28.000Z",
+    "titleEn": "科锐国际：2026年一季度报告",
+    "titleZh": "科锐国际：2026年一季度报告",
+    "abstractEn": "科锐国际：2026年一季度报告  富途牛牛",
+    "abstractZh": "科锐国际：2026年一季度报告 富途牛牛",
+    "authors": [
+      "富途牛牛"
+    ],
+    "institution": "富途牛牛",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:fed5afb92ffc",
+    "slug": "hrorg-korn-ferry-fed5afb92ffc",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNDA4SHdNTWNUYXE2Z05JQzJHTWl6bzliMlZNLWNfX0hJQlI5QnM5RHNLa0RtYWV2YjJTcWhJZmx4ckkzc0FDbVRpOTBaa0ZwWDkyWERoUi1VeU83VUZtMy1nYkx0T3VsZjZTQ1lCdUdHVWloUDdNeFp2Mm83RU5HZS1QdnYxc3VpT2x1MWpHTTJLWVlvdXozWl9tcGJfeHNlN0FCeHhraTRZbTg3TU5hU0ZJaWt4SUZ6NnBIOFhOMnpRdkxSRENQUUt0YnEtOTFhSzNn?oc=5",
+    "publishedAt": "2026-05-02T07:45:16.000Z",
+    "titleEn": "Korn/Ferry International $KFY Shares Sold by Artemis Investment Management LLP",
+    "titleZh": "Artemis Investment Management LLP 卖出 Korn/Ferry International $KFY 股票",
+    "abstractEn": "Korn/Ferry International $KFY Shares Sold by Artemis Investment Management LLP  MarketBeat",
+    "abstractZh": "Artemis Investment Management LLP 卖出 Korn/Ferry International $KFY 股票  MarketBeat",
+    "authors": [
+      "MarketBeat"
+    ],
+    "institution": "MarketBeat",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:41823361f37b",
+    "slug": "hrorg-korn-ferry-41823361f37b",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQnZDcU52SGJEc1p0bDVaOUNQM0hLZHZ3b3B4NG9NSVBaUnZWQTBDWHQxUU9Ud3V2dS15Z0dfWnpaRkNxSDB5MXFkd3E4cUhiS0lULW9mT25IYm02SDJoS0dBeVZFcUo3c2l6TTNCR3AzeUM5QU9QM1Jaa24tcXFiU2tlUW04Z2owTGlDcG5TWlU5VUFJaUxmMmNtQ3kxLWxpWE91anRUSGEwRVhUcTdxTV8tTWRuT0kxaWlaSTVQS3pNVE95SmtrOF9OTFFTMnFN?oc=5",
+    "publishedAt": "2026-05-01T11:09:18.000Z",
+    "titleEn": "Jennison Associates LLC Sells 160,167 Shares of Korn/Ferry International $KFY",
+    "titleZh": "Jennison Associates LLC 卖出 160,167 股 Korn/Ferry International $KFY 股票",
+    "abstractEn": "Jennison Associates LLC Sells 160,167 Shares of Korn/Ferry International $KFY  MarketBeat",
+    "abstractZh": "Jennison Associates LLC 卖出 160,167 股 Korn/Ferry International $KFY 股票  MarketBeat",
+    "authors": [
+      "MarketBeat"
+    ],
+    "institution": "MarketBeat",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:122dc6471763",
+    "slug": "hrorg-careerin-122dc6471763",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fUS1KYjhZNmM4dmFRR0dpOFJ0MHhhRlcxSVZRWGZHbEdoLVk5VmFlaXlYVkFlWk5sbnJjRGZyZ0cybjBEdXpBdU9Fbi1TWHVwZDRRMjRVcU5mZ2EyczdZaUxtYWJ5dw?oc=5",
+    "publishedAt": "2026-05-01T03:34:03.000Z",
+    "titleEn": "科锐国际：2026年一季度净利润9187.42万元 同比增长59%",
+    "titleZh": "科锐国际：2026年一季度净利润9187.42万元 同比增长59%",
+    "abstractEn": "科锐国际：2026年一季度净利润9187.42万元 同比增长59%  东方财富",
+    "abstractZh": "科锐国际：2026年一季度净利润9187.42万元 同比增长59% 东方财富",
+    "authors": [
+      "东方财富"
+    ],
+    "institution": "东方财富",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:1332766059ab",
+    "slug": "hrorg-manpower-1332766059ab",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVjFvODhuWjN4b255SHNqQ04zRkloVFN5V0x1U2RTT2RwQjlFQ1FFWFo5cDZPNHIyUlNKNklOdzBlWmhzS2pEaksyX0R0NndManRxTVhxNTUwbHZFUVNhRXk0QzFkMm1uY0o2Qm9mOURBeWF6WWhGT0pMRmFXeXd3TmRSS3VtWVAxMkFJSEhFdG1RVFpMQmJwTm85UWxJVlptNU5tTzJUcUkzcl9HU3BzTFBiMldPcVU?oc=5",
+    "publishedAt": "2026-04-30T23:58:16.000Z",
+    "titleEn": "ManpowerGroup sells Jefferson Wells US business in $100M deal",
+    "titleZh": "万宝盛华集团以 1 亿美元出售 Jefferson Wells 美国业务",
+    "abstractEn": "ManpowerGroup sells Jefferson Wells US business in $100M deal  Staffing Industry Analysts",
+    "abstractZh": "万宝盛华集团以 1 亿美元出售 Jefferson Wells 美国业务  Staffing Industry Analysts",
+    "authors": [
+      "Staffing Industry Analysts"
+    ],
+    "institution": "Staffing Industry Analysts",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:a5fccc38ca72",
+    "slug": "hrorg-randstad-a5fccc38ca72",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbzJiVW94X3VlbkF3ZkZXRHhTS1o5MHlzT1kxcXA5dERLbjZIMUROS2ZweThpdmVaNjNXRjVLUjFjODlRMU5YWnhMNy1XV0h1VV9iRHpZRm50ZnFEZzd2djVrWG9jaUlVZzJQeWp5aVF1QmEzS0tMU1o0Nkp6NGNPRmxLRFFjXzJlM0p5VmJMMzZJbHVfQ0ZDSFFjNmFEMnVQX1RJ?oc=5",
+    "publishedAt": "2026-04-30T23:58:16.000Z",
+    "titleEn": "Soliant Health taps Randstad exec as next CEO",
+    "titleZh": "Soliant Health任命Randstad高管为下一任CEO",
+    "abstractEn": "Soliant Health taps Randstad exec as next CEO  Staffing Industry Analysts",
+    "abstractZh": "Soliant Health任命Randstad高管为下一任CEO Staffing Industry Analysts",
+    "authors": [
+      "Staffing Industry Analysts"
+    ],
+    "institution": "Staffing Industry Analysts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:boss-zhipin:726c0b2c4c42",
+    "slug": "hrorg-boss-zhipin-726c0b2c4c42",
+    "source": "BOSS直聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRdTFpSWdJLTJVRTlPZlE5SUM2WmVqOHN2WDhtZk1KMUxkakZ0ZWFVS2FoaTlTcGJmMUZNelh3SXZSVWZsdThaSGRQLVc1MG9MVU5FejJRYXgzWUFRVGJzaw?oc=5",
+    "publishedAt": "2026-04-30T20:46:33.000Z",
+    "titleEn": "BOSS直聘-W：2025年净利润27.35亿元 同比增长72.61%",
+    "titleZh": "BOSS直聘-W：2025年净利润27.35亿元 同比增长72.61%",
+    "abstractEn": "BOSS直聘-W：2025年净利润27.35亿元 同比增长72.61%  东方财富",
+    "abstractZh": "BOSS直聘-W：2025年净利润27.35亿元 同比增长72.61% 东方财富",
+    "authors": [
+      "东方财富"
+    ],
+    "institution": "东方财富",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:7effba4c6122",
+    "slug": "hrorg-manpower-7effba4c6122",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQelFydU9kSDFmOHlSUUN6ZmxtMmZiSm9PWU9jV0NpeEdCUy1aTGN2XzdvaVdibXB2NE1mQ0dwR0p0emdJUG0tazNyazlZb1dhWTYtbzVKbElpX0xONFpQMy1iT21GeXl5SzhfSXVzTTNuaVVSZVZkblYxQ3hTRWZ2ZHVUeWJqQVMtdVVXY1RlUHlxSG1oS0tQYU9LZEQ0UE9lenBZVWRvZzZDREtLS0E?oc=5",
+    "publishedAt": "2026-04-29T22:54:22.000Z",
+    "titleEn": "Is ManpowerGroup (MAN) stock slowing down | Q1 2026: Profit Exceeds Views - Barrier to Entry",
+    "titleZh": "ManpowerGroup (MAN) 股票是否放缓 | 2026年第一季度：利润超预期 - 进入壁垒",
+    "abstractEn": "Is ManpowerGroup (MAN) stock slowing down | Q1 2026: Profit Exceeds Views - Barrier to Entry  Newser",
+    "abstractZh": "ManpowerGroup (MAN) 股票是否放缓 | 2026年第一季度：利润超预期 - 进入壁垒 Newser",
+    "authors": [
+      "Newser"
+    ],
+    "institution": "Newser",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:boss-zhipin:674172c0163d",
+    "slug": "hrorg-boss-zhipin-674172c0163d",
+    "source": "BOSS直聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qUDJaOTlNRzFIU1pnZTBPWFN5YnpwUzN3REZSMkV5RGxEd1prY3hPZ0Q3Y1ljYW1zc3NEakVscE1vYkVmZjRyNlc5Z2o4U2hpMGV0MkFrMXZ2SEdTb2paZmM5cXNQMnNyeUprdmY4cGQ4Qk9oWnNpMXc3clYwZw?oc=5",
+    "publishedAt": "2026-04-29T12:59:00.000Z",
+    "titleEn": "BOSS直聘-W：2025年度報告",
+    "titleZh": "BOSS直聘-W：2025年度报告",
+    "abstractEn": "BOSS直聘-W：2025年度報告  富途牛牛",
+    "abstractZh": "BOSS直聘-W：2025年度报告 富途牛牛",
+    "authors": [
+      "富途牛牛"
+    ],
+    "institution": "富途牛牛",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:ciic:cbbd7f8308df",
+    "slug": "hrorg-ciic-cbbd7f8308df",
+    "source": "中智咨询",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qQUlYWmh6a0Rqb0lnVUpfek9HSFc1LTd5aHhLQnR5aEpPWWhDVXZHXzNjdndmT2pjUk00a1pRajlCYkw5YTNiVHFqd2pyaVg1VUdSM2xYa05EMlRBWWZQVWZTRldzTGw5MHpXaDV3TWZEblpXd3VF?oc=5",
+    "publishedAt": "2026-04-29T10:31:00.000Z",
+    "titleEn": "首季中国经济扫描丨AI浪潮澎湃 就业市场涌现新机遇",
+    "titleZh": "首季中国经济扫描丨AI浪潮澎湃 就业市场涌现新机遇",
+    "abstractEn": "首季中国经济扫描丨AI浪潮澎湃 就业市场涌现新机遇  封面新闻",
+    "abstractZh": "首季中国经济扫描丨AI浪潮澎湃 就业市场涌现新机遇 封面新闻",
+    "authors": [
+      "封面新闻"
+    ],
+    "institution": "封面新闻",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:df618ee2c804",
+    "slug": "hrorg-careerin-df618ee2c804",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PVDFhQXVITG53N25KV1VlZWtfWnNTbjFVeFk4dHk5OU1IQk9LSWxkWjVWZ05id3JHd3gzR1FYb2VvQmpkWEtWLUNacUszandxV2pkVHBSLWFZVHFjRk5jRGVR?oc=5",
+    "publishedAt": "2026-04-28T23:18:47.000Z",
+    "titleEn": "科锐国际2025年营收145.40亿元",
+    "titleZh": "科锐国际2025年营收145.40亿元",
+    "abstractEn": "科锐国际2025年营收145.40亿元  新京报",
+    "abstractZh": "科锐国际2025年营收145.40亿元  新京报",
+    "authors": [
+      "新京报"
+    ],
+    "institution": "新京报",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:boss-zhipin:70893747c4dc",
+    "slug": "hrorg-boss-zhipin-70893747c4dc",
+    "source": "BOSS直聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kX21RZ0xuOXdqYlpHRno0dzIyR0FONGY5SHR4M01hNmNyMVB5TW91ZVhVX3pzVmJEbHhETmtxUXBqcXZ0Q080Q1B0Vm0?oc=5",
+    "publishedAt": "2026-04-28T22:00:00.000Z",
+    "titleEn": "BOSS直聘-W 财务报表/环境、社会及管治资料 - [年报] 2025年度报告 网页链接",
+    "titleZh": "BOSS直聘-W 财务报表/环境、社会及管治资料 - [年报] 2025年度报告 网页链接",
+    "abstractEn": "BOSS直聘-W 财务报表/环境、社会及管治资料 - [年报] 2025年度报告 网页链接  雪球",
+    "abstractZh": "BOSS直聘-W 财务报表/环境、社会及管治资料 - [年报] 2025年度报告 网页链接 雪球",
+    "authors": [
+      "雪球"
+    ],
+    "institution": "雪球",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:zhilian:61efb8f8b1f7",
+    "slug": "hrorg-zhilian-61efb8f8b1f7",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NYjdaOEtBSFFoZWhNZS12RExuUkVRcnppeUtBU2FhMXdQcHRSSS1tcmpZekJHbURQTUE5U3dwRUlxWnRIMmlqREtERXRKMU1ZcTBNVEVxeUhWZW5Q?oc=5",
+    "publishedAt": "2026-04-28T10:43:59.000Z",
+    "titleEn": "智联招聘一季度安全公报：拦截违规职位超3.6万",
+    "titleZh": "智联招聘一季度安全公报：拦截违规职位超3.6万",
+    "abstractEn": "智联招聘一季度安全公报：拦截违规职位超3.6万  网易新闻客户端",
+    "abstractZh": "智联招聘一季度安全公报：拦截违规职位超3.6万 网易新闻客户端",
+    "authors": [
+      "网易新闻客户端"
+    ],
+    "institution": "网易新闻客户端",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:5f6fb9a12876",
+    "slug": "hrorg-randstad-5f6fb9a12876",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY0VQTnlob1dJWTdEbXg4MDdZdWlhbFJkcTFlaW5NeUtkSTZjOHBXei1tR2xlMk9JTy15bGNnRHNuNGlaUEVWVVk5aTZaTmNYWHIyRG9TVlQ2UDkxN2NFSjV1V250RTF4LWlZdEF6RXFPZGc5bXRLcy04cVFKVHl3TnhiLUVqNWZPMnJZUUJ5ajZ6a0R0Wnd4UmRBdzF2MDYzRVFEaG9WZEdoNlkwSTdEaHFMS1YydEZGR1RJTUZwM2VIQQ?oc=5",
+    "publishedAt": "2026-04-27T10:59:51.000Z",
+    "titleEn": "Majority of talent and employers in Spain say AI boosts productivity",
+    "titleZh": "西班牙大多数人才和雇主表示AI提升了生产力",
+    "abstractEn": "Majority of talent and employers in Spain say AI boosts productivity  Staffing Industry Analysts",
+    "abstractZh": "西班牙大多数人才和雇主表示AI提升了生产力 Staffing Industry Analysts",
+    "authors": [
+      "Staffing Industry Analysts"
+    ],
+    "institution": "Staffing Industry Analysts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:24314240515e",
+    "slug": "hrorg-careerin-24314240515e",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wMVQzaHpwZl9UNGxhSkRaaDZCQy10Z2t1S0IwNlhTX1FpbUZPd0tFcGxrM21SdTktblBET3RWZkpFaTk5SWVKNDkybmU0X3BLdEh1NnB4THBkeTZfdjctMDdRNUZmdw?oc=5",
+    "publishedAt": "2026-04-27T07:00:00.000Z",
+    "titleEn": "科锐国际：2026年第一季度归属于上市公司股东的净利润同比增长59.00%",
+    "titleZh": "科锐国际：2026年第一季度归属于上市公司股东的净利润同比增长59.00%",
+    "abstractEn": "科锐国际：2026年第一季度归属于上市公司股东的净利润同比增长59.00%  东方财富",
+    "abstractZh": "科锐国际：2026年第一季度归属于上市公司股东的净利润同比增长59.00%  东方财富",
+    "authors": [
+      "东方财富"
+    ],
+    "institution": "东方财富",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:3d1679c188ee",
+    "slug": "hrorg-careerin-3d1679c188ee",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IaHlYdVhpc3dQUFpZMEtfTFVDLXhLTmM3d3pwTnRGRTFiWkxqMkhjNXhCWnBEVzZmamVlLV9pYW5JUmJsejczb1dWdkJzQmlaN2pHX21VZWdMR1JqbDdUbA?oc=5",
+    "publishedAt": "2026-04-27T03:23:33.000Z",
+    "titleEn": "科锐国际2025年净利润增长52.68% 拟10派2.3元",
+    "titleZh": "科锐国际2025年净利润增长52.68% 拟10派2.3元",
+    "abstractEn": "科锐国际2025年净利润增长52.68% 拟10派2.3元  东方财富",
+    "abstractZh": "科锐国际2025年净利润增长52.68% 拟10派2.3元 东方财富",
+    "authors": [
+      "东方财富"
+    ],
+    "institution": "东方财富",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:5e5f5651496f",
+    "slug": "hrorg-careerin-5e5f5651496f",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41c19fakUyVnZsRnZiWVFaRHc0akRpcGlra0U4TWdCdTItTEhyZGphcW5TVS1rejB4cTZpeHJEbllQcTVpLTYxemtXNWNSOWhnZElHWDZ1bTd5RDZQbTJiU3BPZEswZw?oc=5",
+    "publishedAt": "2026-04-27T01:21:44.000Z",
+    "titleEn": "机构风向标 | 科锐国际(300662)2025年四季度已披露持股减少机构超10家",
+    "titleZh": "机构风向标 | 科锐国际(300662)2025年四季度已披露持股减少机构超10家",
+    "abstractEn": "机构风向标 | 科锐国际(300662)2025年四季度已披露持股减少机构超10家  东方财富",
+    "abstractZh": "机构风向标 | 科锐国际(300662)2025年四季度已披露持股减少机构超10家  东方财富",
+    "authors": [
+      "东方财富"
+    ],
+    "institution": "东方财富",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:8235b4f9c4bd",
+    "slug": "hrorg-careerin-8235b4f9c4bd",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EdjhSdlozNzN5YS1LMXdOWFBZazdJbXZUZTZTUkp3MHFnSHV6RVlKelNEU1FpNU1vcXBHdWhQZTNmaE1TdnZtQXZMcXE3RnllNjhpemwzVU9YZWlkR0hCMXZYZ2RtZ3NQQVZF?oc=5",
+    "publishedAt": "2026-04-26T09:09:08.000Z",
+    "titleEn": "科锐国际: 2025年年度报告",
+    "titleZh": "科锐国际：2025年年度报告",
+    "abstractEn": "科锐国际: 2025年年度报告  证券之星",
+    "abstractZh": "科锐国际：2025年年度报告 证券之星",
+    "authors": [
+      "证券之星"
+    ],
+    "institution": "证券之星",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:1f34f97c0b13",
+    "slug": "hrorg-mercer-1f34f97c0b13",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0EzSTE5aFdVWkRqdHFWbzBKTWtRWWlVdXRYd29ZVTAxcGRNU3FnRjBRT3hpbFptQjlka3lweFRGT1hRc2syVVZNUG5vOWUyY21RTkx2elEwTk9DM2NrQWN5Q0FiWTlud3VEcS1CTUxKYzFZUHFScnNHRGxHN0RoaWNLUUttNmJ1YmZUdFk5dEI5VXliTU56emNRRWtBTEpxQlZ5eUJvMUVXcGd0VEdEOQ?oc=5",
+    "publishedAt": "2026-04-24T07:00:00.000Z",
+    "titleEn": "CFOs fear health benefit costs are ticking up unsustainably",
+    "titleZh": "首席财务官担心健康福利成本正以不可持续的方式上升",
+    "abstractEn": "CFOs fear health benefit costs are ticking up unsustainably  CFO.com",
+    "abstractZh": "首席财务官担心健康福利成本正以不可持续的方式上升  CFO.com",
+    "authors": [
+      "CFO.com"
+    ],
+    "institution": "CFO.com",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:cda876f5fa6f",
+    "slug": "hrorg-careerin-cda876f5fa6f",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoZ01BeTZrMW9QY2l1YmxuYm41Mmx2cnVWV0JoWFZhRjgxRDg5YVZJTWVrN1JkWWpGU1ZCVHlZVWVGbXE3X0JzMUNlSTA?oc=5",
+    "publishedAt": "2026-04-23T06:03:25.000Z",
+    "titleEn": "通用 AI 不再「讲故事」科锐国际解码 2026 人才与薪酬逻辑重构",
+    "titleZh": "通用AI不再「讲故事」科锐国际解码2026人才与薪酬逻辑重构",
+    "abstractEn": "通用 AI 不再「讲故事」科锐国际解码 2026 人才与薪酬逻辑重构  极客公园",
+    "abstractZh": "通用AI不再「讲故事」科锐国际解码2026人才与薪酬逻辑重构  极客公园",
+    "authors": [
+      "极客公园"
+    ],
+    "institution": "极客公园",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:a50f1ab1e2c6",
+    "slug": "hrorg-randstad-a50f1ab1e2c6",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSFc5dzhWdWR1d3JwcGZ4Y0EteFRnVHp2ZmhGTmFlVklLUHBjQTNwOVNma3RzZTh6NDhWanc3QzVCR1NUVWFEaUJTWTJmN01QT19QbEJtbWtqOFFTS2RsYTd1Z1BNWXZpaFdEQ2lhVFIzWTBjRDV3dGJsdEpFeGxfdjlDbVNsbzFPNXJjVQ?oc=5",
+    "publishedAt": "2026-04-22T07:13:00.000Z",
+    "titleEn": "Imec named Belgium’s most attractive employer for 2026",
+    "titleZh": "Imec被评为2026年比利时最具吸引力雇主",
+    "abstractEn": "Imec named Belgium’s most attractive employer for 2026  belganewsagency.eu",
+    "abstractZh": "Imec被评为2026年比利时最具吸引力雇主 belganewsagency.eu",
+    "authors": [
+      "belganewsagency.eu"
+    ],
+    "institution": "belganewsagency.eu",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:e42dfc08d210",
+    "slug": "hrorg-randstad-e42dfc08d210",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZTFadlBhWEFKcFF2T2RCWExuTkc0RDEtY3RWSmVrN2I0S2F0M1gwUnNHVG9QaHJRam05eHBIUkFDX3REOVdHVFluV0JzclZuakdNUkJPR1VYS1E1QVh1R1ZUMnNaNFdSNmx6Z3RqclAwYnNZNXFiUGE5aDNUcjhhcDFNTVMzZUN5c0FUajFPZUk4X2dpdUkyN2NjQ1RRMmRRYXVFUThB?oc=5",
+    "publishedAt": "2026-04-22T07:00:00.000Z",
+    "titleEn": "Imec in Leuven voted Belgium’s most attractive employer in 2026",
+    "titleZh": "鲁汶的Imec当选2026年比利时最具吸引力雇主",
+    "abstractEn": "Imec in Leuven voted Belgium’s most attractive employer in 2026  VRT",
+    "abstractZh": "鲁汶的Imec当选2026年比利时最具吸引力雇主 VRT",
+    "authors": [
+      "VRT"
+    ],
+    "institution": "VRT",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:f3cc8bd84f74",
+    "slug": "hrorg-korn-ferry-f3cc8bd84f74",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOazQxS0lhamYySEpOZGl0aHhfZi1Ia3RhdDBCOGttMWkwVWhzWXROVldwU2RqU0pLaTJxY1NON1dnRFU5QjBjbWVFRU1rbkRRTGEtNEFqRXlYM0JXRjl0d2tDNlJDOWJ5cU10V1ZOdXlYblRtVjFCTHZKb2FxcWhzMkdfRkVXem1JdVdkaHFReWo1cUZpNWdHS2oxU1QtbkE?oc=5",
+    "publishedAt": "2026-04-21T07:00:00.000Z",
+    "titleEn": "Is Now An Opportune Moment To Examine Korn Ferry (NYSE:KFY)?",
+    "titleZh": "现在是审视 Korn Ferry (NYSE:KFY) 的适当时机吗？",
+    "abstractEn": "Is Now An Opportune Moment To Examine Korn Ferry (NYSE:KFY)?  Yahoo Finance",
+    "abstractZh": "现在是审视 Korn Ferry (NYSE:KFY) 的适当时机吗？  Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:c7cb711a8779",
+    "slug": "hrorg-mercer-c7cb711a8779",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WOEtzQlYyd1FraUpQbjNxemVJdEhnZGNWVzA0dzRMNVFpbzVWMXpkMnN1M3IyanY2bGZ4cHhSWFZ2UkZaV2JpYUVzZ2FEVG1YamlvMU1lT2tZQS0yR1hsMkZmZGdYcWlwUEpSQVczYkZoQU3SAXhBVV95cUxNSVFMSENxdmg5YllNOG9YU0F5cWU0Vl9HaDh0UVpFdHFFejBFQ0o1WGpOVXlYSUZxZU0zdklxTE9kcjIzV0loU3JNb1BNN2F1d0F3dy1OXzJoZ29JQmRReGgxRER6TnlkcHIzaFlyRnNnYURBTF9nVms?oc=5",
+    "publishedAt": "2026-04-21T07:00:00.000Z",
+    "titleEn": "The Radiance Report: Billy Mercer",
+    "titleZh": "光芒报告：Billy Mercer",
+    "abstractEn": "The Radiance Report: Billy Mercer  KXAN Austin",
+    "abstractZh": "光芒报告：Billy Mercer KXAN Austin",
+    "authors": [
+      "KXAN Austin"
+    ],
+    "institution": "KXAN Austin",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:4c43b2940a4d",
+    "slug": "hrorg-korn-ferry-4c43b2940a4d",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNXzh4aVJxaUp4Mk1LaVlSLV9GMGlUdHIyNTRTQk1tdjV4enZzOEdvOE5lclhyZHQtdEFLcmFVVW52czc4WUdETE1zZjFhZHRBcGZ4RmZXcHJpQndhVHNYSkpYSmkyOU5JTlc3dThyZnREUWE2d29obGstdEM1R2NOZEF4RTcxTzZ1LTI0NXVIdWM0SjJIV1pfcmhCVkZyVFhhM3h3cEUzVXNxeF90Yi1wWGpCbHVIV0MwNGJFV2F4U2NSekVrSDhmbkE4UHpRS0dpRG82QjdqcVRrNXZzUm8xS3loMlZubEFfZ3c?oc=5",
+    "publishedAt": "2026-04-20T14:55:32.000Z",
+    "titleEn": "Dylan Menante captures first Korn Ferry Tour victory at Tulum Championship at PGA Riviera Maya",
+    "titleZh": "Dylan Menante 在 PGA Riviera Maya 的 Tulum 锦标赛上首次赢得 Korn Ferry 巡回赛冠军",
+    "abstractEn": "Dylan Menante captures first Korn Ferry Tour victory at Tulum Championship at PGA Riviera Maya  PGA Tour",
+    "abstractZh": "Dylan Menante 在 PGA Riviera Maya 的 Tulum 锦标赛上首次赢得 Korn Ferry 巡回赛冠军  PGA Tour",
+    "authors": [
+      "PGA Tour"
+    ],
+    "institution": "PGA Tour",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:ciic:e0bbac6b29d6",
+    "slug": "hrorg-ciic-e0bbac6b29d6",
+    "source": "中智咨询",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JdFNJZklCTDJQVmdIc2dnRkxzbUU1NU5VWmh5SWwyVmtQMjFLRzZUS0V1bk5Kb3hjQmNycTFjRTE0b2JiRGNsS0FjRE5ocEQwdTZfM3FGY3Z6dlBOQXpWQ2pYMV9MTGdJZjJVY0pxTQ?oc=5",
+    "publishedAt": "2026-04-20T07:00:00.000Z",
+    "titleEn": "投资于人 智创未来 中智咨询“十五五”央国企人才战略大会在沪圆满举办",
+    "titleZh": "投资于人 智创未来 中智咨询'十五五'央国企人才战略大会在沪圆满举办",
+    "abstractEn": "投资于人 智创未来 中智咨询“十五五”央国企人才战略大会在沪圆满举办  中国网",
+    "abstractZh": "投资于人 智创未来 中智咨询'十五五'央国企人才战略大会在沪圆满举办 中国网",
+    "authors": [
+      "中国网"
+    ],
+    "institution": "中国网",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:b5db31e6144e",
+    "slug": "hrorg-manpower-b5db31e6144e",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdG9WYklicWVlY1hLSzV4YnZtVV9yZEFUd1dpdmdzdHJMUkdwWmx6dEhOX09iWlJGZ1lSZGtIWWhRS01TejAzQWJBN2FqVVZ1d2ZuS3lab0RqWVVYc1UwdzhVU1hDcFhBVDBCdFhYVGlkZk1PY1VOQW1odjdLczZxcw?oc=5",
+    "publishedAt": "2026-04-16T03:51:00.000Z",
+    "titleEn": "ManpowerGroup Q1 2026 Earnings Preview: Revenue Growth Expected - News and Statistics",
+    "titleZh": "ManpowerGroup 2026年第一季度财报前瞻：预计营收增长 - 新闻与统计",
+    "abstractEn": "ManpowerGroup Q1 2026 Earnings Preview: Revenue Growth Expected - News and Statistics  IndexBox",
+    "abstractZh": "ManpowerGroup 2026年第一季度财报前瞻：预计营收增长 - 新闻与统计 IndexBox",
+    "authors": [
+      "IndexBox"
+    ],
+    "institution": "IndexBox",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:a0ba7cf004f7",
+    "slug": "hrorg-careerin-a0ba7cf004f7",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBN01wVGwtU0U0RHNQTkg2eXB2RnhhZ29wR0FPcDl5MFpzYkNwamRldU1LUF9qRUZUaG5ndzlkTUNfY1YxTzBxNkY2ZmNITEk3b0Uw?oc=5",
+    "publishedAt": "2026-04-13T09:05:17.000Z",
+    "titleEn": "科锐国际（300662.SZ）壹评级首次评级报告",
+    "titleZh": "科锐国际（300662.SZ）壹评级首次评级报告",
+    "abstractEn": "科锐国际（300662.SZ）壹评级首次评级报告  第一财经",
+    "abstractZh": "科锐国际（300662.SZ）壹评级首次评级报告 第一财经",
+    "authors": [
+      "第一财经"
+    ],
+    "institution": "第一财经",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:24316ec5df7a",
+    "slug": "hrorg-korn-ferry-24316ec5df7a",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QS3JEeXBYUm52eWNXRmtxejhzVG1WN2hFM0RGSi1JVVRiOVZuLVl6UUhRcTMtRE5OOWVYU0ZrN0dOWFJ3UFlaNkptTnpVLTd1MVJOckJyTFFfX2ZSYU1RSTRvT0VxeUhnV3c?oc=5",
+    "publishedAt": "2026-04-09T11:36:27.000Z",
+    "titleEn": "HR and Talent Trends Shaping 2026: AI, Leadership, and the Risks of Standing Still",
+    "titleZh": "塑造 2026 年的人力资源和人才趋势：AI、领导力和停滞不前的风险",
+    "abstractEn": "HR and Talent Trends Shaping 2026: AI, Leadership, and the Risks of Standing Still  Greater Houston Partnership",
+    "abstractZh": "塑造 2026 年的人力资源和人才趋势：AI、领导力和停滞不前的风险  Greater Houston Partnership",
+    "authors": [
+      "Greater Houston Partnership"
+    ],
+    "institution": "Greater Houston Partnership",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:4f0c3e246ab0",
+    "slug": "hrorg-mercer-4f0c3e246ab0",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcThPczhzM2NGeWh1N3NKeTFneXdib0Z4RGMtVDUzSS1OSmNERDl3NnFVRHRNRmlBZFBFMzBicVRtU0xuV0tEVk9EclVCSy1SaVJHMENoQnF4QTlwOU9QakFCaklnTG5Vb1FsdWloaTVXUFlrdEg3SU5lRllLVHRnM095MjFyOUNvNTVWVXU0UHN0cl90REdfZFVUQi0zd2FYQUE?oc=5",
+    "publishedAt": "2026-04-07T07:00:00.000Z",
+    "titleEn": "U.S. News ranks Mercer School of Medicine among best graduate medical schools",
+    "titleZh": "U.S. News 将 Mercer 医学院评为最佳研究生医学院之一",
+    "abstractEn": "U.S. News ranks Mercer School of Medicine among best graduate medical schools  Mercer University",
+    "abstractZh": "U.S. News 将 Mercer 医学院评为最佳研究生医学院之一  Mercer University",
+    "authors": [
+      "Mercer University"
+    ],
+    "institution": "Mercer University",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:mercer:cbe80da9fbb8",
+    "slug": "hrorg-mercer-cbe80da9fbb8",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd2Q2Qk0zVlZsZW1oaHRmWmVleFNPYkdaQmR0aVEwaGRGQ0Q1VVdMcXQxQ3JXcE9FMlBHbTEtNHBKU2lacS1vamNlell4TXQ1YWFKb00zcUhwSXdYSUdNS2tjVnpaR1BTVlNUTEM5bEFLa2U3VUFGSDdxMF9DYmtLc2R2djdqOFN5eXhBelNBdkx6N3lMeTQ2MWhNcWZJNW5LYWFfcnlEeVk?oc=5",
+    "publishedAt": "2026-04-07T07:00:00.000Z",
+    "titleEn": "Mercer remains top private pharmacy school in the South in U.S. News’ 2026 rankings",
+    "titleZh": "Mercer大学在《美国新闻》2026年排名中仍为南方最佳私立药学院",
+    "abstractEn": "Mercer remains top private pharmacy school in the South in U.S. News’ 2026 rankings  Mercer University",
+    "abstractZh": "Mercer大学在《美国新闻》2026年排名中仍为南方最佳私立药学院 Mercer University",
+    "authors": [
+      "Mercer University"
+    ],
+    "institution": "Mercer University",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:zhilian:84b7c353bd36",
+    "slug": "hrorg-zhilian-84b7c353bd36",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxUVRDY3JwRXpYWk1DSmFnazNtVUJOQ204LTZiM2hlTzRpMUExcXBVVmZoaVRBSVhaWWVibVdRMk1CTl94elV1SFNPdi1IUlJubUJPaUdqazVUS3daYWc?oc=5",
+    "publishedAt": "2026-04-07T07:00:00.000Z",
+    "titleEn": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》",
+    "titleZh": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》",
+    "abstractEn": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》  shobserver.com",
+    "abstractZh": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》 shobserver.com",
+    "authors": [
+      "shobserver.com"
+    ],
+    "institution": "shobserver.com",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:korn-ferry:8055c04c8a85",
+    "slug": "hrorg-korn-ferry-8055c04c8a85",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcGJBT2pDcXFaX2NJVThBei1kbGhycE5XV2hWQUZyQnZvM0FEOEs1UkZFMmZtTjRJZ21OWlpVbGg4TGdNUFB4NHItY25PQTVsNGJuVG45NUg3bGlJa2VmSG5BMk1JclpCUkttMlc2ZlNIRW5ZLS03YksyLW5TMVoxRzBqdTFFZ3hJM1F1NXF3SzJuYktDaDUydkliQTVyQW9WbmJURTVvc2lIcGxhR0NrSUV4SGR1ZGtWRGdCX2dR?oc=5",
+    "publishedAt": "2026-03-31T07:00:00.000Z",
+    "titleEn": "Food for Thought Leadership: Why Food Leaders Are Rethinking Their Workforce Strategy Now",
+    "titleZh": "思想领导力食粮：为什么食品行业领导者现在正在重新思考他们的员工队伍战略",
+    "abstractEn": "Food for Thought Leadership: Why Food Leaders Are Rethinking Their Workforce Strategy Now  The Food Institute",
+    "abstractZh": "思想领导力食粮：为什么食品行业领导者现在正在重新思考他们的员工队伍战略  The Food Institute",
+    "authors": [
+      "The Food Institute"
+    ],
+    "institution": "The Food Institute",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:adecco:4802506eac0e",
+    "slug": "hrorg-adecco-4802506eac0e",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVTd2NGZjdjBRQTZxcEZCRThXeGg1NjZvVVMtY2N6cXhjTGJXRXFYX0ZTS0tLR0NxZlBiY0NXVnIwMGtpT1NfYjduSllXVUVucEFLQUFVTVpwMEhBbV9ZRGZLSTkyVHItaEVzV1FUZ0x1d2FNcXd5LW55UU0zMmVicTJFMk9nZHJnQ21iLXNtd3RxYVN2d2lLNHdlcU5JT0RoUmEwQ0JaWHJvU1FhZ0x2QU9MLUFrVlE?oc=5",
+    "publishedAt": "2026-03-20T07:00:00.000Z",
+    "titleEn": "Zacks Industry Outlook Highlights Capgemini and Adecco Group",
+    "titleZh": "Zacks行业展望聚焦Capgemini和Adecco集团",
+    "abstractEn": "Zacks Industry Outlook Highlights Capgemini and Adecco Group  TradingView",
+    "abstractZh": "Zacks行业展望聚焦Capgemini和Adecco集团  TradingView",
+    "authors": [
+      "TradingView"
+    ],
+    "institution": "TradingView",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:adecco:075396c08423",
+    "slug": "hrorg-adecco-075396c08423",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEZnVV9TNm9fSE51ZnlpelI4M2poZk5mUHRabnY1eGJ4REdxM2RzRVQtU3pwaDkwdnFONGR0UWIwUzdzYlZHN29ySVMxZUNPMFpUY2RJMFBLZF92d0EtY3hNd3A1dG5wSy1PeHVnREFKeGs2NUVKVnRiV2tuejN4VkF5SHI1ZHNNVk1sSWZ1WDkyUGlYQ3ZodU96cjFHYmpM?oc=5",
+    "publishedAt": "2026-03-19T07:00:00.000Z",
+    "titleEn": "Adecco rolls out brand update",
+    "titleZh": "Adecco推出品牌更新",
+    "abstractEn": "Adecco rolls out brand update  Staffing Industry Analysts",
+    "abstractZh": "Adecco推出品牌更新  Staffing Industry Analysts",
+    "authors": [
+      "Staffing Industry Analysts"
+    ],
+    "institution": "Staffing Industry Analysts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:3037e0561205",
+    "slug": "hrorg-randstad-3037e0561205",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVEdUQjdLVFBhekNjQzV3VUUwcUR5NEpocjdlaW1fYW1UMmRFTUp4R29pbzk1UndydDJsNDZkbFZ1Y2lxSm9QVWRGek9IS0NBa3RTMFhMd1NCbm1wNFRPREZ2LWdKblFNQlRrSE1RSWNYOUNkcU9maldBNnNxblFSbUkxb25NOXRVMFZLVGpFYlhwZVZLNHpnNnV1aDNKUk1XWDVJQTZVZ244bWtHemVGRE9DY19waEhyclpXbmJlOU1KdFVpUjZLaEtSd3NNU0RIRWVDclNSTzJCVWh5OXFfbDhfNWpSc2dUaVhxSmdqU29fQWxmY0IyUFI1ZFVoZTA?oc=5",
+    "publishedAt": "2026-03-17T07:00:00.000Z",
+    "titleEn": "Worker Confidence in Tech Skills Drops 14 Percentage Points Annually as Employer Optimism and Talent Reality Clash",
+    "titleZh": "员工对技术技能信心下降14个百分点，雇主乐观情绪与人才现实冲突",
+    "abstractEn": "Worker Confidence in Tech Skills Drops 14 Percentage Points Annually as Employer Optimism and Talent Reality Clash  PR Newswire",
+    "abstractZh": "员工对技术技能信心下降14个百分点，雇主乐观情绪与人才现实冲突  PR Newswire",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:07a3f15c2240",
+    "slug": "hrorg-randstad-07a3f15c2240",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbnh4aHc4SkpHTHZ2R2V2NkhDYU9kcmFyN0ZGSlpUWmN1RUJ1UlVEbnh1MmJxTXlvaG5VQjQ1WXJQaU1SdkFuSWpOZDU2bmN6aUVLbE10dThiSzNybk0tNUdlWFZzX2Fvb0xUMGkxOHdudE82eFdzSS03YWJmeVlnc0pZeWtScmRMOGtoekgzMkN4akVmRUFTdDFJejV4TjdvWjFZZ2dlZWxYZw?oc=5",
+    "publishedAt": "2026-03-17T07:00:00.000Z",
+    "titleEn": "AI in Mexico: Why Worker Optimism is a Competitive Advantage",
+    "titleZh": "AI在墨西哥：为什么员工乐观态度是竞争优势",
+    "abstractEn": "AI in Mexico: Why Worker Optimism is a Competitive Advantage  Mexico Business News",
+    "abstractZh": "AI在墨西哥：为什么员工乐观态度是竞争优势  Mexico Business News",
+    "authors": [
+      "Mexico Business News"
+    ],
+    "institution": "Mexico Business News",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:d994abf21e50",
+    "slug": "hrorg-randstad-d994abf21e50",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNc2ZUS3N3S1NnTWwtTks3dmFtaWwwUno1dDFibTktNUpyX25ZdllTemk2NWFJTjJXZF9hTG1vR2RUR09jVHlHMjloUDVoS3JaOUcwcnFzTzkwSzZwUm1XQjR5aXE3SG9rSDdlb2RWcFdnRENMZk1ITVROM0phNkREVzNkU1RJTEFzRW9XakotdHhWNThsTGhuR0NrbjVfbnZGTHgwMTBLN3k5VTR1aFZ1R2F1WEsyY2dvVHNsVnliRmdtc1pDcEZVblFnVkZ6dk9QM2lldFoya1BhNnBEeTN6VGt2MG91TWVWeDFJdzFmTEV4cWt3Ujd1WGdwYUsxYVN1LXFGR3ZwckNEUUp5ZlRLbElpa21DUdIBmwJBVV95cUxQaHM4NWVpRkVlVm5fTDVzSE5oV0taZ3JSZTg1TkRkVVV2MjM0YW5RTVEzLURLU2pRcmNUMWw1enQxY1JvSVZxYlZSaGZwYnRLRTlhak5xMzVmRTVhZGI4ZGJKemZFa1ZnakV2ak0tNTIyYUtMZjJ0LWo4cEVOcE9NVWtxSEswV05HV2g0eWhWLW9lT1RhZEpkWGxRanlFTTBiQWI2WDVmbVh3TDhiM3ZsbU04ay1ibWhRRHJHSnJ1a0tXelB4WF9hUnNDX3J0dzRqOUdzZVhkSVpLQVB6emNRa1l1aFRFMUNsckRHbVYtYlkzVDIybXRnSUd5TUtHcDJBOGJKWVpaV1VIMnBic1lCbW0tTHFfVkduendv?oc=5",
+    "publishedAt": "2026-03-15T07:00:00.000Z",
+    "titleEn": "India's workforce is optimistic about the future, but here's how the nature of work is gradually changing",
+    "titleZh": "印度劳动力对未来持乐观态度，但工作性质正逐步发生变化",
+    "abstractEn": "India's workforce is optimistic about the future, but here's how the nature of work is gradually changing  The Times of India",
+    "abstractZh": "印度劳动力对未来持乐观态度，但工作性质正逐步发生变化  印度时报",
+    "authors": [
+      "The Times of India"
+    ],
+    "institution": "The Times of India",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:0fe83b9e44b9",
+    "slug": "hrorg-randstad-0fe83b9e44b9",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYTMyZm5waC1lWWM2QndEMm45R1EyNWI3OU13M21jdVpKUDVFbGpldGtqRUdod1NVUXZESUxtbW82d1FWNkRZWFpqQndNV0VEQlR0LVltdl9zblhKajJpV01KRi05RHVsSUY3VExqUm5BTEYwV2N5Ung5MjVtek5FQzBkMWkxb1k3ZlpOMHIyVndJSjZFM1BzcVZ6NkdSSFNLSHhPeERMNlNGY3RFb3J0RmZHRXpmWnlpTGlGM08yU3lTVmJaTllxTk5BQ0d3VXRZNHfSAdcBQVVfeXFMTnBNRnFIR1NCYlZTWllXeUFEeUdGaTlwcFAzeV9VeXFxbk5GcEhXNUdCQTJlMS1HOXBEWTBUM3lab3A3akl4WFNmV0c2TWFzRlNmd3puYjdLbFp1M0xPNFBYSU1DU1A3d09XNS1OeFpBTGhHa0ZvVGU2THpISGZ4aDFLWlFhNTlvM010enlUQWxsdExqZEZXNTZXVjJDWUt0VU5WSDVobll4cXpEV0pTeXV1N1NJTG5RbnJpdkNTa2Z2ZUtSVkJDT1VmWDNWZlVwUjJTX0RFa3c?oc=5",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
+    "titleEn": "89% of Indian professionals see AI boosting productivity; 60% of employers agree: Report",
+    "titleZh": "89%的印度专业人士认为AI提高生产力；60%的雇主认同：报告显示",
+    "abstractEn": "89% of Indian professionals see AI boosting productivity; 60% of employers agree: Report  Storyboard18",
+    "abstractZh": "89%的印度专业人士认为AI提高生产力；60%的雇主认同：报告显示  Storyboard18",
+    "authors": [
+      "Storyboard18"
+    ],
+    "institution": "Storyboard18",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:randstad:3953e5390f07",
+    "slug": "hrorg-randstad-3953e5390f07",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYnY4T21HVy02VzNmUjA1MzVZSHJZN0VQbVBRUFNvRVUyRmxxZV9vWTFWMkhZUndpb2o5T180eTZfTXR4NThtUURlTU9wSUFCX2tZS3k1cHJjZFBISXBkSlJIZjRzODc1QWh0aTBXcU9TUC1XdG5QbE9XWVBBeTVxU3ExMUhJV0txYWlHaDQwZ3p6dkkwTk5KNW5hY1JTM3JLSVBfbWVSZDhYX1loOEdYZ0JYaGp3eHlKcm9kRDdBUTRaNkhIdkVzN2MyUWM4RTFSMUJURndjbTR6Q3hrd2gybHdjMTFiQdIB6wFBVV95cUxQNWhoNWltRjlmVEhZR0RmOWY1am9QT1ZUbU9yTUh0NVF6MGY5dHlmR2FRNW9jY1UtS1hvdlBETGp2ZS13eFZHa1c2MmhWLUNwQnQ0dy1aalE5MFUzY0d1a01obkMyMmx0NmI3WENmMHRjSjl6dGt4Ulk0Tk1td214djU5M2ZGQURBYkJ2eXVScnVGXzRwOGpfU09KZHVaWVJJTXRtX3U2UGNKS2dnRWJCTDdtWTUyYVVFUFVUc0VYaDRTT3FqcFhGenJHa210eXV3TTJjQV96QmRoLV9VS0IyNy1DTHJYSWJRanpr?oc=5",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
+    "titleEn": "Nine in 10 Indian professionals say AI improves their productivity: Report",
+    "titleZh": "十分之九的印度专业人士认为AI提升了他们的工作效率：报告",
+    "abstractEn": "Nine in 10 Indian professionals say AI improves their productivity: Report  The Economic Times",
+    "abstractZh": "十分之九的印度专业人士认为AI提升了他们的工作效率：报告  经济时报",
+    "authors": [
+      "The Economic Times"
+    ],
+    "institution": "The Economic Times",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:859088572c59",
+    "slug": "hrorg-manpower-859088572c59",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTIxT2EwOWlBZUh2eW1xdlIyaEZzREVJd05aczl5UlM0cXAyTWJsMk5vMGJNWkhvby15R3owVDJkOVNFREFKMXBLNjExbHB1cFBPVFJxMzVGb2FRZ0VQTDJ6MkVUOTZzUEVyQmQ3elcwc281bG9KSEZrd1pzSFBid3BRaF9xNFVoR25iUUdBU0N3U0k0UWJNdFlyV2dHZldVQkh2T2YtQQ?oc=5",
+    "publishedAt": "2026-03-11T13:28:11.000Z",
+    "titleEn": "Global hiring intentions hit near four-year high",
+    "titleZh": "全球招聘意向接近四年高点",
+    "abstractEn": "Global hiring intentions hit near four-year high  Staffing Industry Analysts",
+    "abstractZh": "全球招聘意向接近四年高点  Staffing Industry Analysts",
+    "authors": [
+      "Staffing Industry Analysts"
+    ],
+    "institution": "Staffing Industry Analysts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:669fd9b90796",
+    "slug": "hrorg-manpower-669fd9b90796",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOFFFTGtnVUIwT29CZXViM0VWRUEzZ3E0Y2tNejZLd2Y2SkNWaFVaQUxsNE14Q2xxamhGT2NIa2ROWXk3Uk9sbXVLWnFyeW5IM1hvZEJRbjVqeXlKZXlWckwwMVhRcmhXTWFiSVBQM1BNVW1lWDE0ekViaXRiNnJXX00xenozaUZnUl80NU8wWdIBlAFBVV95cUxNU2g4OUQ4bDhqWUN6ZDZkelowNEY4U1NReEhhUlJGdmdld2RHQ3lsU01DNWJYUzVCRHdCWUZ4eGdLM2FaNDFrdE1IYU5KTUFrX3IzNEpoYjlINnQ2dzVmVUdid2R3ZE5URy11TG5Ybk9kel9tVEJyRnVqSU9ubTJ6RUFiTHJqekZ3Y0VPTzVrVTctc2ow?oc=5",
+    "publishedAt": "2026-03-11T07:00:00.000Z",
+    "titleEn": "Hiring bright, but talent crunch persists",
+    "titleZh": "招聘前景向好，但人才短缺持续",
+    "abstractEn": "Hiring bright, but talent crunch persists  The Hans India",
+    "abstractZh": "招聘前景向好，但人才短缺持续  The Hans India",
+    "authors": [
+      "The Hans India"
+    ],
+    "institution": "The Hans India",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:781c98672ccc",
+    "slug": "hrorg-manpower-781c98672ccc",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRnNXWUxpV0pxY0dlTEVta1hiclplRFhfMkxvTXdlNkRDZW1vdnotSlh5QVBGd1JYNU03VnJpeE1iaGJNbHY2Nko5b0dfa0xPcGN3U0UzQjVUTGNwVjN2cXoyOGhUZXBwU3RKWHZhbE9UOGlJNTFqQTYxaWs1d3RVbFEtZDJmbDBCTVkzZU9pYTBtdEhwTTdtY1E0X2p6ZkhRUE16WE9aOGZ1TF9KVnVYanZMOGlSSk0yeTdvVF80WUhsNTVQOEFuOWwxZDNzWE9sMFN4YVJGZXQ?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "Global Hiring Intentions Strengthen as Employment Outlook Hits Returns to 2022 Levels",
+    "titleZh": "全球招聘意向增强，就业前景回到2022年水平",
+    "abstractEn": "Global Hiring Intentions Strengthen as Employment Outlook Hits Returns to 2022 Levels  PR Newswire",
+    "abstractZh": "全球招聘意向增强，就业前景回到2022年水平  PR Newswire",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:a66d59abb025",
+    "slug": "hrorg-manpower-a66d59abb025",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHNJY1hhOXp1TlhQdTZhZ0Z4UHNzREdPenYzb3dlRGVMalJSaHdTd3JkdkUwS25xRjdVdWpGbl95aFRTa1puLU1Gc1BhWUdSSElIWnByb0d3MkxTVFZ5UlZOdk1BTk5RbndXWmM3U1dOcEQ5MXhFMzlDRWxCbWRGTXVQUjBmOFJnS3BNM2FlNnpwV2Y1amNhWmJSV09MRzlEOTFwRjB0X0pySnd4anFfWmtMQ1pqMEFfQk1BZmJ2VmUwT2cxVlBPTlpRRTU0TnRxMlJMcUx1YkFzUdIB3wFBVV95cUxOMmtqSTNiaVZKdHRMcGhpdjB3MzVuQllta0tIUUMyZkxpRFZrSnFxUXUzOHo0c2ZOTXpYYlI0Q1VxMmRiQnRHWlYtMWZVTnJQNEhWZ1pGV2JYaXpSRlRPWkRQZGhNclZJMnY3NTBJZ0hTek1KdUhkaE5sUnJfN1lTRGlwTHdmYlVBdDBWam9QZGtQQUZ5NWlDbnZoU3dQX3ZXSG9BcGVVeVV3Q0dFY1JaeGZiTF9mcThmTDMzUWp4QV9zVkpkMmxYQjNaRjlsNmwxZmhST3pwTEY1Wk9TQzN3?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "AI Skills Emerge as APMEs Hardest-to-Find Competencies: ManpowerGroups 2026 Global Talent Shortage Survey",
+    "titleZh": "AI技能成为亚太地区最难找到的能力：ManpowerGroup 2026全球人才短缺调查",
+    "abstractEn": "AI Skills Emerge as APMEs Hardest-to-Find Competencies: ManpowerGroups 2026 Global Talent Shortage Survey  ANTARA News",
+    "abstractZh": "AI技能成为亚太地区最难找到的能力：ManpowerGroup 2026全球人才短缺调查  ANTARA News",
+    "authors": [
+      "ANTARA News"
+    ],
+    "institution": "ANTARA News",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:manpower:d4bd07151fa8",
+    "slug": "hrorg-manpower-d4bd07151fa8",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcjBHT05WLTQya0h3dnhhLTZWeHRvdXA5d0loRE9KdWVydWllRVhSTDRFUzl2QjdvTVlmWVc3VzM1NkRXLWdxV0xzMGxGWXBUOWlvalpKOGNVeW56NksxUmh5dnR5RnlwYzEyeE1SQUhxeVJQb1dIaHBBMWVrU0U0eFZoNEhGNmMtMzdONnE4VEpJOHhSbi1QZUtRaG9xVk0?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "Employers shake off early 2026 gloom as hiring plans rebound",
+    "titleZh": "雇主摆脱2026年初的悲观情绪，招聘计划回升",
+    "abstractEn": "Employers shake off early 2026 gloom as hiring plans rebound  Singapore Business Review",
+    "abstractZh": "雇主摆脱2026年初的悲观情绪，招聘计划回升  Singapore Business Review",
+    "authors": [
+      "Singapore Business Review"
+    ],
+    "institution": "Singapore Business Review",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:adecco:3a1938d19f40",
+    "slug": "hrorg-adecco-3a1938d19f40",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb1ZQdTJLT1N0OXBIZXQ1NHJqeDhGYk9sMHQ3cXVDVGxMaUYyNTY2XzVTQm1hTkE3WjJRS3ZCNHlZZ0ZJUWFCTHl0aU9xbEdfQ1d6UXA1ak84V2Vkb0VRUGJQbU1MRXY4MjNBeTBUNkZlOFRuMGNPQXBFdGNKSkk0MWNzMjUzZFRObmVLd1RQODVjYXFIMXc?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "THE ADECCO GROUP 2025 ANNUAL REPORT",
+    "titleZh": "Adecco集团2025年年度报告",
+    "abstractEn": "THE ADECCO GROUP 2025 ANNUAL REPORT  PR Newswire",
+    "abstractZh": "Adecco集团2025年年度报告  美通社",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:careerin:2e4638f8fdde",
+    "slug": "hrorg-careerin-2e4638f8fdde",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNNHg1TTBzM0I1cGYzV29Ea19XcmxjcjBuM0dmYUdjVVJ5ZUdLckNEbnd2U29rY2gwNXVXdlRwb2VJRWt5dWpYTGhROG9qQW1fTV9acWUtdUlQZlhaYkhtYS16Yl82d0JqZ2JfY0E3QQ?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "科锐国际发布2026薪酬报告：AI人才市场重构，π 型能力成核心竞争力",
+    "titleZh": "科锐国际发布2026薪酬报告：AI人才市场重构，π型能力成核心竞争力",
+    "abstractEn": "科锐国际发布2026薪酬报告：AI人才市场重构，π 型能力成核心竞争力  新浪财经",
+    "abstractZh": "科锐国际发布2026薪酬报告：AI人才市场重构，π型能力成核心竞争力  新浪财经",
+    "authors": [
+      "新浪财经"
+    ],
+    "institution": "新浪财经",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:zhilian:e1d8d601f4b9",
+    "slug": "hrorg-zhilian-e1d8d601f4b9",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IalNDdmtWSE16OGtxbVR1bmVjQThzQ2ZtY0xfYnplMXdXdDhrbjRTNWw3TElBT3RJak1nOHdSTHM0MXFYS2pldHBqZ3VjNmhLN2d4cFVB?oc=5",
+    "publishedAt": "2026-03-10T07:00:00.000Z",
+    "titleEn": "《2025中国海归就业调查报告》发布，回国人数再破纪录，这些行业正在疯狂抢人",
+    "titleZh": "《2025中国海归就业调查报告》发布，回国人数再破纪录，这些行业正在疯狂抢人",
+    "abstractEn": "《2025中国海归就业调查报告》发布，回国人数再破纪录，这些行业正在疯狂抢人  QQ News",
+    "abstractZh": "《2025中国海归就业调查报告》发布，回国人数再破纪录，这些行业正在疯狂抢人_QQ News",
+    "authors": [
+      "QQ News"
+    ],
+    "institution": "QQ News",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  },
+  {
+    "id": "hrorg:zhilian:5706ba0a0355",
+    "slug": "hrorg-zhilian-5706ba0a0355",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IU0dPWE5vSURnTVBSMzlHQldjMFV6SDlORzhONjlpM28ySFZ3c3lqQ19tQUFSTG41Nm02eW01dHl6aVlPYVAtRnRoMTVyRGR0QUoyM2ZxUnI?oc=5",
+    "publishedAt": "2026-03-09T07:00:00.000Z",
+    "titleEn": "从“求公平”到“谋发展”，智联招聘发布2026中国女性职场调查报告_上观新闻",
+    "titleZh": "从‘求公平’到‘谋发展’，智联招聘发布2026中国女性职场调查报告",
+    "abstractEn": "从“求公平”到“谋发展”，智联招聘发布2026中国女性职场调查报告_上观新闻  上观新闻",
+    "abstractZh": "从‘求公平’到‘谋发展’，智联招聘发布2026中国女性职场调查报告_上观新闻",
+    "authors": [
+      "上观新闻"
+    ],
+    "institution": "上观新闻",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ]
+  }
+]

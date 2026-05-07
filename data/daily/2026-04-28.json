@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "reddit:1sxs71y",
+    "slug": "reddit-1sxs71y-duality-of-r-localllama",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/a0r1ptt6avxg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxs71y/duality_of_rlocalllama/",
+    "publishedAt": "2026-04-28T05:27:57.000Z",
+    "titleEn": "Duality of r/LocalLLaMA",
+    "titleZh": "r/LocalLLaMA 的双重性",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/HornyGooner4402"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 28,
+    "commentCount": 11,
+    "tags": [
+      "Funny"
+    ]
+  },
+  {
+    "id": "reddit:1sxrkog",
+    "slug": "reddit-1sxrkog-pypi-supply-chain-attack-hits-data-ml-pipelines-elementary-data-c",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxrkog/pypi_supply_chain_attack_hits_dataml_pipelines/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxrkog/pypi_supply_chain_attack_hits_dataml_pipelines/",
+    "publishedAt": "2026-04-28T04:54:56.000Z",
+    "titleEn": "PyPI supply chain attack hits data/ML pipelines: elementary-data compromised via GitHub Actions [N]",
+    "titleZh": "PyPI 供应链攻击波及数据/ML 管道：elementary-data 通过 GitHub Actions 遭入侵 [N]",
+    "abstractEn": "elementary-data (used in data pipelines feeding ML systems) was compromised via a GitHub Actions flaw that allowed a forged PyPI release. The malicious version used a .pth file to execute code automatically on Python startup—no import needed. Any environment with unpinned dependencies or latest pull",
+    "abstractZh": "elementary-data（用于向 ML 系统输送数据的数据管道）通过一个 GitHub Actions 漏洞被入侵，该漏洞允许伪造 PyPI 发布。恶意版本使用 .pth 文件在 Python 启动时自动执行代码——无需导入即可运行。任何使用未固定依赖或拉取最新版本的环境",
+    "authors": [
+      "u/raptorhunter22"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 1,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "hn:47930483",
+    "slug": "hn-47930483-san-francisco-ai-capital-of-the-world-is-an-economic-laggard",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.economist.com/finance-and-economics/2026/04/26/san-francisco-ai-capital-of-the-world-is-an-economic-laggard",
+    "commentUrl": "https://news.ycombinator.com/item?id=47930483",
+    "publishedAt": "2026-04-28T04:32:42.000Z",
+    "titleEn": "San Francisco, AI capital of the world, is an economic laggard",
+    "titleZh": "世界 AI 首都旧金山却是一个经济落后者",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "1vuio0pswjnm7"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 22,
+    "commentCount": 12,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-409670-html",
+    "slug": "200",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/409670.html",
+    "publishedAt": "2026-04-28T04:27:02.000Z",
+    "titleEn": "当200位具身从业者被拉进同一个屋子",
+    "titleZh": "当200位具身从业者被拉进同一个屋子",
+    "abstractEn": "做具身别着急“堆数据”，先想透这些问题",
+    "abstractZh": "做具身别着急\"堆数据\"，先想透这些问题",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "arxiv:2604.22777",
+    "slug": "an-intelligent-fault-diagnosis-method-for-general-aviation-aircraft-based-on-mul-2604-22777",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.22777",
+    "publishedAt": "2026-04-28T04:00:00.000Z",
+    "titleEn": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
+    "titleZh": "基于多保真度数字孪生和 FMEA 知识增强的通用航空飞机智能故障诊断方法",
+    "abstractEn": "Fault diagnosis of general aviation aircraft faces challenges including scarce real fault data, diverse fault types, and weak fault signatures. This paper proposes an intelligent fault diagnosis framework based on multi-fidelity digital twin, integrating four modules: high-fidelity flight dynamics simulation, FMEA-driven fault injection, multi-fidelity residual feature extraction, and large langua",
+    "abstractZh": "通用航空飞机的故障诊断面临真实故障数据稀缺、故障类型多样和故障特征微弱等挑战。本文提出了一种基于多保真度数字孪生的智能故障诊断框架，整合了四个模块：高保真飞行动力学仿真、FMEA 驱动的故障注入、多保真",
+    "authors": [
+      "Zhihuan Wei",
+      "Yang Hu",
+      "Xinhang Chen",
+      "Yiming Zhang",
+      "Jie Liu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n本研究提出了一种基于多保真度数字孪生的通用航空飞机智能故障诊断框架。该框架整合了四大核心模块：高保真度飞行动力学仿真、FMEA驱动的故障注入、多保真度残差特征提取以及大语言模型知识增强。通过将数字孪生技术与故障模式与影响分析（FMEA）深度融合，有效解决了通用航空领域真实故障数据稀缺、故障类型多样、故障特征微弱等关键挑战。这一创新方法为提升通用航空飞机的安全性和可维护性提供了全新的技术路径。\n\n## 研究背景\n### Background\n\n通用航空飞机的故障诊断长期面临着数据匮乏的困境。与商业航班相比，通用航空飞机的故障记录系统相对不完善，且实际发生的故障样本数量极为有限。同时，通用航空环境下的故障类型繁多，从发动机异常到航电系统故障，覆盖面广且复杂度各异。更棘手的是，许多早期故障的信号特征非常微弱，往往淹没在正常的飞行数据波动中，难以被传统方法及时捕捉。这些因素共同制约了智能故障诊断技术在通用航空领域的应用落地。\n\n## 技术方法\n### Technical Approach\n\n研究团队构建了一个端到端的智能诊断框架。首先，利用高保真度飞行动力学仿真生成接近真实的飞行数据，在此基础上通过FMEA（Failure Mode and Effects Analysis）知识库指导故障注入，创造出丰富的故障样本。系统同时采集多保真度数据，包括高精度的传感器读数和计算量较低的代理模型输出。随后，通过残差特征提取模块捕捉实际飞行与仿真预测之间的偏差特征，这些残差特征往往蕴含了故障的关键信息。最终，借助大语言模型的语义理解和知识推理能力，对提取的特征进行深度分析和诊断决策。\n\n## 意义与影响\n### Significance & Impact\n\n这项研究为航空工业的智能化维护提供了重要参考。数字孪生与FMEA的结合，不仅缓解了故障数据不足的问题，还使得诊断系统能够充分利用领域专家知识。对于通用航空运营商而言，这意味着更精准的故障预警、更短的停机时间和更低的维护成本。从更宏观的角度看，该方法的成功实践展示了多学科融合在解决工程难题上的巨大潜力——将仿真技术、可靠性工程和人工智能有机结合，为其他复杂系统的智能诊断提供了可借鉴的范式。\n\n> ⚠️ **注意**：该研究仍处于理论和仿真验证阶段，实际飞行环境的复杂性和不确定性可能对模型性能带来额外挑战。\n\n> 💡 **背景**：通用航空涵盖除商业航班和军事飞行外的所有民用航空活动，包括私人飞行、飞行训练、农林作业、空中摄影等，其安全监管和运维体系与商业航空存在显著差异。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-28T05:31:04.424Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-28"
+  },
+  {
+    "id": "arxiv:2604.22934",
+    "slug": "pexa-parallel-exploration-agent-for-complex-text-to-sql-2604-22934",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.22934",
+    "publishedAt": "2026-04-28T04:00:00.000Z",
+    "titleEn": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+    "titleZh": "PExA：面向复杂 Text-to-SQL 的并行探索智能体",
+    "abstractEn": "LLM-based agents for text-to-SQL often struggle with latency-performance trade-off, where performance improvements come at the cost of latency or vice versa. We reformulate text-to-SQL generation within the lens of software test coverage where the original query is prepared with a suite of test cases with simpler, atomic SQLs that are executed in parallel and together ensure semantic coverage of t",
+    "abstractZh": "基于 LLM 的 Text-to-SQL 智能体常常面临延迟与性能之间的权衡，性能提升往往以延迟为代价，反之亦然。我们将 Text-to-SQL 生成重新定义为软件测试覆盖率的视角，其中原始查询准备了一组测试用例，包含更简单的原子 SQL，这些 SQL 以并行方式执行",
+    "authors": [
+      "Tanmay Parekh",
+      "Ella Hofmann-Coyle",
+      "Shuyi Wang",
+      "Sachith Sri Ram Kothur",
+      "Srivas Prasad"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献 / Key Contributions\n\nPExA（并行探索智能体）提出了一种创新的方法，将文本转 SQL（text-to-SQL）问题重新定义为软件测试覆盖率的视角。该研究通过创建一套简化的原子 SQL 测试用例，并行执行这些用例来确保对原始查询的语义覆盖。这种方法有效解决了基于大语言模型（LLM）的智能体在性能和延迟之间的权衡难题，在不牺牲准确性的前提下显著提升了响应速度。研究团队通过将复杂查询分解为可并行处理的子任务，实现了效率的质的飞跃。\n\n## 研究背景 / Background\n\n在自然语言查询数据库的领域，基于大语言模型的智能体面临着经典的性能-延迟困境。传统方法要么为了提升准确性而增加推理时间，要么为了追求速度而牺牲查询质量。这种权衡在实时应用场景中尤为突出，用户既需要准确的 SQL 查询结果，又无法忍受过长的等待时间。现有的 text-to-SQL 系统在处理复杂查询时，往往需要多轮推理和验证，导致延迟累积，影响了用户体验。这一问题的根源在于串行处理模式无法充分利用计算资源。\n\n## 技术方法 / Technical Approach\n\nPExA 的核心技术创新在于引入了\"测试覆盖\"的软件工程概念。系统首先将用户的自然语言查询转换为多个简化的、原子级的 SQL 测试用例，这些用例涵盖了原始查询的不同语义维度。随后，这些测试用例被分配到多个工作线程中并行执行，每个线程独立处理一个语义子查询。通过并行化的执行架构，系统能够同时验证查询的多个方面，大幅减少整体响应时间。最终的 SQL 语句通过综合所有测试用例的执行结果生成，确保语义完整性和查询准确性。\n\n## 意义与影响 / Significance & Impact\n\n这项研究对 text-to-SQL 领域具有重要的实践意义。首先，它打破了性能与延迟相互制约的传统观念，证明了通过合理的架构设计可以同时优化两个关键指标。其次，将软件测试的思想引入自然语言处理领域，为解决类似问题提供了新的思路。对于实际应用而言，PExA 的并行化架构可以显著提升数据库查询系统的用户体验，特别是在需要处理复杂查询的企业级应用中。这一方法也为未来大语言智能体的优化研究指明了方向，即通过任务分解和并行执行来突破单点性能瓶颈。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-28T05:32:28.796Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-28"
+  },
+  {
+    "id": "36氪:https-36kr-com-p-3785955616152839-f-rss",
+    "slug": "36-36",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/p/3785955616152839?f=rss",
+    "publishedAt": "2026-04-28T03:53:31.000Z",
+    "titleEn": "36氪首发 | 韩国现代、微光创投押注焊接机器人，营收预计破数亿，拿下船厂数千万订单",
+    "titleZh": null,
+    "abstractEn": "作者丨欧雪\n编辑丨袁斯来\n硬氪获悉，专注于焊接垂直场景的具身智能机器人公司——昇视唯盛已完成数千万元A+轮融资。本轮融资由韩国现代、微光创投联合投资，资金将主要用于“具身大脑”的研发、软硬件产品的迭代以及市场推广。\n昇视唯盛成立于2020年，核心团队由来自哈尔滨工业大学、上海交通大学等高校的机器人领域专家，以及拥有多年工业自动化从业经验的资深人员组成。创始人王德钊及核心团队在机器人及自动化领域拥有十余年产业经验，对焊接场景的工艺需求及行业痛点有深刻理解。\n昇视唯盛的核心技术优势在于其“AI算法+焊接工艺+机器人本体”三合一的自主核心能力。公司于2022年收购哈工现代机器人有限公司，控股子公司哈工现代位于浙江海宁的智慧工厂年产能达数千台机器人，累计出货近万台。\n这使得公司成为国内少数具备从本体硬件设计制造、到具身AI模型、再到焊接工艺数据全部自主开发与深度融合能力的智能机器人企业。\n在AI算",
+    "abstractZh": null,
+    "authors": [
+      "36氪"
+    ],
+    "institution": "36氪",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxqa2c",
+    "slug": "reddit-1sxqa2c-im-done-with-using-local-llms-for-coding",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
+    "publishedAt": "2026-04-28T03:50:38.000Z",
+    "titleEn": "I'm done with using local LLMs for coding",
+    "titleZh": "我受够了用本地 LLM 写代码",
+    "abstractEn": "I think gave it a fair shot over the past few weeks, forcing myself to use local models for non-work tech asks. I use Claude Code at my job so that's what I'm comparing to.\n\nI used Qwen 27B and Gemma 4 31B, these are considered the best local models under the multi-hundred LLMs. I also tried multipl",
+    "abstractZh": "我想过去几周我已经给了它一个公平的机会，强迫自己用本地模型处理非工作的技术需求。我在工作中使用 Claude Code，所以我就是以这个为比较基准的。\n\n我用了 Qwen 27B 和 Gemma 4 31B，这些被认为是数百个 LLM 中最好的本地模型。我还尝试了多个",
+    "authors": [
+      "u/dtdisapointingresult"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 72,
+    "commentCount": 131,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47930150",
+    "slug": "hn-47930150-claires-closes-all-154-stores-in-uk-and-ireland-with-loss-of-1-300-j",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.bbc.com/news/articles/cg4047qnpk2o",
+    "commentUrl": "https://news.ycombinator.com/item?id=47930150",
+    "publishedAt": "2026-04-28T03:23:25.000Z",
+    "titleEn": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
+    "titleZh": "Claire's 关闭英国和爱尔兰的全部 154 家门店，裁员 1300 人",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "stevekemp"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 28,
+    "commentCount": 9,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxpk08",
+    "slug": "reddit-1sxpk08-for-non-hallucinating-work-mimo-2-5-delivers",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxpk08/for_nonhallucinating_work_mimo_25_delivers/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxpk08/for_nonhallucinating_work_mimo_25_delivers/",
+    "publishedAt": "2026-04-28T03:16:14.000Z",
+    "titleEn": "For Non-hallucinating work, MiMo 2.5 delivers",
+    "titleZh": "对于非幻觉工作，MiMo 2.5 表现出色",
+    "abstractEn": "MIT license and fully open source. MiMo-V2.5-Pro was just 3 points from Opus 4.7 max and the normal V2.5 is only a step behind SOTA. But both produce 75% and 68% non-hallucination rate. Best intel/hallucination model yet.\n\nV2.5 FP8 is like 316GB, you \\*might\\* be able to run a tight 3 bit quant with",
+    "abstractZh": "MIT 许可证，完全开源。MiMo-V2.5-Pro 仅比 Opus 4.7 最高分低 3 分，普通 V2.5 也只比 SOTA 差一步。但两者的非幻觉率分别达到 75% 和 68%。这是迄今为止最佳的信息/幻觉模型。\n\nV2.5 FP8 大约 316GB，你可能可以运行紧凑的 3 位量化",
+    "authors": [
+      "u/Beamsters"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 7,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-xyuy07dytoejpioi-html",
+    "slug": "mulerun-happyhorse-7x24",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/xyuy07DyToeJpIoi.html",
+    "publishedAt": "2026-04-28T03:03:00.000Z",
+    "titleEn": "MuleRun（骡子快跑）首发灰测HappyHorse模型，支持用户7x24小时调用",
+    "titleZh": "MuleRun（骡子快跑）首发灰测 HappyHorse 模型，支持用户 7x24 小时调用",
+    "abstractEn": "4月27日下午，全球首个自进化个人AI MuleRun（骡子快跑）首发灰测阿里巴巴视频生成模型HappyHorse 1.0，用户可在MuleRun官网输入提示词来直接调用该模型，通过文生视频、图生视频、多图参考生视频的能力，完成面向广告、电商、短剧、社媒创意等场景的内容生产。\n \n图示 在MuleRun官网调用HappyHorse \nMuleRun为每位用户分配了一台持续运行的独立云端虚拟机，让每个人都能拥有一位7x24小时工作的数字员工。通过MuleRun，用户能全天候地调用HappyHorse 1.0来完成视频生成和编辑，MuleRun还会主动学习并记住用户的审美偏好、工作习惯、个人数据，不断自我优化以更好地适配用户在视频生成场景的个性化需求，帮助用户实现0门槛、高质量的内容生产。此外，MuleRun构建了开放的Agent网络生态，用户可以把生成内容直接共享至MuleRun的知识库（K",
+    "abstractZh": "4 月 27 日下午，全球首个自进化个人 AI MuleRun（骡子快跑）首发灰测阿里巴巴视频生成模型 HappyHorse 1.0，用户可在 MuleRun 官网输入提示词来直接调用该模型，通过文生视频、图生视频、多图参考生视频的能力，完成面向广告、电商、短剧、社媒创意等场景的内容生产。\n \n图示 在 MuleRun 官网调用 HappyHorse \nMuleRun 为每位用户分配了一台持续运行的独立云端虚拟机，让每个人都能拥有一位 7x24 小时工作的数字员工。通过 MuleRun，用户能全天候地调用 HappyHorse 1.0 来完成视频生成和编辑，MuleRun 还会主动学习并记住用户的审美偏好、工作习惯、个人数据，不断自我优化以更好地适配用户在视频生成场景的个性化需求，帮助用户实现 0 门槛、高质量的内容生产。此外，",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-409665-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/409665.html",
+    "publishedAt": "2026-04-28T02:35:49.000Z",
+    "titleEn": "赋予机械臂自我成长能力，睿尔曼发布AI智能示教泛化系统",
+    "titleZh": "赋予机械臂自我成长能力，睿尔曼发布 AI 智能示教泛化系统",
+    "abstractEn": "“AI三引擎”协同发力",
+    "abstractZh": "\"AI三引擎\"协同发力",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-409648-html",
+    "slug": "10-robotaxi-robovan",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/409648.html",
+    "publishedAt": "2026-04-28T02:29:30.000Z",
+    "titleEn": "做了10年Robotaxi，小马智行首次入局RoboVan",
+    "titleZh": "做了10年 Robotaxi，小马智行首次入局 RoboVan",
+    "abstractEn": "楼教主：AI下一步发展，有这两个方向",
+    "abstractZh": "楼教主：AI 下一步发展，有这两个方向",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-409561-html",
+    "slug": "3-gamma-os",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/409561.html",
+    "publishedAt": "2026-04-28T02:15:27.000Z",
+    "titleEn": "3个月手搓Gamma架构，这个团队打造出了场景白盒化推理的“下一代内容OS”",
+    "titleZh": "3个月手搓 Gamma 架构，这个团队打造出了场景白盒化推理的\"下一代内容OS\"",
+    "abstractEn": "下一代内容OS来了",
+    "abstractZh": "下一代内容OS来了",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-smarthome-gijbctmwkqfawjkn-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/smarthome/giJBctmwkQfAWjKn.html",
+    "publishedAt": "2026-04-28T02:06:00.000Z",
+    "titleEn": "萤石发布会的「两张面孔」：AI硬件的「激进」与品牌叙事的「谨慎」",
+    "titleZh": "萤石发布会的「两张面孔」：AI 硬件的「激进」与品牌叙事的「谨慎」",
+    "abstractEn": "4月21日，杭州，萤石召开2026年度品牌新品发布会。 \n当“驭智·向前”（Ahead with Intelligence）的主题打在巨幕上，外界很容易将其解读为一场典型的科技公司AI能力巡礼。\n事实也的确如此。 \n从智能大模型主机EZVIZ AI CoreX，到儿童AI随身拍EZVIZ Pika，再到全球首创的AI双擎蒸汽洗地机器人星辰10系列，萤石一口气推出了横跨智能控制、智能家居摄像机、智能入户、智能服务机器人四大品类的新品，将AI能力注入每一台终端设备。 \n然而，在密集的硬件发布背后，萤石却展现出了另一副相对谨慎的面孔。\n无论是将品牌使命从“守护安全”升维至“共创美好”，还是联合信通院发布白皮书，亦或在媒体采访中反复强调“安全是萤石的基因与基石”，这家公司似乎正在刻意与行业中弥漫的“AI无所不能”的狂热叙事保持距离。 \n在AI技术加速重塑生活方式的当下，萤石这场发布会，既是对其技术",
+    "abstractZh": "4 月 21 日，杭州，萤石召开 2026 年度品牌新品发布会。 \n当「驭智·向前」（Ahead with Intelligence）的主题打在巨幕上，外界很容易将其解读为一场典型的科技公司 AI 能力巡礼。\n事实也的确如此。 \n从智能大模型主机 EZVIZ AI CoreX，到儿童 AI 随身拍 EZVIZ Pika，再到全球首创的 AI 双擎蒸汽洗地机器人星辰 10 系列，萤石一口气推出了横跨智能控制、智能家居摄像机、智能入户、智能服务机器人四大品类的新品，将 AI 能力注入每一台终端设备。 \n然而，在密集的硬件发布背后，萤石却展现出了另一副相对谨慎的面孔。\n无论是将品牌使命从「守护安全」升维至「共创美好」，还是联合信通院发布白皮书，亦或在媒体采访中反复强调「安全是萤石的基因与基石」，这家公司似乎正在刻意与行业中弥漫的「",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxnzem",
+    "slug": "reddit-1sxnzem-kimi-k2-6-vs-deepseek-v4-pro",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxnzem/kimi_k26_vs_deepseek_v4_pro/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxnzem/kimi_k26_vs_deepseek_v4_pro/",
+    "publishedAt": "2026-04-28T02:05:40.000Z",
+    "titleEn": "Kimi K2.6 vs DeepSeek V4 Pro",
+    "titleZh": "Kimi K2.6 vs DeepSeek V4 Pro",
+    "abstractEn": "How are you finding these models, which one do you find to be better for real use cases?\n\nSo far we're finding Kimi k2.6 better for coding, but want to hear your thoughts.",
+    "abstractZh": "你们对这些模型的使用体验如何？在实际用例中，你们认为哪一个更好？\n\n目前我们发现 Kimi K2.6 在编程任务上表现更好，但想听听你们的看法。",
+    "authors": [
+      "u/bigboyparpa"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 24,
+    "commentCount": 14,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-i1xwdnxytpiictui-html",
+    "slug": "mova-16cm",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/i1xWDnxYTpiiCTuI.html",
+    "publishedAt": "2026-04-28T01:58:00.000Z",
+    "titleEn": "MOVA全球首创技术获批国家专利！16cm极致外扩超级机械臂重构清洁边界",
+    "titleZh": "MOVA 全球首创技术获批国家专利！16cm 极致外扩超级机械臂重构清洁边界",
+    "abstractEn": "近日，全球高端创新智能家电品牌MOVA自主研发的扫地机器人拖布无极极致外扩技术（MaxiReachX™ Mop）正式获得国家知识产权局实用新型专利授权（专利号：ZL202620000990.7）。该技术以全球首创的16cm极致外扩超级机械臂为核心，首次在扫地机器人领域建立了可脱离机身限制进行地面清洁的技术路径，使扫地机器人的清洁方式从“机身进入空间”转向“清洁结构主动延伸进入空间”，让清洁单元不再受限于整机尺寸。\n\n目前，该项技术已率先应用于旗舰产品MOVA V70 Ultra Complete，并即将于西南欧市场重磅上市。\n\n从“覆盖”到“触达”：突破机身限制的结构性创新\n长期以来，扫地机行业虽然在导航算法和吸力提升上精进不止，但在处理复杂的家居场景时，始终存在难以触达的边角窄缝，使清洁覆盖面积难以提升。传统扫地机受限于技术瓶颈，其拖布外扩距离普遍停留在4cm左右，且多为单档位伸缩。这意",
+    "abstractZh": "近日，全球高端创新智能家电品牌 MOVA 自主研发的扫地机器人拖布无极极致外扩技术（MaxiReachX™ Mop）正式获得国家知识产权局实用新型专利授权（专利号：ZL202620000990.7）。该技术以全球首创的 16cm 极致外扩超级机械臂为核心，首次在扫地机器人领域建立了可脱离机身限制进行地面清洁的技术路径，使扫地机器人的清洁方式从「机身进入空间」转向「清洁结构主动延伸进入空间」，让清洁单元不再受限于整机尺寸。\n\n目前，该项技术已率先应用于旗舰产品 MOVA V70 Ultra Complete，并即将于西南欧市场重磅上市。\n\n从「覆盖」到「触达」：突破机身限制的结构性创新\n长期以来，扫地机行业虽然在导航算法和吸力提升上精进不止，但在处理复杂的家居场景时，始终存在难以触达的边角窄缝，使清洁覆",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-91ofusdhsv6u5bqv-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/91OfUsDhsv6U5Bqv.html",
+    "publishedAt": "2026-04-28T01:50:00.000Z",
+    "titleEn": "追觅携全球首个“人车家”发布会周登陆硅谷，定义科技发展新十年",
+    "titleZh": null,
+    "abstractEn": "美国硅谷即将迎来一场重磅科技事件。\n美国时间2026年4月27日至30日，全球高端科技品牌追觅科技将在美国硅谷召开以“DREAME NEXT”为主题的全球发布会，集中亮相智能汽车、智能家电、个人终端及个人护理等智能产品矩阵。\n这是在全球范围内，首个由科技企业打造的，聚焦“人车家”智能生态的专属发布会周。追觅将以多场发布与展示，集中呈现数十项创新产品、百余项首创技术，系统化、长效化、全维度展现核心技术、业务布局与未来发展战略。\n届时，多位全球顶尖科学家将出席系列论坛活动，与追觅共同探索下一个时代的新航向，并见证智能科技全新时代的到来。\n\n立足硅谷，追觅开启硬核科技“NEXT”时代\nDREAME NEXT 追觅硅谷发布会，立足全球科创前沿高地硅谷，锚定未来10年科技发展方向，是追觅进一步践行全球化战略的核心里程碑。\n本次发布会将由“Drive Next”、“Living Next”、“Conn",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-409550-html",
+    "slug": "",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/409550.html",
+    "publishedAt": "2026-04-28T01:40:48.000Z",
+    "titleEn": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体",
+    "titleZh": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体",
+    "abstractEn": "舱驾一体解决方案不会抢市场",
+    "abstractZh": "舱驾一体解决方案不会抢市场",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47929510",
+    "slug": "hn-47929510-openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273",
+    "commentUrl": "https://news.ycombinator.com/item?id=47929510",
+    "publishedAt": "2026-04-28T01:34:12.000Z",
+    "titleEn": "OpenAI Misses Key Revenue, User Targets in High-Stakes Sprint Toward IPO",
+    "titleZh": "OpenAI 在冲刺 IPO 的关键阶段未达成营收和用户目标",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ksherlock"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 34,
+    "commentCount": 5,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxn7x2",
+    "slug": "reddit-1sxn7x2-local-model-on-coding-has-reached-a-certain-threshold-to-be-feasi",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxn7x2/local_model_on_coding_has_reached_a_certain/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxn7x2/local_model_on_coding_has_reached_a_certain/",
+    "publishedAt": "2026-04-28T01:32:36.000Z",
+    "titleEn": "Local model on coding has reached a certain threshold to be feasible for real work",
+    "titleZh": "本地编码模型已达到可用于实际工作的门槛",
+    "abstractEn": "We ran open-weight 27B–32B models on Terminal-Bench 2.0 (89 tasks, `terminal-bench-2.git @ 69671fb`) through our agent harness. Best result was Qwen 3.6-27B at **38.2% (34/89)** under the **default** per-task timeout — the same constraint the public leaderboard uses ([Qwen's official post uses a mor",
+    "abstractZh": "我们通过我们的 agent 工具在 Terminal-Bench 2.0（89 项任务，`terminal-bench-2.git @ 69671fb`）上运行了开源权重的 27B–32B 模型。最佳结果是 Qwen 3.6-27B，在**默认**的每项任务超时下达到了 **38.2%（34/89）** —— 这与公开排行榜使用的约束相同（[Qwen 官方帖子使用了 mor",
+    "authors": [
+      "u/Exciting-Camera3226"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 53,
+    "commentCount": 26,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1sxmvzi",
+    "slug": "reddit-1sxmvzi-anyone-tried-this-yet-llm-with-knowledge-date-in-the-1930s",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://talkie-lm.com/introducing-talkie",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxmvzi/anyone_tried_this_yet_llm_with_knowledge_date_in/",
+    "publishedAt": "2026-04-28T01:17:49.000Z",
+    "titleEn": "Anyone tried this yet? LLM with knowledge date in the 1930s",
+    "titleZh": "有人试过这个吗？知识截止到 1930 年代的 LLM",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/The_frozen_one"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 49,
+    "commentCount": 24,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:47929375",
+    "slug": "hn-47929375-show-hn-agentswift-open-source-ios-builder-agent",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/hpennington/agentswift",
+    "commentUrl": "https://news.ycombinator.com/item?id=47929375",
+    "publishedAt": "2026-04-28T01:14:31.000Z",
+    "titleEn": "Show HN: AgentSwift – Open-source iOS builder agent",
+    "titleZh": "Show HN: AgentSwift – 开源 iOS 构建智能体",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "hpen"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 28,
+    "commentCount": 7,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-kfek3hmbcytuanyp-html",
+    "slug": "meta-manus-happyhorse",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/KfEK3hmbcYtUAnYP.html",
+    "publishedAt": "2026-04-28T00:39:00.000Z",
+    "titleEn": "Meta 收购 Manus 被正式叫停，国家发改委要求撤销交易；阿里 HappyHorse 开启灰测；宇树科技赢了！最高法院认定其遭恶意诉讼",
+    "titleZh": null,
+    "abstractEn": "要闻提示\n\n1.Meta收购Manus被正式叫停，国家发改委要求撤销交易\n2.宇树科技赢了！最高法院认定其遭恶意诉讼：露韦美需赔偿8万元\n3.公司高管组织40多名员工上班时间干私活，研发竞品长达9年：判赔 580 万\n4.自家汽车也要用了！小米自研芯片玄戒O2、AI大模型、 OS排期已定\n5.小象超市部分城市暂停自提服务，客服回应\n6.阿里：视频生成模型 HappyHorse1.0 开启灰测，千问 App 首发支持 15 秒多镜头叙事\n7.李想称理想L9 Livis比上汽大众ID.ERA 9X至少领先两代，大众高管回应：理想仅价格和营销水平领先\n8.曝苹果将推出真全面屏手机\n今日头条\n\nMeta收购Manus被正式叫停，国家发改委要求撤销交易\n\n4月27日，国家发改委下属外商投资安全审查工作机制办公室正式宣布，依法禁止美国Meta公司收购中国背景AI企业Manus项目，并要求相关方撤销已完",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "36氪:https-36kr-com-p-3785730095127817-f-rss",
+    "slug": "36-8-1-manus-labubu-3000",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/p/3785730095127817?f=rss",
+    "publishedAt": "2026-04-28T00:04:02.000Z",
+    "titleEn": "8点1氪：中方禁止外资收购Manus；上海迪士尼回应游客吸烟冲突事件；泡泡玛特LABUBU 冰箱未发售已溢价3000元",
+    "titleZh": null,
+    "abstractEn": "TOP3大新闻\nDeepSeek 输入缓存降价\n多家美国廉价航空公司寻求政府资金纾困\n东方甄选回应大量用户申请退会员\n穿西装开空调太费电，日本东京鼓励公务员穿短裤\n印度移动支付平台MobiKwik获央行批准\nTOP3大事件\n国家发展改革委：依法依规对外资收购Manus项目作出禁止投资决定\n据国家发展改革委网站4月27日消息，外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购Manus项目作出禁止投资决定，要求当事人撤销该收购交易。\n2025年12月30日，全球首款通用人工智能体Manus发布公告称，Manus即将加入美国科技巨头Meta。Manus将继续通过app和网站为用户提供产品和订阅服务，同时公司将继续在新加坡运营。\n今年4月2日，针对Meta收购Manus会采取哪些措施以及企业跨国经营的相关问题，商务部新闻发言人何亚东回应说，中国政府支持企业根据需要开展跨国经营与技",
+    "abstractZh": null,
+    "authors": [
+      "36氪"
+    ],
+    "institution": "36氪",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "36氪:https-36kr-com-p-3784697499786503-f-rss",
+    "slug": "36-ai-ip-36",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/p/3784697499786503?f=rss",
+    "publishedAt": "2026-04-28T00:00:00.000Z",
+    "titleEn": "用AI做IP，文娱科技公司星迹互动完成数千万元天使轮融资｜36氪融资首发",
+    "titleZh": null,
+    "abstractEn": "近期，数字科技文娱公司星迹互动完成了数千万元的天使轮融资。本轮投资方包括正大集团、北京大融文化传媒、禹牧智能以及麦迈科技等。36氪获悉，此次融资将主要用于公司人员规模的扩张、产能拉升以及平台建设。\n星迹互动于2025年成立，以AI为核心驱动力，专注于精品IP的开发与运营。具体来讲，公司的业务包括新老IP的开发与运营、漫剧的承制与出海、儿童原创动画孵化，以及数字人IP与虚拟偶像的打造。\n公司创始人张文广是连续创业者，曾是二更联合创始人、微梦传媒高级副总裁，在品牌传播领域积累了丰富的经验。\n资方北京大融文化传媒CEO曹柏松如此评价张文广和星迹互动——AI内容赛道中有很多野蛮生长的公司，他们的逻辑是批量生产内容，赌一个爆款，但张文广和星迹互动不是，他们在认真做内容，尽可能延长好内容的生命周期，而不是消耗。\n\n星迹互动创始人（左八）、员工和投资方合照\n2025年，星迹互动已经实现了超百万元的收入，",
+    "abstractZh": null,
+    "authors": [
+      "36氪"
+    ],
+    "institution": "36氪",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "36氪:https-36kr-com-p-3784480103455748-f-rss",
+    "slug": "36-3500-a-36",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/p/3784480103455748?f=rss",
+    "publishedAt": "2026-04-28T00:00:00.000Z",
+    "titleEn": "「寻明生科」完成3500万美元A+轮融资，首个抗体药物即将进入临床｜36氪首发",
+    "titleZh": null,
+    "abstractEn": "文｜胡香赟\n编辑｜海若镜\n36氪获悉，寻明生科（Aureka Biotechnologies）近期已完成3500万美元A+轮融资。本轮融资由红杉中国领投，经纬创投、博远资本跟投，老股东五源资本、启明创投、纽尔利资本等持续加注。\n去年底，寻明生科就曾获得一笔数千万美元的A轮融资。截至目前，公司A轮次融资的累计金额已接近1亿美元。\n寻明生科方面表示，本轮募集资金将用于推动自研创新功能抗体设计平台AuraIDE™建设，加大基座模型与智能体能力建设、完善高通量高内涵实验平台设施，进一步打通智能体从立项、分子设计到转化落地的关键环节。\n2023年成立至今的3年间，寻明生科已完成从搭建生成式抗体药物研发平台、推动智能体深度参与药物分子设计与开发，到实现该能力规模化放大的进阶。寻明生科创始人兼CEO赵伟安认为，如今，摆在公司面前的新问题，是如何为这套体系打造“配套的基础设施，从而更快完成验证智能体设计的",
+    "abstractZh": null,
+    "authors": [
+      "36氪"
+    ],
+    "institution": "36氪",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxjs4e",
+    "slug": "reddit-1sxjs4e-how-are-you-managing-long-running-preprocessing-jobs-at-scale-cur",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxjs4e/how_are_you_managing_longrunning_preprocessing/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxjs4e/how_are_you_managing_longrunning_preprocessing/",
+    "publishedAt": "2026-04-27T23:03:40.000Z",
+    "titleEn": "How are you managing long-running preprocessing jobs at scale? Curious what's actually working [R]",
+    "titleZh": "在大规模场景下，你们如何管理长时间运行的预处理任务？想知道什么方法真正有效 [R]",
+    "abstractEn": "Did anyone actually trial these properly for Machine Learning Jobs before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely.",
+    "abstractZh": "在放弃使用之前，是否有人真正针对机器学习任务对这些工具进行了充分测试？还是说更多是“看了一眼文档就直接放弃”的情况？我特别好奇是什么让你们决定不再继续使用——是设置复杂、后续维护成本高，还是其他完全不同的原因。",
+    "authors": [
+      "u/krishnatamakuwala"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "Research"
+    ]
+  },
+  {
+    "id": "reddit:1sxjnv4",
+    "slug": "reddit-1sxjnv4-guys-this-is-so-fun",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxjnv4/guys_this_is_so_fun/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxjnv4/guys_this_is_so_fun/",
+    "publishedAt": "2026-04-27T22:58:53.000Z",
+    "titleEn": "Guys this is so fun!",
+    "titleZh": "伙计们，这也太好玩了！",
+    "abstractEn": "Running my own models. I was having some trouble getting vLLM going so dropped down to LM Studio which I've used on my 24GB MacBook Air.\n\nI now have LM Link across both laptops into the AI Workstation RTX Pro 6000 Blackwell. And my phone on LM Mini. It's so cool and I'm just getting started.\n\nCurren",
+    "abstractZh": "运行自己的模型。我在配置 vLLM 时遇到了一些麻烦，于是改用了 LM Studio，这是我之前在 24GB MacBook Air 上用过的。\n\n现在我通过 LM Link 将两台笔记本都连接到 AI 工作站 RTX Pro 6000 Blackwell。我的手机上也运行着 LM Mini。这太酷了，我才刚刚开始。\n\n目前",
+    "authors": [
+      "u/Perfect-Flounder7856"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 30,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47928088",
+    "slug": "hn-47928088-claude-pro-opus-model-will-only-be-available-if-extra-usage-is-enabl",
+    "source": "Hacker News",
+    "sourceUrl": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+    "commentUrl": "https://news.ycombinator.com/item?id=47928088",
+    "publishedAt": "2026-04-27T22:13:17.000Z",
+    "titleEn": "Claude Pro: Opus model will only be available if extra usage is enabled",
+    "titleZh": "Claude Pro: 仅当启用额外使用量时才可使用 Opus 模型",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "yrds96"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 61,
+    "commentCount": 29,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxhpnn",
+    "slug": "reddit-1sxhpnn-qwen3-4b-outperforms-cloud-agents-on-code-tasks-with-mahoraga-res",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxhpnn/qwen3_4b_outperforms_cloud_agents_on_code/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxhpnn/qwen3_4b_outperforms_cloud_agents_on_code/",
+    "publishedAt": "2026-04-27T21:41:41.000Z",
+    "titleEn": "Qwen3 4B outperforms cloud agents on code tasks—with Mahoraga research [R]",
+    "titleZh": "Qwen3 4B 在代码任务上超越云端代理——结合 Mahoraga 研究 [R]",
+    "abstractEn": "Hey everyone in ML. I've been working on Mahoraga, an open-source orchestrator that routes tasks across local and cloud AI agents using a contextual bandit (LinUCB) that learns from every decision.\n\nContext (skip): I only started integrating AI into my workflows in late 2025, so I came on the scene ",
+    "abstractZh": "大家好，我是机器学习领域的研究者。我一直在开发 Mahoraga，这是一个开源编排器，使用上下文老虎机算法在不同任务间进行路由。该算法能够从每次决策中学习，实现对本地和云端 AI 智能体的高效调度。\n\n背景说明：我从 2025 年底才开始将 AI 集成到工作流程中，所以我进入这个领域时",
+    "authors": [
+      "u/Own-Professional3092"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "Research"
+    ]
+  },
+  {
+    "id": "reddit:1sxgq6l",
+    "slug": "reddit-1sxgq6l-end-2-end-tutorial-on-fine-tuning-the-whole-journey",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://docs.liquid.ai/examples/customize-models/wildfire-prevention",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxgq6l/end2end_tutorial_on_finetuning_the_whole_journey/",
+    "publishedAt": "2026-04-27T21:04:48.000Z",
+    "titleEn": "End-2-end tutorial on fine-tuning, the whole journey",
+    "titleZh": "端到端微调教程：完整之旅",
+    "abstractEn": "I put together a hands-on tutorial that takes you from problem framing to fine-tuning, step by step.\n\nI decided to build a wildfire prevention system that uses satellite images and a Small Vision-Language Model (LFM2.5-VL-450M) to extract relevant risk factors that correlate with wildfire probabilit",
+    "abstractZh": "我整理了一个实践教程，带你从问题定义到微调，一步步完成。\n\n我决定构建一个野火预防系统，使用卫星图像和小型视觉语言模型（LFM2.5-VL-450M）来提取与野火概率相关的风险因素",
+    "authors": [
+      "u/PauLabartaBajo"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 30,
+    "commentCount": 2,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1sxf2u0",
+    "slug": "reddit-1sxf2u0-microsoft-presents-trellis-2-an-open-source-4b-parameter-image-to",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://v.redd.it/0flkmb04isxg1",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxf2u0/microsoft_presents_trellis2_an_opensource/",
+    "publishedAt": "2026-04-27T20:07:01.000Z",
+    "titleEn": "Microsoft Presents \"TRELLIS.2\": An Open-Source, 4b-Parameter, Image-To-3D Model Producing Up To 1536³ PBR Textured Assets, Built On Native 3D VAES With 16× Spatial Compression, Delivering Efficient, Scalable, High-Fidelity Asset Generation.",
+    "titleZh": "微软发布 \"TRELLIS.2\"：开源 4B 参数图像到 3D 模型，可生成高达 1536³ 的 PBR 纹理资产，基于原生 3D VAE 构建，具备 16 倍空间压缩，提供高效、可扩展、高保真资产生成。",
+    "abstractEn": "TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel \"field-free\" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR m",
+    "abstractZh": "TRELLIS.2 是最先进的大型 3D 生成模型（4B 参数），专为高保真图像到 3D 生成而设计。它利用一种新颖的\"无场\"稀疏体素结构 O-Voxel 来重建和生成具有复杂拓扑、锐利特征和完整 PBR m 的任意 3D 资产",
+    "authors": [
+      "u/44th--Hokage"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 437,
+    "commentCount": 52,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1sxdh95",
+    "slug": "reddit-1sxdh95-anyone-using-tensordock-gpu-instances-and-having-problems-with-fa",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxdh95/anyone_using_tensordock_gpu_instances_and_having/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxdh95/anyone_using_tensordock_gpu_instances_and_having/",
+    "publishedAt": "2026-04-27T19:11:35.000Z",
+    "titleEn": "Anyone using Tensordock GPU instances and having problems with failing VM’s [D]",
+    "titleZh": "有人在使用 Tensordock GPU 实例时遇到 VM 故障问题吗？[D]",
+    "abstractEn": "I have an GPU distributed instance VM (3 tier data center  specified in the server’s info), 2 days ago I tried to start it up , while the whole time I was paying for storage so as not to lose my VM primary storage and in extend my whole work which is related to research and is valuable and the VM is",
+    "abstractZh": "我有一个 GPU 分布式实例 VM（服务器信息中指定为三级数据中心），两天前我尝试启动它，期间我一直为存储付费以免丢失我的 VM 主存储，并扩展我所有与研究相关的有价值工作，而 VM",
+    "authors": [
+      "u/Separate-Noise-2589"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 2,
+    "commentCount": 0,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47925679",
+    "slug": "hn-47925679-our-principles",
+    "source": "Hacker News",
+    "sourceUrl": "https://openai.com/index/our-principles/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47925679",
+    "publishedAt": "2026-04-27T18:55:06.000Z",
+    "titleEn": "Our principles",
+    "titleZh": "我们的原则",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "tosh"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 81,
+    "commentCount": 101,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sxch39",
+    "slug": "reddit-1sxch39-the-4b-class-of-2026-benchmark",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/fj2b1am41sxg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxch39/the_4b_class_of_2026_benchmark/",
+    "publishedAt": "2026-04-27T18:36:37.000Z",
+    "titleEn": "The 4B class of 2026 (benchmark)",
+    "titleZh": "2026 年 4B 模型（基准测试）",
+    "abstractEn": "Bench 2 from my 18GB M3 Pro. Last week was specialists \nvs generalists at 7-8B (which I hosed by giving thinking models a \n128-token budget, so half the post was an apology). This week: the \n4B class of 2026, every model released or actively-current at the \n3-4B size, head-to-head on the same task s",
+    "abstractZh": "来自我的 18GB M3 Pro 的基准测试 2。上周是 7-8B 的专才与通才对比（我搞砸了，给思考模型分配了 128 个 token 的预算，所以帖子的一半内容都在道歉）。本周：2026 年的 4B 级别，所有在 3-4B 大小范围内发布或当前活跃的模型，在相同任务上进行正面比",
+    "authors": [
+      "u/FederalAnalysis420"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 145,
+    "commentCount": 43,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1sxbcyn",
+    "slug": "reddit-1sxbcyn-mimo-v2-5-pro",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxbcyn/mimo_v25_pro/",
+    "publishedAt": "2026-04-27T17:57:51.000Z",
+    "titleEn": "MIMO V2.5 PRO",
+    "titleZh": "MIMO V2.5 PRO",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/Namra_7"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 346,
+    "commentCount": 126,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1sxaq0f",
+    "slug": "reddit-1sxaq0f-how-can-industrial-companies-in-the-food-sector-effectively-integ",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxaq0f/how_can_industrial_companies_in_the_food_sector/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sxaq0f/how_can_industrial_companies_in_the_food_sector/",
+    "publishedAt": "2026-04-27T17:36:09.000Z",
+    "titleEn": "How can industrial companies in the food sector effectively integrate artificial intelligence  without compromising safety standards—and if possible, could you share any practical experience or real-world insights on this?[D]",
+    "titleZh": "食品行业的工业企业如何在不降低安全标准的前提下有效整合人工智能？如果能的话，能否分享一些实践经验或真实案例？[D]",
+    "abstractEn": "I’d like to understand how companies actually apply Data Science in real-world scenarios—especially in industrial contexts like the food sector. I already have a solid foundation in AI, so feel free to go beyond basics and dive into concrete use cases, architectures, challenges, and trade-offs. If p",
+    "abstractZh": "我想了解公司如何在真实场景中应用数据科学——特别是在食品行业等工业环境中。我已经对 AI 有扎实的基础，所以请超越基础知识，深入探讨具体用例、架构、挑战和权衡。如果可",
+    "authors": [
+      "u/Hamza-bkd09"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 3,
+    "tags": [
+      "Research"
+    ]
+  },
+  {
+    "id": "hn:47924181",
+    "slug": "hn-47924181-decoupled-diloco-resilient-distributed-ai-training-at-scale",
+    "source": "Hacker News",
+    "sourceUrl": "https://deepmind.google/blog/decoupled-diloco/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47924181",
+    "publishedAt": "2026-04-27T16:57:34.000Z",
+    "titleEn": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+    "titleZh": "Decoupled DiLoCo: 弹性的分布式大规模 AI 训练",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "metadat"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 45,
+    "commentCount": 5,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx8xpa",
+    "slug": "reddit-1sx8xpa-what-do-reviewers-actually-mean-when-they-say-the-paper-sound-mor",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/",
+    "publishedAt": "2026-04-27T16:34:37.000Z",
+    "titleEn": "What do reviewers actually mean when they say the paper sound more like a technical report? [D]",
+    "titleZh": "当审稿人说论文听起来更像技术报告时，他们到底是什么意思？[D]",
+    "abstractEn": "Hello, \n\nI recently got my paper rejected from a workshop (big womp :'( ) . \n\nBoth reviewers said the paper sounds more like a technical report than a research paper.   \nI followed the usual computer vision format for papers so I'm a bit confused by what that might actually mean.\n\nI would therefore ",
+    "abstractZh": "你好，\n\n我最近的一篇论文被一个研讨会拒了（好难过 :'(）。\n\n两位审稿人都说这篇论文听起来更像技术报告而不是研究论文。\n我遵循了通常的计算机视觉论文格式，所以我有点困惑这到底是什么意思。\n\n因此我想",
+    "authors": [
+      "u/obliviousphoenix2003"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 28,
+    "commentCount": 18,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1sx8uok",
+    "slug": "reddit-1sx8uok-luce-dflash-qwen3-6-27b-at-up-to-2x-throughput-on-a-single-rtx-30",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/ppdt7ixx9rxg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx8uok/luce_dflash_qwen3627b_at_up_to_2x_throughput_on_a/",
+    "publishedAt": "2026-04-27T16:31:33.000Z",
+    "titleEn": "Luce DFlash: Qwen3.6-27B at up to 2x throughput on a single RTX 3090",
+    "titleZh": "Luce DFlash：在单张 RTX 3090 上实现高达 2 倍吞吐量的 Qwen3.6-27B",
+    "abstractEn": "Hey fellow Llamas, your time is precious, so I'll keep it short. \n\nWe built a GGUF port of DFlash speculative decoding. Standalone C++/CUDA stack on top of ggml, runs on a single 24 GB RTX 3090, hosts the new Qwen3.6-27B. \n\nWe call it Luce DFlash ([https://github.com/Luce-Org/lucebox-hub](https://gi",
+    "abstractZh": "各位 Llama 朋友，时间宝贵，我就长话短说。\n\n我们构建了 DFlash 投机解码的 GGUF 移植版。基于 ggml 的独立 C++/CUDA 栈，在单张 24 GB RTX 3090 上运行，托管新的 Qwen3.6-27B。\n\n我们称之为 Luce DFlash ([https://github.com/Luce-Org/lucebox-hub](https://gi",
+    "authors": [
+      "u/sandropuppo"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 542,
+    "commentCount": 148,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "36氪:https-36kr-com-p-3784806758243587-f-rss",
+    "slug": "36",
+    "source": "36氪",
+    "sourceUrl": "https://36kr.com/p/3784806758243587?f=rss",
+    "publishedAt": "2026-04-27T16:27:19.000Z",
+    "titleEn": "最前线｜爱芯元智仇肖莘：大算力芯片将成为企业明年的主要增长引擎",
+    "titleZh": null,
+    "abstractEn": "在汽车行业越来越强调降本的今��，车企心中的天平逐渐偏向了更具性价比的国产芯片。爱芯元智看到了这一发展机遇，北京车展前期，爱芯元智与千里科技、阶跃星辰等企业成立“千里联盟”，同时企业将于今年三季度发布M97这颗大算力辅助驾驶芯片。\n爱芯元智创始人仇肖莘在北京车展上公开表示，“大算力产品已成功流片，正进入正常的开发周期”，2026年将逐步导入多款车型，成为业绩增长的重要引擎。目前，传统终端计算产品仍占爱芯元智收入的超80%，车载和边缘计算业务的收入占比较低，仇肖莘预计未来三年内，这一局面将被改写。\n仇肖莘对M97的性能表现颇为信心，她表示：“当前主流高阶辅助驾驶芯片有比较大的问题，就是带宽不够。我们意识到这个问题后，在M97设计的时候，把带宽提升了很多。”\n辅助驾驶芯片的有效算力主要取决于两个核心要素，一是计算单元的规模，二是数据读写的带宽效率。即便芯片的理论算力处于较高水平，若带宽不足，也",
+    "abstractZh": null,
+    "authors": [
+      "36氪"
+    ],
+    "institution": "36氪",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47923357",
+    "slug": "hn-47923357-github-copilot-is-moving-to-usage-based-billing",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47923357",
+    "publishedAt": "2026-04-27T16:03:08.000Z",
+    "titleEn": "GitHub Copilot is moving to usage-based billing",
+    "titleZh": "GitHub Copilot 转为按使用量计费",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "frizlab"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 603,
+    "commentCount": 443,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx6vlm",
+    "slug": "reddit-1sx6vlm-cvpr-workshop-decisions-d",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/",
+    "publishedAt": "2026-04-27T15:22:10.000Z",
+    "titleEn": "CVPR Workshop Decisions [D]",
+    "titleZh": "CVPR Workshop 决策 [D]",
+    "abstractEn": "Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? \n\nI don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted.",
+    "abstractZh": "如果某些 CVPR workshop 的决策还没出，这算疯狂吗还是正常情况？\n\n如果这是常态，我不想打扰组织者，但距离会议还有约 5 周，如果论文被接受，我需要获得旅行审批等事项。",
+    "authors": [
+      "u/thats_quick_maffs"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 3,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47921377",
+    "slug": "hn-47921377-tendril-a-self-extending-agent-that-builds-and-registers-its-own-too",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/serverless-dna/tendril",
+    "commentUrl": "https://news.ycombinator.com/item?id=47921377",
+    "publishedAt": "2026-04-27T13:34:48.000Z",
+    "titleEn": "Tendril – a self-extending agent that builds and registers its own tools",
+    "titleZh": "Tendril – 一个能够构建和注册自身工具的自扩展智能体",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "walmsles"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 74,
+    "commentCount": 32,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx3p40",
+    "slug": "reddit-1sx3p40-how-do-you-test-ai-agents-in-production-the-unpredictability-is-o",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx3p40/how_do_you_test_ai_agents_in_production_the/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx3p40/how_do_you_test_ai_agents_in_production_the/",
+    "publishedAt": "2026-04-27T13:28:18.000Z",
+    "titleEn": "How do you test AI agents in production? The unpredictability is overwhelming.[D]",
+    "titleZh": "如何在生产环境中测试 AI Agent？不可预测性让人无从下手 [D]",
+    "abstractEn": "I’ve been in QA for almost a decade. My mental model for quality was always: given input X, assert output Y. Now I’m on a team that’s shipping an LLM-based agent that handles multi-step tasks. I genuinely do not know how to test this in a way that feels rigorous. \n\nThe thing works. But the output is",
+    "abstractZh": "我在 QA 领域工作了近十年。我对质量的心智模型一直是：给定输入 X，断言输出 Y。现在我加入了一个正在发布 LLM-based agent 的团队，该 agent 处理多步骤任务。我真的不知道如何以严谨的方式测试它。\n\n这个东西是能工作的。但输出",
+    "authors": [
+      "u/this_aint_taliya"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 32,
+    "commentCount": 22,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47921248",
+    "slug": "hn-47921248-microsoft-and-openai-end-their-exclusive-and-revenue-sharing-deal",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+    "commentUrl": "https://news.ycombinator.com/item?id=47921248",
+    "publishedAt": "2026-04-27T13:22:42.000Z",
+    "titleEn": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
+    "titleZh": "微软与 OpenAI 终止独家及收入分成协议",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "helsinkiandrew"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 821,
+    "commentCount": 700,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx35es",
+    "slug": "reddit-1sx35es-int8-quantization-gives-me-better-accuracy-than-fp16-d",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx35es/int8_quantization_gives_me_better_accuracy_than/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx35es/int8_quantization_gives_me_better_accuracy_than/",
+    "publishedAt": "2026-04-27T13:06:41.000Z",
+    "titleEn": "INT8 quantization gives me better accuracy than FP16 ! [D]",
+    "titleZh": "INT8 量化比 FP16 给我更好的准确率！[D]",
+    "abstractEn": "Hi everyone,\n\nI’m working on a deep learning model and I noticed something strange.\n\nWhen I compare different precisions: FP32 (baseline)\n\nFP16 , INT8 (post-training quantization)\n\nI’m getting better inference accuracy with INT8 than FP16, which I didn’t expect.\n\nI thought FP16 should be closer to F",
+    "abstractZh": "大家好，\n\n我正在做一个深度学习模型，注意到了一些奇怪的事情。\n\n当我比较不同精度时：FP32（基准）\n\nFP16，INT8（训练后量化）\n\n我用 INT8 得到了比 FP16 更好的推理准确率，这出乎我的意料。\n\n我以为 FP16 应该更接近 F",
+    "authors": [
+      "u/Fragrant_Rate_2583"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 14,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47921064",
+    "slug": "hn-47921064-running-local-llms-offline-on-a-ten-hour-flight",
+    "source": "Hacker News",
+    "sourceUrl": "https://deploy.live/blog/running-local-llms-offline-on-a-ten-hour-flight/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47921064",
+    "publishedAt": "2026-04-27T13:05:59.000Z",
+    "titleEn": "Running local LLMs offline on a ten-hour flight",
+    "titleZh": "在十小时飞行中离线运行本地 LLM",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "darccio"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 117,
+    "commentCount": 87,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx2vxp",
+    "slug": "reddit-1sx2vxp-skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ul",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/",
+    "publishedAt": "2026-04-27T12:56:44.000Z",
+    "titleEn": "Skymizer Taiwan Inc. Unveils Breakthrough Architecture Enabling Ultra-Large LLM Inference on a Single Card",
+    "titleZh": "Skymizer 台湾公司推出突破性架构，实现单卡超大型 LLM 推理",
+    "abstractEn": "[Source](https://en.prnasia.com/releases/apac/skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ultra-large-llm-inference-on-a-single-card-530405.shtml)\n\n  \nArticle excerpt:\n\n&gt;With a single PCIe card — powered by six HTX301 chips and 384 GB of memory — enterprises can now run 700B-pa",
+    "abstractZh": "[来源](https://en.prnasia.com/releases/apac/skymizer-taiwan-inc-unveils-breakthrough-architecture-enabling-ultra-large-llm-inference-on-a-single-card-530405.shtml)\n\n  \n文章节选：\n\n>凭借一张 PCIe 卡——由六颗 HTX301 芯片和 384GB 内存驱动——企业现在可以运行 700B 参数的",
+    "authors": [
+      "u/lurenjia_3x"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 120,
+    "commentCount": 35,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "hn:47920787",
+    "slug": "hn-47920787-show-hn-oss-agent-i-built-topped-the-terminalbench-on-gemini-3-flash",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/dirac-run/dirac",
+    "commentUrl": "https://news.ycombinator.com/item?id=47920787",
+    "publishedAt": "2026-04-27T12:35:55.000Z",
+    "titleEn": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+    "titleZh": "Show HN：我构建的开源 Agent 在 Gemini-3-flash-preview 的 TerminalBench 上名列前茅",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "GodelNumbering"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 320,
+    "commentCount": 119,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx25ir",
+    "slug": "reddit-1sx25ir-still-waiting-for-grok-3-to-go-opensource",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx25ir/still_waiting_for_grok_3_to_go_opensource/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx25ir/still_waiting_for_grok_3_to_go_opensource/",
+    "publishedAt": "2026-04-27T12:26:27.000Z",
+    "titleEn": "Still waiting for Grok 3 to go opensource",
+    "titleZh": "仍在等待 Grok 3 开源",
+    "abstractEn": "Astonishing how Musk is touting the opensource horn but the actions don't follow suit. Thoughts?",
+    "abstractZh": "马斯克高调宣扬开源，但实际行动却跟不上，真是令人惊讶。大家怎么看？",
+    "authors": [
+      "u/Mr_Moonsilver"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 154,
+    "commentCount": 57,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408649-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408649.html",
+    "publishedAt": "2026-04-27T12:19:37.000Z",
+    "titleEn": "打工人五一自救指南：把活全甩给AI，准备免打扰出门",
+    "titleZh": "打工人五一自救指南：把活全甩给 AI，准备免打扰出门",
+    "abstractEn": "假期不想被@工作了",
+    "abstractZh": "假期不想被@工作了",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47920315",
+    "slug": "hn-47920315-china-blocks-metas-acquisition-of-ai-startup-manus",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=47920315",
+    "publishedAt": "2026-04-27T11:43:59.000Z",
+    "titleEn": "China blocks Meta's acquisition of AI startup Manus",
+    "titleZh": "中国阻止 Meta 收购 AI 初创公司 Manus",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "yakkomajuri"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 345,
+    "commentCount": 232,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sx0bnx",
+    "slug": "reddit-1sx0bnx-maths-vs-machine-learning-publishing-venues-d",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx0bnx/maths_vs_machine_learning_publishing_venues_d/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx0bnx/maths_vs_machine_learning_publishing_venues_d/",
+    "publishedAt": "2026-04-27T11:01:48.000Z",
+    "titleEn": "Maths vs machine learning publishing venues [D]",
+    "titleZh": "数学与机器学习发表平台 [D]",
+    "abstractEn": "I am a research mathematician that has recently written a (in my opinion) pretty neat paper in theoretical computer science that is probably of more interest to machine learning researchers than to fellow mathematicians. I'm therefore seeking to place it in machine learning venues. It's rather long ",
+    "abstractZh": "我是一名研究型数学家，最近写了一篇（在我看来）相当不错的理论计算机科学论文，可能比其他数学家更吸引机器学习研究者的兴趣。因此我试图将其发表在机器学习平台上。这篇论文相当长",
+    "authors": [
+      "u/Agile_Actuary_8246"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 24,
+    "commentCount": 9,
+    "tags": [
+      "Research"
+    ]
+  },
+  {
+    "id": "hn:47919997",
+    "slug": "hn-47919997-pgbackrest-is-no-longer-being-maintained",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/pgbackrest/pgbackrest",
+    "commentUrl": "https://news.ycombinator.com/item?id=47919997",
+    "publishedAt": "2026-04-27T10:56:34.000Z",
+    "titleEn": "Pgbackrest is no longer being maintained",
+    "titleZh": "Pgbackrest 不再维护",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "c0l0"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 404,
+    "commentCount": 217,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408578-html",
+    "slug": "ai-harness",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408578.html",
+    "publishedAt": "2026-04-27T10:48:17.000Z",
+    "titleEn": "量子位专访楼天城：AI是匹脱缰野马，Harness是这个时代最关键的能力",
+    "titleZh": "量子位专访楼天城：AI 是匹脱缰野马，Harness 是这个时代最关键的能力",
+    "abstractEn": "未来人该怎么和AI共存",
+    "abstractZh": "未来人该怎么和 AI 共存",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1swzjnu",
+    "slug": "reddit-1swzjnu-to-16gb-vram-users-plug-in-your-old-gpu",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1swzjnu/to_16gb_vram_users_plug_in_your_old_gpu/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1swzjnu/to_16gb_vram_users_plug_in_your_old_gpu/",
+    "publishedAt": "2026-04-27T10:20:14.000Z",
+    "titleEn": "To 16GB VRAM users, plug in your old GPU",
+    "titleZh": "给 16GB 显存用户的建议：插上你的旧显卡",
+    "abstractEn": "For those who want to run latest dense \\~30b models and only have 16GB VRAM, if you have a old card with 6GB VRAM or more, plug it in.\n\nIt matters that everything fits on the VRAM, even on 2 cards. Even if one of them is quite weak.\n\nI have a 5070Ti 16GB and a old 2060 6GB. The common idea is you ne",
+    "abstractZh": "对于想要运行最新密集型 ~30B 模型却只有 16GB 显存的朋友，如果你有一张 6GB 或更多显存的旧显卡，把它插上吧。\n\n关键是要让所有内容都能放进显存，即使在两张显卡上也是如此。即使其中一张显卡性能较弱。\n\n我有一张 5070Ti 16GB 和一张旧的 2060 6GB。常见的观念是你需要",
+    "authors": [
+      "u/akira3weet"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 373,
+    "commentCount": 175,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408409-html",
+    "slug": "claude-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408409.html",
+    "publishedAt": "2026-04-27T10:01:37.000Z",
+    "titleEn": "Claude第一款AI桌宠硬件，深圳制造",
+    "titleZh": "Claude 第一款 AI 桌宠硬件，深圳制造",
+    "abstractEn": "深圳供应链又赢了",
+    "abstractZh": "深圳供应链又赢了",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47919630",
+    "slug": "hn-47919630-4tb-of-voice-samples-just-stolen-from-40k-ai-contractors-at-mercor",
+    "source": "Hacker News",
+    "sourceUrl": "https://app.oravys.com/blog/mercor-breach-2026",
+    "commentUrl": "https://news.ycombinator.com/item?id=47919630",
+    "publishedAt": "2026-04-27T09:57:10.000Z",
+    "titleEn": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
+    "titleZh": "Mercor 约 4 万名 AI 承包商的 4TB 语音样本被盗",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Oravys"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 490,
+    "commentCount": 176,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408393-html",
+    "slug": "700-42-8",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408393.html",
+    "publishedAt": "2026-04-27T09:54:20.000Z",
+    "titleEn": "麒麟云中现，境启新人生！全新坦克700正式上市，售价42.8万起",
+    "titleZh": "麒麟云中现，境启新人生！全新坦克 700 正式上市，售价 42.8 万起",
+    "abstractEn": "全域豪华SUV新旗舰",
+    "abstractZh": "全域豪华 SUV 新旗舰",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408394-html",
+    "slug": "joyinside-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408394.html",
+    "publishedAt": "2026-04-27T09:47:02.000Z",
+    "titleEn": "让孩子画作活起来，用放大镜识万物，给台灯装灵魂……京东JoyInside打造AI硬件时代“超级基础设施”",
+    "titleZh": null,
+    "abstractEn": "依托京东JoyInside，这些充满科幻感的AI新物种正走进现实。",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-408390-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/408390.html",
+    "publishedAt": "2026-04-27T09:28:36.000Z",
+    "titleEn": "芒果传媒与爱诗科技达成战略合作，全栈AI视频能力接入芒果内容生态",
+    "titleZh": "芒果传媒与爱诗科技达成战略合作，全栈 AI 视频能力接入芒果内容生态",
+    "abstractEn": "AI视频技术能力进入产业应用阶段",
+    "abstractZh": "AI 视频技术能力进入产业应用阶段",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1swy9ap",
+    "slug": "reddit-1swy9ap-metas-2-billion-manus-acquisition-blocked-by-china",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/gallery/1swy9ap",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1swy9ap/metas_2_billion_manus_acquisition_blocked_by_china/",
+    "publishedAt": "2026-04-27T09:05:48.000Z",
+    "titleEn": "Meta’s $2 billion Manus acquisition blocked by China.",
+    "titleZh": "中国阻止 Meta 20 亿美元收购 Manus",
+    "abstractEn": "From 猫总 on 𝕏: [https://x.com/catmangox/status/2048680484037935200](https://x.com/catmangox/status/2048680484037935200)\n\n\"National Development and Reform Commission of the People’s Republic of China  \nGovernment Information Disclosure  \nPublic disclosure item name: The Office of the Working Mechanis",
+    "abstractZh": "来自 𝕕 上的 猫总：[https://x.com/catmangox/status/2048680484037935200](https://x.com/catmangox/status/2048680484037935200)\n\n\"中华人民共和国国家发展和改革委员会  \n政府信息披露  \n公开披露项目名称：工作机制办公室",
+    "authors": [
+      "u/Nunki08"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 300,
+    "commentCount": 96,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "reddit:1swxx1v",
+    "slug": "reddit-1swxx1v-three-limitations-i-keep-hitting-with-retrieval-augmented-generat",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swxx1v/three_limitations_i_keep_hitting_with/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swxx1v/three_limitations_i_keep_hitting_with/",
+    "publishedAt": "2026-04-27T08:45:20.000Z",
+    "titleEn": "Three limitations I keep hitting with retrieval-augmented generation in production and I'm running out of ideas [D]",
+    "titleZh": "在生产环境中使用检索增强生成时我反复遇到的三个限制，我已经想不出办法了 [D]",
+    "abstractEn": "I've had a RAG system running in production for a few months now (legal domain, German regulatory documents). It handles 80% of queries well but there are three patterns where it fails predictably and I haven't found clean solutions.\n\n**The scatter problem.**\n\nSome questions need information from 8-",
+    "abstractZh": "我的 RAG 系统已经稳定运行了几个月（应用于法律领域，处理德国监管文件）。它能很好地处理 80% 的查询，但在三种模式下会可预测地失败，而我还没找到干净的解决方案。\n\n**分散问题。**\n\n有些问题需要从 8-",
+    "authors": [
+      "u/Fabulous-Pea-5366"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 8,
+    "tags": [
+      "Project"
+    ]
+  },
+  {
+    "id": "reddit:1swwsin",
+    "slug": "reddit-1swwsin-value-of-top-conference-workshop-papers-for-phd-admissios-d",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swwsin/value_of_top_conference_workshop_papers_for_phd/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swwsin/value_of_top_conference_workshop_papers_for_phd/",
+    "publishedAt": "2026-04-27T07:37:21.000Z",
+    "titleEn": "Value of top conference workshop papers for PhD admissios [D]",
+    "titleZh": "顶级会议研讨会论文对博士申请的价值 [D]",
+    "abstractEn": "Hello, I am an undergraduate student doing research, and I am considering a PhD in ML. I was wondering what value, if at all, first authoring a workshop paper (at Neurips/cvpr,iclr, etc) can have at the undergrad level for PhD admissions? Obviously conference papers are more valuable, but is there a",
+    "abstractZh": "大家好，我是一名从事研究的本科生，正在考虑攻读机器学习博士学位。我想知道，作为本科生，在 NeurIPS、CVPR、ICLR 等顶级会议的研讨会上以第一作者身份发表论文，对博士申请能带来多大价值？显然会议论文更有价值，但研讨会论文是否也有",
+    "authors": [
+      "u/Affectionate-Set9105"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 11,
+    "commentCount": 11,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1swuw9g",
+    "slug": "reddit-1swuw9g-freshman-in-ml-how-do-you-identify-actually-open-research-problem",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swuw9g/freshman_in_ml_how_do_you_identify_actually_open/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swuw9g/freshman_in_ml_how_do_you_identify_actually_open/",
+    "publishedAt": "2026-04-27T05:49:59.000Z",
+    "titleEn": "freshman in ML: how do you identify actually open research problems? [D]",
+    "titleZh": "ML 新人：如何识别真正开放的研究问题？[D]",
+    "abstractEn": "Hi, I am a freshman who is trying to break into research. \n\nI got into a well known university research lab in my country for the upcoming summer, and the prof said I am \"better positioned than numerous others\" for hardware-aligned machine learning topics. I am facing a couple of problems, and I wou",
+    "abstractZh": "你好，我是一名试图进入研究领域的大一新生。\n\n我已进入国内一个知名大学的研究实验室，为即将到来的夏季做准备，教授说我在硬件对齐机器学习主题上\"比许多其他人更有优势\"。我面临几个问题，我希望",
+    "authors": [
+      "u/Shonku_"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 31,
+    "commentCount": 22,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1swtk3h",
+    "slug": "reddit-1swtk3h-submitting-to-top-ml-conferences-without-sharing-code-d",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swtk3h/submitting_to_top_ml_conferences_without_sharing/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swtk3h/submitting_to_top_ml_conferences_without_sharing/",
+    "publishedAt": "2026-04-27T04:38:45.000Z",
+    "titleEn": "Submitting to top ML Conferences without Sharing code [D]",
+    "titleZh": "不共享代码即可提交顶级机器学习会议 [D]",
+    "abstractEn": "Asking primarily due to the NIPS deadline. I have always submitted code with my submissions to all conferences before. However, with how good new AI agents are nowadays, I wanted to gather feedback on whether we should stop sharing code in submissions and publish them after acceptance. However, what",
+    "abstractZh": "我提出这个问题主要是因为 NIPS 的投稿截止日期。以前我投稿到所有会议时都会附上代码。然而，考虑到现在新的 AI 智能体如此强大，我想收集大家的反馈——我们是否应该停止在投稿中共享代码，而是在论文被录用后再发布。但是，这样做会",
+    "authors": [
+      "u/Massive-Bobcat-5363"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 14,
+    "commentCount": 14,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47917026",
+    "slug": "hn-47917026-the-prompt-api",
+    "source": "Hacker News",
+    "sourceUrl": "https://developer.chrome.com/docs/ai/prompt-api",
+    "commentUrl": "https://news.ycombinator.com/item?id=47917026",
+    "publishedAt": "2026-04-27T02:18:58.000Z",
+    "titleEn": "The Prompt API",
+    "titleZh": "The Prompt API",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "gslin"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 260,
+    "commentCount": 130,
+    "tags": []
+  },
+  {
+    "id": "hn:47916909",
+    "slug": "hn-47916909-evanflow-a-tdd-driven-feedback-loop-for-claude-code",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/evanklem/evanflow",
+    "commentUrl": "https://news.ycombinator.com/item?id=47916909",
+    "publishedAt": "2026-04-27T01:56:39.000Z",
+    "titleEn": "EvanFlow – A TDD driven feedback loop for Claude Code",
+    "titleZh": "EvanFlow – 面向 Claude Code 的 TDD 驱动反馈循环",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "evanklem2004"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 106,
+    "commentCount": 55,
+    "tags": []
+  },
+  {
+    "id": "reddit:1swkxx1",
+    "slug": "reddit-1swkxx1-can-geometric-deep-learning-lead-eliminate-the-need-of-brute-forc",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swkxx1/can_geometric_deep_learning_lead_eliminate_the/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swkxx1/can_geometric_deep_learning_lead_eliminate_the/",
+    "publishedAt": "2026-04-26T22:00:08.000Z",
+    "titleEn": "Can Geometric Deep Learning lead eliminate the need of \"Brute Force\" pre-training [D]",
+    "titleZh": "几何深度学习能否消除对“暴力”预训练的需求？[D]",
+    "abstractEn": "I’ve been reading about Geometric Deep Learning lately (the whole grids, graphs, groups, manifolds idea), and something clicked that i wanted to get a clarity on, i don't think i'm an expert at GDL or anything mentioned here, so i can most definitely be wrong at a fundamental level as well,\n\nA lot o",
+    "abstractZh": "最近我一直在阅读关于几何深度学习的资料（包括网格、图、群、流形等概念），突然有一个想法让我想弄清楚——我并不是 GDL 或本文其他领域的专家，所以我可能在基础层面就错了。\n\n很多",
+    "authors": [
+      "u/Amdidev317"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 44,
+    "commentCount": 16,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47913650",
+    "slug": "hn-47913650-ai-should-elevate-your-thinking-not-replace-it",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47913650",
+    "publishedAt": "2026-04-26T20:03:12.000Z",
+    "titleEn": "AI should elevate your thinking, not replace it",
+    "titleZh": "AI 应该提升你的思维，而非替代它",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "koshyjohn"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 826,
+    "commentCount": 575,
+    "tags": []
+  },
+  {
+    "id": "reddit:1swa26o",
+    "slug": "reddit-1swa26o-why-do-only-big-ml-labs-dominate-widely-used-models-despite-many",
+    "source": "Reddit ML",
+    "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused/",
+    "commentUrl": "https://www.reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused/",
+    "publishedAt": "2026-04-26T15:09:10.000Z",
+    "titleEn": "Why do only big ML labs dominate widely-used models despite many open-source pretrained models smaller labs could do RL on? [D]",
+    "titleZh": "尽管有许多开源预训练模型，为什么只有大型机器学习实验室主导广泛使用的模型？[D]",
+    "abstractEn": "I’m trying to understand why models from major labs (GPT, Claude, etc.) dominate real-world usage? You might say it's due to the expensive pretraining compute budge, but there already exists many pretrained open-source models at the same scale (e.g., Kimi).  \n  \nOf course Kimi isn't as good as Claud",
+    "abstractZh": "我试图理解为什么主要实验室（GPT、Claude 等）的模型在实际应用中占据主导地位？你可能会说这是因为预训练的计算成本太高，但已经有许多同等规模的开源预训练模型存在（例如 Kimi）。\n\n当然，Kimi 不如 Claude",
+    "authors": [
+      "u/boringblobking"
+    ],
+    "institution": "Reddit r/MachineLearning",
+    "docType": "Blog",
+    "category": "social",
+    "score": 52,
+    "commentCount": 31,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47910877",
+    "slug": "hn-47910877-lessons-from-building-multiplayer-browsers",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.alejandro.pe/writing/sail-muddy-lessons",
+    "commentUrl": "https://news.ycombinator.com/item?id=47910877",
+    "publishedAt": "2026-04-26T14:59:37.000Z",
+    "titleEn": "Lessons from building multiplayer browsers",
+    "titleZh": "构建多人浏览器的经验教训",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "alejandrohacks"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 13,
+    "tags": []
+  },
+  {
+    "id": "hn:47910388",
+    "slug": "hn-47910388-swe-bench-verified-no-longer-measures-frontier-coding-capabilities",
+    "source": "Hacker News",
+    "sourceUrl": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47910388",
+    "publishedAt": "2026-04-26T13:58:13.000Z",
+    "titleEn": "SWE-bench Verified no longer measures frontier coding capabilities",
+    "titleZh": "SWE-bench Verified 不再衡量前沿编码能力",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "kmdupree"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 339,
+    "commentCount": 179,
+    "tags": []
+  }
+]

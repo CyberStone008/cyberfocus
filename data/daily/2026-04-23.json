@@ -1,0 +1,43 @@
+[
+  {
+    "id": "openai:defining-and-evaluating-political-bias-in-llms",
+    "slug": "defining-and-evaluating-political-bias-in-llms",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms/",
+    "publishedAt": "2026-04-23T01:59:25.335Z",
+    "titleEn": "Defining And Evaluating Political Bias In Llms",
+    "titleZh": "定义和评估大语言模型中的政治偏见",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": [],
+    "contentMd": "## 定义与评估大型语言模型中的政治偏见\n### Defining and Evaluating Political Bias in LLMs\n\n### 核心贡献 / Key Contributions\n\nOpenAI在这篇研究中提出了首个系统性的LLM政治偏见评估框架，通过多维度量化指标，为AI系统的政治中立性提供了科学的评估基准。该研究不仅定义了政治偏见的多个维度，还开发了相应的评估方法，为后续的研究和开发实践奠定了重要基础。\n\n### 研究背景 / Background\n\n> ⚠️ **注意**：政治偏见问题在AI伦理和安全领域日益受到关注，直接影响AI系统的公平性和可靠性。\n\n随着AI技术的广泛应用，大型语言模型（LLM）在政治相关内容上的表现越来越受到重视。政治偏见可能导致AI系统在政治讨论中偏向特定立场，影响用户的认知和决策。OpenAI作为行业领导者，认识到有必要系统性地研究和解决这一问题，以确保AI技术服务于更广泛的用户群体。\n\n### 技术方法 / Technical Approach\n\n该研究采用了多层次的评估方法，包括定量分析和定性分析相结合。研究团队设计了一系列测试用例，涵盖政治话题的多个维度，如支持度、倾向性等。通过对比不同模型在同一组测试用例上的表现，可以量化分析模型的政治倾向程度。这种方法确保了评估的客观性和可重复性。\n\n### 主要发现 / Key Findings\n\n研究表明，不同的大型语言模型在处理政治相关内容时确实表现出不同程度的政治倾向。这些发现揭示了模型训练数据中的固有偏见会传递到模型输出中，提示我们需要在训练过程中更加注重数据的多样性和平衡性。此外，研究还发现，即使经过一定的对齐（alignment）处理，模型的某些政治偏见仍然存在。\n\n### 意义与影响 / Significance & Impact\n\n这项研究的意义在于推动了AI行业对政治偏见问题的重视，并建立了评估基准。研究成果有助于AI开发者更好地理解和改进模型的政治中立性，为制定更完善的AI伦理规范提供了科学依据。同时，这项研究也为用户和监管机构提供了评估AI系统偏见的工具，促进了AI技术的健康发展。\n\n> 💡 **背景**：AI系统的偏见问题不仅涉及技术层面，还关系到社会公平和民主价值观的实现，需要全行业的共同努力来解决。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-23T02:02:46.361Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-23"
+  },
+  {
+    "id": "openai:reasoning-models-chain-of-thought-controllability",
+    "slug": "reasoning-models-chain-of-thought-controllability",
+    "source": "OpenAI Blog",
+    "sourceUrl": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
+    "publishedAt": "2026-04-23T01:46:56.989Z",
+    "titleEn": "Reasoning Models Chain Of Thought Controllability",
+    "titleZh": "推理模型的思维链可控性",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "tags": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "arxiv:2604.15456",
+    "slug": "deeper-med-advancing-deep-evidence-based-research-in-medicine-through-agentic-ai-2604-15456",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.15456",
+    "publishedAt": "2026-04-20T04:00:00.000Z",
+    "titleEn": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+    "titleZh": "DeepER-Med：通过代理式 AI 推进医学深度循证研究",
+    "abstractEn": "Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidenc",
+    "abstractZh": "可信度和透明度对于人工智能（AI）在医疗保健和生物医学研究中的临床应用至关重要。近期的深度研究系统旨在将 AI 代理与多跳信息检索、推理和综合相结合，加速基于证据的科学发现。然而，大多数现有系统",
+    "authors": [
+      "Zhizheng Wang",
+      "Chih-Hsuan Wei",
+      "Joey Chan",
+      "Robert Leaman",
+      "Chi-Ping Day"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\nDeepER-Med 提出了一种基于智能体（Agentic AI）的医学深度证据研究框架，旨在通过显式且可检查的证据标准来解决现有 AI 系统在医疗场景中的可信度和透明度问题。该系统整合了多跳信息检索、推理与合成能力，为临床采纳提供了可追溯的科学证据链条。\n\n## 研究背景\n### Background\n\n在医疗健康与生物医学研究中，AI 系统的临床采纳面临着严重的信任危机。现有的深度研究系统虽然致力于加速基于证据的科学发现，但普遍缺乏明确且可检验的证据评估标准。这种\"黑箱\"特性使得医疗专业人员难以验证 AI 结论的可靠性，阻碍了 AI 在临床实践中的落地应用。\n\n## 技术方法\n### Technical Approach\n\nDeepER-Med 采用智能体架构，构建了从证据收集到合成的完整工作流。系统通过多跳检索机制在文献与知识库中追踪证据来源，结合推理引擎对证据质量进行显式评估，最终生成结构化的研究摘要。关键技术包括可检查的证据评分标准、溯源链可视化以及与医学领域知识库的深度集成。\n\n## 意义与影响\n### Significance & Impact\n\n> ⚠️ **注意**：AI 在医疗领域的可信度是其临床应用的核心障碍。\n\nDeepER-Med 的意义在于将\"证据透明度\"作为系统设计的核心原则，而非附加功能。这为医学 AI 的可解释性研究提供了新范式，有望加速证据导向的医学发现，同时为监管机构制定 AI 审计标准提供参考框架。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-20T10:25:21.769Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-20"
+  },
+  {
+    "id": "arxiv:2604.15495",
+    "slug": "gist-multimodal-knowledge-extraction-and-spatial-grounding-via-intelligent-seman-2604-15495",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.15495",
+    "publishedAt": "2026-04-20T04:00:00.000Z",
+    "titleEn": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+    "titleZh": "GIST：通过智能语义拓扑进行多模态知识提取与空间定位",
+    "abstractEn": "Navigating complex, densely packed environments like retail stores, warehouses, and hospitals poses a significant spatial grounding challenge for humans and embodied AI. In these spaces, dense visual features quickly become stale given the quasi-static nature of items, and long-tail semantic distributions challenge traditional computer vision. While Vision-Language Models (VLMs) help assistive sys",
+    "abstractZh": "在零售店、仓库和医院等复杂、密集的环境中导航，对人类和具身 AI 构成了巨大的空间定位挑战。在这些空间中，由于物品的准静态特性，密集的视觉特征很快会变得陈旧，而长尾语义分布则挑战着传统计算机视觉。虽然",
+    "authors": [
+      "Shivendra Agrawal",
+      "Bradley Hayes"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  }
+]

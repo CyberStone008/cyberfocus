@@ -1,0 +1,2598 @@
+[
+  {
+    "id": "hn:47957110",
+    "slug": "hn-47957110-have-you-seen-the-new-excel",
+    "source": "Hacker News",
+    "sourceUrl": "https://idiallo.com/blog/have-you-seen-the-new-xl-ai-parody",
+    "commentUrl": "https://news.ycombinator.com/item?id=47957110",
+    "publishedAt": "2026-04-30T01:46:08.000Z",
+    "titleEn": "Have You Seen the New Excel?",
+    "titleZh": "你见过新版 Excel 吗?",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "jnord"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47957101",
+    "slug": "hn-47957101-craig-venter-has-died",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+    "commentUrl": "https://news.ycombinator.com/item?id=47957101",
+    "publishedAt": "2026-04-30T01:44:56.000Z",
+    "titleEn": "Craig Venter has died",
+    "titleZh": "克雷格·文特尔去世了",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rdl"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 43,
+    "commentCount": 9,
+    "tags": []
+  },
+  {
+    "id": "reddit:1szi1mh",
+    "slug": "reddit-1szi1mh-larger-gemma-4-qwen3-6",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szi1mh/larger_gemma4qwen36/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szi1mh/larger_gemma4qwen36/",
+    "publishedAt": "2026-04-30T01:33:46.000Z",
+    "titleEn": "Larger Gemma-4/Qwen3.6",
+    "titleZh": "更大的 Gemma-4/Qwen3.6",
+    "abstractEn": "Qwen3.5-122B-A10B at Q6\\_K is really good.\n\nDo you think we will see a larger MoE Gemma-4 or Qwen3.6 at some point?",
+    "abstractZh": "Q6_K 量化下的 Qwen3.5-122B-A10B 表现真的很不错。\n\n你认为我们会在某个时候看到更大的 MoE Gemma-4 或 Qwen3.6 吗?",
+    "authors": [
+      "u/Non-Technical"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 12,
+    "commentCount": 6,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "gnews:c20ef06bee29",
+    "slug": "gnews-c20ef06bee29",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTh1eDVXUUpQUTdNaERfeU1kYTNCNU1OWGd0cTF2UWg5SEF6LWN2d2p4RmJzSU5HWGRzOEpVT2RZY3ZqQ2tFa1Q1aWN5QU53Uk5abDE2OXU0NW5VMGpnS2d3WVZnXzlsT1ZSeldhS2NWbF9xdDRUU1lXdFFpYzNmTnZVS1dSaHBkbmZTcA?oc=5",
+    "publishedAt": "2026-04-30T01:27:42.000Z",
+    "titleEn": "School Board discuss electrifying buses, AI policy",
+    "titleZh": "学校董事会讨论电动化和 AI 政策",
+    "abstractEn": "School Board discuss electrifying buses, AI policy  My Edmonds News",
+    "abstractZh": "学校董事会讨论电动化和 AI 政策 My Edmonds News",
+    "authors": [
+      "My Edmonds News"
+    ],
+    "institution": "My Edmonds News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47956895",
+    "slug": "hn-47956895-claude-ai-and-api-unavailable",
+    "source": "Hacker News",
+    "sourceUrl": "https://status.claude.com/incidents/2gf1jpyty350",
+    "commentUrl": "https://news.ycombinator.com/item?id=47956895",
+    "publishedAt": "2026-04-30T01:21:03.000Z",
+    "titleEn": "Claude.ai and API Unavailable",
+    "titleZh": "Claude.ai 和 API 不可用",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rob"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 81,
+    "commentCount": 62,
+    "tags": []
+  },
+  {
+    "id": "hn:47956890",
+    "slug": "hn-47956890-claude-ai-down-again",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=47956890",
+    "commentUrl": "https://news.ycombinator.com/item?id=47956890",
+    "publishedAt": "2026-04-30T01:20:39.000Z",
+    "titleEn": "Claude.ai Down Again?",
+    "titleZh": "Claude.ai 又宕机了？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "zh_code"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 20,
+    "commentCount": 17,
+    "tags": []
+  },
+  {
+    "id": "hn:47956781",
+    "slug": "hn-47956781-joby-kicks-off-nyc-electric-air-taxi-demos-with-historic-jfk-flight",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47956781",
+    "publishedAt": "2026-04-30T01:01:55.000Z",
+    "titleEn": "Joby Kicks Off NYC Electric Air Taxi Demos with Historic JFK Flight",
+    "titleZh": "Joby 在 JFK 开始纽约电动空中出租车演示",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Jblx2"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 14,
+    "commentCount": 5,
+    "tags": []
+  },
+  {
+    "id": "hn:47956739",
+    "slug": "hn-47956739-mike-open-source-legal-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://mikeoss.com/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47956739",
+    "publishedAt": "2026-04-30T00:56:23.000Z",
+    "titleEn": "Mike: open-source legal AI",
+    "titleZh": "Mike: 开源法律 AI",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "noleary"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-411336-html",
+    "slug": "ai-demo",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/411336.html",
+    "publishedAt": "2026-04-30T00:35:15.000Z",
+    "titleEn": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务",
+    "titleZh": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务",
+    "abstractEn": "做视频，顺便把具身智能的活也干了。",
+    "abstractZh": "做视频，顺便把具身智能的活也干了。",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1szgjd7",
+    "slug": "reddit-1szgjd7-you-should-probably-disable-algif-kernel-module-this-second-if-yo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://copy.fail/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szgjd7/you_should_probably_disable_algif_kernel_module/",
+    "publishedAt": "2026-04-30T00:25:35.000Z",
+    "titleEn": "You should probably disable algif kernel module this second if you run linux.",
+    "titleZh": "如果你运行 Linux,现在就应该禁用 algif 内核模块",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/a_beautiful_rhind"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 26,
+    "commentCount": 13,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1szg1d9",
+    "slug": "reddit-1szg1d9-i-got-a-qwen-sticker-lol",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/rn5h86w4y7yg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szg1d9/i_got_a_qwen_sticker_lol/",
+    "publishedAt": "2026-04-30T00:03:32.000Z",
+    "titleEn": "I got a Qwen sticker lol",
+    "titleZh": "我得到了一个 Qwen 贴纸 哈哈",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/lombwolf"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 20,
+    "commentCount": 2,
+    "tags": [
+      "Funny"
+    ]
+  },
+  {
+    "id": "gnews:cdce4103aca2",
+    "slug": "gnews-cdce4103aca2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQllRbVI1MHZKd1llQjZfajZQTUZuM2dMZjZkTktFRjYwcExTYlJfa1dIMlNvTDAycldDcjYyczRRMmRGSWVhVzR2RDZFLTM4UVA2cHhYTEtXeUVfSDhVTjJoUi1BODhQcWlNa1I2TlpodTRVX1pDdW5RYXJYVVFfV0loaUdDaFdwS2R2TkZLNzN3NUo4Q25icWpIR3dRWlE?oc=5",
+    "publishedAt": "2026-04-29T23:52:51.000Z",
+    "titleEn": "The scramble to prep for AI super-hackers",
+    "titleZh": "备战 AI 超级黑客的紧急行动",
+    "abstractEn": "The scramble to prep for AI super-hackers  marketplace.org",
+    "abstractZh": "备战 AI 超级黑客的紧急行动 marketplace.org",
+    "authors": [
+      "marketplace.org"
+    ],
+    "institution": "marketplace.org",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:92202f9e18a3",
+    "slug": "gnews-92202f9e18a3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRTRjcU80RExlUXluNkR6Um5JaGNlWlZVWDhIdzY4Q0xVdU5wM3JrclVNTVJDQVlVUEdmQWFUQTFwYzhZNWx3alFpLVhuYXhzNUJmMEVkQjZhYkdrV2FfdkM5MHBKS0NlQktHNjhkaGUzR0ZyOGM0VUpha1FpZVR2VHZmTFFvMjA?oc=5",
+    "publishedAt": "2026-04-29T22:53:54.000Z",
+    "titleEn": "A.I. Spending Sets a Record, With No End in Sight",
+    "titleZh": "AI支出创历史新高，且看不到尽头",
+    "abstractEn": "A.I. Spending Sets a Record, With No End in Sight  The New York Times",
+    "abstractZh": "AI支出创历史新高，且看不到尽头——《纽约时报》",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:3462a10096b1",
+    "slug": "gnews-3462a10096b1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTnd3bDhqMEVNc010WnRNc0hza0hNMWJ2bmlWVExTSU9QNVBYTjB2REtBMFBRSmVkX1ZXWVk1c0xkTXhYd0lBLUREeS1VaEhjVGh0SnRZdnQ4dmc2S1hxVS1valIzUnQySlp3dm9tT0hzWDNiTWdhRzlPaEEwVVRBa2RpVWV2WDJMM2FRWGNjZEVzYzQ4aGwyWFR6YlZkb2ljSVU1LUVWSmxUcWNFUWM0VTBFVDMzbUlWTGVhOFpoQldiWDVJVTUxdnIyTXUzTE1mODBj?oc=5",
+    "publishedAt": "2026-04-29T22:50:13.000Z",
+    "titleEn": "Anthropic weighs new funding round at valuation exceeding $900 billion, Bloomberg News reports",
+    "titleZh": "Anthropic 考虑新一轮融资，估值或超 9000 亿美元，据 Bloomberg News 报道",
+    "abstractEn": "Anthropic weighs new funding round at valuation exceeding $900 billion, Bloomberg News reports  Reuters",
+    "abstractZh": "Anthropic 考虑新一轮融资，估值或超 9000 亿美元，据 Bloomberg News 报道 路透社",
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1szdv5s",
+    "slug": "reddit-1szdv5s-what-do-you-guys-even-use-local-llms-for-me-a-lot",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/8bc08sn9h7yg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szdv5s/what_do_you_guys_even_use_local_llms_for_me_a_lot/",
+    "publishedAt": "2026-04-29T22:31:44.000Z",
+    "titleEn": "\"What do you guys even use local LLMs for?\" Me: A lot",
+    "titleZh": "你们都用本地 LLM 做什么? 我: 很多事情",
+    "abstractEn": "Created separate private API keys for each service within LiteLLM and started logging the usage via Prometheus to view in Grafana. Surprised the Frigate GenAI summaries tokens quickly add up!\n\nThis view is only the past 6 hours.",
+    "abstractZh": "为 LiteLLM 中的每个服务创建了独立的私有 API 密钥,并开始通过 Prometheus 记录使用情况以在 Grafana 中查看。令人惊讶的是,Frigate GenAI 摘要的 token 消耗增长得很快!\n\n这个视图仅显示过去 6 小时的情况。",
+    "authors": [
+      "u/andy2na"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 59,
+    "commentCount": 29,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:9f77dbb94882",
+    "slug": "gnews-9f77dbb94882",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQemIwT21nSUIzZUtRR0xpNkN0S1hsQzJmdHIxek5raklGOVI3cVJIZnlYSEg2X2VsTkRTN2xqcEJ0dHQ2cWhjVHhvendqRGFzeGhEZml6LXJPLXVBbjdZakdCMlVFanVmeTNta0x2dURXQXJYbjdVTUNqOVhweDVyLWJjVHVkaHRPY0RmNG5WNWFXMFVwc0VQRXp0QXBHT0FwMWfSAacBQVVfeXFMTlJmLUxyekh0cGJ0YjRHTXRoV2xSM0d0LUs2VF9pTVhMZmxYOUZOM1FHT2x0cVA2R3pheW8tUEFOcFUycU03WGFGd21kUEV6WE4xVXgzcWM0a2VmOHFnZnpXbzUtQmMzTndIUURYTXF0WUZHa2NrYmQ3QkNPN19kS09xRDJYMGVoQWJCYjdDVHdmUE1kcTNrZTRzOWYyaHBqVy1ULTI4R1U?oc=5",
+    "publishedAt": "2026-04-29T22:25:37.000Z",
+    "titleEn": "Anthropic in talks with investors to raise funds at $900 billion valuation, higher than OpenAI",
+    "titleZh": "Anthropic与投资者洽谈，拟以9000亿美元估值融资，高于OpenAI",
+    "abstractEn": "Anthropic in talks with investors to raise funds at $900 billion valuation, higher than OpenAI  CNBC",
+    "abstractZh": "Anthropic与投资者洽谈，拟以9000亿美元估值融资，高于OpenAI CNBC",
+    "authors": [
+      "CNBC"
+    ],
+    "institution": "CNBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6b18c1cf0a61",
+    "slug": "gnews-6b18c1cf0a61",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa2Zzc3RXcGk5Q1ZBLUdRNVhKN0VkY3g1Q0thQTgyUWdZc0NRWkpTUUdnUmJGcU94a2VzZmJJLVQ2R0l2d1cweEhEeGNXV1VDWVlKT1JUcmVYUHYzT2FuUWt2TjVrWjhVbXliNGFMVHFZR1pXUmY5aW05WVNGZWJyR0hoc1JrS09HYlZnRVFzNjQtODJWajUxdnhaMi1fNGREX2hoLXBIaHgzSzJoQXpzTjZ3?oc=5",
+    "publishedAt": "2026-04-29T22:05:43.000Z",
+    "titleEn": "Families of Canadian mass shooting victims sue OpenAI, CEO Altman in US court",
+    "titleZh": "加拿大大规模枪击案受害者家属在美国法院起诉OpenAI和CEO Altman",
+    "abstractEn": "Families of Canadian mass shooting victims sue OpenAI, CEO Altman in US court  Reuters",
+    "abstractZh": "加拿大大规模枪击案受害者家属在美国法院起诉OpenAI和CEO Altman 路透社",
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:c226dd263a58",
+    "slug": "gnews-c226dd263a58",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM01iLS15LWpXdy0yM2lNQ0xndWNVWDNfWWNfSUZubUJnOVAyTUJBVmFLbC1IU3JGM0tObWd2Nzc1ZDYxekJka1VFQ2tScWtzR3RIRTRnRGdWQ3RYNzFfTmtNQ051WTYyektvQmEzb1FqdS1Qb1FNbnRwcU8wYndTSDg1MVlCZGQtV3JJRFZYRmZHb1plb3IzNDFSMU4tV2pwSUFoZTh2OV9hcHNlSW5iWE5Law?oc=5",
+    "publishedAt": "2026-04-29T21:39:38.000Z",
+    "titleEn": "Anthropic Considering Funding Offers at Over $900 Billion Value",
+    "titleZh": "Anthropic 考虑接受估值超 9000 亿美元的融资要约",
+    "abstractEn": "Anthropic Considering Funding Offers at Over $900 Billion Value  Bloomberg.com",
+    "abstractZh": "Anthropic 考虑接受估值超 9000 亿美元的融资要约 Bloomberg.com",
+    "authors": [
+      "Bloomberg.com"
+    ],
+    "institution": "Bloomberg.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:94642c058ea2",
+    "slug": "gnews-94642c058ea2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WZUhUczJucVVGRkV5SEVGV3ZEQ3J6blpJU1lWZi1naHY5ZE5td1NpdWxLZ1pZZkx1aWM1WUZidU02NTZQa0p3MjNhMm9kWDBxMWNQbnRDSS1LckhrUUtNQ25GWXgyTkVqeXprVjNreXNQRC1nN2fSAX5BVV95cUxPaGpXWFRPT0hBQWM2cXBjSUY5bmh1RXJxWGFkTGJqcFlubkhwYU5IZ2pPUl9ORWtpLWJuSmZsUXhlVU01YlFsLWZ6SDA0YVFoU0dYQjJtVTVYWmJCNzg5MVMyZWF5YTlVdEtEVEhKQlNPNnExanMxVjI1NHFmdUE?oc=5",
+    "publishedAt": "2026-04-29T21:22:39.000Z",
+    "titleEn": "Labor Department Launches AI Apprenticeship Portal as Trump Admin Continues AI Policy Push",
+    "titleZh": "劳工部推出 AI 学徒门户网站，特朗普政府继续推进 AI 政策",
+    "abstractEn": "Labor Department Launches AI Apprenticeship Portal as Trump Admin Continues AI Policy Push  Decrypt",
+    "abstractZh": "劳工部推出 AI 学徒门户网站，特朗普政府继续推进 AI 政策 Decrypt",
+    "authors": [
+      "Decrypt"
+    ],
+    "institution": "Decrypt",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1szbx94",
+    "slug": "reddit-1szbx94-strip-qwen3-6-dense-of-its-multimodal-capabilities",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szbx94/strip_qwen36_dense_of_its_multimodal_capabilities/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szbx94/strip_qwen36_dense_of_its_multimodal_capabilities/",
+    "publishedAt": "2026-04-29T21:16:02.000Z",
+    "titleEn": "Strip Qwen3.6 dense of its multimodal capabilities",
+    "titleZh": "剥离 Qwen3.6 dense 的多模态能力",
+    "abstractEn": "This may be naive but if we stripped a model of its image processing/voice processing capabilities, can it make it smaller or faster? Is that even possible? Does it vary between MoE and dense?\n\nIf it is, why isn't it done on popular models ",
+    "abstractZh": "这可能有点天真，但如果我们剥离一个模型的图像处理/语音处理能力，能让它变得更小或更快吗？这甚至可能吗？在 MoE 和 dense 之间是否有差异？\n\n如果可能的话，为什么在流行模型上没有这样做",
+    "authors": [
+      "u/redblood252"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 22,
+    "commentCount": 19,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "hn:47954745",
+    "slug": "hn-47954745-i-benchmarked-claude-codes-caveman-plugin-against-be-brief",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words",
+    "commentUrl": "https://news.ycombinator.com/item?id=47954745",
+    "publishedAt": "2026-04-29T21:11:57.000Z",
+    "titleEn": "I benchmarked Claude Code's caveman plugin against \"be brief.\"",
+    "titleZh": "我测试了 Claude Code 的原始插件与『简明』指令",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "max-t-dev"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 65,
+    "commentCount": 43,
+    "tags": []
+  },
+  {
+    "id": "gnews:5fc7c964f054",
+    "slug": "gnews-5fc7c964f054",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOay15SFpXNW8zUzliTW5nalZJNlRUYVBCSE1RV2c5VHBhWFB5RGdXUmwxVlI5TVVpWGI4LUo1em5uSkg1Y2xRSzVfZmpjMjlPSFN2Y1YzOF9fUHpnV05TMVFOSTRua01adU9iU2lqblo5d3dEQzBaWXpaQVVyUU5UWDZJNk1vTnBlSlBhMG9B?oc=5",
+    "publishedAt": "2026-04-29T20:59:48.000Z",
+    "titleEn": "A.I. Helps Online Ad Businesses Boom",
+    "titleZh": "AI 助力在线广告业务蓬勃发展",
+    "abstractEn": "A.I. Helps Online Ad Businesses Boom  The New York Times",
+    "abstractZh": "AI 助力在线广告业务蓬勃发展 《纽约时报》",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:be91d33432a4",
+    "slug": "gnews-be91d33432a4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ0l3bGJDcjV6WGRBZFNrZHh5Y0FoNllsLThLVmtkUWxtRllfazZBalpwRnFQM19Qd2Vtanh4SVYzVUUyTEY0VXUxRVQtVjNodUQ1MzBSeDYxTUlSWTlLT0pxc1lhZUNGVndtUHZLNjNWNDNxV0E0WU9adnRMTEhha0FQNDFWT1ZITDN5MHRLX1lRUmtxRk9tZjZfakpqcnJENGZaTklHZ2RnTUpEaVlMYkVnV3B3ZmYyOUFPWUt0eTFkNXBrcE9PNHFQdENMTUV2?oc=5",
+    "publishedAt": "2026-04-29T20:38:18.000Z",
+    "titleEn": "Little Rock adopts new AI policy for city government",
+    "titleZh": "小石城市政府采纳全新 AI 政策",
+    "abstractEn": "Little Rock adopts new AI policy for city government  KATV",
+    "abstractZh": "小石城市政府采纳全新 AI 政策 KATV",
+    "authors": [
+      "KATV"
+    ],
+    "institution": "KATV",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1szaw8n",
+    "slug": "reddit-1szaw8n-kld-comparison-of-oq-q-mxfp-and-ud-mlx-quantizations",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szaw8n/kld_comparison_of_oq_q_mxfp_and_ud_mlx/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szaw8n/kld_comparison_of_oq_q_mxfp_and_ud_mlx/",
+    "publishedAt": "2026-04-29T20:37:35.000Z",
+    "titleEn": "KLD comparison of oQ, Q, MXFP and UD MLX quantizations",
+    "titleZh": "oQ、Q、MXFP 和 UD MLX 量化的 KLD 比较",
+    "abstractEn": "https://preview.redd.it/19qgxrcbx6yg1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=f690859d4e099d2fa88b40b0a188a377838942da\n\nSee [detailed results](https://github.com/deepsweet/mlx-kld/tree/main/results).",
+    "abstractZh": "https://preview.redd.it/19qgxrcbx6yg1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=f690859d4e099d2fa88b40b0a188a377838942da\n\n参见[详细结果](https://github.com/deepsweet/mlx-kld/tree/main/results)。",
+    "authors": [
+      "u/dpswt"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 16,
+    "commentCount": 1,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1szajgm",
+    "slug": "reddit-1szajgm-devs-using-qwen-27b-seriously-whats-your-take",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szajgm/devs_using_qwen_27b_seriously_whats_your_take/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1szajgm/devs_using_qwen_27b_seriously_whats_your_take/",
+    "publishedAt": "2026-04-29T20:24:36.000Z",
+    "titleEn": "Devs using Qwen 27B seriously, what's your take?",
+    "titleZh": "认真使用 Qwen 27B 的开发者们，你们怎么看？",
+    "abstractEn": "For developers using Qwen 27B for coding, Codex style: what's your honest take?\n\nSo far, for me, it's been pretty solid. Not always amazing, but honestly neither is GPT-5.5 sometimes. Considering the model size, it's kind of wild how capable it actually is.\n\nThat said, I'm still not sure whether I'd",
+    "abstractZh": "对于将 Qwen 27B 用于编码的开发商，Codex 风格：你们真实的看法是什么？\n\n就我而言，到目前为止表现相当不错。不总是惊艳，但老实说 GPT-5.5 有时也是如此。考虑到模型大小，它实际能力之强真是惊人。\n\n尽管如此，我还不确定我会不会",
+    "authors": [
+      "u/Admirable_Reality281"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 112,
+    "commentCount": 135,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47954024",
+    "slug": "hn-47954024-alphabet-announces-first-quarter-2026-results",
+    "source": "Hacker News",
+    "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx",
+    "commentUrl": "https://news.ycombinator.com/item?id=47954024",
+    "publishedAt": "2026-04-29T20:20:58.000Z",
+    "titleEn": "Alphabet Announces First Quarter 2026 Results",
+    "titleZh": "Alphabet 公布 2026 年第一季度业绩",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "xnx"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 99,
+    "commentCount": 118,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sz9v9z",
+    "slug": "reddit-1sz9v9z-qwen-3-6-35b-a3b-kv-cache-part-2-ppl-kl-divergence-asymmetric-k-v",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz9v9z/qwen_3635ba3b_kv_cache_part_2_ppl_kl_divergence/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz9v9z/qwen_3635ba3b_kv_cache_part_2_ppl_kl_divergence/",
+    "publishedAt": "2026-04-29T20:00:43.000Z",
+    "titleEn": "Qwen 3.6-35B-A3B KV cache part 2: PPL, KL divergence, asymmetric K/V, 64K row on M5 Max",
+    "titleZh": "Qwen 3.6-35B-A3B KV cache 第二部分：困惑度、KL散度、不对称 K/V、M5 Max 上的 64K 行",
+    "abstractEn": "Followup to yesterday's post: https://www.reddit.com/r/LocalLLaMA/comments/1sy7srk/. Comments asked for perplexity, KL divergence, asymmetric K/V combos, and a 64K data point. Ran them overnight. Same M5 Max, same Qwen 3.6-35B-A3B Q8, same TheTom TurboQuant fork (feature/turboquant-kv-cache).\n\n**Qua",
+    "abstractZh": "对昨天帖子的后续跟进：https://www.reddit.com/r/LocalLLaMA/comments/1sy7srk/。评论者要求提供困惑度、KL散度、不对称 K/V 组合，以及一个 64K 数据点。昨晚运行了这些测试。同样的 M5 Max，同样的 Qwen 3.6-35B-A3B Q8，同样的 TheTom TurboQuant 分支（feature/turboquant-kv-cache）。\n\n**Qua",
+    "authors": [
+      "u/Defilan"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 24,
+    "commentCount": 11,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:47953484",
+    "slug": "hn-47953484-your-ceo-is-suffering-from-ai-psychosis",
+    "source": "Hacker News",
+    "sourceUrl": "https://handyai.substack.com/p/your-ceo-is-suffering-from-ai-psychosis",
+    "commentUrl": "https://news.ycombinator.com/item?id=47953484",
+    "publishedAt": "2026-04-29T19:46:18.000Z",
+    "titleEn": "Your CEO is suffering from AI psychosis",
+    "titleZh": "你的 CEO 正遭受 AI 偏执症",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "sss111"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 56,
+    "commentCount": 18,
+    "tags": []
+  },
+  {
+    "id": "gnews:79991af411ae",
+    "slug": "gnews-79991af411ae",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3AtNjNsOGIwUGl5Ujg2a2dKam9RdjlFOGJraVNrSUFtYzVIUWhYSHNJTnBPczRFWGRlcnk4WFRNZnQwZlFTclV3NE5SZHN2TE1tOHJYZkZJRTJGQ1dOWHZud3gxMFpzT3p3TVZFMG1yRWxlemVCYWJIUHpYZVVZZWVTVk5OLVo2THpUUV92WXFYbjVSRWhjTnhxeV9hYWg2QU96VkhCN1YxbEU?oc=5",
+    "publishedAt": "2026-04-29T19:43:42.000Z",
+    "titleEn": "White House Drafts AI Policy Shift To Reopen Anthropic Access In Federal Agencies",
+    "titleZh": "白宫起草AI政策转变以重新开放联邦机构对Anthropic的访问",
+    "abstractEn": "White House Drafts AI Policy Shift To Reopen Anthropic Access In Federal Agencies  International Business Times",
+    "abstractZh": "白宫起草AI政策转变以重新开放联邦机构对Anthropic的访问 国际商业时报",
+    "authors": [
+      "International Business Times"
+    ],
+    "institution": "International Business Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:f11e3281fd0e",
+    "slug": "gnews-f11e3281fd0e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORHhNRmNpQzFkRXVHTEJoY0prQ1lRem1BdGEwbzVqY3JTSFJ3TExCWG1zUDZDRHUzV3lIYlk3aGxzcDBTOHEzd3RsNXRlZDAyT0tqcEg0NDZnWExlMlBZYWRsUE1rdklSZkE4ZHl5cF91c3J1Zm1Ja1Q3bmx3aUdtZWpHUW1DeG1maEhyVzJHNWpfT2J6Vk5nVFZ6ZW5jS0lBY3pXdFJmcVRNX00yRzd5dTNOcmFMczhWOFB6bGtzOWNVeWdBLW1ob1B6YzZrcFFuS2pINVRLbkF0d2VOa0dHakFhYw?oc=5",
+    "publishedAt": "2026-04-29T19:40:00.000Z",
+    "titleEn": "West Island hero launches bold push for AI safety",
+    "titleZh": "西岛英雄发起大胆的AI安全推动",
+    "abstractEn": "West Island hero launches bold push for AI safety  TheSuburban.com",
+    "abstractZh": "西岛英雄发起大胆的AI安全推动 TheSuburban.com",
+    "authors": [
+      "TheSuburban.com"
+    ],
+    "institution": "TheSuburban.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:89d46eb74af6",
+    "slug": "gnews-89d46eb74af6",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFJIQTYwVGZyNWN6V1hZVTdWeW9NaVZTdG5LY0NGQkh0ZkFGQ21Pbi1ScW5BNkpoTm8xRzdhMFlRV3VEbmlHT01XWU00ZGJrTjl2UjNtazZ6NDNPa005d3NzblBXd0EtTVhvcGZ2UmZabFF0SEV3ZXZsZFNWT3V0YUJiY3pXclhEdVBPZXdzckU0WnRyanRlbS03dXBMVDlkQTc3MDJKQnpyMXRCNHp4UA?oc=5",
+    "publishedAt": "2026-04-29T19:30:00.000Z",
+    "titleEn": "Students encouraged to learn about AI safety, responsible use",
+    "titleZh": "鼓励学生学习 AI 安全和负责任使用",
+    "abstractEn": "Students encouraged to learn about AI safety, responsible use  agrinews-pubs.com",
+    "abstractZh": "鼓励学生学习 AI 安全和负责任使用 agrinews-pubs.com",
+    "authors": [
+      "agrinews-pubs.com"
+    ],
+    "institution": "agrinews-pubs.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:11f41553ee53",
+    "slug": "gnews-11f41553ee53",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWjhaV2lhTEV2WWNwaDdCTENrOVoxbDVrdmxkVHNpZDQxbmxHY3EtUUFZa1k0NnI0MzlKSk5YTUdCTDJpWHJtQi15TkpPX1VUMWxnOE1qZHUyMjcyV1g4SjVDcHQ4LUtGTjBtTWs0R25kZmF3dVlIM19VNzV6ZFZHSTljVnAxcWFLaGNrdnJUWGUxRzJVMGM0YVVQbVBOZGtrbDF1NnJQQzltUQ?oc=5",
+    "publishedAt": "2026-04-29T19:11:44.000Z",
+    "titleEn": "Amazon launches new AI tools, as Microsoft and OpenAI end exclusive cloud deal",
+    "titleZh": "Amazon 推出全新 AI 工具，Microsoft 与 OpenAI 终结独家云服务合作",
+    "abstractEn": "Amazon launches new AI tools, as Microsoft and OpenAI end exclusive cloud deal  KUOW",
+    "abstractZh": "Amazon 推出全新 AI 工具，Microsoft 与 OpenAI 终结独家云服务合作 KUOW",
+    "authors": [
+      "KUOW"
+    ],
+    "institution": "KUOW",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1sz8auq",
+    "slug": "reddit-1sz8auq-building-a-fully-local-pdf-to-audiobook-workflow-with-kokoro-82m",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/n57hkkjlg6yg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz8auq/building_a_fully_local_pdftoaudiobook_workflow/",
+    "publishedAt": "2026-04-29T19:04:13.000Z",
+    "titleEn": "Building a fully local PDF-to-audiobook workflow with Kokoro 82M, Qwen and llama.cpp",
+    "titleZh": "使用 Kokoro 82M、Qwen 和 llama.cpp 构建完全本地的 PDF 到有声书工作流",
+    "abstractEn": "Hey everyone,\n\nI’ve been building a local-first desktop PDF reader that can read technical books aloud and keep the spoken text highlighted while reading.\n\nThe original motivation was pretty practical: I read a lot of programming and technical books, but many publishers either don’t offer audio vers",
+    "abstractZh": "大家好,\n\n我一直在构建一个优先本地的桌面 PDF 阅读器,它可以朗读技术书籍并在阅读时高亮显示正在朗读的文本。\n\n最初的动机非常实用:我阅读大量的编程和技术书籍,但许多出版商要么不提供音频版本",
+    "authors": [
+      "u/purellmagents"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 51,
+    "commentCount": 19,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:11e2046465a1",
+    "slug": "gnews-11e2046465a1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUxKVE1CQ3otQTQ1aGxFQ1lYR1haZGRyLTdPQXp0bHJrQ04xQi1hdmI1Ml9RRmhQMDhRejgyR0tqSDRlSVhSS1NjeE5vQm9WZXBMeGVwUS0zYmtBLUw5d0ktOTBPTXRoRkVoeE5MUmVMN2V5bWdSYVVWV1RxZHh6QzBRQXM1Z2hSTjl0eA?oc=5",
+    "publishedAt": "2026-04-29T18:55:40.000Z",
+    "titleEn": "Elon Musk, Testifying at OpenAI Trial, Accuses Executives of Stealing a ‘Charity’",
+    "titleZh": "埃隆·马斯克在OpenAI庭审中作证，指控高管窃取'慈善机构'",
+    "abstractEn": "Elon Musk, Testifying at OpenAI Trial, Accuses Executives of Stealing a ‘Charity’  The New York Times",
+    "abstractZh": "埃隆·马斯克在OpenAI庭审中作证，指控高管窃取'慈善机构' The New York Times",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47952722",
+    "slug": "hn-47952722-hermes-md-in-commit-messages-causes-requests-to-route-to-extra-usage",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/anthropics/claude-code/issues/53262",
+    "commentUrl": "https://news.ycombinator.com/item?id=47952722",
+    "publishedAt": "2026-04-29T18:54:31.000Z",
+    "titleEn": "HERMES.md in commit messages causes requests to route to extra usage billing",
+    "titleZh": "提交消息中的 HERMES.md 导致请求路由到额外计费",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "homebrewer"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 983,
+    "commentCount": 420,
+    "tags": []
+  },
+  {
+    "id": "hn:47952181",
+    "slug": "hn-47952181-copy-fail-cve-2026-31431",
+    "source": "Hacker News",
+    "sourceUrl": "https://copy.fail/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47952181",
+    "publishedAt": "2026-04-29T18:13:53.000Z",
+    "titleEn": "Copy Fail – CVE-2026-31431",
+    "titleZh": "复制失败 – CVE-2026-31431",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "unsnap_biceps"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 582,
+    "commentCount": 261,
+    "tags": []
+  },
+  {
+    "id": "gnews:4e3ddbd0f8ce",
+    "slug": "gnews-4e3ddbd0f8ce",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRGlSczF1QTc0TGJ2emhGU2VNZnFISk9JcklSNGZvMkdfVXkxMWlPbUtYLXhNQXMwUmZnX3FiQVItUUNZNFRWVEtPNWZqZ0FJSlZsdWV4MVIzRjBGNHI3S2N6YnBOX3NHaHRfQ0trVEFPdGE3UGVkaWJmU0IwUDFUMVNTNXhTT09wSDl2UGNLaVpuZ3ljUGJxZW41NnVWQzJ1WVlNclhNcm5yUHFQQ0VhZGwxUnY3dFlfRHVKOFlLSGV5a29UQS1meDlNVG12UFhkMUU0UjVCSnF3YzFSYjV5dDM3SlRWeDBNenN3U1dCanhRaUxEOWhVUEtjTnRyWW5zWmlF?oc=5",
+    "publishedAt": "2026-04-29T17:54:00.000Z",
+    "titleEn": "\"In Tune With AI\" -- A New Global Index from 5WPR of the 50 Celebrities Most Aligned With the Artificial Intelligence Era",
+    "titleZh": "与AI同步——5WPR新全球指数评选出与人工智能时代最契合的50位名人",
+    "abstractEn": "\"In Tune With AI\" -- A New Global Index from 5WPR of the 50 Celebrities Most Aligned With the Artificial Intelligence Era  PR Newswire",
+    "abstractZh": "与AI同步——5WPR新全球指数评选出与人工智能时代最契合的50位名人——美通社",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47951786",
+    "slug": "hn-47951786-ramps-sheets-ai-exfiltrates-financials",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
+    "commentUrl": "https://news.ycombinator.com/item?id=47951786",
+    "publishedAt": "2026-04-29T17:44:21.000Z",
+    "titleEn": "Ramp's Sheets AI Exfiltrates Financials",
+    "titleZh": "Ramp 的 Sheets AI 泄露财务数据",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "takira"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 106,
+    "commentCount": 34,
+    "tags": []
+  },
+  {
+    "id": "hn:47951765",
+    "slug": "hn-47951765-copy-fail-732-bytes-to-root-on-every-major-linux-distributions",
+    "source": "Hacker News",
+    "sourceUrl": "https://xint.io/blog/copy-fail-linux-distributions",
+    "commentUrl": "https://news.ycombinator.com/item?id=47951765",
+    "publishedAt": "2026-04-29T17:42:48.000Z",
+    "titleEn": "Copy Fail: 732 Bytes to Root on Every Major Linux Distributions",
+    "titleZh": "复制漏洞：732 字节即可获取所有主流 Linux 发行系统的 root 权限",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "fratellobigio"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 13,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "hn:47951593",
+    "slug": "hn-47951593-meshcores-problem-with-security",
+    "source": "Hacker News",
+    "sourceUrl": "https://alainx277.com/posts/meshcores-problem-with-security/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47951593",
+    "publishedAt": "2026-04-29T17:31:18.000Z",
+    "titleEn": "MeshCore's Problem with Security",
+    "titleZh": "MeshCore 的安全问题",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "alainx277"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sz59l4",
+    "slug": "reddit-1sz59l4-inclusionai-ling-2-6-1t-hugging-face",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz59l4/inclusionailing261t_hugging_face/",
+    "publishedAt": "2026-04-29T17:19:14.000Z",
+    "titleEn": "inclusionAI/Ling-2.6-1T · Hugging Face",
+    "titleZh": "inclusionAI/Ling-2.6-1T · Hugging Face",
+    "abstractEn": "# Ling-2.6-1T: A Trillion-Parameter Comprehensive Flagship Model for Complex Tasks\n\nToday, we are thrilled to open-source **Ling–2.6–1T** from the Ling family.\n\nTailored for real–world, complex scenarios, this trillion–parameter model introduces targeted optimizations across inference efficiency, to",
+    "abstractZh": "# Ling-2.6-1T：面向复杂任务的万亿参数综合旗舰模型\n\n今天，我们非常高兴地开源来自 Ling 家族的 **Ling-2.6-1T**。\n\n针对真实世界的复杂场景量身定制，这个万亿参数模型在推理效率、等方面引入了针对性的优化",
+    "authors": [
+      "u/pmttyji"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 43,
+    "commentCount": 13,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1sz4vy0",
+    "slug": "reddit-1sz4vy0-granite-speech-4-1",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://huggingface.co/collections/ibm-granite/granite-speech",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz4vy0/granite_speech_41/",
+    "publishedAt": "2026-04-29T17:06:05.000Z",
+    "titleEn": "Granite Speech 4.1",
+    "titleZh": "Granite Speech 4.1",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/nuclearbananana"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 47,
+    "commentCount": 5,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "gnews:e03dcdc72ed5",
+    "slug": "gnews-e03dcdc72ed5",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yNmtJZHFlOWQweTJ0Y2l3THFqMzlhOEk3RUtoNDFEX3lSMEFxbUNzbzFieGZac1IyRFNGMzY5S09hLVNHMEdscGViWTBwa0M2U2lrV29BRnI3bmFmc3JfMXJpcFJvc1ZaaW55TkhwQUNiZTBOUHRQbWd3?oc=5",
+    "publishedAt": "2026-04-29T16:27:47.000Z",
+    "titleEn": "Quick Thought on AI and the Environment: It Should Mean MORE Environmental Regulation",
+    "titleZh": "关于 AI 与环境的思考：应该意味着更多环境监管",
+    "abstractEn": "Quick Thought on AI and the Environment: It Should Mean MORE Environmental Regulation  cepr.net",
+    "abstractZh": "关于 AI 与环境的思考：应该意味着更多环境监管 cepr.net",
+    "authors": [
+      "cepr.net"
+    ],
+    "institution": "cepr.net",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:a6072d86e259",
+    "slug": "gnews-a6072d86e259",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY25zM1lxMGpzOEpHRTZKSjlmV0JEa0s0ZWdVXzRBRWRnLVIyNlNzWVJac2pXbUQ1UGE1TVBlRG1YT3Rsb0MtblJZa3dib004YkpQbFlYeklWNUllWXdpSldOMGxqbkk4el81NUh5QnowTjJ5OVhCQ1V6NHkyQ1lrMUl1VXR5S1VNUGg3WDZhaGhmRTRRVjlBaGRHWkVjXzVETllvb0lCdlhvTDBfX211eTdjaEM4MG8?oc=5",
+    "publishedAt": "2026-04-29T16:10:55.000Z",
+    "titleEn": "China blocks Meta’s acquisition of Chinese-founded AI startup Manus",
+    "titleZh": "中国阻止 Meta 收购中国创立的 AI 初创公司 Manus",
+    "abstractEn": "China blocks Meta’s acquisition of Chinese-founded AI startup Manus  MSN",
+    "abstractZh": "中国阻止 Meta 收购中国创立的 AI 初创公司 Manus MSN",
+    "authors": [
+      "MSN"
+    ],
+    "institution": "MSN",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:101377b3e99c",
+    "slug": "gnews-101377b3e99c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwUzNzLXF3MVpCYnRrNlBmWDYwNUdXS0ZTMzF3QjJjdkM3eVN1REx2cy1ZUUM0YjhFa1d1ZUNVRGZRQkRJOEktRTVENEEtblhMbXRPVDhCQ0pPODhiVm92OG8tOHBTejhaQ2s4Y0Z6Yzk3aFZCeUNjZzR6MA?oc=5",
+    "publishedAt": "2026-04-29T16:04:33.000Z",
+    "titleEn": "South Africa’s AI Policy Withdrawn As A Result Of AI-Generated ‘Fictitious Sources’ Being Cited",
+    "titleZh": "南非因引用AI生成的'虚构来源'而撤回AI政策",
+    "abstractEn": "South Africa’s AI Policy Withdrawn As A Result Of AI-Generated ‘Fictitious Sources’ Being Cited  afrotech.com",
+    "abstractZh": "南非因引用AI生成的'虚构来源'而撤回AI政策 afrotech.com",
+    "authors": [
+      "afrotech.com"
+    ],
+    "institution": "afrotech.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47950283",
+    "slug": "hn-47950283-show-hn-a-new-benchmark-for-testing-llms-for-deterministic-outputs",
+    "source": "Hacker News",
+    "sourceUrl": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+    "commentUrl": "https://news.ycombinator.com/item?id=47950283",
+    "publishedAt": "2026-04-29T16:01:51.000Z",
+    "titleEn": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+    "titleZh": "Show HN：测试 LLM 确定性输出的新基准",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "khurdula"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 49,
+    "commentCount": 21,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sz2y76",
+    "slug": "reddit-1sz2y76-ama-with-nous-research-ask-us-anything",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz2y76/ama_with_nous_research_ask_us_anything/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz2y76/ama_with_nous_research_ask_us_anything/",
+    "publishedAt": "2026-04-29T15:57:39.000Z",
+    "titleEn": "AMA with Nous Research -- Ask Us Anything!",
+    "titleZh": "Nous Research 问答活动 - 任何问题都可以问！",
+    "abstractEn": "Hey everyone, emozilla here (u/emozilla), co-founder and CTO of Nous Research. We're the makers of [Hermes Agent](https://hermes-agent.nousresearch.com). Happy to be here and talk all things local models, Hermes, or anything else you may have questions on!\n\nSome of the Nous people who will be answer",
+    "abstractZh": "大家好，我是 emozilla (u/emozilla)，Nous Research 的联合创始人兼 CTO。我们是 [Hermes Agent](https://hermes-agent.nousresearch.com) 的开发者。很高兴来到这里，与大家探讨本地模型、Hermes 或任何你们可能想问的问题！\n\n一些将会回答问题的 Nous 成员",
+    "authors": [
+      "u/emozilla"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 256,
+    "commentCount": 339,
+    "tags": [
+      "AMA"
+    ]
+  },
+  {
+    "id": "reddit:1sz2mgw",
+    "slug": "reddit-1sz2mgw-mistral-medium-3-5-launched",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz2mgw/mistral_medium_35_launched/",
+    "publishedAt": "2026-04-29T15:45:57.000Z",
+    "titleEn": "Mistral Medium 3.5 Launched",
+    "titleZh": "Mistral Medium 3.5 发布",
+    "abstractEn": "Looks great for the parameter count\n\n  \nOpen Weights. modified MIT -&gt; no commercial usage without paying a license",
+    "abstractZh": "参数量上看起来很不错\n\n  \n开放权重。修改的 MIT 许可 -> 需要付费许可证才能商业使用",
+    "authors": [
+      "u/DerpSenpai"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 214,
+    "commentCount": 59,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "reddit:1sz23wn",
+    "slug": "reddit-1sz23wn-introducing-the-ibm-granite-4-1-family-of-models-3b-8b-30b",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://research.ibm.com/blog/granite-4-1-ai-foundation-models",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz23wn/introducing_the_ibm_granite_41_family_of_models/",
+    "publishedAt": "2026-04-29T15:27:58.000Z",
+    "titleEn": "Introducing the IBM Granite 4.1 family of models (3B/8B/30B)",
+    "titleZh": "推出 IBM Granite 4.1 系列模型（3B/8B/30B）",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/abkibaarnsit"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 214,
+    "commentCount": 21,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:47949750",
+    "slug": "hn-47949750-why-ai-companies-want-you-to-be-afraid-of-them",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them",
+    "commentUrl": "https://news.ycombinator.com/item?id=47949750",
+    "publishedAt": "2026-04-29T15:26:01.000Z",
+    "titleEn": "Why AI companies want you to be afraid of them",
+    "titleZh": "为什么 AI 公司希望你害怕它们",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rolph"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 266,
+    "commentCount": 207,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sz1y8d",
+    "slug": "reddit-1sz1y8d-ps5s-can-now-be-hacked-to-run-linux-perhaps-some-potential-for-lo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.tomshardware.com/software/linux/ps5-linux-loadr-goes-public-turning-phat-consoles-into-full-linux-pcs",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz1y8d/ps5s_can_now_be_hacked_to_run_linux_perhaps_some/",
+    "publishedAt": "2026-04-29T15:22:20.000Z",
+    "titleEn": "PS5’s can now be hacked to run Linux - perhaps some potential for local inference?",
+    "titleZh": "PS5 现在可以破解运行 Linux —— 或许有一些本地推理的潜力?",
+    "abstractEn": "I look forward to the Local LLM community getting llama.cpp to run on these. Could be a good value.",
+    "abstractZh": "我很期待看到本地 LLM 社区能让 llama.cpp 在这些设备上运行。这可能是一个不错的选择。",
+    "authors": [
+      "u/Thrumpwart"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 112,
+    "commentCount": 48,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1sz1y64",
+    "slug": "reddit-1sz1y64-mistral-m-dium-3-5-is-here",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz1y64/mistral_médium_35_is_here/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz1y64/mistral_médium_35_is_here/",
+    "publishedAt": "2026-04-29T15:22:16.000Z",
+    "titleEn": "Mistral Médium 3.5 is here",
+    "titleZh": "Mistral Médium 3.5 来了",
+    "abstractEn": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "abstractZh": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "authors": [
+      "u/Kathane37"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 105,
+    "commentCount": 50,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:47949642",
+    "slug": "hn-47949642-mistral-medium-3-5",
+    "source": "Hacker News",
+    "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+    "commentUrl": "https://news.ycombinator.com/item?id=47949642",
+    "publishedAt": "2026-04-29T15:17:46.000Z",
+    "titleEn": "Mistral Medium 3.5",
+    "titleZh": "Mistral Medium 3.5",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "meetpateltech"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 430,
+    "commentCount": 198,
+    "tags": []
+  },
+  {
+    "id": "hn:47949616",
+    "slug": "hn-47949616-what-can-we-gain-by-losing-infinity",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.quantamagazine.org/what-can-we-gain-by-losing-infinity-20260429/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47949616",
+    "publishedAt": "2026-04-29T15:16:17.000Z",
+    "titleEn": "What can we gain by losing infinity?",
+    "titleZh": "放弃无限大我们能获得什么？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Tomte"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 19,
+    "commentCount": 27,
+    "tags": []
+  },
+  {
+    "id": "reddit:1sz1qer",
+    "slug": "reddit-1sz1qer-mistralai-mistral-medium-3-5-128b-hugging-face",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz1qer/mistralaimistralmedium35128b_hugging_face/",
+    "publishedAt": "2026-04-29T15:14:40.000Z",
+    "titleEn": "mistralai/Mistral-Medium-3.5-128B · Hugging Face",
+    "titleZh": "mistralai/Mistral-Medium-3.5-128B · Hugging Face",
+    "abstractEn": "[https://huggingface.co/unsloth/Mistral-Medium-3.5-128B-GGUF](https://huggingface.co/unsloth/Mistral-Medium-3.5-128B-GGUF)\n\n# Mistral Medium 3.5 128B\n\nMistral Medium 3.5 is our first flagship merged model. It is a dense 128B model with a 256k context window, handling instruction-following, reasoning",
+    "abstractZh": "[https://huggingface.co/unsloth/Mistral-Medium-3.5-128B-GGUF](https://huggingface.co/unsloth/Mistral-Medium-3.5-128B-GGUF)\n\n# Mistral Medium 3.5 128B\n\nMistral Medium 3.5 是我们的首款旗舰合并模型。这是一个拥有 256k 上下文窗口的密集 128B 模型，能够处理指令遵循、推理等任务",
+    "authors": [
+      "u/jacek2023"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 441,
+    "commentCount": 271,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:47949585",
+    "slug": "hn-47949585-linux-7-0-broke-postgresql-the-preemption-regression-explained",
+    "source": "Hacker News",
+    "sourceUrl": "https://read.thecoder.cafe/p/linux-broke-postgresql",
+    "commentUrl": "https://news.ycombinator.com/item?id=47949585",
+    "publishedAt": "2026-04-29T15:13:44.000Z",
+    "titleEn": "Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained",
+    "titleZh": "Linux 7.0 破坏了 PostgreSQL：抢占回归问题解析",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "0xKelsey"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 125,
+    "commentCount": 65,
+    "tags": []
+  },
+  {
+    "id": "hn:47949538",
+    "slug": "hn-47949538-making-ai-chatbots-friendly-leads-to-mistakes-and-support-of-conspir",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study",
+    "commentUrl": "https://news.ycombinator.com/item?id=47949538",
+    "publishedAt": "2026-04-29T15:11:12.000Z",
+    "titleEn": "Making AI chatbots friendly leads to mistakes and support of conspiracy theories",
+    "titleZh": "让 AI 聊天机器人变得友好会导致错误并支持阴谋论",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Cynddl"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 71,
+    "commentCount": 64,
+    "tags": []
+  },
+  {
+    "id": "gnews:398e502d05c1",
+    "slug": "gnews-398e502d05c1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPV0ZncVdoTGdrOVhmTy12M2xMMXJKVHlUQldCTk1NQUVYUUg2Y3lMMU9RUHVKZmttdU1makVhbHpvSHZsWWxHNHVIVmpXUE4xTC1MZlE5ODlJLTlfZWptaTBOMDhHMzhXMHJoMmx5R01xb1ZueFY4QmdvVGg5VmQ0eGZDNmhocXRyZUNVWHNFemRlWnZvaXZINlI5VTNNZVpkcXVUT2ExNG1YM2tPTlFCVzFpN3A4VnJ0T29PazRsTU1qamNVMVNwRU9wQnhzZFIwU2FIbExuZThSd29CN0Rpa2t4WWlwQ1o4TEE?oc=5",
+    "publishedAt": "2026-04-29T15:00:00.000Z",
+    "titleEn": "Augment Acquires Stealth Startup, Bringing AI to the $8 Trillion Wholesale Distribution Industry",
+    "titleZh": "Augment 收购隐形初创公司，将 AI 带入 8 万亿美元批发分销行业",
+    "abstractEn": "Augment Acquires Stealth Startup, Bringing AI to the $8 Trillion Wholesale Distribution Industry  Business Wire",
+    "abstractZh": "Augment 收购隐形初创公司，将 AI 带入 8 万亿美元批发分销行业 Business Wire",
+    "authors": [
+      "Business Wire"
+    ],
+    "institution": "Business Wire",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1sz0lyk",
+    "slug": "reddit-1sz0lyk-16x-dgx-sparks-what-should-i-run",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/8dzi7jpk45yg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz0lyk/16x_dgx_sparks_what_should_i_run/",
+    "publishedAt": "2026-04-29T14:34:17.000Z",
+    "titleEn": "16x DGX Sparks - What should I run?",
+    "titleZh": "16x DGX Sparks - 我该运行什么？",
+    "abstractEn": "Let’s build the biggest ever DGX Spark Cluster at home. This is going into my home lab server rack, 2TB of unified memory.\n\n• 16x Sparks\n\n• 1x 200Gbps FS 24 x 200Gb QSFP56 Switch\n\n• 16x QSFP56 DAC cables\n\nShould be all setup by tomorrow afternoon, what should I run?",
+    "abstractZh": "让我们在家构建有史以来最大的 DGX Spark 集群。这将放入我的家庭实验室服务器机架，配备 2TB 统一内存。\n\n• 16x Sparks\n\n• 1x 200Gbps FS 24 x 200Gb QSFP56 交换机\n\n• 16x QSFP56 DAC 线缆\n\n应该能在明天下午全部搭建完成，我该运行什么？",
+    "authors": [
+      "u/Kurcide"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 916,
+    "commentCount": 434,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "id": "reddit:1sz0aaj",
+    "slug": "reddit-1sz0aaj-ik-llama-now-supports-qwen3-5-mtp-support-o",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz0aaj/ik_llama_now_supports_qwen35_mtp_support_o/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sz0aaj/ik_llama_now_supports_qwen35_mtp_support_o/",
+    "publishedAt": "2026-04-29T14:22:17.000Z",
+    "titleEn": "IK_LLAMA now supports Qwen3.5 MTP Support :O",
+    "titleZh": "IK_LLAMA 现已支持 Qwen3.5 MTP 支持 :O",
+    "abstractEn": "Compile, compile, compile!\n\n[https://github.com/ikawrakow/ik\\_llama.cpp/pull/1698](https://github.com/ikawrakow/ik_llama.cpp/pull/1698)\n\nWill be testing shortly!\n\nEDIT: You will need a GGUF with the MTP layers preserved. The PR creator made some GGUFs of Q3.6 27B at Q8\\_0 here - [https://huggingface",
+    "abstractZh": "编译，编译，编译！\n\n[https://github.com/ikawrakow/ik_llama.cpp/pull/1698](https://github.com/ikawrakow/ik_llama.cpp/pull/1698)\n\n马上就会测试！\n\n编辑：您需要一个保留了 MTP 层的 GGUF。PR 创建者在这里制作了 Q3.6 27B 的 Q8_0 版本 GGUF - [https://huggingface",
+    "authors": [
+      "u/fragment_me"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 56,
+    "commentCount": 32,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "gnews:84ab026d800b",
+    "slug": "gnews-84ab026d800b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN3g4amswRG1WUVJ6ODZqQ1cyNlJPRVo0dWtmUWRvSDhXQ3h1cmFfajhQVFlFLTltSzFKTGNQcHpuc1JUWHV5RFlpeUtobHRtZnBLZHhUWUZwM2lLXzVsNmxyd1VkbEpra2VQemlmTTFkeS1TNzhoaUdYMUtzaVNidVRfd0wyZ3NkeXg3Ymxad2ZxNkVxcXJTeFk1aEpGYVA4RmdqMEI1NGVmQmhfblMwZzhVZzhaVy1SWUE?oc=5",
+    "publishedAt": "2026-04-29T14:12:11.000Z",
+    "titleEn": "Lawton City Council approves $8 million financing, AI policy, updated fee schedule",
+    "titleZh": "劳顿市议会批准800万美元融资、AI政策和更新费用表",
+    "abstractEn": "Lawton City Council approves $8 million financing, AI policy, updated fee schedule  KSWO 7News",
+    "abstractZh": "劳顿市议会批准800万美元融资、AI政策和更新费用表 KSWO 7News",
+    "authors": [
+      "KSWO 7News"
+    ],
+    "institution": "KSWO 7News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:45543b194ce5",
+    "slug": "gnews-45543b194ce5",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObzZpcGZwb2Z5bEplSXJhcGZiSHdpRjJuV2ctUFlVUHhxZ3lGUmlHbEV0YlRBN3F4THZtZVNLZFVYOVVMOVB3R2tlYVdVS0RRMEF3MEp2a0FIbHVheENJQW1aeVhrdmtrdE1HVEVmZS1pR1o4RGM2UjV3Rmg3S00wYTlLVjdTelp0Z1hydk5UM09oMFBOeGltZQ?oc=5",
+    "publishedAt": "2026-04-29T14:05:00.000Z",
+    "titleEn": "IDC: How EMEA CIOs can jumpstart AI rollouts",
+    "titleZh": "IDC：欧洲、中东和非洲CIO如何加速AI推广",
+    "abstractEn": "IDC: How EMEA CIOs can jumpstart AI rollouts  AI News",
+    "abstractZh": "IDC：欧洲、中东和非洲CIO如何加速AI推广 AI News",
+    "authors": [
+      "AI News"
+    ],
+    "institution": "AI News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:816448b63c04",
+    "slug": "gnews-816448b63c04",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOcVNvTlhtZXdaS19ZQy1GQk13RzVNTmJvU2lkbkpXdnF2UmdnckU4QWhMZXZTbk1BU3cwN0c0b0I5MDhIbFRaUnVWaGg5S0NUbnNwWlA5amkwVlNyN29pTldNSTdKLUMxeXBYdXhzTVBoeUo0eHVjMWYwdll0dGpjRGc4Q19VbjFCUW81RGRzUVd6aEx0cFYwN1NTM0Z6clk1SkdRaFdaT0ZGcnBnSWVQN2FoMDdTYzFQNlQwWEtMSEtQX3Yzc2tUVlJla09GWlhGOHN2STcxVEZRS1BYMk5nazFTZU80ck9TeWNvVjctdnRsR2Fvckc4T0FRdDdObkowQkJaZGRsYmlzaDhwXzg2QUcwbWxLM1RuWkduZ3IzUDNYS1czY0ozNEpYSkIzbVRKUkE?oc=5",
+    "publishedAt": "2026-04-29T14:00:00.000Z",
+    "titleEn": "The jury has been announced for the third edition of the Reply AI Film Festival, dedicated to the best short films generated with Artificial Intelligence",
+    "titleZh": "Reply AI电影节第三届评审团公布，聚焦人工智能生成最佳短片",
+    "abstractEn": "The jury has been announced for the third edition of the Reply AI Film Festival, dedicated to the best short films generated with Artificial Intelligence  PR Newswire",
+    "abstractZh": "Reply AI电影节第三届评审团公布，聚焦人工智能生成最佳短片 PR Newswire",
+    "authors": [
+      "PR Newswire"
+    ],
+    "institution": "PR Newswire",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47948396",
+    "slug": "hn-47948396-show-hn-my-retired-dad-and-i-made-a-daily-somewhat-difficult-quiz",
+    "source": "Hacker News",
+    "sourceUrl": "https://kviss.eu/",
+    "commentUrl": "https://news.ycombinator.com/item?id=47948396",
+    "publishedAt": "2026-04-29T13:44:07.000Z",
+    "titleEn": "Show HN: My retired dad and I made a daily, somewhat difficult, quiz",
+    "titleZh": "Show HN：我和退休父亲做了一个每日、稍有难度的测验",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "steinvakt2"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 32,
+    "commentCount": 13,
+    "tags": []
+  },
+  {
+    "id": "gnews:3a49faa57632",
+    "slug": "gnews-3a49faa57632",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVDU1cTBTVTRRdVVSUGQxNnlKdUVpN19pUWhzQlc4RU91STR5Y1d6aWsyWWx5bW9hdzBGUld6Q2Q0Ym9LOG1uM1NJUml0emhoeDBRWW5PUGZleUllSmVvaS0yaXAxQTJWenFyQzFia3JoaUlNdEdSSnZpM1lIWnlud3JyZlkzMXkzRGxZcg?oc=5",
+    "publishedAt": "2026-04-29T13:20:00.000Z",
+    "titleEn": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years",
+    "titleZh": "OpenAI 审判开启，双方对公司早期岁月的叙述大相径庭",
+    "abstractEn": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years  The New York Times",
+    "abstractZh": "OpenAI 审判开启，双方对公司早期岁月的叙述大相径庭 《纽约时报》",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:d471a81c8458",
+    "slug": "gnews-d471a81c8458",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hOXoyQXN0WDFlVXBXcHhJMkR0dHhPdkJ1c0JTR01QTVNMZ05DMDc2RWJVd0FjNTU1NmNNYVUta3BFSm04ajVKNDFrOVQ2ZDhLbXhHWnY3MjRPN0R0SjQ0RkwtQXVWMjNweGFubUdselZlWm1ZLVQzcw?oc=5",
+    "publishedAt": "2026-04-29T13:18:29.000Z",
+    "titleEn": "Austin’s growing AI scene fuels debate: innovation or regulation?",
+    "titleZh": "奥斯汀不断增长的AI场景引发辩论：创新还是监管？",
+    "abstractEn": "Austin’s growing AI scene fuels debate: innovation or regulation?  AOL.com",
+    "abstractZh": "奥斯汀不断增长的AI场景引发辩论：创新还是监管？ AOL.com",
+    "authors": [
+      "AOL.com"
+    ],
+    "institution": "AOL.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-uowoz0poohhnisvg-html",
+    "slug": "gx-vla-ultra-118",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/UOWoZ0pOohHnIsvg.html",
+    "publishedAt": "2026-04-29T13:17:00.000Z",
+    "titleEn": "小鹏GX全系车色亮相北京车展，小鹏第二代VLA智驾报告迎来首发：全系Ultra车型订单环比提升118%",
+    "titleZh": "小鹏GX全系车色亮相北京车展，小鹏第二代VLA智驾报告迎来首发：全系Ultra车型订单环比提升118%",
+    "abstractEn": "今日，2026（第十九届）北京国际车展正式启幕，小鹏集团携全明星产品矩阵重磅亮相，涵盖全新车型小鹏GX、2026款小鹏MONA M03、全新小鹏P7、2026款小鹏X9等多款热门新车，以及全新一代人形机器人IRON、“陆地航母”分体式飞行汽车，全面展示小鹏集团在物理AI矩阵的前沿成果与全场景布局。\n车展首日，小鹏集团举办了「AI改变世界」为主题的发布会。在此次发布会上，小鹏集团发布首份第二代VLA智驾报告，并宣布第二代VLA即将上线园区、地库漫游等能力，持续拓展全场景智能驾驶能力边界。同时，小鹏集团董事长 CEO何小鹏重磅分享了小鹏GX在安全、底盘、空间、智驾等旗舰实力，以及「昆仑云境」全新双拼车色，以科技大成之作，传递小鹏品牌向上力量。\n \n小鹏发布首份第二代VLA智驾报告，智驾能力正成为购车核心决策因素\n今年3月，小鹏第二代VLA正式向用户推送。小鹏集团在本次发布会上发布首份第二代VL",
+    "abstractZh": "今日，2026（第十九届）北京国际车展正式启幕，小鹏集团携全明星产品矩阵重磅亮相，涵盖全新车型小鹏GX、2026款小鹏MONA M03、全新小鹏P7、2026款小鹏X9等多款热门新车，以及全新一代人形机器人IRON、陆地航母分体式飞行汽车，全面展示小鹏集团在物理AI矩阵的前沿成果与全场景布局。车展首日，小鹏集团举办了AI改变世界为主题的发布会。在此次发布会上，小鹏集团发布首份第二代VLA智驾报告，并宣布第二代VLA即将上线园区、地库漫游等能力，持续拓展全场景智能驾驶能力边界。同时，小鹏集团董事长CEO何小鹏重磅分享了小鹏GX在安全、底盘、空间、智驾等旗舰实力，以及昆仑云境全新双拼车色，以科技大成之作，传递小鹏品牌向上力量。小鹏发布首份第二代VLA智驾报告，智驾能力正成为",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:0c6977d5c346",
+    "slug": "gnews-0c6977d5c346",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUDdpMmM0MjZFYXFwOTN5TEktaFJUc3EtMkxhRTBVQjBQdW5XZnFOUHllMWVNdUdWZlJjXzFYMjM1T3ZsVUt3MmpReUk5V0xJUkJDSk5USFM2WlhMQ0VlTWJuX2hNU1Q4MVBrdHhNdjY4TlFDZnRxYlhLQnJBenFQTzl3UHN3RlFZZVN1NlYyTXF0aTcxV29ieWJOVUMxY2UyZ2ViVzlmWkRFd9IBrwFBVV95cUxOVWRtaU11cEdhNnU0b1RoVXFhOG9OeEYwMU1XWWdpR1U0WDY0NWZ5UkgxaTZjNjRWNVNzSWdWRGJUSmhFaHltd2l3ZEY4aUJuakRIOTJSTTMwMjdoWkR6eDVCWFpqaWhuaWRMWmNCaXpZaFJiT0ZpTkpPeFROZzJGTjNlQjdCM3hnQUVOeERhOTNZX2NzTEVjcGxBdkt2bFM5Qnl5MGFYRFItd3A0aWhZ?oc=5",
+    "publishedAt": "2026-04-29T13:00:01.000Z",
+    "titleEn": "OpenAI’s subtle drift from Microsoft has become an aggressive move toward Amazon",
+    "titleZh": "OpenAI 与 Microsoft 的微妙疏离已演变为对 Amazon 的积极示好",
+    "abstractEn": "OpenAI’s subtle drift from Microsoft has become an aggressive move toward Amazon  CNBC",
+    "abstractZh": "OpenAI 与 Microsoft 的微妙疏离已演变为对 Amazon 的积极示好 CNBC",
+    "authors": [
+      "CNBC"
+    ],
+    "institution": "CNBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:8acff4b34a28",
+    "slug": "gnews-8acff4b34a28",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHVZOUdrcGdLVEtLbXJPWXlpWk5WbjdhTjR1d0dXazU3enJWaHpHVlJXcFgzNzJFc0tEY0hJNW9fRHhaWldKdlFsOUxIdk1IUnZwT3E5NXlmT2dRT29sd05JQTdPQVNKX0p5UmJGWjRzSkM1QTgyN3MwS1ZXMTluQ1IwYzBjTC1WUVJV?oc=5",
+    "publishedAt": "2026-04-29T12:53:07.000Z",
+    "titleEn": "South Africa withdraws AI policy over AI-generated sources",
+    "titleZh": "南非因AI生成来源问题撤回AI政策",
+    "abstractEn": "South Africa withdraws AI policy over AI-generated sources  Yahoo",
+    "abstractZh": "南非因AI生成来源问题撤回AI政策 Yahoo",
+    "authors": [
+      "Yahoo"
+    ],
+    "institution": "Yahoo",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "hn:47947525",
+    "slug": "hn-47947525-letting-ai-play-my-game-building-an-agentic-test-harness-to-help-pla",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.jeffschomay.com/letting-ai-play-my-game",
+    "commentUrl": "https://news.ycombinator.com/item?id=47947525",
+    "publishedAt": "2026-04-29T12:43:12.000Z",
+    "titleEn": "Letting AI play my game – building an agentic test harness to help play-testing",
+    "titleZh": "让 AI 玩我的游戏——构建一个智能体测试框架以协助游戏测试",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "jschomay"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 119,
+    "commentCount": 29,
+    "tags": []
+  },
+  {
+    "id": "gnews:11776b288c4e",
+    "slug": "gnews-11776b288c4e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbDNqYklSc2E3V3VLUjFKalI4Y1NEN0FKanR3TXNMTktmQlp6b0lXRTBSS25FaDVMMFVQWl9oaUFRaEp3UFFMeDR4bEZrVzlUM1dLdmVZN09HZlUxbkhuMG42R0EzQUZwRVBQeEN6RFQyNU0xdm41LTNGOG9UeDFaWEZJcWYzTkxvbjBGVkZvZnMzQkE0ZFlmWE9Yck5qYWxHTEliN0cxTXhyc1dfS291Xy1tN19pOFc3Y3JQTmItLTBNY195aFhUMnRmQl8tbFRyQVNuVlhqUVk?oc=5",
+    "publishedAt": "2026-04-29T12:39:24.000Z",
+    "titleEn": "Autonomous Defense Startup Scout AI Raises $100M Series A to Build Foundation Model for Unmanned Warfare",
+    "titleZh": "自主防御初创公司 Scout AI 融资 1 亿美元 A 轮，为无人战争构建基础模型",
+    "abstractEn": "Autonomous Defense Startup Scout AI Raises $100M Series A to Build Foundation Model for Unmanned Warfare  AI Insider",
+    "abstractZh": "自主防御初创公司 Scout AI 融资 1 亿美元 A 轮，为无人战争构建基础模型 AI Insider",
+    "authors": [
+      "AI Insider"
+    ],
+    "institution": "AI Insider",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:38eec1d0497b",
+    "slug": "gnews-38eec1d0497b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWdESDA0eWlRZVo5Vmc2VFdIU3JTMzFWU3lNUWRFYm41bS1LZ0ZRX05rSVEwRmlteW55cWo1Y3FnaDFMUDVmYTMtcnpMTzVaMk1jamlrN3lKWmxHZUEyWm9NaVVReDJlX2VKa1o5UDRtQndjOGZia2lxbDBlc2JvWnZTYmU0WldERS1Qek9fanpUR3R4SFFOSUtKWF9MdURZbkVQdTF4U3l2cU5yVGcxbTln?oc=5",
+    "publishedAt": "2026-04-29T12:34:34.000Z",
+    "titleEn": "Victims allege OpenAI and Sam Altman are responsible for a mass shooting",
+    "titleZh": "受害者指控OpenAI和Sam Altman应对大规模枪击事件负责",
+    "abstractEn": "Victims allege OpenAI and Sam Altman are responsible for a mass shooting  Mother Jones",
+    "abstractZh": "受害者指控OpenAI和Sam Altman应对大规模枪击事件负责 Mother Jones",
+    "authors": [
+      "Mother Jones"
+    ],
+    "institution": "Mother Jones",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1syx4sg",
+    "slug": "reddit-1syx4sg-qwen-introduced-flashqla",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/7l3v03pbg4yg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1syx4sg/qwen_introduced_flashqla/",
+    "publishedAt": "2026-04-29T12:18:22.000Z",
+    "titleEn": "Qwen Introduced FlashQLA",
+    "titleZh": "Qwen 推出 FlashQLA",
+    "abstractEn": "Introducing FlashQLA: high-performance linear attention kernels built on TileLang.\n\n2–3× forward speedup. 2× backward speedup.\n\n💻 Purpose-built for agentic AI on your personal devices.\n\nKey insights:\n\n1. Gate-driven automatic intra-card CP.\n\n2. Hardware-friendly algebraic reformulation.\n\n3. TileLan",
+    "abstractZh": "介绍 FlashQLA：基于 TileLang 构建的高性能线性注意力内核。\n\n2-3× 前向加速。2× 反向加速。\n\n💻 专为个人设备上的代理 AI 而构建。\n\n关键见解：\n\n1. 门驱动的自动卡内 CP。\n\n2. 硬件友好的代数重构。\n\n3. TileLan",
+    "authors": [
+      "u/ResearchCrafty1804"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 308,
+    "commentCount": 58,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "gnews:08322d53cc4e",
+    "slug": "gnews-08322d53cc4e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPQW5XdFFvZ3VCM0hZUWxlV19LWVFHZkdyQy1mTWhrYnE1VnlNMkpuQzZSX1F4UllZYVEzMFZFNXhlWDB5SlBvTkREaUc5cDlsbm1ZVU9zcGhiQ19qcjZ2b3lmbmxvRHFFOVVEbjRVRk4tRzFmOGpmTWpnVnA2VGJHLUlKN05hdVBBSDJfTUxJVDN5U2ZqRkhRd083SlVfbXB5VzNZaTVBSDRmalFBNmtOUHh4NlVMSmp2cERGTjA1NTJ6a0lUMGkydlVpckRjS3UtbUN3SExTcENCcmVrRzYyeU8tNk01RkpxRi1VbGhYWG9aSVhYdkVMM1pRRWNrY0ZkSEc1OUFuNVZPRVNVXzBr?oc=5",
+    "publishedAt": "2026-04-29T11:20:00.000Z",
+    "titleEn": "Nvidia exec says AI is more expensive than actual workers — yet some companies don't see the extra costs as a negative",
+    "titleZh": "英伟达高管称AI比实际工人更昂贵——但一些公司并不将额外成本视为负面因素",
+    "abstractEn": "Nvidia exec says AI is more expensive than actual workers — yet some companies don't see the extra costs as a negative  Tom's Hardware",
+    "abstractZh": "英伟达高管称AI比实际工人更昂贵——但一些公司并不将额外成本视为负面因素——Tom's Hardware",
+    "authors": [
+      "Tom's Hardware"
+    ],
+    "institution": "Tom's Hardware",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:6cab677d910e",
+    "slug": "gnews-6cab677d910e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zTmJINXN6MVZ2b3g5ZW9pNTRhUFN4bjJjSEFDMjFsTWNxSy1qZXZHVEVScWotbk5CdDNlNU5HSUNOS0F6OGFxbFdmLURtNnlMd3kzMkF6SWdPNmdoekFmWmJzMWRfckVhMGctWDV6ZEk?oc=5",
+    "publishedAt": "2026-04-29T11:03:08.000Z",
+    "titleEn": "Cybersecurity in the Intelligence Age",
+    "titleZh": "智能时代的网络安全",
+    "abstractEn": "Cybersecurity in the Intelligence Age  OpenAI",
+    "abstractZh": "智能时代的网络安全 OpenAI",
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-lerhmor6zfzwpr73-html",
+    "slug": "e-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/lERHmOr6zFZwPr73.html",
+    "publishedAt": "2026-04-29T11:03:00.000Z",
+    "titleEn": "丰e足食与阿里云千问达成全面合作，无人零售AI应用诞生首个行业标杆",
+    "titleZh": "丰e足食与阿里云千问达成全面合作，无人零售AI应用诞生首个行业标杆",
+    "abstractEn": "无人零售行业规模最大的品牌丰e足食正在加速AI在业务中的落地应用。目前，其旗下运营着18万个无人零售柜，AI已深度参与管理、决策等多个环节。\n为进一步提升无人零售全链路的智能化水平，2026年4月，丰e足食母公司——深圳市丰宜科技集团股份有限公司（以下简称“丰宜科技”）与阿里云智能集团（以下简称“阿里云”）宣布达成AI全面合作。\n\n图注：阿里云智能集团和丰宜科技签约现场\n双方正式签署大模型合作框架协议，围绕千问大模型在无人零售业务场景中的深度落地展开全方位合作，推动企业运营成本与效率的优化，并升级智能决策能力，共同探索通用人工智能在无人零售行业的应用标准。阿里云公共云事业部副总裁张翅、阿里云千问大模型业务总经理徐栋、丰宜科技CEO单新宁、丰宜科技COO朱涛等双方嘉宾出席了签约仪式，协议由阿里云数字金融部总经理肖瑜与丰宜科技CTO蔡亮共同签署。\n丰e足食AI+零售能力跃迁\n丰宜科技CEO单新",
+    "abstractZh": "无人零售行业规模最大的品牌丰e足食正在加速AI在业务中的落地应用。目前，其旗下运营着18万个无人零售柜，AI已深度参与管理、决策等多个环节。为进一步提升无人零售全链路的智能化水平，2026年4月，丰e足食母公司——深圳市丰宜科技集团股份有限公司（以下简称丰宜科技）与阿里云智能集团（以下简称阿里云）宣布达成AI全面合作。图注：阿里云智能集团和丰宜科技签约现场。双方正式签署大模型合作框架协议，围绕千问大模型在无人零售业务场景中的深度落地展开全方位合作，推动企业运营成本与效率的优化，并升级智能决策能力，共同探索通用人工智能在无人零售行业的应用标准。阿里云公共云事业部副总裁张翅、阿里云千问大模型业务总经理徐栋、丰宜科技CEO单新宁、丰宜科技COO朱涛等双方嘉宾出席了签约仪式，协议由阿里",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-ovsmxwwxo55dbe6v-html",
+    "slug": "e7x",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/OvsMXWWxO55DBe6V.html",
+    "publishedAt": "2026-04-29T10:42:00.000Z",
+    "titleEn": "奥迪E7X全球首秀，搭载豆包大模型带来行业首个生成式情感化语音",
+    "titleZh": "奥迪E7X全球首秀，搭载豆包大模型带来行业首个生成式情感化语音",
+    "abstractEn": "4月24日北京车展，AUDI品牌第二款车型——奥迪E7X迎来全球首秀。新车定位\"智慧性能旗舰SUV\"， AI车载伴侣“奥迪助手2.0”搭载豆包大模型，实现更强大的语义理解、多轮对话、长期记忆及车控交互。行业首个生成式情感化语音，像真人一样感知并回应你的情绪，数万种可自定义的智舱场景模式，为用户私人定制每个出行瞬间。\n\n奥迪E7X全球首秀\n\n豆包大模型为“奥迪助手2.0”带来行业首个生成式全情感化语音，让奥迪助手能呈现喜怒哀乐复杂的情感交互表达，像真人一样感知并回应你的情绪，连哄娃都不在话下。在高速行驶时语调简洁直接，让你更专注驾驶；夜间行驶时语调柔和低沉，营造舒适座舱氛围，让每一次互动都更有人情味。\n\n此前上市的AUDI 首款量产车型——奥迪 E5 Sportback 也搭载了豆包大模型，火山引擎与上汽奥迪在智能座舱、数字生态等领域持续合作，不断优化人车交互体验，让每一次出行互动都变得更聪",
+    "abstractZh": "4月24日北京车展，AUDI品牌第二款车型——奥迪E7X迎来全球首秀。新车定位智慧性能旗舰SUV，AI车载助手奥迪助手2.0搭载豆包大模型，实现更强大的语义理解、多轮对话、长期记忆及车控交互。行业首个生成式情感化语音，像真人一样感知并回应你的情绪，数万种可自定义的智舱场景模式，为用户私人定制每个出行瞬间。奥迪E7X全球首秀。豆包大模型为奥迪助手2.0带来行业首个生成式全情感化语音，让奥迪助手能呈现喜怒哀乐复杂的情感交互表达，像真人一样感知并回应你的情绪，连哄娃都不在话下。在高速行驶时语调简洁直接，让你更专注驾驶；夜间行驶时语调柔和低沉，营造舒适座舱氛围，让每一次互动都更有人情味。此前上市的AUDI首款量产车型——奥迪E5 Sportback也搭载了豆包大模型，火",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:0fe1f39795be",
+    "slug": "gnews-0fe1f39795be",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR0NHbHlVdk1XWmZmQVBRT2xqejlOLS0tQlBUM2g2XzNYVE1veUw3cVpVbVNsTnNIb2thNzczRVo5alM2UUlUZGRRSFhHVEwyRmM0T3JpYnQ5S1pWUklPaEVheWNPeWx2X01JNHlBSWtnb1Ywam5GX1l6bEtYWENsVjRIN3FUb3FRUnQ1emItcWNwSXU4eUJmVlBCaFpNeDRocFFTZm8tc05hQ3h3Y2Z3UURoY1UxaVRXSkJCc2Zn0gHGAUFVX3lxTE9FbUI2bFZBNDBaNlh6azE0anVxcHdFS1YxTVpjZXNPZkVOaElGRVE5MmRqVUltd1QxS25DbWs0dkRBdEJNb21QY0hDNy1FSUk5LUphZTFvREI5VzNaekx6SFhBUVVHNng3cmVLLTRvVHN6bEdmTWl0RDF4YXRQQUFjX1paQ3ZRVG1acnVJOVplMkNEQVd4TXFGVzdscmJDRGxSMjhJTE1CN3gxUzFlN3hRbFRaaUxMSnN0VkM0Z0NwZHBtZnd5dw?oc=5",
+    "publishedAt": "2026-04-29T10:39:45.000Z",
+    "titleEn": "Ex-Twitter CEO Parag Agrawal's AI Startup Hits $2B Valuation With $100M Funding",
+    "titleZh": "前 Twitter CEO Parag Agrawal 的 AI 初创公司获 1 亿美元融资，估值达 20 亿美元",
+    "abstractEn": "Ex-Twitter CEO Parag Agrawal's AI Startup Hits $2B Valuation With $100M Funding  NDTV Profit",
+    "abstractZh": "前 Twitter CEO Parag Agrawal 的 AI 初创公司获 1 亿美元融资，估值达 20 亿美元 NDTV Profit",
+    "authors": [
+      "NDTV Profit"
+    ],
+    "institution": "NDTV Profit",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-kquyzrfmnlgj5ies-html",
+    "slug": "ex7",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/kQuyzrFmNLgj5Ies.html",
+    "publishedAt": "2026-04-29T10:34:00.000Z",
+    "titleEn": "奇瑞与火山引擎达成战略合作，星途EX7搭载豆包实时语音模型",
+    "titleZh": "奇瑞与火山引擎达成战略合作，星途EX7搭载豆包实时语音模型",
+    "abstractEn": "奇瑞集团高端品牌星途3.0时代的开山之作——星途EX7于近日全球上市，并亮相北京车展。该车型定位“性能豪华大五座SUV”，在智能化方面与火山引擎合作，行业首发搭载豆包实时语音模型，基于S2S端到端语音架构，实现更加自然、连续、深度的人车对话体验。\n\n星途EX7的“小奇畅聊”接入豆包实时语音模型后，让“小奇同学”拥有多种人格化角色，无论是化身讲评书相声的“故事大王”，和小孩一样童心满满的“小奇同学”，还是能辅导多国外语的“口语老师”，甚至犀利辩论的“抬杠大师”，都能以贴合人设的方式高情商畅聊。此外，星途EX7任务魔方可调用全车15个模块、100余项原子服务，让每位用户都能DIY属于自己的智能车体验，交互更有温度。\n4月24日，奇瑞汽车与火山引擎签署战略合作协议，双方将围绕AI大模型、公有云等开展专项合作，推动豆包大模型及其AI应用全面融入“小奇同学”，适配奇瑞现有及未来全部车型。目前，搭载豆",
+    "abstractZh": "奇瑞集团高端品牌星途3.0时代的开山之作——星途EX7于近日全球上市，并亮相北京车展。该车型定位性能豪华大五座SUV，在智能化方面与火山引擎合作，行业首发搭载豆包实时语音模型，基于S2S端到端语音架构，实现更加自然、连续、深度的人车对话体验。星途EX7的小奇畅聊接入豆包实时语音模型后，让小奇同学拥有多种人格化角色，无论是化身讲评书相声的故事大王，和小孩一样童心满满的小奇同学，还是能辅导多国外语的口语老师，甚至犀利辩论的抬杠大师，都能以贴合人设的方式高情商畅聊。此外，星途EX7任务魔方可调用全车15个模块、100余项原子服务，让每位用户都能DIY属于自己的智能车体验，交互更有温度。4月24日，奇瑞汽车与火山引擎签署战略合作协议，双方将围绕AI大模型、公有云等开",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:79028fe455f6",
+    "slug": "gnews-79028fe455f6",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOHRCdkRGN2VQRVZIbW1Rc25RX1djOThmZ0NNZmJScUdXWFBqVkJBeDhmUEsyOXRwQklDcEtSbEFBSUd3MGVUNjhxbm5tNHU1RFkwZzVtMUpfZVR4SWdKMVY5N0RndmdoNWJMLXZHR2swYzZfREtnMkZ4cGJNWElnRXp4eEx6UEJ4MHh1RUFXME8xelJFV0dfRzVEcjd6VWZESTlr?oc=5",
+    "publishedAt": "2026-04-29T10:07:00.000Z",
+    "titleEn": "Goldman Sachs and Bain Lead Investment in AI Marketing Startup",
+    "titleZh": "高盛和贝恩领投 AI 营销初创公司",
+    "abstractEn": "Goldman Sachs and Bain Lead Investment in AI Marketing Startup  WSJ",
+    "abstractZh": "高盛和贝恩领投 AI 营销初创公司 WSJ",
+    "authors": [
+      "WSJ"
+    ],
+    "institution": "WSJ",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:1538abfef312",
+    "slug": "gnews-1538abfef312",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcjFpYjlPQzVhM05wckRBNTU5bTNQb1c0VWlmZ3Q0RHRiY2c2cjBadlZvNEo0SU16eG9zdzRMazFwM1E3UWVob29TZTJodE1MQnNFUXpnQ0NDcWplQjNJWGxvYlhaSkJjS2tSSER2bXZjcnpoNGRhalNVc2Z1TlhSdUZ1dGpIT0preDF1ZVE1ZlQwNHB2TEVHSU5XamVYMm1PNWx1YXF1bjFDTG5f?oc=5",
+    "publishedAt": "2026-04-29T09:50:49.000Z",
+    "titleEn": "EU should seek access to Anthropic's Mythos, Bundesbank says",
+    "titleZh": "德国央行称欧盟应寻求访问Anthropic的Mythos",
+    "abstractEn": "EU should seek access to Anthropic's Mythos, Bundesbank says  Reuters",
+    "abstractZh": "德国央行称欧盟应寻求访问Anthropic的Mythos 路透社",
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-irf2wxqfmiounyqx-html",
+    "slug": "x-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/iRF2wXqFMIounYqX.html",
+    "publishedAt": "2026-04-29T09:49:00.000Z",
+    "titleEn": "宝马领悦x火山引擎：深化合作，AI 赋能宝马在华客户全旅程体验",
+    "titleZh": "宝马领悦x火山引擎：深化合作，AI赋能宝马在华客户全旅程体验",
+    "abstractEn": "4月29日，华晨宝马旗下全资子公司——领悦数字信息技术有限公司（简称“领悦”）与火山引擎签署谅解备忘录，进一步深化双方在中国的合作，助力宝马集团推进AI技术在客户端的应用，优化以用户为中心的数字生态系统，加速推进宝马在中国的“360°全链AI战略”。\n\n宝马领悦与火山引擎签署战略合作\n双方将 AI 进一步整合至涵盖销售、营销及服务在内的客户旅程中。通过融合火山引擎的 AI 技术与领悦在宝马生态系统内的数字化专业实力，将合作领域从 AI 营销扩展至 AI 赋能的内容、互动及数据能力等广泛领域。\n•AI + 内容：通过AI技术助力高质量生成和管理触达用户的内容。\n•AI + 互动：借助AI原生交互技术，强化全触点的用户智能交互，提升用户全生命周期的个性化体验。\n•AI + 数据能力：构建由AI驱动的数据分析能力，以支持体验设计和跨触点服务的持续优化，推动可规模化且负责任的创新。\n此次合作同时引",
+    "abstractZh": "4月29日，华晨宝马旗下全资子公司——领悦数字信息技术有限公司（简称领悦）与火山引擎签署谅解备忘录，进一步深化双方在中国的合作，助力宝马集团推进AI技术在客户端的应用，优化以用户为中心的数字生态系统，加速推进宝马在中国的360°全链AI战略。宝马领悦与火山引擎签署战略合作。双方将AI进一步整合至涵盖销售、营销及服务在内的客户旅程中。通过融合火山引擎的AI技术与领悦在宝马生态系统内的数字化专业实力，将合作领域从AI营销扩展至AI赋能的内容、互动及数据能力等广泛领域。AI+内容：通过AI技术助力高质量生成和管理触达用户的内容。AI+互动：借助AI原生交互技术，强化全触点的用户智能交互，提升用户全生命周期的个性化体验。AI+数据能力：构建由AI驱",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:ef778251fcca",
+    "slug": "gnews-ef778251fcca",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQVQxVFg5cXl1TWtiZDhiem5xNTc4eEk5MHBSU3QtN05ZRVlwNWptNEFoT1FVbC1qdm4tMmJrSWhBSExZZEJTNVZDdmlSTFdhWU54U3N5RTllTkZ4VTV5V0tiUkhYb2l3Rm5VYWZRWS1pUjhxTTBvYXo0OG9PZmVySUsyb2NCLWpKYy1EZXdkQVQxRGY0b21Pd0Z5LXJEM0tsQXQ1TUN0MUI5dWJLZnplUkxTbzVHNE5MUnhtWkI2WFdEUdIBxwFBVV95cUxQMUFpSm5lNlpJVXZfb0dPNGVwX0F3TENPc2FyVHJiRHY5QmNTM2JmWnU0UFhKeFF5S2FXdmdMaml1S0gzcXdnWVJicXVKNUxiUHhoWVRKVHIwaVNMMDNQaUVqTEVIZ0MybmlZcnlidTV5eWZ4WlI0TlZKM0ItbkZ1ZDNZM1J6ejJUWTVTZTB2dHRUdllmWG9MbzdCdzRBMVhMZG43RmtBUFluaXU4RGRLUk9PU2xJdktkeGVBcnZhdHV1NTlOTU1z?oc=5",
+    "publishedAt": "2026-04-29T09:46:00.000Z",
+    "titleEn": "Republicans defy DeSantis on vaccine exemptions, AI regulation as redistricting vote looms Wednesday",
+    "titleZh": "共和党人在疫苗豁免和 AI 监管问题上违抗 DeSantis，选区重划投票将于周三举行",
+    "abstractEn": "Republicans defy DeSantis on vaccine exemptions, AI regulation as redistricting vote looms Wednesday  FOX 13 Tampa Bay",
+    "abstractZh": "共和党人在疫苗豁免和 AI 监管问题上违抗 DeSantis，选区重划投票将于周三举行 FOX 13 Tampa Bay",
+    "authors": [
+      "FOX 13 Tampa Bay"
+    ],
+    "institution": "FOX 13 Tampa Bay",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-goj25wajmtmk6gum-html",
+    "slug": "ai-note",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/GOJ25WaJMTMk6gum.html",
+    "publishedAt": "2026-04-29T09:41:00.000Z",
+    "titleEn": "艾聆科技AI Note全场景产品矩阵正式亮相｜随身智能记录生态开始全面落地",
+    "titleZh": "艾聆科技AI Note全场景产品矩阵正式亮相｜随身智能记录生态开始全面落地",
+    "abstractEn": "作为 AI 领域的新锐力量，艾聆科技自布局随身 AI 硬件赛道以来，始终以端侧 AI 核心技术为驱动，聚焦行业痛点进行革新突破。2025 年 8 月，艾聆科技率先推出首款产品 —— AI Note 录音卡一代，并于同年 10 月正式上市；该产品凭借 2.89mm 超薄机身、银行卡尺寸、内置磁吸、无线充电、单键设计、双频 WiFi 高速传输等十大核心优势，一举解决传统录音设备携带繁琐、操作复杂、传输低效等问题，快速成为随身 AI 助理领域的标杆，收获市场与行业的双重认可。\n \n立足首款产品的成功经验与市场反馈，艾聆科技一直在潜心打磨，拒绝短平快的跟风产品，聚焦用户碎片化记录、设备功能单一、续航不足、无感佩戴等核心痛点，打造了覆盖专业录音、随身配件、便携储能、书写记录、便携穿戴的一系列新形态产品，正式构建起 AI Note 随身记录硬件全家桶产品矩阵。\n此次集中亮相的 AI Note 全家桶六",
+    "abstractZh": "作为 AI 领域的新锐力量，艾聆科技自布局随身 AI 硬件赛道以来，始终以端侧 AI 核心技术为驱动，聚焦行业痛点进行革新突破。2025 年 8 月，艾聆科技率先推出首款产品 —— AI Note 录音卡一代，并于同年 10 月正式上市；该产品凭借 2.89mm 超薄机身、银行卡尺寸、内置磁吸、无线充电、单键设计、双频 WiFi 高速传输等十大核心优势，一举解决传统录音设备携带繁琐、操作复杂、传输低效等问题，快速成为随身 AI 助理领域的标杆，收获市场与行业的双重认可。\n \n立足首款产品的成功经验与市场反馈，艾聆科技一直在潜心打磨，拒绝短平快的跟风产品，聚焦用户碎片化记录、设备功能单一、续航不足、无感佩戴等核心痛点，打造了覆盖专业录音、随身配件、便携储能、书写记录、便携穿戴的一系列新形态产品",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:9c7951c5fb62",
+    "slug": "gnews-9c7951c5fb62",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlVIUlFSQnRfOWdTNlI0NjNFV1llczlZU283WlFoTS1EeWRfQVVNTzVoQ1RseWEyamtDRjlnZWQxS0ZlRkJxQzczRm1NMVVmZERVUkFhWEdwRmZiUFJ3bTlCVlh3QnlFU3BzSUFJUHpsSktZRWljaDQ1TlhaMXNuZUp2UnJoRTVlZXRrNzJRT1ZHc1ZkdWE3MFNQaEhieWxTQlIxNFRTOHlPLXRKMGZJZmxZMkN3ZDlLaHN1eGNuRk9FZ2M?oc=5",
+    "publishedAt": "2026-04-29T09:09:14.000Z",
+    "titleEn": "GPT-5.5 is OpenAI’s most capable agentic AI model yet",
+    "titleZh": "GPT-5.5 是 OpenAI 迄今最强大的智能体 AI 模型",
+    "abstractEn": "GPT-5.5 is OpenAI’s most capable agentic AI model yet  AI News",
+    "abstractZh": "GPT-5.5 是 OpenAI 迄今最强大的智能体 AI 模型 AI 新闻",
+    "authors": [
+      "AI News"
+    ],
+    "institution": "AI News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-411205-html",
+    "slug": "t6",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/411205.html",
+    "publishedAt": "2026-04-29T09:08:25.000Z",
+    "titleEn": "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元",
+    "titleZh": "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元",
+    "abstractEn": "The Magic X 全球具身智能创新大会在美国硅谷成功举办。",
+    "abstractZh": "The Magic X 全球具身智能创新大会在美国硅谷成功举办。",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:2c7da3e64a9a",
+    "slug": "gnews-2c7da3e64a9a",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMUdrdnE1bkFmcUo0TzItT0MwS3I2enpzTGRyeGtnZEhkV0QxVXJ1RlhWYnYxdllHMmNxUU1jd2Y4MzNDVXotMUtDcmUxR0RRQXp5T3NCcHl1dTlyVkxhUVpjdHdDOURzdjltdVVnTGpRYVVLZC1jaTBWZGx6ajVBY3lCNTJVVEFSbG5n?oc=5",
+    "publishedAt": "2026-04-29T08:55:09.000Z",
+    "titleEn": "China Blocks Meta Acquisition of Manus AI",
+    "titleZh": "中国阻止Meta收购Manus AI",
+    "abstractEn": "China Blocks Meta Acquisition of Manus AI  Let's Data Science",
+    "abstractZh": "中国阻止Meta收购Manus AI Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:e3c061894c50",
+    "slug": "gnews-e3c061894c50",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVEFKRzBSaVZ5bFBUZUxQUVBabzVUWmVwcTBRblBNNGNFSmdBZUlxcUxRRGY4LWdrc3pUUXVON2otVElUOTdEd0pqOXV4cHg2Mzh5UWhvTEpSX2VHSVByMjI1UlFMV2FBTmc4NjRZN1NCWEQ4d2RZVWxTUjZMTFItbE4tbHAwdw?oc=5",
+    "publishedAt": "2026-04-29T08:47:43.000Z",
+    "titleEn": "AI frenzy drives uneven startup funding surge",
+    "titleZh": "AI热潮推动不均衡的初创企业融资激增",
+    "abstractEn": "AI frenzy drives uneven startup funding surge  investordaily.com.au",
+    "abstractZh": "AI热潮推动不均衡的初创企业融资激增 investordaily.com.au",
+    "authors": [
+      "investordaily.com.au"
+    ],
+    "institution": "investordaily.com.au",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1syt38w",
+    "slug": "reddit-1syt38w-what-it-feels-like-to-have-to-have-qwen-3-6-or-gemma-4-running-lo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/maf1pj64d3yg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1syt38w/what_it_feels_like_to_have_to_have_qwen_36_or/",
+    "publishedAt": "2026-04-29T08:47:36.000Z",
+    "titleEn": "What it feels like to have to have Qwen 3.6 or Gemma 4 running locally",
+    "titleZh": "本地运行 Qwen 3.6 或 Gemma 4 的感受如何",
+    "abstractEn": "Well or pretty close to it, they are excellent work horses. I run them in real work scenarios doing some of the work I used to do myself as an skilled expert in my field, billing 200$ an hour. Ofc the key is building a system around their weaknesses, and I've had already LLM systems doing expert wor",
+    "abstractZh": "嗯，或者差不多就是这样，它们是出色的工作马。我在真实工作场景中运行它们，完成一些我过去作为该领域熟练专家每小时收费 200 美元时所做的工作。当然关键是围绕它们的弱点构建系统，我已经让 LLM 系统在从事专家工作",
+    "authors": [
+      "u/GodComplecs"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 621,
+    "commentCount": 96,
+    "tags": [
+      "Funny"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-pgpjeg6p5my1cluz-html",
+    "slug": "sentipulse-senticat-agent-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/PGPJEG6p5mY1cluz.html",
+    "publishedAt": "2026-04-29T08:45:00.000Z",
+    "titleEn": "SentiPulse 发布 SentiCat：当 Agent开始“建立关系” ，AI进入下一阶段",
+    "titleZh": "SentiPulse 发布 SentiCat：当 Agent开始『建立关系』，AI进入下一阶段",
+    "abstractEn": "过去一年，AI Agent 赛道正从工具向“人”演进。大模型学会对话，Agent 学会执行，Proactive Agent 甚至能主动行动，但要让 AI 真正像人，还需要更多。SentiPulse 的选择是：给 Agent 一张脸。\n4 月 23 日，SentiPulse 公测产品 SentiCat，将这一理念落地——拥有 Live2D 形象的虚拟角色 SUSU 负责陪伴、了解用户并建立关系，其“AI 小猫”则承担数据分析、行业调研等生产力任务。\n在 SentiPulse 的设计哲学里，数字人是外壳，Agent 是骨骼——一张有温度、有表情的脸，让系统底层的强大能力获得了被用户长期打开和信赖的理由。\n\n既有面孔，也有骨骼\n初次打开 SentiCat，SUSU 会引导用户完成初始化：通过几个问题获取授权，扫描电脑环境，生成个性化“用户画像”。此后，用户以自然语言提出需求，SUSU 边对话边调",
+    "abstractZh": "过去一年，AI Agent 赛道正从工具向『人』演进。大模型学会对话，Agent 学会执行，Proactive Agent 甚至能主动行动，但要让 AI 真正像人，还需要更多。SentiPulse 的选择是：给 Agent 一张脸。\n4 月 23 日，SentiPulse 公测产品 SentiCat，将这一理念落地——拥有 Live2D 形象的虚拟角色 SUSU 负责陪伴、了解用户并建立关系，其『AI 小猫』则承担数据分析、行业调研等生产力任务。\n在 SentiPulse 的设计哲学里，数字人是外壳，Agent 是骨骼——一张有温度、有表情的脸，让系统底层的强大能力获得了被用户长期打开和信赖的理由。\n\n既有面孔，也有骨骼\n初次打开 SentiCat，SUSU 会引导用户完成初始化：通过几个问",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:358730614e13",
+    "slug": "gnews-358730614e13",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZWY2Qm9TNGxzQlY1cWM0SU9qVVVvb2hGeHJwRnRra01xeXl6U2RfNUFVWXo2Mk5SbnJDNFJlTzJzNUdsSnNoa0FvSG9oaTlES1Fta2kyYkpSWFJGRllMY2VvZm9tcE5qNm9SaWYwbnkxdXV0aEwyeGtjZDRJOS1mRUlxaHRNRmhjTmR0dHBuUHdWajBUTkdLVmI1RGFVSnpabmd1dnpYbmJSVURWQTVOS3FqMU5OUm5EUE5OcHhZMUVnQmo0VUdYb0d2LWpoSnBQenA1aDQ0QdIB3gFBVV95cUxPb1hleTA2WFFqVU92UTVVd3N3MzlzQ1Rkb3JzdFlDeTJYRW5LWUNtY2I4UzRlZkZkUFlJY0ZRWHhpUTdMX0JQdEw5OFBFVWdqaGdWMXQ1Qm9pNjlVaFlYOXVjSFpaNTZoLXZfLXprbTZTU2NrX1djS2pNMk8wWUV0VFdyNENscEwtZ0owZWtDRHhtTWwzMExkSHNRSW1ib01jd2lBYjV6ekZMa01wbVpkTV9SV0k4bjhmUzZGQVB5ZWhnMG9NM2dzb0Ntczg5MkE3R1ZKSGhxaUNubnhPdmc?oc=5",
+    "publishedAt": "2026-04-29T08:18:33.000Z",
+    "titleEn": "Ex-Twitter CEO Parag Agrawal’s AI startup hits $2bn valuation after $100M fresh funding",
+    "titleZh": "前 Twitter CEO Parag Agrawal 的 AI 初创公司在获得 1 亿美元新融资后估值达 20 亿美元",
+    "abstractEn": "Ex-Twitter CEO Parag Agrawal’s AI startup hits $2bn valuation after $100M fresh funding  financialexpress.com",
+    "abstractZh": "前 Twitter CEO Parag Agrawal 的 AI 初创公司在获得 1 亿美元新融资后估值达 20 亿美元 financialexpress.com",
+    "authors": [
+      "financialexpress.com"
+    ],
+    "institution": "financialexpress.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "gnews:96d33842b318",
+    "slug": "gnews-96d33842b318",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYnJGY01wLV9jWm1haEpaT0VlWDFkR3gweDdsVmVXUElHNmwtZUtYeUd2S0ZLU3c3Uk5OUllURmQxMTM3MmR1UW9IX0E3UEFvY0Y2SEFfLTdlU2ZwbkZUODNPeUxTNmdGQXdVRHZOVk13YmZ0ZDVIYl82VmN6TFE4eTdHTEpwOFNCVnZhMFU0ek5KMWIybzFEVQ?oc=5",
+    "publishedAt": "2026-04-29T08:18:00.000Z",
+    "titleEn": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Become the Next Nvidia by 2030",
+    "titleZh": "预测：这家人工智能（AI）芯片股将在2030年成为下一个英伟达",
+    "abstractEn": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Become the Next Nvidia by 2030  The Motley Fool",
+    "abstractZh": "预测：这家人工智能（AI）芯片股将在2030年成为下一个英伟达——《傻瓜投资》",
+    "authors": [
+      "The Motley Fool"
+    ],
+    "institution": "The Motley Fool",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "reddit:1sysj7u",
+    "slug": "reddit-1sysj7u-deepseek-has-began-grayscale-testing-for-deepseek-with-vision",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/ctsw03er83yg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sysj7u/deepseek_has_began_grayscale_testing_for_deepseek/",
+    "publishedAt": "2026-04-29T08:14:12.000Z",
+    "titleEn": "DeepSeek has began grayscale testing for DeepSeek with Vision",
+    "titleZh": "DeepSeek 已开始对 DeepSeek with Vision 进行灰度测试",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/MagicZhang"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 198,
+    "commentCount": 19,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-transportation-li3qpffr1bxjytds-html",
+    "slug": "a10-d19",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/transportation/lI3qPfFr1bxJytds.html",
+    "publishedAt": "2026-04-29T07:46:00.000Z",
+    "titleEn": "A10爆单、D19冲高，原来零跑的百万年销不是口号  ​",
+    "titleZh": "A10爆单、D19冲高，原来零跑的百万年销不是口号",
+    "abstractEn": "接连发布A10与D19后，零跑迅速带来年内的第三款新车：Lafa5 Ultra，限时售价11.88万至12.48万元。\n这款瞄准年轻人的车型，以10万级价格搭载高通8650智驾芯片和8295智舱芯片，并支持双AI大模型。此前发布的A10和D19订单双双超出管理层预期——8万级A10上市48小时大定破万，28天大定突破4万台；20万级D19上市一周大定突破万台。\n零跑管理层认为，Lafa5 Ultra预计又将成为一款爆款车型。\n随着Lafa5 Ultra发布，零跑今年的新车上市计划初步完成，ABCD四大产品系列也悉数就位。\n推高销量规模将成为接下来的重心。零跑正在紧锣密鼓地扩产能、调渠道、开拓海外市场。\n如何实现年销105万辆目标？\n在群访中，零跑汽车COO徐军将年销百万的计划进一步确认为105万辆。而零跑在经历一季度的调整后，有信心完成这一计划。\n今年一季度，汽车市场整体转入销量低谷。中汽",
+    "abstractZh": "接连发布A10与D19后，零跑迅速带来年内的第三款新车：Lafa5 Ultra，限时售价11.88万至12.48万元。这款瞄准年轻人的车型，以10万级价格搭载高通8650智驾芯片和8295智舱芯片，并支持双AI大模型。此前发布的A10和D19订单双双超出管理层预期——8万级A10上市48小时大定破万，28天大定突破4万台；20万级D19上市一周大定突破万台。零跑管理层认为，Lafa5 Ultra预计又将成为一款爆款车型。随着Lafa5 Ultra发布，零跑今年的新车上市计划初步完成，ABCD四大产品系列也悉数就位。推高销量规模将成为接下来的重心。零跑正在紧锣密鼓地扩产能、调渠道、开拓海外市场。如何实现年销105万辆目标？在群访中，零跑汽车COO徐军将年销百万的计划进一步确认为10",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-9wtwj3y3ivxk5jp7-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/9wtwJ3Y3iVXK5JP7.html",
+    "publishedAt": "2026-04-29T07:44:00.000Z",
+    "titleEn": "慧算账引入腾讯云AI智能体，为会计配备“龙虾助理”提升服务效能",
+    "titleZh": "慧算账引入腾讯云AI智能体，为会计配备'龙虾助理'提升服务效能",
+    "abstractEn": "AI浪潮持续席卷各个行业，而代理记账作为人力密集型行业，如何实现智能化改造？近日，财税SaaS服务商慧算账与腾讯云达成新合作，将腾讯云的企业级AI智能体ClawPro深度集成至其核心业务流程，为会计人员配上“龙虾”助理，以此来提升中小微企业客户的财税服务效率与质量。\n \n（慧算账AI助手可实现一键发票查询）\n慧算账是中小微企业财税服务解决方案提供商，为中小微企业提供全面的财税解决方案，涵盖会计、发票、税务合规及综合财务管理。依托规模化服务模式，每位会计平均需要同时管理300家左右的企业账务，每月要处理海量的记账、报税、发票查验、社保查询及客户咨询等高频工作。\n“一个简单的社保增减员业务，会计得一边跟客户聊天，一边打开2-3个系统来回切换查询，十多分钟就过去了。”慧算账CEO张述刚坦言，会计的宝贵时间被大量重复性、低价值的“查询和传话”工作吞噬，无法聚焦于更高价值的业务上。这种效率瓶颈，不仅",
+    "abstractZh": "AI浪潮持续席卷各个行业，而代理记账作为人力密集型行业，如何实现智能化改造？近日，财税SaaS服务商慧算账与腾讯云达成新合作，将腾讯云的企业级AI智能体ClawPro深度集成至其核心业务流程，为会计人员配上'龙虾'助理，以此来提升中小微企业客户的财税服务效率与质量。（慧算账AI助手可实现一键发票查询）慧算账是中小微企业财税服务解决方案提供商，为中小微企业提供全面的财税解决方案，涵盖会计、发票、税务合规及综合财务管理。依托规模化服务模式，每位会计平均需要同时管理300家左右的企业账务，每月要处理海量的记账、报税、发票查验、社保查询及客户咨询等高频工作。'一个简单的社保增减员业务，会计得一边跟客户聊天，一边打开2-3个系统来回切换查询，十多分钟就过去了。'慧算账CEO张述刚坦言，会计的",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-04-411133-html",
+    "slug": "kimi-k2-6-claude-design",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/04/411133.html",
+    "publishedAt": "2026-04-29T06:56:15.000Z",
+    "titleEn": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+    "titleZh": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+    "abstractEn": "“全球最强开源”的含金量还在上升",
+    "abstractZh": "全球最强开源的含金量还在上升",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1syphxh",
+    "slug": "reddit-1syphxh-amd-has-invented-something-that-lets-you-use-ai-at-home-they-call",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.youtube.com/watch?v=qL28fZ9s8h8",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1syphxh/amd_has_invented_something_that_lets_you_use_ai/",
+    "publishedAt": "2026-04-29T05:25:08.000Z",
+    "titleEn": "AMD has invented something that lets you use AI at home! They call it a \"computer\"",
+    "titleZh": "AMD 发明了一种让您在家中使用 AI 的东西！他们称之为『计算机』",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/9gxa05s8fa8sh"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 343,
+    "commentCount": 161,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-fvzqhugect0nxapv-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/fVzqHUGeCT0NXApV.html",
+    "publishedAt": "2026-04-29T05:10:00.000Z",
+    "titleEn": "魔法原子全球具身智能创新大会硅谷落幕 引领具身智能下个十年",
+    "titleZh": "魔法原子全球具身智能创新大会硅谷落幕 引领具身智能下个十年",
+    "abstractEn": "美西时间4月28日，由魔法原子MagicLab发起的全球具身智能创新大会（GEIS）在硅谷圆满落幕。作为具身智能行业首个全球性、高规格峰会，本届大会以“CONNECT”为主题，集前沿技术发布、前瞻科技对话与全球生态链接为核心，系统性彰显了“中国智造”在全球具身智能舞台上的主场时刻。 \n立足硅谷链接全球 开创具身智能新浪潮\n作为全球科技创新资源最密集的区域之一，硅谷不仅是顶尖技术高地，也是连接产业资本、开发者生态与前沿应用场景的关键枢纽。魔法原子首届GEIS选择落地硅谷，正是其全球化战略布局的关键落子。\n全球化的格局视野，体现在本届大会的嘉宾阵容与论坛议题中。大会汇聚国际顶尖科研学者、科技企业代表、生态伙伴、政商人士与投资机构等多方力量，吸引上千名来自全球一线的AI学者、开发者、企业代表与投资人参与。与会嘉宾围绕具身智能下一个十年的技术演进、产业落地与生态协同展开深入探讨，共同探索智能机器走",
+    "abstractZh": "美西时间4月28日，由魔法原子MagicLab发起的全球具身智能创新大会（GEIS）在硅谷圆满落幕。作为具身智能行业首个全球性、高规格峰会，本届大会以'CONNECT'为主题，集前沿技术发布、前瞻科技对话与全球生态链接为核心，系统性彰显了'中国智造'在全球具身智能舞台上的主场时刻。立足硅谷链接全球 开创具身智能新浪潮作为全球科技创新资源最密集的区域之一，硅谷不仅是顶尖技术高地，也是连接产业资本、开发者生态与前沿应用场景的关键枢纽。魔法原子首届GEIS选择落地硅谷，正是其全球化战略布局的关键落子。全球化的格局视野，体现在本届大会的嘉宾阵容与论坛议题中。大会汇聚国际顶尖科研学者、科技企业代表、生态伙伴、政商人士与投资机构等多方力量，吸引上千名来自全球一线的AI学者、开发者、企业代表与投资",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "gnews:e7a5db4ade74",
+    "slug": "gnews-e7a5db4ade74",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQ1N0and2bHNTSUxXV0Y4UlhZU2NIMmFnMmtWRklPa2owQ28wcHZXdHk0MXVKazRXUXlwd29GSFlwZTZWV0N1ZE4xQnBFUVNSTnN3Ql9fUDBwa3h5aEdMNVA0V3AxTFhDN3BhbmZjOWtEMmpVNmlncy1wb1lLMlhDZkUxWkFQWGc?oc=5",
+    "publishedAt": "2026-04-29T04:24:02.000Z",
+    "titleEn": "Scoop: White House workshops plan to bring back Anthropic",
+    "titleZh": "独家：白宫研讨会计划重新邀请Anthropic参与",
+    "abstractEn": "Scoop: White House workshops plan to bring back Anthropic  Axios",
+    "abstractZh": "独家：白宫研讨会计划重新邀请Anthropic参与 Axios",
+    "authors": [
+      "Axios"
+    ],
+    "institution": "Axios",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ]
+  },
+  {
+    "id": "arxiv:2604.22951",
+    "slug": "the-power-of-power-law-asymmetry-enables-compositional-reasoning-2604-22951",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.22951",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "The Power of Power Law: Asymmetry Enables Compositional Reasoning",
+    "titleZh": "幂律的力量：不对称性赋能组合推理",
+    "abstractEn": "Natural language data follows a power-law distribution, with most knowledge and skills appearing at very low frequency. While a common intuition suggests that reweighting or curating data towards a uniform distribution may help models better learn these long-tail skills, we find a counterintuitive result: across a wide range of compositional reasoning tasks, such as state tracking and multi-step a",
+    "abstractZh": "自然语言数据遵循幂律分布，大多数知识和技能以极低频率出现。虽然常见直觉认为重新加权或策划数据以趋向均匀分布可能有助于模型更好地学习这些长尾技能，但我们发现了一个反直觉的结果：在广泛的组合推理任务中，数据重偏向反而会损害模型的表现。研究表明，保留原始幂律分布的不对称性对于模型学习组合性推理能力至关重要。",
+    "authors": [
+      "Zixuan Wang",
+      "Xingyu Dang",
+      "Jason D. Lee",
+      "Kaifeng Lyu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper",
+    "contentMd": "##'s an interesting paper about power-law distributions and compositional reasoning in language models. However, I notice the English summary you provided is incomplete — it cuts off mid-sentence at \"multi-step a\".\n\nWould you be able to provide the complete abstract or more details about the paper's findings? Alternatively, I could access the paper from the arXiv link to read the full content before writing the interpretation article.\n\nThis would help ensure I produce an accurate and comprehensive analysis rather than guessing what the paper discovered about the counterintuitive relationship between data distribution and compositional reasoning capabilities.",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-30T02:36:48.300Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-30"
+  },
+  {
+    "id": "arxiv:2604.22958",
+    "slug": "on-the-existence-of-an-inverse-solution-for-preference-based-reductions-in-argum-2604-22958",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.22958",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "On the Existence of an Inverse Solution for Preference-Based Reductions in Argumentation",
+    "titleZh": "基于偏好的论证简化中逆解的存在性研究",
+    "abstractEn": "Preference-based argumentation frameworks (PAFs) extend Dung's approach to abstract argumentation (AAFs) by encoding preferences over arguments. Such preferences control the transformation of attacks into defeats, and different approaches to doing so result in different reductions from a PAF to an AAF. In this paper we consider a PAF inverse problem which takes an argumentation graph, a labelling ",
+    "abstractZh": "基于偏好的论证框架扩展了 Dung 的抽象论证方法，通过编码论证之间的偏好来构建。这些偏好控制着攻击到失败转换的方式，不同的方法会导致从 PAF 到 AAF 的不同简化。本文考虑了一个 PAF 逆问题，即给定一个 AAF 和一组偏好，确定是否存在一个能够简化为该 AAF 的 PAF。我们证明了在某些条件下，逆解的存在性可以通过构造性方法来验证。",
+    "authors": [
+      "Alessio Zaninotto",
+      "Bruno Yun",
+      "Nir Oren",
+      "Srdjan Vesic"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.22979",
+    "slug": "towards-causally-interpretable-wi-fi-csi-based-human-activity-recognition-with-d-2604-22979",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.22979",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Towards Causally Interpretable Wi-Fi CSI-Based Human Activity Recognition with Discrete Latent Compression and LTL Rule Extraction",
+    "titleZh": "基于离散潜在压缩和 LTL 规则提取的 Wi-Fi CSI 因果可解释人体活动识别",
+    "abstractEn": "We address Human Activity Recognition (HAR) utilizing Wi-Fi Channel State Information (CSI) under the joint requirements of causal interpretability, symbolic controllability, and direct operation on high-dimensional raw signals. Deep neural models achieve strong predictive performance on CSI-based HAR (CHAR), yet rely on continuous latent representations that are opaque and difficult to modify; pu",
+    "abstractZh": "我们解决了在因果可解释性、符号可控性和直接操作高维原始信号的联合要求下，利用 Wi-Fi 信道状态信息进行人体活动识别的问题。深度神经模型在基于 CSI 的 HAR 上取得了强大的预测性能，但依赖于连续潜在表示，缺乏可解释性和符号控制能力。我们提出了一种方法，通过离散潜在压缩和线性时序逻辑规则提取，实现可解释的 HAR 系统。",
+    "authors": [
+      "Luca Cotti",
+      "Luca Lavazza",
+      "Marco Cominelli",
+      "Liying Han",
+      "Gaofeng Dong"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23002",
+    "slug": "formalscience-scalable-human-in-the-loop-autoformalisation-of-science-with-agent-2604-23002",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23002",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean",
+    "titleZh": "FormalScience：基于 Lean 的代码生成和规模化人机协作科学形式化",
+    "abstractEn": "Formalising informal mathematical reasoning into formally verifiable code is a significant challenge for large language models. In scientific fields such as physics, domain-specific machinery (\\textit{e.g.} Dirac notation, vector calculus) imposes additional formalisation challenges that modern LLMs and agentic approaches have yet to tackle. To aid autoformalisation in scientific domains, we prese",
+    "abstractZh": "将非形式数学推理形式化为可验证的代码对大型语言模型来说是一个重大挑战。在物理学等科学领域，特定领域的机制（如狄拉克符号、向量微积分）带来了额外的形式化挑战，而现代 LLM 和基于代理的方法尚未能应对这些问题。我们提出了 FormalScience，一个利用 Lean 语言和代码生成代理的框架，支持人机协作的科学知识形式化过程。",
+    "authors": [
+      "Jordan Meadows",
+      "Lan Zhang",
+      "Andre Freitas"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23027",
+    "slug": "a-systematic-approach-for-large-language-models-debugging-2604-23027",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23027",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "A Systematic Approach for Large Language Models Debugging",
+    "titleZh": "大型语言模型调试的系统性方法",
+    "abstractEn": "Large language models (LLMs) have become central to modern AI workflows, powering applications from open-ended text generation to complex agent-based reasoning. However, debugging these models remains a persistent challenge due to their opaque and probabilistic nature and the difficulty of diagnosing errors across diverse tasks and settings. This paper introduces a systematic approach for LLM debu",
+    "abstractZh": "大型语言模型已成为现代 AI 工作流程的核心，驱动着从开放式文本生成到复杂基于代理推理的各种应用。然而，由于其不透明和概率性的本质，以及在不同任务和设置中诊断错误的困难性，调试这些模型仍然是一个持续的挑战。本文提出了一套系统化的调试方法论，包括错误分类、根因分析和修复验证，帮助开发者更有效地诊断和解决 LLM 相关问题。",
+    "authors": [
+      "Basel Shbita",
+      "Anna Lisa Gentile",
+      "Bing Zhang",
+      "Sungeun An",
+      "Shailja Thakur"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23049",
+    "slug": "a-decoupled-human-in-the-loop-system-for-controlled-autonomy-in-agentic-workflow-2604-23049",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23049",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "A Decoupled Human-in-the-Loop System for Controlled Autonomy in Agentic Workflows",
+    "titleZh": "用于代理工作流中可控自主性的解耦人机协作系统",
+    "abstractEn": "AI agents are increasingly deployed to execute tasks and make decisions within agentic workflows, introducing new requirements for safe and controlled autonomy. Prior work has established the importance of human oversight for ensuring transparency, accountability, and trustworthiness in such systems. However, existing implementations of Human-in-the-Loop (HITL) mechanisms are typically embedded wi",
+    "abstractZh": "AI 代理越来越多地被部署在代理工作流中执行任务和做出决策，这带来了对安全可控自主性的新要求。先前的工作确立了人工监督在确保此类系统透明度、问责制和可信度方面的重要性。然而，现有的人机协作实现在可扩展性、灵活性和用户体验方面存在局限性。我们提出了一种解耦的人机协作系统架构，将监督机制与执行逻辑分离，实现了更灵活的可控自主性。",
+    "authors": [
+      "Edward Cheng",
+      "Jeshua Cheng"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23057",
+    "slug": "dont-make-the-llm-read-the-graph-make-the-graph-think-2604-23057",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23057",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Don't Make the LLM Read the Graph: Make the Graph Think",
+    "titleZh": "不要让 LLM 读取图：让图思考",
+    "abstractEn": "We investigate whether explicit belief graphs improve LLM performance in cooperative multi-agent reasoning. Through 3,000+ controlled trials across four LLM families in the cooperative card game Hanabi, we establish four findings. First, integration architecture determines whether belief graphs provide value: as prompt context, graphs are decorative for strong models and beneficial only for weak m",
+    "abstractZh": "我们研究了显式信念图是否能提高 LLM 在协作多代理推理中的性能。通过在合作卡牌游戏 Hanabi 中对四个 LLM 系列进行 3000 多次对照试验，我们建立了四个发现。首先，集成架构决定了信念图是否提供价值：作为提示上下文时，图只是装饰性的；而将推理过程编码到图中时，图能够显著提升性能。",
+    "authors": [
+      "Yuqi Sun",
+      "Tianqin Meng",
+      "George Liu",
+      "Yashraj Panwar",
+      "Lakshya Chaudhry"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23072",
+    "slug": "analytica-soft-propositional-reasoning-for-robust-and-scalable-llm-driven-analys-2604-23072",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23072",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
+    "titleZh": "Analytica：用于鲁棒可扩展 LLM 驱动分析的软命题推理",
+    "abstractEn": "Large language model (LLM) agents are increasingly tasked with complex real-world analysis (e.g., in financial forecasting, scientific discovery), yet their reasoning suffers from stochastic instability and lacks a verifiable, compositional structure. To address this, we introduce Analytica, a novel agent architecture built on the principle of Soft Propositional Reasoning (SPR). SPR reframes compl",
+    "abstractZh": "大型语言模型代理越来越多地被赋予复杂现实世界分析任务（如财务预测、科学发现），但其推理受制于随机不稳定性，缺乏可验证的组合结构。为解决这一问题，我们提出了 Analytica，一种基于软命题推理原则的新型代理架构。该架构通过概率推理和符号推理的融合，实现了既鲁棒又可扩展的分析能力。",
+    "authors": [
+      "Junyan Cheng",
+      "Kyle Richardson",
+      "Peter Chin"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23090",
+    "slug": "towards-automated-ontology-generation-from-unstructured-text-a-multi-agent-llm-a-2604-23090",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23090",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Towards Automated Ontology Generation from Unstructured Text: A Multi-Agent LLM Approach",
+    "titleZh": "从非结构化文本自动生成本体：多代理 LLM 方法",
+    "abstractEn": "Automatically generating formal ontologies from unstructured natural language remains a central challenge in knowledge engineering. While large language models (LLMs) show promise, it remains unclear which architectural design choices drive generation quality and why current approaches fail. We present a controlled experimental study using domain-specific insurance contracts to investigate these q",
+    "abstractZh": "从非结构化自然语言自动生成形式本体仍然是知识工程的核心挑战。虽然大型语言模型展现出潜力，但目前尚不清楚哪些架构设计选择驱动生成质量，以及现有方法失败的原因。我们进行了一项使用领域专家评估的对照实验研究，系统地评估了不同的多代理 LLM 架构在本体生成任务上的表现。",
+    "authors": [
+      "Abid Talukder",
+      "Maruf Ahmed Mridul",
+      "Oshani Seneviratne"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23148",
+    "slug": "physe-a-psychological-framework-for-real-time-ar-llm-social-engineering-attacks-2604-23148",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23148",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "PhySE: A Psychological Framework for Real-Time AR-LLM Social Engineering Attacks",
+    "titleZh": "PhySE：实时 AR-LLM 社会工程攻击的心理学框架",
+    "abstractEn": "The emerging threat of AR-LLM-based Social Engineering (AR-LLM-SE) attacks (e.g. SEAR) poses a significant risk to real-world social interactions. In such an attack, a malicious actor uses Augmented Reality (AR) glasses to capture a target visual and vocal data. A Large Language Model (LLM) then analyzes this data to identify the individual and generate a detailed social profile. Subsequently, LLM",
+    "abstractZh": "基于 AR-LLM 的社会工程攻击的威胁对现实世界社会互动构成了重大风险。在此类攻击中，恶意行为者使用增强现实眼镜捕获目标的视觉和语音数据。大型语言模型随后分析这些数据以识别个体并生成个性化社会工程策略。我们提出了 PhySE，一个整合了心理学原理和 LLM 能力的框架，用于理解和防范此类攻击。",
+    "authors": [
+      "Tianlong Yu",
+      "Yang Yang",
+      "Ziyi Zhou",
+      "Jiaying Xu",
+      "Siwei Li"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23178",
+    "slug": "judging-the-judges-a-systematic-evaluation-of-bias-mitigation-strategies-in-llm-2604-23178",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23178",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines",
+    "titleZh": "评判法官：LLM-as-a-Judge 流程中偏见缓解策略的系统评估",
+    "abstractEn": "LLM-as-a-Judge has become the dominant paradigm for evaluating language model outputs, yet LLM judges exhibit systematic biases that compromise evaluation reliability. We present a comprehensive empirical study comparing nine debiasing strategies across five judge models from four provider families (Google, Anthropic, OpenAI, Meta), three benchmarks (MT-Bench n=400, LLMBar n=200, custom n=225), an",
+    "abstractZh": "LLM-as-a-Judge 已成为评估语言模型输出的主导范式，但 LLM 法官表现出系统性偏见，损害了评估的可靠性。我们提出了一项全面的实证研究，比较了来自四个提供商家族（Google、Anthropic、OpenAI、Meta）的五个法官模型的九种去偏策略，三个基准",
+    "authors": [
+      "Sadman Kabir Soumik"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23194",
+    "slug": "from-coarse-to-fine-self-adaptive-hierarchical-planning-for-llm-agents-2604-23194",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23194",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "From Coarse to Fine: Self-Adaptive Hierarchical Planning for LLM Agents",
+    "titleZh": "从粗到细：LLM 智能体的自适应分层规划",
+    "abstractEn": "Large language model-based agents have recently emerged as powerful approaches for solving dynamic and multi-step tasks. Most existing agents employ planning mechanisms to guide long-term actions in dynamic environments. However, current planning approaches face a fundamental limitation that they operate at a fixed granularity level. Specifically, they either provide excessive detail for simple ta",
+    "abstractZh": "基于大语言模型的智能体最近已成为解决动态和多步任务的强大方法。大多数现有智能体采用规划机制来指导动态环境中的长期行动。然而，当前的规划方法面临一个基本限制，即它们在固定的粒度级别上运行。具体而言",
+    "authors": [
+      "Haoran Tan",
+      "Zeyu Zhang",
+      "Chen Ma",
+      "Tianze Liu",
+      "Quanyu Dai"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23198",
+    "slug": "storytr-narrative-centric-video-temporal-retrieval-with-theory-of-mind-reasoning-2604-23198",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23198",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "StoryTR: Narrative-Centric Video Temporal Retrieval with Theory of Mind Reasoning",
+    "titleZh": "StoryTR：基于心智理论推理的叙事中心视频时间检索",
+    "abstractEn": "Current video moment retrieval excels at action-centric tasks but struggles with narrative content. Models can see \\textit{what is happening} but fail to reason \\textit{why it matters}. This semantic gap stems from the lack of \\textbf{Theory of Mind (ToM)}: the cognitive ability to infer implicit intentions, mental states, and narrative causality from surface-level observations. We introduce \\text",
+    "abstractZh": "当前的视频时刻检索在以动作为中心的任务上表现出色，但在叙事内容方面遇到困难。模型能够看到『正在发生什么』，但无法推断『为什么这很重要』。这种语义差距源于缺乏『心智理论』：推断隐含意图、心理状态和叙事因果关系的认知能力",
+    "authors": [
+      "Xuanyue Zhong",
+      "Yuqiang Xie",
+      "Guanqun Bi",
+      "Jiangping Yang",
+      "Guibin Chen"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23210",
+    "slug": "discovering-agentic-safety-specifications-from-1-bit-danger-signals-2604-23210",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23210",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+    "titleZh": "从 1 位危险信号中发现智能体安全规范",
+    "abstractEn": "Can large language model agents discover hidden safety objectives through experience alone? We introduce EPO-Safe (Experiential Prompt Optimization for Safe Agents), a framework where an LLM iteratively generates action plans, receives sparse binary danger warnings, and evolves a natural language behavioral specification through reflection. Unlike standard LLM reflection methods that rely on rich ",
+    "abstractZh": "大语言模型智能体能仅凭经验发现隐藏的安全目标吗？我们引入 EPO-Safe（安全智能体的体验性提示优化），这是一个框架，其中 LLM 迭代生成行动计划，接收稀疏的二元危险警告，并通过反思演化自然语言行为规范。与",
+    "authors": [
+      "V\\'ictor Gallego"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23239",
+    "slug": "adamamba-adaptive-frequency-gated-mamba-for-long-term-time-series-forecasting-2604-23239",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23239",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "AdaMamba: Adaptive Frequency-Gated Mamba for Long-Term Time Series Forecasting",
+    "titleZh": "AdaMamba：用于长期时间序列预测的自适应频率门控 Mamba",
+    "abstractEn": "Accurate long-term time series forecasting (LTSF) requires the capture of complex long-range dependencies and dynamic periodic patterns. Recent advances in frequency-domain analysis offer a global perspective for uncovering temporal characteristics. However, real-world time series often exhibit pronounced cross-domain heterogeneity where variables that appear synchronized in the time domain can di",
+    "abstractZh": "准确的长期时间序列预测需要捕捉复杂的长程依赖和动态周期模式。频域分析的最新进展为发现时间特征提供了全局视角。然而，现实世界的时间序列通常表现出显著的跨域异质性，其中变量",
+    "authors": [
+      "Xudong Jiang",
+      "Mingshan Loo",
+      "Hanchen Yang",
+      "Wengen Li",
+      "Mingrui Zhang"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23270",
+    "slug": "cap-cot-cycle-adversarial-prompt-for-improving-chain-of-thoughts-in-llm-reasonin-2604-23270",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23270",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "CAP-CoT: Cycle Adversarial Prompt for Improving Chain of Thoughts in LLM Reasoning",
+    "titleZh": "CAP-CoT：用于改进 LLM 推理中思维链的循环对抗提示",
+    "abstractEn": "Chain-of-Thought (CoT) prompting has emerged as a simple and effective way to elicit step-by-step solutions from large language models (LLMs). However, CoT reasoning can be unstable across runs on long, multi-step problems, leading to inconsistent answers for unchanged task. Most prior work focuses on improving the forward reasoning chain within a single pass, with less attention to iterative and ",
+    "abstractZh": "思维链提示已成为从大语言模型中获得逐步解决方案的简单有效方法。然而，在长、多步问题上，CoT 推理在不同运行中可能不稳定，导致同一任务产生不一致的答案。大多数先前的工作专注于改进",
+    "authors": [
+      "Shuxu Chen",
+      "Yitian Zhou",
+      "Jiaquan Zhang",
+      "Haoyu Bian",
+      "Aming Wu"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23278",
+    "slug": "active-inference-a-method-for-phenotyping-agency-in-ai-systems-2604-23278",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23278",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "Active Inference: A method for Phenotyping Agency in AI systems?",
+    "titleZh": "主动推理：一种用于 AI 系统智能体表型分析的方法？",
+    "abstractEn": "The proliferation of agentic artificial intelligence has outpaced the conceptual tools needed to characterize agency in computational systems. Prevailing definitions mainly rely on autonomy and goal-directedness. Here, we argue for a minimal notion open to principled inspection given three criteria: intentionality as action grounded in beliefs and desires, rationality as normatively coherent actio",
+    "abstractZh": "智能体人工智能的激增超过了表征计算系统中智能体所需的概念工具。 prevailing 定义主要依赖于自主性和目标导向性。这里，我们主张一个最小概念，在三个标准下接受原则性检查：基于信念和行动的有意图性",
+    "authors": [
+      "Philip Wilson",
+      "Axel Constant",
+      "Mahault Albarracin",
+      "Nicol\\'as Hinrichs",
+      "Jasmine Moore"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "arxiv:2604.23280",
+    "slug": "ai-identity-standards-gaps-and-research-directions-for-ai-agents-2604-23280",
+    "source": "arXiv cs.AI",
+    "sourceUrl": "https://arxiv.org/abs/2604.23280",
+    "publishedAt": "2026-04-29T04:00:00.000Z",
+    "titleEn": "AI Identity: Standards, Gaps, and Research Directions for AI Agents",
+    "titleZh": "AI 身份：AI 智能体的标准、差距和研究方向",
+    "abstractEn": "AI agents are now running real transactions, workflows, and sub-agent chains across organizational boundaries without continuous human supervision. This creates a problem no current infrastructure is equipped to solve: how do you identify, verify, and hold accountable an entity with no body, no persistent memory, and no legal standing? We define AI Identity as the continuous relationship between w",
+    "abstractZh": "AI 智体现在正在跨组织边界运行真实事务、工作流和子智能体链，而无需持续的人工监督。这创建了一个当前基础设施无法解决的问题：如何识别、验证和问责一个没有身体、没有持久记忆且没有法律地位的实体？我们定义 AI",
+    "authors": [
+      "Takumi Otsuka",
+      "Kentaroh Toyoda",
+      "Alex Leung"
+    ],
+    "institution": "arXiv",
+    "docType": "Paper"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-robot-6gbkyckn150e7i2d-html",
+    "slug": "3000-100",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/robot/6GBKyCkn150E7I2D.html",
+    "publishedAt": "2026-04-29T03:52:00.000Z",
+    "titleEn": "从3000台到100万台，未岚大陆的四年长跑",
+    "titleZh": "从3000台到100万台，未岚大陆的四年长跑",
+    "abstractEn": "4月24日，未岚大陆第100万台智能割草机器人在常州下线。\n同月，未岚大陆获得“连续两年全球无边界割草机器人零售量第一”品牌认证；其Navimow X420和i206 AWD两款产品获得德国莱茵TÜV Lawn Care认证。\n对一个仍处全球渗透早期的机器人品类而言，百万台是一个更具实际意义的节点。从2022年正式开卖到2026年累计量产突破百万台，未岚大陆以每年10月至次年9月为一个割草季，终端激活数据持续增长。未岚大陆CEO任冠佼指出：“2022年约3000台，2023年超4万台，2024年近15万台，2025年达30万台。”\n\n未岚大陆CEO任冠佼（中）、未岚大陆总裁兼CTO陈子冲（左）、德国莱茵TÜV电子电气产品服务全球高级副总裁郝福来（Frank Holzmann）（右）与Navimow第100万台智能割草机器人合影\n增长背后，是一个足够具体的需求。任冠佼在交流中提到，“割草本质",
+    "abstractZh": "4月24日，未岚大陆第100万台智能割草机器人在常州下线。同月，未岚大陆获得'连续两年全球无边界割草机器人零售量第一'品牌认证；其Navimow X420和i206 AWD两款产品获得德国莱茵TÜV Lawn Care认证。对一个仍处全球渗透早期的机器人品类而言，百万台是一个更具实际意义的节点。从2022年正式开卖到2026年累计量产突破百万台，未岚大陆以每年10月至次年9月为一个割草季，终端激活数据持续增长。未岚大陆CEO任冠佼指出：'2022年约3000台，2023年超4万台，2024年近15万台，2025年达30万台。'未岚大陆CEO任冠佼（中）、未岚大陆总裁兼CTO陈子冲（左）、德国莱茵TÜV电子电气产品服务全球高级副总裁郝福来（Frank Holzmann）（右）与Navi",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:47943632",
+    "slug": "hn-47943632-i-built-my-own-hair-electrolysis-machine",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.scd31.com/posts/diy-hair-electrolysis-machine",
+    "commentUrl": "https://news.ycombinator.com/item?id=47943632",
+    "publishedAt": "2026-04-29T02:42:46.000Z",
+    "titleEn": "I Built My Own Hair Electrolysis Machine",
+    "titleZh": "我自制了一台毛发电解仪",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "y1n0"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 55,
+    "commentCount": 11,
+    "tags": []
+  },
+  {
+    "id": "arxiv:2604.26694",
+    "slug": "unified-4d-world-action-modeling-from-video-priors-with-asynchronous-denoising-2604-26694",
+    "source": "HuggingFace Daily",
+    "sourceUrl": "https://arxiv.org/abs/2604.26694",
+    "publishedAt": "2026-04-29T00:00:00.000Z",
+    "titleEn": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+    "titleZh": "通过异步去噪从视频先验统一 4D 世界动作建模",
+    "abstractEn": "We propose X-WAM, a Unified 4D World Model that unifies real-time robotic action execution and high-fidelity 4D world synthesis (video + 3D reconstruction) in a single framework, addressing the critical limitations of prior unified world models (e.g., UWM) that only model 2D pixel-space and fail to balance action efficiency and world modeling quality. To leverage the strong visual priors of pretra",
+    "abstractZh": "我们提出 X-WAM，一个统一的 4D 世界模型，它在一个单一框架中统一了实时机器人动作执行和高保真 4D 世界合成（视频 + 3D 重建），解决了先前统一世界模型（如 UWM）的关键限制，后者仅建模 2D 像素空间，无法平衡动作效率和世界建模质量",
+    "authors": [
+      "Jun Guo",
+      "Qiwei Li",
+      "Peiyan Li",
+      "Zilong Chen",
+      "Nan Sun"
+    ],
+    "institution": "HuggingFace Daily",
+    "docType": "Paper",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.26694.png",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\n研究团队提出了 X-WAM，这是一个统一的 4D 世界模型框架。X-WAM 将实时机器人动作执行和高保真 4D 世界合成（包括视频生成和 3D 重建）整合在单一架构中。这一工作解决了以往统一世界模型（如 UWM）的关键局限性——这些模型仅关注 2D 像素空间，无法在动作执行效率和世界建模质量之间取得平衡。\n\n> ⚠️ **注意**：X-WAM 的独特之处在于它突破了传统世界模型仅处理 2D 图像空间的限制，实现了对 3D 空间和时序维度的统一建模。\n\n## 研究背景\n### Background\n\n现有的世界模型主要专注于预测未来的 2D 视频帧，这在视觉感知层面有一定效果，但缺乏对物理世界三维结构及其动态变化的完整表征。UWM 等统一世界模型虽然尝试整合动作规划和世界预测，但受限于 2D 表示，难以同时满足机器人实时控制所需的计算效率和任务完成所需的高精度空间理解。\n\n> 💡 **背景**：机器人智能体需要理解世界的 3D 结构，才能进行精确的抓取、导航和交互操作，这促使研究者探索更高维度的世界建模方法。\n\n## 技术方法\n### Technical Approach\n\nX-WAM 通过异步去噪机制来利用预训练视觉模型的强大先验知识。框架采用异步设计，将动作执行的高效性和世界合成的高保真性解耦，允许两者在各自的计算预算下独立优化。这种设计使得模型能够在实时响应环境变化的同时，生成高质量、结构准确的 4D 世界表示。\n\n## 意义与影响\n### Significance & Impact\n\n这项工作为具身智能和机器人领域开辟了新方向。X-WAM 证明统一 4D 世界建模是可行且有效的，为未来开发更智能、更自主的机器人系统奠定了技术基础。通过结合视觉先验和异步去噪，该框架在保持实时性能的同时显著提升了世界建模的质量，有望加速机器人在复杂真实场景中的应用。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-30T02:36:31.922Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-30"
+  },
+  {
+    "id": "arxiv:2604.26904",
+    "slug": "clawgym-a-scalable-framework-for-building-effective-claw-agents-2604-26904",
+    "source": "HuggingFace Daily",
+    "sourceUrl": "https://arxiv.org/abs/2604.26904",
+    "publishedAt": "2026-04-29T00:00:00.000Z",
+    "titleEn": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+    "titleZh": "ClawGym：构建有效 Claw 智能体的可扩展框架",
+    "abstractEn": "Claw-style environments support multi-step workflows over local files, tools, and persistent workspace states. However, scalable development around these environments remains constrained by the absence of a systematic framework, especially one for synthesizing verifiable training data and integrating it with agent training and diagnostic evaluation. To address this challenge, we present ClawGym, a",
+    "abstractZh": "Claw 风格的环境支持对本地文件、工具和持久工作区状态的多步工作流。然而，围绕这些环境的可扩展开发仍然受到缺乏系统性框架的约束，特别是缺乏一个用于合成可验证训练数据并将其与智能体训练和诊断评估集成",
+    "authors": [
+      "Fei Bai",
+      "Huatong Song",
+      "Shuang Sun",
+      "Daixuan Cheng",
+      "Yike Yang"
+    ],
+    "institution": "HuggingFace Daily",
+    "docType": "Paper",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.26904.png",
+    "contentMd": "## 核心贡献\n### Key Contributions\n\nClawGym 针对当前 Claw 风格环境中智能体（Agent）开发缺乏系统性框架的问题，提出了一个可扩展的框架解决方案。该框架的核心价值在于填补了多步骤工作流环境中的三大空白：可验证训练数据的合成、智能体训练的集成支持以及诊断评估体系的建立。通过提供端到端的开发工具链，ClawGym 降低了在本地文件、工具和持久化工作区状态上进行复杂任务开发的门槛，为构建高效的爪式智能体提供了标准化的技术路径。\n\n## 研究背景\n### Background\n\n近年来，随着大语言模型（LLM）和智能体技术的快速发展，Claw 风格环境因其支持在本地文件系统、工具调用和持久化工作区状态上执行多步骤工作流而备受关注。这类环境模拟了真实世界中软件开发、数据分析等复杂任务的执行场景，对智能体的规划、工具使用和状态管理能力提出了更高要求。然而，目前该领域的研究和实践仍面临一个关键瓶颈——缺乏系统性的开发框架来支持大规模的数据合成、模型训练和效果评估，这严重制约了智能体在真实场景中的规模化应用。\n\n## 技术方法\n### Technical Approach\n\nClawGym 构建了一个完整的技术框架，通过模块化设计实现了数据合成、训练和评估的闭环。框架首先建立了可验证训练数据的自动化合成机制，确保训练数据的质量和多样性；其次提供了与主流智能体训练范式的无缝集成接口，支持在真实工作区状态下的端到端训练；最后设计了全面的诊断评估系统，能够对智能体在不同任务场景下的表现进行精细化分析和问题定位。这种系统性方法使得开发者可以专注于算法创新，而无需从零搭建基础设施。\n\n## 意义与影响\n### Significance & Impact\n\nClawGym 的推出对 AI 智能体研究领域具有重要意义。从学术角度看，它为 Claw 风格环境的研究提供了标准化的实验平台，有助于加速该领域的研究进展和成果复现。从实践角度看，该框架降低了企业和研究机构构建专业智能体的技术门槛，推动了智能体技术在软件开发、数据分析等垂直场景中的实际落地。随着框架的不断完善和社区贡献的增加，有望催生更多针对特定领域的高效智能体解决方案，进一步推动 AGI（通用人工智能）在复杂任务场景中的应用进程。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-04-30T02:37:09.273Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-04-30"
+  }
+]
