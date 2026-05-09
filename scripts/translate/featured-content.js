@@ -14,11 +14,12 @@ const SOURCE_PRIORITY = {
 };
 
 /**
- * Pick one article from newItems as today's featured.
+ * Pick up to `count` articles from newItems as today's featured.
  * Priority: source tier → newest by publishedAt.
+ * Tries to diversify by source (no two picks from the same source unless unavoidable).
  */
-export function pickFeatured(newItems) {
-  if (newItems.length === 0) return null;
+export function pickFeatured(newItems, count = 3) {
+  if (newItems.length === 0) return [];
 
   const sorted = [...newItems].sort((a, b) => {
     const pa = SOURCE_PRIORITY[a.source] ?? 1;
@@ -27,7 +28,25 @@ export function pickFeatured(newItems) {
     return new Date(b.publishedAt) - new Date(a.publishedAt);
   });
 
-  return sorted[0];
+  // First pass: pick best from each source to maximise diversity
+  const usedSources = new Set();
+  const picks = [];
+  for (const item of sorted) {
+    if (picks.length >= count) break;
+    if (!usedSources.has(item.source)) {
+      picks.push(item);
+      usedSources.add(item.source);
+    }
+  }
+  // Second pass: fill remaining slots if needed
+  if (picks.length < count) {
+    for (const item of sorted) {
+      if (picks.length >= count) break;
+      if (!picks.includes(item)) picks.push(item);
+    }
+  }
+
+  return picks;
 }
 
 /**

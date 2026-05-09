@@ -18,9 +18,20 @@ export function isTodayBJ(input) {
 }
 
 /**
+ * True when an ISO date string (or Date) is within the last `days` days.
+ * Used by blog fetchers so articles published after the daily run aren't lost.
+ */
+export function isRecentBJ(input, days = 3) {
+  if (!input) return false;
+  const d = new Date(input);
+  if (Number.isNaN(d.getTime())) return false;
+  return Date.now() - d.getTime() < days * 86400 * 1000;
+}
+
+/**
  * Max items per source, configurable via env. Default 2.
  */
 export function maxPerSource() {
   const n = Number(process.env.MAX_PER_SOURCE);
-  return Number.isFinite(n) && n > 0 ? n : 2;
+  return Number.isFinite(n) && n > 0 ? n : 20;
 }

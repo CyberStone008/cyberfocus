@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "pipeline": "node scripts/pipeline.js",
     "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js"

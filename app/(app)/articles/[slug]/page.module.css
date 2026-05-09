@@ -1,0 +1,104 @@
+.page {
+  padding: 2.5rem 2rem 4rem;
+  min-height: 100vh;
+}
+
+.topNav {
+  position: fixed;
+  top: 1.25rem;
+  left: calc(var(--sidebar-width) + 1.5rem);
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .topNav {
+    left: 1rem;
+  }
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 6px 14px 6px 10px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .backLink {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.backLink:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+.layout {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  max-width: 900px;
+}
+
+/* Only use two-column layout when there is a sidebar/TOC */
+.layoutWithSidebar {
+  grid-template-columns: 220px minmax(0, 1fr);
+  max-width: 1400px;
+}
+
+.main {
+  min-width: 0;
+  max-width: 900px;
+}
+
+.mobileToc {
+  display: none;
+}
+
+.sidebar {
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+/* Tablet / mobile: hide sidebar, show inline TOC inside main (after header) */
+@media (max-width: 1023px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .sidebar {
+    display: none;
+  }
+  .mobileToc {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 1.5rem 1rem 3rem;
+  }
+}

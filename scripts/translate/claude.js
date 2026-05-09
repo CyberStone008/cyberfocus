@@ -13,14 +13,30 @@ function extractJson(text) {
   // Strip markdown code fences if present
   const fenced = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
   const raw = fenced ? fenced[1] : text.trim();
-  return JSON.parse(raw);
+  try {
+    return JSON.parse(raw);
+  } catch {
+    // Fallback: extract individual JSON objects that are well-formed
+    // (handles cases where one item has unescaped chars breaking the full array)
+    const objects = [];
+    // Match outermost {...} blocks that contain an "index" key
+    const objRe = /\{\s*"index"\s*:\s*\d+[\s\S]*?\}/g;
+    let m;
+    while ((m = objRe.exec(raw)) !== null) {
+      try { objects.push(JSON.parse(m[0])); } catch { /* skip malformed */ }
+    }
+    if (objects.length > 0) return objects;
+    throw new SyntaxError(`JSON parse failed: ${raw.slice(0, 120)}`);
+  }
 }
 
 async function translateWithClaude(articles, model = 'claude-haiku-4-5-20251001') {
   const items = articles.map((a, i) => ({
     index: i,
     title: a.titleEn,
-    abstract: (a.abstractEn || '').slice(0, 350),
+    // Replace double quotes with single quotes to prevent the model from
+    // outputting unescaped " in JSON values (which breaks JSON parsing)
+    abstract: (a.abstractEn || '').slice(0, 350).replace(/"/g, "'"),
   }));
 
   const prompt = `你是一名专业的 AI 研究领域中英双语翻译专家。
@@ -29,6 +45,7 @@ async function translateWithClaude(articles, model = 'claude-haiku-4-5-20251001'
 - 标题翻译要简洁准确，保留专业术语
 - 摘要翻译要自然流畅，保持技术准确性
 - 专有名词（如模型名称、数据集名称）保留英文
+- 翻译结果中不要包含双引号，用单引号或书名号替代
 
 输入论文列表：
 ${JSON.stringify(items, null, 2)}

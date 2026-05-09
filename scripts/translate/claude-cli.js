@@ -43,20 +43,23 @@ export function runClaudeCli(prompt, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
     });
     child.on('close', (code) => {
       clearTimeout(timer);
-      if (code !== 0) {
-        return reject(new Error(`claude CLI exited ${code}: ${stderr.slice(0, 500)}`));
-      }
       try {
         const payload = JSON.parse(stdout);
         if (payload.is_error) {
-          return reject(new Error(`claude CLI reported error: ${payload.result ?? 'unknown'}`));
+          const msg = payload.result ?? 'unknown';
+          const err = new Error(`claude CLI reported error: ${msg}`);
+          err.isPolicyRefusal = /usage policy/i.test(msg);
+          return reject(err);
         }
         if (typeof payload.result !== 'string') {
           return reject(new Error('claude CLI: missing result field'));
         }
         resolve(payload.result);
-      } catch (err) {
-        reject(new Error(`claude CLI: failed to parse JSON: ${err.message}`));
+      } catch (_) {
+        if (code !== 0) {
+          return reject(new Error(`claude CLI exited ${code}: ${stderr.slice(0, 500)}`));
+        }
+        reject(new Error(`claude CLI: failed to parse JSON output`));
       }
     });
   });

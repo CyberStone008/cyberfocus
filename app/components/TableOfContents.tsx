@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { TocEntry } from '../types/article';
 import styles from './TableOfContents.module.css';
 
@@ -8,6 +8,8 @@ export function TableOfContents({ entries }: { entries: TocEntry[] }) {
   const [activeAnchor, setActiveAnchor] = useState<string | null>(
     entries[0]?.anchor ?? null
   );
+  // Track which headings are "above the fold" — the last one in that set is active
+  const visibleSet = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     if (entries.length === 0) return;
@@ -18,43 +20,80 @@ export function TableOfContents({ entries }: { entries: TocEntry[] }) {
 
     if (headings.length === 0) return;
 
-    let raf = 0;
+    // Use IntersectionObserver — works regardless of which ancestor scrolls
+    const observer = new IntersectionObserver(
+      (ioEntries) => {
+        for (const e of ioEntries) {
+          if (e.isIntersecting) {
+            visibleSet.current.add(e.target.id);
+          } else {
+            visibleSet.current.delete(e.target.id);
+          }
+        }
+        // Active = last heading whose top has passed the upper 25% of viewport
+        // = last heading NOT currently visible (already scrolled past) OR first visible one
+        let active = headings[0].id;
+        for (const h of headings) {
+          const rect = h.getBoundingClientRect();
+          if (rect.top <= window.innerHeight * 0.25) {
+            active = h.id;
+          }
+        }
+        setActiveAnchor(active);
+      },
+      {
+        // Fire when heading crosses the top 25% of the viewport
+        rootMargin: '0px 0px -75% 0px',
+        threshold: 0,
+      },
+    );
 
-    const update = () => {
-      const offset = window.innerHeight * 0.3;
+    // Also listen to scroll on the nearest scrollable ancestor (not just window)
+    // to keep the highlight in sync while scrolling fast
+    const scrollParent = (() => {
+      let el: HTMLElement | null = headings[0].parentElement;
+      while (el) {
+        const { overflowY } = getComputedStyle(el);
+        if (overflowY === 'auto' || overflowY === 'scroll') return el;
+        el = el.parentElement;
+      }
+      return window as unknown as HTMLElement;
+    })();
+
+    const onScroll = () => {
       let active = headings[0].id;
       for (const h of headings) {
-        if (h.getBoundingClientRect().top <= offset) {
+        if (h.getBoundingClientRect().top <= window.innerHeight * 0.25) {
           active = h.id;
-        } else {
-          break;
         }
       }
       setActiveAnchor(active);
     };
 
-    const onScroll = () => {
-      if (raf) return;
-      raf = requestAnimationFrame(() => {
-        raf = 0;
-        update();
-      });
-    };
+    headings.forEach((h) => observer.observe(h));
+    scrollParent.addEventListener('scroll', onScroll, { passive: true });
 
-    update();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
+    // Initial sync
+    onScroll();
+
     return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (raf) cancelAnimationFrame(raf);
+      observer.disconnect();
+      scrollParent.removeEventListener('scroll', onScroll);
     };
   }, [entries]);
+
+  // Auto-scroll the active TOC item into view
+  const navRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!activeAnchor || !navRef.current) return;
+    const el = navRef.current.querySelector(`[data-anchor="${activeAnchor}"]`) as HTMLElement | null;
+    el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, [activeAnchor]);
 
   if (entries.length === 0) return null;
 
   return (
-    <nav className={styles.toc} aria-label="目录">
+    <nav className={styles.toc} aria-label="目录" ref={navRef}>
       <h2 className={styles.tocTitle}>目录</h2>
       <ul className={styles.tocList}>
         {entries.map((entry, i) => {
@@ -63,6 +102,7 @@ export function TableOfContents({ entries }: { entries: TocEntry[] }) {
             <li key={`${entry.anchor}-${i}`}>
               <a
                 href={`#${entry.anchor}`}
+                data-anchor={entry.anchor}
                 className={[
                   styles.tocItem,
                   entry.level === 3 ? styles.tocItemSub : '',

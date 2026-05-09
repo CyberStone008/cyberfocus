@@ -1,5 +1,8 @@
 export type DocType = 'Blog' | 'Paper' | 'Guide' | 'Report';
 
+/** research = arXiv / official blogs; social = HN / Reddit / Chinese blogs / X; investing = value investing */
+export type ArticleCategory = 'research' | 'social' | 'investing';
+
 export interface Translator {
   model: string;           // e.g. "Claude Sonnet 4.6"
   humanReviewer?: string;  // e.g. "@nake13"
@@ -32,6 +35,21 @@ export interface Article {
   // Full content (only present when fully translated)
   contentMd?: string;           // Translated Markdown content
   translator?: Translator;      // Translation credits
+
+  /** Content category — defaults to 'research' for backwards compat */
+  category?: ArticleCategory;
+
+  // Social-specific fields
+  score?: number;               // HN points / Reddit upvotes
+  commentCount?: number;        // discussion thread size
+  commentUrl?: string;          // link to discussion thread
+
+  // Series (e.g. multi-chapter reports)
+  seriesSlug?: string;          // e.g. 'situational-awareness'
+  seriesOrder?: number;         // chapter index within series
+
+  // Pipeline ingestion timestamp (set when first added by pipeline)
+  fetchedAt?: string;           // ISO 8601 — used for "新" badge in feeds
 
   // Featured article of the day
   featured?: boolean;           // true = today's pick

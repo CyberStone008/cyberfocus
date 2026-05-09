@@ -1,6 +1,6 @@
 import { normalizeId } from '../utils/dedup.js';
 import { slugify } from '../utils/slug.js';
-import { isTodayBJ, maxPerSource } from '../utils/date-filter.js';
+import { isRecentBJ, maxPerSource } from '../utils/date-filter.js';
 
 const API_URL = 'https://huggingface.co/api/daily_papers';
 const MAX_ITEMS = maxPerSource();
@@ -24,8 +24,8 @@ export async function fetchHuggingFace() {
       const paper = entry.paper;
       if (!paper?.id) continue;
 
-      // Only today's (Beijing time) papers
-      if (!isTodayBJ(paper.publishedAt)) continue;
+      // Recent papers (last 2 days) — HuggingFace Daily updates once per day
+      if (!isRecentBJ(paper.publishedAt, 2)) continue;
 
       // HuggingFace paper.id is the arXiv ID — normalize to arxiv: namespace
       const canonicalId = normalizeId(paper.id, 'huggingface');
@@ -56,6 +56,7 @@ export async function fetchHuggingFace() {
         authors,
         institution,
         docType: 'Paper',
+        category: 'research',
         thumbnail: entry.thumbnail || paper.thumbnail || undefined,
       });
     }

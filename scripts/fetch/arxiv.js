@@ -1,7 +1,7 @@
 import Parser from 'rss-parser';
 import { normalizeId } from '../utils/dedup.js';
 import { slugify } from '../utils/slug.js';
-import { isTodayBJ, maxPerSource } from '../utils/date-filter.js';
+import { isRecentBJ, maxPerSource } from '../utils/date-filter.js';
 
 const parser = new Parser({
   customFields: {
@@ -45,8 +45,8 @@ export async function fetchArxiv() {
         // Only process new announcements, skip cross-listings
         if (item.announce_type && item.announce_type !== 'new') continue;
 
-        // Only today's (Beijing time) papers
-        if (!isTodayBJ(item.pubDate)) continue;
+        // Only recent papers (last 2 days, Beijing time) — arXiv updates ~8am BJT
+        if (!isRecentBJ(item.pubDate, 2)) continue;
 
         const arxivId = extractArxivId(item.link || item.guid || '');
         if (!arxivId) continue;
@@ -76,6 +76,7 @@ export async function fetchArxiv() {
           authors,
           institution: 'arXiv',
           docType: 'Paper',
+          category: 'research',
         });
 
         count++;

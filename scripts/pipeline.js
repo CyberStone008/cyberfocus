@@ -10,20 +10,47 @@
  *   ANTHROPIC_API_KEY=sk-ant-...
  */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { resolve } from 'path';
+import { setupProxy } from './utils/proxy.js';
 import { fetchArxiv } from './fetch/arxiv.js';
 import { fetchHuggingFace } from './fetch/huggingface.js';
 import { fetchAnthropic } from './fetch/anthropic.js';
 import { fetchOpenAI } from './fetch/openai.js';
 import { fetchDeepMind } from './fetch/deepmind.js';
+import { fetchHackerNews } from './fetch/hackernews.js';
+import { fetchReddit } from './fetch/reddit.js';
+import { fetchChineseBlogs } from './fetch/chinese-blogs.js';
+import { fetchAINewsSearch } from './fetch/ai-news-search.js';
+import { fetchHROrgNews } from './fetch/hr-orgs.js';
 import { translateBatch } from './translate/claude.js';
 import { pickFeatured, generateFeaturedContent, fetchAnthropicSourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
 
+const SOURCES_CONFIG_PATH = resolve(process.cwd(), 'data/sources.json');
 const ARTICLES_PATH = resolve(process.cwd(), 'data/articles.json');
-const MAX_ARTICLES = 500;
-const DRY_RUN = process.env.DRY_RUN === 'true';
+const DAILY_DIR    = resolve(process.cwd(), 'data/daily');
+
+function loadSourcesConfig() {
+  try {
+    return JSON.parse(readFileSync(SOURCES_CONFIG_PATH, 'utf8'));
+  } catch {
+    return { disabled: [], custom: [] };
+  }
+}
+const MAX_ARTICLES  = 3000;
+const DRY_RUN       = process.env.DRY_RUN === 'true';
+// When set, only fetch + translate this one source (used by /api/trigger-fetch)
+const SINGLE_SOURCE = process.env.SINGLE_SOURCE ?? null;
+
+// Source IDs handled by multi-source fetchers (reddit / chinese-blogs / hr-orgs).
+// Used to build an effective disabled-set in single-source mode.
+const MULTI_SOURCE_IDS = [
+  'Reddit ML', 'Reddit LocalLLaMA',
+  '量子位', '雷锋网', '36氪',
+  'Korn Ferry', 'Mercer', 'ManpowerGroup', 'Randstad', 'Adecco Group',
+  '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
+];
 
 function loadArticles() {
   try {
@@ -37,6 +64,8 @@ async function run() {
   console.log('=== AI Research Pipeline ===');
   if (DRY_RUN) console.log('[pipeline] DRY RUN mode — no writes');
 
+  await setupProxy();
+
   const useCli = process.env.USE_CLAUDE_CLI === 'true';
   if (!process.env.ANTHROPIC_API_KEY && !DRY_RUN && !useCli) {
     console.error('[pipeline] ERROR: ANTHROPIC_API_KEY is not set (or set USE_CLAUDE_CLI=true)');
@@ -44,17 +73,71 @@ async function run() {
   }
   if (useCli) console.log('[pipeline] Using local `claude` CLI for translation');
 
+  const sourcesConfig = loadSourcesConfig();
+  const disabledIds = new Set(sourcesConfig.disabled ?? []);
+
+  if (SINGLE_SOURCE) {
+    console.log(`[pipeline] SINGLE SOURCE mode: ${SINGLE_SOURCE}`);
+  } else {
+    console.log(`[pipeline] Disabled sources: ${[...disabledIds].join(', ') || '(none)'}`);
+  }
+
+  // In single-source mode, only the target runs; everything else is disabled
+  function enabled(id) {
+    if (SINGLE_SOURCE) return id === SINGLE_SOURCE;
+    return !disabledIds.has(id);
+  }
+  function skip() { return Promise.resolve([]); }
+
+  // For multi-source fetchers that accept a disabledIds set, build an effective set
+  const effectiveDisabledIds = SINGLE_SOURCE
+    ? new Set(MULTI_SOURCE_IDS.filter((id) => id !== SINGLE_SOURCE))
+    : disabledIds;
+
   const processed = loadProcessed();
   console.log(`[pipeline] ${processed.size} already-processed IDs loaded`);
+
+  // Build a title-fingerprint set from existing articles to block cross-run duplicates
+  function titleFingerprint(title) {
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9一-鿿 ]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .slice(0, 9)
+      .join(' ');
+  }
+  const existingTitleFPs = new Set(
+    loadArticles()
+      .filter((a) => a.source === 'Google AI News')
+      .map((a) => titleFingerprint(a.titleEn))
+  );
+
+  // Wrap a fetcher so it never blocks the pipeline beyond `ms` milliseconds
+  function timed(name, promise, ms = 120_000) {
+    const timeout = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`${name} timed out after ${ms / 1000}s`)), ms)
+    );
+    return Promise.race([promise, timeout]);
+  }
 
   // Fetch all sources in parallel; individual failures don't abort the run
   console.log('\n[pipeline] Fetching all sources...');
   const fetchResults = await Promise.allSettled([
-    fetchArxiv(),
-    fetchHuggingFace(),
-    fetchAnthropic(processed),
-    fetchOpenAI(processed),
-    fetchDeepMind(),
+    // Research sources
+    timed('arxiv',      enabled('arXiv cs.AI')      ? fetchArxiv()               : skip()),
+    timed('huggingface',enabled('HuggingFace Daily') ? fetchHuggingFace()         : skip()),
+    timed('anthropic',  enabled('Anthropic Blog')    ? fetchAnthropic(processed)  : skip()),
+    timed('openai',     enabled('OpenAI Blog')       ? fetchOpenAI(processed)     : skip()),
+    timed('deepmind',   enabled('DeepMind Blog')     ? fetchDeepMind()            : skip()),
+    // Social sources
+    timed('hackernews', enabled('Hacker News')       ? fetchHackerNews(processed) : skip()),
+    timed('reddit',     fetchReddit(processed, effectiveDisabledIds)),
+    timed('chinese',    fetchChineseBlogs(processed, effectiveDisabledIds)),
+    timed('ai-news',    enabled('Google AI News')    ? fetchAINewsSearch(processed, existingTitleFPs) : skip()),
+    // HR / Orgs sources
+    timed('hr-orgs',    fetchHROrgNews(processed, effectiveDisabledIds)),
   ]);
 
   const allFetched = fetchResults
@@ -97,12 +180,17 @@ async function run() {
   const successCount = translated.filter((a) => a.titleZh).length;
   console.log(`\n[pipeline] Translation complete: ${successCount}/${translated.length} succeeded`);
 
-  // --- Featured article of the day ---
-  console.log('\n[pipeline] Selecting featured article...');
+  // --- Featured articles of the day (research only, up to 3) ---
+  console.log('\n[pipeline] Selecting featured articles...');
   const todayBJ = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
-  const featured = pickFeatured(translated);
+  const researchItems = translated.filter((a) => a.category !== 'social');
+  const featuredList = pickFeatured(researchItems, 3);
 
-  if (featured) {
+  if (featuredList.length === 0) {
+    console.log('[pipeline] No new items to feature today');
+  }
+
+  for (const featured of featuredList) {
     console.log(`[pipeline] Featured: ${featured.titleEn} (${featured.source})`);
     try {
       // For Anthropic, try to get the real source text; fall back to abstract-based generation
@@ -131,11 +219,27 @@ async function run() {
       }
       console.log(`[pipeline] Featured content generated (${contentMd.length} chars)`);
     } catch (err) {
-      console.warn(`[pipeline] Featured generation failed: ${err.message}`);
+      console.warn(`[pipeline] Featured generation failed for "${featured.titleEn}": ${err.message}`);
     }
-  } else {
-    console.log('[pipeline] No new items to feature today');
   }
+
+  // ── Daily archive ────────────────────────────────────────────────────────
+  // Write today's newly-translated articles to data/daily/YYYY-MM-DD.json.
+  // If the file already exists (re-run on same day) we merge rather than overwrite,
+  // so articles from multiple runs on the same day are all preserved.
+  if (!existsSync(DAILY_DIR)) mkdirSync(DAILY_DIR, { recursive: true });
+  const dailyPath = resolve(DAILY_DIR, `${todayBJ}.json`);
+  let dailyExisting = [];
+  if (existsSync(dailyPath)) {
+    try { dailyExisting = JSON.parse(readFileSync(dailyPath, 'utf8')); } catch { /* ignore */ }
+  }
+  const dailyIds = new Set(dailyExisting.map((a) => a.id));
+  const dailyMerged = [
+    ...translated.filter((a) => !dailyIds.has(a.id)),
+    ...dailyExisting,
+  ].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  writeFileSync(dailyPath, JSON.stringify(dailyMerged, null, 2));
+  console.log(`[pipeline] Wrote ${dailyMerged.length} articles to data/daily/${todayBJ}.json`);
 
   // Clear previous day's featured flag from existing articles
   const existing = loadArticles().map((a) => ({
@@ -143,8 +247,14 @@ async function run() {
     featured: a.featuredDate === todayBJ ? a.featured : false,
   }));
 
-  // Merge with existing articles
-  const merged = [...translated, ...existing]
+  // Stamp newly-fetched articles with fetchedAt (ISO string) so the UI can show a "新" badge
+  const fetchedAt = new Date().toISOString();
+  const translatedStamped = translated.map((a) => ({ ...a, fetchedAt }));
+
+  // Merge with existing articles — deduplicate by ID (new items take priority)
+  const seenIds = new Set();
+  const merged = [...translatedStamped, ...existing]
+    .filter((a) => { if (seenIds.has(a.id)) return false; seenIds.add(a.id); return true; })
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, MAX_ARTICLES);
 
@@ -156,6 +266,11 @@ async function run() {
   translated.forEach((a) => processed.add(a.id));
   saveProcessed(processed);
   console.log(`[pipeline] Updated processed-ids.json (${processed.size} total)`);
+
+  // Write lastRunAt back to sources.json
+  const updatedConfig = { ...sourcesConfig, lastRunAt: new Date().toISOString() };
+  writeFileSync(SOURCES_CONFIG_PATH, JSON.stringify(updatedConfig, null, 2));
+  console.log('[pipeline] Updated sources.json lastRunAt');
 
   console.log('\n=== Pipeline complete ===');
 }

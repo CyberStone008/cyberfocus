@@ -1,0 +1,351 @@
+export type SourceStatus   = 'active' | 'idle' | 'failing' | 'paused';
+export type SourceType     = 'push' | 'pull';
+export type SourceCategory = 'research' | 'social';
+export type BoardId        = 'social' | 'research' | 'orgs';
+
+/** 所有可推送的菜单页面 */
+export const BOARDS: { id: BoardId; label: string; href: string }[] = [
+  { id: 'social',   label: 'AI 精选热点',  href: '/social' },
+  { id: 'research', label: 'AI 报告速览',  href: '/reports' },
+  { id: 'orgs',     label: '人服机构动态', href: '/orgs' },
+];
+
+export interface SourceDef {
+  id: string;               // matches article.source field
+  name: string;
+  abbr: string;             // 1-2 chars shown in avatar
+  avatarColor: string;      // CSS hex
+  label: string;            // e.g. "官方博客" "社区论坛"
+  description: string;
+  url: string;
+  type: SourceType;
+  frequency: string;        // "每天 10:00" / "每小时" etc.
+  category: SourceCategory; // 内容属性，不影响页面路由
+  boards: BoardId[];        // 推送到哪些菜单（可多选）
+  fetcherId?: string;       // optional: fetcher key when it differs from id
+}
+
+/** 取信源的有效 boards（优先使用用户覆盖，否则用默认值） */
+export function getEffectiveBoards(
+  sourceId: string,
+  defaultBoards: BoardId[],
+  overrides: Record<string, BoardId[]>,
+): BoardId[] {
+  return overrides[sourceId] ?? defaultBoards;
+}
+
+/* ── Research sources ── */
+export const RESEARCH_SOURCES: SourceDef[] = [
+  {
+    id: 'arXiv cs.AI',
+    name: 'arXiv cs.AI',
+    abbr: 'X',
+    avatarColor: '#1e293b',
+    label: '学术论文',
+    description: '全球最大预印本论文库，计算机科学 AI 方向最新研究。',
+    url: 'https://arxiv.org/list/cs.AI/recent',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['research'],
+  },
+  {
+    id: 'Anthropic Blog',
+    name: 'Anthropic',
+    abbr: 'A',
+    avatarColor: '#C9590C',
+    label: '官方博客',
+    description: 'Anthropic AI 安全研究、模型更新与技术解读。',
+    url: 'https://www.anthropic.com/news',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['research'],
+  },
+  {
+    id: 'OpenAI Blog',
+    name: 'OpenAI',
+    abbr: 'O',
+    avatarColor: '#000000',
+    label: '官方博客',
+    description: 'OpenAI 研究成果、产品动态与安全政策。',
+    url: 'https://openai.com/news',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['research'],
+  },
+  {
+    id: 'HuggingFace Daily',
+    name: 'HuggingFace Daily',
+    abbr: 'HF',
+    avatarColor: '#FF9D00',
+    label: '每日精选',
+    description: 'HuggingFace 社区基于点赞和影响力精选的高质量 AI 论文。',
+    url: 'https://huggingface.co/papers',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['research'],
+  },
+  {
+    id: 'DeepMind Blog',
+    name: 'Google DeepMind',
+    abbr: 'G',
+    avatarColor: '#1a73e8',
+    label: '官方博客',
+    description: 'DeepMind 前沿研究，涵盖强化学习、蛋白质折叠、通用 AI 等方向。',
+    url: 'https://deepmind.google/discover/blog/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['research'],
+  },
+];
+
+/* ── Social sources ── */
+export const SOCIAL_SOURCES: SourceDef[] = [
+  {
+    id: 'Hacker News',
+    name: 'Hacker News',
+    abbr: 'HN',
+    avatarColor: '#f97316',
+    label: '社区论坛',
+    description: 'Y Combinator 旗下科技社区，AI 话题热帖与讨论。',
+    url: 'https://news.ycombinator.com',
+    type: 'pull',
+    frequency: '每小时',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: 'Reddit ML',
+    name: 'Reddit r/MachineLearning',
+    abbr: 'Re',
+    avatarColor: '#ff4500',
+    label: '社区论坛',
+    description: 'Reddit 机器学习社区，研究讨论与行业动态。',
+    url: 'https://www.reddit.com/r/MachineLearning',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: 'Reddit LocalLLaMA',
+    name: 'Reddit r/LocalLLaMA',
+    abbr: 'RL',
+    avatarColor: '#ff6314',
+    label: '社区论坛',
+    description: 'Reddit 本地大模型社区，开源模型、微调与部署实践。',
+    url: 'https://www.reddit.com/r/LocalLLaMA',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: '量子位',
+    name: '量子位',
+    abbr: 'QW',
+    avatarColor: '#0066ff',
+    label: 'AI 媒体',
+    description: '国内头部 AI 资讯媒体，覆盖前沿研究与行业动态。',
+    url: 'https://www.qbitai.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: '雷锋网',
+    name: '雷锋网',
+    abbr: 'LF',
+    avatarColor: '#7c3aed',
+    label: 'AI 媒体',
+    description: '专注 AI 与科技的中文媒体，深度报道与产品动态。',
+    url: 'https://www.leiphone.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: '36氪',
+    name: '36氪',
+    abbr: '36',
+    avatarColor: '#059669',
+    label: '科技媒体',
+    description: '36氪科技资讯，涵盖 AI 创业、融资与产业动态。',
+    url: 'https://36kr.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+  {
+    id: 'Google AI News',
+    name: 'Google AI 资讯',
+    abbr: 'GN',
+    avatarColor: '#4285f4',
+    label: 'AI 新闻聚合',
+    description: '通过 Google News 聚合全球主流媒体的最新 AI 资讯，覆盖产品发布、研究突破、政策监管等话题。',
+    url: 'https://news.google.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'social',
+    boards: ['social'],
+  },
+];
+
+/* ── HR / Orgs sources ── */
+export const ORGS_SOURCES: SourceDef[] = [
+  // International
+  {
+    id: 'Korn Ferry',
+    name: 'Korn Ferry',
+    abbr: 'KF',
+    avatarColor: '#0a1628',
+    label: '猎头咨询',
+    description: '全球领先的组织咨询公司，专注高管搜寻、领导力发展及薪酬研究。',
+    url: 'https://www.kornferry.com/insights',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'Mercer',
+    name: 'Mercer',
+    abbr: 'MC',
+    avatarColor: '#00478f',
+    label: 'HR 咨询',
+    description: '全球人力资本与员工福利咨询领导者，发布年度薪酬调研和人才趋势报告。',
+    url: 'https://www.mercer.com/insights/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'ManpowerGroup',
+    name: 'ManpowerGroup',
+    abbr: 'MP',
+    avatarColor: '#e31837',
+    label: '灵活用工',
+    description: '全球人力资源解决方案领导者，季度发布就业展望调查报告。',
+    url: 'https://www.manpowergroup.com/workforce-insights/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'Randstad',
+    name: 'Randstad',
+    abbr: 'RS',
+    avatarColor: '#00549e',
+    label: '灵活用工',
+    description: '全球最大人力资源公司之一，发布 Workmonitor 全球工作趋势报告。',
+    url: 'https://www.randstad.com/workforce-insights/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'Adecco Group',
+    name: 'Adecco Group',
+    abbr: 'AD',
+    avatarColor: '#e2001a',
+    label: '灵活用工',
+    description: '全球人力资源服务集团，聚焦未来工作趋势与就业市场洞察。',
+    url: 'https://www.adeccogroup.com/future-of-work/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  // Domestic
+  {
+    id: '科锐国际',
+    name: '科锐国际',
+    abbr: 'KR',
+    avatarColor: '#0055a5',
+    label: '猎头招聘',
+    description: '中国领先的人才服务集团，提供专业猎头、RPO 及灵活用工服务。',
+    url: 'https://www.careerin.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'FESCO',
+    name: 'FESCO 外企服务',
+    abbr: 'FE',
+    avatarColor: '#003087',
+    label: '人力资源外包',
+    description: '北京外企人力资源服务有限公司，专注灵活用工与人力资源外包服务。',
+    url: 'https://www.fesco.com.cn',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'FESCO Adecco',
+    name: 'FESCO Adecco 外企德科',
+    abbr: 'FA',
+    avatarColor: '#005eb8',
+    label: '人力资源外包',
+    description: 'FESCO 与 Adecco 合资成立的外企德科人力资源服务有限公司，专注灵活用工、招聘外包及人事服务。',
+    url: 'https://www.fescoadecco.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: '中智咨询',
+    name: '中智咨询',
+    abbr: 'ZZ',
+    avatarColor: '#c8102e',
+    label: 'HR 咨询',
+    description: '中智集团旗下人力资本管理咨询机构，发布薪酬调研和人才报告。',
+    url: 'https://www.ciicsh.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: '智联招聘',
+    name: '智联招聘研究院',
+    abbr: 'ZL',
+    avatarColor: '#ff6600',
+    label: '招聘平台',
+    description: '智联招聘数据研究院，发布就业市场、薪酬调研及人才流动报告。',
+    url: 'https://www.zhaopin.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+  {
+    id: 'BOSS直聘',
+    name: 'BOSS直聘研究院',
+    abbr: 'BP',
+    avatarColor: '#36b37e',
+    label: '招聘平台',
+    description: 'BOSS直聘数据研究院，专注中高端人才市场、就业趋势与薪酬分析。',
+    url: 'https://www.zhipin.com',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
+];
+
+/** All sources combined */
+export const SOURCES: SourceDef[] = [...RESEARCH_SOURCES, ...SOCIAL_SOURCES, ...ORGS_SOURCES];

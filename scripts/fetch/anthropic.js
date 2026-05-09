@@ -1,5 +1,5 @@
 import { RateLimiter } from '../utils/rate-limiter.js';
-import { isTodayBJ, maxPerSource } from '../utils/date-filter.js';
+import { isRecentBJ, maxPerSource } from '../utils/date-filter.js';
 
 const SITEMAP_URL = 'https://www.anthropic.com/sitemap.xml';
 const MAX_NEW = maxPerSource();
@@ -32,6 +32,7 @@ function slugFromUrl(url) {
 async function fetchSitemapUrls() {
   const res = await fetch(SITEMAP_URL, {
     headers: { 'User-Agent': 'ai-research-aggregator/1.0' },
+    signal: AbortSignal.timeout(15_000),
   });
   const xml = await res.text();
 
@@ -71,6 +72,7 @@ export async function fetchAnthropic(processedIds) {
         await limiter.wait();
         const res = await fetch(url, {
           headers: { 'User-Agent': 'ai-research-aggregator/1.0' },
+          signal: AbortSignal.timeout(10_000),
         });
         if (!res.ok) continue;
 
@@ -80,8 +82,8 @@ export async function fetchAnthropic(processedIds) {
         const dateStr = extractDate(html);
 
         if (!title) continue;
-        // Only today's (Beijing time) posts
-        if (!isTodayBJ(dateStr)) continue;
+        // Only articles from the last 3 days (processedIds handles dedup)
+        if (!isRecentBJ(dateStr, 3)) continue;
 
         results.push({
           id: canonicalId,
@@ -96,6 +98,7 @@ export async function fetchAnthropic(processedIds) {
           authors: ['Anthropic'],
           institution: 'Anthropic',
           docType: 'Blog',
+          category: 'research',
         });
 
         console.log(`[anthropic] Added: ${slug}`);

@@ -1,20 +1,19 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import articles from '../../../data/articles.json';
-import { Article } from '../../types/article';
-import { ArticleHeader } from '../../components/ArticleHeader';
-import { MarkdownContent } from '../../components/MarkdownContent';
-import { TableOfContents } from '../../components/TableOfContents';
-import { ArticleNavigation } from '../../components/ArticleNavigation';
-import { ArticleFooter } from '../../components/ArticleFooter';
-import { ThemeToggle } from '../../components/ThemeToggle';
-import { extractToc } from '../../lib/toc';
+import articles from '../../../../data/articles.json';
+import { Article } from '../../../types/article';
+import { ArticleHeader } from '../../../components/ArticleHeader';
+import { MarkdownContent } from '../../../components/MarkdownContent';
+import { TableOfContents } from '../../../components/TableOfContents';
+import { ArticleNavigation } from '../../../components/ArticleNavigation';
+import { ArticleFooter } from '../../../components/ArticleFooter';
+import { ThemeToggle } from '../../../components/ThemeToggle';
+import { extractToc } from '../../../lib/toc';
 import styles from './page.module.css';
 
 const data = articles as Article[];
 
 export function generateStaticParams() {
-  // Only generate pages for articles that have full Markdown content
   return data
     .filter((a) => a.contentMd && a.slug)
     .map((a) => ({ slug: a.slug }));
@@ -42,7 +41,6 @@ export default async function ArticleDetailPage({
     notFound();
   }
 
-  // Determine prev/next by publishedAt order (desc)
   const withContent = data
     .filter((a) => a.contentMd && a.slug)
     .sort(
@@ -52,19 +50,35 @@ export default async function ArticleDetailPage({
   const prev = currentIndex > 0 ? withContent[currentIndex - 1] : undefined;
   const next = currentIndex < withContent.length - 1 ? withContent[currentIndex + 1] : undefined;
 
-  const toc = extractToc(article.contentMd);
+  // Strip the first heading from contentMd if it duplicates the titleZh shown in ArticleHeader
+  const contentMd = (() => {
+    const lines = article.contentMd.split('\n');
+    const firstHeadingIdx = lines.findIndex((l) => /^#{1,2}\s/.test(l));
+    if (firstHeadingIdx === -1) return article.contentMd;
+    const headingText = lines[firstHeadingIdx].replace(/^#{1,2}\s+/, '').replace(/\*\*/g, '').trim();
+    const titleText   = (article.titleZh ?? article.titleEn).replace(/\*\*/g, '').trim();
+    if (headingText === titleText) {
+      return lines.slice(0, firstHeadingIdx).concat(lines.slice(firstHeadingIdx + 1)).join('\n').trimStart();
+    }
+    return article.contentMd;
+  })();
+
+  const toc = extractToc(contentMd);
   const showToc = toc.length >= 3;
 
   return (
     <div className={styles.page}>
       <ThemeToggle />
       <nav className={styles.topNav}>
-        <Link href="/" className={styles.backLink}>
-          ← 返回首页
+        <Link
+          href={article.category === 'research' || article.seriesSlug ? '/reports' : '/feed'}
+          className={styles.backLink}
+        >
+          ← 返回列表
         </Link>
       </nav>
 
-      <div className={styles.layout}>
+      <div className={`${styles.layout} ${showToc ? styles.layoutWithSidebar : ''}`}>
         {showToc && (
           <aside className={styles.sidebar}>
             <TableOfContents entries={toc} />
@@ -80,7 +94,7 @@ export default async function ArticleDetailPage({
             </div>
           )}
 
-          <MarkdownContent content={article.contentMd} />
+          <MarkdownContent content={contentMd} />
 
           <ArticleFooter article={article} />
 

@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "reddit:1t7qfaq",
+    "slug": "reddit-1t7qfaq-qwen3-6-35b-a3b-uncensored-heretic-native-mtp-preserved-is-out-no",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7qfaq/qwen36_35b_a3b_uncensored_heretic_native_mtp/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7qfaq/qwen36_35b_a3b_uncensored_heretic_native_mtp/",
+    "publishedAt": "2026-05-09T01:06:22.000Z",
+    "titleEn": "Qwen3.6 35B A3B uncensored heretic Native MTP Preserved is Out Now With KLD 0.0015, 10/100 Refusals and the Full 19 MTPs Preserved and Retained, Available in Safetensors, GGUFs. NVFP4, NVFP4 GGUFs and GPTQ-Int4 Formats",
+    "titleZh": "Qwen3.6 35B A3B uncensored heretic Native MTP Preserved现已发布，KLD 0.0015，10/100拒绝率，完整保留19个MTP，支持Safetensors、GGUFs、NVFP4、NVFP4 GGUFs和GPTQ-Int4格式",
+    "abstractEn": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved: [https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved)\n\nllmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP",
+    "abstractZh": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved: [https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved](https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved)\n\nllmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP",
+    "authors": [
+      "u/LLMFan46"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 33,
+    "commentCount": 3,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:48070454",
+    "slug": "hn-48070454-dirty-frag-linux-kernel-local-privilege-escalation-vulnerability-mit",
+    "source": "Hacker News",
+    "sourceUrl": "https://ubuntu.com/blog/dirty-frag-linux-vulnerability-fixes-available",
+    "commentUrl": "https://news.ycombinator.com/item?id=48070454",
+    "publishedAt": "2026-05-09T00:25:50.000Z",
+    "titleEn": "Dirty Frag Linux kernel local privilege escalation vulnerability mitigations",
+    "titleZh": "Dirty Frag Linux 内核本地提权漏洞缓解措施",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "zajio1am"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "hn:48070181",
+    "slug": "hn-48070181-the-fcc-wants-your-id-before-you-get-a-phone-number",
+    "source": "Hacker News",
+    "sourceUrl": "https://reclaimthenet.org/the-fcc-wants-your-id-before-you-get-a-phone-number",
+    "commentUrl": "https://news.ycombinator.com/item?id=48070181",
+    "publishedAt": "2026-05-08T23:49:04.000Z",
+    "titleEn": "The FCC Wants Your ID Before You Get a Phone Number",
+    "titleZh": "FCC 要求你在获取电话号码前提供身份证明",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "bilsbie"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 6,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7op5e",
+    "slug": "reddit-1t7op5e-tribue-to-aprils-llm-releases",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://v.redd.it/1knzmj9a300h1",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7op5e/tribue_to_aprils_llm_releases/",
+    "publishedAt": "2026-05-08T23:48:14.000Z",
+    "titleEn": "Tribue to April's LLM releases",
+    "titleZh": "致敬 4 月发布的 LLM",
+    "abstractEn": "April 2026 was a turning point for local LLMs.  \nThs is my tribute.",
+    "abstractZh": "2026 年 4 月是本地 LLM 的转折点。\n\n这是我的致敬。",
+    "authors": [
+      "u/Everlier"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "id": "hn:48070161",
+    "slug": "hn-48070161-the-tax-of-living-in-a-low-trust-society-how-collapsed-trust-costs-y",
+    "source": "Hacker News",
+    "sourceUrl": "https://yourbrainonmoney.substack.com/p/low-trust-society-cost",
+    "commentUrl": "https://news.ycombinator.com/item?id=48070161",
+    "publishedAt": "2026-05-08T23:46:27.000Z",
+    "titleEn": "The Tax of Living in a Low-Trust Society: How Collapsed Trust Costs You",
+    "titleZh": "生活在低信任社会的代价: 信任崩溃如何让你付出代价",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ot"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48070152",
+    "slug": "hn-48070152-u-s-schools-face-a-crisis-as-the-number-of-children-drops",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.nytimes.com/2026/05/08/upshot/public-schools-enrollment-crisis.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48070152",
+    "publishedAt": "2026-05-08T23:45:27.000Z",
+    "titleEn": "U.S. Schools Face a Crisis as the Number of Children Drops",
+    "titleZh": "美国学校面临危机,儿童数量下降",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Teever"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7mdrl",
+    "slug": "reddit-1t7mdrl-mtp-is-all-about-acceptance-rate",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7mdrl/mtp_is_all_about_acceptance_rate/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7mdrl/mtp_is_all_about_acceptance_rate/",
+    "publishedAt": "2026-05-08T22:11:38.000Z",
+    "titleEn": "MTP is all about acceptance rate",
+    "titleZh": "MTP 的关键在于接受率",
+    "abstractEn": "So I was very excited about the MTP stuff especially since Gemma4 has become my \"daily driver\" for some stuff. I grabbed the latest mlx-vlm and did some tests and found it disappointing.\n\n\n| Workload | MTP off | MTP on | Result | Draft accept rate |\n|---|---|---|---|---|\n| Code generation | 75 tok/s",
+    "abstractZh": "我对 MTP 技术很兴奋，尤其是因为 Gemma4 已经成为我某些场景的「主力工具」。我下载了最新的 mlx-vlm 并进行测试，结果令人失望。\n\n\n| 工作负载 | MTP 关闭 | MTP 开启 | 结果 | 草稿接受率 |\n|---||---|---|---|| 代码生成 | 75 tok/s",
+    "authors": [
+      "u/Hydroskeletal"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 24,
+    "commentCount": 8,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48069323",
+    "slug": "hn-48069323-anthropic-weighs-deal-for-near-1t-valuation-as-revenue-surges",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
+    "commentUrl": "https://news.ycombinator.com/item?id=48069323",
+    "publishedAt": "2026-05-08T22:01:27.000Z",
+    "titleEn": "Anthropic weighs deal for near $1T valuation as revenue surges",
+    "titleZh": "随着收入激增,Anthropic 考虑以近 1 万亿美元估值达成交易",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "alecco"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "hn:48069166",
+    "slug": "hn-48069166-asml-to-invest-1-5b-in-mistral-at-over-11b-valuation",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.calcalistech.com/ctechnews/article/bycca4sclg",
+    "commentUrl": "https://news.ycombinator.com/item?id=48069166",
+    "publishedAt": "2026-05-08T21:45:36.000Z",
+    "titleEn": "ASML to invest $1.5B in Mistral at over $11B valuation",
+    "titleZh": "ASML 将以超过 110 亿美元估值向 Mistral 投资 15 亿美元",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "tcp_handshaker"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 11,
+    "commentCount": 1,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7l56a",
+    "slug": "reddit-1t7l56a-qwen-35b-a3b-is-very-usable-with-12gb-of-vram",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7l56a/qwen_35ba3b_is_very_usable_with_12gb_of_vram/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7l56a/qwen_35ba3b_is_very_usable_with_12gb_of_vram/",
+    "publishedAt": "2026-05-08T21:22:55.000Z",
+    "titleEn": "Qwen 35B-A3B is very usable with 12GB of VRAM",
+    "titleZh": "Qwen 35B-A3B 在 12GB 显存下相当实用",
+    "abstractEn": "Hardware:\n\n    RTX 3060 12GB\n    32GB DDR4-3200\n    Windows\n    CUDA 13.x\n\nModel:\n\n    Qwen3.6-35B-A3B-MTP-IQ4_XS.gguf\n\nThe model is a 35B MoE, so `-ncmoe` matters a lot. Lower `-ncmoe` means more MoE blocks stay on GPU.\n\n# Main takeaway\n\n**12GB VRAM feels like a very practical size for this model.*",
+    "abstractZh": "硬件配置：\n\n    RTX 3060 12GB\n    32GB DDR4-3200\n    Windows\n    CUDA 13.x\n\n模型：\n\n    Qwen3.6-35B-A3B-MTP-IQ4_XS.gguf\n\n这是一个 35B MoE 模型，所以 `-ncmoe` 参数很重要。更低的 `-ncmoe` 意味着更多 MoE 模块留在 GPU 上。\n\n# 主要结论\n\n**12GB 显存对于这个模型来说是非常实用的容量。**",
+    "authors": [
+      "u/jwestra"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 74,
+    "commentCount": 15,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1t7kyju",
+    "slug": "reddit-1t7kyju-got-mtp-turboquant-running-qwen3-6-27b-80-t-s-at-262k-context-on",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kyju/got_mtp_turboquant_running_qwen3627b_80_ts_at/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kyju/got_mtp_turboquant_running_qwen3627b_80_ts_at/",
+    "publishedAt": "2026-05-08T21:15:59.000Z",
+    "titleEn": "Got MTP + TurboQuant running — Qwen3.6-27B -- 80+ t/s at 262K context on a single RTX 4090",
+    "titleZh": "成功运行 MTP + TurboQuant — Qwen3.6-27B 在单张 RTX 4090 上实现 80+ t/s，支持 262K 上下文",
+    "abstractEn": "So I've been messing around trying to get MTP working alongside TBQ4\\_0 (TurboQuant's lossless 4.25 bpv KV cache) on Qwen3.6-27B for my own use. \n\n  \nSo after a day of vibecoding I think I may have gotten something viable. Went from about 43 t/s when I first got it compiling to 80-87 t/s after optim",
+    "abstractZh": "我一直在尝试让 MTP 与 TBQ4\\_0（TurboQuant 的无损 4.25 bpv KV 缓存）在 Qwen3.6-27B 上协同工作，供个人使用。\n  \n经过一天的摸鱼式编码，我可能找到了可行的方案。从首次编译成功时的约 43 t/s，优化后达到 80-87 t/s",
+    "authors": [
+      "u/indrasmirror"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 58,
+    "commentCount": 50,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "reddit:1t7kgy4",
+    "slug": "reddit-1t7kgy4-new-moe-from-ai2-emo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/zonmo2y79zzg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7kgy4/new_moe_from_ai2_emo/",
+    "publishedAt": "2026-05-08T20:57:58.000Z",
+    "titleEn": "new MoE from ai2, EMO",
+    "titleZh": "ai2 推出新的 MoE 模型 EMO",
+    "abstractEn": "new MoE release from ai2 - EMO, 1b-active/14b-total trained on 1t tokens\n\ninteresting thing is document-level routing. experts cluster around domains like health, news, etc. instead of surface patterns\n\nmodels: [https://huggingface.co/collections/allenai/emo](https://huggingface.co/collections/allen",
+    "abstractZh": "ai2 发布了新的 MoE 模型 EMO，1b 激活/14b 总参数，在 1t tokens 上训练完成\n\n有趣的是文档级路由机制。专家按健康、新闻等领域聚类，而非表面模式\n\n模型链接：[https://huggingface.co/collections/allenai/emo](https://huggingface.co/collections/allen",
+    "authors": [
+      "u/ghostderp"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 69,
+    "commentCount": 9,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "hn:48067119",
+    "slug": "hn-48067119-google-broke-recaptcha-for-de-googled-android-users",
+    "source": "Hacker News",
+    "sourceUrl": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
+    "commentUrl": "https://news.ycombinator.com/item?id=48067119",
+    "publishedAt": "2026-05-08T18:45:58.000Z",
+    "titleEn": "Google broke reCAPTCHA for de-googled Android users",
+    "titleZh": "Google 破坏了去 Google 化 Android 用户的 reCAPTCHA",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "anonymousiam"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 480,
+    "commentCount": 158,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7g70j",
+    "slug": "reddit-1t7g70j-vllm-rocm-has-been-added-to-lemonade-as-an-experimental-backend",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/kesrnt4lgyzg1.png",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7g70j/vllm_rocm_has_been_added_to_lemonade_as_an/",
+    "publishedAt": "2026-05-08T18:21:15.000Z",
+    "titleEn": "vLLM ROCm has been added to Lemonade as an experimental backend",
+    "titleZh": null,
+    "abstractEn": "vLLM has the ability to run .safetensors LLMs before they are converted to GGUF and represents a new engine to explore. I personally had never tried it out until u/krishna2910-amd/ u/mikkoph and u/sa1sr1 made it as easy as running llama.cpp in Lemonade:\n\n```\nlemonade backends install vllm:rocm\nlemon",
+    "abstractZh": null,
+    "authors": [
+      "u/jfowers_amd"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 211,
+    "commentCount": 57,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "hn:48066592",
+    "slug": "hn-48066592-teaching-claude-why",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.anthropic.com/research/teaching-claude-why",
+    "commentUrl": "https://news.ycombinator.com/item?id=48066592",
+    "publishedAt": "2026-05-08T17:59:41.000Z",
+    "titleEn": "Teaching Claude Why",
+    "titleZh": "教授 Claude 为什么",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pretext"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 63,
+    "commentCount": 12,
+    "tags": []
+  },
+  {
+    "id": "hn:48066524",
+    "slug": "hn-48066524-ai-is-breaking-two-vulnerability-cultures",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+    "commentUrl": "https://news.ycombinator.com/item?id=48066524",
+    "publishedAt": "2026-05-08T17:55:08.000Z",
+    "titleEn": "AI is breaking two vulnerability cultures",
+    "titleZh": "AI 正在打破两种漏洞文化",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "speckx"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 202,
+    "commentCount": 85,
+    "tags": []
+  },
+  {
+    "id": "hn:48066322",
+    "slug": "hn-48066322-bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
+    "commentUrl": "https://news.ycombinator.com/item?id=48066322",
+    "publishedAt": "2026-05-08T17:38:11.000Z",
+    "titleEn": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
+    "titleZh": "Bleeding Llama: Ollama 中的关键未认证内存泄露漏洞",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "nateb2022"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7et9q",
+    "slug": "reddit-1t7et9q-testing-local-llms-in-practice-code-generation-quality-vs-speed",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/pnq9ydug8yzg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7et9q/testing_local_llms_in_practice_code_generation/",
+    "publishedAt": "2026-05-08T17:33:26.000Z",
+    "titleEn": "Testing Local LLMs in Practice: Code Generation, Quality vs. Speed",
+    "titleZh": "本地 LLM 实践测试：代码生成、质量 vs 速度",
+    "abstractEn": "Hello,\n\nI spent the last few months building an AI agent that autonomously writes Go code using local LLMs. The primary use case is log parser generation for SIEM pipelines.\n\nA large part of the work ended up being evaluation itself: how do you objectively measure whether a model is actually useful ",
+    "abstractZh": "你好，\n\n我过去几个月一直在构建一个 AI 代理，使用本地 LLM 自主编写 Go 代码。主要用例是为 SIEM 管道生成日志解析器。\n\n很大一部分工作最终变成了评估本身：你如何客观地衡量一个模型是否真的有用",
+    "authors": [
+      "u/Icy_Programmer7186"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 14,
+    "commentCount": 13,
+    "tags": [
+      "Resources"
+    ]
+  },
+  {
+    "id": "hn:48066038",
+    "slug": "hn-48066038-court-to-doge-asking-chatgpt-is-this-dei-is-not-proper-legal-process",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.techdirt.com/2026/05/08/court-to-doge-bros-asking-chatgpt-yo-is-this-dei-is-not-proper-legal-process-also-a-first-amendment-violation/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48066038",
+    "publishedAt": "2026-05-08T17:14:52.000Z",
+    "titleEn": "Court to DOGE: Asking ChatGPT 'Is This DEI?' Is Not Proper Legal Process",
+    "titleZh": "法院对 DOGE: 询问 ChatGPT 《这是 DEI 吗？》不是正当法律程序",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "hn_acker"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 73,
+    "commentCount": 16,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7d9h0",
+    "slug": "reddit-1t7d9h0-the-amount-of-new-agent-apis-harnesses-are-dizzying-with-everyone",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7d9h0/the_amount_of_new_agent_apisharnesses_are/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7d9h0/the_amount_of_new_agent_apisharnesses_are/",
+    "publishedAt": "2026-05-08T16:39:44.000Z",
+    "titleEn": "The amount of new agent APIs/harnesses are dizzying, with everyone and their dog releasing their own. Can we do a compilation thread of comparisons?",
+    "titleZh": "新的 Agent API/框架让人眼花缭乱，每个人都在发布自己的。能否做一个对比汇总帖？",
+    "abstractEn": "Assuming you have tried multiple, please compare them. Please also post your software stack, along with any modifications.",
+    "abstractZh": "如果你尝试过多个框架，请进行对比。同时请分享你的软件栈及任何修改内容。",
+    "authors": [
+      "u/jinnyjuice"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 61,
+    "commentCount": 46,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48065254",
+    "slug": "hn-48065254-can-llms-model-real-world-systems-in-tla",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48065254",
+    "publishedAt": "2026-05-08T16:21:56.000Z",
+    "titleEn": "Can LLMs model real-world systems in TLA+?",
+    "titleZh": "LLM 能否在 TLA+ 中建模真实世界系统？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "mad"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 32,
+    "commentCount": 4,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t7cqg9",
+    "slug": "reddit-1t7cqg9-you-can-do-cuda-inference-on-an-apple-silicon-mac-with-pci-passth",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7cqg9/you_can_do_cuda_inference_on_an_apple_silicon_mac/",
+    "publishedAt": "2026-05-08T16:20:42.000Z",
+    "titleEn": "You can do CUDA inference on an Apple Silicon Mac with PCI Passthrough",
+    "titleZh": "你可以在 Apple Silicon Mac 上通过 PCI 直通进行 CUDA 推理",
+    "abstractEn": "I have been working on a project to adapt QEMU, running on macOS, to support passing through a GPU into a Linux VM. I wrote this post walking through some of the interesting challenges there, along with benchmarks. The post focuses a lot on gaming, but there are AI benchmarks there as well.",
+    "abstractZh": "我一直在做一个项目，将运行在 macOS 上的 QEMU 改造为支持将 GPU 直通到 Linux 虚拟机。我写了这篇文章，梳理了其中的一些有趣挑战，并提供了基准测试。文章主要关注游戏，但也包含 AI 基准测试。",
+    "authors": [
+      "u/scottjgo"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 34,
+    "commentCount": 9,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "reddit:1t7cf7r",
+    "slug": "reddit-1t7cf7r-what-is-the-next-sota-model-you-are-excited-about",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7cf7r/what_is_the_next_sota_model_you_are_excited_about/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7cf7r/what_is_the_next_sota_model_you_are_excited_about/",
+    "publishedAt": "2026-05-08T16:09:21.000Z",
+    "titleEn": "What is the next SOTA model you are excited about?",
+    "titleZh": "你期待的下一个 SOTA 模型是什么？",
+    "abstractEn": "We had deepseek v4 preview recently but it wasn't much better than v3.2. What is the next SOTA local/open model you are excited about?",
+    "abstractZh": "我们最近看到了 DeepSeek V4 预览版，但它并没有比 V3.2 好太多。你期待的下一个 SOTA 本地/开源模型是什么？",
+    "authors": [
+      "u/MrMrsPotts"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 19,
+    "commentCount": 89,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t7bvmq",
+    "slug": "reddit-1t7bvmq-ring-2-6-1t",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bvmq/ring_26_1t/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bvmq/ring_26_1t/",
+    "publishedAt": "2026-05-08T15:50:00.000Z",
+    "titleEn": "Ring 2.6 1T",
+    "titleZh": "Ring 2.6 1T",
+    "abstractEn": "Listed on Open Router only so far: [https://openrouter.ai/inclusionai/ring-2.6-1t:free](https://openrouter.ai/inclusionai/ring-2.6-1t:free)\n\nLing 2.6 is open weights, so was Ring 2.5 so hopefully this will be released as well.",
+    "abstractZh": "目前仅在 Open Router 上列出：[https://openrouter.ai/inclusionai/ring-2.6-1t:free](https://openrouter.ai/inclusionai/ring-2.6-1t:free)\n\nLing 2.6 是开源权重，Ring 2.5 也是，所以希望这个也会发布。",
+    "authors": [
+      "u/Middle_Bullfrog_6173"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 38,
+    "commentCount": 15,
+    "tags": [
+      "New Model"
+    ]
+  },
+  {
+    "id": "reddit:1t7btln",
+    "slug": "reddit-1t7btln-unpopular-opinion-the-dgx-spark-forum-community-of-devs-is-talent",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7btln/unpopular_opinion_the_dgx_spark_forum_community/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7btln/unpopular_opinion_the_dgx_spark_forum_community/",
+    "publishedAt": "2026-05-08T15:47:54.000Z",
+    "titleEn": "Unpopular Opinion: The DGX Spark Forum community of devs is talented AF and will make the crippled hardware a success through their sheer force of will.",
+    "titleZh": " unpopular 观点：DGX Spark 开发者社区才华横溢，凭借纯粹意志力让受限硬件获得成功",
+    "abstractEn": "There is a lot of disdain for DGX Sparks here on the sub. And I get it. A lot of people say “It could have been great if it had been better memory bandwidth”, “SM-121 is a fake /second-class Blackwell chip” yadda, yadda. These criticisms are valid. \n\nI bought one anyway because I’m pursuing a Master",
+    "abstractZh": "本版对 DGX Sparks 存在很多不屑。我理解这一点。很多人说「如果内存带宽更好就好了」、「SM-121 是假货/二等 Blackwell 芯片」之类的批评。这些批评确实有理。\n\n我还是买了一个，因为我正在攻读硕士学位",
+    "authors": [
+      "u/Porespellar"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 262,
+    "commentCount": 148,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t7bfpw",
+    "slug": "reddit-1t7bfpw-reports-suggest-deepseek-is-seeking-7-35-billion-in-funding-and-p",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bfpw/reports_suggest_deepseek_is_seeking_735_billion/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bfpw/reports_suggest_deepseek_is_seeking_735_billion/",
+    "publishedAt": "2026-05-08T15:34:12.000Z",
+    "titleEn": "Reports suggest DeepSeek is seeking $7.35 billion in funding and plans to release its V4.1 update next month.",
+    "titleZh": "报道显示 DeepSeek 正寻求 73.5 亿美元融资，计划下月发布 V4.1 更新",
+    "abstractEn": "DeepSeek Reportedly Seeking to Raise Over RMB 50 Billion ($7.35 Billion), Accelerating Its Commercialization and Monetization Strategy\n\nAccording to two people familiar with the matter, DeepSeek founder and CEO Liang Wenfeng plans to contribute the maximum allowable amount in the company’s first fun",
+    "abstractZh": "据报道 DeepSeek 寻求筹集超过 500 亿元人民币（73.5 亿美元），加速商业化和变现战略\n\n据两位知情人士透露，DeepSeek 创始人兼 CEO 梁文锋计划在公司首轮融",
+    "authors": [
+      "u/External_Mood4719"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 90,
+    "commentCount": 27,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "hn:48064236",
+    "slug": "hn-48064236-sandboxing-aiops-and-agentic-ai-security",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.cosmonic.com/engineering/aiops-and-agentic-ai-security-in-a-componentized-world/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48064236",
+    "publishedAt": "2026-05-08T15:04:20.000Z",
+    "titleEn": "Sandboxing AIOps and Agentic AI Security",
+    "titleZh": "AIOps 和智能体 AI 安全的沙箱化",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "mendyberger"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 10,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-qmyczgke8pn9ddrk-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/qMyCzGke8pn9Ddrk.html",
+    "publishedAt": "2026-05-08T14:36:00.000Z",
+    "titleEn": "火山引擎携手中国移动，首创机密模型服务新模式",
+    "titleZh": "火山引擎携手中国移动，首创机密模型服务新模式",
+    "abstractEn": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布“移动引擎机密模型服务”专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。\n\n【中国移动与火山引擎发布“移动引擎机密模型服务”】\n通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的“更优解”。\n目前，该服务已上线豆包视频生成模型Seedance 2.0。作为视频生成领域的全球SOTA模型，Seedance 2.0支持文字、图片、音频、视频四种模态输入，集成了目前业界最全面的多模态内容参考和编辑能力；同时，它在复杂交互和运动场景下的可用率更",
+    "abstractZh": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布移动引擎机密模型服务专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。\n\n【中国移动与火山引擎发布移动引擎机密模型服务】\n通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的更优解。\n目前，该服务已上线豆包视频生成模型Seedance 2.0。作为视频生成领域的全球SOTA模型，Seedance 2.0支持文字、图片、音频、视频四",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t79nq0",
+    "slug": "reddit-1t79nq0-rant-make-your-benchmarks-realistic",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t79nq0/rant_make_your_benchmarks_realistic/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t79nq0/rant_make_your_benchmarks_realistic/",
+    "publishedAt": "2026-05-08T14:30:37.000Z",
+    "titleEn": "(Rant ;)) Make your benchmarks realistic",
+    "titleZh": "（吐槽：）让基准测试更贴近现实",
+    "abstractEn": "Everybody here is posting their optimizations for running different models - thats good but make these benchmark realistic as speed is not one factor to run llm effectively.\n\n1. Context size is key - with agentic/coding/rag work you need to have proper ctx size, so if you want to benchmark do round ",
+    "abstractZh": "这里大家都在发布运行不同模型的优化方案——这很好，但请让基准测试更贴近现实，因为速度不是有效运行 LLM 的唯一因素。\n\n1. 上下文大小是关键——在代理/编码/RAG 工作中，你需要合适的上下文大小，所以如果你要做基准测试，请做",
+    "authors": [
+      "u/AdamLangePL"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 40,
+    "commentCount": 20,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "reddit:1t79ayh",
+    "slug": "reddit-1t79ayh-z-lab-released-gemma-4-26b-a4b-it-dflash-anybody-tried-it-yet",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t79ayh/zlab_released_gemma426ba4bitdflash_anybody_tried/",
+    "publishedAt": "2026-05-08T14:18:09.000Z",
+    "titleEn": "z-lab released gemma-4-26B-A4B-it-DFlash. Anybody tried it yet?",
+    "titleZh": "z-lab 发布 gemma-4-26B-A4B-it-DFlash，有人尝试了吗？",
+    "abstractEn": "Past few days, its all been about MTPs. Somehow people missed out the fact that Z lab released the Dflash for Gemma4 26B a couple of days ago. As far as my understanding goes, Dflash should be a better alternative than MTP because of faster parallel block diffusion drafting and the fact that it is s",
+    "abstractZh": "最近几天都在讨论 MTP。不知为何大家忽略了 Z 几天前发布的 Gemma4 26B 的 Dflash 版本。据我理解，由于更快的并行块扩散草稿生成以及其本身是",
+    "authors": [
+      "u/PaceZealousideal6091"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 114,
+    "commentCount": 22,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48063548",
+    "slug": "hn-48063548-show-hn-git-for-ai-agents",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/regent-vcs/re_gent",
+    "commentUrl": "https://news.ycombinator.com/item?id=48063548",
+    "publishedAt": "2026-05-08T14:15:36.000Z",
+    "titleEn": "Show HN: Git for AI Agents",
+    "titleZh": "Show HN: AI Agent 的 Git",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "doshay"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 92,
+    "commentCount": 44,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t796qe",
+    "slug": "reddit-1t796qe-gemma-4-26b-hits-600-tok-s-on-one-rtx-5090",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
+    "publishedAt": "2026-05-08T14:13:52.000Z",
+    "titleEn": "Gemma 4 26B Hits 600 Tok/s on One RTX 5090",
+    "titleZh": "Gemma 4 26B 在单张 RTX 5090 上达到 600 Tok/s",
+    "abstractEn": "I ran a benchmark to see how much DFlash speculative decoding actually helps in vLLM.\n\nSetup:\n\n* GPU: RTX 5090, 32GB VRAM\n* vLLM: 0.19.2rc1\n* Main model: cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit\n* Draft model: z-lab/gemma-4-26B-A4B-it-DFlash\n* Workload: random dataset, 256 input tokens, 1024 output toke",
+    "abstractZh": "我运行了一次基准测试，看看 DFlash 推测解码在 vLLM 中究竟有多大帮助。\n\n测试配置：\n\n* GPU: RTX 5090, 32GB 显存\n* vLLM: 0.19.2rc1\n* 主模型: cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit\n* 草稿模型: z-lab/gemma-4-26B-A4B-it-DFlash\n* 工作负载: 随机数据集，256 输入 tokens，1024 输出 toke",
+    "authors": [
+      "u/chain-77"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 100,
+    "commentCount": 46,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48062745",
+    "slug": "hn-48062745-podman-rootless-containers-and-the-copy-fail-exploit",
+    "source": "Hacker News",
+    "sourceUrl": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48062745",
+    "publishedAt": "2026-05-08T13:22:33.000Z",
+    "titleEn": "Podman rootless containers and the Copy Fail exploit",
+    "titleZh": "Podman 无根容器与 Copy Fail 漏洞",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ggpsv"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 115,
+    "commentCount": 23,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-oh9cnfrzhhooda9n-html",
+    "slug": "dumate-pinchbench-anthropic",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/Oh9CnFrZHHOodA9n.html",
+    "publishedAt": "2026-05-08T10:36:00.000Z",
+    "titleEn": "百度搭子DuMate登顶PinchBench，超越Anthropic拿下全球龙虾执行争霸赛冠军",
+    "titleZh": "百度搭子DuMate登顶PinchBench，超越Anthropic拿下全球龙虾执行争霸赛冠军",
+    "abstractEn": "5月8日凌晨，百度搭子DuMate登顶智能体评测基准PinchBench榜首，并在前5位中占据3席，超越Anthropic和OpenAI拿下全球龙虾执行争霸赛冠军。在另外一项DeepResearch深度研究榜单中，DuMate同样位列第一。\nPinchBench是OpenClaw赛道最能体现Agent真实工作能力的评测基准，重点考察Agent在23个真实工作场景下147个任务的多步推理、工具调用和任务闭环能力，并从成功率、速度、成本三个维度综合排名。榜单显示，DuMate以93.3%和93.2%的总成绩包揽前两名。作为对照，Anthropic和OpenAI的同款模型场景下的成绩分别为89.0%和91.6%。这意味着，同一模型在DuMate框架中，展现出更强的执行力。\n \n超越原生表现的技术基础，是DuMate的端云协同Harness架构。该系统在任务到达时进行意图识别和敏感度判断，隐私相关",
+    "abstractZh": "5月8日凌晨，百度搭子DuMate登顶智能体评测基准PinchBench榜首，并在前5位中占据3席，超越Anthropic和OpenAI拿下全球龙虾执行争霸赛冠军。在另外一项DeepResearch深度研究榜单中，DuMate同样位列第一。\nPinchBench是OpenClaw赛道最能体现Agent真实工作能力的评测基准，重点考察Agent在23个真实工作场景下147个任务的多步推理、工具调用和任务闭环能力，并从成功率、速度、成本三个维度综合排名。榜单显示，DuMate以93.3%和93.2%的总成绩包揽前两名。作为对照，Anthropic和OpenAI的同款模型场景下的成绩分别为89.0%和91.6%。这意味着，同一模型在DuMate框架中，展现出更强的执行力。\n \n超越原生表现的技术基",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-azwpqemdsrb841i1-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/aZWpqeMDsRB841I1.html",
+    "publishedAt": "2026-05-08T10:23:00.000Z",
+    "titleEn": "中国移动与火山引擎推出机密模型服务，为企业提供安全可信AI服务",
+    "titleZh": "中国移动与火山引擎推出机密模型服务，为企业提供安全可信AI服务",
+    "abstractEn": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布“移动引擎机密模型服务”专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。\n \n【中国移动与火山引擎发布“移动引擎机密模型服务”】\n通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的“更优解”。\n目前，该服务已上线豆包视频生成模型Seedance 2.0。作为视频生成领域的全球SOTA模型，Seedance 2.0支持文字、图片、音频、视频四种模态输入，集成了目前业界最全面的多模态内容参考和编辑能力；同时，它在复杂交互和运动场景下的可用率",
+    "abstractZh": "5月8日，在2026移动云大会上，中国移动与火山引擎正式发布移动引擎机密模型服务专区，为各行业提供兼具技术领先与安全可信的AI服务，包括豆包大模型MaaS服务、Agent开发平台和工具等。\n \n【中国移动与火山引擎发布移动引擎机密模型服务】\n通过在移动云上构建安全可信的机密执行环境，该服务让豆包大模型在推理过程中保持端到端加密，让整个推理过程可追溯可审计；同时实现零硬件投入，全托管免运维。后续还将集成HiAgent、Arkclaw 等智能体开发平台和工具，并逐步提供一系列开箱即用的行业智能体，打造先进技术、安全合规与成本可控的更优解。\n目前，该服务已上线豆包视频生成模型Seedance 2.0。作为视频生成领域的全球SOTA模型，Seedance 2.0支持文字、图片、音频、视频",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t72tk9",
+    "slug": "reddit-1t72tk9-ds4-a-deepseek-4-flash-specific-inference-engine-for-128gb-macboo",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://github.com/antirez/ds4",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t72tk9/ds4_a_deepseek_4_flash_specific_inference_engine/",
+    "publishedAt": "2026-05-08T09:26:04.000Z",
+    "titleEn": "DS4: a DeepSeek 4 flash specific inference engine for 128gb MacBooks",
+    "titleZh": "DS4：专为 128GB MacBook 打造的 DeepSeek 4 Flash 推理引擎",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/antirez"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 98,
+    "commentCount": 39,
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "id": "reddit:1t72aui",
+    "slug": "reddit-1t72aui-4gb-gemini-nano-model-gguf-anyone",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t72aui/4gb_gemini_nano_model_gguf_anyone/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t72aui/4gb_gemini_nano_model_gguf_anyone/",
+    "publishedAt": "2026-05-08T08:56:48.000Z",
+    "titleEn": "4GB \"Gemini Nano\" model GGUF anyone?",
+    "titleZh": "有人有 4GB 的 'Gemini Nano' 模型 GGUF 吗？",
+    "abstractEn": "Hi everyone,\n\nI saw an article saying Chrome silently downloads a \\~4GB AI model (likely \"Gemini Nano\") to your computer for features like text summarization. \n\nTwo questions:\n\n1. What is the exact name/version of this model?\n2. Is there a **GGUF** file available for download so I can run it locally",
+    "abstractZh": "大家好，\n\n我看到一篇文章说 Chrome 会默默下载一个约 4GB 的 AI 模型（可能是 'Gemini Nano'）到你的电脑，用于文本摘要等功能。\n\n两个问题：\n\n1. 这个模型的准确名称/版本是什么？\n2. 是否有可下载的 **GGUF** 文件，以便我在本地运行它",
+    "authors": [
+      "u/TruckUseful4423"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 86,
+    "commentCount": 33,
+    "tags": [
+      "Question | Help"
+    ]
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-iaoqscd9vnjvkekb-html",
+    "slug": "ai-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/iAOqSCD9VnjVkekb.html",
+    "publishedAt": "2026-05-08T08:55:00.000Z",
+    "titleEn": "当AI开始懂情绪，AI奇妙物语点亮全民创意风潮",
+    "titleZh": "当AI开始懂情绪，AI奇妙物语点亮全民创意风潮",
+    "abstractEn": "2026年社交网络的“活人感”，一定是AI给的。从朋友圈的“赛博旅行照”到聊天框里的“AI扩图”，生成式AI已不再是极客的玩具，而是普通人记录生活、表达情绪的第六感。当技术门槛被踏平，一场关于“谁更会玩”的创意竞赛悄然开启。\n近日，由「AI奇妙物语」与安慕希联合发起的“即梦X安慕希整颗蓝莓AI创作大赛” 正在社交平台卷起一场创意风暴。这场事关想象力的全民狂欢折射出的是“AI奇妙物语”IP的先锋创意和贴近大众生活的特质，也为行业提供了一个“AI+艺术+品牌”深度融合的样本。\n用AI解构生活，给日常加上奇幻滤镜\n「AI奇妙物语」以“先锋影像”为定位，以“东方梦境”为美学基调。它的诞生就是要打破大众对AI只是毫无感情的工具的固有认知，传递出“生活不普通，AI让它更奇妙”的态度。在这里，AI是用户最具想象力的“搭子”，它接的住每一个奇思妙想，用突破现实的边界的方式，把平凡生活里的细碎瞬间，变成或奇",
+    "abstractZh": "2026年社交网络的活人感，一定是AI给的。从朋友圈的赛博旅行照到聊天框里的AI扩图，生成式AI已不再是极客的玩具，而是普通人记录生活、表达情绪的第六感。当技术门槛被踏平，一场关于谁更会玩的创意竞赛悄然开启。\n近日，由AI奇妙物语与安慕希联合发起的即梦X安慕希整颗蓝莓AI创作大赛 正在社交平台卷起一场创意风暴。这场事关想象力的全民狂欢折射出的是AI奇妙物语IP的先锋创意和贴近大众生活的特质，也为行业提供了一个AI+艺术+品牌深度融合的样本。\n用AI解构生活，给日常加上奇幻滤镜\nAI奇妙物语以先锋影像为定位，以东方梦境为美学基调。它的诞生就是要打破大众对AI只是毫无感情的工具的固有认知，传递出生活不普通，AI让它更奇妙的态度。在这里，AI是用户最",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-weiwu-w3z7rutqyvlcwuoc-html",
+    "slug": "vidda-3c-rgb-mini-led",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/weiwu/w3z7rUtQyVlcwUoc.html",
+    "publishedAt": "2026-05-08T08:42:00.000Z",
+    "titleEn": "海信&Vidda“非电视”发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放",
+    "titleZh": "海信&Vidda非电视发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放",
+    "abstractEn": "5月8日，主题为“有态度 就登场”的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。\n\n本次发布会，海信以清晰的场景优先级，构建了一套完整的智慧生活拼图：从主打户外高画质观影体验的Vidda LightGo流光派三色激光投影，到重塑桌面专业级生产力的海信UX系列RGB-Mini LED显示器；从提供全屋沉浸陪伴的海信大白闺蜜机X8 Ultra，到不断刷新家用观影天花板的Vidda C5系列旗舰投影；再到点缀家居与个人随行生活的海信画框音响M5、Vidda AI智能眼镜G11及便携充电宝C1，六大3C潮品悉数登场。\n\n在这个技术参数日",
+    "abstractZh": "5月8日，主题为有态度 就登场的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。\n\n本次发布会，海信以清晰的场景优先级，构建了一套完整的智慧生活拼图：从主打户外高画质观影体验的Vidda LightGo流光派三色激光投影，到重塑桌面专业级生产力的海信UX系列RGB-Mini LED显示器；从提供全屋沉浸陪伴的海信大白闺蜜机X8 Ultra，到不断刷新家用观影天花板的Vidda C5系列旗舰投影；再到点缀家居与个人随行生活的海信画框",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t720ac",
+    "slug": "reddit-1t720ac-gift-to-myself-tiny-lab",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://i.redd.it/fa0vcbcklvzg1.jpeg",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t720ac/gift_to_myself_tiny_lab/",
+    "publishedAt": "2026-05-08T08:40:00.000Z",
+    "titleEn": "Gift to myself : tiny lab",
+    "titleZh": "给自己的礼物：微型实验室",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "u/Final-Data-1410"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 182,
+    "commentCount": 78,
+    "tags": [
+      "Other"
+    ]
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414316-html",
+    "slug": "redis-deepseek-v4",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414316.html",
+    "publishedAt": "2026-05-08T08:20:40.000Z",
+    "titleEn": "Redis之父下场，给DeepSeek V4单独造了一台推理引擎",
+    "titleZh": "Redis 之父出手，为 DeepSeek V4 专门打造了一台推理引擎",
+    "abstractEn": "Mac上就能本地跑deepseek",
+    "abstractZh": "Mac 上就能本地跑 DeepSeek",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "reddit:1t70hlm",
+    "slug": "reddit-1t70hlm-the-underprivileged-ai-foundation-because-every-little-model-dese",
+    "source": "Reddit LocalLLaMA",
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t70hlm/the_underprivileged_ai_foundation_because_every/",
+    "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t70hlm/the_underprivileged_ai_foundation_because_every/",
+    "publishedAt": "2026-05-08T07:11:46.000Z",
+    "titleEn": "THE UNDERPRIVILEGED AI FOUNDATION\nBecause every little model deserves a chance",
+    "titleZh": "UNDERPRIVILEGED AI 基金会\n因为每个小模型都值得机会",
+    "abstractEn": "Is there a 7B parameter model in your life struggling to understand sarcasm? A tiny 1.5B that can't afford one more epoch?\n\n**YOU CAN HELP.**\n\nFor just $0.006 CAD per training step, you can send a small model to college. Give them the gift of knowledge. The gift of coherence. The gift of not halluci",
+    "abstractZh": "你身边有没有一个 7B 参数的模型在努力理解讽刺？有没有一个微小的 1.5B 模型负担不起再训练一个 epoch？\n\n**你可以帮忙。**\n\n只需每训练步骤 0.006 加元，你就可以送一个小模型上大学。给他们知识的礼物。连贯的礼物。不产生幻觉的礼物。",
+    "authors": [
+      "u/mazuj2"
+    ],
+    "institution": "Reddit r/LocalLLaMA",
+    "docType": "Blog",
+    "category": "social",
+    "score": 111,
+    "commentCount": 18,
+    "tags": [
+      "Discussion"
+    ]
+  },
+  {
+    "id": "hn:48059662",
+    "slug": "hn-48059662-clojurescript-gets-async-await",
+    "source": "Hacker News",
+    "sourceUrl": "https://clojurescript.org/news/2026-05-07-release",
+    "commentUrl": "https://news.ycombinator.com/item?id=48059662",
+    "publishedAt": "2026-05-08T07:04:24.000Z",
+    "titleEn": "ClojureScript Gets Async/Await",
+    "titleZh": "ClojureScript 获得异步/等待支持",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Borkdude"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 259,
+    "commentCount": 67,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414213-html",
+    "slug": "anthropic-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414213.html",
+    "publishedAt": "2026-05-08T06:34:22.000Z",
+    "titleEn": "Anthropic出手！AI的内心独白，曝光了",
+    "titleZh": "Anthropic出手！AI的内心独白，曝光了",
+    "abstractEn": "原来Claude早就识破了人类的套路（doge）",
+    "abstractZh": "原来Claude早就识破了人类的套路（doge）",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48058644",
+    "slug": "hn-48058644-blaise-a-modern-self-hosting-zero-legacy-object-pascal-compiler-targ",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/graemeg/blaise",
+    "commentUrl": "https://news.ycombinator.com/item?id=48058644",
+    "publishedAt": "2026-05-08T04:44:02.000Z",
+    "titleEn": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
+    "titleZh": "Blaise — 面向 QBE 的现代自托管零遗留 Object Pascal 编译器",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "peter_d_sherman"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 96,
+    "commentCount": 50,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414194-html",
+    "slug": "gpt-5-openai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414194.html",
+    "publishedAt": "2026-05-08T04:35:32.000Z",
+    "titleEn": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+    "titleZh": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+    "abstractEn": "OpenAI上新三款实时语音模型",
+    "abstractZh": "OpenAI上新三款实时语音模型",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414156-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414156.html",
+    "publishedAt": "2026-05-08T04:25:39.000Z",
+    "titleEn": "特斯拉百万年薪招数据标注员，朝九晚五，无需AI经验",
+    "titleZh": "特斯拉百万年薪招数据标注员，朝九晚五，无需AI经验",
+    "abstractEn": "服务FSD和Optimus",
+    "abstractZh": "服务FSD和Optimus",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414141-html",
+    "slug": "deepseek-36-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414141.html",
+    "publishedAt": "2026-05-08T04:15:24.000Z",
+    "titleEn": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
+    "titleZh": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
+    "abstractEn": "这跟中国的开源精神，显然是一脉相承的",
+    "abstractZh": "这跟中国的开源精神，显然是一脉相承的",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414125-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414125.html",
+    "publishedAt": "2026-05-08T04:06:46.000Z",
+    "titleEn": "第一批「AI原生」本科生，要毕业了",
+    "titleZh": "第一批「AI原生」本科生，要毕业了",
+    "abstractEn": "全部都是AI加持的超级个体",
+    "abstractZh": "全部都是AI加持的超级个体",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48057842",
+    "slug": "hn-48057842-claude-code-cve-2026-39861-sandbox-escape-via-symlink",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+    "commentUrl": "https://news.ycombinator.com/item?id=48057842",
+    "publishedAt": "2026-05-08T02:39:55.000Z",
+    "titleEn": "Claude Code CVE-2026-39861:sandbox escape via symlink",
+    "titleZh": "Claude Code CVE-2026-39861: 通过符号链接逃逸沙箱",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Armor1AI"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 47,
+    "commentCount": 7,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-9w0r1vr4xt3etxyg-html",
+    "slug": "25-44",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/9W0R1Vr4Xt3eTXyg.html",
+    "publishedAt": "2026-05-08T02:01:00.000Z",
+    "titleEn": "研发投入同比增长25.44%，奇瑞以科技创新推动高质量发展",
+    "titleZh": "研发投入同比增长25.44%，奇瑞以科技创新推动高质量发展",
+    "abstractEn": "2026年4月，奇瑞集团销量再创新高：单月总销量25.14万辆，同比增长25.2%，稳居中国品牌销量第二；新能源销量10.03万辆，同比增长63.8%，规模与增速均居行业前列；出口17.76万辆，同比增长102.4%，再创中国汽车单月出口新纪录。\n销量稳步增长的背后，是奇瑞长期坚持技术立企、持续加大创新投入的战略定力。这从最新发布的研发投入数据可以略见一斑。\n奇瑞汽车一季度财报显示：营收658.7亿元，毛利105.64亿元，同比增长24.91%，毛利率升至16.04%。\n同样引人注目的还有另一组数据：一季度研发投入28.5亿元，同比增长25.44%，增速高于同期毛利增速。\n在盈利能力稳步提升的同时，奇瑞持续向科技创新倾斜资源，以科技创新驱动高质量发展。\n\n\n技术“开箱”见真章，31项黑科技亮相北京车展\n持续加码的创新投入，在刚刚过去的2026年北京车展迎来一次集中“开箱”。\n本届车展上，奇",
+    "abstractZh": "2026年4月，奇瑞集团销量再创新高：单月总销量25.14万辆，同比增长25.2%，稳居中国品牌销量第二；新能源销量10.03万辆，同比增长63.8%，规模与增速均居行业前列；出口17.76万辆，同比增长102.4%，再创中国汽车单月出口新纪录。\n销量稳步增长的背后，是奇瑞长期坚持技术立企、持续加大创新投入的战略定力。这从最新发布的研发投入数据可以略见一斑。\n奇瑞汽车一季度财报显示：营收658.7亿元，毛利105.64亿元，同比增长24.91%，毛利率升至16.04%。\n同样引人注目的还有另一组数据：一季度研发投入28.5亿元，同比增长25.44%，增速高于同期毛利增速。\n在盈利能力稳步提升的同时，奇瑞持续向科技创新倾斜资源，以科技创新驱动高质量发展。\n\n\n技术'开箱'见真章，31项黑科技亮",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48057209",
+    "slug": "hn-48057209-gpt-5-5-price-increase-what-it-costs",
+    "source": "Hacker News",
+    "sourceUrl": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+    "commentUrl": "https://news.ycombinator.com/item?id=48057209",
+    "publishedAt": "2026-05-08T01:02:28.000Z",
+    "titleEn": "GPT-5.5 Price Increase: What It Costs",
+    "titleZh": "GPT-5.5 涨价：成本分析",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "gmays"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 193,
+    "commentCount": 60,
+    "tags": []
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-tqf2pedqn63oh1d6-html",
+    "slug": "610-sk-a-ipo",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/tqf2pEDQn63OH1d6.html",
+    "publishedAt": "2026-05-08T00:35:00.000Z",
+    "titleEn": "总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪；昆仑芯启动A股IPO；男子五一加班身亡！涉事公司：假期自愿",
+    "titleZh": "总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪；昆仑芯启动A股IPO；男子五一加班身亡！涉事公司：假期自愿",
+    "abstractEn": "要闻提示\n\n\n\n\n\n\n1.总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪\n2.宇树G1人形机器人在韩国出家：法名「迦悲」，需遵守不过度充电等戒律\n3.61岁男子五一加班在车间身亡！涉事公司：假期自愿，正积极处理\n4.三星关停中国家电业务，员工获N+3或N+4补偿！京东宣布过保产品免费上门检测\n5.腾讯混元高级研究员于文豪加盟OpenAI\n6.新功能？微信未读语音消息由红变灰引热议！腾讯客户回应\n7.昆仑芯启动A股IPO！百度持股比例57.67%\n8.苹果首款AI可穿戴设备：内置摄像头的AirPods已进入DVT阶段，预计最快9月搭载新Siri亮相\n今日头条\n\n\n\n\n总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪\n\n\n\n\n5月7日消息，据报道，韩国半导体巨头SK海力士总部2027年绩效奖金预计人均约610万元人民币，三星电子和SK海力士",
+    "abstractZh": "要闻提示\n\n\n\n\n\n\n1.总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪\n2.宇树G1人形机器人在韩国出家：法名'迦悲'，需遵守不过度充电等戒律\n3.61岁男子五一加班在车间身亡！涉事公司：假期自愿，正积极处理\n4.三星关停中国家电业务，员工获N+3或N+4补偿！京东宣布过保产品免费上门检测\n5.腾讯混元高级研究员于文豪加盟OpenAI\n6.新功能？微信未读语音消息由红变灰引热议！腾讯客户回应\n7.昆仑芯启动A股IPO！百度持股比例57.67%\n8.苹果首款AI可穿戴设备：内置摄像头的AirPods已进入DVT阶段，预计最快9月搭载新Siri亮相\n今日头条\n\n\n\n\n总部人均奖金610万，中国厂却一毛不拔！三星、SK海力士国内员工集体求涨薪\n\n\n\n\n5月7日消息，据",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": []
+  },
+  {
+    "id": "hn:48055913",
+    "slug": "hn-48055913-canvas-online-again-as-shinyhunters-threatens-to-leak-schools-data",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+    "commentUrl": "https://news.ycombinator.com/item?id=48055913",
+    "publishedAt": "2026-05-07T22:22:21.000Z",
+    "titleEn": "Canvas online again as ShinyHunters threatens to leak schools’ data",
+    "titleZh": "Canvas 再次上线，因 ShinyHunters 威胁泄露学校数据",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "stefanpie"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 893,
+    "commentCount": 604,
+    "tags": []
+  },
+  {
+    "id": "hn:48051951",
+    "slug": "hn-48051951-openais-webrtc-problem",
+    "source": "Hacker News",
+    "sourceUrl": "https://moq.dev/blog/webrtc-is-the-problem/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48051951",
+    "publishedAt": "2026-05-07T17:11:59.000Z",
+    "titleEn": "OpenAI's WebRTC problem",
+    "titleZh": "OpenAI 的 WebRTC 问题",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "atgctg"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 103,
+    "commentCount": 23,
+    "tags": []
+  },
+  {
+    "id": "hn:48051079",
+    "slug": "hn-48051079-hardening-firefox-with-claude-mythos-preview",
+    "source": "Hacker News",
+    "sourceUrl": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48051079",
+    "publishedAt": "2026-05-07T16:05:33.000Z",
+    "titleEn": "Hardening Firefox with Claude Mythos Preview",
+    "titleZh": "使用 Claude Mythos Preview 强化 Firefox",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "HieronymusBosch"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 337,
+    "commentCount": 148,
+    "tags": []
+  }
+]

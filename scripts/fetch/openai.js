@@ -1,5 +1,5 @@
 import { slugify } from '../utils/slug.js';
-import { isTodayBJ, maxPerSource } from '../utils/date-filter.js';
+import { isRecentBJ, maxPerSource } from '../utils/date-filter.js';
 
 // OpenAI individual pages are protected by Cloudflare (JS challenge).
 // We derive articles from the public research sitemap instead:
@@ -72,8 +72,8 @@ export async function fetchOpenAI(processedIds) {
     for (const { loc, lastmod } of articles) {
       if (results.length >= MAX_NEW) break;
 
-      // Only today's (Beijing time) entries by sitemap lastmod
-      if (!isTodayBJ(lastmod)) continue;
+      // Only articles from the last 3 days (processedIds handles dedup)
+      if (!isRecentBJ(lastmod, 3)) continue;
 
       const urlSlug = loc.replace(/\/$/, '').split('/').pop();
       const canonicalId = `openai:${urlSlug}`;
@@ -95,6 +95,7 @@ export async function fetchOpenAI(processedIds) {
         authors: ['OpenAI'],
         institution: 'OpenAI',
         docType: 'Blog',
+        category: 'research',
         tags: [],
       });
 
