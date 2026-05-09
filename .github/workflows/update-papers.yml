@@ -1,13 +1,21 @@
 name: Update Papers & Deploy
 
 on:
+  # Fallback: runs on GitHub when Mac is off (02:00 UTC = 10:00 Beijing)
   schedule:
-    # 02:00 UTC = 10:00 AM Beijing time
     - cron: '0 2 * * *'
+  # Triggered automatically when local pipeline pushes updated data
+  push:
+    branches: [main]
+    paths:
+      - 'data/articles.json'
+      - 'data/processed-ids.json'
+      - 'data/daily/**'
+  # Manual trigger
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Dry run (fetch only, no translate/write)'
+      run_pipeline:
+        description: 'Run fetch+translate pipeline (set false to build only)'
         required: false
         default: 'false'
         type: choice
@@ -44,32 +52,31 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Run pipeline only on schedule (Mac off) or manual request
       - name: Run fetch + translate pipeline
+        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: node scripts/pipeline.js
 
-      - name: Check for data changes
-        id: changes
-        run: |
-          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit updated data
-        if: steps.changes.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+      - name: Commit updated data (schedule only)
+        if: github.event_name == 'schedule'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/processed-ids.json
-          git commit -m "chore: update papers $(date -u +%Y-%m-%d)"
-          git push
+          git diff --quiet data/ || (
+            git add data/articles.json data/processed-ids.json data/sources.json data/daily/
+            git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
+            git push
+          )
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Build Next.js
-        run: npm run build
+        run: npx next build --webpack
         env:
+          NEXT_EXPORT: "1"
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Upload Pages artifact
