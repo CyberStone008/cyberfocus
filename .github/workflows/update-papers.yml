@@ -1,9 +1,10 @@
 name: Update Papers & Deploy
 
 on:
-  # Fallback: runs on GitHub when Mac is off (02:00 UTC = 10:00 Beijing)
+  # Fallback: runs on GitHub when Mac is off (06:00 UTC = 14:00 Beijing)
+  # Offset 4 hours from local launchd (10:00 BJ) to avoid collision
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 6 * * *'
   # Triggered automatically when local pipeline pushes updated data
   push:
     branches: [main]
@@ -52,15 +53,32 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Run pipeline only on schedule (Mac off) or manual request
+      # On schedule: skip pipeline if local already ran within 12 hours
+      - name: Check if pipeline already ran today (schedule only)
+        id: freshness
+        if: github.event_name == 'schedule'
+        run: |
+          LAST_RUN=$(node -e "
+            try {
+              const s = require('./data/sources.json');
+              const ms = Date.now() - new Date(s.lastRunAt).getTime();
+              console.log(ms < 12 * 3600 * 1000 ? 'fresh' : 'stale');
+            } catch { console.log('stale'); }
+          ")
+          echo "status=$LAST_RUN" >> $GITHUB_OUTPUT
+          echo "[freshness] lastRunAt status: $LAST_RUN"
+
+      # Run pipeline only when: (a) schedule + stale, or (b) manual request
       - name: Run fetch + translate pipeline
-        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
+        if: >
+          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
+          github.event.inputs.run_pipeline == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/pipeline.js
 
-      - name: Commit updated data (schedule only)
-        if: github.event_name == 'schedule'
+      - name: Commit updated data (schedule only, when pipeline ran)
+        if: github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
