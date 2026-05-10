@@ -1,5 +1,802 @@
 [
   {
+    "id": "hrorg:manpower:43b0f7f1134b",
+    "slug": "hrorg-manpower-43b0f7f1134b",
+    "source": "ManpowerGroup",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjAwNHJlOVJ6SjM0YUFlV09rQW9kTFpZNEVVZC1SN1RZSnN2TDlBWGIwZkxXV1lfeFVHOThiS1ozWHFkT3JsY2xHQlFZdVhYbXQtUUtycVVlUnc2Y0JndjJOUTQxUjB3WHNBd0tXbHlUMG41YTVhYnF4RUM5TTItMEh2V3FxRjdTTktFWVpHMk5yS3R4REtNcG9rSQ?oc=5",
+    "publishedAt": "2026-05-10T06:03:27.000Z",
+    "titleEn": "Malaysia Adopts AI While Workforce Skills Face Strain",
+    "titleZh": null,
+    "abstractEn": "Malaysia Adopts AI While Workforce Skills Face Strain  Let's Data Science",
+    "abstractZh": null,
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48081214",
+    "slug": "hn-48081214-agent-harness-engineering",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/addyosmani/status/2053231239721885918",
+    "commentUrl": "https://news.ycombinator.com/item?id=48081214",
+    "publishedAt": "2026-05-10T05:19:22.000Z",
+    "titleEn": "Agent Harness Engineering",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pretext"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:4996cf45ca96",
+    "slug": "gnews-4996cf45ca96",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44UjNuSVJqV1FLVFlvR2VfWjZhZmtNMDZjWkREZGpsOEx2UWN6c0JqZGZzZ1JyeV85aVB1Yk56OUhlUTV5bE1sZmVsUk9EaHJEcF9JakVLczQyd0dOMDVTcVdhcTg?oc=5",
+    "publishedAt": "2026-05-10T04:57:37.000Z",
+    "titleEn": "Supercomputer networking to accelerate large scale AI training",
+    "titleZh": null,
+    "abstractEn": "Supercomputer networking to accelerate large scale AI training  OpenAI",
+    "abstractZh": null,
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:7bb48f5c7897",
+    "slug": "gnews-7bb48f5c7897",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOWJPNGl0Qk92NTJJVWVac1VZTXZuYUpRS3BTS3VVQk9oZVRQSW5IblgyTnlJczVxTEhtaTNrVDl3eVFabDh0MVRxeXZaZ2VNM09aZUtZdm8xOTh5b1QzTUl3OXd1ZWVrS0Y3ZWlNTm9WMENSVkpSQU5JaFJERnFpRllFT2E4dFNIbG95RzJmS0M5bmRya2l5ZmRnQUtqTDJ2ZmlkVm1xYjYxN3B6WmMtY3BhUE55V19zUVhuWEdpb0xDME10aDdsMGpiNzlyekRRRUNkYkNhamNLTmPSAeIBQVVfeXFMTW5UWFhQazBxNTcwSmZHc2RqekFaSktTcVVtTm5OT2Qyd3ozek54U3RvalRXQ0FSblBNWTNsWXVCYUdWVkFDOGFpQS1xRXdXbVRnaldsa1ZNUE9MR0xtNHR4YW5HdzNQcml3WW94engybXJYbnpjMzN5VlJISE5DRkg5enpwc2NudDR5R2xQWXN2am5iNllOanlQVGdjWE83VTZGaVJ0MkFTQ1NNNFZZX0kzRjB5ZHJLRDhIUEhfQ3hQLU9CZ2dkSXNCZXQzak5nMmJwRm1aSmVQdTFmT2JWeFVPUQ?oc=5",
+    "publishedAt": "2026-05-10T04:21:07.000Z",
+    "titleEn": "Alibaba to integrate Qwen AI with Taobao, launch agentic shopping",
+    "titleZh": null,
+    "abstractEn": "Alibaba to integrate Qwen AI with Taobao, launch agentic shopping  The Indian Express",
+    "abstractZh": null,
+    "authors": [
+      "The Indian Express"
+    ],
+    "institution": "The Indian Express",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-415031-html",
+    "slug": "ai-32",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/415031.html",
+    "publishedAt": "2026-05-10T04:01:40.000Z",
+    "titleEn": "浙大校友用AI突破32年拉姆齐数下界",
+    "titleZh": null,
+    "abstractEn": "拉姆齐数R(3,17) 下界从92提升至93",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48080702",
+    "slug": "hn-48080702-gemini-api-file-search-is-now-multimodal",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48080702",
+    "publishedAt": "2026-05-10T03:22:02.000Z",
+    "titleEn": "Gemini API File Search is now multimodal",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "gmays"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 66,
+    "commentCount": 8,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48080662",
+    "slug": "hn-48080662-mcp-for-sandboxed-reproducible-envs-for-agentic-first-coding-workflo",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/aniongithub/devcontainer-mcp",
+    "commentUrl": "https://news.ycombinator.com/item?id=48080662",
+    "publishedAt": "2026-05-10T03:15:25.000Z",
+    "titleEn": "MCP for sandboxed, reproducible envs for agentic-first coding workflows",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "anionyt"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48080368",
+    "slug": "hn-48080368-superintelligent-retrieval-agent-the-next-frontier-of-information-re",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2605.06647",
+    "commentUrl": "https://news.ycombinator.com/item?id=48080368",
+    "publishedAt": "2026-05-10T02:16:30.000Z",
+    "titleEn": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "CharlesW"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 8,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:232651a21052",
+    "slug": "gnews-232651a21052",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByZUpHc1c2eVJVSDgtbDNTR1N1dHFpZmFQM1FqQ1BDbDNNeFFiV0d1VzI5X2U3VlpJLWtndEIyc1hSbEtXZ2xjUUlvM3haT2pTV3VyUzd1eEJPT0dsanBzUW0zLUgtZFBsOThnenRrQTBJeVFLcHJMYmtnank?oc=5",
+    "publishedAt": "2026-05-10T02:14:31.000Z",
+    "titleEn": "AI startup known as ‘ChatGPT for doctors’ doubles valuation to $12B in latest funding round",
+    "titleZh": null,
+    "abstractEn": "AI startup known as ‘ChatGPT for doctors’ doubles valuation to $12B in latest funding round  AOL.com",
+    "abstractZh": null,
+    "authors": [
+      "AOL.com"
+    ],
+    "institution": "AOL.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:e68c5816cb59",
+    "slug": "gnews-e68c5816cb59",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNR1h3RlBhVlpLUWFFM0tjNWVPZzZueUphSlFIRTlNSUhQMFoxT1pOMEs4X0hJZGN4djBLTi00R05TWmR4Nkhwb2tNaFhSd3NxQUVPV05pdnJBdjYyeFNBSVJ6WmtuME9fNXpyR0hxaERSbGxod2JrN1hnaFljUVpVM3A2N2ZQanlUd3VzRFVJTWVZVTRMQ2ZlR3BZMkVhMkVHSWxJUldOM21wWjV2RkY5ZDFxa2tEdWNiRDI0dF85UF8xamdWNmY2Nm5ldkdxYnRpbExES1JPSXA3MHIwNV9qQTF0MU4zdjDSAewBQVVfeXFMUHJNUWNvRlg5MkVyWTNYWTdoWmN3MVp1V2I3RVBFa19lSms0RzlPdmdNNTFldmpjN3ZZWEMtOXZSOXhiUGdwbXZBRTNGb1AwWlg5b3l1QUloM0xTZ2xzZGtuUzVpbzdud2M3bUQ2Tk5DNnFMQWFMdmwxMXZ1S1lEZUFZN3dHNWZCaFItU0pOS0c0YjVObkticS1CVTljNUZYcE5NMXNSS3lrd09zSm9fWGlLcEpEemlJWWFlbVU4TXJSaXhFLURsSzQ3Nkl1MHhOcDBlU2ZkUE9uWXdzeDlwd29lUWhxZjBPRkc4VUQ?oc=5",
+    "publishedAt": "2026-05-10T00:30:00.000Z",
+    "titleEn": "Paperwork causing AI mission lag as startups flag funding, IP concerns",
+    "titleZh": null,
+    "abstractEn": "Paperwork causing AI mission lag as startups flag funding, IP concerns  The Economic Times",
+    "abstractZh": null,
+    "authors": [
+      "The Economic Times"
+    ],
+    "institution": "The Economic Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:eb79f0d91925",
+    "slug": "gnews-eb79f0d91925",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRGhBQ0hkUTk4QUdHa1QycEVNR003WnVQSlJKQUZEY3ZmYWx4eDFYMWNhclN0MXRkNHJYTHh5Ty1pUExKVmh2TEdXRjdIVDM2dnJ3UXZwU0FBQzVIUWFHQlpfWnpEZGdSUVhxbEhaMm5kd2pmSTE3cDFxWjB3WXdOclJPeEI1a1VJZ0pYV25LaVo4cFZwbU9CQnp6MnFydlNtcUh3YkZKdGRpaFFPVTJfZW1qSDBrR2xMX1ZEWEU3WVpEcmVoY2VIak9R0gHPAUFVX3lxTFAxckprVVZudUZiS21jeWJidDRqYU5LZGRoc3JrWWozRXl5YklpUzhvWlBqYmJ1Z3lYRWdwcTV0eUZlbVR5V1k3YWZYd3U5aFFzcE5sSndEeFNVNE1hX2F0bi1vWk1vRjV5S3djNmFLUW1rbWxXcVU5dms1OVlUYlNKU3M0Q1RCZVhQTnQ0QUpQajVTUk41dk95MjQ1VjZrT0lZTHNpSFYxU05TZ3NzbkJnejVwcXN2NXI0QWVaV212MXZxQ29UMkNCSFRZSnJKbw?oc=5",
+    "publishedAt": "2026-05-09T22:43:21.000Z",
+    "titleEn": "Meta Platforms Weighs AI Lawsuits Regulation And Pentagon Upside",
+    "titleZh": null,
+    "abstractEn": "Meta Platforms Weighs AI Lawsuits Regulation And Pentagon Upside  simplywall.st",
+    "abstractZh": null,
+    "authors": [
+      "simplywall.st"
+    ],
+    "institution": "simplywall.st",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48078811",
+    "slug": "hn-48078811-france-moves-to-break-encrypted-messaging",
+    "source": "Hacker News",
+    "sourceUrl": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
+    "commentUrl": "https://news.ycombinator.com/item?id=48078811",
+    "publishedAt": "2026-05-09T22:14:35.000Z",
+    "titleEn": "France moves to break encrypted messaging",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Cider9986"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 180,
+    "commentCount": 94,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48078647",
+    "slug": "hn-48078647-getting-arrested-in-japan",
+    "source": "Hacker News",
+    "sourceUrl": "https://sundaicity.com/blogs/getting-arrested-in-japan",
+    "commentUrl": "https://news.ycombinator.com/item?id=48078647",
+    "publishedAt": "2026-05-09T21:56:19.000Z",
+    "titleEn": "Getting arrested in Japan",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "bane"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 195,
+    "commentCount": 237,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48077947",
+    "slug": "hn-48077947-lobotomized-claude-code-and-it-works-better",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/skrabe/lobotomized-claude-code",
+    "commentUrl": "https://news.ycombinator.com/item?id=48077947",
+    "publishedAt": "2026-05-09T20:29:30.000Z",
+    "titleEn": "Lobotomized Claude Code and it works better",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "skrabe"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:563946a69320",
+    "slug": "gnews-563946a69320",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZU44dUVFQ0tRNVAyU1Vmc3R3dzlDemgxOHIyVm5IQTlSb3N2THRicXVFemJCbm5OZ3hORWpUVXdNZHFYVkgxQTdjWVAybGt2WXh4Q2dob0FzNTFUVG1GX2dwY2tGZmRKdEtaV3RsM293aS1fVWZoaU5CeXJDRUo5S2NtR3FCUDFKUWlPaDlRR3Ztb0tYcTZ4WmM4S2drREItRkR1azFPQzFiOFBSQkE?oc=5",
+    "publishedAt": "2026-05-09T20:22:30.000Z",
+    "titleEn": "How Trump Should Approach AI Talks With China: Targeted Dialogue, Maximum Pressure",
+    "titleZh": null,
+    "abstractEn": "How Trump Should Approach AI Talks With China: Targeted Dialogue, Maximum Pressure  Council on Foreign Relations",
+    "abstractZh": null,
+    "authors": [
+      "Council on Foreign Relations"
+    ],
+    "institution": "Council on Foreign Relations",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48077126",
+    "slug": "hn-48077126-metas-embrace-of-ai-is-making-its-employees-miserable",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48077126",
+    "publishedAt": "2026-05-09T18:33:36.000Z",
+    "titleEn": "Meta's embrace of AI is making its employees miserable",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "JumpCrisscross"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 381,
+    "commentCount": 409,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:c4822d7d3f0e",
+    "slug": "gnews-c4822d7d3f0e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFYyVkJPVDJWR3RDZjhDWGxMSFJlQ09DdnNXVGdacUpQY1htZ09sTUg0Ql9MUVhnZmhYajdLRTc0bzBNOEtlRENwLWJNYmZoZHZLRnFFZERjM2xlQjdxNGN4V3V6YkVXNDVrRHhacmxPMGxURFdNY2R6V0lVTGcyWl9TM2VKZEhJdTNfaHhfUzc1S3Q4UnM3bklPLVBfQ0lp?oc=5",
+    "publishedAt": "2026-05-09T16:18:43.000Z",
+    "titleEn": "Microsoft’s AI Safety Role Grows As Infrastructure Hiring And Security Risks Mount",
+    "titleZh": null,
+    "abstractEn": "Microsoft’s AI Safety Role Grows As Infrastructure Hiring And Security Risks Mount  Yahoo Finance",
+    "abstractZh": null,
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:89a74c544aa7",
+    "slug": "gnews-89a74c544aa7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdVpkY3JlcF9BYm9HNXktUWttWTAyQmN3SU16VmtRNlc4Y3RiYW1jaWJGRTBrOTRNM0NERldqZ0ZWZ1RzTFZjcHdtaGlEZjBMTTMwTjJlYkE1bnBLaFU0WHpVamZaN2FaRzVIVUxCaDdmV2dEcm94cjdkdlFsa3Y4cUE5TjlxN1pOLWZIVkkxZkx3NVZmckxmZWYtM0VUdGJLcTFBSQ?oc=5",
+    "publishedAt": "2026-05-09T16:01:54.000Z",
+    "titleEn": "Neil Zeghidour on Voice AI's 'Her' Moment",
+    "titleZh": null,
+    "abstractEn": "Neil Zeghidour on Voice AI's 'Her' Moment  StartupHub.ai",
+    "abstractZh": null,
+    "authors": [
+      "StartupHub.ai"
+    ],
+    "institution": "StartupHub.ai",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:8baf299d0eb2",
+    "slug": "gnews-8baf299d0eb2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmZISWt2bTBrRWl1ZXk2blFRc0xtYzdOY0JHMWhXNWNuX1dKdjhJNEVJa0I2RWlWRjhuSmRnZlR0cVhWMEN1UU9OZlN4VDdZcXEzTHdRMTY3Tm1vZjFlMVdDYzJ5dTlpYlA3ZjVlRGIySjE2VmwtZk1YUmUyZzBCdA?oc=5",
+    "publishedAt": "2026-05-09T15:33:18.000Z",
+    "titleEn": "Anthropic: We Figured Out How to Stop Claude From Blackmailing You",
+    "titleZh": null,
+    "abstractEn": "Anthropic: We Figured Out How to Stop Claude From Blackmailing You  PCMag",
+    "abstractZh": null,
+    "authors": [
+      "PCMag"
+    ],
+    "institution": "PCMag",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:1d402b78b6e4",
+    "slug": "gnews-1d402b78b6e4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdkZmTmVMNlRxTEtDZDdUN3UweDItOGtWajZ3VklKa212SURvcjBGMGg1cXlIcWdER2xkVkFoelR4UC1vNXRudnNXZ0otanBtQU96RFU1b250dTdmVUJhODMwVzMxWDdkOEJhamhJZ2d0RjBiNDlxc0VENmFyTy1od2tHSEJtOWxWeGtB?oc=5",
+    "publishedAt": "2026-05-09T15:29:31.000Z",
+    "titleEn": "Nvidia is turning AI funding into a supply chain weapon",
+    "titleZh": null,
+    "abstractEn": "Nvidia is turning AI funding into a supply chain weapon  Startup Fortune",
+    "abstractZh": null,
+    "authors": [
+      "Startup Fortune"
+    ],
+    "institution": "Startup Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:ff127bdc3ef9",
+    "slug": "gnews-ff127bdc3ef9",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ybGxjRzlkT1NGZU9YX29KZFlOdkZvdi1QaXVWVU1FTm9GLVJzRDEwaEZYNTk4Q2Q5anVVUDFKSGZwYWhZQVlydHBMODZac21Lc2hpWFhEcjlueUN1Y0x4MjN5bHhOVWNPeVliWVBKWXhDWUJSbzRVaWZR?oc=5",
+    "publishedAt": "2026-05-09T12:15:00.000Z",
+    "titleEn": "Connecticut passes sweeping AI regulation law SB5",
+    "titleZh": null,
+    "abstractEn": "Connecticut passes sweeping AI regulation law SB5  crypto.news",
+    "abstractZh": null,
+    "authors": [
+      "crypto.news"
+    ],
+    "institution": "crypto.news",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:4ba73ac81eb5",
+    "slug": "gnews-4ba73ac81eb5",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNal84Zmc1OTdhOVBnbWpSM0lHSVppLXdTYU83VnRPb3VkaGhvUERuNWx0bUpuRlZSZmJOVnZ2cU9xZjdCTS1LUExXd2tfdjd2dGlOdnpGbGIzNS1Id1M4Nzlod2hucXM0bVI4UXp1LVpMY01mU041WVcxX2EybHhSOWhvVWVpcFdVNDFzU3c4T0dudktFbjJFcWNPZXlJcEtkODllUm1OZ9IBugFBVV95cUxNeUJVRUxfeVY2SUNmY2VKbVkyZ0IxS3M0c3dJVHAweXdzQlNBRzR6WTNHMkh1UDVHaUFqMkNEa2hTN3hheXBkbGJ4SGFDWExWZlktVEpfcUJvOTlUdUI5N1R3bkYzejFOVTE5MWxuaXpJdFJldWNzSzVZNjIzLTB3d2psdjFOemY1V3BlanZIN3NaRzRUd3JvOEE1U01CLU9KMWRnNUFINW5wOXp3bXpUNzlTM0I0bUFIWWc?oc=5",
+    "publishedAt": "2026-05-09T10:59:19.000Z",
+    "titleEn": "OpenAI’s latest ChatGPT update could save lives offline",
+    "titleZh": null,
+    "abstractEn": "OpenAI’s latest ChatGPT update could save lives offline  Gulf News",
+    "abstractZh": null,
+    "authors": [
+      "Gulf News"
+    ],
+    "institution": "Gulf News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-yanxishe-0xqejmcnyemrb8rn-html",
+    "slug": "deepseek-500",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/yanxishe/0XQEjmCNYEmRB8Rn.html",
+    "publishedAt": "2026-05-09T10:47:00.000Z",
+    "titleEn": "深度解析：DeepSeek不差钱，为什么还要融500亿？",
+    "titleZh": null,
+    "abstractEn": "某位多次接近梁文锋的顶级投资人曾无奈向雷峰网表示：梁文锋最讨厌两件事：跟VC吃饭，对外解释DeepSeek的决策。\n这位幻方量化出身的程序员创业者，过去两年对所有找上门来的投资人说过同一句话——\"VC的钱是负担\"。腾讯来谈过，阿里来谈过，市面几乎每一家顶级风投都在他的闭门羹列表里。他觉得这些人都得帮LP赚钱，\"所以谈不到一块去\"。\n而梁文锋确实有说这句话的底气。一位与梁文锋有过多次接触的大厂前副总裁曾和雷峰网透露，梁文锋有一笔规模在20到30亿的基金，这基金不用来对外募资，是自己的钱。而在另一名顶级资本人的口中，梁文锋曾对外表示他有四五万张卡，40、50亿是拿得出来的，不需要外部机构掏钱。\n了解他的人说，他不是那种会跟VC称兄道弟的人。他出身量化交易，习惯用数学和逻辑做决策。DeepSeek成立至今，他接受过的专访一只手数得过来，每一篇都被AI圈翻来覆去地读——因为稀缺。\n2026年4月2",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-415023-html",
+    "slug": "artificial-analysis",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/415023.html",
+    "publishedAt": "2026-05-09T10:29:31.000Z",
+    "titleEn": "阶跃最新语音模型位列 Artificial Analysis 评测榜中国第一",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:640328ee0d19",
+    "slug": "gnews-640328ee0d19",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53LU05elNVeUstRXdqU3VhVFllRVNUQ2pTUWVvZm1aVjA2S2RVQS1WWmozdlZQRDctUGQxTE5MTVhFNmpkOTUxbFpPMmI3SU5mOG1weGlheUxhX2h3MmlrQXR5aFY0QnVkazVLNDUtY19FeXctR1lCb19ORTBYYzTSAYQBQVVfeXFMUFdjU1NvQ3N4LXpHdC1kc185R2lKZXBEWUlfX2FuaDY0aHltYzdLTzl3TGFuUEVhUEZyQ3dUN1lpaWxJZ1N1QnM1cXlMTHhVelFNaWZMcDh5N0VZeVhEdS0wMTJzRVhfODY4NnVBN0ZmYWd6aFRUbWt0TGdOc21nMFREdHRS?oc=5",
+    "publishedAt": "2026-05-09T10:00:00.000Z",
+    "titleEn": "White House scrambles to tame AI fears",
+    "titleZh": null,
+    "abstractEn": "White House scrambles to tame AI fears  The Hill",
+    "abstractZh": null,
+    "authors": [
+      "The Hill"
+    ],
+    "institution": "The Hill",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-415019-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/415019.html",
+    "publishedAt": "2026-05-09T09:53:25.000Z",
+    "titleEn": "两项AI政策发布，范式智能战略布局与产业方向高度契合",
+    "titleZh": null,
+    "abstractEn": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "gnews:0ccb663ab7e0",
+    "slug": "gnews-0ccb663ab7e0",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGotbGduazJDTzA2RU1JcEdiNHhTckwxNXBBeldNb2N2TXRnNmprQTNsZnZHTFRzbWhQTG5ucHJwYUtPbVJ6VWFiZW5Uajg3WGs4YXcyNkNxcFRqRXVTRDNOTlRHT21lZndwVkVWbE1ZNWRXdjhWVWU2Z2ZMeTYxZzlZb05RNzRCYW1Kbm5YbmpTVm1XTlNoSTZ3?oc=5",
+    "publishedAt": "2026-05-09T09:45:00.000Z",
+    "titleEn": "Kenosha Unified School Board adopts AI policy, updates others",
+    "titleZh": null,
+    "abstractEn": "Kenosha Unified School Board adopts AI policy, updates others  Kenosha News",
+    "abstractZh": null,
+    "authors": [
+      "Kenosha News"
+    ],
+    "institution": "Kenosha News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-415010-html",
+    "slug": "roboneo-agent-teams",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/415010.html",
+    "publishedAt": "2026-05-09T09:22:38.000Z",
+    "titleEn": "美图RoboNeo全新升级：首创影像创作Agent Teams",
+    "titleZh": null,
+    "abstractEn": "打造“赛博乙方天团”",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48073246",
+    "slug": "hn-48073246-llms-corrupt-your-documents-when-you-delegate",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2604.15597",
+    "commentUrl": "https://news.ycombinator.com/item?id=48073246",
+    "publishedAt": "2026-05-09T08:44:34.000Z",
+    "titleEn": "LLMs corrupt your documents when you delegate",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rbanffy"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 395,
+    "commentCount": 153,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414827-html",
+    "slug": "openai-ai-py",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414827.html",
+    "publishedAt": "2026-05-09T08:07:08.000Z",
+    "titleEn": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
+    "titleZh": null,
+    "abstractEn": "实现过程开源可复现",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-n9yxil59mihx0ryy-html",
+    "slug": "b",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/N9yXIL59MiHx0rYY.html",
+    "publishedAt": "2026-05-09T07:56:00.000Z",
+    "titleEn": "小雨智造完成数亿元B+轮融资，北汽、复星锐正和建发新兴等产业资本加速集结",
+    "titleZh": null,
+    "abstractEn": "5月9日，通用具身智能科技公司小雨智造宣布完成数亿元 B+ 轮融资。本轮融资由北汽产投、复星锐正和建发新兴三家新进投资方联合投资，老股东华业天成、贵州科创天使基金共同跟投，滴滴、小米联合创始人黎万强持续追加投资，庚辛资本作为独家财务顾问并进行投资。继B轮华业天成领投后，小雨智造再度获得产业资本密集加码，投资方阵营已横跨消费电子、汽车、船舶、建筑四大产业门类，工业具身智能的产业生态版图进一步成型。创始人乔忠良表示，年出货10万台是具身智能决赛圈的门票，小雨智造有信心在智能焊接领域做出超级爆品。\n\n（小雨创始人、CEO 乔忠良）\n年出货10万台，小雨目标打造具身爆品\n4月28日，乔忠良首次在小雨智造官方公众号发文（https://mp.weixin.qq.com/s/1WYjXx1PJBERGUCGbbAyuw），详细介绍了公司创业三年来的近况。\n文章透露，小雨智造成立于2023年，愿景是“成",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-zrhid0k9ajggoerd-html",
+    "slug": "aa",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/ZrhId0k9AjggOERD.html",
+    "publishedAt": "2026-05-09T07:18:00.000Z",
+    "titleEn": "阶跃语音生成模型，拿下 AA 榜语音竞技场国产第一，全球第三",
+    "titleZh": null,
+    "abstractEn": "5 月 9 日，全球权威 TTS 评测榜单 Artificial Analysis Speech Arena Leaderboard 更新，阶跃语音生成模型 StepAudio 2.5 TTS 跻身全球前三，成为当前榜单排名最高的中国大模型。\n\n不同于传统实验室指标，该榜单采用盲测 Elo 评分机制，由用户在不知道模型身份的情况下，直接对同一文本生成的两段语音进行听感判断，测试覆盖客户服务、知识分享、数字助手、娱乐等真实应用场景。这意味着，StepAudio 2.5 TTS 的领先并不只是参数或指标上的提升，而是在真实用户听感中展现出更自然、更接近真人表达的能力，在实际落地中具备更强竞争力。\n据了解，阶跃近期集中发布 StepAudio 2.5 系列模型，包括 TTS、ASR 和 Realtime 三款模型，覆盖语音生成、语音识别与实时语音交互全链路。其中，StepAudio 2.5 TT",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414788-html",
+    "slug": "ai-ai-sota",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414788.html",
+    "publishedAt": "2026-05-09T07:12:48.000Z",
+    "titleEn": "谷歌「AI联合数学家」来了！刷新最难数学AI基准SOTA，牛津教授用它解开群论悬案",
+    "titleZh": null,
+    "abstractEn": "谷歌AI for Math迈出最新一步",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48071940",
+    "slug": "hn-48071940-using-claude-code-the-unreasonable-effectiveness-of-html",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/trq212/status/2052809885763747935",
+    "commentUrl": "https://news.ycombinator.com/item?id=48071940",
+    "publishedAt": "2026-05-09T04:53:52.000Z",
+    "titleEn": "Using Claude Code: The unreasonable effectiveness of HTML",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pretext"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 451,
+    "commentCount": 252,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-414501-html",
+    "slug": "3d-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/414501.html",
+    "publishedAt": "2026-05-09T04:50:55.000Z",
+    "titleEn": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我看愣了",
+    "titleZh": null,
+    "abstractEn": "眼镜里的信息第一次「立」起来了",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hn:48071262",
+    "slug": "hn-48071262-a-recent-experience-with-chatgpt-5-5-pro",
+    "source": "Hacker News",
+    "sourceUrl": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48071262",
+    "publishedAt": "2026-05-09T02:41:42.000Z",
+    "titleEn": "A recent experience with ChatGPT 5.5 Pro",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "_alternator_"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 627,
+    "commentCount": 458,
+    "tags": [],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "reddit:1t7qfaq",
     "slug": "reddit-1t7qfaq-qwen3-6-35b-a3b-uncensored-heretic-native-mtp-preserved-is-out-no",
     "source": "Reddit LocalLLaMA",
@@ -21,7 +818,8 @@
     "tags": [
       "New Model"
     ],
-    "fetchedAt": "2026-05-09T02:02:41.612Z"
+    "fetchedAt": "2026-05-09T02:02:41.612Z",
+    "featured": false
   },
   {
     "id": "hn:48070454",
@@ -43,7 +841,8 @@
     "score": 4,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-05-09T02:02:41.612Z"
+    "fetchedAt": "2026-05-09T02:02:41.612Z",
+    "featured": false
   },
   {
     "id": "hn:48070181",
@@ -286,6 +1085,52 @@
     "featured": false
   },
   {
+    "id": "hrorg:mercer:f5117d5d2dd1",
+    "slug": "hrorg-mercer-f5117d5d2dd1",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0dlcHhUYXJ2VEpMOHR1ZGJUdU8tVklrTEUyVFpVeXpFd0Ztd2FVeTY3TFpoaEZQUFlUZ2R2U1k1VnNpY19INWFSU3A4WnpNRElpWng4SUNLLWU4RG82OUxIYWxjZGFyODYxZGh6SDIyc3preERGOVJTc1RzZTNrUVFRTGFYT185dDY2b3Y2ZGtoRUVCM0ZpSDMwSno5cWZRSHlOcVVZQ3I5TlJfejltZWZUTVNmZjBFWDNn?oc=5",
+    "publishedAt": "2026-05-08T18:58:26.000Z",
+    "titleEn": "DC innovation could help Canadians retire years earlier: report",
+    "titleZh": null,
+    "abstractEn": "DC innovation could help Canadians retire years earlier: report  hcamag.com",
+    "abstractZh": null,
+    "authors": [
+      "hcamag.com"
+    ],
+    "institution": "hcamag.com",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
+    "id": "hrorg:korn-ferry:1b715514f227",
+    "slug": "hrorg-korn-ferry-1b715514f227",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaVRoS0FabUZpUURXVU5wYXlJSU11VVVOS3hicFBaSGtqSUNwdXdCejFUaDRpRm82akFpNTJ5cFRPMlhsTm12N1ZsSFhTdXVwTExsWGkxRm9pajI4bTVTd2dNOUptV3F2R3dPTVlycWdhNTZRMzZWa01tclVPcU9VNXh6S2Y3dFVnNjR4M19PNkh3ZzEtNDE2SGZ6UjBhVFk5dFpKaGdlYjd2bnRpR0o1c19UTUVMRVMwVFhUQ1JGLVl0WUR3Ync5MTVYSlJnZ2dYMkUxcG1yONIB1wFBVV95cUxPaVRoS0FabUZpUURXVU5wYXlJSU11VVVOS3hicFBaSGtqSUNwdXdCejFUaDRpRm82akFpNTJ5cFRPMlhsTm12N1ZsSFhTdXVwTExsWGkxRm9pajI4bTVTd2dNOUptV3F2R3dPTVlycWdhNTZRMzZWa01tclVPcU9VNXh6S2Y3dFVnNjR4M19PNkh3ZzEtNDE2SGZ6UjBhVFk5dFpKaGdlYjd2bnRpR0o1c19UTUVMRVMwVFhUQ1JGLVl0WUR3Ync5MTVYSlJnZ2dYMkUxcG1yOA?oc=5",
+    "publishedAt": "2026-05-08T18:54:25.000Z",
+    "titleEn": "Assessing Korn Ferry (KFY) Valuation After Recent Quiet Share Price Gains",
+    "titleZh": null,
+    "abstractEn": "Assessing Korn Ferry (KFY) Valuation After Recent Quiet Share Price Gains  simplywall.st",
+    "abstractZh": null,
+    "authors": [
+      "simplywall.st"
+    ],
+    "institution": "simplywall.st",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hn:48067119",
     "slug": "hn-48067119-google-broke-recaptcha-for-de-googled-android-users",
     "source": "Hacker News",
@@ -495,7 +1340,8 @@
     "score": 32,
     "commentCount": 4,
     "tags": [],
-    "fetchedAt": "2026-05-09T02:02:41.612Z"
+    "fetchedAt": "2026-05-09T02:02:41.612Z",
+    "featured": false
   },
   {
     "id": "reddit:1t7cqg9",
@@ -644,6 +1490,30 @@
     "tags": [],
     "fetchedAt": "2026-05-09T00:14:39.820Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:zhilian:2fe554da63ad",
+    "slug": "hrorg-zhilian-2fe554da63ad",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYm9Nc1drZ0ljcmdWcC1wN2pjMGVuN1ZwZHVmVlhVVTZuZmw4UEt1UnlDVWExbFZlZjZjX3NKTjNLbWpfRnhtdElqTFdFa3FMQ0ZjUE9ibjZrY1RvSFZ1UVZMSzB2bXJMaDZ5VTlwNFAwbEdxUTRleGpEMUU1VGdDZ0NfSjJ4MjZBSkVjRQ?oc=5",
+    "publishedAt": "2026-05-08T14:49:30.000Z",
+    "titleEn": "智联招聘发布职场妈妈调查报告：仅有不到6%的人感到升职可能性大",
+    "titleZh": null,
+    "abstractEn": "智联招聘发布职场妈妈调查报告：仅有不到6%的人感到升职可能性大  搜狐网",
+    "abstractZh": null,
+    "authors": [
+      "搜狐网"
+    ],
+    "institution": "搜狐网",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-qmyczgke8pn9ddrk-html",
@@ -1042,6 +1912,30 @@
     "tags": [],
     "fetchedAt": "2026-05-09T00:14:39.820Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:careerin:292db5f38ded",
+    "slug": "hrorg-careerin-292db5f38ded",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02ZnExd2N3Zk9xLUNJa2RHaEJWQkNhdm1kaHgycS1NWE5Ga2hnemFRWUlXV2xhVzRWbUhMNmFqenVFQ0psT3NRTk53dkwtV2psb3J1QVhfRWVhNi1kN3dxZXd2Yw?oc=5",
+    "publishedAt": "2026-05-08T06:11:38.000Z",
+    "titleEn": "智变与出海双轮驱动：深度解码2026汽车人才“新战局”",
+    "titleZh": null,
+    "abstractEn": "智变与出海双轮驱动：深度解码2026汽车人才“新战局”  同花顺财经",
+    "abstractZh": null,
+    "authors": [
+      "同花顺财经"
+    ],
+    "institution": "同花顺财经",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hn:48058644",
@@ -1777,6 +2671,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:zhilian:f9c54f1ff07d",
+    "slug": "hrorg-zhilian-f9c54f1ff07d",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaThFeHljTFRteDBzX2oyekpJWi12UHFfMXJQVTRnWDA4aVJlWk0ydEZURTRMZWxBVkFzY0EwZ0lDMTVZRFcyVU5ackxJbGFZbTE4MXdWUEhfeW1qMEVZT2lCcG9NdnE5Qy1ZLTV2clppc3FHZGd0Q2Q3M0xJYl90M1Z4UHNueVRwN2c?oc=5",
+    "publishedAt": "2026-05-07T21:48:00.000Z",
+    "titleEn": "努力的职场妈妈！智联招聘发布2026职场妈妈调查报告",
+    "titleZh": null,
+    "abstractEn": "努力的职场妈妈！智联招聘发布2026职场妈妈调查报告  shobserver.com",
+    "abstractZh": null,
+    "authors": [
+      "shobserver.com"
+    ],
+    "institution": "shobserver.com",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "gnews:af06a34379d7",
     "slug": "gnews-af06a34379d7",
     "source": "Google AI News",
@@ -2434,7 +3352,8 @@
     "score": 103,
     "commentCount": 23,
     "tags": [],
-    "fetchedAt": "2026-05-09T02:02:41.612Z"
+    "fetchedAt": "2026-05-09T02:02:41.612Z",
+    "featured": false
   },
   {
     "id": "reddit:1t6gmcn",
@@ -2533,6 +3452,30 @@
     ],
     "fetchedAt": "2026-05-08T02:10:17.467Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:adecco:d8bf9898c2d7",
+    "slug": "hrorg-adecco-d8bf9898c2d7",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzY1UHNsbGNQYUdTQjRCWG9XenhLWU43NTl0VGxJbnYtSkhKRzFEcVhsUVpaRWdtQzEyRUdfcUFZSDY1b3ZBVE5xckpsTG1rTDFGekN4MWgxRWxWWnNyUk11N3NWcmQ0TUltSUpob05TZGotMkxrVmhKYVpBeGxSb3lVVFRFQlM4RHRPd0Znbw?oc=5",
+    "publishedAt": "2026-05-07T16:07:00.000Z",
+    "titleEn": "Deals tracker: Cross Country Healthcare to be acquired for $437M",
+    "titleZh": null,
+    "abstractEn": "Deals tracker: Cross Country Healthcare to be acquired for $437M  Modern Healthcare News",
+    "abstractZh": null,
+    "authors": [
+      "Modern Healthcare News"
+    ],
+    "institution": "Modern Healthcare News",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hn:48051079",
@@ -5278,6 +6221,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:mercer:4c65e8742eed",
+    "slug": "hrorg-mercer-4c65e8742eed",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeHBXM3pISnQtanhzZHpXdEQ4V0Yzanp6bnlLYndWbmxoRDNQSXJpN3VTdW14MF9DZnNfYjUwb3RmcnhyZGxqVlBjbFhSRFY2Vkl3WWNEdmhQMm9JdkRUSW9iQ2xGOXRvZGxrN085R29Zemxnbl9pRVpLVXE3R0tUWWVhYTBsVzdFaXJMUnFMeHNRRDFkMnF5cXpxYl9pQThhaThyMUY2MmszYjkwUEhYa1czVDZGTWU4alA0b0poVWUxUUxBQ01ZNERhblRMVHRmZUExaVNWbG5nR2F3LXk5Vy1oUHZwUQ?oc=5",
+    "publishedAt": "2026-05-06T15:45:00.000Z",
+    "titleEn": "Mercer and Syndio Join Forces to Close the Gap Between Compensation Strategy and Pay Decisions",
+    "titleZh": null,
+    "abstractEn": "Mercer and Syndio Join Forces to Close the Gap Between Compensation Strategy and Pay Decisions  Business Wire",
+    "abstractZh": null,
+    "authors": [
+      "Business Wire"
+    ],
+    "institution": "Business Wire",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hrorg:mercer:0be7c858635d",
     "slug": "hrorg-mercer-0be7c858635d",
     "source": "Mercer",
@@ -6317,6 +7283,29 @@
     ],
     "fetchedAt": "2026-05-07T02:11:13.233Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:boss-zhipin:0f3f3c2b9a54",
+    "slug": "hrorg-boss-zhipin-0f3f3c2b9a54",
+    "source": "BOSS直聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtMkRCWDdESWxscm9pb1RyTnI4Q3UzZzg2YlBHeEpfVUNjWkN4TzRCSE42Q2pKZmRlbjk5SElzQkJ5ZmZmOVlIT3NCOTdBZlBnXzltMW9vVHB4Zw?oc=5",
+    "publishedAt": "2026-05-06T10:41:00.000Z",
+    "titleEn": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？",
+    "titleZh": null,
+    "abstractEn": "BOSS直聘创始人赵鹏年薪4183万！但求职者为何却找不到工作？  TMT观察网",
+    "abstractZh": null,
+    "authors": [
+      "TMT观察网"
+    ],
+    "institution": "TMT观察网",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hrorg:boss-zhipin:5d6663c41649",
@@ -8675,6 +9664,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:korn-ferry:4420c008b2f4",
+    "slug": "hrorg-korn-ferry-4420c008b2f4",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLVk0YjBPRHhEMmRlYWRiSXpscWdReC1ISEFxYTVPWkwxa2Rub1NpSUFYN1hlbjA5WXVvQlQzM2pPaFlSRUdwSTFpTmxWNHBCZlJUS1pZYnV2MmNzNVR0Z3lqUXVyVmVIR2QzX1ZjVXZNZGpiVmJZWVdXM3pIZWx1NEhBT180QmVaQnVqMXg0U1pSY2xrc1ZmYXdtVE12UVlF?oc=5",
+    "publishedAt": "2026-05-05T15:01:00.000Z",
+    "titleEn": "Korn Ferry Ranked as America’s Best Executive Recruiter by Forbes Magazine",
+    "titleZh": null,
+    "abstractEn": "Korn Ferry Ranked as America’s Best Executive Recruiter by Forbes Magazine  Yahoo Finance",
+    "abstractZh": null,
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hrorg:korn-ferry:2d81e8dac479",
     "slug": "hrorg-korn-ferry-2d81e8dac479",
     "source": "Korn Ferry",
@@ -10909,6 +11921,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:adecco:eb26d5bca1c3",
+    "slug": "hrorg-adecco-eb26d5bca1c3",
+    "source": "Adecco Group",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMXFaR2Q5dnVpcDdCS0I3bFJjb0Z2ZzRfLURxOENIRkk4eVg1N3E2Wjlsa0MtYm0yVkI1d3hGMVQtdkhsV0FPU1RsdmRDX0JLZ3pwdFlVaXIwRkJmVGxkNHJyaWdRemhwRzlXbHFGTGJvdmtWWVJSd3NCLVpwTWdpdktQN3Z6RXNpelVNUVgwMU5RaTVNcW5IYkxjM2lyLTUxbDBwUkl1Y1d4d0ZqWS11dW9WU2Y?oc=5",
+    "publishedAt": "2026-05-04T07:00:00.000Z",
+    "titleEn": "Adecco Appoints Betul Genc as SVP & Country Head of Australia & New Zealand",
+    "titleZh": null,
+    "abstractEn": "Adecco Appoints Betul Genc as SVP & Country Head of Australia & New Zealand  Issuewire",
+    "abstractZh": null,
+    "authors": [
+      "Issuewire"
+    ],
+    "institution": "Issuewire",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "量子位:https-www-qbitai-com-2026-05-412914-html",
     "slug": "deepseek-claude-code-github-2-3k",
     "source": "量子位",
@@ -12492,6 +13527,30 @@
       "Question | Help"
     ],
     "featured": false
+  },
+  {
+    "id": "hrorg:careerin:d7b9c87b93c1",
+    "slug": "hrorg-careerin-d7b9c87b93c1",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXhhV3I3MmN2SWxSNVBOSFVXSHRMRGdYZnVtU3JfUFNpRzhOMEU5bzQ0NDlCT1lrZnBZdnY2RzN2YmlaX3VZT19ickJJYmxCS3lQV2Zwb2NVb0xpOHBtQTVnYkg2SGpCdG0xcjVRV0pmZUFxRkVzZ3loMDVCZFNnR0JvSkd1VENFM2EtTGlzRm4wdDJKenlwSWYyWnZQd2dN?oc=5",
+    "publishedAt": "2026-05-02T07:16:56.000Z",
+    "titleEn": "科锐国际：2025年年度报告摘要",
+    "titleZh": null,
+    "abstractEn": "科锐国际：2025年年度报告摘要  富途牛牛",
+    "abstractZh": null,
+    "authors": [
+      "富途牛牛"
+    ],
+    "institution": "富途牛牛",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "reddit:1t1itn1",
@@ -24834,6 +25893,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:careerin:a86fb830a734",
+    "slug": "hrorg-careerin-a86fb830a734",
+    "source": "科锐国际",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelQzbWtvckpOcGhPb0tGZ2tMeWI4ejAxRHc0N3JKemdlbUJra2tZdmdHM3oyZTV1X1JVNi1ROWhHb3BzTTc4VFRNRGx0Tk1IM0hocnJpcUF2RWQtVEtpQXJRQUl4dDBfT3NiRUdoVUFDUkViTVh6QVN6aXk1VkhKZklxVDZuOEJ3Q3NXRXh6QXJkSDVBM0Z4ZHNVTDl1Zy1zNXc?oc=5",
+    "publishedAt": "2026-04-27T07:00:00.000Z",
+    "titleEn": "科锐国际2025年营收145.40亿元，归母净利润3.14亿元同比增52.68%，费用管控优化驱动净利率提升",
+    "titleZh": null,
+    "abstractEn": "科锐国际2025年营收145.40亿元，归母净利润3.14亿元同比增52.68%，费用管控优化驱动净利率提升  富途牛牛",
+    "abstractZh": null,
+    "authors": [
+      "富途牛牛"
+    ],
+    "institution": "富途牛牛",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hrorg:careerin:24314240515e",
     "slug": "hrorg-careerin-24314240515e",
     "source": "科锐国际",
@@ -26014,6 +27097,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:fesco-adecco:aa0d05c7e409",
+    "slug": "hrorg-fesco-adecco-aa0d05c7e409",
+    "source": "FESCO Adecco",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vMXpYQzhVOFZXMENlMjZLZDBsUEsyUzhkckdQZVFycnBuX3VUVW9mWGo2enFkaFlwNkxWb2c5Y3JOclRLbUFZVUNMZ3l1aHdSakJZdHVqcw?oc=5",
+    "publishedAt": "2026-04-22T03:00:00.000Z",
+    "titleEn": "FESCO Adecco 上海公司斩获2026\"金帜奖\" 四项大奖彰显行业引领力",
+    "titleZh": null,
+    "abstractEn": "FESCO Adecco 上海公司斩获2026\"金帜奖\" 四项大奖彰显行业引领力  美通社",
+    "abstractZh": null,
+    "authors": [
+      "美通社"
+    ],
+    "institution": "美通社",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hrorg:ciic:e0bbac6b29d6",
     "slug": "hrorg-ciic-e0bbac6b29d6",
     "source": "中智咨询",
@@ -26960,6 +28067,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:zhilian:a2d217abb56d",
+    "slug": "hrorg-zhilian-a2d217abb56d",
+    "source": "智联招聘",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWNvajh3WnRtWk8xMlpZRFFxaE9yN1IwdDVJYTV3OXA1VTlvY2w2QzRoc2JNWVF3YVI2aEhOdnBEOEZvZjlObGhyT3g2TEp1cmF0VkxNOWlhNFZSaDZ3eElzcmQ4cDAxWGNySEF1ZFVfbmRYeVloYVVrUTVBRWcySDY1U18?oc=5",
+    "publishedAt": "2026-04-07T07:00:00.000Z",
+    "titleEn": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》",
+    "titleZh": null,
+    "abstractEn": "智联招聘联合中国社科院发布《2025年人力资源市场趋势分析报告》  新浪财经",
+    "abstractZh": null,
+    "authors": [
+      "新浪财经"
+    ],
+    "institution": "新浪财经",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
+  },
+  {
     "id": "hrorg:zhilian:84b7c353bd36",
     "slug": "hrorg-zhilian-84b7c353bd36",
     "source": "智联招聘",
@@ -27058,6 +28189,30 @@
     ],
     "fetchedAt": "2026-05-08T00:45:02.180Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:randstad:2ab00b424a9a",
+    "slug": "hrorg-randstad-2ab00b424a9a",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUk5XOHgwZlJCMnFVdkRZaV9TOVc0LUtKbUZSa0txSTgtdk9pc2IyYmhKNUkwWGRoRk5CekYydWtyQkhOVmx4cldHQzAxeUluWnl3QzVsOE53cldpSEw2WEhGQmd4cDUwVy1fdnhCQWtWM3V6QkpjbFcwMjRJa180LVRFWVg2WEl0SU9OODNrdWpKQmo1a0lDdDdHSGphbTJ3OUVYelRvcVN0VVA0enEweEg4ZXBjeWpsSjFMQndn?oc=5",
+    "publishedAt": "2026-03-23T07:00:00.000Z",
+    "titleEn": "Bridging the Finance Talent Gap During the Great Workplace Adaption",
+    "titleZh": null,
+    "abstractEn": "Bridging the Finance Talent Gap During the Great Workplace Adaption  CPA Practice Advisor",
+    "abstractZh": null,
+    "authors": [
+      "CPA Practice Advisor"
+    ],
+    "institution": "CPA Practice Advisor",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hrorg:randstad:925e9772dffe",
@@ -27183,6 +28338,30 @@
     ],
     "fetchedAt": "2026-05-08T00:45:02.180Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:randstad:ab8b43cb61b0",
+    "slug": "hrorg-randstad-ab8b43cb61b0",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTmxDYzNQaGlZSFFtbVpsM3I5QWttbk9PcDZnNm5oRXhhRzNhandDMldpOEt0NGtWZk1lSkVNbWNYSnRPU3hHNVpmMld6a3Y3U196MUNka0ZwMmVsRHRCblRVcmJxNkdOUU1iNlRDZ0FfbDNEb1gwZVE2NWZjblppXzJBY3dCeFM4MGNWeUd3NHQ0ZXRUN0w0REhuNmJBTkhxeW14ZHBqWVFKQUxvdWlfQlBFZl96OFpaVGt5QmNOeFBGVGN3WmpOenZNZy1zM2dVOTBBQjJSbkpxUmVOeTlXVF82YWQ3RnBrN2c?oc=5",
+    "publishedAt": "2026-03-17T07:00:00.000Z",
+    "titleEn": "69% of Singapore workers turn to managers for support amid economic uncertainty",
+    "titleZh": null,
+    "abstractEn": "69% of Singapore workers turn to managers for support amid economic uncertainty  People Matters Global",
+    "abstractZh": null,
+    "authors": [
+      "People Matters Global"
+    ],
+    "institution": "People Matters Global",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hrorg:randstad:3037e0561205",
@@ -27358,6 +28537,30 @@
     ],
     "fetchedAt": "2026-05-08T00:45:02.180Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:randstad:9200cda2749a",
+    "slug": "hrorg-randstad-9200cda2749a",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeTh5NTBHQk90TEhtT0pHNldLeDZfZVBKZmZxdDBMLUZuMXJYSDFRbmc4cHVvNGdaeDlBRlJjOGM1VXJvbjdncEtLOUNLV2NCYXd4WE9SQ0lmMUJaeVh3b1RjUjEyOTVHUkc5U0hsLWRTbnk3QXozZkdNV004NDRiS0FtY3NEM1lYNXVaZXR2ZGUxYWM?oc=5",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
+    "titleEn": "India Workforce Embraces AI Boosts Productivity",
+    "titleZh": null,
+    "abstractEn": "India Workforce Embraces AI Boosts Productivity  Let's Data Science",
+    "abstractZh": null,
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-10T07:52:13.106Z"
   },
   {
     "id": "hrorg:manpower:d1a5bbc5ce63",
