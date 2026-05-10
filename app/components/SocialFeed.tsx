@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect } from 'react';
+import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOCIAL_SOURCES } from '../lib/sources-config';
 import styles from './SocialFeed.module.css';
@@ -73,15 +74,26 @@ export function SocialFeed({ articles }: Props) {
   const feedRef    = useRef<HTMLDivElement>(null);
   const dateNavRef = useRef<HTMLDivElement>(null);
 
+  /* Fuse instance — rebuilt only when articles array changes */
+  const fuse = useMemo(
+    () =>
+      new Fuse(articles, {
+        keys: [
+          { name: 'titleZh',  weight: 0.5 },
+          { name: 'titleEn',  weight: 0.4 },
+          { name: 'source',   weight: 0.1 },
+        ],
+        threshold: 0.35,
+        minMatchCharLength: 2,
+        ignoreLocation: true,
+      }),
+    [articles],
+  );
+
   const filtered = useMemo(() => {
-    if (!query) return articles;
-    const q = query.toLowerCase();
-    return articles.filter((a) =>
-      (a.titleZh ?? a.titleEn).toLowerCase().includes(q) ||
-      a.titleEn.toLowerCase().includes(q) ||
-      a.source.toLowerCase().includes(q)
-    );
-  }, [articles, query]);
+    if (!query.trim()) return articles;
+    return fuse.search(query).map((r) => r.item);
+  }, [articles, fuse, query]);
 
   /* Group by date */
   const grouped = useMemo(() => {

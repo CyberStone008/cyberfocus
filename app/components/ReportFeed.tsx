@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
+import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOURCES } from '../lib/sources-config';
 import styles from './ReportFeed.module.css';
@@ -147,19 +148,33 @@ export function ReportFeed({
     [localArticles]
   );
 
+  /* Fuse instance — rebuilt only when localArticles changes */
+  const fuse = useMemo(
+    () =>
+      new Fuse(localArticles, {
+        keys: [
+          { name: 'titleZh',    weight: 0.4 },
+          { name: 'titleEn',    weight: 0.3 },
+          { name: 'abstractZh', weight: 0.2 },
+          { name: 'abstractEn', weight: 0.05 },
+          { name: 'source',     weight: 0.05 },
+        ],
+        threshold: 0.35,
+        minMatchCharLength: 2,
+        ignoreLocation: true,
+      }),
+    [localArticles],
+  );
+
   const filtered = useMemo(() => {
     let list = localArticles;
-    if (reportOnly)      list = list.filter((a) => a.docType === 'Report');
-    if (selectedSource)  list = list.filter((a) => a.source === selectedSource);
-    if (!query) return list;
-    const q = query.toLowerCase();
-    return list.filter((a) =>
-      (a.titleZh ?? a.titleEn).toLowerCase().includes(q) ||
-      a.titleEn.toLowerCase().includes(q) ||
-      (a.abstractZh ?? '').toLowerCase().includes(q) ||
-      a.source.toLowerCase().includes(q)
-    );
-  }, [localArticles, query, selectedSource, reportOnly]);
+    if (reportOnly)     list = list.filter((a) => a.docType === 'Report');
+    if (selectedSource) list = list.filter((a) => a.source === selectedSource);
+    if (!query.trim()) return list;
+    // Run Fuse on full article set first, then apply active filters to preserve correct counts
+    const matched = new Set(fuse.search(query).map((r) => r.item.id));
+    return list.filter((a) => matched.has(a.id));
+  }, [localArticles, fuse, query, selectedSource, reportOnly]);
 
   const grouped = useMemo(() => {
     const map = new Map<string, Article[]>();
