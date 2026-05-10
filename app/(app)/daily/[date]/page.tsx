@@ -13,7 +13,6 @@ interface DailySummary {
   papers: string[];
   hrOrgs: string[];
 }
-
 interface DailyDoc {
   date: string;
   generatedAt?: string;
@@ -21,18 +20,22 @@ interface DailyDoc {
   articles: Article[];
 }
 
+/* ── Source sets ── */
+const HR_SOURCES = new Set([
+  'Korn Ferry','Mercer','ManpowerGroup','Randstad','Adecco Group',
+  '科锐国际','FESCO','中智咨询','智联招聘','BOSS直聘','FESCO Adecco',
+]);
+const PAPER_SOURCES = new Set(['arXiv cs.AI','arXiv cs.LG','HuggingFace Daily']);
+
 /* ── Helpers ── */
 function loadDaily(date: string): DailyDoc | null {
   const path = resolve(DAILY_DIR, `${date}.json`);
   if (!existsSync(path)) return null;
   try {
     const raw = JSON.parse(readFileSync(path, 'utf8'));
-    // Handle old plain-array format
     if (Array.isArray(raw)) return { date, articles: raw };
     return raw as DailyDoc;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 function availableDates(): string[] {
@@ -43,22 +46,26 @@ function availableDates(): string[] {
     .sort((a, b) => b.localeCompare(a));
 }
 
-function formatDateLabel(dateKey: string): string {
+function formatFullDate(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
   const today = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() + 8 * 3600 * 1000 - 86400000).toISOString().slice(0, 10);
-  if (dateKey === today) return `今天 · ${y}年${m}月${d}日`;
-  if (dateKey === yesterday) return `昨天 · ${y}年${m}月${d}日`;
-  return `${y}年${m}月${d}日`;
+  const prefix = dateKey === today ? '今天 · ' : '';
+  return `${prefix}${y}年${m}月${d}日`;
 }
 
-function formatDatePill(dateKey: string): string {
+function formatPill(dateKey: string): string {
   const [, m, d] = dateKey.split('-').map(Number);
   const today = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() + 8 * 3600 * 1000 - 86400000).toISOString().slice(0, 10);
+  const yest  = new Date(Date.now() + 8*3600*1000 - 86400000).toISOString().slice(0,10);
   if (dateKey === today) return '今天';
-  if (dateKey === yesterday) return '昨天';
+  if (dateKey === yest)  return '昨天';
   return `${m}月${d}日`;
+}
+
+function weekdayCN(dateKey: string): string {
+  const days = ['周日','周一','周二','周三','周四','周五','周六'];
+  const [y, m, d] = dateKey.split('-').map(Number);
+  return days[new Date(y, m - 1, d).getDay()];
 }
 
 /* ── Static params ── */
@@ -72,99 +79,97 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
   const doc = loadDaily(date);
   if (!doc) notFound();
 
-  const dates = availableDates();
+  const dates   = availableDates();
   const { summary, articles } = doc;
-  const currentDate = date;
-
-  const HR_SOURCES = new Set([
-    'Korn Ferry', 'Mercer', 'ManpowerGroup', 'Randstad', 'Adecco Group',
-    '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
-  ]);
-  const PAPER_SOURCES = new Set(['arXiv cs.AI', 'arXiv cs.LG', 'HuggingFace Daily']);
 
   const aiNewsArticles = articles.filter(
     (a) => !HR_SOURCES.has(a.source) && !PAPER_SOURCES.has(a.source),
   );
-  const paperArticles = articles.filter((a) => PAPER_SOURCES.has(a.source));
-  const hrOrgArticles = articles.filter(
+  const paperArticles  = articles.filter((a) => PAPER_SOURCES.has(a.source));
+  const hrOrgArticles  = articles.filter(
     (a) => HR_SOURCES.has(a.source) || a.tags?.includes('人服动态'),
   );
 
+  const sections = [
+    { id: 'ai-news',  icon: '🤖', label: 'AI 动态',    bullets: summary?.aiNews  ?? [], items: aiNewsArticles },
+    { id: 'papers',   icon: '📄', label: '论文速递',   bullets: summary?.papers  ?? [], items: paperArticles  },
+    { id: 'hr-orgs',  icon: '🏢', label: '人力资源',   bullets: summary?.hrOrgs  ?? [], items: hrOrgArticles  },
+  ].filter((s) => s.items.length > 0);
+
+  const genTime = doc.generatedAt
+    ? new Date(doc.generatedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false })
+    : null;
+
   return (
     <div className={styles.root}>
-      {/* ── Header ── */}
-      <div className={styles.header}>
-        <div className={styles.headerTop}>
-          <Link href="/daily" className={styles.backLink}>← 日报</Link>
-          <span className={styles.headerDate}>{formatDateLabel(date)}</span>
-          {doc.generatedAt && (
-            <span className={styles.headerMeta}>
-              生成于 {new Date(doc.generatedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false })}
-            </span>
-          )}
-        </div>
 
-        {/* Date pills */}
-        <div className={styles.datePills}>
-          {dates.slice(0, 10).map((d) => (
-            <Link
-              key={d}
-              href={`/daily/${d}`}
-              className={`${styles.datePill} ${d === currentDate ? styles.datePillActive : ''}`}
-            >
-              {formatDatePill(d)}
-            </Link>
-          ))}
+      {/* ── Top bar ── */}
+      <div className={styles.topbar}>
+        <div className={styles.topbarLeft}>
+          <span className={styles.topbarLabel}>📋 AI 日报</span>
+          <span className={styles.topbarDate}>{formatFullDate(date)} · {weekdayCN(date)}</span>
+          {genTime && <span className={styles.topbarMeta}>生成于 {genTime}</span>}
         </div>
+        <span className={styles.topbarCount}>{articles.length} 条</span>
       </div>
 
-      <div className={styles.body}>
-        {/* ── Summary cards ── */}
-        {summary && (
-          <div className={styles.summaryGrid}>
-            {summary.aiNews.length > 0 && (
-              <SummaryCard
-                icon="🤖"
-                title="AI 动态"
-                bullets={summary.aiNews}
-                count={aiNewsArticles.length}
-                anchor="#ai-news"
-              />
-            )}
-            {summary.papers.length > 0 && (
-              <SummaryCard
-                icon="📄"
-                title="论文速递"
-                bullets={summary.papers}
-                count={paperArticles.length}
-                anchor="#papers"
-              />
-            )}
-            {summary.hrOrgs.length > 0 && (
-              <SummaryCard
-                icon="🏢"
-                title="人力资源动态"
-                bullets={summary.hrOrgs}
-                count={hrOrgArticles.length}
-                anchor="#hr-orgs"
-              />
-            )}
-            {!summary.aiNews.length && !summary.papers.length && !summary.hrOrgs.length && (
-              <div className={styles.noSummary}>今日摘要尚未生成，下次 pipeline 运行后自动更新</div>
-            )}
+      {/* ── Date nav ── */}
+      <div className={styles.dateNav}>
+        {dates.slice(0, 10).map((d) => (
+          <Link
+            key={d}
+            href={`/daily/${d}`}
+            className={`${styles.datePill} ${d === date ? styles.datePillActive : ''}`}
+          >
+            {formatPill(d)}
+          </Link>
+        ))}
+      </div>
+
+      {/* ── Content ── */}
+      <div className={styles.content}>
+
+        {/* ── Summary strip ── */}
+        {summary && sections.some((s) => s.bullets.length > 0) && (
+          <div className={styles.summaryStrip}>
+            <div className={styles.summaryStripTitle}>今日要点</div>
+            <div className={styles.summaryColumns}>
+              {sections.filter((s) => s.bullets.length > 0).map((s) => (
+                <div key={s.id} className={styles.summaryCol}>
+                  <div className={styles.summaryColLabel}>
+                    <span>{s.icon}</span> {s.label}
+                  </div>
+                  <ul className={styles.bulletList}>
+                    {s.bullets.map((b, i) => (
+                      <li key={i} className={styles.bullet}>{b}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </div>
         )}
 
-        {/* ── Article sections ── */}
-        {aiNewsArticles.length > 0 && (
-          <ArticleSection id="ai-news" icon="🤖" title="AI 动态" articles={aiNewsArticles} />
-        )}
-        {paperArticles.length > 0 && (
-          <ArticleSection id="papers" icon="📄" title="论文速递" articles={paperArticles} />
-        )}
-        {hrOrgArticles.length > 0 && (
-          <ArticleSection id="hr-orgs" icon="🏢" title="人力资源动态" articles={hrOrgArticles} />
-        )}
+        {/* ── Sections ── */}
+        {sections.map((s, idx) => (
+          <section key={s.id} id={s.id} className={styles.section}>
+            {/* Section header */}
+            <div className={styles.sectionHeader}>
+              <span className={styles.sectionNum}>0{idx + 1}</span>
+              <span className={styles.sectionIcon}>{s.icon}</span>
+              <span className={styles.sectionLabel}>{s.label}</span>
+              <div className={styles.sectionLine} />
+              <span className={styles.sectionCount}>{s.items.length} 条</span>
+            </div>
+
+            {/* Cards grid */}
+            <div className={styles.cardGrid}>
+              {s.items.map((a) => (
+                <ArticleCard key={a.id} article={a} />
+              ))}
+            </div>
+          </section>
+        ))}
 
         {articles.length === 0 && (
           <div className={styles.empty}>该日期暂无数据</div>
@@ -174,67 +179,36 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
   );
 }
 
-/* ── Summary Card ── */
-function SummaryCard({
-  icon, title, bullets, count, anchor,
-}: {
-  icon: string;
-  title: string;
-  bullets: string[];
-  count: number;
-  anchor: string;
-}) {
-  return (
-    <div className={styles.summaryCard}>
-      <div className={styles.summaryCardHeader}>
-        <span className={styles.summaryCardIcon}>{icon}</span>
-        <span className={styles.summaryCardTitle}>{title}</span>
-        <a href={anchor} className={styles.summaryCardCount}>{count} 条 →</a>
-      </div>
-      <ul className={styles.summaryBullets}>
-        {bullets.map((b, i) => (
-          <li key={i} className={styles.summaryBullet}>{b}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+/* ── Article Card ── */
+function ArticleCard({ article: a }: { article: Article }) {
+  const title   = a.titleZh ?? a.titleEn;
+  const hasZh   = !!a.titleZh;
+  const excerpt = a.abstractZh ?? a.abstractEn ?? '';
+  const isReport = a.docType === 'Report';
 
-/* ── Article Section ── */
-function ArticleSection({
-  id, icon, title, articles,
-}: {
-  id: string;
-  icon: string;
-  title: string;
-  articles: Article[];
-}) {
   return (
-    <section id={id} className={styles.articleSection}>
-      <div className={styles.sectionHeader}>
-        <span>{icon}</span>
-        <span className={styles.sectionTitle}>{title}</span>
-        <span className={styles.sectionCount}>{articles.length} 条</span>
+    <a
+      href={a.sourceUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.card}
+    >
+      {/* Meta row */}
+      <div className={styles.cardMeta}>
+        <span className={styles.cardSource}>{a.source}</span>
+        {isReport && <span className={styles.cardReport}>报告</span>}
       </div>
-      <div className={styles.articleList}>
-        {articles.map((a) => (
-          <a
-            key={a.id}
-            href={a.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.articleRow}
-          >
-            <span className={styles.articleSource}>{a.source}</span>
-            <span className={styles.articleTitle}>
-              {a.titleZh ?? a.titleEn}
-            </span>
-            {a.titleZh && (
-              <span className={styles.articleTitleEn}>{a.titleEn}</span>
-            )}
-          </a>
-        ))}
-      </div>
-    </section>
+
+      {/* Title */}
+      <div className={styles.cardTitle}>{title}</div>
+      {hasZh && (
+        <div className={styles.cardTitleEn}>{a.titleEn}</div>
+      )}
+
+      {/* Excerpt */}
+      {excerpt && (
+        <div className={styles.cardExcerpt}>{excerpt}</div>
+      )}
+    </a>
   );
 }
