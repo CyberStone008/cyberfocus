@@ -25,6 +25,11 @@ export PATH="$HOME/.nvm/versions/node/v23.8.0/bin:$HOME/.bun/bin:/opt/homebrew/b
   echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
   echo "[run-daily] node: $(command -v node) ($(node -v 2>/dev/null))"
   echo "[run-daily] claude: $(command -v claude)"
+
+  # Pull latest data before running so processed-ids stays in sync with cloud
+  echo "[run-daily] Pulling latest data from GitHub..."
+  git pull --rebase origin main && echo "[run-daily] git pull OK" || echo "[run-daily] git pull failed (continuing anyway)"
+
   USE_CLAUDE_CLI=true node scripts/pipeline.js
   PIPELINE_EXIT=$?
   echo "[run-daily] exit: $PIPELINE_EXIT"
