@@ -5,13 +5,17 @@ on:
   # Offset 4 hours from local launchd (10:00 BJ) to avoid collision
   schedule:
     - cron: '0 6 * * *'
-  # Triggered automatically when local pipeline pushes updated data
+  # Triggered automatically when data or app code changes
   push:
     branches: [main]
     paths:
       - 'data/articles.json'
       - 'data/processed-ids.json'
       - 'data/daily/**'
+      - 'app/**'
+      - 'src/**'
+      - 'package.json'
+      - 'next.config.*'
   # Manual trigger
   workflow_dispatch:
     inputs:
