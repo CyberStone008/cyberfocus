@@ -26,6 +26,7 @@ import { fetchHROrgNews } from './fetch/hr-orgs.js';
 import { translateBatch } from './translate/claude.js';
 import { pickFeatured, generateFeaturedContent, fetchAnthropicSourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
+import { generateDailyDigest } from './summarize/daily-digest.js';
 
 const SOURCES_CONFIG_PATH = resolve(process.cwd(), 'data/sources.json');
 const ARTICLES_PATH = resolve(process.cwd(), 'data/articles.json');
@@ -224,22 +225,38 @@ async function run() {
   }
 
   // ── Daily archive ────────────────────────────────────────────────────────
-  // Write today's newly-translated articles to data/daily/YYYY-MM-DD.json.
-  // If the file already exists (re-run on same day) we merge rather than overwrite,
-  // so articles from multiple runs on the same day are all preserved.
+  // Write today's articles + AI-generated summary to data/daily/YYYY-MM-DD.json.
+  // Format: { date, generatedAt, summary: { aiNews, papers, hrOrgs }, articles: [...] }
+  // Re-runs on the same day merge articles but regenerate the summary.
   if (!existsSync(DAILY_DIR)) mkdirSync(DAILY_DIR, { recursive: true });
   const dailyPath = resolve(DAILY_DIR, `${todayBJ}.json`);
-  let dailyExisting = [];
+
+  // Load existing daily file (may be old plain-array format or new object format)
+  let dailyExistingArticles = [];
   if (existsSync(dailyPath)) {
-    try { dailyExisting = JSON.parse(readFileSync(dailyPath, 'utf8')); } catch { /* ignore */ }
+    try {
+      const raw = JSON.parse(readFileSync(dailyPath, 'utf8'));
+      dailyExistingArticles = Array.isArray(raw) ? raw : (raw.articles ?? []);
+    } catch { /* ignore */ }
   }
-  const dailyIds = new Set(dailyExisting.map((a) => a.id));
+  const dailyIds = new Set(dailyExistingArticles.map((a) => a.id));
   const dailyMerged = [
     ...translated.filter((a) => !dailyIds.has(a.id)),
-    ...dailyExisting,
+    ...dailyExistingArticles,
   ].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-  writeFileSync(dailyPath, JSON.stringify(dailyMerged, null, 2));
-  console.log(`[pipeline] Wrote ${dailyMerged.length} articles to data/daily/${todayBJ}.json`);
+
+  // Generate daily summary
+  console.log('\n[pipeline] Generating daily digest summary...');
+  const summary = await generateDailyDigest(dailyMerged);
+
+  const dailyDoc = {
+    date:        todayBJ,
+    generatedAt: new Date().toISOString(),
+    summary,
+    articles:    dailyMerged,
+  };
+  writeFileSync(dailyPath, JSON.stringify(dailyDoc, null, 2));
+  console.log(`[pipeline] Wrote ${dailyMerged.length} articles + summary to data/daily/${todayBJ}.json`);
 
   // Clear previous day's featured flag from existing articles
   const existing = loadArticles().map((a) => ({

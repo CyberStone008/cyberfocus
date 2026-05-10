@@ -10,6 +10,7 @@ const NAV = [
     group: '今日动态',
     items: [
       { icon: '⚡', label: 'AI 精选热点', href: '/social',   disabled: false },
+      { icon: '📋', label: 'AI 日报',      href: '/daily',    disabled: false },
     ],
   },
   {
