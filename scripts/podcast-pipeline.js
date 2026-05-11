@@ -3,22 +3,29 @@
  * podcast-pipeline.js
  *
  * Fetches latest podcast episodes, translates English titles (Lex Fridman),
- * and writes/merges into data/podcasts.json.
+ * generates Chinese analysis from transcripts, and writes to data/podcasts.json.
  *
  * Usage:
  *   node scripts/podcast-pipeline.js
  *   DRY_RUN=true node scripts/podcast-pipeline.js
+ *   ANALYZE_SLUG=podcast-lex-fridman-xxxx node scripts/podcast-pipeline.js   # re-analyse one
+ *   ANALYZE_ALL=true node scripts/podcast-pipeline.js                         # back-fill all missing
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { fetchPodcasts } from './fetch/podcasts.js';
+import { generatePodcastAnalysis } from './translate/podcast-analysis.js';
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from './translate/claude-cli.js';
 
 const PODCASTS_PATH = resolve(process.cwd(), 'data/podcasts.json');
 const MAX_EPISODES  = 200;
 const DRY_RUN       = process.env.DRY_RUN === 'true';
+const ANALYZE_SLUG  = process.env.ANALYZE_SLUG ?? null;   // re-analyse a specific slug
+const ANALYZE_ALL   = process.env.ANALYZE_ALL === 'true'; // back-fill all missing analyses
+// How many new episodes per run get analysed (rate-limit protection for CI)
+const MAX_ANALYSES_PER_RUN = Number(process.env.MAX_ANALYSES ?? '3');
 
 function loadPodcasts() {
   try { return JSON.parse(readFileSync(PODCASTS_PATH, 'utf8')); }
@@ -68,7 +75,7 @@ ${JSON.stringify(items, null, 2)}
       for (const r of results) {
         const ep = chunk[r.index];
         if (ep && r.titleZh) {
-          ep.titleZh   = r.titleZh;
+          ep.titleZh    = r.titleZh;
           ep.abstractZh = r.abstractZh || null;
         }
       }
@@ -86,7 +93,7 @@ ${JSON.stringify(items, null, 2)}
 async function run() {
   console.log('=== Podcast Pipeline ===');
 
-  const existing  = loadPodcasts();
+  const existing    = loadPodcasts();
   const existingIds = new Set(existing.map((e) => e.id));
 
   const fetched = await fetchPodcasts(existingIds);
@@ -97,31 +104,71 @@ async function run() {
     return;
   }
 
-  const canTranslate = process.env.ANTHROPIC_API_KEY || isCliMode();
+  const canAI = process.env.ANTHROPIC_API_KEY || isCliMode();
 
-  // Translate new episodes
-  if (fetched.length > 0 && canTranslate) {
+  // ── Title translation ──────────────────────────────────────────────────────
+  if (fetched.length > 0 && canAI) {
     await translateEpisodeTitles(fetched);
   }
-
-  // Back-fill translation for any existing episodes still missing titleZh
   const untranslatedExisting = existing.filter((e) => !e.titleZh && e.titleEn);
-  if (untranslatedExisting.length > 0 && canTranslate) {
+  if (untranslatedExisting.length > 0 && canAI) {
     console.log(`[podcast-pipeline] Back-filling ${untranslatedExisting.length} existing episodes missing titleZh…`);
     await translateEpisodeTitles(untranslatedExisting);
-  } else if (!canTranslate) {
+  } else if (!canAI) {
     console.log('[podcast-pipeline] No ANTHROPIC_API_KEY — skipping translation');
   }
 
-  const hasChanges = fetched.length > 0 || untranslatedExisting.length > 0;
-  if (!hasChanges) {
-    console.log('[podcast-pipeline] No new episodes or missing translations. Done.');
-    return;
-  }
-
+  // ── Build merged list (new + existing) ────────────────────────────────────
   const merged = [...fetched, ...existing]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, MAX_EPISODES);
+
+  // ── Content analysis (Chinese reading guide) ──────────────────────────────
+  if (canAI) {
+    let toAnalyse = [];
+
+    if (ANALYZE_SLUG) {
+      // Re-analyse a specific episode by slug
+      const ep = merged.find((e) => e.slug === ANALYZE_SLUG || e.id === ANALYZE_SLUG);
+      if (ep) toAnalyse = [ep];
+      else console.warn(`[podcast-pipeline] ANALYZE_SLUG not found: ${ANALYZE_SLUG}`);
+    } else if (ANALYZE_ALL) {
+      // Back-fill all missing analyses (oldest first so the newest appear first once done)
+      toAnalyse = merged.filter((e) => !e.contentMd).reverse();
+    } else {
+      // Normal run: analyse up to MAX_ANALYSES_PER_RUN newest episodes without analysis
+      toAnalyse = merged
+        .filter((e) => !e.contentMd)
+        .slice(0, MAX_ANALYSES_PER_RUN);
+    }
+
+    if (toAnalyse.length > 0) {
+      console.log(`\n[podcast-pipeline] Generating analyses for ${toAnalyse.length} episode(s)…`);
+      for (const ep of toAnalyse) {
+        try {
+          const { contentMd, analyzedAt } = await generatePodcastAnalysis(ep);
+          ep.contentMd  = contentMd;
+          ep.analyzedAt = analyzedAt;
+          console.log(`[podcast-pipeline] ✓ Analysis done: ${ep.titleEn}`);
+          // Small pause between requests
+          if (toAnalyse.indexOf(ep) < toAnalyse.length - 1) {
+            await new Promise((r) => setTimeout(r, 2000));
+          }
+        } catch (err) {
+          console.warn(`[podcast-pipeline] Analysis failed for "${ep.titleEn}": ${err.message}`);
+        }
+      }
+    }
+  }
+
+  const hasChanges = fetched.length > 0
+    || untranslatedExisting.length > 0
+    || merged.some((e) => e.contentMd && !existing.find((x) => x.id === e.id)?.contentMd);
+
+  if (!hasChanges && !ANALYZE_SLUG && !ANALYZE_ALL) {
+    console.log('[podcast-pipeline] No changes. Done.');
+    return;
+  }
 
   writeFileSync(PODCASTS_PATH, JSON.stringify(merged, null, 2));
   console.log(`[podcast-pipeline] Wrote ${merged.length} episodes to data/podcasts.json`);

@@ -36,6 +36,16 @@
   margin-left: 8px;
 }
 
+.analysedBadge {
+  margin-left: 10px;
+  padding: 2px 8px;
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--accent);
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 /* ── Source filter pills ── */
 .filters {
   display: flex;
@@ -142,9 +152,6 @@
 
 .card:hover {
   background: var(--bg-secondary);
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 -10px;
   border-radius: 8px;
 }
 
@@ -239,17 +246,51 @@
   overflow: hidden;
 }
 
-.cardArrow {
-  flex-shrink: 0;
-  font-size: 16px;
-  color: var(--text-tertiary);
-  opacity: 0;
-  transition: opacity 0.15s;
-  margin-top: 4px;
+/* ── Card action buttons ── */
+.cardActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
 
-.card:hover .cardArrow {
-  opacity: 1;
+.btnAnalysis {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 14px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btnAnalysis:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.btnListen {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.btnListen:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 /* ── Responsive ── */

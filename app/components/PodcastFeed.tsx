@@ -1,10 +1,11 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { Article } from '../types/article';
 import styles from './PodcastFeed.module.css';
 
-type Episode = Article & { duration?: string | null };
+type Episode = Article & { duration?: string | null; contentMd?: string };
 
 const ALL_SOURCES = ['全部', 'Lex Fridman Podcast'] as const;
 
@@ -13,47 +14,51 @@ function formatDate(iso: string) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-function SourceBadge({ source }: { source: string }) {
-  const isLex = source === 'Lex Fridman Podcast';
-  return (
-    <span className={`${styles.sourceBadge} ${isLex ? styles.sourceLex : styles.sourceSV}`}>
-      {source}
-    </span>
-  );
-}
-
 function EpisodeCard({ ep }: { ep: Episode }) {
-  const title   = ep.titleZh ?? ep.titleEn;
-  const excerpt = (ep.abstractZh ?? ep.abstractEn ?? '').trim().slice(0, 120);
+  const title        = ep.titleZh ?? ep.titleEn;
+  const excerpt      = (ep.abstractZh ?? ep.abstractEn ?? '').trim().slice(0, 120);
   const showEngTitle = ep.titleZh && ep.titleEn && ep.titleZh !== ep.titleEn;
+  const hasAnalysis  = !!ep.contentMd;
 
   return (
-    <a
-      href={ep.sourceUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={styles.card}
-    >
+    <div className={styles.card}>
       {ep.thumbnail && (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={ep.thumbnail} alt="" className={styles.cardThumb} />
       )}
+
       <div className={styles.cardBody}>
         <div className={styles.cardTitle}>{title}</div>
         {showEngTitle && (
           <div className={styles.cardTitleEn}>{ep.titleEn}</div>
         )}
         <div className={styles.cardMeta}>
-          <SourceBadge source={ep.source} />
+          <span className={styles.sourceBadge}>🎙️ Lex Fridman Podcast</span>
           {ep.duration && (
             <span className={styles.cardDuration}>⏱ {ep.duration}</span>
           )}
           <span className={styles.cardDate}>{formatDate(ep.publishedAt)}</span>
         </div>
         {excerpt && <p className={styles.cardExcerpt}>{excerpt}</p>}
+
+        {/* Action buttons */}
+        <div className={styles.cardActions}>
+          {hasAnalysis && ep.slug && (
+            <Link href={`/podcast/${ep.slug}`} className={styles.btnAnalysis}>
+              📖 查看解读
+            </Link>
+          )}
+          <a
+            href={ep.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.btnListen}
+          >
+            收听原版 →
+          </a>
+        </div>
       </div>
-      <span className={styles.cardArrow}>→</span>
-    </a>
+    </div>
   );
 }
 
@@ -74,6 +79,8 @@ export function PodcastFeed({ episodes }: PodcastFeedProps) {
     'Lex Fridman Podcast': episodes.filter((e) => e.source === 'Lex Fridman Podcast').length,
   }), [episodes]);
 
+  const analysedCount = episodes.filter((e) => e.contentMd).length;
+
   return (
     <div className={styles.root}>
 
@@ -82,6 +89,9 @@ export function PodcastFeed({ episodes }: PodcastFeedProps) {
         <div className={styles.topbarLeft}>
           <span className={styles.title}>🎙️ 顶级播客</span>
           <span className={styles.sub}>· AI 领域精选播客集</span>
+          {analysedCount > 0 && (
+            <span className={styles.analysedBadge}>{analysedCount} 篇解读</span>
+          )}
         </div>
         <div className={styles.filters}>
           {ALL_SOURCES.map((s) => (

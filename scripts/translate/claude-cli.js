@@ -72,9 +72,9 @@ export function runClaudeCli(prompt, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
  */
 export const claudeCliClient = {
   messages: {
-    async create({ messages }) {
+    async create({ messages, _timeoutMs }) {
       const prompt = messages.map((m) => m.content).join('\n\n');
-      const text = await runClaudeCli(prompt);
+      const text = await runClaudeCli(prompt, { timeoutMs: _timeoutMs ?? DEFAULT_TIMEOUT_MS });
       return { content: [{ type: 'text', text }] };
     },
   },
