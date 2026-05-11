@@ -123,6 +123,11 @@ async function run() {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, MAX_EPISODES);
 
+  // Snapshot IDs that already have contentMd BEFORE any mutation below
+  // (merged and existing share object references — mutating ep.contentMd would
+  //  otherwise fool the hasChanges check into thinking nothing changed)
+  const preAnalysisWithContent = new Set(merged.filter((e) => e.contentMd).map((e) => e.id));
+
   // ── Content analysis (Chinese reading guide) ──────────────────────────────
   if (canAI) {
     let toAnalyse = [];
@@ -163,7 +168,7 @@ async function run() {
 
   const hasChanges = fetched.length > 0
     || untranslatedExisting.length > 0
-    || merged.some((e) => e.contentMd && !existing.find((x) => x.id === e.id)?.contentMd);
+    || merged.some((e) => e.contentMd && !preAnalysisWithContent.has(e.id));
 
   if (!hasChanges && !ANALYZE_SLUG && !ANALYZE_ALL) {
     console.log('[podcast-pipeline] No changes. Done.');
