@@ -589,6 +589,27 @@
   border-color: #818cf840;
 }
 
+.manualBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: #f59e0b18;
+  color: #d97706;
+  border: 1px solid #f59e0b40;
+  line-height: 1.6;
+  flex-shrink: 0;
+}
+
+[data-theme='dark'] .manualBadge {
+  background: #f59e0b14;
+  color: #fbbf24;
+  border-color: #f59e0b30;
+}
+
 /* "仅报告" filter chip — distinct style to separate from source chips */
 .reportFilterChip {
   display: inline-flex;

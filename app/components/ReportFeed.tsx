@@ -563,6 +563,9 @@ function ReportCard({
           {a.source}
         </span>
         {a.docType === 'Report' && <span className={styles.reportBadge}>报告</span>}
+        {(a.addedManually || a.id?.startsWith('manual:')) && (
+          <span className={styles.manualBadge}>手动添加</span>
+        )}
         {isNew(a) && <span className={styles.newBadge}>新</span>}
         <span className={styles.cardDate}>{a.publishedAt.slice(0, 10)}</span>
 

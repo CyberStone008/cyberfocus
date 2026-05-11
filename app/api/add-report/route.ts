@@ -181,14 +181,16 @@ export async function POST(request: NextRequest) {
     id,
     slug,
     source,
-    sourceUrl:   url,
-    publishedAt: now.toISOString(),
-    titleEn:     title,
-    titleZh:     titleZh,
-    abstractEn:  description ?? '',
-    abstractZh:  abstractZh,
-    authors:     [],
-    docType:     'Blog',
+    sourceUrl:    url,
+    publishedAt:  now.toISOString(),
+    titleEn:      title,
+    titleZh:      titleZh,
+    abstractEn:   description ?? '',
+    abstractZh:   abstractZh,
+    authors:      [],
+    docType:      'Blog',
+    category:     'research',   // always surface in AI 报告速览
+    addedManually: true,         // shown as a badge in the feed
   };
 
   articles.unshift(article);

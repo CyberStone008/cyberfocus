@@ -51,6 +51,9 @@ export interface Article {
   // Podcast-specific fields
   duration?: string | null;     // e.g. "2h 5m"
 
+  // Set to true when added manually via the "添加报告" UI
+  addedManually?: boolean;
+
   // Pipeline ingestion timestamp (set when first added by pipeline)
   fetchedAt?: string;           // ISO 8601 — used for "新" badge in feeds
 

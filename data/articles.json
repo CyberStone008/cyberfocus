@@ -16,7 +16,8 @@
       "model": "Claude Sonnet 4.5",
       "translatedAt": "2026-05-11T05:06:21.795Z"
     },
-    "category": "research"
+    "category": "research",
+    "addedManually": true
   },
   {
     "id": "hn:48089531",
@@ -21738,7 +21739,8 @@
       "translatedAt": "2026-04-29T05:21:10.506Z"
     },
     "featured": false,
-    "category": "research"
+    "category": "research",
+    "addedManually": true
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-fvzqhugect0nxapv-html",
