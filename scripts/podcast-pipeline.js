@@ -14,6 +14,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { fetchPodcasts } from './fetch/podcasts.js';
 import Anthropic from '@anthropic-ai/sdk';
+import { claudeCliClient, isCliMode } from './translate/claude-cli.js';
 
 const PODCASTS_PATH = resolve(process.cwd(), 'data/podcasts.json');
 const MAX_EPISODES  = 200;
@@ -34,7 +35,9 @@ async function translateEpisodeTitles(episodes) {
   const needsTranslation = episodes.filter((e) => !e.titleZh && e.titleEn);
   if (needsTranslation.length === 0) return;
 
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const client = isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const BATCH = 10;
 
   for (let i = 0; i < needsTranslation.length; i += BATCH) {
@@ -89,21 +92,31 @@ async function run() {
   const fetched = await fetchPodcasts(existingIds);
   console.log(`[podcast-pipeline] ${fetched.length} new episodes fetched`);
 
-  if (fetched.length === 0) {
-    console.log('[podcast-pipeline] No new episodes. Done.');
-    return;
-  }
-
   if (DRY_RUN) {
     fetched.forEach((e) => console.log(`  ${e.id}: ${e.titleEn}`));
     return;
   }
 
-  // Translate English titles
-  if (process.env.ANTHROPIC_API_KEY) {
+  const canTranslate = process.env.ANTHROPIC_API_KEY || isCliMode();
+
+  // Translate new episodes
+  if (fetched.length > 0 && canTranslate) {
     await translateEpisodeTitles(fetched);
-  } else {
+  }
+
+  // Back-fill translation for any existing episodes still missing titleZh
+  const untranslatedExisting = existing.filter((e) => !e.titleZh && e.titleEn);
+  if (untranslatedExisting.length > 0 && canTranslate) {
+    console.log(`[podcast-pipeline] Back-filling ${untranslatedExisting.length} existing episodes missing titleZh…`);
+    await translateEpisodeTitles(untranslatedExisting);
+  } else if (!canTranslate) {
     console.log('[podcast-pipeline] No ANTHROPIC_API_KEY — skipping translation');
+  }
+
+  const hasChanges = fetched.length > 0 || untranslatedExisting.length > 0;
+  if (!hasChanges) {
+    console.log('[podcast-pipeline] No new episodes or missing translations. Done.');
+    return;
   }
 
   const merged = [...fetched, ...existing]
