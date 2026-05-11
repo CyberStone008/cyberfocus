@@ -112,9 +112,9 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
   const hrOrgArticles  = articles.filter((a) => HR_SOURCES.has(a.source) || a.tags?.includes('人服动态'));
 
   const sections = [
-    { id: 'ai', num: '01', label: 'AI 动态',   en: 'AI HIGHLIGHTS', items: aiNewsArticles },
-    { id: 'paper', num: '02', label: '论文速递', en: 'PAPERS',        items: paperArticles  },
-    { id: 'hr',    num: '03', label: '人力资源', en: 'HR & WORKFORCE', items: hrOrgArticles  },
+    { id: 'ai',    num: '01', label: 'AI 动态',   en: '今日动态',   items: aiNewsArticles },
+    { id: 'paper', num: '02', label: '论文速递',   en: '学术论文',   items: paperArticles  },
+    { id: 'hr',    num: '03', label: '人力资源动态', en: '职场与人才', items: hrOrgArticles  },
   ].filter((s) => s.items.length > 0);
 
   return (
@@ -163,7 +163,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
             <span className={styles.heroDot}>·</span>
             {articles.length} 篇
             <span className={styles.heroDot}>·</span>
-            CYBERFOCUS DAILY
+            每日精选
           </div>
 
           <h1 className={styles.heroTitle}>
@@ -173,7 +173,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
 
           <div className={styles.heroDateRow}>
             <span className={styles.heroDateCN}>{toChineseDate(date)}&nbsp;&nbsp;&nbsp;{weekdayCN(date)}</span>
-            <span className={styles.heroDateRight}>DAILY · 每日自动</span>
+            <span className={styles.heroDateRight}>每日自动更新</span>
           </div>
 
           <div className={styles.heroDivider} />
@@ -185,7 +185,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
           return (doc.summary![key as keyof DailySummary]?.length ?? 0) > 0;
         })) && (
           <div className={styles.summaryBlock}>
-            <div className={styles.summaryLabel}>TODAY'S HIGHLIGHTS</div>
+            <div className={styles.summaryLabel}>今日要点</div>
             {sections.map((s) => {
               const key = s.id === 'ai' ? 'aiNews' : s.id === 'paper' ? 'papers' : 'hrOrgs';
               const bullets = doc.summary![key as keyof DailySummary] ?? [];

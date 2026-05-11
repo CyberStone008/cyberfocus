@@ -27,6 +27,7 @@ import { translateBatch } from './translate/claude.js';
 import { pickFeatured, generateFeaturedContent, fetchAnthropicSourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
 import { generateDailyDigest } from './summarize/daily-digest.js';
+import { translateDailyArticles } from './summarize/translate-daily.js';
 
 const SOURCES_CONFIG_PATH = resolve(process.cwd(), 'data/sources.json');
 const ARTICLES_PATH = resolve(process.cwd(), 'data/articles.json');
@@ -244,6 +245,10 @@ async function run() {
     ...translated.filter((a) => !dailyIds.has(a.id)),
     ...dailyExistingArticles,
   ].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+
+  // Fill in any missing titleZh before generating the digest
+  console.log('\n[pipeline] Translating daily articles missing titleZh...');
+  await translateDailyArticles(dailyMerged);
 
   // Generate daily summary
   console.log('\n[pipeline] Generating daily digest summary...');
