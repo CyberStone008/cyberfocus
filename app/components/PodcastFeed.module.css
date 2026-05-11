@@ -22,7 +22,6 @@
 .topbarLeft {
   display: flex;
   align-items: baseline;
-  gap: 0;
 }
 
 .title {
@@ -82,7 +81,7 @@
   padding: 0 28px 32px;
 }
 
-/* ── Empty / loading states ── */
+/* ── Empty state ── */
 .empty {
   display: flex;
   flex-direction: column;
@@ -112,7 +111,7 @@
 }
 
 .emptySub code {
-  font-family: ui-monospace, monospace;
+  font-family: ui-monospace, 'SF Mono', monospace;
   background: var(--bg-secondary);
   padding: 2px 6px;
   border-radius: 4px;
@@ -134,8 +133,7 @@
   border-bottom: 1px solid var(--border);
   text-decoration: none;
   color: inherit;
-  transition: background 0.1s;
-  border-radius: 0;
+  transition: background 0.1s, padding 0.1s;
 }
 
 .card:last-child {
@@ -145,8 +143,8 @@
 .card:hover {
   background: var(--bg-secondary);
   padding-left: 10px;
-  margin: 0 -10px;
   padding-right: 10px;
+  margin: 0 -10px;
   border-radius: 8px;
 }
 
@@ -170,6 +168,7 @@
   color: var(--text);
   line-height: 1.45;
   margin-bottom: 4px;
+  transition: color 0.1s;
 }
 
 .card:hover .cardTitle {
@@ -246,7 +245,7 @@
   color: var(--text-tertiary);
   opacity: 0;
   transition: opacity 0.15s;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .card:hover .cardArrow {

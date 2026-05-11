@@ -1,7 +1,7 @@
 export type DocType = 'Blog' | 'Paper' | 'Guide' | 'Report';
 
-/** research = arXiv / official blogs; social = HN / Reddit / Chinese blogs / X; investing = value investing */
-export type ArticleCategory = 'research' | 'social' | 'investing';
+/** research = arXiv / official blogs; social = HN / Reddit / Chinese blogs / X; investing = value investing; podcast = audio episodes */
+export type ArticleCategory = 'research' | 'social' | 'investing' | 'podcast';
 
 export interface Translator {
   model: string;           // e.g. "Claude Sonnet 4.6"
@@ -47,6 +47,9 @@ export interface Article {
   // Series (e.g. multi-chapter reports)
   seriesSlug?: string;          // e.g. 'situational-awareness'
   seriesOrder?: number;         // chapter index within series
+
+  // Podcast-specific fields
+  duration?: string | null;     // e.g. "2h 5m"
 
   // Pipeline ingestion timestamp (set when first added by pipeline)
   fetchedAt?: string;           // ISO 8601 — used for "新" badge in feeds

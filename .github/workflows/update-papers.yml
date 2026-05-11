@@ -12,6 +12,7 @@ on:
       - 'data/articles.json'
       - 'data/processed-ids.json'
       - 'data/daily/**'
+      - 'data/podcasts.json'
       - 'app/**'
       - 'src/**'
       - 'package.json'
@@ -81,13 +82,21 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/pipeline.js
 
+      - name: Run podcast pipeline
+        if: >
+          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
+          github.event.inputs.run_pipeline == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/podcast-pipeline.js
+
       - name: Commit updated data (schedule only, when pipeline ran)
         if: github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet data/ || (
-            git add data/articles.json data/processed-ids.json data/sources.json data/daily/
+            git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json
             git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
             git push
           )
