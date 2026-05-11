@@ -1,5 +1,465 @@
 [
   {
+    "id": "hn:48089531",
+    "slug": "hn-48089531-make-america-ai-ready-strengths-weaknesses-and-recommendations",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.citp.princeton.edu/2026/05/05/make-america-ai-ready-strengths-weaknesses-and-recommendations/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48089531",
+    "publishedAt": "2026-05-11T00:10:34.000Z",
+    "titleEn": "Make America AI ready: Strengths, weaknesses, and recommendations",
+    "titleZh": "让美国为AI做好准备：优势、劣势与建议",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Kye"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 16,
+    "commentCount": 11,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48089289",
+    "slug": "hn-48089289-you-need-ai-that-reduces-maintenance-costs",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+    "commentUrl": "https://news.ycombinator.com/item?id=48089289",
+    "publishedAt": "2026-05-10T23:39:55.000Z",
+    "titleEn": "You Need AI That Reduces Maintenance Costs",
+    "titleZh": "你需要能够降低维护成本的AI",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "cratermoon"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 19,
+    "commentCount": 3,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48089263",
+    "slug": "hn-48089263-ps3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+    "commentUrl": "https://news.ycombinator.com/item?id=48089263",
+    "publishedAt": "2026-05-10T23:36:48.000Z",
+    "titleEn": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+    "titleZh": "PS3模拟器开发者礼貌请求停止用AI PR刷屏",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "stalfosknight"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 69,
+    "commentCount": 43,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48089049",
+    "slug": "hn-48089049-how-fast-does-claude-acting-as-a-user-space-ip-stack-respond-to-ping",
+    "source": "Hacker News",
+    "sourceUrl": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48089049",
+    "publishedAt": "2026-05-10T23:02:31.000Z",
+    "titleEn": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
+    "titleZh": "Claude作为用户空间IP栈，对ping的响应有多快？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "adunk"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48088576",
+    "slug": "hn-48088576-obsidian-plugin-was-abused-to-deploy-a-remote-access-trojan",
+    "source": "Hacker News",
+    "sourceUrl": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48088576",
+    "publishedAt": "2026-05-10T22:02:43.000Z",
+    "titleEn": "Obsidian plugin was abused to deploy a remote access trojan",
+    "titleZh": "Obsidian插件被滥用以部署远程访问木马",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "cmbailey"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 82,
+    "commentCount": 37,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48088151",
+    "slug": "hn-48088151-maryland-citizens-hit-with-2b-power-grid-upgrade-for-out-of-state-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+    "commentUrl": "https://news.ycombinator.com/item?id=48088151",
+    "publishedAt": "2026-05-10T21:16:58.000Z",
+    "titleEn": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+    "titleZh": "马里兰州居民因外州AI项目需承担20亿美元电网升级费用",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "lemonberry"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 142,
+    "commentCount": 67,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48087925",
+    "slug": "hn-48087925-ask-hn-will-low-quality-ai-customer-support-be-the-new-normal",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48087925",
+    "commentUrl": "https://news.ycombinator.com/item?id=48087925",
+    "publishedAt": "2026-05-10T20:57:27.000Z",
+    "titleEn": "Ask HN: Will low quality AI customer support be the new normal?",
+    "titleZh": "Ask HN：低质量的AI客服会成为新常态吗？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "0-bad-sectors"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 14,
+    "commentCount": 8,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48087149",
+    "slug": "hn-48087149-2026-is-the-year-you-stop-reading-code",
+    "source": "Hacker News",
+    "sourceUrl": "https://notes.iunknown.com/blog/2026/01/Tools+For+Agentic+Thought",
+    "commentUrl": "https://news.ycombinator.com/item?id=48087149",
+    "publishedAt": "2026-05-10T19:45:24.000Z",
+    "titleEn": "2026 is the year you stop reading code",
+    "titleZh": "2026年，你将不再阅读代码",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "azhenley"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 10,
+    "commentCount": 8,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48085821",
+    "slug": "hn-48085821-local-ai-needs-to-be-the-norm",
+    "source": "Hacker News",
+    "sourceUrl": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48085821",
+    "publishedAt": "2026-05-10T17:19:28.000Z",
+    "titleEn": "Local AI needs to be the norm",
+    "titleZh": "本地AI应该成为常态",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "cylo"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 588,
+    "commentCount": 275,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48085441",
+    "slug": "hn-48085441-wall-street-lawyers-aided-insider-trading-ring-say-us-prosecutors",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.ft.com/content/d2fbe2c3-103a-4d09-b510-db58c5f8697d",
+    "commentUrl": "https://news.ycombinator.com/item?id=48085441",
+    "publishedAt": "2026-05-10T16:42:08.000Z",
+    "titleEn": "Wall Street lawyers aided insider trading ring, say US prosecutors",
+    "titleZh": "美国检察官称，华尔街律师协助了内幕交易团伙",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "johnbarron"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 36,
+    "commentCount": 4,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48085332",
+    "slug": "hn-48085332-i-have-seen-the-dystopian-future-of-elderly-care",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.telegraph.co.uk/world-news/2026/05/09/testing-the-japanese-airec-robot-for-elderly-care/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48085332",
+    "publishedAt": "2026-05-10T16:31:53.000Z",
+    "titleEn": "I have seen the dystopian future of elderly care",
+    "titleZh": "我目睹了老年护理的反乌托邦未来",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "thm"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 35,
+    "commentCount": 34,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48085330",
+    "slug": "hn-48085330-spain-has-become-one-of-europes-cheapest-power-markets",
+    "source": "Hacker News",
+    "sourceUrl": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
+    "commentUrl": "https://news.ycombinator.com/item?id=48085330",
+    "publishedAt": "2026-05-10T16:31:51.000Z",
+    "titleEn": "Spain has become one of Europe’s cheapest power markets",
+    "titleZh": "西班牙已成为欧洲最便宜的电力市场之一",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "marc__1"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 145,
+    "commentCount": 118,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-415048-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/415048.html",
+    "publishedAt": "2026-05-10T16:26:14.000Z",
+    "titleEn": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
+    "titleZh": "浙大推出让AI会『导演』的角色扮演框架！四通道消息沉浸式交互",
+    "abstractEn": "福尔摩斯探案都能演",
+    "abstractZh": "福尔摩斯探案都能演",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48084710",
+    "slug": "hn-48084710-chromes-ai-features-may-be-hogging-4gb-of-your-computer-storage",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+    "commentUrl": "https://news.ycombinator.com/item?id=48084710",
+    "publishedAt": "2026-05-10T15:22:46.000Z",
+    "titleEn": "Chrome's AI features may be hogging 4GB of your computer storage",
+    "titleZh": "Chrome的AI功能可能占用了您4GB的计算机存储空间",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "birdculture"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 96,
+    "commentCount": 52,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48084432",
+    "slug": "hn-48084432-louis-rossmann-offers-to-pay-legal-fees-for-a-threatened-orcaslicer",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+    "commentUrl": "https://news.ycombinator.com/item?id=48084432",
+    "publishedAt": "2026-05-10T14:47:05.000Z",
+    "titleEn": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+    "titleZh": "Louis Rossmann 表示愿为受威胁的 OrcaSlicer 开发者支付法律费用",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "iancmceachern"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 475,
+    "commentCount": 255,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48084170",
+    "slug": "hn-48084170-ranking-1k-showhn-posts-by-estimated-merit-using-an-llm-judge-and-tr",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/kouhxp/showhn-rank",
+    "commentUrl": "https://news.ycombinator.com/item?id=48084170",
+    "publishedAt": "2026-05-10T14:14:57.000Z",
+    "titleEn": "Ranking 1k ShowHN posts by estimated merit using an LLM judge and TrueSkill",
+    "titleZh": "使用LLM评委和TrueSkill按预估价值对1000篇ShowHN帖子进行排名",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "mrkn1"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 6,
+    "commentCount": 2,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48084131",
+    "slug": "hn-48084131-oil-price-bets-ahead-of-iran-war-news-totalled-7b-reporting-shows",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.reuters.com/sustainability/boards-policy-regulation/oil-price-bets-ahead-iran-war-news-totalled-7-billion-reporting-shows-2026-05-07/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48084131",
+    "publishedAt": "2026-05-10T14:09:16.000Z",
+    "titleEn": "Oil-price bets ahead of Iran war news totalled $7B, reporting shows",
+    "titleZh": "报道显示，伊朗战争消息传出前的油价押注总计达70亿美元",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "geox"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 42,
+    "commentCount": 6,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48083919",
+    "slug": "hn-48083919-academic-research-skills-for-claude-code",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/Imbad0202/academic-research-skills",
+    "commentUrl": "https://news.ycombinator.com/item?id=48083919",
+    "publishedAt": "2026-05-10T13:42:00.000Z",
+    "titleEn": "Academic Research Skills for Claude Code",
+    "titleZh": "Claude Code的学术研究技能",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "arnon"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 76,
+    "commentCount": 25,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48082021",
+    "slug": "hn-48082021-llmorphism-when-humans-come-to-see-themselves-as-language-models",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2605.05419",
+    "commentUrl": "https://news.ycombinator.com/item?id=48082021",
+    "publishedAt": "2026-05-10T08:22:12.000Z",
+    "titleEn": "LLMorphism: When humans come to see themselves as language models",
+    "titleZh": "LLMorphism：当人类开始将自己视为语言模型",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "okey"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 72,
+    "commentCount": 50,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-weiwu-y0ypbs3a3bfjof09-html",
+    "slug": "ai-airpods",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/weiwu/y0yPBS3a3BfJoF09.html",
+    "publishedAt": "2026-05-10T07:20:00.000Z",
+    "titleEn": "光帆带摄像头AI耳机本月开售，苹果摄像头AirPods加速落地",
+    "titleZh": "光帆带摄像头AI耳机本月开售，苹果摄像头AirPods加速落地",
+    "abstractEn": "5月9日，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。此前一天，据The Verge等媒体报道，苹果正在推进带摄像头的AirPods于年内落地。随着头部厂商加入，支持视觉感知的AI耳机正在成为硬件赛道中新的焦点。\n\n作为面向下一代人机交互打造的AI可穿戴设备，光帆AI全感穿戴设备的核心特点可以概括为“全感知、主动式、个性化”。其中“全感知”意味着设备具备视觉感知、位置感知、身体状态感知等多维感知能力，能够更完整地理解用户所处的环境；“主动式”代表产品区别于传统AI硬件被动等待指令的交互方式，设备可以基于场景理解，主动提供提醒、建议和服务；“个性化”则体现在高度可定制能力上，用户可以为AI选择不同人设，成为一个能够持续响应、不断学习、提供陪伴感和情绪价值的随身AI助理。\n\nIDC数据显示，2025年全球可穿",
+    "abstractZh": "5月9日，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。此前一天，据The Verge等媒体报道，苹果正在推进带摄像头的AirPods于年内落地。随着头部厂商加入，支持视觉感知的AI耳机正在成为硬件赛道中新的焦点。\n\n作为面向下一代人机交互打造的AI可穿戴设备，光帆AI全感穿戴设备的核心特点可以概括为全感知、主动式、个性化。其中全感知意味着设备具备视觉感知、位置感知、身体状态感知等多维感知能力，能够更完整地理解用户所处的环境；主动式代表产品区别于传统AI硬件被动等待指令的交互方式，设备可以基于场景理解，主动提供提醒、建议和服务；个性化则体现在高度可定制能力上，用户可以为AI选择不同人设，成为一",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
+    "id": "hn:48081469",
+    "slug": "hn-48081469-task-paralysis-and-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48081469",
+    "publishedAt": "2026-05-10T06:20:50.000Z",
+    "titleEn": "Task Paralysis and AI",
+    "titleZh": "任务瘫痪与AI",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "MrGilbert"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 200,
+    "commentCount": 108,
+    "tags": [],
+    "fetchedAt": "2026-05-11T02:03:41.067Z"
+  },
+  {
     "id": "hrorg:manpower:43b0f7f1134b",
     "slug": "hrorg-manpower-43b0f7f1134b",
     "source": "ManpowerGroup",
@@ -20,7 +480,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48081214",
@@ -42,7 +503,8 @@
     "score": 4,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:4996cf45ca96",
@@ -65,7 +527,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:7bb48f5c7897",
@@ -88,7 +551,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-415031-html",
@@ -109,7 +573,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48080702",
@@ -131,7 +596,8 @@
     "score": 66,
     "commentCount": 8,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48080662",
@@ -153,7 +619,8 @@
     "score": 5,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48080368",
@@ -175,7 +642,8 @@
     "score": 8,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:232651a21052",
@@ -198,7 +666,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:e68c5816cb59",
@@ -221,7 +690,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:eb79f0d91925",
@@ -244,7 +714,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48078811",
@@ -266,7 +737,8 @@
     "score": 180,
     "commentCount": 94,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48078647",
@@ -288,7 +760,8 @@
     "score": 195,
     "commentCount": 237,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48077947",
@@ -310,7 +783,8 @@
     "score": 5,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:563946a69320",
@@ -333,7 +807,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48077126",
@@ -355,7 +830,8 @@
     "score": 381,
     "commentCount": 409,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:c4822d7d3f0e",
@@ -378,7 +854,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:89a74c544aa7",
@@ -401,7 +878,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:8baf299d0eb2",
@@ -424,7 +902,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:1d402b78b6e4",
@@ -447,7 +926,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:ff127bdc3ef9",
@@ -470,7 +950,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:4ba73ac81eb5",
@@ -493,7 +974,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-yanxishe-0xqejmcnyemrb8rn-html",
@@ -514,7 +996,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-415023-html",
@@ -535,7 +1018,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:640328ee0d19",
@@ -558,7 +1042,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-415019-html",
@@ -579,7 +1064,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:0ccb663ab7e0",
@@ -602,7 +1088,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-415010-html",
@@ -623,7 +1110,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48073246",
@@ -645,7 +1133,8 @@
     "score": 395,
     "commentCount": 153,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-414827-html",
@@ -666,7 +1155,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-n9yxil59mihx0ryy-html",
@@ -687,7 +1177,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-zrhid0k9ajggoerd-html",
@@ -708,7 +1199,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-414788-html",
@@ -729,7 +1221,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48071940",
@@ -751,7 +1244,8 @@
     "score": 451,
     "commentCount": 252,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-414501-html",
@@ -772,7 +1266,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48071262",
@@ -794,7 +1289,8 @@
     "score": 627,
     "commentCount": 458,
     "tags": [],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "reddit:1t7qfaq",
@@ -1105,7 +1601,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:korn-ferry:1b715514f227",
@@ -1128,7 +1625,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48067119",
@@ -1513,7 +2011,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-qmyczgke8pn9ddrk-html",
@@ -1935,7 +2434,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48058644",
@@ -2692,7 +3192,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "gnews:af06a34379d7",
@@ -3475,7 +3976,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hn:48051079",
@@ -6241,7 +6743,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:mercer:0be7c858635d",
@@ -7305,7 +7808,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:boss-zhipin:5d6663c41649",
@@ -9684,7 +10188,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:korn-ferry:2d81e8dac479",
@@ -11941,7 +12446,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-412914-html",
@@ -13550,7 +14056,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "reddit:1t1itn1",
@@ -25914,7 +26421,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:careerin:24314240515e",
@@ -27118,7 +27626,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:ciic:e0bbac6b29d6",
@@ -28088,7 +28597,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:zhilian:84b7c353bd36",
@@ -28212,7 +28722,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:925e9772dffe",
@@ -28361,7 +28872,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:3037e0561205",
@@ -28560,7 +29072,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-10T07:52:13.106Z"
+    "fetchedAt": "2026-05-10T07:52:13.106Z",
+    "featured": false
   },
   {
     "id": "hrorg:manpower:d1a5bbc5ce63",
