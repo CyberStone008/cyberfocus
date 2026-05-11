@@ -15,7 +15,8 @@
     "translator": {
       "model": "Claude Sonnet 4.5",
       "translatedAt": "2026-05-11T05:06:21.795Z"
-    }
+    },
+    "category": "research"
   },
   {
     "id": "hn:48089531",

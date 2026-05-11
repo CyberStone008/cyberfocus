@@ -101,6 +101,19 @@ export const RESEARCH_SOURCES: SourceDef[] = [
     category: 'research',
     boards: ['research'],
   },
+  {
+    id: 'NVIDIA Blog',
+    name: 'NVIDIA',
+    abbr: 'NV',
+    avatarColor: '#76b900',
+    label: '官方博客',
+    description: 'NVIDIA AI 研究、GPU 架构与深度学习平台最新动态。',
+    url: 'https://blogs.nvidia.com/blog/category/deep-learning/',
+    type: 'pull',
+    frequency: '手动添加',
+    category: 'research',
+    boards: ['research'],
+  },
 ];
 
 /* ── Social sources ── */
