@@ -11,6 +11,7 @@ const NAV = [
     items: [
       { icon: '⚡', label: 'AI 精选热点', href: '/social',   disabled: false },
       { icon: '📋', label: 'AI 日报',      href: '/daily',    disabled: false },
+      { icon: '🎙️', label: '顶级播客',     href: '/podcast',  disabled: false },
     ],
   },
   {
