@@ -31,13 +31,6 @@ const FEEDS = [
     lang:    'en',   // needs translation
     max:     30,
   },
-  {
-    id:      'sv101',
-    source:  '硅谷101',
-    feedUrl: 'https://feeds.fireside.fm/sv101/rss',
-    lang:    'zh',   // already Chinese
-    max:     30,
-  },
 ];
 
 /** Normalise iTunes duration "H:MM:SS" / "MM:SS" / raw-seconds to "Xh Ym" */

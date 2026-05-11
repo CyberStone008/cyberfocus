@@ -6,7 +6,7 @@ import styles from './PodcastFeed.module.css';
 
 type Episode = Article & { duration?: string | null };
 
-const ALL_SOURCES = ['全部', 'Lex Fridman Podcast', '硅谷101'] as const;
+const ALL_SOURCES = ['全部', 'Lex Fridman Podcast'] as const;
 
 function formatDate(iso: string) {
   const d = new Date(iso);
@@ -72,7 +72,6 @@ export function PodcastFeed({ episodes }: PodcastFeedProps) {
   const counts: Record<string, number> = useMemo(() => ({
     '全部': episodes.length,
     'Lex Fridman Podcast': episodes.filter((e) => e.source === 'Lex Fridman Podcast').length,
-    '硅谷101': episodes.filter((e) => e.source === '硅谷101').length,
   }), [episodes]);
 
   return (
