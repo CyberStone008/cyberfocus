@@ -1,5 +1,23 @@
 [
   {
+    "id": "manual:1778470049065",
+    "slug": "manual-1778470049065-ai-is-a-5-layer-cake",
+    "source": "NVIDIA Blog",
+    "sourceUrl": "https://blogs.nvidia.com/blog/ai-5-layer-cake/",
+    "publishedAt": "2026-05-11T03:27:29.065Z",
+    "titleEn": "AI Is a 5-Layer Cake",
+    "titleZh": "AI 是一个五层蛋糕",
+    "abstractEn": "AI is one of the most powerful forces shaping the world today. It is not a clever app or a single model; it is essential infrastructure, like electricity and the internet.",
+    "abstractZh": "AI 是当今塑造世界最强大的力量之一。它不是一款聪明的应用或单个模型，而是像电力和互联网一样的基础设施。",
+    "authors": [],
+    "docType": "Blog",
+    "contentMd": "## 从预录软件到实时智能\n\n![黄仁勋在 CES 2026 展示 AI 全栈图](https://blogs.nvidia.com/wp-content/uploads/2026/02/JHH-CES2026-FullStack-scaled.jpg)\n\n黄仁勋在 CES 2026 上抛出了一个颠覆性的观点：我们正在经历软件范式的根本性转变。传统软件本质上是\"预录\"的——开发者预先编写逻辑，程序按预定规则运行。但 AI 软件是动态的、实时的，每个请求都可能触发全新的推理过程。这种从静态到动态的转变，正在重塑整个计算基础设施的需求。就像从播放录音到现场演出，前者可以重复播放，后者需要持续的实时响应能力。\n\n## AI 作为基础设施\n\nAI Is Infrastructure\n\n黄仁勋将 AI 定义为\"人类历史上规模最大的基础设施建设项目\"。这个判断并非夸大其词——AI 的需求从能源到应用层，每一层都需要全新的技术支撑。这不是简单的升级，而是彻底的重建。就像电力革命不仅需要发电厂，还需要输电网、电器设备、运营体系，AI 也是一个完整的生态。过去三年，这个建设进程加速了十倍，而未来还将继续爆发式增长。\n\n## 能源\n\n![能源层](https://blogs.nvidia.com/wp-content/uploads/2026/02/Energy-Icon-Isolated.png)\n\nEnergy\n\n能源是 AI 蛋糕的底层。GPU 数据中心能耗惊人，一个数据中心相当于一个小城市。解决之道不在减少算力，而是提高能源效率。NVIDIA 的新技术将数据中心的能源效率提升了 20 倍——同样的电力，过去能处理 100 个请求，现在能处理 2000 个。这不仅仅是环保考量，更是商业必需：电力成本直接决定了 AI 服务的竞争力。未来数据中心的能源结构将彻底转变，从单纯消耗者，逐步走向能源自给与可再生能源整合。\n\n## 芯片\n\n![芯片层](https://blogs.nvidia.com/wp-content/uploads/2026/02/Chips-Icon-Isolated.png)\n\nChips\n\n芯片层承载着 AI 计算的核心。黄仁勋强调，AI 需要的是\"计算加速器\"而非通用处理器。NVIDIA 的 GPU 架构专为 AI 计算优化，其并行计算能力让深度学习训练速度提升了数百倍。但芯片设计本身也在进化：从单一芯片到集群，从固定功能到可编程架构。未来趋势是\"算力即服务\"——芯片不再只是硬件，而是与软件深度集成的计算平台。这种软硬件协同设计，让每一代芯片的性能提升都伴随着软件生态的同步进化。\n\n## 基础设施\n\n![基础设施层](https://blogs.nvidia.com/wp-content/uploads/2026/02/Infrastructure-Icon-Isolated.png)\n\nInfrastructure\n\n基础设施层连接着算力与模型。传统数据中心的网络架构是为存储和传输设计的，而 AI 基础设施必须支持海量参数的实时通信。NVIDIA 的 Ethernet 和 InfiniBand 技术，让成千上万的 GPU 像一台超级计算机一样协同工作。但基础设施不止是网络——还包括存储系统、调度软件、开发工具链。就像电力基础设施不仅包括发电厂，还包括电网、变电站、电表，AI 基础设施也是一个完整的\"算力电网\"。\n\n## 模型\n\n![模型层](https://blogs.nvidia.com/wp-content/uploads/2026/02/Models-Icon-Isolated.png)\n\nModels\n\n![开放模型生态](https://blogs.nvidia.com/wp-content/uploads/2026/03/Open-Models-Slide-scaled.png)\n\nModels\n\n模型层是 AI 的\"大脑\"。从早期的判别式模型到如今的生成式 AI，模型架构经历了革命性演进。Transformer 架构的出现，让模型可以学习序列关系，从而理解语言、图像乃至多模态内容。更重要的是，模型正在走向开放生态——NVIDIA、Meta、DeepMind 等纷纷开放模型权重和架构。这种开放不是简单的开源，而是形成一个标准化的\"模型操作系统\"，开发者可以在此基础上定制、微调、部署专用模型。\n\n## 应用\n\n![应用层](https://blogs.nvidia.com/wp-content/uploads/2026/02/Applications-Icon-Isolated.png)\n\nApplications\n\n应用层是 AI 蛋糕的顶层，也是最终用户接触的界面。但 AI 应用的开发方式与传统应用截然不同——它不是编写确定性的代码，而是设计\"提示工程\"、微调模型、集成检索增强生成（RAG）。黄仁勋提出\"原生 AI 应用\"的概念：从第一天起就为 AI 优化的应用，而非简单地在现有软件中嵌入 AI 功能。这类应用能够理解上下文、自主学习、持续改进。未来每个行业都将出现原生 AI 应用，就像移动时代出现了原生移动应用一样。\n\n## 去年发生了什么变化？\n\nWhat Changed Last Year?\n\n过去一年，AI 基础设施的建设速度加速了十倍。这背后有几个关键驱动：模型参数规模从数百亿跃升至万亿级，推理成本每年下降一个数量级，企业级 AI 部署从实验走向规模化。但更重要的是，行业对 AI 的认知从\"技术玩具\"转向\"核心生产力\"。企业不再问\"AI 能做什么\"，而是问\"AI 如何为我所用\"。这种需求转变，推动基础设施投资从分散走向系统化——企业开始构建完整的 AI 能力，而非零散部署单个模型。\n\n## 这意味着什么？\n\nWhat Does This Mean?\n\nAI 五层蛋糕理论的核心启示：AI 不是单一技术，而是需要系统化建设的新基础设施。就像城市不能只建高楼大厦而忽略水电网路，AI 也不能只关注模型而忽视底层支撑。对于企业和开发者，这意味着需要重新思考技术战略——从单一模型采购，转向构建完整的 AI 能力栈。对于整个行业，这预示着新一轮技术基础设施竞争的开始：谁能构建更高效的 AI 全栈，谁就能主导下一个十年的数字经济发展。",
+    "translator": {
+      "model": "Claude Sonnet 4.5",
+      "translatedAt": "2026-05-11T05:06:21.795Z"
+    }
+  },
+  {
     "id": "hn:48089531",
     "slug": "hn-48089531-make-america-ai-ready-strengths-weaknesses-and-recommendations",
     "source": "Hacker News",

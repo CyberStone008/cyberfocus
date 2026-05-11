@@ -24,7 +24,7 @@ import { fetchChineseBlogs } from './fetch/chinese-blogs.js';
 import { fetchAINewsSearch } from './fetch/ai-news-search.js';
 import { fetchHROrgNews } from './fetch/hr-orgs.js';
 import { translateBatch } from './translate/claude.js';
-import { pickFeatured, generateFeaturedContent, fetchAnthropicSourceMd } from './translate/featured-content.js';
+import { pickFeatured, generateFeaturedContent, fetchAnySourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
 import { generateDailyDigest } from './summarize/daily-digest.js';
 import { translateDailyArticles } from './summarize/translate-daily.js';
@@ -195,10 +195,15 @@ async function run() {
   for (const featured of featuredList) {
     console.log(`[pipeline] Featured: ${featured.titleEn} (${featured.source})`);
     try {
-      // For Anthropic, try to get the real source text; fall back to abstract-based generation
+      // Try to fetch full source content with images for any blog/article source
+      // arXiv / HuggingFace papers skip this (no article page to fetch)
+      const skipFetch = ['arXiv cs.AI', 'arXiv cs.LG', 'HuggingFace Daily'].includes(featured.source);
       let sourceMd = null;
-      if (featured.source === 'Anthropic Blog') {
-        sourceMd = await fetchAnthropicSourceMd(featured);
+      if (!skipFetch) {
+        console.log(`[pipeline] Fetching source content for: ${featured.sourceUrl}`);
+        sourceMd = await fetchAnySourceMd(featured);
+        if (sourceMd) console.log(`[pipeline] Source content: ${sourceMd.length} chars`);
+        else console.log(`[pipeline] Source fetch failed — falling back to abstract-based generation`);
       }
 
       const { contentMd, translator } = sourceMd

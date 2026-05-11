@@ -30,7 +30,8 @@ export async function translateFullContent(article, sourceMarkdown) {
 3. **格式保留**：
    - 代码块原样保留（变量名、API 不翻译，注释可翻译）
    - 数学公式（LaTeX）不变
-   - 链接、图片路径不变
+   - **图片行必须完整保留在原位置**（格式：!\[alt\](url)），只可翻译 alt 文字，URL 绝对不能修改
+   - 链接路径不变
    - 列表层级、表格结构保持一致
 
 4. **风格要求**：

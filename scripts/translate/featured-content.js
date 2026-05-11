@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from './claude-cli.js';
+import { fetchArticleWithImages } from './fetch-with-images.js';
 
 const client = isCliMode()
   ? claudeCliClient
@@ -123,40 +124,20 @@ ${hasAbstract ? `- 英文摘要：${article.abstractEn}` : ''}
 }
 
 /**
- * Try to fetch Anthropic article body HTML and extract main text as Markdown.
- * Falls back to null if inaccessible.
+ * Fetch any article's source content as Markdown with images preserved.
+ * Works for any URL; falls back to null on failure.
+ *
+ * Replaces the old Anthropic-only fetchAnthropicSourceMd.
  */
-export async function fetchAnthropicSourceMd(article) {
-  if (!article.sourceUrl.includes('anthropic.com')) return null;
-
+export async function fetchAnySourceMd(article) {
   try {
-    const res = await fetch(article.sourceUrl, {
-      headers: { 'User-Agent': 'ai-research-aggregator/1.0' },
-    });
-    if (!res.ok) return null;
-    const html = await res.text();
-
-    // Extract JSON-LD article body or large <article>/<main> text content
-    const jsonldMatch = html.match(/"articleBody"\s*:\s*"((?:[^"\\]|\\.)*)"/);
-    if (jsonldMatch) {
-      return jsonldMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"').slice(0, 12000);
-    }
-
-    // Fallback: strip tags from <article> or <main>
-    const bodyMatch = html.match(/<(?:article|main)[^>]*>([\s\S]*?)<\/(?:article|main)>/i);
-    if (bodyMatch) {
-      const text = bodyMatch[1]
-        .replace(/<script[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<[^>]+>/g, ' ')
-        .replace(/\s{3,}/g, '\n\n')
-        .trim()
-        .slice(0, 12000);
-      if (text.length > 200) return text;
-    }
-
-    return null;
+    return await fetchArticleWithImages(article.sourceUrl);
   } catch {
     return null;
   }
+}
+
+/** @deprecated Use fetchAnySourceMd instead */
+export async function fetchAnthropicSourceMd(article) {
+  return fetchAnySourceMd(article);
 }
