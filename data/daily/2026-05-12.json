@@ -1,0 +1,935 @@
+{
+  "date": "2026-05-12",
+  "generatedAt": "2026-05-12T02:08:45.333Z",
+  "summary": {
+    "aiNews": [
+      "腾讯混元3发布，重构架构实现技术突破",
+      "魔法原子发布行业首个自进化具身大脑",
+      "谷歌警告AI黑客攻击已演变为工业级威胁"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48102198",
+      "slug": "hn-48102198-gm-just-laid-off-it-workers-to-hire-those-with-stronger-ai-skills",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48102198",
+      "publishedAt": "2026-05-11T23:33:04.000Z",
+      "titleEn": "GM just laid off IT workers to hire those with stronger AI skills",
+      "titleZh": "通用汽车刚解雇了 IT 员工，转而招聘 AI 技能更强的人",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jnord"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 46,
+      "commentCount": 64,
+      "tags": []
+    },
+    {
+      "id": "hn:48100706",
+      "slug": "hn-48100706-postmortem-tanstack-npm-supply-chain-compromise",
+      "source": "Hacker News",
+      "sourceUrl": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100706",
+      "publishedAt": "2026-05-11T21:08:25.000Z",
+      "titleEn": "Postmortem: TanStack npm supply-chain compromise",
+      "titleZh": "事后分析：TanStack npm 供应链被入侵",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "varunsharma07"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 533,
+      "commentCount": 192,
+      "tags": []
+    },
+    {
+      "id": "hn:48100662",
+      "slug": "hn-48100662-i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at",
+      "source": "Hacker News",
+      "sourceUrl": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100662",
+      "publishedAt": "2026-05-11T21:04:10.000Z",
+      "titleEn": "I let AI build a tool to help me figure out what was waking me up at night",
+      "titleZh": "我让 AI 构建了一个工具，帮我找出晚上是什么把我吵醒",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "showmypost"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 72,
+      "commentCount": 74,
+      "tags": []
+    },
+    {
+      "id": "hn:48100524",
+      "slug": "hn-48100524-interaction-models",
+      "source": "Hacker News",
+      "sourceUrl": "https://thinkingmachines.ai/blog/interaction-models/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100524",
+      "publishedAt": "2026-05-11T20:53:37.000Z",
+      "titleEn": "Interaction Models",
+      "titleZh": "交互模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "smhx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 90,
+      "commentCount": 9,
+      "tags": []
+    },
+    {
+      "id": "hn:48100433",
+      "slug": "hn-48100433-if-ai-writes-your-code-why-use-python",
+      "source": "Hacker News",
+      "sourceUrl": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100433",
+      "publishedAt": "2026-05-11T20:45:55.000Z",
+      "titleEn": "If AI writes your code, why use Python?",
+      "titleZh": "如果 AI 能帮你写代码，为什么还要用 Python？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "indigodaddy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 156,
+      "commentCount": 162,
+      "tags": []
+    },
+    {
+      "id": "hn:48100227",
+      "slug": "hn-48100227-show-hn-e2a-open-source-email-gateway-for-ai-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Mnexa-AI/e2a",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100227",
+      "publishedAt": "2026-05-11T20:26:17.000Z",
+      "titleEn": "Show HN: E2a – Open-source email gateway for AI agents",
+      "titleZh": "Show HN: E2a – 面向 AI 智能体的开源邮件网关",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mnexa"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 21,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48100152",
+      "slug": "hn-48100152-590k-buyers-paid-59m-for-trumps-gold-phone-but-not-one-has-shipped",
+      "source": "Hacker News",
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/590-000-buyers-paid-59-223500998.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100152",
+      "publishedAt": "2026-05-11T20:19:38.000Z",
+      "titleEn": "590k buyers paid $59M for Trump's gold phone, but not one has shipped",
+      "titleZh": "59万买家花费5900万美元购买特朗普的金色手机，但尚未有一台发货",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "surprisetalk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 112,
+      "commentCount": 94,
+      "tags": []
+    },
+    {
+      "id": "hn:48098537",
+      "slug": "hn-48098537-can-someone-please-explain-whether-cloudflare-blackmailed-canonical",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48098537",
+      "publishedAt": "2026-05-11T18:12:38.000Z",
+      "titleEn": "Can someone please explain whether Cloudflare blackmailed Canonical?",
+      "titleZh": "有人能解释一下 Cloudflare 是否勒索了 Canonical 吗？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 246,
+      "commentCount": 139,
+      "tags": []
+    },
+    {
+      "id": "hn:48098261",
+      "slug": "hn-48098261-ucla-discovers-first-stroke-rehabilitation-drug-to-repair-brain-dama",
+      "source": "Hacker News",
+      "sourceUrl": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "commentUrl": "https://news.ycombinator.com/item?id=48098261",
+      "publishedAt": "2026-05-11T17:53:08.000Z",
+      "titleEn": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "titleZh": "加州大学洛杉矶分校发现首种可修复脑损伤的卒中康复药物 (2025)",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bookofjoe"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 237,
+      "commentCount": 46,
+      "tags": []
+    },
+    {
+      "id": "hn:48097078",
+      "slug": "hn-48097078-interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "source": "Hacker News",
+      "sourceUrl": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "commentUrl": "https://news.ycombinator.com/item?id=48097078",
+      "publishedAt": "2026-05-11T16:22:31.000Z",
+      "titleEn": "Interfaze: A new model architecture built for high accuracy at scale",
+      "titleZh": "Interfaze：一种为大规模高精度构建的新型模型架构",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yoeven"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 109,
+      "commentCount": 30,
+      "tags": []
+    },
+    {
+      "id": "hn:48095854",
+      "slug": "hn-48095854-ai-powered-hacking-has-exploded-into-industrial-scale-threat-google",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google",
+      "commentUrl": "https://news.ycombinator.com/item?id=48095854",
+      "publishedAt": "2026-05-11T14:56:41.000Z",
+      "titleEn": "AI-powered hacking has exploded into industrial-scale threat, Google says",
+      "titleZh": "谷歌称，AI 驱动的黑客攻击已演变为工业级威胁",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "chrisjj"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-hy5vv5cioww4kdg6-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/HY5vV5CioWW4KDg6.html",
+      "publishedAt": "2026-05-11T13:37:00.000Z",
+      "titleEn": "腾讯 AI · 五问丨混元的三年战争",
+      "titleZh": "腾讯 AI · 五问丨混元的三年战争",
+      "abstractEn": "2025年，从阿里巴巴离职的语音专家鄢志杰，正面临一个重要抉择。\n\n鄢志杰\n一边是急于在AI领域大展拳脚的京东，其研究院正招兵买马，尤其从阿里、商汤、百度等企业招揽英才；另一边是腾讯的AI Lab团队，俞栋团队也正在寻找一位值得信赖的语音领域顶尖人才。\n当时，早就有意亲自管理京东研究院的刘强东求贤若渴，甚至直接与鄢志杰会面，希望将这位通义实验室语音团队的前负责人招入麾下，最终却被鄢志杰婉拒。\n鄢志杰婉拒老刘的原因，并非腾讯AI Lab给出的待遇优厚——在他心中，俞栋是自己在微软时期的同事，这份情谊重逾千钧。\n俞栋\n于是，鄢志杰义无反顾地加入了俞栋的团队。\n天有不测风云，鄢志杰到岗时，俞栋麾下语音团队已经开始跟混元团队合作，共同开发对标豆包语音的项目——“混元-O”，此时混元团队研发任务紧张，语音+视觉理解的团队已成建制，项目已经在跑起来了。\n人员调动，刚入职腾讯的鄢志杰也受到了影响。一说鄢",
+      "abstractZh": "2025年，从阿里巴巴离职的语音专家鄢志杰，正面临一个重要抉择。\n\n鄢志杰\n一边是急于在AI领域大展拳脚的京东，其研究院正招兵买马，尤其从阿里、商汤、百度等企业招揽英才；另一边是腾讯的AI Lab团队，俞栋团队也正在寻找一位值得信赖的语音领域顶尖人才。\n当时，早就有意亲自管理京东研究院的刘强东求贤若渴，甚至直接与鄢志杰会面，希望将这位通义实验室语音团队的前负责人招入麾下，最终却被鄢志杰婉拒。\n鄢志杰婉拒老刘的原因，并非腾讯AI Lab给出的待遇优厚——在他心中，俞栋是自己在微软时期的同事，这份情谊重逾千钧。\n俞栋\n于是，鄢志杰义无反顾地加入了俞栋的团队。\n天有不测风云，鄢志杰到岗时，俞栋麾下语音团队已经开始跟混元团队合作，共同开发对标豆包语音的项目——'混元-O'，此时混元团队研发任务紧张，",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48094641",
+      "slug": "hn-48094641-google-says-criminal-hackers-used-ai-to-find-a-major-software-flaw",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48094641",
+      "publishedAt": "2026-05-11T13:20:14.000Z",
+      "titleEn": "Google says criminal hackers used AI to find a major software flaw",
+      "titleZh": "Google 称犯罪黑客利用 AI 发现了重大软件漏洞",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "donohoe"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 119,
+      "commentCount": 96,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-rcxiq9rnkyjhhtce-html",
+      "slug": "3",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/RcXIQ9rNkYJhHTCE.html",
+      "publishedAt": "2026-05-11T13:01:00.000Z",
+      "titleEn": "独家丨腾讯混元3幕后：重构架构，姚顺雨一场非典型的「逆袭」",
+      "titleZh": "独家丨腾讯混元3幕后：重构架构，姚顺雨一场非典型的'逆袭'",
+      "abstractEn": "早在三月，提起马上要上线的混元 3.0，在腾讯混元工作的同学左飞就对雷峰网说过：“这次混元的新版本，其实团队预期不算太高。”\n一个月后，4 月 23 日晚，Hy3 的 Preview 版本正式发布，同步开源，向世界展示自己最真实的样子。雷峰网独家获悉，Hy3 规模更大、功能更全面的闭源旗舰版本将在五六月份发布，给人留下不少想象空间。\n（腾讯混元的新进展，雷峰网正在持续关注，欢迎添加作者微信：william_dong，交流信息，探讨认知。）\n说起来，腾讯 Hy3 Preview 的发布也有点“生不逢时”——前有 GPT 5.5 举世围观，后有 DeepSeek V4 重磅回归，被夹在中间的混元，还是在“9.7 减去 9.11”的小学数学题上犯了难，在社交平台上引起了一阵围观。\n“其实 GPT 和 DeepSeek 的发布日期在我们内部也不是什么秘密，但为什么选择在这个时候和他们一起发布，我也",
+      "abstractZh": "早在三月，提起马上要上线的混元 3.0，在腾讯混元工作的同学左飞就对雷峰网说过：'这次混元的新版本，其实团队预期不算太高。'\n一个月后，4 月 23 日晚，Hy3 的 Preview 版本正式发布，同步开源，向世界展示自己最真实的样子。雷峰网独家获悉，Hy3 规模更大、功能更全面的闭源旗舰版本将在五六月份发布，给人留下不少想象空间。\n（腾讯混元的新进展，雷峰网正在持续关注，欢迎添加作者微信：william_dong，交流信息，探讨认知。）\n说起来，腾讯 Hy3 Preview 的发布也有点'生不逢时'——前有 GPT 5.5 举世围观，后有 DeepSeek V4 重磅回归，被夹在中间的混元，还是在'9.7 减去 9.11'的小学数学题上犯了难，在社交平台上引起了一阵围观。\n'其实 GPT '",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48093626",
+      "slug": "hn-48093626-european-money-pours-into-palantir",
+      "source": "Hacker News",
+      "sourceUrl": "https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48093626",
+      "publishedAt": "2026-05-11T11:27:08.000Z",
+      "titleEn": "European Money Pours into Palantir",
+      "titleZh": "欧洲资金涌入 Palantir",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "robtherobber"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 120,
+      "commentCount": 40,
+      "tags": []
+    },
+    {
+      "id": "hn:48093466",
+      "slug": "hn-48093466-what-a-japanese-cooking-principle-taught-me-about-overcoming-ai-fati",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.devas.life/what-a-japanese-cooking-principle-taught-me-about-overcoming-ai-fatigue/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48093466",
+      "publishedAt": "2026-05-11T11:07:10.000Z",
+      "titleEn": "What a Japanese cooking principle taught me about overcoming AI fatigue",
+      "titleZh": "日本烹饪原则教我如何克服 AI 疲劳",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "marksully"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 49,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415263-html",
+      "slug": "ai-agent-5-20",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415263.html",
+      "publishedAt": "2026-05-11T10:18:49.000Z",
+      "titleEn": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
+      "titleZh": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
+      "abstractEn": "5月20日，马上AI起来！",
+      "abstractZh": "5月20日，马上AI起来！",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48093043",
+      "slug": "hn-48093043-a-i-note-takers-are-making-lawyers-nervous",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48093043",
+      "publishedAt": "2026-05-11T10:04:47.000Z",
+      "titleEn": "A.I. note takers are making lawyers nervous",
+      "titleZh": "AI 记录工具让律师们感到紧张",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "JumpCrisscross"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 232,
+      "commentCount": 167,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-ovhsh6doeiluavyz-html",
+      "slug": "360-1-token",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/ovhSH6doEiluAvyZ.html",
+      "publishedAt": "2026-05-11T08:53:00.000Z",
+      "titleEn": "360内部启动“龙虾计划”：每人1亿Token自动到账 “龙虾教练”即将亮相",
+      "titleZh": "360内部启动'龙虾计划'：每人1亿Token自动到账 '龙虾教练'即将亮相",
+      "abstractEn": "360公司近日发布全员信，宣布向全体员工每人发放1亿Token，用于使用“360安全龙虾”AI智能体平台，额度无需申请，已自动充值到员工账户。\n此次统一发放Token，被视为360探索“人机协同”新工作模式的重要动作。公司内部人士透露，希望通过“人手一支AI专家团”，推动员工从“使用AI工具”升级为“带着AI团队工作”，实现“人人都是超级个体”。\n\n据悉，目前360安全龙虾已内置上百个专业智能体，覆盖代码开发、知识问答、办公协作、行业分析、内容创作等多个场景，其中既包括Claude Code、codex等开发专家，也有面向经营分析、商业决策等方向的“CEO智囊团”智能体。\n据内部人士透露，360将于5月13日发布360安全龙虾产品升级，重磅推出全新功能“龙虾教练”。该功能可帮助用户在10分钟内快速训练自己的专属AI智能体，自动完成角色设定、技能配置以及工作流搭建。\n除功能升级外，360此次",
+      "abstractZh": "360公司近日发布全员信，宣布向全体员工每人发放1亿Token，用于使用'360安全龙虾'AI智能体平台，额度无需申请，已自动充值到员工账户。\n此次统一发放Token，被视为360探索'人机协同'新工作模式的重要动作。公司内部人士透露，希望通过'人手一支AI专家团'，推动员工从'使用AI工具'升级为'带着AI团队工作'，实现'人人都是超级个体'。\n\n据悉，目前360安全龙虾已内置上百个专业智能体，覆盖代码开发、知识问答、办公协作、行业分析、内容创作等多个场景，其中既包括Claude Code、codex等开发专家，也有面向经营分析、商业决策等方向的'CEO智囊团'智能体。\n据内部人士透露，360将于5月13日发布360安全龙虾产品升级，重磅推出全新功能'龙虾教练'。该功能可帮助用户在10分钟",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-gi33oajsc5xzedmf-html",
+      "slug": "science-ai-for-science",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/GI33oajsC5xZEdmF.html",
+      "publishedAt": "2026-05-11T08:44:00.000Z",
+      "titleEn": "《Science》最新专访：中国材料科学领域顶级学者李昊和AI for Science的三项代表性工作",
+      "titleZh": "魔法原子登陆硅谷，行业首个「自进化具身大脑」发布",
+      "abstractEn": "近日，国际顶级学术期刊《Science》发布专题报道，聚焦全球前沿材料科学领域的顶级学者。材科源图（MatSource）董事长李昊教授在报道中接受专访，分享了他对材料科学未来发展的深刻洞见。\n全新格局与新范式\n“ What we need is a new landscape, a new paradigm. ”——材科源图董事长李昊教授\n\n李昊教授在接受《Science》采访时提出的这一核心观点，不仅直击了传统材料科学“高成本、长周期、依赖试错与经验”的发展痛点，更深刻洞察了当前行业所处的关键转型期。他指出，随着人工智能与数据驱动方法的快速发展，未来的材料研发必须突破“单一材料、单一性能”的局限，向复杂系统建模、跨尺度设计与智能化发现全面迈进。 这不仅仅是研究工具的迭代升级，更是科研思维与底层范式的根本重塑。 正是在这一前瞻性判断之上，材科源图确立了清晰的企业愿景：以数据与智能为核心驱动",
+      "abstractZh": "英伟达、亚马逊都来了。\n\n\n\n\n\n    作者丨齐铖湧\n    编辑丨马晓宁\n                                                      \n\n\n美西时间 4 月 28 日，硅谷迎来一场关乎具身智能未来走向的重磅盛会。\n大会全称为全球具身智能创新大会，简称 GEIS。作为首届全球性具身峰会，GEIS 不仅吸引了 Openmind、PrismaX AI、Cosmicbrain AI、Physis 等一众硅谷前沿 AI 企业深度参与，更汇聚图灵奖得主、密码学先驱 Martin Hellman，英伟达 GEAR Lab 高级研究科学家 Zhengyi Lu",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-academic-kpp0kxjmezocze3b-html",
+      "slug": "2050-agi-4-science-17-3",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/academic/kpP0KxjMEzOcZe3b.html",
+      "publishedAt": "2026-05-11T08:33:00.000Z",
+      "titleEn": "2050学习节「AGI 4 Science」专场：17位青年学者「挤」在3小时里，都讲了些什么？",
+      "titleZh": "2050学习节「AGI 4 Science」专场：17位青年学者「挤」在3小时里，都讲了些什么？",
+      "abstractEn": "我们选择的道路，谁与我们同行，我们最终抵达何方。\n\n\n\n\n\n    作者丨周  蕾\n\n    编辑丨岑  峰\n\n                                                                                                       \n\n\n\n2050是阿里云创始人王坚博士发起的一个非营利活动，自2018年起每年4月最后一个周末在杭州云栖小镇举办，定位是“年青人因科技而团聚”。它没有传统会议的“主办方—嘉宾”结构，而是一个由自愿者驱动、年青人自由发起活动的开放场域。\n\n第八届2050大会，在今年4月的最后一个周末如期举办。而2050学习节“AGI 4 Science”专场，或许是大会三天里信息密度最高的专场，没有之一：三个小时，十七位发言嘉宾，每人十分钟。据召集人王婷介绍，这是有意为之的高密度编排：舞台时间本",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415842-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415842.html",
+      "publishedAt": "2026-05-11T08:31:05.000Z",
+      "titleEn": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
+      "titleZh": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
+      "abstractEn": "AI时代最贵的东西，已经不是模型了",
+      "abstractZh": "AI时代最贵的东西，已经不是模型了",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415810-html",
+      "slug": "pixelbloom-c-ai-ai-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415810.html",
+      "publishedAt": "2026-05-11T07:57:03.000Z",
+      "titleEn": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
+      "titleZh": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
+      "abstractEn": "办公软件的终局是交方案",
+      "abstractZh": "办公软件的终局是交方案",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-c9kxirbbg7pfqvqh-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/c9KxiRBbg7PfqVqH.html",
+      "publishedAt": "2026-05-11T07:44:00.000Z",
+      "titleEn": "魔法原子登陆硅谷，行业首个「自进化具身大脑」发布",
+      "titleZh": "魔法原子登陆硅谷，行业首个「自进化具身大脑」发布",
+      "abstractEn": "英伟达、亚马逊都来了。\n\n\n\n\n\n    作者丨齐铖湧\n    编辑丨马晓宁\n                                                                                                       \n\n\n美西时间 4 月 28 日，硅谷迎来一场关乎具身智能未来走向的重磅盛会。\n大会全称为全球具身智能创新大会，简称 GEIS。作为首届全球性具身峰会，GEIS 不仅吸引了 Openmind、PrismaX AI、Cosmicbrain AI、Physis 等一众硅谷前沿 AI 企业深度参与，更汇聚图灵奖得主、密码学先驱 Martin Hellman，英伟达 GEAR Lab 高级研究科学家 Zhengyi Luo，亚马逊前沿 AI 与机器人研究院科学家 Haozhi Qi 等知名学者，展开前沿技术深度对话，成",
+      "abstractZh": "英伟达、亚马逊都来了。\n\n\n\n\n\n    作者丨齐铖湧\n    编辑丨马晓宁\n                                                      \n\n\n美西时间 4 月 28 日，硅谷迎来一场关乎具身智能未来走向的重磅盛会。\n大会全称为全球具身智能创新大会，简称 GEIS。作为首届全球性具身峰会，GEIS 不仅吸引了 Openmind、PrismaX AI、Cosmicbrain AI、Physis 等一众硅谷前沿 AI 企业深度参与，更汇聚图灵奖得主、密码学先驱 Martin Hellman，英伟达 GEAR Lab 高级研究科学家 Zhengyi Lu",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415714-html",
+      "slug": "openai-200-350-ipo",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415714.html",
+      "publishedAt": "2026-05-11T07:37:05.000Z",
+      "titleEn": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
+      "titleZh": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
+      "abstractEn": "Cerebras预计本周公布定价",
+      "abstractZh": "Cerebras预计本周公布定价",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48092028",
+      "slug": "hn-48092028-gmail-registration-now-requires-scanning-a-qr-code-and-sending-a-tex",
+      "source": "Hacker News",
+      "sourceUrl": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "commentUrl": "https://news.ycombinator.com/item?id=48092028",
+      "publishedAt": "2026-05-11T07:26:54.000Z",
+      "titleEn": "Gmail registration now requires scanning a QR code and sending a text message",
+      "titleZh": "Gmail 注册现在需要扫描二维码并发送短信",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "negura"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 562,
+      "commentCount": 415,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-vqct68phdtdfvhxy-html",
+      "slug": "a1-a2-10",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/VqCT68PHdtdfvHXy.html",
+      "publishedAt": "2026-05-11T06:34:00.000Z",
+      "titleEn": "鹿明机器人完成数亿元A1及A2轮融资，产业巨头深度参与，累计融资近10亿元",
+      "titleZh": "鹿明机器人完成数亿元A1及A2轮融资，产业巨头深度参与，累计融资近10亿元",
+      "abstractEn": "近日，产业具身领军企业鹿明机器人宣布，连续完成A1及A2两轮融资。其中A1轮融资由三菱电机智能制造科技（中国）集团有限公司（统筹在中国的工业自动化事业，以下简称“三菱电机”）领投，老股东普华资本、吴中金控等超额跟投，A2轮融资由三菱电机继续领投，恒生电子、海高集团、昆石投资等产业方跟投。两轮融资完成后，公司累计融资近10亿元。融资将用于公司具身大模型研发和场景拓展的持续投入。\n本轮融资引入包括全球工业自动化领域巨头三菱电机在内的多家头部产业方参与，进一步强化了公司在场景落地与产业协同方面的能力。通过与头部产业方的深度合作，鹿明机器人将技术能力嵌入真实生产体系，加速具身智能从场景落地走向规模化复制。\n锚定“产业具身”：从场景出发重构具身智能实现路径\n实现通用的具身智能，从而将人类从烦琐、枯燥、危险的劳动中解放出来，是每个具身智能行业从业者的共同愿景。然而，如何跨越物理世界的复杂性，并突破真机",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415403-html",
+      "slug": "ai-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415403.html",
+      "publishedAt": "2026-05-11T06:32:05.000Z",
+      "titleEn": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
+      "titleZh": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
+      "abstractEn": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
+      "abstractZh": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-dmkfbsjusrtrbv08-html",
+      "slug": "10",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/DMKfbsjusrTRbv08.html",
+      "publishedAt": "2026-05-11T05:47:00.000Z",
+      "titleEn": "四款新车全球首秀、捷达下探10万级：德国巨头的中国式突围",
+      "titleZh": "四款新车全球首秀、捷达下探10万级：德国巨头的中国式突围",
+      "abstractEn": "无论是邀请科技博主“影视飓风”、“小Lin说”做主持，还是在茶歇展台现做的一碗碗老北京炸酱面，大众车展前夕的媒体之夜上，都极力呈现出贴近本土的传播氛围。\n“三年前，为了中国这一全球最具活力的汽车市场，我们启动了彻底的转型。”大众汽车集团管理董事会主席奥博穆说。\n自定下 “在中国，为中国”战略以来，大众汽车集团在中国这个汽车市场“健身房”中不断推动本土化研发和转型，在2026北京车展前，大众汽车带来AUDI E7X、ID. AURA T6、概念车JETTA X和与众09四款全球首秀车型，展示出这一战略的深度落地和转型决心。\n四款新车全球首秀，中国是转型的核心\n奥迪是大众旗下本土化最为激进的品牌。2024年，奥迪联手上汽，推出新能源品牌AUDI，形成“四环”和“AUDI”的双品牌运作模式，以覆盖不同市场群体。2025年9月，首款车型奥迪E5 Sportback正式上市，覆盖20-30万级纯电市",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-4aepgfxnplwyrpqi-html",
+      "slug": "800-2030-30-robotaxi",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/4AEpgfxnPlWyRPQi.html",
+      "publishedAt": "2026-05-11T05:41:00.000Z",
+      "titleEn": "三年800万辆、2030年30万辆Robotaxi，印奇和赵明凭什么？",
+      "titleZh": "三年800万辆、2030年30万辆Robotaxi，印奇和赵明凭什么？",
+      "abstractEn": "第三方智驾供应商的竞争在过去一年格外激烈。\n华为乾崑智驾搭载超过170万辆新车，合作车型品牌25家，综合领先；强调数据驱动的Momenta以端到端+强化学习见长，占据过半的市场份额；元戎启行依托VLA大模型和爆款车型策略强势扩张；而地平线的野心从芯片走向系统级方案提供者。\n头部供应商看似格局初定，但随着AI技术的介入，新的变数已经出现。\n入场仅一年的千里科技从旁杀出，更是在22日举办的AI战略暨产品发布会上放出激进目标：三年内实现量产800万套智驾方案，成为全球最大智驾供应商之一。同时，到2030年，将有30万辆搭载千里科技解决方案的Robotaxi穿行在世界各地。\n这份大胆又激进的规划图背后，是千里科技兼阶跃星辰董事长印奇的技术判断。他认为，L4是L3的升级版，不存在所谓的“L2+过渡期”。千里科技的做法是：用L4级技术架构开发L2级产品，同时打造原生智驾基座模型。\n“L3、L4如此令人",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-g83yb3oa6jircuj2-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/G83yB3oa6jiRCuj2.html",
+      "publishedAt": "2026-05-11T05:37:00.000Z",
+      "titleEn": "千里浩瀚年内上车将超百万辆，明年覆盖吉利系七大品牌",
+      "titleZh": "千里浩瀚年内上车将超百万辆，明年覆盖吉利系七大品牌",
+      "abstractEn": "发布一年后，吉利的千里浩瀚智驾方案迎来新的进展。雷峰网独家获悉，这套智驾方案已交付近50万辆，2026年计划上车超过百万辆。\n我们了解到，H5、H7、H9将在年内覆盖40款车型，明年上车七大品牌的96款车型。而智驾等级较低的H1、H3两套方案将逐步收缩。\n吉利2025年3月发布的千里浩瀚智驾系统，分为H1、H3、H5、H7、H9五级智驾方案，提供高速NOA、城市通勤NOA、无图NOA等不同层级的智驾功能。吉利表示，H9方案能够满足L3级自动驾驶。\n吉利汽车集团 CEO 淦家阅在今年的新春贺词中强调以“技术普惠、长期主义”应对更趋激烈的市场竞争。其中，千里浩瀚 H7要在今年加速下放，高阶辅助驾驶方案重点覆盖更多领克车型，并延伸至吉利银河相关车型。 同时，G-ASD辅助驾驶系统新版本将由极氪8X首发。\n今年1月，千里智驾和吉利联合发布了辅助驾驶品牌G-ASD，即将发布的极氪8X将成为首个搭载该",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415186-html",
+      "slug": "chatgpt-5-5-pro-17",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415186.html",
+      "publishedAt": "2026-05-11T05:14:35.000Z",
+      "titleEn": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
+      "titleZh": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
+      "abstractEn": "陶哲轩：但「消化」属于人类",
+      "abstractZh": "陶哲轩：但'消化'属于人类",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-hai2o8qlgcvmhgtl-html",
+      "slug": "motubrain",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/HAI2o8QlGcvmhGTL.html",
+      "publishedAt": "2026-05-11T05:10:00.000Z",
+      "titleEn": "跨本体、长任务、可预测……Motubrain双榜登顶只是一个开始",
+      "titleZh": "跨本体、长任务、可预测……Motubrain双榜登顶只是一个开始",
+      "abstractEn": "机器人离落地干活又近了一步。\n\n\n\n\n\n    作者丨高景辉\n\n    编辑丨马晓宁\n                                                                                                       \n\n\n“机器人都能做后空翻、跑马拉松了，怎么还是干不了活？”\n在有关具身机器人的视频评论区，我们总能看到这样的疑问。\n的确，纵观行业当前的大部分具身机器人，在尝试“干活”的时候总会遇到尴尬场面：要么一次只能干一件事，一点都不“通用”；要么经常卡顿，需要人为干预；要么换了个机型，就动不了了。\n这不禁令人疑惑：具身智能离真正帮我们干活，到底还有多远？\n\n\n\n\n01\n Motubrain 双榜登顶，\n\n机器人干活能力有了 “合格线”\n\n\n\n\n很多人把具身机器人干不了活，归咎为模型能力不足，无法胜任各种场景的干",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-g2ucmuouxxarj6ip-html",
+      "slug": "2026-grow",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/G2ucMUoUXXARj6ip.html",
+      "publishedAt": "2026-05-11T04:58:00.000Z",
+      "titleEn": "2026年，小红书GROW商家大会传递了哪些信号？",
+      "titleZh": "2026年，小红书GROW商家大会传递了哪些信号？",
+      "abstractEn": "小红书，给了当下处在焦虑中的商家，另一种安心经营的生意经。\n4月8日，小红书在上海举办GROW商家大会，披露电商方面的进展，公布“卖好货就来小红书”核心主张，并首次系统发布“NPL经营方法论”，以及相应的商家经营工具和产品，明确表示将重点扶持“好货商家”。\n过去，商家对小红书的电商策略多处于摸索试探阶段。此次大会，平台全方位拆解经营逻辑，帮助商家吃透平台规则，清晰定义何为好货、好货如何卖，构建从种草到成交的完整闭环。\n一、明确定调，卖好货就来小红书\n近年来，国内电商行业深陷低价内卷的恶性循环，曾经作为引流手段的低价策略逐渐变味，从良性竞争沦为不计成本的厮杀。\n商家被迫压缩生产成本、放弃品质把控，进而导致低质商品泛滥、同质化严重，最终形成“平台损生态、商家亏利润、用户踩雷区”的三方受损局面。这种粗放式的低价模式不仅透支了用户消费信任，大批优质商家难以生存，更让整个行业陷入“越卷越穷、越穷越卷",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-zppvdtxuywmrflfy-html",
+      "slug": "mobileye",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/zPPvDtXuyWmRfLfY.html",
+      "publishedAt": "2026-05-11T04:26:00.000Z",
+      "titleEn": "从Mobileye到亿咖通，吉利的智驾自研前传",
+      "titleZh": "从Mobileye到亿咖通，吉利的智驾自研前传",
+      "abstractEn": "2022年12月21日，亿咖通科技董事长兼CEO的沈子瑜在美国纳斯达克敲响开市钟。\n他说，“这是整个亿咖通科技团队的荣誉时刻。”\n这个曾被寄予厚望的吉利智能化转型先锋，在投入近40亿、经历两次上市申请后，终于以一种体面的方式完成与资本市场的握手。\n而这个属于全团队的荣耀时刻里，亿咖通的智能驾驶的身影却显得有些落寞。\n在中国车企智能驾驶的历史上，亿咖通是投入时间最早、决心最彻底的企业之一。为了尽快实现上车，与吉利绑定颇深的亿咖通大举押注高精地图赛道、数据标注，却在关键的自动驾驶系统开发投入不足。而与自研同步进行的Plan B——与Mobileye的合作，也没有发挥出最理想的效果。\n不过，正是这两次的探索，推动了吉利在认知、组织与技术路线上的持续升级。\n2025年，吉利与“天才少年”印奇联手组建千里科技，以“AI+汽车”重构技术与业务版图，从底层能力入手补齐短板，加速向国内智驾第一梯队迈进。同",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-1h6yt9x8uvaqgbop-html",
+      "slug": "a10-10",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/1h6yt9X8UvAqgBoP.html",
+      "publishedAt": "2026-05-11T04:13:00.000Z",
+      "titleEn": "发布A10后，零跑能否挑战月销10万辆？",
+      "titleZh": "发布A10后，零跑能否挑战月销10万辆？",
+      "abstractEn": "10万级车型的市场需求辽阔，往往是车企壮大规模、实现销量进阶的必经之地。手握海豚、海鸥、秦plus等热门车型，比亚迪稳坐中国“车王”的位置；2025年，吉利星愿以46.5万辆的成绩成为中国市场销量最高的单一车型。\n跨越生存红线的新势力也加入规模游戏。2025年交付60万辆的零跑，立下了今年销量突破百万的增长计划。实现70%的高增长，要求零跑增加产品组合，覆盖更多价格带，挖掘更广袤的增量空间。\n想要在10万级这个成本、技术都受到约束的市场中取胜，就要找到多走一步的可能性。零跑A10沿袭差异化打法的思路，放大车内空间、延长纯电续航、同时发力智能驾驶，加装激光雷达和高通8295和8650芯片，做出高于同级的智驾水平，而售价仅有6.58万到8.68万。\n零跑汽车创始人、董事长朱江明说，A10是10万级市场中唯一一个搭载车位到车位智驾系统的车型，这可以让零跑在一定时间内具备竞争优势。“A10最大差异",
+      "abstractZh": "10万级车型的市场需求辽阔，往往是车企壮大规模、实现销量进阶的必经之地。手握海豚、海鸥、秦plus等热门车型，比亚迪稳坐中国'车王'的位置；2025年，吉利星愿以46.5万辆的成绩成为中国市场销量最高的单一车型。\n跨越生存红线的新势力也加入规模游戏。2025年交付60万辆的零跑，立下了今年销量突破百万的增长计划。实现70%的高增长，要求零跑增加产品组合，覆盖更多价格带，挖掘更广袤的增量空间。\n想要在10万级这个成本、技术都受到约束的市场中取胜，就要找到多走一步的可能性。零跑A10沿袭差异化打法的思路，放大车内空间、延长纯电续航、同时发力智能驾驶，加装激光雷达和高通8295和8650芯片，做出高于同级的智驾水平，而售价仅有6.58万到8.68万。\n零跑汽车创始人、董事长朱江明说，A10是10万",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-qhnlrfknr5wz5zsn-html",
+      "slug": "1-10token-ling-2-6-flash-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/QhnlRFknR5wZ5zSN.html",
+      "publishedAt": "2026-05-11T03:56:00.000Z",
+      "titleEn": "1/10Token 消耗干同样的活！Ling-2.6-flash 想帮开发者把 AI 成本打下来",
+      "titleZh": "1/10Token 消耗干同样的活！Ling-2.6-flash 想帮开发者把 AI 成本打下来",
+      "abstractEn": "雷峰网讯 用户苦 Token 成本久矣。\n“烧了几千块钱的 Token，Agent 还是没把活干完”，这或许是第一批尝鲜“养虾”的弄潮儿们最不想面对、却又最常遭遇的尴尬时刻。\n当 Agent 越发全面地接管工作流，人们在交付效果的权衡中，开始更多地看到效率问题。有时候它们能自主完成需求分析、多轮修改，直接交付可用的文案或代码，有时候却在复杂任务的拆解中，迷失工具调用的方向。端到端的任务场景，往往会让成本失控的问题更加凸显。一觉醒来，Token账单几百美元，正事却没干多少。\n不少开发者会将之归咎于 Agent 的架构设计、工具链的完善程度，或是 Prompt 工程的深浅。但更根本的矛盾是，大模型本身的“执行力”，即高效完成任务的能力，可能远未达到工业级可用标准。\n这不仅指推理质量本身，一个常被忽视的维度是词元效率（Token Efficiency）。\n当传统模型在多轮对话中不断膨胀上下文窗口",
+      "abstractZh": "雷峰网讯 用户苦 Token 成本久矣。\n'烧了几千块钱的 Token，Agent 还是没把活干完'，这或许是第一批尝鲜'养虾'的弄潮儿们最不想面对、却又最常遭遇的尴尬时刻。\n当 Agent 越发全面地接管工作流，人们在交付效果的权衡中，开始更多地看到效率问题。有时候它们能自主完成需求分析、多轮修改，直接交付可用的文案或代码，有时候却在复杂任务的拆解中，迷失工具调用的方向。端到端的任务场景，往往会让成本失控的问题更加凸显。一觉醒来，Token账单几百美元，正事却没干多少。\n不少开发者会将之归咎于 Agent 的架构设计、工具链的完善程度，或是 Prompt 工程的深浅。但更根本的矛盾是，大模型本身的'执行力'，即高效完成任务的能力，可能远未达到工业级可用标准。\n这不仅指推理质量本身，一个常被",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-gvirvlxnodhgbfhk-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/gviRvLXNoDhGBFHK.html",
+      "publishedAt": "2026-05-11T03:54:00.000Z",
+      "titleEn": "让AI接管我家：钢铁侠有的，我也能有",
+      "titleZh": "让AI接管我家：钢铁侠有的，我也能有",
+      "abstractEn": "雷峰网讯 2026年4月的一个凌晨，4点07分，一切崩溃了。\n前一天晚上，我让家里的AI通宵干活——整理NAS（网络存储服务器，简单说就是“家用大型移动硬盘”）里20年攒下的几十TB数据，包括照片、文档、视频，AI要一个个分类，已经跑了整整6个小时。\n结果，路由器突然重启了。\n我的笔记本自动重连WiFi时，犯了个致命错误：它没连家里的主路由，反而连上了运营商的光猫网络。就这一个小失误，导致NAS、AI服务器全部失联，六个小时的工作功亏一篑，整个家庭AI系统像多米诺骨牌一样，彻底崩了。\n早上7点，我打开电脑，屏幕上全是“连接失败”的提示——这是我用AI重建家庭数字生活的第九天，前八天的惊喜，差点被这一个小bug浇灭。\n这一切，还要从八天前，一台新电脑的到来说起。\n\n\n\n\n02\n\n\n\n为什么非要让AI帮我迁移20年的“数字垃圾”？\n\n\n\n先说说我的“执念”：20年不重装系统\n我是天卓，一个连续",
+      "abstractZh": "雷峰网讯 2026年4月的一个凌晨，4点07分，一切崩溃了。\n前一天晚上，我让家里的AI通宵干活——整理NAS（网络存储服务器，简单说就是'家用大型移动硬盘'）里20年攒下的几十TB数据，包括照片、文档、视频，AI要一个个分类，已经跑了整整6个小时。\n结果，路由器突然重启了。\n我的笔记本自动重连WiFi时，犯了个致命错误：它没连家里的主路由，反而连上了运营商的光猫网络。就这一个小失误，导致NAS、AI服务器全部失联，六个小时的工作功亏一篑，整个家庭AI系统像多米诺骨牌一样，彻底崩了。\n早上7点，我打开电脑，屏幕上全是'连接失败'的提示——这是我用AI重建家庭数字生活的第九天，前八天的惊喜，差点被这一个小bug浇灭。\n这一切，还要从八天前，一台新电脑的到来说起。\n\n\n\n\n02\n\n\n\n为什么非要",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-aryjk8sherid5lea-html",
+      "slug": "happy-horse-1-0",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/ARyjk8sHerID5LeA.html",
+      "publishedAt": "2026-05-11T03:52:00.000Z",
+      "titleEn": "给 Happy Horse-1.0 讲完戏，我无痛当上导演了",
+      "titleZh": "给 Happy Horse-1.0 讲完戏，我无痛当上导演了",
+      "abstractEn": "雷峰网讯 无论从宏大的技术脉络，还是近在眼前的商业落地来说，视频模型都是当下最炙手可热的赛道之一。也因此，今天问世的每一款全新视频模型，都经受着来自学界和业界越发严苛的审视。最近，这份关注属于阿里刚刚推出的 Happy Horse-1.0。\n作为阿里巴巴 ATH 事业群在视频模型赛道的开山之作，这匹“黑马”甫一发布，就位列权威盲测平台 Arena 和Artificial Analysis 的Top1和Top2。\n当然，对于这样一条早已步入深水区的赛道而言，BenchMark 和打榜的意义正变得越发有限。更触动神经的议题是落地，当各家模型都能轻松产出“赛博朋克城市夜景”或“古风女子执伞回眸”这类美轮美奂的画面，视频内容的生产模式随即发生了革新，AI 短剧、漫剧市场的迅速膨胀就是一大例证。\n但是在一众内容创作者畅想“vibe video”的美好未来时，现实的另一面是《纸手机》水准的爆款作品仍然",
+      "abstractZh": "雷峰网讯 无论从宏大的技术脉络，还是近在眼前的商业落地来说，视频模型都是当下最炙手可热的赛道之一。也因此，今天问世的每一款全新视频模型，都经受着来自学界和业界越发严苛的审视。最近，这份关注属于阿里刚刚推出的 Happy Horse-1.0。\n作为阿里巴巴 ATH 事业群在视频模型赛道的开山之作，这匹'黑马'甫一发布，就位列权威盲测平台 Arena 和Artificial Analysis 的Top1和Top2。\n当然，对于这样一条早已步入深水区的赛道而言，BenchMark 和打榜的意义正变得越发有限。更触动神经的议题是落地，当各家模型都能轻松产出'赛博朋克城市夜景'或'古风女子执伞回眸'这类美轮美奂的画面，视频内容的生产模式随即发生了革新，AI 短剧、漫剧市场的迅速膨胀就是一大例证。\n但是",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-trrorc51vw5yfjig-html",
+      "slug": "20-b",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/TrrORc51VW5YFJIg.html",
+      "publishedAt": "2026-05-11T03:49:00.000Z",
+      "titleEn": "生数科技完成近 20 亿元人民币 B 轮融资，发力通用世界模型",
+      "titleZh": "生数科技完成近 20 亿元人民币 B 轮融资，发力通用世界模型",
+      "abstractEn": "雷峰网讯 中国世界模型团队再传捷报，朱军领衔的生数科技，宣布完成了近 20 亿元人民币的 B 轮融资。\n本轮融资由阿里云领投，中网投、九安海棠、好未来、光合创投等投资人战略投资，星连资本、达泰资本、建发新兴投资、百度 BV 风投、卓源亚洲等原有股东持续追加投资。\n这已经是生数科技在 2026 年拿到的第二笔大额融资，距离上一轮由中关村科学城公司、星连资本领投的超 6 亿元人民币 A＋ 轮融资，仅仅时隔两个月。\n生数科技成立于 2023 年 3 月，其成名之战是 2024 年 4 月发布的视频大模型 Vidu，后者是中国首个全面对标 Sora 的文生视频大模型。\n2026 年 1 月 30 日，Vidu 模型已迭代至 Q3 版本，实现最长 16 秒声画同出，并支持多镜头切换、运镜控制、 BGM 与音效生成，以及多语种对话。Vidu Q3 发布后，在国际权威 AI 基准测试机构 Artific",
+      "abstractZh": "雷峰网讯 中国世界模型团队再传捷报，朱军领衔的生数科技，宣布完成了近 20 亿元人民币的 B 轮融资。\n本轮融资由阿里云领投，中网投、九安海棠、好未来、光合创投等投资人战略投资，星连资本、达泰资本、建发新兴投资、百度 BV 风投、卓源亚洲等原有股东持续追加投资。\n这已经是生数科技在 2026 年拿到的第二笔大额融资，距离上一轮由中关村科学城公司、星连资本领投的超 6 亿元人民币 A＋ 轮融资，仅仅时隔两个月。\n生数科技成立于 2023 年 3 月，其成名之战是 2024 年 4 月发布的视频大模型 Vidu，后者是中国首个全面对标 Sora 的文生视频大模型。\n2026 年 1 月 30 日，Vidu 模型已迭代至 Q3 版本，实现最长 16 秒声画同出，并支持多镜头切换、运镜控制、 BGM",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48090521",
+      "slug": "hn-48090521-the-greatest-shot-in-television-james-burke-had-one-chance-to-nail-t",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48090521",
+      "publishedAt": "2026-05-11T02:43:34.000Z",
+      "titleEn": "The greatest shot in television: James Burke had one chance to nail this scene (2024)",
+      "titleZh": "电视史上最伟大的一镜：James Burke 只有一次机会拿下这个场景 (2024)",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "susam"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 346,
+      "commentCount": 186,
+      "tags": []
+    },
+    {
+      "id": "hn:48090276",
+      "slug": "hn-48090276-show-hn-adamsreview-better-multi-agent-pr-reviews-for-claude-code",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/adamjgmiller/adamsreview",
+      "commentUrl": "https://news.ycombinator.com/item?id=48090276",
+      "publishedAt": "2026-05-11T02:06:29.000Z",
+      "titleEn": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "titleZh": "Show HN: adamsreview – 更好的 Claude Code 多智能体 PR 审查工具",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "adamthegoalie"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 73,
+      "commentCount": 45,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-415065-html",
+      "slug": "r1-libero-99-9",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/415065.html",
+      "publishedAt": "2026-05-11T01:51:36.000Z",
+      "titleEn": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
+      "titleZh": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
+      "abstractEn": "真正学会了在隐空间里进行“物理思考”",
+      "abstractZh": "真正学会了在隐空间里进行'物理思考'",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48085685",
+      "slug": "hn-48085685-training-an-llm-in-swift-part-1-taking-matrix-mult-from-gflop-s-to-t",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48085685",
+      "publishedAt": "2026-05-10T17:05:05.000Z",
+      "titleEn": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "titleZh": "用 Swift 训练 LLM，第一部分：将矩阵乘法从 Gflop/s 提升到 Tflop/s",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "zdw"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 216,
+      "commentCount": 11,
+      "tags": []
+    },
+    {
+      "id": "hn:48080316",
+      "slug": "hn-48080316-silverback-imfura-took-a-chance-and-ended-up-alone",
+      "source": "Hacker News",
+      "sourceUrl": "https://gorillafund.org/mountain-gorillas/silverback-imfura-took-a-chance-and-ended-up-alone/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48080316",
+      "publishedAt": "2026-05-10T02:06:19.000Z",
+      "titleEn": "Silverback Imfura took a chance, and ended up alone",
+      "titleZh": "Silverback Imfura 冒了一次险，结果形单影只",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "alex000kim"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 29,
+      "commentCount": 11,
+      "tags": []
+    }
+  ]
+}
