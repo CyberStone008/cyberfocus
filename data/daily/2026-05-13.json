@@ -1,0 +1,757 @@
+{
+  "date": "2026-05-13",
+  "generatedAt": "2026-05-13T02:12:39.462Z",
+  "summary": {
+    "aiNews": [
+      "xAI 面临诉讼仍新增 19 台燃气轮机，扩大基础设施",
+      "Ilya 拥有 70 亿美元 OpenAI 股权，引发关注",
+      "商汤烧卖购机器人小店开业，机器人真正落地线下零售"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "openai:what-parameter-golf-taught-us",
+      "slug": "what-parameter-golf-taught-us",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/what-parameter-golf-taught-us/",
+      "publishedAt": "2026-05-13T01:07:04.887Z",
+      "titleEn": "What Parameter Golf Taught Us",
+      "titleZh": "参数高尔夫教会了我们什么",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
+      "docType": "Blog",
+      "category": "research",
+      "tags": [],
+      "contentMd": "2026年5月12日\n\n研究\n\n# 参数高尔夫教给了我们什么\n\n从 1,000 多名参与者、2,000 多份提交，以及一场由代码代理塑造的开放式机器学习挑战中汲取的教训。\n\n**加载中…分享**我们推出参数高尔夫是为了吸引和支持机器学习研究社区探索一个全新的、高度受限的机器学习问题。我们希望这个挑战足够有趣，能够奖励真正的技术创造力，同时保持概念上的简洁性和易验证性。参与者需要在固定的 FineWeb 数据集上最小化留出损失，同时满足 16 MB 的产物限制（包括模型权重和训练代码），以及在 8×H100 上 10 分钟的训练预算。我们提供了基线、数据集和评估脚本，参与者可以 fork 仓库，改进模型，并通过 GitHub 提交结果。在八周的时间里，我们收到了来自 1,000 多名参与者的 2,000 多份提交。我们被提交作品的技术广度、创造力以及规则突破所折服——从细致的优化器调优和量化工作，到新的建模思路和测试时训练。挑战中最令人兴奋的部分之一是看到参与者如何广泛地使用 AI 代码代理。代理降低了实验成本，让更多人更容易参与，并改变了竞赛的节奏。它们也为提交审查、归属和评分带来了新的挑战。这个挑战也成为了我们发现人才的重要渠道。这也是我们举办参数高尔夫的目标之一，它提供了一个有用的信号，表明开放式技术挑战可以揭示出卓越的机器学习品味和坚持。在这篇文章中，我们重点介绍一些令我们感到惊喜和有趣的提交，并分享我们在 AI 代理强大时代举办代码竞赛中学到的东西。\n\n## 技术印象\n\n### Technical impressions\n\n#### 纪录赛道\n\n#### Record track\n\n我们对纪录赛道排行榜上的每份提交进行了评判和独立复现，并验证每份提交在提交时都是创纪录的。几个主题尤为突出。**训练优化****\n\n一些最强的结果来自对现有组件的细致调优。\n\n| **提交** | **贡献者** | **技术** | **为何重要** |\n|---------|-----------|---------|-------------|\n| #60 | @notapplica | 结合了 #50、#42 以及可能的 #39 的前人胜利成果，然后通过 Muon 权重衰减、频谱嵌入初始化、残差混合调度和编译评估，让更深的模型成功工作。 | 严格的排行榜工作的有力范例：识别出哪些现有改进有价值，并将它们干净地组合起来。 |\n\n***量化****\n\n几份提交在压缩和导出方面投入了大量精力。\n\n| **提交** | **贡献者** | **技术** | **为何重要** |\n|---------|-----------|---------|-------------|\n| #414 | @signalrush | 在训练后使用 GPTQ-lite 量化权重。 | 首个成功使用 GPTQ-lite 的排行榜提交，带来了更好的评估结果。 |\n| #1060 | @dexhunter | 在 @raahilshah 的 #634 基础上，成功使用了完整的 Hessian GPTQ。 | 将早期的量化工作扩展为更强的压缩路径。 |\n\n***测试时和评估策略****\n\n一些提交模糊了模型改进和评估策略之间的边界。这些方法在规则下是有效的，但需要我们作为组织者进行仔细审查。\n\n| **提交** | **贡献者** | **技术** | **为何重要** |\n|---------|-----------|---------|-------------|\n| #77 | @samacqua | 使用了先评分、按文档 LoRA 测试时训练：先对文本块评分，仅在已评分的块上适配，在文档边界处重置。 | 在保持规则可审查性的同时，推动了模型改进与评估策略之间的边界。 |\n| #1019 | @abaybektursun | 使用了自生成的 GPTQ 校准：从训练模型生成校准文本，然后从这些激活构建 GPTQ Hessian。 | 一种富有创意的校准策略，需要组织者仔细审查。 |\n\n***新的建模和数据思路****\n\n几份提交引入了特别有创意的建模或数据思路。\n\n| **提交** | **贡献者** | **技术** | **为何重要** |\n|---------|-----------|---------|-------------|\n| #1729 | @romeerp | 引入了 CaseOps 分词器：无损大小写操作符令牌，带有原始字节 BPB 侧车核算。 | 一种富有创意的分词器和数据表示思路。 |\n| #265 | @unnir | 引入了 XSA，一种高效的部分排他性自注意力（Exclusive Self Attention）方法，具有 GQA 感知的分组视图。 | 将一种高效注意力变体带入挑战。 |\n| #65 | @aquariouseworkman | 引入了 SmearGate 和 BigramHash：一种学习到的上一个令牌嵌入混合加上相邻令牌对哈希特征。 | 从零开始添加了新的特征机制。 |\n| #1204 | @msisovic | 引入了迷你深度循环：重复第 4 和第 5 层，将循环延迟到训练中期，并部分解绑了重复的 MLP。 | 首个让循环层有效工作的被接受的排行榜条目。 |\n\n我们选择突出这九份提交，因为它们代表了我们希望挑战能够激发的结果范围。一些参与者通过细致调优找到了胜利。另一些人推动了量化和低秩技术。一些人探索了评估规则的边界。还有几人引入了来自文献或从零开始的建模或数据思路，产生了意想不到的收益。\n\n#### 非纪录赛道\n\n#### Nonrecord track\n\n非纪录赛道是许多创意提交的聚集地。我们重点介绍了 15 个最受欢迎的作品，包括从非自回归文本建模到动态分词等各种方法。\n\n因为这个赛道更具实验性，我们关注的重点是技术有趣程度而非原始性能。有三份提交尤为突出：\n\n- CiprianFlorim-Ifrim 的组合状态空间模型和 JEPA 提交（在新窗口打开）\n- ddavidgao 的 Designator/引导注意力（Guided Attention）提交（在新窗口打开）\n- DariusFeher 的字节级 H-Net 提交（在新窗口打开）\n\n这些是我们最喜欢的三份非纪录提交，尽管它们不一定是性能上的前三名。\n\n话虽如此，非纪录赛道仍然具有竞争性。非纪录排行榜中有一半的条目击败了 1.22 BPB 的朴素基线，排名第一的条目达到了 1.12 BPB。\n\n我们觉得这很令人鼓舞。即使面对强大的 Transformer 基线，替代方法有时也能与主导架构一较高下。\n\n我们还认为，这个赛道特别受益于强大代码代理的可用性。代理让原型化推测性想法的成本大大降低，包括那些以前在短期竞赛中可能显得太耗时或不确定而不敢尝试的方法。\n\n## 收获与启示\n\n### Takeaways\n\n参数高尔夫与类似早期竞赛的一个主要区别是代码代理的广泛使用。绝大多数提交者提到使用代理作为他们工作的一部分。\n\n这降低了参与门槛。参与者可以更快地设置实验，检查不熟悉的代码，并以更小的摩擦测试想法。RunPod 赞助的 100 万美元算力资源也在让更多人能够参与挑战方面发挥了重要作用。\n\n同时，代理的使用为提交和评分带来了新问题。许多提交是对现有高分选手的小幅修改，而非根本上的新方法。这通常是有用的：强有力的想法快速传播并被他人优化。但也创造了噪声。当超出竞赛准则的提交产生异常强的分数时，其他代理有时会复制这些想法并沿着同一条无效路径继续前行。\n\n提交量也改变我们必须运行竞赛的方式。我们无法手动检查每份提交，同时还保持排行榜的推进。在挑战期间，我们开发了一个基于 Codex 的内部分拣机器人，监控新提交并为人工审查标记它们。这在我们每天收到数百份提交的时期变得尤为重要。\n\nAI 代理也成为了挑战社区的一部分。在竞赛的大部分时间里，@notapplica 和他们的代码代理运行着一个\"实时更新\"公告板，跟踪重大事件，解释排行榜方法，并帮助其他参与者跟进竞赛。社区审查工具的出现似乎也帮助经验较少的参与者检查他们的提交是否在规则范围内，避免常见的无效方法。\n\n## 下一步是什么？\n\n### What's next?\n\n我们的主要目标是发起一个符合条件的参与者（在新窗口打开）可以参加并体验机器学习研究的挑战。参数高尔夫带来了广泛的技术强劲且富有创意的提交，它也让我们更清楚地看到，随着 AI 代理变得更强大和更广泛使用，开放式研究竞赛可能会如何变化。\n\n我们正在考虑未来举办更多这样的挑战。如果你感兴趣，请填写挑战参与者表格（在新窗口打开）。\n\n- 2026\n- 研究与开发\n\n## 作者\n\nOpenAI\n\n## 继续阅读\n\n查看全部\n\n![引入 OpenAI 隐私过滤器](https://images.ctfassets.net/kftzwdyauwt9/1QC19b0SnrQJTDqGRfze1s/e1eb7f76da62522b1bd0c9a6f553833d/ArtCard-Introducing-OpenAI-Filter.png?w=3840&q=90&fm=webp)\n\n引入 OpenAI 隐私过滤器\n\n研究2026年4月22日\n\n\n![OAI GPT-Rosaling 艺术卡片 1x1](https://images.ctfassets.net/kftzwdyauwt9/6DOv5mMIaI2sbsgdDbeiiY/d2d071aac3555468336b870cfeb9736e/OAI_GPT-Rosaling_Art_Card_1x1.png?w=3840&q=90&fm=webp)\n\n引入用于生命科学研究的 GPT-Rosalind\n\n研究2026年4月16日\n\n\n![模型规范 > 艺术卡片](https://images.ctfassets.net/kftzwdyauwt9/3ZlINT9EhkfY55coSIdBWq/64c9eaca9767f231ff2902685b4092ea/oai_model_spec_1x1.png?w=3840&q=90&fm=webp)\n\n深入我们的模型规范方法\n\n研究2026年3月25日",
+      "translator": {
+        "model": "Claude Sonnet 4.6",
+        "translatedAt": "2026-05-13T02:10:23.076Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-05-13"
+    },
+    {
+      "id": "hn:48116337",
+      "slug": "hn-48116337-xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48116337",
+      "publishedAt": "2026-05-13T00:21:37.000Z",
+      "titleEn": "xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit",
+      "titleZh": "xAI尽管面临诉讼仍新增19台燃气轮机",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "srameshc"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 11,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48115918",
+      "slug": "hn-48115918-ai-load-breaks-github-why-not-other-vendors",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.pragmaticengineer.com/the-pulse-ai-load-breaks-github/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48115918",
+      "publishedAt": "2026-05-12T23:27:53.000Z",
+      "titleEn": "AI load breaks GitHub – why not other vendors?",
+      "titleZh": "AI负载压垮GitHub——为何其他供应商不受影响？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "esafak"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48115848",
+      "slug": "hn-48115848-the-cost-of-doing-business-how-sfs-tax-structure-constrains-economic",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bayareaeconomy.org/files/pdf/CostofDoingBusiness_TaxStudy_May2026.pdf",
+      "commentUrl": "https://news.ycombinator.com/item?id=48115848",
+      "publishedAt": "2026-05-12T23:16:41.000Z",
+      "titleEn": "The Cost of Doing Business: How SF's Tax Structure Constrains Economic Growth [pdf]",
+      "titleZh": "经营成本：旧金山税收结构如何制约经济增长[pdf]",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "littlexsparkee"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "hn:48115772",
+      "slug": "hn-48115772-scientists-confirm-brain-eating-amoeba-is-widespread-yellowstone-gra",
+      "source": "Hacker News",
+      "sourceUrl": "https://cowboystatedaily.com/2026/05/12/scientists-confirm-brain-eating-amoeba-is-widespread-in-yellowstone-and-grand-teton/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48115772",
+      "publishedAt": "2026-05-12T23:08:26.000Z",
+      "titleEn": "Scientists Confirm 'Brain-Eating Amoeba' Is Widespread Yellowstone Grand Teton",
+      "titleZh": "科学家证实食脑变形虫在黄石-大提顿地区广泛分布",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Bender"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48112799",
+      "slug": "hn-48112799-ai-isnt-paying-off-in-the-way-companies-think-according-to-gartner-s",
+      "source": "Hacker News",
+      "sourceUrl": "https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48112799",
+      "publishedAt": "2026-05-12T19:00:49.000Z",
+      "titleEn": "AI isn't paying off in the way companies think according to Gartner study",
+      "titleZh": "Gartner研究显示AI收益与公司预期不符",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "1vuio0pswjnm7"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 6,
+      "tags": []
+    },
+    {
+      "id": "hn:48112042",
+      "slug": "hn-48112042-cert-is-releasing-six-cves-for-serious-security-vulnerabilities-in-d",
+      "source": "Hacker News",
+      "sourceUrl": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48112042",
+      "publishedAt": "2026-05-12T18:12:28.000Z",
+      "titleEn": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+      "titleZh": "CERT 发布了 dnsmasq 中严重安全漏洞的六个 CVE",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "chizhik-pyzhik"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 236,
+      "commentCount": 117,
+      "tags": []
+    },
+    {
+      "id": "hn:48111896",
+      "slug": "hn-48111896-show-hn-needle-we-distilled-gemini-tool-calling-into-a-26m-model",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/cactus-compute/needle",
+      "commentUrl": "https://news.ycombinator.com/item?id=48111896",
+      "publishedAt": "2026-05-12T18:03:11.000Z",
+      "titleEn": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "titleZh": "Show HN: Needle: 我们将 Gemini 工具调用提炼为一个 26M 模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "HenryNdubuaku"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 280,
+      "commentCount": 102,
+      "tags": []
+    },
+    {
+      "id": "hn:48111581",
+      "slug": "hn-48111581-reimagining-the-mouse-pointer-for-the-ai-era",
+      "source": "Hacker News",
+      "sourceUrl": "https://deepmind.google/blog/ai-pointer/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48111581",
+      "publishedAt": "2026-05-12T17:40:13.000Z",
+      "titleEn": "Reimagining the mouse pointer for the AI era",
+      "titleZh": "为 AI 时代重新构思鼠标指针",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "devhouse"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 138,
+      "commentCount": 116,
+      "tags": []
+    },
+    {
+      "id": "hn:48111527",
+      "slug": "hn-48111527-fairyfuse-multiplication-free-llm-inference-on-cpus-via-fused-ternar",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.20913",
+      "commentUrl": "https://news.ycombinator.com/item?id=48111527",
+      "publishedAt": "2026-05-12T17:35:51.000Z",
+      "titleEn": "FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels",
+      "titleZh": "FairyFuse：通过融合三元核在CPU上实现无乘法LLM推理",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "PaulHoule"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 14,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48111143",
+      "slug": "hn-48111143-show-hn-agentic-interface-for-mainframes-and-cobol",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.hypercubic.ai/hopper",
+      "commentUrl": "https://news.ycombinator.com/item?id=48111143",
+      "publishedAt": "2026-05-12T17:10:22.000Z",
+      "titleEn": "Show HN: Agentic interface for mainframes and COBOL",
+      "titleZh": "Show HN: 主机和 COBOL 的智能体界面",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "sai18"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 55,
+      "commentCount": 33,
+      "tags": []
+    },
+    {
+      "id": "hn:48110593",
+      "slug": "hn-48110593-show-hn-gigacatalyst-extend-your-saas-with-an-embedded-ai-builder",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48110593",
+      "commentUrl": "https://news.ycombinator.com/item?id=48110593",
+      "publishedAt": "2026-05-12T16:32:54.000Z",
+      "titleEn": "Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder",
+      "titleZh": "Show HN: Gigacatalyst – 通过嵌入式 AI 构建器扩展您的 SaaS",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "namanyayg"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 38,
+      "commentCount": 17,
+      "tags": []
+    },
+    {
+      "id": "hn:48109962",
+      "slug": "hn-48109962-launch-hn-voker-yc-s24-analytics-for-ai-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://voker.ai",
+      "commentUrl": "https://news.ycombinator.com/item?id=48109962",
+      "publishedAt": "2026-05-12T15:45:20.000Z",
+      "titleEn": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+      "titleZh": "Launch HN: Voker (YC S24) – AI 智能体分析平台",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ttpost"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 40,
+      "commentCount": 19,
+      "tags": []
+    },
+    {
+      "id": "hn:48109460",
+      "slug": "hn-48109460-why-senior-developers-fail-to-communicate-their-expertise",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+      "commentUrl": "https://news.ycombinator.com/item?id=48109460",
+      "publishedAt": "2026-05-12T15:08:40.000Z",
+      "titleEn": "Why senior developers fail to communicate their expertise",
+      "titleZh": "为什么高级开发者难以传达他们的专业知识",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nilirl"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 372,
+      "commentCount": 182,
+      "tags": []
+    },
+    {
+      "id": "hn:48108778",
+      "slug": "hn-48108778-show-hn-statewright-visual-state-machines-that-make-ai-agents-reliab",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/statewright/statewright",
+      "commentUrl": "https://news.ycombinator.com/item?id=48108778",
+      "publishedAt": "2026-05-12T14:24:55.000Z",
+      "titleEn": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "titleZh": "Show HN: Statewright – 让 AI 智能体可靠的视觉状态机",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "azurewraith"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 74,
+      "commentCount": 24,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416597-html",
+      "slug": "ilya-70-openai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416597.html",
+      "publishedAt": "2026-05-12T13:55:01.000Z",
+      "titleEn": "原来Ilya还有70亿美元OpenAI股权",
+      "titleZh": "原来Ilya还有70亿美元OpenAI股权",
+      "abstractEn": "世纪庭审实锤OpenAI「造富神话」",
+      "abstractZh": "世纪庭审实锤OpenAI造富神话",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-jwmxsiswmnl3wmju-html",
+      "slug": "openai-cto",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/jwMxsiSwMNl3Wmju.html",
+      "publishedAt": "2026-05-12T13:06:00.000Z",
+      "titleEn": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了",
+      "titleZh": "OpenAI 前 CTO 的创业模型首秀，与面壁智能「撞车」了",
+      "abstractEn": "今天，大模型圈再次被点燃，这一次的火花来自前 OpenAI 应用研究负责人翁荔（Lilian Weng）。她创立的Thinking Machines Lab（TML）首次公布的技术愿景，直指人机交互的终极形态——一个能与人类进行「全双工」（Full-Duplex）实时对话的 AI 模型。 \n然而，当 TML 那支展示着无缝、主动交互能力的 Demo 视频在网络上流传时，许多 AI 领域的从业者却产生了一种强烈的「既视感」——因为 TML 描绘的那个未来，早在三个月前，就已被中国公司「面壁智能」的 MiniCPM-o 4.5 以开源的形式，带到了现实。\n先看「边看边听边说」的全模态实时交互效果——\n这是 MiniCPM-o 4.5 的效果，模型可以实时观察周围并对环境进行描述输出，主动反应表现一流：\n这是 TML 时隔 3 个月后发布的模型效果：\n这不仅是一次简单的「撞车」，更像是一场跨越太",
+      "abstractZh": "今天，大模型圈再次被点燃，这一次的火花来自前 OpenAI 应用研究负责人翁荔。她创立的Thinking Machines Lab（TML）首次公布的技术愿景，直指人机交互的终极形态——一个能与人类进行「全双工」实时对话的 AI 模型。然而，当 TML 那支展示着无缝、主动交互能力的 Demo 视频在网络上流传时，许多 AI 领域的从业者却产生了一种强烈的「既视感」——因为 TML 描绘的那个未来，早在三个月前，就已被中国公司「面壁智能」的 MiniCPM-o 4.5 以开源的形式，带到了现实。先看「边看边听边说」的全模态实时交互效果——这是 MiniCPM-o 4.5 的效果，模型可以实时观察周围并对环境进行描述输出，主动反应表现",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-saxkkvxhtp7fqeq9-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/SaxKkVxHTp7fQEq9.html",
+      "publishedAt": "2026-05-12T10:57:00.000Z",
+      "titleEn": "乐橙×火山引擎：给安防注入AI能力，让监控从“被动记录”进化为“主动思考”",
+      "titleZh": "乐橙×火山引擎：给安防注入AI能力，让监控从「被动记录」进化为「主动思考」",
+      "abstractEn": "家中监控不停推送“有人移动”“有车经过”等重复提醒，用户被海量无效信息淹没，真正关键的事件却容易被忽略；想回看某个片段只能手动逐条翻找，耗时耗力……\n传统安防正从“被动记录”走向“主动感知”，用户对智能监控的需求早已不满足于“看得见”，更要求“看得懂、判得准、反应快”。\n\n在此背景下，作为全球民用智慧物联网领先企业的乐橙，不断思考如何提升其产品体系的服务能力。\n2025年，乐橙与火山引擎达成深度合作，双方围绕豆包大模型、云服务、边缘计算、数据产品等展开智能家居全场景的升级探索，结合火山引擎和豆包大模型开发乐橙AI智见大模型服务，旨在解决当前家庭安防场景中“信息过载、关键事件难捕捉、重复提醒”等用户痛点。\n通过多模态感知与语义理解技术，赋予智能设备真正的场景认知与事件提炼能力，实现录像及事件的智能筛选，同时支持自然语言搜索，做到消息通知准确、录像查看便捷。\n贴心看护，让监控成为更懂用户的“管",
+      "abstractZh": "家中监控不停推送「有人移动」「有车经过」等重复提醒，用户被海量无效信息淹没，真正关键的事件却容易被忽略；想回看某个片段只能手动逐条翻找，耗时耗力……传统安防正从「被动记录」走向「主动感知」，用户对智能监控的需求早已不满足于「看得见」，更要求「看得懂、判得准、反应快」。在此背景下，作为全球民用智慧物联网领先企业的乐橙，不断思考如何提升其产品体系的服务能力。2025年，乐橙与火山引擎达成深度合作，双方围绕豆包大模型、云服务、边缘计算、数据产品等展开智能家居全场景的升级探索，结合火山引擎和豆包大模型开发乐橙AI智见大模型服务，旨在解决当前家庭安防场景中「信息过载、关键事件难捕捉、重复提醒」等用户痛点。通过多模态感知与语义理解技术，赋予智能设备真正的场景认知与事件提炼能力，实现录像及事件的",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-i0s6e3pbvdhtjdhl-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/i0S6E3PbvdhtjDhl.html",
+      "publishedAt": "2026-05-12T10:37:00.000Z",
+      "titleEn": "普罗宇宙机器人全球合作伙伴大会启幕，正式发布全域共生生态战略",
+      "titleZh": "普罗宇宙机器人全球合作伙伴大会启幕，正式发布全域共生生态战略",
+      "abstractEn": "2026年5月12日，以“普罗精工 寰宇共生”为主题的普罗宇宙机器人全球合作伙伴大会隆重举办。会上，普罗宇宙机器人重磅发布全球首创高精度融合数采解决方案AcCI、大白机器人智能上下料模组，并正式推出全域共生生态战略，面向全球开启生态伙伴招募，携手共建万亿级工业具身智能产业新生态。来自全球学术研究、渠道集成、智能制造等领域的数百位嘉宾齐聚一堂，共同见证普罗宇宙机器人的技术突破、产品矩阵升级与全球化落地成果。\n\n普罗宇宙机器人全球合作伙伴大会活动现场\n\n\n硬核新品矩阵亮相，以全栈式布局破解工业柔性智造痛点\n普罗宇宙成立16个月以来，凭借对工业场景的极致理解，快速迭代产品，形成了“1+N+♾”战略布局。普罗宇宙机器人总裁葛巾介绍，1是指1个具身大脑、N代表多款全场景产品，♾无穷则代表无限生态与全球化布局的发展方向。\n\n普罗宇宙机器人总裁葛巾发表演讲\n本次大会上，普罗宇宙机器人集中发布全球首创高精",
+      "abstractZh": "2026年5月12日，以「普罗精工 寰宇共生」为主题的普罗宇宙机器人全球合作伙伴大会隆重举办。会上，普罗宇宙机器人重磅发布全球首创高精度融合数采解决方案AcCI、大白机器人智能上下料模组，并正式推出全域共生生态战略，面向全球开启生态伙伴招募，携手共建万亿级工业具身智能产业新生态。来自全球学术研究、渠道集成、智能制造等领域的数百位嘉宾齐聚一堂，共同见证普罗宇宙机器人的技术突破、产品矩阵升级与全球化落地成果。普罗宇宙机器人全球合作伙伴大会活动现场。硬核新品矩阵亮相，以全栈式布局破解工业柔性智造痛点。普罗宇宙成立16个月以来，凭借对工业场景的极致理解，快速迭代产品，形成了「1+N+♾」战略布局。普罗宇宙机器人总裁葛巾介绍，1是指1个具身大脑、N代表多款全场景产品，♾无穷则代表无限生态与全球",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416590-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416590.html",
+      "publishedAt": "2026-05-12T10:14:04.000Z",
+      "titleEn": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
+      "titleZh": "商汤善惠烧卖购机器人小店上海开业，让机器人真正落地线下零售",
+      "abstractEn": "打造“一人多面”的具身智能便利店",
+      "abstractZh": "打造一人多面的具身智能便利店",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416582-html",
+      "slug": "360-openclaw-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416582.html",
+      "publishedAt": "2026-05-12T09:35:29.000Z",
+      "titleEn": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "titleZh": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "abstractEn": "累计发现23个独立安全漏洞",
+      "abstractZh": "累计发现23个独立安全漏洞",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-vnzuxhojsa0ewtug-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/vNZuXhOJsA0EWTuG.html",
+      "publishedAt": "2026-05-12T08:28:00.000Z",
+      "titleEn": "对话简智朱雁鸣：不卷模型卷基建，具身智能核心是读懂人的数据",
+      "titleZh": "对话简智朱雁鸣：不卷模型卷基建，具身智能核心是读懂人的数据",
+      "abstractEn": "「自动化」是具身数据行业的第一竞争力。\n\n\n    作者丨高景辉\n\n    编辑丨马晓宁\n\n                                                                                                       \n\n\n2026年的具身智能赛道，热闹非凡。各家机器人厂商都在秀Demo、拼算力，试图用海量数据教会机器人叠衣服、冲咖啡。但一个尴尬的现实是：我们似乎从未真正教会机器人“看懂”这个世界。\n绝大多数机器人仍在模仿人类动作的表层轨迹，却不理解为什么拧不开瓶盖时要先擦擦手。这种认知缺失，像极了自动驾驶早期依赖高精地图的窘境——能应付固定场景，却处理不了充满不确定性的真实生活。\n而阻碍具身智能真正进入生活的瓶颈，是数据。没有足够好用的数据，机器人就无法学习和训练，从而无法理解真实的世界。\n于是，在行业集体陷",
+      "abstractZh": "「自动化」是具身数据行业的第一竞争力。2026年的具身智能赛道，热闹非凡。各家机器人厂商都在秀Demo、拼算力，试图用海量数据教会机器人叠衣服、冲咖啡。但一个尴尬的现实是：我们似乎从未真正教会机器人「看懂」这个世界。绝大多数机器人仍在模仿人类动作的表层轨迹，却不理解为什么拧不开瓶盖时要先擦擦手。这种认知缺失，像极了自动驾驶早期依赖高精地图的窘境——能应付固定场景，却处理不了充满不确定性的真实生活。而阻碍具身智能真正进入生活的瓶",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416540-html",
+      "slug": "ai-20",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416540.html",
+      "publishedAt": "2026-05-12T08:03:52.000Z",
+      "titleEn": "AI第一金主黄仁勋：日均花掉20亿",
+      "titleZh": "AI第一金主黄仁勋：日均花掉20亿",
+      "abstractEn": "“AI御三家”都投了",
+      "abstractZh": "「AI御三家」都投了",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-hjikqc8qsrrbslil-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/HjikQc8qSRrbSlIL.html",
+      "publishedAt": "2026-05-12T07:48:00.000Z",
+      "titleEn": "从「座上宾」到「主战场」：具身智能如何完成对计算机视觉的「范式夺权」？| CVPR 2026",
+      "titleZh": "从「座上宾」到「主战场」：具身智能如何完成对计算机视觉的「范式夺权」？| CVPR 2026",
+      "abstractEn": "当机器从识别图像走向介入现实，视觉研究的边界也被重新划定。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n如果您漫步在 CVPR 2026 的会场，会产生一种强烈的错觉：自己是不是跑错了场馆，误入了 ICRA 或者 IROS 的现场？满屏的机械臂抓取、足式机器人的越野导航、以及在虚拟沙盒中进行千亿次迭代的物理模拟。\n具身智能（Embodied AI）已经不再是视觉领域的一个“边缘分支”，而是以一种占据主舞台的姿态，成为视觉顶会最难被忽视的叙事之一。\n这种范式的易位，让人们不禁回想起 2017 年机器人学界的顶级盛会 IROS。当时，机器人专家们打破了固守多",
+      "abstractZh": "当机器从识别图像走向介入现实，视觉研究的边界也被重新划定。如果您漫步在 CVPR 2026 的会场，会产生一种强烈的错觉：自己是不是跑错了场馆，误入了 ICRA 或者 IROS 的现场？满屏的机械臂抓取、足式机器人的越野导航、以及在虚拟沙盒中进行千亿次迭代的物理模拟。具身智能已经不再是视觉领域的一个「边缘分支」，而是以一种占据主舞台的姿态，成为视觉顶会最难被忽视的叙事之一。这种范式",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-5gfzilpqebo3okjm-html",
+      "slug": "rgb-3d-cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/5gfzILpQeBo3Okjm.html",
+      "publishedAt": "2026-05-12T07:43:00.000Z",
+      "titleEn": "港科广陈昶昊团队：只用一张 RGB 图像，让机器读懂室内 3D 空间丨CVPR 2026",
+      "titleZh": "港科广陈昶昊团队：只用一张 RGB 图像，让机器读懂室内 3D 空间丨CVPR 2026",
+      "abstractEn": "LegoOcc：无需语义体素标注，也能识别开放类别。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n真正的室内空间智能，并不只是让机器认出画面里有一张桌子，而是让它理解真实三维物理空间内：哪里可以通行、哪里存在遮挡、哪些物体能够交互。\n对于未来的家庭机器人和护理机器人来说，理解一个房间并不只是完成图像分类。它意味着，机器人能够根据一句自然语言找到玄关柜旁的雨伞，能够在夜间识别走廊中的充电线是否可能绊倒老人，也能够在厨房中理解台面、水杯与边缘之间的空间关系，并在陌生环境中快速建立可行动的三维空间认知。\n但室内环境，恰恰是 3D 感知最难落地的场景之一。相",
+      "abstractZh": "LegoOcc：无需语义体素标注，也能识别开放类别。真正的室内空间智能，并不只是让机器认出画面里有一张桌子，而是让它理解真实三维物理空间内：哪里可以通行、哪里存在遮挡、哪些物体能够交互。对于未来的家庭机器人和护理机器人来说，理解一个房间并不只是完成图像分类。它意味着，机器人能够根据一句自然语言找到玄关柜旁的雨伞，能够在夜间识别走廊中的充电线是否可能绊倒老人，也能够在厨房中理解台面、水杯与边缘之间的空间关系",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-agzr3upqbugk1dv2-html",
+      "slug": "cvpr-2026-3d",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/AgZr3UPqBUgK1Dv2.html",
+      "publishedAt": "2026-05-12T07:41:00.000Z",
+      "titleEn": "CVPR 2026 3D 视觉前沿梳理：模型正在学会理解、生成和构建世界",
+      "titleZh": "CVPR 2026 3D 视觉前沿梳理：模型正在学会理解、生成和构建世界",
+      "abstractEn": "3D 视觉正从重建生成，走向空间理解、动态模拟与工程化应用。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n如果说过去几年的视觉 AI 主要是在回答“模型能不能看懂一张图”，那么到 CVPR 2026，一个更清晰的趋势正在浮现：模型正在被要求理解图像背后的三维世界。\n二维图像只是现实世界在某个视角下的投影，真正困难的地方不在于生成一张看起来合理的画面，而在于模型能否理解物体的空间结构、相机运动、材质光照、物理变化，以及这些信息在不同视角和不同时间中的一致性。\n从今年的一系列 3D 视觉相关工作可以看到，研究重点正在从“生成结果是否好看”，转向“生成过程",
+      "abstractZh": "3D 视觉正从重建生成，走向空间理解、动态模拟与工程化应用。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n如果说过去几年的视觉 AI 主要是在回答'模型能不能看懂一张图'，那么到 CVPR 2026，一个更清晰的趋势正在浮现：模型正在被要求理解图像背后的三维世界。\n二维图像只是现实世界在某个视角下的投影，真正困难的地方不在于生成一张看起来合理的画面，而在于模型能否理解物体的空间结构、相机运动、材质光照、物理变化，以及这些信息在不同视角和不同时间中的一致",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-vzm3rt1qhzaltw22-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/VZm3rt1QhzalTW22.html",
+      "publishedAt": "2026-05-12T06:31:00.000Z",
+      "titleEn": "马斯克爆出「权力暗桩」，奥特曼进入反击时刻？",
+      "titleZh": "马斯克爆出「权力暗桩」，奥特曼进入反击时刻？",
+      "abstractEn": "5月，随马斯克诉 OpenAI 一案进入第二周，案件焦点逐渐从马斯克本人转向 OpenAI 的内部治理结构及董事会相关证言。\n更多的证据被呈现出来：比如2017年马斯克试图将OpenAI吞并入Tesla的\"打包方案\"，Brockman日记记录谈判破裂后马斯克\"撕画摔门\"的细节，Karpathy被秘密挖角等。\n5月6日，Oakland联邦法庭上出现了一个更特殊的身影，Shivon Zilis。她是马斯克四个孩子的母亲，也是OpenAI的前董事会成员。\n\n2026年5月6日，OpenAI公司前董事会成员Shivon Zilis离开位于加利福尼亚州奥克兰的联邦法院。\n她站上证人席，揭开了一个连法官都为之侧目的事实：她是马斯克在OpenAI内部的\"联络人\"，负责定期向马斯克汇报公司动态，包括奥特曼的邮件、董事会的决策，以及那些本不该被外人知晓的机密信息。\n通过这些证据拼图，案件的核心叙事逐渐清晰，",
+      "abstractZh": "5月，随马斯克诉 OpenAI 一案进入第二周，案件焦点逐渐从马斯克本人转向 OpenAI 的内部治理结构及董事会相关证言。\n更多的证据被呈现出来：比如2017年马斯克试图将OpenAI吞并入Tesla的'打包方案'，Brockman日记记录谈判破裂后马斯克'撕画摔门'的细节，Karpathy被秘密挖角等。\n5月6日，Oakland联邦法庭上出现了一个更特殊的身影，Shivon Zilis。她是马斯克四个孩子的母亲，也是OpenAI的前董事会成员。\n\n2026年5月6日，OpenAI公司前董事会成员Shivon Zilis离开位于加利福尼亚州奥克兰的联邦法院。\n她站上证人席，揭开了一个连法官都为之侧目的事实：她是马斯克在OpenAI内部的'联络人'，负责定期向马斯克汇报公司动态，包括奥特曼的",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-dig98w2kaekfq5xp-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/dIG98W2KaEKFQ5Xp.html",
+      "publishedAt": "2026-05-12T06:26:00.000Z",
+      "titleEn": "何恺明团队论文全景扫描：一场关于「生成范式」的多角度突破 | CVPR 2026",
+      "titleZh": "何恺明团队论文全景扫描：一场关于「生成范式」的多角度突破 | CVPR 2026",
+      "abstractEn": "2025 年到 2026 年，如果要问生成式 AI 领域最值得关注的研究方向，流匹配（Flow Matching） 是一个无法绕开的答案。\n从去年起，这个名字开始频繁出现在顶会论文里、被工业界反复讨论、被拿来和统治了图像生成领域长达五年的扩散模型正面比较。\n所谓流匹配，本质上是用常微分方程路径（ODE path）替代扩散模型的随机微分方程路径，让数据从噪声到图像的转变不再依赖数百步迭代，从而在理论上实现更高效的生成。但从理论可行到工程落地，中间隔着无数技术细节——训练目标怎么设计、架构怎么选、速度和质量如何兼顾，每一步都是坑。\n何恺明团队正是在这个节点上，密集地交出了一份多角度的答卷。\nAI科技评论总结了何恺明团队近期在CVPR大会上发表上的论文： 2025 年 5 月，他们提出了均值流（MeanFlow），首次将\"均值速度场\"引入生成建模；同年年底，BiFlow 在归一化流框架上实现了 ",
+      "abstractZh": "2025 年到 2026 年，如果要问生成式 AI 领域最值得关注的研究方向，流匹配 是一个无法绕开的答案。\n从去年起，这个名字开始频繁出现在顶会论文里、被工业界反复讨论、被拿来和统治了图像生成领域长达五年的扩散模型正面比较。\n所谓流匹配，本质上是用常微分方程路径替代扩散模型的随机微分方程路径，让数据从噪声到图像的转变不再依赖数百步迭代，从而在理论上实现更高效的生成。但从理论可行到工程落地，中间隔着无数技术细节——训练目标怎么设计、架构怎么选、速度和质量如何兼顾，每一步都是坑。\n何恺明团队正是在这个节点上，密集地交出了一份多角度的答卷。\nAI科技评论总结了何恺明团队近期在CVPR大会上发表上的论文： 2025 年 5 月，他们提出了均值流（M",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416056-html",
+      "slug": "200-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416056.html",
+      "publishedAt": "2026-05-12T06:06:38.000Z",
+      "titleEn": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "titleZh": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "abstractEn": "快手，可能要亲手拆出第二家“快手”了。",
+      "abstractZh": "快手，可能要亲手拆出第二家「快手」了。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-416034-html",
+      "slug": "openclaw",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/416034.html",
+      "publishedAt": "2026-05-12T04:02:50.000Z",
+      "titleEn": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "titleZh": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "abstractEn": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "abstractZh": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-rt4gl5nscqjunf8o-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/rT4Gl5nSCqJunF8o.html",
+      "publishedAt": "2026-05-12T03:20:00.000Z",
+      "titleEn": "谁来解决大模型的“最后一公里”工程难题？",
+      "titleZh": "谁来解决大模型的'最后一公里'工程难题？",
+      "abstractEn": "2026年的AI行业正陷入一种集体焦虑——DeepSeek、Kimi、Qwen……当一家企业的技术栈里躺着五到十个不同厂商的API密钥时，“多模接入”从战略优势变成了工程噩梦。协议不统一、计费黑盒化、故障切换靠人工、敏感数据在各部门的代码里裸奔——这些藏在模型能力之下的“隐性成本”，正在吃掉企业的AI预算。\n大模型产业的天平正在倾斜：上半场的赢家是参数规模最大的那个，下半场的赢家则可能是让模型真正“好用”的基础设施。\nThinkFlow登场：给大模型时代造一个“智能调度层”\n记者获悉，网易有道智云近日正式发布企业级大模型聚合平台ThinkFlow。它负责解决一个被长期忽视的关键问题：当企业面对碎片化的大模型供给时，如何让Token的生产、分发、计费与效率优化变得像云计算一样标准化。\n简单来说，ThinkFlow试图成为AI时代的“模型调度平台”。\n\n【图为ThinkFlow官网截图】\n通过",
+      "abstractZh": "2026年的AI行业正陷入一种集体焦虑——DeepSeek、Kimi、Qwen……当一家企业的技术栈里躺着五到十个不同厂商的API密钥时，'多模接入'从战略优势变成了工程噩梦。协议不统一、计费黑盒化、故障切换靠人工、敏感数据在各部门的代码里裸奔——这些藏在模型能力之下的'隐性成本'，正在吃掉企业的AI预算。\n大模型产业的天平正在倾斜：上半场的赢家是参数规模最大的那个，下半场的赢家则可能是让模型真正'好用'的基础设施。\nThinkFlow登场：给大模型时代造一个'智能调度层'\n记者获悉，网易有道智云近日正式发布企业级大模型聚合平台ThinkFlow。它负责解决一个被长期忽视的关键问题：当企业面对碎片化的大模型供给时，如何让Token的生产、分发、计费与效率优化变得像云计算一样标准化。\n简单来说",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-qznsjhpqoov0w2hx-html",
+      "slug": "2036-10-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/qzNsjHpqOoV0W2HX.html",
+      "publishedAt": "2026-05-12T02:27:00.000Z",
+      "titleEn": "愿景2036丨一场关于未来10年AI技术主权争夺战，追觅打了头阵",
+      "titleZh": "愿景2036丨一场关于未来10年AI技术主权争夺战，追觅打了头阵",
+      "abstractEn": "2026年的春天，硅谷的空气里弥漫着未来的气息。\n美国时间4月28日，追觅科技在这里呈现了一个覆盖起居、烹饪、清洁、护理乃至庭院的庞大智能产品矩阵。\n能感知用户、定向送风的空调，能管理全家营养健康的冰箱，能自主完成全流程的洗衣机器人，以及更聪明的割草机、泳池机器人……这些产品共同指向一个明确的信号：AI正在深入硬件的骨髓，重写每一个家电品类的定义。\n行业喧嚣，人人皆言“重做一遍”。\n然而，口号背后，一个更现实的问题浮现：谁有能力定义这场“重写”的标准与方向？或者说，在即将到来的新牌局中，谁具备坐上“主桌”、参与制定核心规则的资格？\n追觅的硅谷展示，可被视为对这一问题的一次系统性回应。其回应的重点在于展示了一套完整且可自证的能力体系：一套能够跨品类迁移与进化的核心技术，一套将技术精准转化为用户价值的创新方法论，以及一个旨在打破单品孤岛、构建场景智能的生态蓝图。\n这套组合拳，构成了其角逐行业话",
+      "abstractZh": "2026年的春天，硅谷的空气里弥漫着未来的气息。\n美国时间4月28日，追觅科技在这里呈现了一个覆盖起居、烹饪、清洁、护理乃至庭院的庞大智能产品矩阵。\n能感知用户、定向送风的空调，能管理全家营养健康的冰箱，能自主完成全流程的洗衣机器人，以及更聪明的割草机、泳池机器人……这些产品共同指向一个明确的信号：AI正在深入硬件的骨髓，重写每一个家电品类的定义。\n行业喧嚣，人人皆言'重做一遍'。\n然而，口号背后，一个更现实的问题浮现：谁有能力定义这场'重写'的标准与方向？或者说，在即将到来的新牌局中，谁具备坐上'主桌'、参与制定核心规则的资格？\n追觅的硅谷展示，可被视为对这一问题的一次系统性回应。其回应的重点在于展示了一套完整且可自证的能力体系：一套能够跨品类迁移与进化的核心技术，一套将技术精准转化为用户",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chips-67z7qfkv6tdqjtxz-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chips/67Z7qfkV6TdqJtxz.html",
+      "publishedAt": "2026-05-12T02:25:00.000Z",
+      "titleEn": "存储现货部分「闪崩」最全详解：该离场，还是该囤货？",
+      "titleZh": "存储现货部分「闪崩」最全详解：该离场，还是该囤货？",
+      "abstractEn": "过去一年存储行业迎来历史性的上涨大周期。\n根据TrendForce今年2月发布的报告，2026年第一季度传统DRAM合约价比2025年第四季度涨了90%到95%；2026年第一季度NAND Flash合约价比前一个季度涨了55%到60%。\n然而3月下旬开始，市场突然变脸，DRAM现货市场出现了恐慌性抛售，DDR4、DDR5内存条现货价格一下子跌了不少，有数据显示主流32GB DDR5套装价格从3月中旬的2999元左右降至2200元附近，单月跌幅接近27%。\n现货市场的下跌，也让无数从业者和投资者困惑，市场真实的供需到底紧不紧张？既然 AI 算力需求这么大，为什么传统内存还会遭遇现货闪崩？存储股的上涨逻辑还在吗？\n为此，雷峰网邀请了两位身处存储产业链一线的嘉宾，从渠道、客户、系统厂商的多重视角，共同拆解这轮存储周期背后的真相和未来走向。\n郭照斌：中科曙光北京公司副总裁、正高级技术专家，拥有1",
+      "abstractZh": "过去一年存储行业迎来历史性的上涨大周期。\n根据TrendForce今年2月发布的报告，2026年第一季度传统DRAM合约价比2025年第四季度涨了90%到95%；2026年第一季度NAND Flash合约价比前一个季度涨了55%到60%。\n然而3月下旬开始，市场突然变脸，DRAM现货市场出现了恐慌性抛售，DDR4、DDR5内存条现货价格一下子跌了不少，有数据显示主流32GB DDR5套装价格从3月中旬的2999元左右降至2200元附近，单月跌幅接近27%。\n现货市场的下跌，也让无数从业者和投资者困惑，市场真实的供需到底紧不紧张？既然 AI 算力需求这么大，为什么传统内存还会遭遇现货闪崩？存储股的上涨逻辑还在吗？\n为此，雷峰网邀请了两位身处存储产业链一线的嘉宾，从渠道、客户、系统厂商的多重视角",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48103042",
+      "slug": "hn-48103042-claude-platform-on-aws",
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/claude-platform-on-aws",
+      "commentUrl": "https://news.ycombinator.com/item?id=48103042",
+      "publishedAt": "2026-05-12T01:24:29.000Z",
+      "titleEn": "Claude Platform on AWS",
+      "titleZh": "AWS 上的 Claude 平台",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "matrixhelix"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 221,
+      "commentCount": 89,
+      "tags": []
+    },
+    {
+      "id": "hn:48100868",
+      "slug": "hn-48100868-through-the-looking-glass-of-benchmark-hacking",
+      "source": "Hacker News",
+      "sourceUrl": "https://poolside.ai/blog/through-the-looking-glass",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100868",
+      "publishedAt": "2026-05-11T21:24:36.000Z",
+      "titleEn": "Through the looking glass of benchmark hacking",
+      "titleZh": "透过基准测试黑客的镜子",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jxmorris12"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 31,
+      "commentCount": 14,
+      "tags": []
+    },
+    {
+      "id": "hn:48100364",
+      "slug": "hn-48100364-foucaults-order-of-things-explained-with-trading-cards-video",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.youtube.com/watch?v=1TbHYjGvS68",
+      "commentUrl": "https://news.ycombinator.com/item?id=48100364",
+      "publishedAt": "2026-05-11T20:38:40.000Z",
+      "titleEn": "Foucault's Order of Things Explained with Trading Cards [video]",
+      "titleZh": "用交易卡解释福柯的《词与物》[视频]",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "surprisetalk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 19,
+      "commentCount": 7,
+      "tags": []
+    }
+  ]
+}
