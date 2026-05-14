@@ -1,5 +1,779 @@
 [
   {
+    "id": "hn:48129561",
+    "slug": "hn-48129561-the-other-half-of-ai-safety",
+    "source": "Hacker News",
+    "sourceUrl": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+    "commentUrl": "https://news.ycombinator.com/item?id=48129561",
+    "publishedAt": "2026-05-14T00:27:20.000Z",
+    "titleEn": "The Other Half of AI Safety",
+    "titleZh": "AI 安全的另一半",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "sofiaqt"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 41,
+    "commentCount": 50,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48128003",
+    "slug": "hn-48128003-tell-hn-dont-use-claude-design-lost-access-to-my-projects-after-unsu",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48128003",
+    "commentUrl": "https://news.ycombinator.com/item?id=48128003",
+    "publishedAt": "2026-05-13T21:40:18.000Z",
+    "titleEn": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+    "titleZh": "告诉 HN：不要使用 Claude Design，取消订阅后失去项目访问权",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pycassa"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 169,
+    "commentCount": 60,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48127815",
+    "slug": "hn-48127815-medicares-new-payment-model-is-built-for-ai-most-of-the-tech-world-h",
+    "source": "Hacker News",
+    "sourceUrl": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48127815",
+    "publishedAt": "2026-05-13T21:24:14.000Z",
+    "titleEn": "Medicare's new payment model is built for AI. Most of the tech world has no idea",
+    "titleZh": "Medicare 的新支付模式是为 AI 设计的，大多数科技界人士并不知情",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "brandonb"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 56,
+    "commentCount": 33,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48127297",
+    "slug": "hn-48127297-apple-is-quietly-building-the-most-profitable-ai-toll-booth",
+    "source": "Hacker News",
+    "sourceUrl": "https://seekingalpha.com/article/4902208-apple-quietly-building-most-profitable-ai-toll-booth",
+    "commentUrl": "https://news.ycombinator.com/item?id=48127297",
+    "publishedAt": "2026-05-13T20:44:12.000Z",
+    "titleEn": "Apple Is Quietly Building the Most Profitable AI Toll Booth",
+    "titleZh": "苹果正在悄悄打造最赚钱的 AI 收费站",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ndr42"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 17,
+    "commentCount": 3,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126981",
+    "slug": "hn-48126981-meta-wont-let-you-block-its-ai-account-on-threads",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126981",
+    "publishedAt": "2026-05-13T20:22:21.000Z",
+    "titleEn": "Meta won't let you block its AI account on Threads",
+    "titleZh": "Meta 不允许你在 Threads 上屏蔽其 AI 账号",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "logickkk1"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 111,
+    "commentCount": 45,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126848",
+    "slug": "hn-48126848-princeton-mandates-proctoring-for-in-person-exams-upending-133-year",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126848",
+    "publishedAt": "2026-05-13T20:12:16.000Z",
+    "titleEn": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
+    "titleZh": "普林斯顿强制要求线下考试监考，打破133年传统",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "bookofjoe"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 248,
+    "commentCount": 358,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126675",
+    "slug": "hn-48126675-rars-a-rust-rar-implementation-mostly-written-by-llms",
+    "source": "Hacker News",
+    "sourceUrl": "https://bitplane.net/log/2026/05/rars/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126675",
+    "publishedAt": "2026-05-13T19:59:35.000Z",
+    "titleEn": "Rars: a Rust RAR implementation, mostly written by LLMs",
+    "titleZh": "Rars：一个主要由大语言模型编写的 Rust RAR 实现",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "davidsong"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 79,
+    "commentCount": 67,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126438",
+    "slug": "hn-48126438-new-claude-code-programmatic-usage-restrictions",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/i/status/2054610152817619388",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126438",
+    "publishedAt": "2026-05-13T19:38:39.000Z",
+    "titleEn": "New Claude Code programmatic usage restrictions",
+    "titleZh": "Claude Code 新增程序化使用限制",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "martinald"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 40,
+    "commentCount": 26,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126281",
+    "slug": "hn-48126281-claude-subscription-changes-coverage-of-claude-p",
+    "source": "Hacker News",
+    "sourceUrl": "https://x.com/i/trending/2054617957440143639",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126281",
+    "publishedAt": "2026-05-13T19:25:58.000Z",
+    "titleEn": "Claude subscription changes coverage of `claude -p`",
+    "titleZh": "Claude 订阅变更涵盖 claude -p",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ramoz"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 35,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126156",
+    "slug": "hn-48126156-making-the-news-available-at-no-cost-is-a-victory",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126156",
+    "publishedAt": "2026-05-13T19:14:47.000Z",
+    "titleEn": "Making the news available at no cost is a victory",
+    "titleZh": "让新闻免费获取是一种胜利",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "danso"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 110,
+    "commentCount": 112,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126112",
+    "slug": "hn-48126112-continual-harness-online-adaptation-for-self-improving-foundation-ag",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2605.09998",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126112",
+    "publishedAt": "2026-05-13T19:11:10.000Z",
+    "titleEn": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+    "titleZh": "Continual Harness：自我改进基础智能体的在线适应",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "milkkarten"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48126000",
+    "slug": "hn-48126000-not-medically-necessary-helping-americas-health-insurers-deny-covera",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+    "commentUrl": "https://news.ycombinator.com/item?id=48126000",
+    "publishedAt": "2026-05-13T19:01:54.000Z",
+    "titleEn": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+    "titleZh": "非医疗必需：帮助美国健康保险公司拒绝赔付",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ceejayoz"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 178,
+    "commentCount": 169,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48124840",
+    "slug": "hn-48124840-data-centers-cutting-power-to-homes-driving-homeowners-to-solar-and",
+    "source": "Hacker News",
+    "sourceUrl": "https://electrek.co/2026/05/13/data-centers-grid-strain-driving-residential-solar-battery-demand/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48124840",
+    "publishedAt": "2026-05-13T17:26:02.000Z",
+    "titleEn": "Data centers cutting power to homes, driving homeowners to solar and batteries",
+    "titleZh": "数据中心切断居民供电，促使房主转向太阳能和电池",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dotcoma"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 3,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48124002",
+    "slug": "hn-48124002-haiku",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.haiku-os.org",
+    "commentUrl": "https://news.ycombinator.com/item?id=48124002",
+    "publishedAt": "2026-05-13T16:22:10.000Z",
+    "titleEn": "Haiku",
+    "titleZh": "Haiku",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "tosh"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 159,
+    "commentCount": 81,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-417447-html",
+    "slug": "aigc",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/417447.html",
+    "publishedAt": "2026-05-13T15:54:59.000Z",
+    "titleEn": "倒计时一周，AIGC峰会嘉宾又上新了！一起来看第三波嘉宾",
+    "titleZh": "倒计时一周，AIGC 峰会嘉宾又上新了！一起来看第三波嘉宾",
+    "abstractEn": "5月20日，马上AI起来！",
+    "abstractZh": "5月20日，马上 AI 起来！",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48122635",
+    "slug": "hn-48122635-setting-up-a-free-city-state-us-locality-domain-2025",
+    "source": "Hacker News",
+    "sourceUrl": "https://fredchan.org/blog/locality-domains-guide/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48122635",
+    "publishedAt": "2026-05-13T14:45:18.000Z",
+    "titleEn": "Setting up a free *.city.state.us locality domain (2025)",
+    "titleZh": "设置免费的 *.city.state.us 本地域名（2025）",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "speckx"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 491,
+    "commentCount": 156,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-417366-html",
+    "slug": "8-idea-3-0-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/417366.html",
+    "publishedAt": "2026-05-13T14:04:42.000Z",
+    "titleEn": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
+    "titleZh": "8 岁小学生的想法直接变成应用，秒哒 3.0 刚刚把 AI 应用门槛打没了",
+    "abstractEn": "甚至可以直接在手机上做APP",
+    "abstractZh": "甚至可以直接在手机上做 APP",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48121929",
+    "slug": "hn-48121929-the-us-is-winning-the-ai-race-where-it-matters-most-commercializatio",
+    "source": "Hacker News",
+    "sourceUrl": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48121929",
+    "publishedAt": "2026-05-13T13:53:53.000Z",
+    "titleEn": "The US is winning the AI race where it matters most: commercialization",
+    "titleZh": "美国在 AI 竞争最重要的领域获胜：商业化",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "akrylov"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 165,
+    "commentCount": 467,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48120629",
+    "slug": "hn-48120629-i-moved-my-digital-stack-to-europe",
+    "source": "Hacker News",
+    "sourceUrl": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48120629",
+    "publishedAt": "2026-05-13T11:42:20.000Z",
+    "titleEn": "I moved my digital stack to Europe",
+    "titleZh": "我把数字基础设施迁移到了欧洲",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "monokai_nl"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 888,
+    "commentCount": 537,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-3pcg0hifltlk3yna-html",
+    "slug": "ai-space-x",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/3Pcg0HIFltLk3YNa.html",
+    "publishedAt": "2026-05-13T11:15:00.000Z",
+    "titleEn": "全球AI药物递送第一股剂泰科技挂牌港交所，“制药界Space X”开启生物制药新纪元",
+    "titleZh": "全球AI药物递送第一股剂泰科技挂牌港交所，制药界Space X开启生物制药新纪元",
+    "abstractEn": "雷峰网讯 2026年5月13日，香港, 聚焦AI纳米递送创新的科技生物公司剂泰科技（7666.HK）今日在港交所成功挂牌上市，成为全球AI药物递送第一股，也是港股AI大分子生物制药第一股。以制药界“Space X”为目标，剂泰科技创业6年，成为国内AI制药行业中完成IPO里程碑用时最短的独角兽公司。\n剂泰科技本次IPO由富瑞金融集团、德意志证券亚洲和中信证券（香港）担任联席保荐人，全球发行201,229,000股H股，募集资金规模超21亿港元，创下2026年迄今港股医疗健康IPO募资之最。公司在香港公开发售录得超6,900倍超额认购，锁定认购资金逾7,300亿港元，为2026年迄今港股医疗健康IPO香港公开发售认购金额之最；国际配售方面，获得超过280个机构投资人下单，录得可分配额度82倍的超额认购，也是2026年迄今港股医疗健康IPO国际配售认购倍数之最。\n剂泰科技此次港股IPO以18家",
+    "abstractZh": "雷峰网讯 2026年5月13日，香港, 聚焦AI纳米递送创新的科技生物公司剂泰科技（7666.HK）今日在港交所成功挂牌上市，成为全球AI药物递送第一股，也是港股AI大分子生物制药第一股。以制药界Space X为目标，剂泰科技创业6年，成为国内AI制药行业中完成IPO里程碑用时最短的独角兽公司。\n剂泰科技本次IPO由富瑞金融集团、德意志证券亚洲和中信证券（香港）担任联席保荐人，全球发行201,229,000股H股，募集资金规模超21亿港元，创下2026年迄今港股医疗健康IPO募资之最。公司在香港公开发售录得超6,900倍超额认购，锁定认购资金逾7,300亿港元，为2026年迄今港股医疗健康IPO香港公开发售认购金额之最；国际配售方面，获得超过280个机构投资人下单，录得可分配额度82倍的",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-s6adc4gs8girus4l-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/s6ADc4GS8GIRuS4L.html",
+    "publishedAt": "2026-05-13T10:24:00.000Z",
+    "titleEn": "联发科技×阶跃星辰，音乐大模型可视化部署，AI适配效率迎来质的飞跃",
+    "titleZh": "联发科技×阶跃星辰，音乐大模型可视化部署，AI适配效率迎来质的飞跃",
+    "abstractEn": "5月13日，联发科技在天玑开发者大会MDDC 2026上发布了天玑AI开发套件3.0，并展示了将阶跃星辰ACE-Step 音乐模型通过端侧可视化部署到天玑9500平台上，大幅度提升了模型及算法的移植效率。基于此，手机、汽车等终端领域品牌方，可以通过天玑AI开发套件，在天玑平台上快速为消费者打造极致的音乐生成产品体验。\n\n \n据介绍，大模型端侧部署长期面临模型体积大、功耗高、移植周期长等工程挑战。联发科技携手阶跃，通过天玑AI开发套件 3.0，实现了ACE-Step音乐模型在端侧的可视化部署。相较于传统 SDK，模型移植速度提升 50%，算法端侧移植效率提升 10 倍；相同质量下模型压缩率提升 58%；借助NPU 高能效特性，功耗降低 42%，有效降低设备运行时的发热与电量消耗。\nACE-Step 是阶跃与 ACE Studio 共同打造的音乐大模型，支持多种语言的歌曲生成，能力覆盖旋律生成",
+    "abstractZh": "5月13日，联发科技在天玑开发者大会MDDC 2026上发布了天玑AI开发套件3.0，并展示了将阶跃星辰ACE-Step 音乐模型通过端侧可视化部署到天玑9500平台上，大幅度提升了模型及算法的移植效率。基于此，手机、汽车等终端领域品牌方，可以通过天玑AI开发套件，在天玑平台上快速为消费者打造极致的音乐生成产品体验。\n\n \n据介绍，大模型端侧部署长期面临模型体积大、功耗高、移植周期长等工程挑战。联发科技携手阶跃，通过天玑AI开发套件 3.0，实现了ACE-Step音乐模型在端侧的可视化部署。相较于传统 SDK，模型移植速度提升 50%，算法端侧移植效率提升 10 倍；相同质量下模型压缩率提升 58%；借助NPU 高能效特性，功耗降低 42%，有效降低设备运行时的发热与电量消耗。\nACE-St",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-huybuwtvyvmcxoc1-html",
+    "slug": "skill-clawpay",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/huYBUWTVyvMCXOC1.html",
+    "publishedAt": "2026-05-13T10:18:00.000Z",
+    "titleEn": "“收钱”Skill来了！度小满发布 ClawPay",
+    "titleZh": "收钱Skill来了！度小满发布 ClawPay",
+    "abstractEn": "5月13日，在Create 2026百度AI开发者大会上，度小满发布了面向AI Skill开发者的支付解决方案“度小满ClawPay”。该产品将计费、下单、支付唤起等能力封装为标准化技术服务，帮助开发者零代码完成支付模块嵌入，打通从技术开发到商业变现的“最后一公里”。\n\n过去两年，AI应用生态经历爆发式增长。以OpenClaw为代表的开放平台涌现了大量Skill，但开发者想为自己的Skill 收费时，却发现一个难题：如何找到合适的支付通道？\n当前，接入支付通道，Skill开发者需要解决两个问题：一个是需要自行编写下单逻辑、搭建计费引擎、对接支付接口，这对于以AI算法为核心能力的团队而言，是一项与主业无关的沉重工程负担。另一方面，微信支付、支付宝等主流方式各有独立技术规范和合规要求，开发者若自行对接，需逐一适配不同接口标准并承担日常运维压力。\n针对这些痛点， 度小满 ClawPay将复杂的支",
+    "abstractZh": "5月13日，在Create 2026百度AI开发者大会上，度小满发布了面向AI Skill开发者的支付解决方案度小满ClawPay。该产品将计费、下单、支付唤起等能力封装为标准化技术服务，帮助开发者零代码完成支付模块嵌入，打通从技术开发到商业变现的最后一公里。\n\n过去两年，AI应用生态经历爆发式增长。以OpenClaw为代表的开放平台涌现了大量Skill，但开发者想为自己的Skill 收费时，却发现一个难题：如何找到合适的支付通道？\n当前，接入支付通道，Skill开发者需要解决两个问题：一个是需要自行编写下单逻辑、搭建计费引擎、对接支付接口，这对于以AI算法为核心能力的团队而言，是一项与主业无关的沉重工程负担。另一方面，微信支付、支付宝等主流方式各有独立技术规范和合规要求，开发者若自",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-bun2xa6hmdgmeplh-html",
+    "slug": "40-ai-30",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html",
+    "publishedAt": "2026-05-13T09:59:00.000Z",
+    "titleEn": "阿里云外部收入增长40%创新高，AI收入占比首破30%",
+    "titleZh": "阿里云外部收入增长40%创新高，AI收入占比首破30%",
+    "abstractEn": "5月13日，阿里巴巴集团发布最新季度业绩。截至2026年3月31日止季度，阿里云收入同比增长38%至416.26亿元，剔除阿里巴巴并表业务后的外部商业化收入增速进一步加速至40%，创下近年新高。其中，AI相关产品收入达89.71亿元，连续第11个季度实现三位数同比增长，占外部收入比重首次突破30%。截至2026年3月，百炼平台的客户数量同比增长了8倍，反映出企业级市场对AI需求的加速释放。\n\n季度内，阿里在芯片、模型、云和应用方面均有突破。芯片层面，平头哥GPU芯片已实现规模化量产，截至26年2月，已经累计规模化交付47万片。在阿里云的实际业务场景，60%以上的平头哥芯片服务于外部商业化客户，已完成规模化外部客户AI任务适配，支持了400多家企业客户的AI任务，涵盖包括互联网、金融服务、自动驾驶等多个行业。\n模型层面，4月发布的Qwen3.6-Plus大模型整体性能较上一代显著提升，特别是",
+    "abstractZh": "5月13日，阿里巴巴集团发布最新季度业绩。截至2026年3月31日止季度，阿里云收入同比增长38%至416.26亿元，剔除阿里巴巴并表业务后的外部商业化收入增速进一步加速至40%，创下近年新高。其中，AI相关产品收入达89.71亿元，连续第11个季度实现三位数同比增长，占外部收入比重首次突破30%。截至2026年3月，百炼平台的客户数量同比增长了8倍，反映出企业级市场对AI需求的加速释放。\n\n季度内，阿里在芯片、模型、云和应用方面均有突破。芯片层面，平头哥GPU芯片已实现规模化量产，截至26年2月，已经累计规模化交付47万片。在阿里云的实际业务场景，60%以上的平头哥芯片服务于外部商业化客户，已完成规模化外部客户AI任务适配，支持了400多家企业客户的AI任务，涵盖包括互联网、金融服务、自动",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-p1qqactdnheiunzu-html",
+    "slug": "00",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/P1qQacTDnhEIunZu.html",
+    "publishedAt": "2026-05-13T09:45:00.000Z",
+    "titleEn": "独家丨华为、联想、富瀚微罕见「同框」，00后空间智能创业者连续获得两轮融资",
+    "titleZh": "独家丨华为、联想、富瀚微罕见『同框』，00后空间智能创业者连续获得两轮融资",
+    "abstractEn": "4D基座世界模型的 Scaling Law 呈线性可预测提升。\n\n\n\n\n\n    作者丨齐铖湧\n\n    编辑丨马晓宁\n                                                                                                       \n\n\n据AI科技评论独家获悉，魔芯科技近日正式完成新一轮近亿元融资。本轮由富瀚微股份、联融志道（联想控股旗下基金）、浙创投联合投资，老股东跟投。叠加一个月前华为哈勃领投的Pre-A+轮，魔芯科技在近两个月内已连续拿到两轮近亿元融资。\n魔芯科技的投资方目前包括，华为哈勃（算力底座）、富瀚微（核心视觉芯片）、联想控股（智能终端+产业支持）、浙创投（国资产业资本），是一个产业链关键节点+场景落地+产业生态+国资背书的完整逻辑链条。其创始人陈天润为00后浙大在读博士生，师从中国",
+    "abstractZh": "4D基座世界模型的 Scaling Law 呈线性可预测提升。作者丨齐铖湧 编辑丨马晓宁 据AI科技评论独家获悉，魔芯科技近日正式完成新一轮近亿元融资。本轮由富瀚微股份、联融志道（联想控股旗下基金）、浙创投联合投资，老股东跟投。叠加一个月前华为哈勃领投的Pre-A+轮，魔芯科技在近两个月内已连续拿到两轮近亿元融资。魔芯科技的投资方目前包括，华为哈勃（算力底座）、富瀚微（核心视觉芯片）、联想控股（智能终端+产业支持）、浙创投（国资产业资本），是一个产业链",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-vtu0maegqs3kw5dn-html",
+    "slug": "great-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/VtU0MaEGqS3Kw5DN.html",
+    "publishedAt": "2026-05-13T09:40:00.000Z",
+    "titleEn": "无界关怀，GReAT 2026共议具身康养未来",
+    "titleZh": "无界关怀，GReAT 2026共议具身康养未来",
+    "abstractEn": "2026年5月13日，全球智能康复与机器人技术峰会（GReAT 2026）在上海张江机器人谷举行。本次大会以“无界关怀：突破康复边界，走向真实应用”为主题，汇聚了近百位来自全球临床康复与机器人领域的顶尖专家、行业领袖与合作伙伴，围绕机器人技术、人工智能与物联护理系统等前沿方向展开深入交流，探索康复向全周期、持续性服务转型的路径，推动前沿机器人技术走向真实应用场景。\n\n大会期间，傅利叶分别与新加坡国立医疗集团（NHG Health）和日本顶尖研究机构名古屋大学签署战略合作协议，进一步深化全球具身康养创新合作，加速康复与机器人技术的临床转化。\n其中，傅利叶与NHG Health自2021年首次建立战略合作以来，已开展多项合作。2025年9月，双方联合新加坡AI健康初创公司injewelme在SHBC上对外发布了共同主导的实验性项目成果，将傅利叶GRx人形机器人与远程光体积变化描记图法（rPPG",
+    "abstractZh": "2026年5月13日，全球智能康复与机器人技术峰会（GReAT 2026）在上海张江机器人谷举行。本次大会以『无界关怀：突破康复边界，走向真实应用』为主题，汇聚了近百位来自全球临床康复与机器人领域的顶尖专家、行业领袖与合作伙伴，围绕机器人技术、人工智能与物联护理系统等前沿方向展开深入交流，探索康复向全周期、持续性服务转型的路径，推动前沿机器人技术走向真实应用场景。大会期间，傅利叶分别与新加坡国立医疗集团（NHG Health）和日本顶尖研究机构名古屋大学签署战略合作协议，进一步深化全球具身康养创新合作，加速康复与机器人技术的临床转化。",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416963-html",
+    "slug": "qwen-135",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416963.html",
+    "publishedAt": "2026-05-13T08:44:16.000Z",
+    "titleEn": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+    "titleZh": "林俊旸果然创业了！一个Qwen负责人头衔值135亿",
+    "abstractEn": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+    "abstractZh": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416870-html",
+    "slug": "gemini-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416870.html",
+    "publishedAt": "2026-05-13T08:29:20.000Z",
+    "titleEn": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+    "titleZh": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+    "abstractEn": "谷歌把Gemini塞进了Android",
+    "abstractZh": "谷歌把Gemini塞进了Android",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-healthai-62novkcb2zxjcx5d-html",
+    "slug": "bmj",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/healthai/62noVKCB2zxjcx5D.html",
+    "publishedAt": "2026-05-13T07:52:00.000Z",
+    "titleEn": "BMJ独家牵手氢离子，阿里健康开启国际顶刊合作起点",
+    "titleZh": "BMJ独家牵手氢离子，阿里健康开启国际顶刊合作起点",
+    "abstractEn": "2026年5月13日，阿里健康在杭正式发布医学AI“氢离子”，同时宣布氢离子与英国BMJ集团（BMJ Group）达成期刊内容独家合作。这项合作标志着阿里健康与国际顶级期刊开启合作的起点。氢离子透露，目前正与全球多家顶刊进行合作沟通。\n发布会上，阿里健康表示，氢离子试图在“顶级医学证据”、“循证医学”、“AI能力”三个维度做好一款更可靠的医学AI助手，直连国内外顶刊的最高证据源，帮助中国医生解决医学问题。\n\n现场嘉宾见证氢离子发布\n\n\n国际顶刊首次牵手中国AI  氢离子支持顶刊全文阅读\n在氢离子和BMJ集团的独家内容合作中，BMJ集团旗下70本医学期刊过往十年里发表的内容和多媒体资源\n将独家授权提供给“氢离子”，氢离子成为BMJ集团在中国独家合作的医学AI平台。此后，中国医生可以通过氢离子直连全球顶级医学文献，进行循证问答、全文阅读、在线翻译，解决临床与科研过程中的医学问题。\nBMJ集团成",
+    "abstractZh": "2026年5月13日，阿里健康在杭正式发布医学AI『氢离子』，同时宣布氢离子与英国BMJ集团（BMJ Group）达成期刊内容独家合作。这项合作标志着阿里健康与国际顶级期刊开启合作的起点。氢离子透露，目前正与全球多家顶刊进行合作沟通。发布会上，阿里健康表示，氢离子试图在『顶级医学证据』、『循证医学』、『AI能力』三个维度做好一款更可靠的医学AI助手，直连国内外顶刊的最高证据源，帮助中国医生解决医学问题。",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-cpzynpc0lxehgoi7-html",
+    "slug": "600-618",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/CpzYnpc0lXeHgoi7.html",
+    "publishedAt": "2026-05-13T07:24:00.000Z",
+    "titleEn": "超600个海外新品牌赶来参加天猫618，“精细养护”成入华新风口",
+    "titleZh": "超600个海外新品牌赶来参加天猫618，『精细养护』成入华新风口",
+    "abstractEn": "中国市场依然是全球品牌寻求确定性增长的“必争之地”。数据显示，今年618前，来自全球29个国家和地区的超过600个海外新品牌，在天猫国际开出首店。\n美国、韩国、日本、法国、澳大利亚是入驻新品牌数量最多的五个国家。区别于早期跨国品牌“大单品、广覆盖”的模式，这批海外新品牌呈现出一种新的商业逻辑：告别泛需求，瞄准具体痛点，通过“细分赛道精准卡位”建立壁垒。\n \n数据显示，宠物和服饰是618前海外新品牌入驻势头最猛的两个品类，数量双双翻倍；母婴、美妆等相对成熟的进口品类，新品牌数量则保持稳健双位数增长。\n进口宠物品类的爆发，增量集中在“小宠健康”赛道。去年618，天猫国际小宠品类成交增长超100%。拥有180年历史的美国品牌BROWN’S宝莱思，主营鸟类、鼠类、兔子等小宠健康主粮，今年一季度正式布局中国市场。\nBROWN’S海外旗舰店负责人介绍，面对国内小宠主人专业喂养知识的缺失、产品“高需求、",
+    "abstractZh": "中国市场依然是全球品牌寻求确定性增长的『必争之地』。数据显示，今年618前，来自全球29个国家和地区的超过600个海外新品牌，在天猫国际开出首店。美国、韩国、日本、法国、澳大利亚是入驻新品牌数量最多的五个国家。区别于早期跨国品牌『大单品、广覆盖』的模式，这批海外新品牌呈现出一种新的商业逻辑：告别泛需求，瞄准具体痛点，通过『细分赛道精准卡位』建立壁垒。数据显示，宠物和服饰是618前海外新品牌入驻势头最猛的两个品类，数量双双翻倍；母婴、美妆等相对成熟的进口品类，新品牌数量则保持稳健双位数增长。",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "hn:48118763",
+    "slug": "hn-48118763-securitybaseline-eu",
+    "source": "Hacker News",
+    "sourceUrl": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48118763",
+    "publishedAt": "2026-05-13T07:11:17.000Z",
+    "titleEn": "SecurityBaseline.eu",
+    "titleZh": "SecurityBaseline.eu",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "aequitas"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 222,
+    "commentCount": 104,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-rod6wpuraa8maopv-html",
+    "slug": "sk-5-390",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/rod6WpUrAa8maOpv.html",
+    "publishedAt": "2026-05-13T06:50:00.000Z",
+    "titleEn": "马斯克、库克随特朗普访华，黄仁勋虽迟但到；SK海力士中国员工无法做管理层，奖金不到韩国人的5%；390万元起！宇树发布载人变形机甲",
+    "titleZh": "马斯克、库克随特朗普访华，黄仁勋虽迟但到；SK海力士中国员工无法做管理层，奖金不到韩国人的5%；390万元起！宇树发布载人变形机甲",
+    "abstractEn": "要闻提示\n1.特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到\n\n\n\n2.390万元起，宇树发布载人变形机甲！具备大批量生产能力\n3.SK海力士中国员工奖金不到韩国人的5%，且无法做管理层\n4.5000陪我一晚？沪上阿姨官号竟骚扰消费者，涉事门店：被盗号\n5.拓竹发布纯净 PLA 耗材，主打极简配方和成分公开\n6.腾讯收购喜马拉雅股权案获批！设五大限制性条件：不得涨价、不得独家\n7.Anthropic洽谈融资300亿美元，估值超9000亿美元\n8.苹果研发重心转向智能眼镜，新款Vision Pro至少要等2年\n今日头条\n\n\n\n\n特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到\n\n\n\n\n5月13日消息，美国总统特朗普拟于5月13日至15日对中国进行国事访问。这是中美两国元首继去年10月釜山之后再次面对面会晤，也是美国总统时隔9年再次访华。当前中美关",
+    "abstractZh": "要闻提示 1.特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到 2.390万元起，宇树发布载人变形机甲！具备大批量生产能力 3.SK海力士中国员工奖金不到韩国人的5%，且无法做管理层 4.5000陪我一晚？沪上阿姨官号竟骚扰消费者，涉事门店：被盗号 5.拓竹发布纯净 PLA 耗材，主打极简配方和成分公开 6.腾讯收购喜马拉雅股权案获批！设五大限制性条件：不得涨价、不得独家 7.Anthropic洽谈融资300亿美元，估值超9000亿美元 8.苹果研发重心转向智能眼镜，新款Vision Pro至少要等2年 今日头条 特朗普访华在即，随行商界大咖名单公布：马斯克、库克在列，黄仁勋虽迟但到 5月13日消息，美国总统特朗普拟于5月13日至15日对中国进行国",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-a6k3kte1wdwptuvv-html",
+    "slug": "ai-1300-ipo-ff-ceo",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/a6K3KTE1WDwptUvv.html",
+    "publishedAt": "2026-05-13T06:39:00.000Z",
+    "titleEn": "隐私又少一点？「微信状态可看访客记录」冲上热搜，腾讯客服回应；快手计划分拆可灵AI，估值超1300亿、明年IPO上市；贾跃亭出任FF全球CEO",
+    "titleZh": "隐私又少一点？『微信状态可看访客记录』冲上热搜，腾讯客服回应；快手计划分拆可灵AI，估值超1300亿、明年IPO上市；贾跃亭出任FF全球CEO",
+    "abstractEn": "要闻提示\n1.“微信状态可看访客记录”冲上热搜，腾讯客服回应\n\n\n\n2.快手计划分拆“可灵AI”，估值超1300亿、明年IPO上市\n3.宗馥莉被曝罢免销售负责人，直管营销，非生产业务将外包，内部人士称或裁员30%\n4.贾跃亭重掌大权！出任FF全球CEO\n5.沃尔沃汽车大中华区换帅：原总裁兼CEO袁小林卸任，段建军接任\n6.原腾讯AI Lab副主任、首席科学家俞栋已加入Capital One担任副总裁\n7.SpaceXAI 组建进行时，马斯克已提交商标注册申请\n8.特朗普T1手机交付遥遥无期，近60万用户订金难追回\n今日头条\n\n\n\n\n“微信状态可看访客记录”冲上热搜，腾讯客服回应\n\n\n\n\n5月11日晚间，#微信状态 访客记录# 话题冲上微博热搜，引发大量网友讨论。有网友发帖询问：“微信状态为什么可以看访客了？”该网友称，这一功能目前应该处于内测阶段，浏览人数大概率显示的是“看了你状态的人”，",
+    "abstractZh": "要闻提示 1.『微信状态可看访客记录』冲上热搜，腾讯客服回应 2.快手计划分拆『可灵AI』，估值超1300亿、明年IPO上市 3.宗馥莉被曝罢免销售负责人，直管营销，非生产业务将外包，内部人士称或裁员30% 4.贾跃亭重掌大权！出任FF全球CEO 5.沃尔沃汽车大中华区换帅：原总裁兼CEO袁小林卸任，段建军接任 6.原腾讯AI Lab副主任、首席科学家俞栋已加入Capital One担任副总裁 7.SpaceXAI 组建进行时，马斯克已提交商标注册申请 8.特朗普T1手机交付遥遥无期，近60万用户订金难追回 今日头条 『微信状态可看访客记录』冲上热搜，腾讯客服回应 5月11日晚间，#微信状态 访客记录# 话题冲上微博热搜，引发大量网友讨论。有网友发帖询问：『微信状态为什",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416831-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416831.html",
+    "publishedAt": "2026-05-13T05:40:53.000Z",
+    "titleEn": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+    "titleZh": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+    "abstractEn": "Anthropic新研究实锤了",
+    "abstractZh": "Anthropic新研究实锤了",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416762-html",
+    "slug": "ai-ai-daa-create2026-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416762.html",
+    "publishedAt": "2026-05-13T04:43:31.000Z",
+    "titleEn": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”｜Create2026百度AI开发者⼤会速览",
+    "titleZh": "AI步入自我进化时代，李彦宏首提AI时代度量衡DAA｜Create2026百度AI开发者大会速览",
+    "abstractEn": "李彦宏提出“AI时代进化论”",
+    "abstractZh": "李彦宏提出AI时代进化论",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416754-html",
+    "slug": "auto-research-47-agent",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416754.html",
+    "publishedAt": "2026-05-13T04:08:58.000Z",
+    "titleEn": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+    "titleZh": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+    "abstractEn": "正式进入“迭代优化”时代",
+    "abstractZh": "正式进入迭代优化时代",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-416739-html",
+    "slug": "openai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/416739.html",
+    "publishedAt": "2026-05-13T03:38:46.000Z",
+    "titleEn": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
+    "titleZh": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
+    "abstractEn": "奥特曼曝这老些瓜",
+    "abstractZh": "奥特曼曝这老些瓜",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-14T02:09:19.732Z"
+  },
+  {
     "id": "openai:what-parameter-golf-taught-us",
     "slug": "what-parameter-golf-taught-us",
     "source": "OpenAI Blog",
@@ -16,7 +790,8 @@
     "docType": "Blog",
     "category": "research",
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48116337",
@@ -38,7 +813,8 @@
     "score": 11,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48115918",
@@ -60,7 +836,8 @@
     "score": 6,
     "commentCount": 3,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48115848",
@@ -82,7 +859,8 @@
     "score": 5,
     "commentCount": 4,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48115772",
@@ -104,7 +882,8 @@
     "score": 7,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48112799",
@@ -126,7 +905,8 @@
     "score": 22,
     "commentCount": 6,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48112042",
@@ -148,7 +928,8 @@
     "score": 236,
     "commentCount": 117,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48111896",
@@ -170,7 +951,8 @@
     "score": 280,
     "commentCount": 102,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48111581",
@@ -192,7 +974,8 @@
     "score": 138,
     "commentCount": 116,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48111527",
@@ -214,7 +997,8 @@
     "score": 14,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48111143",
@@ -236,7 +1020,8 @@
     "score": 55,
     "commentCount": 33,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48110593",
@@ -258,7 +1043,8 @@
     "score": 38,
     "commentCount": 17,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48109962",
@@ -280,7 +1066,8 @@
     "score": 40,
     "commentCount": 19,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48109460",
@@ -302,7 +1089,8 @@
     "score": 372,
     "commentCount": 182,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48108778",
@@ -324,7 +1112,8 @@
     "score": 74,
     "commentCount": 24,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416597-html",
@@ -345,7 +1134,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-jwmxsiswmnl3wmju-html",
@@ -366,7 +1156,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-saxkkvxhtp7fqeq9-html",
@@ -387,7 +1178,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-i0s6e3pbvdhtjdhl-html",
@@ -408,7 +1200,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416590-html",
@@ -429,7 +1222,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416582-html",
@@ -450,7 +1244,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-vnzuxhojsa0ewtug-html",
@@ -471,7 +1266,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416540-html",
@@ -492,7 +1288,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-hjikqc8qsrrbslil-html",
@@ -513,7 +1310,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-5gfzilpqebo3okjm-html",
@@ -534,7 +1332,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-agzr3upqbugk1dv2-html",
@@ -555,7 +1354,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-vzm3rt1qhzaltw22-html",
@@ -576,7 +1376,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-dig98w2kaekfq5xp-html",
@@ -597,7 +1398,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416056-html",
@@ -618,7 +1420,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-416034-html",
@@ -639,7 +1442,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-rt4gl5nscqjunf8o-html",
@@ -660,7 +1464,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-weiwu-qznsjhpqoov0w2hx-html",
@@ -681,7 +1486,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-chips-67z7qfkv6tdqjtxz-html",
@@ -702,7 +1508,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48103042",
@@ -724,7 +1531,8 @@
     "score": 221,
     "commentCount": 89,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48102198",
@@ -769,7 +1577,8 @@
     "score": 31,
     "commentCount": 14,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48100706",
@@ -883,7 +1692,8 @@
     "score": 19,
     "commentCount": 7,
     "tags": [],
-    "fetchedAt": "2026-05-13T02:12:39.481Z"
+    "fetchedAt": "2026-05-13T02:12:39.481Z",
+    "featured": false
   },
   {
     "id": "hn:48100227",
