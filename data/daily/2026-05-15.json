@@ -1,0 +1,215 @@
+{
+  "date": "2026-05-15",
+  "generatedAt": "2026-05-15T02:06:15.441Z",
+  "summary": {
+    "aiNews": [
+      "田渊栋AI创业估值315亿，老黄苏妈投资，姚班施天麟为合伙人",
+      "腾讯开源Agent记忆技术方案，Token消耗最高降低61%",
+      "马化腾：腾讯AI发展不急于乱抢地盘"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417731-html",
+      "slug": "kimi-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417731.html",
+      "publishedAt": "2026-05-14T14:58:53.000Z",
+      "titleEn": "人手一个数据库，Kimi背后这套AI基建到底有多能扛？",
+      "titleZh": "人手一个数据库，Kimi背后这套AI基建到底有多能扛？",
+      "abstractEn": "Agent时代的数据库，怎么跑通商业化？",
+      "abstractZh": "Agent时代的数据库，怎么跑通商业化？",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417816-html",
+      "slug": "ai-agent-pua",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417816.html",
+      "publishedAt": "2026-05-14T11:14:25.000Z",
+      "titleEn": "重生之我在AI时代当老板：让一群Agent互相PUA",
+      "titleZh": "重生之我在AI时代当老板：让一群Agent互相PUA",
+      "abstractEn": "Team，从来不是默认选项",
+      "abstractZh": "Team，从来不是默认选项",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chipdesign-rlutpcdwqljctm6g-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chipdesign/RLUtPCdwqljctm6g.html",
+      "publishedAt": "2026-05-14T10:41:00.000Z",
+      "titleEn": "端侧智能体迈入拐点，联发科如何把AI平台做成可交付的能力？",
+      "titleZh": "端侧智能体迈入拐点，联发科如何把AI平台做成可交付的能力？",
+      "abstractEn": "过去一年，端侧AI的竞争逻辑已经发生变化。\n行业讨论的重点，正在从模型能不能跑起来，转向能力能不能持续部署、稳定调优、真正进入系统主路径。Agent OS、系统原生智能体、跨应用执行、端侧隐私保护，这些原本分散的技术关键词，也开始被收拢到同一个方向——端侧智能体化。\n而真正决定下一阶段竞争格局的，已经不再只是模型参数规模或者芯片峰值算力，而是谁能把智能体能力做成一套可部署、可调优、可复制的工程体系。\n在天玑开发者大会（MDDC 2026）上，MediaTek 试图回答的正是这个问题。\n这次大会上，联发科把天玑 AI 开发套件、系统原生智能体能力，以及游戏技术体系放进同一套叙事里。它强调的已经不只是芯片性能，而是天玑平台如何成为开发者真正能用、系统厂商真正能落地的端侧AI底座。\n\nMediaTek 董事、总经理暨营运长陈冠州表示：“智能体 AI 正在重构和升级越来越多的行业和应用场景。Med",
+      "abstractZh": "过去一年，端侧AI的竞争逻辑已经发生变化。\n行业讨论的重点，正在从模型能不能跑起来，转向能力能不能持续部署、稳定调优、真正进入系统主路径。Agent OS、系统原生智能体、跨应用执行、端侧隐私保护，这些原本分散的技术关键词，也开始被收拢到同一个方向——端侧智能体化。\n而真正决定下一阶段竞争格局的，已经不再只是模型参数规模或者芯片峰值算力，而是谁能把智能体能力做成一套可部署、可调优、可复制的工程体系。\n在天玑开发者大会（MDDC 2026）上，MediaTek 试图回答的正是这个问题。\n这次大会上，联发科把天玑 AI 开发套件、系统原生智能体能力，以及游戏技术体系放进同一套叙事里。它强调的已经不只是芯片性能，而是天玑平台如何成为开发者真正能用、系统厂商真正能落地的端侧AI底座。\n\nMediaT",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417927-html",
+      "slug": "20-ai-native",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417927.html",
+      "publishedAt": "2026-05-14T10:28:08.000Z",
+      "titleEn": "淘天金码奖落幕：20 名超级工程师诞生，推动 AI Native 实践",
+      "titleZh": "淘天金码奖落幕：20 名超级工程师诞生，推动 AI Native 实践",
+      "abstractEn": "AI主导、人类协助",
+      "abstractZh": "AI主导、人类协助",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417753-html",
+      "slug": "agent-token-61",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417753.html",
+      "publishedAt": "2026-05-14T08:34:30.000Z",
+      "titleEn": "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%",
+      "titleZh": "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%",
+      "abstractEn": "任务成功率最高提升 51%。",
+      "abstractZh": "任务成功率最高提升 51%。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417748-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417748.html",
+      "publishedAt": "2026-05-14T08:26:45.000Z",
+      "titleEn": "阿里 AI 应用新进展：悟空开始逐步规模化放量",
+      "titleZh": "阿里 AI 应用新进展：悟空开始逐步规模化放量",
+      "abstractEn": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
+      "abstractZh": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-corporateservices-vtqqtcknnwrini0f-html",
+      "slug": "saas-saas-agent",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/CorporateServices/VtqqTCKnnWrini0F.html",
+      "publishedAt": "2026-05-14T07:28:00.000Z",
+      "titleEn": "对话销售易总裁邓永富：借力腾讯，能否在SaaS大洗牌中「攒足」筹码？ | SaaS+Agent十人谈",
+      "titleZh": "对话销售易总裁邓永富：借力腾讯，能否在SaaS大洗牌中「攒足」筹码？ | SaaS+Agent十人谈",
+      "abstractEn": "“在这场优胜劣汰的行业洗牌中，仅靠单打独斗已难以站稳脚跟。”\n走出行业低谷、穿越AI迷雾，SaaS厂商何以安身立命？在销售易总裁邓永富看来，与大厂深度联合，不仅是活下去的底气，更是闯出去的筹码。\n去年2月，销售易与腾讯完成了战略合作升级。邓永富向雷峰网表示，双方早已超越了“资本入股、资源嫁接”的关系，而是在技术、产品、生态等多方面深度协同。\n眼下，SaaS厂商与大厂的协作逻辑正在发生转变：不再局限于传统云服务或生态合作，如云大厂提供底层云资源、SaaS厂商入驻云市场、产品简单嵌入大厂生态，而是走向能力互补、谋求双赢。\n有了腾讯加持，销售易稳稳抓住Agent浪潮关键窗口：一年前借DeepSeek热潮快速上线Agent产品，今年初又紧跟OpenClaw热度，顺势落地“龙虾”，深度融合企业微信及WorkBuddy，推出国内首款“销售专用龙虾”。\n但这远不是销售易的全部“野心”。\n拥有16年SAP",
+      "abstractZh": "「在这场优胜劣汰的行业洗牌中，仅靠单打独斗已难以站稳脚跟。」\n走出行业低谷、穿越AI迷雾，SaaS厂商何以安身立命？在销售易总裁邓永富看来，与大厂深度联合，不仅是活下去的底气，更是闯出去的筹码。\n去年2月，销售易与腾讯完成了战略合作升级。邓永富向雷峰网表示，双方早已超越了「资本入股、资源嫁接」的关系，而是在技术、产品、生态等多方面深度协同。\n眼下，SaaS厂商与大厂的协作逻辑正在发生转变：不再局限于传统云服务或生态合作，如云大厂提供底层云资源、SaaS厂商入驻云市场、产品简单嵌入大厂生态，而是走向能力互补、谋求双赢。\n有了腾讯加持，销售易稳稳抓住Agent浪潮关键窗口：一年前借DeepSeek热潮快速上线Agent产品，今年初又紧跟OpenClaw热度，顺势落地「龙虾」，深度融合企业微信及W",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417468-html",
+      "slug": "ai-315",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417468.html",
+      "publishedAt": "2026-05-14T07:14:05.000Z",
+      "titleEn": "田渊栋AI创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人",
+      "titleZh": "田渊栋AI创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人",
+      "abstractEn": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中",
+      "abstractZh": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-barqox7o1pxa3lwv-html",
+      "slug": "1-c",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/barQoX7o1PXA3LwV.html",
+      "publishedAt": "2026-05-14T06:17:00.000Z",
+      "titleEn": "芯驰科技完成近1亿美金C轮融资，加码汽车到具身智能全栈「芯」突破",
+      "titleZh": "芯驰科技完成近1亿美金C轮融资，加码汽车到具身智能全栈「芯」突破",
+      "abstractEn": "5月13日，国内领先车规级芯片企业芯驰科技正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，陕汽鸿德投资作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构及产业资本跟投。\n \n本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈「芯」突破。\n \n苏产投成立于2025年，由苏州国投集团控股，元禾控股、苏创投集团战略参股，是专业私募股权管理平台，也是苏州国投集团落实地方产业战略布局、开展重大产业投资的核心抓手。苏产投紧扣国家发展战略，重点培育产业链链主企业，推动前沿技术成果实现产业化突破。\n \n苏产投高孟表示：“集成电路与智能汽车是国家战略性核心赛道，国产高端车规芯片更是产业自主可控的关键一环。芯驰科技深耕车规芯片领域多年，拥有完善的产品矩阵、严苛的车规认证体系及规模化量产能力，在智能座舱",
+      "abstractZh": "5月13日，国内领先车规级芯片企业芯驰科技正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，陕汽鸿德投资作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构及产业资本跟投。\n \n本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈「芯」突破。\n \n苏产投成立于2025年，由苏州国投集团控股，元禾控股、苏创投集团战略参股，是专业私募股权管理平台，也是苏州国投集团落实地方产业战略布局、开展重大产业投资的核心抓手。苏产投紧扣国家发展战略，重点培育产业链链主企业，推动前沿技术成果实现产业化突破。\n \n苏产投高孟表示：「集成电路与智能汽车是国家战略性核心赛道，国产高端车规芯片更是产业自主可控的关键一",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-eyvxhz0psnnp82it-html",
+      "slug": "ai-4000-ai-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/eyVXHz0PsnnP82iT.html",
+      "publishedAt": "2026-05-14T00:35:00.000Z",
+      "titleEn": "马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了；思科拟裁员约4000人，投入更多资源到AI；林俊旸被曝创立新AI实验室",
+      "titleZh": "马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了；思科拟裁员约4000人，投入更多资源到AI；林俊旸被曝创立新AI实验室",
+      "abstractEn": "要闻提示\n\n\n\n\nNEWS REMIND\n\n\n\n\n1.马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了\n2.阿里巴巴CEO吴泳铭：阿里服务器几乎没有一张卡是空的\n3.曝林俊旸离职后创立新AI实验室，首轮估值20亿美元\n4.vivo手持云台预计四季度发布，供应链备货百万\n5.小米开源 Xiaomi OneVL 自动驾驶模型，业内率先实现 VLA、世界模型等多技术路线统一\n6.月之暗面张予彤：“Kimi喜欢不被标签化的人和偏执的人”\n7.特斯拉核心供应商，日本电机巨头再曝大规模造假！\n8.思科计划裁员约 4000 人，投入更多资源到 AI 及相关增长领域\n\n\n\n\n\n今日头条\n\n\n\n\nHEADLINE NEWS\n\n\n\n\n\n\n马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了\n\n\n\n\n5月13日，在腾讯股东大会上，腾讯董事会主席兼首席执行官马化腾表示，腾讯早期在AI领域的基础",
+      "abstractZh": "要闻提示\n\n\n\n\nNEWS REMIND\n\n\n\n\n1.马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了\n2.阿里巴巴CEO吴泳铭：阿里服务器几乎没有一张卡是空的\n3.曝林俊旸离职后创立新AI实验室，首轮估值20亿美元\n4.vivo手持云台预计四季度发布，供应链备货百万\n5.小米开源 Xiaomi OneVL 自动驾驶模型，业内率先实现 VLA、世界模型等多技术路线统一\n6.月之暗面张予彤：「Kimi喜欢不被标签化的人和偏执的人」\n7.特斯拉核心供应商，日本电机巨头再曝大规模造假！\n8.思科计划裁员约 4000 人，投入更多资源到 AI 及相关增长领域\n\n\n\n\n\n今日头条\n\n\n\n\nHEADLINE NEWS\n\n\n\n\n\n\n马化腾：腾讯AI发展不急于乱抢地盘，过去抢别人地盘基本失败了",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    }
+  ]
+}
