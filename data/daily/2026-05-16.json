@@ -1,0 +1,231 @@
+{
+  "date": "2026-05-16",
+  "generatedAt": "2026-05-16T03:02:01.035Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418135-html",
+      "slug": "agentic-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418135.html",
+      "publishedAt": "2026-05-15T10:14:54.000Z",
+      "titleEn": "华为云创想者大会主题论坛议程公布：释放Agentic AI新布局",
+      "titleZh": "华为云创想者大会主题论坛议程公布：释放Agentic AI新布局",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418035-html",
+      "slug": "need-is-all-you-need-ai-coding",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418035.html",
+      "publishedAt": "2026-05-15T09:55:56.000Z",
+      "titleEn": "Need is all you need：AI接手Coding后，程序员最值钱的能力只剩这一项?",
+      "titleZh": "Need is all you need：AI接手Coding后，程序员最值钱的能力只剩这一项?",
+      "abstractEn": "说明需求，Qoder就能帮你实现",
+      "abstractZh": "说明需求，Qoder就能帮你实现",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-y7bk8tpnoibufqsp-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/y7bk8TpnoiBUFqSP.html",
+      "publishedAt": "2026-05-15T09:43:00.000Z",
+      "titleEn": "CVPR 2026 四篇论文透视：大厂如何靠「算法瘦身」对抗算力涨价？",
+      "titleZh": "CVPR 2026 四篇论文透视：大厂如何靠「算法瘦身」对抗算力涨价？",
+      "abstractEn": "2026年，大厂们不再比谁的GPU多，而是比谁的算法更聪明。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n一个在2026年越来越难以回避的问题是：如果H100全面断供、电费账单直线飙升、训练一次大模型的成本足以买下一家创业公司，大模型的故事还讲得下去吗？\n也许顶级学术会议的论文能给大家一个新的启发。\n今年的CVPR收到了四千余篇投稿，其中一个清晰的信号正在浮现：大厂不再比拼GPU数量，而是较量如何把GPU用得更好。算力封锁之下，算法正在成为新的护城河。\n在论文的汪洋中，字节跳动Seed团队是出手最密集的玩家之一。\nAI 科技评论聚焦四篇来自字节跳动的",
+      "abstractZh": "2026年，大厂们不再比谁的GPU多，而是比谁的算法更聪明。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑   峰\n                                                        \n\n\n一个在2026年越来越难以回避的问题是：如果H100全面断供、电费账单直线飙升、训练一次大模型的成本足以买下一家创业公司，大模型的故事还讲得下去吗？\n也许顶级学术会议的论文能给大家一个新的启发。\n今年的CVPR收到了四千余篇投稿，其中一个清晰的信号正在浮现：大厂不再比拼GPU数量，而是较量如何把GPU用得更好。算力封锁之下，算法正在成为新的护城河。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418140-html",
+      "slug": "al-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418140.html",
+      "publishedAt": "2026-05-15T08:18:22.000Z",
+      "titleEn": "容联云发布“数字员工”级 Al Agent 平台，重塑大模型联络中心",
+      "titleZh": "容联云发布'数字员工'级 AI Agent 平台，重塑大模型联络中心",
+      "abstractEn": "该平台以 AI Agent 为核心",
+      "abstractZh": "该平台以 AI Agent 为核心",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417968-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417968.html",
+      "publishedAt": "2026-05-15T07:36:18.000Z",
+      "titleEn": "手机的智能体AI，正在因为天玑全面跃升",
+      "titleZh": "手机的智能体AI，正在因为天玑全面跃升",
+      "abstractEn": "联发科正在成为智能体化体验落地的全栈赋能者",
+      "abstractZh": "联发科正在成为智能体化体验落地的全栈赋能者",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417961-html",
+      "slug": "ring-2-6-1t-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417961.html",
+      "publishedAt": "2026-05-15T07:14:36.000Z",
+      "titleEn": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强",
+      "titleZh": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强",
+      "abstractEn": "AIME 26 得分 95.83",
+      "abstractZh": "AIME 26 得分 95.83",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chips-kwa81qlvp7mr8lj7-html",
+      "slug": "openclaw-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chips/KwA81QLVp7mR8lj7.html",
+      "publishedAt": "2026-05-15T06:57:00.000Z",
+      "titleEn": "OpenClaw预示未来：智能体角色范式转变，AI需要具备执行能力",
+      "titleZh": "OpenClaw预示未来：智能体角色范式转变，AI需要具备执行能力",
+      "abstractEn": "要点：\n• 随着 Claude Cowork、Hermes、Perplexity Computer 等“AI coworker”形态不断涌现，OpenClaw 也在持续演进，它的出现标志着AI智能体角色的范式转变，智能开始具备执行能力。\n• 高通技术公司凭借独特定位推动AI智能体时代的到来，赋能跨智能网联边缘(设备间)无缝运行的智能、个性化且直观的体验。\n• 我们的平台专为在轻量级设备上，以卓越能效运行智能体规划而设计。\n \n最近使用OpenClaw十分方便。无论使用什么设备，我都可以随时随地给OpenClaw发送信息。OpenClaw会在每天早上给我发送新闻简报，规划健康步行路线，提醒我适合当天天气的着装，并且可以实时同步我从日本下单的音响的物流进度。OpenClaw还能记录我的杂乱思绪，将其转换成简洁的Markdown格式，然后邮件发送给相关人员。这一切，全都运行在我书架上那个仅售59",
+      "abstractZh": "要点：\n• 随着 Claude Cowork、Hermes、Perplexity Computer 等'AI coworker'形态不断涌现，OpenClaw 也在持续演进，它的出现标志着AI智能体角色的范式转变，智能开始具备执行能力。\n• 高通技术公司凭借独特定位推动AI智能体时代的到来，赋能跨智能网联边缘(设备间)无缝运行的智能、个性化且直观的体验。\n• 我们的平台专为在轻量级设备上，以卓越能效运行智能体规划而设计。\n \n最近使用OpenClaw十分方便。无论使用什么设备，我都可以随时随地给OpenClaw发送信息。OpenClaw会在每天早上给我发送新闻简报，规划健康步行路线，提醒我适合当天天气的着装，并且可以实时同步我从日本下单的音响的物流进度。OpenClaw还能记录我的杂乱思绪，",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417958-html",
+      "slug": "openclaw-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417958.html",
+      "publishedAt": "2026-05-15T06:36:09.000Z",
+      "titleEn": "智能无处不在：OpenClaw预示的AI未来",
+      "titleZh": "智能无处不在：OpenClaw预示的AI未来",
+      "abstractEn": "融入日常使用的各类终端",
+      "abstractZh": "融入日常使用的各类终端",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-jny9ay58yfcis2l0-html",
+      "slug": "cnc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/JNy9AY58YfCIS2L0.html",
+      "publishedAt": "2026-05-15T02:49:00.000Z",
+      "titleEn": "桌面CNC元年：资本疯抢「小拓竹」，五轴是风口还是伪命题？",
+      "titleZh": "桌面CNC元年：资本疯抢'小拓竹'，五轴是风口还是伪命题？",
+      "abstractEn": "过去一年，桌面CNC赛道急速升温。\n造物时代、巢匠科技众筹金额先后突破千万美金，数马电子低调拆分CNC业务独立融资，涌泉创新成立不到一年估值破亿美金，还有许多水下玩家正在摩拳擦掌、跃跃欲试……从消费者、资本到创业者都对桌面CNC表现出了巨大的热情。\n热钱涌动背后，究竟是用户需求“新大陆”的发现，还是资本与创业者共谋的资本泡沫？在这场多方混战中，谁又将最终脱颖而出？\n\n\n\n\n\n01\n\n\n资本在赌“下一个拓竹”\n\n\n桌面CNC的突然爆火，还得从拓竹和xTool说起。\nCNC设备与3D打印机、激光雕刻机并称为创客工具三件套。\n作为3D打印机赛道的领头羊，拓竹的崛起速度堪称惊人——仅用五年时间就突破了百亿营收。\n消费级硬件有一个特点，一旦产品在市场上取得成功，企业就能快速回笼资金，不再依赖于融资扩张。所以投资机构在做决策时往往会面临一个困境：早期的时候看不准，不敢投；等到企业开始展露苗头了，又投不",
+      "abstractZh": "过去一年，桌面CNC赛道急速升温。\n造物时代、巢匠科技众筹金额先后突破千万美金，数马电子低调拆分CNC业务独立融资，涌泉创新成立不到一年估值破亿美金，还有许多水下玩家正在摩拳擦掌、跃跃欲试……从消费者、资本到创业者都对桌面CNC表现出了巨大的热情。\n热钱涌动背后，究竟是用户需求'新大陆'的发现，还是资本与创业者共谋的资本泡沫？在这场多方混战中，谁又将最终脱颖而出？\n\n\n\n\n\n01\n\n\n资本在赌'下一个拓竹'\n\n\n桌面CNC的突然爆火，还得从拓竹和xTool说起。\nCNC设备与3D打印机、激光雕刻机并称为创客工具三件套。\n作为3D打印机赛道的领头羊，拓竹的崛起速度堪称惊人——仅用五年时间就突破了百亿营收。\n消费级硬件有一个特点，一旦产品在市场上取得成功，企业就能快速回笼资金，不再依赖于融资扩张",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-417935-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/417935.html",
+      "publishedAt": "2026-05-15T02:21:28.000Z",
+      "titleEn": "数亿元融资落地！国内最早布局“人类学习”路线的具身公司，用人类视角重做具身智能",
+      "titleZh": "数亿元融资落地！国内最早布局'人类学习'路线的具身公司，用人类视角重做具身智能",
+      "abstractEn": "具身智能正在经历一场静默但深刻的路线转变",
+      "abstractZh": "具身智能正在经历一场静默但深刻的路线转变",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-vtzd7tfmjuwibtxe-html",
+      "slug": "10-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/VTZD7tfMJuwiBTXE.html",
+      "publishedAt": "2026-05-15T02:11:00.000Z",
+      "titleEn": "首次披露！载合卡车完成10亿元级战略融资，开创车云一体AI重卡全新赛道",
+      "titleZh": "首次披露！载合卡车完成10亿元级战略融资，开创车云一体AI重卡全新赛道",
+      "abstractEn": "近日，载合卡车宣布累计完成10亿元级融资。\n作为AI重卡赛道的新锐领军者，载合卡车汇集了BV百度风投、苏创投、陆石投资等顶级VC支持，并与地平线、创元集团、万安科技等知名产业方建立了“投资+产业链”的深度合作关系，同时获得了中国工商银行、中国建设银行等五大国有银行的全面金融支持。由此，载合卡车完成了“股权+债权+产业”三位一体的资本战略闭环。\n依托大批量产品交付的商业化基础，载合卡车正在“车云一体AI重卡”这个极具差异化的赛道上全速奔跑，未来将持续打造全球最好的新能源智能重卡，并实现“重卡真无人真安全”的大规模落地运营，以硬核创新引领Physical AI In Motion(运输终端物理AI)全面加速应用。\n\n当前，中国“双碳”战略持续深化，交通运输领域绿色低碳转型已成为新质生产力发展的核心方向。国家明确提出大力发展电动及氢能重型卡车，建设零碳运输通道，推进车路云一体化智慧交通体系规模化",
+      "abstractZh": "近日，载合卡车宣布累计完成10亿元级融资。\n作为AI重卡赛道的新锐领军者，载合卡车汇集了BV百度风投、苏创投、陆石投资等顶级VC支持，并与地平线、创元集团、万安科技等知名产业方建立了投资+产业链的深度合作关系，同时获得了中国工商银行、中国建设银行等五大国有银行的全面金融支持。由此，载合卡车完成了股权+债权+产业三位一体的资本战略闭环。\n依托大批量产品交付的商业化基础，载合卡车正在车云一体AI重卡这个极具差异化的赛道上全速奔跑，未来将持续打造全球最好的新能源智能重卡，并实现重卡真无人真安全的大规模落地运营，以硬核创新引领Physical AI In Motion(运输终端物理AI)全面加速应用。\n\n当前，中国双碳战略持续深化，交通运输领域绿色低碳转型已成为新质生产力发展的核",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    }
+  ]
+}
