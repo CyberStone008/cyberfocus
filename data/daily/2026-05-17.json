@@ -1,0 +1,452 @@
+{
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T02:06:58.263Z",
+  "summary": {
+    "aiNews": [
+      "中国500万医生引入AI，顶刊联手打造证据源驱动系统",
+      "OpenAI与马耳他政府合作，向全体公民推出ChatGPT Plus",
+      "DeepSeek-V4-Flash发布，重新定义LLM导航体验"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48164615",
+      "slug": "hn-48164615-your-brain-is-always-a-fraction-of-a-second-behind-the-present",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.sciencefocus.com/the-human-body/brain-lives-past",
+      "commentUrl": "https://news.ycombinator.com/item?id=48164615",
+      "publishedAt": "2026-05-16T23:14:20.000Z",
+      "titleEn": "Your brain is always a fraction of a second behind the present",
+      "titleZh": "你的大脑总是比当下滞后几分之一秒",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "amichail"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48164287",
+      "slug": "hn-48164287-zerostack-a-unix-inspired-coding-agent-written-in-pure-rust",
+      "source": "Hacker News",
+      "sourceUrl": "https://crates.io/crates/zerostack/1.0.0",
+      "commentUrl": "https://news.ycombinator.com/item?id=48164287",
+      "publishedAt": "2026-05-16T22:23:50.000Z",
+      "titleEn": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "titleZh": "Zerostack —— 一个受 Unix 启发的纯 Rust 编写的编码代理",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "gidellav"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 163,
+      "commentCount": 46,
+      "tags": []
+    },
+    {
+      "id": "hn:48163392",
+      "slug": "hn-48163392-openai-and-government-of-malta-partner-to-roll-out-chatgpt-plus-to-a",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48163392",
+      "publishedAt": "2026-05-16T20:14:06.000Z",
+      "titleEn": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "titleZh": "OpenAI 与马耳他政府合作，向全体公民推出 ChatGPT Plus",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bookofjoe"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 64,
+      "commentCount": 68,
+      "tags": []
+    },
+    {
+      "id": "hn:48161769",
+      "slug": "hn-48161769-how-bill-c-22-went-off-the-rails",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.michaelgeist.ca/2026/05/the-lawful-access-two-headed-surveillance-monster-how-bill-c-22-went-off-the-rails/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48161769",
+      "publishedAt": "2026-05-16T16:48:51.000Z",
+      "titleEn": "How Bill C-22 Went Off the Rails",
+      "titleZh": "C-22 法案是如何偏离轨道的",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "GavinAnderegg"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48160807",
+      "slug": "hn-48160807-deepseek-v4-flash-means-llm-steering-is-interesting-again",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.seangoedecke.com/steering-vectors/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48160807",
+      "publishedAt": "2026-05-16T14:58:16.000Z",
+      "titleEn": "DeepSeek-V4-Flash means LLM steering is interesting again",
+      "titleZh": "DeepSeek-V4-Flash 使 LLM 导航重新变得有趣",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Brajeshwar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 213,
+      "commentCount": 70,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418620-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418620.html",
+      "publishedAt": "2026-05-16T13:44:16.000Z",
+      "titleEn": "不用再找了，AI落地最全的实战打法，都在亦庄这场大会里",
+      "titleZh": "不用再找了，AI落地最全的实战打法，都在亦庄这场大会里",
+      "abstractEn": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。",
+      "abstractZh": "5月19日至20日，带上你的需求。带上你的方案，我们在亦庄，不见不散。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-fmkwxfmzbw2xrxwk-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/fMkWxfMZbW2XRxwK.html",
+      "publishedAt": "2026-05-16T13:26:00.000Z",
+      "titleEn": "CVPR 2026 自动驾驶与协作智能梳理：模型正在走向可控真实世界",
+      "titleZh": "CVPR 2026 自动驾驶与协作智能梳理：模型正在走向可控真实世界",
+      "abstractEn": "从仿真构造到多主体配合，AI 正在补齐行动决策链条。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n过去，视觉模型更多是在回答“看见了什么”，但当 AI 进入自动驾驶、游戏、机器人和多智能体协作场景时，问题已经不只是识别环境，而是“看见之后如何行动”。\n一辆自动驾驶汽车不能只知道前方有车，还要判断如何避让、如何规划路线，甚至要在遮挡、夜晚和复杂天气中借助外部信息补足感知，一个游戏智能体不能只识别画面里的角色、障碍和敌人，还要把连续观察转化成具体操作；多个机器人或虚拟人也不能只是各自执行动作，而要根据队友位置、物体形状、任务目标和团队规模动态配合。\n这种变化",
+      "abstractZh": "从仿真构造到多主体配合，AI 正在补齐行动决策链条。\n\n\n\n\n\n 作者丨郑佳美\n\n 编辑丨马晓宁 \n\n\n过去，视觉模型更多是在回答'看见了什么'，但当 AI 进入自动驾驶、游戏、机器人和多智能体协作场景时，问题已经不只是识别环境，而是'看见之后如何行动'。\n一辆自动驾驶汽车不能只知道前方有车，还要判断如何避让、如何规划路线，甚至要在遮挡、夜晚和复杂天气中借助外部信息补足感知，一个游戏智能体不能只识别画面里的角色、障碍和敌人，还要把连续观察转化成具体操作；多个机器",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-cvsooem3y0euaxhg-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/cVsooEM3Y0eUAxHG.html",
+      "publishedAt": "2026-05-16T13:23:00.000Z",
+      "titleEn": "CVPR 2026 视频模型趋势梳理：不止生成下一帧，更要理解下一步",
+      "titleZh": "CVPR 2026 视频模型趋势梳理：不止生成下一帧，更要理解下一步",
+      "abstractEn": "视频智能正从画面生成走向运动控制、动态建模、信号理解与真实场景应用。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n过去，视频生成更多是在解决“像不像”的问题：人物是否清晰，画面是否流畅，风格是否统一。但随着模型能力提升，视频真正困难的部分开始显现出来——它不是一组漂亮帧的连续播放，而是一个由时间、空间、运动、相机、光照和物理信号共同构成的动态系统。\n只要模型无法理解这些隐含结构，它生成的视频就可能看似逼真，却在运动逻辑、视角一致性或真实场景适应上露出破绽。因此，视频智能正在进入一个更深的阶段：不只是生成画面，而是理解画面为什么会这样变化。\n从运动轨迹编辑",
+      "abstractZh": "视频智能正从画面生成走向运动控制、动态建模、信号理解与真实场景应用。\n\n\n\n\n\n 作者丨郑佳美\n\n 编辑丨马晓宁 \n\n\n过去，视频生成更多是在解决'像不像'的问题：人物是否清晰，画面是否流畅，风格是否统一。但随着模型能力提升，视频真正困难的部分开始显现出来——它不是一组漂亮帧的连续播放，而是一个由时间、空间、运动、相机、光照和物理信号共同构成的动态系统。\n只要模型无法理解这些隐含结构，它生成的视频就可能看似逼真，却在运动逻辑、视角一致性或真实场景适应上露出破绽。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48159790",
+      "slug": "hn-48159790-my-favorite-bugs-invalid-surrogate-pairs",
+      "source": "Hacker News",
+      "sourceUrl": "https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48159790",
+      "publishedAt": "2026-05-16T12:49:07.000Z",
+      "titleEn": "My Favorite Bugs: Invalid Surrogate Pairs",
+      "titleZh": "我最喜欢的 Bug：无效代理对",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "meysamazad"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 88,
+      "commentCount": 43,
+      "tags": []
+    },
+    {
+      "id": "hn:48159227",
+      "slug": "hn-48159227-openclaw-creator-spent-1-3m-on-openai-tokens-in-30-days",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/steipete/status/2055346265869721905",
+      "commentUrl": "https://news.ycombinator.com/item?id=48159227",
+      "publishedAt": "2026-05-16T11:34:04.000Z",
+      "titleEn": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+      "titleZh": "OpenClaw 开发者在30天内花费130万美元购买 OpenAI 代币",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "eamag"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 142,
+      "commentCount": 172,
+      "tags": []
+    },
+    {
+      "id": "hn:48158400",
+      "slug": "hn-48158400-moving-away-from-tailwind-and-learning-to-structure-my-css",
+      "source": "Hacker News",
+      "sourceUrl": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48158400",
+      "publishedAt": "2026-05-16T09:14:26.000Z",
+      "titleEn": "Moving away from Tailwind, and learning to structure my CSS",
+      "titleZh": "脱离 Tailwind，学习构建我的 CSS",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mpweiher"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 437,
+      "commentCount": 281,
+      "tags": []
+    },
+    {
+      "id": "hn:48157559",
+      "slug": "hn-48157559-frontier-ai-has-broken-the-open-ctf-format",
+      "source": "Hacker News",
+      "sourceUrl": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "commentUrl": "https://news.ycombinator.com/item?id=48157559",
+      "publishedAt": "2026-05-16T07:01:55.000Z",
+      "titleEn": "Frontier AI has broken the open CTF format",
+      "titleZh": "前沿 AI 已打破开放式 CTF 格式",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "frays"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 339,
+      "commentCount": 331,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418491-html",
+      "slug": "500-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418491.html",
+      "publishedAt": "2026-05-16T04:49:15.000Z",
+      "titleEn": "中国500万医生的新AI：顶刊独家联手，卷的就是证据源",
+      "titleZh": "中国500万医生的新AI：顶刊独家联手，卷的就是证据源",
+      "abstractEn": "阿里健康发布「氢离子」",
+      "abstractZh": "阿里健康发布「氢离子」",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48155324",
+      "slug": "hn-48155324-the-main-thing-about-p2p-meth-is-that-theres-so-much-of-it-2021",
+      "source": "Hacker News",
+      "sourceUrl": "https://dynomight.net/p2p-meth/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48155324",
+      "publishedAt": "2026-05-15T23:37:32.000Z",
+      "titleEn": "The main thing about P2P meth is that there's so much of it (2021)",
+      "titleZh": "P2P 甲基苯丙胺的主要问题在于其数量惊人（2021）",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tomjakubowski"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 186,
+      "commentCount": 231,
+      "tags": []
+    },
+    {
+      "id": "hn:48153379",
+      "slug": "hn-48153379-i-believe-there-are-entire-companies-right-now-under-ai-psychosis",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/mitchellh/status/2055380239711457578",
+      "commentUrl": "https://news.ycombinator.com/item?id=48153379",
+      "publishedAt": "2026-05-15T20:26:47.000Z",
+      "titleEn": "I believe there are entire companies right now under AI psychosis",
+      "titleZh": "我认为目前有整家公司正处于 AI 精神错乱状态",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "reasonableklout"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 1886,
+      "commentCount": 1074,
+      "tags": []
+    },
+    {
+      "id": "hn:48151383",
+      "slug": "hn-48151383-u-s-doj-demands-apple-and-google-unmask-over-100k-users-of-car-tinke",
+      "source": "Hacker News",
+      "sourceUrl": "https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48151383",
+      "publishedAt": "2026-05-15T17:28:24.000Z",
+      "titleEn": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
+      "titleZh": "美国司法部要求 Apple 和 Google 披露超过 10 万名汽车改装应用用户身份",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tencentshill"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 464,
+      "commentCount": 325,
+      "tags": []
+    },
+    {
+      "id": "hn:48150900",
+      "slug": "hn-48150900-bun-rust-rewrite-codebase-fails-basic-miri-checks-allows-for-ub-in-s",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/oven-sh/bun/issues/30719",
+      "commentUrl": "https://news.ycombinator.com/item?id=48150900",
+      "publishedAt": "2026-05-15T16:51:25.000Z",
+      "titleEn": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "titleZh": "Bun Rust 重写：'代码库未通过基本 miri 检查，允许在 safe Rust 中存在未定义行为'",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ndiddy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 464,
+      "commentCount": 334,
+      "tags": []
+    },
+    {
+      "id": "hn:48150723",
+      "slug": "hn-48150723-openai-is-connecting-chatgpt-to-bank-accounts-via-plaid",
+      "source": "Hacker News",
+      "sourceUrl": "https://firethering.com/chatgpt-bank-account-plaid-openai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48150723",
+      "publishedAt": "2026-05-15T16:38:50.000Z",
+      "titleEn": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
+      "titleZh": "OpenAI 通过 Plaid 将 ChatGPT 连接到银行账户",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "steveharing1"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 101,
+      "commentCount": 129,
+      "tags": []
+    },
+    {
+      "id": "hn:48150414",
+      "slug": "hn-48150414-i-love-linux-but-i-cant-quit-windows",
+      "source": "Hacker News",
+      "sourceUrl": "https://jpain.io/i-love-linux-but-i-cant-quit-windows/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48150414",
+      "publishedAt": "2026-05-15T16:13:53.000Z",
+      "titleEn": "I love Linux, but I can't quit Windows",
+      "titleZh": "我爱 Linux，但我无法放弃 Windows",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 95,
+      "commentCount": 174,
+      "tags": []
+    },
+    {
+      "id": "hn:48148460",
+      "slug": "hn-48148460-a-0-click-exploit-chain-for-the-pixel-10",
+      "source": "Hacker News",
+      "sourceUrl": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48148460",
+      "publishedAt": "2026-05-15T13:39:54.000Z",
+      "titleEn": "A 0-click exploit chain for the Pixel 10",
+      "titleZh": "针对 Pixel 10 的零点击漏洞利用链",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "happyhardcore"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 430,
+      "commentCount": 228,
+      "tags": []
+    },
+    {
+      "id": "hn:48148337",
+      "slug": "hn-48148337-amazon-workers-under-pressure-to-up-their-ai-usage-are-making-up-tas",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
+      "commentUrl": "https://news.ycombinator.com/item?id=48148337",
+      "publishedAt": "2026-05-15T13:28:55.000Z",
+      "titleEn": "Amazon workers under pressure to up their AI usage are making up tasks",
+      "titleZh": "在提升 AI 使用量的压力下，亚马逊员工正在编造任务",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hackernj"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 381,
+      "commentCount": 425,
+      "tags": []
+    }
+  ]
+}
