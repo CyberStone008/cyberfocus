@@ -1,0 +1,555 @@
+{
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-18T02:10:29.693Z",
+  "summary": {
+    "aiNews": [
+      "韶音举办2026 Shokz Day，开启全场景声态新时代",
+      "亚利桑那大学学生嘘声质疑Eric Schmidt的AI热捧",
+      "AI车牌摄像头引发小镇进入紧急状态"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48173547",
+      "slug": "hn-48173547-the-history-of-thinkpad-from-ibms-bento-box-to-lenovos-ai-workstatio",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.jdhodges.com/blog/thinkpad-history/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48173547",
+      "publishedAt": "2026-05-17T21:56:40.000Z",
+      "titleEn": "The History of ThinkPad: From IBM’s Bento Box to Lenovo’s AI Workstations",
+      "titleZh": "ThinkPad 史：从 IBM 的便当盒到联想的 AI 工作站",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "zdw"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 56,
+      "commentCount": 27,
+      "tags": []
+    },
+    {
+      "id": "hn:48173501",
+      "slug": "hn-48173501-ai-wearables-are-coming-but-theyll-need-to-pass-the-coffee-shop-test",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.inc.com/connor-jewiss/ai-wearables-are-coming-but-theyll-need-to-pass-this-crucial-coffee-shop-test-to-survive/91345526",
+      "commentUrl": "https://news.ycombinator.com/item?id=48173501",
+      "publishedAt": "2026-05-17T21:49:44.000Z",
+      "titleEn": "AI Wearables Are Coming but They'll Need to Pass the Coffee Shop Test to Survive",
+      "titleZh": "AI可穿戴设备即将到来，但它们需要通过咖啡店测试才能生存",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "connorjewiss"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 17,
+      "commentCount": 9,
+      "tags": []
+    },
+    {
+      "id": "hn:48173468",
+      "slug": "hn-48173468-two-ea-18-fighter-jets-collide-at-mountain-home-airshow-pilots-eject",
+      "source": "Hacker News",
+      "sourceUrl": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+      "commentUrl": "https://news.ycombinator.com/item?id=48173468",
+      "publishedAt": "2026-05-17T21:45:30.000Z",
+      "titleEn": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+      "titleZh": "两架 EA-18 战斗机在 Mountain Home 航展相撞，飞行员安全弹射",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ChrisArchitect"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 94,
+      "commentCount": 74,
+      "tags": []
+    },
+    {
+      "id": "hn:48173356",
+      "slug": "hn-48173356-japan-team-successfully-test-engine-for-mach-5-aircraft-eyeing-2hr-t",
+      "source": "Hacker News",
+      "sourceUrl": "https://mainichi.jp/english/articles/20260511/p2a/00m/0sc/015000c",
+      "commentUrl": "https://news.ycombinator.com/item?id=48173356",
+      "publishedAt": "2026-05-17T21:28:19.000Z",
+      "titleEn": "Japan Team Successfully Test Engine for Mach 5 Aircraft, Eyeing 2HR Trip to US",
+      "titleZh": "日本团队成功测试5马赫飞机引擎，瞄准2小时飞抵美国",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "karakoram"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 15,
+      "commentCount": 7,
+      "tags": []
+    },
+    {
+      "id": "hn:48173138",
+      "slug": "hn-48173138-ftc-tells-platforms-to-comply-with-take-it-down-act-by-may-19",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-chairman-ferguson-advises-companies-comply-take-it-down-act",
+      "commentUrl": "https://news.ycombinator.com/item?id=48173138",
+      "publishedAt": "2026-05-17T20:58:49.000Z",
+      "titleEn": "FTC tells platforms to comply with Take It Down Act by May 19",
+      "titleZh": "FTC要求平台在5月19日前遵守删除法案",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "p_stuart82"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 16,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48172952",
+      "slug": "hn-48172952-where-openclaw-security-is-heading",
+      "source": "Hacker News",
+      "sourceUrl": "https://openclaw.ai/blog/where-openclaw-security-is-heading",
+      "commentUrl": "https://news.ycombinator.com/item?id=48172952",
+      "publishedAt": "2026-05-17T20:32:21.000Z",
+      "titleEn": "Where OpenClaw Security Is Heading",
+      "titleZh": "OpenClaw Security 的发展方向",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "paulofeliciano"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 20,
+      "commentCount": 14,
+      "tags": []
+    },
+    {
+      "id": "hn:48172680",
+      "slug": "hn-48172680-the-four-horsemen-of-the-llm-apocalypse",
+      "source": "Hacker News",
+      "sourceUrl": "https://anarc.at/blog/2026-05-16-four-horsemen/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48172680",
+      "publishedAt": "2026-05-17T19:58:27.000Z",
+      "titleEn": "The Four Horsemen of the LLM Apocalypse",
+      "titleZh": "LLM末世的四大骑士",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "edward"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48172640",
+      "slug": "hn-48172640-fwd-multicians-peter-neumann-has-died",
+      "source": "Hacker News",
+      "sourceUrl": "https://lwn.net/ml/all/CAEoi9W7rpLzdJzYJ3-F0KVJo-wQXa7UawUYtUoUUYy36m5e_3Q@mail.gmail.com/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48172640",
+      "publishedAt": "2026-05-17T19:53:53.000Z",
+      "titleEn": "Fwd: [multicians] Peter Neumann has died",
+      "titleZh": "转发：[multicians] Peter Neumann 去世",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Tomte"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 19,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48171906",
+      "slug": "hn-48171906-scientists-bottle-the-sun-with-a-liquid-battery-that-stores-solar-en",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/05/260513221821.htm",
+      "commentUrl": "https://news.ycombinator.com/item?id=48171906",
+      "publishedAt": "2026-05-17T18:42:35.000Z",
+      "titleEn": "Scientists “bottle the sun” with a liquid battery that stores solar energy",
+      "titleZh": "科学家用液体电池装下太阳，储存太阳能",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ndr42"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 50,
+      "commentCount": 33,
+      "tags": []
+    },
+    {
+      "id": "hn:48171852",
+      "slug": "hn-48171852-university-of-arizona-students-boo-eric-schmidts-ai-cheerleading",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "commentUrl": "https://news.ycombinator.com/item?id=48171852",
+      "publishedAt": "2026-05-17T18:37:59.000Z",
+      "titleEn": "University of Arizona students boo Eric Schmidt's AI cheerleading",
+      "titleZh": "亚利桑那大学学生嘘声 Eric Schmidt 的 AI 热捧",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "latexr"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 52,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48170810",
+      "slug": "hn-48170810-meta-deletes-popular-1m-follower-account-after-kuwaiti-request",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/ryangrim/status/2055992439031185782",
+      "commentUrl": "https://news.ycombinator.com/item?id=48170810",
+      "publishedAt": "2026-05-17T17:10:48.000Z",
+      "titleEn": "Meta deletes popular 1M follower account after Kuwaiti request",
+      "titleZh": "Meta 应科威特要求删除了拥有 100 万粉丝的热门账号",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bhouston"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 188,
+      "commentCount": 126,
+      "tags": []
+    },
+    {
+      "id": "hn:48169874",
+      "slug": "hn-48169874-show-hn-semble-code-search-for-agents-that-uses-98-fewer-tokens-than",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/MinishLab/semble",
+      "commentUrl": "https://news.ycombinator.com/item?id=48169874",
+      "publishedAt": "2026-05-17T15:37:07.000Z",
+      "titleEn": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "titleZh": "Show HN: Semble – 比 grep 少用 98% token 的 AI 代理代码搜索工具",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Bibabomas"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 173,
+      "commentCount": 41,
+      "tags": []
+    },
+    {
+      "id": "hn:48169819",
+      "slug": "hn-48169819-ai-license-plate-cameras-tore-this-town-apart-and-led-to-a-state-of",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.washingtonpost.com/nation/2026/05/17/citys-ai-license-plate-cameras-led-an-uproar-state-emergency/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48169819",
+      "publishedAt": "2026-05-17T15:31:08.000Z",
+      "titleEn": "AI license plate cameras tore this town apart and led to a state of emergency",
+      "titleZh": "AI车牌摄像头撕裂了这座小镇，导致进入紧急状态",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "greenburger"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 41,
+      "commentCount": 17,
+      "tags": []
+    },
+    {
+      "id": "hn:48168626",
+      "slug": "hn-48168626-ai-is-a-technology-not-a-product",
+      "source": "Hacker News",
+      "sourceUrl": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168626",
+      "publishedAt": "2026-05-17T13:11:20.000Z",
+      "titleEn": "AI is a technology not a product",
+      "titleZh": "AI是技术，不是产品",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ch_sm"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 331,
+      "commentCount": 135,
+      "tags": []
+    },
+    {
+      "id": "hn:48168426",
+      "slug": "hn-48168426-agentic-trading-with-safe-guardrails",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/ShurikenTrade/shuriken-skills",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168426",
+      "publishedAt": "2026-05-17T12:44:24.000Z",
+      "titleEn": "Agentic Trading with Safe Guardrails",
+      "titleZh": "具有安全护栏的代理交易",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jgan0978"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 44,
+      "commentCount": 23,
+      "tags": []
+    },
+    {
+      "id": "hn:48168221",
+      "slug": "hn-48168221-i-dont-think-ai-will-make-your-processes-go-faster",
+      "source": "Hacker News",
+      "sourceUrl": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168221",
+      "publishedAt": "2026-05-17T12:13:45.000Z",
+      "titleEn": "I don't think AI will make your processes go faster",
+      "titleZh": "我不认为AI会让你的流程变快",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "TheEdonian"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 497,
+      "commentCount": 351,
+      "tags": []
+    },
+    {
+      "id": "hn:48168198",
+      "slug": "hn-48168198-apple-silicon-costs-more-than-openrouter",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168198",
+      "publishedAt": "2026-05-17T12:09:23.000Z",
+      "titleEn": "Apple Silicon costs more than OpenRouter",
+      "titleZh": "Apple Silicon 比 OpenRouter 更贵",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "datadrivenangel"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 298,
+      "commentCount": 254,
+      "tags": []
+    },
+    {
+      "id": "hn:48168159",
+      "slug": "hn-48168159-trials-on-veterans-suggest-ibogaine-could-provide-a-new-treatment-fo",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168159",
+      "publishedAt": "2026-05-17T12:03:04.000Z",
+      "titleEn": "Trials on veterans suggest ibogaine could provide a new treatment for PTSD",
+      "titleZh": "退伍军人试验表明伊博根可能为 PTSD 提供新的治疗方法",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bushwart"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 81,
+      "commentCount": 89,
+      "tags": []
+    },
+    {
+      "id": "hn:48168056",
+      "slug": "hn-48168056-ai-subscriptions-are-a-ticking-time-bomb-for-enterprise",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
+      "commentUrl": "https://news.ycombinator.com/item?id=48168056",
+      "publishedAt": "2026-05-17T11:49:31.000Z",
+      "titleEn": "AI subscriptions are a ticking time bomb for enterprise",
+      "titleZh": "AI订阅是企业的一颗定时炸弹",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mooreds"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 375,
+      "commentCount": 374,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-vrwujx5pqyqkla9t-html",
+      "slug": "2026-shokz-day",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/vrWujx5Pqyqkla9T.html",
+      "publishedAt": "2026-05-17T10:53:00.000Z",
+      "titleEn": "2026 Shokz Day圆满收官：韶音以「随我动听」开启全场景声态新时代",
+      "titleZh": "2026 Shokz Day圆满收官：韶音以「随我动听」开启全场景声态新时代",
+      "abstractEn": "2026年5月15日，全球开放式耳机领导品牌Shokz韶音在深圳湾文化广场举办2026「随我动听」Shokz Day。活动期间，韶音围绕OpenDots 2、OpenSwim Pro 2与OpenDots Air三款新品展开集中分享，系统阐释了「随我动听」的品牌主张。韶音全球品牌大使张婧仪登台分享，由韶音与国际设计大师Matteo Menotto合作的「缮己新声」艺术礼盒也在现场展出，带来一场关于听觉自由与生活质感的全新生活方式表达。\n\n锚定开放内核，解码「随我动听」\nShokz韶音中国区CEO杨云在现场分享了品牌对开放聆听的最新思考：“真实的世界从不静止。声音在流动，环境在变化，人的状态也在不断切换。过去，耳机给用户的选择并不多——要么沉浸而隔绝，要么感知而妥协。我们相信，理想的声音体验应当把选择权交还给用户。「随我动听」的核心，是声音跟随人的节奏。”\n「随我」，意味着选择自由——用户可",
+      "abstractZh": "2026年5月15日，全球开放式耳机领导品牌Shokz韶音在深圳湾文化广场举办2026「随我动听」Shokz Day。活动期间，韶音围绕OpenDots 2、OpenSwim Pro 2与OpenDots Air三款新品展开集中分享，系统阐释了「随我动听」的品牌主张。韶音全球品牌大使张婧仪登台分享，由韶音与国际设计大师Matteo Menotto合作的「缮己新声」艺术礼盒也在现场展出，带来一场关于听觉自由与生活质感的全新生活方式表达。\n\n锚定开放内核，解码「随我动听」\nShokz韶音中国区CEO杨云在现场分享了品牌对开放聆听的最新思考：真实的世界从不静止。声音在流动，环境在变化，人的状态也在不断切换。过去，耳机给用户的选择并不多——要么沉浸而隔绝，要么感知而妥协。我们相信，理想的声音体验应",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418836-html",
+      "slug": "agent-5-20-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418836.html",
+      "publishedAt": "2026-05-17T08:55:21.000Z",
+      "titleEn": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
+      "titleZh": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-oijsmkg9ln37bn82-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/oIjSMkG9ln37bN82.html",
+      "publishedAt": "2026-05-17T08:52:00.000Z",
+      "titleEn": "奇安信集团与北京八中签署战略合作协议 青少年人工智能安全培养基地正式揭牌",
+      "titleZh": "奇安信集团与北京八中签署战略合作协议 青少年人工智能安全培养基地正式揭牌",
+      "abstractEn": "5月16日，奇安信集团与北京八中战略合作签约暨“青少年人工智能安全培养基地”揭牌仪式在北京八中四存校区成功举行，标志着北京市首个在人工智能安全领域的示范性学习培养基地正式落成并启动。北京市教育委员会信息化处处长吴雅星，国务院参事、北京市第八中学校长王俊成、北京市西城区教育委员会副主任尹申、李睿，全国政协委员、全国工商联副主席、奇安信集团董事长齐向东等出席仪式，共同见证校企携手、共育未来的重要时刻。活动由北京市第八中学党委书记、四存校区执行校长张晓梅主持。\n \n北京八中-奇安信青少年人工势能安全培养基地揭牌仪式\n本次战略合作，是双方积极响应国家关于加强网络安全人才培养、推动网络安全教育普及的重要举措。依托双方优势资源，共同建设面向青少年的人工智能安全安全教育基地、开发网络安全课程，打造集“教学、实训、比赛”于一体的青少年网络安全创新人才培养平台，全面提升青少年网络安全技能与创新实践能力，为我",
+      "abstractZh": "5月16日，奇安信集团与北京八中战略合作签约暨青少年人工智能安全培养基地揭牌仪式在北京八中四存校区成功举行，标志着北京市首个在人工智能安全领域的示范性学习培养基地正式落成并启动。北京市教育委员会信息化处处长吴雅星，国务院参事、北京市第八中学校长王俊成、北京市西城区教育委员会副主任尹申、李睿，全国政协委员、全国工商联副主席、奇安信集团董事长齐向东等出席仪式，共同见证校企携手、共育未来的重要时刻。活动由北京市第八中学党委书记、四存校区执行校长张晓梅主持。\n \n北京八中-奇安信青少年人工势能安全培养基地揭牌仪式\n本次战略合作，是双方积极响应国家关于加强网络安全人才培养、推动网络安全教育普及的重要举措。依托双方优势资源，共同建设面向青少年的人工智能安全安全教育基地、开发网络安全课程，打造集教学",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418822-html",
+      "slug": "940-token-openai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418822.html",
+      "publishedAt": "2026-05-17T04:48:24.000Z",
+      "titleEn": "龙虾之父月烧940万元的token！要不是入职OpenAI还真用不起",
+      "titleZh": "龙虾之父月烧940万元的token！要不是入职OpenAI还真用不起",
+      "abstractEn": "“但复杂需求还得Claude”",
+      "abstractZh": "但复杂需求还得Claude",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418814-html",
+      "slug": "sft-rl",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418814.html",
+      "publishedAt": "2026-05-17T03:42:11.000Z",
+      "titleEn": "SFT别急着接RL！你的多模态大模型可能一直在“带伤训练”",
+      "titleZh": "SFT别急着接RL！你的多模态大模型可能一直在带伤训练",
+      "abstractEn": "先把SFT挖的坑填了！",
+      "abstractZh": "先把SFT挖的坑填了！",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-418737-html",
+      "slug": "6-4k-stars-claude-code",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/418737.html",
+      "publishedAt": "2026-05-17T03:37:07.000Z",
+      "titleEn": "6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了",
+      "titleZh": "6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了",
+      "abstractEn": "费用参考也很透明",
+      "abstractZh": "费用参考也很透明",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48163956",
+      "slug": "hn-48163956-twilight-of-the-velocipede-typesetting-races-before-the-age-of-linot",
+      "source": "Hacker News",
+      "sourceUrl": "https://publicdomainreview.org/essay/twilight-of-the-velocipede/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48163956",
+      "publishedAt": "2026-05-16T21:25:07.000Z",
+      "titleEn": "Twilight of the Velocipede: Typesetting Races Before the Age of Linotype",
+      "titleZh": "自行车的黄昏：Linotype 时代前的排版竞赛",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "benbreen"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 45,
+      "commentCount": 5,
+      "tags": []
+    }
+  ]
+}
