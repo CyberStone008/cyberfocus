@@ -48,14 +48,15 @@ function isNew(article: Article): boolean {
 
 /**
  * Date key used for feed grouping.
- * If the article was fetched today (BJ time), group it under today so it
- * appears in "今天" even when publishedAt is yesterday.
+ * Use max(fetchedAt, publishedAt) so articles discovered today appear under
+ * today's date even when they were technically published earlier.
+ * This avoids "5/17 group disappears when viewed on 5/18" type bugs.
  */
 function getGroupDate(article: Article): string {
-  if (article.fetchedAt && getDateKey(article.fetchedAt) === todayBJ()) {
-    return todayBJ();
-  }
-  return getDateKey(article.publishedAt);
+  const publishedKey = getDateKey(article.publishedAt);
+  if (!article.fetchedAt) return publishedKey;
+  const fetchedKey = getDateKey(article.fetchedAt);
+  return fetchedKey > publishedKey ? fetchedKey : publishedKey;
 }
 
 function formatDateLabel(dateKey: string): string {

@@ -279,6 +279,19 @@ export const ORGS_SOURCES: SourceDef[] = [
     category: 'research',
     boards: ['orgs'],
   },
+  {
+    id: 'Recruit Holdings',
+    name: 'Recruit Holdings',
+    abbr: 'RH',
+    avatarColor: '#0055c8',
+    label: 'HR 科技',
+    description: '日本人力资源科技巨头，旗下拥有 Indeed、Glassdoor，发布就业市场与 HR 科技洞察报告。',
+    url: 'https://recruit-holdings.com/en/',
+    type: 'pull',
+    frequency: '每天 10:00',
+    category: 'research',
+    boards: ['orgs'],
+  },
   // Domestic
   {
     id: '科锐国际',

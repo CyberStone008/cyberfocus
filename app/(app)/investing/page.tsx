@@ -1,18 +1,57 @@
-import articles from '../../../data/articles.json';
-import { Article } from '../../types/article';
-import { ReportFeed } from '../../components/ReportFeed';
+import { readdirSync, readFileSync, existsSync, statSync } from 'fs';
+import { resolve, join } from 'path';
+import { StrategyBriefFeed, type Brief } from '../../components/StrategyBriefFeed';
+import { InvestingNav } from '../../components/InvestingNav';
+
+const BRIEFS_DIR  = resolve(process.cwd(), 'data/strategy-briefs');
+const SECTORS_DIR = resolve(process.cwd(), 'data/sector-reports');
+
+/** Parse the 一句话叙事 narrative line from a brief's markdown */
+function extractNarrative(md: string): string {
+  const m = md.match(/##\s*【一句话叙事】\s*\n+\s*>\s*([\s\S]+?)(?=\n\s*\n---|\n\s*##)/);
+  if (!m) return '';
+  return m[1]
+    .replace(/\n>/g, ' ')
+    .replace(/\*\*/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function countWords(md: string): number {
+  return md.replace(/\s+/g, '').length;
+}
+
+function loadBriefs(): Brief[] {
+  if (!existsSync(BRIEFS_DIR)) return [];
+  const files = readdirSync(BRIEFS_DIR).filter((f) => /^\d{4}-\d{2}-\d{2}\.md$/.test(f));
+  return files
+    .map((filename) => {
+      const date = filename.replace('.md', '');
+      const filePath = join(BRIEFS_DIR, filename);
+      const contentMd = readFileSync(filePath, 'utf8');
+      const mtime = statSync(filePath).mtime.toISOString();
+      return {
+        date,
+        narrative: extractNarrative(contentMd),
+        wordCount: countWords(contentMd),
+        generatedAt: mtime,
+      };
+    })
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function countSectorReports(): number {
+  if (!existsSync(SECTORS_DIR)) return 0;
+  return readdirSync(SECTORS_DIR).filter((f) => /^\d{4}-\d{2}-.+\.md$/.test(f)).length;
+}
 
 export default function InvestingPage() {
-  const sorted = (articles as Article[])
-    .filter((a) => a.category === 'investing')
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-
+  const briefs = loadBriefs();
+  const sectorCount = countSectorReports();
   return (
-    <ReportFeed
-      articles={sorted}
-      title="价值投资"
-      subtitle="· 研究报告 · 公司分析 · 市场洞察"
-      showAnalysis={true}
-    />
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden', minHeight: 0, flex: 1 }}>
+      <InvestingNav totalBriefs={briefs.length} totalSectors={sectorCount} />
+      <StrategyBriefFeed briefs={briefs} />
+    </div>
   );
 }

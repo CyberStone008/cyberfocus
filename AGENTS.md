@@ -46,7 +46,50 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: new Date().toISOString()`（ISO 字符串）。前端用途：
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
-- **今天分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` 函数：若文章是今天（北京时间）抓取的，则归入「今天」日期组，即使 `publishedAt` 是昨天（避免「今天只有 1 篇」的问题）
+- **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` 函数取 `max(fetchedAt, publishedAt)` 作为分组日期——"我们第一次看到这篇是哪一天"是稳定的，不会随用户打开页面的时间漂移。不要改回"只在今天才归今天"的逻辑，那样昨天抓的文章今天打开会消失到 publishedAt 日期组里去。
+
+### AI 内容过滤：必须用 word-boundary 正则，禁止 `includes('ai')`
+
+凡是按关键词过滤"AI 相关"内容的 fetcher（HN、Reddit、Google News、爬虫、未来新增源），**关键词匹配一律走单词边界正则**，不要用朴素 `includes()`。
+
+**踩过的坑**：`'ai'` 作为 2 字符子串会匹配 `airshow / aircraft / main / said / rain / claim / trail / fail / detail / available / dubai / thai / rails` 等无关词；`'rag'` 会匹配 `dragon / fragment / drag`；`'agent'` 会匹配 `agency / fragment`。一次清理掉了 36% 的 HN 误中。
+
+**正确写法**（参考 `scripts/fetch/hackernews.js` 顶部 `AI_PATTERNS`）：
+
+```js
+const AI_PATTERNS = [
+  // 短词必须 \b 边界
+  /\bai\b/i,           // "AI" as standalone — 不是 airshow / aircraft
+  /\bai[-/]/i,         // "AI-", "AI/" (例 "AI-powered")
+  /agentic/i,
+  /\bllm[s]?\b/i,
+  /\bgpt[-0-9]?/i,
+  /\bagi\b/i,
+  /\brag\b/i,
+  /\bagent[s]?\b/i,
+  /\bvector\b/i,
+  // 长且独特的词可以子串
+  /claude/i, /gemini/i, /mistral/i, /llama/i,
+  /openai/i, /anthropic/i, /deepmind/i, /chatgpt/i, /copilot/i,
+  /diffusion/i, /transformer/i, /inference/i, /multimodal/i,
+  /embedding/i, /hugging\s*face/i, /reinforcement/i, /fine[- ]?tun/i,
+  /machine\s+learning/i, /deep\s+learning/i, /neural\s+net/i,
+  /大模型/, /人工智能/, /生成式/,
+];
+const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' + url));
+```
+
+**判断规则**：
+- 关键词 ≤ 3 字符（ai / rag / agi / gpt / llm 等）→ 必须 `\b...\b` 或 `\b...[-/]`
+- 关键词 4 字符但有歧义（agent → agency）→ 必须 `\b...\b`
+- 关键词 ≥ 5 字符且独特（claude / openai / anthropic）→ 普通子串 OK
+- 短语关键词（machine learning）→ 用 `\s+` 允许空白变体
+- 中文关键词 → 直接子串，CJK 没有 word-boundary 概念
+
+**新增 AI 信源的 checklist**：
+1. 关键词列表用 `RegExp` 数组而非字符串数组
+2. 写完后跑一次"误中扫描"：把现有 `articles.json` 同源数据用新过滤器跑一遍，目测前 20 条是否合理
+3. 跑一次"漏抓扫描"：人工随机选 10 篇真 AI 文章，确认新过滤器都能命中
 
 ### Google AI News 标题去重
 

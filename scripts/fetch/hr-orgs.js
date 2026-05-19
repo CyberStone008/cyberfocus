@@ -29,11 +29,11 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
  * Fetch URL via curl (bypasses Node.js TLS issues with Google News).
  * Returns body string on success, throws on HTTP error or timeout.
  */
-async function curlFetch(url, maxRetries = 3) {
+async function curlFetch(url, maxRetries = 2) {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const { stdout } = await execFileAsync('curl', [
-        '-sS', '-L', '--compressed', '--max-time', '20',
+        '-sS', '-L', '--compressed', '--max-time', '15',
         '-H', 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         '-H', 'Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
@@ -56,7 +56,7 @@ async function curlFetch(url, maxRetries = 3) {
       throw new Error(`HTTP ${status}`);
     } catch (err) {
       if (attempt < maxRetries && err.code !== 'HTTP_ERROR') {
-        await sleep((attempt + 1) * 3000);
+        await sleep((attempt + 1) * 1500);
         continue;
       }
       throw err;
@@ -66,17 +66,18 @@ async function curlFetch(url, maxRetries = 3) {
 
 // ── Stable slug per org ──────────────────────────────────────────────────────
 const ORG_SLUG = {
-  'Korn Ferry':    'korn-ferry',
-  'Mercer':        'mercer',
-  'ManpowerGroup': 'manpower',
-  'Randstad':      'randstad',
-  'Adecco Group':  'adecco',
-  '科锐国际':       'careerin',
-  'FESCO':         'fesco',
-  '中智咨询':       'ciic',
-  '智联招聘':       'zhilian',
-  'BOSS直聘':       'boss-zhipin',
-  'FESCO Adecco':  'fesco-adecco',
+  'Korn Ferry':       'korn-ferry',
+  'Mercer':           'mercer',
+  'ManpowerGroup':    'manpower',
+  'Randstad':         'randstad',
+  'Adecco Group':     'adecco',
+  'Recruit Holdings': 'recruit',
+  '科锐国际':          'careerin',
+  'FESCO':            'fesco',
+  '中智咨询':          'ciic',
+  '智联招聘':          'zhilian',
+  'BOSS直聘':          'boss-zhipin',
+  'FESCO Adecco':     'fesco-adecco',
 };
 
 // ── Per-org query configs ────────────────────────────────────────────────────
@@ -114,6 +115,12 @@ const ORG_CONFIGS = [
     id: 'Adecco Group',
     newsQuery:   '"Adecco" workforce talent employment future',
     reportQuery: '"Adecco" report OR survey OR "future of work" OR research OR outlook 2026',
+    hl: 'en-US', gl: 'US', ceid: 'US:en',
+  },
+  {
+    id: 'Recruit Holdings',
+    newsQuery:   '"Recruit Holdings" OR "Indeed" OR "Glassdoor" HR OR talent OR workforce OR "job market" OR hiring',
+    reportQuery: '"Recruit Holdings" report OR survey OR "HR Technology" OR "employment trends" OR "talent insights" OR "job market" 2026',
     hl: 'en-US', gl: 'US', ceid: 'US:en',
   },
 
@@ -175,7 +182,9 @@ function urlToId(orgId, url) {
 function isNoise(title, abstract) {
   const text = (title + ' ' + abstract).toLowerCase();
   // Stock / investor news patterns
-  if (/earnings call|earnings preview|earnings report|beats.*sales|beats.*expectations|misses.*expectations|profit exceeds|stock slowing|shares sold|acquires.*shares|shares of.*\$|dividend|ipo|institutional.*hold|% stake|stake in korn|stake in mercer|nyse:|nasdaq:|analyst.*question|analyst.*downgrad|analyst.*upgrad|price target|q[1-4] \d{4} earn/.test(text)) return true;
+  if (/earnings call|earnings preview|earnings report|beats.*sales|beats.*expectations|misses.*expectations|profit exceeds|stock slowing|shares sold|acquires.*shares|shares of.*\$|dividend|ipo|institutional.*hold|% stake|stake in korn|stake in mercer|nyse:|nasdaq:|analyst.*question|analyst.*downgrad|analyst.*upgrad|price target|q[1-4] \d{4} earn|share buyback|share repurchase|authoriz.*buyback/.test(text)) return true;
+  // Recruit Holdings stock/financial noise (TSE listed)
+  if (/recruit holdings stock|tse:6098|jp3970300004|recruit.*valuation|recruit.*share price|recruit.*buyback/.test(text)) return true;
   // Sports / golf (Korn Ferry Tour)
   if (/korn ferry tour|pga tour|golf|birdie|par-\d|tees off|playoff/.test(text)) return true;
   // Named persons who share a company name (Mercer the baseball player, etc.)
@@ -192,11 +201,27 @@ function isReportContent(title, abstract) {
   return /survey|outlook|白皮书|调研|研究报告|薪酬.*报告|就业.*报告|workmonitor|talent shortage|employment outlook|workforce report|talent trends|hiring intentions|labor market|人才.*报告|薪酬调查|雇主品牌|talent survey|compensation survey|pay guide|salary guide/.test(text);
 }
 
+// ── Title fingerprint (same logic as pipeline.js Google AI News dedup) ───────
+// Takes first 9 meaningful words (lowercase ASCII-alnum + CJK), joins them.
+// Same story syndicated to multiple outlets → same fingerprint → skip.
+function titleFingerprint(title) {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9一-鿿 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 9)
+    .join(' ');
+}
+
 // ── Main export ──────────────────────────────────────────────────────────────
 
-export async function fetchHROrgNews(processedIds, disabledIds = new Set()) {
+export async function fetchHROrgNews(processedIds, disabledIds = new Set(), existingTitleFPs = new Set()) {
   const results = [];
-  const seenIds = new Set(); // dedup within this run
+  const seenIds  = new Set(); // dedup within this run by URL hash
+  const seenFPs  = new Set([...existingTitleFPs]); // dedup by title fingerprint (cross-outlet)
 
   let queryIndex = 0;
 
@@ -255,6 +280,11 @@ export async function fetchHROrgNews(processedIds, disabledIds = new Set()) {
 
         // Skip financial/stock noise, sports, and unrelated persons
         if (isNoise(titleEn, abstract)) continue;
+
+        // Skip near-duplicate titles (same story syndicated to multiple outlets)
+        const fp = titleFingerprint(titleEn);
+        if (seenFPs.has(fp)) continue;
+        seenFPs.add(fp);
 
         // Detect report content to set correct docType
         const effectiveDocType = isReportContent(titleEn, abstract) ? 'Report' : docType;

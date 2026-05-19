@@ -110,9 +110,20 @@ async function run() {
       .slice(0, 9)
       .join(' ');
   }
+  const allExistingArticles = loadArticles();
   const existingTitleFPs = new Set(
-    loadArticles()
+    allExistingArticles
       .filter((a) => a.source === 'Google AI News')
+      .map((a) => titleFingerprint(a.titleEn))
+  );
+  // Separate fingerprint set for HR org sources (cross-outlet dedup)
+  const HR_ORG_SOURCE_IDS = new Set([
+    'ManpowerGroup', 'Mercer', 'Korn Ferry', 'Randstad', 'Adecco Group', 'Recruit Holdings',
+    '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
+  ]);
+  const existingHROrgFPs = new Set(
+    allExistingArticles
+      .filter((a) => HR_ORG_SOURCE_IDS.has(a.source))
       .map((a) => titleFingerprint(a.titleEn))
   );
 
@@ -138,8 +149,8 @@ async function run() {
     timed('reddit',     fetchReddit(processed, effectiveDisabledIds)),
     timed('chinese',    fetchChineseBlogs(processed, effectiveDisabledIds)),
     timed('ai-news',    enabled('Google AI News')    ? fetchAINewsSearch(processed, existingTitleFPs) : skip()),
-    // HR / Orgs sources
-    timed('hr-orgs',    fetchHROrgNews(processed, effectiveDisabledIds)),
+    // HR / Orgs sources — Google News curl can be slow; give it more headroom
+    timed('hr-orgs',    fetchHROrgNews(processed, effectiveDisabledIds, existingHROrgFPs), 300_000),
   ]);
 
   const allFetched = fetchResults
@@ -163,6 +174,61 @@ async function run() {
   });
 
   console.log(`[pipeline] New items to process: ${newItems.length}`);
+
+  // Backfill untranslated HR org articles already in articles.json
+  // (e.g. articles added before translation ran, or whose translation failed)
+  const HR_SOURCES = new Set([
+    'ManpowerGroup', 'Mercer', 'Korn Ferry', 'Randstad', 'Adecco Group',
+    '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
+  ]);
+  const CHINESE_HR_SOURCES = new Set(['科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco']);
+  function isMostlyChinese(text) {
+    const ch = (text.match(/[一-鿿]/g) || []).length;
+    return ch / (text.length || 1) > 0.2;
+  }
+
+  const existingArticles = loadArticles();
+  const untranslatedHR = existingArticles.filter(
+    (a) => HR_SOURCES.has(a.source) && !a.titleZh
+  );
+
+  if (untranslatedHR.length > 0 && !DRY_RUN) {
+    console.log(`\n[pipeline] Back-filling ${untranslatedHR.length} untranslated HR org articles...`);
+
+    // Chinese-source: titleEn is already Chinese → copy directly
+    const chineseHR = untranslatedHR.filter(
+      (a) => CHINESE_HR_SOURCES.has(a.source) || isMostlyChinese(a.titleEn || '')
+    );
+    const englishHR = untranslatedHR.filter(
+      (a) => !CHINESE_HR_SOURCES.has(a.source) && !isMostlyChinese(a.titleEn || '')
+    );
+
+    // Build a mutable map for quick lookup
+    const articleMap = new Map(existingArticles.map((a) => [a.id, a]));
+
+    for (const a of chineseHR) {
+      const entry = articleMap.get(a.id);
+      if (entry) {
+        entry.titleZh    = entry.titleEn;
+        entry.abstractZh = entry.abstractEn || null;
+      }
+    }
+
+    if (englishHR.length > 0) {
+      const translatedHR = await translateBatch(englishHR);
+      for (const t of translatedHR) {
+        const entry = articleMap.get(t.id);
+        if (entry && t.titleZh) {
+          entry.titleZh    = t.titleZh;
+          entry.abstractZh = t.abstractZh;
+        }
+      }
+    }
+
+    const updatedArticles = [...articleMap.values()];
+    writeFileSync(ARTICLES_PATH, JSON.stringify(updatedArticles, null, 2));
+    console.log(`[pipeline] HR org back-fill complete`);
+  }
 
   if (newItems.length === 0) {
     console.log('[pipeline] No new items. Nothing to do.');

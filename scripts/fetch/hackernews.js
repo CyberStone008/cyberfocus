@@ -5,18 +5,51 @@ const HN_API   = 'https://hacker-news.firebaseio.com/v0';
 const MAX_NEW  = Math.max(maxPerSource(), 10); // social needs more items
 const MAX_SCAN = 100; // top stories to scan
 
-const AI_KEYWORDS = [
-  'ai', 'llm', 'gpt', 'claude', 'gemini', 'mistral', 'llama',
-  'machine learning', 'deep learning', 'neural', 'transformer',
-  'openai', 'anthropic', 'deepmind', 'hugging face', 'diffusion',
-  'chatgpt', 'copilot', 'agent', 'rag', 'fine-tun', 'inference',
-  'reinforcement', 'multimodal', 'embedding', 'vector',
-  '大模型', '人工智能',
+/**
+ * Word-boundary regex patterns to avoid false positives.
+ * Example: plain `includes('ai')` would match "airshow", "aircraft", "main", "said".
+ * Patterns are case-insensitive and require word boundaries where the keyword is short.
+ */
+const AI_PATTERNS = [
+  // Short tokens that REQUIRE word boundaries to avoid false positives
+  /\bai\b/i,                 // "AI" as standalone — not airshow / aircraft / main
+  /\bai[-/]/i,               // "AI-", "AI/"  (e.g. "AI-powered", "AI/ML")
+  /agentic/i,                // "agentic AI", "agentic trading"
+  /\bllm[s]?\b/i,
+  /\bgpt[-0-9]?/i,
+  /\bagi\b/i,
+  /\brag\b/i,                // RAG (retrieval) — not dragon/fragment
+  /\bagent[s]?\b/i,          // agent / agents — not agency / fragment
+  /\bvector\b/i,
+  // Distinctive multi-letter tokens — safe to use substring
+  /claude/i,
+  /gemini/i,
+  /mistral/i,
+  /llama/i,
+  /openai/i,
+  /anthropic/i,
+  /deepmind/i,
+  /chatgpt/i,
+  /copilot/i,
+  /diffusion/i,
+  /transformer/i,
+  /inference/i,
+  /multimodal/i,
+  /embedding/i,
+  /hugging\s*face/i,
+  /reinforcement/i,
+  /fine[- ]?tun/i,
+  /machine\s+learning/i,
+  /deep\s+learning/i,
+  /neural\s+net/i,
+  /大模型/,
+  /人工智能/,
+  /生成式/,
 ];
 
 function isAiRelated(title = '', url = '') {
-  const text = (title + ' ' + url).toLowerCase();
-  return AI_KEYWORDS.some((kw) => text.includes(kw));
+  const text = title + ' ' + url;
+  return AI_PATTERNS.some((re) => re.test(text));
 }
 
 export async function fetchHackerNews(processedIds) {
