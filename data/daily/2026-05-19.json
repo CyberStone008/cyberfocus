@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T02:08:31.461Z",
+  "summary": {
+    "aiNews": [
+      "arXiv推最严新规：AI水论文封一年，作者连带追责",
+      "英特尔第三代酷睿发布，开启全民AI轻薄本时代",
+      "华为系孵化具身智能创业圈，加速机器人产业落地"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419585-html",
+      "slug": "pc-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419585.html",
+      "publishedAt": "2026-05-18T13:16:45.000Z",
+      "titleEn": "重塑主流PC，第三代英特尔酷睿开启全民AI轻薄本时代",
+      "titleZh": "重塑主流PC，第三代英特尔酷睿开启全民AI轻薄本时代",
+      "abstractEn": "芯片与系统级双重创新",
+      "abstractZh": "芯片与系统级双重创新",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419528-html",
+      "slug": "ai-arxiv",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419528.html",
+      "publishedAt": "2026-05-18T12:18:30.000Z",
+      "titleEn": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
+      "titleZh": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
+      "abstractEn": "生成论文远比消化容易",
+      "abstractZh": "生成论文远比消化容易",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419414-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419414.html",
+      "publishedAt": "2026-05-18T08:54:30.000Z",
+      "titleEn": "华为“养”出半个具身智能创业圈",
+      "titleZh": "华为'养'出半个具身智能创业圈",
+      "abstractEn": "正在经历一次罕见的人才外溢。",
+      "abstractZh": "正在经历一次罕见的人才外溢。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419386-html",
+      "slug": "8b-iclr-2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419386.html",
+      "publishedAt": "2026-05-18T06:52:11.000Z",
+      "titleEn": "8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026",
+      "titleZh": "8B模型做生物实验：实验步骤顺序不乱、剂量无幻觉｜ICLR 2026",
+      "abstractEn": "超越GPT-4o",
+      "abstractZh": "超越GPT-4o",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419272-html",
+      "slug": "lecun-hinton-llm",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419272.html",
+      "publishedAt": "2026-05-18T05:59:37.000Z",
+      "titleEn": "LeCun炮轰Hinton：他认可LLM就是想摆烂退休了！",
+      "titleZh": "LeCun炮轰Hinton：他认可LLM就是想摆烂退休了！",
+      "abstractEn": "Lecun这次是真跟Hinton爆了……",
+      "abstractZh": "Lecun这次是真跟Hinton爆了……",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-419256-html",
+      "slug": "30-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/419256.html",
+      "publishedAt": "2026-05-18T05:08:22.000Z",
+      "titleEn": "30万奖金池，这道汉语方言对话题等你来解丨第十一届信也科技杯全球AI算法大赛",
+      "titleZh": "30万奖金池，这道汉语方言对话题等你来解丨第十一届信也科技杯全球AI算法大赛",
+      "abstractEn": "更有NLPCC2026直通名额",
+      "abstractZh": "更有NLPCC2026直通名额",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    }
+  ]
+}
