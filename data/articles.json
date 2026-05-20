@@ -1,5 +1,354 @@
 [
   {
+    "id": "量子位:https-www-qbitai-com-2026-05-420531-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/420531.html",
+    "publishedAt": "2026-05-20T00:48:27.000Z",
+    "titleEn": "苏姿丰上海开讲：AI正在重新定义计算的每一层",
+    "titleZh": "苏姿丰上海开讲：AI正在重新定义计算的每一层",
+    "abstractEn": "AMD持续加码中国开发者生态建设",
+    "abstractZh": "AMD持续加码中国开发者生态建设",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48200569",
+    "slug": "hn-48200569-remove-ai-watermarks-cli-and-library-for-removing-ai-watermarks-from",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/wiltodelta/remove-ai-watermarks",
+    "commentUrl": "https://news.ycombinator.com/item?id=48200569",
+    "publishedAt": "2026-05-19T22:30:31.000Z",
+    "titleEn": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
+    "titleZh": "Remove–AI–Watermarks – 用于移除图像中AI水印的CLI和库",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "janalsncm"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 116,
+    "commentCount": 69,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48198291",
+    "slug": "hn-48198291-openai-adopts-googles-synthid-watermark-for-ai-images-with-verificat",
+    "source": "Hacker News",
+    "sourceUrl": "https://openai.com/index/advancing-content-provenance/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48198291",
+    "publishedAt": "2026-05-19T19:34:30.000Z",
+    "titleEn": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+    "titleZh": "OpenAI 为 AI 图像采用 Google 的 SynthID 水印，附带验证工具",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "smooke"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 198,
+    "commentCount": 102,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48197995",
+    "slug": "hn-48197995-mistral-ai-acquires-emmi-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+    "commentUrl": "https://news.ycombinator.com/item?id=48197995",
+    "publishedAt": "2026-05-19T19:14:12.000Z",
+    "titleEn": "Mistral AI acquires Emmi AI",
+    "titleZh": "Mistral AI 收购 Emmi AI",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "doener"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 168,
+    "commentCount": 43,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48197116",
+    "slug": "hn-48197116-graduates-are-booing-pep-talks-on-ai-at-college-commencements",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.boston25news.com/news/business/graduates-are-booing/A42H2XSTVQ2ZHHVBCKC3X7P32Y/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48197116",
+    "publishedAt": "2026-05-19T18:18:02.000Z",
+    "titleEn": "Graduates are booing pep talks on AI at college commencements",
+    "titleZh": "毕业生在大学毕业典礼上对AI主题的励志演讲发出嘘声",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "1vuio0pswjnm7"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 27,
+    "commentCount": 14,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48196867",
+    "slug": "hn-48196867-gemini-cli-will-stop-working-from-june-18-2026",
+    "source": "Hacker News",
+    "sourceUrl": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48196867",
+    "publishedAt": "2026-05-19T18:03:10.000Z",
+    "titleEn": "Gemini CLI will stop working from June 18, 2026",
+    "titleZh": "Gemini CLI 将于2026年6月18日停止工作",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "primaprashant"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 59,
+    "commentCount": 19,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48196609",
+    "slug": "hn-48196609-gemini-omni",
+    "source": "Hacker News",
+    "sourceUrl": "https://deepmind.google/models/gemini-omni/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48196609",
+    "publishedAt": "2026-05-19T17:46:19.000Z",
+    "titleEn": "Gemini Omni",
+    "titleZh": "Gemini Omni",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "meetpateltech"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 267,
+    "commentCount": 112,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48196570",
+    "slug": "hn-48196570-gemini-3-5-flash",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48196570",
+    "publishedAt": "2026-05-19T17:43:45.000Z",
+    "titleEn": "Gemini 3.5 Flash",
+    "titleZh": "Gemini 3.5 Flash",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "spectraldrift"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 584,
+    "commentCount": 439,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48196303",
+    "slug": "hn-48196303-ai-humanity-and-dr-manhattan-syndrome-a-communications-intervention",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.personfamiliar.com/p/ai-humanity-and-dr-manhattan-syndrome",
+    "commentUrl": "https://news.ycombinator.com/item?id=48196303",
+    "publishedAt": "2026-05-19T17:22:45.000Z",
+    "titleEn": "AI, \"Humanity\", and Dr. Manhattan Syndrome: A Communications Intervention",
+    "titleZh": "AI、'Humanity'与曼哈顿博士综合征：一项沟通干预",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "stalfosknight"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 38,
+    "commentCount": 8,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48195706",
+    "slug": "hn-48195706-kv-sharing-mhc-and-compressed-attention",
+    "source": "Hacker News",
+    "sourceUrl": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+    "commentUrl": "https://news.ycombinator.com/item?id=48195706",
+    "publishedAt": "2026-05-19T16:40:27.000Z",
+    "titleEn": "KV Sharing, MHC, and Compressed Attention",
+    "titleZh": "KV共享、MHC和压缩注意力",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "gmays"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 27,
+    "commentCount": 2,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-53jyw4gyxshriuqd-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/53JyW4GyXsHriUqD.html",
+    "publishedAt": "2026-05-19T15:08:00.000Z",
+    "titleEn": "“声智融合、智启未来”全场景语音AI技术与产业发展战略研讨会在北京大学成功召开，开启语音交互的未来生活方式",
+    "titleZh": "声智融合、智启未来全场景语音AI技术与产业发展战略研讨会在北京大学成功召开，开启语音交互的未来生活方式",
+    "abstractEn": "近日，由北京大学前沿工程博士联合会与声智科技（SoundAI）联合主办的“声智融合、智启未来”全场景语音AI技术与产业发展战略研讨会在北京大学圆满落幕。\n值此北京大学建校128周年之际，活动汇聚了海淀区人才工作局、北京市科技装备业商会等政府机构代表，以及来自华为鸿蒙、字节跳动、中信证券等领军企业与金融机构的专家。研讨会由声智科技首席产品官、北大光华校友黄赟贺担任主持。\n作为主办方之一，北京大学前沿工程博士联合会充分发挥了北大在前沿工程学科上的深厚积淀与跨学科优势，致力于打通“学术—产业”双向通道。联合会通过整合校内顶尖科研资源与前沿工程博士群体的产业经验，构建了高水平的产学研协同创新平台，旨在将实验室的前沿技术转化为驱动产业升级的核心动能。\n活动现场展示的与声智科技联合创新研发的覆盖“办公+生活”全场景AI Agent Mic便是这一转化机制的成果体现。在办公场景下，设备可实现会议信息的实",
+    "abstractZh": "近日，由北京大学前沿工程博士联合会与声智科技（SoundAI）联合主办的声智融合、智启未来全场景语音AI技术与产业发展战略研讨会在北京大学圆满落幕。值此北京大学建校128周年之际，活动汇聚了海淀区人才工作局、北京市科技装备业商会等政府机构代表，以及来自华为鸿蒙、字节跳动、中信证券等领军企业与金融机构的专家。研讨会由声智科技首席产品官、北大光华校友黄赟贺担任主持。作为主办方之一，北京大学前沿工程博士联合会充分发挥了北大在前沿工程学科上的深厚积淀与跨学科优势，致力于打通学术—产业双向通道。联合会通过整合校内顶尖科研资源与前沿工程博士群体的产业经验，构建了高水平的产学研协同创新平台，旨在将实验室的前沿技术转化为驱动产业升级的核心动能。活动现场展示的与声智科技联合创新研发的覆盖办公+",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48194352",
+    "slug": "hn-48194352-ive-joined-anthropic",
+    "source": "Hacker News",
+    "sourceUrl": "https://twitter.com/karpathy/status/2056753169888334312",
+    "commentUrl": "https://news.ycombinator.com/item?id=48194352",
+    "publishedAt": "2026-05-19T15:07:45.000Z",
+    "titleEn": "I’ve joined Anthropic",
+    "titleZh": "我加入了 Anthropic",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dmarcos"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 1173,
+    "commentCount": 487,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48193539",
+    "slug": "hn-48193539-the-programming-language-for-agents",
+    "source": "Hacker News",
+    "sourceUrl": "https://zerolang.ai",
+    "commentUrl": "https://news.ycombinator.com/item?id=48193539",
+    "publishedAt": "2026-05-19T14:09:50.000Z",
+    "titleEn": "The Programming Language for Agents",
+    "titleZh": "智能体编程语言",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Marius77"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 13,
+    "commentCount": 5,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48192383",
+    "slug": "hn-48192383-show-hn-forge-guardrails-take-an-8b-model-from-53-to-99-on-agentic-t",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/antoinezambelli/forge",
+    "commentUrl": "https://news.ycombinator.com/item?id=48192383",
+    "publishedAt": "2026-05-19T12:23:07.000Z",
+    "titleEn": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+    "titleZh": "Show HN: Forge – 防护栏将 8B 模型在代理任务上的准确率从 53% 提升到 99%",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "zambelli"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 275,
+    "commentCount": 98,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48191852",
+    "slug": "hn-48191852-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/vostride/id-agent",
+    "commentUrl": "https://news.ycombinator.com/item?id=48191852",
+    "publishedAt": "2026-05-19T11:16:56.000Z",
+    "titleEn": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
+    "titleZh": "Show HN: Id-agent – AI智能体的Token高效UUID替代方案",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pranshuchittora"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 35,
+    "commentCount": 49,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-5v1ijodyhknzkamf-html",
+    "slug": "cvpr-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/5V1IJOdYhKnzkAmF.html",
+    "publishedAt": "2026-05-19T08:58:00.000Z",
+    "titleEn": "代码驱动的视觉感知：为什么说「看得懂代码」才是大模型攻克理科题的真正钥匙 ｜CVPR 2026",
+    "titleZh": "代码驱动的视觉感知：为什么说看得懂代码才是大模型攻克理科题的真正钥匙｜CVPR 2026",
+    "abstractEn": "代码驱动的视觉感知，正在为大模型补上「看」这门必修课。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n如果把过去几年多模态大模型在STEM领域的进展放在一起审视，会发现一个相当微妙的错位。研究者们几乎把全部精力都押在了推理能力的提升上，强化学习、思维链、自我纠错……各种花式推理策略层出不穷，模型在文本推理基准上的得分也确实在节节攀升。\n但一个尴尬的事实始终摆在那里：当模型被丢进一道需要看图才能解答的几何题时，它依然经常给出让人啼笑皆非的答案。\n这中间到底出了什么问题？\n过去，业界习惯性地把锅甩给“推理能力不足”，认为只要把CoO做得更长、把RL奖励设计",
+    "abstractZh": "代码驱动的视觉感知，正在为大模型补上看这门必修课。作者丨陈淑瑜 编辑丨岑峰 如果把过去几年多模态大模型在STEM领域的进展放在一起审视，会发现一个相当微妙的错位。研究者们几乎把全部精力都押在了推理能力的提升上，强化学习、思维链、自我纠错……各种花式推理策略层出不穷，模型在文本推理基准上的得分也确实在节节攀升。但一个尴尬的事实始终摆在那里：当模型被丢进一道需要看图才能解答的几何题时，它依然经常给出让人啼笑皆非的答案。这中间到底",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
     "id": "hrorg:randstad:51b159c0ba37",
     "slug": "hrorg-randstad-51b159c0ba37",
     "source": "Randstad",
@@ -21,7 +370,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1thg3n6",
@@ -45,7 +395,8 @@
     "tags": [
       "Question | Help"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1thfd53",
@@ -69,7 +420,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420084-html",
@@ -90,7 +442,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1theffd",
@@ -114,7 +467,29 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-3d7wglxorj4pymiv-html",
+    "slug": "ai-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/3d7wgLxoRj4pYMiV.html",
+    "publishedAt": "2026-05-19T06:07:00.000Z",
+    "titleEn": "理想汽车×火山引擎：AI智能助手纵深防御体系，为AI系上“安全带”",
+    "titleZh": "理想汽车×火山引擎：AI智能助手纵深防御体系，为AI系上安全带",
+    "abstractEn": "从研发设计到生产制造，从供应链管理到客户服务，智能体正在渗透汽车产业的每一个环节。如何确保其安全、合规、可控，已成为车企的必答题。\n\n\n        目前，理想汽车已在企业内部部署了多种场景的AI智能助手，覆盖安全运营、研发协同、IT 服务等多个真实业务场景。\n        理想汽车的安全团队在深入智能体各类使用场景后发现，行业普遍存在三大安全瓶颈：权限边界模糊、行为过程失控、攻击面持续扩大，严重制约着AI规模化落地。\n        为此，理想汽车与火山引擎围绕AI助手安全方案开展合作，打造了覆盖“供应链安全+助手运行安全+权限行为安全”的全流程“AI智能助手纵深防御体系”。从源头补齐了开源AI智能助手的安全短板，同时实现对全量AI智能助手的企业级统一安全管理。\n纵深防御体系，为AI智能助手全面护航\n\n        理想汽车安全团队与火山引擎合作打造的“AI智能助手纵深防御体系”具",
+    "abstractZh": "从研发设计到生产制造，从供应链管理到客户服务，智能体正在渗透汽车产业的每一个环节。如何确保其安全、合规、可控，已成为车企的必答题。目前，理想汽车已在企业内部部署了多种场景的AI智能助手，覆盖安全运营、研发协同、IT服务等多个真实业务场景。理想汽车的安全团队在深入智能体各类使用场景后发现，行业普遍存在三大安全瓶颈：权限边界模糊、行为过程失控、攻击面持续扩大，严重制约着AI规模化落地。为此，理想汽车与火山引擎围绕AI助手安全方案开展合作，打造了覆盖供应链安全+助手运行安全+权限行为安全的全流程AI智能助手纵深防御体系。从源头补齐了开源AI智能助手的安全短板，同时实现对全量AI智能助手的企业级统一安全管理。纵深防御体系，为AI智",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "gnews:998eabaa48f0",
@@ -137,7 +512,29 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-xialt8gfpdxibtgo-html",
+    "slug": "ai-38-1",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/XiAlt8gfPDXIbTgO.html",
+    "publishedAt": "2026-05-19T05:37:00.000Z",
+    "titleEn": "权威报告：中国AI云市场爆发，阿里云占比38.1%稳居第一，超二三四名总和",
+    "titleZh": "权威报告：中国AI云市场爆发，阿里云占比38.1%稳居第一，超二三四名总和",
+    "abstractEn": "5月19日，国际权威市场调研机构英富曼（Omdia）发布最新的《中国AI云市场份额2025》报告，2025年中国AI云市场总规模达567亿元人民币，其中，阿里云在AI IaaS和MaaS两大领域均位列第一，总份额从上半年的35.8%上涨至38.1%，整体稳居第一，超过二到四名总和。\n \n图说：Omdia《中国AI云市场份额2025》阿里云第一 \nOmdia认为，云计算因为AI大模型的兴起迎来了最深刻的范式变革，因此，中国AI云市场必须要系统性重新衡量。Omdia首次将AI云定义为AI IaaS 和MaaS两大核心领域，其中，MaaS再细分为面向模型再开发的MPS（Model Production Service）以及以tokens消耗为主的MCS（Model Consumption Serivce）。Omdia报告显示，中国AI云市场2025年处于大幅增长阶段，整体市场规模约为567亿元人",
+    "abstractZh": "5月19日，国际权威市场调研机构英富曼发布最新的中国AI云市场份额2025报告，2025年中国AI云市场总规模达567亿元人民币，其中，阿里云在AI IaaS和MaaS两大领域均位列第一，总份额从上半年的35.8%上涨至38.1%，整体稳居第一，超过二到四名总和。图说：Omdia中国AI云市场份额2025阿里云第一 Omdia认为，云计算因为AI大模型的兴起迎来了最深刻的范式变革，因此，中国AI云市场必须要系统性重新衡量。Omdia首次将AI云定义为AI IaaS 和MaaS两大核心领域，其中，MaaS再细分为面向模型再开发的MPS以及以tokens消耗为主的MCS",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1thbzvf",
@@ -161,7 +558,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419901-html",
@@ -182,7 +580,29 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-chips-xfkljhkhqquvbd9s-html",
+    "slug": "2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/chips/XFKljHkhQqUvbD9s.html",
+    "publishedAt": "2026-05-19T02:44:00.000Z",
+    "titleEn": "端启未来 万物新生｜｜江原科技携新品亮相2026全球人工智能终端展",
+    "titleZh": "端启未来 万物新生｜｜江原科技携新品亮相2026全球人工智能终端展",
+    "abstractEn": "5月14日—16日，2026全球人工智能终端展暨第七届深圳国际人工智能展在深圳福田会展中心隆重举办，展会以“端启未来 万物新生”为主题，汇聚AI全产业链企业，围绕AI终端迭代、边缘智算、信创融合、行业落地等前沿方向，共探产业新机遇。\n江原科技应邀出席本次展会，立足国产AI算力赛道，携多款自研AI终端产品集中亮相，现场正式发布江原D20D智算一体机，同时在展会同期颁奖环节斩获两项行业权威大奖，成为本届展会备受关注的企业之一。\n本次展会汇聚人工智能全产业链优质企业，集中展示新一代智能硬件与算力解决方案，助力产业协同发展与技术交流合作。江原科技依托自身研发实力，带来桌面级信创智算产品参展，为AI本地化部署与行业落地提供务实高效的支撑方案。\n展会新品发布环节，正式推出江原D20D 智算一体机（信创版）。整机基于全国产供应链打造，搭载江原自研 D20 AI 加速卡，具备 560T 高性能 AI 算力",
+    "abstractZh": "5月14日—16日，2026全球人工智能终端展暨第七届深圳国际人工智能展在深圳福田会展中心隆重举办，展会以端启未来 万物新生为主题，汇聚AI全产业链企业，围绕AI终端迭代、边缘智算、信创融合、行业落地等前沿方向，共探产业新机遇。江原科技应邀出席本次展会，立足国产AI算力赛道，携多款自研AI终端产品集中亮相，现场正式发布江原D20D智算一体机，同时在展会同期颁奖环节斩获两项行业权威大奖，成为本届展会备受关注的企业之一。本次展会汇聚人工智能全产业链优质企业，集中展示新一代智能硬件与算力解决方案，助力产业协同发展与技术交流合作。江原科技依托自身研发实力，带来桌面级信创智算产品参展，为AI本地化部署与行业落地提供务实高效的支撑方案。展会新品发布环节，正式推出江原D20D 智算一体机（信创版",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1th8l5e",
@@ -206,7 +626,8 @@
     "tags": [
       "Question | Help"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th8a43",
@@ -230,7 +651,30 @@
     "tags": [
       "Tutorial | Guide"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48188183",
+    "slug": "hn-48188183-the-last-six-months-in-llms-in-five-minutes",
+    "source": "Hacker News",
+    "sourceUrl": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48188183",
+    "publishedAt": "2026-05-19T01:30:42.000Z",
+    "titleEn": "The last six months in LLMs in five minutes",
+    "titleZh": "五分钟速览过去六个月的 LLM 发展",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "yakkomajuri"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 735,
+    "commentCount": 556,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "gnews:7feea168e718",
@@ -253,7 +697,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th7f24",
@@ -277,7 +722,29 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-8xg9igxft71euqza-html",
+    "slug": "meta-7800-ai-openai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/8xg9IGXft71EuqZA.html",
+    "publishedAt": "2026-05-19T00:27:00.000Z",
+    "titleEn": "自动跟价再打八折引商家不满，京东采销怒斥：可去竞对平台寻找机会；Meta 计划全球裁员约7800人，AI转型引员工抗议；马斯克告OpenAI败诉",
+    "titleZh": "自动跟价再打八折引商家不满，京东采销怒斥：可去竞对平台寻找机会；Meta 计划全球裁员约7800人，AI转型引员工抗议；马斯克告OpenAI败诉",
+    "abstractEn": "要闻提示\n\n\n\n\n\n\n1.Meta 计划全球裁员 10%：约 7800 人受影响，AI 战略转型引员工抗议\n2.自动跟价再打八折，京东采销怒斥商家群聊截图惹争议：“可以去竞对平台寻找机会”\n3.国产车企首次！曝比亚迪有意收购Alpine F1车队及雷诺引擎工厂\n4.河南一高校获赠20亿Token\n5.官宣！腾讯音乐正式收购喜马拉雅：成全资子公司\n6.百度Q1营收321亿！AI收入占比首破52%，李彦宏坚定看好\n7.Anthropic 被曝停止招聘 L6 以下员工！AI 冲击初级岗位\n8.昔日兄弟反目成仇！马斯克告OpenAI败诉，原因竟是起诉太晚\n今日头条\n\n\n\n\nMeta 计划全球裁员 10%：约 7800 人受影响，AI 战略转型引员工抗议\n\n\n\n\n5 月 19 日消息，据外媒刚刚报道，Meta 计划于当地时间 5 月 20 日（周三）在全球范围内裁员 10%，同时进行新一轮组织架构调",
+    "abstractZh": "要闻提示 1.Meta 计划全球裁员 10%：约 7800 人受影响，AI 战略转型引员工抗议 2.自动跟价再打八折，京东采销怒斥商家群聊截图惹争议：可以去竞对平台寻找机会 3.国产车企首次！曝比亚迪有意收购Alpine F1车队及雷诺引擎工厂 4.河南一高校获赠20亿Token 5.官宣！腾讯音乐正式收购喜马拉雅：成全资子公司 6.百度Q1营收321亿！AI收入占比首破52%，李彦宏坚定看好 7.Anthropic 被曝停止招聘 L6 以下员工！AI 冲击初级岗位 8.昔日兄弟反目成仇！马斯克告OpenAI败诉，原因竟是起诉太晚 今日头条 Meta 计划全球裁员 10%：约 7800 人受影响，AI 战略转型引员工抗议 5 月 19 日消息，据外媒刚刚报道，",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1th633w",
@@ -301,7 +768,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th5t1b",
@@ -325,7 +793,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th3r5q",
@@ -349,7 +818,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th2f5w",
@@ -373,7 +843,30 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48185938",
+    "slug": "hn-48185938-alignment-pretraining-ai-discourse-creates-self-fulfilling-mis-align",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2601.10160",
+    "commentUrl": "https://news.ycombinator.com/item?id=48185938",
+    "publishedAt": "2026-05-18T21:29:13.000Z",
+    "titleEn": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
+    "titleZh": "对齐预训练：AI话语创造自我实现的（错位）",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "anigbrowl"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 76,
+    "commentCount": 29,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1th1mqx",
@@ -397,7 +890,8 @@
     "tags": [
       "Other"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th154i",
@@ -421,7 +915,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1th0z6k",
@@ -445,7 +940,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "gnews:460fd5557252",
@@ -468,7 +964,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:0b1e0087a816",
@@ -491,7 +988,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "gnews:ab77506c3453",
@@ -514,7 +1012,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1tgxau6",
@@ -538,7 +1037,74 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48183748",
+    "slug": "hn-48183748-agora-1-the-multi-agent-world-model",
+    "source": "Hacker News",
+    "sourceUrl": "https://odyssey.ml/introducing-agora-1",
+    "commentUrl": "https://news.ycombinator.com/item?id=48183748",
+    "publishedAt": "2026-05-18T18:43:30.000Z",
+    "titleEn": "Agora-1: The Multi-Agent World Model",
+    "titleZh": "Agora-1：多智能体世界模型",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "olivercameron"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 127,
+    "commentCount": 22,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48182754",
+    "slug": "hn-48182754-elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai",
+    "source": "Hacker News",
+    "sourceUrl": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48182754",
+    "publishedAt": "2026-05-18T17:38:22.000Z",
+    "titleEn": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "titleZh": "埃隆·马斯克起诉萨姆·阿尔特曼和 OpenAI 的诉讼败诉",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "nycdatasci"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 1064,
+    "commentCount": 565,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
+  },
+  {
+    "id": "hn:48182281",
+    "slug": "hn-48182281-anthropic-acquires-stainless",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "commentUrl": "https://news.ycombinator.com/item?id=48182281",
+    "publishedAt": "2026-05-18T17:01:21.000Z",
+    "titleEn": "Anthropic acquires Stainless",
+    "titleZh": "Anthropic 收购 Stainless",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "tomeraberbach"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 522,
+    "commentCount": 367,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1tgrpqc",
@@ -562,7 +1128,30 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48181125",
+    "slug": "hn-48181125-we-stopped-ai-bot-spam-in-our-github-repo-using-gits-author-flag",
+    "source": "Hacker News",
+    "sourceUrl": "https://archestra.ai/blog/only-responsible-ai",
+    "commentUrl": "https://news.ycombinator.com/item?id=48181125",
+    "publishedAt": "2026-05-18T15:24:19.000Z",
+    "titleEn": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+    "titleZh": "我们使用 Git 的 –author 标志阻止了 GitHub 仓库中的 AI 机器人垃圾信息",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ildari"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 489,
+    "commentCount": 234,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-yne3fm0pxyvixv0g-html",
@@ -573,7 +1162,7 @@
     "titleEn": "20万级满配运动SUV昊铂S600开启预售，权益价18.89万起",
     "titleZh": "20万级满配运动SUV昊铂S600开启预售，权益价18.89万起",
     "abstractEn": "5月17日，广汽昊铂新豪华智慧运动SUV昊铂S600预售发布会正式举行，新车推出纯电660Max、纯电660Max+、增程230Max、增程215四驱Ultra+四款配置版本，官方预售价为20.99-22.99万元，预售权益价18.89-20.89万元。昊铂S600在性能、智能辅助驾驶、智舱、安全、舒适、权益上全面拉满，以六大满配实力重新定义20万级满配运动SUV价值标杆。现场，昊铂S600优雅代言人、知名演员陈数点赞新车运动锋芒与从容掌控，昊铂S600运动代言人、足球巨星迈克尔·欧文则对其优雅格调与智能实力赞不绝口。此刻下订昊铂S600，不仅能收获一辆凌厉从容的运动SUV，更将尊享越级空间与满配舒享体验。\n\n即日起至昊铂S600正式上市前完成下订的用户，可享总价值至高达81188元的九大权益，涵盖现金抵扣礼、超级置换礼、广汽挚友礼、配置升级礼、智驾平权礼、补能无忧礼、免费流量礼、专属交车",
-    "abstractZh": "5月17日，广汽昊铂新豪华智慧运动SUV昊铂S600预售发布会正式举行，新车推出纯电660Max、纯电660Max+、增程230Max、增程215四驱Ultra+四款配置版本，官方预售价为20.99-22.99万元，预售权益价18.89-20.89万元。昊铂S600在性能、智能辅助驾驶、智舱、安全、舒适、权益上全面拉满，以六大满配实力重新定义20万级满配运动SUV价值标杆。现场，昊铂S600优雅代言人、知名演员陈数点赞新车运动锋芒与从容掌控，昊铂S600运动代言人、足球巨星迈克尔·欧文则对其优雅格调与智能实力赞不绝口。此刻下订昊铂S600，不仅能收获一辆凌厉从容的运动SUV，更将尊享越级空间与满配舒享体验。\n\n即日起至昊铂S600正式上市前完成下订的用户，可享总价值至高达81188元的九大权",
+    "abstractZh": "5月17日，广汽昊铂新豪华智慧运动SUV昊铂S600预售发布会正式举行，新车推出纯电660Max、纯电660Max+、增程230Max、增程215四驱Ultra+四款配置版本，官方预售价为20.99-22.99万元，预售权益价18.89-20.89万元。昊铂S600在性能、智能辅助驾驶、智舱、安全、舒适、权益上全面拉满，以六大满配实力重新定义20万级满配运动SUV价值标杆。现场，昊铂S600优雅代言人、知名演员陈数点赞新车运动锋芒与从容掌控，昊铂S600运动代言人、足球巨星迈克尔·欧文则对其优雅格调与智能实力赞不绝口。此刻下订昊铂S600，不仅能收获一辆凌厉从容的运动SUV，更将尊享越级空间与满配舒享体验。即日起至昊铂S600正式上市前完成下订的用户，可享总价值至高达81188元的九大权",
     "authors": [
       "雷锋网"
     ],
@@ -583,8 +1172,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1tgmjq0",
@@ -608,7 +1196,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419585-html",
@@ -654,7 +1243,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "gnews:1bfbcf8430ae",
@@ -677,7 +1267,30 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48179021",
+    "slug": "hn-48179021-ai-eats-the-world-spring-26-pdf",
+    "source": "Hacker News",
+    "sourceUrl": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+    "commentUrl": "https://news.ycombinator.com/item?id=48179021",
+    "publishedAt": "2026-05-18T12:49:28.000Z",
+    "titleEn": "AI eats the world (Spring 26) [pdf]",
+    "titleZh": "AI 吞噬世界（2026年春季）[pdf]",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "topherjaynes"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 292,
+    "commentCount": 156,
+    "tags": [],
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "gnews:d33d3f3050bb",
@@ -700,7 +1313,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419528-html",
@@ -733,7 +1347,7 @@
     "titleEn": "百度2026年Q1：总营收321亿元 AI业务占比达52%",
     "titleZh": "百度2026年Q1：总营收321亿元 AI业务占比达52%",
     "abstractEn": "5月18日，百度发布2026年第一季度财报，显示季度总营收321亿元，百度一般性业务收入260亿元，同比增长2%，超出市场预期。其中，AI业务收入136亿元，占百度一般性业务收入的52%，已连续多个季度增长。\n“一季度，百度AI业务收入占比首次超过百度一般性业务收入的一半，这表明AI已成为百度的核心驱动力。”百度创始人李彦宏表示，“在企业需求激增和我们多年来建立的差异化全栈AI能力的推动下，AI云收入增长势头强劲。百度AI应用持续在企业和个人中扩大影响力，进一步验证了百度AI创新的商业潜力。与此同时，萝卜快跑在全无人驾驶出行单量上保持三位数增长，并持续推进国际化扩张。我们认为AI将在未来几个季度为百度带来更大价值。”\n全栈AI能力优势凸显 AI云高速增长79%\n季度内，百度AI云收入88亿元，同比高速增长79%；GPU云收入同比增长184%。百度智能云全面升级为面向大规模智能体应用的新全栈",
-    "abstractZh": "5月18日，百度发布2026年第一季度财报，显示季度总营收321亿元，百度一般性业务收入260亿元，同比增长2%，超出市场预期。其中，AI业务收入136亿元，占百度一般性业务收入的52%，已连续多个季度增长。\n一季度，百度AI业务收入占比首次超过百度一般性业务收入的一半，这表明AI已成为百度的核心驱动力。百度创始人李彦宏表示，在企业需求激增和我们多年来建立的差异化全栈AI能力的推动下，AI云收入增长势头强劲。百度AI应用持续在企业和个人中扩大影响力，进一步验证了百度AI创新的商业潜力。与此同时，萝卜快跑在全无人驾驶出行单量上保持三位数增长，并持续推进国际化扩张。我们认为AI将在未来几个季度为百度带来更大价值。\n全栈AI能力优势凸显 AI云高速增长79%\n季度内，百度AI云收入88亿元",
+    "abstractZh": "5月18日，百度发布2026年第一季度财报，显示季度总营收321亿元，百度一般性业务收入260亿元，同比增长2%，超出市场预期。其中，AI业务收入136亿元，占百度一般性业务收入的52%，已连续多个季度增长。一季度，百度AI业务收入占比首次超过百度一般性业务收入的一半，这表明AI已成为百度的核心驱动力。百度创始人李彦宏表示，在企业需求激增和我们多年来建立的差异化全栈AI能力的推动下，AI云收入增长势头强劲。百度AI应用持续在企业和个人中扩大影响力，进一步验证了百度AI创新的商业潜力。与此同时，萝卜快跑在全无人驾驶出行单量上保持三位数增长，并持续推进国际化扩张。我们认为AI将在未来几个季度为百度带来更大价值。全栈AI能力优势凸显 AI云高速增长79% 季度内，百度AI云收入88亿元",
     "authors": [
       "雷锋网"
     ],
@@ -743,8 +1357,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1tgis7s",
@@ -768,7 +1381,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-3aonht2ggd1ntdrv-html",
@@ -779,7 +1393,7 @@
     "titleEn": "Figure机器人直播干活一整天，效果越惊艳，质疑越凶猛",
     "titleZh": "Figure机器人直播干活一整天，效果越惊艳，质疑越凶猛",
     "abstractEn": "上次Figure AI出现在大众目光中，还是5月8日晚那段两分钟的家务视频，在两分钟的时间里，Figure 03两台机器人，用同一个大脑协作完成了一整套房间整理流程。\n \n几天后，Figure AI又创造了一波新的话题度。\n \n三台名叫“Bob”、“Frank”和“Gary”的人形机器人，如今正在美国某个物流仓库里昼夜不停地分拣包裹，并被24小时全天候直播，直播一出，在X和YouTube上围观人数迅速突破了200万。\n \n截至目前，Figure AI已经直播40个小时，远超最初的8小时挑战，并且直播仍在继续，或许这将成为全球最长的一次人形机器人全自主运行公开测试。\n \n而这一切的起源还要追溯到一场来自线上的对决。\n \n一条推文引发的“约架”\n \n5月13日，机器人领域的专家和布道者Scott Walter在社媒公开质疑，人形机器达到人类的速度才会具有有限的实用性，而机器人领域的领先者应该能",
-    "abstractZh": "上次Figure AI出现在大众目光中，还是5月8日晚那段两分钟的家务视频，在两分钟的时间里，Figure 03两台机器人，用同一个大脑协作完成了一整套房间整理流程。\n \n几天后，Figure AI又创造了一波新的话题度。\n \n三台名叫Bob、Frank和Gary的人形机器人，如今正在美国某个物流仓库里昼夜不停地分拣包裹，并被24小时全天候直播，直播一出，在X和YouTube上围观人数迅速突破了200万。\n \n截至目前，Figure AI已经直播40个小时，远超最初的8小时挑战，并且直播仍在继续，或许这将成为全球最长的一次人形机器人全自主运行公开测试。\n \n而这一切的起源还要追溯到一场来自线上的对决。\n \n一条推文引发的约架\n \n5月13日，机器人领域的专家和布道者Scott",
+    "abstractZh": "上次Figure AI出现在大众目光中，还是5月8日晚那段两分钟的家务视频，在两分钟的时间里，Figure 03两台机器人，用同一个大脑协作完成了一整套房间整理流程。几天后，Figure AI又创造了一波新的话题度。三台名叫Bob、Frank和Gary的人形机器人，如今正在美国某个物流仓库里昼夜不停地分拣包裹，并被24小时全天候直播，直播一出，在X和YouTube上围观人数迅速突破了200万。截至目前，Figure AI已经直播40个小时，远超最初的8小时挑战，并且直播仍在继续，或许这将成为全球最长的一次人形机器人全自主运行公开测试。而这一切的起源还要追溯到一场来自线上的对决。一条推文引发的约架 5月13日，机器人领域的专家和布道者Scott",
     "authors": [
       "雷锋网"
     ],
@@ -789,8 +1403,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-tcrircwmidsjcxgo-html",
@@ -801,7 +1414,7 @@
     "titleEn": "2027年迈向十万台产能：矩阵超智开启具身智能量产元年",
     "titleZh": "2027年迈向十万台产能：矩阵超智开启具身智能量产元年",
     "abstractEn": "2026年5月18日，上海 —— 物理世界 AGI 的进化曲线，正在由中国头部工程团队重新刻画！今日，具身智能领域的硬核标杆矩阵超智，在上海张江集成创新园盛大举办“2026矩阵超智科技日（AI DAY）”。这不仅是一场技术的展示，更是国产具身智能向全球顶尖水准发起的强力突围。\n由特斯拉中国设计研究中心前创始领导人张海星领衔的“工程化梦之队”，深谙从实验室走向大规模工业化的底层逻辑，团队不盲目追求单一指标，而是坚持第一性原理，通过对核心关节、灵巧手MATRIX HAND与泛化大脑的系统性重构，打造出真正能下场干活、具备全球竞争力的“中国擎天柱”。在现场，MATRIX-3全能旗舰级人形机器人以震撼的实机作业，宣告其从“数字大脑”到“强壮本体”的完美合体。\n\n \n技术突破：泛化大脑与强壮本体的深度集成\n在产品迭代与技术攻关上，任何伟大的愿景都离不开脚踏实地的演进。从第一代工程验证机验证全直驱关节",
-    "abstractZh": "2026年5月18日，上海 —— 物理世界 AGI 的进化曲线，正在由中国头部工程团队重新刻画！今日，具身智能领域的硬核标杆矩阵超智，在上海张江集成创新园盛大举办2026矩阵超智科技日（AI DAY）。这不仅是一场技术的展示，更是国产具身智能向全球顶尖水准发起的强力突围。\n由特斯拉中国设计研究中心前创始领导人张海星领衔的工程化梦之队，深谙从实验室走向大规模工业化的底层逻辑，团队不盲目追求单一指标，而是坚持第一性原理，通过对核心关节、灵巧手MATRIX HAND与泛化大脑的系统性重构，打造出真正能下场干活、具备全球竞争力的中国擎天柱。在现场，MATRIX-3全能旗舰级人形机器人以震撼的实机作业，宣告其从数字大脑到强壮本体的完美合体。\n\n \n技术突破：泛化大脑与强壮本体的深度",
+    "abstractZh": "2026年5月18日，上海 —— 物理世界 AGI 的进化曲线，正在由中国头部工程团队重新刻画！今日，具身智能领域的硬核标杆矩阵超智，在上海张江集成创新园盛大举办「2026矩阵超智科技日（AI DAY）」。这不仅是一场技术的展示，更是国产具身智能向全球顶尖水准发起的强力突围。\n由特斯拉中国设计研究中心前创始领导人张海星领衔的「工程化梦之队」，深谙从实验室走向大规模工业化的底层逻辑，团队不盲目追求单一指标，而是坚持第一性原理，通过对核心关节、灵巧手MATRIX HAND与泛化大脑的系统性重构，打造出真正能下场干活、具备全球竞争力的「中国擎天柱」。在现场，MATRIX-3全能旗舰级人形机器人以震撼的实机作业，宣告其从「数字大脑」到「强壮本体」的完美合体。\n\n \n技术突破：泛化大脑与强壮本体的深度",
     "authors": [
       "雷锋网"
     ],
@@ -811,8 +1424,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419414-html",
@@ -845,7 +1457,7 @@
     "titleEn": "一封律师函引发的GitHub风暴：拓竹为何惹毛了全球极客？",
     "titleZh": "一封律师函引发的GitHub风暴：拓竹为何惹毛了全球极客？",
     "abstractEn": "01\n\n\n拓竹一封律师函，点燃全球极客怒火\n\n\n\n\n\n上周二，全球硬件测评届的超级顶流、以拆解显卡和电源死磕厂商而闻名的261万粉科技频道 GamersNexus，发了一条不到140个字符的推文，怒斥“拓竹”：\"Get fucked, Bambu.\"\n\n图注：GamersNexus推特原文\n这个链接指向的仓库叫 FULU-Foundation/OrcaSlicer-bambulab，一个为了绕过拓竹（Bambu Lab）打印机云端封锁而诞生的开源项目。截至发稿，该仓库已疯狂斩获 5,700 颗星标和 4,100 次 fork，在过去24小时内更是以暴增 731 颗星的速度在开源世界迅速蔓延。\n\n\n图注：GitHub项目“FULU-Foundation/OrcaSlicer-bambulab”\n这场引爆科技圈海啸的冲突，导火索源自一封法律警告函。收件人是波兰开发者 jarczakpawel，",
-    "abstractZh": "01\n\n\n拓竹一封律师函，点燃全球极客怒火\n\n\n\n\n\n上周二，全球硬件测评届的超级顶流、以拆解显卡和电源死磕厂商而闻名的261万粉科技频道 GamersNexus，发了一条不到140个字符的推文，怒斥拓竹：Get fucked, Bambu.\n\n图注：GamersNexus推特原文\n这个链接指向的仓库叫 FULU-Foundation/OrcaSlicer-bambulab，一个为了绕过拓竹打印机云端封锁而诞生的开源项目。截至发稿，该仓库已疯狂斩获 5,700 颗星标和 4,100 次 fork，在过去24小时内更是以暴增 731 颗星的速度在开源世界迅速蔓延。\n\n\n图注：GitHub项目FULU-Foundation/OrcaSlicer-bambulab",
+    "abstractZh": "01\n\n\n拓竹一封律师函，点燃全球极客怒火\n\n\n\n\n\n上周二，全球硬件测评届的超级顶流、以拆解显卡和电源死磕厂商而闻名的261万粉科技频道 GamersNexus，发了一条不到140个字符的推文，怒斥「拓竹」：'Get fucked, Bambu.'\n\n图注：GamersNexus推特原文\n这个链接指向的仓库叫 FULU-Foundation/OrcaSlicer-bambulab，一个为了绕过拓竹（Bambu Lab）打印机云端封锁而诞生的开源项目。截至发稿，该仓库已疯狂斩获 5,700 颗星标和 4,100 次 fork，在过去24小时内更是以暴增 731 颗星的速度在开源世界迅速蔓延。\n\n\n图注：GitHub项目「FULU-Foundation/OrcaSlicer-bambulab」",
     "authors": [
       "雷锋网"
     ],
@@ -855,8 +1467,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-alivcvtlpfv5pyvr-html",
@@ -867,7 +1478,7 @@
     "titleEn": "对话关梦龙：他想用 Agent 拯救你手机里的 100G 废片",
     "titleZh": "对话关梦龙：他想用 Agent 拯救你手机里的 100G 废片",
     "abstractEn": "“以前二三十人做一款产品，以后是二三十人做三四十款产品。”\n作为前字节跳动剪映早期团队成员，关梦龙在聊起 AI 带来的生产力变革时，抛出了这个近乎直白的结论。\n在他看来，AI 让代码生产力实现飞跃，但这并不意味着创业变容易了。相反，当市面上的产品供给开始成倍“卷”起来的时候，真正的厮杀才刚刚开始。\n关梦龙正在做的是一款定位为“表达助手”的 AI 编导产品“ Cutto ”。与直接“卷”视频生成的产品不同，这类产品不再只是提升效率，而是试图让 AI 直接参与甚至主导内容生成过程，人更多承担牵引和控制的角色。将小白用户的创作流程用Agent方式重新做一遍，提供创作者和自己Agent一个视频的个性化对齐工作台。\n具体看 “Cutto” 的工作流程，就是通过复杂的 Agent 架构，小白用户只需像做选择题一样回答 4 到 5 个关于受众和调性的问题，系统就能在 3 到 5 分钟内，代写出一份精确到",
-    "abstractZh": "以前二三十人做一款产品，以后是二三十人做三四十款产品。\n作为前字节跳动剪映早期团队成员，关梦龙在聊起 AI 带来的生产力变革时，抛出了这个近乎直白的结论。\n在他看来，AI 让代码生产力实现飞跃，但这并不意味着创业变容易了。相反，当市面上的产品供给开始成倍卷起来的时候，真正的厮杀才刚刚开始。\n关梦龙正在做的是一款定位为表达助手的 AI 编导产品 Cutto。与直接卷视频生成的产品不同，这类产品不再只是提升效率，而是试图让 AI 直接参与甚至主导内容生成过程，人更多承担牵引和控制的角色。将小白用户的创作流程用Agent方式重新做一遍，提供创作者和自己Agent一个视频的个性化对齐工作台。\n具体看 Cutto 的工作流程，就是通过复杂的 Agent 架构，小白用户只需像做",
+    "abstractZh": "「以前二三十人做一款产品，以后是二三十人做三四十款产品。」\n作为前字节跳动剪映早期团队成员，关梦龙在聊起 AI 带来的生产力变革时，抛出了这个近乎直白的结论。\n在他看来，AI 让代码生产力实现飞跃，但这并不意味着创业变容易了。相反，当市面上的产品供给开始成倍「卷」起来的时候，真正的厮杀才刚刚开始。\n关梦龙正在做的是一款定位为「表达助手」的 AI 编导产品「 Cutto 」。与直接「卷」视频生成的产品不同，这类产品不再只是提升效率，而是试图让 AI 直接参与甚至主导内容生成过程，人更多承担牵引和控制的角色。将小白用户的创作流程用Agent方式重新做一遍，提供创作者和自己Agent一个视频的个性化对齐工作台。\n具体看 「Cutto」的工作流程，就是通过复杂的 Agent 架构，小白用户只需像做",
     "authors": [
       "雷锋网"
     ],
@@ -877,8 +1488,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "hrorg:boss-zhipin:0db78c76191c",
@@ -902,7 +1512,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419386-html",
@@ -935,7 +1546,7 @@
     "titleEn": "魔法原子惊艳亮相戛纳 中国智造登临国际顶级文化盛典",
     "titleZh": "魔法原子惊艳亮相戛纳 中国智造登临国际顶级文化盛典",
     "abstractEn": "5月13日，第79届戛纳国际电影节中国之夜暨“中国电影+”论坛在法国戛纳盛大启幕。作为本次活动首席合作伙伴，魔法原子携全家族机器人亮相，以具身智能技术深度参与国际顶级文化盛典，将中国科技、中国智造与中国文化表达紧密衔接，为中国智造与中国文化提供了全新表达样本。\n\n从舞台展示走向场景协同 进入国际文化盛典真实场景\n作为全球领先的具身智能科技企业，魔法原子此次全家族机器人深度融入盛典流程，覆盖红毯迎宾、活动主持、非遗导览、精细服务、舞台表演等多个关键环节，构建起完整的场景应用链条，展现了机器人在实景服务、场景协同的跨越式升级。\n\n作为国际顶级文化盛典，戛纳国际电影节中国之夜具备开放复杂、人流密集、容错率低的特点，对机器人的综合性能力提出极高考验，魔法原子机器人的全方位稳定落地，恰恰印证了其技术已具备国际高端场景实战能力。\n在金海岸活动区域，魔法原子MagicBot Gen1承担现场主持人职能，",
-    "abstractZh": "5月13日，第79届戛纳国际电影节中国之夜暨中国电影+论坛在法国戛纳盛大启幕。作为本次活动首席合作伙伴，魔法原子携全家族机器人亮相，以具身智能技术深度参与国际顶级文化盛典，将中国科技、中国智造与中国文化表达紧密衔接，为中国智造与中国文化提供了全新表达样本。\n\n从舞台展示走向场景协同 进入国际文化盛典真实场景\n作为全球领先的具身智能科技企业，魔法原子此次全家族机器人深度融入盛典流程，覆盖红毯迎宾、活动主持、非遗导览、精细服务、舞台表演等多个关键环节，构建起完整的场景应用链条，展现了机器人在实景服务、场景协同的跨越式升级。\n\n作为国际顶级文化盛典，戛纳国际电影节中国之夜具备开放复杂、人流密集、容错率低的特点，对机器人的综合性能力提出极高考验，魔法原子机器人的全方位稳定落地，恰恰印证了其技术已",
+    "abstractZh": "5月13日，第79届戛纳国际电影节中国之夜暨「中国电影+」论坛在法国戛纳盛大启幕。作为本次活动首席合作伙伴，魔法原子携全家族机器人亮相，以具身智能技术深度参与国际顶级文化盛典，将中国科技、中国智造与中国文化表达紧密衔接，为中国智造与中国文化提供了全新表达样本。\n\n从舞台展示走向场景协同 进入国际文化盛典真实场景\n作为全球领先的具身智能科技企业，魔法原子此次全家族机器人深度融入盛典流程，覆盖红毯迎宾、活动主持、非遗导览、精细服务、舞台表演等多个关键环节，构建起完整的场景应用链条，展现了机器人在实景服务、场景协同的跨越式升级。\n\n作为国际顶级文化盛典，戛纳国际电影节中国之夜具备开放复杂、人流密集、容错率低的特点，对机器人的综合性能力提出极高考验，魔法原子机器人的全方位稳定落地，恰恰印证了其技术已",
     "authors": [
       "雷锋网"
     ],
@@ -945,8 +1556,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-hyggn5mbrdnbzfrd-html",
@@ -957,7 +1567,7 @@
     "titleEn": "快手装不下可灵了",
     "titleZh": "快手装不下可灵了",
     "abstractEn": "“可灵要走，也是快手必须要放手了。”\n说这话的是前快手成员汪紫玲，对于近期快手计划分拆旗下视频生成大模型可灵AI 一事，她给出了自己的看法。\n近日，快手正以200亿美元的估值寻求外部融资，如果按这样来算，快手目前的总市值约为300亿美元左右（约2300亿港元），而分拆出来的可灵目标估值高达200亿美元，占了母公司的近七成。\n这也是引发市场热议的地方，目前方案处于初步阶段。\n前快手成员紫玲表示，这并非一场简单的业务独立，而是快手与可灵在当前阶段必须完成的资本与业务切割。\n另一位二级市场资深分析师的判断是：“资本市场从来不需要快手的老故事，他们只想要可灵的新故事。”\n对快手而言，可灵已经成为挤占财报利润的内部选手，对可灵而言，快手重成本的电商基因，有点束缚自己在AI进程上的发力。\n快手官方虽然在公告中谨慎地使用了“评估拟议重组”的词汇，但资本的暗涌早已无法掩盖。\n同时这次也向外界抛出一个关于大",
-    "abstractZh": "可灵要走，也是快手必须要放手了。\n说这话的是前快手成员汪紫玲，对于近期快手计划分拆旗下视频生成大模型可灵AI 一事，她给出了自己的看法。\n近日，快手正以200亿美元的估值寻求外部融资，如果按这样来算，快手目前的总市值约为300亿美元左右，而分拆出来的可灵目标估值高达200亿美元，占了母公司的近七成。\n这也是引发市场热议的地方，目前方案处于初步阶段。\n前快手成员紫玲表示，这并非一场简单的业务独立，而是快手与可灵在当前阶段必须完成的资本与业务切割。\n另一位二级市场资深分析师的判断是：资本市场从来不需要快手的老故事，他们只想要可灵的新故事。\n对快手而言，可灵已经成为挤占财报利润的内部选手，对可灵而言，快手重成本的电商基因，有点束缚自己在AI进程上的发力。\n快手官方虽然在",
+    "abstractZh": "「可灵要走，也是快手必须要放手了。」\n说这话的是前快手成员汪紫玲，对于近期快手计划分拆旗下视频生成大模型可灵AI 一事，她给出了自己的看法。\n近日，快手正以200亿美元的估值寻求外部融资，如果按这样来算，快手目前的总市值约为300亿美元左右（约2300亿港元），而分拆出来的可灵目标估值高达200亿美元，占了母公司的近七成。\n这也是引发市场热议的地方，目前方案处于初步阶段。\n前快手成员紫玲表示，这并非一场简单的业务独立，而是快手与可灵在当前阶段必须完成的资本与业务切割。\n另一位二级市场资深分析师的判断是：「资本市场从来不需要快手的老故事，他们只想要可灵的新故事。」\n对快手而言，可灵已经成为挤占财报利润的内部选手，对可灵而言，快手重成本的电商基因，有点束缚自己在AI进程上的发力。\n快手官方虽然在",
     "authors": [
       "雷锋网"
     ],
@@ -967,8 +1577,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "reddit:1tgecrq",
@@ -992,7 +1601,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419272-html",
@@ -1038,7 +1648,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-kniiukakjvejloxx-html",
@@ -1049,7 +1660,7 @@
     "titleEn": "豆包上线博物馆讲解模式，官方合作覆盖超20家头部博物馆",
     "titleZh": "豆包上线博物馆讲解模式，官方合作覆盖超20家头部博物馆",
     "abstractEn": "5月18日，第50个国际博物馆日，字节跳动旗下豆包正式上线了博物馆讲解模式，为逛展爱好者提供专业AI讲解体验。在逛展期间，观众可使用豆包博物馆讲解功能，对准展品即可自动识别，豆包会针对具体展品进行专业个性化讲解。\n点击豆包App对话框内的“博物馆讲解”按钮，豆包会提供专门的视频通话讲解，并提示轻声提问、佩戴耳机。对准展品后，豆包将自动识别相应展品，并提供个性化的介绍和导览。 此外，向豆包说一句 “每看到一个展品就主动介绍”，即可边走边听，不需要每个展品都反复提问。即使轻声提问，豆包也能准确识别。\n据悉，此次上线的豆包博物馆模式，官方合作覆盖了包括中国国家博物馆、浦东美术馆、甘肃省博物馆、河北博物院、首都博物馆、中国美术馆等20余家博物馆、美术馆，用户逛这些场馆的时候，可以轻松获得基于相关展览和展品信息数据采集的深度讲解服务。\n \n除了线上覆盖的20余家头部博物馆之外，豆包在线下还与甘肃省博",
-    "abstractZh": "5月18日，第50个国际博物馆日，字节跳动旗下豆包正式上线了博物馆讲解模式，为逛展爱好者提供专业AI讲解体验。在逛展期间，观众可使用豆包博物馆讲解功能，对准展品即可自动识别，豆包会针对具体展品进行专业个性化讲解。\n点击豆包App对话框内的博物馆讲解按钮，豆包会提供专门的视频通话讲解，并提示轻声提问、佩戴耳机。对准展品后，豆包将自动识别相应展品，并提供个性化的介绍和导览。此外，向豆包说一句 每看到一个展品就主动介绍，即可边走边听，不需要每个展品都反复提问。即使轻声提问，豆包也能准确识别。\n据悉，此次上线的豆包博物馆模式，官方合作覆盖了包括中国国家博物馆、浦东美术馆、甘肃省博物馆、河北博物院、首都博物馆、中国美术馆等20余家博物馆、美术馆，用户逛这些场馆的时候，可以轻松获得基于相关展览",
+    "abstractZh": "5月18日，第50个国际博物馆日，字节跳动旗下豆包正式上线了博物馆讲解模式，为逛展爱好者提供专业AI讲解体验。在逛展期间，观众可使用豆包博物馆讲解功能，对准展品即可自动识别，豆包会针对具体展品进行专业个性化讲解。\n点击豆包App对话框内的「博物馆讲解」按钮，豆包会提供专门的视频通话讲解，并提示轻声提问、佩戴耳机。对准展品后，豆包将自动识别相应展品，并提供个性化的介绍和导览。 此外，向豆包说一句 「每看到一个展品就主动介绍」，即可边走边听，不需要每个展品都反复提问。即使轻声提问，豆包也能准确识别。\n据悉，此次上线的豆包博物馆模式，官方合作覆盖了包括中国国家博物馆、浦东美术馆、甘肃省博物馆、河北博物院、首都博物馆、中国美术馆等20余家博物馆、美术馆，用户逛这些场馆的时候，可以轻松获得基于相关展览",
     "authors": [
       "雷锋网"
     ],
@@ -1059,8 +1670,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "hrorg:zhilian:5ade2b558d25",
@@ -1083,7 +1693,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419256-html",
@@ -1116,7 +1727,7 @@
     "titleEn": "AI座舱热度持续攀升，佑驾创新引领智能座舱进入大模型时代",
     "titleZh": "AI座舱热度持续攀升，佑驾创新引领智能座舱进入大模型时代",
     "abstractEn": "智能座舱正在成为汽车智能化的新焦点。随着大模型能力加速上车，座舱不再只是屏幕、语音和娱乐系统的集合，而是逐步演变为连接驾驶安全、用户交互、车家协同和情感服务的物理AI入口。\n \n这一趋势已在行业中快速升温。2026北京车展期间，以OpenClaw为代表的新一代Agent登上舞台，将舱内的能力延展至车外世界。其中，佑驾创新（2431.HK）为旗下的座舱大模型智能管家BamBam升级了龙虾助手，丝滑实现车舱内的跨端协同。\n \n通常来说，手机或电脑上的Agent主要理解语言、APP应用功能，而车载Agent面对的是一个动态空间：谁在车里、驾驶员是否疲劳、乘客是否需要照顾、旅途中是否需要提醒、儿童或后排乘员状态是否异常。因此，智能座舱要从“听懂指令”升级为“理解用户”必须具备对车内状态的实时感知。\n \n基于上述对行业的深刻洞察，佑驾创新打造BamBam的思路并不是简单把大模型搬进车里，而是把DMS",
-    "abstractZh": "智能座舱正在成为汽车智能化的新焦点。随着大模型能力加速上车，座舱不再只是屏幕、语音和娱乐系统的集合，而是逐步演变为连接驾驶安全、用户交互、车家协同和情感服务的物理AI入口。\n \n这一趋势已在行业中快速升温。2026北京车展期间，以OpenClaw为代表的新一代Agent登上舞台，将舱内的能力延展至车外世界。其中，佑驾创新为旗下的座舱大模型智能管家BamBam升级了龙虾助手，丝滑实现车舱内的跨端协同。\n \n通常来说，手机或电脑上的Agent主要理解语言、APP应用功能，而车载Agent面对的是一个动态空间：谁在车里、驾驶员是否疲劳、乘客是否需要照顾、旅途中是否需要提醒、儿童或后排乘员状态是否异常。因此，智能座舱要从听懂指令升级为理解用户必须具备对车内状态的实时感知。\n",
+    "abstractZh": "智能座舱正在成为汽车智能化的新焦点。随着大模型能力加速上车，座舱不再只是屏幕、语音和娱乐系统的集合，而是逐步演变为连接驾驶安全、用户交互、车家协同和情感服务的物理AI入口。\n \n这一趋势已在行业中快速升温。2026北京车展期间，以OpenClaw为代表的新一代Agent登上舞台，将舱内的能力延展至车外世界。其中，佑驾创新（2431.HK）为旗下的座舱大模型智能管家BamBam升级了龙虾助手，丝滑实现车舱内的跨端协同。\n \n通常来说，手机或电脑上的Agent主要理解语言、APP应用功能，而车载Agent面对的是一个动态空间：谁在车里、驾驶员是否疲劳、乘客是否需要照顾、旅途中是否需要提醒、儿童或后排乘员状态是否异常。因此，智能座舱要从「听懂指令」升级为「理解用户」必须具备对车内状态的实时感知。\n",
     "authors": [
       "雷锋网"
     ],
@@ -1126,8 +1737,7 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-19T02:08:09.476Z",
-    "featured": false
+    "fetchedAt": "2026-05-20T02:10:13.401Z"
   },
   {
     "id": "hrorg:recruit:8026ab415241",
@@ -1151,7 +1761,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-zaobao-plwmiqcikknlpley-html",
@@ -1196,7 +1807,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hn:48173547",
@@ -1628,7 +2240,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hn:48164287",
@@ -1697,7 +2310,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hn:48160807",
@@ -1878,7 +2492,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hn:48153379",
@@ -1971,7 +2586,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:5030a15aec99",
@@ -1994,7 +2610,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:3f888e435b8e",
@@ -2018,7 +2635,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-418135-html",
@@ -2108,7 +2726,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:411759c6a6b4",
@@ -2132,7 +2751,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-418140-html",
@@ -2244,7 +2864,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:66223d2afc60",
@@ -2268,7 +2889,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-417958-html",
@@ -2379,7 +3001,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:korn-ferry:3f0452542f5a",
@@ -2403,7 +3026,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:adecco:98d72c5081db",
@@ -2427,7 +3051,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-417731-html",
@@ -2473,7 +3098,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:b0c6075c7eb2",
@@ -2496,7 +3122,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-417816-html",
@@ -2585,7 +3212,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-417753-html",
@@ -21249,7 +21877,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "reddit:1t0lswx",
@@ -30672,7 +31301,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:careerin:a86fb830a734",
@@ -31079,7 +31709,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:careerin:e268dcd23f9f",
@@ -31828,7 +32459,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:zhilian:a08a7d00c8a6",
@@ -32898,7 +33530,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-19T09:40:32.829Z"
+    "fetchedAt": "2026-05-19T09:40:32.829Z",
+    "featured": false
   },
   {
     "id": "hrorg:zhilian:a2d217abb56d",
