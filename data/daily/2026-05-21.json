@@ -1,20 +1,41 @@
 {
   "date": "2026-05-21",
-  "generatedAt": "2026-05-21T01:09:22.130Z",
+  "generatedAt": "2026-05-21T02:05:52.861Z",
   "summary": {
     "aiNews": [
-      "Nvidia 承诺 900 亿美元投资 AI 交易，巩固 AI 优势",
-      "Anthropic 首个盈利季度在望，扩展到 Colossus2 使用 GB200",
-      "民调显示美国转向反对 AI，监管争议升温"
+      "Intuit裁员3000+人，重新聚焦AI",
+      "Nvidia承诺900亿美元投资AI",
+      "Anthropic将迎首个盈利季度"
     ],
     "papers": [],
     "hrOrgs": [
-      "BOSS 直聘 Q1 净利润 11.57 亿元，同比增长 123%",
-      "Indeed 首席经济学家：企业高估 AI 劳动力转型速度",
-      "Indeed 母公司 AI 驱动下创纪录增长"
+      "BOSS直聘Q1净利润11.57亿元，同比增123%",
+      "Indeed母公司称AI驱动创纪录增长",
+      "Indeed经济学家称高管高估AI转型速度"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48216278",
+      "slug": "hn-48216278-intuit-to-lay-off-over-3k-employees-to-refocus-on-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48216278",
+      "publishedAt": "2026-05-21T00:36:01.000Z",
+      "titleEn": "Intuit to lay off over 3k employees to refocus on AI",
+      "titleZh": "Intuit 将裁员超3000人，重新聚焦AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "wapasta"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 30,
+      "commentCount": 7,
+      "tags": []
+    },
     {
       "id": "reddit:1tj3fvf",
       "slug": "reddit-1tj3fvf-opinions-improvements-for-my-qwen3-6-35b-a3b-fp8-hermes-agent-set",

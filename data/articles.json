@@ -1,5 +1,27 @@
 [
   {
+    "id": "hn:48216278",
+    "slug": "hn-48216278-intuit-to-lay-off-over-3k-employees-to-refocus-on-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48216278",
+    "publishedAt": "2026-05-21T00:36:01.000Z",
+    "titleEn": "Intuit to lay off over 3k employees to refocus on AI",
+    "titleZh": "Intuit 将裁员超3000人，重新聚焦AI",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "wapasta"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 30,
+    "commentCount": 7,
+    "tags": [],
+    "fetchedAt": "2026-05-21T02:05:52.888Z"
+  },
+  {
     "id": "reddit:1tj3fvf",
     "slug": "reddit-1tj3fvf-opinions-improvements-for-my-qwen3-6-35b-a3b-fp8-hermes-agent-set",
     "source": "Reddit LocalLLaMA",
@@ -21,7 +43,8 @@
     "tags": [
       "Question | Help"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:korn-ferry:e28fb21d810a",
@@ -44,7 +67,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tj393d",
@@ -68,7 +92,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:0c57b578b1db",
@@ -92,7 +117,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:e59de77960dc",
@@ -115,7 +141,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:cbd2123b4e8d",
@@ -138,7 +165,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:1ef3afc35e43",
@@ -161,7 +189,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214843",
@@ -183,7 +212,8 @@
     "score": 18,
     "commentCount": 7,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:fd92b9213a6b",
@@ -206,7 +236,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214779",
@@ -228,7 +259,8 @@
     "score": 8,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214739",
@@ -250,7 +282,8 @@
     "score": 6,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214617",
@@ -272,7 +305,8 @@
     "score": 32,
     "commentCount": 19,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tizvih",
@@ -296,7 +330,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tizmar",
@@ -320,7 +355,8 @@
     "tags": [
       "New Model"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214348",
@@ -342,7 +378,8 @@
     "score": 20,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214188",
@@ -364,7 +401,8 @@
     "score": 32,
     "commentCount": 6,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214177",
@@ -386,7 +424,8 @@
     "score": 12,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:054ebc22cf4b",
@@ -409,7 +448,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214084",
@@ -431,7 +471,8 @@
     "score": 9,
     "commentCount": 2,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48214017",
@@ -453,7 +494,8 @@
     "score": 51,
     "commentCount": 33,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:97db5799bacc",
@@ -476,7 +518,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tiwnpc",
@@ -500,7 +543,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tivvd4",
@@ -524,7 +568,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "openai:model-disproves-discrete-geometry-conjecture",
@@ -573,7 +618,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48212493",
@@ -595,7 +641,8 @@
     "score": 681,
     "commentCount": 488,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:8397ac38cecf",
@@ -618,7 +665,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tiuern",
@@ -642,7 +690,8 @@
     "tags": [
       "Question | Help"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:0d2a47f87dff",
@@ -665,7 +714,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tis73j",
@@ -689,7 +739,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:abd5b6cd94ef",
@@ -712,7 +763,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48210615",
@@ -734,7 +786,8 @@
     "score": 15,
     "commentCount": 4,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tirisb",
@@ -758,7 +811,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:c6a7ecfaf332",
@@ -781,7 +835,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48210226",
@@ -803,7 +858,8 @@
     "score": 66,
     "commentCount": 65,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tiqcwu",
@@ -827,7 +883,8 @@
     "tags": [
       "Funny"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:f5474f352b01",
@@ -850,7 +907,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:d109ef15ba21",
@@ -873,7 +931,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:c4a9c953ae3b",
@@ -896,7 +955,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tipihx",
@@ -920,7 +980,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tiphqe",
@@ -944,7 +1005,8 @@
     "tags": [
       "New Model"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48209323",
@@ -966,7 +1028,8 @@
     "score": 105,
     "commentCount": 24,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:4dc492d2814b",
@@ -989,7 +1052,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tio2i5",
@@ -1013,7 +1077,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:d52e97c99a73",
@@ -1036,7 +1101,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48208685",
@@ -1058,7 +1124,8 @@
     "score": 76,
     "commentCount": 12,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:37e0fb1629a4",
@@ -1081,7 +1148,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tinl98",
@@ -1105,7 +1173,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:b11783fa0ba5",
@@ -1129,7 +1198,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:fa4f3dabfdc0",
@@ -1152,7 +1222,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:820bb50f44a0",
@@ -1175,7 +1246,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420753-html",
@@ -1196,7 +1268,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:5fe7e4f1b3fc",
@@ -1219,7 +1292,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:db9967b98912",
@@ -1242,7 +1316,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:cb705c7b7fb1",
@@ -1265,7 +1340,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:a0ceec450607",
@@ -1288,7 +1364,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tilvit",
@@ -1312,7 +1389,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420743-html",
@@ -1333,7 +1411,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:boss-zhipin:a078d96ec684",
@@ -1357,7 +1436,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:adecco:135fe4199f44",
@@ -1381,7 +1461,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tijpwl",
@@ -1405,7 +1486,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:39d15c29e2fe",
@@ -1428,7 +1510,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tij57l",
@@ -1452,7 +1535,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tiixql",
@@ -1476,7 +1560,8 @@
     "tags": [
       "Discussion"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:39718b245af8",
@@ -1499,7 +1584,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48205782",
@@ -1521,7 +1607,8 @@
     "score": 250,
     "commentCount": 172,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48205626",
@@ -1543,7 +1630,8 @@
     "score": 602,
     "commentCount": 241,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:e61c18de9434",
@@ -1566,7 +1654,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420703-html",
@@ -1587,7 +1676,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-qlftspjnd1qd0rvw-html",
@@ -1608,7 +1698,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-ofwmy9nylzejkh6o-html",
@@ -1629,7 +1720,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-acl3eqde7tkjipws-html",
@@ -1650,7 +1742,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "gnews:1f40ad9b1ffd",
@@ -1673,7 +1766,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:d661ddbd01e8",
@@ -1697,7 +1791,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:d16060f5",
@@ -1738,7 +1833,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420681-html",
@@ -1759,7 +1855,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1tie6gy",
@@ -1783,7 +1880,8 @@
     "tags": [
       "Resources"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-qd7lg7yghxg8unqr-html",
@@ -1804,7 +1902,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-yggzhzmx750pe4ot-html",
@@ -1825,7 +1924,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420656-html",
@@ -1846,7 +1946,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-rrzpwn3vbjfo0ogj-html",
@@ -1867,7 +1968,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-xpuqxfmp2onqobko-html",
@@ -1888,7 +1990,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420651-html",
@@ -1909,7 +2012,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-w4jduezsmwldd7e0-html",
@@ -1930,7 +2034,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-h2vxbym3bbzotcih-html",
@@ -1951,7 +2056,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1ti99an",
@@ -1975,7 +2081,8 @@
     "tags": [
       "News"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hrorg:adecco:e8317e0f22d6",
@@ -1999,7 +2106,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-420531-html",
@@ -2044,7 +2152,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48200569",
@@ -2192,7 +2301,8 @@
     "category": "research",
     "titleZh": "介绍 Gemini Omni",
     "abstractZh": "[blog.google] 介绍 Gemini Omni",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:aa6e06f8",
@@ -2205,7 +2315,8 @@
     "category": "research",
     "titleZh": "开启衰老研究的新路径",
     "abstractZh": "[Google DeepMind] 开启衰老研究的新路径",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:b0eddb01",
@@ -2218,7 +2329,8 @@
     "category": "research",
     "titleZh": "Gemini for Science：面向新发现时代的AI实验与工具",
     "abstractZh": "[blog.google] Gemini for Science：面向新发现时代的AI实验与工具",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:bc98c00b",
@@ -2231,7 +2343,8 @@
     "category": "research",
     "titleZh": "Co-Scientist：推动创造性合作以加速ALS研究",
     "abstractZh": "[Google DeepMind] Co-Scientist：推动创造性合作以加速ALS研究",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:670a036f",
@@ -2244,7 +2357,8 @@
     "category": "research",
     "titleZh": "Gemini 3.5：具备行动能力的前沿智能",
     "abstractZh": "[blog.google] Gemini 3.5：具备行动能力的前沿智能",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:eec3d397",
@@ -2257,7 +2371,8 @@
     "category": "research",
     "titleZh": "加速肝病机制的发现",
     "abstractZh": "[Google DeepMind] 加速肝病机制的发现",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "deepmind:2e9fb576",
@@ -2270,7 +2385,8 @@
     "category": "research",
     "titleZh": "AI突破：WeatherNext预测了Melissa飓风",
     "abstractZh": "[Google DeepMind] AI突破：WeatherNext预测了Melissa飓风",
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48196609",
@@ -2453,7 +2569,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48192383",
@@ -2570,7 +2687,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1thg3n6",
@@ -2616,7 +2734,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1thfd53",
@@ -3452,7 +3571,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-419585-html",
@@ -3662,7 +3782,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-3aonht2ggd1ntdrv-html",
@@ -4074,7 +4195,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-zaobao-plwmiqcikknlpley-html",
@@ -4327,7 +4449,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48168426",
@@ -4898,7 +5021,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "hn:48148337",
@@ -13447,7 +13571,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "reddit:1t67lvx",
@@ -35809,7 +35934,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-21T01:09:22.154Z"
+    "fetchedAt": "2026-05-21T01:09:22.154Z",
+    "featured": false
   },
   {
     "id": "anthropic:claude-skills",
