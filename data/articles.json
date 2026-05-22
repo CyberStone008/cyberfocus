@@ -1,5 +1,688 @@
 [
   {
+    "id": "hn:48230892",
+    "slug": "hn-48230892-samsung-chip-workers-will-get-an-average-340k-bonus-as-ai-profits-so",
+    "source": "Hacker News",
+    "sourceUrl": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+    "commentUrl": "https://news.ycombinator.com/item?id=48230892",
+    "publishedAt": "2026-05-22T01:30:45.000Z",
+    "titleEn": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+    "titleZh": "随着AI利润飙升，三星芯片工人将获得平均34万美元奖金",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "carabiner"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 7,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48229319",
+    "slug": "hn-48229319-the-memory-shortage-is-causing-a-repricing-of-consumer-electronics",
+    "source": "Hacker News",
+    "sourceUrl": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
+    "commentUrl": "https://news.ycombinator.com/item?id=48229319",
+    "publishedAt": "2026-05-21T21:55:56.000Z",
+    "titleEn": "The memory shortage is causing a repricing of consumer electronics",
+    "titleZh": "内存短缺导致消费电子产品重新定价",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "d0ks"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 97,
+    "commentCount": 68,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48228283",
+    "slug": "hn-48228283-ai-assisted-engineers-are-burning-out-is-this-fine",
+    "source": "Hacker News",
+    "sourceUrl": "https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine",
+    "commentUrl": "https://news.ycombinator.com/item?id=48228283",
+    "publishedAt": "2026-05-21T20:10:34.000Z",
+    "titleEn": "AI-assisted engineers are burning out, is this fine?",
+    "titleZh": "AI 辅助工程师正在精疲力尽，这没问题吗？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "vinnyglennon"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 30,
+    "commentCount": 13,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48227923",
+    "slug": "hn-48227923-multi-stream-llms-new-paper-on-parallelizing-separating-prompts-thin",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2605.12460",
+    "commentUrl": "https://news.ycombinator.com/item?id=48227923",
+    "publishedAt": "2026-05-21T19:37:26.000Z",
+    "titleEn": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+    "titleZh": "多流大语言模型：关于并行化/分离提示、思考、I/O 的新论文",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "atomicthumbs"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 58,
+    "commentCount": 5,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48227907",
+    "slug": "hn-48227907-blink-ai-assistant-a-knowledge-destination",
+    "source": "Hacker News",
+    "sourceUrl": "https://blink-oi.vercel.app",
+    "commentUrl": "https://news.ycombinator.com/item?id=48227907",
+    "publishedAt": "2026-05-21T19:36:20.000Z",
+    "titleEn": "Blink – AI Assistant. A Knowledge Destination",
+    "titleZh": "Blink – AI助手。一个知识目的地",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Pascal1997"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 4,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48227871",
+    "slug": "hn-48227871-open-source-platform-for-automating-sandboxed-coding-agents",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/mistlehq/mistle",
+    "commentUrl": "https://news.ycombinator.com/item?id=48227871",
+    "publishedAt": "2026-05-21T19:33:05.000Z",
+    "titleEn": "Open source platform for automating sandboxed coding agents",
+    "titleZh": "自动化沙盒编码代理的开源平台",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "mickuehl"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 5,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48225596",
+    "slug": "hn-48225596-show-hn-agent-email-sign-up-via-curl-claim-with-a-human-otp",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48225596",
+    "commentUrl": "https://news.ycombinator.com/item?id=48225596",
+    "publishedAt": "2026-05-21T16:42:34.000Z",
+    "titleEn": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+    "titleZh": "Show HN: Agent.email – 通过 curl 注册，用人机OTP认领",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "adisingh13"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 60,
+    "commentCount": 65,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48225040",
+    "slug": "hn-48225040-launch-hn-runtime-yc-p26-sandboxed-coding-agents-for-everyone-on-a-t",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.runtm.com/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48225040",
+    "publishedAt": "2026-05-21T16:07:13.000Z",
+    "titleEn": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+    "titleZh": "Launch HN: Runtime (YC P26) – 团队中每个人的沙盒编码代理",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "gustrigos"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 67,
+    "commentCount": 20,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-transportation-3chtna4aoy1blrww-html",
+    "slug": "fsd-momenta",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/transportation/3chtnA4AOy1BLrwW.html",
+    "publishedAt": "2026-05-21T13:45:00.000Z",
+    "titleEn": "对标特斯拉FSD，Momenta借势出海",
+    "titleZh": "对标特斯拉FSD，Momenta借势出海",
+    "abstractEn": "中国车企在过去几年间完成了产品、品牌和生态体系的逐步出海。而接下来，很可能是智驾技术的全球远征。\nMomentaCEO曹旭东判断，2028年将是海外城市NOA的拐点。\nMomenta和上汽MG做好了准备。北京车展上，双方联合宣布，下半年推出的全新轿跑车型MG07，搭载MomentaR7强化学习世界模型、X7大模型专用芯片，主打软硬一体路线。\n作为全球品牌，MG将以这款新车为进攻全球市场，而Momenta也将借助MG车型，深入特斯拉腹地，迎来海外市场布局的关键挑战。\n曹旭东在采访中透出兴奋与期待。他宣布，R7对标FSD V14，“我们要做中国年轻人的特斯拉。”\n中美两国“老司机”出海欧洲，谁会赢？\n曹旭东表示，中国智驾领先全球水平大约3到4年，2028年很可能是海外城市NOA的拐点。这个进度与海外法规放开的时间节点相吻合，“欧洲、中东、东南亚各个国家城市NOA的法规基本上陆续在2027年放开",
+    "abstractZh": "中国车企在过去几年间完成了产品、品牌和生态体系的逐步出海。而接下来，很可能是智驾技术的全球远征。\nMomentaCEO曹旭东判断，2028年将是海外城市NOA的拐点。\nMomenta和上汽MG做好了准备。北京车展上，双方联合宣布，下半年推出的全新轿跑车型MG07，搭载MomentaR7强化学习世界模型、X7大模型专用芯片，主打软硬一体路线。\n作为全球品牌，MG将以这款新车为进攻全球市场，而Momenta也将借助MG车型，深入特斯拉腹地，迎来海外市场布局的关键挑战。\n曹旭东在采访中透出兴奋与期待。他宣布，R7对标FSD V14，'我们要做中国年轻人的特斯拉。'\n中美两国'老司机'出海欧洲，谁会赢？\n曹旭东表示，中国智驾领先全球水平大约3到4年，2028年很可能是海外城市NOA的拐点。这个进度与",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48222383",
+    "slug": "hn-48222383-ai-is-just-unauthorised-plagiarism-at-a-bigger-scale",
+    "source": "Hacker News",
+    "sourceUrl": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48222383",
+    "publishedAt": "2026-05-21T13:38:12.000Z",
+    "titleEn": "AI is just unauthorised plagiarism at a bigger scale",
+    "titleZh": "AI 只是大规模未经授权的抄袭",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "speckx"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 754,
+    "commentCount": 650,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48221805",
+    "slug": "hn-48221805-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/FredAntB/Spec-Driven-Development",
+    "commentUrl": "https://news.ycombinator.com/item?id=48221805",
+    "publishedAt": "2026-05-21T12:49:07.000Z",
+    "titleEn": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
+    "titleZh": "Show HN: 我为规范驱动开发 (SDD) 制作了一个 Claude Skill",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "NTRIXLM"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 19,
+    "commentCount": 2,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-yanxishe-s8qoo3kbxsfmfxb6-html",
+    "slug": "deepseek-harness-ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/yanxishe/s8qOo3KbXsfmFxb6.html",
+    "publishedAt": "2026-05-21T10:52:00.000Z",
+    "titleEn": "DeepSeek组建Harness团队，非「超能力者」不要？中国AI开启「做产品」的关键一跳",
+    "titleZh": "DeepSeek组建Harness团队，非「超能力者」不要？中国AI开启「做产品」的关键一跳",
+    "abstractEn": "大模型行业的战火，正在从“基座智商”烧向“终端入口”。\n5月19日，DeepSeek 资深研究员陈德里在小红书上发了一条招聘贴，证实内部正在组建全新的\"Harness\"（代码智能体工程）团队，目标直指 Anthropic 旗下的明星产品 Claude Code。\n\n这条消息的冲击力不在于“DeepSeek 要做编码工具了”，毕竟一家有模型的 AI 公司做编码工具再正常不过。真正值得注意的是：一家习惯于底层模型研究的公司，终于开始跨出实验室，亲自下场打造桌面端生产力入口。 \n招聘信息显示，DeepSeek目前在北京海淀区开放了Harness产品经理与研发工程师两个岗位。新成员将全程参与\"DeepSeek桌面端Agent产品\"研发全过程。招聘描述将核心路径定义为 「Model + Harness = Agent」，把上下文管理、工具调用、文件读写、终端执行与测试反馈等模型之外的工程动作，全部划",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-0aev1rwlw51aplui-html",
+    "slug": "x",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/0AEv1Rwlw51aPLui.html",
+    "publishedAt": "2026-05-21T10:28:00.000Z",
+    "titleEn": "清华大学 X 追觅扫地机：共建校级实践基地，开启顶尖工程师“养成计划”",
+    "titleZh": "清华大学 X 追觅扫地机：共建校级实践基地，开启顶尖工程师'养成计划'",
+    "abstractEn": "2026 年 5 月 8 日，清华大学与追觅扫地机正式签约，共建清华大学校级研究生社会实践基地。该基地由清华大学深圳国际研究生院作为代管院系，是深圳国际研究生院 2026 年首次签约设立的校级研究生社会实践基地。\n签约仪式后，与会人员深入追觅扫地机研发实验室，全面了解了追觅扫地机整体发展战略与全球市场影响力，并深入体验了追觅扫地机全球首创的仿生机械臂、高温蒸汽清洁等前沿核心技术。\n\n 此次合作，标志着追觅扫地机与清华大学在人才培养、技术实践、产学研融合等方面的合作迈入新阶段。据介绍，基地将围绕高价值项目、有保障体系、直通未来通道三大关键词展开建设。未来，清华学子将有机会直接参与追觅扫地机前沿业务课题，由资深工程师进行带教，将学术成果应用于真实的产品研发与测试环节中。跨过实验室的静态数据，面对真实用户痛点，并接受严苛的工业级制造约束，对于追觅扫地机而言，这也是一个明确的信号：追觅扫地机希望通",
+    "abstractZh": "2026年5月8日，清华大学与追觅扫地机正式签约，共建清华大学校级研究生社会实践基地。该基地由清华大学深圳国际研究生院作为代管院系，是深圳国际研究生院2026年首次签约设立的校级研究生社会实践基地。\n签约仪式后，与会人员深入追觅扫地机研发实验室，全面了解了追觅扫地机整体发展战略与全球市场影响力，并深入体验了追觅扫地机全球首创的仿生机械臂、高温蒸汽清洁等前沿核心技术。\n\n此次合作，标志着追觅扫地机与清华大学在人才培养、技术实践、产学研融合等方面的合作迈入新阶段。据介绍，基地将围绕高价值项目、有保障体系、直通未来通道三大关键词展开建设。未来，清华学子将有机会直接参与追觅扫地机前沿业务课题，由资深工程师进行带教，将学术成果应用于真实的产品研发与测试环节中。跨过实验室的静态数据，面对",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-422032-html",
+    "slug": "openai-80",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/422032.html",
+    "publishedAt": "2026-05-21T09:36:23.000Z",
+    "titleEn": "菲尔兹奖得主都看懵了：OpenAI非数学模型首次自主突破80年未解数学难题",
+    "titleZh": "菲尔兹奖得主都看懵了：OpenAI非数学模型首次自主突破80年未解数学难题",
+    "abstractEn": "125页“令人恐惧”的推演",
+    "abstractZh": "125页'令人恐惧'的推演",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "hn:48219992",
+    "slug": "hn-48219992-throwing-ai-generated-walls-of-text-into-conversations",
+    "source": "Hacker News",
+    "sourceUrl": "https://noslopgrenade.com/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48219992",
+    "publishedAt": "2026-05-21T09:31:15.000Z",
+    "titleEn": "Throwing AI-generated walls of text into conversations",
+    "titleZh": "将 AI 生成的文本墙扔进对话中",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "napolux"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 501,
+    "commentCount": 301,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-422001-html",
+    "slug": "ceo-coding-all-in-aigc2026",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/422001.html",
+    "publishedAt": "2026-05-21T09:27:25.000Z",
+    "titleEn": "风行在线CEO易正朝：先全员Coding，再All in众创丨AIGC2026",
+    "titleZh": "风行在线CEO易正朝：先全员Coding，再All in众创丨AIGC2026",
+    "abstractEn": "AI会放大“自嗨”，解药只有交付结果",
+    "abstractZh": "AI会放大'自嗨'，解药只有交付结果",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-422002-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/422002.html",
+    "publishedAt": "2026-05-21T09:14:23.000Z",
+    "titleEn": "AI首次实现中国风光发电普查，北大、阿里达摩院研究登上《自然》",
+    "titleZh": "AI首次实现中国风光发电普查，北大、阿里达摩院研究登上《自然》",
+    "abstractEn": "加快实现‘双碳’目标。",
+    "abstractZh": "加快实现'双碳'目标。",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-nqvzmfcbopmuwscz-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/nQVZmFcBopMuwsCZ.html",
+    "publishedAt": "2026-05-21T08:01:00.000Z",
+    "titleEn": "阿里云为什么「重构自己」？",
+    "titleZh": "阿里云为什么「重构自己」？",
+    "abstractEn": "如果你连续几年参加云相关的峰会，今年就会有一个明显的感受：话题变了。\n过去我们聊云，我们在聊什么？\n一来是聊云，我们聊的是怎么把服务器搬上去。\n再后来，我们聊的是怎么在云上跑AI，买GPU、调模型、搭推理服务。可能大家还会有印象，去年这个时候，大家的焦点还是哪家云的GPU够便宜、模型推理延迟多少、算力供应够不够。\n但今年，行业的问题完全变了。今年云计算行业一个非常大的变化是，大家都开始聊，怎么让Agent自主使用云。\n5月20日，杭州，雷峰网参与了阿里云峰会，现场观察到阿里云把这个问题摆到了台面上，而且给出了一个系统性的回答。\n从发布搭载自研芯片真武M890的超节点服务器、推出国产第一的旗舰模型Qwen3.7-Max、升级百炼推理平台，到推出100多个云产品Skill、建设Agent原生基础设施、重写云的入口，阿里云正在彻彻底底地为Agent重建从芯片到入口的整套基础设施。\n值得注意的是，",
+    "abstractZh": "如果你连续几年参加云相关的峰会，今年就会有一个明显的感受：话题变了。\n过去我们聊云，我们在聊什么？\n一来是聊云，我们聊的是怎么把服务器搬上去。\n再后来，我们聊的是怎么在云上跑AI，买GPU、调模型、搭推理服务。可能大家还会有印象，去年这个时候，大家的焦点还是哪家云的GPU够便宜、模型推理延迟多少、算力供应够不够。\n但今年，行业的问题完全变了。今年云计算行业一个非常大的变化是，大家都开始聊，怎么让Agent自主使用云。\n5月20日，杭州，雷峰网参与了阿里云峰会，现场观察到阿里云把这个问题摆到了台面上，而且给出了一个系统性的回答。\n从发布搭载自研芯片真武M890的超节点服务器、推出国产第一的旗舰模型Qwen3.7-Max、升级百炼推理平台，到推出100多个云产品Skill、建设Agent原生基础",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-khsmws0atqx2ip1w-html",
+    "slug": "openai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/KHSMwS0aTqX2ip1W.html",
+    "publishedAt": "2026-05-21T07:59:00.000Z",
+    "titleEn": "OpenAI放弃的事，为什么阿里可能做得成",
+    "titleZh": "OpenAI放弃的事，为什么阿里可能做得成",
+    "abstractEn": "一个完整的AI购物闭环出现了。\n5月11日，千问与淘宝全面打通。用户打开千问App，与AI对话，即可完成淘宝上的商品挑选、对比及下单购买。在淘宝端内，点击“千问AI购物助手”也可以体验AI购物。\nAI重塑电商讨论了两年，但未来的轮廓并不清晰。\n一边是全球科技巨头都在布局。ChatGPT、Gemini先后接入沃尔玛等零售商，亚马逊自研Rufus，微软与Stripe合作；另一边，最先下场的OpenAI在2026年初悄然收缩了Instant Checkout，放弃了在聊天界面内直接完成交易这个核心功能。\n一个被硅谷最强AI公司验证过\"做不通\"的事，阿里为什么还要做？千问接入淘宝的路径，和OpenAI到底有什么不同？\n公认的一种说法是，OpenAI的问题或许不是模型不够强，而是它手里只有模型。\n硅谷玩家的两条路：各有各的坎\n放眼全球，一场围绕“对话即交易”的AI购物竞赛如火如荼的展开。\n这场竞争里",
+    "abstractZh": "一个完整的AI购物闭环出现了。\n5月11日，千问与淘宝全面打通。用户打开千问App，与AI对话，即可完成淘宝上的商品挑选、对比及下单购买。在淘宝端内，点击'千问AI购物助手'也可以体验AI购物。\nAI重塑电商讨论了两年，但未来的轮廓并不清晰。\n一边是全球科技巨头都在布局。ChatGPT、Gemini先后接入沃尔玛等零售商，亚马逊自研Rufus，微软与Stripe合作；另一边，最先下场的OpenAI在2026年初悄然收缩了Instant Checkout，放弃了在聊天界面内直接完成交易这个核心功能。\n一个被硅谷最强AI公司验证过'做不通'的事，阿里为什么还要做？千问接入淘宝的路径，和OpenAI到底有什么不同？\n公认的一种说法是，OpenAI的问题或许不是模型不够强，而是它手里只有模型。\n硅谷",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-g6nlstg8stqeqc8p-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/g6NLstG8StqeQc8p.html",
+    "publishedAt": "2026-05-21T07:54:00.000Z",
+    "titleEn": "阿里国际接近盈利背后，速卖通品牌化与AI提效双线并进",
+    "titleZh": "阿里国际接近盈利背后，速卖通品牌化与AI提效双线并进",
+    "abstractEn": "阿里最新一季财报披露了一个容易被外界忽视但意义重大的数字：阿里国际本季度经调整EBITA亏损仅剩1.38亿元，已经接近盈亏平衡。\n阿里国际的亏损收窄并非偶然。财报给出的解释是“速卖通运营效率的显著提升，以及多项业务的效率提升所致”。这听起来像是一句标准的财报话术，但拆解开来，背后是一套已经跑通的商业逻辑。\n过去一年，速卖通在物流优化上的投入开始产生回报。Choice业务的单位经济效益环比持续改善，仓配网络覆盖27个重点国家，在4个国家的重点城市实现次日达。物流成本的下降直接转化为利润空间的释放。\n与此同时，平台在用户获取上的策略也在调整：从过去依赖补贴拉新，转向通过品牌升级提升用户质量和客单价。\n去年以来，速卖通向品牌化方向快速转身。财报显示，本季度速卖通“品牌出海计划Brand+”的季度活跃买家渗透率已超过30%。也就是说，速卖通在全球每3个用户里，就有1个下单购买了Brand+的商品。",
+    "abstractZh": "阿里最新一季财报披露了一个容易被外界忽视但意义重大的数字：阿里国际本季度经调整EBITA亏损仅剩1.38亿元，已经接近盈亏平衡。\n阿里国际的亏损收窄并非偶然。财报给出的解释是'速卖通运营效率的显著提升，以及多项业务的效率提升所致'。这听起来像是一句标准的财报话术，但拆解开来，背后是一套已经跑通的商业逻辑。\n过去一年，速卖通在物流优化上的投入开始产生回报。Choice业务的单位经济效益环比持续改善，仓配网络覆盖27个重点国家，在4个国家的重点城市实现次日达。物流成本的下降直接转化为利润空间的释放。\n与此同时，平台在用户获取上的策略也在调整：从过去依赖补贴拉新，转向通过品牌升级提升用户质量和客单价。\n去年以来，速卖通向品牌化方向快速转身。财报显示，本季度速卖通'品牌出海计划Brand+'的季度活",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-421697-html",
+    "slug": "ai-agent",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/421697.html",
+    "publishedAt": "2026-05-21T06:52:17.000Z",
+    "titleEn": "上海交大AI教授亲授：半天带你拆解Agent底层逻辑",
+    "titleZh": "上海交大AI教授亲授：半天带你拆解Agent底层逻辑",
+    "abstractEn": "周日来北京线下揭秘",
+    "abstractZh": "周日来北京线下揭秘",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-421694-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/421694.html",
+    "publishedAt": "2026-05-21T06:46:02.000Z",
+    "titleEn": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
+    "titleZh": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
+    "abstractEn": "全场景数据、全链条服务助力AI大模型高效迭代",
+    "abstractZh": "全场景数据、全链条服务助力AI大模型高效迭代",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-corporateservices-8zqd71fqvs6vwiee-html",
+    "slug": "2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/CorporateServices/8zqD71fqvS6vWIEe.html",
+    "publishedAt": "2026-05-21T06:41:00.000Z",
+    "titleEn": "对话朱郴：深度拆解金山办公2026民企分销渠道打法",
+    "titleZh": "对话朱郴：深度拆解金山办公2026民企分销渠道打法",
+    "abstractEn": "金山办公手里有3000家渠道。放在中国软件行业里，这个数量已经算是很大了，阿里云的渠道体系也是就在 1 万多家。\n但一个反直觉的事实是：渠道这么庞大，金山办公却一直做不动民企市场。\n过去二十多年，这套渠道体系几乎是专为党政军和央国企设计的，有政策，有预算，客户自己会来。渠道要做的，只是守住关系，把单子稳稳接住。\n但当金山办公开始转向民企、转向SaaS订阅，风向变了。民企不再只靠关系就能搞定，更重要的是讲清楚业务价值在哪。\n金山办公想的第一个办法是：改。渠道模式必须改，渠道商也必须跟着转型。\n但扭转渠道思维、改变销售模式，对旧体系来说太难了。民企分销渠道负责人朱郴后来复盘时说了一句话，点出了问题的本质：\"要从关系型、商务型渠道，转成企业咨询师的身份去给客户讲产品，这是个很强的鸿沟。\"\n而过去几年，金山办公的民企分销渠道业务，一度陷入僵局，干一年，换一个人，前前后后试了两次，都没有跑通。\n20",
+    "abstractZh": "金山办公手里有3000家渠道。放在中国软件行业里，这个数量已经算是很大了，阿里云的渠道体系也是就在1万多家。\n但一个反直觉的事实是：渠道这么庞大，金山办公却一直做不动民企市场。\n过去二十多年，这套渠道体系几乎是专为党政军和央国企设计的，有政策，有预算，客户自己会来。渠道要做的，只是守住关系，把单子稳稳接住。\n但当金山办公开始转向民企、转向SaaS订阅，风向变了。民企不再只靠关系就能搞定，更重要的是讲清楚业务价值在哪。\n金山办公想的第一个办法是：改。渠道模式必须改，渠道商也必须跟着转型。\n但扭转渠道思维、改变销售模式，对旧体系来说太难了。民企分销渠道负责人朱郴后来复盘时说了一句话，点出了问题的本质：'要从关系型、商务型渠道，转成企业咨询师的身份去给客户讲产品，这是个很强的鸿沟。'\n而过去几",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-g0fqearer3ymwiib-html",
+    "slug": "google-i-o-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/g0fqEAreR3YMwiIb.html",
+    "publishedAt": "2026-05-21T06:00:00.000Z",
+    "titleEn": "抖音“前沿科技首发计划”启动，首站落地Google I/O 2026大会",
+    "titleZh": "抖音'前沿科技首发计划'启动，首站落地Google I/O 2026大会",
+    "abstractEn": "当地时间5月19日，一年一度的Google I/O大会在美国加利福尼亚州举行。大会以主题演讲和分论坛等形式，展示谷歌各项前沿技术的最新进展。抖音作为Google I/O 2026中国区“首席内容合作平台”，邀请12位科技创作者亲临大会现场，以第一视角记录并解读现场发布的的最新前沿科技信息，让科技爱好者同步感知全球最新技术动态。相关内容将于近期在抖音独家上线，用户登录抖音或抖音精选App，搜索“前沿科技首发计划”，即可了解详细内容。\n本次大会谷歌将展示在AI创新领域的最新进展以及针对开发者的工具与解决方案，通过与抖音的内容合作，国内的科技爱好者和开发者也将及时获取现场发布的最新信息。 此外，AI（人工智能）、Android、Chrome 和 Cloud（云计算）领域也将有重大更新。在人人都是潜在开发者的AI时代，抖音作为 2026 Google I/O 大会 中国区“首席内容合作平台” ，将",
+    "abstractZh": "当地时间5月19日，一年一度的Google I/O大会在美国加利福尼亚州举行。大会以主题演讲和分论坛等形式，展示谷歌各项前沿技术的最新进展。抖音作为Google I/O 2026中国区'首席内容合作平台'，邀请12位科技创作者亲临大会现场，以第一视角记录并解读现场发布的的最新前沿科技信息，让科技爱好者同步感知全球最新技术动态。相关内容将于近期在抖音独家上线，用户登录抖音或抖音精选App，搜索'前沿科技首发计划'，即可了解详细内容。\n本次大会谷歌将展示在AI创新领域的最新进展以及针对开发者的工具与解决方案，通过与抖音的内容合作，国内的科技爱好者和开发者也将及时获取现场发布的最新信息。此外，AI（人工智能）、Android、Chrome和Cloud（云计算）领域也将有重大更新。在人人都是潜",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-421691-html",
+    "slug": "520-400-ai-20-aigc",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/421691.html",
+    "publishedAt": "2026-05-21T05:37:24.000Z",
+    "titleEn": "520当天400万AI人，都在量子位听这近20场演讲&对谈｜第四届中国AIGC产业峰会",
+    "titleZh": "520当天400万AI人，都在量子位听这近20场演讲&对谈｜第四届中国AIGC产业峰会",
+    "abstractEn": "核心观点都在这了~",
+    "abstractZh": "核心观点都在这了~",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-vx9byofazginjlf1-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/vX9BYoFAzGInJLf1.html",
+    "publishedAt": "2026-05-21T05:32:00.000Z",
+    "titleEn": "拿下韩国市场跨境平台第一！速卖通持续加码韩国市场",
+    "titleZh": "拿下韩国市场跨境平台第一！速卖通持续加码韩国市场",
+    "abstractEn": "速卖通再次拿下韩国跨境电商第一名。Wiseapp·Retail最新数据显示，今年1-4月，根据银行卡和信用卡的结算数据，速卖通AliExpress稳居韩国市场跨境电商平台首位，遥遥领先Temu和SHEIN。同时，速卖通凭借40.7万韩元的支付客单价确立了高客单价优势，核心用户集中在30至40岁群体。记者获悉，面对欧盟合规大考，速卖通正在探索更多确定性机会，将发布针对韩国、美国、拉美三大重点市场的政策红利和运营策略，帮跨境商家分散风险、稳定经营。\n雷峰网",
+    "abstractZh": "速卖通再次拿下韩国跨境电商第一名。Wiseapp·Retail最新数据显示，今年1-4月，根据银行卡和信用卡的结算数据，速卖通AliExpress稳居韩国市场跨境电商平台首位，遥遥领先Temu和SHEIN。同时，速卖通凭借40.7万韩元的支付客单价确立了高客单价优势，核心用户集中在30至40岁群体。记者获悉，面对欧盟合规大考，速卖通正在探索更多确定性机会，将发布针对韩国、美国、拉美三大重点市场的政策红利和运营策略，帮跨境商家分散风险、稳定经营。\n雷峰网",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-jt2rh6kg5ki3dbxx-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/Jt2rH6KG5KI3dbXX.html",
+    "publishedAt": "2026-05-21T03:36:00.000Z",
+    "titleEn": "万字长谈丨同济工智院华先胜：工程智能，是 AI 的「成人礼」",
+    "titleZh": "万字长谈丨同济工智院华先胜：工程智能，是AI的「成人礼」",
+    "abstractEn": "复杂工程系统，才是 AI 的深水区。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n今天的 AI 已经足够耀眼。它能在几秒钟内写出文章、生成代码、绘制图像，也能像助手一样拆解任务、调用工具、给出方案。对很多人来说，AI 的未来似乎已经清晰可见：更高效率、更低成本、更少人力，以及越来越自动化的生产流程。\n但同济大学工程智能研究院的华先胜院长看到的则是另一面。\n在他看来，AI 真正的挑战不在于能不能“说得像人”，而在于能不能进入那些不能靠语言流畅度解决的真实系统。工程世界就是这样的系统，它关乎楼宇是否安全、桥梁是否可靠、交通是否顺畅、能源能否稳定调度、城市能否",
+    "abstractZh": "复杂工程系统，才是AI的深水区。\n\n\n\n\n\n作者丨郑佳美\n\n编辑丨马晓宁\n\n\n\n今天的AI已经足够耀眼。它能在几秒钟内写出文章、生成代码、绘制图像，也能像助手一样拆解任务、调用工具、给出方案。对很多人来说，AI的未来似乎已经清晰可见：更高效率、更低成本、更少人力，以及越来越自动化的生产流程。\n但同济大学工程智能研究院的华先胜院长看到���则是另一面。\n在他看来，AI真正的挑战不在于能不能'说得像人'，而在于能不能进入那些不能靠语言流畅度解决的真实系统",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-lbfduorzbikfxyzw-html",
+    "slug": "cvpr-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/lBfDuOrZbIkFXyzW.html",
+    "publishedAt": "2026-05-21T03:29:00.000Z",
+    "titleEn": "复旦可信具身智能研究院&上海交大：给自动驾驶装上可检索的「空间记忆」丨CVPR 2026",
+    "titleZh": "复旦可信具身智能研究院&上海交大：给自动驾驶装上可检索的「空间记忆」丨CVPR 2026",
+    "abstractEn": "从街景到仿真，离线地理信息正在成为车辆理解复杂道路的新线索。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n大模型的发展表明，智能体不能只依赖一次性的上下文输入，还需要能够检索、利用和管理长期记忆。自动驾驶也正在走向类似的路径：车辆不应只是根据当前摄像头和传感器看到的内容做即时判断，而应具备一种可检索的空间记忆，能够调取当前位置长期积累的道路结构信息。对于自动驾驶来说，这种记忆可以来自街景图、卫星图、历史地图和车队经验，从而当传感器“看不清、看不全、看不远”时，车辆仍然能理解自己所在的道路空间。\n在真实道路上，这类问题几乎无处不在。夜间经过一个没有路灯的路",
+    "abstractZh": "从街景到仿真，离线地理信息正在成为车辆理解复杂道路的新线索。\n\n\n\n\n\n作者丨郑佳美\n\n编辑丨马晓宁\n\n\n\n大模型的发展表明，智能体不能只依赖一次性的上下文输入，还需要能够检索、利用和管理长期记忆。自动驾驶也正在走向类似的路径：车辆不应只是根据当前摄像头和传感器看到的内容做即时判断，而应具备一种可检索的空间记忆，能够调取当前位置长期积累的道路结构信息。对于自动驾驶来说，这种记忆可以来自街景图、卫星图、历史地图和车队经验，从而当传感器'看不清、看不全、看不远'",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-chips-xvfrx4ztpdx5edv1-html",
+    "slug": "gpu-risc-v",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/chips/xVFRx4zTPDx5EdV1.html",
+    "publishedAt": "2026-05-21T03:26:00.000Z",
+    "titleEn": "商汤国香资本合伙人李扬：GPU估值翻倍、RISC-V站上台前，资本如何锁定确定性？",
+    "titleZh": "商汤国香资本合伙人李扬：GPU估值翻倍、RISC-V站上台前，资本如何锁定确定性？",
+    "abstractEn": "过去两年，AI芯片几乎经历了一轮情绪剧烈的周期切换。\n云端GPU估值快速抬升，端侧AI芯片突然升温，RISC-V站上舞台中央；一级市场里，头部项目融资速度不断刷新认知，半年三轮、估值翻倍，重新成为这个行业里频繁出现的叙事。\n当资本重新涌向芯片，新的问题也随之浮现：\n什么样的技术路线值得下注？什么样的产品定义能够真正穿越周期？在市场情绪最热的时候，投资人究竟是在追当下热点，还是在押注未来更长期的产业趋势？\n这些问题，在今天的一级市场里比任何时候都更尖锐。\n也是在这样的背景下，雷峰网和商汤国香资本合伙人李扬聊起了过去几年的投资轨迹。\n从2021年加入商汤国香资本，开始国香资本第一支产业基金的投资，他几乎完整经历了这一轮AI芯片投资周期：从云端算力被疯狂追逐，到边缘场景率先落地，再到各类颠覆性架构百花齐放；从市场对“国产替代”的朴素期待，到今天围绕算力、生态和自主可控形成更强共识。\n回看这几年的",
+    "abstractZh": "过去两年，AI芯片几乎经历了一轮情绪剧烈的周期切换。\n云端GPU估值快速抬升，端侧AI芯片突然升温，RISC-V站上舞台中央；一级市场里，头部项目融资速度不断刷新认知，半年三轮、估值翻倍，重新成为这个行业里频繁出现的叙事。\n当资本重新涌向芯片，新的问题也随之浮现：\n什么样的技术路线值得下注？什么样的产品定义能够真正穿越周期？在市场情绪最热的时候，投资人究竟是在追当下热点，还是在押注未来更长期的产业趋势？\n这些问题，在今天的一级市场里比任何时候都更尖锐。\n也是在这样的背景下，雷峰网和商汤国香资本合伙人李扬聊起了过去几年的投资轨迹。\n从2021年加入商汤国香资本，开始国香资本第一支产业基金的投资，他几乎完整经历了这一轮AI芯片投资周期：从云端算力被疯狂追逐，到边缘场景率先落地，再到各类颠覆性架构",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-f9couxj2jwfifqxy-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/f9CouXj2jwFifQXy.html",
+    "publishedAt": "2026-05-21T03:24:00.000Z",
+    "titleEn": "万字长谈丨同济工智院华先胜：工程智能，是 AI 的「成人礼」",
+    "titleZh": "万字长谈丨同济工智院华先胜：工程智能，是 AI 的「成人礼」",
+    "abstractEn": "今天的 AI 已经足够耀眼。它能在几秒钟内写出文章、生成代码、绘制图像，也能像助手一样拆解任务、调用工具、给出方案。对很多人来说，AI 的未来似乎已经清晰可见：更高效率、更低成本、更少人力，以及越来越自动化的生产流程。\n但同济大学工程智能研究院的华先胜院长看到的则是另一面。\n在他看来，AI 真正的挑战不在于能不能“说得像人”，而在于能不能进入那些不能靠语言流畅度解决的真实系统。工程世界就是这样的系统，它关乎楼宇是否安全、桥梁是否可靠、交通是否顺畅、能源能否稳定调度、城市能否持续运行。\n这里没有简单的标准答案，也不能用幻觉冒充创造力。一个 AI 模型即使能写出完美方案，也不意味着它理解了工程现场。\n所以，工程智能要回答的第一个问题是：AI 如何从数字世界走向物理世界？\n华院长认为，工程智能不是 AI 与工程的简单相加，它既要用已有 AI 技术解决工程问题，也要从复杂工程系统中倒逼新的 AI ",
+    "abstractZh": "今天的 AI 已经足够耀眼。它能在几秒钟内写出文章、生成代码、绘制图像，也能像助手一样拆解任务、调用工具、给出方案。对很多人来说，AI 的未来似乎已经清晰可见：更高效率、更低成本、更少人力，以及越来越自动化的生产流程。\n但同济大学工程智能研究院的华先胜院长看到的则是另一面。\n在他看来，AI 真正的挑战不在于能不能「说得像人」，而在于能不能进入那些不能靠语言流畅度解决的真实系统。工程世界就是这样的系统，它关乎楼宇是否安全、桥梁是否可靠、交通是否顺畅、能源能否稳定调度、城市能否持续运行。\n这里没有简单的标准答案，也不能用幻觉冒充创造力。一个 AI 模型即使能写出完美方案，也不意味着它理解了工程现场。\n所以，工程智能要回答的第一个问题是：AI 如何从数字世界走向物理世界？\n华院长认为，工程智能不是",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-mwhmagcqxpoxwuob-html",
+    "slug": "hidream-o1-image-pro",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/mWHMAGcQXpOXwuoB.html",
+    "publishedAt": "2026-05-21T03:07:00.000Z",
+    "titleEn": "智象未来超两千亿参数图像大模型HiDream-O1-Image-Pro发布，融资持续提速",
+    "titleZh": "智象未来超两千亿参数图像大模型HiDream-O1-Image-Pro发布，融资持续提速",
+    "abstractEn": "5月19日，北京。 智象未来举办首届开放日，主题为“ Imaging the World ”。在开放日上，智象未来正式发布基于新一代原生全模态模型架构 Unified Transformer（UiT）打造的图像大模型 HiDream-O1-Image-Pro。这一超2千亿参数的原生全模态图像大模型，不仅在多个基准测试中刷新 SOTA 纪录，也标志着智象未来正向图像、视频、文本、音频等多模态统一建模的“原生全模态”阶段迈进。\n \n同时，智象未来宣布完成新一轮亿级融资，深创投、金浦投资、财鑫资本、复聚资本等多家机构参与。这是智象未来半个月内再次完成融资，体现出资本市场对原生全模态大模型方向的持续看好。随着视觉生成、具身智能等前沿技术加速融合，世界模型成为 AI 演进的重要方向，智象未来在底层模型架构、产品化能力与产业生态布局上的持续突破，也获得了市场进一步认可。\n\n 200B+ 参数图像大模型",
+    "abstractZh": "5月19日，北京。 智象未来举办首届开放日，主题为「 Imaging the World 」。在开放日上，智象未来正式发布基于新一代原生全模态模型架构 Unified Transformer（UiT）打造的图像大模型 HiDream-O1-Image-Pro。这一超2千亿参数的原生全模态图像大模型，不仅在多个基准测试中刷新 SOTA 纪录，也标志着智象未来正向图像、视频、文本、音频等多模态统一建模的「原生全模态」阶段迈进。\n \n同时，智象未来宣布完成新一轮亿级融资，深创投、金浦投资、财鑫资本、复聚资本等多家机构参与。这是智象未来半个月内再次完成融资，体现出资本市场对原生全模态大模型方向的持续看好。随着视觉生成、具身智能等前沿技术加速融合，世界模型成为 AI 演进的重要方向，智象未来在底层模型",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-bqnh5cvq2fzpqhqh-html",
+    "slug": "7-3-5-618-5-21",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/BqNh5Cvq2FzPqHQh.html",
+    "publishedAt": "2026-05-21T02:00:00.000Z",
+    "titleEn": "7.3折！近5年折扣力度最大的一届天猫618，5月21日正式开卖",
+    "titleZh": "7.3折！近5年折扣力度最大的一届天猫618，5月21日正式开卖",
+    "abstractEn": "5月21日，天猫618正式开卖。88VIP消费券和平台加补券折扣力度创5年新高，官方立减叠券7.3折起，家电数码32个品类叠加国补低至5折。\n这是近5年折扣力度最大的一届618。天猫延续了简单的立减玩法，用5年来最大的实质性补贴，为消费者省钱，提振消费信心。\n \n认准以下省钱公式，照着买：\n领好88VIP消费券，先拿到7.3折\n官方立减8.5折，叠加首次降至8.7折的88VIP消费券，两项通用权益结合后7.3折起。“200-25”“480-60”“1500-180”“3000-400”4张消费券，打开淘宝App，搜“88VIP”直接领。\n买美妆服饰等，记得领加补券最低6.2折\n今年品类券全面升级为平台加补券，美妆、服饰、3C数码、运动户外热门品类都能用，进“领券中心”领，在7.3折的基础上，继续往下减，最低补到6.2折。\n买家电数码等，能叠加国补低至5折\n今年国补从空调、手机等10个品类扩",
+    "abstractZh": "5月21日，天猫618正式开卖。88VIP消费券和平台加补券折扣力度创5年新高，官方立减叠券7.3折起，家电数码32个品类叠加国补低至5折。\n这是近5年折扣力度最大的一届618。天猫延续了简单的立减玩法，用5年来最大的实质性补贴，为消费者省钱，提振消费信心。\n \n认准以下省钱公式，照着买：\n领好88VIP消费券，先拿到7.3折\n官方立减8.5折，叠加首次降至8.7折的88VIP消费券，两项通用权益结合后7.3折起。「200-25」「480-60」「1500-180」「3000-400」4张消费券，打开淘宝App，搜「88VIP」直接领。\n买美妆服饰等，记得领加补券最低6.2折\n今年品类券全面升级为平台加补券，美妆、服饰、3C数码、运动户外热门品类都能用，进「领券中心」领，在7.3折的基础上，",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
     "id": "hn:48216278",
     "slug": "hn-48216278-intuit-to-lay-off-over-3k-employees-to-refocus-on-ai",
     "source": "Hacker News",
@@ -19,7 +702,29 @@
     "score": 30,
     "commentCount": 7,
     "tags": [],
-    "fetchedAt": "2026-05-21T02:05:52.888Z"
+    "fetchedAt": "2026-05-21T02:05:52.888Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-npncb5jeeccjcnek-html",
+    "slug": "4-meta-8000-ceo-ipo-5-27",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/npncb5JEECCjcnEk.html",
+    "publishedAt": "2026-05-21T00:26:00.000Z",
+    "titleEn": "有人凌晨4点收到解雇信…Meta全球再裁8000人，赔偿方案曝光；沉寂半年露面！东方甄选前CEO孙东旭直播卖书；长鑫科技IPO，5月27日上会",
+    "titleZh": "有人凌晨4点收到解雇信…Meta全球再裁8000人，赔偿方案曝光；沉寂半年露面！东方甄选前CEO孙东旭直播卖书；长鑫科技IPO，5月27日上会",
+    "abstractEn": "要闻提示\n\n\n\n\n\n1.有人凌晨4点收到解雇信…Meta启动8000人大规模裁员，赔偿方案曝光\n2.沉寂半年露面！东方甄选前CEO孙东旭离职后首播：准备走出来了，聊天讲书卖书\n3.知情人士称DeepSeek正在组建Harness团队，对标Claude Code\n4.巨亏千亿，销量暴跌87%！百年豪车换标找华为续命：国内尊界、海外玛莎\n5.从巨亏百亿到半年狂赚580亿！长鑫科技IPO：5月27日上会\n6.魏建军拒回应魏牌V9X领先ID. ERA 9X多少代，上汽大众高管点赞\n7.盒马被罚款198元！误将水仙当百合配送致顾客中毒\n8.SpaceX IPO 招股书揭示家底：连接业务独撑盈利，航天和 AI 业务亏损\n\n\n\n\n\n今日头条\n有人凌晨4点收到解雇信…Meta启动8000人大规模裁员，赔偿方案曝光\n\n\n\n5 月 20 日消息，Facebook母公司Meta 正式启动全球大规模裁员计划，预计",
+    "abstractZh": "要闻提示\n\n\n\n\n\n1.有人凌晨4点收到解雇信…Meta启动8000人大规模裁员，赔偿方案曝光\n2.沉寂半年露面！东方甄选前CEO孙东旭离职后首播：准备走出来了，聊天讲书卖书\n3.知情人士称DeepSeek正在组建Harness团队，对标Claude Code\n4.巨亏千亿，销量暴跌87%！百年豪车换标找华为续命：国内尊界、海外玛莎\n5.从巨亏百亿到半年狂赚580亿！长鑫科技IPO：5月27日上会\n6.魏建军拒回应魏牌V9X领先ID. ERA 9X多少代，上汽大众高管点赞\n7.盒马被罚款198元！误将水仙当百合配送致顾客中毒\n8.SpaceX IPO 招股书揭示家底：连接业务独撑盈利，航天和 AI 业务亏损\n\n\n\n\n\n今日头条\n有人凌晨4点收到解雇信…Meta启动8000人大规模裁员，赔偿方",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
   },
   {
     "id": "reddit:1tj3fvf",
@@ -593,7 +1298,7 @@
       "model": "Claude Sonnet 4.6",
       "translatedAt": "2026-05-21T01:08:19.579Z"
     },
-    "featured": true,
+    "featured": false,
     "featuredDate": "2026-05-21",
     "fetchedAt": "2026-05-21T01:09:22.154Z"
   },
@@ -1702,6 +2407,28 @@
     "featured": false
   },
   {
+    "id": "hn:48205415",
+    "slug": "hn-48205415-learnings-from-100k-lines-of-rust-with-ai-2025",
+    "source": "Hacker News",
+    "sourceUrl": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48205415",
+    "publishedAt": "2026-05-20T10:04:28.000Z",
+    "titleEn": "Learnings from 100K lines of Rust with AI (2025)",
+    "titleZh": "用 AI 编写 10 万行 Rust 代码的心得 (2025)",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pramodbiligiri"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 173,
+    "commentCount": 200,
+    "tags": [],
+    "fetchedAt": "2026-05-22T02:12:19.649Z"
+  },
+  {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-ofwmy9nylzejkh6o-html",
     "slug": "4",
     "source": "雷锋网",
@@ -1810,7 +2537,7 @@
       "model": "Claude Sonnet 4.6",
       "translatedAt": "2026-05-21T01:08:44.484Z"
     },
-    "featured": true,
+    "featured": false,
     "featuredDate": "2026-05-21",
     "fetchedAt": "2026-05-21T01:09:22.154Z"
   },
@@ -2263,7 +2990,7 @@
       "model": "Claude Sonnet 4.6",
       "translatedAt": "2026-05-21T01:09:09.017Z"
     },
-    "featured": true,
+    "featured": false,
     "featuredDate": "2026-05-21",
     "fetchedAt": "2026-05-21T01:09:22.154Z"
   },
