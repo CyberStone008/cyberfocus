@@ -1,0 +1,636 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T08:12:52.497Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48254993",
+      "slug": "hn-48254993-local-llms-perform-better-when-you-teach-them-to-ask-before-they-ans",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.xda-developers.com/local-llm-clarifying-questions-system-prompt/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48254993",
+      "publishedAt": "2026-05-24T06:40:34.000Z",
+      "titleEn": "Local LLMs perform better when you teach them to ask before they answer",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "froh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423390-html",
+      "slug": "ceo-coding",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423390.html",
+      "publishedAt": "2026-05-24T06:20:35.000Z",
+      "titleEn": "谷歌CEO承认Coding落后了",
+      "titleZh": "谷歌CEO承认Coding落后了",
+      "abstractEn": "搜索25年来最大改版，但谷歌还不敢一脚切到AI",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423382-html",
+      "slug": "70-30-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423382.html",
+      "publishedAt": "2026-05-24T06:14:05.000Z",
+      "titleEn": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+      "titleZh": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+      "abstractEn": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:3936ff61964f",
+      "slug": "gnews-3936ff61964f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbWFsdFA4R25rSFFneXhCZFdmTjFZQjBvVlRMcjRqeFNJX2JFNG1udm9BeklYeWNuVVNBMmdGTTRydU15OFFBdjNJWXEyTC1aRjNxOHNrVTZfTmplQjdqbWdGUmg3dzRsUWlVUGRqUnZmNjViY01CTDROMFhHalUzeC0yTVJ1Q1FRcHdwakNVSFRhalVZTWQxV3l0aVgta3ZKOHFLb2U0R19ZRktBdWlqMERmdzJtb19OME5McUdYWXpYNTNKc0ZiOFlZcmp1RnZoSE9JTXRqQV80NGR3UlU2cE5FQ3duV2Z1eDRuWVBCRjdQUdIB9wFBVV95cUxPQ1VvNEp6bm1xR0J5WEsyTERxRUtmY01DMEZoOEhoRDJKMG1Vd2Q2TjNCSkdVOWFqTnlVN0dkUmJlVFBrM1FJdm9hZWE5Wlpma243dG9OaE1Rd200UVRrQnFOX05vTHFyc2NzTWItMzU2Z01Ya1Q5MmlqS042T2lOeF9TTXM5UURodW41N05LQnlzcm95X0tCQ2tXQVliWUhSczdwcXNqckJhNTZRTXFXNWdQNFJDbnU5bmpGclZ1alRXNUxrUnlaazNvX1VHYks1MV9xRGRPUFUzZ0dPeWw1bkY1ZjJYU3RpTHcxVlhHeG56Zm9GaGlv?oc=5",
+      "publishedAt": "2026-05-24T06:07:00.000Z",
+      "titleEn": "Why OpenAI is paying $445,000 for a 'tasteful and strategic' AI safety researcher",
+      "titleZh": null,
+      "abstractEn": "Why OpenAI is paying $445,000 for a 'tasteful and strategic' AI safety researcher  The Times of India",
+      "abstractZh": null,
+      "authors": [
+        "The Times of India"
+      ],
+      "institution": "The Times of India",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-zrsfd3as5oqiyjnz-html",
+      "slug": "p2",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/ZRsFD3aS5OQIyJNz.html",
+      "publishedAt": "2026-05-24T04:56:00.000Z",
+      "titleEn": "数字华夏发布新一代人形机器人“星行侠P2”，加速机器人场景落地",
+      "titleZh": "数字华夏发布新一代人形机器人“星行侠P2”，加速机器人场景落地",
+      "abstractEn": "5 月 23 日，数字华夏在深圳文博会期间举办新品发布会，发布新一代人形机器人“星行侠P2”、场景大脑 RoboEase，以及面向康养场景的健康监护方案 RoboCare。现场，数字华夏与深开鸿等数十家企业签署了战略合作协议。\n\n星系列机器人「星行侠P2」\n星行侠P2：三个版本、五种外观，瞄准政务、银行、文旅等场景\n“场景落地”是这场发布会的关键词。星行侠P2是数字华夏“星”系列的新一代产品。相比去年发布的 P01，P2 在运动、交互与场景适配能力上进行了升级，整体性能升级超 200 项，目标场景覆盖政务大厅、银行、图书馆、运营商与文旅等服务场景。\n\n星行侠营销总监贾凯超\nP2为“双形态”设计，可在双足与飞兵模式之间切换，并支持自主回充。续航时间提升至 10 小时，同时具备多语言交互、长记忆、人脸识别等能力，支持粤语、英语、法语等 20 多种语言对话。\n在硬件配置上，数字华夏此次将星行侠P",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:09e7fc70a244",
+      "slug": "gnews-09e7fc70a244",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQV3VNTlF3R0RIci1hMXBicm9ZV2RUUTBxNEx4djlYNFc0ZkgwbW9uS2tSd3l1VkJLSUpOTmxSeGhYYTVsb2dPbjJ0QUtXT2cxbnRjYUpvdHhhcjRiYUdsU3NXRHZCcTFTN0VxU2dvdlAtTmoyX1hGMHlMUTZmWnc3SW92ZlNCNVhHUHRhUDVsaFlLWUZZRV96cUR4UjNOMlhKMHd3S0JXS0FQeWMxRGJwRllwSTdjN0RTR19ROFlaVFNabFBTbEY3MktURnRMVUx3TjJxNmU0bTJ2LUt2SzVQaFZ6SEVRYUhkZkMxVkhzS1hWLXpESWg1ZkZjMDV0OHFfZVdmTG93S3Zmdm51eFJrZnh6ZHRfWllhUmMyQjR6eWEzY0JYSVM1RUpqeVJQSXNFU3l5Z2tRckNDUVNFdTJDUzBKdVJHOXRyMFhtTEl3?oc=5",
+      "publishedAt": "2026-05-24T04:05:03.000Z",
+      "titleEn": "QuoteIQ Launches AI AutoReply Inside ClientHub, Bringing Action-Taking Artificial Intelligence to Home Service Contractors",
+      "titleZh": null,
+      "abstractEn": "QuoteIQ Launches AI AutoReply Inside ClientHub, Bringing Action-Taking Artificial Intelligence to Home Service Contractors  InsideNoVa.com",
+      "abstractZh": null,
+      "authors": [
+        "InsideNoVa.com"
+      ],
+      "institution": "InsideNoVa.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ea8e23d0fe92",
+      "slug": "gnews-ea8e23d0fe92",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVhKcDJpNWVGVE9USV8yWjFmMnFNczhBQjhXQTM2TTFPN3VXempIcXNMQU01WV9JSjE1RmdRbXhCQjN0dFBBU2Q5bnlYZTc2RXpxa3dKb0tfcFdFY1BKMFdsOHBZM1dfTG5PQjFKc1hrNWk5TkNBcl9QQWtyVEZhQ3VYY3lFTi01SEE?oc=5",
+      "publishedAt": "2026-05-23T22:34:42.000Z",
+      "titleEn": "Rising U.S. debt is starting to test the AI funding boom",
+      "titleZh": null,
+      "abstractEn": "Rising U.S. debt is starting to test the AI funding boom  Startup Fortune",
+      "abstractZh": null,
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:97fe08037980",
+      "slug": "gnews-97fe08037980",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUllYa2ZhYTBYdG5MTjNESkN1Mk92RVdnWkpfQUMzV2Z2UGJYSlhuZXJwUmZWYVhIMjlrTml3d0RVVHVSSnNUS09GU2xzekRJQTZESWFjOVFVV1FJbVFOUEZYRnlLNkdtckRfNUYwZVJCV1BTX29QVy1rRTFONjNCTVJscndjTDg?oc=5",
+      "publishedAt": "2026-05-23T22:11:40.000Z",
+      "titleEn": "OpenAI is paying up to $445,000 for AI safety judgment",
+      "titleZh": null,
+      "abstractEn": "OpenAI is paying up to $445,000 for AI safety judgment  Startup Fortune",
+      "abstractZh": null,
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:95153b7392ca",
+      "slug": "gnews-95153b7392ca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRU1hVHJsWnN5U2o5dDdVaW96V1BRTUJJNEFtdms5NVBOeVNlUm1Ib3VJSk83VnhVdmQ4OWRBbWNDdENyNTl0RXBVV25TdVdac1V4c09VaGxIV2R3OS1FZU1kYw?oc=5",
+      "publishedAt": "2026-05-23T19:02:20.000Z",
+      "titleEn": "Startup Wrap: MENA startups attract fresh funding across fintech, HR tech and AI sectors",
+      "titleZh": null,
+      "abstractEn": "Startup Wrap: MENA startups attract fresh funding across fintech, HR tech and AI sectors  Arab News PK",
+      "abstractZh": null,
+      "authors": [
+        "Arab News PK"
+      ],
+      "institution": "Arab News PK",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f10462035abd",
+      "slug": "gnews-f10462035abd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbnRteENoYllxeFotbl92SVJ5QnZtZVRfMGRzZGxISTBkLWlPbDJjbkdkRWtoZnBrRTFNZXFKNUFDM1N1VDduUEhwbUFqR01QaV9mNGhWaVFsU3licElESlJtXzM1MHJzNUg1SFlSSllnMDR0ZnhNdldael9XY2xQeWZRNnhFVWtvNHdvZ28xdFhHUFVNTEhTQzdUdlMyZw?oc=5",
+      "publishedAt": "2026-05-23T16:41:59.000Z",
+      "titleEn": "Companies Using Anthropic's Mythos AI Uncover 10K+ Serious Software Bugs",
+      "titleZh": null,
+      "abstractEn": "Companies Using Anthropic's Mythos AI Uncover 10K+ Serious Software Bugs  PCMag",
+      "abstractZh": null,
+      "authors": [
+        "PCMag"
+      ],
+      "institution": "PCMag",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:aa6eecee5cc0",
+      "slug": "gnews-aa6eecee5cc0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxPVGRMUjJRZXdBSHdaUURZUWFjZU0yLVgzUjJfdThyeFAwTWpmTWlFV1pwQUt5OFQ1ZHk5OGVmbkRiandWS0hIeXg2eWpkNWlDSW5TRF85RS1YX3hsNDJxSmVNTmtGUTA2Qm9GTFRnWlV0UGl2UWRPTDZWc3FSYkNSVWZQajJmbnV6a0xvV1FHSlYyWENTZWNSVEhlWHdiMll2U2R4OFBvVHpvMVJPaGMxQUhGX2pBOWV0UmZPc3o0SmNxdEZHUWlFMjBhRWw5QVNJTTVCR3R4M2JJZXpYNF9UaVFta1VyUnRDdzg0RmFXNU9xUHZuc2VfU3RqNHlfYUd5YWNHcWMzZnlzVWFpaF96emtKUXhNMVphTFctdXZPTnJlc21zR3ppTTMtNmtXMUYtdmhOalM2TG11WnREc2ZjblQyaDhUS2N3bVJEemVjRk9ZTFlKaVI4YWItUlV1a29ZWmxVRVZrdGZBRHFwdVYtdTBUcnFRZktOdDdyNWRjNGc4eTJ5dnliQVZENFA3NlpyWVgwWWtCVnFUMGdFMk1WOExTR0V2RVVyVjZlNTdKN2UxbVpjUmp5ZlhWNXhaWXVRX0NOM29qa2pBaXRXTDFCc09JSmxIenfSAdwDQVVfeXFMTnp3anVZN0RkTzIyRENId0w3LUtXUjlIcFFoMDhfVXg3ZHhMQzdwNi1OeTlGS2JMUnVUQ2FCZXJFZm1fUTFFbVJUOWU4QWdRQ29CajlEMUt1d1B1Y09LU185NFh6VXFaOFJxYjRfdEYwb3BxMm8wQmpJc0x3OUV4aWptYTVvOGVPeEVXa0dWaFNaWWRpYmJtX1F4SFVKOUFWRUhwTGJwRGdLVldXUXhEUlZFZ2ZHRzVLRldPd1NXT1VhSERDbndaMEZmenRud1hTa1NSS3FENFYwSkh0MmRtMVhMdlRXUklzdi1ETkdVVzJrc2NkWWU4OXdmLTZyREMyV2w3RE1wWTM4aldMSnk3TklYSHZwU3pING4xMXp4Mjg2aVp2OFRJaGJ5cHJfaEVidEhNNlY0OElYREc2YWkxV29KbGpzUFpoOGxCTkwwYjh5MDdsRlZvS0VONnNiaHVBTWYzaEZaZGgzMm5kb1lDQTFiWjljX25vUUhaMmM5SVRMYk1xS1B0dktPT3o4bnNPTm1YTGRSSk1TR2ozYkxjMk9qQ0gxQXZCTXJoMXB5N3NJNVdnMFJSYXBXaDZkb05paVBiNi1FWWJGZjFnNFgtSjNOUncxQ3g4a1RnOUg?oc=5",
+      "publishedAt": "2026-05-23T14:57:29.000Z",
+      "titleEn": "Quote of the day by Jensen Huang: 'It's very clear that AI is going to impact every industry. I think that",
+      "titleZh": null,
+      "abstractEn": "Quote of the day by Jensen Huang: 'It's very clear that AI is going to impact every industry. I think that  The Economic Times",
+      "abstractZh": null,
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d80e5bfcf1c9",
+      "slug": "gnews-d80e5bfcf1c9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdk5SbGpORV9oM0VnYl96VGUxMkpqeUxmZWZGR1gtdFRiY1ZIMGNZRFFuMEV3Y0ZBVTg3VHlhR0x3RlVNWEQwVXRVcXRHRW93X1E5X0t3QnZxNjZOQ2hKTEl5S3RlcjlkcW9JT2RHNzZrOUItX2ZGN3FjOFJTbFl3QXFYbmtWVHYxWVhNdUpvdzZlZWU4bGdWUnMxOWJDbDVqSjdXQ1pxcWN3djdQbUI1RlNKanBwYUtQY1VlNFBTNmRPUEtMME9WcTBJQ2o0aEtXaDJwRkN2dUpvYU12SjhPMw?oc=5",
+      "publishedAt": "2026-05-23T14:56:25.000Z",
+      "titleEn": "Anthropic Funding Round to Top $30B: $900B Valuation Would Surpass OpenAI as Most Valuable AI Startup",
+      "titleZh": null,
+      "abstractEn": "Anthropic Funding Round to Top $30B: $900B Valuation Would Surpass OpenAI as Most Valuable AI Startup  Tech Times",
+      "abstractZh": null,
+      "authors": [
+        "Tech Times"
+      ],
+      "institution": "Tech Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-l6o9uwixgsedaikx-html",
+      "slug": "gx-12",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/L6O9UWixGsEDAikX.html",
+      "publishedAt": "2026-05-23T13:15:00.000Z",
+      "titleEn": "何小鹏的赌局：GX狂降12万，换一场不能输的冲高",
+      "titleZh": "何小鹏的赌局：GX狂降12万，换一场不能输的冲高",
+      "abstractEn": "在理想L9 LIvis之后，小鹏GX的最终定价也大幅跳水，从近40万的预售价降至27万的起售价，“9系的产品，8系的价格”，小鹏产品矩阵负责人吴安飞概括。\n下调12万元，效果立竿见影：发布会第二天，小鹏集团港股股价一度涨幅超过8%；上市后12小时，大定订单数突破24863辆。Ultra旗舰版订单占比超过80%，而旗舰版里纯电车型占比过半——何小鹏原本以为增程版销量会高于纯电。\n更加让他意外的是，GX仅有一个SKU的毛利不及预期，其他配置（毛利率）都超过既定目标。\n这场9系混战，第一要看产品力，第二要看价格，但最终还是要回到价格竞争中。\nGX的“反大车”逻辑\n面对GX的初步胜利，何小鹏得出的结论是，“汽车如果真正要做到巨大的变革，要把大小、配置、品质、颜值都要做好。”\n全尺寸SUV通常意味着笨重、难开、停车难，但GX通过线控底盘、5.4米转弯半径、航空级冗余安全，把\"大\"的劣势转化成了\"大而",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:8e8d12679548",
+      "slug": "gnews-8e8d12679548",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORHhLcnJOVzlXbTBHanNlOE1ueEl2NGYxck9hak5IV3kxXzhzUkt3OUhobzVJNHBWMlBseVZsUnJOdzNKelA2VmFxU0tDN2w2WHBWa1JQaVhKbFdFYmxnbFdWdnNjM0h3UEdDeGs4ZF9GNkNUQ0hOcWM4Vll2R08xZjIxVEhVVW1BUG80N0NoSWpkWWhzcTUweFpRMF9WM2c?oc=5",
+      "publishedAt": "2026-05-23T13:01:03.000Z",
+      "titleEn": "OpenAI faces IPO unknowns even after victory over Elon Musk",
+      "titleZh": null,
+      "abstractEn": "OpenAI faces IPO unknowns even after victory over Elon Musk  The Seattle Times",
+      "abstractZh": null,
+      "authors": [
+        "The Seattle Times"
+      ],
+      "institution": "The Seattle Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48246889",
+      "slug": "hn-48246889-making-deep-learning-go-brrrr-from-first-principles-2022",
+      "source": "Hacker News",
+      "sourceUrl": "https://horace.io/brrr_intro.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48246889",
+      "publishedAt": "2026-05-23T11:50:22.000Z",
+      "titleEn": "Making deep learning go brrrr from first principles (2022)",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tosh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 168,
+      "commentCount": 62,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423202-html",
+      "slug": "ai-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423202.html",
+      "publishedAt": "2026-05-23T10:09:58.000Z",
+      "titleEn": "“五类人AI替代不了，企业做第二名最稳妥” | 昆仑万维方汉@AIGC2026",
+      "titleZh": "“五类人AI替代不了，企业做第二名最稳妥” | 昆仑万维方汉@AIGC2026",
+      "abstractEn": "“AI时代经验不再是护城河”",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423179-html",
+      "slug": "openai-codex",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423179.html",
+      "publishedAt": "2026-05-23T09:50:51.000Z",
+      "titleEn": "OpenAI大神教你如何榨干Codex",
+      "titleZh": "OpenAI大神教你如何榨干Codex",
+      "abstractEn": "13k星开源库作者解锁Codex-maxxing！",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:randstad:e3ecae60692c",
+      "slug": "hrorg-randstad-e3ecae60692c",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWDhVWmtzMzNlRVpRQW9GVXhsWmlPZXd1YWxPMGtrMmNKQVI2bkF0MUc4Z0tmUE1TRUFPc2JMSllTdkNQYkFwWm9KMnZLeDY5S2Zac0dNeTNFTjBpeTlmc1UyTnpjT1p1cEZKSjVoelZudHFLVW1pZmdXdGZLeVp5c3hnNFBYR2ZPbzloNXZnNFJ0aUU0Z3RPZExnSnVYNF83OWNaT201ZE1HSkRONXdwTC1KdUFyVkRYejJjV3I3ckxmMGxucjl4bjVXc3lmYTE3WG51dmVqZzFlb2VXSDRxS09WS0ViYVU?oc=5",
+      "publishedAt": "2026-05-23T09:49:15.000Z",
+      "titleEn": "LTM to buy Randstad units in $186 million Europe-Australia deal",
+      "titleZh": null,
+      "abstractEn": "LTM to buy Randstad units in $186 million Europe-Australia deal  MSN",
+      "abstractZh": null,
+      "authors": [
+        "MSN"
+      ],
+      "institution": "MSN",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423162-html",
+      "slug": "deepseek-v4-agi",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423162.html",
+      "publishedAt": "2026-05-23T09:46:37.000Z",
+      "titleEn": "DeepSeek V4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
+      "titleZh": "DeepSeek V4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
+      "abstractEn": "梁文锋承诺坚持开源路线",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:a0874de71b75",
+      "slug": "gnews-a0874de71b75",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU1p4SjlvWGJpRnNMUVJQeE1nelB5WXFubFY5MWpuWGY3Y3RmZHhBS202SzZiUHJmNVcyNTN0VEFRWDhjOWJYYVFWd3k0c0dQVWh0YVNYV05XNnh1dnJnX0xrVnpxbTNXRmg5WTJrMU8wdUZKZkNxNFIyQklDbkVNMF9ZYVI5QTdMWmtucERDMHBFRmZwM3c?oc=5",
+      "publishedAt": "2026-05-23T09:38:30.000Z",
+      "titleEn": "China’s AI start-up funding surge shows capital is chasing scale",
+      "titleZh": null,
+      "abstractEn": "China’s AI start-up funding surge shows capital is chasing scale  Startup Fortune",
+      "abstractZh": null,
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:adecco:c84580e41f16",
+      "slug": "hrorg-adecco-c84580e41f16",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOei1GX01Pcl81M3RibFRlb2dzVlhPYkpwS1dLYkZMeDJONlBmaDJLbmFYUm4tMUYtR1Q2YWlfczhyclBEeVU5T1RTcThlVkUxQmY5NHFQTVVjNnV0Sk8xY0EzQkpCenc5MG84QmRWYkpHNzRqbk43XzJaQW5QNk4tWEd4X0pMVF8tcGpLb0ZNVHQ?oc=5",
+      "publishedAt": "2026-05-23T08:00:33.000Z",
+      "titleEn": "Widening gap between AI ambition and workforce readiness",
+      "titleZh": null,
+      "abstractEn": "Widening gap between AI ambition and workforce readiness  Startups Magazine",
+      "abstractZh": null,
+      "authors": [
+        "Startups Magazine"
+      ],
+      "institution": "Startups Magazine",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:b4cde7afca19",
+      "slug": "hrorg-randstad-b4cde7afca19",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV3hKMlQ2eFNXXzJRcExaSFFRQXFJREVOUTJWWDdqMEZFSTR3clRRUzZkUkVTcWYwZXdHcFpXUmpsdTlvenExd2lGRGo4OFpLQkZHM09vMXpYNGpxTG1RV1BoN1VsWnpfUXdfQ3AxOVh6ZGxmUDZXWHN0LUNEdVJHX1VXa1oyMFFnSVloTlZPem5wazNCdEhoQlNKU0xDdExtaGR3YnhyTnNtMVdNZ0U5MFQxYjNobmJPaERWQUxONA?oc=5",
+      "publishedAt": "2026-05-23T06:00:00.000Z",
+      "titleEn": "LTM offers EUR 160M for Randstad's Europe, Australia tech business",
+      "titleZh": null,
+      "abstractEn": "LTM offers EUR 160M for Randstad's Europe, Australia tech business  scanx.trade",
+      "abstractZh": null,
+      "authors": [
+        "scanx.trade"
+      ],
+      "institution": "scanx.trade",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:zhilian:6b7938d09340",
+      "slug": "hrorg-zhilian-6b7938d09340",
+      "source": "智联招聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUW80LU44RmkxY0ZlaTIxN0JZa3ozREpSYnQwNVlNdmwxZkJfRnR2ME04UkV6NmVXR3dKNEk5UXctVWhMRW9tbHhTZHdxY0s3dFZuZ0J1NU9PM3ZPbk9xRmZzVWxqZ2RRdXJoazJIVnhtcl94SUx5QTJHenV3TThlRExGNXg4UQ?oc=5",
+      "publishedAt": "2026-05-22T16:41:12.000Z",
+      "titleEn": "AI岗位需求激增 年轻人抢抓转型新机遇",
+      "titleZh": "AI岗位需求激增 年轻人抢抓转型新机遇",
+      "abstractEn": "AI岗位需求激增 年轻人抢抓转型新机遇  21财经",
+      "abstractZh": null,
+      "authors": [
+        "21财经"
+      ],
+      "institution": "21财经",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:adecco:a4a5805920a5",
+      "slug": "hrorg-adecco-a4a5805920a5",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVNHWVhGbEVuVnNDUnZfWUptMFhMMWpCZUZreW02bGZCbUxvRk5uRDZkWFphU2xJWTB3elZqTGxjeU1PQzBxN0kycGM1anNZR1NFY3I3LVNhSGFGTDdwdGktdFhGOVowZXlXYU00NU83aEgxWmhYT1pYNS1kU0RqRlQ1ckIwZU5HdklGb1VsYnl5Rm5mWVpPSUNEc05LeTJLRkg3XzZvNFpwcUtnTFVJQjdERDdzNjg?oc=5",
+      "publishedAt": "2026-05-22T13:18:27.000Z",
+      "titleEn": "Trust – not technology – will determine AI success: report",
+      "titleZh": null,
+      "abstractEn": "Trust – not technology – will determine AI success: report  hcamag.com",
+      "abstractZh": null,
+      "authors": [
+        "hcamag.com"
+      ],
+      "institution": "hcamag.com",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:boss-zhipin:5af8ecd44859",
+      "slug": "hrorg-boss-zhipin-5af8ecd44859",
+      "source": "BOSS直聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMDVGWDgzNFJFWmpkQVZJNjdvaW5KYTVHaTlMNWRFYlVCZ3hWUVFXZnNZalVhQno0Y0lrQWptXy1qSURqNFQxOUt1NUVIT2tIUDdzUEI3M0gzSzNaclZzMnMxaEl2UERXZ0Z4eV9ZSFFSWGZlcldRWXJMUDltQXpfaHNleE9ud2l3blVQR2dlaVBUUjd6Zzc4?oc=5",
+      "publishedAt": "2026-05-22T01:43:00.000Z",
+      "titleEn": "招银国际削Boss直聘目标价6.25%至22.5美元维持「买入」评级财经新闻Financial News",
+      "titleZh": "招银国际削Boss直聘目标价6.25%至22.5美元维持「买入」评级财经新闻Financial News",
+      "abstractEn": "招银国际削Boss直聘目标价6.25%至22.5美元维持「买入」评级财经新闻Financial News  AASTOCKS.com",
+      "abstractZh": null,
+      "authors": [
+        "AASTOCKS.com"
+      ],
+      "institution": "AASTOCKS.com",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:133c8dc38394",
+      "slug": "hrorg-mercer-133c8dc38394",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMmw0NWRkbjNHbGJBZWx6UFNkMUJ2aF93dHcxTjdqdTY1b0RCUkNxVlczNjN1VnpYYTNuVUN2clAyaVRzaGlTQXZweGs4YkdBa19mclB0cGxDNDctcERkbEMtNlhvTzBMcjd3eWR2eURSQnpLSVpfQ3Q5QXR0NG5oOXEzX3FoTnRpQW5Td1loejBJN29nQVZVcXZTN3ByZEpS?oc=5",
+      "publishedAt": "2026-05-21T17:30:44.000Z",
+      "titleEn": "Opportunities for engagement for Mercer Island residents",
+      "titleZh": null,
+      "abstractEn": "Opportunities for engagement for Mercer Island residents  Mercer Island Reporter",
+      "abstractZh": null,
+      "authors": [
+        "Mercer Island Reporter"
+      ],
+      "institution": "Mercer Island Reporter",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:f7ce7b89f9e2",
+      "slug": "hrorg-recruit-f7ce7b89f9e2",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNmF6ZjUwZUhMZGhsUlNFdkFKWWxOX19qZmotOGJrNG8xdUFhdjI0TldHRGQwTWJjQlh2UDZzN3NtRlgtOFlRQndsV054eHE5RVVnV3BHR3h3TWZRY3Fvd0lGNjY2eVZTdDdwQTZ5anFHdUh4bWtJQXN1Q1QzQm15b2ItV2JzNzRvT0VNWV9IeDZFR3pWN1JPQWxOVWR6RFI0VS1ZLVVKRGZxRENxRHBBRVB3N3hpdFk?oc=5",
+      "publishedAt": "2026-05-21T07:32:10.000Z",
+      "titleEn": "Skills Over Degrees: Nasscom–Indeed Report Reveals India’s Evolving AI Hiring Landscape",
+      "titleZh": null,
+      "abstractEn": "Skills Over Degrees: Nasscom–Indeed Report Reveals India’s Evolving AI Hiring Landscape  CXOToday.com",
+      "abstractZh": null,
+      "authors": [
+        "CXOToday.com"
+      ],
+      "institution": "CXOToday.com",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:2883952cd2a7",
+      "slug": "hrorg-recruit-2883952cd2a7",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSUVOcUJja1ZZQ0d1Y2R4ZFlkMnBuUXdHUE9hWEpvWHJ4UEptLTlUVEtub3VfcTZ6enB3QW1ZWkozamViR29TRnZnYTNlSWNSQmVwZjBMYjR0bnhRYktkbWJxRHQ4TEtGYjhSbVVrY0tVMURndTlaMFB0cTJndVlxWkFSNEJkeXZoVzF6dTRlLXNGa0M0RFpz?oc=5",
+      "publishedAt": "2026-05-20T23:18:05.000Z",
+      "titleEn": "Canada’s summer job market stabilizing after years of decline, report says",
+      "titleZh": null,
+      "abstractEn": "Canada’s summer job market stabilizing after years of decline, report says  The Globe and Mail",
+      "abstractZh": null,
+      "authors": [
+        "The Globe and Mail"
+      ],
+      "institution": "The Globe and Mail",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:boss-zhipin:6857c705f5d1",
+      "slug": "hrorg-boss-zhipin-6857c705f5d1",
+      "source": "BOSS直聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02emFiamswOXJfSHMzaDI3bjc2cVFUeWxuSlp5VzFpdHdLeWdIeElNbnlseVlFaHYteDFMNk1idmlxa2hiQnlCbG1FVTJsRFlzaHRGQWo1WjBIVW8tM0w5LUNn?oc=5",
+      "publishedAt": "2026-05-20T13:49:03.000Z",
+      "titleEn": "BOSS直聘2026年Q1收入20.7亿元、经营利润6.24亿元",
+      "titleZh": "BOSS直聘2026年Q1收入20.7亿元、经营利润6.24亿元",
+      "abstractEn": "BOSS直聘2026年Q1收入20.7亿元、经营利润6.24亿元  观点网",
+      "abstractZh": null,
+      "authors": [
+        "观点网"
+      ],
+      "institution": "观点网",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
