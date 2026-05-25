@@ -1,0 +1,859 @@
+{
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T09:43:27.977Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "gnews:c450ee2bff4a",
+      "slug": "gnews-c450ee2bff4a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjMxWVlpUUhJb1JjYnFPRXpkeE1qaTc3aDNQQXltRWZYNmo4T1dmN095X3R6bDY5NmkxdHBwTERrNkg1ajFIZDFZR09VQzd6a2oyalZTM2tkcjRwMFVyXzM5RUhkZWNQQ216cExQbkI1OGN0RS1CazVJV1dvTV9aYUt2cVVsc3Z6LVJDanZySTdMOHdEWmlIVTI4VVI?oc=5",
+      "publishedAt": "2026-05-25T09:31:00.000Z",
+      "titleEn": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity",
+      "titleZh": null,
+      "abstractEn": "Pope calls for robust regulation of AI in manifesto that ponders the future of humanity  AP News",
+      "abstractZh": null,
+      "authors": [
+        "AP News"
+      ],
+      "institution": "AP News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8e969ca43ec8",
+      "slug": "gnews-8e969ca43ec8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rdGtiSVZMTUJ1Y0c5S2I3dFZvVUdWU0tUbnZObjduV0dnRzU5bWZVQTZBNFh5UkZsaVVsVDI4WlM1LS1aOU80YjN1Ry03Q3doZFlPVnRRYXpfYkQzU21yelBSOWNiVS1q?oc=5",
+      "publishedAt": "2026-05-25T08:00:00.000Z",
+      "titleEn": "Amdocs expands AI ambitions through acquisition of Israeli startup Yess",
+      "titleZh": null,
+      "abstractEn": "Amdocs expands AI ambitions through acquisition of Israeli startup Yess  CTech",
+      "abstractZh": null,
+      "authors": [
+        "CTech"
+      ],
+      "institution": "CTech",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chips-gajsnsvozgcw55be-html",
+      "slug": "18a-wildcat-lake-ai-pc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chips/gAjsNSvozgcw55bE.html",
+      "publishedAt": "2026-05-25T07:54:00.000Z",
+      "titleEn": "把18A塞进主流轻薄本，英特尔「WildCat Lake」想让人人用上AI PC",
+      "titleZh": "把18A塞进主流轻薄本，英特尔「WildCat Lake」想让人人用上AI PC",
+      "abstractEn": "AI浪潮正在加速席卷和重塑PC产业格局。\n自2023年英特尔为AI PC定调、首次集成 “CPU+GPU+NPU” XPU架构以来，AI PC的边界被不断扩展。\n\n\n以这一赛道的开创者英特尔为例，产品迭代路径证明了“AI PC是PC演进大方向”的主流观点——第一代完成技术验证，第二代刷新业界对x86能效的认知，第三代则在制程、架构、AI引擎上实现系统级重构。\n \n与此同时，政策与研究层面也在为端侧AI指明方向。在本月初召开的“人工智能终端智能化分级”国家标准宣贯会上，有专家指出，未来AI产品的技术体系将走向“端云协同主导、系统性融合”，高频低耗的AI任务将加速向端侧算力转移。\n \n市场数据也印证了这一趋势。2026年，多家市场研究机构认为AI PC渗透率将突破50%的临界点。\n \n这也意味着，仅靠少数“高玩”尝鲜，已不足以支撑AI PC的基本盘。\n\n\n主流用户“既要又要还要”？英特尔用五大",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-absrtxyaoqvn84ow-html",
+      "slug": "mindvla-u1-vla-va",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/aBSRTXyAOqvn84ow.html",
+      "publishedAt": "2026-05-25T07:49:00.000Z",
+      "titleEn": "港中文李鸿升团队论文 MindVLA-U1：VLA 不再输给 VA，语言真正进入自动驾驶决策",
+      "titleZh": "港中文李鸿升团队论文 MindVLA-U1：VLA 不再输给 VA，语言真正进入自动驾驶决策",
+      "abstractEn": "MindVLA-U1：统一视觉语言动作架构，实现理解后规划。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n在自动驾驶进入大模型时代之后，行业正在从传统的“感知、预测、规划、控制”模块化流水线，逐步转向端到端智能系统。\n过去，VA 模型能够直接从视觉输入生成驾驶轨迹，在规划精度和实时性上表现突出，但它们更多依赖隐式视觉特征，很难清楚解释“为什么这样开”，也难以处理那些需要语义理解和常识推理的长尾场景。\n比如车辆行驶在狭窄居民区道路上，两侧停满车辆，前方可能有行人突然从车缝中出现；又比如在无保护左转路口，系统不仅要判断对向来车速度，还要理解让行关系和潜在风险",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-fqwf29nifp6cifkq-html",
+      "slug": "brand-2026-3",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/FQWf29NIfP6CIfkq.html",
+      "publishedAt": "2026-05-25T07:49:00.000Z",
+      "titleEn": "速卖通Brand+开放韩国站：2026市场投入激增至3倍",
+      "titleZh": "速卖通Brand+开放韩国站：2026市场投入激增至3倍",
+      "abstractEn": "“出海四小龙”之一的阿里速卖通AliExpress正将韩国市场列为2026年战略重心。速卖通 “2026跨境必争市场”最新策略显示，速卖通Brand+品牌出海计划已正式开放韩国站点，今年在韩国市场投入将激增至去年的三倍，半数订单已实现三日达，进一步巩固其在韩国跨境电商领域的领先地位。\n \n在流量与商家扶持方面，速卖通展现出强大的投入决心。平台2026年市场投入同比翻3倍，全年投入亿级资金用于站外推广；并结合“Brand+”品牌计划，为参与商家提供超过10%的搜推增量。\n为吸引和激励商家，速卖通还推出了韩国专属的佣金激励政策，区域返佣比例达0.5%，全店最高可返点8.8%，月度返佣最高可拿到3万美元。\n物流时效也是此次战略升级的核心亮点。数据显示，速卖通韩国已实现50%的订单三日达。2026年，平台将进一步扩大物流优势，覆盖200KG以内的大件商品通发，并通过其五级仓网布局，有望将物流成本降",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:73649a672655",
+      "slug": "gnews-73649a672655",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM0lrV21iZm5EQmdaSDJqdEduclQwRm82dENYM192NFZVOGVQUFB1Ym9IaHRVYldUeklPd2swb1dyWHRIVGNxejYyMVBsaFRNcXBleVlvaDZ4Z3N2WE9ZdU50cWwzNzFRdlpsaXpiUkVIenRRSXNFbkJyNF94TEs4SHZ2Ulg0MTJJVThQdGRpaDU1bUFZX01PWlJ0TmtVZURGS3dleFlUS1d1LXhYM29XVDJJMUwzdTQ?oc=5",
+      "publishedAt": "2026-05-25T07:46:43.000Z",
+      "titleEn": "Australia and the UK sign AI cooperation agreement on safety and security",
+      "titleZh": null,
+      "abstractEn": "Australia and the UK sign AI cooperation agreement on safety and security  Telecompaper",
+      "abstractZh": null,
+      "authors": [
+        "Telecompaper"
+      ],
+      "institution": "Telecompaper",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c11d648490bf",
+      "slug": "gnews-c11d648490bf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQm5XcHAxT2xRODdFWnRFWk0xYXNfOUtPX19YM2pkb19rVFMxdGpQX3MtZld3U3NnbGVmcTE3MkJjYTFuNkp2akNIb3BNMnpnWTRKYVlkSFgwOVZpR0R4X0EyaTY2UmFzcTVIVUNMOEhHNUVXbEFUNnpfTmVGY1hnSHJ0dGpkM3A1X3BRN21yTlEzWm5IVEtRSFN0ZjdVS2E1MFVHLTNkSmhadEc3MlhmQ3VkcEJkS2lxNTFuRkhsWkFlM0JrSGJfYndTRF9pWDhxQUx4VA?oc=5",
+      "publishedAt": "2026-05-25T07:06:38.000Z",
+      "titleEn": "Finland’s Grundium acquires Denmark’s Visiopharm to build an end-to-end AI precision pathology platform",
+      "titleZh": null,
+      "abstractEn": "Finland’s Grundium acquires Denmark’s Visiopharm to build an end-to-end AI precision pathology platform  EU-Startups",
+      "abstractZh": null,
+      "authors": [
+        "EU-Startups"
+      ],
+      "institution": "EU-Startups",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:e4116705a82b",
+      "slug": "hrorg-recruit-e4116705a82b",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPN3BEclB5RG5UV0FsdjVJMnV3dGpldWNZNGZoWDBUcU5HX3VEUGNKcFhtOFpFd0hyeXEwLUtCNW9QX2lMLXJwQmNvN1JwdDBRZFpWbXlDY2JVb044YzhqZy1DMHVZcXdLQmpVUGxFbWF5MnFlWTEzTkhudWxyVFpkTER2MWxtSkxuQkkxSGZ5Vjg3cTY4Q0hZS0pmMVRwVTZfNGJyT09pNUFheEh1Q19RajNyUjBqSmpSaUFmQnYxVHRENENYaWpZaGZWZHZHaWZiTmgxMlJBc1JQdUdIaHcxZHRySVZmTWd0cmNxemlMTEN2ekxkWkE?oc=5",
+      "publishedAt": "2026-05-25T07:00:05.000Z",
+      "titleEn": "Creator economy shifts toward structured hiring as firms bring talent in-house: Indeed",
+      "titleZh": null,
+      "abstractEn": "Creator economy shifts toward structured hiring as firms bring talent in-house: Indeed  The Economic Times",
+      "abstractZh": null,
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-424584-html",
+      "slug": "vla-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/424584.html",
+      "publishedAt": "2026-05-25T06:56:42.000Z",
+      "titleEn": "“VLA和世界模型都不是终局，会有物理世界独有的模型” | 蚂蚁灵波沈宇军@AIGC2026",
+      "titleZh": "“VLA和世界模型都不是终局，会有物理世界独有的模型” | 蚂蚁灵波沈宇军@AIGC2026",
+      "abstractEn": "“要做机器人时代的安卓系统”",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:ddde1704569d",
+      "slug": "gnews-ddde1704569d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZDNzTV8yX0NjVWpoSW9RdndRSXdIY0lKRmxkQlBsMWU5T2ZfYUhiakh0SWcyNEtxLVhlMExwYjFpMHo3WDA2UjYxTzdjcEZoNTE1clFNZ3VZemR5N1oyQnBseWJoWDJJa1B2R2JPNEFqTnZicXRvZlNpcXNsbUcwRV9yMGZHWFJCVFNHbU15S2w5d3Y0YVJEOHlYTng5aFE2X214dVlFcy1hOGZvSHhzbm5R?oc=5",
+      "publishedAt": "2026-05-25T05:42:24.000Z",
+      "titleEn": "Global IT giants plan to spend $700 billion on Artificial Intelligence",
+      "titleZh": null,
+      "abstractEn": "Global IT giants plan to spend $700 billion on Artificial Intelligence  Zamin.uz",
+      "abstractZh": null,
+      "authors": [
+        "Zamin.uz"
+      ],
+      "institution": "Zamin.uz",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-corporateservices-hztu4i7d1wndwkwt-html",
+      "slug": "aidc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/CorporateServices/hZtu4I7d1wnDwKWt.html",
+      "publishedAt": "2026-05-25T05:27:00.000Z",
+      "titleEn": "华为发布AIDC数据基础设施全栈方案，覆盖数据湖至智能体框架五大层级",
+      "titleZh": "华为发布AIDC数据基础设施全栈方案，覆盖数据湖至智能体框架五大层级",
+      "abstractEn": "当地时间5月21日，以“数据觉醒，存力跃迁”为主题的2026华为创新数据基础设施论坛在巴黎举行。会上，华为正式发布华为AIDC 数据基础设施全栈方案，覆盖数据湖、知识与记忆平台、模型工程与资源调度、智能体框架、数据韧性平台五大核心层级，旨在助力企业加速推进 AI 数据中心建设、实现 AI 规模化落地。\n华为数据存储产品线总裁袁远将此次方案发布置于一个清晰的时代判断之下：\"当下，AI 正深刻改变企业运营模式。Agent 加速普及，成为新型数字生产力主体，逐步成长为企业的常态化'数字员工'；同时，AI 应用持续深化，企业 Token 消耗量迎来爆发式增长。\"\n他引用的数字印证了这一判断：目前全球活跃智能体超过 3000 万，预计 5 年内将达到 22 亿；每分钟 Token 处理量已从去年的 60 亿增至今年的 150 亿。\"Token 将像空气和水一样，成为我们生活的基础设施。\"\n在此背景下",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-424552-html",
+      "slug": "deepseek-v4-99-82-2",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/424552.html",
+      "publishedAt": "2026-05-25T04:40:14.000Z",
+      "titleEn": "DeepSeek V4还能更省！新工具缓存命中率高达99.82%，2折稳定到手",
+      "titleZh": "DeepSeek V4还能更省！新工具缓存命中率高达99.82%，2折稳定到手",
+      "abstractEn": "原本4亿+token、61美元的账单，直降至12美元",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-424551-html",
+      "slug": "2026-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/424551.html",
+      "publishedAt": "2026-05-25T04:38:24.000Z",
+      "titleEn": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "titleZh": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "abstractEn": "报名通道已开，手慢无",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:dead7c5f2b1d",
+      "slug": "gnews-dead7c5f2b1d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZURnUi1oMEpSUnlXX0NWWGdRc3pTTzZtelY0eE9sbHpLNktJMXpQNmYtLWlPdTlONEpmZmZkQzdZZzlnTE1oRk14aURXLWNTTkRVVV9fU3hWWHh1TDRraUp2MUpScnV3NEJHeDhFVEpoNi1KZjdKQXYzVjhWaV9sSg?oc=5",
+      "publishedAt": "2026-05-25T04:01:05.000Z",
+      "titleEn": "Pope Leo Is About to Make an A.I. Mic Drop. Here’s Why It Matters.",
+      "titleZh": null,
+      "abstractEn": "Pope Leo Is About to Make an A.I. Mic Drop. Here’s Why It Matters.  The New York Times",
+      "abstractZh": null,
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-424277-html",
+      "slug": "claude-4-saas-bench-computer-use",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/424277.html",
+      "publishedAt": "2026-05-25T03:29:41.000Z",
+      "titleEn": "Claude 通过率不到4%，SaaS-Bench撕碎了Computer-Use的「全自动办公」幻想",
+      "titleZh": "Claude 通过率不到4%，SaaS-Bench撕碎了Computer-Use的「全自动办公」幻想",
+      "abstractEn": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrycloud-zstudo2709easfl6-html",
+      "slug": "aws-l8-visa",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrycloud/zstUDo2709EASFL6.html",
+      "publishedAt": "2026-05-25T03:18:00.000Z",
+      "titleEn": "独家丨AWS大中华区战略客户团队负责人、L8高管顾凡将加入支付巨头Visa",
+      "titleZh": "独家丨AWS大中华区战略客户团队负责人、L8高管顾凡将加入支付巨头Visa",
+      "abstractEn": "雷峰网独家获悉，亚马逊云科技（AWS）大中华区战略客户团队负责人顾凡，将于本月下旬入职Visa大中华区，出任技术生态副总裁，向其AWS前上级张文翊汇报。\n顾凡曾与张文翊一同供职于英特尔，2014年左右两人先后加入亚马逊，历经Kindle、中国电商等部门，并于2019年一同转调至AWS。\n在AWS期间，顾凡先后负责过大中华区云服务产品、市场以及战略客户部等核心业务，是一位经验丰富的IT业务老将。彼时，张文翊为AWS大中华区负责人，顾凡向张文翊汇报，职级为L8（AWS大中华区最高职级为L10，其次为L8）。\n在负责客户业务期间，顾凡领导的团队一度管理着AWS大中华区十几个大客户，贡献了约 30% 的营收，字节、SHEIN、OPPO、vivo、百度等均为其客户。更多客户详情，可添加作者微信xf123a交流。\n张文翊于1993年加入英特尔，历任中国区市场总监、市场与渠道部总经理等职位。2013年，",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-y43acopmgwttouzg-html",
+      "slug": "anthropic-100-50",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/y43AcoPMgWtTOuzg.html",
+      "publishedAt": "2026-05-25T02:44:00.000Z",
+      "titleEn": "独家解读丨Anthropic每赚100块，为何会被马斯克顺走50？",
+      "titleZh": "独家解读丨Anthropic每赚100块，为何会被马斯克顺走50？",
+      "abstractEn": "“SpaceX是除谷歌外，另一家有望冲进10万亿美金市值俱乐部的公司。”今年年初，一位硅谷AI公司CEO刘潇曾向雷峰网如此强调道。\n一位相识的特朗普幕僚团成员曾告诉他，在特朗普试图超越肯尼迪功绩的政治野心下，SpaceX正在从一家航天公司转变成一头“基建巨兽”。\n“你看各家现在还在比拼基模，就意味着它不是一个有多大壁垒的事，Lab与Lab之间的差距基本拉不开三个月，而它们的算力消耗还望不到头。这时候做基模的前途有多大，要好好想想了。”刘潇补充道。\n如今，这一预判的冰山一角正在被掀开。\n“眼下，AI公司确实在加速给算力厂商打工。”另一位二级市场分析师周强表示。\n在SpaceX昨日提交的招股书中，一个隐藏在角落里的“深水炸弹”被抛了出来：\n\n公司已与Anthropic签订了一项为期三年的算力合同，Anthropic每月向SpaceX支付12.5亿美元，每年150亿美元，三年共计450亿美元。\n",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:5ab236c905b9",
+      "slug": "gnews-5ab236c905b9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUJUR3pRMzhsdVROZi1WcEZiYzF0V0VhYXlWNTVRYnJOZFpFRS0tQWZPa2VqWjhkcERPMGh6c1Vic2JscVg0eXVUZ1ZFb2w1M0V2S3Q1YlBHR3VCSV83OTRrdFhOcWtyRi13bnBNWmtKNTh6cmppQ0p3czdBNm9HWkk2enM4S3JHMzlCckt3dkJGU2NnVndKcFIxU2xkZ9IBowFBVV95cUxNNnc0NnE4dDFEdWloaXBZYnl2bWxXVnJXeHpHVTQwMWd2UVJ6bzJ0NXJOc3VCblljNGJFTklQTFIweS1abXJBUHIycy1SQlJNWE1jZUNqb3hlMVk3blFDWVdEd3NnS3dBX2U2QldUazdKS1Q2UVJXT0pxckhVVUxCRExmRTZJT3h6NDdLRG8yT3ZMQlpWN1F4TVlLWm0zQmNxOFVB?oc=5",
+      "publishedAt": "2026-05-25T02:36:00.000Z",
+      "titleEn": "Pope to release major artificial intelligence manifesto",
+      "titleZh": null,
+      "abstractEn": "Pope to release major artificial intelligence manifesto  Cebu Daily News",
+      "abstractZh": null,
+      "authors": [
+        "Cebu Daily News"
+      ],
+      "institution": "Cebu Daily News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423455-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423455.html",
+      "publishedAt": "2026-05-25T02:28:17.000Z",
+      "titleEn": "华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资",
+      "titleZh": "华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资",
+      "abstractEn": "用“人类心智”重做具身智能",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:cf996323d9d0",
+      "slug": "gnews-cf996323d9d0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQzVtWUlSMUZSWmk4RURXdjl5VW81NTREN3VnWC1MOFo1UmlVNFM3bjNHZjZWZHBQWXBzODJuUzhydldnX0RWLVhKNmRYZkRKQjJpdjAtbkV0d0F3SFhkWFFPdGFyNWNjanh3d0kybjRJQ0htQmNDUWRqelE4THpUTFNTdzBkbTRYRURiZEI1cVA?oc=5",
+      "publishedAt": "2026-05-25T02:17:11.000Z",
+      "titleEn": "Word of the Day: Test Your Knowledge on “Binance AI Safety” to Unlock BNB Rewards!",
+      "titleZh": null,
+      "abstractEn": "Word of the Day: Test Your Knowledge on “Binance AI Safety” to Unlock BNB Rewards!  Binance",
+      "abstractZh": null,
+      "authors": [
+        "Binance"
+      ],
+      "institution": "Binance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:052454d5775c",
+      "slug": "gnews-052454d5775c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWDltck9pYy1NOWhRVnlhYWpnQnFWSWxJVHllZTZsS1ZIZzZoTUNMaThIVWI4T0hEcFM3dFltaVQ5U1Fmdk9jWkhuSU5BNUUtLWJMX215MENyTkVYMFhGZE03MDFTbzVwWG4wZmZXT3dhWTRqWDZ1TndDTkt5dkFBX09GeUUyTzJsMjFKOS0yYkRldw?oc=5",
+      "publishedAt": "2026-05-25T01:52:18.000Z",
+      "titleEn": "Manus eyes US$1 billion buyback after Beijing blocks Meta deal",
+      "titleZh": null,
+      "abstractEn": "Manus eyes US$1 billion buyback after Beijing blocks Meta deal  digitimes",
+      "abstractZh": null,
+      "authors": [
+        "digitimes"
+      ],
+      "institution": "digitimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423441-html",
+      "slug": "70-30-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423441.html",
+      "publishedAt": "2026-05-25T01:51:37.000Z",
+      "titleEn": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+      "titleZh": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+      "abstractEn": "这些AI关键词正在被重新定义",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-ri3fi7vjq0fmv1xa-html",
+      "slug": "fsd-q1-58-deepseek",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/rI3FI7Vjq0Fmv1XA.html",
+      "publishedAt": "2026-05-25T00:30:00.000Z",
+      "titleEn": "小鹏副总裁：小鹏可能是唯一欢迎特斯拉FSD入华的车企；有员工喊出「学三星罢工」！曝台积电Q1净利大增58%反降薪；DeepSeek一月内宕机三次",
+      "titleZh": "小鹏副总裁：小鹏可能是唯一欢迎特斯拉FSD入华的车企；有员工喊出「学三星罢工」！曝台积电Q1净利大增58%反降薪；DeepSeek一月内宕机三次",
+      "abstractEn": "要闻提示\n1.小鹏副总裁：小鹏可能是唯一欢迎特斯拉FSD入华的车企\n\n\n\n2.揭秘长安汽车内幕交易案：5名员工利用内幕消息获利400余万，被罚1669万\n3.腾讯多个事业群试点取消组长，调整人员架构\n4.台积电Q1净利大增58%反而被曝降薪？有员工喊出“学三星罢工”\n5.阿里、京东、美团三方竞购朴朴超市，估值20-50亿美元\n6.冲上热搜！DeepSeek又崩了：一月内宕机了三次\n7.古尔曼：苹果 watchOS 27 更新将主要关注稳定性、较小优化，而不是引入重大新功能\n8.接连卷入芯片走私案！黄仁勋隔空喊话美超微：管好自己的公司\n今日头条\n\n\n\n\n小鹏副总裁：小鹏可能是唯一欢迎特斯拉FSD入华的车企\n\n\n\n\n5月24日消息，日前，小鹏汽车副总裁“@ 托马斯电火车”在微博发文表示：“小鹏可能是唯一一个欢迎特斯拉FSD入华的车企，背后的道理，大家或许都懂。”这番表态的背景是特斯拉FSD入华",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:67c19e8509f7",
+      "slug": "gnews-67c19e8509f7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZzRIVnRiMmc4dFFjOHFXOXlxd0IwMG1SU2pXUTgtd29raWkzSHhpalliMFRsUzd5WmY4MW9DWGE4ZXU3akdJeVlYWW1BTnZZakFkVnJ6ZWwxTXRMZUZLdWdFcUZHTGhiZGdJXzA3and0c3NrZVFFeEZBNVFSRmc3T2x0a0x5Y3RoSEpaZHVJdmE1YnNudzhkZC05cFVoR19TdDdidm8wbGNFekpKYVFZZ2M4X2dBUzN3OUphWk9tU1NKb1JGVDRBcG84YmhKcG1fVHBBVXo2aEs2NF9I?oc=5",
+      "publishedAt": "2026-05-24T23:42:00.000Z",
+      "titleEn": "Australia and UK governments ink agreement on AI safety and security",
+      "titleZh": null,
+      "abstractEn": "Australia and UK governments ink agreement on AI safety and security  Capital Brief",
+      "abstractZh": null,
+      "authors": [
+        "Capital Brief"
+      ],
+      "institution": "Capital Brief",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48261753",
+      "slug": "hn-48261753-theres-never-been-a-better-time-to-study-computer-science",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theatlantic.com/technology/2026/05/computer-science-major-coding-ai/687279/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48261753",
+      "publishedAt": "2026-05-24T22:44:29.000Z",
+      "titleEn": "There's Never Been a Better Time to Study Computer Science",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "zekrioca"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 21,
+      "commentCount": 11,
+      "tags": []
+    },
+    {
+      "id": "gnews:5209e7f5d474",
+      "slug": "gnews-5209e7f5d474",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zdzBHUmFfTlV3YlZuUFJlUHotek9KTGlaQWw0WWR3bVJsS1oxQnhGay1MX1R5VXhBaEZrME9BMGVwMVBleVBGMUNLR2tHYndlcXhMcmo2VGx6TWdZZVJwMjB6TTA?oc=5",
+      "publishedAt": "2026-05-24T20:57:53.000Z",
+      "titleEn": "Tech: AI policy is stuck in Washington",
+      "titleZh": null,
+      "abstractEn": "Tech: AI policy is stuck in Washington  Punchbowl News",
+      "abstractZh": null,
+      "authors": [
+        "Punchbowl News"
+      ],
+      "institution": "Punchbowl News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:824471518c81",
+      "slug": "gnews-824471518c81",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZkFoMHMtRVJUMzkzRS00UUlKdE9yRzJSbUdwang3MkdJUVlXRHBQazFlc1JXcWdCbV8xdU9XNnZXbU5Kek1xSEU2Q3ZPUW1UMlJqRWtnWU52cjNTZlBraWNxLWJiMHVRVGNxbURZc21xUkRHUzVPaTJ0ekZoNGdlakFIT290Z3FHb0l3aVNSeGFiZEx0X1JUTHl6Y0JPX2pZRE9NblZwZ0FZX041THprbWdB?oc=5",
+      "publishedAt": "2026-05-24T17:12:00.000Z",
+      "titleEn": "AI is getting worse as Google and Anthropic nerf AI models and limit usage",
+      "titleZh": null,
+      "abstractEn": "AI is getting worse as Google and Anthropic nerf AI models and limit usage  thestreet.com",
+      "abstractZh": null,
+      "authors": [
+        "thestreet.com"
+      ],
+      "institution": "thestreet.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:28218745d63e",
+      "slug": "gnews-28218745d63e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjRtRHFBZXl1bDR5bHpRZUFkMU5oY040WW1jWkhTWFRxMmt4aXdqM2FURVlyVjZGNl9sSE90ZG1OX2lpQXBhcWo0cFFlbkJEZnhkSlhkRFJQSjNqZnhoblBxam90YWNFQ3JycnczZU1aY3FBc0N4LXJVZkJ5NkJvQjVuSTBBa1NQV2tRTm9jTldGdmlINTJYZlVOOWRjZEE0?oc=5",
+      "publishedAt": "2026-05-24T16:40:23.000Z",
+      "titleEn": "AI FAQs: What Is Artificial Intelligence?",
+      "titleZh": null,
+      "abstractEn": "AI FAQs: What Is Artificial Intelligence?  Blockchain Council",
+      "abstractZh": null,
+      "authors": [
+        "Blockchain Council"
+      ],
+      "institution": "Blockchain Council",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48258684",
+      "slug": "hn-48258684-memory-has-grown-to-nearly-two-thirds-of-ai-chip-component-costs",
+      "source": "Hacker News",
+      "sourceUrl": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "commentUrl": "https://news.ycombinator.com/item?id=48258684",
+      "publishedAt": "2026-05-24T16:31:29.000Z",
+      "titleEn": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "intelkishan"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 386,
+      "commentCount": 395,
+      "tags": []
+    },
+    {
+      "id": "hn:48257980",
+      "slug": "hn-48257980-ai-washing-firms-are-scrambling-to-rebrand-themselves-as-tech-focuse",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand",
+      "commentUrl": "https://news.ycombinator.com/item?id=48257980",
+      "publishedAt": "2026-05-24T15:21:28.000Z",
+      "titleEn": "'AI washing': firms are scrambling to rebrand themselves as tech-focused",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Brajeshwar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 163,
+      "commentCount": 150,
+      "tags": []
+    },
+    {
+      "id": "gnews:274b64b1aa9e",
+      "slug": "gnews-274b64b1aa9e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeC05N0dBN0N6bmNzYzF3UXh1blBxcEJvbkNMTGF1N2ZOZEdOd0lQUkRwUFJOTV9xMGVvRENzVGxYWVN6am9vbTJnZDN5RWZnR1UyRzQ0WFI2b01tZ2VoYmR4cmxvUDUyM2ZOanIzN3VtMlhjdlNmN1VwWkVIcXZpbmZ4ZlgyYzBPaVJGc2t1TktZN1hrUUQ4c3FnRzNQbi1xSEVBR2w2Q3lPdw?oc=5",
+      "publishedAt": "2026-05-24T14:12:28.000Z",
+      "titleEn": "Microsoft Settlement And OpenAI Shift Reframe Growth And Valuation Story",
+      "titleZh": null,
+      "abstractEn": "Microsoft Settlement And OpenAI Shift Reframe Growth And Valuation Story  Yahoo Finance",
+      "abstractZh": null,
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a81f23ce094b",
+      "slug": "gnews-a81f23ce094b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYlk4MXRXT1ZqX2RCQWRDSll1cktfdzFvVTZqRHBsMGFlNVI5azJCTzNsUjJBczRfVllZTmd2MzZkLWhRSWlPV2NCN0VWX2FqalBieW95YWR3MEFxWnliMzdaSXNyUTlmb0pTLTVxcU8zOThSWFl5REJZQXlDemRXLW9GSjB0eS1vWjF2Mzhmb3NJQlJUQ2Z2UU1VUFZtX3NvMENZdlVxdDRQS1RPYXc?oc=5",
+      "publishedAt": "2026-05-24T14:00:31.000Z",
+      "titleEn": "AI is speeding up the quantum threat to crypto, security experts warn",
+      "titleZh": null,
+      "abstractEn": "AI is speeding up the quantum threat to crypto, security experts warn  CoinDesk",
+      "abstractZh": null,
+      "authors": [
+        "CoinDesk"
+      ],
+      "institution": "CoinDesk",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48256953",
+      "slug": "hn-48256953-deepseek-reasonix-deepseek-native-coding-agent-with-high-caching-and",
+      "source": "Hacker News",
+      "sourceUrl": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48256953",
+      "publishedAt": "2026-05-24T13:02:06.000Z",
+      "titleEn": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Alifatisk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 559,
+      "commentCount": 233,
+      "tags": []
+    },
+    {
+      "id": "hn:48256912",
+      "slug": "hn-48256912-constraint-decay-the-fragility-of-llm-agents-in-back-end-code-genera",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.06445",
+      "commentUrl": "https://news.ycombinator.com/item?id=48256912",
+      "publishedAt": "2026-05-24T12:55:53.000Z",
+      "titleEn": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "wek"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 238,
+      "commentCount": 135,
+      "tags": []
+    },
+    {
+      "id": "gnews:abbb297aab45",
+      "slug": "gnews-abbb297aab45",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVoyaVV5N0xLSnI1ZzBMblBfbGtVRjFoZTBMbVFMZFRQWHFRTmFTWjhtamFneng2aWgtMV9sWmNrUjhOQzlqblpQT3h5ME9OR2VfZklxb2tsUmdaZlBBSWJrdW96THVXNTYyR1RCdGpGY2tlX1lQRm90Rl85ZGJVcG43SzFTanNsX0V6VWlTeVNIOVA3YThtbGhlbTJMYmVyNEFjbDIxY9IBrAFBVV95cUxNZ2E4X1pLQVZoN1ZISktyajhyZTIwY1VGTVNyd1BQZkFHaDI5Zm1hM2tCZnRnWnVVQ0F6WDhkNlVMYW83OVNSd2xMLWtyOU5MUWFpWF9mcmtON2VFSVNrakpWLU9IdHc2cHpwU0dHSjRhRkUtOTZoMGxJSWphZXBGX0FJc1dKUk5lZUVEdFczcFp6SW5NazR4RjBJUWJrMXdOWTJaMDNVNXdSbFZP?oc=5",
+      "publishedAt": "2026-05-24T12:30:27.000Z",
+      "titleEn": "Latest line: A good week for Sam Altman, a bad week for Tom Steyer",
+      "titleZh": null,
+      "abstractEn": "Latest line: A good week for Sam Altman, a bad week for Tom Steyer  The Mercury News",
+      "abstractZh": null,
+      "authors": [
+        "The Mercury News"
+      ],
+      "institution": "The Mercury News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:367a3896334b",
+      "slug": "gnews-367a3896334b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYVF2TGQ3ZFh4NGttVWtTTXhQeERoRnlmcENNT1ZLcjhmNnVwam81MHNxVVRkemRsVFBaWXFVSnJuNXhrZkxSSmxvZkllckJvdHRQTENuSzFvNFJhMGExNzdnMmxEb3FYYXRaS2lJRWFXVGxXU0lwMEJiQllYSFgxQ0FfRDNjU2taWGtBWXhIQXY?oc=5",
+      "publishedAt": "2026-05-24T12:00:41.000Z",
+      "titleEn": "Pope Leo will take on AI alongside an Anthropic co-founder",
+      "titleZh": null,
+      "abstractEn": "Pope Leo will take on AI alongside an Anthropic co-founder  NBC News",
+      "abstractZh": null,
+      "authors": [
+        "NBC News"
+      ],
+      "institution": "NBC News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-423421-html",
+      "slug": "agent-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/423421.html",
+      "publishedAt": "2026-05-24T10:50:44.000Z",
+      "titleEn": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛",
+      "titleZh": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛",
+      "abstractEn": "大厂集体下场后，创业公司还有哪些机会？",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:41b1daa9391a",
+      "slug": "gnews-41b1daa9391a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZ1pkS19rRGV1aHZhdVcwUXpQZUdMRnllcmwxTDd6RU1GM3BjQ3dYVWtFV25VMV96eTF1OUFfY1pGYmtOTktGWWNTTWpKVGU5OHZoU2tpSW0wUVBMNzdnSW82N2xHcF9QQlNTbDkySGJRdTBONFVRYWxldXhxaExLbzM4YlVSSl9VNjBpb1YwLUxoaGhGd0Z2dlFGOXJtaWczUVFMd2p3YjR4X1UtQ011b0xPSWlxYXhWVDRIMHZSNzJZc2pjNTREUEVob2I5Rm8tYW1N0gHYAUFVX3lxTE9GX1p5SEFOZDlZdjVTMXdkY1FBLVFCdTBSUjZDTHJLck1VU3BaZnRabWhqR21GRm1RYWxsams4Mmp1ZE5CYWRLQzZzSHhfNURlaGZ1X0l2cFFJTnBRWVlzNmx2T1V0a0doMjBLUEEwb19WZi1RLU1seEh5X2tLRkdBM2tSSE8tU1NtWmFEZVdyZGNYVHQ2SnVxX21acmpGWlNLTUl3WFJJQzBUS2xqTWVNVmVueUxpS1dRb1V6XzhRdVRnbjBnVDBidkxVUGRjT0QxSm5CNGsxVw?oc=5",
+      "publishedAt": "2026-05-24T10:23:00.000Z",
+      "titleEn": "OpenAI offers up to $445,000 for AI safety role as focus shifts to self-improving systems",
+      "titleZh": null,
+      "abstractEn": "OpenAI offers up to $445,000 for AI safety role as focus shifts to self-improving systems  WION",
+      "abstractZh": null,
+      "authors": [
+        "WION"
+      ],
+      "institution": "WION",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:ce34bd8ec963",
+      "slug": "hrorg-randstad-ce34bd8ec963",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMlluVmw1ckhIY1NZQkdRSTBGdWlLcjJTS19QWkF0SUc2MnNGYXVTckpHSjNEbnJQZkJsd1VicGotOTEtdjB2Rk5Ha1VkVzM0bFlWMWxTTkF2aW8zX0thTFBsM0R5LUlPdjR0OFVGZWZkMWdCYmczTUlfVGU1OXY4RGZuODNLZ0hKWVVHQmxIMm5jdVF1YjBlcVd2SQ?oc=5",
+      "publishedAt": "2026-05-24T08:45:12.000Z",
+      "titleEn": "Randstad CEO says office jobs 'are over' as AI-fluent workers earn 25% more and get promoted 3.5x faster",
+      "titleZh": null,
+      "abstractEn": "Randstad CEO says office jobs 'are over' as AI-fluent workers earn 25% more and get promoted 3.5x faster  moneywise.com",
+      "abstractZh": null,
+      "authors": [
+        "moneywise.com"
+      ],
+      "institution": "moneywise.com",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:boss-zhipin:3b432b0bac11",
+      "slug": "hrorg-boss-zhipin-3b432b0bac11",
+      "source": "BOSS直聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwY3NGVWQ1MjBLdU45THQ5c083aThrRWdRMVprMklwbTRna0lQU0UtNDNnS0hkMDBabkZjaTNSbklaenRNS3VkUW5lUVlvSTlJNmtaTEstSWZpQ29MVWJVNA?oc=5",
+      "publishedAt": "2026-05-20T11:24:44.000Z",
+      "titleEn": "BOSS直聘：2026年第一季度营收20.7亿元 经营利润6.24亿元",
+      "titleZh": "BOSS直聘：2026年第一季度营收20.7亿元 经营利润6.24亿元",
+      "abstractEn": "BOSS直聘：2026年第一季度营收20.7亿元 经营利润6.24亿元  东方财富",
+      "abstractZh": null,
+      "authors": [
+        "东方财富"
+      ],
+      "institution": "东方财富",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
