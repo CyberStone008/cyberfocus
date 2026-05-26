@@ -1,5 +1,1008 @@
 [
   {
+    "id": "gnews:be88f3f3885c",
+    "slug": "gnews-be88f3f3885c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDhJREwwaFR4UTAtVlE2YWtvMUxhNUNxRE8zR1hBNE9sc2xGZ3ZzZ3o0YjFJQmgxenpBcUo0NTNmbWRCZ3l0NHNPcFEwRDBYNGlMREVPRzBZQnF5ejhkaG16enpTNEtSSDZZMEdZcXhEXzhRUVM4Y2dWSXJuQUxaRzBnN0NOTGxFdVEzTzFsbnNYOFdZenU1Q1piWUZTSlp5?oc=5",
+    "publishedAt": "2026-05-26T08:35:04.000Z",
+    "titleEn": "Pope Leo calls for regulation of AI in document quoting Gandalf",
+    "titleZh": null,
+    "abstractEn": "Pope Leo calls for regulation of AI in document quoting Gandalf  Gamereactor UK",
+    "abstractZh": null,
+    "authors": [
+      "Gamereactor UK"
+    ],
+    "institution": "Gamereactor UK",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:bb1006144a06",
+    "slug": "gnews-bb1006144a06",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPejFRTGlSM3dhOV9OVlBTRHIxMmNIU25RZkxUay1HdXloaWZVbjMtdXRCTmx6SURZZWtsVmpERmVnWE1NNVAxN0laQkFWa1BRaWo0cm1wX0J5TFk3dHRJb0pFMVpTSFNWTUFIb2VSSHV0MlNWZTVSbDBYWWlmcUVObVFNMUdDbGhSQ0VCWjVFZ3duLUFraFZVOEZDbw?oc=5",
+    "publishedAt": "2026-05-26T08:26:57.000Z",
+    "titleEn": "China's AI travel curbs show the real doomsday risk is fragmentation",
+    "titleZh": null,
+    "abstractEn": "China's AI travel curbs show the real doomsday risk is fragmentation  Startup Fortune",
+    "abstractZh": null,
+    "authors": [
+      "Startup Fortune"
+    ],
+    "institution": "Startup Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-425455-html",
+    "slug": "deepmind-9",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/425455.html",
+    "publishedAt": "2026-05-26T08:20:39.000Z",
+    "titleEn": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
+    "titleZh": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
+    "abstractEn": "解决卡了人类56年的数学难题",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-425304-html",
+    "slug": "anthropic-mts",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/425304.html",
+    "publishedAt": "2026-05-26T07:42:02.000Z",
+    "titleEn": "卡帕西Anthropic最新头衔：技术员工（MTS）",
+    "titleZh": "卡帕西Anthropic最新头衔：技术员工（MTS）",
+    "abstractEn": "MTS（技术员工） @Anthropic",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:06850e299801",
+    "slug": "gnews-06850e299801",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWENqVkFTU3pTOVZVU1dBTWlJd29CTDlfS2J1TEdYbVhMNFRTd0l4eVNGN3h4ekQyUGR1eVVOSU8yN2d4ZGdIRHlITkVlUWF0RGZMODNpMXRwS0hBYS1mdmRwQlYySkJycm9mVThxX19rcFJWaVA5bE9Pd0pucXFjOGJR?oc=5",
+    "publishedAt": "2026-05-26T07:42:00.000Z",
+    "titleEn": "OpenAI CEO: AI Unlikely to Trigger 'Job Apocalypse'",
+    "titleZh": null,
+    "abstractEn": "OpenAI CEO: AI Unlikely to Trigger 'Job Apocalypse'  AASTOCKS.com",
+    "abstractZh": null,
+    "authors": [
+      "AASTOCKS.com"
+    ],
+    "institution": "AASTOCKS.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:19fd5f76f99f",
+    "slug": "gnews-19fd5f76f99f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUxnVjJrcDFhZVhsMVlFbDRMUmZPMDE2U2hfZnYyekdOX2lzMkVpZ3pTMF9vdGRXR3pNVnhYTUd3Q01kMWdrMWFkMHpDY0dJMFJIM0NONFZ5YmJ1cXdhcmsyVWVCWUkzMHd4UUVaZ0ZwYkhoYWNuS1ZrX3BoZDhMQkRRcE9wYVljbVlWcERaWXdENm1sd1puaUJRdDk?oc=5",
+    "publishedAt": "2026-05-26T07:30:00.000Z",
+    "titleEn": "Interview with Prox AI startup co‑founder Dmytro Yanovskyi",
+    "titleZh": null,
+    "abstractEn": "Interview with Prox AI startup co‑founder Dmytro Yanovskyi  en.ain.ua",
+    "abstractZh": null,
+    "authors": [
+      "en.ain.ua"
+    ],
+    "institution": "en.ain.ua",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:b5cc4d0a6d14",
+    "slug": "gnews-b5cc4d0a6d14",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZFVWT0h0Mjgtalphc25tR0RXWm53SGQxQjVjSHBrYUJGczkyVHVaMEp3V3EyWkxGQkxrNU8tZWx4TmN5OUpWRkU0WUE2dWFrZEE2X2hSZlhSM2JZMzRkVnQzZXMtTllIaFoxeEpVUl8taTNRdUFPMENTcVBhUlF6ZUZiTU9Td193X1ktUXdQVGVZZlp4d0NnWGZ4OXNmMG1ZRVowMWRXYzNvaDc4VGtJLThR0gGyAUFVX3lxTE5kVVZPSHQyOC1qWmFzbm1HRFdabndIZDFCNWNIcGthQkZzOTJUdVowSndXcTJaTEZCTGs1Ty1lbHhOY3k5SlZGRTRZQTZ1YWtkQTZfaFJmWFIzYlkzNGRWdDNlcy1OWUhoWjF4SlVSXy1pM1F1QU8wQ1NxUGFSUXplRmJNT1N3X3dfWS1Rd1BUZVlmWnh3Q2dYZng5c2YwbVlFWjAxZFdjM29oNzhUa0ktOFE?oc=5",
+    "publishedAt": "2026-05-26T07:10:37.000Z",
+    "titleEn": "AI Billing Startup Flexprice Secures $1.5 Million Seed Funding Led by Shastra VC",
+    "titleZh": null,
+    "abstractEn": "AI Billing Startup Flexprice Secures $1.5 Million Seed Funding Led by Shastra VC  ciol.com",
+    "abstractZh": null,
+    "authors": [
+      "ciol.com"
+    ],
+    "institution": "ciol.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:d364d8b28002",
+    "slug": "gnews-d364d8b28002",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR1djMnpBbkZuMWJzbFdqeHFQZlV5V3JWVFJFQjc2TFA5cDRocWJDQ2dlU1BoTDdqUWN0YkdqTjFodnV2clpGVDBOZzZhUFE1VGJQYzhlMHZKOF9xVGNRWW8zTzljbHY3Q1hXWU8wUzZkdFVESjQycDlDQjJjeWZMVXNrRjRRMFVXcEpScXZhTm9WalFNbkh2ZFpqdU9JUWU1?oc=5",
+    "publishedAt": "2026-05-26T07:09:07.000Z",
+    "titleEn": "Anthropic Deal Puts New Focus On Palantir’s Enterprise AI Edge",
+    "titleZh": null,
+    "abstractEn": "Anthropic Deal Puts New Focus On Palantir’s Enterprise AI Edge  Yahoo Finance",
+    "abstractZh": null,
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:bc23e89cfeb3",
+    "slug": "gnews-bc23e89cfeb3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRmwxcTFvYWUwQjVuckxpbkxDeGZSRThDNHJWWWtmcmVQaTd1bFhzTEV5YW5ldUFjemx6ak9sUjdRdUc4ZlFHTmRIOUx4UTE3OEtwd3VsSDAxQS1WRG5IZ3ZNOE1JQVQxVFZYQ3ViVnZiZHpjSkhmdUxZeGhjWkRfOHh3RFk4Ql9jb01Od3c1bHJxTXpzdUtOMVI1RnlyM0d5V3dQSl9oSzQwOUpOREtYVU1OQmFoLW5xdm05T3FHUHVTbDM3dk1mNkdLNA?oc=5",
+    "publishedAt": "2026-05-26T07:07:28.000Z",
+    "titleEn": "Pope Leo Warns Some Weapons Now Beyond Human Control, Urges AI Regulation - Report",
+    "titleZh": null,
+    "abstractEn": "Pope Leo Warns Some Weapons Now Beyond Human Control, Urges AI Regulation - Report  i24NEWS",
+    "abstractZh": null,
+    "authors": [
+      "i24NEWS"
+    ],
+    "institution": "i24NEWS",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-425296-html",
+    "slug": "ai-dc",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/425296.html",
+    "publishedAt": "2026-05-26T06:52:33.000Z",
+    "titleEn": "华为发布AI DC数据基础设施全栈方案，加速行业智能化跃升",
+    "titleZh": "华为发布AI DC数据基础设施全栈方案，加速行业智能化跃升",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-chips-wh19inm2mod8skzv-html",
+    "slug": "ipo",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/chips/WH19inm2MOD8sKzV.html",
+    "publishedAt": "2026-05-26T05:48:00.000Z",
+    "titleEn": "长江存储的IPO能撑起万亿想象吗？",
+    "titleZh": "长江存储的IPO能撑起万亿想象吗？",
+    "abstractEn": "中国存储产业最重要的一笔账，正式开始算了。\n5月19日，两份文件先后出现在公众视野。\n一边，是武汉新芯撤回科创板IPO申请；另一边，则是长江存储完成上市辅导备案，正式启动科创板IPO。\n撤材料与开新局，在同一天完成交替。这一进一退之间，并非巧合。撤材料为集团整体上市扫清了最后的障碍，资本市场的目光随即全部聚焦于同一个问题：这家公司到底值多少钱？\n市场对长存的估值预期早已不是秘密。主流机构给出的上市前静态估值区间在2000亿至3000亿元，但几乎没有人把讨论停留在这个数字上——普遍预期是挂牌后市值至少落在5000亿至8000亿元区间，突破万亿也并非不可想象。\n数字越谈越大，市场情绪也越来越难以用单一逻辑归纳。围绕这个数字，两种截然相反的市场记忆正在同时浮现。\n乐观者将它称作\"新时代茅台\"，当长鑫在DRAM市场撕开口子、长存在NAND赛道正面叫板全球巨头，中国存储产业第一次有了改写世界格局的底",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-chips-ax8ly6ycsd1mnjqa-html",
+    "slug": "b300-ai-vol-11",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/chips/AX8LY6YCsD1mNJQA.html",
+    "publishedAt": "2026-05-26T05:39:00.000Z",
+    "titleEn": "华东大厂下单万台B300；AI芯片公司以旧换新计划遇冷；芯片公司上市，老股东被锁定三年；大厂仅要求保证金与竞业协议｜算力情报局Vol.11",
+    "titleZh": "华东大厂下单万台B300；AI芯片公司以旧换新计划遇冷；芯片公司上市，老股东被锁定三年；大厂仅要求保证金与竞业协议｜算力情报局Vol.11",
+    "abstractEn": "算力军备竞赛再升级：B300价格突破500万，华东大厂或下单超万台\n伴随着OpenClaw的热潮，国内Token调用数量大涨，算力需求再次被点燃。此前由买方主导的算力市场，正在逐渐向卖方市场倾斜。\n据多位业内人士透露，近期市场对高性能GPU的需求持续走高，尤其是B300等型号供不应求。一家华东头部互联网公司正在推进大规模采购计划，下单规模或超过1万台。\n价格也在快速抬升。春节后B300市场报价仍在440万元左右，近期已突破500万元。部分供应商开始采用现场竞价的方式分配货源，囤货待涨也成为常见操作。\n近期算力市场价格变更频繁，背后的原因欢迎添加微信EATINGNTAE进一步探讨。\n巨额投入成空转，AI芯片厂商「以旧换新」计划遇冷\n某头部AI芯片厂商此前曾向中部某省区集中出货大量算力芯片，当地头部算力运营商随后批量采购并建设算力集群。\n但由于软硬件适配能力不足、生态成熟度不高，加之芯片厂商此",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-425150-html",
+    "slug": "3-7-claude",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/425150.html",
+    "publishedAt": "2026-05-26T05:32:12.000Z",
+    "titleEn": "编程权威榜单：千问3.7仅次于Claude，阿里全球第二",
+    "titleZh": "编程权威榜单：千问3.7仅次于Claude，阿里全球第二",
+    "abstractEn": "跻身全球编程模型第一梯队",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hrorg:mercer:e08d7ef066fe",
+    "slug": "hrorg-mercer-e08d7ef066fe",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZlhBX2dfSFBxejdwNnVTbE9Zd0w2QXNxeWlQdEFDM1RMcW5OdFN4a1BjdEZiaTUzZ0tkUDVpRmVhVXFnZk8zLWRfNDAyai1nbnNhTzZ2VnFNMDA0bFFaQV9yeVEyaTdacGltdGJxUlZIVjk1YXJxdnBzOU1QNGNUQ1dTRUxnSjk3cnktX2xRWTdhZWN1R1FEZUF6cw?oc=5",
+    "publishedAt": "2026-05-26T04:27:49.000Z",
+    "titleEn": "Survey Finds 99 Percent of CEOs Expect AI-Driven Layoffs Within Two Years",
+    "titleZh": null,
+    "abstractEn": "Survey Finds 99 Percent of CEOs Expect AI-Driven Layoffs Within Two Years  SOFX",
+    "abstractZh": null,
+    "authors": [
+      "SOFX"
+    ],
+    "institution": "SOFX",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-424851-html",
+    "slug": "agent",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/424851.html",
+    "publishedAt": "2026-05-26T04:13:32.000Z",
+    "titleEn": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+    "titleZh": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
+    "abstractEn": "深度适配OpenClaw、Claude Code、Hermes等",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-6qaaq0mzlkbrqnws-html",
+    "slug": "code-arena-3-7-gpt-gemini-claude",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/6QAaQ0MzlkBRqnwS.html",
+    "publishedAt": "2026-05-26T03:58:00.000Z",
+    "titleEn": "Code Arena放榜：阿里千问3.7编程能力超越GPT、Gemini，仅次于Claude系列",
+    "titleZh": "Code Arena放榜：阿里千问3.7编程能力超越GPT、Gemini，仅次于Claude系列",
+    "abstractEn": "5月26日凌晨，全球权威三方编程榜单Code Arena放榜，阿里最新旗舰模型Qwen3.7-Max得分1541，超越GPT-5.5、Gemini-3.5-Flash、GLM-5.1、Kimi-K2.6等一众模型，仅次于Claude系列，在大模型厂商中排名全球第二，这也标志着在代码理解与生成领域，千问3.7成功跻身全球编程模型第一梯队。\n \n图说：Code Arena榜单显示，凭借Qwen3.7-Max，阿里位列全球第二 \n编程能力是当下模型智能水平的核心指标，而Code Arena是由知名第三方大模型盲测平台LMArena推出的最具影响力的榜单之一。与传统的代码基准测试不同，Code Arena并不考核孤立的代码片段生成或传统算法题，而是由开发者出题，要求模型从零生成完整的、可交互的Web应用程序，并交由用户对匿名模型的生成效果进行两两PK，由投票综合生成榜单，因此Code Arena也",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-iianvv3c91pe50qk-html",
+    "slug": "ai-ai-qwen-cloud",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/iIAnVv3C91pE50QK.html",
+    "publishedAt": "2026-05-26T03:29:00.000Z",
+    "titleEn": "阿里云加速AI出海，发布全新海外AI产品官网Qwen Cloud",
+    "titleZh": "阿里云加速AI出海，发布全新海外AI产品官网Qwen Cloud",
+    "abstractEn": "5月26日，阿里云在新加坡面向海外市场发布全新AI产品官网Qwen Cloud、Agent产品MuleRun，以及智能体编程平台Qoder、通用桌面智能体 QoderWork的一系列更新，同步实现面向Agent的云基础设施升级。\n阿里云首席技术官、国际业务总裁李飞飞表示，海外市场对AI的需求持续旺盛，尤其是Agent的爆发让模型调用量和云资源消耗呈指数级增长。阿里云正在面向海外进行全栈升级，覆盖模型、入口、Agent产品和云基础设施，让全球开发者能够无缝接入阿里云的AI能力。\n \nQwen Cloud（qwencloud.com）是继国内千问云之后，阿里云面向海外推出的全新AI产品官网。它不是传统云控制台中的一个AI子模块，而是一个为Agent时代设计的全新云产品入口。阿里云将模型服务、推理调用等核心能力封装为标准化的Skills和CLI工具，智能体可以直接解析指令，自主学会平台的全部能力",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-hkeei3byoc3z0wkb-html",
+    "slug": "4",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/HKEei3byOc3Z0wKb.html",
+    "publishedAt": "2026-05-26T01:52:00.000Z",
+    "titleEn": "两个月融资4亿美元，国际资本与产业资本同时加码零一汽车",
+    "titleZh": "两个月融资4亿美元，国际资本与产业资本同时加码零一汽车",
+    "abstractEn": "2026年5月，头部新能源重卡与智能驾驶科技企业零一汽车宣布完成2亿美元B2轮融资。\n本轮融资汇聚了产业资本紫金矿业、山东能源集团旗下兖矿资本、三花控股、国内消费品龙头企业；国际投资机构淡马锡、毅峰资本；以及本土投资机构高成资本、朝希资本、长石资本、活水资本、元禾璞华、誉尊资本等。\n\n\n这是零一汽车继今年3月完成上一轮融资后，短短两个月内再次获得大额资本加持。结合此前12亿元人民币融资，零一汽车近两个月累计融资规模已达到4亿美元。在当前新能源重卡行业竞争持续加剧、自动驾驶行业整体趋于理性的背景下，连续完成高密度、大规模融资，使零一成为今年智能重卡赛道最受关注的企业之一。\n\n\n巧合的是，零一汽车今年的两轮融资时间点，分别恰逢“惊蛰”与“小满”节气，也与旗下两款核心产品名称形成呼应。从融资节奏到业务增长，这家成立刚满四年的企业，正在进入新的发展阶段。\n\n\n本轮融资的一大亮点，在于产业资本与国际",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:c0d8ada85b12",
+    "slug": "gnews-c0d8ada85b12",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FRU9hemU0SjNxWWdUbHdPeVhuMVo4SWpDRE9GTWpUdmhNalNYTWw4N1VCTF9EZEJla3RhSHVta05ETVMxcEdNMmFJOXRXQ2VyVjY5NnpLM0tWalRYTUxvMTRDOUFBZERSa2ZJbWFGSTBUUUhV?oc=5",
+    "publishedAt": "2026-05-26T01:13:33.000Z",
+    "titleEn": "Pope Leo calls for stronger regulation of AI - THIRTEEN",
+    "titleZh": null,
+    "abstractEn": "Pope Leo calls for stronger regulation of AI  THIRTEEN - New York Public Media",
+    "abstractZh": null,
+    "authors": [
+      "New York Public Media"
+    ],
+    "institution": "New York Public Media",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:d30edb3cbbf3",
+    "slug": "gnews-d30edb3cbbf3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdV9KVS1TbmNmNmh3dk5UQTZKamxuc3dUZDRaTnlaRHc4WjRELTNDenk2UUxyb1FkVnhobXRwR0otWFBVazVhZUtNTkxna3RrOUo5dmV6YmsxYzdsam9OTlpRT3dUaUVNSW9sSC1ZZDA5UnBvUWotb0NfWk05VkhiYWg1SEliSURRWWtHc3JybnRKZ1ZXR0pz?oc=5",
+    "publishedAt": "2026-05-26T00:12:39.000Z",
+    "titleEn": "Pope Leo XIV calls for AI regulation",
+    "titleZh": null,
+    "abstractEn": "Pope Leo XIV calls for AI regulation  NBC Bay Area",
+    "abstractZh": null,
+    "authors": [
+      "NBC Bay Area"
+    ],
+    "institution": "NBC Bay Area",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48273169",
+    "slug": "hn-48273169-cve-2026-28952-apple-macos-26-5-kernel-vuln-found-by-claude",
+    "source": "Hacker News",
+    "sourceUrl": "https://support.apple.com/en-us/127115",
+    "commentUrl": "https://news.ycombinator.com/item?id=48273169",
+    "publishedAt": "2026-05-25T23:40:40.000Z",
+    "titleEn": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dragonsenseiguy"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 141,
+    "commentCount": 74,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48273162",
+    "slug": "hn-48273162-the-vatican-anthropic-relationship-thats-reshaping-the-ai-ethics-deb",
+    "source": "Hacker News",
+    "sourceUrl": "https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48273162",
+    "publishedAt": "2026-05-25T23:39:39.000Z",
+    "titleEn": "The Vatican-Anthropic relationship that's reshaping the AI ethics debate",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "cdrnsf"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 16,
+    "commentCount": 8,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:d56bd067db6f",
+    "slug": "gnews-d56bd067db6f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3lkYWxscUlUb2FwTWxnSTZ1MFY4MDR5eW9uQVdoUXRLTGd1VE9yM3ZUOTVHSHg5Y2tBSWswalBvRHJXMkh3U1MtN2RYamRqT0lib0xLTmcxUXY1UTdEVGxaUllZS0ZiM05tWUhZSTBkVzFlazNKNmdqRnJBYko4YXJvLWY2R3VpMWIxbUIxSTNYUmZycVhGMV9XN3U?oc=5",
+    "publishedAt": "2026-05-25T23:20:00.000Z",
+    "titleEn": "Why Microsoft's Split With OpenAI May Be Great for the Stock in the Long Run",
+    "titleZh": null,
+    "abstractEn": "Why Microsoft's Split With OpenAI May Be Great for the Stock in the Long Run  Yahoo Finance",
+    "abstractZh": null,
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48272984",
+    "slug": "hn-48272984-using-ai-to-write-better-code-more-slowly",
+    "source": "Hacker News",
+    "sourceUrl": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48272984",
+    "publishedAt": "2026-05-25T23:16:59.000Z",
+    "titleEn": "Using AI to write better code more slowly",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "signa11"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 603,
+    "commentCount": 232,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48272938",
+    "slug": "hn-48272938-cox-media-fined-after-bragging-it-spied-on-users-through-their-phone",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
+    "commentUrl": "https://news.ycombinator.com/item?id=48272938",
+    "publishedAt": "2026-05-25T23:10:05.000Z",
+    "titleEn": "Cox Media fined after bragging it spied on users through their phones",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "sbulaev"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 20,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48272354",
+    "slug": "hn-48272354-microsoft-copilot-cowork-exfiltrates-files",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
+    "commentUrl": "https://news.ycombinator.com/item?id=48272354",
+    "publishedAt": "2026-05-25T21:45:57.000Z",
+    "titleEn": "Microsoft Copilot Cowork Exfiltrates Files",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Kneenex"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 232,
+    "commentCount": 46,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:a9388ad66a7c",
+    "slug": "gnews-a9388ad66a7c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnFOOEhlRDVnVEMxWG5EdlkzTFNDb3gzSXVSSjJla05ibDU5VENuaVA3ZlR4eXFHT3Q5QXhkOHhvclhMRW13c0xpbVJ2MjNIdFF5SVNsZkc4dkh3X0JFNGkzQk16Mm5RQTRNaWFwOW9JcXZ1dmtCckNVQU13SUgyVkc4U3pTX0E4V2J0VUd6cVVXcmlWcjVQX0x1eGREaElHYlRtUHdfa1hWVWM?oc=5",
+    "publishedAt": "2026-05-25T20:14:11.000Z",
+    "titleEn": "Guide to Pope Leo XIV’s encyclical on artificial intelligence, ‘Magnificent Humanity’",
+    "titleZh": null,
+    "abstractEn": "Guide to Pope Leo XIV’s encyclical on artificial intelligence, ‘Magnificent Humanity’  Transparency Coalition",
+    "abstractZh": null,
+    "authors": [
+      "Transparency Coalition"
+    ],
+    "institution": "Transparency Coalition",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:e0663ecb0c8d",
+    "slug": "gnews-e0663ecb0c8d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU?oc=5",
+    "publishedAt": "2026-05-25T19:52:48.000Z",
+    "titleEn": "Pope, urging AI regulation, warns some weapons now beyond human control",
+    "titleZh": null,
+    "abstractEn": "Pope, urging AI regulation, warns some weapons now beyond human control  Reuters",
+    "abstractZh": null,
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48270770",
+    "slug": "hn-48270770-norways-2-petabytes-of-huawei-flash-storage-and-llm-training",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+    "commentUrl": "https://news.ycombinator.com/item?id=48270770",
+    "publishedAt": "2026-05-25T19:37:57.000Z",
+    "titleEn": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rbanffy"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 258,
+    "commentCount": 163,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:65abddc104c8",
+    "slug": "gnews-65abddc104c8",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd3Fqal9fak9vZDNzTjVncWNvTTQ0aXFSazhGXzJIZ0E0Q25kRXR0VlBQWnNPMlRsbm1DZXcteXIyTV9hOTdqX0IzS0JZOUNKaExtM3dCNzhOaDVibl9iOGIzNXRPZWxIY2ZuWXcza3U1RllGRUZzWHlfZkdySFFvY0VxRE80c1ZyM1hpalpnTnI2UE5BS1d3?oc=5",
+    "publishedAt": "2026-05-25T17:30:00.000Z",
+    "titleEn": "Artificial Intelligence (AI) Stocks Are Red Hot, but Here's Why I'm Not Touching Them",
+    "titleZh": null,
+    "abstractEn": "Artificial Intelligence (AI) Stocks Are Red Hot, but Here's Why I'm Not Touching Them  The Motley Fool",
+    "abstractZh": null,
+    "authors": [
+      "The Motley Fool"
+    ],
+    "institution": "The Motley Fool",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hn:48268871",
+    "slug": "hn-48268871-ubers-coo-says-its-getting-harder-to-justify-money-spent-on-tokenmax",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+    "commentUrl": "https://news.ycombinator.com/item?id=48268871",
+    "publishedAt": "2026-05-25T16:44:49.000Z",
+    "titleEn": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "_____k"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 227,
+    "commentCount": 297,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:d589266553af",
+    "slug": "gnews-d589266553af",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdnlTNE9Kbk5YUnRRdzU0ZG5lcXBGUXhHM3JoVnVoUUFXdWl0WHIza2xOYmJneGJxd0VtSnp5dW1BNXFSTUVUMExoZzFaWWdDbnNDNTEzV2hEaEdHQVFLTVlIa1FxVzhHQTFmcnYzSlViQnA0VTZXdF9xR0prTWxsRG9JT1YtSzBPLVE0OGx4Y25BLXU4bkwxMQ?oc=5",
+    "publishedAt": "2026-05-25T15:50:00.000Z",
+    "titleEn": "Pope Leo Warns Artificial Intelligence Could Be \"New Tower Of Babel\"",
+    "titleZh": null,
+    "abstractEn": "Pope Leo Warns Artificial Intelligence Could Be \"New Tower Of Babel\"  Deadline",
+    "abstractZh": null,
+    "authors": [
+      "Deadline"
+    ],
+    "institution": "Deadline",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:19dc0adbaaef",
+    "slug": "gnews-19dc0adbaaef",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRmZSclV0YXZHbmhwV2t0YkN4a0dpZHRWdDFpTE0zLUJWNW1DaGphWjNLQjR3MGxrdXRmaV9hbFdWOWlKeFZUdGZha09wcS13LUtLUXlvd0pWdmJPYnhkM19HdGNCTnZzMWlEYTA3a1FlMkR0WnFXMEJNVHRYeHQwcFhGM2dmSUxpcTltZmRDRlNfNVJBaUJ2S2p3QzF5ZU4ydDZOUUZGVS1kNU0?oc=5",
+    "publishedAt": "2026-05-25T15:40:40.000Z",
+    "titleEn": "Pope Leo XIV Issues Sweeping Call for AI Regulation and Ethical Oversight",
+    "titleZh": null,
+    "abstractEn": "Pope Leo XIV Issues Sweeping Call for AI Regulation and Ethical Oversight  PYMNTS.com",
+    "abstractZh": null,
+    "authors": [
+      "PYMNTS.com"
+    ],
+    "institution": "PYMNTS.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hrorg:randstad:136741cce574",
+    "slug": "hrorg-randstad-136741cce574",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREtFTFhjWmxvQ3FEcmZjRml1NzQ5MFAxRzYxcDZpWC1VY2ZUYmJHX1BTVElja1pON29qb21uSHRLeGZiZjVQcG51dHl6RmNSSWdONTBFLV9mN3p4MkllMThqU01jR2lhMmVHUXhKMGFqbVRVUDR5eGFDc2RQaUdsekVFUy1wSTZNalZLRl81OHliZ3ZGQldjUVFFRGFIYlRfdEdsVnpfNnBjLU0?oc=5",
+    "publishedAt": "2026-05-25T15:27:58.000Z",
+    "titleEn": "Randstad ordered to pay $195,000 for retaliatory firing",
+    "titleZh": null,
+    "abstractEn": "Randstad ordered to pay $195,000 for retaliatory firing  Canadian HR Reporter",
+    "abstractZh": null,
+    "authors": [
+      "Canadian HR Reporter"
+    ],
+    "institution": "Canadian HR Reporter",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:00fcb1aef9cc",
+    "slug": "gnews-00fcb1aef9cc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUkQ5U3M5YlI4RlBUNGNKUWVwenlSYXFnZzZpRDFQemxsdjJmZTB0ZkJyVU1UNkE4bkFJYkxsNFN4R0IxUVR5MnRpSlRQSWNfTi1yS0U2bzNDdDh3RHZnUU9CZWc0NkxDazJVV1pLSFJveWVIeEtlX2Z2QTkwOHJFclM2MHc1RGFuclhTcVJGdFBZcGh0NDdZaVdn?oc=5",
+    "publishedAt": "2026-05-25T13:00:00.000Z",
+    "titleEn": "Startups navigate nuances in Vancouver's venture capital boom",
+    "titleZh": null,
+    "abstractEn": "Startups navigate nuances in Vancouver's venture capital boom  Business in Vancouver",
+    "abstractZh": null,
+    "authors": [
+      "Business in Vancouver"
+    ],
+    "institution": "Business in Vancouver",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-fmzzakd3jfketvnt-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/FmZzakD3JfKEtvNT.html",
+    "publishedAt": "2026-05-25T12:28:00.000Z",
+    "titleEn": "北纬诺贝巅峰对话｜乔·韦曼走进中关村两院，深度解读AI时代企业增长新逻辑",
+    "titleZh": "北纬诺贝巅峰对话｜乔·韦曼走进中关村两院，深度解读AI时代企业增长新逻辑",
+    "abstractEn": "雷峰网讯 AI时代企业增长新逻辑\n2026年5月22日，新一期北纬诺贝巅峰对话在北京中关村学院 x 中关村人工智能研究院（简称“中关村两院”）隆重举行，本次活动由中关村两院及北纬港湾共同举办。全球知名AI战略专家、美国未来产业研究院创始人乔·韦曼（Joe Weinman）受邀出席，并发表主旨演讲——作为长期活跃于全球科技与产业前沿的思想者，乔·韦曼凭借横跨技术研究与商业战略的系统性洞察，持续为AI驱动下的产业变革提供前瞻性判断与实践方法论。\n本次活动汇聚了中关村两院师生、直博生夏令营营员及北纬社区科创企业负责人等各界代表，围绕AI时代的产业变革、商业增长与人才培养等核心议题展开深入交流。\n\n跨越太平洋的访问，感受中关村两院科研创新活力\n活动当日，乔·韦曼近距离倾听了学院师生分享中关村两院最新科研成果，真切感受学院在前沿科技领域的创新与探索、人才培育及成果落地转化方面的“超常规”实践。\n现场",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:522a09630646",
+    "slug": "gnews-522a09630646",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNktCUkE2LW1oQlJUbjlsVDZBQUtINWFJb2dDWF92ZmtmekpYemZxby1lVmk4V1kxUkJIbTVTQnVxdnlZWDFMUVlBeGZVQnhhSElCcWZITVp5bUREazg3dWVVMUJ3LTRWSFBEQ0J2Z2FQaHVKVm9EOFdtbHk0ajNEMVYzYTgyYWlZTFdLd1Y3Q2RxLWpBU2FSRllERTRhN2tSREZacS1Kemg5MHBmMUtqNmZPb1F2Q0txRGN4ZFZR?oc=5",
+    "publishedAt": "2026-05-25T12:22:03.000Z",
+    "titleEn": "Pope Leo XIV calls for AI to be ‘disarmed,’ directed to the common good",
+    "titleZh": null,
+    "abstractEn": "Pope Leo XIV calls for AI to be ‘disarmed,’ directed to the common good  America Magazine",
+    "abstractZh": null,
+    "authors": [
+      "America Magazine"
+    ],
+    "institution": "America Magazine",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:bb4ca3c00a9c",
+    "slug": "gnews-bb4ca3c00a9c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeUdBZG1NcERtUDFmMlp6Y05zY1VCNjhoOVFjMThkSnRURDJuUnZoZWRCY3RQaVBHaFJ3bGNBcURvOHpTSnVTQ2RDMDBnRng1SXNHNDVEM3ltYWNoYmN6Y3RxY0ZzZ0QxMmpiaWNaQkJnNGs1cDU0WDV6YndhNGpTa01kRVVGR3pSNFp0VnAzcjRxYWpVQUpCOFpXOWM0YVpyc2pvWTZHa0h6R0pYaWxRSk9lTQ?oc=5",
+    "publishedAt": "2026-05-25T11:30:24.000Z",
+    "titleEn": "Pope Leo presents 'Magnifica humanitas’ calling for disarmament of AI",
+    "titleZh": null,
+    "abstractEn": "Pope Leo presents 'Magnifica humanitas’ calling for disarmament of AI  Vatican News",
+    "abstractZh": null,
+    "authors": [
+      "Vatican News"
+    ],
+    "institution": "Vatican News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:07667d24f867",
+    "slug": "gnews-07667d24f867",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdElSd1RlckhTbXdRQjhrX3ptS2ZPTEphVW9JTTgxTXlCdkxrek5KR0RaUlh5aHp4Z2J1X1JMR21JR3J4X252amtDQU9LM3R5dEcxS1p4UnhmNDYxbGpUQ0RuX0xlZHB3SDQ5YXM1TDBFUkkxZW9OWW9rbENxZHk1cjJnR3luTHQtSTQ5bFo2UmQ?oc=5",
+    "publishedAt": "2026-05-25T11:10:00.000Z",
+    "titleEn": "Polsia raised $30M. What is known about the startup?",
+    "titleZh": null,
+    "abstractEn": "Polsia raised $30M. What is known about the startup?  en.ain.ua",
+    "abstractZh": null,
+    "authors": [
+      "en.ain.ua"
+    ],
+    "institution": "en.ain.ua",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:ff4d7715a9a7",
+    "slug": "gnews-ff4d7715a9a7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaHNsM0hGQ2QxbUVfR20zZ3RSTVp3a2hNUEVPNFhGVXRiRkFCdXpPTXFRdjQ5VzAySUJwS3BSa0VVYzhYdHBMeWN0aFBPYThCMmZfWW9id2NOamlXUnRCZHFvVzJLblg5NGJrTWFmdWxkVnlFNjRSZFNsQXhLVW44OWxVYjhLUQ?oc=5",
+    "publishedAt": "2026-05-25T11:00:00.000Z",
+    "titleEn": "Gov. Reeves releases Mississippi artificial intelligence guide",
+    "titleZh": null,
+    "abstractEn": "Gov. Reeves releases Mississippi artificial intelligence guide  Mississippi Today",
+    "abstractZh": null,
+    "authors": [
+      "Mississippi Today"
+    ],
+    "institution": "Mississippi Today",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-okdjkkdkuhqydaee-html",
+    "slug": "300-ai-122b",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/OKDJKKDkUhQYDaee.html",
+    "publishedAt": "2026-05-25T10:41:00.000Z",
+    "titleEn": "一台手掌大小、300克的AI主机，为什么能跑122B模型？",
+    "titleZh": "一台手掌大小、300克的AI主机，为什么能跑122B模型？",
+    "abstractEn": "把一台能运行122B大模型的AI主机塞进口袋，需要付出什么代价？\n过去大半年，端侧AI硬件的逻辑正在发生变化。\n两个月前，国内掀起一场现象级的本地部署Agent热潮，大量AI爱好者开始“养虾”，让原本偏小众的Mac mini意外出圈，一度出现溢价和缺货。在更硬核的开发者圈子里，三四万元的英伟达DGX Spark同样热度不低，因为它已经能够在本地运行千亿参数模型。\nMac mini和DGX Spark同时走红，背后其实指向的是同一个趋势：Agent正在迅速抬高端侧AI硬件的门槛。\n此前，40TOPS级别的AI PC，仅能完成对话、生成等轻量任务。但进入Agent时代后，开发者开始追求更大的模型、更长时间的本地推理，以及真正能够承担生产力任务的端侧AI设备。\n问题随之出现。Mac mini足够安静、低功耗，却很难支撑更大的本地模型；DGX Spark拥有强悍性能，但价格、功耗与散热，又很难真正",
+    "abstractZh": null,
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hrorg:mercer:b386a1b789cb",
+    "slug": "hrorg-mercer-b386a1b789cb",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSkxGelNPT2hKWWR6UldEQ1NxYW9HX25tZ2dsdW9mR3h6T3ljbkJmNk8wWWZUd1U3Q0VNZ3NVZjk3Q3FSQlZDRklYcWgxc25pRUI2SW5KQTBHTnNYWHBjeFF2S0hEZktVd3dBM3NLTXRlS0s0clJlRHFkLTFpVXpYS3RBMWRPNU56V25ocDgxM0t6SGFTQTFvNzRnN0dHemZyZV9ncWJFZkk3aUJ5MHROMG0xVVFWZC1HR3RV?oc=5",
+    "publishedAt": "2026-05-25T10:40:35.000Z",
+    "titleEn": "Mercer Marsh Benefits names Lawrence Poh as first facility and voluntary benefits leader for Asia",
+    "titleZh": null,
+    "abstractEn": "Mercer Marsh Benefits names Lawrence Poh as first facility and voluntary benefits leader for Asia  (Re)in Asia",
+    "abstractZh": null,
+    "authors": [
+      "(Re)in Asia"
+    ],
+    "institution": "(Re)in Asia",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "gnews:d1d5a2259851",
+    "slug": "gnews-d1d5a2259851",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1RzLWZ4aWJZZlhhTk44SEQ2V2dZcS01dDVBR2tRdkZ0STRNOTJCdGlSdnZ5RWJzLVZXUUVwbDJNS3pBYjYtQm9tVVNSU2dtNHBHVnUzQzNNTGVTdzZSX2FJbzYyNFhOTHM1eUJCZDRnOXJpc2lUckNLR3FDZ21HTkhkTm91dUUzQkV3UjNiU1h2dWJMQ1RRR3p1Q3E2Yjl3U1pKX1p2YlNLcVp3UFZqSlJYeU9NRGFYSUE0S2xn?oc=5",
+    "publishedAt": "2026-05-25T10:31:51.000Z",
+    "titleEn": "Mistral AI Acquires Physics Simulation Startup Emmi AI to Deepen Industrial AI Push",
+    "titleZh": null,
+    "abstractEn": "Mistral AI Acquires Physics Simulation Startup Emmi AI to Deepen Industrial AI Push  AI Insider",
+    "abstractZh": null,
+    "authors": [
+      "AI Insider"
+    ],
+    "institution": "AI Insider",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "hrorg:recruit:ab814c247c46",
+    "slug": "hrorg-recruit-ab814c247c46",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTExDUWtGT2FLNG1Cb2cxZ3VMbHRlUVIwcGw2SUQ1VGJaYW9ubFkzTkdRcm8xdjdUYTFYV1FXeHlkZHZQVVJpN2VEa2h1OHlsYW1JejFfT29uSWI3WGVLNk43MF9ENldTZF9PMkdyeWt2OFZVN0VpNUlWZFRSRjdIajM1RWN6M0hKdk11elFSRFlTVWdOY3lvUmRwMGxpSVdtdFdBTGhFMmloaW83Q3pRTW9tN2ZsSVNn?oc=5",
+    "publishedAt": "2026-05-25T10:11:23.000Z",
+    "titleEn": "India’s creator economy hiring surges 919% as brands move influencer roles in-house: Indeed",
+    "titleZh": null,
+    "abstractEn": "India’s creator economy hiring surges 919% as brands move influencer roles in-house: Indeed  MediaNews4U",
+    "abstractZh": null,
+    "authors": [
+      "MediaNews4U"
+    ],
+    "institution": "MediaNews4U",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-424794-html",
+    "slug": "joyinside-ai-aigc2026",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/424794.html",
+    "publishedAt": "2026-05-25T09:37:05.000Z",
+    "titleEn": "京东JoyInside戴文军：AI的终极形态不是聊天，是融入你家每一件物品丨AIGC2026",
+    "titleZh": "京东JoyInside戴文军：AI的终极形态不是聊天，是融入你家每一件物品丨AIGC2026",
+    "abstractEn": "硬件不该让人适应，它应该主动适应你",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
     "id": "gnews:c450ee2bff4a",
     "slug": "gnews-c450ee2bff4a",
     "source": "Google AI News",
@@ -20,7 +1023,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:8e969ca43ec8",
@@ -43,7 +1047,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-chips-gajsnsvozgcw55be-html",
@@ -64,7 +1069,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-absrtxyaoqvn84ow-html",
@@ -85,7 +1091,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-fqwf29nifp6cifkq-html",
@@ -106,7 +1113,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:73649a672655",
@@ -129,7 +1137,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
+  },
+  {
+    "id": "hrorg:recruit:0710815ed340",
+    "slug": "hrorg-recruit-0710815ed340",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNy1VTjZZYVVTODZPcWxPbmVMWGFyazlZdHVJa1UzQ2lYelFtNDFhWUhTMWdCQ1E4TnJYOGV4dnNZQXJoelE3Y2hiQ1dkVHVkbl9aRnNtZlVnMXNEUmp3TnlHdVhGQ05HN1BlQ1ZhSEZWcGxUeVhOWFdwQU1sRDNTX1FLWURkY2hUQjRCLTR0blJMWnZuRDlwTl9PU2haTGZwZVhrSElmVFA1eGF2aXVNaHpaTzgxV0xET3M5UVBNWE1uV3JWbWpvTmhuUmN0cVYzOHl3SUtsOURZQlJ1a3pzNXROZ2twRjZOWkxqUEhQSTJmd9IB9wFBVV95cUxPWG5VTnhSQ2Q1R3R4NnczSnl5Zm5sTzRIcjdLRHBPTVBISkc1YjdGaXlHZ3VaaXQwMmY2ZlBralR3NGRtOFdaLTVPOW9KSHpvbWRWMnNFTXA5TWNZdnV0V24xeUlva0dLWlN1T29rTG1Lb3dEODN3R0V0ZGZ2NUtNeVdmMXkwRUd0ZkdpMk1IT0ZzNERkWTh0V0dlM1pINVc2NkF4X1FZdW1yM1pMbWI5RFc5dUI3VVRIOWR3Z2xqNlRjaWQyckdxUFRrVjBpYTBiaDBBcDFlYUFSdFRMTDN5U1VqcDVSZW1nemRiZ3JDRUIzYWgzYXpr?oc=5",
+    "publishedAt": "2026-05-25T07:17:10.000Z",
+    "titleEn": "Creator economy shifts from side hustle to structured hiring as India sees 919% surge in creator roles: Indeed",
+    "titleZh": null,
+    "abstractEn": "Creator economy shifts from side hustle to structured hiring as India sees 919% surge in creator roles: Indeed  Storyboard18",
+    "abstractZh": null,
+    "authors": [
+      "Storyboard18"
+    ],
+    "institution": "Storyboard18",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
   },
   {
     "id": "gnews:c11d648490bf",
@@ -152,7 +1184,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:e4116705a82b",
@@ -175,7 +1208,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-424584-html",
@@ -196,7 +1230,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:ddde1704569d",
@@ -219,7 +1254,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-corporateservices-hztu4i7d1wndwkwt-html",
@@ -240,7 +1276,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-424552-html",
@@ -261,7 +1298,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-424551-html",
@@ -282,7 +1320,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:dead7c5f2b1d",
@@ -305,7 +1344,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-424277-html",
@@ -326,7 +1366,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrycloud-zstudo2709easfl6-html",
@@ -347,7 +1388,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-y43acopmgwttouzg-html",
@@ -368,7 +1410,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:5ab236c905b9",
@@ -391,7 +1434,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-423455-html",
@@ -412,7 +1456,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:cf996323d9d0",
@@ -435,7 +1480,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:052454d5775c",
@@ -458,7 +1504,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-423441-html",
@@ -479,7 +1526,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-zaobao-ri3fi7vjq0fmv1xa-html",
@@ -500,7 +1548,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:67c19e8509f7",
@@ -523,7 +1572,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48261753",
@@ -545,7 +1595,8 @@
     "score": 21,
     "commentCount": 11,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:5209e7f5d474",
@@ -568,7 +1619,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:824471518c81",
@@ -591,7 +1643,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:28218745d63e",
@@ -614,7 +1667,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48258684",
@@ -636,7 +1690,8 @@
     "score": 386,
     "commentCount": 395,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48257980",
@@ -658,7 +1713,8 @@
     "score": 163,
     "commentCount": 150,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:274b64b1aa9e",
@@ -681,7 +1737,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:a81f23ce094b",
@@ -704,7 +1761,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48256953",
@@ -726,7 +1784,8 @@
     "score": 559,
     "commentCount": 233,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48256912",
@@ -748,7 +1807,8 @@
     "score": 238,
     "commentCount": 135,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:abbb297aab45",
@@ -771,7 +1831,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:367a3896334b",
@@ -794,7 +1855,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-423421-html",
@@ -815,7 +1877,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:41b1daa9391a",
@@ -838,7 +1901,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:ce34bd8ec963",
@@ -861,7 +1925,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "hn:48254993",
@@ -3359,6 +4424,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:recruit:996a95ca8895",
+    "slug": "hrorg-recruit-996a95ca8895",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02ZGhUZEFuU19oM2ZwdURJQnp4QThGem5UcmRTamtnWWRZa0V4dTRoV0FoMm9WZks1YWpQenBiclgzRS1kVHRqaHJlai1iNnIwRkhPRVNyWG1vVm8xdGdBSHluc0tlZkEzMmJucWhB?oc=5",
+    "publishedAt": "2026-05-21T12:56:53.000Z",
+    "titleEn": "Software Engineer Layoff Statistics 2026: Companies, Roles, AI Impact",
+    "titleZh": null,
+    "abstractEn": "Software Engineer Layoff Statistics 2026: Companies, Roles, AI Impact  SQ Magazine",
+    "abstractZh": null,
+    "authors": [
+      "SQ Magazine"
+    ],
+    "institution": "SQ Magazine",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
     "id": "hn:48221805",
     "slug": "hn-48221805-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd",
     "source": "Hacker News",
@@ -5191,6 +6279,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:recruit:db09f531c0af",
+    "slug": "hrorg-recruit-db09f531c0af",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNODU3cWM2X2w1VHlyNzF3Nmo1VDJwd3FaOUdJMTh2ZndRVjFKc01KeTNGMWhSdGE0N1AwbHVDcUFVNVBxeDRWTmNIS3B2bjEyRVhTa0U4Q2dZanJrU0FQNjlvVHVyYTN3S01rYkp1TUdMZWRjNlBnbU8wOHdZbFVTck1lQzJFTTBTSmx1dG5pdEtiNF85MFd4LVhiNzU3ZVc3RExzbw?oc=5",
+    "publishedAt": "2026-05-20T14:35:00.000Z",
+    "titleEn": "Accenture exec says the consulting giant is hiring more entry-level workers out of college compared to last year",
+    "titleZh": null,
+    "abstractEn": "Accenture exec says the consulting giant is hiring more entry-level workers out of college compared to last year  Fortune",
+    "abstractZh": null,
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
+  },
+  {
     "id": "hrorg:recruit:b11783fa0ba5",
     "slug": "hrorg-recruit-b11783fa0ba5",
     "source": "Recruit Holdings",
@@ -5649,7 +6760,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-25T09:43:27.994Z"
+    "fetchedAt": "2026-05-25T09:43:27.994Z",
+    "featured": false
   },
   {
     "id": "gnews:39718b245af8",
@@ -15901,6 +17013,30 @@
     ],
     "fetchedAt": "2026-05-09T00:14:39.820Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:korn-ferry:38181e7eb799",
+    "slug": "hrorg-korn-ferry-38181e7eb799",
+    "source": "Korn Ferry",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkRQV3VIOENidUo4YmwtZmtpQVROZjMzWWdZQ2g5SXhmbHF3MEtIZ3pFWF9oSUIxaDY4Z203X18xZmRGSDMtbDVEYTNXOXNqWkJMNk83NElrNU02QWRZZ1lhOU1XdTVYU3lkVGZJNkpxbEh6MzJtSjE3T0xVWlNHbmh2d196RmgwY25DcEs1YjliWGFOdTk3WTRsS21yRHBJcDlHNzY4bmtOMlhDYVcwaDlR?oc=5",
+    "publishedAt": "2026-05-08T07:00:00.000Z",
+    "titleEn": "How Korn Ferry (KFY) adapts when conditions change (Eye on Rally) 2026-05-08 - Social Signal Watchlist",
+    "titleZh": null,
+    "abstractEn": "How Korn Ferry (KFY) adapts when conditions change (Eye on Rally) 2026-05-08 - Social Signal Watchlist  Newser",
+    "abstractZh": null,
+    "authors": [
+      "Newser"
+    ],
+    "institution": "Newser",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-26T09:02:23.237Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-414213-html",
