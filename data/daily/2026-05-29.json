@@ -1,0 +1,1339 @@
+{
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-29T09:01:47.704Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "gnews:081c51e63d90",
+      "slug": "gnews-081c51e63d90",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVnRvQWhfeS1jT25fdmxoWWlyVkxUN0NXekgzbGhMYzc1TDh2OGJidlYtbnV6VDQzdWZ0aWY1d2E0clZOMGZNQk1SOGE2cjlCbkdtTHBaTTF2eHFHYVo3eFp4Z2F5eklXdUF2SjFlN09tWnBlaGE3U2VTay1RZUhUOEFNbjJLLWxybmVTbXdXUEVKVkdLVzh4TmNtOXR4TGpFOHFqbmh0alBuNlE?oc=5",
+      "publishedAt": "2026-05-29T07:54:22.000Z",
+      "titleEn": "Some Japanese Banks to Get Access to Latest OpenAI Model",
+      "titleZh": null,
+      "abstractEn": "Some Japanese Banks to Get Access to Latest OpenAI Model  Bloomberg.com",
+      "abstractZh": null,
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48319968",
+      "slug": "hn-48319968-undisclosed-addition-in-jqwik-instructed-ai-coding-agents-to-delete",
+      "source": "Hacker News",
+      "sourceUrl": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48319968",
+      "publishedAt": "2026-05-29T07:05:31.000Z",
+      "titleEn": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "joozio"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 32,
+      "commentCount": 32,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426366-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426366.html",
+      "publishedAt": "2026-05-29T07:02:05.000Z",
+      "titleEn": "刚刚，全球⾸个“事件级预测”具身智能世界模型来了！",
+      "titleZh": "刚刚，全球⾸个“事件级预测”具身智能世界模型来了！",
+      "abstractEn": "从按帧学动作，到按「事件」理解世界",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-wtrmxqfqntjlnzej-html",
+      "slug": "icra-2026-tactip",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/WtrmxQfqNtJlnzeJ.html",
+      "publishedAt": "2026-05-29T06:37:00.000Z",
+      "titleEn": "ICRA 2026｜山西大学本科生一作：TacTip动态触觉流实现力估计与力跟踪",
+      "titleZh": "ICRA 2026｜山西大学本科生一作：TacTip动态触觉流实现力估计与力跟踪",
+      "abstractEn": "原文作者：公众号“CCF太原分部“\n原文链接：https://mp.weixin.qq.com/s/qWB_shGkHy23EgRFrxr1Jw\n \n近日，论文录用结果正式发布，山西大学大数据科学与产业研究院、演化科学智能山西省重点实验室、人工智能学院陈路团队在触觉力估计方向的成果“TacTip-based Dynamic Contact Force Estimation with Sequential Tactile Images and Its Applications to Robotic Force Tracking”被大会接收。该论文第一作者为山西大学计算机与信息技术学院2023级本科生谢宛桐，通讯作者为山西大学大数据科学与产业研究院副教授陈路，合作者为鹿振宇（华南理工大学）、刘京阳（山西大学）、杨佳龙（华南理工大学）和杨辰光（University of Liverpool，利物",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-lckjn2czwe3xneho-html",
+      "slug": "anthropic-4-arr-4-18",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/LckJN2CzwE3xNEHO.html",
+      "publishedAt": "2026-05-29T06:34:00.000Z",
+      "titleEn": "硅谷大佬发出Anthropic垄断预警：4个月ARR翻了4倍，18个月后或将营收破万亿独霸全球",
+      "titleZh": "硅谷大佬发出Anthropic垄断预警：4个月ARR翻了4倍，18个月后或将营收破万亿独霸全球",
+      "abstractEn": "“如果Anthropic当前的增长速度再维持18个月，它将成为人类历史上最大的垄断。”\n在硅谷最有影响力的无滤镜大佬圆桌播客《All-In Podcast》最新一期中，主持人 David Sacks 语惊四座。\n这一炸裂言论的前情提要是，Anthropic从SpaceX拿到了超过22万块Nvidia GPU和300兆瓦能源，效果立竿见影：Claude的速率限制翻倍、付费用户用量上限取消、Opus模型的API容量大幅提升。\n从这笔交易出发，PayPal “黑帮” 成员David Sacks、顶级风投家Chamath Palihapitiya、硅谷顶级科技投资人Brad Gerstner、Uber 早期投资人Jason Calacanis，四位大佬用82分钟共同讨论了一个远比想象中更尖锐的问题：\n当一家公司的ARR在四个月内从100亿飙到440亿——Anthropic是在创造价值，还是在制造人",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-euozg2zhn1xujvbs-html",
+      "slug": "icra-2026-kilometer-scale-gnss-denied-uav-navigation",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/euozG2zhN1XUjvbs.html",
+      "publishedAt": "2026-05-29T06:28:00.000Z",
+      "titleEn": "ICRA 2026| 论文评述Kilometer-Scale GNSS-Denied UAV Navigation",
+      "titleZh": null,
+      "abstractEn": "原文作者：Michal Werner, David Čapek 等4名\n原文链接：https://www.themoonlight.io\n雷峰网注：该系统由捷克理工大学（CTU in Prague）著名的多机器人系统小组（MRS）开发。它是针对德国 SPRIN-D Funke 挑战赛（完全自主飞行挑战赛） 专门研发的夺冠方案。比赛要求无人机在没有 GNSS 信号、没有预先构建的稠密地图的情况下，在 25 米以下（AGL）的低空自主飞行 9 公里进行航点导航。\n\n\n\n本文介绍了一个为SPRIN-D Funke全自主飞行挑战赛开发的机载无人机（UAV）系统，该系统旨在解决GNSS拒绝环境下长距离导航的难题。在挑战赛中，无人机需要在无GNSS或预先密集建图的情况下，完成9公里长的低空（低于25米AGL）航点导航。该系统通过将LiDAR生成的局部Heightmap与先验地理数据Heightmap进",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-qttjm4648kvytdim-html",
+      "slug": "minimax-arr-60",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/qTTJm4648kVYtdIM.html",
+      "publishedAt": "2026-05-29T06:24:00.000Z",
+      "titleEn": "MiniMax 全球企业开发者客户破百万  ARR 收入60 天再翻番",
+      "titleZh": "MiniMax 全球企业开发者客户破百万  ARR 收入60 天再翻番",
+      "abstractEn": "5 月 28 日，MiniMax 披露最新业务数据：截至目前，公司服务的全球企业和开发者客户数已超百万，较半年前增长 5 倍；全球用户规模约 3 亿。过去两个月，公司年化经常性收入（ARR）实现超过100%的增长，B 端商业化引擎进入垂直加速阶段。\n\n\n据此前 3 月业绩会公开信息，公司 2026 年 2 月 ARR 已超 1.5 亿美元；同期 M2 系列模型日均 token 消耗量两个月内增长 6 倍，开放平台新注册用户增长 4 倍以上。这次数据披露意味着 MiniMax ARR 翻番周期已压缩至 60 天，速度对标全球 AI 公司同期最快档。\n\n\n\n雷峰网",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-szmynoi4nxp8wlmm-html",
+      "slug": "3d",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/sZmyNOI4nXp8wlmM.html",
+      "publishedAt": "2026-05-29T06:22:00.000Z",
+      "titleEn": "标题：京东、天猫加注3D打印消费市场，创想三维迎来规模化拓展",
+      "titleZh": "标题：京东、天猫加注3D打印消费市场，创想三维迎来规模化拓展",
+      "abstractEn": "5月29日，全球消费级3D打印生态领创者创想三维正式在港交所主板挂牌上市，成为“消费级3D打印第一股”。雷峰网获悉，就在这一关键节点，创想三维与京东、天猫两大国民级电商平台围绕消费级3D打印全产业链，分别签署了深度战略合作协议，迎来国内渠道布局的重大进展。各方将依托各自在AI技术、智造硬件、供应链网络及数字化运营领域的资源，共同推动3D打印设备及创意生态产品在多元场景的普及。\n\n当前，3D打印正在从“小众圈子”加速迈入“大众消费”。据国家统计局及海关总署相关数据，2026年一季度，我国3D打印设备产量同比增长54%，出口同比增长高达119%。灼识咨询则预测，全球消费级3D打印市场规模将在2030年达到272亿美元。\n一个产业的规模化普及，技术是底座，渠道与服务效率则是催化剂。\n创想三维长期深耕3D打印领域，凭借成熟的自主研发与规模化量产能力，已建立起全面的产品生态与稳固的用户群体。京东与天",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-9ygalbwuoirr5gio-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/9YGAlBwUOIrr5gIO.html",
+      "publishedAt": "2026-05-29T06:19:00.000Z",
+      "titleEn": "大湾区车展观察｜是“包馆”也是“包围”，鸿蒙智行大扩张",
+      "titleZh": "大湾区车展观察｜是“包馆”也是“包围”，鸿蒙智行大扩张",
+      "abstractEn": "在今年的粤港澳大湾区车展上，鸿蒙智行成为最具存在感的品牌之一。\n它直接包下了整个 2 号馆，粗略看去，整个展区里摆放着 50 余辆展车，覆盖问界、智界、享界、尊界以及尚界五大品牌。\n从入门级到超豪华，从轿跑、猎装、SUV 到 MPV，这个曾经被视为汽车行业“外来者”的生态圈，如今已完成了对所有主流品类的全谱系覆盖。\n在过去的国内大型车展中，通常只有具备深厚产能基础和庞大产品线的传统大型车企，如比亚迪或奇瑞，才会采取“包馆”的展出形式。\n然而在今天的大湾区，在自己的主场，鸿蒙智行已经不再只是一个单纯的合作联盟，它更像是一个完整的汽车生态系统，一个由技术、产品、品牌和智能化能力共同构建起来的新型汽车集团。\n\n 往下扩向年轻，往上求取奢华\n在熙熙攘攘的展台另一侧，鸿蒙智行专门为问界 M6、尚界 Z7 以及智界 V9 这三款重点新车，单独搭建了一个相对独立的互动空间。\n相比主展区偏商务、偏旗舰化的",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-vl3nbddl8fso91ph-html",
+      "slug": "icra-2026-gento",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/Vl3NbdDl8fso91PH.html",
+      "publishedAt": "2026-05-29T06:05:00.000Z",
+      "titleEn": "天机智能成为ICRA 2026铂金合作伙伴，新一代Gento人形机器人即将亮相维也纳",
+      "titleZh": "天机智能成为ICRA 2026铂金合作伙伴，新一代Gento人形机器人即将亮相维也纳",
+      "abstractEn": "原文作者：公众号“天机机器人”\n原文链接：https://mp.weixin.qq.com/s/_Zzq1LXQXuYsYAkIJ-XcMg\n\n\n作为IEEE机器人与自动化学会的旗舰会议，ICRA（国际机器人与自动化大会）已被公认为全球机器人领域规模最大、影响力最强的学术会议之一，是前沿技术突破与产业落地的核心风向标。\n2026年，ICRA将时隔多年再次回到音乐之都维也纳。天机智能正式宣布成为ICRA 2026铂金合作伙伴（Platinum Partner），并将携新一代Gento系列人形机器人平台及完整的具身智能开发工具链亮相167号展位，向全球研究者与产业界展示下一代人机协作的无限可能。\n三款力控机器人平台同台亮相\n在ICRA 2026现场，天机智能将展出三款定位各异的力控机器人平台，覆盖从实验室研究到工业现场的全场景需求。\nGento Luna —— 轮式折叠机器人\nLuna采用独特",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-plryfn2tfht0vbhm-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/pLryfn2TFHT0vBHm.html",
+      "publishedAt": "2026-05-29T05:55:00.000Z",
+      "titleEn": "展会预告｜星际光年邀您相约奥地利 ICRA 2026",
+      "titleZh": "展会预告｜星际光年邀您相约奥地利 ICRA 2026",
+      "abstractEn": "原文作者：公众号“星际光年机器人“\n原文链接：https://mp.weixin.qq.com/s/XCF7xisZMgNJs2bqoKItbw \n\n\n作为全球机器人领域最具影响力的顶级会议之一，IEEE国际机器人与自动化大会（ICRA 2026）将于2026年6月1日至5日在奥地利维也纳会议中心举行。大会将汇聚来自全球机器人领域的顶尖学者与产业领袖，分享行业洞察，展示前沿成果，推动机器人技术持续突破与落地应用。\n深圳星际光年科技有限公司将携全球第一款模块化高自由度灵巧手 GAIA Hand 20 及全栈自研星际微型关节模组亮相 S005 号展位。\n\n\nGAIA Hand 20：六大维度重构灵巧手硬件架构\n世界上第一个模块化的高自由度灵巧手 GAIA Hand 20 ，基于星际光年全栈自研的微型关节模组，以“结构标准、接口开放、极易维护”的产品特性，帮助开发者跨越硬件门槛，把最宝贵的精力还",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ywduonjcwnctg3qc-html",
+      "slug": "icra2026-real-i",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/YWDuONJCWNctG3QC.html",
+      "publishedAt": "2026-05-29T05:50:00.000Z",
+      "titleEn": "ICRA2026顶会赛事 | REAL-I具身智能挑战赛现场赛来袭！全球顶尖高校团队同台竞技",
+      "titleZh": "ICRA2026顶会赛事 | REAL-I具身智能挑战赛现场赛来袭！全球顶尖高校团队同台竞技",
+      "abstractEn": "雷峰网\n原文作者：公众号“乐聚机器人”\n原文链接：https://mp.weixin.qq.com/s/CuKJpRyhFz7ep2EnzfY2-A",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ljizwrpqtkqdboif-html",
+      "slug": "mini-pi-plus-icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/lJiZwrpqtKqDboIf.html",
+      "publishedAt": "2026-05-29T05:41:00.000Z",
+      "titleEn": "高擎Mini Pi plus开源人形机器人平台 ICRA 2026全球首发，有哪些看点？",
+      "titleZh": "高擎Mini Pi plus开源人形机器人平台 ICRA 2026全球首发，有哪些看点？",
+      "abstractEn": "原文作者：公众号“机器人大讲堂”\n原文链接：https://mp.weixin.qq.com/s/xqs7KMoQQcCnszrSq4N7vg \n\n\n在机器人科研与教育领域，“买得起、用得上、能持续开发”的人形平台长期缺席。\n机器人大讲堂近日获悉，ICRA 2026上，高擎动力即将带来的Mini Pi plus，试图用15kg的轻量化机身、完整的开源生态和从仿真到真机的全栈工具链，填上这个空白。\n \n \n01.\n人形科研平台的不可能三角\n \n过去两年，人形机器人走向产业化前夜，但科研端的真实体验却并不乐观。对高校实验室、研究机构和机器人竞赛团队而言，选购人形开发平台，往往依然陷入“不可能三角”：高性能、低成本、易用且安全，三者鲜少兼得。\n \n放眼市面上的主流产品，要么是高度近一米、自重接近30公斤的重型平台，搬运需要两人，跌倒一次维修成本高昂，共享实验室的安全审批更是难题；要么是玩具级的轻",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-wubsoohbmmzhd2hy-html",
+      "slug": "ai-claw",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/wuBSoohBMMZHd2HY.html",
+      "publishedAt": "2026-05-29T05:35:00.000Z",
+      "titleEn": "一条指令管好百家门店！美团发布首个即时零售商家专属AI解决方案“牵牛花Claw”",
+      "titleZh": "一条指令管好百家门店！美团发布首个即时零售商家专属AI解决方案“牵牛花Claw”",
+      "abstractEn": "如何借力AI实现降本提效，正成为中国实体零售业的重要课题。对于线上线下融合经营的即时零售商家来说，利用AI能力高效、精细地管好几十上百家门店和难以计数的商品，需求尤为迫切。\n面对即时零售商家AI提效的切实需求，5月27日，美团发布行业首个AI全域解决方案“牵牛花Claw”，瞄准商家“多门店管理成本高”“精细化运营难”“经营策略水平低”三方面痛点，提供“AI服务+AI系统”的一揽子解决方案，向全行业即时零售商家、品牌、产业链上下游各个参与方提供服务。\n \n▲美团发布首个即时零售商家经营专属AI解决方案“牵牛花Claw”。（摄影：小飞）\n“不同于传统电商追求‘流量为王’，即时零售是一门线上线下交织、供需匹配复杂的本地生意，利用AI提效的潜力巨大。”在发布会上，中国连锁经营协会副会长兼秘书长王洪涛表示，即时零售汇集了众多数智化水平相对较低的本地实体商家，期待行业首个AI解决方案“牵牛花Claw”",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48318960",
+      "slug": "hn-48318960-step-3-7-flash-open-source-multimodal-model-for-speed-and-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://static.stepfun.com/blog/step-3.7-flash/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48318960",
+      "publishedAt": "2026-05-29T04:15:58.000Z",
+      "titleEn": "Step 3.7 Flash – Open-source multimodal model for speed and agents",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "meetpateltech"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-pjdyrcl4izszbhrc-html",
+      "slug": "icra-2026-c",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/PjDYrCL4iZsZBhRc.html",
+      "publishedAt": "2026-05-29T03:52:00.000Z",
+      "titleEn": "雷峰网现场直击：ICRA 2026下周在维也纳开幕，中国力量站上C位",
+      "titleZh": "雷峰网现场直击：ICRA 2026下周在维也纳开幕，中国力量站上C位",
+      "abstractEn": "ICRA 2026，雷峰网在。\n\n\n\n\n\n    作者丨雷峰网\n\n                                                                                                       \n\n\n4947篇投稿、86个国家参与、1882篇论文将被接收——这是ICRA历史上最炸裂的一年。而更让人兴奋的是，中国研究者在这场全球机器人顶级盛会上，已经不只是参与者，更是规则的定义者。\n6月1日，全球机器人领域最重磅的大会——IEEE国际机器人与自动化会议（ICRA 2026）将在奥地利维也纳正式开幕。\n你可能没去过维也纳。但你一定听过金色大厅、莫扎特和多瑙河。而今年，这座古典音乐之都将奏响一曲全新的协奏曲：机器人。\n本次大会的主题是”Robots for All”——机器人惠及所有人。听起来像是口号，但你翻完今年被接",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-4ty0l1k7hqsildzp-html",
+      "slug": "80-3d",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/4TY0L1k7HQsilDZp.html",
+      "publishedAt": "2026-05-29T03:41:00.000Z",
+      "titleEn": "开盘一度涨超80%，消费级3D打印第一股诞生！创想三维正式登陆港交所",
+      "titleZh": "开盘一度涨超80%，消费级3D打印第一股诞生！创想三维正式登陆港交所",
+      "abstractEn": "雷峰网获悉，5月29日，深圳市创想三维科技股份有限公司（以下简称“创想三维”）正式在香港联合交易所主板挂牌上市，股份代号：03388.HK，发售价为每股18.80港元，成为港股消费级3D打印第一股。\n\n上市仪式现场，创想三维联合创始人兼董事长陈春发表致辞：“12年前，我们在研发第一台机器时，初衷很简单：让普通人，也用得上3D打印。作为3D打印产业布道者，我们依托全球2400多家经销商，将产品覆盖至全球140多个国家和地区，让数百万创客通过我们的平台，把想象变成现实。”\n根据灼识咨询的报告，创想三维是业内首个将专有AI技术全面融入3D创意过程中，包括建模、打印及激光雕刻等各阶段的公司。在硬件端，公司已将AI动态流量校准、AI赋能的高精度自动化平台调平、AI激光雕刻等技术深度集成至产品中。在软件端，创想云引入大型语言模型（LLM）实现语义化模型检索，并以多模态AI技术提供内容审核与智能推荐；公",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-twuhsvc33zhmc7ou-html",
+      "slug": "icra-2026-nvidia-research",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/twUHsVC33zhmC7ou.html",
+      "publishedAt": "2026-05-29T03:23:00.000Z",
+      "titleEn": "ICRA 2026｜NVIDIA Research将机器人技术从模拟发展到现实世界",
+      "titleZh": "ICRA 2026｜NVIDIA Research将机器人技术从模拟发展到现实世界",
+      "abstractEn": "原文链接：icra-research-robotics-simulation-to-real-world\n原文作者：Katie Washabaugh\n\n\n在国际机器人和自动化会议上，八篇新的英伟达研究论文展示了经过模拟训练的机器人是如何进入现实世界的。\n \n机器人技术正在进入一个新阶段：从受控演示和脚本自动化转向现实世界中可推广、可靠的体现自主。\n \n在国际机器人和自动化会议（ICRA）上，NVIDIA Research的28篇被接受的论文中有8篇展示了模拟到现实的传输如何成为这种转变的基础，帮助机器人在动态、不可预测的环境中感知、推理、计划和行动。\n \n这些论文共同涵盖了机器人开发人员面临的挑战：并行协调多个手臂，构建跨机器人身体通用的政策，在杂乱中抓住新事物，执行精确的组装，以及开发在移动前推理的视觉-语言-动作模型。\n \n通道很清楚：sim-to-real正在成為機器人的基礎，這些機",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426353-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426353.html",
+      "publishedAt": "2026-05-29T02:47:09.000Z",
+      "titleEn": "清华系团队给大模型织了一张“智能算力电网”",
+      "titleZh": "清华系团队给大模型织了一张“智能算力电网”",
+      "abstractEn": "单位Token成本降低40%",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-d26evkne9ehtdboa-html",
+      "slug": "cvpr-paris-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/d26evKnE9ehTDbOA.html",
+      "publishedAt": "2026-05-29T02:47:00.000Z",
+      "titleEn": "去不了丹佛？我们在巴黎办了一个！CVPR@Paris 2026 揭示学术顶会的「去中心化」新趋势",
+      "titleZh": "去不了丹佛？我们在巴黎办了一个！CVPR@Paris 2026 揭示学术顶会的「去中心化」新趋势",
+      "abstractEn": "如果你最近在关注 CVPR 2026 的动态，你的时间线里可能不仅有“美国丹佛”，还会突兀地刷到一个带有浓郁法式浪漫气息的网址：CVPR@Paris 2026。（https://cvprinparis.github.io/CVPR2026InParis/）\n起初，不少人以为这是一个“山寨”会议或是某家公司的公关噱头。但点开讲者名单（Speaker List）一看，全网都沉默了——\n被誉为计算机视觉界泰斗、VGG网络提出者 Andrew Zisserman 赫然在列；近年来在多模态与视觉大模型领域频出爆款的香港大学李弘扬（Hongyang Li） 等顶尖华人学者也将登台分享。\n这绝对不是野鸡会议。相反，这或许代表着未来国际顶级学术会议演变的最终形态：官方主会场 + 全球卫星分布式枢纽（Satellite Hubs）。\n\n\n\n\n01\n什么是 CVPR@Paris 2026？\n\n\n\n\n简而言之，",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-wfozfhhqfcjebkqb-html",
+      "slug": "icra-2026-3-mapf-mini-pi-waabi",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/WfOZfHHQfCjEbkqB.html",
+      "publishedAt": "2026-05-29T02:46:00.000Z",
+      "titleEn": "ICRA 2026开幕倒计时3天，MAPF双突破、Mini Pi首发、Waabi四论文即将公布",
+      "titleZh": "ICRA 2026开幕倒计时3天，MAPF双突破、Mini Pi首发、Waabi四论文即将公布",
+      "abstractEn": "热门议题一：多智能体路径规划迎来新突破\n在仓储物流、自动化工厂乃至灾难救援场景中，如何让数百个机器人在同一空间内高效协同移动，一直是机器人学的「终极难题」之一。本期两篇论文从截然不同的角度向这一难题发起冲击——一篇借助扩散模型实现高质量轨迹规划，另一篇则在极高密度场景下刷新了多智能体协同的工程边界。\n论文一：Sum of Costs Diffusion with Dynamic Guidance for Motion Planning\n【摘要】该论文提出了一种基于扩散模型的多智能体运动规划新方法。通过将「总代价和（Sum of Costs）」优化目标与动态引导机制相结合，在保证全局最优性的同时显著提升了多机器人轨迹规划的质量与效率，尤其在高密度、强耦合场景下展现出优越性能，为大规模多智能体协同提供了全新技术路径。\n【链接】https://x.com/OWW/status/205978466",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48318174",
+      "slug": "hn-48318174-claude-code-everything-you-can-configure-that-the-docs-dont-tell-you",
+      "source": "Hacker News",
+      "sourceUrl": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "commentUrl": "https://news.ycombinator.com/item?id=48318174",
+      "publishedAt": "2026-05-29T02:13:20.000Z",
+      "titleEn": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ankitg12"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 69,
+      "commentCount": 14,
+      "tags": []
+    },
+    {
+      "id": "gnews:9d07e71bcbed",
+      "slug": "gnews-9d07e71bcbed",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQalBnRmE2b2VsaF9qUEw4QmFpdzJQTzYyUERVLWUyVWxVWVp1MjJ2VS1sMFhyeDBZWDZKYS0xQk9iWGZXenFvTklTRG8zcU85Mi13NnBhQTVGdWxHR3E5dzNRZndUN1B0Q1J3VW1wNVBIeDViWHRMc2V3dFNnU2ptV2F3R2lNNnRWUE9PeEI1RGdvVG1SalVmdl9rWDB6Y09xNVE?oc=5",
+      "publishedAt": "2026-05-29T01:13:36.000Z",
+      "titleEn": "Illinois Governor Vows to Sign AI Safety Bill",
+      "titleZh": null,
+      "abstractEn": "Illinois Governor Vows to Sign AI Safety Bill  PYMNTS.com",
+      "abstractZh": null,
+      "authors": [
+        "PYMNTS.com"
+      ],
+      "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48317563",
+      "slug": "hn-48317563-microsoft-data-suggests-using-ai-is-more-expensive-than-hiring-peopl",
+      "source": "Hacker News",
+      "sourceUrl": "https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48317563",
+      "publishedAt": "2026-05-29T00:49:05.000Z",
+      "titleEn": "Microsoft data suggests using AI is more expensive than hiring people",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "voxadam"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 54,
+      "commentCount": 6,
+      "tags": []
+    },
+    {
+      "id": "gnews:82fcb586c81c",
+      "slug": "gnews-82fcb586c81c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWk0YzJFUDNkVlA5em5KOHU1NEFFdXRLWlhaYW5YX1Vrc0pyVnpqUGE4Q0YxbUlrX201ODJCVE1tNEJqQ3ZtUG5ZWS0xZ0U3LTdFdW56Q2hjWkhIaGs4ZVVrNnFUN1U2bnhHcjdvMFZseWF6YWNjSEY3WGM0S0tXX09BaUZXLWVlNV9KSlZGQVJ4ckhocmpKc08tX0syMV9tSHpZRnpR?oc=5",
+      "publishedAt": "2026-05-29T00:18:25.000Z",
+      "titleEn": "Vietnam faces a breakthrough opportunity thanks to artificial intelligence",
+      "titleZh": null,
+      "abstractEn": "Vietnam faces a breakthrough opportunity thanks to artificial intelligence  Laodong.vn",
+      "abstractZh": null,
+      "authors": [
+        "Laodong.vn"
+      ],
+      "institution": "Laodong.vn",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48317294",
+      "slug": "hn-48317294-the-mysterious-hy3-llm-is-topping-openrouter-model-rankings-by-a-lar",
+      "source": "Hacker News",
+      "sourceUrl": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48317294",
+      "publishedAt": "2026-05-29T00:09:35.000Z",
+      "titleEn": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "freediver"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 74,
+      "commentCount": 48,
+      "tags": []
+    },
+    {
+      "id": "gnews:162614a55996",
+      "slug": "gnews-162614a55996",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFhTWDVnYVNZaGxPdVhSdWlBbmNJeUphek5yakVYcjVUVlpEM2VONk9FLVNuMFpoSTFYcGp6QVBaeEdNRDVTQVIwMm1GeGoybERub2Yta1lGT1Mzdjl0dzVmWTA5dFFMRUxGaVZ1QlJ1WW05WlJNVUpMNlZVaC1rN19GcmVxTmhtTk93N2tlMFpwajhGcjFWczVEWDRSa00?oc=5",
+      "publishedAt": "2026-05-29T00:07:55.000Z",
+      "titleEn": "Africa's Startup Funding Shifts Amidst AI Boom",
+      "titleZh": null,
+      "abstractEn": "Africa's Startup Funding Shifts Amidst AI Boom  StartupHub.ai",
+      "abstractZh": null,
+      "authors": [
+        "StartupHub.ai"
+      ],
+      "institution": "StartupHub.ai",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426314-html",
+      "slug": "claude-4-8-mythos",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426314.html",
+      "publishedAt": "2026-05-28T23:57:47.000Z",
+      "titleEn": "Claude 4.8炸场！部分能力超过Mythos，支持数百子智能体并行",
+      "titleZh": "Claude 4.8炸场！部分能力超过Mythos，支持数百子智能体并行",
+      "abstractEn": "可以长时间执行任务，人类不用经常回来检查它的工作",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:96f59292ba6f",
+      "slug": "gnews-96f59292ba6f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0NtbFAxSVdNNTY2RUo5R0ZQYnhfT2ZOcGFGbWFLQ1ZhMVFqQ194RE9nYkowa1p0TmNrOUlJYU90YnBPVkxYLWw3ZENQaU1IZzVqVEpsSS1YckZKb0oxLU1CcHF0ZUNPbzB2N0FfZ2RiQ0VIaTdrX1AzbVIzUHU2U2FZYVk4R3hMekFxd29IX1RHWDJEVU1xOHM1T3U3OUFibTNRR21qbmloS0t4TEk5Q1NqTQ?oc=5",
+      "publishedAt": "2026-05-28T22:04:39.000Z",
+      "titleEn": "Meet the Silicon Valley priest advising tech companies on artificial intelligence ethics",
+      "titleZh": null,
+      "abstractEn": "Meet the Silicon Valley priest advising tech companies on artificial intelligence ethics  OSV News",
+      "abstractZh": null,
+      "authors": [
+        "OSV News"
+      ],
+      "institution": "OSV News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:82d995d748ce",
+      "slug": "gnews-82d995d748ce",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXBXaDBEQnVZQ1BNRFFlaF9jYS03OE9Sa3ZNWTRjZS1sNHJaLVA4cklETl9pZG00LUpkUXBCNTllOTZtMXBoSjJiMzB2cU1tUTdHeElRSVUzWEIwWEF6cXBUQnpnYTBINHE1UzN2WFVNMDdESVd4akMxM1ZXUEVsNk1nRXNCSG83NjNlc3g0NHJuMjU0U2RHM1hLa3lMVFlfc1BQQktwamVjOF9LdlMyNNIBtgFBVV95cUxQcEZEMThONGV0UTJ4dTI4LXpWWjQ1U2R5bkpjbGlkeGZtb0xIMFJYWFk0SUhEY3F1Sm5zOGd0TGg1aXZVcmlfY1BZaG11NlJBMzZ5dGFfcUJTcmhIeXNmbXlIbTdpMlJuM09zZzlpN2ZweHJ4MF9wRmlxWTh4NUtLai1UcURVYU9UVTRaX05jX3M3eU5nZW5zMFQ0dWFSM3JLdG1oTUVlWDBoME90LWw1Zl96LUZjZw?oc=5",
+      "publishedAt": "2026-05-28T22:00:06.000Z",
+      "titleEn": "Fox News Poll: Voters see AI regulation as urgent, rank safeguards ahead of innovation",
+      "titleZh": null,
+      "abstractEn": "Fox News Poll: Voters see AI regulation as urgent, rank safeguards ahead of innovation  Fox News",
+      "abstractZh": null,
+      "authors": [
+        "Fox News"
+      ],
+      "institution": "Fox News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48315583",
+      "slug": "hn-48315583-amazon-scraps-ai-leaderboard-to-stop-workers-chasing-usage-scores",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/b1a62a7f-6df5-4c90-94ce-64ce9c9961b6",
+      "commentUrl": "https://news.ycombinator.com/item?id=48315583",
+      "publishedAt": "2026-05-28T21:14:22.000Z",
+      "titleEn": "Amazon scraps AI leaderboard to stop workers chasing usage scores",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mmarian"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 59,
+      "commentCount": 16,
+      "tags": []
+    },
+    {
+      "id": "hn:48315440",
+      "slug": "hn-48315440-protestware-for-coding-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48315440",
+      "publishedAt": "2026-05-28T21:03:24.000Z",
+      "titleEn": "Protestware for Coding Agents",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "SVI"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 41,
+      "commentCount": 27,
+      "tags": []
+    },
+    {
+      "id": "gnews:8a63c5ffe7a7",
+      "slug": "gnews-8a63c5ffe7a7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3a3JRY0JjY0VPalNrZTNGWFVXTmNodEVCLUZEaUFneS1Kalo5UlU0QzZJcjdYN3ZFX0tlUVlMalJ0NjNZRV82c0NjSnFVMzg5OTQyZ0JjaDk5Zk5LMjQ2NE94VnQxWnRpcWpvUlJpVVU?oc=5",
+      "publishedAt": "2026-05-28T20:33:00.000Z",
+      "titleEn": "Anthropic Rockets to $965 Billion Valuation, Topping OpenAI in AI Showdown",
+      "titleZh": null,
+      "abstractEn": "Anthropic Rockets to $965 Billion Valuation, Topping OpenAI in AI Showdown  WSJ",
+      "abstractZh": null,
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6ae96aa5ddb5",
+      "slug": "gnews-6ae96aa5ddb5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRUpjZXd5MTl2S0ZtVWhmelZRdXBNaEM1UU1KQkppbVoxOG9hWkRlSEp1cjZGZV94TG1uVi1vTHhJXzdpYUZ5ZHlTcm1qWUgtd0RGRWl4WlFTVGUxU2k5WkFwaXp4ZkVFcWF6eWhvaFVVQkwzVHZTWlllRV9iSTMtTWRmSmt0RXBJenVtbjFQU0RqQ0h6a0V2eFhrQQ?oc=5",
+      "publishedAt": "2026-05-28T19:57:33.000Z",
+      "titleEn": "Anthropic's valuation surges to $965 billion, surpassing OpenAI",
+      "titleZh": null,
+      "abstractEn": "Anthropic's valuation surges to $965 billion, surpassing OpenAI  Reuters",
+      "abstractZh": null,
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6a3ca47bfe08",
+      "slug": "gnews-6a3ca47bfe08",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTlGTElnSGI1Ymg0NVlXZ1lIWTJNZ29mcHBLR04wNGZtRUwtMG0tTXAzVl90QUJ5Mm00X3YtU0Y0b1VVdnBLSnAxSXE3VWU3c2ktclVvN3FKWWxRYWNXVzdlcTl3NnM1ZkhVdDYtOUlTQ2xVUzBOSGxWRG5fSUxwbjFDbVlvZzNodjBGcnUxS3J1MmRCdmk2OW1MSUVvZVZmQzRaZg?oc=5",
+      "publishedAt": "2026-05-28T19:45:22.000Z",
+      "titleEn": "Blue states push toward de facto national AI safety standard",
+      "titleZh": null,
+      "abstractEn": "Blue states push toward de facto national AI safety standard  Pluribus News",
+      "abstractZh": null,
+      "authors": [
+        "Pluribus News"
+      ],
+      "institution": "Pluribus News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48314363",
+      "slug": "hn-48314363-sam-altman-and-dario-amodei-are-both-walking-back-ai-jobs-apocalypse",
+      "source": "Hacker News",
+      "sourceUrl": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48314363",
+      "publishedAt": "2026-05-28T19:43:14.000Z",
+      "titleEn": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ianrahman"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 210,
+      "commentCount": 161,
+      "tags": []
+    },
+    {
+      "id": "gnews:92c8f9554304",
+      "slug": "gnews-92c8f9554304",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PUnJYZ1V2cDA4MFFqTlFlOVdfZUFIb1JUeWZKc0d4Tm1GWWhBRlJtTXZIN0hkb3BLYkIzRmxCZFJIUE5Yak9PZDdvNE00VFhoWU1UZVMxbkdtVXFBS05SQmV4TVdpOGxaaUd3V0p6WTRuQQ?oc=5",
+      "publishedAt": "2026-05-28T19:31:13.000Z",
+      "titleEn": "Anthropic overtakes OpenAI as the most valuable AI startup",
+      "titleZh": null,
+      "abstractEn": "Anthropic overtakes OpenAI as the most valuable AI startup  Axios",
+      "abstractZh": null,
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:047e8485aa28",
+      "slug": "gnews-047e8485aa28",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXc0Nk1ERXZXSVJOaVZ2enlsZGFJU0FQNV9ETVBQRzh0UzJMNDBnQm5zcDlncEFJQ2VXUGlWQ3E2a0xsS2FzZkhuQ2ptVUFqYi1GQk52VjNCZ2Z5dnpKeVUxYmNZZHJOeWRhREQyUU82Ump5R1FxSzh4QVVma2NXTGpldFNXSjVKcFNtWkNTZFlheTV3cDFwUFQtQ2JzdG8?oc=5",
+      "publishedAt": "2026-05-28T19:31:00.000Z",
+      "titleEn": "Illinois passes AI Safety Measures Act",
+      "titleZh": null,
+      "abstractEn": "Illinois passes AI Safety Measures Act  Spectrum News",
+      "abstractZh": null,
+      "authors": [
+        "Spectrum News"
+      ],
+      "institution": "Spectrum News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e04f7df2a8cf",
+      "slug": "gnews-e04f7df2a8cf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjFqNkljXzVHQkdhUnZUX243MEx0TEFuUllERElJa1dBUlczVl9jcGJtUi0ybTkwMERaM21jT3FncWxiYVh1V2ZoeWNSbzhBd1MyQ2ppQW95NGYyZVQyYlpsZnc0bENBRWUxMzdMdmI1WHJoZTBTNlJkYTBreDUyUVZsLW0xTWxrMXhOMFlZS1Rmd1h3Tmcw?oc=5",
+      "publishedAt": "2026-05-28T19:22:00.000Z",
+      "titleEn": "Illinois Legislature Passes Landmark AI Safety Bill",
+      "titleZh": null,
+      "abstractEn": "Illinois Legislature Passes Landmark AI Safety Bill  The Information",
+      "abstractZh": null,
+      "authors": [
+        "The Information"
+      ],
+      "institution": "The Information",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5822a502cf48",
+      "slug": "gnews-5822a502cf48",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPczNHaHpwUHZVV204RDVZMHR1Q0w5RS10NWdNc0liaGtPSlJwamZQNTJxZ0pjWF8wamliUS1pRzZpbWFFaGFycUJQUDdNekE4Y05RNXloeHVFTWxEZkRueUxSNjBsRlg3cW95aE9NSFB3MEgwbDFVeDhCVGRiMHIzbEZ3?oc=5",
+      "publishedAt": "2026-05-28T19:14:40.000Z",
+      "titleEn": "Anthropic passes OpenAI to become the biggest AI startup in the world",
+      "titleZh": null,
+      "abstractEn": "Anthropic passes OpenAI to become the biggest AI startup in the world  qz.com",
+      "abstractZh": null,
+      "authors": [
+        "qz.com"
+      ],
+      "institution": "qz.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48313810",
+      "slug": "hn-48313810-various-llm-smells",
+      "source": "Hacker News",
+      "sourceUrl": "https://shvbsle.in/various-llm-smells/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48313810",
+      "publishedAt": "2026-05-28T19:02:18.000Z",
+      "titleEn": "Various LLM Smells",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 300,
+      "commentCount": 231,
+      "tags": []
+    },
+    {
+      "id": "gnews:ec022050f845",
+      "slug": "gnews-ec022050f845",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQjRkUWkyMndQeFEzOC0taU4zQ3h6dXl3SFFFZDZJaXlpeF9jMXZHdGY2ZGJxVG94bGY0REdaaDJ6Tk1CTVA4bkpIdWlPeTdMTlA1a01BWmQ3ZkpzVUR6WWo1Y21ORUExMy1ZTUo3OTZKeU1JTkk0ckxxSXlTcFFTd2lYVVZQQlRUcENvemt3UWJoRW1PV3dKV3YwN2R0QmNKX3Y3Qld0cG5qWDlQa2tN?oc=5",
+      "publishedAt": "2026-05-28T19:02:00.000Z",
+      "titleEn": "Anthropic surpasses OpenAI as most valuable AI startup after raising $65B (ANTHRO:Private)",
+      "titleZh": null,
+      "abstractEn": "Anthropic surpasses OpenAI as most valuable AI startup after raising $65B (ANTHRO:Private)  Seeking Alpha",
+      "abstractZh": null,
+      "authors": [
+        "Seeking Alpha"
+      ],
+      "institution": "Seeking Alpha",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:67344c55f9e9",
+      "slug": "gnews-67344c55f9e9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
+      "publishedAt": "2026-05-28T18:52:51.000Z",
+      "titleEn": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "titleZh": null,
+      "abstractEn": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO  TechCrunch",
+      "abstractZh": null,
+      "authors": [
+        "TechCrunch"
+      ],
+      "institution": "TechCrunch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b53d14263fa9",
+      "slug": "gnews-b53d14263fa9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB0gF8QVVfeXFMTzVRMWxaakV4Z3J5WFA3aERDUm1EWXZDQ2pDS0NnVEFSd0VuelBOeXd3cHdPdWFNUXVIa0dVUm94X0MyTWFNNy00eEViS0hfZlNvOS1xT3dfNmh2MjNKYzk4WnJ2bDVwUER6NmljWFg1Zzk2aTlmYW43cklYUw?oc=5",
+      "publishedAt": "2026-05-28T18:35:44.000Z",
+      "titleEn": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round",
+      "titleZh": null,
+      "abstractEn": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round  CNBC",
+      "abstractZh": null,
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48313219",
+      "slug": "hn-48313219-about-llms-at-zig-days",
+      "source": "Hacker News",
+      "sourceUrl": "https://kristoff.it/blog/llms-at-zig-days/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48313219",
+      "publishedAt": "2026-05-28T18:20:34.000Z",
+      "titleEn": "About LLMs at Zig Days",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "kristoff_it"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 78,
+      "commentCount": 67,
+      "tags": []
+    },
+    {
+      "id": "gnews:a3510da36c4f",
+      "slug": "gnews-a3510da36c4f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "publishedAt": "2026-05-28T18:15:01.000Z",
+      "titleEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "titleZh": null,
+      "abstractEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation  Anthropic",
+      "abstractZh": null,
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48313048",
+      "slug": "hn-48313048-anthropic-raises-65b-in-series-h-funding-at-965b-post-money-valuatio",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/series-h",
+      "commentUrl": "https://news.ycombinator.com/item?id=48313048",
+      "publishedAt": "2026-05-28T18:09:44.000Z",
+      "titleEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "meetpateltech"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 339,
+      "commentCount": 354,
+      "tags": []
+    },
+    {
+      "id": "hrorg:randstad:9ed717797af1",
+      "slug": "hrorg-randstad-9ed717797af1",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS3ZqbFc5RnpscVU0QnF6NzFsVmRlSGVfQU9EODFGRk02U0UtRWdGTHlPcUkzVDRtTmFVemk2T1hDQ1FRV3Z6Ulh3VnZJUTRMLVluMnhFVHFfYjlXQ3QzR3FWOWl5VmxjeG80eDdKR2ZEbW9LZWtRVDFLT1BSaWtuU01mb0hxem5lY2JtZ2I0aWloWTBlekctU2RHME9tZFpMaVQxWl96VjdxTnRrUU5qVlM1YnpTUWQtdW8yZldVQlNKRWZzZ3pmVw?oc=5",
+      "publishedAt": "2026-05-28T18:06:18.000Z",
+      "titleEn": "Randstad N.V. stock (NL0000379121): shares steady on Euronext Amsterdam as investors digest latest q",
+      "titleZh": null,
+      "abstractEn": "Randstad N.V. stock (NL0000379121): shares steady on Euronext Amsterdam as investors digest latest q  AD HOC NEWS",
+      "abstractZh": null,
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:105d6f7304b5",
+      "slug": "gnews-105d6f7304b5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNjVSOGxhbVc5RU9qMU5xZ0VIZzZyQkk0YUlVT2NCVTZkN092X09zTW80M0ljQWs0ei0xNHpQbVh6YWdhei1oRTQwSTFpczI5MWkxZTMxeFpSdzJING0tdUlTdHF5Qmc1V1JqSGk1emw5YWk4MFBfcFpVSFFEQ0lPTmdQejFpUmxmLXhJQy1sTWdZQ2dHb2RTMzJWbk44aVRvVnM0SjZNUUt2WEFkZlRndlp5S3g5Q2lzV3BLRg?oc=5",
+      "publishedAt": "2026-05-28T17:01:16.000Z",
+      "titleEn": "Trump loses more control over AI regulation as Illinois passes landmark law",
+      "titleZh": null,
+      "abstractEn": "Trump loses more control over AI regulation as Illinois passes landmark law  Ars Technica",
+      "abstractZh": null,
+      "authors": [
+        "Ars Technica"
+      ],
+      "institution": "Ars Technica",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a2649abaeee8",
+      "slug": "gnews-a2649abaeee8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSi1XZmpReGJ1X3dWZ0JsQ1BHXzloYm93YjV2N09HX0VlRTFDa2huRE9jX3h6cWxQSDJDdVhnR1Awc01WZDRtVW13Zk50T3dINkJvSS13RkQ3WTM3d2NhRWpZWDV5VEhwV0FQMGRwNEJCdy1idFhIZXBqR3hUX0RHOHdEOU9lZU1GNXc?oc=5",
+      "publishedAt": "2026-05-28T17:00:09.000Z",
+      "titleEn": "Anthropic Tops OpenAI to Become the World’s Most Valuable A.I. Start-Up",
+      "titleZh": null,
+      "abstractEn": "Anthropic Tops OpenAI to Become the World’s Most Valuable A.I. Start-Up  The New York Times",
+      "abstractZh": null,
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48311705",
+      "slug": "hn-48311705-dynamic-workflows-in-claude-code",
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "commentUrl": "https://news.ycombinator.com/item?id=48311705",
+      "publishedAt": "2026-05-28T16:52:21.000Z",
+      "titleEn": "Dynamic Workflows in Claude Code",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mil22"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 144,
+      "commentCount": 114,
+      "tags": []
+    },
+    {
+      "id": "hn:48311647",
+      "slug": "hn-48311647-claude-opus-4-8",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "commentUrl": "https://news.ycombinator.com/item?id=48311647",
+      "publishedAt": "2026-05-28T16:49:14.000Z",
+      "titleEn": "Claude Opus 4.8",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "craigmart"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 1497,
+      "commentCount": 1171,
+      "tags": []
+    },
+    {
+      "id": "hn:48309986",
+      "slug": "hn-48309986-show-hn-ktx-open-source-executable-context-layer-for-data-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Kaelio/ktx",
+      "commentUrl": "https://news.ycombinator.com/item?id=48309986",
+      "publishedAt": "2026-05-28T15:05:06.000Z",
+      "titleEn": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "lucamrtl"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 73,
+      "commentCount": 17,
+      "tags": []
+    },
+    {
+      "id": "gnews:117ed33b930e",
+      "slug": "gnews-117ed33b930e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM0d2YThTc0tmTE1rYmJadmFNamZKaGNaQzZUQkJCbmhjU2NBRTdnYWRCNTU3TW92UDJpdnlqTWtxajlpR2ljR3RJUkR1NVFCN0s4U1gwMnFlZ1Zlc3hpRHZiZVJ6Wm45LXVrNmJ4OTFEelpOVnBERXFqRVVFcEVpdHZOUm9CSTZ3bVB3Mk9tNHB3VzB3VGJsbGtvYkJPV0pSc3lXQl93?oc=5",
+      "publishedAt": "2026-05-28T14:00:00.000Z",
+      "titleEn": "Real-Time AI Video Startup Reactor Raises $59M From Jeffrey Katzenberg, Other Investors",
+      "titleZh": null,
+      "abstractEn": "Real-Time AI Video Startup Reactor Raises $59M From Jeffrey Katzenberg, Other Investors  Variety",
+      "abstractZh": null,
+      "authors": [
+        "Variety"
+      ],
+      "institution": "Variety",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426293-html",
+      "slug": "deepseek-v4",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426293.html",
+      "publishedAt": "2026-05-28T13:32:39.000Z",
+      "titleEn": "DeepSeek V4芯模协同背后，国产算力生态开始飞轮加速",
+      "titleZh": "DeepSeek V4芯模协同背后，国产算力生态开始飞轮加速",
+      "abstractEn": "国产算力是潮流，先用起来。",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48308376",
+      "slug": "hn-48308376-show-hn-continue-y-n-a-60-second-game-about-ai-agent-permission-fati",
+      "source": "Hacker News",
+      "sourceUrl": "https://llmgame.scalex.dev",
+      "commentUrl": "https://news.ycombinator.com/item?id=48308376",
+      "publishedAt": "2026-05-28T13:02:00.000Z",
+      "titleEn": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Wirbelwind"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 317,
+      "commentCount": 129,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426237-html",
+      "slug": "agi",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426237.html",
+      "publishedAt": "2026-05-28T13:01:16.000Z",
+      "titleEn": "世界模型接棒语言模型，这家公司全球首创物理AGI“双金字塔”体系，通用机器人进入“家庭时代”",
+      "titleZh": "世界模型接棒语言模型，这家公司全球首创物理AGI“双金字塔”体系，通用机器人进入“家庭时代”",
+      "abstractEn": "12个月冲击物理AGI的“GPT-3时刻”",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48307887",
+      "slug": "hn-48307887-disagreement-among-frontier-llms-on-real-world-fact-checks",
+      "source": "Hacker News",
+      "sourceUrl": "https://lenz.io/research/llm-disagreement",
+      "commentUrl": "https://news.ycombinator.com/item?id=48307887",
+      "publishedAt": "2026-05-28T12:20:19.000Z",
+      "titleEn": "Disagreement among frontier LLMs on real-world fact-checks",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "kostaj"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 487,
+      "commentCount": 341,
+      "tags": []
+    },
+    {
+      "id": "hrorg:recruit:ecb2fff2ee11",
+      "slug": "hrorg-recruit-ecb2fff2ee11",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWNWeno3dlhEdWpSNDhVVk1JLU1GdkNZZEtqZjMzclFpRmR2LVd1MC1iS2Y1M0JRM0w0UmRidTZNZTlELVA2Sl9jMzhVWGI2d2M3SkFEUDE5R1h0anBFdVNCd01mRHFGbmpmcXpEMUtKN3U0WXlFRVoxTXJEeDJWS2FBYThZQ0ZITnRBelhXUnFrQTlMTWRzdmRjY0lqUQ?oc=5",
+      "publishedAt": "2026-05-28T11:26:46.000Z",
+      "titleEn": "Pay for Salaried Workers Is Rising Faster Than Hourly Wages",
+      "titleZh": null,
+      "abstractEn": "Pay for Salaried Workers Is Rising Faster Than Hourly Wages  Indeed Hiring Lab",
+      "abstractZh": null,
+      "authors": [
+        "Indeed Hiring Lab"
+      ],
+      "institution": "Indeed Hiring Lab",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:37ccb399646d",
+      "slug": "gnews-37ccb399646d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeFlVNF8yZC1hUGRZaF9HdDBLemd4YzJrQ1ZIUk4wZHhQSDhhYUZjdVppaWU2eUtSb2pxOGF0aXJ1aHpxNHo3bnZodjVkSUlyS1VNVFpwb0UzdjdUSEVpcnVwS2Q0SWlRUmZKcTVzZkhybXBGTWRoc1N4R1ZZZndIVWhXWndLZUc2aDdUajlXQjlyMkk?oc=5",
+      "publishedAt": "2026-05-28T11:00:07.000Z",
+      "titleEn": "Crunchbase Data: Venture Dollars For Black Startup Founders Stay Scarce Despite AI Funding Boom",
+      "titleZh": null,
+      "abstractEn": "Crunchbase Data: Venture Dollars For Black Startup Founders Stay Scarce Despite AI Funding Boom  Crunchbase News",
+      "abstractZh": null,
+      "authors": [
+        "Crunchbase News"
+      ],
+      "institution": "Crunchbase News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-426223-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/426223.html",
+      "publishedAt": "2026-05-28T08:47:27.000Z",
+      "titleEn": "沙钢签约钉钉，让悟空成为每一位“钢铁人”的生产力工具",
+      "titleZh": "沙钢签约钉钉，让悟空成为每一位“钢铁人”的生产力工具",
+      "abstractEn": "实现AI技术从“能力”到“价值”的转化",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:mercer:2dd7e2d27775",
+      "slug": "hrorg-mercer-2dd7e2d27775",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTDMtV3ZvNXBzcnVHZmE0ZmNoUHg5MnpUY3dRU2EwSEQwYWtGRnlHYW1lenVtbzNnRmxMSDdMbGVaX19oVWk4NkpVZmlJY3ZWdXZZMmZsdjFYY2RqdjQtVzd0VXhWU29fY1dzTEVBbkctNzdyaWNMa01OVWJNRW1Sd2pxby1DZ09xcmxpTFBUSm5mSWtWVkFuSnJvY010RHZPRzkyOHR2ZmxmMDRLZUpETTZybDl0UDVpMGVPUmhnNmpIUkVoRlpJRGZ6eE4xNXZvbjc0emVQa3F6UDVpaEhRZC13b1oweFBoMG9qc01SYXJMdHZnTkNXbVJn?oc=5",
+      "publishedAt": "2026-05-27T20:37:01.000Z",
+      "titleEn": "Survey finds 99% of executives expect AI layoffs within two years",
+      "titleZh": null,
+      "abstractEn": "Survey finds 99% of executives expect AI layoffs within two years  MSN",
+      "abstractZh": null,
+      "authors": [
+        "MSN"
+      ],
+      "institution": "MSN",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:6db1670d1b22",
+      "slug": "hrorg-mercer-6db1670d1b22",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQVBOWjBJam9hVXUya05XTS1Bd1diVkUzYlpJWmExTTVsdkpJWU13c3VUSkJJOURkVjZxczRhWGpJOTJkOU1GeWlVc3FCLVk4Nmh2d2tOaHJXUHgybG1DSDdMLU95elNiczZsamZkazg2SFZhQ21FREhWQWJVaXpKMHNIMFMwWEVZYVJWLUF4bmtuOWJIemYydTZ3MlM3Q2phZm9ZRnZERTZfc1p5elE3SjV5LU50QjA0UWlFVHRYak1PVnhBdGlFR1ItNTJ0cE1kTXFBakVLV1d3dW5vdWJoVHczU1JrdDF4VUpuTDJDNVNkNW9xcUhFcm9kNk90MzJkV0p0R1ZqZXZCSVktcmE2MlBtWGxBYVdDWWZXREdpY21tajNYcXVETXRseFI3N0ZvZ3psaW9JUi1xRG0tY0NQeFNlVnBtWFlKVXJFZVNNa1FDWE01VEdxemhEallIRHJUS2pteklyNFg2LU1TWDdhWTdzOWxaU3NQZjJ6M2NjUQ?oc=5",
+      "publishedAt": "2026-05-26T10:00:00.000Z",
+      "titleEn": "Survey reveals that 99% of CEOs now expect AI-driven layoffs — companies are racing to replace junior workers with AI, even as many executives remain uncertain about the returns on AI investments",
+      "titleZh": null,
+      "abstractEn": "Survey reveals that 99% of CEOs now expect AI-driven layoffs — companies are racing to replace junior workers with AI, even as many executives remain uncertain about the returns on AI investments  Tom's Hardware",
+      "abstractZh": null,
+      "authors": [
+        "Tom's Hardware"
+      ],
+      "institution": "Tom's Hardware",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
