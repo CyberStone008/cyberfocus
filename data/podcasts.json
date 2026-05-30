@@ -1,5 +1,20 @@
 [
   {
+    "id": "podcast:lex-fridman:1qx7wz",
+    "source": "Lex Fridman Podcast",
+    "sourceUrl": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+    "publishedAt": "2026-05-29T16:22:02.000Z",
+    "titleEn": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+    "titleZh": null,
+    "abstractEn": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. https://lexfridman.com/sponsors/ep497-sc CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: http",
+    "abstractZh": null,
+    "authors": [],
+    "category": "podcast",
+    "duration": "3h 1m",
+    "thumbnail": null,
+    "slug": "podcast-lex-fridman-1qx7wz"
+  },
+  {
     "id": "podcast:lex-fridman:1qx7ws",
     "source": "Lex Fridman Podcast",
     "sourceUrl": "https://lexfridman.com/ffmpeg/?utm_source=rss&utm_medium=rss&utm_campaign=ffmpeg",
