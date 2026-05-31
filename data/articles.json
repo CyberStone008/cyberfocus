@@ -1,5 +1,636 @@
 [
   {
+    "id": "gnews:ce15727c205b",
+    "slug": "gnews-ce15727c205b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRi1BaWVsYktZRzBXR2Q4NFA4dlZ5VFlLT0t0SVFzQ0JYZVZtQWdBMmdPX2l5OHFCYXAzZHN3MmxyXzhJZHotTXUxNW9jMTA0VzlIQUZ3aTZvU19MUVljVkt4MVN4UldMWnJyT0VnTlI5UHJMZG5udnZmOFF1NWdGU3libTdIRFpZUjBNMQ?oc=5",
+    "publishedAt": "2026-05-31T07:45:14.000Z",
+    "titleEn": "RevReply raises $1M for AI sales automation",
+    "titleZh": null,
+    "abstractEn": "RevReply raises $1M for AI sales automation  Let's Data Science",
+    "abstractZh": null,
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48343216",
+    "slug": "hn-48343216-show-hn-komi-learn-continuous-memory-and-self-improvement-for-coding",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/kurikomi-labs/komi-learn",
+    "commentUrl": "https://news.ycombinator.com/item?id=48343216",
+    "publishedAt": "2026-05-31T05:11:40.000Z",
+    "titleEn": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "rainxchzed"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 12,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:8c62cfd48524",
+    "slug": "gnews-8c62cfd48524",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3haVHhzeVk5LUJhdTQwS2JKOVhra0ttdDdvYzZaanJHdGJQY1VsQzVEcmEtelVGVWhFZi02V3JZQlNjZ2h4NGY2d1J4R1VQMmIySUtGUkVWUWdGOUNGMnVVdURUbENnNEpTRmtaT05CcVVqX0NKYzNqRTN2bzB6T0lOOXJLbHBZcWFMdjVVMFgtQkdNcHJFQg?oc=5",
+    "publishedAt": "2026-05-31T04:59:29.000Z",
+    "titleEn": "If I Could Only Buy 1 Artificial Intelligence (AI) Stock Right Now, This Would Be It.",
+    "titleZh": null,
+    "abstractEn": "If I Could Only Buy 1 Artificial Intelligence (AI) Stock Right Now, This Would Be It.  The Motley Fool",
+    "abstractZh": null,
+    "authors": [
+      "The Motley Fool"
+    ],
+    "institution": "The Motley Fool",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:f69e0dbfe6d3",
+    "slug": "gnews-f69e0dbfe6d3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVExGSzI5Q3BkTHJUeTdjLW42Z2ctWEhSSlRzYUQtVHluRzJFcElRVFJiTWFsczBvVW5BdmFYQkJ1ZzdWT3dQT2VDYUVUa3dSM1pfaXZYWE8yZjFSLURYV3h1UnJuTkZqQlYyV0N6WkhzV2pmczdkR0VleTd4STIyTzNSUlFrM2lzZnZnXzV1Y0RIOEFhc2VEQ2dCV00?oc=5",
+    "publishedAt": "2026-05-31T04:00:00.000Z",
+    "titleEn": "Doomers and Accelerationists Debate AI Extinction Risk",
+    "titleZh": null,
+    "abstractEn": "Doomers and Accelerationists Debate AI Extinction Risk  Let's Data Science",
+    "abstractZh": null,
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:c3def1defe6c",
+    "slug": "gnews-c3def1defe6c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWkoyWXRZNHVDc2J5OFNCa1p3THZ2OWtkalRSRkZDSHJCeklKUFZJaEpjeXFHXzdfSFREcnhYTTU0Nnl4eG9HYTBSNkVHS1JzNWlzNlpQdXpkTWo2dktkVDk3Nll4eHpUV3RWOU8wTkNLeE8yX3FXRlNFb3U2WmZROUZ0SEU5dw?oc=5",
+    "publishedAt": "2026-05-31T03:54:46.000Z",
+    "titleEn": "This Is the Artificial Intelligence (AI) Stock I'd Buy if the Market Crashed Tomorrow",
+    "titleZh": null,
+    "abstractEn": "This Is the Artificial Intelligence (AI) Stock I'd Buy if the Market Crashed Tomorrow  AOL.com",
+    "abstractZh": null,
+    "authors": [
+      "AOL.com"
+    ],
+    "institution": "AOL.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-426819-html",
+    "slug": "ai-agent-ai-aigc2026",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/426819.html",
+    "publishedAt": "2026-05-31T03:54:27.000Z",
+    "titleEn": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+    "titleZh": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+    "abstractEn": "CLI更像是Agent的母语",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-05-426793-html",
+    "slug": "token-agent-minimax-ai-native",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/05/426793.html",
+    "publishedAt": "2026-05-31T01:29:42.000Z",
+    "titleEn": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+    "titleZh": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+    "abstractEn": "与其焦虑AI，不如加入AI",
+    "abstractZh": null,
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:cf59a672d2a7",
+    "slug": "gnews-cf59a672d2a7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRVYwS2ZaTVk2eVo0YzZ4LTBJOWVpS2loQU9IUGRaemZ3eUV3Zkk0bzRZa3hvVHFDdUJrZm5pTkMwRDVsUnFYZHNEbkN1d25oNE0zX2x4SGd5LXhxYzFEdGZtdG05M1FPeEdJNVl4MlhKWEdGMTZwbkVkdFJBWnpYaGJEemxBVk40Ym1ydUxuYlFpcGFETVAyU1pjZnAzZXg5V19KbDhGb09XU3M5OE5PUTM3aXZNWm9CMno3cGExZ2tvRHM1?oc=5",
+    "publishedAt": "2026-05-31T00:33:31.000Z",
+    "titleEn": "Anthropic becomes world’s most valuable AI startup after $65bn funding boost",
+    "titleZh": null,
+    "abstractEn": "Anthropic becomes world’s most valuable AI startup after $65bn funding boost  Arabian Business",
+    "abstractZh": null,
+    "authors": [
+      "Arabian Business"
+    ],
+    "institution": "Arabian Business",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48341921",
+    "slug": "hn-48341921-ai-grifters-are-creating-fake-black-people-to-sell-shein-junk",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+    "commentUrl": "https://news.ycombinator.com/item?id=48341921",
+    "publishedAt": "2026-05-31T00:23:33.000Z",
+    "titleEn": "AI grifters are creating fake Black people to sell Shein junk",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "1vuio0pswjnm7"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 39,
+    "commentCount": 5,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48341210",
+    "slug": "hn-48341210-starbucks-abandons-borked-ai-inventory-tool-that-couldnt-count",
+    "source": "Hacker News",
+    "sourceUrl": "https://gizmodo.com/starbucks-abandons-borked-ai-inventory-tool-that-couldnt-count-report-2000762252",
+    "commentUrl": "https://news.ycombinator.com/item?id=48341210",
+    "publishedAt": "2026-05-30T22:27:52.000Z",
+    "titleEn": "Starbucks Abandons Borked AI Inventory Tool That Couldn't Count",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pier25"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 27,
+    "commentCount": 7,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48340189",
+    "slug": "hn-48340189-1m-ancient-greek-fragments-soon-to-be-translated-with-the-help-of-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.oeaw.ac.at/en/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply",
+    "commentUrl": "https://news.ycombinator.com/item?id=48340189",
+    "publishedAt": "2026-05-30T20:14:14.000Z",
+    "titleEn": "1M Ancient Greek fragments soon to be translated with the help of AI",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "janandonly"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 18,
+    "commentCount": 3,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:b564bd73f80d",
+    "slug": "gnews-b564bd73f80d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdjdZRFB0VXc2bWVQcTNiYU5xaTdNcDdPVkd4dlRMZFd4ZlZPSW5xcGsyLTNkTWFKZF9EZ3NEaEk3dXhfNHNmWWNfRG8zYUJkRWNrQ0F0YU8yYjZBdUdMX0RBc2xSdWtaSExoZ1pZLWd5UHJyd0lmSDA1OXM0MEplT3BjT1ROaF9JdHdsa0ZaTng4T194Y3hUYg?oc=5",
+    "publishedAt": "2026-05-30T20:13:00.000Z",
+    "titleEn": "These Artificial Intelligence (AI) Stocks Have Crushed Nvidia in 2026 With Gains of 67% and 121%. They Can Still Soar Higher",
+    "titleZh": null,
+    "abstractEn": "These Artificial Intelligence (AI) Stocks Have Crushed Nvidia in 2026 With Gains of 67% and 121%. They Can Still Soar Higher  The Motley Fool",
+    "abstractZh": null,
+    "authors": [
+      "The Motley Fool"
+    ],
+    "institution": "The Motley Fool",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:df04cee35ccb",
+    "slug": "gnews-df04cee35ccb",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXlSSGc5RXZGVFRlUUs5cVFNem9EcUo4Y3BMdHZBcU1wR2duS3dsR1BlLWE1TUEzRWwtTWJyTHlrQndYMm9XTUN6Nml0ZXJicXVFNTktV2Jtd3Jua2RsdzUxZ3VCR3l5a0hndjV5N2MzcDk5TFBvOGVFMFozMGpObFkySGIzVkk?oc=5",
+    "publishedAt": "2026-05-30T19:27:10.000Z",
+    "titleEn": "Explained: AI revolution reshaping business, jobs and society",
+    "titleZh": null,
+    "abstractEn": "Explained: AI revolution reshaping business, jobs and society  Latest news from Azerbaijan",
+    "abstractZh": null,
+    "authors": [
+      "Latest news from Azerbaijan"
+    ],
+    "institution": "Latest news from Azerbaijan",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48339580",
+    "slug": "hn-48339580-ey-canada-published-a-cybersecurity-report-and-most-citations-were-h",
+    "source": "Hacker News",
+    "sourceUrl": "https://gptzero.me/investigations/ey",
+    "commentUrl": "https://news.ycombinator.com/item?id=48339580",
+    "publishedAt": "2026-05-30T19:02:54.000Z",
+    "titleEn": "EY Canada published a cybersecurity report and most citations were hallucinated",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "smartmic"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 296,
+    "commentCount": 131,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:dbd6f8a696fd",
+    "slug": "gnews-dbd6f8a696fd",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa3N1MnJ4eDREang5TldwRzV2RjVXRnVWWmlmTVZkV1hLb2hUYmN3SXBMQmZXV0NuZ0pTMk1GREpjbWNEQzZUM2c2S3VUOFctaHRjdXUxNXgwUllrLTBaQXZKYkdQd0ZMRUlkc0k2NG5DSExXdEQzLTROSUVmWkNHbXp0Z0Uzd25EM1RzYmJMU1lMX0tPdTAyM1pfeC1wTXBfNjRjRExLV0Z5Q0gxTmExbmtHcHFielV2V1QzMHgtVQ?oc=5",
+    "publishedAt": "2026-05-30T18:08:53.000Z",
+    "titleEn": "Kenya improves AI policy and regulatory framework to support digital economy growth",
+    "titleZh": null,
+    "abstractEn": "Kenya improves AI policy and regulatory framework to support digital economy growth  Tech Review Africa",
+    "abstractZh": null,
+    "authors": [
+      "Tech Review Africa"
+    ],
+    "institution": "Tech Review Africa",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48338660",
+    "slug": "hn-48338660-openrouter-raises-113m-series-b",
+    "source": "Hacker News",
+    "sourceUrl": "https://openrouter.ai/announcements/series-b",
+    "commentUrl": "https://news.ycombinator.com/item?id=48338660",
+    "publishedAt": "2026-05-30T17:27:28.000Z",
+    "titleEn": "OpenRouter raises $113M Series B",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "freeCandy"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 413,
+    "commentCount": 198,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:def1517d1267",
+    "slug": "gnews-def1517d1267",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMXlvTEd3bHYxZWtaTXhFeDNabmhhV25oWHo3OFQyOVFVYnllam1SaUxXcnF1emRNbnAtSkNyWklaT01SQ0RJU19uSkxuTGNDWHAwZlV1Z3FyUnJsXzgycHlqNnNjT05oM3haMGxNcnBZZ1lpWVYxbTJrTlBGRWtzRTR3?oc=5",
+    "publishedAt": "2026-05-30T17:08:06.000Z",
+    "titleEn": "OpenAI Is Paying $445K to Study Self-Improving AI Risks",
+    "titleZh": null,
+    "abstractEn": "OpenAI Is Paying $445K to Study Self-Improving AI Risks  Memeburn",
+    "abstractZh": null,
+    "authors": [
+      "Memeburn"
+    ],
+    "institution": "Memeburn",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hrorg:randstad:3727c18a2ba8",
+    "slug": "hrorg-randstad-3727c18a2ba8",
+    "source": "Randstad",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX2VndS1xZ3FNX2ZmS3NDLXFZWVR4RmVITjNTNDJ0UVpzczA5a2V3WUxVeloyYVMxQ0xMenNDWjlNdnU5WURsOV8xREFRQjgxbnVHSWp5d3JGcFNNNmNVbEhXUkRQOTN1dUhvbFhfYTY4a3VoZHJQR09oZlZCdDE0U2NGX09GTm5GRmlzUDZrek5RVGlyZTlqN2RXNmttenFiR2hsaVJpRzRBY1Y1QWw5dUJkeXFZMFBTTmd5TQ?oc=5",
+    "publishedAt": "2026-05-30T16:36:11.000Z",
+    "titleEn": "Randstad N.V. stock (NL0000379121): shares steady in Amsterdam as investors await next catalysts",
+    "titleZh": null,
+    "abstractEn": "Randstad N.V. stock (NL0000379121): shares steady in Amsterdam as investors await next catalysts  AD HOC NEWS",
+    "abstractZh": null,
+    "authors": [
+      "AD HOC NEWS"
+    ],
+    "institution": "AD HOC NEWS",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48337987",
+    "slug": "hn-48337987-accenture-to-acquire-ookla",
+    "source": "Hacker News",
+    "sourceUrl": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
+    "commentUrl": "https://news.ycombinator.com/item?id=48337987",
+    "publishedAt": "2026-05-30T16:28:58.000Z",
+    "titleEn": "Accenture to acquire Ookla",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Garbage"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 277,
+    "commentCount": 143,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:c08d6e678c3c",
+    "slug": "gnews-c08d6e678c3c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdk5ZYktRMkVEWG5BSmJSUmVYdlFnT0Y4UV9iS3NIMUNLNVhjS2RYLTFzX2pDR29BMHNBLWgxWHR1bHZQS3RqWUxDSFpKRFI2RGlMRFNPRk9qRWg5NEwwejdNbWgzZThqcGtkWUYyQW00VjE5NDdST3JUZE5rdi1aZmstMTNyZUkt?oc=5",
+    "publishedAt": "2026-05-30T15:15:29.000Z",
+    "titleEn": "GNOME Circle Adopts AI Policy and Stops New App Submissions",
+    "titleZh": null,
+    "abstractEn": "GNOME Circle Adopts AI Policy and Stops New App Submissions  Linuxiac",
+    "abstractZh": null,
+    "authors": [
+      "Linuxiac"
+    ],
+    "institution": "Linuxiac",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48336760",
+    "slug": "hn-48336760-ai-job-grief-a-psychological-crisis-hitting-tech-workers",
+    "source": "Hacker News",
+    "sourceUrl": "https://jackmaguire.org/blog/ai-job-grief/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48336760",
+    "publishedAt": "2026-05-30T14:41:26.000Z",
+    "titleEn": "AI job grief: A psychological crisis hitting tech workers",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "LilBytes"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 145,
+    "commentCount": 137,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:234bd616ede3",
+    "slug": "gnews-234bd616ede3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObkh0VnREeGFLVDhIWklvTEpkY0ROLTNmc0wyV3RxRWlIV3ZiNDU4TkJsS2FNbndPb1VORjhFdzhwd1c4cU5yMHFBbWc2eVBnWTlDZ3NpUmg5MTI3MzFnQjdzU2NQOUhHNGI0LXp6T2pBb3JfbEtmM1FPaFFJNlhJbENxTXk0Z2NnaWprTXJ1OTlhZw?oc=5",
+    "publishedAt": "2026-05-30T14:09:34.000Z",
+    "titleEn": "Powerful A.I. Super PACs Duel Over the Midterms: ‘This Is a War’",
+    "titleZh": null,
+    "abstractEn": "Powerful A.I. Super PACs Duel Over the Midterms: ‘This Is a War’  The New York Times",
+    "abstractZh": null,
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:366957fe4206",
+    "slug": "gnews-366957fe4206",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtQ1dPalp2Z1F6NlROVWxWVjB5Zk9WTnI3QnRCQUFHb1ZQSUpuczJMUE9oRVBYWlA1SlRWdlE4ckViR1hZQzBzTVdDWGZGcmJoaWNpdUFiTUFlOW5hN0hLWFM2bW1kZGNBM0Y2X2JJNUMtLTBWUEFkMnBpWDU?oc=5",
+    "publishedAt": "2026-05-30T13:01:00.000Z",
+    "titleEn": "Anthropic’s alliance with pope on AI harms: all in good faith or ‘Vatican-washing?’ | AI (artificial intelligence)",
+    "titleZh": null,
+    "abstractEn": "Anthropic’s alliance with pope on AI harms: all in good faith or ‘Vatican-washing?’ | AI (artificial intelligence)  The Guardian",
+    "abstractZh": null,
+    "authors": [
+      "The Guardian"
+    ],
+    "institution": "The Guardian",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:4c2d687fc635",
+    "slug": "gnews-4c2d687fc635",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM0l1am5tSGYyenBGMENzZzV3SmRvOHN2Sm9HV2swb08xdG4tOWM0OTIxSjl2bnBPQTE4V014M0FUNWJYSWZMaDkwUUgzZVlEQWRyVkJPc1ExWE42TUJ5QTZjS0hQVklfVEFQakJ3R3B4T2xBd195NHVPVzN2eWtTWXRVbUhXV2NUYkRiUzU2R1dPSGJxT0k2eDJYUXpIWmVBdl9QSHpNcDVhdjNqbWhVSzBXT09QVDQzZXQ3LVVCaE85TkU?oc=5",
+    "publishedAt": "2026-05-30T12:28:08.000Z",
+    "titleEn": "How Did Anthropic Become More Valuable Than OpenAI? Here’s the Answer, in Just 1 Word",
+    "titleZh": null,
+    "abstractEn": "How Did Anthropic Become More Valuable Than OpenAI? Here’s the Answer, in Just 1 Word  inc.com",
+    "abstractZh": null,
+    "authors": [
+      "inc.com"
+    ],
+    "institution": "inc.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hn:48335388",
+    "slug": "hn-48335388-corporate-america-is-starting-to-ration-ai-as-cost-skyrockets",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+    "commentUrl": "https://news.ycombinator.com/item?id=48335388",
+    "publishedAt": "2026-05-30T12:17:33.000Z",
+    "titleEn": "Corporate America Is Starting to Ration AI as Cost Skyrockets",
+    "titleZh": null,
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "1vuio0pswjnm7"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 166,
+    "commentCount": 155,
+    "tags": [],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:ed14b332777d",
+    "slug": "gnews-ed14b332777d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9obHNFOE9zNE5PcncxMldUVWhaeFplWjR2TTIwY0RUZGhBT0pWWmhZQUZuRmdDNk0wY0RFYkhuWEgtOUhlM3AwT0V3aUVNUWZnWXZvV1lkaXhNWUN1cDJPcWZzRQ?oc=5",
+    "publishedAt": "2026-05-30T10:12:00.000Z",
+    "titleEn": "GNOME Circle Takes Stand Against AI Slop, Resources App Makes It Into GNOME Incubator",
+    "titleZh": null,
+    "abstractEn": "GNOME Circle Takes Stand Against AI Slop, Resources App Makes It Into GNOME Incubator  Phoronix",
+    "abstractZh": null,
+    "authors": [
+      "Phoronix"
+    ],
+    "institution": "Phoronix",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:2ee0cc268328",
+    "slug": "gnews-2ee0cc268328",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkVnWGlnTDBXaGpMSnR4Z1FNbTVLakRTWFptV2o2LUl6OHdQNE1MMnBFNW0tNkVjblFhMFBDTklLSThkWEZXYXlaRDJWaDVQdVN5RHFNYXdUQkpsSWlBc2Y3SktoSDNQckZtRWNfRVFXWnJjVnpUUDFJelFzSVo1YnVOdkt2dFNGRXdZQzc1X1lpLWZRYTJsV2RieTRUSl9fRW4xMklTai0ydzRxSWk0Ymd4OEhmZDJEOVl4bm0waVBjNWMtMU1ua3F2dEZRMkxKWFIzR0dvOXRJanBoR0tEUg?oc=5",
+    "publishedAt": "2026-05-30T10:03:11.000Z",
+    "titleEn": "AI startups face tougher funding rules as readiness trumps hype",
+    "titleZh": null,
+    "abstractEn": "AI startups face tougher funding rules as readiness trumps hype  MSN",
+    "abstractZh": null,
+    "authors": [
+      "MSN"
+    ],
+    "institution": "MSN",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "gnews:4c312eb5837f",
+    "slug": "gnews-4c312eb5837f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR3c3ek5Ob25KbTY3YUE5V0w3eHpRLUNsU3dnZHN2OXg1QUdVNDMtNEVWNWFTQ3ZwQm9lNXFxNlNyeHZwMXUwMnJrQm9Nekl5MVJPTF9seTZzZ00taHRGWTRmWjBXUXpaTDlmZXpXTHpLWTJXRlhLdGVyQ3hQSUZMNkYzTmh6SWhYWGZORHBPN2s4YmFjWjg5clo4VdIBmwFBVV95cUxNNVFVRVVfTzIyb1VmSG51amg1dlNQeENfem9RckEtd0RseTh1djhJX2JuY1dGVFFCX3k4MmcyaTFWVEhHTzZ6MTJQekFkSExlblRZT3R1aGlXOFJaQmVyZ1ZnN3lfTFY2ZDJNUkJoT0psYzVIZmljNzREZnJjWnk0TElVc2Zzd3JUdVp5cXhCMTY0WmhxS09VdENTYw?oc=5",
+    "publishedAt": "2026-05-30T08:35:46.000Z",
+    "titleEn": "Anthropic surpasses OpenAI to become world’s most valuable AI startup",
+    "titleZh": null,
+    "abstractEn": "Anthropic surpasses OpenAI to become world’s most valuable AI startup  Qazinform",
+    "abstractZh": null,
+    "authors": [
+      "Qazinform"
+    ],
+    "institution": "Qazinform",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
     "id": "openai:strengthening-societal-resilience-with-rosalind-biodefense",
     "slug": "strengthening-societal-resilience-with-rosalind-biodefense",
     "source": "OpenAI Blog",
@@ -16,7 +647,8 @@
     "docType": "Blog",
     "category": "research",
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426706-html",
@@ -37,7 +669,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426662-html",
@@ -58,7 +691,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48332936",
@@ -80,7 +714,8 @@
     "score": 8,
     "commentCount": 5,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:29d545a91c12",
@@ -103,7 +738,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:6fb8a3ab643e",
@@ -126,7 +762,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48332432",
@@ -148,7 +785,8 @@
     "score": 6,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-2tsixbdhy3ntdnzk-html",
@@ -169,7 +807,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426643-html",
@@ -190,7 +829,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48332098",
@@ -212,7 +852,8 @@
     "score": 10,
     "commentCount": 4,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:100ea65e1bca",
@@ -235,7 +876,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:d08195d2b9c6",
@@ -258,7 +900,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48331320",
@@ -280,7 +923,8 @@
     "score": 5,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:a1b278491ac2",
@@ -303,7 +947,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:16c57aad8bee",
@@ -326,7 +971,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:c74e6c803bcd",
@@ -349,7 +995,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:32041c043360",
@@ -372,7 +1019,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48328184",
@@ -394,7 +1042,8 @@
     "score": 137,
     "commentCount": 12,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48327962",
@@ -416,7 +1065,8 @@
     "score": 131,
     "commentCount": 183,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:82aa3b331c07",
@@ -439,7 +1089,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:4b9b40b11e23",
@@ -462,7 +1113,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:00375a81bd2c",
@@ -485,7 +1137,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:66e4e2b749b7",
@@ -508,7 +1161,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48326659",
@@ -530,7 +1184,8 @@
     "score": 96,
     "commentCount": 169,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:9315d919cd83",
@@ -553,7 +1208,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-5q3dxrkzbzmeg7cq-html",
@@ -574,7 +1230,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48325340",
@@ -596,7 +1253,8 @@
     "score": 357,
     "commentCount": 142,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48325306",
@@ -618,7 +1276,8 @@
     "score": 182,
     "commentCount": 69,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48324910",
@@ -640,7 +1299,8 @@
     "score": 73,
     "commentCount": 59,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:6b7b224696b0",
@@ -663,7 +1323,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426557-html",
@@ -684,7 +1345,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-patbiyw3rngojz0l-html",
@@ -705,7 +1367,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hrorg:randstad:58277eff7d15",
@@ -728,7 +1391,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:82a95a64d830",
@@ -751,7 +1415,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:786afaf5ee14",
@@ -774,7 +1439,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48322929",
@@ -796,7 +1462,8 @@
     "score": 112,
     "commentCount": 101,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:41871416b760",
@@ -819,7 +1486,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:ddf70e8cbe72",
@@ -842,7 +1510,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hrorg:mercer:2c7d4c097448",
@@ -866,7 +1535,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426548-html",
@@ -887,7 +1557,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48321631",
@@ -909,7 +1580,8 @@
     "score": 334,
     "commentCount": 288,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:998bb454b506",
@@ -932,7 +1604,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:a4440fdfe963",
@@ -955,7 +1628,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:fbbaee79062b",
@@ -978,7 +1652,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:23955a728ee9",
@@ -1001,7 +1676,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:254c76aa21ca",
@@ -1024,7 +1700,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48321076",
@@ -1046,7 +1723,8 @@
     "score": 204,
     "commentCount": 91,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-transportation-locgolt3bsp5nfyi-html",
@@ -1067,7 +1745,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-nkjaz04zsod72e42-html",
@@ -1088,7 +1767,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-chips-daav04sreqhlyphu-html",
@@ -1109,7 +1789,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-4qmrrofjt0wulqmc-html",
@@ -1130,7 +1811,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426542-html",
@@ -1151,7 +1833,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426479-html",
@@ -1172,7 +1855,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426447-html",
@@ -1193,7 +1877,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-3bjjzs6oi76qgknw-html",
@@ -1214,7 +1899,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-ofx0anhz8iujlvtn-html",
@@ -1235,7 +1921,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426400-html",
@@ -1256,7 +1943,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-dgsfc1g8m120jbz6-html",
@@ -1277,7 +1965,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-fg2kyakruqsdpwka-html",
@@ -1298,7 +1987,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:081c51e63d90",
@@ -1343,7 +2033,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-smarthome-ozzhtkd0sjzltted-html",
@@ -1364,7 +2055,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-academic-dzgyvq2ilbt3lt8u-html",
@@ -1385,7 +2077,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-no4ge8w6ixwtvo4n-html",
@@ -1406,7 +2099,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "hn:48319968",
@@ -1472,7 +2166,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-wtrmxqfqntjlnzej-html",
@@ -1692,7 +2387,8 @@
     "score": 78,
     "commentCount": 71,
     "tags": [],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-ljizwrpqtkqdboif-html",
@@ -1849,7 +2545,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-426353-html",
@@ -2649,6 +3346,29 @@
     "featured": false
   },
   {
+    "id": "hrorg:mercer:5f402e6336eb",
+    "slug": "hrorg-mercer-5f402e6336eb",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1lGRVU0T3J5N3R1MjNpRDd3NF9QUElWbWtqTG5hQmVObDlVa1U1RThsaGNjZl84cVg2blg1NU5fRnpydFBsMUpPaEw2ZXRJX2dEbE1wNUloU01jWlNUbWUzS1ZoTTRZLTFCQXNpR2NMNUtYdHFZdVpUM19sWVdPX0FjckFkb0pBSDlSQ2NITkFmRzBlZ19wanZwcXdUZGZhSlBVeVFZV1RaLWdUSlFzQmhKYm1wQUk4dXUxVWZB?oc=5",
+    "publishedAt": "2026-05-28T16:26:11.000Z",
+    "titleEn": "Confidently wrong: Why AI in pensions can mislead and how to protect members",
+    "titleZh": null,
+    "abstractEn": "Confidently wrong: Why AI in pensions can mislead and how to protect members  Mercer | Welcome to brighter",
+    "abstractZh": null,
+    "authors": [
+      "Mercer | Welcome to brighter"
+    ],
+    "institution": "Mercer | Welcome to brighter",
+    "docType": "News",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
     "id": "hn:48309986",
     "slug": "hn-48309986-show-hn-ktx-open-source-executable-context-layer-for-data-agents",
     "source": "Hacker News",
@@ -2989,6 +3709,126 @@
     "featured": false
   },
   {
+    "id": "hrorg:mercer:be5319aa0f6b",
+    "slug": "hrorg-mercer-be5319aa0f6b",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODFPcVJnd1BRUVpMZnFuM1J0X3pjd1J6X1I2b0p6MVI0WjBROXZtTGlTNFFucjJCMWFnUUJIMTFScGxRUnBqbTFCTU5BWlAzZXZjeFhoT0xRWGVZNHFiZFhLRmphZ3hxTmhhS2s1WU9XenIwMmQ2TWxySC1yLVEtQ1kzRVRoeFA1?oc=5",
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "titleEn": "What is the poverty rate in Mercer County, IL?",
+    "titleZh": null,
+    "abstractEn": "What is the poverty rate in Mercer County, IL?  USAFacts",
+    "abstractZh": null,
+    "authors": [
+      "USAFacts"
+    ],
+    "institution": "USAFacts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hrorg:mercer:106146041d50",
+    "slug": "hrorg-mercer-106146041d50",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdjlSZ0xrRXVwdzFDQjlSVGNLYklHS0VtS002MjVSY29sOXBPT1VQZk1JOFZyaFZoYm9CVnUzWU9zSmZtb1ZlYUZfSTlMcmJoSnB6eWJINXhiOC1LbXlyWVh5RDZVOEtTNnpTYmFBaEZLSXl4b25NRXhhZWM2MVBfZlVJb2JzWUdl?oc=5",
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "titleEn": "What is the poverty rate in Mercer County, ND?",
+    "titleZh": null,
+    "abstractEn": "What is the poverty rate in Mercer County, ND?  USAFacts",
+    "abstractZh": null,
+    "authors": [
+      "USAFacts"
+    ],
+    "institution": "USAFacts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hrorg:mercer:0e58898f63bc",
+    "slug": "hrorg-mercer-0e58898f63bc",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN29HZGRXTWVtVDlSV1V5VWF0MTEwUEZCTmNVZ2xDSmk4MGt6MUZkWUxoWC1JOVA5S0NNa0hielZLS1BrRVRUOVdXZ3Z4dmNMTDE1NHl4MEgyQmxhNU5IeEk0Q1dCYWpTSE9JTXNtRnpVT1VhQU8zWXFBUjM1YUV6bmlVSFFiaWIy?oc=5",
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "titleEn": "What is the poverty rate in Mercer County, KY?",
+    "titleZh": null,
+    "abstractEn": "What is the poverty rate in Mercer County, KY?  USAFacts",
+    "abstractZh": null,
+    "authors": [
+      "USAFacts"
+    ],
+    "institution": "USAFacts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hrorg:mercer:1f72c7700d99",
+    "slug": "hrorg-mercer-1f72c7700d99",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWFVkcmN2QWJmSkowWndiaFRtQkJNSFNVYm9OM1U0V1p4dVpUaWFyek5rYWlBYzN3T0FDQnVDYVdrN00wdjBySGstSmh4MTN6LVUyZmJCV3hsblo5aDJKVXRIbWlkZHVxSlhsNHhpS1lNaUY3dGVsemRyNzJpQmtzYk4tZmFzN2JS?oc=5",
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "titleEn": "What is the poverty rate in Mercer County, WV?",
+    "titleZh": null,
+    "abstractEn": "What is the poverty rate in Mercer County, WV?  USAFacts",
+    "abstractZh": null,
+    "authors": [
+      "USAFacts"
+    ],
+    "institution": "USAFacts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
+    "id": "hrorg:mercer:3b4a58f67ae7",
+    "slug": "hrorg-mercer-3b4a58f67ae7",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU01DUmNSZUUtcE9nVExRV2JlSGRkaTZsZ3VmY0VnRXJsVFlhSC13ZDVOdUJ0dnpoNkozd2FqU05fTjhfUlVhcXZsZnFiT1hfdDNDODM1ZmVuNnAwSUtxcHpoV3FYWndVR2tkbFhLWG1lUDUxVFdENmhkcnVJbHdDU2pLQ2UtYy0z?oc=5",
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "titleEn": "What is the poverty rate in Mercer County, OH?",
+    "titleZh": null,
+    "abstractEn": "What is the poverty rate in Mercer County, OH?  USAFacts",
+    "abstractZh": null,
+    "authors": [
+      "USAFacts"
+    ],
+    "institution": "USAFacts",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
     "id": "hrorg:mercer:eaa1116815a4",
     "slug": "hrorg-mercer-eaa1116815a4",
     "source": "Mercer",
@@ -3010,7 +3850,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "gnews:4c3767bbcf30",
@@ -4658,7 +5499,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-nptvaexr4qatouip-html",
@@ -13777,6 +14619,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:recruit:4f7d255d3e46",
+    "slug": "hrorg-recruit-4f7d255d3e46",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONVp5ZW9WTTVJOFhERjRZdHo4XzlyeTY0MjlhcnJjN2tJVWp4a0tfRV9uOGFFX1R1RDNEU05zdmo3R3JSRkFDUF9nektfMXVsaVo2Snd1NGZzMTNzQkFHTjVPYVFhMS1UTkh3X21zeG14dzRNVi1oVVF5aWYxLXMwZUpqcG1uSHV2emhHc1VBUnhwRy0zR01XZWUxNVY4Q21GLUtHY3ZPcXpac3FPakh5NzQ3cDk?oc=5",
+    "publishedAt": "2026-05-19T07:00:00.000Z",
+    "titleEn": "Recruit Holdings Lifts Profit Forecast to Record, Fueled by AI Expansion - Quarterly Profit Report",
+    "titleZh": null,
+    "abstractEn": "Recruit Holdings Lifts Profit Forecast to Record, Fueled by AI Expansion - Quarterly Profit Report  newsline.com",
+    "abstractZh": null,
+    "authors": [
+      "newsline.com"
+    ],
+    "institution": "newsline.com",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
+  },
+  {
     "id": "hrorg:careerin:d892c622f23f",
     "slug": "hrorg-careerin-d892c622f23f",
     "source": "科锐国际",
@@ -18654,7 +19520,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-05-30T08:13:42.806Z"
+    "fetchedAt": "2026-05-30T08:13:42.806Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-zaobao-rod6wpuraa8maopv-html",
@@ -28189,6 +29056,30 @@
     ],
     "fetchedAt": "2026-05-07T01:38:40.889Z",
     "featured": false
+  },
+  {
+    "id": "hrorg:recruit:ff0933be5ee5",
+    "slug": "hrorg-recruit-ff0933be5ee5",
+    "source": "Recruit Holdings",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc293MU5tdkxlZE9KSWdyRTktV2lJejlGWDh1YmRobVhrTmM2M3E2cHBESzZISHRIcmxwbEtHS2l4MFo0QUp6b294YjQ0UjVaVnlXWV9iYmdObDVXSFk0RFdKRjBlaVNpMDg1VFVRMWdwakpyZnZ4NlhRc0w1dkkwbldYNDZVdEtxcXhCR1BoeVZLWmVKbHc?oc=5",
+    "publishedAt": "2026-05-06T07:00:00.000Z",
+    "titleEn": "Q1 2026 Canadian Labour Market Update: Youth Labour Market Struggles Continue",
+    "titleZh": null,
+    "abstractEn": "Q1 2026 Canadian Labour Market Update: Youth Labour Market Struggles Continue  Indeed Hiring Lab",
+    "abstractZh": null,
+    "authors": [
+      "Indeed Hiring Lab"
+    ],
+    "institution": "Indeed Hiring Lab",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-05-31T08:32:59.737Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-transportation-ufaibggyeorcdl9x-html",
