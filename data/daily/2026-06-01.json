@@ -1,0 +1,1062 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T11:03:30.222Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48354800",
+      "slug": "hn-48354800-china-aims-a-i-at-predicting-who-could-pose-a-political-risk",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48354800",
+      "publishedAt": "2026-06-01T10:09:02.000Z",
+      "titleEn": "China Aims A.I. At Predicting Who Could Pose a Political Risk",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "uxhacker"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:b5f85eec59f5",
+      "slug": "gnews-b5f85eec59f5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTFMZWx6YTdLSWNadTVOdW1LWWxXMC1IWjZDZTNBZUdMNXdVWGxkSmNyVjltZmtqNWczdUVXX2lNdDh2T0ZUNUdWeHVEWkR5UGFNQVVGWUhERXhWY1dnT2hnSmdJVHE4Q3dwZHVIT1VtbExodHJjVlZjY1dENVVWT0p6X0cybmo1SWpSNDN6cWdXeUI1Ym9VaThHMmpsaWI5R3pSTDRNRHNfUUtuUkJnbHc2NzZqQQ?oc=5",
+      "publishedAt": "2026-06-01T10:02:03.000Z",
+      "titleEn": "How is LFUCG using artificial intelligence? Council will review city's AI policy this week",
+      "titleZh": null,
+      "abstractEn": "How is LFUCG using artificial intelligence? Council will review city's AI policy this week  CivicLex",
+      "abstractZh": null,
+      "authors": [
+        "CivicLex"
+      ],
+      "institution": "CivicLex",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:98c8818e63e1",
+      "slug": "gnews-98c8818e63e1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ2d4YWxpOXpYMGdUOGNBVktOSFpYYTU5YVRiMEl4U1VUVThYYWpzM25NdUVFYzRjcjEtZmRLbFZ1SUtnNHhCS2lFeG10OTRLeDk0UGlzWFB2Tnd2Um1SU0paeGNHUVpxTHIxTmZoZnBjOTNia09pQTlIclJMWkk0VTJfOTJfRXlpejNFR1JEeDVwWjVOZk1IQ2hCeERRZ08yY2FPRVhsa01jRUE?oc=5",
+      "publishedAt": "2026-06-01T09:32:35.000Z",
+      "titleEn": "Fewer than 30% of Belgian firms have AI policy, 25% update cybersecurity",
+      "titleZh": null,
+      "abstractEn": "Fewer than 30% of Belgian firms have AI policy, 25% update cybersecurity  Mobile Europe",
+      "abstractZh": null,
+      "authors": [
+        "Mobile Europe"
+      ],
+      "institution": "Mobile Europe",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48354405",
+      "slug": "hn-48354405-why-are-large-language-models-so-terrible-at-video-games",
+      "source": "Hacker News",
+      "sourceUrl": "https://spectrum.ieee.org/ai-video-games-llms-togelius",
+      "commentUrl": "https://news.ycombinator.com/item?id=48354405",
+      "publishedAt": "2026-06-01T09:14:26.000Z",
+      "titleEn": "Why are large language models so terrible at video games?",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "sxx0"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 17,
+      "commentCount": 22,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-jnbgw8kfbf9d8qk6-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/jnBGW8KfBf9D8qk6.html",
+      "publishedAt": "2026-06-01T08:51:00.000Z",
+      "titleEn": "除了外卖，京东还在押注什么？",
+      "titleZh": "除了外卖，京东还在押注什么？",
+      "abstractEn": "5月12日港股盘后，京东公布了2026年Q1季报。\n营收方面，一季度，京东集团实现营收 3,157 亿元（458亿美元），同比增长 4.9%。这一数字不仅高于高盛此前的预期（3%），也优于市场一致预期（2%-4%）。\n利润方面，一季度，京东集团归母净利润为 51 亿元（7亿美元），去年同期为 109 亿元，同比下降 53.15%；非美国通用会计准则下（Non-GAAP）净利润 74 亿元（11亿美元），去年同期为 128 亿元。同比下降 43.5%。此前市场普遍预计同比下降 50%-60%。\n超预期的财报，反映在当日股价上。京东美股盘前一度拉升涨超4%，收盘涨幅收窄至1.3%。次日，京东港股股价则高开高走，一度涨幅超过8%，截至收盘，报 128.200 港元/股，创 2026 年以来股价新高。\n然而，看似稳健的态势，却难掩京东面临的多重现实压力。国补退坡的冲击还将持续，核心 3C 家电品类",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-m7frxnngfyhqck0q-html",
+      "slug": "vol-13",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/M7FRXnNgfYHQcK0q.html",
+      "publishedAt": "2026-06-01T08:38:00.000Z",
+      "titleEn": "喜马拉雅曾设“流程效率部”，因无效率改“流程部”；红薯厂曾力推 “男人计划”；某厂高管圈把沙漠当会议室丨鲸犀情报局Vol.13",
+      "titleZh": "喜马拉雅曾设“流程效率部”，因无效率改“流程部”；红薯厂曾力推 “男人计划”；某厂高管圈把沙漠当会议室丨鲸犀情报局Vol.13",
+      "abstractEn": "制定「男人计划」，红薯厂比大家想象的更渴求男性用户 \n都说“男性消费不如狗”，但没有男性用户的平台可能也不行。\n有消息人士透露，红薯厂曾经找过陌陌的一位高管加入，只为提高男性用户比例，据说当时搞了不少有个性的特色内容。\r\n不仅如此，该厂的一位前员工透露，2022年-2023年间，其创始人曾牵头拉过一个名为「男人计划」的项目，试图增加平台男性用户比例。为此，该平台在后来一段时间内大力发展运动、户外等等品类。\r\n不过，从后续结果来看，其男性用户比例似乎并没有太大变动，看来社区属性真的很难改。\n喜马拉雅为提效曾设”流程效率部“，因没有效率所以改名为“流程部”\n喜马拉雅有一个地狱段子，在被鹅厂收购前，公司内部早已是一团乱麻。大批员工消极怠工，上班纯摆烂，摸鱼划水成常态。\n据说公司原来专门设有一个流程效率部，初衷是想提升“效率”，结果被现实狠狠打脸，该部门运营效率低到离谱。估计内部自己都觉得这名字太",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-2zfxer1gabpabwik-html",
+      "slug": "3-0-agent",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/2zFXEr1gabpabWik.html",
+      "publishedAt": "2026-06-01T08:21:00.000Z",
+      "titleEn": "扣子 3.0 正式上线，开启Agent 团队协作新方式",
+      "titleZh": "扣子 3.0 正式上线，开启Agent 团队协作新方式",
+      "abstractEn": "6月1日，扣子 3.0 正式上线，扣子手机端 （iOS / Android）、电脑端（Mac OS / Windows）、网页端三端全量更新。\n \n扣子 3.0 提出了 AI 团队协作方式的全新架构，将 Agent 带入更完整的工作现场。在扣子 3.0 中，Agent 可以被创建、接入和随时调度，任务可以被放进项目中拆解、分配和沉淀，行业技能包可以为复杂任务提供更专业的能力起点。而扣子的网页端、桌面端和手机 App 端，则让 Agent 有机会与用户的文件、本地设备和工作场景接通，让 AI 能够更深入地参与到真实的生产现场。\n \n自定义Agent开箱即用，支持云端创建和本地接入\n \n过去，用户通过单个 Agent 完成特定任务，但面对复杂任务时，单一Agent助手的局限性逐渐显现。在扣子 3.0 中，Agent 不再只有一种形态：用户能够添加自定义 Agent，组建自己的 Agent te",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-iot-u5vacportcnboiou-html",
+      "slug": "beyond-expo-2026-ai-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/iot/u5VaCPOrtcNboIOU.html",
+      "publishedAt": "2026-06-01T08:13:00.000Z",
+      "titleEn": "BEYOND  Expo 2026 现场观察：AI 加速落地物理世界，AI硬件集体「做专做深」",
+      "titleZh": "BEYOND  Expo 2026 现场观察：AI 加速落地物理世界，AI硬件集体「做专做深」",
+      "abstractEn": "作者｜吴优\n编辑｜刘伟\n\n5 月 27 日，BEYOND Expo 2026 在澳门启幕，本届展会以AI：数实共生为核心议题，近 800 家全球企业集中展示了 AI 从数字系统走向物理实体的最新成果。\n雷峰网在现场走访超20个展台后发现，行业正从概念炒作转向场景落地、垂直深耕，AI 硬件不再比拼 “大而全”，而是在细分场景里拼精准、拼体验、拼商业闭环。\n底座和终端厂商积极采取下一步行动，AI 走进物理世界\nBEYOND Expo 联合创始人贺建东在开幕式上直言，亚洲兼具软件模型创新与先进制造、硬件供应链能力，是 Physical AI 落地的核心阵地 —— 数字智能要扎根现实，必须有芯片、硬件、制造体系作为底座。\n现场最直观的信号，是底座厂商和终端厂商都在积极采取下一步行动：\nNVIDIA机器人与边缘AI副总裁Deepu Talla在主题演讲中提到，ChatGPT、Gemini 等数字AI",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-427332-html",
+      "slug": "api-top-10-ai-lab",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/427332.html",
+      "publishedAt": "2026-06-01T07:57:16.000Z",
+      "titleEn": "今天起，无限期免费！全球首个全模态API开放，Top 10 AI Lab出手",
+      "titleZh": "今天起，无限期免费！全球首个全模态API开放，Top 10 AI Lab出手",
+      "abstractEn": "文本图像视频都能用",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-academic-ylpyuwtgmbntc9yk-html",
+      "slug": "skill-slim-skill",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/academic/YlpyUWTgMBNTc9YK.html",
+      "publishedAt": "2026-06-01T07:34:00.000Z",
+      "titleEn": "港中文团队提出 Skill 生命周期管理 SLIM，让大模型智能体不再盲目堆积 Skill ！",
+      "titleZh": "港中文团队提出 Skill 生命周期管理 SLIM，让大模型智能体不再盲目堆积 Skill ！",
+      "abstractEn": "SLIM：让模型判断外部能力的去留，在复杂任务中保留真正有用的支撑。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n大模型智能体正在从“会聊天”走向“会做事”。\n在网页搜索、工具调用、自动办公、软件操作、具身机器人等场景中，智能体面对的不再是单轮问答，而是连续决策：它要理解任务目标，选择合适工具，执行多个步骤，并根据环境反馈不断调整行动。\n例如，一个家庭服务机器人要完成“把冷却后的物品放到指定位置”，不能只知道“冷却”是什么意思，还要先找到正确物体，判断物体状态，完成冷却操作，再确认是否放置成功；一个搜索问答智能体也不能只生成答案，而要先判断问题类型，检索",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-suoiiok6h6zir4qx-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/SUOiioK6H6zIr4qx.html",
+      "publishedAt": "2026-06-01T07:31:00.000Z",
+      "titleEn": "ICRA 2026|艾欧智能 ：从跨国遥操作到真实任务数据开放",
+      "titleZh": "ICRA 2026|艾欧智能 ：从跨国遥操作到真实任务数据开放",
+      "abstractEn": "原文作者：公众号“艾欧智能”\n原文链接：https://mp.weixin.qq.com/s/hqvxAUemcbsLmqBjQ2H4HA\n\n\n2026 年 6 月 1 日至 5 日，IEEE International Conference on Robotics & Automation（ICRA 2026）将在奥地利维也纳举办。作为机器人与自动化领域最具影响力的国际会议之一，ICRA 持续汇聚全球机器人研究机构、开发者与产业生态伙伴，共同推动机器人技术在真实世界中的研发与落地。\n\n\n\n今年，艾欧智能（IO-AI TECH）将继续亮相 ICRA 2026（Booth #106），并作为第二届 WBCD（What Bimanuals Can Do）Competition 的合作支持方之一，参与比赛相关数据支持与生态合作。\n\n\n什么是 WBCD？\n\n\n\nWBCD（What Bimanual",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:5e535b443079",
+      "slug": "gnews-5e535b443079",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOZlBoNGE2U1VOa1JLRmtURWFocUFfQ0VvdVdoc2M1bzJMREpRY1czQXFERk1TUTBZWHc5THYybnRYN2pLT3g4cGlKNDJWaXpSSkd3bUlGNW0xekRTNDZVb2NrYnN2am12aGw4czJXcE5qTkN5RHktZ2Z6M2hDbmd3czF0R2JlQVVZNlc5dUpFcE1zZ2p3OXhMRUo4NXR3VzI3aXJJaG40MWZqMUdOdXBpRXNfa0czOHVya1UtLUx1X1I3WmthcGU1SUFlQzVuVDBjcEUyTWw0ZlAzSDVzcy0tVG16Tld6eUFUZDRaWDA2Snh5MzQ2ZmpFQ0pVT1pubS1SZmlvUk5pTXlYR1JwcDl6VFNXdjdEbWxDOTNYdDZwUTh4bnNRRk9FbGpoNnlaWUhxRFVXdjdSMkhUY0x4NHl3NnNud0h0QmRqSFpOV19R?oc=5",
+      "publishedAt": "2026-06-01T07:27:24.000Z",
+      "titleEn": "3 AI Penny Stocks to Watch as Companies Embrace Artificial Intelligence",
+      "titleZh": null,
+      "abstractEn": "3 AI Penny Stocks to Watch as Companies Embrace Artificial Intelligence  Equitymaster",
+      "abstractZh": null,
+      "authors": [
+        "Equitymaster"
+      ],
+      "institution": "Equitymaster",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-aaoey1v3pku7wcor-html",
+      "slug": "icra-2026-3d-mast3r-nav",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/aAoey1V3pku7wCOR.html",
+      "publishedAt": "2026-06-01T07:19:00.000Z",
+      "titleEn": "ICRA 2026 | 像素级相对 3D 地图领航！MASt3R-Nav：打造高精度无全局重建视觉导航新范式",
+      "titleZh": "ICRA 2026 | 像素级相对 3D 地图领航！MASt3R-Nav：打造高精度无全局重建视觉导航新范式",
+      "abstractEn": "原文作者：公众号“视觉语言导航”\n原文链接：https://mp.weixin.qq.com/s/4dTxzJyX4bWfaNjziaQ3nQ\n\n\n\n作者：Vansh Garg¹†, Rohit Jayanti¹∗, Krish Pandya¹∗, Sarthak Chittawar¹∗, Siddharth Tourani²,³, Muhammad Haris Khan³, Sourav Garg¹‡, Madhava Krishna¹‡\n\n单位：¹印度海德拉巴国际信息技术研究所机器人研究中心，²德国海德堡大学，³穆罕默德·本·扎耶德人工智能大学\n\n论文标题：MASt3R-Nav: WayPixel Navigation in Relative 3D Maps\n\n论文链接：https://arxiv.org/abs/2605.24111\n\n项目主页：https://mast3r-nav.",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:a4c63b931ee8",
+      "slug": "gnews-a4c63b931ee8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUFdXZlMwWVZCYXEzZFpSaFZWTWJHTm83TGJYcG9xVDA2STBfSkdhZUNTQ0dFcjVMc0RxQnRIbWF4VHlJdjFQTDFNcWJqaF9fUFNsX0w4OWlOSWxVQzhoNjBTbmdMQ2hrQ2hSSG0xWHk0Y1NYRXRuUmc2N2RMQWdfSlBjcUxjVUhSbVE?oc=5",
+      "publishedAt": "2026-06-01T07:16:14.000Z",
+      "titleEn": "Safe AI Innovation Action Plan reshapes rail AI safety",
+      "titleZh": null,
+      "abstractEn": "Safe AI Innovation Action Plan reshapes rail AI safety  Railway Supply",
+      "abstractZh": null,
+      "authors": [
+        "Railway Supply"
+      ],
+      "institution": "Railway Supply",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-0fjdgewcdj37us9k-html",
+      "slug": "icra-2026-vpp-tc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/0fJDGewcDJ37Us9K.html",
+      "publishedAt": "2026-06-01T07:10:00.000Z",
+      "titleEn": "ICRA 2026 | VPP-TC: 基于可行性理论的被动力矩安全控制框架",
+      "titleZh": "ICRA 2026 | VPP-TC: 基于可行性理论的被动力矩安全控制框架",
+      "abstractEn": "原文作者：公众号“机器之心”\n原文链接：https://mp.weixin.qq.com/s/vPNP8686ZQ09KDzSMn-iaw\n\n\n本篇文章被 ICRA 2026 接收并获得 IROS 2025 双料 Workshop 最佳论文，第一作者张子哲(site: zizhe.io)是宾夕法尼亚大学机器人学硕士生，同时在 GRASP 实验室担任科研助理，导师为 Nadia Figueroa 教授，研究兴趣涵盖机器学习，安全控制以及人机交互。\n\n\n\n\n\n论文标题：Viability-Preserving Passive Torque Control\n\n\n\n论文链接：https://arxiv.org/abs/2510.03367\n\n\n\n项目主页：https://vpp-tc.github.io/webpage/\n\n\n\n一、一句话总结\n\n\n本文提出了 VPP-TC（Viability-Pr",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:d11ab66ae6a6",
+      "slug": "gnews-d11ab66ae6a6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWGNjWXlvMzdRVDZfZVNuM1JsbFg0RC02LTNFMFRPZkQ5OTZWaEZsTlJOczB5SXVnRG0xUWJNdXBtLXczYnlLV2tYVmRvTU5jVFpMM2tnTS11VllGWTVPUkNBdlNmZUFfZTNtck1SQl8yeDIwYUpzNEVCYjN0WTFXUU9fS3FpVEgtWWVZa1dvYU85QmJ1QlA3RUI2MUZ5S1NIVG5nMnExb25qVkNEM21qQlJTVU5JNC1OdE9QbF9FWVBRMVo0bGRLbGxEX2VqWmNuMkhwV2RMaTBmYUluODFn?oc=5",
+      "publishedAt": "2026-06-01T07:06:34.000Z",
+      "titleEn": "AI powered startup Handshake bags $3.2 million in funding from various retail technology investors",
+      "titleZh": null,
+      "abstractEn": "AI powered startup Handshake bags $3.2 million in funding from various retail technology investors  Retail Technology Innovation Hub",
+      "abstractZh": null,
+      "authors": [
+        "Retail Technology Innovation Hub"
+      ],
+      "institution": "Retail Technology Innovation Hub",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c23f339f9031",
+      "slug": "gnews-c23f339f9031",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOODZuM1ppek9yOGhMTkQ0bGxlclYtd3JJbWhCa2xuMUZMQ0V3YnlIejcwWmcxM3lydWlrbS1PUUxFMDVNZDkwM2VHeEM3cnd4bGVzeXlCbXF3SWlSemVCLVJINF9nb2xlVGhzVW1uS3hteDJPRjZfTFg4NXlTR2Nvbkc3Q2JXRExTc3FFQzY5OVlOUzluYVhKNjJIMTNNX3E0QzVHSnI1OUN2WWQ4OExPSzIzdENhaVdDM1FsWVF4ZEFYdw?oc=5",
+      "publishedAt": "2026-06-01T06:57:28.000Z",
+      "titleEn": "Anthropic OverTakes OpenAI in Valuation Race: What Does this Mean for the Future of ChatGPT?",
+      "titleZh": null,
+      "abstractEn": "Anthropic OverTakes OpenAI in Valuation Race: What Does this Mean for the Future of ChatGPT?  ITP.net",
+      "abstractZh": null,
+      "authors": [
+        "ITP.net"
+      ],
+      "institution": "ITP.net",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-6vkig3dftsfeqlty-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/6VkiG3DfTSFEqLty.html",
+      "publishedAt": "2026-06-01T06:57:00.000Z",
+      "titleEn": "ICRA 2026｜给机器人装上“驾驶舱”与“任务大脑”，一体化遥操作平台破解长时程复杂任务执行难题",
+      "titleZh": "ICRA 2026｜给机器人装上“驾驶舱”与“任务大脑”，一体化遥操作平台破解长时程复杂任务执行难题",
+      "abstractEn": "原文作者：公众号“交叉力学与智能系统”\n原文链接：https://mp.weixin.qq.com/s/mI8zvot0fBjmkZ-gra2Prw\n\n\n模仿学习是让机器人掌握复杂技能的重要途径，而高质量的遥操作演示数据是关键。现有移动操作系统常面临操控分离、协同困难、长时程任务推理能力不足等问题，限制了机器人在真实场景中的应用能力。\n\n核心创新一：RoboMatch 一体化遥操作平台\n\n单人协同操控：通过VR头显、主从机械臂与脚踏板集成，实现移动底盘与双臂的同步控制。\n\n沉浸式感知：多视角视觉反馈与运动映射，提升操作直观性与数据采集效率。\n\n硬件系统：搭载7自由度从臂（ViperX-300）、差分驱动移动底盘、末端IMU与主臂（WidowX-250），构建高拟人化操控体验。\n\n核心创新二：感知增强扩散策略（PVE-DP）\n\n空间-频域视觉融合：提出FE-EMA模块，结合离散小波变换提取多",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:c80e70510684",
+      "slug": "gnews-c80e70510684",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGZaejJMdFdzZW13MlRod21HS1RadVBQbkJFM2VCaEpnb3BPYjJxTU9IMUxYaVdjQng2dnpUUUVyNHFWUm9NTFFUbWxPbkkxb1FoQUdNVTFmWWJqeDFWVVpsdDZTUXEwM3AzZ1owNTNBVXBlZE05YTZjTzV1c0VQanRFWDA5QVRmSUMxTmRBcWhyUHZuVS1ma1h4a191bzJMeFhfVw?oc=5",
+      "publishedAt": "2026-06-01T06:55:00.000Z",
+      "titleEn": "South Africa Sets January 2027 Public Comment Date for Revised National AI Policy",
+      "titleZh": null,
+      "abstractEn": "South Africa Sets January 2027 Public Comment Date for Revised National AI Policy  iAfrica.com",
+      "abstractZh": null,
+      "authors": [
+        "iAfrica.com"
+      ],
+      "institution": "iAfrica.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-wnehghgcugo5coew-html",
+      "slug": "icra-2026-vla",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/WNEhGhgcUGO5coEw.html",
+      "publishedAt": "2026-06-01T06:46:00.000Z",
+      "titleEn": "已登ICRA 2026，VLA实用化路线彻底杀疯了！",
+      "titleZh": "已登ICRA 2026，VLA实用化路线彻底杀疯了！",
+      "abstractEn": "原文作者：公众号“计算机顶会大全”\n原文链接：https://mp.weixin.qq.com/s/SbiHonAq0qYEP-sC-sB-bA\n\n\n近期顶会工作来看，VLA正在进入新阶段：不只是能做任务，而是要能稳定、低成本、跨场景地落地到真实机器人系统中。\n这类研究共同释放了一个信号：具身智能的竞争点正在从大模型能力展示转向实用化能力验证。一方面，研究开始关注多机器人本体、导航与操作统一、仿真到真实迁移等真实部署问题；另一方面，评测标准也不再只看平均成功率，而是更重视空间扰动、物体变化、语言歧义和任务复杂度下的鲁棒性退化。同时，力觉、触觉等非视觉模态也开始被纳入VLA框架，用来解决接触丰富操作中的精细控制难题。本文整理了20篇 VLA实用化相关前沿论文。\n论文介绍：\nICRA 2026| Rethinking the Practicality of Vision-language-ac",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ncqprk6kfq7a3l4o-html",
+      "slug": "flex-2-icra",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/nCQprK6kFq7a3L4O.html",
+      "publishedAt": "2026-06-01T06:13:00.000Z",
+      "titleEn": "相约维也纳，Flex 2混驱灵巧手ICRA线下首发",
+      "titleZh": "相约维也纳，Flex 2混驱灵巧手ICRA线下首发",
+      "abstractEn": "原文作者：公众号“Xynova曦诺未来”\n原文链接：https://mp.weixin.qq.com/s/YclHbokp7XJaM-Uft86cEw\n\n\n\n距离ICRA开幕还剩1天，“Robots for all”的风已经吹遍了全球各地，数据显示：已有86个国家参展2026 ICRA，除了中国、美国外，日本、韩国、德国、沙特等国家的投资机构、研究机构、高校实验室以及企业等行业顶尖学、研、产资源，已在奔赴维也纳·奥地利·ICRA展会现场的路上。\n\n\n\n\n\n\n\nICRA之所以被称为具身智能领域的“奥林匹克”，影响力不止体现在地域上，还和每年大量投递的顶尖学术研究有关。据雷峰网报道：2026 ICRA已收到4947篇投稿，1882篇论文将被接收，是创办40多年以来投稿量、接收量最多的一年。\n\n\n这里不仅是学术交流的殿堂，更是洞察全球自动化与具身智能趋势的前沿窗口。\n\n\n“ICRA是离机器人落地",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-427238-html",
+      "slug": "openai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/427238.html",
+      "publishedAt": "2026-06-01T06:11:12.000Z",
+      "titleEn": "OpenAI重返机器人赛道！四大核心岗位开招",
+      "titleZh": "OpenAI重返机器人赛道！四大核心岗位开招",
+      "abstractEn": "年薪超200万",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ewhqcj70eutvgzbl-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/EWHqCJ70eUtVGZBL.html",
+      "publishedAt": "2026-06-01T06:07:00.000Z",
+      "titleEn": "ICRA 2026 | 深度强化学习团队工作速览",
+      "titleZh": "ICRA 2026 | 深度强化学习团队工作速览",
+      "abstractEn": "原文作者：公众号“深度强化学习 CASIA”\n原文链接：https://mp.weixin.qq.com/s/amDj0sH1O1fr1OalrJr9Qw\n\n\n\n\n\n01. Data Scaling Laws for Imitation Learning-Based End-to-End Autonomous Driving\n\n\n\n作者：Yupeng Zheng，Pengxuan Yang，Zhongpu Xia，Qichao Zhang，Yuhang Zheng，Bu Jin，Teng Zhang，Ben Lu，Chao Han，Xianpeng Lang，Xiangyuan Lan，Dongbin Zhao\n\n端到端自动驾驶因其强大的可扩展性，正在成为自动驾驶领域的重要发展方向。然而，现有方法始终受限于真实驾驶数据规模不足，导致人们对端到端自动驾驶“数据 scaling law（规模规",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-427141-html",
+      "slug": "token-aigc2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/427141.html",
+      "publishedAt": "2026-06-01T05:32:24.000Z",
+      "titleEn": "Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026",
+      "titleZh": "Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026",
+      "abstractEn": "Demo从来都不难做，难的是让它在企业生产环境里真正跑起来",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48352951",
+      "slug": "hn-48352951-nvidia-announces-rtx-spark",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date",
+      "commentUrl": "https://news.ycombinator.com/item?id=48352951",
+      "publishedAt": "2026-06-01T05:26:06.000Z",
+      "titleEn": "Nvidia Announces RTX Spark",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rayhaanj"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 14,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-427142-html",
+      "slug": "alphafold-40-sota-ai4s",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/427142.html",
+      "publishedAt": "2026-06-01T05:25:27.000Z",
+      "titleEn": "材料版AlphaFold来了！40个工业任务全方位SOTA，AI4S迎来行业大突破",
+      "titleZh": "材料版AlphaFold来了！40个工业任务全方位SOTA，AI4S迎来行业大突破",
+      "abstractEn": "叠加LLM“训练buff”，材料AI终于学会了“物理直觉”",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:2fef352543da",
+      "slug": "gnews-2fef352543da",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWUVqMlM0VTdCbTg2TFpDVUZNc0JXMXVfVm83S0hOdXBOUVQ0UmphdUdjaDBaem9uX1BnTFpfRU5fazhrYnNrUlNnb01oa1VUakFTc2RLR0x5N3NUbVhQRjU4dU52Z2pGbzFoRWdtZXJDbEEwVWdPRkRGcG1VWXpoQjNCSkgwelR2VmhuNkhpTWFyS3NscDVKR1NiWXFyUVFqZGhpMDh5M3B2aHVCT05lcVR0OGVRcFE2Q2t5NWkwLTlxTU9FanJYdlFWTnRzZ9IB0wFBVV95cUxOOWs1dlJtRlpoVzIzaE9BZ0ItRmN1UkpBWUx2eFo5NnVFb2tJb09fT2dxR2NpV1IxMUQzcGNWazN1WU5DekI0MFJkYVJ0T3VNS0JkMmlHOURLRjdIdUctRlVpT0M5aVZVZkNWUGMwZ1FFVFQtR2FURUNFeWR5MVFQX05BY2hnajNDWXRXZWZ4ZVBXX0RFS0h4emU0bWFzS0ZzV2RWSUxiVDhrdnV6ejhPRXpPSkhqdnlfdFlfbi1XVVZGeTQtLUhGcG02YUxmVUpORjZv?oc=5",
+      "publishedAt": "2026-06-01T04:56:30.000Z",
+      "titleEn": "Did Trend Micro’s (TSE:4704) Anthropic-Powered AI Security Push Just Reframe Its Investment Narrative?",
+      "titleZh": null,
+      "abstractEn": "Did Trend Micro’s (TSE:4704) Anthropic-Powered AI Security Push Just Reframe Its Investment Narrative?  simplywall.st",
+      "abstractZh": null,
+      "authors": [
+        "simplywall.st"
+      ],
+      "institution": "simplywall.st",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f0bb02d81e41",
+      "slug": "gnews-f0bb02d81e41",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd3ZmeXE5cy0zbU1fZ1dTMjhSZWoxZkVGZHVpbDd0NVAzejJ1Nk9teTZWWExPQ3dkTlNUd2xMQW94djRHOGVta3ByS3ZHMkVxeUZaemFJQmRJa2gxanpySFlxN2l6LWxsZHlacEZmdlZCNVR1RjBmZkx5S0N0OHZRNVA4YjFiWjU4V3dvZDNFbTM4dlRGd2N4YjYzYi1EZ0lGeE45YWgzWGJCWTlKQUdKWEh3?oc=5",
+      "publishedAt": "2026-06-01T04:56:00.000Z",
+      "titleEn": "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
+      "titleZh": null,
+      "abstractEn": "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip  Bloomberg.com",
+      "abstractZh": null,
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-qrm9kqs2werl2ojo-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/QrM9kQS2werl2oJO.html",
+      "publishedAt": "2026-06-01T04:36:00.000Z",
+      "titleEn": "蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资 领跑具身智能无本体数据赛道",
+      "titleZh": "蚂蚁、滴滴、德联领投，简智机器人完成数亿元多轮融资 领跑具身智能无本体数据赛道",
+      "abstractEn": "今日，具身智能解决方案服务商 ——简智机器人宣布完成连续多轮共数亿元融资，分别由蚂蚁集团、滴滴、德联资本领投，顺为资本、BV百度风投、九识智能等老股东持续跟投，该融资为具身智能无本体数据领域迄今最大规模融资，这也意味着简智机器人成为该领域累计融资金额最多的公司。\n此次融资既是资本市场对简智机器人综合实力的强力加持，更是行业对其核心技术、产品落地能力与赛道引领价值的高度认可。后续各方将围绕业务协同、产品赋能、场景共建等维度展开深度联动，共同推动具身智能数据基建产业高质量发展，加速人工智能从数字虚拟世界深度落地真实物理世界。\n深耕具身智能数据赛道，简智机器人坚信具身模型的快速成长提升需要高质量的数据驱动，而非低质量数据的堆砌。\n因此简智机器人以“从模型定义数据标准”，将高保真、多模态人类行为数据作为核心解决方案，前瞻性搭建完整数据产品矩阵，落地可规模化、高效的大规模数据生成路径。凭借超前的技术",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:65ddff1032e4",
+      "slug": "gnews-65ddff1032e4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93NVpOYWlxd21mVDRTbFdhbWJDUGVZOVdZWGhRbDFRc01RVnZYM3A3T0llcDE0MHhRWGRzaElwaTFhQUhkU2xNb3N6OG5HUmIzdlEyTFNReFBValhIbmppT3RwaDc1R014aTBnZU0xcEZBV2kybWFpNDB3?oc=5",
+      "publishedAt": "2026-06-01T04:05:44.000Z",
+      "titleEn": "Anthropic’s $65bn round begs the question: ‘Is Europe cooked?’",
+      "titleZh": null,
+      "abstractEn": "Anthropic’s $65bn round begs the question: ‘Is Europe cooked?’  Sifted",
+      "abstractZh": null,
+      "authors": [
+        "Sifted"
+      ],
+      "institution": "Sifted",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-7mrltb2ali3yeudd-html",
+      "slug": "watch-gt-runner-2",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/7MRLtB2ALi3yeudd.html",
+      "publishedAt": "2026-06-01T03:56:00.000Z",
+      "titleEn": "以科技与基普乔格共同赋能跑者，华为WATCH GT Runner 2赛道传奇款发布",
+      "titleZh": "以科技与基普乔格共同赋能跑者，华为WATCH GT Runner 2赛道传奇款发布",
+      "abstractEn": "虽然全球智能穿戴行业集中激烈，但华为穿戴始终占据引领者地位。全球累计出货量突破2亿台，且常年稳居国内腕戴设备市场出货量第一，是全球为数不多在专业穿戴赛道实现规模化、高端化、专业化同步发展的品牌。\n伴随着华为NOVA 16系列及全场景新品发布会的如期举行，华为携手两届奥运会马拉松冠军、华为WATCH GT Runner全球代言人基普乔格深度共创的华为WATCH GT Runner 2赛道传奇款正式发布，作为华为深耕专业跑步赛道、完善运动穿戴生态的又一重磅级产品，进一步夯实其在专业智能跑表领域的引领地位与市场统治力。\n\n▼精神赋能产品：携手跑神基普乔格，四大赛道精神扎根腕间\n区别于市面上多数只重参数的智能手表，华为此次深度联动全球马拉松传奇跑者、品牌跑表代言人基普乔格，将其深耕赛场二十年自律、突破、无畏、坚韧的的赛道精神，融入华为WATCH GT Runner 2赛道传奇款的设计与体验中，为设",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:f0c394d37b47",
+      "slug": "gnews-f0c394d37b47",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPWUVHaVFGRU0zazZFOHVKVUVQeGwxMGNlQkdHNGtMRC1iRjNJVG1QN3drM2RfNGJNdC1lMklvcXJDbXd4T2otYUJQT29QWDBIMUdqOWNKTzFVUW5VQXh4Q1pWSEp4em9FSzFNdTNKTnpYZmxKOEtVeHJNYVlaRHNUVWlkQ2JxRFVqbUpuUG92dVk2WnlycTRPUkVwbXJaSS0zODBubnYzeDFFcy1ncGtVbTlxMG5ZM0RGZDdTY2dQVjg0Tmo2b28yd085TnpWdnNfc29ha3RMNzF1WHR5RlpZZFlmNVhFRUhYMzRwLTBuRjBKaVBrRFZ1RDJUaWtMUdIBgwJBVV95cUxOakJvc0lybDdTaXJibGJ0THJFV3lYT0JlWkJMUnNfcUN2T1duaDFTYlZzZWJrM3F1Tlo3eElrUXVLNjlhY1hIM0dOTkZvd3I2bnRycTRfajVVZzVXdnR0b05yazUzaGF6YUtra1hwRUlBTmdUYkFlMmdGRkhvVy11SjMwdlNSS014enFwUlFaZlZ0TW0xSElzenVVa1VjNkU0M3NwQ09Mc3NYcl9uLXo4MFlUM3ZSNDEya2N0UzVkcEdBV2hMUXJyUm5KS3ZMeVZlaHZuMGJkRHkwTm0tZXd2MzA4bFZTVTZmcVpiU2h6X0YyWUdkOWVRREFFMFpqZ085aWp3?oc=5",
+      "publishedAt": "2026-06-01T03:18:21.000Z",
+      "titleEn": "Anthropic becomes world’s most valuable AI startup with $965 billion valuation; overtakes Sam Altman’s...",
+      "titleZh": null,
+      "abstractEn": "Anthropic becomes world’s most valuable AI startup with $965 billion valuation; overtakes Sam Altman’s...  Moneycontrol.com",
+      "abstractZh": null,
+      "authors": [
+        "Moneycontrol.com"
+      ],
+      "institution": "Moneycontrol.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ofi28p4yubmnsemb-html",
+      "slug": "vla-28-icra",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/Ofi28P4YUbmNSemb.html",
+      "publishedAt": "2026-06-01T02:41:00.000Z",
+      "titleEn": "正式开幕！大鼠外骨骼出圈，VLA路线分歧开幕日白热化，28篇论文集中亮相｜ICRA 专区日报",
+      "titleZh": "正式开幕！大鼠外骨骼出圈，VLA路线分歧开幕日白热化，28篇论文集中亮相｜ICRA 专区日报",
+      "abstractEn": "[导语] 大会首日开幕，大鼠外骨骼爆红，28篇论文扎堆登场。\n雷峰网现场播报，ICRA 2026 今日于维也纳正式开幕，8000+学者同场，首日便掀起三波浪潮：全球首个大鼠后肢外骨骼以836个赞刷新整个采集周期互动记录，一举出圈；RL4IL Workshop开幕，Jason Ma（RL优化现实策略）与行为克隆阵营的技术路线分歧在开幕首日白热化；与此同时，触觉感知、VLA操控、SLAM与透明物体感知等方向共28篇论文集中亮相，机器人操控能力正迎来全线突破。这是机器人学界一年一度的最强集结——以下三大热门议题带你抢先锁定ICRA 2026开幕日最值得关注的内容。\n \n热门议题一：神经康复新突破——大鼠外骨骼出圈引发触觉感知浪潮\n摘要：机器人能感受「触摸」，才算真的懂得如何「动手」。ICRA 2026开幕首日，一篇大鼠后肢外骨骼的论文刷新了整个采集周期的互动纪录，意外成为全场出圈王。这不只是动物",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:543ac158d2de",
+      "slug": "gnews-543ac158d2de",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPXy1xZ0FwX1Q4N2Rrb00zOGJHV3FjSzQ4WEcwYVVBRXpIOGhEYV83VDB3d3ZWRkxCanpZaXAtMmM1Q0lUcTdhdWtqdVBTa3BrVEdtUTVWNGhkY0dlZVIyVk5DbzliWDhURVNfWGtGeXZGVEF2MHdIYnl5YWQ3UEJwSzA3N205c3RIbzFYWm9HSlRrWElEekxFbmdRX2RzUm8?oc=5",
+      "publishedAt": "2026-06-01T02:27:02.000Z",
+      "titleEn": "Pope Leo XIV Issues Encyclical Calling for AI Regulation",
+      "titleZh": null,
+      "abstractEn": "Pope Leo XIV Issues Encyclical Calling for AI Regulation  Let's Data Science",
+      "abstractZh": null,
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-hju13ehi2jwnfvkz-html",
+      "slug": "meta-xr",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/HjU13eHI2jwnFvkZ.html",
+      "publishedAt": "2026-06-01T02:24:00.000Z",
+      "titleEn": "苹果、Meta 之外，XR 眼镜行业距离真正的爆发还有多远？",
+      "titleZh": "苹果、Meta 之外，XR 眼镜行业距离真正的爆发还有多远？",
+      "abstractEn": "过去几年，XR 眼镜行业似乎始终处于尴尬境地。\n\n\n\n一边是行业不断追求更大的 FOV、更轻的重量、更复杂的 AI 功能参数、概念与技术路线快速迭代，整个赛道仿佛陷入一场关于“未来形态”的军备竞赛。\n另一边，一个更现实的问题却始终悬在头顶：用户愿不愿意戴，或者说，愿不愿意长期戴？\n这也是 XR 眼镜行业过去几年始终没有真正迎来大规模爆发的一大原因。\n“大家高估了一两年的爆发，却低估了 5 到 10 年的底层变革。“5月20日，在VITURE Beast 新品发布会期间，创始人姜公略面对雷峰网，给出的判断显得很冷静。在他看来，XR 乃至整个眼镜行业至今仍未形成真正的共识。大家都笃信眼镜是下一代终端，却没人知道究竟该如何走向终局。\n这种\"无共识\"的状态，让不同玩家给出了完全不同的答案。有人押注全天候的 AI 信息眼镜，有人豪赌沉浸式的空间计算，有人则试图把产品做得更轻、更小、更像“未来”，而V",
+      "abstractZh": null,
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:f82ac0b49410",
+      "slug": "gnews-f82ac0b49410",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYUU3RUZ2djN2Y182R0FXbEhMVnRGZUFXNzg4TFV3ZlZENi13ckhXbFRYZENRWm9ma0RTMTVaU3F0RG1mR19tOXNGTWlUVl9XZHpybXQ4S0tuR3pya0liUkJjX2N0X3VuZXZNdV9OeDBIWnVkdHVkZ29IaUNXR0JLdFpHd2llRUJ1NV9WLTlxNDNoZDdtR3g0UWtfR0ZNMDJJWm9ZSEhpQm9mUklIdW9mNFI4SmxQUmM4d2Z1dXRDd2pMVk9pcjRCZjNHRDhac1M0a2VoakJVVkZUWW1NSTRJOUdvcTU0NFFiRDNvN9IB8gFBVV95cUxQU0FQcFVKRjFCdEI5bm1mSHpQVjNDbzlRRDVaRmF4YnQ2emEwdFNQQmFXelhPQXc0OVZwSVlWVmwtUGtZYmpQZnNBQTEyNEdiNFhSMDBVYzM4QmtzX254YnJFU0V4RFF3UVYwSHBIRGt5YS0xNDVBbURCdzRSd204YllWY1cxcllmYno5cVg2UTdoeUFHdjhMOUdlNFNwQWxtYjlfSm0zNUc5cFRvaHp4bXRKa1djYnlQY2syVzRMdmhCZXZjQW91QnduYlJ1RUE5V2tlZkNoekMzc0o2ZGVKcDRJVzV3NmNqNjJPbGRwcDFCdw?oc=5",
+      "publishedAt": "2026-06-01T01:49:50.000Z",
+      "titleEn": "Anthropic overtakes OpenAI as the world's most valuable startup after latest funding round",
+      "titleZh": null,
+      "abstractEn": "Anthropic overtakes OpenAI as the world's most valuable startup after latest funding round  India Today",
+      "abstractZh": null,
+      "authors": [
+        "India Today"
+      ],
+      "institution": "India Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48351721",
+      "slug": "hn-48351721-unlawful-by-design-exposing-the-human-rights-costs-of-generative-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48351721",
+      "publishedAt": "2026-06-01T01:41:59.000Z",
+      "titleEn": "Unlawful by design: Exposing the human rights costs of generative AI",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "cratermoon"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:daf0df594cf2",
+      "slug": "gnews-daf0df594cf2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTnpHejJHSGx6WlpXUTk5MWNkaXdJZDJLc0otaFhPcHVCYnBrVUxxYTNpWTJ2dFJpcVlTUHFjWmx0WVdTbUM1aXdLRGJ6ZFktOUtOZzhXeVoyS3EzX0JfV3B2MExDUmE5WEIzUjBXaC1uR2pqTjFSS3hGc2ZUdTZ3Q2hNeG1NWWRHY3ctaHFkWjJWcEp2?oc=5",
+      "publishedAt": "2026-06-01T00:02:06.000Z",
+      "titleEn": "US Bets on Greenland Acquisition",
+      "titleZh": null,
+      "abstractEn": "US Bets on Greenland Acquisition  StartupHub.ai",
+      "abstractZh": null,
+      "authors": [
+        "StartupHub.ai"
+      ],
+      "institution": "StartupHub.ai",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:38c38f73476b",
+      "slug": "gnews-38c38f73476b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFlGQnB6Yk9oWWRFY2hwSTFQZnhfNlRMWkNUVkdtT0tHbHhHNFVQV0V5ZnZIRzM3c3VTQlRzb2VlaGRodXhxQ1B6RklTRE8zcmpsSFdFbm5GRlBtQW5FMWhTME4zbElFYV9NbGh4SHNzd2RlNHFrUmJJU3NwTWx6UlIxNl84ak0?oc=5",
+      "publishedAt": "2026-05-31T23:15:53.000Z",
+      "titleEn": "The Weekly Notable Startup Funding Report: 6/1/26",
+      "titleZh": null,
+      "abstractEn": "The Weekly Notable Startup Funding Report: 6/1/26  AlleyWatch",
+      "abstractZh": null,
+      "authors": [
+        "AlleyWatch"
+      ],
+      "institution": "AlleyWatch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48349487",
+      "slug": "hn-48349487-chatgpt-for-google-sheets-exfiltrates-workbooks",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "commentUrl": "https://news.ycombinator.com/item?id=48349487",
+      "publishedAt": "2026-05-31T20:35:38.000Z",
+      "titleEn": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hackerBanana"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 231,
+      "commentCount": 78,
+      "tags": []
+    },
+    {
+      "id": "gnews:ede7312817a9",
+      "slug": "gnews-ede7312817a9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWTVpSEp3NVZRaml5ZldGSnRBaWlIMnJydEw5dFhfVzdlbFJ2MTllV1A3U0c0bHA3NE1VbHFERjlXMTktbkNZbE9NeG1tWkJyZmFlV21uRVUyMWp0R1U2N3hkYVBvWGcyTURpcHpuTnVZdGdwem95alZzQ1dWTW5xbFNnTTZLQVpYQ3ZBblNSV2FmYllJSkFiODZRN1pGN0kxRzZtaUtaNjJRNk5UaUFsal9BRFBxZWtDUnJ3Ukc2M2JkMmxubTJkMmVMRDNLUXViMnYzSU80RmJIZ09UdGxYOUpWamRoT2hXc3p5Vl85RXp4N04yQ2RfUGs5NjJjQTN0Wjkycw?oc=5",
+      "publishedAt": "2026-05-31T20:07:13.000Z",
+      "titleEn": "Michael Burry Calls Adobe A ‘Fat Pitch’ In Latest Saas Analysis – Backs Firefly And AI Tie-Ups With OpenAI, Google",
+      "titleZh": null,
+      "abstractEn": "Michael Burry Calls Adobe A ‘Fat Pitch’ In Latest Saas Analysis – Backs Firefly And AI Tie-Ups With OpenAI, Google  Stocktwits",
+      "abstractZh": null,
+      "authors": [
+        "Stocktwits"
+      ],
+      "institution": "Stocktwits",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5337557282f4",
+      "slug": "gnews-5337557282f4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZUR3XzNOckVCRWcxMGZfT29aTkdjaldzZjZqdWlfOE9JdlVtY25Qd3NRcEItLU16QUZXMTloeko0LXJrMXBqd19kcWVDX3V3b0Z6WUt5R21iMVJnSllqdkZTZDdSTDQtWW1FbjJrbXpJSFN3bVUyRDJRSW9NMGJZV3c1Sm93OGhpXzNuZW40VzEwQmR2emVpRjJoTlF6VkFBOU9RaUlIZndnMEdzWjNVTkE2ZkVEb0I4cEtIM3FTT3V3X1ho?oc=5",
+      "publishedAt": "2026-05-31T18:40:16.000Z",
+      "titleEn": "Internet, Artificial Intelligence and the UN: How different is AI Governance from Internet Governance?",
+      "titleZh": null,
+      "abstractEn": "Internet, Artificial Intelligence and the UN: How different is AI Governance from Internet Governance?  CircleID",
+      "abstractZh": null,
+      "authors": [
+        "CircleID"
+      ],
+      "institution": "CircleID",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0adf8c610e78",
+      "slug": "gnews-0adf8c610e78",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXNCaWlna3NwWkt2NFI4VHQ1V2hyRXFjcE1qZ2xPZ3JOZW9kNmExWmZNTVRhVk1SdzE1VmR1ZDNxeXNrYlZFN1B2LUtaU1owekZWb3lQVHZFMk85WkxZT1NGS04xN2s1TVYzU19wNjI2MFROeE1ySzZ4VERmUWhCMDVSVU5FcGpzaFNmelFSVl94eWZaMXpqRVFBaWVSdzFockttSHE4dkhLRjQ1LXZGTHRrT3I?oc=5",
+      "publishedAt": "2026-05-31T17:51:08.000Z",
+      "titleEn": "Anthropic’s Milan Office Signals a New Phase of Responsible AI Adoption in Italy",
+      "titleZh": null,
+      "abstractEn": "Anthropic’s Milan Office Signals a New Phase of Responsible AI Adoption in Italy  The Futurum Group",
+      "abstractZh": null,
+      "authors": [
+        "The Futurum Group"
+      ],
+      "institution": "The Futurum Group",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48347354",
+      "slug": "hn-48347354-meta-launches-instagram-facebook-and-whatsapp-subscriptions",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48347354",
+      "publishedAt": "2026-05-31T17:02:23.000Z",
+      "titleEn": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tambourine_man"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 231,
+      "commentCount": 367,
+      "tags": []
+    },
+    {
+      "id": "hn:48347153",
+      "slug": "hn-48347153-the-speed-of-prototyping-in-the-age-of-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "commentUrl": "https://news.ycombinator.com/item?id=48347153",
+      "publishedAt": "2026-05-31T16:37:34.000Z",
+      "titleEn": "The Speed of Prototyping in the Age of AI",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mooreds"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 169,
+      "commentCount": 86,
+      "tags": []
+    },
+    {
+      "id": "gnews:354e71d6da91",
+      "slug": "gnews-354e71d6da91",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNk1ZMi05Vk8yVXQzcUZxX0RSdUdabmdLeS0wNnZ6UzdwRW0tcWNCRXdIdnppaWFXTExoTW5iTmh1Tzg3MExPUnBwMDZCYVNhb1ozcjZsdFM3bi1DaDU0OWV1TzAzR3NuNHBvX19FOVQxQkpyU1Awc21kcDdoN1UzS3BPZV9hdnhFNmh1UGV6ZU96NDczWVl3RWE3SXhXM1lrUGJTU2t4TU81R0F3Rlc4TEZEQ0hoVzZPZ3NkNVhrd1JtbnRWeV80T0IxS0IxOHhG?oc=5",
+      "publishedAt": "2026-05-31T16:07:19.000Z",
+      "titleEn": "AI Regulation 2026 Opens Three Fronts: CNN Sues Perplexity as OpenAI Aligns With EU Rules",
+      "titleZh": null,
+      "abstractEn": "AI Regulation 2026 Opens Three Fronts: CNN Sues Perplexity as OpenAI Aligns With EU Rules  Tech Times",
+      "abstractZh": null,
+      "authors": [
+        "Tech Times"
+      ],
+      "institution": "Tech Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48346693",
+      "slug": "hn-48346693-odysseus-self-hosted-ai-workspace",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "commentUrl": "https://news.ycombinator.com/item?id=48346693",
+      "publishedAt": "2026-05-31T15:50:34.000Z",
+      "titleEn": "Odysseus – self-hosted AI workspace",
+      "titleZh": null,
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Dzheky"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 177,
+      "commentCount": 83,
+      "tags": []
+    },
+    {
+      "id": "gnews:5e1506a9c0c2",
+      "slug": "gnews-5e1506a9c0c2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclpQcXRsNzh0V1RCZUZlSXpuMktKckJjWGdFX18wa3pJbkxQNzNFemRuXzFsWDZULUxpQTlFVTZDbTkzeVdDYVhVS2FzZ1pPaFRhZGh0NXUzeHNHRFZYb0d3cWF3SEZWdmsyV2Y4NXdVVHV5MWZZaURzMGNib1JRZUZBY3E2LW44SVdHbF9GZUx0c2Z1ZG1xVk04LTRSVnJfN3o3cEhR?oc=5",
+      "publishedAt": "2026-05-31T14:31:00.000Z",
+      "titleEn": "Nvidia Shares Dropped After Stellar Earnings. Is This a Sign of What's Coming for Artificial Intelligence (AI) Stocks?",
+      "titleZh": null,
+      "abstractEn": "Nvidia Shares Dropped After Stellar Earnings. Is This a Sign of What's Coming for Artificial Intelligence (AI) Stocks?  Yahoo Finance",
+      "abstractZh": null,
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-05-427005-html",
+      "slug": "agent-tool-cua",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/05/427005.html",
+      "publishedAt": "2026-05-31T14:25:18.000Z",
+      "titleEn": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
+      "titleZh": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
+      "abstractEn": "下一代CUA训练范式",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:mercer:477e23df443f",
+      "slug": "hrorg-mercer-477e23df443f",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSHRtQlByU2Q4TlZuSlVobGpCdHVwOTBma3psNnpDM25nSUVmZDEycjk2R3h5VlIzQnZZTlhpSTAxa21qUElDcHgwb0dMbGs5bFg5eHc1NkRhM0JaNWtHbmlTLUlGMldJaVlSQXZaR01IclF1cmFVU3RWWGFUVEkzdHQzWU1rNnAx?oc=5",
+      "publishedAt": "2026-05-30T02:57:46.000Z",
+      "titleEn": "What is the poverty rate in Mercer County, MO?",
+      "titleZh": null,
+      "abstractEn": "What is the poverty rate in Mercer County, MO?  USAFacts",
+      "abstractZh": null,
+      "authors": [
+        "USAFacts"
+      ],
+      "institution": "USAFacts",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
