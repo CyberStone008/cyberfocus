@@ -2,8 +2,8 @@ import { readdirSync, readFileSync, existsSync, statSync } from 'fs';
 import { resolve, join } from 'path';
 import { SectorReportList, type SectorReport } from '../../../components/SectorReportList';
 import { InvestingNav } from '../../../components/InvestingNav';
+import { getInvestingCounts } from '../../../lib/investing-data';
 
-const BRIEFS_DIR  = resolve(process.cwd(), 'data/strategy-briefs');
 const SECTORS_DIR = resolve(process.cwd(), 'data/sector-reports');
 
 const FILENAME_RE = /^(\d{4})-(\d{2})-(.+)\.md$/;
@@ -62,17 +62,12 @@ function loadSectorReports(): SectorReport[] {
     });
 }
 
-function countBriefs(): number {
-  if (!existsSync(BRIEFS_DIR)) return 0;
-  return readdirSync(BRIEFS_DIR).filter((f) => /^\d{4}-\d{2}-\d{2}\.md$/.test(f)).length;
-}
-
 export default function SectorsPage() {
   const reports = loadSectorReports();
-  const briefCount = countBriefs();
+  const counts = getInvestingCounts();
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden', minHeight: 0, flex: 1 }}>
-      <InvestingNav totalBriefs={briefCount} totalSectors={reports.length} />
+      <InvestingNav {...counts} />
       <SectorReportList reports={reports} />
     </div>
   );

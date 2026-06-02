@@ -2,9 +2,9 @@ import { readdirSync, readFileSync, existsSync, statSync } from 'fs';
 import { resolve, join } from 'path';
 import { StrategyBriefFeed, type Brief } from '../../components/StrategyBriefFeed';
 import { InvestingNav } from '../../components/InvestingNav';
+import { getInvestingCounts } from '../../lib/investing-data';
 
 const BRIEFS_DIR  = resolve(process.cwd(), 'data/strategy-briefs');
-const SECTORS_DIR = resolve(process.cwd(), 'data/sector-reports');
 
 /** Parse the 一句话叙事 narrative line from a brief's markdown */
 function extractNarrative(md: string): string {
@@ -40,17 +40,12 @@ function loadBriefs(): Brief[] {
     .sort((a, b) => b.date.localeCompare(a.date));
 }
 
-function countSectorReports(): number {
-  if (!existsSync(SECTORS_DIR)) return 0;
-  return readdirSync(SECTORS_DIR).filter((f) => /^\d{4}-\d{2}-.+\.md$/.test(f)).length;
-}
-
 export default function InvestingPage() {
   const briefs = loadBriefs();
-  const sectorCount = countSectorReports();
+  const counts = getInvestingCounts();
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden', minHeight: 0, flex: 1 }}>
-      <InvestingNav totalBriefs={briefs.length} totalSectors={sectorCount} />
+      <InvestingNav {...counts} />
       <StrategyBriefFeed briefs={briefs} />
     </div>
   );
