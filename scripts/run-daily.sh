@@ -20,6 +20,16 @@ fi
 # Put common binary locations on PATH (node via nvm, claude via bun, gh, etc.)
 export PATH="$HOME/.nvm/versions/node/v23.8.0/bin:$HOME/.bun/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
+# Load local secrets (DEEPSEEK_API_KEY, etc.) — .env.local is gitignored.
+# Translation backend priority is decided in scripts/translate/claude.js:
+#   DEEPSEEK_API_KEY set → DeepSeek; else USE_CLAUDE_CLI → claude CLI; else Anthropic SDK.
+if [ -f "$PROJECT_DIR/.env.local" ]; then
+  set -a
+  # shellcheck source=/dev/null
+  . "$PROJECT_DIR/.env.local"
+  set +a
+fi
+
 # ── Proxy (CRITICAL) ──────────────────────────────────────────────────────────
 # launchd runs this script in a non-interactive shell that does NOT inherit the
 # user's HTTPS_PROXY. Without it, every foreign source (arXiv, HN, Reddit,

@@ -1,10 +1,20 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { sleep } from '../utils/rate-limiter.js';
 import { claudeCliClient, isCliMode } from './claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from './deepseek.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority: DeepSeek (if DEEPSEEK_API_KEY) > Claude CLI (if USE_CLAUDE_CLI) > Anthropic SDK
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+
+// Model list to try, by backend. DeepSeek ignores the model arg internally but
+// we still want a single-model retry loop (no point falling back to a claude model).
+const TRANSLATE_MODELS = isDeepSeekMode()
+  ? ['deepseek-chat']
+  : ['claude-haiku-4-5-20251001', 'claude-sonnet-4-6'];
 
 const BATCH_SIZE = 10;
 const BATCH_DELAY_MS = 1200;
@@ -75,8 +85,8 @@ ${JSON.stringify(items, null, 2)}
 }
 
 async function translateWithRetry(articles) {
-  // Try haiku first, fall back to sonnet on failure
-  for (const model of ['claude-haiku-4-5-20251001', 'claude-sonnet-4-6']) {
+  // Try each backend model in order (DeepSeek: single model; Anthropic: haiku→sonnet)
+  for (const model of TRANSLATE_MODELS) {
     for (let attempt = 0; attempt < 3; attempt++) {
       try {
         return await translateWithClaude(articles, model);
@@ -109,7 +119,24 @@ export async function translateBatch(articles) {
     const batch = articles.slice(i, i + BATCH_SIZE);
     console.log(`[translate] Translating batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(total / BATCH_SIZE)} (${batch.length} items)...`);
 
-    const translated = await translateWithRetry(batch);
+    let translated = await translateWithRetry(batch);
+
+    // Self-heal content poisoning: if a single item's abstract contains markdown
+    // / code blocks, it can break JSON parsing for the WHOLE batch (all items
+    // return null). Retry any still-untranslated items ONE BY ONE, and if an
+    // item still fails, retry it with its abstract stripped (title-only).
+    const stillNull = translated.filter((t) => !t.titleZh);
+    if (stillNull.length > 0 && batch.length > 1) {
+      console.log(`[translate]   ${stillNull.length} item(s) failed in batch — retrying individually`);
+      const byId = new Map(translated.map((t) => [t.id, t]));
+      for (const item of stillNull) {
+        let one = await translateWithRetry([item]);
+        if (!one[0].titleZh) one = await translateWithRetry([{ ...item, abstractEn: '' }]);
+        if (one[0].titleZh) byId.set(item.id, { ...item, titleZh: one[0].titleZh, abstractZh: one[0].abstractZh ?? null });
+      }
+      translated = batch.map((b) => byId.get(b.id));
+    }
+
     results.push(...translated);
 
     if (i + BATCH_SIZE < total) {
