@@ -20,11 +20,28 @@ fi
 # Put common binary locations on PATH (node via nvm, claude via bun, gh, etc.)
 export PATH="$HOME/.nvm/versions/node/v23.8.0/bin:$HOME/.bun/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
+# ── Proxy (CRITICAL) ──────────────────────────────────────────────────────────
+# launchd runs this script in a non-interactive shell that does NOT inherit the
+# user's HTTPS_PROXY. Without it, every foreign source (arXiv, HN, Reddit,
+# Google News, DeepMind…) fails with `getaddrinfo ENOTFOUND` and the pipeline
+# fetches 0 items. Hardcode the local xray/v2ray proxy here so the run never
+# silently depends on inherited env. Port 10808 = local xray SOCKS/HTTP inbound.
+export HTTPS_PROXY="http://127.0.0.1:10808"
+export HTTP_PROXY="http://127.0.0.1:10808"
+
 {
   echo ""
   echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
   echo "[run-daily] node: $(command -v node) ($(node -v 2>/dev/null))"
   echo "[run-daily] claude: $(command -v claude)"
+
+  # Proxy health check — warn loudly if the local proxy isn't listening, so a
+  # "0 items fetched" run is diagnosable from the log instead of silent.
+  if curl -sS --max-time 8 -x "$HTTPS_PROXY" -o /dev/null -w "%{http_code}" https://arxiv.org 2>/dev/null | grep -q "200\|301\|302\|403"; then
+    echo "[run-daily] proxy OK ($HTTPS_PROXY)"
+  else
+    echo "[run-daily] ⚠️  PROXY DOWN — $HTTPS_PROXY unreachable. Foreign sources will fail. Is xray running?"
+  fi
 
   # Pull latest data before running so processed-ids stays in sync with cloud
   echo "[run-daily] Pulling latest data from GitHub..."

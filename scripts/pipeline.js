@@ -351,9 +351,22 @@ async function run() {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, MAX_ARTICLES);
 
+  // ── Safety guard against catastrophic truncation ──────────────────────────
+  // On 2026-05-28, articles.json was silently overwritten from 1897 → 63 (a
+  // corrupt mid-run state / bad rebase). Re-read the CURRENT on-disk count
+  // fresh and REFUSE to write if the new count collapses by >50%. Better to
+  // skip a day than to destroy the dataset and propagate it via git push.
+  let onDiskCount = 0;
+  try { onDiskCount = JSON.parse(readFileSync(ARTICLES_PATH, 'utf8')).length; } catch { onDiskCount = 0; }
+  const floor = Math.max(50, Math.floor(onDiskCount * 0.5));
+  if (onDiskCount > 100 && merged.length < floor) {
+    console.error(`[pipeline] 🛑 ABORT WRITE: merged=${merged.length} is <50% of on-disk=${onDiskCount} (floor=${floor}). Refusing to truncate articles.json. Investigate before re-running.`);
+    process.exit(2);
+  }
+
   // Write data files
   writeFileSync(ARTICLES_PATH, JSON.stringify(merged, null, 2));
-  console.log(`[pipeline] Wrote ${merged.length} articles to data/articles.json`);
+  console.log(`[pipeline] Wrote ${merged.length} articles to data/articles.json (was ${onDiskCount} on disk)`);
 
   // Update processed IDs
   translated.forEach((a) => processed.add(a.id));
