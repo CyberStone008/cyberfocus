@@ -5,6 +5,10 @@ export const dynamic = 'force-static'; // required for output:'export' builds; P
 export const maxDuration = 120; // seconds (Next.js route timeout)
 
 export async function POST(req: Request) {
+  // Admin-only: disabled on public (read-only) deployments.
+  if (process.env.NEXT_PUBLIC_PUBLIC_MODE === '1') {
+    return Response.json({ success: false, error: 'Disabled on public deployment' }, { status: 403 });
+  }
   const { sourceId } = await req.json();
   if (!sourceId || typeof sourceId !== 'string') {
     return Response.json({ success: false, error: 'sourceId required' }, { status: 400 });

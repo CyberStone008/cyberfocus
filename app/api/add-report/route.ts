@@ -113,6 +113,10 @@ function slugify(text: string): string {
 
 /* ── POST /api/add-report ── */
 export async function POST(request: NextRequest) {
+  // Admin-only: disabled on public (read-only) deployments.
+  if (process.env.NEXT_PUBLIC_PUBLIC_MODE === '1') {
+    return NextResponse.json({ error: 'Disabled on public deployment' }, { status: 403 });
+  }
   let url: string;
   try {
     ({ url } = await request.json());

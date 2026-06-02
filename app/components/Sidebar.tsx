@@ -4,8 +4,13 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Sidebar.module.css';
+import { IS_PUBLIC } from '../lib/public-mode';
 
-const NAV = [
+const NAV: {
+  group: string;
+  adminOnly?: boolean;
+  items: { icon: string; label: string; href: string; disabled: boolean }[];
+}[] = [
   {
     group: '今日动态',
     items: [
@@ -34,11 +39,15 @@ const NAV = [
   },
   {
     group: '管理',
+    adminOnly: true,
     items: [
       { icon: '⚙️', label: '信源管理', href: '/sources', disabled: false },
     ],
   },
 ];
+
+// In public (read-only) builds, drop admin-only sections from the nav.
+const VISIBLE_NAV = IS_PUBLIC ? NAV.filter((s) => !s.adminOnly) : NAV;
 
 export function Sidebar() {
   const pathname = usePathname();
@@ -70,7 +79,7 @@ export function Sidebar() {
       </Link>
 
       <nav className={styles.nav}>
-        {NAV.map((section) => (
+        {VISIBLE_NAV.map((section) => (
           <div key={section.group} className={styles.navSection}>
             <div className={styles.navSectionLabel}>{section.group}</div>
             {section.items.map((item) => {

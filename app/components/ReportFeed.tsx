@@ -4,6 +4,7 @@ import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOURCES } from '../lib/sources-config';
+import { IS_PUBLIC } from '../lib/public-mode';
 import styles from './ReportFeed.module.css';
 
 /* ── Source meta — built from sources-config + legacy overrides ── */
@@ -283,7 +284,7 @@ export function ReportFeed({
         </div>
         <div className={styles.topbarRight}>
           <span className={styles.topbarCount}>{filtered.length} 篇</span>
-          {showAddButton && (
+          {showAddButton && !IS_PUBLIC && (
             <button
               className={styles.addReportBtn}
               onClick={() => setShowAddModal(true)}
@@ -581,7 +582,7 @@ function ReportCard({
               >
                 查看解读 →
               </a>
-            ) : (
+            ) : !IS_PUBLIC ? (
               <button
                 className={`${styles.actionBtn} ${styles.actionBtnGen} ${genState === 'loading' ? styles.actionBtnLoading : ''}`}
                 onClick={handleGenerate}
@@ -596,7 +597,7 @@ function ReportCard({
                   '生成解读'
                 )}
               </button>
-            )}
+            ) : null}
           </span>
         )}
       </div>

@@ -8,6 +8,10 @@ import { resolve } from 'path';
 const SOURCES_CONFIG_PATH = resolve(process.cwd(), 'data/sources.json');
 
 export async function POST(request: NextRequest) {
+  // Admin-only: disabled on public (read-only) deployments.
+  if (process.env.NEXT_PUBLIC_PUBLIC_MODE === '1') {
+    return NextResponse.json({ error: 'Disabled on public deployment' }, { status: 403 });
+  }
   const body = await request.json();
   const { id, enabled, boards } = body;
 
