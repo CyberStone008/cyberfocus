@@ -48,6 +48,22 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
 - **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` 函数取 `max(fetchedAt, publishedAt)` 作为分组日期——"我们第一次看到这篇是哪一天"是稳定的，不会随用户打开页面的时间漂移。不要改回"只在今天才归今天"的逻辑，那样昨天抓的文章今天打开会消失到 publishedAt 日期组里去。
 
+### 翻译后端：默认且固定用 DeepSeek
+
+所有翻译（文章标题/摘要、播客标题等，凡走 `translateBatch`）**默认用 DeepSeek**，不要改回智谱 CLI 或 Anthropic。
+
+**后端优先级**（在 `scripts/translate/claude.js` 顶部决定）：
+1. `DEEPSEEK_API_KEY` 已设 → **DeepSeek**（`api.deepseek.com`，OpenAI 兼容，`deepseek-chat`）← 标准后端
+2. `USE_CLAUDE_CLI=true` → 本地 `claude` CLI（曾指向智谱 bigmodel.cn 网关，已弃用，欠费过）
+3. `ANTHROPIC_API_KEY` → 官方 SDK（最贵 + 国内需代理，仅备用）
+
+**关键实现细节**：
+- key 存在 gitignored 的 `.env.local`（`DEEPSEEK_API_KEY=sk-...`），`run-daily.sh` 用 `set -a; . .env.local; set +a` 加载。**绝不提交 key**。
+- DeepSeek 是**国内端点**，`scripts/translate/deepseek.js` 用独立 undici `Agent` dispatcher **绕过全局 xray 代理**（`setupProxy()` 装的 ProxyAgent 是给海外源用的，国内端点走代理反而慢/失败）。
+- 为什么换掉智谱：智谱 bigmodel.cn 网关欠费返回 `429 code 1113 余额不足`，每次调用要等 ~200s 才超时失败。DeepSeek 单批 2 条仅 1.3s，中文质量更好，国内直连无需代理。
+
+**抗内容污染**（`translateBatch` 自愈）：摘要含 markdown/代码块（如 `# 获取模型\nlemonade pull...`）会让模型照抄、毁掉整批 JSON 解析 → 整批 10 条全 null。`translateBatch` 检测到批内有 null 时，对失败项**逐条重试**；单条仍失败则**清空摘要只译标题**兜底。不要移除这个回退逻辑。
+
 ### AI 内容过滤：必须用 word-boundary 正则，禁止 `includes('ai')`
 
 凡是按关键词过滤"AI 相关"内容的 fetcher（HN、Reddit、Google News、爬虫、未来新增源），**关键词匹配一律走单词边界正则**，不要用朴素 `includes()`。

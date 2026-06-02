@@ -68,12 +68,17 @@ async function run() {
 
   await setupProxy();
 
+  // Translation backend (priority resolved in translate/claude.js):
+  //   DEEPSEEK_API_KEY → DeepSeek (default/standing backend) > USE_CLAUDE_CLI → claude CLI > ANTHROPIC_API_KEY → SDK
+  const useDeepSeek = !!process.env.DEEPSEEK_API_KEY;
   const useCli = process.env.USE_CLAUDE_CLI === 'true';
-  if (!process.env.ANTHROPIC_API_KEY && !DRY_RUN && !useCli) {
-    console.error('[pipeline] ERROR: ANTHROPIC_API_KEY is not set (or set USE_CLAUDE_CLI=true)');
+  if (!useDeepSeek && !process.env.ANTHROPIC_API_KEY && !DRY_RUN && !useCli) {
+    console.error('[pipeline] ERROR: no translation backend — set DEEPSEEK_API_KEY (recommended), or ANTHROPIC_API_KEY, or USE_CLAUDE_CLI=true');
     process.exit(1);
   }
-  if (useCli) console.log('[pipeline] Using local `claude` CLI for translation');
+  if (useDeepSeek)      console.log('[pipeline] Translation backend: DeepSeek');
+  else if (useCli)      console.log('[pipeline] Translation backend: local `claude` CLI');
+  else                  console.log('[pipeline] Translation backend: Anthropic SDK');
 
   const sourcesConfig = loadSourcesConfig();
   const disabledIds = new Set(sourcesConfig.disabled ?? []);
