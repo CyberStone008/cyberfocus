@@ -46,7 +46,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: new Date().toISOString()`（ISO 字符串）。前端用途：
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
-- **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` 函数取 `max(fetchedAt, publishedAt)` 作为分组日期——"我们第一次看到这篇是哪一天"是稳定的，不会随用户打开页面的时间漂移。不要改回"只在今天才归今天"的逻辑，那样昨天抓的文章今天打开会消失到 publishedAt 日期组里去。
+- **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` **按文章发布日期 `publishedAt` 分组**——6/03 发布、6/04 抓取的文章归到 6/03，不是"今天"。用户明确要求按发布日期而非抓取日期。（绿色"新"徽章仍用 `fetchedAt` < 24h 判断。）前提是 `publishedAt` 必须准确——所以 OpenAI/Anthropic/Claude 抓取器都要提取真实发布日期（见各 fetcher 的 lastmod/datePublished 处理）。
 
 ### OpenAI 博客抓取：用真实发布日期，不能信 sitemap lastmod
 

@@ -37,11 +37,6 @@ type FeedEntry =
 /* ── Helpers ── */
 function getDateKey(iso: string) { return iso.slice(0, 10); }
 
-/** Beijing date string for today */
-function todayBJ(): string {
-  return new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
-}
-
 /** True if the article was fetched within the last 24 hours */
 function isNew(article: Article): boolean {
   if (!article.fetchedAt) return false;
@@ -49,16 +44,13 @@ function isNew(article: Article): boolean {
 }
 
 /**
- * Date key used for feed grouping.
- * Use max(fetchedAt, publishedAt) so articles discovered today appear under
- * today's date even when they were technically published earlier.
- * This avoids "5/17 group disappears when viewed on 5/18" type bugs.
+ * Date key used for feed grouping = the article's PUBLISH date.
+ * Group by when the article was actually published, not when we fetched it —
+ * a post published 6/03 but fetched 6/04 belongs under 6/03, not "今天".
+ * (The green "新" badge still uses fetchedAt to flag freshly-discovered items.)
  */
 function getGroupDate(article: Article): string {
-  const publishedKey = getDateKey(article.publishedAt);
-  if (!article.fetchedAt) return publishedKey;
-  const fetchedKey = getDateKey(article.fetchedAt);
-  return fetchedKey > publishedKey ? fetchedKey : publishedKey;
+  return getDateKey(article.publishedAt);
 }
 
 function formatDateLabel(dateKey: string): string {
