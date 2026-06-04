@@ -269,11 +269,11 @@
 }
 
 .sectionNum {
-  font-size: 56px;
-  font-weight: 900;
+  font-size: 34px;
+  font-weight: 800;
   line-height: 1;
   color: var(--accent);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   flex-shrink: 0;
 }
 
@@ -399,5 +399,5 @@
   .datePanel { display: none; }
   .main { padding: 24px 24px 48px; max-width: 100%; }
   .heroTitle { font-size: 34px; }
-  .sectionNum { font-size: 40px; }
+  .sectionNum { font-size: 26px; }
 }
