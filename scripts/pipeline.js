@@ -253,14 +253,28 @@ async function run() {
   const successCount = translated.filter((a) => a.titleZh).length;
   console.log(`\n[pipeline] Translation complete: ${successCount}/${translated.length} succeeded`);
 
-  // --- Featured articles of the day (research only, up to 3) ---
+  // --- Featured articles of the day ---
+  // 解读生成对象 = top-3 精选 ∪ 所有高价值官方博客（OpenAI/DeepMind/Anthropic/NVIDIA）。
+  // 高价值博客是用户真正会读、期望都有解读的；只取 top-3 会漏掉繁忙日的官方博客
+  // （曾导致 5/22+ OpenAI 博客无解读）。聚合类(Google AI News)/arXiv 仍只走 top-3。
   console.log('\n[pipeline] Selecting featured articles...');
   const todayBJ = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+  const HIGH_VALUE_BLOGS = new Set(['Anthropic Blog', 'OpenAI Blog', 'DeepMind Blog', 'Google DeepMind', 'NVIDIA Blog']);
   const researchItems = translated.filter((a) => a.category !== 'social');
-  const featuredList = pickFeatured(researchItems, 3);
+  const top3 = pickFeatured(researchItems, 3);
+  const hvBlogs = researchItems.filter((a) => HIGH_VALUE_BLOGS.has(a.source) && a.sourceUrl);
+  // union, dedup by id
+  const seenFeat = new Set();
+  const featuredList = [...top3, ...hvBlogs].filter((a) => {
+    if (seenFeat.has(a.id)) return false;
+    seenFeat.add(a.id);
+    return true;
+  });
 
   if (featuredList.length === 0) {
     console.log('[pipeline] No new items to feature today');
+  } else {
+    console.log(`[pipeline] 解读对象: ${featuredList.length} 篇 (top3 + 高价值博客)`);
   }
 
   for (const featured of featuredList) {
