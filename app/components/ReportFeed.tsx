@@ -28,6 +28,10 @@ const SERIES_META: Record<string, { title: string; titleEn: string; author: stri
   },
 };
 
+/* ── 置顶（pin to top）── 出现在「AI 报告速览」最前面，且不在日期时间轴重复 */
+const PINNED_SERIES = new Set<string>(['situational-awareness']);
+const PINNED_IDS    = new Set<string>([]); // 置顶单篇文章用其 id
+
 /* ── Feed entry types (article or collapsed series) ── */
 type FeedEntry =
   | { type: 'article'; article: Article }
@@ -212,12 +216,15 @@ export function ReportFeed({
       const entries: FeedEntry[] = [];
       for (const a of items) {
         if (a.seriesSlug) {
+          if (PINNED_SERIES.has(a.seriesSlug)) continue; // 置顶系列 → 不在时间轴重复
           const anchorDate = seriesAnchorDate.get(a.seriesSlug);
           if (!seriesEmitted.has(a.seriesSlug) && anchorDate === key) {
             entries.push({ type: 'series', seriesSlug: a.seriesSlug, articles: seriesMap.get(a.seriesSlug)! });
             seriesEmitted.add(a.seriesSlug);
           }
           // Individual chapter articles are always skipped (shown inside series card)
+        } else if (PINNED_IDS.has(a.id)) {
+          continue; // 置顶单篇 → 不在时间轴重复
         } else {
           entries.push({ type: 'article', article: a });
         }
@@ -226,6 +233,30 @@ export function ReportFeed({
     }
     return map;
   }, [filtered, grouped]);
+
+  // ── Pinned (置顶) entries — rendered above the timeline ──
+  const pinnedEntries = useMemo(() => {
+    const out: FeedEntry[] = [];
+    const seriesMap = new Map<string, Article[]>();
+    for (const a of filtered) {
+      if (a.seriesSlug && PINNED_SERIES.has(a.seriesSlug)) {
+        const arr = seriesMap.get(a.seriesSlug) ?? [];
+        arr.push(a);
+        seriesMap.set(a.seriesSlug, arr);
+      }
+    }
+    // preserve PINNED_SERIES order
+    for (const slug of PINNED_SERIES) {
+      const arts = seriesMap.get(slug);
+      if (arts?.length) {
+        out.push({ type: 'series', seriesSlug: slug, articles: [...arts].sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0)) });
+      }
+    }
+    for (const a of filtered) {
+      if (!a.seriesSlug && PINNED_IDS.has(a.id)) out.push({ type: 'article', article: a });
+    }
+    return out;
+  }, [filtered]);
 
   /* IntersectionObserver — highlight active date in nav strip */
   useEffect(() => {
@@ -383,7 +414,33 @@ export function ReportFeed({
         ) : filtered.length === 0 ? (
           <div className={styles.empty}>没有匹配的内容</div>
         ) : (
-          [...groupedEntries.entries()].map(([dateKey, entries]) => (
+          <>
+          {pinnedEntries.length > 0 && (
+            <section className={styles.pinnedSection}>
+              <div className={styles.pinnedLabel}>📌 置顶</div>
+              {pinnedEntries.map((entry) => (
+                <div
+                  key={entry.type === 'series' ? `pin-series:${entry.seriesSlug}` : `pin:${entry.article.id}`}
+                  className={styles.feedItem}
+                >
+                  <div className={styles.connectorCol}>
+                    <div className={`${styles.connectorDot} ${styles.connectorDotPinned}`} />
+                    <div className={styles.connectorLine} />
+                  </div>
+                  {entry.type === 'series' ? (
+                    <SeriesCard seriesSlug={entry.seriesSlug} articles={entry.articles} />
+                  ) : (
+                    <ReportCard
+                      article={entry.article}
+                      showAnalysis={showAnalysis}
+                      onAnalysisGenerated={handleAnalysisGenerated}
+                    />
+                  )}
+                </div>
+              ))}
+            </section>
+          )}
+          {[...groupedEntries.entries()].map(([dateKey, entries]) => (
             <section key={dateKey} id={`rdate-${dateKey}`}>
               <div className={styles.dateDivider}>
                 {formatDateLabel(dateKey)}
@@ -410,7 +467,8 @@ export function ReportFeed({
                 </div>
               ))}
             </section>
-          ))
+          ))}
+          </>
         )}
       </div>
     </div>
