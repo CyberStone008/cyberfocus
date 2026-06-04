@@ -29,6 +29,9 @@ function slugFromUrl(url) {
   return url.replace(/\/$/, '').split('/').pop();
 }
 
+// Returns [{loc, lastmod}] for /news/ posts. The sitemap HAS <lastmod> on every
+// entry — use it to sort+filter so we only fetch the few RECENT pages, instead of
+// scanning 40 alphabetically-ordered URLs (which timed out and missed new posts).
 async function fetchSitemapUrls() {
   const res = await fetch(SITEMAP_URL, {
     headers: { 'User-Agent': 'ai-research-aggregator/1.0' },
@@ -36,32 +39,39 @@ async function fetchSitemapUrls() {
   });
   const xml = await res.text();
 
-  const urls = [];
-  const regex = /<loc>([^<]+)<\/loc>/g;
-  let match;
-  while ((match = regex.exec(xml)) !== null) {
-    const url = match[1].trim();
-    if (url.includes('/news/') && !url.endsWith('/news/')) {
-      urls.push(url);
+  const entries = [];
+  const re = /<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    const loc = m[1].trim();
+    const lastmod = m[2].trim();
+    if (loc.includes('/news/') && !loc.endsWith('/news/')) {
+      entries.push({ loc, lastmod });
     }
   }
-  return urls;
+  return entries;
 }
+
+const CANDIDATE_LASTMOD_DAYS = 7;  // pre-filter by sitemap lastmod (broad)
+const MAX_CANDIDATES = 25;         // cap pages fetched per run (avoid timeout)
 
 export async function fetchAnthropic(processedIds) {
   try {
     console.log('[anthropic] Fetching sitemap...');
-    const allUrls = await fetchSitemapUrls();
-    console.log(`[anthropic] Found ${allUrls.length} news URLs in sitemap`);
+    const all = await fetchSitemapUrls();
+    console.log(`[anthropic] Found ${all.length} news URLs in sitemap`);
+
+    // Only recent-by-lastmod, newest first, capped — so we fetch a handful, not 40+
+    const candidates = all
+      .filter((e) => e.lastmod && isRecentBJ(e.lastmod, CANDIDATE_LASTMOD_DAYS))
+      .sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod))
+      .slice(0, MAX_CANDIDATES);
+    console.log(`[anthropic] ${candidates.length} recent candidates (lastmod ≤ ${CANDIDATE_LASTMOD_DAYS}d)`);
 
     const results = [];
-    let scanned = 0;
-    const MAX_SCAN = 40; // bail out after scanning this many pages per run
 
-    for (const url of allUrls) {
+    for (const { loc: url, lastmod } of candidates) {
       if (results.length >= MAX_NEW) break;
-      if (scanned >= MAX_SCAN) break;
-      scanned++;
 
       const slug = slugFromUrl(url);
       const canonicalId = `anthropic:${slug}`;
@@ -79,10 +89,11 @@ export async function fetchAnthropic(processedIds) {
         const html = await res.text();
         const title = extractMeta(html, 'og:title') || extractMeta(html, 'twitter:title');
         const description = extractMeta(html, 'og:description') || extractMeta(html, 'description');
-        const dateStr = extractDate(html);
+        // Real publish date from page (datePublished/article:published_time); fall back to lastmod
+        const dateStr = extractDate(html) || lastmod;
 
         if (!title) continue;
-        // Only articles from the last 3 days (processedIds handles dedup)
+        // Genuinely new: real publish date within 3 days (filters re-touched old posts)
         if (!isRecentBJ(dateStr, 3)) continue;
 
         results.push({
