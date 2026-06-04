@@ -172,7 +172,10 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
           </h1>
 
           <div className={styles.heroDateRow}>
-            <span className={styles.heroDateCN}>{toChineseDate(date)}&nbsp;&nbsp;&nbsp;{weekdayCN(date)}</span>
+            <span>
+              <span className={styles.heroEyebrow}>AI DAILY</span>
+              <span className={styles.heroDateCN}>{toChineseDate(date)}&nbsp;&nbsp;&nbsp;{weekdayCN(date)}</span>
+            </span>
             <span className={styles.heroDateRight}>每日自动更新</span>
           </div>
 
