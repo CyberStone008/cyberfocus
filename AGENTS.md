@@ -48,6 +48,17 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
 - **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` 函数取 `max(fetchedAt, publishedAt)` 作为分组日期——"我们第一次看到这篇是哪一天"是稳定的，不会随用户打开页面的时间漂移。不要改回"只在今天才归今天"的逻辑，那样昨天抓的文章今天打开会消失到 publishedAt 日期组里去。
 
+### OpenAI 博客抓取：用真实发布日期，不能信 sitemap lastmod
+
+`scripts/fetch/openai.js` 从 research sitemap 抓文章。**坑：sitemap 的 `<lastmod>` 是"最后修改"时间，不是发布时间**。OpenAI 改一篇旧文（如 2025-04 的 GPT-4.1、BrowseComp）会让 lastmod 变成最近 → 旧文当成新文涌入"最近"列表（曾出现 GPT-4.1 标成 2026-05-22）。
+
+修复：对每个候选用 `fetchArticleWithImages` 抓正文 + `extractPublishDate()`（在 fetch-with-images.js，提取正文首部的 "Month DD, YYYY"）拿真实发布日期：
+- 真实日期超过 `REAL_DATE_MAX_AGE_DAYS`(10天) → 跳过（被 re-touch 的旧文）
+- 真实日期可得 → 用真实日期当 publishedAt；不可得 → 回退 lastmod
+- OpenAI 页面是 JS 渲染，raw HTML 无日期，必须靠 fetch-with-images 的 curl 兜底拿到渲染后正文。
+
+新增类似"靠 sitemap/lastmod"的博客源时注意同样的坑。
+
 ### 数据溯源铁律：生成内容禁止自行发挥
 
 所有 AI 生成的分析/报告（策略快报、行业周报、季度宏观、行业深度、AI报告速览解读）**必须严格基于抓取到的真实数据**，禁止 LLM 凭空编造：

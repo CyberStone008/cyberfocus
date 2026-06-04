@@ -11,6 +11,28 @@
 const FETCH_TIMEOUT_MS = 30_000;
 const MAX_CONTENT_CHARS = 24_000; // ~6k tokens — enough for most blog posts
 
+const MONTHS = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12,
+};
+
+/**
+ * Extract the real publish date (YYYY-MM-DD) from fetched article markdown/text.
+ * Many sites (e.g. OpenAI) render a visible "Month DD, YYYY" near the top, while
+ * their sitemap <lastmod> reflects last EDIT (not publish) — using lastmod makes
+ * year-old re-touched articles look brand new. Returns null if no date found.
+ */
+export function extractPublishDate(text) {
+  if (!text) return null;
+  // Look only near the top (publish date is usually in the first ~600 chars)
+  const head = text.slice(0, 600);
+  const m = head.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(20\d{2})/i);
+  if (!m) return null;
+  const mo = MONTHS[m[1].toLowerCase()];
+  if (!mo) return null;
+  return `${m[3]}-${String(mo).padStart(2, '0')}-${String(Number(m[2])).padStart(2, '0')}`;
+}
+
 /**
  * Fetch an article page and return a semi-structured text that keeps
  * images as Markdown image syntax.
