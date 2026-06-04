@@ -1,10 +1,14 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { sleep } from '../utils/rate-limiter.js';
 import { claudeCliClient, isCliMode } from './claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from './deepseek.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority (same as translate/claude.js): DeepSeek > Claude CLI > Anthropic SDK.
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 /**
  * Translate a full article's Markdown content into Chinese

@@ -1,10 +1,15 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from './claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from './deepseek.js';
 import { fetchArticleWithImages } from './fetch-with-images.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority (same as translate/claude.js): DeepSeek > Claude CLI > Anthropic SDK.
+// Long-form 解读 generation; DeepSeek is the standing backend (智谱 CLI 已弃用/欠费过).
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 // Source priority for featured selection (higher = preferred)
 const SOURCE_PRIORITY = {
@@ -117,7 +122,7 @@ ${hasAbstract ? `- 英文摘要：${article.abstractEn}` : ''}
   return {
     contentMd,
     translator: {
-      model: 'Claude Sonnet 4.6',
+      model: isDeepSeekMode() ? 'DeepSeek' : isCliMode() ? 'Claude CLI' : 'Claude Sonnet 4.6',
       translatedAt: new Date().toISOString(),
     },
   };

@@ -11,10 +11,14 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from './claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from './deepseek.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority (same as translate/claude.js): DeepSeek > Claude CLI > Anthropic SDK.
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 // Max chars of transcript to send to Claude (~25k chars ≈ 6k tokens — keeps CLI calls fast)
 const MAX_TRANSCRIPT_CHARS = 25_000;
