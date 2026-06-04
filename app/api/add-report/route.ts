@@ -2,54 +2,31 @@ export const dynamic = 'force-static'; // required for output:'export' static bu
 import { NextRequest, NextResponse } from 'next/server';
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { spawn } from 'child_process';
 import { Article } from '../../types/article';
+import { deepseekChat, hasDeepSeek } from '../../lib/deepseek-server';
 
-const CLI_BIN = process.env.CLAUDE_CLI_BIN || 'claude';
-
-/* ── Translate title + description via Claude CLI ── */
+/* ── Translate title + description via DeepSeek ── */
 async function translateMeta(
   titleEn: string,
   abstractEn: string,
 ): Promise<{ titleZh: string | null; abstractZh: string | null }> {
-  return new Promise((resolve) => {
-    const childEnv = { ...process.env };
-    delete childEnv.CLAUDECODE;
-    delete childEnv.CLAUDE_CODE_ENTRYPOINT;
-
-    const prompt =
-      `将以下英文标题和摘要翻译成简体中文，返回纯 JSON，格式：{"titleZh":"…","abstractZh":"…"}。` +
-      `不要输出任何其他内容。\n` +
-      `标题：${titleEn}\n` +
-      `摘要：${abstractEn.slice(0, 400)}`;
-
-    const child = spawn(CLI_BIN, ['-p', prompt, '--output-format', 'json'], {
-      env: childEnv,
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
-
-    let stdout = '';
-    const timer = setTimeout(() => { child.kill('SIGTERM'); }, 60_000);
-
-    child.stdout.on('data', (d: Buffer) => (stdout += d.toString()));
-    child.on('error', () => { clearTimeout(timer); resolve({ titleZh: null, abstractZh: null }); });
-    child.on('close', () => {
-      clearTimeout(timer);
-      try {
-        const payload = JSON.parse(stdout);
-        const result  = payload.result ?? '';
-        // Strip optional markdown fences
-        const clean   = result.replace(/```(?:json)?\s*/g, '').replace(/```/g, '').trim();
-        const parsed  = JSON.parse(clean);
-        resolve({
-          titleZh:    typeof parsed.titleZh    === 'string' ? parsed.titleZh    : null,
-          abstractZh: typeof parsed.abstractZh === 'string' ? parsed.abstractZh : null,
-        });
-      } catch {
-        resolve({ titleZh: null, abstractZh: null });
-      }
-    });
-  });
+  if (!hasDeepSeek()) return { titleZh: null, abstractZh: null };
+  const prompt =
+    `将以下英文标题和摘要翻译成简体中文，返回纯 JSON，格式：{"titleZh":"…","abstractZh":"…"}。` +
+    `不要输出任何其他内容。\n` +
+    `标题：${titleEn}\n` +
+    `摘要：${abstractEn.slice(0, 400)}`;
+  try {
+    const text  = await deepseekChat(prompt, { maxTokens: 1000, timeoutMs: 60_000 });
+    const clean = text.replace(/```(?:json)?\s*/g, '').replace(/```/g, '').trim();
+    const parsed = JSON.parse(clean);
+    return {
+      titleZh:    typeof parsed.titleZh    === 'string' ? parsed.titleZh    : null,
+      abstractZh: typeof parsed.abstractZh === 'string' ? parsed.abstractZh : null,
+    };
+  } catch {
+    return { titleZh: null, abstractZh: null };
+  }
 }
 
 const ARTICLES_PATH = resolve(process.cwd(), 'data/articles.json');

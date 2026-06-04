@@ -2,46 +2,14 @@ export const dynamic = 'force-static'; // required for output:'export' static bu
 import { NextRequest, NextResponse } from 'next/server';
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { spawn } from 'child_process';
+import { deepseekChat } from '../../lib/deepseek-server';
 
 const ARTICLES_PATH = resolve(process.cwd(), 'data/articles.json');
-const CLI_BIN = process.env.CLAUDE_CLI_BIN || 'claude';
 
-/* ── Claude CLI runner ── */
-function runClaude(prompt: string, timeoutMs = 300_000): Promise<string> {
-  return new Promise((res, rej) => {
-    const childEnv = { ...process.env };
-    delete childEnv.CLAUDECODE;
-    delete childEnv.CLAUDE_CODE_ENTRYPOINT;
-
-    const child = spawn(CLI_BIN, ['-p', prompt, '--output-format', 'json'], {
-      env: childEnv,
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
-
-    let stdout = '';
-    let stderr = '';
-    const timer = setTimeout(() => {
-      child.kill('SIGTERM');
-      rej(new Error(`claude CLI timed out after ${timeoutMs}ms`));
-    }, timeoutMs);
-
-    child.stdout.on('data', (d: Buffer) => (stdout += d.toString()));
-    child.stderr.on('data', (d: Buffer) => (stderr += d.toString()));
-    child.on('error', (err: Error) => { clearTimeout(timer); rej(err); });
-    child.on('close', (code: number) => {
-      clearTimeout(timer);
-      if (code !== 0) return rej(new Error(`claude CLI exited ${code}: ${stderr.slice(0, 300)}`));
-      try {
-        const payload = JSON.parse(stdout);
-        if (payload.is_error) return rej(new Error(payload.result ?? 'unknown'));
-        if (typeof payload.result !== 'string') return rej(new Error('missing result field'));
-        res(payload.result.trim());
-      } catch (e) {
-        rej(new Error(`JSON parse failed: ${(e as Error).message}`));
-      }
-    });
-  });
+/* ── Long-form generation via DeepSeek (replaces the old claude CLI spawn) ── */
+async function runClaude(prompt: string, timeoutMs = 300_000): Promise<string> {
+  const text = await deepseekChat(prompt, { maxTokens: 8000, timeoutMs });
+  return text.trim();
 }
 
 /* ── Fetch full article content from source URL ── */

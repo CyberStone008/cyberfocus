@@ -83,6 +83,11 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   node scripts/quarterly-macro.js
   echo "[run-daily] quarterly macro exit: $?"
 
+  # 美股行业深度（本地管道版）——脚本自身判断"仅每月1日 + 本月未生成"，按月轮转行业
+  echo "[run-daily] Running sector deep-dive..."
+  node scripts/sector-deep-dive.js
+  echo "[run-daily] sector deep-dive exit: $?"
+
   # Consider the overall run failed only if both pipelines failed
   if [ "$PIPELINE_EXIT" -ne 0 ] && [ "$PODCAST_EXIT" -ne 0 ]; then
     PIPELINE_EXIT=1

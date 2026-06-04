@@ -8,16 +8,17 @@
 
 const YF = 'https://query1.finance.yahoo.com/v8/finance/chart/';
 
-/** Fetch one symbol's 1-month daily series; returns {price, dayPct, weekPct} or null */
-async function fetchOne(symbol) {
+/** Fetch one symbol's 1-month daily series; returns {price, dayPct, weekPct} or null.
+ *  Retries on transient failures so a network blip doesn't blank a whole table. */
+async function fetchOne(symbol, attempt = 0) {
   try {
     const url = `${YF}${encodeURIComponent(symbol)}?interval=1d&range=1mo`;
     const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
-    if (!r.ok) return null;
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const j = await r.json();
     const res = j?.chart?.result?.[0];
     const meta = res?.meta;
-    if (!meta) return null;
+    if (!meta) throw new Error('no meta');
 
     // Use the ACTUAL daily close series for day/week change — NOT meta.chartPreviousClose,
     // which is the close BEFORE the whole 1-month window (would yield a ~monthly % mislabeled
@@ -41,6 +42,10 @@ async function fetchOne(symbol) {
       weekPct: weekPct == null ? null : Number(weekPct.toFixed(2)),
     };
   } catch {
+    if (attempt < 2) {
+      await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
+      return fetchOne(symbol, attempt + 1);
+    }
     return null;
   }
 }
@@ -103,6 +108,29 @@ export async function fetchMarketData() {
     out[group] = results;
   }
   return out;
+}
+
+/**
+ * Fetch an arbitrary ticker list → [{sym,name,price,dayPct,weekPct}].
+ * Used by the sector deep-dive for its rotating per-sector ticker set.
+ */
+export async function fetchQuotes(items) {
+  const out = [];
+  for (let i = 0; i < items.length; i += 6) {
+    const batch = items.slice(i, i + 6);
+    const data = await Promise.all(batch.map(async (it) => {
+      const q = await fetchOne(it.sym);
+      return q ? { ...it, ...q } : { ...it, price: null, dayPct: null, weekPct: null };
+    }));
+    out.push(...data);
+  }
+  return out;
+}
+
+/** Format an arbitrary quote list into lines for the LLM prompt. */
+export function formatQuotes(quotes) {
+  const fmt = (x) => (x == null ? 'n/a' : (x > 0 ? '+' : '') + x);
+  return quotes.map((it) => `${it.name}(${it.sym}): 价 ${it.price ?? 'n/a'}, 日 ${fmt(it.dayPct)}%, 周 ${fmt(it.weekPct)}%`).join('\n');
 }
 
 /** Format market data into a compact digest string for the LLM prompt. */
