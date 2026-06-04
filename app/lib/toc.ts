@@ -37,10 +37,6 @@ export function extractToc(markdown: string): TocEntry[] {
 
     if (h2Match) {
       const title = h2Match[1].trim();
-      // Stop at an embedded "目录 / Table of Contents" heading — everything after
-      // it is the page's own table of contents (listing other chapters), not the
-      // article's navigable sections. (Fixes Situational Awareness intro TOC.)
-      if (/^(目录|table of contents|contents)\s*$/i.test(title)) break;
       // Check if next non-empty line is an H3 (English subtitle pattern)
       let titleEn: string | undefined;
       for (let j = i + 1; j < lines.length; j++) {
