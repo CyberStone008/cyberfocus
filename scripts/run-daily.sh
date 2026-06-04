@@ -73,6 +73,11 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   node scripts/strategy-brief.js
   echo "[run-daily] strategy brief exit: $?"
 
+  # 美股行业周报（本地管道版）——脚本自身判断"仅周六 + 本周未生成"
+  echo "[run-daily] Running weekly review..."
+  node scripts/weekly-review.js
+  echo "[run-daily] weekly review exit: $?"
+
   # Consider the overall run failed only if both pipelines failed
   if [ "$PIPELINE_EXIT" -ne 0 ] && [ "$PODCAST_EXIT" -ne 0 ]; then
     PIPELINE_EXIT=1
