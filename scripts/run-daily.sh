@@ -78,6 +78,11 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   node scripts/weekly-review.js
   echo "[run-daily] weekly review exit: $?"
 
+  # 美股季度宏观（本地管道版）——脚本自身判断"仅季度首月1日 + 本季未生成"
+  echo "[run-daily] Running quarterly macro..."
+  node scripts/quarterly-macro.js
+  echo "[run-daily] quarterly macro exit: $?"
+
   # Consider the overall run failed only if both pipelines failed
   if [ "$PIPELINE_EXIT" -ne 0 ] && [ "$PODCAST_EXIT" -ne 0 ]; then
     PIPELINE_EXIT=1
