@@ -16,6 +16,7 @@ import { setupProxy } from './utils/proxy.js';
 import { fetchArxiv } from './fetch/arxiv.js';
 import { fetchHuggingFace } from './fetch/huggingface.js';
 import { fetchAnthropic } from './fetch/anthropic.js';
+import { fetchClaudeBlog } from './fetch/claude-blog.js';
 import { fetchOpenAI } from './fetch/openai.js';
 import { fetchDeepMind } from './fetch/deepmind.js';
 import { fetchHackerNews } from './fetch/hackernews.js';
@@ -147,6 +148,7 @@ async function run() {
     timed('arxiv',      enabled('arXiv cs.AI')      ? fetchArxiv()               : skip()),
     timed('huggingface',enabled('HuggingFace Daily') ? fetchHuggingFace()         : skip()),
     timed('anthropic',  enabled('Anthropic Blog')    ? fetchAnthropic(processed)  : skip()),
+    timed('claude-blog',enabled('Claude Blog')       ? fetchClaudeBlog(processed) : skip()),
     timed('openai',     enabled('OpenAI Blog')       ? fetchOpenAI(processed)     : skip()),
     timed('deepmind',   enabled('DeepMind Blog')     ? fetchDeepMind()            : skip()),
     // Social sources
@@ -259,7 +261,7 @@ async function run() {
   // （曾导致 5/22+ OpenAI 博客无解读）。聚合类(Google AI News)/arXiv 仍只走 top-3。
   console.log('\n[pipeline] Selecting featured articles...');
   const todayBJ = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
-  const HIGH_VALUE_BLOGS = new Set(['Anthropic Blog', 'OpenAI Blog', 'DeepMind Blog', 'Google DeepMind', 'NVIDIA Blog']);
+  const HIGH_VALUE_BLOGS = new Set(['Anthropic Blog', 'Claude Blog', 'OpenAI Blog', 'DeepMind Blog', 'Google DeepMind', 'NVIDIA Blog']);
   const researchItems = translated.filter((a) => a.category !== 'social');
   const top3 = pickFeatured(researchItems, 3);
   const hvBlogs = researchItems.filter((a) => HIGH_VALUE_BLOGS.has(a.source) && a.sourceUrl);

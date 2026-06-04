@@ -14,6 +14,7 @@ const CONFIG_META = Object.fromEntries(
 const SOURCE_META: Record<string, { color: string; abbr: string }> = {
   ...CONFIG_META,
   'Anthropic Blog': { color: '#c96442', abbr: 'An' },
+  'Claude Blog':    { color: '#d97757', abbr: 'Cl' },
   'OpenAI Blog':    { color: '#10a37f', abbr: 'OA' },
   'SITUATIONAL AWARENESS - The Decade Ahead': { color: '#6366f1', abbr: 'SA' },
 };
