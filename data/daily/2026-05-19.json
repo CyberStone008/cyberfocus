@@ -200,9 +200,9 @@
       "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1th8l5e/is_there_any_3b_model_with_usable_200k_context/",
       "publishedAt": "2026-05-19T01:51:54.000Z",
       "titleEn": "Is there any &lt;3B model with usable 200k+ context window?",
-      "titleZh": null,
+      "titleZh": "是否存在参数小于3B且可用上下文窗口超过200k的模型？",
       "abstractEn": "I need a small model for processing conversation transcripts from larger models, so need usable context window out to at least 200k tokens. I know some models claim to support this, but I don’t know which are actually good at this in practice.  \nAlso desirable: low hallucination rate, not super verb",
-      "abstractZh": null,
+      "abstractZh": "我需要一个小型模型来处理来自更大模型的对话转录文本，因此需要至少200k token的可用上下文窗口。我知道有些模型声称支持这一点，但我不清楚哪些在实际应用中表现良好。此外，理想特性还包括：低幻觉率、不过度冗长。",
       "authors": [
         "u/madmax_br5"
       ],
@@ -406,9 +406,9 @@
       "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1th154i/mtp_multitoken_prediction_2x_faster_token/",
       "publishedAt": "2026-05-18T21:01:35.000Z",
       "titleEn": "MTP (Multi-Token Prediction): 2x Faster Token Generation on AMD Strix Halo &amp; Radeon 9700 AI Pro",
-      "titleZh": null,
+      "titleZh": "MTP（多令牌预测）：在 AMD Strix Halo 和 Radeon 9700 AI Pro 上实现 2 倍令牌生成加速",
       "abstractEn": "https://preview.redd.it/8gpkg8zxmy1h1.png?width=1672&amp;format=png&amp;auto=webp&amp;s=a95db16a39cdc49c0ff155117b734d413a49c2d3\n\n[https://youtu.be/MI0Pm1d6YF4](https://youtu.be/MI0Pm1d6YF4)\n\nMTP can accelerate LLM inference 2x, especially for coding agents. This video covers what MTP is and the per",
-      "abstractZh": null,
+      "abstractZh": "https://preview.redd.it/8gpkg8zxmy1h1.png?width=1672&format=png&auto=webp&s=a95db16a39cdc49c0ff155117b734d413a49c2d3\n\nhttps://youtu.be/MI0Pm1d6YF4\n\nMTP 可以将 LLM 推理速度提升 2 倍，尤其适用于编码智能体。本视频介绍了 MTP 的概念及其具体实现。",
       "authors": [
         "u/Intrepid_Rub_3566"
       ],
@@ -429,7 +429,7 @@
       "commentUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1th0z6k/lemonade_v1051_an_mtp_rocm_713_quick_start_for/",
       "publishedAt": "2026-05-18T20:55:54.000Z",
       "titleEn": "Lemonade v10.5.1: an MTP + ROCm 7.13 quick start for Strix Halo",
-      "titleZh": null,
+      "titleZh": "Lemonade v10.5.1：面向 Strix Halo 的 MTP + ROCm 7.13 快速入门指南",
       "abstractEn": "Update to Lemonade v10.5.1, then:\n\n```\n# Get the model\nlemonade pull Qwen3.6-27B-MTP-GGUF\n\n# Get ROCm 7.13\nlemonade backends install llamacpp:rocm\n\n# Load the model (MTP args auto-applied)\nlemonade load Qwen3.6-27B-MTP-GGUF --llamacpp rocm --ctx-size 0\n```\n\nShown in the video taking a look in the mi",
       "abstractZh": null,
       "authors": [

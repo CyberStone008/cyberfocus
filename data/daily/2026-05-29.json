@@ -14,9 +14,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVnRvQWhfeS1jT25fdmxoWWlyVkxUN0NXekgzbGhMYzc1TDh2OGJidlYtbnV6VDQzdWZ0aWY1d2E0clZOMGZNQk1SOGE2cjlCbkdtTHBaTTF2eHFHYVo3eFp4Z2F5eklXdUF2SjFlN09tWnBlaGE3U2VTay1RZUhUOEFNbjJLLWxybmVTbXdXUEVKVkdLVzh4TmNtOXR4TGpFOHFqbmh0alBuNlE?oc=5",
       "publishedAt": "2026-05-29T07:54:22.000Z",
       "titleEn": "Some Japanese Banks to Get Access to Latest OpenAI Model",
-      "titleZh": null,
+      "titleZh": "部分日本银行将获准使用最新 OpenAI 模型",
       "abstractEn": "Some Japanese Banks to Get Access to Latest OpenAI Model  Bloomberg.com",
-      "abstractZh": null,
+      "abstractZh": "部分日本银行将获准使用最新 OpenAI 模型  Bloomberg.com",
       "authors": [
         "Bloomberg.com"
       ],
@@ -37,7 +37,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48319968",
       "publishedAt": "2026-05-29T07:05:31.000Z",
       "titleEn": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
-      "titleZh": null,
+      "titleZh": "jqwik 中未公开的附加指令导致 AI 编码代理删除应用输出",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -117,9 +117,9 @@
       "sourceUrl": "https://www.leiphone.com/category/robot/euozG2zhN1XUjvbs.html",
       "publishedAt": "2026-05-29T06:28:00.000Z",
       "titleEn": "ICRA 2026| 论文评述Kilometer-Scale GNSS-Denied UAV Navigation",
-      "titleZh": null,
+      "titleZh": "ICRA 2026| 论文评述：千米级GNSS拒止环境下的无人机导航",
       "abstractEn": "原文作者：Michal Werner, David Čapek 等4名\n原文链接：https://www.themoonlight.io\n雷峰网注：该系统由捷克理工大学（CTU in Prague）著名的多机器人系统小组（MRS）开发。它是针对德国 SPRIN-D Funke 挑战赛（完全自主飞行挑战赛） 专门研发的夺冠方案。比赛要求无人机在没有 GNSS 信号、没有预先构建的稠密地图的情况下，在 25 米以下（AGL）的低空自主飞行 9 公里进行航点导航。\n\n\n\n本文介绍了一个为SPRIN-D Funke全自主飞行挑战赛开发的机载无人机（UAV）系统，该系统旨在解决GNSS拒绝环境下长距离导航的难题。在挑战赛中，无人机需要在无GNSS或预先密集建图的情况下，完成9公里长的低空（低于25米AGL）航点导航。该系统通过将LiDAR生成的局部Heightmap与先验地理数据Heightmap进",
-      "abstractZh": null,
+      "abstractZh": "原文作者：Michal Werner, David Čapek 等4名\n原文链接：https://www.themoonlight.io\n雷峰网注：该系统由捷克理工大学（CTU in Prague）著名的多机器人系统小组（MRS）开发。它是针对德国 SPRIN-D Funke 挑战赛（完全自主飞行挑战赛）专门研发的夺冠方案。比赛要求无人机在没有 GNSS 信号、没有预先构建的稠密地图的情况下，在 25 米以下（AGL）的低空自主飞行 9 公里进行航点导航。\n\n本文介绍了一个为SPRIN-D Funke全自主飞行挑战赛开发的机载无人机（UAV）系统，该系统旨在解决GNSS拒止环境下长距离导航的难题。在挑战赛中，无人机需要在无GNSS或预先密集建图的情况下，完成9公里长的低空（低于25米A",
       "authors": [
         "雷锋网"
       ],
@@ -298,7 +298,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48318960",
       "publishedAt": "2026-05-29T04:15:58.000Z",
       "titleEn": "Step 3.7 Flash – Open-source multimodal model for speed and agents",
-      "titleZh": null,
+      "titleZh": "Step 3.7 Flash – 面向速度和智能体的开源多模态模型",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -439,7 +439,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48318174",
       "publishedAt": "2026-05-29T02:13:20.000Z",
       "titleEn": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
-      "titleZh": null,
+      "titleZh": "Claude Code – 文档未提及但可配置的一切",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -459,9 +459,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQalBnRmE2b2VsaF9qUEw4QmFpdzJQTzYyUERVLWUyVWxVWVp1MjJ2VS1sMFhyeDBZWDZKYS0xQk9iWGZXenFvTklTRG8zcU85Mi13NnBhQTVGdWxHR3E5dzNRZndUN1B0Q1J3VW1wNVBIeDViWHRMc2V3dFNnU2ptV2F3R2lNNnRWUE9PeEI1RGdvVG1SalVmdl9rWDB6Y09xNVE?oc=5",
       "publishedAt": "2026-05-29T01:13:36.000Z",
       "titleEn": "Illinois Governor Vows to Sign AI Safety Bill",
-      "titleZh": null,
+      "titleZh": "伊利诺伊州州长承诺签署AI安全法案",
       "abstractEn": "Illinois Governor Vows to Sign AI Safety Bill  PYMNTS.com",
-      "abstractZh": null,
+      "abstractZh": "伊利诺伊州州长承诺签署AI安全法案  PYMNTS.com",
       "authors": [
         "PYMNTS.com"
       ],
@@ -482,7 +482,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48317563",
       "publishedAt": "2026-05-29T00:49:05.000Z",
       "titleEn": "Microsoft data suggests using AI is more expensive than hiring people",
-      "titleZh": null,
+      "titleZh": "微软数据显示使用AI比雇佣人力更昂贵",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -502,9 +502,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWk0YzJFUDNkVlA5em5KOHU1NEFFdXRLWlhaYW5YX1Vrc0pyVnpqUGE4Q0YxbUlrX201ODJCVE1tNEJqQ3ZtUG5ZWS0xZ0U3LTdFdW56Q2hjWkhIaGs4ZVVrNnFUN1U2bnhHcjdvMFZseWF6YWNjSEY3WGM0S0tXX09BaUZXLWVlNV9KSlZGQVJ4ckhocmpKc08tX0syMV9tSHpZRnpR?oc=5",
       "publishedAt": "2026-05-29T00:18:25.000Z",
       "titleEn": "Vietnam faces a breakthrough opportunity thanks to artificial intelligence",
-      "titleZh": null,
+      "titleZh": "越南因人工智能迎来突破性机遇",
       "abstractEn": "Vietnam faces a breakthrough opportunity thanks to artificial intelligence  Laodong.vn",
-      "abstractZh": null,
+      "abstractZh": "越南因人工智能迎来突破性机遇  Laodong.vn",
       "authors": [
         "Laodong.vn"
       ],
@@ -525,7 +525,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48317294",
       "publishedAt": "2026-05-29T00:09:35.000Z",
       "titleEn": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
-      "titleZh": null,
+      "titleZh": "神秘的Hy3 LLM以大幅优势登顶OpenRouter模型排行榜",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -545,9 +545,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFhTWDVnYVNZaGxPdVhSdWlBbmNJeUphek5yakVYcjVUVlpEM2VONk9FLVNuMFpoSTFYcGp6QVBaeEdNRDVTQVIwMm1GeGoybERub2Yta1lGT1Mzdjl0dzVmWTA5dFFMRUxGaVZ1QlJ1WW05WlJNVUpMNlZVaC1rN19GcmVxTmhtTk93N2tlMFpwajhGcjFWczVEWDRSa00?oc=5",
       "publishedAt": "2026-05-29T00:07:55.000Z",
       "titleEn": "Africa's Startup Funding Shifts Amidst AI Boom",
-      "titleZh": null,
+      "titleZh": "AI热潮下非洲初创企业融资格局转变",
       "abstractEn": "Africa's Startup Funding Shifts Amidst AI Boom  StartupHub.ai",
-      "abstractZh": null,
+      "abstractZh": "AI热潮下非洲初创企业融资格局转变  StartupHub.ai",
       "authors": [
         "StartupHub.ai"
       ],
@@ -587,9 +587,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0NtbFAxSVdNNTY2RUo5R0ZQYnhfT2ZOcGFGbWFLQ1ZhMVFqQ194RE9nYkowa1p0TmNrOUlJYU90YnBPVkxYLWw3ZENQaU1IZzVqVEpsSS1YckZKb0oxLU1CcHF0ZUNPbzB2N0FfZ2RiQ0VIaTdrX1AzbVIzUHU2U2FZYVk4R3hMekFxd29IX1RHWDJEVU1xOHM1T3U3OUFibTNRR21qbmloS0t4TEk5Q1NqTQ?oc=5",
       "publishedAt": "2026-05-28T22:04:39.000Z",
       "titleEn": "Meet the Silicon Valley priest advising tech companies on artificial intelligence ethics",
-      "titleZh": null,
+      "titleZh": "硅谷神父为科技公司提供人工智能伦理建议",
       "abstractEn": "Meet the Silicon Valley priest advising tech companies on artificial intelligence ethics  OSV News",
-      "abstractZh": null,
+      "abstractZh": "硅谷神父为科技公司提供人工智能伦理建议——OSV News",
       "authors": [
         "OSV News"
       ],
@@ -609,9 +609,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXBXaDBEQnVZQ1BNRFFlaF9jYS03OE9Sa3ZNWTRjZS1sNHJaLVA4cklETl9pZG00LUpkUXBCNTllOTZtMXBoSjJiMzB2cU1tUTdHeElRSVUzWEIwWEF6cXBUQnpnYTBINHE1UzN2WFVNMDdESVd4akMxM1ZXUEVsNk1nRXNCSG83NjNlc3g0NHJuMjU0U2RHM1hLa3lMVFlfc1BQQktwamVjOF9LdlMyNNIBtgFBVV95cUxQcEZEMThONGV0UTJ4dTI4LXpWWjQ1U2R5bkpjbGlkeGZtb0xIMFJYWFk0SUhEY3F1Sm5zOGd0TGg1aXZVcmlfY1BZaG11NlJBMzZ5dGFfcUJTcmhIeXNmbXlIbTdpMlJuM09zZzlpN2ZweHJ4MF9wRmlxWTh4NUtLai1UcURVYU9UVTRaX05jX3M3eU5nZW5zMFQ0dWFSM3JLdG1oTUVlWDBoME90LWw1Zl96LUZjZw?oc=5",
       "publishedAt": "2026-05-28T22:00:06.000Z",
       "titleEn": "Fox News Poll: Voters see AI regulation as urgent, rank safeguards ahead of innovation",
-      "titleZh": null,
+      "titleZh": "福克斯新闻民调：选民认为AI监管刻不容缓，安全措施优先于创新",
       "abstractEn": "Fox News Poll: Voters see AI regulation as urgent, rank safeguards ahead of innovation  Fox News",
-      "abstractZh": null,
+      "abstractZh": "福克斯新闻民调：选民认为AI监管刻不容缓，安全措施优先于创新——福克斯新闻",
       "authors": [
         "Fox News"
       ],
@@ -632,7 +632,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48315583",
       "publishedAt": "2026-05-28T21:14:22.000Z",
       "titleEn": "Amazon scraps AI leaderboard to stop workers chasing usage scores",
-      "titleZh": null,
+      "titleZh": "亚马逊取消AI排行榜以防止员工追逐使用分数",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -653,7 +653,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48315440",
       "publishedAt": "2026-05-28T21:03:24.000Z",
       "titleEn": "Protestware for Coding Agents",
-      "titleZh": null,
+      "titleZh": "面向编码代理的抗议软件",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -673,9 +673,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3a3JRY0JjY0VPalNrZTNGWFVXTmNodEVCLUZEaUFneS1Kalo5UlU0QzZJcjdYN3ZFX0tlUVlMalJ0NjNZRV82c0NjSnFVMzg5OTQyZ0JjaDk5Zk5LMjQ2NE94VnQxWnRpcWpvUlJpVVU?oc=5",
       "publishedAt": "2026-05-28T20:33:00.000Z",
       "titleEn": "Anthropic Rockets to $965 Billion Valuation, Topping OpenAI in AI Showdown",
-      "titleZh": null,
+      "titleZh": "Anthropic估值飙升至9650亿美元，在AI对决中超越OpenAI",
       "abstractEn": "Anthropic Rockets to $965 Billion Valuation, Topping OpenAI in AI Showdown  WSJ",
-      "abstractZh": null,
+      "abstractZh": "Anthropic估值飙升至9650亿美元，在AI对决中超越OpenAI——华尔街日报",
       "authors": [
         "WSJ"
       ],
@@ -695,9 +695,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRUpjZXd5MTl2S0ZtVWhmelZRdXBNaEM1UU1KQkppbVoxOG9hWkRlSEp1cjZGZV94TG1uVi1vTHhJXzdpYUZ5ZHlTcm1qWUgtd0RGRWl4WlFTVGUxU2k5WkFwaXp4ZkVFcWF6eWhvaFVVQkwzVHZTWlllRV9iSTMtTWRmSmt0RXBJenVtbjFQU0RqQ0h6a0V2eFhrQQ?oc=5",
       "publishedAt": "2026-05-28T19:57:33.000Z",
       "titleEn": "Anthropic's valuation surges to $965 billion, surpassing OpenAI",
-      "titleZh": null,
+      "titleZh": "Anthropic估值激增至9650亿美元，超越OpenAI",
       "abstractEn": "Anthropic's valuation surges to $965 billion, surpassing OpenAI  Reuters",
-      "abstractZh": null,
+      "abstractZh": "Anthropic估值激增至9650亿美元，超越OpenAI——路透社",
       "authors": [
         "Reuters"
       ],
@@ -717,9 +717,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTlGTElnSGI1Ymg0NVlXZ1lIWTJNZ29mcHBLR04wNGZtRUwtMG0tTXAzVl90QUJ5Mm00X3YtU0Y0b1VVdnBLSnAxSXE3VWU3c2ktclVvN3FKWWxRYWNXVzdlcTl3NnM1ZkhVdDYtOUlTQ2xVUzBOSGxWRG5fSUxwbjFDbVlvZzNodjBGcnUxS3J1MmRCdmk2OW1MSUVvZVZmQzRaZg?oc=5",
       "publishedAt": "2026-05-28T19:45:22.000Z",
       "titleEn": "Blue states push toward de facto national AI safety standard",
-      "titleZh": null,
+      "titleZh": "蓝州推动事实上的国家AI安全标准",
       "abstractEn": "Blue states push toward de facto national AI safety standard  Pluribus News",
-      "abstractZh": null,
+      "abstractZh": "蓝州推动事实上的国家AI安全标准——Pluribus News",
       "authors": [
         "Pluribus News"
       ],
@@ -740,7 +740,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48314363",
       "publishedAt": "2026-05-28T19:43:14.000Z",
       "titleEn": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
-      "titleZh": null,
+      "titleZh": "Sam Altman和Dario Amodei均收回AI导致就业末日预测",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -760,9 +760,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PUnJYZ1V2cDA4MFFqTlFlOVdfZUFIb1JUeWZKc0d4Tm1GWWhBRlJtTXZIN0hkb3BLYkIzRmxCZFJIUE5Yak9PZDdvNE00VFhoWU1UZVMxbkdtVXFBS05SQmV4TVdpOGxaaUd3V0p6WTRuQQ?oc=5",
       "publishedAt": "2026-05-28T19:31:13.000Z",
       "titleEn": "Anthropic overtakes OpenAI as the most valuable AI startup",
-      "titleZh": null,
+      "titleZh": "Anthropic超越OpenAI成为最具价值的AI初创公司",
       "abstractEn": "Anthropic overtakes OpenAI as the most valuable AI startup  Axios",
-      "abstractZh": null,
+      "abstractZh": "Anthropic超越OpenAI成为最具价值的AI初创公司——Axios",
       "authors": [
         "Axios"
       ],
@@ -782,9 +782,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXc0Nk1ERXZXSVJOaVZ2enlsZGFJU0FQNV9ETVBQRzh0UzJMNDBnQm5zcDlncEFJQ2VXUGlWQ3E2a0xsS2FzZkhuQ2ptVUFqYi1GQk52VjNCZ2Z5dnpKeVUxYmNZZHJOeWRhREQyUU82Ump5R1FxSzh4QVVma2NXTGpldFNXSjVKcFNtWkNTZFlheTV3cDFwUFQtQ2JzdG8?oc=5",
       "publishedAt": "2026-05-28T19:31:00.000Z",
       "titleEn": "Illinois passes AI Safety Measures Act",
-      "titleZh": null,
+      "titleZh": "伊利诺伊州通过《AI安全措施法案》",
       "abstractEn": "Illinois passes AI Safety Measures Act  Spectrum News",
-      "abstractZh": null,
+      "abstractZh": "伊利诺伊州通过《AI安全措施法案》——Spectrum News",
       "authors": [
         "Spectrum News"
       ],
@@ -804,9 +804,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjFqNkljXzVHQkdhUnZUX243MEx0TEFuUllERElJa1dBUlczVl9jcGJtUi0ybTkwMERaM21jT3FncWxiYVh1V2ZoeWNSbzhBd1MyQ2ppQW95NGYyZVQyYlpsZnc0bENBRWUxMzdMdmI1WHJoZTBTNlJkYTBreDUyUVZsLW0xTWxrMXhOMFlZS1Rmd1h3Tmcw?oc=5",
       "publishedAt": "2026-05-28T19:22:00.000Z",
       "titleEn": "Illinois Legislature Passes Landmark AI Safety Bill",
-      "titleZh": null,
+      "titleZh": "伊利诺伊州议会通过里程碑式AI安全法案",
       "abstractEn": "Illinois Legislature Passes Landmark AI Safety Bill  The Information",
-      "abstractZh": null,
+      "abstractZh": "伊利诺伊州议会通过里程碑式AI安全法案  The Information",
       "authors": [
         "The Information"
       ],
@@ -826,9 +826,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPczNHaHpwUHZVV204RDVZMHR1Q0w5RS10NWdNc0liaGtPSlJwamZQNTJxZ0pjWF8wamliUS1pRzZpbWFFaGFycUJQUDdNekE4Y05RNXloeHVFTWxEZkRueUxSNjBsRlg3cW95aE9NSFB3MEgwbDFVeDhCVGRiMHIzbEZ3?oc=5",
       "publishedAt": "2026-05-28T19:14:40.000Z",
       "titleEn": "Anthropic passes OpenAI to become the biggest AI startup in the world",
-      "titleZh": null,
+      "titleZh": "Anthropic超越OpenAI成为全球最大AI初创公司",
       "abstractEn": "Anthropic passes OpenAI to become the biggest AI startup in the world  qz.com",
-      "abstractZh": null,
+      "abstractZh": "Anthropic超越OpenAI成为全球最大AI初创公司  qz.com",
       "authors": [
         "qz.com"
       ],
@@ -849,7 +849,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48313810",
       "publishedAt": "2026-05-28T19:02:18.000Z",
       "titleEn": "Various LLM Smells",
-      "titleZh": null,
+      "titleZh": "各类LLM气味问题",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -869,9 +869,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQjRkUWkyMndQeFEzOC0taU4zQ3h6dXl3SFFFZDZJaXlpeF9jMXZHdGY2ZGJxVG94bGY0REdaaDJ6Tk1CTVA4bkpIdWlPeTdMTlA1a01BWmQ3ZkpzVUR6WWo1Y21ORUExMy1ZTUo3OTZKeU1JTkk0ckxxSXlTcFFTd2lYVVZQQlRUcENvemt3UWJoRW1PV3dKV3YwN2R0QmNKX3Y3Qld0cG5qWDlQa2tN?oc=5",
       "publishedAt": "2026-05-28T19:02:00.000Z",
       "titleEn": "Anthropic surpasses OpenAI as most valuable AI startup after raising $65B (ANTHRO:Private)",
-      "titleZh": null,
+      "titleZh": "Anthropic融资650亿美元后超越OpenAI成为最具价值AI初创公司（ANTHRO:Private）",
       "abstractEn": "Anthropic surpasses OpenAI as most valuable AI startup after raising $65B (ANTHRO:Private)  Seeking Alpha",
-      "abstractZh": null,
+      "abstractZh": "Anthropic融资650亿美元后超越OpenAI成为最具价值AI初创公司（ANTHRO:Private）  Seeking Alpha",
       "authors": [
         "Seeking Alpha"
       ],
@@ -891,9 +891,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFJZbFFxa0ZvbjBzTzhhbm9jMnVPYTFJdW1JdjU4NE5qblhSVTJrQkxna0lneXo1T1IxZnE2UFd6dm82VDFpcW1HaWEwcVJDaUJtUGJHZWg4UDBUd0otWDNFbzVhbWFuQ3kzbm5odjNBeGw0YkFhMDhEcllVcDR4dXhnMmJ6MFhPZGt5YW1VNkZzWXNlbkJWcldn?oc=5",
       "publishedAt": "2026-05-28T18:52:51.000Z",
       "titleEn": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
-      "titleZh": null,
+      "titleZh": "Anthropic融资650亿美元，IPO前估值逼近1万亿美元",
       "abstractEn": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO  TechCrunch",
-      "abstractZh": null,
+      "abstractZh": "Anthropic融资650亿美元，IPO前估值逼近1万亿美元  TechCrunch",
       "authors": [
         "TechCrunch"
       ],
@@ -913,9 +913,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB0gF8QVVfeXFMTzVRMWxaakV4Z3J5WFA3aERDUm1EWXZDQ2pDS0NnVEFSd0VuelBOeXd3cHdPdWFNUXVIa0dVUm94X0MyTWFNNy00eEViS0hfZlNvOS1xT3dfNmh2MjNKYzk4WnJ2bDVwUER6NmljWFg1Zzk2aTlmYW43cklYUw?oc=5",
       "publishedAt": "2026-05-28T18:35:44.000Z",
       "titleEn": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round",
-      "titleZh": null,
+      "titleZh": "Anthropic超越OpenAI成为最具价值AI初创公司，最新一轮估值接近1万亿美元",
       "abstractEn": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round  CNBC",
-      "abstractZh": null,
+      "abstractZh": "Anthropic超越OpenAI成为最具价值AI初创公司，最新一轮估值接近1万亿美元  CNBC",
       "authors": [
         "CNBC"
       ],
@@ -936,7 +936,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48313219",
       "publishedAt": "2026-05-28T18:20:34.000Z",
       "titleEn": "About LLMs at Zig Days",
-      "titleZh": null,
+      "titleZh": "关于Zig Days上的LLM话题",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -956,9 +956,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
       "publishedAt": "2026-05-28T18:15:01.000Z",
       "titleEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "titleZh": null,
+      "titleZh": "Anthropic完成H轮融资650亿美元，投后估值9650亿美元",
       "abstractEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation  Anthropic",
-      "abstractZh": null,
+      "abstractZh": "Anthropic完成H轮融资650亿美元，投后估值9650亿美元  Anthropic",
       "authors": [
         "Anthropic"
       ],
@@ -979,7 +979,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48313048",
       "publishedAt": "2026-05-28T18:09:44.000Z",
       "titleEn": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "titleZh": null,
+      "titleZh": "Anthropic完成H轮融资650亿美元，投后估值9650亿美元",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -999,9 +999,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS3ZqbFc5RnpscVU0QnF6NzFsVmRlSGVfQU9EODFGRk02U0UtRWdGTHlPcUkzVDRtTmFVemk2T1hDQ1FRV3Z6Ulh3VnZJUTRMLVluMnhFVHFfYjlXQ3QzR3FWOWl5VmxjeG80eDdKR2ZEbW9LZWtRVDFLT1BSaWtuU01mb0hxem5lY2JtZ2I0aWloWTBlekctU2RHME9tZFpMaVQxWl96VjdxTnRrUU5qVlM1YnpTUWQtdW8yZldVQlNKRWZzZ3pmVw?oc=5",
       "publishedAt": "2026-05-28T18:06:18.000Z",
       "titleEn": "Randstad N.V. stock (NL0000379121): shares steady on Euronext Amsterdam as investors digest latest q",
-      "titleZh": null,
+      "titleZh": "Randstad N.V.股票（NL0000379121）：投资者消化最新季度数据，阿姆斯特丹泛欧交易所股价平稳",
       "abstractEn": "Randstad N.V. stock (NL0000379121): shares steady on Euronext Amsterdam as investors digest latest q  AD HOC NEWS",
-      "abstractZh": null,
+      "abstractZh": "Randstad N.V.股票（NL0000379121）：投资者消化最新季度数据，阿姆斯特丹泛欧交易所股价平稳  AD HOC NEWS",
       "authors": [
         "AD HOC NEWS"
       ],
@@ -1021,9 +1021,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNjVSOGxhbVc5RU9qMU5xZ0VIZzZyQkk0YUlVT2NCVTZkN092X09zTW80M0ljQWs0ei0xNHpQbVh6YWdhei1oRTQwSTFpczI5MWkxZTMxeFpSdzJING0tdUlTdHF5Qmc1V1JqSGk1emw5YWk4MFBfcFpVSFFEQ0lPTmdQejFpUmxmLXhJQy1sTWdZQ2dHb2RTMzJWbk44aVRvVnM0SjZNUUt2WEFkZlRndlp5S3g5Q2lzV3BLRg?oc=5",
       "publishedAt": "2026-05-28T17:01:16.000Z",
       "titleEn": "Trump loses more control over AI regulation as Illinois passes landmark law",
-      "titleZh": null,
+      "titleZh": "伊利诺伊州通过里程碑式法律，特朗普对AI监管失去更多控制权",
       "abstractEn": "Trump loses more control over AI regulation as Illinois passes landmark law  Ars Technica",
-      "abstractZh": null,
+      "abstractZh": "伊利诺伊州通过里程碑式法律，特朗普对AI监管失去更多控制权 —— Ars Technica",
       "authors": [
         "Ars Technica"
       ],
@@ -1043,9 +1043,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSi1XZmpReGJ1X3dWZ0JsQ1BHXzloYm93YjV2N09HX0VlRTFDa2huRE9jX3h6cWxQSDJDdVhnR1Awc01WZDRtVW13Zk50T3dINkJvSS13RkQ3WTM3d2NhRWpZWDV5VEhwV0FQMGRwNEJCdy1idFhIZXBqR3hUX0RHOHdEOU9lZU1GNXc?oc=5",
       "publishedAt": "2026-05-28T17:00:09.000Z",
       "titleEn": "Anthropic Tops OpenAI to Become the World’s Most Valuable A.I. Start-Up",
-      "titleZh": null,
+      "titleZh": "Anthropic超越OpenAI，成为全球最具价值的AI初创公司",
       "abstractEn": "Anthropic Tops OpenAI to Become the World’s Most Valuable A.I. Start-Up  The New York Times",
-      "abstractZh": null,
+      "abstractZh": "Anthropic超越OpenAI，成为全球最具价值的AI初创公司 —— 《纽约时报》",
       "authors": [
         "The New York Times"
       ],
@@ -1066,7 +1066,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48311705",
       "publishedAt": "2026-05-28T16:52:21.000Z",
       "titleEn": "Dynamic Workflows in Claude Code",
-      "titleZh": null,
+      "titleZh": "Claude Code中的动态工作流",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -1087,7 +1087,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48311647",
       "publishedAt": "2026-05-28T16:49:14.000Z",
       "titleEn": "Claude Opus 4.8",
-      "titleZh": null,
+      "titleZh": "Claude Opus 4.8",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -1108,7 +1108,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48309986",
       "publishedAt": "2026-05-28T15:05:06.000Z",
       "titleEn": "Show HN: Ktx – Open-source executable context layer for data agents",
-      "titleZh": null,
+      "titleZh": "Show HN: Ktx —— 面向数据代理的开源可执行上下文层",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -1128,9 +1128,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM0d2YThTc0tmTE1rYmJadmFNamZKaGNaQzZUQkJCbmhjU2NBRTdnYWRCNTU3TW92UDJpdnlqTWtxajlpR2ljR3RJUkR1NVFCN0s4U1gwMnFlZ1Zlc3hpRHZiZVJ6Wm45LXVrNmJ4OTFEelpOVnBERXFqRVVFcEVpdHZOUm9CSTZ3bVB3Mk9tNHB3VzB3VGJsbGtvYkJPV0pSc3lXQl93?oc=5",
       "publishedAt": "2026-05-28T14:00:00.000Z",
       "titleEn": "Real-Time AI Video Startup Reactor Raises $59M From Jeffrey Katzenberg, Other Investors",
-      "titleZh": null,
+      "titleZh": "实时AI视频初创公司Reactor从Jeffrey Katzenberg及其他投资者处融资5900万美元",
       "abstractEn": "Real-Time AI Video Startup Reactor Raises $59M From Jeffrey Katzenberg, Other Investors  Variety",
-      "abstractZh": null,
+      "abstractZh": "实时AI视频初创公司Reactor从Jeffrey Katzenberg及其他投资者处融资5900万美元 —— Variety",
       "authors": [
         "Variety"
       ],
@@ -1171,7 +1171,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48308376",
       "publishedAt": "2026-05-28T13:02:00.000Z",
       "titleEn": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
-      "titleZh": null,
+      "titleZh": "Show HN: Continue? Y/N —— 一个关于AI代理权限疲劳的60秒游戏",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -1212,7 +1212,7 @@
       "commentUrl": "https://news.ycombinator.com/item?id=48307887",
       "publishedAt": "2026-05-28T12:20:19.000Z",
       "titleEn": "Disagreement among frontier LLMs on real-world fact-checks",
-      "titleZh": null,
+      "titleZh": "前沿大语言模型在真实世界事实核查中的分歧",
       "abstractEn": "",
       "abstractZh": null,
       "authors": [
@@ -1232,9 +1232,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWNWeno3dlhEdWpSNDhVVk1JLU1GdkNZZEtqZjMzclFpRmR2LVd1MC1iS2Y1M0JRM0w0UmRidTZNZTlELVA2Sl9jMzhVWGI2d2M3SkFEUDE5R1h0anBFdVNCd01mRHFGbmpmcXpEMUtKN3U0WXlFRVoxTXJEeDJWS2FBYThZQ0ZITnRBelhXUnFrQTlMTWRzdmRjY0lqUQ?oc=5",
       "publishedAt": "2026-05-28T11:26:46.000Z",
       "titleEn": "Pay for Salaried Workers Is Rising Faster Than Hourly Wages",
-      "titleZh": null,
+      "titleZh": "受薪工人薪资涨幅超过时薪工人",
       "abstractEn": "Pay for Salaried Workers Is Rising Faster Than Hourly Wages  Indeed Hiring Lab",
-      "abstractZh": null,
+      "abstractZh": "受薪工人薪资涨幅超过时薪工人 —— Indeed Hiring Lab",
       "authors": [
         "Indeed Hiring Lab"
       ],
@@ -1254,9 +1254,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeFlVNF8yZC1hUGRZaF9HdDBLemd4YzJrQ1ZIUk4wZHhQSDhhYUZjdVppaWU2eUtSb2pxOGF0aXJ1aHpxNHo3bnZodjVkSUlyS1VNVFpwb0UzdjdUSEVpcnVwS2Q0SWlRUmZKcTVzZkhybXBGTWRoc1N4R1ZZZndIVWhXWndLZUc2aDdUajlXQjlyMkk?oc=5",
       "publishedAt": "2026-05-28T11:00:07.000Z",
       "titleEn": "Crunchbase Data: Venture Dollars For Black Startup Founders Stay Scarce Despite AI Funding Boom",
-      "titleZh": null,
+      "titleZh": "Crunchbase 数据：尽管 AI 融资热潮，黑人初创企业创始人的风险投资依然稀缺",
       "abstractEn": "Crunchbase Data: Venture Dollars For Black Startup Founders Stay Scarce Despite AI Funding Boom  Crunchbase News",
-      "abstractZh": null,
+      "abstractZh": "Crunchbase 数据：尽管 AI 融资热潮，黑人初创企业创始人的风险投资依然稀缺  Crunchbase 新闻",
       "authors": [
         "Crunchbase News"
       ],
@@ -1296,9 +1296,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTDMtV3ZvNXBzcnVHZmE0ZmNoUHg5MnpUY3dRU2EwSEQwYWtGRnlHYW1lenVtbzNnRmxMSDdMbGVaX19oVWk4NkpVZmlJY3ZWdXZZMmZsdjFYY2RqdjQtVzd0VXhWU29fY1dzTEVBbkctNzdyaWNMa01OVWJNRW1Sd2pxby1DZ09xcmxpTFBUSm5mSWtWVkFuSnJvY010RHZPRzkyOHR2ZmxmMDRLZUpETTZybDl0UDVpMGVPUmhnNmpIUkVoRlpJRGZ6eE4xNXZvbjc0emVQa3F6UDVpaEhRZC13b1oweFBoMG9qc01SYXJMdHZnTkNXbVJn?oc=5",
       "publishedAt": "2026-05-27T20:37:01.000Z",
       "titleEn": "Survey finds 99% of executives expect AI layoffs within two years",
-      "titleZh": null,
+      "titleZh": "调查发现99%的高管预计两年内将因AI裁员",
       "abstractEn": "Survey finds 99% of executives expect AI layoffs within two years  MSN",
-      "abstractZh": null,
+      "abstractZh": "调查发现99%的高管预计两年内将因AI裁员——MSN",
       "authors": [
         "MSN"
       ],
@@ -1319,9 +1319,9 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQVBOWjBJam9hVXUya05XTS1Bd1diVkUzYlpJWmExTTVsdkpJWU13c3VUSkJJOURkVjZxczRhWGpJOTJkOU1GeWlVc3FCLVk4Nmh2d2tOaHJXUHgybG1DSDdMLU95elNiczZsamZkazg2SFZhQ21FREhWQWJVaXpKMHNIMFMwWEVZYVJWLUF4bmtuOWJIemYydTZ3MlM3Q2phZm9ZRnZERTZfc1p5elE3SjV5LU50QjA0UWlFVHRYak1PVnhBdGlFR1ItNTJ0cE1kTXFBakVLV1d3dW5vdWJoVHczU1JrdDF4VUpuTDJDNVNkNW9xcUhFcm9kNk90MzJkV0p0R1ZqZXZCSVktcmE2MlBtWGxBYVdDWWZXREdpY21tajNYcXVETXRseFI3N0ZvZ3psaW9JUi1xRG0tY0NQeFNlVnBtWFlKVXJFZVNNa1FDWE01VEdxemhEallIRHJUS2pteklyNFg2LU1TWDdhWTdzOWxaU3NQZjJ6M2NjUQ?oc=5",
       "publishedAt": "2026-05-26T10:00:00.000Z",
       "titleEn": "Survey reveals that 99% of CEOs now expect AI-driven layoffs — companies are racing to replace junior workers with AI, even as many executives remain uncertain about the returns on AI investments",
-      "titleZh": null,
+      "titleZh": "调查显示 99% 的 CEO 预期 AI 将引发裁员——企业竞相用 AI 替代初级员工，尽管许多高管对 AI 投资回报仍不确定",
       "abstractEn": "Survey reveals that 99% of CEOs now expect AI-driven layoffs — companies are racing to replace junior workers with AI, even as many executives remain uncertain about the returns on AI investments  Tom's Hardware",
-      "abstractZh": null,
+      "abstractZh": "调查显示 99% 的 CEO 预期 AI 将引发裁员——企业竞相用 AI 替代初级员工，尽管许多高管对 AI 投资回报仍不确定  Tom's Hardware",
       "authors": [
         "Tom's Hardware"
       ],
