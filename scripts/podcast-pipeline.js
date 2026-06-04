@@ -18,6 +18,7 @@ import { fetchPodcasts } from './fetch/podcasts.js';
 import { generatePodcastAnalysis } from './translate/podcast-analysis.js';
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from './translate/claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from './translate/deepseek.js';
 
 const PODCASTS_PATH = resolve(process.cwd(), 'data/podcasts.json');
 const MAX_EPISODES  = 200;
@@ -42,9 +43,11 @@ async function translateEpisodeTitles(episodes) {
   const needsTranslation = episodes.filter((e) => !e.titleZh && e.titleEn);
   if (needsTranslation.length === 0) return;
 
-  const client = isCliMode()
-    ? claudeCliClient
-    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const client = isDeepSeekMode()
+    ? deepseekClient
+    : isCliMode()
+      ? claudeCliClient
+      : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const BATCH = 10;
 
   for (let i = 0; i < needsTranslation.length; i += BATCH) {
@@ -104,7 +107,7 @@ async function run() {
     return;
   }
 
-  const canAI = process.env.ANTHROPIC_API_KEY || isCliMode();
+  const canAI = isDeepSeekMode() || process.env.ANTHROPIC_API_KEY || isCliMode();
 
   // ── Title translation ──────────────────────────────────────────────────────
   if (fetched.length > 0 && canAI) {
