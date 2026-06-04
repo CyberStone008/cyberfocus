@@ -67,6 +67,12 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   PODCAST_EXIT=$?
   echo "[run-daily] podcast exit: $PODCAST_EXIT"
 
+  # 美股策略快报（本地管道版，替代 Claude Code routine）
+  # 脚本自身判断"每 2 天 + 自动补跑"，无需在此 gate；用 DeepSeek 生成。
+  echo "[run-daily] Running strategy brief..."
+  node scripts/strategy-brief.js
+  echo "[run-daily] strategy brief exit: $?"
+
   # Consider the overall run failed only if both pipelines failed
   if [ "$PIPELINE_EXIT" -ne 0 ] && [ "$PODCAST_EXIT" -ne 0 ]; then
     PIPELINE_EXIT=1
@@ -94,7 +100,7 @@ export HTTP_PROXY="http://127.0.0.1:10808"
         console.log(eps.filter(e => e.fetchedAt && e.fetchedAt > cutoff).length);
       } catch { console.log('0'); }
     " 2>/dev/null)
-    git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json
+    git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json data/strategy-briefs/ data/weekly-reports/ data/sector-reports/ data/macro-reports/
     git commit -m "chore: daily update $(date '+%Y-%m-%d')"
     git push origin main && echo "[run-daily] Pushed to GitHub" || echo "[run-daily] git push failed"
     PUSH_STATUS="文章 ${NEW_COUNT} · 播客 ${NEW_PODCAST}"
