@@ -48,7 +48,7 @@ function daysBetween(a, b) {
   return Math.round((new Date(b + 'T00:00:00Z') - new Date(a + 'T00:00:00Z')) / 86400000);
 }
 
-/** Fetch Google News RSS headlines for a query (via curl, proxy-independent) */
+/** Fetch Google News RSS headlines for a query (via curl). Returns structured items. */
 async function newsHeadlines(query, max = 6) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
   try {
@@ -58,9 +58,14 @@ async function newsHeadlines(query, max = 6) {
     ], { maxBuffer: 4 * 1024 * 1024 });
     const feed = await parser.parseString(stdout);
     return (feed.items ?? []).slice(0, max).map((i) => {
-      const t = (i.title ?? '').replace(/ - [^-]+$/, '').trim();
-      const d = (i.isoDate ?? '').slice(0, 10);
-      return `- ${t}${d ? ` (${d})` : ''}`;
+      const raw = (i.title ?? '').trim();
+      const sep = raw.lastIndexOf(' - ');
+      return {
+        title: sep > 0 ? raw.slice(0, sep).trim() : raw,
+        publisher: sep > 0 ? raw.slice(sep + 3).trim() : '',
+        date: (i.isoDate ?? '').slice(0, 10),
+        url: i.link ?? '',
+      };
     });
   } catch {
     return [];
@@ -88,74 +93,107 @@ async function gatherNews() {
 
 function formatNewsDigest(news) {
   return Object.entries(news)
-    .map(([k, items]) => `【${k}】\n${items.length ? items.join('\n') : '  (无)'}`)
+    .map(([k, items]) => {
+      const lines = items.length
+        ? items.map((it, i) => `  [${k}-${i + 1}] ${it.title}${it.publisher ? ` —${it.publisher}` : ''}${it.date ? ` (${it.date})` : ''}`).join('\n')
+        : '  (本期无相关头条)';
+      return `【${k}】\n${lines}`;
+    })
     .join('\n\n');
 }
 
-function buildPrompt(date, marketDigest, newsDigest) {
-  return `你是一位资深美股策略分析师，为一位中文价值投资者撰写《美股策略快报》。基于下面提供的【实时行情数据】和【近期新闻头条】，生成 ${date} 的策略快报。
+/** Collect all fetched URLs (deduped) for the Sources section. */
+function collectSources(news) {
+  const seen = new Set();
+  const out = [];
+  for (const items of Object.values(news)) {
+    for (const it of items) {
+      if (it.url && !seen.has(it.url)) {
+        seen.add(it.url);
+        out.push({ title: it.title, publisher: it.publisher, url: it.url });
+      }
+    }
+  }
+  return out;
+}
 
-要求：
-- 重新组织成"机构 strategist 给客户的简报"风格，不要罗列原始数据，要有解读和判断
-- 覆盖 5 个行业：🤖 AI/算力、⚡ 电力/数据中心、💾 半导体、☁️ 云/SaaS、🛢 能源
-- 数据密度高：每段引用具体数字（来自下方行情）
-- 有判断但不给买卖建议；保持怀疑独立的笔触
-- 目标 2000-2600 字
-- 如果【近期新闻头条】里明确显示核心公司（NVDA/MSFT/GOOGL/AMZN/META/AMD/TSM/ASML/AVGO/MU/ARM/CRWV/VST/CEG/CRM/XOM 等）刚发布财报，额外加一个「## 【🔥 财报特别版 · 公司】」章节深度分析；若无则跳过
+function buildPrompt(date, marketDigest, newsDigest, sources) {
+  const sourceList = sources.map((s, i) => `[S${i + 1}] ${s.title}${s.publisher ? ` —${s.publisher}` : ''} ${s.url}`).join('\n');
+  return `你是一位资深美股策略分析师，为一位中文价值投资者撰写《美股策略快报》（${date}）。
 
-严格按以下 Markdown 结构输出（第一行就是 # 标题，不要代码块包裹、不要 frontmatter）：
+⚠️ 最高优先级铁律——所有内容必须有数据来源依据，严禁自行发挥：
+1. **数字只能来自下方【实时行情数据】**。禁止编造任何价格、涨跌幅、估值倍数。引用数字时必须与行情数据完全一致。
+2. **事件/动态只能来自下方【近期新闻头条】**。禁止编造任何未在头条中出现的事件、财报结果、公司动作。
+3. **机构观点只能来自【近期新闻头条】中实际出现的机构表态**。如果头条里没有某机构（如 Goldman/Morgan Stanley/Apollo）的明确表态，就绝对不要写它的观点——宁可整段省略，也不要虚构"某某机构指出…"。
+4. **不要编造具体的支撑位/阻力位数字**。只陈述行情数据里的当前实际数值；前瞻性判断要用定性语言，不要给出未经依据的精确点位。
+5. 引用大师观点（Howard Marks/Buffett 等）时，只能用其广为人知的"框架/方法论"做分析视角，不得虚构其"最近说了某句话/最新备忘录指出"。
+6. 如果某个行业或板块下方数据不足，就**如实写"本期数据有限"并少写**，不要为了凑字数而编造。
+
+宁可短、宁可少，也不要无依据的"看起来很专业"的内容。这份报告的价值在于真实可溯源，不在于辞藻。
+
+写作要求：
+- 机构 strategist 简报风格，对真实数据做解读判断，不给买卖建议
+- 覆盖 5 行业：🤖 AI/算力、⚡ 电力/数据中心、💾 半导体、☁️ 云/SaaS、🛢 能源
+- 目标 1600-2400 字（数据足才写满，数据不足就短）
+- 仅当【近期新闻头条】明确显示核心公司（NVDA/MSFT/GOOGL/AMZN/META/AMD/TSM/AVGO/CRWV/VST/CEG/CRM/XOM 等）刚发财报时，才加「## 【🔥 财报特别版 · 公司】」；且其中数据只能来自头条，不得虚构财报具体数字
+
+严格按以下结构输出（第一行就是 # 标题，不要代码块包裹）：
 
 # 美股策略快报 · ${date}
 
 ## 【一句话叙事】
-> **[加粗 2-3 句最核心叙事，要有"为什么这两天市场是这样"的解释力]**
+> **[2-3 句，基于真实行情+头条的核心叙事]**
 
 ---
 
 ## 【你的行业速报】
-（5 个行业，每个 🤖/⚡/💾/☁️/🛢 emoji 开头加副标题，每段 150-200 字，含具体数据 + watch 信号）
+（5 行业，emoji+副标题，每段引用行情实际数字 + 相关头条事件 + watch 信号）
 
 ---
 
-[如有核心公司财报，在此插入 ## 【🔥 财报特别版 · XXX】 含数据卡表格 + 三个 takeaway + 给投资者启示]
+[仅当头条确有核心公司财报时插入财报特别版]
 
 ---
 
 ## 【一个值得展开的信号】
 > **[小标题]**
 >
-> [300-400 字 counter-consensus 深度分析，可引用 Howard Marks/Buffett/Damodaran]
+> [基于上方真实数据的一个深度解读视角，可用大师框架分析，但不得虚构事实/引述]
 
 ---
 
 ## 【机构观点雷达】
-（Apollo Slok / Goldman / Morgan Stanley / Howard Marks 等，每家 1-2 条要点，可基于新闻头条合理归纳）
+（**只列下方头条中实际出现的机构表态**；每条须能对应到一条头条。若本期头条无机构表态，则写"本期未捕获明确机构表态"）
 
 ---
 
 ## 【未来 48 小时看点】
 | 时间 | 事件 | 关注度 | 关键看点 |
 |---|---|---|---|
-（4-5 行，基于财报日历/宏观新闻）
+（只列【财报日历】【宏观/Fed】头条中实际出现的事件；无则少列）
 
-**关键技术位**：
-- S&P 500 / 10Y / 30Y / VIX / 油价（用下方行情实际数值）
+**关键市场数据**（直接取自行情，不要编点位）：
+- S&P 500 / Nasdaq / 10Y / 30Y / 油价：用下方实际数值
 
 ---
 
-**字数**：约 X 字  |  **阅读时长**：N 分钟
+**字数**：约 X 字
 
 ---
 
 **Sources（数据来源）**：
-- 行情数据：Yahoo Finance（实时抓取）
-- 新闻：Google News 聚合
+- 行情：Yahoo Finance（实时抓取，截至 ${date}）
+- 新闻头条（仅列实际引用的，用下方 [S#] 链接）：
+（从下方来源清单里挑你正文实际用到的，列出 markdown 链接）
 
-===== 实时行情数据（截至 ${date}）=====
+===== 实时行情数据（截至 ${date}，唯一允许的数字来源）=====
 ${marketDigest}
 
-===== 近期新闻头条 =====
-${newsDigest}`;
+===== 近期新闻头条（唯一允许的事件/观点来源）=====
+${newsDigest}
+
+===== 来源链接清单（用于 Sources 章节）=====
+${sourceList}`;
 }
 
 async function main() {
@@ -191,10 +229,16 @@ async function main() {
   console.log('[strategy-brief] 抓取新闻头条...');
   const news = await gatherNews();
   const newsDigest = formatNewsDigest(news);
+  const sources = collectSources(news);
+
+  if (sources.length < 3) {
+    console.error(`[strategy-brief] 仅抓到 ${sources.length} 条新闻来源，数据不足，中止生成（避免无依据发挥）`);
+    process.exit(3);
+  }
 
   console.log('[strategy-brief] DeepSeek 生成快报...');
   const resp = await deepseekClient.messages.create({
-    messages: [{ role: 'user', content: buildPrompt(date, marketDigest, newsDigest) }],
+    messages: [{ role: 'user', content: buildPrompt(date, marketDigest, newsDigest, sources) }],
     max_tokens: 8000,
     _timeoutMs: 180000,
   });
