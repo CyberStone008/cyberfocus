@@ -4,7 +4,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Sidebar />
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100dvh', overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}>
+      <div className="appContent">
         {children}
       </div>
     </>
