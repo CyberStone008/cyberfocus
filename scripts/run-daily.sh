@@ -187,7 +187,7 @@ else
 fi
 
 # ── Bark 手机推送 ──
-# 真失败 = 管道失败 / 代理挂 / 后端体检不过。否则成功简报（满足"每次跑完告诉我一声"）。
+# 真失败 = 管道失败 / 代理挂 / 后端体检不过。否则推"晨报"（数量 + 当天精选标题）。
 FAIL_REASON=""
 [ "$PIPELINE_EXIT" -ne 0 ]        && FAIL_REASON="${FAIL_REASON}管道退出$PIPELINE_EXIT "
 [ "${PROXY_OK:-0}" -ne 1 ]        && FAIL_REASON="${FAIL_REASON}代理挂 "
@@ -195,5 +195,21 @@ FAIL_REASON=""
 if [ -n "$FAIL_REASON" ]; then
   notify_bark "⚠️ CyberFocus 跑批异常" "$(date '+%m-%d %H:%M') · ${FAIL_REASON}· 详见 logs/daily.log" "timeSensitive"
 else
-  notify_bark "✅ CyberFocus 今日更新" "$(date '+%m-%d %H:%M') · ${PUSH_STATUS:-完成}" "active"
+  # 晨报正文：当天新抓取条目里取前 6 条标题，高价值博客/报告优先（真实标题，不靠 LLM）
+  BRIEF=$(node -e '
+    try {
+      const A = require("./data/articles.json");
+      const cut = new Date(Date.now() - 2 * 3600 * 1000).toISOString();
+      const HV = new Set(["Anthropic Blog","Claude Blog","OpenAI Blog","DeepMind Blog","Google DeepMind","NVIDIA Blog"]);
+      const fresh = A.filter(a => a.fetchedAt && a.fetchedAt > cut);
+      fresh.sort((x, y) => (HV.has(x.source)?0:1) - (HV.has(y.source)?0:1) || String(y.publishedAt).localeCompare(String(x.publishedAt)));
+      console.log(fresh.slice(0, 6).map(a => "• " + String(a.titleZh || a.titleEn || "").slice(0, 34)).join("\n"));
+    } catch { console.log(""); }
+  ' 2>/dev/null)
+  if [ -n "$BRIEF" ]; then
+    BODY=$(printf '%s\n%s' "${PUSH_STATUS:-完成}" "$BRIEF")
+  else
+    BODY="${PUSH_STATUS:-完成}"
+  fi
+  notify_bark "📰 CyberFocus 晨报 · $(date '+%m-%d')" "$BODY" "active"
 fi
