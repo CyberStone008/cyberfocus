@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MarkdownContent } from '../../../../components/MarkdownContent';
 import { TableOfContents } from '../../../../components/TableOfContents';
 import { ThemeToggle } from '../../../../components/ThemeToggle';
+import { ShareButton } from '../../../../components/ShareButton';
 import { extractToc } from '../../../../lib/toc';
 import styles from './page.module.css';
 
@@ -57,6 +58,9 @@ export default async function MacroDetailPage({ params }: { params: Promise<{ id
         {showToc && <aside className={styles.sidebar}><TableOfContents entries={toc} /></aside>}
 
         <main className={styles.main}>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 10 }}>
+            <ShareButton />
+          </div>
           <header className={styles.header}>
             <div className={styles.headerMetaRow}>
               <span className={styles.metaBadge}>🌐 季度宏观</span>

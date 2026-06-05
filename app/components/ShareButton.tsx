@@ -4,14 +4,19 @@ import { useState } from 'react';
 import { shortId } from '../lib/shortid';
 import styles from './ShareButton.module.css';
 
-// Copies a clean, short shareable URL (origin + /a/<shortId>) for the article —
-// no long slug, no giant URL-encoded TOC anchor hash. Falls back to a temp
-// textarea + execCommand when the async clipboard API is unavailable.
-export function ShareButton({ slug }: { slug: string }) {
+// Copies a clean shareable URL. Two modes:
+//   • articles  → pass `shortSlug` → copies the short /a/<id> link.
+//   • other pages (podcast / investing) → pass nothing → copies the current page
+//     URL WITHOUT the giant URL-encoded TOC anchor hash.
+// Falls back to a temp textarea + execCommand when the async clipboard API is
+// unavailable (e.g. older in-app WebViews).
+export function ShareButton({ shortSlug }: { shortSlug?: string }) {
   const [copied, setCopied] = useState(false);
 
   async function copy() {
-    const url = `${window.location.origin}/a/${shortId(slug)}`;
+    const url = shortSlug
+      ? `${window.location.origin}/a/${shortId(shortSlug)}`
+      : `${window.location.origin}${window.location.pathname}`;
     try {
       await navigator.clipboard.writeText(url);
     } catch {
@@ -32,7 +37,7 @@ export function ShareButton({ slug }: { slug: string }) {
     <button
       className={styles.shareBtn}
       onClick={copy}
-      title="复制短链接，方便分享"
+      title="复制链接，方便分享"
       aria-label="复制链接"
     >
       {copied ? '✓ 已复制' : '🔗 复制链接'}

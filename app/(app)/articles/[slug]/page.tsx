@@ -88,7 +88,7 @@ export default async function ArticleDetailPage({
 
         <main className={styles.main}>
           <div className={styles.shareRow}>
-            <ShareButton slug={slug} />
+            <ShareButton shortSlug={slug} />
           </div>
           <ArticleHeader article={article} />
 
