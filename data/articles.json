@@ -20,7 +20,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48406358",
@@ -42,7 +43,8 @@
     "score": 33,
     "commentCount": 4,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:651b829809f3",
@@ -65,7 +67,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48406198",
@@ -87,7 +90,8 @@
     "score": 5,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:2a3a531dcf99",
@@ -110,7 +114,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:4349dc74d096",
+    "slug": "gnews-4349dc74d096",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY3BaanJBR2NLNk5OSW55cTNZS0YzM0JTVDN2MDFzSDMySUt4NXdvRGdrRkFCYzhhU29kdjRPZ1B5cVgxeWZFeXExQzJJNWoyUS1kVlFpaXhIdmtNR1RsX2JFZjY5WkhES3dnRFB5dDkwclo2VzdPTUk2TFVvMUhnTlJRVk04UVk?oc=5",
+    "publishedAt": "2026-06-04T23:29:13.000Z",
+    "titleEn": "'World-first' vaccine designed by Artificial Intelligence",
+    "titleZh": "世界首款由人工智能设计的疫苗",
+    "abstractEn": "'World-first' vaccine designed by Artificial Intelligence  Yahoo News Canada",
+    "abstractZh": "世界首款由人工智能设计的疫苗  Yahoo News Canada",
+    "authors": [
+      "Yahoo News Canada"
+    ],
+    "institution": "Yahoo News Canada",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hn:48405931",
@@ -132,7 +160,8 @@
     "score": 92,
     "commentCount": 13,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48405841",
@@ -154,7 +183,8 @@
     "score": 12,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:4197f509877f",
@@ -177,7 +207,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:b680b33e2b07",
+    "slug": "gnews-b680b33e2b07",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjdYUTROOU1CYmdWXzR1N0J2aUlBQTQ5U3lqVWdZSkJsZmljRWNDR19Eb0otUkJteEstZC04NlVvOVNjMVRxZ08yVGwtaGVCTEJ1RmtWbHRJalZUTXZFYWJMOUcyVlFwNE94ZG5vNFR0NksxdjJvOTVoV3RIWE0ySEJmMHVMdU9OMFNEVUZHRF9OVDdJbDhDWWhGanRZaWhtLXc?oc=5",
+    "publishedAt": "2026-06-04T22:36:00.000Z",
+    "titleEn": "Anthropic calls for pause of global AI development",
+    "titleZh": "Anthropic 呼吁暂停全球 AI 发展",
+    "abstractEn": "Anthropic calls for pause of global AI development  RFI",
+    "abstractZh": "Anthropic 呼吁暂停全球 AI 发展  RFI",
+    "authors": [
+      "RFI"
+    ],
+    "institution": "RFI",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:1a2c872f515d",
@@ -200,7 +254,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:0cee8f96a978",
+    "slug": "gnews-0cee8f96a978",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkpnU1R1TDVVdDZHaDFEc2o4cjFGVVc3Qy1mYXkzbjRaWWdJaFgyZ1daRktOTkNTejY3RDN2N1BlaGpLNFpWZGhJWFQwSkloMVEyNTlMT3pWby1FVGlpRUhEMjZOVDRoUzhta3pQc2hPOTFUVi1rRlBMaVBjMGR0c2RfaHdiSFUwYnp2b3FMQm51cldkRjZR?oc=5",
+    "publishedAt": "2026-06-04T21:44:10.000Z",
+    "titleEn": "Fargo specialist warns of growing AI misinformation risks",
+    "titleZh": "法戈专家警告AI虚假信息风险日益增长",
+    "abstractEn": "Fargo specialist warns of growing AI misinformation risks  InForum",
+    "abstractZh": "法戈专家警告AI虚假信息风险日益增长  InForum",
+    "authors": [
+      "InForum"
+    ],
+    "institution": "InForum",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:7542b2a66d53",
@@ -223,7 +301,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:86365829f1dc",
+    "slug": "gnews-86365829f1dc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iWTF6Z1hQX21GMks1eU1mRmlGcUMyMWdxak03Y3czVHFmMEFvY2Vod3NsMWUtNTRGdFRTNVc1V3YwUGdzVm42OGJsWFZWSkFKVWF6RW95ZlpMRndxMnNHSG02UFFKVG9vcGRtMDZB?oc=5",
+    "publishedAt": "2026-06-04T21:42:13.000Z",
+    "titleEn": "Carney's AI strategy promises over $2B in funding, aims to create 250,000 jobs by 2031",
+    "titleZh": "卡尼的AI战略承诺超20亿美元资金，目标到2031年创造25万个就业岗位",
+    "abstractEn": "Carney's AI strategy promises over $2B in funding, aims to create 250,000 jobs by 2031  CBC",
+    "abstractZh": "卡尼的AI战略承诺超20亿美元资金，目标到2031年创造25万个就业岗位  CBC",
+    "authors": [
+      "CBC"
+    ],
+    "institution": "CBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hn:48404658",
@@ -245,7 +347,8 @@
     "score": 26,
     "commentCount": 10,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:50891b76b1ce",
@@ -268,7 +371,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:a96e5101771c",
@@ -291,7 +395,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48404233",
@@ -313,7 +418,8 @@
     "score": 77,
     "commentCount": 25,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:fea04e81bbca",
@@ -336,7 +442,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:61ba0a1e57cc",
+    "slug": "gnews-61ba0a1e57cc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcUxjd0Jsb1EwN21GR0hoR1JCNzhEMExhcmhkRzcwSWdiQnRUeDMxUGl2ZnIyOFBpNFBsNmZkQU9Lbjh6ZzBPQ1JfcXZmbGV0Rl8wLUx5UkFDY0wwYkswTzB0YWowcVZRY1dWNzdMTjZyVV9BdUNESXBWRk5sZGlNMmVIZmZ6RkItTWhUd01hLTZ5NlNRMmJJem45UEdENnlpVmdaYTRyU3U?oc=5",
+    "publishedAt": "2026-06-04T20:30:28.000Z",
+    "titleEn": "Bipartisan ‘Great American AI Act’ draft proposes new federal AI governance framework",
+    "titleZh": "两党《伟大美国人工智能法案》草案提出新的联邦AI治理框架",
+    "abstractEn": "Bipartisan ‘Great American AI Act’ draft proposes new federal AI governance framework  FedScoop",
+    "abstractZh": "两党《伟大美国人工智能法案》草案提出新的联邦AI治理框架  FedScoop",
+    "authors": [
+      "FedScoop"
+    ],
+    "institution": "FedScoop",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:3bd04b40c51f",
@@ -359,7 +489,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48403980",
@@ -381,7 +512,54 @@
     "score": 267,
     "commentCount": 94,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:3b4631297526",
+    "slug": "gnews-3b4631297526",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1dZU09oNXJveG9ZNm1NZWJsaW56d0lsR2pkOGswbExnendXaFFZWGdUc0FWZU1UaVdLbHprTnd5NXVYODdlYzVGSEhfNmZjSkFRMzRfX1EtYUZNQ1ZjUUFubklpOW9mSzBxSFdqQTVCTFJKNEdGRlFTU0RwTnFoelNpRHpET3BzS2ZvUklWMG5ZZ2JsZDdkcQ?oc=5",
+    "publishedAt": "2026-06-04T19:40:54.000Z",
+    "titleEn": "House Bipartisan Bill Restricts State AI Regulation",
+    "titleZh": "众议院两党法案限制各州AI监管",
+    "abstractEn": "House Bipartisan Bill Restricts State AI Regulation  Let's Data Science",
+    "abstractZh": "众议院两党法案限制各州AI监管  Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:e99c785f49ff",
+    "slug": "gnews-e99c785f49ff",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNUhXd0xFczFjZElVWDRvUWFWem5CU3M3N1RKSWxINGwtV2FXZnNDUW5ZTmtOX3Z2bnBPaGVKaE9sYjlSR3NtYm5hX1UwNmpIbV9qSG9NNXV4ZURPS3BYME1oVXNvNWJaUWVSbTc0a3RSTHhhTDJzaW95R3J6Wl9aQWJ2YS1wM3pTYXg0d2Z1V0prbF9WZ21yRU9Za1M1OS1VZGVuYlQ2Zkh0WHlfOGJNbmE1YjJGb2VJdGwtcQ?oc=5",
+    "publishedAt": "2026-06-04T19:40:54.000Z",
+    "titleEn": "New Bipartisan Legislation Takes a Big Step Forward in Restricting State Regulation of AI",
+    "titleZh": "新两党立法在限制各州AI监管方面迈出重要一步",
+    "abstractEn": "New Bipartisan Legislation Takes a Big Step Forward in Restricting State Regulation of AI  Gizmodo",
+    "abstractZh": "新两党立法在限制各州AI监管方面迈出重要一步  Gizmodo",
+    "authors": [
+      "Gizmodo"
+    ],
+    "institution": "Gizmodo",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:0fafac6f6091",
@@ -404,7 +582,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:65fc2380cdf9",
@@ -427,7 +606,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "deepmind:f3d84ae7",
@@ -470,7 +650,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48401973",
@@ -492,7 +673,8 @@
     "score": 37,
     "commentCount": 10,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:e17b8ed5c5b3",
@@ -515,7 +697,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:d0e11c7a6cc1",
@@ -538,7 +721,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48400842",
@@ -560,7 +744,8 @@
     "score": 332,
     "commentCount": 440,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:8b1a627e84fb",
@@ -583,7 +768,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:d3a2f11801aa",
+    "slug": "gnews-d3a2f11801aa",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTnZSWkhjV0lhOXQzQkRrNUFDaFliSWEwUDVxa1V5azNTTHdqNG5BNXNFQnpYcVdibjhabnVCNi1aOHVqSTVhZWphWEJqdk45UEdjX0FUa3BUbmNkUTg1c2VfR2c3MkstYUhnakc1Zk5faDZCWVpMTzF4dXFjb2VaZ2JBTXJSaFp3bElocnpn?oc=5",
+    "publishedAt": "2026-06-04T15:38:23.000Z",
+    "titleEn": "Canada bids to lead middle powers in AI sovereignty race",
+    "titleZh": "加拿大力争在AI主权竞赛中引领中等强国",
+    "abstractEn": "Canada bids to lead middle powers in AI sovereignty race  Politico",
+    "abstractZh": "加拿大力争在AI主权竞赛中引领中等强国  Politico",
+    "authors": [
+      "Politico"
+    ],
+    "institution": "Politico",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hrorg:recruit:2d7c79ca30b2",
@@ -606,7 +815,30 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48400053",
+    "slug": "hn-48400053-show-hn-i-embedded-685m-public-texts-in-32-minutes-on-8x-a100-rust-t",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/Artain-AI/ignite-ms",
+    "commentUrl": "https://news.ycombinator.com/item?id=48400053",
+    "publishedAt": "2026-06-04T15:23:39.000Z",
+    "titleEn": "Show HN: I embedded 685M public texts in 32 minutes (on 8x A100, Rust, TensorRT)",
+    "titleZh": "Show HN：我在32分钟内嵌入6.85亿条公开文本（基于8×A100、Rust、TensorRT）",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "ddayanov"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:9917486738eb",
@@ -629,7 +861,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48399528",
@@ -651,7 +884,8 @@
     "score": 56,
     "commentCount": 38,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hn:48399358",
@@ -673,7 +907,31 @@
     "score": 84,
     "commentCount": 62,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:6490d1923532",
+    "slug": "gnews-6490d1923532",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMlhaMkRRM2RmMTdIenVrVGNJcnFBTGlkRHgyZF81UkpSdXY5WXgtM2UxZ184ekNqamVWNkdMUWFHNnFNVzY3amVTdTBTd0Y4d2xVVk10V0sxczR6cENPNUxhZy1rSFdta0tQUUZIdTJZSTh2dzVwSnZkdWt4dmVSUG02SEdQQUlWbVM4b2pCakhRM2VXNE9Zb1hVUnhSWWhMdFh3ZVNrb1g4a1VxRFBXQWdPVjJtTzZFeEZrOUdYRQ?oc=5",
+    "publishedAt": "2026-06-04T14:30:09.000Z",
+    "titleEn": "From Lab to Life: How Regulation Decides Which AI Ships in China",
+    "titleZh": "从实验室到生活：监管如何决定哪些AI在中国落地",
+    "abstractEn": "From Lab to Life: How Regulation Decides Which AI Ships in China  markets.businessinsider.com",
+    "abstractZh": "从实验室到生活：监管如何决定哪些AI在中国落地  markets.businessinsider.com",
+    "authors": [
+      "markets.businessinsider.com"
+    ],
+    "institution": "markets.businessinsider.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:711b31aed307",
@@ -696,7 +954,52 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-cpaordy6hbflu7fy-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/cPAorDy6hbflU7fy.html",
+    "publishedAt": "2026-06-04T13:38:00.000Z",
+    "titleEn": "全球首个！材科源图发布有机高分子应用智能体",
+    "titleZh": "全球首个！材科源图发布有机高分子应用智能体",
+    "abstractEn": "在人工智能重塑科研范式的科技浪潮中，因体系复杂、配方变量多，长期面临高度依赖专家经验、试错成本高、知识难以沉淀复用等行业瓶颈，研发效率提升亟待突破。\n近日，据雷峰网了解，苏州材科源图（MatSource)正式发布全球首个有机高分子材料研发应用智能体（Organic Polymer Agent）。该智能体依托自主构建的通用材料科学智能体框架（Materials Agent Framework），面向高分子材料研发场景打造专家级人工智能系统，推动“人工驱动”向“人工智能协同驱动”加速跃迁，为高新材料的高效自主研发提供了关键的技术支撑。\n01 面向复杂研发场景，构建高分子材料研发“智能中枢”\n作为材科源图（MatSource) 材料科学智能体体系的重要组成部分，有机高分子应用智能体聚焦高分子材料研发中的关键痛点，融合材料知识图谱、多模态数据理解、大模型推理与领域机理模型能力，构建覆盖“设计-预测",
+    "abstractZh": "在人工智能重塑科研范式的科技浪潮中，因体系复杂、配方变量多，长期面临高度依赖专家经验、试错成本高、知识难以沉淀复用等行业瓶颈，研发效率提升亟待突破。\n近日，据雷峰网了解，苏州材科源图（MatSource）正式发布全球首个有机高分子材料研发应用智能体（Organic Polymer Agent）。该智能体依托自主构建的通用材料科学智能体框架（Materials Agent Framework），面向高分子材料研发场景打造专家级人工智能系统，推动“人工驱动”向“人工智能协同驱动”加速跃迁，为高新材料的高效自主研发提供了关键的技术支撑。\n01 面向复杂研发场景，构建高分子材料研发“智能中枢”\n作为材科源图（MatSource）材料科学智能体体系的重要组成部分，有机高分子应用智能体聚焦高分子材料研",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:3e03b00fca7c",
+    "slug": "gnews-3e03b00fca7c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcndfLUJMOUFkcndEdE5fbDNiOEg3clhiMFI2eTc5S1Vla05xTXV3N3V4QkpYb3dsTG5nTUFLMzJ1bl9ZZklld1E4WVpZcnFEaTAzZC1laFdPYTNyaHpGSS1DMVV2ZXpwQXNRSUpUSGJPZi1kNHJuX3V4ZFMxLWxDT2RGN1pfQ3g2c0cxTi1SWlNTMTQ0d1E0LXZqYzNhZ0hnWVpyOWh6NXZmekdGMzZvOHFRa3k1YUl4TERZRlFYUHhjQm9FU3o0QU81SkhfSjd0YkFyQTJVUkRmQmEwQVFqWEhqdTFnN0FXZ1hMWVZMTUJlQXlyOEhN?oc=5",
+    "publishedAt": "2026-06-04T13:24:00.000Z",
+    "titleEn": "Jackson unveils AI regulation plan ahead of Democratic primary",
+    "titleZh": "杰克逊在民主党初选前公布 AI 监管计划",
+    "abstractEn": "Jackson unveils AI regulation plan ahead of Democratic primary  newscentermaine.com",
+    "abstractZh": "杰克逊在民主党初选前公布 AI 监管计划  newscentermaine.com",
+    "authors": [
+      "newscentermaine.com"
+    ],
+    "institution": "newscentermaine.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:8258e5e59c52",
@@ -719,7 +1022,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:4aeba9402b7b",
+    "slug": "gnews-4aeba9402b7b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM05TQWJwRjhDa3RlOGUwdEQ0Y3o0WVRPUVh6ZHlkQUNTR255c1gyaGdleXVTTXR5Zk10VEZ5Z0hrRUdoeWUyejFncHU1cWd6NGduV1hoYmY5NDRrS2c3VHRTaW0tTkRZdWZQWXktLWxvNUc0cWdBdVZoQXRYaUpyYXRSMUNZWFZhVHNYT056VFM1eXZZeHhLaUZROXZncUZmZHF6VElDS0xGVjVraWw0bDlMQmwxRG1UVWsxV3RjX3Q?oc=5",
+    "publishedAt": "2026-06-04T12:39:00.000Z",
+    "titleEn": "PM Carney to announce federal artificial intelligence strategy in Toronto today",
+    "titleZh": "卡尼总理今日将在多伦多宣布联邦人工智能战略",
+    "abstractEn": "PM Carney to announce federal artificial intelligence strategy in Toronto today  Castanet",
+    "abstractZh": "卡尼总理今日将在多伦多宣布联邦人工智能战略  Castanet",
+    "authors": [
+      "Castanet"
+    ],
+    "institution": "Castanet",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:3632c76ffac9",
@@ -742,7 +1069,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:5a899418f7d1",
+    "slug": "gnews-5a899418f7d1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOejRlbEtsZEktdklLRDdPMDNuQzY5QWp5YXhPeGZ5dG5wRjkyal8zZ3dWZ1gwZ1lzWEU1bklBa3lIYUJfRS0zcTBDVm5SbEhOTkZCNjZwUUlqUm5pc1A1dXlseklEd0JpRENHbTdwTDhmQlkwVm1EXzZJRmZ1ZkJ2Q09MclA3N1JXUEs2VzEza3l2N0FaLTdqN3VsRlRXSTBabkFRZEZkRjNhaUxrSFh3S3A3OWptXzlZUndNRzlZUEJpZWxsYWtFWGFFZHI3V1FVOWpsN21iMnlQTWhwMmFtbXpfTzlsMWM?oc=5",
+    "publishedAt": "2026-06-04T12:24:08.000Z",
+    "titleEn": "From oversight to coercion: How authoritarian governments are twisting AI safety to get tech companies to fall in line",
+    "titleZh": "从监督到胁迫：威权政府如何扭曲 AI 安全以迫使科技公司就范",
+    "abstractEn": "From oversight to coercion: How authoritarian governments are twisting AI safety to get tech companies to fall in line  The Conversation",
+    "abstractZh": "从监督到胁迫：威权政府如何扭曲 AI 安全以迫使科技公司就范  The Conversation",
+    "authors": [
+      "The Conversation"
+    ],
+    "institution": "The Conversation",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-429130-html",
@@ -763,7 +1114,54 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:50cc00bdb4c9",
+    "slug": "gnews-50cc00bdb4c9",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObTlHUGNyOWpmTmZHVy14VzNtcDF3Qm1uYnIzWDlmdDZCczRScXZaNXJqd0hrREpmdXh1RngzdlM3WEhUdDZhbG5fUi1QMFllc2czSVd4SVBFY2QxTnItRVhTNUNEZUZIQ0sxY3VZOS1nZHNNeGdtOVFhMGZWWWVnb29xZFhQVjJtN29BQVBfNWpBU0w2Qnd3RUNUc3ZpUUVaUkoweGRMdVIwMEZlZDkwU0lFT2lNVVhqUHdmMnBRaE9yMWJmYk9qaVZQSXNGdDNTVFQ0QWxBTGxfaGdpX2dtRHFGRUFwQnVCU0sw0gHwAUFVX3lxTE5PbGRsMnFXMFNlaXhRRDZxSngzY0JGZlVxT1ZRT0ZSQVpEMUNLNHBSNHFQUlQwSTNHLVk2RGcxRFZRRTVQQkhWNWVPanM2VUR5UHFWaUNxMzZwNDQwRm41dXBIWTItbXRLT0V0VGZjOUJtWHBfbzQ4LUliWnBJelItSnJZcE5YQnY5SWZLM2hsc3FpYndoM1lBeTR6SHNTQmFaY0tVdWRXZGFCN2JrZVIycG5aZzVmc1Jjd1hKM056SmluSVhNZWsySDgxYU5SalQ0TUJnYlJtUEtKUEJLSGxMdW8zbVRSUXZla0JVSW5jaQ?oc=5",
+    "publishedAt": "2026-06-04T11:32:55.000Z",
+    "titleEn": "Chinese AI startup DeepSeek to raise $7 billion in maiden funding round: Report",
+    "titleZh": "中国AI初创公司DeepSeek拟在首轮融资中筹集70亿美元：报道",
+    "abstractEn": "Chinese AI startup DeepSeek to raise $7 billion in maiden funding round: Report  Indiatimes",
+    "abstractZh": "中国AI初创公司DeepSeek拟在首轮融资中筹集70亿美元：报道  Indiatimes",
+    "authors": [
+      "Indiatimes"
+    ],
+    "institution": "Indiatimes",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:84a12276cdb3",
+    "slug": "gnews-84a12276cdb3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWjg0Y3RnR3g1cDFXV0ROSGxleW0tYkNIVExEcWhzNTMwazBQMUJ3ZWxuZ1dQNFhUbWl2MFVsVTlsc2swRjdpby1HRVFDME1vREJuTHdXMUg0RVN4bnJsaGRDaGVNWEJkRTMxNE1lUjN3aU03Y1ZRZXNWRk9RSzVueXZzZ253T19kanFxLV9R?oc=5",
+    "publishedAt": "2026-06-04T11:30:59.000Z",
+    "titleEn": "kAIgentic Raises $10M to Build Enterprise AI",
+    "titleZh": "kAIgentic融资1000万美元，用于构建企业级AI",
+    "abstractEn": "kAIgentic Raises $10M to Build Enterprise AI  Let's Data Science",
+    "abstractZh": "kAIgentic融资1000万美元，用于构建企业级AI  Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hn:48397148",
@@ -785,7 +1183,29 @@
     "score": 26,
     "commentCount": 9,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-transportation-cj8k172esga3neuj-html",
+    "slug": "5000",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/transportation/cj8k172esGa3neuj.html",
+    "publishedAt": "2026-06-04T11:25:00.000Z",
+    "titleEn": "不卷价格和参数，中国汽车如何卖到5000万辆？",
+    "titleZh": "不卷价格和参数，中国汽车如何卖到5000万辆？",
+    "abstractEn": "2026年，国内新能源汽车渗透率突破60%，中国汽车品牌的售价提升到80万元。中国乘联会秘书长崔东树说，国产车未来要达到5000万辆销售规模，在全球市场中，占比超过50%。\n中国汽车越过规模大关，但高速发展之下，行业参数内卷、体验同质化、盈利承压等痛点日益凸显。\n第四届未来汽车先行者大会上，奇瑞副总经理王琅直言，行业进入新的“无人区”，不能再卷参数了。\n跳出价格与参数之外，国产车如何寻找下一个增长点？\n\n\n\n\n\n01\n\n\n元戎启行周光：智驾几十公里接管一次\n\n和1000公里接管一次，是两个物种\n\n\n\n\n最近几年，智驾行业的技术重心从端到端、VLA向着大模型、基座模型和物理AI快速迭代。\n元戎启行CEO周光分享了他对物理AI基座模型的思考。他认为，过去5年，智驾行业走的是小模型路线，已经到了能力的上限，投入越来越多，提升越来越慢。\n这个现象可以用“跷跷板效应”来形容：在小模型系统里，当一个版",
+    "abstractZh": "2026年，国内新能源汽车渗透率突破60%，中国汽车品牌的售价提升到80万元。中国乘联会秘书长崔东树说，国产车未来要达到5000万辆销售规模，在全球市场中，占比超过50%。\n中国汽车越过规模大关，但高速发展之下，行业参数内卷、体验同质化、盈利承压等痛点日益凸显。\n第四届未来汽车先行者大会上，奇瑞副总经理王琅直言，行业进入新的“无人区”，不能再卷参数了。\n跳出价格与参数之外，国产车如何寻找下一个增长点？\n\n\n\n\n\n01\n\n\n元戎启行周光：智驾几十公里接管一次\n\n和1000公里接管一次，是两个物种\n\n\n\n\n最近几年，智驾行业的技术重心从端到端、VLA向着大模型、基座模型和物理AI快速迭代。\n元戎启行CEO周光分享了他对物理AI基座模型的思考。他认为，过去5年，智驾行业走的是小模型路线，已经到了能",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:c4fa8f55470f",
@@ -808,7 +1228,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:652ad8623bea",
@@ -831,7 +1252,54 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:96db8b027322",
+    "slug": "gnews-96db8b027322",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMzlCbjBnSmNFbngxd1pOX2pKcGMtUWFOUWQyWFplakxkdVU1NGpkS283S0tRdHh5MV93Q1FfV25ERDJoMGtYUnFieU5uSGFMYlNLb1NLSXVEcGNsSFJsMGxFQldiTDZ6NEQyZXdtcG9vZDhHMkRJZ2huOXFkVmdZRWRpZ2VadmM?oc=5",
+    "publishedAt": "2026-06-04T11:00:21.000Z",
+    "titleEn": "Exclusive: Scotch Raises $20M Series A To Disrupt Legacy Liquor Retail Tech With AI",
+    "titleZh": "独家：Scotch获2000万美元A轮融资，用AI颠覆传统酒类零售技术",
+    "abstractEn": "Exclusive: Scotch Raises $20M Series A To Disrupt Legacy Liquor Retail Tech With AI  Crunchbase News",
+    "abstractZh": "独家：Scotch获2000万美元A轮融资，用AI颠覆传统酒类零售技术  Crunchbase News",
+    "authors": [
+      "Crunchbase News"
+    ],
+    "institution": "Crunchbase News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:ed44bb9c6c26",
+    "slug": "gnews-ed44bb9c6c26",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcWQ1VTdYRFF2Q1dka1JUVFhfVzQzZTYwaUF0WWwwWDJBWGE2ajZkX0tKazZZSlVNYV9SM0ZaXzJ6aTlUbXdoQk5TS2prY0lPaXZPdDRaYU9tNWo2a1ppd3M1S1RiMjNtZGNrUEtkQXo4RlZnX29JbW90d3M2YnVLdmVkQ0tiRjBzTzMxaloxUU10VUtxRmZqZjYydl9aTXYwS1hNTHh6cVpXZzlyNHFlVTVmUUoxYThaNnd2M29sczZBLVNucHdPa1pWWEZTT0R6R3h5eWgwbWdqSHZaQjhwN0o0MDRsMWdqbVdTRUEzSDM2XzE1d0kzMWJ1V3JNTmNpTkE?oc=5",
+    "publishedAt": "2026-06-04T10:46:55.000Z",
+    "titleEn": "The Anthropic IPO Is Coming: History Says the Stock Will Do This After It Starts Trading",
+    "titleZh": "Anthropic IPO 即将到来：历史表明股票上市后将如此表现",
+    "abstractEn": "The Anthropic IPO Is Coming: History Says the Stock Will Do This After It Starts Trading  The Globe and Mail",
+    "abstractZh": "Anthropic IPO 即将到来：历史表明股票上市后将如此表现  The Globe and Mail",
+    "authors": [
+      "The Globe and Mail"
+    ],
+    "institution": "The Globe and Mail",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:e7d8f0e2111e",
@@ -854,7 +1322,203 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-wrai6uwpkknpmiwn-html",
+    "slug": "ai",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/WRAi6uWPkKnPmIWN.html",
+    "publishedAt": "2026-06-04T10:09:00.000Z",
+    "titleEn": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」",
+    "titleZh": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」",
+    "abstractEn": "一场罕见的「技术组曲」。\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨林觉民\n                                                                                                       \n\n\n难得能遇到一次大模型开源周。\n5 月 25 日至 29 日，面壁智能联合 OpenBMB 开源社区，以每日发布一项关键技术成果的节奏，举办了一场「端侧大模型开源周」。\n这在中国乃至全球的大模型公司中，都是一次极为罕见的集体「亮剑」。\n从适配国产昇腾、未来有望将 600 亿参数大模型装进手机的 1.58-bit 低比特训练大模型 BitCPM-CANN，到性能超越两倍参数模型、全球同级最优的 MiniCPM5-1B；从 AI 亲手编写、在 H100 上比英伟达自家大模型训练框架 Megatron 更快的",
+    "abstractZh": "一场罕见的「技术组曲」。\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨林觉民\n                                                                                                       \n\n\n难得能遇到一次大模型开源周。\n5 月 25 日至 29 日，面壁智能联合 OpenBMB 开源社区，以每日发布一项关键技术成果的节奏，举办了一场「端侧大模型开源周」。\n这在中国乃至全球的大模型公司中，都是一次极为罕见的集体「亮剑」。\n从适配国产昇腾、未来有望将 600 亿参数大模型装进手机的 1.58-bit 低比特训练大模型 BitCPM-CANN，到性能超越两倍参数模型、全球同级最优的 MiniCP",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-iu4aaquhmltjxqym-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/iu4aAqUhmLtjXqyM.html",
+    "publishedAt": "2026-06-04T10:07:00.000Z",
+    "titleEn": "何小鹏内部讲话曝光，「最美」机器人量产时间表出来了？",
+    "titleZh": "何小鹏内部讲话曝光，「最美」机器人量产时间表出来了？",
+    "abstractEn": "机器人能不能规模化稳定交付，是整个行业的生死问题。\n\n\n\n\n\n    作者丨李希\n\n    编辑丨马晓宁\n                                                                                                       \n\n\n“4季度一定要把量产做出来。”\n在近日的一场小鹏机器人量产动员大会上，何小鹏给内部团队定下了一条极具压迫感的时间线：2026 年四季度完成量产，2027 年一季度进入国内汽车门店导购场景，2027 年二季度开始进入海外市场。\n这场讲话里，何小鹏反复强调的并不是 Demo、视频或者模型参数，而是三个关键词：“量产、全栈自研、跨域融合”。如果把过去两年的具身智能行业理解为“模型秀场”，那么小鹏这场内部讲话，更像是一场真正的制造业动员令。\n我们认为，小鹏正在试图把机器人，按照“造车逻",
+    "abstractZh": "机器人能不能规模化稳定交付，是整个行业的生死问题。\n\n\n\n\n\n    作者丨李希\n\n    编辑丨马晓宁\n                                                                                                       \n\n\n“4季度一定要把量产做出来。”\n在近日的一场小鹏机器人量产动员大会上，何小鹏给内部团队定下了一条极具压迫感的时间线：2026 年四季度完成量产，2027 年一季度进入国内汽车门店导购场景，2027 年二季度开始进入海外市场。\n这场讲话里，何小鹏反复强调的并不是 Demo、视频或者模型参数，而是三个关键词：“量产、全栈自研、跨域融合”。如果把过去两年的具身智能行业理解为“模型秀场”",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-evoi1x7wt5zyh7qe-html",
+    "slug": "cvpr-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/EvOI1x7Wt5zyH7qe.html",
+    "publishedAt": "2026-06-04T10:06:00.000Z",
+    "titleEn": "CVPR 2026：深度学习的「标准件」，正在被逐个拆掉",
+    "titleZh": "CVPR 2026：深度学习的「标准件」，正在被逐个拆掉",
+    "abstractEn": "注意力的浮点精度不是必须的，归一化流的\"精确可逆\"是可以放弃的……\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n这里有一幢大楼，叫做深度学习。\n过去几年，人们不停地给它加盖、扩建，越盖越高，越盖越复杂。这幢大楼叫 Transformer。盖楼时用了一大批标准件，浮点精度是它的钢筋，层归一化和残差连接是它的混凝土，因果掩码是它的承重隔断。旁边还有两栋附楼：一栋是扩散模型；另一栋归一化流。在漫长的施工期里，人们不断加装更粗的钢筋、更复杂的控制系统，以为这样做就能让这几栋楼更稳固高大美观。但是这样真的是对的吗？\n可现在，这些施工的收益越来越小，而有人在附楼",
+    "abstractZh": "注意力的浮点精度不是必须的，归一化流的'精确可逆'是可以放弃的……\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n这里有一幢大楼，叫做深度学习。\n过去几年，人们不停地给它加盖、扩建，越盖越高，越盖越复杂。这幢大楼叫 Transformer。盖楼时用了一大批标准件，浮点精度是它的钢筋，层归一化和残差连接是它的混凝土，因果掩码是它的承重隔断。旁边还有两栋附楼：一栋是扩散模型；另一栋归一化流。在漫长的施工期里，人们不断加装更粗的钢筋、更复杂的控制系统，以为这样",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-smrvzoxase7bkxsf-html",
+    "slug": "leadde",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/sMrvZOXASE7BkXSf.html",
+    "publishedAt": "2026-06-04T10:03:00.000Z",
+    "titleEn": "独家｜华为系帧跃科技完成千万美金天使轮融资，将发布视频产品 Leadde",
+    "titleZh": "独家｜华为系帧跃科技完成千万美金天使轮融资，将发布视频产品 Leadde",
+    "abstractEn": "创始人杨昌鹏曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 号位。\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨林觉民\n                                                                                                       \n\n\nAI 科技评论独家获悉，主攻 AI 交互式视频赛道的初创公司「帧跃科技」，已敲定一笔千万美金级的天使轮融资。本轮投资方包括创新工场、国谦资本、零一万物、璞跃中国及盈动资本等机构。资金将主要用于视频推理平台的持续迭代、应用层产品开发，以及全球化人才团队建设。\n帧跃科技成立于 2025 年 6 月，锚定 AI 交互式视频方向。创始人兼 CEO 杨昌鹏为南洋理工大学与加州大学伯克利分校联合培养博士，曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 ",
+    "abstractZh": "创始人杨昌鹏曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 号位。\n\n\n\n\n\n    作者丨马晓宁\n\n    编辑丨林觉民\n                                                                                                       \n\n\nAI 科技评论独家获悉，主攻 AI 交互式视频赛道的初创公司「帧跃科技」，已敲定一笔千万美金级的天使轮融资。本轮投资方包括创新工场、国谦资本、零一万物、璞跃中国及盈动资本等机构。资金将主要用于视频推理平台的持续迭代、应用层产品开发，以及全球化人才团队建设。\n帧跃科技成立于 2025 年 6 月，锚定 AI 交互式视频方向。创始人兼 CEO 杨昌鹏为南洋",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:f94ecec06cf8",
+    "slug": "gnews-f94ecec06cf8",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm5FTkdpTzZQT0dySzdQai1iYzJqTVBaNHN2RkVoUElPRHBmZ2JCZWxybWk4dl9ET1VFVEVWZlJvRTdsTWNWMFM0WEExWW1aR0VET19EdjhtWE5NVW1FZEdhSVR5RG5JcFJSd3V4RGhmRE1mTGxUMkVSMkJoUmVfUzc5VFBHbFU2XzhkejFsbEI5NFhLZkZ2dmFDVGNPejRmWURBc1BtTU9Na0tEVlpNLU9TaktSRTFf?oc=5",
+    "publishedAt": "2026-06-04T10:01:47.000Z",
+    "titleEn": "Martin Scorsese Joins AI Image Startup Black Forest Labs as Partner and Adviser",
+    "titleZh": "马丁·斯科塞斯加入AI图像初创公司Black Forest Labs，担任合伙人兼顾问",
+    "abstractEn": "Martin Scorsese Joins AI Image Startup Black Forest Labs as Partner and Adviser  theaiinsider.tech",
+    "abstractZh": "马丁·斯科塞斯加入AI图像初创公司Black Forest Labs，担任合伙人兼顾问  theaiinsider.tech",
+    "authors": [
+      "theaiinsider.tech"
+    ],
+    "institution": "theaiinsider.tech",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:df74af48ef25",
+    "slug": "gnews-df74af48ef25",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaDFleFZUYWIzWklfQy02UFJ3QTFVNVFvNUVKZXpmR0pzU2p3UURjOVc3Vl94a1dIZzU2NzV1bW80ZU9QN0x5ZDRrbko5Mi1LcFhuODA5WXd2bHlnTmtDWFM5NGpqb2owUmZVM1V0X3BPbWpUb1VYRlBpMVp2X3N3ZGVrNjBjMklLVmhEM3paZHBUaklYdHQ3NWFB?oc=5",
+    "publishedAt": "2026-06-04T09:00:00.000Z",
+    "titleEn": "What do you actually get when you pay for AI?",
+    "titleZh": "付费使用 AI 究竟能得到什么？",
+    "abstractEn": "What do you actually get when you pay for AI?  NPR",
+    "abstractZh": "付费使用 AI 究竟能得到什么？  NPR",
+    "authors": [
+      "NPR"
+    ],
+    "institution": "NPR",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-fl4v5piehfrzge8g-html",
+    "slug": "618-top1",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/fl4v5PiEHfRzgE8g.html",
+    "publishedAt": "2026-06-04T08:32:00.000Z",
+    "titleEn": "石头科技发布618“开门红”战报，荣膺清洁电器品牌TOP1",
+    "titleZh": "石头科技发布618“开门红”战报，荣膺清洁电器品牌TOP1",
+    "abstractEn": "今年618，中国家电消费市场的关键词无疑是“理性”与“价值”。政策红利趋缓，单纯低价已难以撬动市场。行业竞争正从参数与价格的竞争浅水区，转向综合体验与长期用户价值的深水区比拼。这一点，在代表消费升级风向标的智能清洁赛道尤为显著，消费者不再只为基础功能买单，而是更看重产品能否融入真实、复杂的家庭场景，提供稳定、省心、一步到位的解决方案。市场热度，也因此集中涌向能系统性解决用户痛点的品牌。\n \n全球智能清洁家居领军企业石头科技在此次618“开门红”战役中的表现，恰好印证了这一行业趋势。奥维云网数据显示，618大促第一周期内，石头科技成功登顶清洁电器品牌榜。其核心品类表现强势：扫地机市场份额35.69%，洗地机市场份额30.76%，均位列第一。\n \n \n \n全渠道登顶与产品霸榜，映射行业竞争焦点迁移\n \n石头科技在全渠道市场表现优秀。在主流电商平台，其销额与销量均实现突破性增长：在京东，斩获清洁",
+    "abstractZh": "今年618，中国家电消费市场的关键词无疑是“理性”与“价值”。政策红利趋缓，单纯低价已难以撬动市场。行业竞争正从参数与价格的竞争浅水区，转向综合体验与长期用户价值的深水区比拼。这一点，在代表消费升级风向标的智能清洁赛道尤为显著，消费者不再只为基础功能买单，而是更看重产品能否融入真实、复杂的家庭场景，提供稳定、省心、一步到位的解决方案。市场热度，也因此集中涌向能系统性解决用户痛点的品牌。\n \n全球智能清洁家居领军企业石头科技在此次618“开门红”战役中的表现，恰好印证了这一行业趋势。奥维云网数据显示，618大促第一周期内，石头科技成功登顶清洁电器品牌榜。其核心品类表现强势：扫地机市场份额35.69%，洗地机市场份额30.76%，均位列第一。\n \n \n \n全渠道登顶与产品霸榜，映射行业竞争焦点迁",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:9f5ff5401bf9",
+    "slug": "gnews-9f5ff5401bf9",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcHhiQU40TW1NY3VWcWtIVnRpYnJXNUU1NXVrWTV1amUwaXJzTU94cWFjNFpMOHVaMlBDZTdOQ0pZYVpWREI5WnlPRTV3UlRPd2w4Q1d1Zld4Uy14anNPOXJhN0hyRy1UZmFfTk5PMm5CNmVkb1ZCajA5U25nTXcwU3FJMC11UHl3VWM2X2UzYU14Uy1KNVBKLXZzLWdSNm5ERlczX0haSVJ6Q2R4ZVVONXRQRUk?oc=5",
+    "publishedAt": "2026-06-04T08:27:08.000Z",
+    "titleEn": "In the news today: AI strategy, B.C. killer discharged, Blue Jays sign Twins pitcher",
+    "titleZh": "今日新闻：AI 战略、BC 省杀人犯获释、蓝鸟队签下双城队投手",
+    "abstractEn": "In the news today: AI strategy, B.C. killer discharged, Blue Jays sign Twins pitcher  CFJC Today Kamloops",
+    "abstractZh": "今日新闻：AI 战略、BC 省杀人犯获释、蓝鸟队签下双城队投手  CFJC Today Kamloops",
+    "authors": [
+      "CFJC Today Kamloops"
+    ],
+    "institution": "CFJC Today Kamloops",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-industrynews-pcff7wbxcwtgztos-html",
+    "slug": "2026-ai-100",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/industrynews/PcfF7wBxcwTGztOS.html",
+    "publishedAt": "2026-06-04T08:17:00.000Z",
+    "titleEn": "蓝信发布2026全栈AI新品，打造100%国产化政企智能办公新范式",
+    "titleZh": "蓝信发布2026全栈AI新品，打造100%国产化政企智能办公新范式",
+    "abstractEn": "北京，2026年6月2日——“知行无界・智启未来——蓝信 2026  AI 新品发布会暨生态渠道大会” 在北京国家会议中心隆重召开。蓝信现场重磅发布听蓝AI录音卡、蓝域智能体平台、知行AI超级助理三款原生 AI 产品，并发起成立政企智能办公生态联盟，以全链路、国产化、高安全属性的智能办公体系，正式定义政企AI办公新范式，开启政企智能办公新征程。\n北京市西城区人民政府党组成员、副区长洪英子出席并致辞。她谈到，人工智能是新一轮科技革命核心驱动力，政企数字化转型已从“选择题”变为“必答题”，安全与智能深度融合已成为关键要求。蓝信作为行业标杆企业，此次发布的全栈式安全智能办公方案，是我国政企智能办公产业发展的重要里程碑，将为各级党政机关、企事业单位的数字化转型提供有力支撑。\n中央党校（国家行政学院）教授、博士生导师汪玉凯表示：人工智能正推动党政机关从数字机关迈向智能机关新阶段，核心是协同、服务、治",
+    "abstractZh": "北京，2026年6月2日——“知行无界・智启未来——蓝信 2026  AI 新品发布会暨生态渠道大会” 在北京国家会议中心隆重召开。蓝信现场重磅发布听蓝AI录音卡、蓝域智能体平台、知行AI超级助理三款原生 AI 产品，并发起成立政企智能办公生态联盟，以全链路、国产化、高安全属性的智能办公体系，正式定义政企AI办公新范式，开启政企智能办公新征程。\n北京市西城区人民政府党组成员、副区长洪英子出席并致辞。她谈到，人工智能是新一轮科技革命核心驱动力，政企数字化转型已从“选择题”变为“必答题”，安全与智能深度融合已成为关键要求。蓝信作为行业标杆企业，此次发布的全栈式安全智能办公方案，是我国政企智能办公产业发展的重要里程碑，将为各级党政机关、企事业单位的数字化转型提供有力支撑。\n中央党校（国家行政学院）",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hrorg:adecco:79b5eddfd76c",
@@ -878,7 +1542,50 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-gng36dnuxsyo5uor-html",
+    "slug": "johannes-betz-300-icra-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/GnG36DnUXsYO5uOR.html",
+    "publishedAt": "2026-06-04T07:10:00.000Z",
+    "titleEn": "慕尼黑工大Johannes Betz 教授：时速300公里的自动驾驶超车 ｜ ICRA 2026",
+    "titleZh": "慕尼黑工大 Johannes Betz 教授：时速300公里的自动驾驶超车 ｜ ICRA 2026",
+    "abstractEn": "大多数AI赛车研究停留在仿真里，这辆车是真的在赛道上撞过。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n2026年6月2日，在ICRA 2026大会上，慕尼黑工业大学（TUM）自动驾驶实验室负责人Johannes Betz发表了题为“Autonomous Vehicles & Navigation ”的演讲，系统回顾了过去八、九年其团队在自动驾驶赛车领域的研究历程与核心洞察。\n\nJohannes Betz开篇即抛出一个尖锐的问题：为什么要研究自动驾驶赛车？他的回答直指机器人学的一个根本困境：赛车天然集成了多变环境、高速交互与极小容错空间三个极致要素，",
+    "abstractZh": "大多数AI赛车研究停留在仿真里，这辆车是真的在赛道上撞过。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n2026年6月2日，在ICRA 2026大会上，慕尼黑工业大学（TUM）自动驾驶实验室负责人Johannes Betz发表了题为“Autonomous Vehicles & Navigation ”的演讲，系统回顾了过去八、九年其团队在自动驾驶赛车领域的研究历程与核心洞察。\n\nJohannes Betz开篇即抛出一个尖锐的问题：为什么要研究自动驾驶赛",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-6xqsezlw61bm8qfo-html",
+    "slug": "ut-austin-icra-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/6XQSEzLW61BM8QFo.html",
+    "publishedAt": "2026-06-04T07:08:00.000Z",
+    "titleEn": "UT Austin朱玉可：人形机器人的数据困局怎么破？答案藏在「数据海绵」里 ｜ICRA 2026",
+    "titleZh": "UT Austin朱玉可：人形机器人的数据困局怎么破？答案藏在「数据海绵」里 ｜ICRA 2026",
+    "abstractEn": "2026年6月3日，在ICRA 2026大会的主题演讲环节，德克萨斯大学奥斯汀分校副教授、NVIDIA GEAR团队负责人朱玉可（Yuke Zhu）发表了关于人形机器人基础模型的最新演讲。他在演讲中系统性地拆解了当前人形机器人面临的最大瓶颈——数据，并提出了以“数据金字塔”为框架、以“世界模型”为引擎的规模化路径。\n\n朱玉可指出，人形机器人正在进入一个全新的加速阶段：硬件日益成熟，学习算法和基础模型的规模化也在快速推进。但真正制约这一领域从Demo走向大规模部署的，仍然是数据。真实机器人数据质量最高但极其稀缺，仿真数据可以无限生成但存在仿真到真实的鸿沟。\n为此，他提出了一个三层数据金字塔策略：底层是海量但被动的互联网人类视频数据，中层是可无限生成的合成数据，顶层是真实机器人数据。\n他的核心观点是：不应押注单一数据源，而应以异质方式汇集三种数据，同时让世界模型扮演“数据海绵”的角色，吸收并整",
+    "abstractZh": "2026年6月3日，在ICRA 2026大会的主题演讲环节，德克萨斯大学奥斯汀分校副教授、NVIDIA GEAR团队负责人朱玉可（Yuke Zhu）发表了关于人形机器人基础模型的最新演讲。他在演讲中系统性地拆解了当前人形机器人面临的最大瓶颈——数据，并提出了以“数据金字塔”为框架、以“世界模型”为引擎的规模化路径。\n\n朱玉可指出，人形机器人正在进入一个全新的加速阶段：硬件日益成熟，学习算法和基础模型的规模化也在快速推进。但真正制约这一领域从Demo走向大规模部署的，仍然是数据。真实机器人数据质量最高但极其稀缺，仿真数据可以无限生成但存在仿真到真实的鸿沟。\n为此，他提出了一个三层数据金字塔策略：底层是海量但被动的互联网人类视频数据，中层是可无限生成的合成数据，顶层是真实机器人数据。\n他的核心观",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "gnews:a78b6332c680",
@@ -901,7 +1608,117 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-robot-qlt1qjyagk7md2pz-html",
+    "slug": "",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/robot/QLt1QJyAgK7MD2pz.html",
+    "publishedAt": "2026-06-04T06:49:00.000Z",
+    "titleEn": "云鲸十年：张峻彬放下「张峻彬」",
+    "titleZh": "云鲸十年：张峻彬放下「张峻彬」",
+    "abstractEn": "拜访云鲸创始人张峻彬那天，深圳下了一场很大的雨。抵达时雨刚刚止住，云层还没完全散开，但天色正一点点亮起来。\n这个场景，很容易让人联想到云鲸过去一年的处境：在经历国补退坡、存量内卷、增长失速的“暴雨”后，这家成立十年的公司，终于在2026年的春天迎来了经营上的拐点。\n对张峻彬而言，这十年是一场自我的修行。\n很长一段时间里，他身上最鲜明的标签是“产品经理”。作为典型的产品理想主义者，这种信念曾成就了云鲸的惊艳开局，成为巨头林立的清洁电器行业里的一匹黑马。但这种理想主义，让公司骨子里带上了一股“清高”，宁可打磨产品，也不愿意钻研营销。这种心态成就了产品的成功，但也给公司留下了一段本不该有的商业缺口。\n好产品并不总是自动通向好生意。云鲸一度被迫直面“好产品卖不出好价钱”的尴尬，张峻彬被推到了悬崖边。\n现实的引力迫使他不得不亲自下场接管营销，开始像一个真正的商业操盘手那样，去精打细算、平衡成本、直面",
+    "abstractZh": "拜访云鲸创始人张峻彬那天，深圳下了一场很大的雨。抵达时雨刚刚止住，云层还没完全散开，但天色正一点点亮起来。\n这个场景，很容易让人联想到云鲸过去一年的处境：在经历国补退坡、存量内卷、增长失速的“暴雨”后，这家成立十年的公司，终于在2026年的春天迎来了经营上的拐点。\n对张峻彬而言，这十年是一场自我的修行。\n很长一段时间里，他身上最鲜明的标签是“产品经理”。作为典型的产品理想主义者，这种信念曾成就了云鲸的惊艳开局，成为巨头林立的清洁电器行业里的一匹黑马。但这种理想主义，让公司骨子里带上了一股“清高”，宁可打磨产品，也不愿意钻研营销。这种心态成就了产品的成功，但也给公司留下了一段本不该有的商业缺口。\n好产品并不总是自动通向好生意。云鲸一度被迫直面“好产品卖不出好价钱”的尴尬，张峻彬被推到了悬崖边。",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:ae24a8581035",
+    "slug": "gnews-ae24a8581035",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdHNzaFkwRlZMZm1RMGYzU1NEaUhfcEtoWGRTNXlqVU4wVXZreGFHcFhGQWdLcGE1RWR1MmJFVW1MZWNEWm5iU2M2Z1V3RmdFZkZJM2JUMHM1a3lDeGNPeWh4dEhNbDlCWHZTNzl2eFpyMURUYjZOOHVfcm9RVDFjdFROMkJDa1E1UDNEMw?oc=5",
+    "publishedAt": "2026-06-04T05:06:28.000Z",
+    "titleEn": "6/3/2026",
+    "titleZh": "2026年3月6日",
+    "abstractEn": "6/3/2026  AlleyWatch",
+    "abstractZh": "2026年3月6日  AlleyWatch",
+    "authors": [
+      "AlleyWatch"
+    ],
+    "institution": "AlleyWatch",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:40dc407f25dc",
+    "slug": "gnews-40dc407f25dc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjFfTFFGc3FTc2xFOUpGT2NSSUNPVmVsOFY3TlJxSTBiQnFBSEZWZzBjTEUtLUVJLXZpVHdRY0daaTNKZzhWWmFPMTViek5IaTJzTkJEemYzNEVmRzAxRElZTE9RazZCS3B4blNNYWpnbmhOeWxFQ2NSSjZvcVlwYVk5elo?oc=5",
+    "publishedAt": "2026-06-04T04:00:23.000Z",
+    "titleEn": "Anthropic’s relentless race to the top",
+    "titleZh": "Anthropic 永不停歇的巅峰竞逐",
+    "abstractEn": "Anthropic’s relentless race to the top  Financial Times",
+    "abstractZh": "Anthropic 永不停歇的巅峰竞逐  Financial Times",
+    "authors": [
+      "Financial Times"
+    ],
+    "institution": "Financial Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-e90r02svl2ofplo7-html",
+    "slug": "ccig-2026-4200",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/E90R02svL2OFPlO7.html",
+    "publishedAt": "2026-06-04T03:52:00.000Z",
+    "titleEn": "CCIG 2026 在广州圆满落幕：4200 余位专家学者共绘图像图形发展新图景",
+    "titleZh": "CCIG 2026 在广州圆满落幕：4200 余位专家学者共绘图像图形发展新图景",
+    "abstractEn": "图绘湾区，象启新元。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n5 月 29 日至 31 日，2026 年中国图像图形大会（CCIG 2026）在广州成功举办。本次大会由中国图像图形学会主办，中山大学承办，广东省图象图形学会、华南理工大学、琶洲实验室协办。\n大会汇聚了来自图像图形领域学术界、产业界的 4200 余位专家学者和企业代表。与会嘉宾齐聚羊城，围绕图像图形前沿方向、产业创新路径和粤港澳大湾区科技发展机遇展开深入交流，共同谱写湾区图像图形领域发展的新篇章。\n\n\n\n\n\n01\n\n\n\n院士专家齐聚开幕式，\n\n共话学科发展与湾区机遇\n\n\n\n\n5 月 30",
+    "abstractZh": "图绘湾区，象启新元。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n5 月 29 日至 31 日，2026 年中国图像图形大会（CCIG 2026）在广州成功举办。本次大会由中国图像图形学会主办，中山大学承办，广东省图象图形学会、华南理工大学、琶洲实验室协办。\n大会汇聚了来自图像图形领域学术界、产业界的 4200 余位专家学者和企业代表。与会嘉宾齐聚羊城，围绕图像图形前沿方向、产业创新路径和粤港澳大湾区科技发展机遇展开深入交流，共同谱写湾区图像图形领域发展的",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-ai-1379rwpvizogut9v-html",
+    "slug": "3d-cvpr-2026",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/ai/1379RWpvIZOGUt9v.html",
+    "publishedAt": "2026-06-04T03:50:00.000Z",
+    "titleEn": "港中深王方鑫团队：3D 重建的「玻璃杯难题」，终于被摆上台面丨CVPR 2026",
+    "titleZh": "港中深王方鑫团队：3D 重建的「玻璃杯难题」，终于被摆上台面丨CVPR 2026",
+    "abstractEn": "3DReflecNet：一个专为玻璃、金属与陶瓷等材料建立的大规模数据集。\n\n\n\n\n\n    作者丨樊天骄、郑佳美\n    编辑丨郑佳美\n\n                                                                                                               \n\n\n想为手上的玻璃杯生成 3D 模型，需要几步？\n拍照、扫描、建模......听上去似乎很简单，可如果你真的动手试试，得到的往往是布满孔洞、边缘扭曲的残缺结果。\n这就是当前 3D 重建技术的瓶颈：无论是爆火的 3D 高斯溅射（3D Gaussian Splatting, 3DGS）、神经辐射场（Neural Radiance Fields, NeRF），还是传统的多视图立体匹配方法，都只对不反光的漫反射材质且拥有足够清晰的纹理特征的",
+    "abstractZh": "3DReflecNet：一个专为玻璃、金属与陶瓷等材料建立的大规模数据集。\n\n\n\n\n\n    作者丨樊天骄、郑佳美\n    编辑丨郑佳美\n\n                                                                                                               \n\n\n想为手上的玻璃杯生成 3D 模型，需要几步？\n拍照、扫描、建模......听上去似乎很简单，可如果你真的动手试试，得到的往往是布满孔洞、边缘扭曲的残缺结果。\n这就是当前 3D 重建技术的瓶颈：无论是爆火的 3D 高斯溅射（3D Gaussian Splatting, 3DGS）、神经辐射场（Neural Radiance Fiel",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-428790-html",
@@ -922,7 +1739,75 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:8a5f4a5ab935",
+    "slug": "gnews-8a5f4a5ab935",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMm81LU1ncm43VTF0WVJmU0w2d196YWx6SkM4em9URlExYTNTZzl3TldBeHdPX1NraEh0dmpvQjNpRHpPbjM4VWRMTHJxRGNrSld6UFF6ZGtlTGhRa3JfeUtSVlhrdk9US29NdmRBS3M4VlJVRWZPcldEQnhzT0JBMGVQX2xIZWYwcUdMWDdXNTVMYkpaZ2h0QWFnRU9XQmR3c2R1SA?oc=5",
+    "publishedAt": "2026-06-04T03:19:50.000Z",
+    "titleEn": "Nvidia snaps up Kumo AI, a predictive AI startup known for its extreme accuracy",
+    "titleZh": "英伟达收购以极高精度著称的预测AI初创公司Kumo AI",
+    "abstractEn": "Nvidia snaps up Kumo AI, a predictive AI startup known for its extreme accuracy  SiliconANGLE",
+    "abstractZh": "英伟达收购以极高精度著称的预测AI初创公司Kumo AI  SiliconANGLE",
+    "authors": [
+      "SiliconANGLE"
+    ],
+    "institution": "SiliconANGLE",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "雷锋网:https-www-leiphone-com-category-transportation-ea1nfe5aqoclpb1w-html",
+    "slug": "20-l60",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/transportation/Ea1NFe5aQOcLPB1W.html",
+    "publishedAt": "2026-06-04T03:17:00.000Z",
+    "titleEn": "对话李斌&沈斐：20万的价格区间内，乐道L60是「神一样的存在」丨大湾区车展观察",
+    "titleZh": "对话李斌&沈斐：20万的价格区间内，乐道L60是「神一样的存在」丨大湾区车展观察",
+    "abstractEn": "进入2026年，为了应对车圈的竞争升级，蔚来汽车也开始以体系化的战力示人。\n继4月北京车展之后，5月29日，蔚来汽车在粤港澳大湾区车展上再度实现了蔚来、乐道、萤火虫三大品牌同台亮相。此次会展期间，蔚来高举“大有新境 A Vast New Realm”的旗号，在深圳国际会展中心6号馆内以2倍于上届的展区面积，集中亮出了11款车型以及12项核心技术。\n不过，在蔚来展示的所有内容中，最受外界关注的还是两款新车，一款是刚刚于车展前夕上市的蔚来ES9，另一款则是在此次车展上开启预售的新款乐道L60。\n\n这两款车对于蔚来而言同样意义非凡：如果说定位旗舰车型的ES9决定了蔚来的高度，那么面向主流市场的乐道L60将决定蔚来的深度。\n按照蔚来创始人李斌在年初100万辆新车下线仪式上定下的目标，未来旗下三大品牌将协同发力，在各细分市场持续提升份额，共同保持每年40%-50%的增长。\n此次车展前夕的Q1财报交流",
+    "abstractZh": "进入2026年，为了应对车圈的竞争升级，蔚来汽车也开始以体系化的战力示人。\n继4月北京车展之后，5月29日，蔚来汽车在粤港澳大湾区车展上再度实现了蔚来、乐道、萤火虫三大品牌同台亮相。此次会展期间，蔚来高举“大有新境 A Vast New Realm”的旗号，在深圳国际会展中心6号馆内以2倍于上届的展区面积，集中亮出了11款车型以及12项核心技术。\n不过，在蔚来展示的所有内容中，最受外界关注的还是两款新车，一款是刚刚于车展前夕上市的蔚来ES9，另一款则是在此次车展上开启预售的新款乐道L60。\n\n这两款车对于蔚来而言同样意义非凡：如果说定位旗舰车型的ES9决定了蔚来的高度，那么面向主流市场的乐道L60将决定蔚来的深度。\n按照蔚来创始人李斌在年初100万辆新车下线仪式上定下的目标，未来旗下三大品牌",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
+    "id": "gnews:0a4b70224a4c",
+    "slug": "gnews-0a4b70224a4c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZXUwSTVVLUtJbktZay1PNjVEaXBHOG45Ykd6U0JHTmlwSU12dE0tMVgtYUZXN2dQR0hmMW8wb2swRmlQX0gyanpmM3UtX3FENkRIRV9xem4yOHFYQkRKbjljc0lrb0NHQ3BGREtVUmlocGJJeXEyOHZqaXR4VE5IMUFPb3BsOEpKYnoweHZUd0I2ZzFSUDhVcmZRcDNRdklYcFE5UWdlQTFZZw?oc=5",
+    "publishedAt": "2026-06-04T03:16:00.000Z",
+    "titleEn": "Wolters Kluwer Deepens OpenAI Partnership As Shares Come Under Pressure",
+    "titleZh": "Wolters Kluwer 深化与 OpenAI 的合作，股价承压",
+    "abstractEn": "Wolters Kluwer Deepens OpenAI Partnership As Shares Come Under Pressure  Yahoo Finance",
+    "abstractZh": "Wolters Kluwer 深化与 OpenAI 的合作，股价承压  Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-428791-html",
@@ -943,7 +1828,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-428778-html",
@@ -964,7 +1850,31 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:1725634b98ac",
+    "slug": "gnews-1725634b98ac",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVUk2c3dHNmhGN2pWeFhwWC03RjBjenoyMzl0cTdkUXluY3hSNnBlamdyWW56RjJoWDA2bWF5c0poal9xRzhxN09sR3RZV2lDUzBXbjhYdjN2amdBLW1uVm1BS1Q1MVVKVjhza0pZTW5iX3VwTHdRbDRtRV9fMm1pdF9KcHQtVnhSZVdUUHd0cl9YMW5OTnJiamtB?oc=5",
+    "publishedAt": "2026-06-04T02:31:00.000Z",
+    "titleEn": "Anthropic Files S-1 Opening The IPO Floodgates, Analyst Says",
+    "titleZh": "分析师称 Anthropic 提交 S-1 文件，开启 IPO 闸门",
+    "abstractEn": "Anthropic Files S-1 Opening The IPO Floodgates, Analyst Says  Yahoo Finance",
+    "abstractZh": "分析师称 Anthropic 提交 S-1 文件，开启 IPO 闸门  Yahoo Finance",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
   },
   {
     "id": "hrorg:recruit:b41faa50a752",
@@ -1036,6 +1946,27 @@
     "featured": false
   },
   {
+    "id": "雷锋网:https-www-leiphone-com-category-zaobao-c3tcocg23hawhe3f-html",
+    "slug": "sk-ceo-1-8",
+    "source": "雷锋网",
+    "sourceUrl": "https://www.leiphone.com/category/zaobao/C3tCocG23hAwhe3f.html",
+    "publishedAt": "2026-06-04T00:39:00.000Z",
+    "titleEn": "你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水；莲花CEO因超1.8吨是菜车言论惹争议！网友：暴论营销；阿里副总裁离职创业",
+    "titleZh": "你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水；莲花CEO因超1.8吨是菜车言论惹争议！网友：暴论营销；阿里副总裁离职创业",
+    "abstractEn": "要闻提示\n\n\n\n\n\n\n1.你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水\n2.莲花CEO称车重超过1.8吨就是菜车，荣耀高管回应：实在不理解\n3.曝DeepSeek首轮融资拟筹集500亿元，腾讯、京东等参投\n4.阿里副总裁张凯夫离职创业\n5.比亚迪，入局人形机器人\n6.字节 Seedance 2.0 模型单月营收已超 10 亿元，且仍在爬升期\n7.安克创新向港交所提交上市申请\n8.OpenAI 将在 ChatGPT 应用中集成 Codex 功能\n今日头条\n\n\n\n\n你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水\n\n\n\n\n6月3日消息，据报道，三星与SK海力士之间的薪酬博弈正陷入恶性循环，员工互相攀比待遇的压力已从半导体行业蔓延至造船、汽车、生物科技、电信等多个领域。\n导火索是上个月三星电子劳资双方达成的协议，三星不仅发放巨额绩效奖金，还将住房贷款额度上限从1亿韩元（约",
+    "abstractZh": "要闻提示\n\n\n\n\n\n\n1.你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水\n2.莲花CEO称车重超过1.8吨就是菜车，荣耀高管回应：实在不理解\n3.曝DeepSeek首轮融资拟筹集500亿元，腾讯、京东等参投\n4.阿里副总裁张凯夫离职创业\n5.比亚迪，入局人形机器人\n6.字节 Seedance 2.0 模型单月营收已超 10 亿元，且仍在爬升期\n7.安克创新向港交所提交上市申请\n8.OpenAI 将在 ChatGPT 应用中集成 Codex 功能\n今日头条\n\n\n\n\n你涨薪我也要！三星、SK海力士薪酬攀比失控：全行业被拖下水\n\n\n\n\n6月3日消息，据报道，三星与SK海力士之间的薪酬博弈正陷入恶性循环，员工互相攀比待遇的压力已从半导体行业蔓延至造船、汽车、生物科技、电信等多个领域。\n导",
+    "authors": [
+      "雷锋网"
+    ],
+    "institution": "雷锋网",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-05T02:28:59.373Z"
+  },
+  {
     "id": "hn:48392082",
     "slug": "hn-48392082-the-ways-we-contain-claude-across-products",
     "source": "Hacker News",
@@ -1078,7 +2009,8 @@
     "score": 733,
     "commentCount": 716,
     "tags": [],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "openai:chatgpt-memory-dreaming",
@@ -1248,7 +2180,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "gnews:3dfefd891d20",
@@ -53927,7 +54860,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hrorg:careerin:39e289389710",
@@ -55298,7 +56232,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T02:02:48.481Z"
+    "fetchedAt": "2026-06-05T02:02:48.481Z",
+    "featured": false
   },
   {
     "id": "hrorg:boss-zhipin:8164cb7ce52e",
