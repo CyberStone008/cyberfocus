@@ -10,7 +10,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "pipeline": "node scripts/pipeline.js",
-    "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js"
+    "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js",
+    "check:backends": "node scripts/check-backends.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.89.0",
