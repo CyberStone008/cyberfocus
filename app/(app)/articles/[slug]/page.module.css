@@ -1,6 +1,6 @@
 .page {
   padding: 2.5rem 2rem 4rem;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .topNav {
@@ -12,7 +12,7 @@
 
 @media (max-width: 768px) {
   .topNav {
-    left: 1rem;
+    left: 58px;
   }
 }
 
@@ -71,7 +71,7 @@
 .sidebar {
   position: sticky;
   top: 2rem;
-  max-height: calc(100vh - 4rem);
+  max-height: calc(100dvh - 4rem);
   overflow-y: auto;
 }
 
