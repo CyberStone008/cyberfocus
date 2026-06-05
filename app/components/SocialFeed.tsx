@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect } from 'react';
+import Link from 'next/link';
 import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOCIAL_SOURCES } from '../lib/sources-config';
@@ -16,7 +17,7 @@ for (const s of SOCIAL_SOURCES) {
 }
 
 /** True if the article was fetched within the last 24 hours */
-function isNew(article: Article): boolean {
+function isNew(article: SocialItem): boolean {
   if (!article.fetchedAt) return false;
   return Date.now() - new Date(article.fetchedAt).getTime() < 24 * 3600 * 1000;
 }
@@ -27,7 +28,7 @@ function isNew(article: Article): boolean {
  * in Beijing time. The green "新" badge still uses fetchedAt to flag freshly
  * discovered items.
  */
-function getGroupDate(article: Article): string {
+function getGroupDate(article: SocialItem): string {
   return getDateKey(article.publishedAt);
 }
 
@@ -51,10 +52,17 @@ function formatTime(iso: string): string {
 }
 
 /* ── Types ── */
-interface Props { articles: Article[]; view?: string; }
+// Only the fields a social card actually renders. The page projects full
+// Article rows down to this before passing them in, so the static HTML payload
+// drops contentMd/abstracts/tags/etc. — /social was 4.8MB of inlined data.
+export type SocialItem = Pick<
+  Article,
+  'id' | 'source' | 'sourceUrl' | 'titleEn' | 'titleZh' | 'publishedAt' | 'fetchedAt' | 'score' | 'commentCount' | 'commentUrl'
+>;
+interface Props { articles: SocialItem[]; view?: string; archiveHref?: string }
 
 /* ── Main Component ── */
-export function SocialFeed({ articles }: Props) {
+export function SocialFeed({ articles, archiveHref }: Props) {
   const [query, setQuery]       = useState('');
   const [activeDate, setActiveDate] = useState<string | null>(null);
   const feedRef    = useRef<HTMLDivElement>(null);
@@ -83,7 +91,7 @@ export function SocialFeed({ articles }: Props) {
 
   /* Group by date */
   const grouped = useMemo(() => {
-    const map = new Map<string, Article[]>();
+    const map = new Map<string, SocialItem[]>();
     for (const a of filtered) {
       const key = getGroupDate(a);
       const arr = map.get(key) ?? [];
@@ -224,6 +232,25 @@ export function SocialFeed({ articles }: Props) {
             </section>
           ))
         )}
+
+        {archiveHref && filtered.length > 0 && (
+          <div style={{ textAlign: 'center', padding: '20px 0 40px' }}>
+            <Link
+              href={archiveHref}
+              style={{
+                display: 'inline-block',
+                fontSize: 13,
+                color: 'var(--text-secondary)',
+                border: '1px solid var(--border)',
+                borderRadius: 20,
+                padding: '7px 18px',
+                textDecoration: 'none',
+              }}
+            >
+              查看全部历史 →
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -234,7 +261,7 @@ export function SocialFeed({ articles }: Props) {
 // cardLink (<a>) is position:absolute inset-0 — covers the full card.
 // discussLink uses position:relative z-index:1 to sit above the stretched link.
 // This avoids any <a> nesting while keeping proper anchor semantics.
-function SocialCard({ article: a }: { article: Article }) {
+function SocialCard({ article: a }: { article: SocialItem }) {
   const color = SOURCE_COLOR[a.source] ?? '#6b7280';
   const abbr  = SOURCE_ABBR[a.source]  ?? a.source.slice(0, 2);
   const title = a.titleZh ?? a.titleEn;
