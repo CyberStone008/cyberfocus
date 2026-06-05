@@ -82,12 +82,36 @@ export function TableOfContents({ entries }: { entries: TocEntry[] }) {
     };
   }, [entries]);
 
-  // Auto-scroll the active TOC item into view
+  // Keep the active TOC item visible — but ONLY within the TOC's own scroll
+  // container (the desktop sticky sidebar). `el.scrollIntoView()` scrolls every
+  // scrollable ancestor, including the page/window. On mobile the TOC is inline
+  // in the article flow with no private scroll container, so scrollIntoView
+  // would scroll the whole document and fight the user's finger — the page
+  // jumps back and forth ("来回跳"). So we manually nudge only the TOC's own
+  // overflow container, and bail entirely when there isn't one (mobile).
   const navRef = useRef<HTMLElement>(null);
   useEffect(() => {
     if (!activeAnchor || !navRef.current) return;
     const el = navRef.current.querySelector(`[data-anchor="${activeAnchor}"]`) as HTMLElement | null;
-    el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    if (!el) return;
+
+    // Find the TOC's nearest private scroll container.
+    let box: HTMLElement | null = el.parentElement;
+    while (box) {
+      const { overflowY } = getComputedStyle(box);
+      if (overflowY === 'auto' || overflowY === 'scroll') break;
+      box = box.parentElement;
+    }
+    if (!box) return; // inline TOC (mobile) → never scroll the page
+
+    // Reveal `el` inside `box` by adjusting only the container's own scrollTop.
+    const cRect = box.getBoundingClientRect();
+    const eRect = el.getBoundingClientRect();
+    if (eRect.top < cRect.top) {
+      box.scrollTop += eRect.top - cRect.top - 8;
+    } else if (eRect.bottom > cRect.bottom) {
+      box.scrollTop += eRect.bottom - cRect.bottom + 8;
+    }
   }, [activeAnchor]);
 
   if (entries.length === 0) return null;
