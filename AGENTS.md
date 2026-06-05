@@ -205,4 +205,6 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 **日志**：统一到 `logs/daily.log`（run-daily.sh 用 `{ … } >> "$LOG_FILE" 2>&1` 重定向，plist 的 StandardOut/ErrPath 也指向同一文件）。不要再看 `pipeline.log`/`launchd.*.log`（已删的旧文件）。
 
+**告警（Bark / iPhone）**：run-daily.sh 末尾 `notify_bark()` 把结果推到手机。失败（管道非 0 / 代理挂 / `check:backends` 不过）推 ⚠️，成功推 ✅ + 新增数（满足"每次跑完告诉我一声"）。`BARK_KEY` 存 `.env.local`（不入库），未设则静默跳过。curl 用 `--noproxy '*'` 绕过 xray——这样"代理挂了"也能把告警送出去（api.day.app 国内直连）。本地 macOS 通知保留不变。
+
 **改调度后务必重载**：`launchctl unload <plist> && launchctl load <plist>`，再 `launchctl print gui/$(id -u)/com.cyberfocus.pipeline | grep -iE "Hour|Minute"` 确认。

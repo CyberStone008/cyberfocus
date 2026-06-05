@@ -51,6 +51,20 @@ fi
 export HTTPS_PROXY="http://127.0.0.1:10808"
 export HTTP_PROXY="http://127.0.0.1:10808"
 
+# ── Bark 手机推送 ─────────────────────────────────────────────────────────────
+# 跑批结果推到 iPhone（Bark App）。BARK_KEY 来自 .env.local（不入库）；未设则跳过。
+# 关键：--noproxy '*' 绕过本地 xray 代理——这样即便"代理挂了"也能把告警送出去
+# （api.day.app 国内直连可达）。BARK_SERVER 可选，默认官方服务器。
+notify_bark() {
+  # $1=title  $2=body  $3=level(active|timeSensitive|passive)
+  [ -z "${BARK_KEY:-}" ] && return 0
+  curl -s --noproxy '*' --max-time 10 -X POST "${BARK_SERVER:-https://api.day.app}/${BARK_KEY}" \
+    --data-urlencode "title=$1" \
+    --data-urlencode "body=$2" \
+    --data-urlencode "group=CyberFocus" \
+    --data-urlencode "level=${3:-active}" >/dev/null 2>&1 || true
+}
+
 {
   echo ""
   echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
@@ -65,6 +79,13 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   else
     echo "[run-daily] ⚠️  PROXY DOWN — $HTTPS_PROXY unreachable. Foreign sources will fail. Is xray running?"
     PROXY_OK=0
+  fi
+
+  # 后端体检：扫出任何自建 LLM client 漏了 DeepSeek 分支的回归（见 check-backends.mjs）
+  if node scripts/check-backends.mjs; then
+    BACKENDS_OK=1
+  else
+    BACKENDS_OK=0
   fi
 
   # Pull latest data before running so processed-ids stays in sync with cloud
@@ -152,4 +173,16 @@ if [ "$PIPELINE_EXIT" -eq 0 ]; then
   osascript -e "display notification \"$NOTIFY_MSG\" with title \"CyberFocus 数据更新\" subtitle \"$(date '+%H:%M') 管道已完成\" sound name \"Glass\""
 else
   osascript -e "display notification \"退出码 $PIPELINE_EXIT，请查看日志\" with title \"CyberFocus 管道异常\" sound name \"Basso\""
+fi
+
+# ── Bark 手机推送 ──
+# 真失败 = 管道失败 / 代理挂 / 后端体检不过。否则成功简报（满足"每次跑完告诉我一声"）。
+FAIL_REASON=""
+[ "$PIPELINE_EXIT" -ne 0 ]        && FAIL_REASON="${FAIL_REASON}管道退出$PIPELINE_EXIT "
+[ "${PROXY_OK:-0}" -ne 1 ]        && FAIL_REASON="${FAIL_REASON}代理挂 "
+[ "${BACKENDS_OK:-1}" -ne 1 ]     && FAIL_REASON="${FAIL_REASON}后端体检失败 "
+if [ -n "$FAIL_REASON" ]; then
+  notify_bark "⚠️ CyberFocus 跑批异常" "$(date '+%m-%d %H:%M') · ${FAIL_REASON}· 详见 logs/daily.log" "timeSensitive"
+else
+  notify_bark "✅ CyberFocus 今日更新" "$(date '+%m-%d %H:%M') · ${PUSH_STATUS:-完成}" "active"
 fi
