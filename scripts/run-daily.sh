@@ -10,6 +10,18 @@ LOG_FILE="$LOG_DIR/daily.log"
 mkdir -p "$LOG_DIR"
 cd "$PROJECT_DIR"
 
+# ── 补偿 / 幂等闸 ──────────────────────────────────────────────────────────────
+# launchd 每天在 06:30 与 09:00 各触发一次本脚本（见 plist 的 StartCalendarInterval
+# 数组）。06:30 成功完成会写下「今日成功」标记（脚本末尾）；09:00 触发时若发现今天
+# 已成功，立即退出。所以正常情况下每天只实质跑一次——仅当 06:30 没跑成（Mac 没醒/
+# 失败/代理挂、没写成标记）时，09:00 才真正补跑。FORCE_RUN=1 可绕过此闸手动强制跑。
+TODAY="$(date '+%Y-%m-%d')"
+SUCCESS_MARKER="$LOG_DIR/.last-success"
+if [ "${FORCE_RUN:-0}" != "1" ] && [ -f "$SUCCESS_MARKER" ] && [ "$(cat "$SUCCESS_MARKER" 2>/dev/null)" = "$TODAY" ]; then
+  echo "[run-daily] $(date '+%F %T') 今日已成功完成，跳过本次（补偿触发）" >> "$LOG_FILE"
+  exit 0
+fi
+
 # Load nvm so `node` is available under launchd (non-interactive shell)
 export NVM_DIR="$HOME/.nvm"
 if [ -s "$NVM_DIR/nvm.sh" ]; then
@@ -49,8 +61,10 @@ export HTTP_PROXY="http://127.0.0.1:10808"
   # "0 items fetched" run is diagnosable from the log instead of silent.
   if curl -sS --max-time 8 -x "$HTTPS_PROXY" -o /dev/null -w "%{http_code}" https://arxiv.org 2>/dev/null | grep -q "200\|301\|302\|403"; then
     echo "[run-daily] proxy OK ($HTTPS_PROXY)"
+    PROXY_OK=1
   else
     echo "[run-daily] ⚠️  PROXY DOWN — $HTTPS_PROXY unreachable. Foreign sources will fail. Is xray running?"
+    PROXY_OK=0
   fi
 
   # Pull latest data before running so processed-ids stays in sync with cloud
@@ -121,6 +135,16 @@ export HTTP_PROXY="http://127.0.0.1:10808"
     PUSH_STATUS="文章 ${NEW_COUNT} · 播客 ${NEW_PODCAST}"
   fi
 } >> "$LOG_FILE" 2>&1
+
+# 写「今日成功」标记 —— 仅当总体成功且代理可用时。代理挂会导致海外源 0 条，
+# 那种"假成功"不应写标记，好让 09:00 的补偿触发真正补跑。（{ } 是 brace group
+# 非子 shell，块内设的 PIPELINE_EXIT / PROXY_OK 在此处可见。）
+if [ "$PIPELINE_EXIT" -eq 0 ] && [ "${PROXY_OK:-0}" -eq 1 ]; then
+  echo "$TODAY" > "$SUCCESS_MARKER"
+  echo "[run-daily] 已标记今日成功（$TODAY）" >> "$LOG_FILE"
+else
+  echo "[run-daily] 未达成功条件（exit=$PIPELINE_EXIT proxy=${PROXY_OK:-0}），不写标记，留待 09:00 补跑" >> "$LOG_FILE"
+fi
 
 # macOS 系统通知（在日志重定向块外执行，确保通知正常弹出）
 if [ "$PIPELINE_EXIT" -eq 0 ]; then

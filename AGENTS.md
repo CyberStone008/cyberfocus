@@ -167,3 +167,27 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
    - 或 `npm run publish`（`scripts/publish.sh`）立刻提交并推送 `data/`，Vercel ~1 分钟重建上线。
 
 若日后要「在线/手机管理」，需上密码鉴权 + 把写入改为 GitHub API 提交（讨论记录在案，当前未做）。
+
+---
+
+### 每日自动化（launchd）：唯一任务 + 双触发补偿
+
+**只有一个 launchd 任务**：`com.cyberfocus.pipeline`（plist 在 `~/Library/LaunchAgents/`），调用 `scripts/run-daily.sh`。**不要再创建第二个任务**——历史上曾存在重复的 `com.zhanglei.ai-research`（同样跑 run-daily.sh、旧的 10:00），导致每天双跑 + 日志混乱，已停用备份为 `*.disabled-dup-*`。新增/排查时先 `launchctl list | grep -iE "cyberfocus|ai-research"` 确认只有一个。
+
+**调度（本地=北京时间）**：plist 的 `StartCalendarInterval` 是**数组双触发**：
+- **06:30 主跑** —— 目标「8:00 前全部就绪」，留 90 分钟缓冲。
+- **09:00 补偿** —— 仅当 06:30 没跑成时才真正补跑（见下方幂等闸）。
+
+**caffeinate 包裹**：plist 的 `ProgramArguments` 用 `/usr/bin/caffeinate -i` 包住 run-daily.sh，防止被定时唤醒后系统在跑批途中再次空闲休眠。
+
+**定时唤醒（需手动 sudo 设过一次）**：launchd 只是闹钟，Mac 睡眠时不会自己醒。靠 `sudo pmset repeat wakeorpoweron MTWRFSU 06:28:00` 让 Mac 每天 06:28 自动唤醒，06:30 才能按时触发。否则会退化成「下次手动唤醒时才补跑」。`pmset -g sched` 可查。
+
+**幂等 / 补偿机制**（`run-daily.sh` 内）：
+- 开头读 `logs/.last-success`（内容是 `YYYY-MM-DD`）。等于今天 → 立即 `exit 0`（这就是 09:00 触发在 06:30 已成功时不会重复跑的原因）。`FORCE_RUN=1` 可绕过此闸手动强制跑。
+- 结尾**仅当「总体成功（`PIPELINE_EXIT==0`）且代理可用（`PROXY_OK==1`）」时**才写当日成功标记。代理挂会让海外源抓 0 条，那种"假成功"故意**不写标记**，好让 09:00 真正补跑。
+- 标记按日期自比较、自动失效，无需清理。`logs/` 已 gitignore，标记不入库。
+- launchd 自带 catch-up：若 06:30 与 09:00 都因睡眠错过，下次唤醒会合并补跑一次 → 幂等闸保证只实质跑一次。
+
+**日志**：统一到 `logs/daily.log`（run-daily.sh 用 `{ … } >> "$LOG_FILE" 2>&1` 重定向，plist 的 StandardOut/ErrPath 也指向同一文件）。不要再看 `pipeline.log`/`launchd.*.log`（已删的旧文件）。
+
+**改调度后务必重载**：`launchctl unload <plist> && launchctl load <plist>`，再 `launchctl print gui/$(id -u)/com.cyberfocus.pipeline | grep -iE "Hour|Minute"` 确认。
