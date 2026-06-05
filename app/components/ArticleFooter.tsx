@@ -1,8 +1,9 @@
 import { Article } from '../types/article';
+import { getDateKey } from '../lib/date';
 import styles from './ArticleFooter.module.css';
 
 function formatDate(iso: string) {
-  return new Date(iso).toISOString().slice(0, 10);
+  return getDateKey(iso);
 }
 
 export function ArticleFooter({ article }: { article: Article }) {

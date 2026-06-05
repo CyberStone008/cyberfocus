@@ -48,6 +48,16 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
 - **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` **按文章发布日期 `publishedAt` 分组**——6/03 发布、6/04 抓取的文章归到 6/03，不是"今天"。用户明确要求按发布日期而非抓取日期。（绿色"新"徽章仍用 `fetchedAt` < 24h 判断。）前提是 `publishedAt` 必须准确——所以 OpenAI/Anthropic/Claude 抓取器都要提取真实发布日期（见各 fetcher 的 lastmod/datePublished 处理）。
 
+### 日期分组必须按北京时间（UTC+8），禁止 `iso.slice(0,10)`
+
+所有 feed 的日期分组/「今天·昨天」标签**统一走 `app/lib/date.ts` 的 `getDateKey/todayKey/yesterdayKey`**（固定 +8h 偏移，中国无夏令时；构建端 UTC 与浏览器端结果一致）。
+
+**踩过的坑**：原本各 feed 各写一份 `getDateKey(iso)=iso.slice(0,10)`，截的是 **UTC 日期**。`publishedAt` 存的是 `...Z`，于是凌晨/晚间美国发布的内容（如 `2026-06-04T20:30Z` 实为北京 6/05 04:30）被错分到前一天——早上看「今天」几乎空（曾只剩 3 条，实应 32 条），全堆进「昨天」。同样地 `formatDatePill` 用 `new Date().toISOString().slice(0,10)` 取「今天/昨天」也是 UTC，必须改用 `todayKey()/yesterdayKey()`。
+
+**规则**：任何把时间戳转成「YYYY-MM-DD 日期键」或判断「今天/昨天」的地方，一律用 `lib/date.ts`，不要再 `iso.slice(0,10)` 或 `toISOString().slice(0,10)`。单条卡片的日期标签（ArticleCard/Header/Footer、ReportFeed cardDate）也已统一，保证与分组一致。
+
+> 注：`data/daily/YYYY-MM-DD.json` 快照文件名的日期由 pipeline（Node）决定，与前端分组是两套；如发现 AI 日报按文件名分日也有跨日偏移，需在 pipeline 侧同样按北京时间命名。
+
 ### OpenAI 博客抓取：用真实发布日期，不能信 sitemap lastmod
 
 `scripts/fetch/openai.js` 从 research sitemap 抓文章。**坑：sitemap 的 `<lastmod>` 是"最后修改"时间，不是发布时间**。OpenAI 改一篇旧文（如 2025-04 的 GPT-4.1、BrowseComp）会让 lastmod 变成最近 → 旧文当成新文涌入"最近"列表（曾出现 GPT-4.1 标成 2026-05-22）。

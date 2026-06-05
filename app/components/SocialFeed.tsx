@@ -4,6 +4,7 @@ import { useState, useMemo, useRef, useEffect } from 'react';
 import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOCIAL_SOURCES } from '../lib/sources-config';
+import { getDateKey, todayKey, yesterdayKey } from '../lib/date';
 import styles from './SocialFeed.module.css';
 
 /* ── Derive source meta from config ── */
@@ -21,12 +22,10 @@ function isNew(article: Article): boolean {
 }
 
 /* ── Helpers ── */
-function getDateKey(iso: string) { return iso.slice(0, 10); }
-
-
 /**
- * Date key used for feed grouping = the post's PUBLISH date (not fetch date).
- * The green "新" badge still uses fetchedAt to flag freshly-discovered items.
+ * Date key used for feed grouping = the post's PUBLISH date (not fetch date),
+ * in Beijing time. The green "新" badge still uses fetchedAt to flag freshly
+ * discovered items.
  */
 function getGroupDate(article: Article): string {
   return getDateKey(article.publishedAt);
@@ -34,20 +33,15 @@ function getGroupDate(article: Article): string {
 
 function formatDateLabel(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
-  const now  = new Date();
-  const date = new Date(y, m - 1, d);
-  const diffDays = Math.floor((now.getTime() - date.getTime()) / 86400000);
-  if (diffDays === 0) return `今天 · ${m}月${d}日`;
-  if (diffDays === 1) return `昨天 · ${m}月${d}日`;
+  if (dateKey === todayKey())     return `今天 · ${m}月${d}日`;
+  if (dateKey === yesterdayKey()) return `昨天 · ${m}月${d}日`;
   return `${y}年${m}月${d}日`;
 }
 
 function formatDatePill(dateKey: string): string {
   const [, m, d] = dateKey.split('-').map(Number);
-  const now       = new Date().toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (dateKey === now)       return '今天';
-  if (dateKey === yesterday) return '昨天';
+  if (dateKey === todayKey())     return '今天';
+  if (dateKey === yesterdayKey()) return '昨天';
   return `${m}月${d}日`;
 }
 

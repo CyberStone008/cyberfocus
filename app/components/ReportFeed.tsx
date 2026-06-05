@@ -5,6 +5,7 @@ import Fuse from 'fuse.js';
 import { Article } from '../types/article';
 import { SOURCES } from '../lib/sources-config';
 import { IS_PUBLIC } from '../lib/public-mode';
+import { getDateKey, todayKey, yesterdayKey } from '../lib/date';
 import styles from './ReportFeed.module.css';
 
 /* ── Source meta — built from sources-config + legacy overrides ── */
@@ -39,8 +40,6 @@ type FeedEntry =
 
 
 /* ── Helpers ── */
-function getDateKey(iso: string) { return iso.slice(0, 10); }
-
 /** True if the article was fetched within the last 24 hours */
 function isNew(article: Article): boolean {
   if (!article.fetchedAt) return false;
@@ -59,21 +58,16 @@ function getGroupDate(article: Article): string {
 
 function formatDateLabel(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
-  const now  = new Date();
-  const date = new Date(y, m - 1, d);
-  const diffDays = Math.floor((now.getTime() - date.getTime()) / 86400000);
-  if (diffDays === 0) return `今天 · ${m}月${d}日`;
-  if (diffDays === 1) return `昨天 · ${m}月${d}日`;
+  if (dateKey === todayKey())     return `今天 · ${m}月${d}日`;
+  if (dateKey === yesterdayKey()) return `昨天 · ${m}月${d}日`;
   return `${y}年${m}月${d}日`;
 }
 
 function formatDatePill(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
-  const now       = new Date().toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (dateKey === now)       return '今天';
-  if (dateKey === yesterday) return '昨天';
-  const thisYear = new Date().getFullYear();
+  if (dateKey === todayKey())     return '今天';
+  if (dateKey === yesterdayKey()) return '昨天';
+  const thisYear = Number(todayKey().slice(0, 4));
   return Number(y) === thisYear ? `${m}月${d}日` : `${y}年${m}月`;
 }
 
@@ -620,7 +614,7 @@ function ReportCard({
           <span className={styles.manualBadge}>手动添加</span>
         )}
         {isNew(a) && <span className={styles.newBadge}>新</span>}
-        <span className={styles.cardDate}>{a.publishedAt.slice(0, 10)}</span>
+        <span className={styles.cardDate}>{getDateKey(a.publishedAt)}</span>
 
         {/* Action button — sits above the stretched cardLink via z-index */}
         {showAnalysis && (

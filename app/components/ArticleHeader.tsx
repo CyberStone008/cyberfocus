@@ -1,9 +1,10 @@
 import { Article } from '../types/article';
 import { SourceBadge } from './SourceBadge';
+import { getDateKey } from '../lib/date';
 import styles from './ArticleHeader.module.css';
 
 function formatDate(iso: string) {
-  return new Date(iso).toISOString().slice(0, 10);
+  return getDateKey(iso);
 }
 
 export function ArticleHeader({ article }: { article: Article }) {

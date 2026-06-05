@@ -3,6 +3,7 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { Article } from '../types/article';
 import { FeedCard } from './FeedCard';
+import { getDateKey, todayKey, yesterdayKey } from '../lib/date';
 import styles from './FeedList.module.css';
 
 const SOURCES = ['Anthropic Blog', 'OpenAI Blog', 'arXiv cs.AI', 'HuggingFace Daily'];
@@ -31,30 +32,23 @@ function loadSavedFilters(): ActiveFilters {
 }
 
 function formatDateLabel(iso: string) {
-  const d = new Date(iso);
-  const now = new Date();
-  const diffDays = Math.floor((now.getTime() - d.getTime()) / 86400000);
-  if (diffDays === 0) return `今天 · ${d.getMonth() + 1}月${d.getDate()}日`;
-  if (diffDays === 1) return `昨天 · ${d.getMonth() + 1}月${d.getDate()}日`;
-  return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
+  const key = getDateKey(iso);
+  const [y, m, d] = key.split('-').map(Number);
+  if (key === todayKey())     return `今天 · ${m}月${d}日`;
+  if (key === yesterdayKey()) return `昨天 · ${m}月${d}日`;
+  return `${y}年${m}月${d}日`;
 }
 
 function formatDatePill(dateKey: string) {
   const [, m, d] = dateKey.split('-');
-  const now = new Date().toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (dateKey === now) return '今天';
-  if (dateKey === yesterday) return '昨天';
+  if (dateKey === todayKey())     return '今天';
+  if (dateKey === yesterdayKey()) return '昨天';
   return `${parseInt(m)}月${parseInt(d)}日`;
 }
 
 function formatTime(iso: string) {
   const d = new Date(iso);
   return d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
-}
-
-function getDateKey(iso: string) {
-  return iso.slice(0, 10);
 }
 
 function matchesTime(iso: string, filter: string | null) {

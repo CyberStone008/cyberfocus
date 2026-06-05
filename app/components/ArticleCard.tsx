@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { Article } from '../types/article';
 import { SourceBadge } from './SourceBadge';
+import { getDateKey } from '../lib/date';
 import styles from './ArticleCard.module.css';
 
 function formatDate(iso: string) {
-  const d = new Date(iso);
-  return d.toISOString().slice(0, 10);
+  return getDateKey(iso);
 }
 
 export function ArticleCard({ article }: { article: Article }) {

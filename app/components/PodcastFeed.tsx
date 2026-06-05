@@ -3,32 +3,27 @@
 import { useState, useMemo, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import { Article } from '../types/article';
+import { getDateKey, todayKey, yesterdayKey, daysAgoFromKey } from '../lib/date';
 import styles from './PodcastFeed.module.css';
 
 type Episode = Article & { duration?: string | null; contentMd?: string };
 
-/* ── Date helpers ── */
-function getDateKey(iso: string) { return iso.slice(0, 10); }
-
+/* ── Date helpers (grouping in Beijing time) ── */
 function formatDateLabel(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
-  const now      = new Date();
-  const date     = new Date(y, m - 1, d);
-  const diffDays = Math.floor((now.getTime() - date.getTime()) / 86400000);
+  const diffDays = daysAgoFromKey(dateKey);
   if (diffDays === 0) return '今天';
   if (diffDays === 1) return '昨天';
-  if (diffDays < 7)   return `${diffDays} 天前`;
-  const thisYear = now.getFullYear();
+  if (diffDays > 0 && diffDays < 7) return `${diffDays} 天前`;
+  const thisYear = Number(todayKey().slice(0, 4));
   return y === thisYear ? `${m}月${d}日` : `${y}年${m}月${d}日`;
 }
 
 function formatDatePill(dateKey: string): string {
-  const now       = new Date().toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (dateKey === now)       return '今天';
-  if (dateKey === yesterday) return '昨天';
+  if (dateKey === todayKey())     return '今天';
+  if (dateKey === yesterdayKey()) return '昨天';
   const [y, m, d] = dateKey.split('-').map(Number);
-  const thisYear  = new Date().getFullYear();
+  const thisYear  = Number(todayKey().slice(0, 4));
   return y === thisYear ? `${m}月${d}日` : `${y}年${m}月${d}日`;
 }
 
