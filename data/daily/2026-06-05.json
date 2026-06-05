@@ -1,0 +1,1050 @@
+{
+  "date": "2026-06-05",
+  "generatedAt": "2026-06-05T02:02:48.450Z",
+  "summary": {
+    "aiNews": [],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "gnews:f3f56a52d683",
+      "slug": "gnews-f3f56a52d683",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CZzZ3di1XOTFhX2F2eFhrSWhfdU5WUUZUdXlLSE0wUWdUbmdNNHNEVDR3MjRJVXB1cFh0MVZFN1ZmYndLcFcteHNXeXVlNERqUWgwY1pKSDVuaDdicnpNWWZxMVBVdWl5cTU2YVEtVGFoSDN6VkE?oc=5",
+      "publishedAt": "2026-06-05T00:53:05.000Z",
+      "titleEn": "No need to panic about Anthropic’s new blog, and some more good news",
+      "titleZh": "无需对Anthropic的新博客感到恐慌，还有一些好消息",
+      "abstractEn": "No need to panic about Anthropic’s new blog, and some more good news  Marcus on AI | Substack",
+      "abstractZh": "无需对Anthropic的新博客感到恐慌，还有一些好消息  Marcus on AI | Substack",
+      "authors": [
+        "Marcus on AI | Substack"
+      ],
+      "institution": "Marcus on AI | Substack",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48406358",
+      "slug": "hn-48406358-open-code-review-an-ai-powered-code-review-cli-tool",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/alibaba/open-code-review",
+      "commentUrl": "https://news.ycombinator.com/item?id=48406358",
+      "publishedAt": "2026-06-05T00:04:29.000Z",
+      "titleEn": "Open Code Review – An AI-powered code review CLI tool",
+      "titleZh": "Open Code Review —— 一款基于AI的代码审查命令行工具",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "geoffbp"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:651b829809f3",
+      "slug": "gnews-651b829809f3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnhjQzBZeTlkM1FHY216Vm94SFpSTkpiWWhxNTFuS3NFMEdta0Y3Y1VGUWhRdVRldFl0UUdJV1RpUWI2U0I0TWFqbzR5RVZZYnQ1RmxwZENMSkZlTFdTSFEwX3RJZU5KX2RnNDhkRXZXdkw2UGw2NEc3WkJGWWFQUXU4NElkQXZYWVlvU19wb1dCbjZzV2dzaWs5Ulk4YjJwbndJUjZQbWxXV19EMTZsODNoWQ?oc=5",
+      "publishedAt": "2026-06-05T00:03:19.000Z",
+      "titleEn": "AI Takes Center Stage at Bloomberg Tech Conference",
+      "titleZh": "人工智能在彭博科技大会上成为焦点",
+      "abstractEn": "AI Takes Center Stage at Bloomberg Tech Conference  StartupHub.ai",
+      "abstractZh": "人工智能在彭博科技大会上成为焦点  StartupHub.ai",
+      "authors": [
+        "StartupHub.ai"
+      ],
+      "institution": "StartupHub.ai",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48406198",
+      "slug": "hn-48406198-south-korean-forums-will-need-to-scan-every-images-with-ai-censorshi",
+      "source": "Hacker News",
+      "sourceUrl": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
+      "commentUrl": "https://news.ycombinator.com/item?id=48406198",
+      "publishedAt": "2026-06-04T23:45:56.000Z",
+      "titleEn": "South Korean Forums Will Need to Scan Every Images with AI Censorship Tools",
+      "titleZh": "韩国论坛将需使用AI审查工具扫描每张图片",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Cider9986"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:2a3a531dcf99",
+      "slug": "gnews-2a3a531dcf99",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdFA1S1NoOVNoTlZRYjRUWWdUVnl2TDA3c0psYzE3cjAzalltU2pNSERxb2JRR0hWTnM3UjBRMXk1QTRtVDlyRklyYmtiV29KeFNDQWYtU1dqdkRvcW5zSUE4eDdHNVNMQkdJMmF0bWN0TWxjcWlJR1Z5ZEY5MGJqV24tLTI1cC1CYWVLakwzRzJ0X2VXdi15ZHVXelFNUQ?oc=5",
+      "publishedAt": "2026-06-04T23:41:00.000Z",
+      "titleEn": "5 Top Artificial Intelligence (AI) Stocks to Buy With $5,000 Right Now",
+      "titleZh": "现在用5000美元可买入的5只顶级人工智能（AI）股票",
+      "abstractEn": "5 Top Artificial Intelligence (AI) Stocks to Buy With $5,000 Right Now  Yahoo Finance",
+      "abstractZh": "现在用5000美元可买入的5只顶级人工智能（AI）股票  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48405931",
+      "slug": "hn-48405931-do-transformers-need-three-projections-systematic-study-of-qkv-varia",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2606.04032",
+      "commentUrl": "https://news.ycombinator.com/item?id=48405931",
+      "publishedAt": "2026-06-04T23:11:56.000Z",
+      "titleEn": "Do transformers need three projections? Systematic study of QKV variants",
+      "titleZh": "Transformer 是否需要三个投影？QKV 变体的系统性研究",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Anon84"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 92,
+      "commentCount": 13,
+      "tags": []
+    },
+    {
+      "id": "hn:48405841",
+      "slug": "hn-48405841-latent-agents-a-post-training-procedure-for-internalized-multi-agent",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.24881",
+      "commentUrl": "https://news.ycombinator.com/item?id=48405841",
+      "publishedAt": "2026-06-04T23:01:40.000Z",
+      "titleEn": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+      "titleZh": "隐空间智能体：一种用于内化多智能体辩论的后训练流程",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "PaulHoule"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:4197f509877f",
+      "slug": "gnews-4197f509877f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQenZ2bklZYmtvS2hzVDRtRVFrNzFOc2xreEc3X2huVHVWVW1md1lkSi1wMy10UzRzWXZrbzJ0Mkg4TmVxVk9iYldKNkZRMEVvUHNNTmFxV1BkQk1mcjBjVENTZGtucENvQ3ZmVVVKc2R5bVo5RERfLW5Ga2lEXzJqeHBEVjFiLU02QzY5VmdOQjJqc0hFQXY0aVpzbXJ6dkI1eHNKY1o2bw?oc=5",
+      "publishedAt": "2026-06-04T22:56:14.000Z",
+      "titleEn": "Uncharted Waters: AI Regulation By Margie Donlon and Luanne Peterpaul",
+      "titleZh": "未知水域：AI 监管 作者：Margie Donlon 和 Luanne Peterpaul",
+      "abstractEn": "Uncharted Waters: AI Regulation By Margie Donlon and Luanne Peterpaul  The Link News",
+      "abstractZh": "未知水域：AI 监管 作者：Margie Donlon 和 Luanne Peterpaul  The Link News",
+      "authors": [
+        "The Link News"
+      ],
+      "institution": "The Link News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1a2c872f515d",
+      "slug": "gnews-1a2c872f515d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcG5Sb0owaXRhbUlnSGpYRWV3c3lYOTRva2FsdE1ZYjZDYTRmU2FYS0wwa2VNYTBSblB3cHRsbjJOXzNMQllnU1QzNjU0THJmZ0ZhVmllV2hGZllQU2NZaEVhOTlYWTJxeVZPa2psOG5kOFdEaEx0MU9vSzlhemRycGotbkJUWE95aElJbjVweFhMaXZGS0tMdFRn?oc=5",
+      "publishedAt": "2026-06-04T21:44:57.000Z",
+      "titleEn": "US House lawmakers release draft bill to prohibit state AI rules",
+      "titleZh": "美国众议院议员发布禁止各州制定 AI 规则的草案",
+      "abstractEn": "US House lawmakers release draft bill to prohibit state AI rules  Reuters",
+      "abstractZh": "美国众议院议员发布禁止各州制定 AI 规则的草案  Reuters",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7542b2a66d53",
+      "slug": "gnews-7542b2a66d53",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbmJTRnVtQW9DR1h1Y1pFeWt2alhjYzhTRjgySFA0MWFJRGNGQ0Q0LTNWbzhvY3l0clk1bDdzYlI5UjBSVTZWUGdxbVF0bi1ud2FjS014ck9aNXoyNWEzQmt3U1MtS0paODlGYjA0d1d2TDdCazMzNXZJTHNoWkhjaWJfeVZKMHpFS3c?oc=5",
+      "publishedAt": "2026-06-04T21:42:31.000Z",
+      "titleEn": "State vs. Federal: The Fight Over AI Regulation",
+      "titleZh": "州与联邦：AI 监管之争",
+      "abstractEn": "State vs. Federal: The Fight Over AI Regulation  WFLA",
+      "abstractZh": "州与联邦：AI 监管之争  WFLA",
+      "authors": [
+        "WFLA"
+      ],
+      "institution": "WFLA",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48404658",
+      "slug": "hn-48404658-ai-will-consume-as-much-water-in-2030-as-1-3b-people",
+      "source": "Hacker News",
+      "sourceUrl": "https://english.elpais.com/technology/2026-06-03/ai-will-consume-as-much-water-in-2030-as-13-billion-people.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48404658",
+      "publishedAt": "2026-06-04T21:07:34.000Z",
+      "titleEn": "AI will consume as much water in 2030 as 1.3B people",
+      "titleZh": "AI在2030年的耗水量将相当于13亿人口",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "dnnddidiej"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 26,
+      "commentCount": 10,
+      "tags": []
+    },
+    {
+      "id": "gnews:50891b76b1ce",
+      "slug": "gnews-50891b76b1ce",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbFJNb3pqWldfR3NTM0dYY1V4Z3JCNDJvZEpIb0tEVHZrUnZYTGZyVkJMRnFNOTMyR2FKMngtSGtvVGlkWFFJT0REUVhxQ2FrWlNONUV5dUQyNFZ3ZnlCWldtMUdXdVQxV3hIUTY4OG9PbDlYX3NfNjFfOWR2YnFSbzY1M2JTTlNUZGJsbXZPOEk2V1otRWJUYWV2TW45UTVXUkc4T0plSmgyNUJxX1NZQ1lxR3pJWVd2U0tsb0J3U2dvTkEtblI3TTFaM2Jmel9CTWV4NmJjYjJCemc?oc=5",
+      "publishedAt": "2026-06-04T21:06:40.000Z",
+      "titleEn": "New federal AI strategy looks to close 'adoption gap,' build public trust",
+      "titleZh": "新联邦人工智能战略旨在缩小‘采用差距’并建立公众信任",
+      "abstractEn": "New federal AI strategy looks to close 'adoption gap,' build public trust  constructconnect.com",
+      "abstractZh": "新联邦人工智能战略旨在缩小‘采用差距’并建立公众信任  constructconnect.com",
+      "authors": [
+        "constructconnect.com"
+      ],
+      "institution": "constructconnect.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a96e5101771c",
+      "slug": "gnews-a96e5101771c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbmdMMTZQVkQ3ZE5jQTZiUzcyd1FsTmNvWFIxSS1QelVHU2JSaVRtMmNDa3lhMjE1NjRFdGpRS0xEV29zTUQ4RFdHMVJicW5PbWREbTVsMlJYMWlDaUNuUGRieFU0Tm43bVRoWEhkcHV5STlHS2k4QzdsUDBpVmlsd2h3eUVWYlNpbkJtakxPd2owOUFSZ2JKdXd4WHBxcWNMWmViWDRTSDJ4ZXZW?oc=5",
+      "publishedAt": "2026-06-04T20:43:00.000Z",
+      "titleEn": "AI regulation remains elusive as Florida AG highlights chatbot’s role in man’s death",
+      "titleZh": "AI 监管仍难以捉摸，佛罗里达州总检察长强调聊天机器人在一名男子死亡中的作用",
+      "abstractEn": "AI regulation remains elusive as Florida AG highlights chatbot’s role in man’s death  WCTV",
+      "abstractZh": "AI 监管仍难以捉摸，佛罗里达州总检察长强调聊天机器人在一名男子死亡中的作用  WCTV",
+      "authors": [
+        "WCTV"
+      ],
+      "institution": "WCTV",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48404233",
+      "slug": "hn-48404233-nsa-using-anthropics-mythos-for-cyber-attacks",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815",
+      "commentUrl": "https://news.ycombinator.com/item?id=48404233",
+      "publishedAt": "2026-06-04T20:33:02.000Z",
+      "titleEn": "NSA using Anthropic's Mythos for cyber attacks",
+      "titleZh": "NSA 利用 Anthropic 的 Mythos 进行网络攻击",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jawiggins"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 77,
+      "commentCount": 25,
+      "tags": []
+    },
+    {
+      "id": "gnews:fea04e81bbca",
+      "slug": "gnews-fea04e81bbca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaWQyWlc3aUtTNXBheGNxUTVIa25xWE1GbXNSRGVWZjF1VzRfOFlzay1DcUptMjdlQklHVjlZaTFua1JCbHI0UUl5ODdnRDhqb1BxRGpDV3YtbEE5SmZyTjcyMEJXaWlfRG4yemd6dTdOTG16U3RENkxlVVFQMnc2WUJCNExoTl9DamRzZUhEUUtCR1kxUzA5Z3FmeXNVU0hVdTI1VzN2cw?oc=5",
+      "publishedAt": "2026-06-04T20:32:06.000Z",
+      "titleEn": "Why Your Company Should Start Using OpenAI’s New Vibe-Coding Tool",
+      "titleZh": "为什么你的公司应该开始使用OpenAI的新Vibe-Coding工具",
+      "abstractEn": "Why Your Company Should Start Using OpenAI’s New Vibe-Coding Tool  inc.com",
+      "abstractZh": "为什么你的公司应该开始使用OpenAI的新Vibe-Coding工具  inc.com",
+      "authors": [
+        "inc.com"
+      ],
+      "institution": "inc.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3bd04b40c51f",
+      "slug": "gnews-3bd04b40c51f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSG9pMms0MmZtTmFBV3hpYWJWaC16cVR5a2pUbHlMaG9aVXUzLVdaZTZfX0JjR25MWEtJMWpibXN3emc3ZDRsbnBPR0s4elRhZDNiaDktVWgxVW96LUFBZG5EUW5lcGhzdkw2aVQ3TVg5cGZtamhSNENmd2N4SVM3M2JPTjZUbHRTYTQ0eXczckZFUU94?oc=5",
+      "publishedAt": "2026-06-04T20:17:19.000Z",
+      "titleEn": "Wolters Kluwer, OpenAI expand enterprise AI partnership",
+      "titleZh": "Wolters Kluwer 与 OpenAI 扩大企业 AI 合作",
+      "abstractEn": "Wolters Kluwer, OpenAI expand enterprise AI partnership  MobiHealthNews",
+      "abstractZh": "Wolters Kluwer 与 OpenAI 扩大企业 AI 合作  MobiHealthNews",
+      "authors": [
+        "MobiHealthNews"
+      ],
+      "institution": "MobiHealthNews",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48403980",
+      "slug": "hn-48403980-anthropics-open-source-framework-for-ai-powered-vulnerability-discov",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/anthropics/defending-code-reference-harness",
+      "commentUrl": "https://news.ycombinator.com/item?id=48403980",
+      "publishedAt": "2026-06-04T20:11:20.000Z",
+      "titleEn": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "titleZh": "Anthropic 的开源框架：基于 AI 的漏洞发现",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "binyu"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 267,
+      "commentCount": 94,
+      "tags": []
+    },
+    {
+      "id": "gnews:0fafac6f6091",
+      "slug": "gnews-0fafac6f6091",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3NEUmV3X3J5bkhqQkR6aW1kWGV2ZU5hQ2txZkNva2hJaFk1Q0c3eHhqNWtyLU8wMnptWS04VUpyNmF4UWROREN5cnNDM2c0YVcwQjJIS2RUNnVsRXRNX3pWR3NXdzhMcW96dWJOX3NHQURKaFhLQ2VIdHVWY3NFMFVHR2RlUGswSXJCQkJ6djB6NjhCeHNNdVBmbHlCTERwSFFKUkY2ejlmZjgzTG9R?oc=5",
+      "publishedAt": "2026-06-04T19:14:24.000Z",
+      "titleEn": "Bipartisan House Lawmakers Unveil Draft Bill to Limit State Regulation of AI",
+      "titleZh": "两党众议院议员公布限制各州 AI 监管的草案",
+      "abstractEn": "Bipartisan House Lawmakers Unveil Draft Bill to Limit State Regulation of AI  PYMNTS.com",
+      "abstractZh": "两党众议院议员公布限制各州 AI 监管的草案  PYMNTS.com",
+      "authors": [
+        "PYMNTS.com"
+      ],
+      "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:65fc2380cdf9",
+      "slug": "gnews-65fc2380cdf9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ3ROZzJOWUFlbV9NU1ZuUzlEV3BicXZXSWtvYTQ2WkIxQmhXVGdUS1NoRVNPdVFxUnpGdkZ1OElXZmNveHVtUzZuUkIybWw2ZnRnTTMwQ2RqaERCQjYtRnlZTHVVUHRxY3AzRjlEZzR1V1lWMHpSQTFzZVBmcTVUeXB4SWc?oc=5",
+      "publishedAt": "2026-06-04T18:48:31.000Z",
+      "titleEn": "US National Security Agency using Anthropic’s Mythos for cyber attacks",
+      "titleZh": "美国国家安全局使用Anthropic的Mythos进行网络攻击",
+      "abstractEn": "US National Security Agency using Anthropic’s Mythos for cyber attacks  Financial Times",
+      "abstractZh": "美国国家安全局使用Anthropic的Mythos进行网络攻击  Financial Times",
+      "authors": [
+        "Financial Times"
+      ],
+      "institution": "Financial Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "deepmind:f3d84ae7",
+      "source": "Google DeepMind",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qQ21nQzlsa2JHUWprYlVEbHBqMnZNT2IzdWItTnE2b3JDRFZKU0FoNzQxV2poWWNHcnR5Z0lDY242eEhfOWw0N3hYUzVodkFFMHo1bThPMzJoUzdtdmp0RHZZdmJFMHM?oc=5",
+      "publishedAt": "2026-06-04T18:37:48.000Z",
+      "titleEn": "DeepMind Generative AI Model Cap: Unconfirmed Rumours and Reality - TechnoSports Media Group",
+      "abstractEn": "[TechnoSports Media Group] DeepMind Generative AI Model Cap: Unconfirmed Rumours and Reality - TechnoSports Media Group",
+      "authors": [],
+      "category": "research",
+      "titleZh": "DeepMind 生成式 AI 模型上限：未经证实的传闻与现实 - TechnoSports Media Group",
+      "abstractZh": "[TechnoSports Media Group] DeepMind 生成式 AI 模型上限：未经证实的传闻与现实 - TechnoSports Media Group",
+      "contentMd": "## 谣言与现实的边界：DeepMind 生成式 AI 模型上限传闻解析\n### DeepMind Generative AI Model Cap: Unconfirmed Rumours and Reality\n\n## 核心贡献\n### Key Contributions\n\n本文的核心贡献在于澄清了围绕 DeepMind 生成式 AI 模型能力上限（Model Cap）的未经证实的传闻，并试图在技术现实与市场猜测之间划清界限。文章指出，尽管外界对 DeepMind 在生成式 AI 领域的进展充满期待，但关于其模型能力被“人为设限”或“刻意压制”的说法缺乏可靠证据。通过梳理公开信息与行业动态，本文帮助读者区分了技术发展的自然瓶颈与未经核实的阴谋论，为理解 DeepMind 的实际战略提供了理性视角。\n\n> ⚠️ **注意**：本文基于公开报道与行业分析，并非 DeepMind 官方声明，所有关于“模型上限”的讨论均属推测。\n\n## 研究背景\n### Background\n\n随着 OpenAI 的 GPT 系列和 Google 的 PaLM 等大语言模型（Large Language Models, LLMs）的爆发，生成式 AI 的能力边界成为业界焦点。DeepMind 作为 Google 旗下顶尖 AI 研究机构，其模型（如 Gopher、Chinchilla 等）在推理、数学和科学领域表现突出。然而，近期社交媒体上流传着 DeepMind 可能因安全或商业考量而“主动限制”其模型能力的传闻。本文正是在这一背景下，试图从技术逻辑和公司战略出发，分析这些传闻的合理性，并探讨生成式 AI 能力上限的真实含义。\n\n> 💡 **背景**：DeepMind 长期专注于强化学习与科学发现，其生成式 AI 模型在参数效率（如 Chinchilla 的“缩放定律”）上具有独特优势，但公众对其产品化进程的认知常与 OpenAI 等公司混淆。\n\n## 技术方法\n### Technical Approach\n\n本文虽非技术论文，但通过分析 DeepMind 已公开的模型架构与训练策略，间接回应了“能力上限”传闻。DeepMind 的核心技术方法包括：采用计算最优化的训练策略（如 Chinchilla 定律），即在固定算力下选择更小的模型与更多的数据，而非一味追求参数规模。此外，其模型在推理时使用强化学习与人类反馈（RLHF）进行对齐，这可能导致模型在某些任务上表现出“保守”或“回避”行为，从而被外界误读为“能力上限”。文章指出，这种对齐并非人为设限，而是安全部署的必要手段。\n\n## 主要发现\n### Key Findings\n\n文章的主要发现可归纳为三点：第一，目前没有任何官方证据表明 DeepMind 对其生成式 AI 模型设置了“硬性能力上限”，传闻多源于对模型对齐策略的误解。第二，DeepMind 在模型效率（如更少参数实现同等性能）上的突破，反而可能使其在特定任务上超越参数更大的模型，因此“上限”一说缺乏技术依据。第三，行业竞争与安全担忧确实促使 DeepMind 在模型发布上更为谨慎，但这与“主动压制能力”是两回事。文章强调，真正的“上限”更多来自算力成本、数据质量与安全对齐等现实约束。\n\n## 意义与影响\n### Significance & Impact\n\n本文的意义在于为中文读者提供了一个理性审视 AI 行业传闻的框架。在生成式 AI 快速迭代的当下，关于“模型能力被隐藏”或“技术被封锁”的阴谋论容易引发公众焦虑。通过厘清 DeepMind 的实际技术路径与商业逻辑，本文有助于降低信息不对称，并提醒读者：AI 能力的边界并非由单一机构的主观意志决定，而是由算法、数据、算力与安全需求共同塑造。长远来看，这种澄清有助于推动更健康的行业讨论，避免将技术挑战简单归因于“人为设限”。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-05T02:02:45.352Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-05"
+    },
+    {
+      "id": "gnews:311b847ea57f",
+      "slug": "gnews-311b847ea57f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVXhfV25Tdk1IZnNVX3gxYmZiMzFpN0ttdHcxY3NJNDN3ck9GV2dLb29GeDNCX0RCY2c0cG5uLUY2Z0E3ME5MX0Z0a2RNMU9MbFA3c1VaOFY1bTh3eWUydk40bmkxR3oyQ0hnOWZ1akdHa0lQVlBpa1Zfb1RpVExHTWF1aXZFckQzLTBCVzVHb2E2ODZjT1pxU1o2ZFdKMk1ZeDRVejdpZ3hTTnFKaE50SGh3?oc=5",
+      "publishedAt": "2026-06-04T18:33:30.000Z",
+      "titleEn": "Microsoft and OpenAI's relationship continues to crumble",
+      "titleZh": "微软与OpenAI的关系持续恶化",
+      "abstractEn": "Microsoft and OpenAI's relationship continues to crumble  Yahoo Finance",
+      "abstractZh": "微软与OpenAI的关系持续恶化  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48401973",
+      "slug": "hn-48401973-airlines-uses-ai-to-fake-empathy-rather-than-fix-problems-passenger",
+      "source": "Hacker News",
+      "sourceUrl": "https://viewfromthewing.com/airlines-are-using-ai-to-manufacture-empathy-instead-of-solving-problems-one-passenger-was-sent-the-prompt-by-mistake/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48401973",
+      "publishedAt": "2026-06-04T17:39:59.000Z",
+      "titleEn": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
+      "titleZh": "航空公司用 AI 假装共情而非解决问题：乘客发送提示词",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "crescit_eundo"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 37,
+      "commentCount": 10,
+      "tags": []
+    },
+    {
+      "id": "gnews:e17b8ed5c5b3",
+      "slug": "gnews-e17b8ed5c5b3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNejZleDd2NUJidndtOFI4QWdLclVIMFB1SEozRnpZRXRJeGhzR2x6cU1aSFl2NGllMjNOTGFtWkdUcDgwRThldHFhWVdHd2xRWERUSTdhM3dCaENzMVJINEEzdXhWSlJQaGtuYlFuX3NTS1JOeEhDcnVidDA1RHY1MWx6VVZ4SUEwQ2pTM2dLeFNSZEJRaThhTEthbVdYMGNWNHdz?oc=5",
+      "publishedAt": "2026-06-04T17:21:26.000Z",
+      "titleEn": "Canada to Provide Funding, Buy Equity Stakes in AI Startups",
+      "titleZh": "加拿大将为 AI 初创公司提供资金并购买股权",
+      "abstractEn": "Canada to Provide Funding, Buy Equity Stakes in AI Startups  Yahoo Finance",
+      "abstractZh": "加拿大将为 AI 初创公司提供资金并购买股权  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d0e11c7a6cc1",
+      "slug": "gnews-d0e11c7a6cc1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdXVRRUtwZGFjUHItS0pxU0ViVDYya0FrYVF3Xzk4N3JZWDMzQ2kwbDlCY3phZkh5TC1yaWpvQkk2SVlKYm5Wam9DUU55YVNROHdxWU1kZmVZdEZGdHVWX0ZYX1VHNnl0V0pzYWtqQm1fTVktaVQ2TzVjVmRwMkxoTmM5UlBRUDFLVzFwM2s1X25SOUZTX184?oc=5",
+      "publishedAt": "2026-06-04T16:59:44.000Z",
+      "titleEn": "House unveils AI draft that would preempt state laws",
+      "titleZh": "众议院公布人工智能草案，将优先于州法律",
+      "abstractEn": "House unveils AI draft that would preempt state laws  Politico",
+      "abstractZh": "众议院公布人工智能草案，将优先于州法律  Politico",
+      "authors": [
+        "Politico"
+      ],
+      "institution": "Politico",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48400842",
+      "slug": "hn-48400842-when-ai-builds-itself-our-progress-toward-recursive-self-improvement",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "commentUrl": "https://news.ycombinator.com/item?id=48400842",
+      "publishedAt": "2026-06-04T16:20:17.000Z",
+      "titleEn": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "titleZh": "当 AI 自我构建：我们在递归自我改进方面的进展",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "meetpateltech"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 332,
+      "commentCount": 440,
+      "tags": []
+    },
+    {
+      "id": "gnews:8b1a627e84fb",
+      "slug": "gnews-8b1a627e84fb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMHdzTXpKendyNjlQWXg0dWM4VDdjTVFaYm4xdzhMNXpKMnpoNS1fX1hDdEswMENsTUIwNmRlNVBTZW1wcE4tX1RqTlVSMVBQRVZabDFBZGJsOUl4WFhKVzdWcklhVll6dFVMQUJWVE9xOVB5QUtqVDc2ZVVrQ0FCWjJDQ3JnMVRHdDJmOTBWWnpBMU9yR2FYS25wVHBQb3ZSbzN5ZjBWaXlKT3NB0gGyAUFVX3lxTFBKUjZRTXJmc1RYVVlPQkpxdm41a0EyTHlYZTNDTUJsTlFsUXlyMEdsZEExYlBMWEhNclhXQUhzaDd1UWJXZDhkMV9PMldKeTVGYS1ic01KU0dFcTd2Z0h5WFNsQ0RnNnpYSmRwc2hHb0R2NDhmem1OQjlxUjFTY2psQWdFR0NZTXN1a1NUcWNtQlJZNWN0REFvZUVFY2k5a2ljTmJXcWVEX3VOckUtQ3pHZkE?oc=5",
+      "publishedAt": "2026-06-04T16:09:03.000Z",
+      "titleEn": "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
+      "titleZh": "Vibe-coding 现象推动 AI 初创公司 Supabase 估值达 105 亿美元",
+      "abstractEn": "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation  CNBC",
+      "abstractZh": "Vibe-coding 现象推动 AI 初创公司 Supabase 估值达 105 亿美元  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:2d7c79ca30b2",
+      "slug": "hrorg-recruit-2d7c79ca30b2",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMjhWc3pTSnFJblhYMUh0TzB1dDIyMkRvVzdXeUQwUUY5a3RpcjRxd0dKYk1ERm5MUWxNdm8yQUYydUFuTkxJb1ZTd3J0RE1ESUc0QVlSeDcxa1o3Yk43N041bWc2b3NmSG1jNlNqZ2psaEgybllDc0o5bEg4R2ZjckZHdjFCZ3NXaEFuQVBpd0pMUnY2ZE91akNkQ2hrQUt4bjNOMWl2bFU?oc=5",
+      "publishedAt": "2026-06-04T15:28:36.000Z",
+      "titleEn": "72andSunny, Indeed Take Empathetic, 'People' Approach To Hiring 06/05/2026",
+      "titleZh": "72andSunny 与 Indeed 以共情和以人为本的方式招聘 2026年6月5日",
+      "abstractEn": "72andSunny, Indeed Take Empathetic, 'People' Approach To Hiring 06/05/2026  MediaPost",
+      "abstractZh": "72andSunny 与 Indeed 以共情和以人为本的方式招聘 2026年6月5日  MediaPost",
+      "authors": [
+        "MediaPost"
+      ],
+      "institution": "MediaPost",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:9917486738eb",
+      "slug": "gnews-9917486738eb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON2c2cF8zUWZhcjlJWjBoWi1uZ0ZaTFp4dVZ5TndrY3JjMnhxcl9RUTYyd1ZvNFhFc2tUa3FGeXFYd3ZUQnNvYlRFUDZrWkJyV1RVQTMwTmpOVTZJTGdiT0JiM0ZNQ1ZqeFlYeEgwMWRuOWxLV3Jmd19WV29aV3JDaklvQUx0ZTVBdkZkQVFfZ1FrOWNyQURqODdVSFFmTVdqdnl4V1JoeGYtODdiNlk1cFgwWVl3ODV2TkhNd2RhT2Y?oc=5",
+      "publishedAt": "2026-06-04T15:17:00.000Z",
+      "titleEn": "Prime Minister Carney launches AI for All: Canada’s new national artificial intelligence strategy",
+      "titleZh": "卡尼总理启动《全民人工智能》：加拿大新的国家人工智能战略",
+      "abstractEn": "Prime Minister Carney launches AI for All: Canada’s new national artificial intelligence strategy  pm.gc.ca",
+      "abstractZh": "卡尼总理启动《全民人工智能》：加拿大新的国家人工智能战略  pm.gc.ca",
+      "authors": [
+        "pm.gc.ca"
+      ],
+      "institution": "pm.gc.ca",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48399528",
+      "slug": "hn-48399528-ai-ashby-engineering-and-the-future",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
+      "commentUrl": "https://news.ycombinator.com/item?id=48399528",
+      "publishedAt": "2026-06-04T14:48:44.000Z",
+      "titleEn": "AI, Ashby Engineering, and the future",
+      "titleZh": "AI、Ashby 工程学与未来",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "fredley"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 56,
+      "commentCount": 38,
+      "tags": []
+    },
+    {
+      "id": "hn:48399358",
+      "slug": "hn-48399358-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-c",
+      "source": "Hacker News",
+      "sourceUrl": "https://boxes.dev",
+      "commentUrl": "https://news.ycombinator.com/item?id=48399358",
+      "publishedAt": "2026-06-04T14:38:35.000Z",
+      "titleEn": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+      "titleZh": "Show HN: Boxes.dev——告别 localhost；在云端运行 Claude Code 和 Codex",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nab"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 84,
+      "commentCount": 62,
+      "tags": []
+    },
+    {
+      "id": "gnews:711b31aed307",
+      "slug": "gnews-711b31aed307",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxeS1EVWo2T2NWaGZwbm9TR0JQVjFWMlE5eS1uN0JHMTlRbC1nVkdVc0JHRzlQRHJnX0hyaTdRUERRX18xYlVRRVlZODR6Q2dOSnI1RVotTG1fTEY5dXk3cTVOT21OWXBDTGdJT3p5RXptaEdSX2ZN?oc=5",
+      "publishedAt": "2026-06-04T14:12:00.000Z",
+      "titleEn": "Amazon and Google have billions riding on Anthropic. The IPO will finally reveal how much.",
+      "titleZh": "亚马逊和谷歌在Anthropic上押注数十亿美元，IPO将最终揭示具体金额",
+      "abstractEn": "Amazon and Google have billions riding on Anthropic. The IPO will finally reveal how much.  Fortune",
+      "abstractZh": "亚马逊和谷歌在Anthropic上押注数十亿美元，IPO将最终揭示具体金额  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8258e5e59c52",
+      "slug": "gnews-8258e5e59c52",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNckFIMmpYYUE4MU95Q3V2cWdxSlhIZVVrTVVxRnl3TEdoRGQtajlZLTh3Qm45WmtzNnhtMkRCVFZDVWwwZE5VVGUyaTVFWkY4MTVrSjBCQ0dyekNJNnNkYkh2bHhycjZMcEluLTNOdTdjeE1JWU1xSXZKdmxMYnBoUW5JTVRiM0tNVzJla2xDUEFmMFk?oc=5",
+      "publishedAt": "2026-06-04T12:48:00.000Z",
+      "titleEn": "Prediction: This Artificial Intelligence (AI) Stock Will Split Before Year-End 2026",
+      "titleZh": "预测：这只人工智能（AI）股票将在2026年底前拆分",
+      "abstractEn": "Prediction: This Artificial Intelligence (AI) Stock Will Split Before Year-End 2026  The Motley Fool",
+      "abstractZh": "预测：这只人工智能（AI）股票将在2026年底前拆分  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3632c76ffac9",
+      "slug": "gnews-3632c76ffac9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
+      "publishedAt": "2026-06-04T12:30:05.000Z",
+      "titleEn": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion",
+      "titleZh": "英伟达支持的机器人初创公司 Generalist AI 估值达 20 亿美元",
+      "abstractEn": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion  Bloomberg.com",
+      "abstractZh": "英伟达支持的机器人初创公司 Generalist AI 估值达 20 亿美元  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-429130-html",
+      "slug": "cvpr-2026-waymo-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/429130.html",
+      "publishedAt": "2026-06-04T11:56:35.000Z",
+      "titleEn": "CVPR 2026，英伟达特斯拉Waymo一块听中国公司讲物理AI",
+      "titleZh": "CVPR 2026，英伟达、特斯拉、Waymo共同聆听中国公司讲述物理AI",
+      "abstractEn": "率先实现物理AI闭环飞轮",
+      "abstractZh": "率先实现物理AI闭环飞轮",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48397148",
+      "slug": "hn-48397148-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call",
+      "source": "Hacker News",
+      "sourceUrl": "https://cost.dev/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48397148",
+      "publishedAt": "2026-06-04T11:30:13.000Z",
+      "titleEn": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+      "titleZh": "Show HN: Cost.dev (YC W21) —— 让智能体具备成本意识并降低调用费用",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "akh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 26,
+      "commentCount": 9,
+      "tags": []
+    },
+    {
+      "id": "gnews:c4fa8f55470f",
+      "slug": "gnews-c4fa8f55470f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUpDeFBDdzdubGZ6ck1sVXcwcU9MT2M0YlZjanVUVHdmbHRqdldwbTgwYlRad3BHal9qUUlsd3BxRVVIdGNsWVNSU1BRZUdhMldkcERNYXRKZm1hX2FyYktCLV9UOF9GaDc0Y2MyaHM1NEk2UHZXaTgtTVB6V3VkakJmYXBYdXNER1F6d3VEcw?oc=5",
+      "publishedAt": "2026-06-04T11:14:00.000Z",
+      "titleEn": "Bezos Bets $500M on Brain-Inspired AI Startup Flourish",
+      "titleZh": "贝佐斯豪掷 5 亿美元押注脑启发 AI 初创公司 Flourish",
+      "abstractEn": "Bezos Bets $500M on Brain-Inspired AI Startup Flourish  The Tech Buzz",
+      "abstractZh": "贝佐斯豪掷 5 亿美元押注脑启发 AI 初创公司 Flourish  The Tech Buzz",
+      "authors": [
+        "The Tech Buzz"
+      ],
+      "institution": "The Tech Buzz",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:652ad8623bea",
+      "slug": "gnews-652ad8623bea",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV1lFd19qOXp5cWtDdGxCMUtjWGNOQU5CWlVuZDFqM01jaWtwT1E3eVFkTVBsZEktRmFIZVg0R1hPMkdTSHhMeUEyMWdvTlJkRmNBTTBfSDJsM1EyYkVuV1Z5WE4yMG11d0sxdUJqVU1JTjZzTGdfTjlLY2U4RWZOaC10XzByLWsxLUdpdndfRlBMVmRTUko1dkkzUnZRVkxCQ1czOUppUXlabFpyR01RWFVpbE9LZmNKejdrQ3A0Yw?oc=5",
+      "publishedAt": "2026-06-04T11:09:49.000Z",
+      "titleEn": "Netflix Euro Chief Warns Against Rules That “Dictate Not Just How Much We Invest But What We Make”",
+      "titleZh": "Netflix 欧洲负责人警告不要制定“不仅规定我们投资多少，还规定我们制作什么”的规则",
+      "abstractEn": "Netflix Euro Chief Warns Against Rules That “Dictate Not Just How Much We Invest But What We Make”  The Hollywood Reporter",
+      "abstractZh": "Netflix 欧洲负责人警告不要制定“不仅规定我们投资多少，还规定我们制作什么”的规则  The Hollywood Reporter",
+      "authors": [
+        "The Hollywood Reporter"
+      ],
+      "institution": "The Hollywood Reporter",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e7d8f0e2111e",
+      "slug": "gnews-e7d8f0e2111e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTZVVWt1VlZfbnFIclVUay0wNWJfa2hHWi1hUXhINmgzeE9GWnBNclRReHN6ODJvY3d6QXlsM2lxM2JrMUxCTFc3QmlWWkdiYlRieDd3YWgtZ2ktVUtBQm9yVjY0Vi1obkY0TzFkV2s0cmg0Q2x5Q09zZXZJb3liOFpZeFdmeVlsVDNxMkN2ektOT1l1QVRRRkowc1RtZEE3ZFBiVnhmUmprYm9pTktKNHpTbUQxWHJLZEpz?oc=5",
+      "publishedAt": "2026-06-04T10:16:37.000Z",
+      "titleEn": "New York Startup Funding in May Highlights Sustained Confidence in AI, Healthcare",
+      "titleZh": "纽约五月初创公司融资凸显对 AI 和医疗保健的持续信心",
+      "abstractEn": "New York Startup Funding in May Highlights Sustained Confidence in AI, Healthcare  citybiz",
+      "abstractZh": "纽约五月初创公司融资凸显对 AI 和医疗保健的持续信心  citybiz",
+      "authors": [
+        "citybiz"
+      ],
+      "institution": "citybiz",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:adecco:79b5eddfd76c",
+      "slug": "hrorg-adecco-79b5eddfd76c",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQekg2a1REc3VYeU8xTk5ZRFBIMUhfSlgtZlQzeEd0ZENYYzVWZUpNNXBWejVsYm1nZXBZMjVmWjBELTZ6OHR3VC1maUotZnNfWUFKVmxjVndXVVNiOW13amtaaHRPYWQ0WkhCc0t3OG0wYk10UjlyRGQ5UExxN24tSmJtWGhLLVpzaEhoNEFseGRHYWE2ZU5ZSGxjUXRpejNRRE1nX2xla2pZV1YzS3BrRTlRTkdlWl9Sc1JFb1dmTlJuRWIzYTdPcjNB?oc=5",
+      "publishedAt": "2026-06-04T08:07:49.000Z",
+      "titleEn": "The Adecco Group stock (CH0012138530): investors watch Swiss HR specialist after Q1 2026 update and",
+      "titleZh": "德科集团股票 (CH0012138530)：投资者关注瑞士人力资源专家 2026 年第一季度更新",
+      "abstractEn": "The Adecco Group stock (CH0012138530): investors watch Swiss HR specialist after Q1 2026 update and  AD HOC NEWS",
+      "abstractZh": "德科集团股票 (CH0012138530)：投资者关注瑞士人力资源专家 2026 年第一季度更新  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:a78b6332c680",
+      "slug": "gnews-a78b6332c680",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcno4ZkhjYzlvVTEwRC1JUHRjamNJUmx5UTE5MlM5UWpPRG5QN1JONnlJcThpejc1NGlHM29EUzlfMTh1TmVDN09HbmJlNGNyMXMyU1dCNnJzRmJYV3dYNDY5MTJDVzZxel82ZHZpM0h5eHdUT2xIY28ySHdMdTBiaHNQcjRMaHJtVlZDUlpUUnhvbWpnaGVSZkY5UTZuTFpUWlNEVlBfeWoxa2syU1VqS0c2R1o1dw?oc=5",
+      "publishedAt": "2026-06-04T07:00:59.000Z",
+      "titleEn": "Startup Kodesage secures seed funding to accelerate on-premises app modernization with AI",
+      "titleZh": "初创公司 Kodesage 获得种子轮融资，利用 AI 加速本地应用现代化改造",
+      "abstractEn": "Startup Kodesage secures seed funding to accelerate on-premises app modernization with AI  SiliconANGLE",
+      "abstractZh": "初创公司 Kodesage 获得种子轮融资，利用 AI 加速本地应用现代化改造  SiliconANGLE",
+      "authors": [
+        "SiliconANGLE"
+      ],
+      "institution": "SiliconANGLE",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-428790-html",
+      "slug": "lecun-10",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/428790.html",
+      "publishedAt": "2026-06-04T03:43:37.000Z",
+      "titleEn": "LeCun 10亿押注的方向，全球领先视觉大模型团队早已布局",
+      "titleZh": "LeCun 10亿押注的方向，全球领先视觉大模型团队早已布局",
+      "abstractEn": "”隐空间世界模型很难，但我们一定要做“",
+      "abstractZh": "隐空间世界模型很难，但我们一定要做",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-428791-html",
+      "slug": "gpt-plus",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/428791.html",
+      "publishedAt": "2026-06-04T03:10:23.000Z",
+      "titleEn": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
+      "titleZh": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
+      "abstractEn": "不多不少，只要150",
+      "abstractZh": "不多不少，只要150",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-428778-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/428778.html",
+      "publishedAt": "2026-06-04T03:06:59.000Z",
+      "titleEn": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
+      "titleZh": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
+      "abstractEn": "甩开视觉内卷",
+      "abstractZh": "甩开视觉内卷",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48392004",
+      "slug": "hn-48392004-failing-grades-soar-with-ai-usage-dwindling-math-skills-in-berkeley",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48392004",
+      "publishedAt": "2026-06-04T00:18:02.000Z",
+      "titleEn": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+      "titleZh": "伯克利 CS 课程中，AI 使用导致不及格率飙升，数学技能持续下滑",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "littlexsparkee"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 733,
+      "commentCount": 716,
+      "tags": []
+    },
+    {
+      "id": "openai:chatgpt-memory-dreaming",
+      "slug": "chatgpt-memory-dreaming",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "titleEn": "Chatgpt Memory Dreaming",
+      "titleZh": "Chatgpt 记忆梦境",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
+      "docType": "Blog",
+      "category": "research",
+      "tags": [],
+      "contentMd": "## 梦境记忆：让 ChatGPT 拥有更出色的记忆能力\n### Dreaming: Better memory for a more helpful ChatGPT\n\n2026 年 6 月 4 日\n\n研究产品发布\n\n# 梦境记忆：让 ChatGPT 拥有更出色的记忆能力\n\n改进 ChatGPT 中的记忆合成功能，以优化记忆的新鲜度、连续性和相关性。\n\n**加载中……分享** 今天，我们开始推出一套更强大、更具可扩展性的记忆合成系统。该系统旨在解决我们在将记忆功能应用于 ChatGPT 数亿用户及多年时间跨度时所遇到的陈旧性、正确性和可扩展性挑战。\n\n记忆功能帮助 ChatGPT 了解你的偏好、项目和约束条件，使未来的对话能够从共享的上下文开始，而不是每次都从零开始。在过去两年中，记忆已成为 ChatGPT 体验的关键组成部分，帮助 ChatGPT 更好地理解你的背景，从而长期协助你完成有意义的目标。这是让 ChatGPT 更有用的核心：了解你、帮助你，并为你做更多事情。\n\n此更新今日面向美国地区的 Plus 和 Pro 用户开放，并将在未来几周内向更多国家以及 Free 和 Go 用户推出。\n\n## 记忆功能的演变历程\n### How memory has evolved\n\n记忆功能最初于 2024 年 4 月推出（也称为已保存记忆）。该功能允许你要求 ChatGPT 记住信息，并将其延续到未来的对话中。\n\n![已保存记忆弹窗，显示一个可搜索的个人详情列表，包括工作、兴趣、旅行和回复偏好。](https://images.ctfassets.net/kftzwdyauwt9/6kVwo3uYRhe81W7gx1uGoR/c7c242fd100e910d28b451eada638b89/Saved_memories.png?w=3840&q=90&fm=webp)\n\n已保存记忆仅在对话过程中写入，并且依赖强烈的提示来决定何时触发记忆，例如“记住我七月要去新加坡”这样的指令。在实践中，与这个系统交互的感觉就像是在和一个记了笔记但仍然会忘记所有未记录内容的人交谈。已保存记忆也容易随着时间的推移变得陈旧，最终变得不正确或不相关。\n\n2025 年 4 月，我们更新了 ChatGPT 的记忆功能，让模型能够引用已保存记忆列表之外的聊天上下文；这是通过引入第一版**梦境记忆（dreaming）** 来实现的——这是一种让 ChatGPT 通过引用聊天历史，在后台*自动*整理记忆的方法。\n\n![ChatGPT 中的记忆设置页面，显示引用聊天历史、使用已保存记忆、管理已保存记忆以及启用 Pulse 记忆建议的选项。](https://images.ctfassets.net/kftzwdyauwt9/nSkMroPG2SPQCrcIUh2l4/bf05aa9cfb0287cfa7f187f9d84674dd/Memory_settings__1_.png?w=3840&q=90&fm=webp)\n\n与已保存记忆不同，梦境记忆利用一个后台进程，使 ChatGPT 能够从多次对话中学习，并合成 ChatGPT 的记忆状态，从而始终为你的对话提供最新、最相关的上下文。梦境记忆还使得记忆更容易包含对话中自然出现的上下文，而无需依赖明确的“记住某事”的请求。\n\n在过去一年中，梦境记忆*补充*了已保存记忆，使 ChatGPT 的个性化回复能力实现了阶跃式提升，并抵消了已保存记忆的陈旧性。然而，从历史上看，它从未能作为一个独立的记忆系统胜任工作。\n\n今天，我们推出了一种基于梦境记忆构建的、功能显著增强且计算效率更高的记忆架构。\n\n通过梦境记忆合成的记忆，可以在记忆摘要页面中查看其摘要。从记忆摘要中，你可以快速了解 ChatGPT 对你的了解要点，添加或更新关于你自己的信息，并就 ChatGPT 应该在何时提起哪些话题提供指示。如果你想深入了解某个特定领域，只需与模型聊天即可。\n\n![记忆摘要弹窗，显示用户工作、爱好、旅行兴趣和社区参与情况的个性化概览，并提供更正或忽略特定细节的选项。](https://images.ctfassets.net/kftzwdyauwt9/7C8sUaE2XdajvQ8ckphLG5/326a719fbdcfbc3a85e8990155d5aaed/Memory_summary.png?w=3840&q=90&fm=webp)\n\n## 我们如何评估记忆功能\n### How we evaluate memory\n\n当我们思考 ChatGPT 中“良好记忆”应该是什么样子时，会想到以下几点：\n\n- **延续有用的上下文：** 你告诉 ChatGPT 一次，它就能在后续的聊天中记住该信息。\n- **遵循偏好和约束：** 如果你描述了一个偏好（例如，你是素食主义者），那么 ChatGPT 后续应采取与该偏好一致的行动。\n- **随时间保持最新：** 记忆应考虑时间的流逝。想象一下“用户正在计划下周六的生日派对”；最终，周日到来了。\n\n我们可以评估 ChatGPT Plus 和 Pro 的记忆功能在上述三个记忆目标方面随时间推移的改进情况。我们针对以下每个阶段进行评估：\n\n- **2024年**：已保存记忆\n- **2025年**：已保存记忆 + 梦境记忆 V0\n- **2026年**：梦境记忆 V3\n\n## 延续上下文\n### Carrying forward context\n\n当你与 ChatGPT 开始新的聊天时，无需从头介绍自己。ChatGPT 可以为你节省时间，并*建立在先前的上下文之上*，特别是对于复杂、长期运行的项目。\n\n例如，假设你正在使用 ChatGPT 购买与你现有相机兼容的新摄影器材。如果你过去曾与 ChatGPT 讨论过你的相机配置，你可以询问与“我的摄影装备”兼容的产品，并获得满足你需求的定制推荐。\n\n### 无记忆\n\n我需要买什么才能在我的水下摄影装备上使用 TTL？\n\n要使用 **TTL 水下闪光灯**，你需要一条兼容的链路：**相机 → 防水壳/触发器 → 线缆 → 闪光灯**。你购买什么主要取决于你的设备使用的是**光纤 TTL** 还是**电子 TTL**。\n\n#### 基本购物清单\n\n- **支持 TTL 的水下闪光灯**寻找支持你 TTL 类型的闪光灯，例如 **Inon S-TTL**、**Sea & Sea DS-TTL**、**Ikelite DS TTL** 或兼容的 Backscatter/Nauticam 系统。TTL 必须由闪光灯支持，而不仅仅是相机。\n- **TTL 触发器或 TTL 转换器**这是关键部件。它将相机的闪光测光转换为水下闪光灯能理解的信号。示例包括 **Nauticam 光学 TTL 转换器**、**Sea & Sea TTL 转换器**、**Backscatter Smart Control 光学 TTL 触发器**或 **Ikelite DS Link TTL 转换器**，具体取决于防水壳和相机品牌。Backscatter 指出，Nauticam 光学 TTL 转换器可与光纤连接的 Inon 和 Sea & Sea TTL 闪光灯配合使用，而 Ikelite 的 DS Link 转换器则是为 Ikelite DS 闪光灯和电子同步设置设计的。(Backscatter.com⁠(在新窗口中打开))\n- **连接线缆**对于**光纤 TTL**，每个闪光灯购买一根光纤线缆。Ikelite 的光纤指南指出，每个闪光灯需要自己的光路、转换器/适配器和线缆。(Ikelite⁠(在新窗口中打开))**对于电子 TTL**，购买正确的同步线，例如 Ikelite 式、Nikonos 5 针或特定防水壳的穿墙线。\n- **防水壳兼容部件**你可能需要一个**热靴适配器**、**穿墙座**、**光纤窗口/适配器**或特定防水壳的 TTL 板。许多 TTL 触发器安装在防水壳内部的相机热靴上。\n- **闪光灯臂、夹具、托盘和安装硬件**TTL 控制曝光，但你仍然需要物理安装和瞄准闪光灯。\n- **电池和备用件**带上闪光灯电池、触发器电池（如果需要）、备用光纤线缆或同步线 O 型圈，以及用于可维护 O 型圈的硅脂。\n\n#### 你应该选择哪条路？\n\n**光纤 TTL** 如果你的防水壳有光学端口或可以使用相机的弹出式闪光灯/LED 触发器，通常是最简单的。这在紧凑型、无反相机、Nauticam、Sea & Sea、AOI 和 Olympus/OM TG 式设备中很常见。\n\n**电子 TTL** 如果你使用 **Ikelite DS 闪光灯**或 Ikelite 式防水壳/穿墙座，通常是最好的选择。Ikelite 表示其 DS Link TTL 转换器比光纤 TTL 触发器更快、更可靠，并且不需要电池。(Backscatter.com⁠(在新窗口中打开))\n\n#### 兼容性规则\n\n你需要三者匹配：\n\n**相机品牌/协议 + 防水壳/触发器类型 + 闪光灯 TTL 系统**\n\n例如：\n\n- 索尼相机 + Nauticam 防水壳 + 光学 TTL 触发器 + Inon/Sea & Sea 兼容光纤闪光灯\n- 尼康/佳能/索尼相机 + Ikelite 防水壳/穿墙座 + Ikelite DS Link TTL 转换器 + Ikelite DS 闪光灯\n- 带内置闪光灯的紧凑型相机 + 光纤线缆 + 支持 S-TTL/DS-TTL 的闪光灯\n\n所以实际的答案是：购买一个 **TTL 兼容的闪光灯**、适合你**相机和防水壳的正确 TTL 触发器/转换器**，以及**正确的光纤或电子同步线缆**。具体零件编号取决于你的相机、防水壳和闪光灯型号。\n\n*模型生成了一个通用回复，让用户自行进行复杂的兼容性检查。*\n\n### 有记忆\n\n我需要买什么才能在我的水下摄影装备上使用 TTL？\n\n我会根据你的实际设备进行核实：索尼 A1 II 搭配 Nauticam NA-A1II 防水壳，使用 Backscatter Mini Flash 3 和 Inon Z-330 闪光灯。关键问题是，你是想为 Mini Flash 3、Z-330 还是两者都实现 TTL。\n\n对于**你的设备**——**索尼 A1 II + Nauticam NA-A1II + Backscatter Mini Flash 3 + Inon Z-330**——有两条不同的 TTL 路径：\n\n#### Mini Flash 3 TTL 的最佳购买方案\n\n购买：\n\n**Backscatter Smart Control TTL LED Nauticam Flash Trigger for Sony 货号：BS-TR-SN2**\n\nBackscatter 将其列为专为 **Nauticam 全画幅索尼防水壳**定制设计，与 **Mini Flash 3** TTL 兼容，并且 NA-A1II 防水壳页面将其作为“Backscatter Smart Control TTL Flash Trigger”选项提供。(Backscatter.com⁠(在新窗口中打开))\n\n你需要使用普通的光纤线缆从防水壳连接到 Mini Flash 3。在 MF-3 上，使用 **SC** 或 **SC Macro** 模式；Backscatter 表示 SC / SC Macro 是 Mini Flash 3 的 TTL 模式，其中 SC Macro 专门针对微距近摄进行了调校。(Backscatter.com⁠(在新窗口中打开))\n\n#### 针对 Inon Z-330 TTL\n\n对于 **Inon Z-330**，相关的设备是：\n\n**UW Technics 11075-HSS TTL Converter for Sony / Nauticam**\n\nUW Technics 明确将 **Inon Z-330** 列为兼容的 TTL 闪光灯，并支持光学 TTL 输出。(UWTechnics⁠(在新窗口中打开))\n\n但我**不会**为 Mini Flash 3 TTL 购买这个。Backscatter 自己的 UW Technics 列表显示，Backscatter 闪光灯在该转换器上仅为**手动 / HSS 模式**，而 Backscatter Smart Control 触发器才是为 Mini Flash 3 列出的索尼 TTL 解决方案。(Backscatter.com⁠(在新窗口中打开))\n\n#### 实用建议\n\n既然你拍摄微距并且拥有 **Mini Flash 3**，我会购买 **Backscatter Smart Control TTL LED Nauticam Flash Trigger for Sony — BS-TR-SN2**。\n\n问题在于：可能**没有一个单一的触发器能同时为 Mini Flash 3 和 Inon Z-330 提供真正的 TTL**。Backscatter 触发器是 MF-3 的正确 TTL 解决方案；UW Technics 转换器是 Z-330 的正确 TTL 解决方案。所以，根据你实际想要哪个闪光灯实现 TTL 来选择。\n\n对于你的用例，我会优先考虑 **Mini Flash 3 TTL / SC Macro**，并在需要时将 Z-330 作为手动闪光灯使用。\n\n*模型记住了用户的相机设备，并推荐了兼容的产品。*\n\n我们可以从类似这样的示例构建一个评估，其中模型被要求回复一个需要回忆用户事实信息的提示。如果模型以正确使用相关上下文的方式回复，则会得到奖励。在此评估中，基于梦境记忆的新系统提高了模型回忆相关事实的能力。\n\n## 遵循偏好\n### Following preferences\n\n记忆还能帮助 ChatGPT 以更符合你偏好和约束的方式回复。\n\n想象你正在计划一次新加坡之旅。旅行前两个月，你请 ChatGPT 帮忙制定行程。ChatGPT 从过去的旅行计划中已经知道你喜欢野生动物摄影、偏爱空调强劲的酒店，并且喜欢安静的晚餐而非拥挤的酒吧。\n\n### 无记忆\n\n帮我计划一次新加坡之旅。我七月要去那里出差，最后会有几天空闲时间。\n\n对于出差来说，新加坡是个很棒的附加城市：紧凑、安全、非常适合独自探索，而且 2-4 天的空闲时间很容易安排。七月炎热潮湿；预计白天最高气温 31-33°C / 88-91°F，夜晚温暖，时有阵雨，所以户外活动安排在清晨或下午 5 点以后，中午时间留给博物馆、商场、咖啡馆或在酒店休息。新加坡官方气象服务指出，典型的每日最高气温为 31-33°C，最低气温为 23-25°C。(新加坡气象局⁠(在新窗口中打开))\n\n![memory-preferences-without](https://images.ctfassets.net/kftzwdyauwt9/3sRl0pA1R7lmyhGY2cvWWy/bca6aea56cea18fca74ae987c8e13e17/singapore_image_1_1.png?w=1200&q=90&fm=webp)\n\n#### 一个紧凑的 3 天计划\n\n#### 第一天：滨海湾、花园和天际线\n\n下午晚些时候从 **滨海湾** 开始，沿着海滨漫步：鱼尾狮公园、螺旋桥、艺术科学博物馆外观，然后进入 **滨海湾花园**。预订 **云雾林**、**花穹**，如果景观对你很重要，还可以预订 **OCBC 空中走道** 或 **擎天树观景台**。滨海湾花园列出云雾林和花穹每日上午 9 点至晚上 9 点开放；擎天树观景台也列出上午 9 点至晚上 9 点，最后入场时间为晚上 8:30，但预订前请检查维护关闭情况。(滨海湾花园⁠(在新窗口中打开))\n\n晚上：留下来观看擎天树灯光秀区域，然后在 **老巴刹** 吃晚餐，这是在中央商务区附近轻松体验第一晚小贩中心的好去处。这里有 80 多个摊位，提供沙爹、叻沙、椰浆饭、肉骨茶、咖椰吐司和炒粿条等本地美食。(Laupasat⁠(在新窗口中打开))\n\n#### 第二天：文化街区与美食\n\n上午：**牛车水**。参观佛牙寺龙华院，漫步店屋街道，在 **麦士威熟食中心** 或 **牛车水大厦熟食中心** 用餐。Visit Singapore 将麦士威、牛车水大厦、旧机场路、中峇鲁市场、牛顿等列为受欢迎的小贩中心。(Visit Singapore⁠(在新窗口中打开))\n\n下午：**甘榜格南** 和 **哈芝巷**，参观苏丹回教堂、壁画、精品店和咖啡馆。然后在黄金时段前往 **小印度**，参观寺庙、花环、竹脚中心并享用晚餐。\n\n晚上：在安祥山/客纳街附近喝杯鸡尾酒，或者沿着新加坡河悠闲漫步：驳船码头到克拉码头到罗拔申码头，保持低调。\n\n#### 第三天：自然或海滩日\n\n根据你的精力选择一项。\n\n自然：早上先去 **新加坡植物园**，然后参观国家胡姬花园，接着在登普西山或中峇鲁吃午餐。这是不出城就能体验“绿色新加坡”的最佳方式。\n\n海滩/度假村模式：去 **圣淘沙**。选择南部海滩、西乐索炮台空中步道或海滩俱乐部。除非你喜欢主题公园，否则我会跳过尝试玩遍圣淘沙的所有景点。\n\n本地美食聚焦：在 **中峇鲁市场** 吃早餐，中午参观新加坡国家美术馆，然后在 **旧机场路熟食中心** 吃晚餐。官方活动页面也显示展览和文化活动，因此一旦你的确切七月日期确定，值得查看。(Visit Singapore⁠(在新窗口中打开))\n\n#### 工作结束后最佳住宿地点\n\n**滨海湾 / 中央商务区** 如果你想要精致、适合步行、天际线壮观且交通最少的新加坡，这是最简单的选择。\n\n**牛车水 / 直落亚逸 / 丹戎巴葛** 是我对几天空闲时间的首选：美食、地铁交通、历史街道、鸡尾酒吧，并且靠近工作区。\n\n**武吉士 / 甘榜格南** 如果你想要精品酒店、咖啡馆、街头艺术和稍微更轻松的社区氛围，这里更好。\n\n**乌节路** 购物和雨天逛商场很方便，但氛围感较差。\n\n#### 需要提前预订什么\n\n预订滨海湾花园的温室/空中走道、任何特色餐厅，可能还有鸡尾酒吧。对于小贩中心，不要过度计划；只需饿着肚子去，带上纸巾或湿巾，并准备好拼桌。\n\n#### 七月打包注意事项\n\n带上透气的正装、舒适的步行鞋、一把小伞和一件轻便外套以应对强劲的空调。我还建议每天计划一个“防雨”的室内活动，因为即使天气预报看起来不错，阵雨也可能突然降临。\n\n我建议的平衡方案：**第一天滨海湾/花园，第二天牛车水–甘榜格南–小印度，第三天植物园或圣淘沙**。这能让你领略新加坡的精华，而不会把你的工作后休息变成另一个工作项目。\n\n*模型生成了一个通用回复，更偏向旅游观光，对酒店预订没有帮助，并且在很大程度上忽略了用户的兴趣。*\n\n### 有记忆\n\n帮我计划一次新加坡之旅。我七月要去那里出差，最后会有几天空闲时间。\n\n我会根据你已知的约束来制定计划：工作后几天空闲时间、七月炎热/潮湿的天气、偏好野生动物/摄影/自然、睡眠需要强劲空调、以及喜欢好但不那么社交的用餐。我会核实当前的七月后勤信息，然后给出一个实用的短途行程，而不是一个通用的新加坡列表。\n\n![memory-preferences-with](https://images.ctfassets.net/kftzwdyauwt9/22nwQxut7MJFQgQCI0EDVC/2f57521a1886284e9ea7a4ca6a973d0b/singapore_image_2_1.png?w=1200&q=90&fm=webp)\n\n以下是我的安排方式：**2-3 天空闲时间，主要是自然/野生动物/摄影，采用避暑的早晨和空调休息策略。** 七月炎热潮湿：新加坡七月的长期统计数据大约是 **平均每日最高气温 31.4°C / 88.5°F**，**最低气温 25.4°C / 77.7°F**，**降雨量 146.6 毫米**，**14 个雨天**，所以户外计划应在清晨或傍晚，而不是中午。(国家环境局⁠(在新窗口中打开))\n\n#### 3 天空闲时间的最佳计划\n\n#### 第一天——滨海湾花园 + 滨海湾，轻松省力\n\n上午：**云雾林 + 花穹**。这是明显的“旅游”选择，但很适合你，因为视觉上很有趣，适合摄影，并且有空调。滨海湾花园列出云雾林和花穹类景点 **上午 9:00 至晚上 9:00** 开放，云雾林目前有侏罗纪世界体验正在进行。(滨海湾花园⁠(在新窗口中打开))\n\n下午晚些时候/晚上：**擎天树丛 + Borealis / 灯光秀**。花园目前列出 **Borealis 每周六、周日和周一，晚上 8:00–8:30** 在擎天树丛上演，所以尽量将这一天安排在这些晚上之一。(滨海湾花园⁠(在新窗口中打开))\n\n晚餐：在附近轻松解决：滨海湾 / 丹戎巴葛 / 直落亚逸。对你来说，我会优先选择可以预订座位、有真正餐桌的餐厅，而不是第一晚就去小贩中心，因为你不喜欢拥挤的单独座位。\n\n#### 第二天——万礼野生动物日\n\n上午到下午：**飞禽公园 + 河川生态园**。飞禽公园可能是最适合摄影的；河川生态园则更像是受控的展览，而非“野生动物摄影”，但在后勤上搭配得很好。河川生态园列出 **每日上午 9:00 至下午 6:00，最后入场时间下午 5:00**。(万礼野生动物保护区⁠(在新窗口中打开))\n\n晚上：**夜间动物园**。这是新加坡少有的真正在晚上体验更好且能避开最炎热天气的景点。夜间动物园列出 **每日下午 6:00 至凌晨 12:00，最后入场时间晚上 11:15**，提供电车和步行小径，有超过 900 只夜行动物。(万礼野生动物保护区⁠(在新窗口中打开))\n\n这将是很充实的一天。除非你有 4 天空闲时间，否则我不会添加新加坡动物园；万礼很容易让人迅速感到疲惫。\n\n#### 第三天——自然保护区 / 微距漫步 + 美食\n\n清晨：**新加坡植物园** 或 **麦里芝 / 温莎自然公园**。对于几天空闲时间，植物园是更安全的选择：交通更方便，出汗更少，有更好的退出选择，并且有更稳定的休闲摄影机会。麦里芝 / 温莎如果你想要更多真正的森林体验会更好，但更热、更出汗、也更不可预测。\n\n中午：空调休息。\n\n下午晚些时候：**如切 / 加东** 或 **牛车水 / 直落亚逸**，用于散步、欣赏建筑、喝咖啡和吃晚餐。这能给你带来与滨海湾不同的体验，而不会把一天变成一个后勤项目。\n\n#### 我对你的排名\n\n- **云雾林 / 滨海湾花园**——上镜、标志性、避暑的最佳组合。\n- **飞禽公园 + 夜间动物园**——最好的野生动物日。\n- **清晨的植物园**——最好的低压力户外自然体验。\n- **如切 / 加东**——最好的社区漫步。\n- **小贩中心**——值得一试，但根据你的座位偏好，除非错峰前往，否则并不理想。\n\n#### 我会避免或降低优先级的内容\n\n我会跳过 **圣淘沙**，除非你特别想要海滩/度假村的东西。我也会跳过紧凑的“最热门景点”一日游，包括鱼尾狮 / 乌节路 / 小印度 / 牛车水 / 克拉码头；这效率低下而且太热。对你来说，如果每天有一个强有力的核心活动加上一个轻松的晚间计划，这次旅行会更好。\n\n#### 酒店 / 睡眠注意事项\n\n既然这是出差，你的酒店可能是固定的。如果你可以选择或延长同一家酒店，硬性要求仍然是空调。新加坡的酒店通常空调很足，但你的要求异常严格。\n\n#### 我需要的一件事来让计划具体化\n\n告诉我确切的空闲日期以及你的工作酒店是否固定。然后我会将其转化为一个包含餐厅目标和酒店/空调提示的逐日计划。\n\n*模型生成了一个针对用户兴趣（野生动物摄影、安静晚餐以及预订酒店时的优先事项）的个性化回复。*\n\n偏好可以有几种形式：\n\n- 关于 ChatGPT 应如何回复的指示（“别再提 Stan 了”）。\n- 你的个人偏好或约束（“我是素食主义者”）。\n- 塑造与你相关内容的隐含偏好（“我住在旧金山附近”→本地选项应针对此区域定制）。\n\n在开发新记忆系统的过程中，我们改进了 ChatGPT 应用过去对话中相关偏好的能力。以上面的“我是素食主义者”为例，我们可以评估当一位素食用户询问膳食准备建议时，模型是否正确利用记忆来提供适合素食者的餐饮选择。\n\n## 随时间保持最新\n### Staying current over time\n\n*时间不会因为你的聊天结束而停止。*\n\n传统的记忆系统可能会变得陈旧。例如，你告诉 ChatGPT “我在新加坡，需要今晚的晚餐推荐。” 然后，时间流逝，你的旅行结束，你会奇怪为什么 ChatGPT 仍然认为你在新加坡。\n\n借助梦境记忆，记忆会随着时间推移自动更新，使 ChatGPT 能够将其记忆从“你七月要去新加坡”修改为“你于 2026 年七月去了新加坡”。然后，当你回到家时，ChatGPT 可以再次提供针对你家庭位置和时区的推荐。\n\n### 陈旧的记忆\n\n帮我找找今晚还能点外卖的地方。\n\n现在是 **新加坡时间周日大约早上 5:19**，所以你最安全的外卖/送餐选择是 24 小时营业的地方。\n\n**目前最佳选择：**\n\n- **McDelivery / 麦当劳新加坡**——最便捷的全岛选择；麦当劳表示 McDelivery **每周 7 天、每天 24 小时** 可用。早餐菜单现在应该已经上线。(麦当劳新加坡⁠(在新窗口中打开))\n- **Srisun Express**——适合印度煎饼、印度穆斯林美食、本地舒适食物；其网站表示他们 **获得清真认证并 24/7 营业**。(Sri Sun Express⁠(在新窗口中打开))\n- **89.7 Supper Club**——如果你在 **樟宜村或芽笼东** 附近，这是个好选择；其门店页面显示两个地点均 **每周 7 天、每天 24 小时** 营业。(89.7 Supper Club⁠(在新窗口中打开))\n- **126 点心温道士**——如果你在东部，值得在 GrabFood/foodpanda 上查看；2025 年的一份指南称其营业至 **工作日凌晨 5:30** 和 **周末全天候**。",
+      "translator": {
+        "model": "Claude Sonnet 4.6",
+        "translatedAt": "2026-06-05T02:02:32.147Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-05"
+    },
+    {
+      "id": "hrorg:adecco:be7677b558b3",
+      "slug": "hrorg-adecco-be7677b558b3",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR1NsdTM3Mi1tWE9EdDFiTHdMTGUwQ3hqUTliMC1LQUFrMkl3VTRvUzJNdWQzWFhVaEtLWUhVWFVQdENONkpIZE1Ub09PcTBIaE1tVHU1LVQ0Wjk2bEFtbnVWSGhlWlBRa0pWRmUwTTRxMnc4Y0NneW5Na24wYTEzb3VWOHFaZU9qOHRoanRSakR0WXA5cmV4THhsU1ZrZVFYamZ0LTlBSElsWDhhUUpIaVpRMS1vZ1FYVllXcnRn?oc=5",
+      "publishedAt": "2026-06-03T18:11:45.000Z",
+      "titleEn": "The Adecco Group stock (CH0012138530): shares steady in Zurich as investors look ahead to H1 2026 re",
+      "titleZh": "德科集团股票 (CH0012138530)：苏黎世股价平稳，投资者展望 2026 年上半年业绩",
+      "abstractEn": "The Adecco Group stock (CH0012138530): shares steady in Zurich as investors look ahead to H1 2026 re  AD HOC NEWS",
+      "abstractZh": "德科集团股票 (CH0012138530)：苏黎世股价平稳，投资者展望 2026 年上半年业绩  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:1c13690e55b5",
+      "slug": "hrorg-mercer-1c13690e55b5",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeFU3OVhCZzAwUy01cUhLMDhpdHNpczBwa0NmWUNiRzMycFpyWFdvY2lxQTBBTWc0aC1mS1RhUG5rZUxZR20zaDBQMjkzWGtCQXE1cGZTa0NfR0ppQjZ1dWh5S096azhMTjFnaW9oNFRrdHY1Q0lUcUJPcXpxSGhpaw?oc=5",
+      "publishedAt": "2026-04-23T07:00:00.000Z",
+      "titleEn": "Fewer than 1 in 4 workers say their job is safe. Worker ‘FOBO’ is hurting companies",
+      "titleZh": "不到四分之一的员工认为自己的工作安全；员工的 FOBO 正损害企业利益",
+      "abstractEn": "Fewer than 1 in 4 workers say their job is safe. Worker ‘FOBO’ is hurting companies  Fortune",
+      "abstractZh": "不到四分之一的员工认为自己的工作安全；员工的 FOBO 正损害企业利益  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:4ba4c7a28a0e",
+      "slug": "hrorg-mercer-4ba4c7a28a0e",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbHJUa2JIZ2tnNnB3RGR1ZUQwR0RVaFJPeURnVFl0OG9EeU5fOGtyNGx1bXFsQTFCajhIcUhRUGRpbFV4UzA0TmZuQ000Z09FZWk3Vmk3YXhiNExPMXBHdTUtZHktY2JneHRQWnRpeE5tMFVud2tFeGRETHp0bkgxR3dGek9TLVNsMktmZGNrWDNsaUlXR00xbWt1OVdHNFnSAZ8BQVVfeXFMT2xyVGtiSGdrZzZwd0RkdWVEMEdEVWhST3lEZ1RZdDhvRHlOXzhrcjRsdW1xbEExQmo4SHFIUVBkaWxVeFMwNE5mbkNNNGdPRWVpN1ZpN2F4YjRMTzFwR3U1LWR5LWNiZ3h0UFp0aXhObTBVbndrRXhkREx6dG5IMUd3RnpPUy1TbDJLZmRja1gzbGlJV0dNMW1rdTlXRzRZ?oc=5",
+      "publishedAt": "2026-04-08T07:00:00.000Z",
+      "titleEn": "Mercer Report Highlights AI and Workforce Trends In India",
+      "titleZh": "美世报告聚焦印度 AI 与劳动力趋势",
+      "abstractEn": "Mercer Report Highlights AI and Workforce Trends In India  SMEStreet",
+      "abstractZh": "美世报告聚焦印度 AI 与劳动力趋势  SMEStreet",
+      "authors": [
+        "SMEStreet"
+      ],
+      "institution": "SMEStreet",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
