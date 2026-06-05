@@ -92,6 +92,17 @@ notify_bark() {
   echo "[run-daily] Pulling latest data from GitHub..."
   git pull --rebase origin main && echo "[run-daily] git pull OK" || echo "[run-daily] git pull failed (continuing anyway)"
 
+  # 备份 pipeline 改写前的“上一份好数据”，防截断/误写。保留最近 14 份，本地用、不入库。
+  # 曾出事：articles.json 被截断 1897→63（靠 git origin 才救回）。这是本地秒回滚兜底。
+  BACKUP_DIR="$PROJECT_DIR/backups"
+  mkdir -p "$BACKUP_DIR"
+  STAMP=$(date '+%Y%m%d-%H%M%S')
+  for f in articles podcasts; do
+    [ -s "data/$f.json" ] && cp "data/$f.json" "$BACKUP_DIR/$f-$STAMP.json"
+    ls -1t "$BACKUP_DIR/$f-"*.json 2>/dev/null | tail -n +15 | xargs rm -f 2>/dev/null
+  done
+  echo "[run-daily] 已备份 articles/podcasts → backups/ ($STAMP)"
+
   USE_CLAUDE_CLI=true node scripts/pipeline.js
   PIPELINE_EXIT=$?
   echo "[run-daily] pipeline exit: $PIPELINE_EXIT"
