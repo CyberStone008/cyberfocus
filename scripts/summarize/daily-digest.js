@@ -12,10 +12,16 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from '../translate/claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from '../translate/deepseek.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority must match the rest of the pipeline: DeepSeek first.
+// Without this, run-daily.sh's USE_CLAUDE_CLI=true routed the digest to the
+// (unauthenticated) claude CLI → "Not logged in" → digest failed every run.
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 function extractJson(text) {
   const fenced = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/);

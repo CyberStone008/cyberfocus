@@ -47,13 +47,16 @@ function isNew(article: Article): boolean {
 }
 
 /**
- * Date key used for feed grouping = the article's PUBLISH date.
- * Group by when the article was actually published, not when we fetched it —
- * a post published 6/03 but fetched 6/04 belongs under 6/03, not "今天".
- * (The green "新" badge still uses fetchedAt to flag freshly-discovered items.)
+ * Date key used for feed grouping = the article's FETCH date (when it appeared
+ * on the site), in Beijing time. ReportFeed serves the low-frequency 报告/机构
+ * boards, whose items are usually published days before we surface them (HR via
+ * Google News lags badly). Grouping by publish date would bury freshly-surfaced
+ * items in the past and leave "今天" perpetually empty. So these two boards group
+ * by fetch date — the social/daily feeds keep publish-date grouping.
+ * Fallback to publishedAt for any legacy item missing fetchedAt.
  */
 function getGroupDate(article: Article): string {
-  return getDateKey(article.publishedAt);
+  return getDateKey(article.fetchedAt ?? article.publishedAt);
 }
 
 function formatDateLabel(dateKey: string): string {
@@ -198,7 +201,7 @@ export function ReportFeed({
     const seriesAnchorDate = new Map<string, string>();
     for (const [slug, articles] of seriesMap.entries()) {
       const sorted = [...articles].sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0));
-      seriesAnchorDate.set(slug, getDateKey(sorted[0].publishedAt));
+      seriesAnchorDate.set(slug, getGroupDate(sorted[0]));
       seriesMap.set(slug, sorted);
     }
 

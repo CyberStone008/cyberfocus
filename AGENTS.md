@@ -46,7 +46,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: new Date().toISOString()`（ISO 字符串）。前端用途：
 - **「新」徽章**：`fetchedAt` 距今 < 24 小时则显示绿色「新」标
-- **日期分组**：`SocialFeed` 和 `ReportFeed` 的 `getGroupDate()` **按文章发布日期 `publishedAt` 分组**——6/03 发布、6/04 抓取的文章归到 6/03，不是"今天"。用户明确要求按发布日期而非抓取日期。（绿色"新"徽章仍用 `fetchedAt` < 24h 判断。）前提是 `publishedAt` 必须准确——所以 OpenAI/Anthropic/Claude 抓取器都要提取真实发布日期（见各 fetcher 的 lastmod/datePublished 处理）。
+- **日期分组（分板块两套口径）**：
+  - **`SocialFeed`（AI精选热点）+ AI日报**：`getGroupDate()` 按**发布日期 `publishedAt`** 分组——高频、发布日期准确且新近，6/03 发布、6/04 抓取的归到 6/03。前提是 `publishedAt` 必须准确（OpenAI/Anthropic/Claude 抓取器都提取真实发布日期，见各 fetcher 的 lastmod/datePublished 处理）。
+  - **`ReportFeed`（AI报告速览 + 人服机构动态）**：`getGroupDate()` 按**收录日期 `fetchedAt`** 分组（缺失时回退 publishedAt）。原因：这两个板块是**低频源**，抓到的内容发布日期常是几天前（HR 走 Google News 尤其滞后），按发布日期分组会让新抓到的内容沉进过去、"今天"永远空。用户拍板：报告/机构按"今天新抓到的"展示，社交/日报保持发布日期。改动见 `ReportFeed.tsx` 的 `getGroupDate` 与 `seriesAnchorDate`。
+  - 两者的绿色"新"徽章都仍用 `fetchedAt` < 24h 判断。单条卡片上显示的日期 `cardDate` 仍是真实 `publishedAt`（所以"今天"组里可能出现一张标着旧发布日期的卡，正常——它是今天才被收录的）。
 
 ### 日期分组必须按北京时间（UTC+8），禁止 `iso.slice(0,10)`
 
