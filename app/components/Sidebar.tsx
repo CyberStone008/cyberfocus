@@ -52,12 +52,16 @@ const VISIBLE_NAV = IS_PUBLIC ? NAV.filter((s) => !s.adminOnly) : NAV;
 export function Sidebar() {
   const pathname = usePathname();
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [open, setOpen] = useState(false); // mobile drawer
 
   useEffect(() => {
     const saved = localStorage.getItem('theme') as 'light' | 'dark' | null;
     const system = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
     setTheme(saved ?? system);
   }, []);
+
+  // Auto-close the mobile drawer whenever the route changes
+  useEffect(() => { setOpen(false); }, [pathname]);
 
   function toggleTheme() {
     const next = theme === 'light' ? 'dark' : 'light';
@@ -67,7 +71,24 @@ export function Sidebar() {
   }
 
   return (
-    <aside className={styles.sidebar}>
+    <>
+      {/* Mobile hamburger (only visible ≤768px via CSS) */}
+      <button
+        className={styles.hamburger}
+        aria-label="菜单"
+        onClick={() => setOpen((v) => !v)}
+      >
+        <span /><span /><span />
+      </button>
+
+      {/* Mobile overlay backdrop */}
+      <div
+        className={`${styles.overlay} ${open ? styles.overlayOpen : ''}`}
+        onClick={() => setOpen(false)}
+        aria-hidden
+      />
+
+      <aside className={`${styles.sidebar} ${open ? styles.sidebarOpen : ''}`}>
       <Link href="/" className={styles.header}>
         <div className={styles.liveBadge}>
           <span className={styles.liveDot} />
@@ -108,5 +129,6 @@ export function Sidebar() {
         </button>
       </div>
     </aside>
+    </>
   );
 }
