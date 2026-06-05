@@ -64,6 +64,12 @@
   max-width: 900px;
 }
 
+.shareRow {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
 .mobileToc {
   display: none;
 }

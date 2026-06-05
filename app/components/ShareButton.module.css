@@ -1,0 +1,24 @@
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.shareBtn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.shareBtn:active {
+  transform: translateY(1px);
+}

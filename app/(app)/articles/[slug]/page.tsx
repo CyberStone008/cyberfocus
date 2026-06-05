@@ -8,6 +8,7 @@ import { TableOfContents } from '../../../components/TableOfContents';
 import { ArticleNavigation } from '../../../components/ArticleNavigation';
 import { ArticleFooter } from '../../../components/ArticleFooter';
 import { ThemeToggle } from '../../../components/ThemeToggle';
+import { ShareButton } from '../../../components/ShareButton';
 import { extractToc } from '../../../lib/toc';
 import styles from './page.module.css';
 
@@ -86,6 +87,9 @@ export default async function ArticleDetailPage({
         )}
 
         <main className={styles.main}>
+          <div className={styles.shareRow}>
+            <ShareButton slug={slug} />
+          </div>
           <ArticleHeader article={article} />
 
           {showToc && (
