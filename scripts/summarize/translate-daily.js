@@ -13,11 +13,17 @@
 import { readFileSync, writeFileSync } from 'fs';
 import Anthropic from '@anthropic-ai/sdk';
 import { claudeCliClient, isCliMode } from '../translate/claude-cli.js';
+import { deepseekClient, isDeepSeekMode } from '../translate/deepseek.js';
 import { sleep } from '../utils/rate-limiter.js';
 
-const client = isCliMode()
-  ? claudeCliClient
-  : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+// Backend priority must match the pipeline: DeepSeek first. Without this,
+// run-daily.sh's USE_CLAUDE_CLI=true routed this to the unauthenticated claude
+// CLI → "Not logged in" → daily-article translation failed every run.
+const client = isDeepSeekMode()
+  ? deepseekClient
+  : isCliMode()
+    ? claudeCliClient
+    : new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const BATCH   = 8;   // smaller batch = less JSON to parse
 const DELAY   = 1200;
