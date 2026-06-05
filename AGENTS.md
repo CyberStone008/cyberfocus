@@ -147,3 +147,23 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 - 渲染层：`ReportFeed.tsx` 中 `groupedEntries` 逻辑自动合并相同 `seriesSlug` 的文章
 - 系列元信息在 `ReportFeed.tsx` 顶部的 `SERIES_META` 对象中维护（标题、英文标题、作者）
 - 如需新增系列，在 `SERIES_META` 中添加对应条目即可
+
+---
+
+### 管理员 vs 访客：管理后台是「本地工具」
+
+站点是**单一代码库、双部署语义**：
+
+- **访客（线上 reallylink.cn / Vercel）**：构建时设 `NEXT_PUBLIC_PUBLIC_MODE=1` → 公开**只读**。`Sidebar` 过滤掉所有 `adminOnly` 导航（信源管理），`ReportFeed` 隐藏管理按钮（添加报告/生成解读），且 `app/api/*` 全部 `if (PUBLIC_MODE==='1') return 403`。
+- **管理员（本机）**：不设 PUBLIC_MODE → 全套管理功能可用。
+
+**为什么管理只能在本地**：所有管理 API（`update-source`/`add-report`/`generate-analysis`/`trigger-fetch`）都是 `writeFileSync` 直接写仓库里的 JSON（信源 = `data/sources.json`，文章 = `data/articles.json`）或 `spawn` 流水线。这只在本机文件系统成立——**Vercel 运行时 FS 只读/临时**，写了既不持久也回不到 git。数据流向是「本地改 `data/*.json` → git → Vercel 重建」，不是反过来。所以管理后台本质是本地工具，**不要**试图在 Vercel 上做可写管理（那需要换成 GitHub API 提交或数据库后端，属于另一个量级的改造）。
+
+**管理员工作流**：
+1. `npm run admin` —— 等价 `next dev --webpack` 但强制清空 `NEXT_PUBLIC_PUBLIC_MODE`（即使 `.env.local` 误设了也不受影响），本地 http://localhost:3000 即带管理入口（侧栏「管理 → 信源管理」、各 feed 的管理按钮）。
+2. 改信源 / 加报告 / 生成解读 → 写入 `data/*.json`。
+3. 上线二选一：
+   - 等当天 10:00 的 launchd 流水线自动 commit/push（其 git-add 列表已含 `data/sources.json`）；
+   - 或 `npm run publish`（`scripts/publish.sh`）立刻提交并推送 `data/`，Vercel ~1 分钟重建上线。
+
+若日后要「在线/手机管理」，需上密码鉴权 + 把写入改为 GitHub API 提交（讨论记录在案，当前未做）。

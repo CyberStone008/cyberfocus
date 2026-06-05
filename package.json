@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev --webpack",
+    "admin": "NEXT_PUBLIC_PUBLIC_MODE= next dev --webpack",
+    "publish": "bash scripts/publish.sh",
     "build": "next build --webpack",
     "start": "next start",
     "pipeline": "node scripts/pipeline.js",
