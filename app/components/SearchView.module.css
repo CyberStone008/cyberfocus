@@ -1,0 +1,92 @@
+.root {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+.header { margin-bottom: 1.5rem; }
+.title {
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+.sub { font-size: 13.5px; color: var(--text-tertiary); margin: 0; }
+
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0 14px;
+  height: 48px;
+  position: sticky;
+  top: 12px;
+  z-index: 10;
+}
+.icon { font-size: 18px; color: var(--text-tertiary); }
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  color: var(--text);
+}
+.clear {
+  border: none;
+  background: transparent;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.results { margin-top: 1.5rem; }
+.count { font-size: 12px; color: var(--text-tertiary); margin-bottom: 10px; }
+.empty { text-align: center; color: var(--text-tertiary); padding: 3rem 0; font-size: 14px; }
+
+.row {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.row:hover { border-color: var(--accent); background: var(--bg-secondary); }
+
+.rowTop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+.kind { font-weight: 700; }
+.src { color: var(--text-secondary); }
+.date { color: var(--text-tertiary); margin-left: auto; font-variant-numeric: tabular-nums; }
+.ext { color: var(--text-tertiary); }
+
+.rowTitle {
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text);
+}
+.rowEn {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .root { padding: 1.5rem 1rem 3rem; }
+}

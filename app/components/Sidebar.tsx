@@ -100,6 +100,14 @@ export function Sidebar() {
       </Link>
 
       <nav className={styles.nav}>
+        <Link
+          href="/search"
+          className={`${styles.navItem}${pathname.startsWith('/search') ? ' ' + styles.active : ''}`}
+          style={{ marginBottom: 10 }}
+        >
+          <span className={styles.navIcon}>🔎</span>
+          搜索
+        </Link>
         {VISIBLE_NAV.map((section) => (
           <div key={section.group} className={styles.navSection}>
             <div className={styles.navSectionLabel}>{section.group}</div>
