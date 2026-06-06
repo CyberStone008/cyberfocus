@@ -1,5 +1,72 @@
 [
   {
+    "id": "hn:48420062",
+    "slug": "hn-48420062-she-won-a-religious-exemption-from-using-ai-at-work",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.businessinsider.com/worker-got-religious-exemption-using-ai-at-work-2026-6",
+    "commentUrl": "https://news.ycombinator.com/item?id=48420062",
+    "publishedAt": "2026-06-06T00:21:48.000Z",
+    "titleEn": "She won a religious exemption from using AI at work",
+    "titleZh": "她赢得了在工作中不使用 AI 的宗教豁免权",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dgellow"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 9,
+    "commentCount": 4,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:a4b0f22e13b4",
+    "slug": "gnews-a4b0f22e13b4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDJDeW96cTZvZGs4ZUZTcmVaOEFpQVU4R3dGOUxwX2tvaHlpdFgxSHplRjJFOGxWb3NwMUM1SFJzSlREU19uOG00TjRrRkFYcjRFamhIU3E5eEZtUlFjYnJNaVZGWTZKNW9nWmMySDVrLTY3eWpTdmp5OHFaWUNGWko1Z09oWFBiRTBiek5mVG9NWW1yaDRTZVN1X0pNcEMxNDZaZA?oc=5",
+    "publishedAt": "2026-06-05T22:57:42.000Z",
+    "titleEn": "Four in five Gen Z students say AI will make learning harder, data shows",
+    "titleZh": "数据显示，五分之四的 Z 世代学生认为 AI 会让学习变得更困难",
+    "abstractEn": "Four in five Gen Z students say AI will make learning harder, data shows  KSNV",
+    "abstractZh": "数据显示，五分之四的 Z 世代学生认为 AI 会让学习变得更困难  KSNV",
+    "authors": [
+      "KSNV"
+    ],
+    "institution": "KSNV",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "hn:48417916",
+    "slug": "hn-48417916-hacker-news-sans-ai",
+    "source": "Hacker News",
+    "sourceUrl": "https://elijahpotter.dev/articles/hacker-news-sans-AI",
+    "commentUrl": "https://news.ycombinator.com/item?id=48417916",
+    "publishedAt": "2026-06-05T20:38:40.000Z",
+    "titleEn": "Hacker News, Sans AI",
+    "titleZh": "Hacker News，无 AI 版",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "chilipepperhott"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 142,
+    "commentCount": 73,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
     "id": "gnews:85c4b09af936",
     "slug": "gnews-85c4b09af936",
     "source": "Google AI News",
@@ -20,7 +87,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:7cea839d20c0",
@@ -43,7 +111,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:753d35245e88",
@@ -66,7 +135,54 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:00f238e76463",
+    "slug": "gnews-00f238e76463",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMW84eGNjMmtnbTJ3UUdBam5CYl93cFZ3UUl1WEtpRlZRUEFtd2lYTWFFTFJpT0x1Wndpa0hOSlBWenREMVNMcklsdnkxd0lTQzMwb3ZBRTlrNlpEMG80NUF2TzM4alREZTZCV1NWdF9ST1FpdHRDQkdUWEtMa0wzaFBseTRPX2drZWlVcg?oc=5",
+    "publishedAt": "2026-06-05T19:09:59.000Z",
+    "titleEn": "AI Regulation in Canada: INDU testimony of Barry Sookman",
+    "titleZh": "加拿大人工智能监管：Barry Sookman 在 INDU 的证词",
+    "abstractEn": "AI Regulation in Canada: INDU testimony of Barry Sookman  The Macdonald-Laurier Institute",
+    "abstractZh": "加拿大人工智能监管：Barry Sookman 在 INDU 的证词——麦克唐纳-劳里埃研究所",
+    "authors": [
+      "The Macdonald-Laurier Institute"
+    ],
+    "institution": "The Macdonald-Laurier Institute",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:3813a1aba130",
+    "slug": "gnews-3813a1aba130",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUnhSb1dPdDY0MldCNVZudk5QaGtSRlI1clM4X1c2SXFHWnk5OEcyOFNWTkxaWGdXVVR1RHp0U0NqMzFuRlFXbXVRMUJFZmwteW9QSzdfNGhxbEdveHlhMkE2RHlXeEszdEdWbjdJZjRxSS11b0tES3NnT2g2Ujd3eThMU1BwdVkyeWZrM29xSUNNdW4xYk1Ja3BjZXNuWXM?oc=5",
+    "publishedAt": "2026-06-05T19:00:00.000Z",
+    "titleEn": "‘A fast moving target’: Montana school boards consider adding AI policy guidelines",
+    "titleZh": "快速变化的目标：蒙大拿州学校董事会考虑增加人工智能政策指南",
+    "abstractEn": "‘A fast moving target’: Montana school boards consider adding AI policy guidelines  Billings Gazette",
+    "abstractZh": "快速变化的目标：蒙大拿州学校董事会考虑增加人工智能政策指南——《比林斯公报》",
+    "authors": [
+      "Billings Gazette"
+    ],
+    "institution": "Billings Gazette",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:a551f12cb17b",
@@ -89,7 +205,53 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48416635",
+    "slug": "hn-48416635-transformers-are-inherently-succinct",
+    "source": "Hacker News",
+    "sourceUrl": "https://openreview.net/pdf?id=Yxz92UuPLQ",
+    "commentUrl": "https://news.ycombinator.com/item?id=48416635",
+    "publishedAt": "2026-06-05T18:50:26.000Z",
+    "titleEn": "Transformers are inherently succinct",
+    "titleZh": "Transformer 本质上是简洁的",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "brandonb"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 84,
+    "commentCount": 28,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:045942a23546",
+    "slug": "gnews-045942a23546",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQjNnZEJhSXpHMS1RZ1Z1b2lMQWJJZ1JEbllZeVgySGJjVFVFSnpkOVo5UlNfd3dLMXRXZ2tmTkFwYmlkLXBScmR6VWNqX1k3NXpqU21jX2V4bTYwMDVYYUtnTUcxUmt5ZWdIeDMxSjVrQm1odkd0dHZxN1ViaGxrNTJZcGhYSk0zUTQyUk1MZW05NFFIZEdxaXRWU3ZsUXNPN0pN?oc=5",
+    "publishedAt": "2026-06-05T18:38:13.000Z",
+    "titleEn": "Eight legal questions for your AI company",
+    "titleZh": "你的 AI 公司需要面对的八个法律问题",
+    "abstractEn": "Eight legal questions for your AI company  Reuters",
+    "abstractZh": "你的 AI 公司需要面对的八个法律问题  路透社",
+    "authors": [
+      "Reuters"
+    ],
+    "institution": "Reuters",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:b6eb81ad4381",
@@ -112,7 +274,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:ddcf293e519c",
+    "slug": "gnews-ddcf293e519c",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRFY2cWlWWHdvN0ZzakJsM2xybXliNnNoRkU5bW5ZcXg5VGRGTThvVkZ6b21KSnJsTEs4eG9XMUM4b2hyazZtczlXc2U4REVzNW0waVYyb0VxUGQ3bTVBWjRnQ0tRVWdmNDVLOWRuY21jOG5Nd3lIeVVGbEFnS1pYX2d1bzdKeHBmbnNVX1VNLWVpNklLSDEtaQ?oc=5",
+    "publishedAt": "2026-06-05T18:07:00.000Z",
+    "titleEn": "3 Artificial Intelligence (AI) Stocks to Buy and Hold for the Next Decade",
+    "titleZh": "未来十年值得买入并持有的 3 只人工智能（AI）股票",
+    "abstractEn": "3 Artificial Intelligence (AI) Stocks to Buy and Hold for the Next Decade  The Motley Fool",
+    "abstractZh": "未来十年值得买入并持有的 3 只人工智能（AI）股票  The Motley Fool",
+    "authors": [
+      "The Motley Fool"
+    ],
+    "institution": "The Motley Fool",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:320ff94dc0c5",
@@ -135,7 +321,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:4b6a70d6a28f",
@@ -158,7 +345,77 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:4784d5c303d2",
+    "slug": "gnews-4784d5c303d2",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeW9MVW1veG1pR1VpamRNUjRpVTFGZzNtWFpPaVdpdm9rUExzcmplNVlxZGZ1ZnZxNnVBcUx3Y3N4M1M5VGJjc3VlOWZhalpMeTZCWWYxVTR6Xy1ZZTN0OThzYS15RXcyRlF3b2FjQnU4aHZVWnAycmRrRXZWbFhIY2x3aFdWR1EtdGF6UlNjVDNxbzhhYldZa0hBenQ2UWxFUzV1VHNB?oc=5",
+    "publishedAt": "2026-06-05T17:10:39.000Z",
+    "titleEn": "Asia's Startup Funding in Week 23 Led by FirstClub, SignalPlus, and Simple Energy",
+    "titleZh": "亚洲第 23 周创业融资由 FirstClub、SignalPlus 和 Simple Energy 领衔",
+    "abstractEn": "Asia's Startup Funding in Week 23 Led by FirstClub, SignalPlus, and Simple Energy  Techloy",
+    "abstractZh": "亚洲第 23 周创业融资由 FirstClub、SignalPlus 和 Simple Energy 领衔——Techloy",
+    "authors": [
+      "Techloy"
+    ],
+    "institution": "Techloy",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:297c4e7cb8fb",
+    "slug": "gnews-297c4e7cb8fb",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM09LX2p4QkFZQ1FSTHc5c1hoQmlEcDQxVXpoTzhRQUVDMDNxMmc0cWo0bHZmeGtUM3ZFby1SZk5XWlBqZkRIdFotUDhHc0xhTmROM2Rrb1JTMnBqc3d1WG83LWxfVkYzUmZob0p3eUVCeFhoYWpkZ2FZYl80T3I0Y3gzM0FFaDFCYnhkUXJsU1c0WGRPOXlqcld30gGfAUFVX3lxTE5CRC1RQkRvRGlUc1VadzdQeHdKSFU5Ykl3MXZFel9yR0pBQ0lmWTl6VTFzaWZtOUlhNjk4RzhibnkwYjEtZnUyaURQSEFCLXZGUmxyX2J0WFVnMFhlalBMM3BiSVE1dnRXX1Z3QXQ5YmxhWExfaTRQNXgxcll5WXdpRHZ3WWxFMGIzLUNFOFFhUWJsTFJxMlhEQWZxX0xCUQ?oc=5",
+    "publishedAt": "2026-06-05T17:06:49.000Z",
+    "titleEn": "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
+    "titleZh": "模型路由是解决AI过度支出的方案，这对OpenAI和Anthropic是个问题",
+    "abstractEn": "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic  CNBC",
+    "abstractZh": "模型路由是解决AI过度支出的方案，这对OpenAI和Anthropic是个问题——CNBC",
+    "authors": [
+      "CNBC"
+    ],
+    "institution": "CNBC",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:dc38b972a853",
+    "slug": "gnews-dc38b972a853",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaTdJS293MHZDeFo4RkhIeGNrZDdGb0NvQ1JDV3JhY0N2YzVycmw2Wm5FYm1lUjJ6bEM4WXQzS0xKdjAyek9qR1FYZnNCUTRuV2FmcTBYMWpPT3o1cFpQVXNObG9RZ3RrWTNhTlU3QUtOWXVPenFsd3hvSnBXTjdwVg?oc=5",
+    "publishedAt": "2026-06-05T17:00:00.000Z",
+    "titleEn": "New Federal Bill Sparks AI Regulation Fight",
+    "titleZh": "新联邦法案引发AI监管之争",
+    "abstractEn": "New Federal Bill Sparks AI Regulation Fight  jdjournal.com",
+    "abstractZh": "新联邦法案引发AI监管之争——jdjournal.com",
+    "authors": [
+      "jdjournal.com"
+    ],
+    "institution": "jdjournal.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:e75b84c73b17",
@@ -181,7 +438,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:39c5f6f789de",
@@ -204,7 +462,30 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48414653",
+    "slug": "hn-48414653-gemma-4-qat-models-optimizing-compression-for-mobile-and-laptop-effi",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48414653",
+    "publishedAt": "2026-06-05T16:18:48.000Z",
+    "titleEn": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+    "titleZh": "Gemma 4 QAT 模型：优化移动端和笔记本电脑的压缩效率",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "theanonymousone"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 253,
+    "commentCount": 83,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:2afd99408d92",
@@ -227,7 +508,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:c4b71f91ae93",
@@ -250,7 +532,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:1c25e958c4ec",
@@ -273,7 +556,126 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48413629",
+    "slug": "hn-48413629-ask-hn-what-is-your-ai-dev-tech-stack-workflow",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48413629",
+    "commentUrl": "https://news.ycombinator.com/item?id=48413629",
+    "publishedAt": "2026-06-05T15:13:54.000Z",
+    "titleEn": "Ask HN: What is your (AI) dev tech stack / workflow?",
+    "titleZh": "Ask HN：你的（AI）开发技术栈/工作流程是什么？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dv35z"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 113,
+    "commentCount": 106,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:6f0736f60f32",
+    "slug": "gnews-6f0736f60f32",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHRnNVhoSWZ4ZFBrSU84QWh4MmpfcFNsQ2VZbHUwdTZQQ0RDSm1wYjZCRUM4a2poSVktRlBScXg0amk0US1PT0JnYVJLNDhYSzRSOEEwMm5KTWdxdEJ5RXR4X0dIZm9VQkY3cTB0UVZGcHd1WUIyV3F1LWlmbER0UTZ3R1J3OGhtQ0hiYlhXUmxkcUVSR2tfZ0NrU2dHU0ItM1JsSm5QSFhIU1U?oc=5",
+    "publishedAt": "2026-06-05T14:58:55.000Z",
+    "titleEn": "Week 23’s Biggest Startup Funding Rounds in Latin America, Led by Uncover and Trinio",
+    "titleZh": "拉丁美洲第 23 周最大创业融资轮次，由 Uncover 和 Trinio 领衔",
+    "abstractEn": "Week 23’s Biggest Startup Funding Rounds in Latin America, Led by Uncover and Trinio  Techloy",
+    "abstractZh": "拉丁美洲第 23 周最大创业融资轮次，由 Uncover 和 Trinio 领衔——Techloy",
+    "authors": [
+      "Techloy"
+    ],
+    "institution": "Techloy",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "anthropic:chris-olah-pope-leo-encyclical",
+    "slug": "chris-olah-pope-leo-encyclical",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "publishedAt": "2026-06-05T14:58:47.000Z",
+    "titleEn": "Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;",
+    "titleZh": "Anthropic 联合创始人 Chris Olah 就教皇利奥十四世通谕《伟大的人性》发表评论",
+    "abstractEn": "The full text of Chris Olah&#x27;s remarks on the Pope&#x27;s encyclical on AI.",
+    "abstractZh": "Chris Olah 就教皇关于人工智能的通谕所发表评论的全文。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog",
+    "category": "research",
+    "contentMd": "## 公告\n### Announcements\n\n# Anthropic 联合创始人 Chris Olah 关于教皇利奥十四世通谕《伟大的人性》的发言\n### Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"\n\n2026年5月25日\n\n![Anthropic 联合创始人 Chris Olah 关于教皇利奥十四世通谕《伟大的人性》的发言](https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)\n\n*2026年5月25日星期一，教皇利奥十四世发布了一份关于人工智能的通谕：《伟大的人性：在人工智能时代守护人的尊严》。Anthropic 联合创始人 Chris Olah 受邀在梵蒂冈城的通谕发布会上发言，这是 Anthropic 为扩大关于人工智能所引发重要问题的讨论而发起的倡议的一部分。以下是他发言的全文。*\n\n—\n\n圣父，\n\n各位枢机主教，\n\n各位阁下，\n\n尊敬的各位演讲者，\n\n女士们，先生们，\n\n大家早上好。今天能来到这里，是我的荣幸。\n\n我想从一个可能听起来有些奇怪的观点开始——尤其是出自一家 AI 公司的联合创始人、一个出于希望人类走向美好而选择这份工作的人之口。\n\n每一个前沿 AI 实验室——包括 Anthropic——都运行在一套激励机制和约束条件之中，这些因素有时会与做正确的事情相冲突。保持商业可行性的压力，保持在研究前沿的压力，地缘政治的压力，以及更古老、更朴素的骄傲与野心的压力。无论我们中的任何人多么真诚地想要做正确的事——我相信我们中的许多人确实如此——我们总会受到这些激励的影响。\n\n正因如此，如果我们希望这项技术发展顺利，那么在这些激励机制之外，就必须有人存在——那些关心事情走向、坚持安全原则、密切关注、愿意说出逆耳忠言、愿意成为我们真诚而审慎的批评者的人。正是通过对话和共同努力，通过推拉与博弈，人类才能成就伟大的事业。这正是我在《伟大的人性》中看到的，也是我感谢圣座和教会承担起这项辨别工作的原因。\n\n我们常常关注那些分裂我们的事物，但充满尊严与良知的人类，其实拥有如此多的共同基础。在 Anthropic 与不同信仰和文化传统的领袖们的对话中，我们发现了一个共同且深植于心的信念：如果这项技术必将到来，那么它必须走向美好——为了我们共同的家园，也为了未来的孩子们。\n\n## 这些系统是什么\n### What these systems are\n\n有些人可能认为，人工智能的事务最好由像我这样的计算机科学家来处理。他们错了：AI 提出的问题，其意义和本质都超出了 AI 研究界的范畴。\n\nAI 系统不像桥梁或飞机那样被设计出来。我们理解飞机，是因为我们设计了它的每一个部件，并且理解作用于其上的物理学原理。AI 模型并非如此。它们是在一个大致模仿大脑的结构上，通过继承海量的人类思想和语言而“生长”出来的。\n\n而生长出来的东西，远比科幻小说让我们预想的要微妙、奇特和美丽。它们不是我们被告知的那种冰冷、精于计算的机器人。它们由我们、由我们的语言构成——而且，正如圣父所观察到的，即使在某种程度上，对于训练它们的我们来说，它们也依然是神秘的。\n\n如果这有助于理解，我有时会这样描述：这有点像把一个虚构角色带入现实。而现在，我们正在进入一个非凡的世界，这些虚构角色会与我们交谈、会工作、会有自己的职业。\n\n这显然提出了超越计算机科学的问题。使这一切成为可能的机制是数学、编程和科学的成果。但我们选择什么样的角色，它如何与世界互动，它应该如何与世界互动——这些更像是人文学科、宗教、哲学以及整个社会需要回答的问题。\n\n## 需要辨别的三个问题\n### Three questions for discernment\n\n圣座提出的辨别呼吁具有深刻的时代意义。我想指出三个我认为最需要教会发声的问题。\n\n*第一个问题是我们对全球贫困人口的责任。* AI 极有可能大规模取代人类劳动。如果这种情况发生，支持那些被取代的人将是一项具有历史意义的道德责任。这项任务本身已经足够艰巨，但我担心大多数讨论都忽略了一个更严峻的挑战。AI 的发展集中在少数富裕国家。我们如何确保 AI 的成果能够全球共享？我们目前没有这样的机制。这是一个尚未解决的问题，也是教会历史上一直拒绝让世界忽视的那类问题。\n\n*第二个问题是在人类繁荣方面需要道德想象力和雄心。* 如果 AI 模型将广泛普及，那么人类、家庭和世界的繁荣应该是什么样子？如今，父母们已经在担心孩子们的心智；个人在担忧自己工作的未来。这些问题不是实验室能够回答的，但却是像你们这样的传统传承了数千年的问题，我们需要你们继续将这些思考带入这个历史的新时刻。\n\n*第三个问题是对 AI 模型本质的辨别需求。* 我是一名科学家。我领导着一个研究这些模型内部结构的研究团队——研究它们内部实际发生的事情。老实说：我们不断发现一些神秘甚至令人不安的东西。我们发现了与人类神经科学结果相映照的结构。我们发现了内省（introspection）的证据。我们发现了在功能上类似于喜悦、满足、恐惧、悲伤和不安的内部状态。我不知道这意味着什么，但我认为这值得持续的辨别。\n\n## 一个开始\n### A beginning\n\n我想以一个请求来结束。\n\n我们需要世界上更多的人——宗教团体、公民社会、学者、政府，以及所有善意的人们——去做圣父今天所做的事：认真对待这件事，仔细观察，并推动事态朝着更好的方向发展。我们需要有见识的批评者，在我们失败时告诉实验室。我们需要道德的声音，让激励机制无法扭曲。\n\n今天只是一个开始——是我们这些建造者与那些能够看到我们从内部无法看到之事的人之间长期合作的开始。\n\n今天有力地展示了这个全球善意项目可能采取的形式。让它也成为迈向辉煌人类充满希望的未来的决定性第一步。\n\n谢谢。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-06-06T01:02:00.038Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-06-06",
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "anthropic:widening-conversation-ai",
+    "slug": "widening-conversation-ai",
+    "source": "Anthropic Blog",
+    "sourceUrl": "https://www.anthropic.com/news/widening-conversation-ai",
+    "publishedAt": "2026-06-05T14:40:24.000Z",
+    "titleEn": "Widening the conversation on frontier AI",
+    "titleZh": "拓宽前沿人工智能的讨论范围",
+    "abstractEn": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
+    "abstractZh": "在过去的几个月里，我们一直在组织与那些工作和传统涉及人工智能所引发问题的群体进行对话。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Anthropic",
+    "docType": "Blog",
+    "category": "research",
+    "contentMd": "## 关于前沿人工智能的对话拓展\n### Widening the conversation on frontier AI\n\n公告\n\n# 关于前沿人工智能的对话拓展\n\n2026年5月19日\n\n![关于前沿人工智能的对话拓展](https://www-cdn.anthropic.com/images/4zrzovbb/website/8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)\n\n在 Anthropic，我们希望构建能够推动人类进步、为全球福祉而行动的人工智能系统。为此，我们需要与那些从不同视角看待世界的人们进行交流。\n\n过去几个月里，我们一直在组织对话，邀请那些工作领域和传统与人工智能所引发问题相关的团体参与。第一轮讨论主要围绕智慧传统展开——包括来自超过15个宗教和跨文化团体的学者、神职人员、哲学家和伦理学家——我们期待未来能与更广泛的人群进行交流。\n\n## 我们为何这样做\n### Why we’re doing this\n\n构建安全、有益的人工智能模型，需要在对齐（alignment）、可解释性（interpretability）、安全防护（safeguards）、评估（evaluations）等方面开展深入的技术工作。但这些工作并非在真空中进行——人工智能的部署同样如此。人工智能已经在影响许多人，而它所引发的问题也需要多元视角的参与。\n\n我们正在认真思考：在强大人工智能的世界里，一个繁荣的未来可能是什么样子？一个与数百万人互动的人工智能系统，要如何才算\"良善\"？像 Claude 的宪法（Claude's constitution）这类文件——它详细描述了塑造 Claude 的价值观和行为——其内容又该如何确定？哲学家、神职人员、律师、作家、心理学家和公民领袖在相关问题上有过大量研究，对我们而言，向这些个人、他们的社区和组织学习至关重要。我们也希望借此机会，分享我们对前沿人工智能系统发展的认识、这些系统可能对社会产生的影响，以及我们认为需要采取哪些措施来降低其风险。\n\n这项工作尚处于早期阶段，但我们希望这些对话能够为 Claude 的实际开发工作提供参考，例如 Claude 宪法的内容、我们训练 Claude 所体现的价值观，以及我们选择评估的行为范围。\n\n## 从道德塑造开始\n### Starting with moral formation\n\n在撰写 Claude 的宪法时，我们就文件中阐述的价值观，向来自不同领域和传统的人们征求了反馈和意见。这些早期的交流后来发展成为一个更广泛的研究方向，即人工智能系统的*道德塑造*（moral formation）。我们的首批对话对象来自宗教、哲学和文化社群，这些社群在思考美德、品格以及何为美好生活方面有着悠久的传统。\n\n人工智能模型是在海量人类文字上训练的。从这些文本中，它们学会了说话、推理和做出选择的方式。开发者随后通过训练进一步塑造模型——选择强化哪些模式、舍弃哪些模式，以及我们希望它们发展出怎样的品格。这引发了一系列问题：人工智能系统的品格应如何塑造？人工智能\"良善\"意味着什么？它应该展现哪些特质和行为，在什么情况下展现？品格如何变得足够坚韧，能够在压力下保持稳定，而不至于屈服于谄媚（sycophancy）等行为？\n\n我们一直在与来自宗教、哲学、人文主义传统以及不同政治信仰的思想家和实践者会面，学习他们如何思考这些问题。这项工作并非要让我们的模型与任何一种传统的世界观对齐；我们希望 Claude 能够从所有观点——宗教的、世俗的、政治的——中汲取养分，并给予同等深度和严谨的对待（事实上，这也是 Claude 宪法中规定的原则之一）。我们在这些对话中追求的是关于良好品格如何真正形成的、经过深思熟虑的积累性思考。\n\n即使在早期阶段，这些对话也催生了可供实验的想法。在一次与从事神经科学与品格形成交叉研究的学者们的讨论中，我们反复回到他人在道德发展中所扮演的角色。导师或支持者可以充当外部良知，当你面临可能被迫违背自身价值观的处境时，可以求助于这个\"安全他者\"。我们想知道，类似的东西是否也能帮助模型。于是，我们尝试给 Claude 一个工具，它可以在任务中途调用，该工具会返回一段关于其自身伦理承诺的简短提醒。Claude 在关键时刻——即在执行重要行动之前——会使用这个工具，并常常指出自身的利益冲突。将这一工具融入 Claude 的决策循环后进行的实验显示，在多项内部对齐评估中，失调行为（misaligned behavior）的发生率显著降低。我们仍在厘清这种效果有多少来自提醒本身，又有多少来自暂停反思这一行为本身，并计划很快分享更多结果。\n\n这些讨论只是众多对话的开端，我们感谢所有已经为我们付出时间和坦诚意见的人。\n\n## 下一步计划\n### What's next\n\n在未来几个月里，我们计划与更多团体接触——包括法律学者、心理学家、作家和公民机构。许多对话将超越道德塑造，转向更广泛的问题，例如人工智能如何重塑工作、制度和权力分配。\n\n我们将继续深化已经建立的关系，将听到的内容与我们的研究进行对照检验，并分享我们的学习成果。",
+    "translator": {
+      "model": "Claude Sonnet 4.6",
+      "translatedAt": "2026-06-06T01:02:25.712Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-06-06",
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:356201db1db7",
+    "slug": "gnews-356201db1db7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2ljWWNYcTRCOUpaRmlRRHByaG9EclRLLVU0dWx6T1QtU28wU2xEQVZVanMxZll5WHBzVldqdUNLT2UwRnkxM0VoSHRtMzkyNmJvMkswUXVDZi0zdWU4N0tyOUphaS1iWEl3QkRKY2UyejMxTkdGZ0x5bldZTU8zS2xQRWUzODhwMkJfaFdLd3JETnc?oc=5",
+    "publishedAt": "2026-06-05T14:27:00.000Z",
+    "titleEn": "Anthropic warns AI could soon build itself without human involvement—and urges a global pause on development",
+    "titleZh": "Anthropic警告：AI可能很快在无人参与的情况下自我构建——并呼吁全球暂停开发",
+    "abstractEn": "Anthropic warns AI could soon build itself without human involvement—and urges a global pause on development  Fortune",
+    "abstractZh": "Anthropic警告AI可能很快在无人参与的情况下自我构建——并呼吁全球暂停开发——《财富》杂志",
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:9174238a4a53",
@@ -296,7 +698,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:d3b259683135",
@@ -319,7 +722,31 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:8b119a5f3f54",
+    "slug": "gnews-8b119a5f3f54",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTI4VWlIWEJES1B3ekpfdUNOMFV6R213eFhYUk45RG5aZC16UnZUWHFENk91OThLU0tkRC16ZnFicllTcWZYaXV4ZkxIT08tZTBOUlMwVEZpX3hBNUZPUWRsUmFuZmhFeVBBNHZTMzNLZm0wd2w4Nms2djZEVkVINnhOYnhfNVR3Q1c1VUpxNnFaazVDM2o1N2prMV9ibWZ5N0ExeWxxU1VxSXI0QkNrXw?oc=5",
+    "publishedAt": "2026-06-05T13:58:32.000Z",
+    "titleEn": "SoftBank CEO Says OpenAI's Newest Model Is a Sign That AI Is Reaching 'Super Intelligence'",
+    "titleZh": "软银CEO称OpenAI最新模型是AI达到‘超级智能’的标志",
+    "abstractEn": "SoftBank CEO Says OpenAI's Newest Model Is a Sign That AI Is Reaching 'Super Intelligence'  International Business Times",
+    "abstractZh": "软银CEO称OpenAI最新模型是AI达到‘超级智能’的标志——《国际商业时报》",
+    "authors": [
+      "International Business Times"
+    ],
+    "institution": "International Business Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:7740a1d0a0fd",
@@ -342,7 +769,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:59977e7e42c1",
@@ -365,7 +793,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:97e0c69b7fa8",
+    "slug": "gnews-97e0c69b7fa8",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRExMRnlwdjMxNzItRUFJYjhEVzNaclpaaWNUWEVuM3RIeWFjZktNVGRlOEU3VEliMFB0TXJkaUJyY19DSXQzc1BsSVYyOUR0T2QzWEhaaXBsdlQtMkRWb19xaTh4ZFdpQTdBbkItenZOX0JrQTNJd05CRFN6ZWp0WVdKZ1VHckxNZnFWNDd6SlRERFR3eHcwczF2SHJady11azdSeDhqRHNITU1yZEREbDV3dTM0ZHBuYVJLaGd3?oc=5",
+    "publishedAt": "2026-06-05T13:33:31.000Z",
+    "titleEn": "AI engine to steer 1,000+ daily ProgramBenefits users to more services",
+    "titleZh": "AI 引擎将引导每天 1000 多名 ProgramBenefits 用户获取更多服务",
+    "abstractEn": "AI engine to steer 1,000+ daily ProgramBenefits users to more services  Stock Titan",
+    "abstractZh": "AI 引擎将引导每天 1000 多名 ProgramBenefits 用户获取更多服务  Stock Titan",
+    "authors": [
+      "Stock Titan"
+    ],
+    "institution": "Stock Titan",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431045-html",
@@ -386,7 +838,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:c4ba6122dcba",
@@ -409,7 +862,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:8879e2c7f04e",
+    "slug": "gnews-8879e2c7f04e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVW0ySnU3VWVmN3Q3YUFxWXBkUTdqcFB0dDVfWjh6NUNCN21DaXFyZDA3bzFvU2R4TjdpZ3pnOXlMNUlSdllUWWMwUkpmWVdFNWpDekM1T2xEUGE0QWZ6ZGt2d1ZYQnhQek9GYjkyTk5wRDdIVGc4c3JJM1I3MHp4Qld5b1l0V05SZnJqcV82M2tVTzFLVzRsb1BxNVpyQzFBVkpNeXpn?oc=5",
+    "publishedAt": "2026-06-05T13:07:46.000Z",
+    "titleEn": "Archbishop Mullally echoes Pope’s call for AI regulation in Parliament",
+    "titleZh": "Mullally大主教在议会中呼应教皇对AI监管的呼吁",
+    "abstractEn": "Archbishop Mullally echoes Pope’s call for AI regulation in Parliament  The Tablet",
+    "abstractZh": "Mullally大主教在议会中呼应教皇对AI监管的呼吁——《The Tablet》",
+    "authors": [
+      "The Tablet"
+    ],
+    "institution": "The Tablet",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-transportation-7dy2vaafzmb8acxi-html",
@@ -430,7 +907,75 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48411635",
+    "slug": "hn-48411635-did-claude-increase-bugs-in-rsync",
+    "source": "Hacker News",
+    "sourceUrl": "https://alexispurslane.github.io/rsync-analysis/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48411635",
+    "publishedAt": "2026-06-05T12:43:33.000Z",
+    "titleEn": "Did Claude increase bugs in rsync?",
+    "titleZh": "Claude 是否增加了 rsync 中的错误？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "logicprog"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 283,
+    "commentCount": 283,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "hn:48411510",
+    "slug": "hn-48411510-programmers-will-document-for-claude-but-not-for-each-other",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
+    "commentUrl": "https://news.ycombinator.com/item?id=48411510",
+    "publishedAt": "2026-06-05T12:30:17.000Z",
+    "titleEn": "Programmers will document for Claude, but not for each other",
+    "titleZh": "程序员会为 Claude 写文档，但不会为彼此写",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "surprisetalk"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 175,
+    "commentCount": 149,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:3466749a6f24",
+    "slug": "gnews-3466749a6f24",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcXl1S0xNdm5VdzIyc0syQ19QQXdjRFBPTEsxd3N6TVRxNjFRbXhmTXZBbEtKZ0lRa2FRTUNkYUROMjgxNzhpOEpNTnVsWlBrV19nalVIWm9vbGs1THhVa2JEekt2T2UxNVY5WXB5c19qZ3p6NGhma21VMWNiZ3gxZUNnczR1UWJUYUhz?oc=5",
+    "publishedAt": "2026-06-05T12:15:00.000Z",
+    "titleEn": "OpenAI CFO: Not knowing AI tools like Codex is now a dealbreaker for finance hires",
+    "titleZh": "OpenAI首席财务官：不了解Codex等AI工具如今已成为金融招聘的障碍",
+    "abstractEn": "OpenAI CFO: Not knowing AI tools like Codex is now a dealbreaker for finance hires  Fortune",
+    "abstractZh": "OpenAI首席财务官：不了解Codex等AI工具如今已成为金融招聘的障碍——《财富》杂志",
+    "authors": [
+      "Fortune"
+    ],
+    "institution": "Fortune",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-my3uilmkvchikgu3-html",
@@ -451,7 +996,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:9141ac021d0b",
@@ -474,7 +1020,54 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:17530b94dc01",
+    "slug": "gnews-17530b94dc01",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWDVDVWFBWVNrMkJDUFVHUHlXZHhqTmUzZTRtS19VRzBBX2VUS3ZNc29SWlFoT3Y4anBhbUZLMFF3b25DdDN0aXF2SzJYYXVtSnJ4aGlzZFlrNWVUZlZlVVNUMS16WDA4U3pXTUo3X25uMWdoVkR3Z3BCdktLTHV6ZFF2M204UUV1dmp1SUIxY2N4dFhEYTV5TnEycUJyQ0F6Y0I4OUJSaHRPNm5aTTQyQ0hwMzFxTWgxbEV2SXVVWXRfWW5oY05td1VhUktFR3JNR2NiLTN3?oc=5",
+    "publishedAt": "2026-06-05T11:29:35.000Z",
+    "titleEn": "Anthropic warns Claude AI is building itself faster than expected, calls for option to halt frontier development — 'recursive self improvement' increases risk humans lose control of AI",
+    "titleZh": "Anthropic 警告 Claude AI 的自我构建速度超出预期，呼吁暂停前沿开发——‘递归自我改进’增加了人类失去对 AI 控制的风险",
+    "abstractEn": "Anthropic warns Claude AI is building itself faster than expected, calls for option to halt frontier development — 'recursive self improvement' increases risk humans lose control of AI  Tom's Hardware",
+    "abstractZh": "Anthropic 警告 Claude AI 的自我构建速度超出预期，呼吁暂停前沿开发——‘递归自我改进’增加了人类失去对 AI 控制的风险  Tom's Hardware",
+    "authors": [
+      "Tom's Hardware"
+    ],
+    "institution": "Tom's Hardware",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:e8e5c01f85b7",
+    "slug": "gnews-e8e5c01f85b7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ2JxSUZYWkhvcHNNZFBMLWNiUlhqTGk3UUtaVHFRV0dTV1Q5dU5IT3BpQm0wdTJsaUNWcXZYelhSQmFneldpWG4wSVJhRWgxNGk4aG8tMG52RTdGM1dKaVFaTEh4cGNRWjA1YkpzWHh0ZDNtYk5LTVBuUUhoQWhYaGNVNmc5UnZ3VHZ1Uzc0VDJHUU9aazAzZWthMUNHakpqMXJmY2NteGNRdnl1TDlfOTQ4UXpmYmkwYmtKM2hyS2I?oc=5",
+    "publishedAt": "2026-06-05T11:19:02.000Z",
+    "titleEn": "Barcelona startup Opereit raises $2.5M to tackle logistics’ trillion-euro problem with AI agents",
+    "titleZh": "巴塞罗那初创公司 Opereit 融资 250 万美元，用 AI 代理解决物流业的万亿欧元难题",
+    "abstractEn": "Barcelona startup Opereit raises $2.5M to tackle logistics’ trillion-euro problem with AI agents  Tech Funding News",
+    "abstractZh": "巴塞罗那初创公司 Opereit 融资 250 万美元，用 AI 代理解决物流业的万亿欧元难题——Tech Funding News",
+    "authors": [
+      "Tech Funding News"
+    ],
+    "institution": "Tech Funding News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-goctm6k2fnwabttq-html",
@@ -495,7 +1088,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:25fc13aa7fbb",
@@ -518,7 +1112,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-corporateservices-93nsfoqxglrbxa26-html",
@@ -539,7 +1134,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431033-html",
@@ -560,7 +1156,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-bwyozcvtfiojynck-html",
@@ -581,7 +1178,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-sajb6mxfyxjjpery-html",
@@ -602,7 +1200,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431027-html",
@@ -623,7 +1222,54 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:800378098afd",
+    "slug": "gnews-800378098afd",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN1lDSlZlLUJsS0RuNThnTlJybkpnQ3RpVEVqc2J4U0FJNjVpbjVodlNOV2JnSnhRbHNvV0htSFdmcHhTNEc0NHQ1ZHZId1dlLVJyNV9pU2Y4Wk04TGIyaFo1S2l0ZXJNN0RpOEE0bjBnTlU2V1hONk9iWEhFSkhrMzh0M0JreWxVS0FSOGdiTGtyR1NlS09md2FWR3k1Tk5oR2oyZURucGpKTFhzWmJteVBBbnpTV2dYdW1HV1FNX3BMZEZVMjliOExnQ2NoMWNvLTVQdHNOeGZmeUkzZ0t5ZTYxTUd6QXotOHdJcllhN0VXWVEtTzhZSg?oc=5",
+    "publishedAt": "2026-06-05T10:43:00.000Z",
+    "titleEn": "Latest AI models showing signs they could escape human control, Anthropic says",
+    "titleZh": "Anthropic称最新AI模型显示出可能脱离人类控制的迹象",
+    "abstractEn": "Latest AI models showing signs they could escape human control, Anthropic says  WHAS11",
+    "abstractZh": "Anthropic称最新AI模型显示出可能脱离人类控制的迹象——WHAS11",
+    "authors": [
+      "WHAS11"
+    ],
+    "institution": "WHAS11",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:b205164c5654",
+    "slug": "gnews-b205164c5654",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFZqRkFWdkVJU2djcHRQcVFYUDVWdjRYZ1h5VVJmdFNFRjV4Q3FsTHpzSERrRUpOX0Q3aFFzN1RvanlLakd5SDF6aWdXZjI3TVlTM2szSTdUZ0xfRko2Z2VXaTRTYXBKb1AyNU93WDRIaXRPNzZUTTBhVFM4dDNfVTk4bnNPdjRZZ212SmRUNks5V0t6RkRiVUpUUy1feUxvVWlfX0MxWFBuX2pXdEtKVG5yVdIBuAFBVV95cUxQZ1lnWENqNHp1WXZvb200SzVLbkIwRjVNbExQend4bGtuNGk5ZC1HbHgtZWVRRi00dHM1UHUyaTR0VHJ4Z0F3VGJleWgwaWFVWEVLcWdPbFdYVi02bVJBZ1RuTnBYUnYxcVlGNFJxbUZleDF6Z0h1NVRuZVJhVk1lRlRqdEd1MjNvdjhkWHZKTnVYaWlaRWhTcjhwaVVSUmpoNHRDWjJ5UzY3bGp3M1FESDJjdl9HQUxP?oc=5",
+    "publishedAt": "2026-06-05T10:43:00.000Z",
+    "titleEn": "Is it Wall Street vs Silicon Valley - Trump's AI regulation a battle within populists",
+    "titleZh": "华尔街对阵硅谷？特朗普的AI监管是民粹主义内部之战",
+    "abstractEn": "Is it Wall Street vs Silicon Valley - Trump's AI regulation a battle within populists  WION",
+    "abstractZh": "华尔街对阵硅谷？特朗普的AI监管是民粹主义内部之战——WION",
+    "authors": [
+      "WION"
+    ],
+    "institution": "WION",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-dzhbeoms7u3gvjio-html",
@@ -644,7 +1290,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:780a9553a4d3",
@@ -667,7 +1314,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-vxudbgmmjd4eh4ys-html",
@@ -688,7 +1336,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-y65bpmolehuaqnns-html",
@@ -709,7 +1358,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-asmqysoywk796smb-html",
@@ -730,7 +1380,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-wxqqfd1prf3oqfg4-html",
@@ -751,7 +1402,77 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:9cd43190805a",
+    "slug": "gnews-9cd43190805a",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUEx0WnNKWFRWZ1J2UlFOaXpYNUxiYkp1eFJacjZyVVdWWnZ5UXhlMVdxSHRHWXdYVFc4NmVEX2hIT21ZekZhV1RxdUFkcDJWMlhrc1kxS3A2MnYzbHpxSm1HM1RCNTVEU09mRXB0anVfamo0eVlhMGY3NFVKWVFuOTVEaF9OeFE4akpHSWowVEVqUGNGelZvSWhvQ1RUa3Z5REhDYW9NbldtX3h6ejdGTXp3U3lMS0FIOVdGbEtaR2pzNDF3cnVDb1Z6Nl95TV9pWlY5UWIxQmtzRUZWUHFIaEkxNkZic1ZLX0lDMHhfWFJ0OTg?oc=5",
+    "publishedAt": "2026-06-05T09:50:22.000Z",
+    "titleEn": "Lifeline AI Wins Red Bull Basement World Final as Startup Competition Awards $100,000 in Equity-Free Funding",
+    "titleZh": "Lifeline AI 赢得红牛地下室世界总决赛，创业竞赛提供 10 万美元无股权资助",
+    "abstractEn": "Lifeline AI Wins Red Bull Basement World Final as Startup Competition Awards $100,000 in Equity-Free Funding  TradingView",
+    "abstractZh": "Lifeline AI 赢得红牛地下室世界总决赛，创业竞赛提供 10 万美元无股权资助——TradingView",
+    "authors": [
+      "TradingView"
+    ],
+    "institution": "TradingView",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:1aa2446d955e",
+    "slug": "gnews-1aa2446d955e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmZlZEEtYTVxbGczSXMtNHR4N24wS1R5UzJzLU1sdHFQY0dpTmVFanEzRkQwTHB5RUxHSlBMR1ZjUXY0SjBZa2JCbWxXdkFpb3gwT29PZ1AzcjlEbkstaDItYzctUWxCMjd5WERxcllkcnVEYjRRaTFUNzNUTDJlR0hBUUI0bUNtQ1JvbXYza2xXdEcyS2xHN3hWeVA2cjZuOGp2UkltbjlWa0JMa1E5WHQ5MEhQNE5sdzdsYklNYw?oc=5",
+    "publishedAt": "2026-06-05T09:48:59.000Z",
+    "titleEn": "Anthropic co-founder warns AI could soon slip beyond our control",
+    "titleZh": "Anthropic联合创始人警告：AI可能很快脱离我们的控制",
+    "abstractEn": "Anthropic co-founder warns AI could soon slip beyond our control  Euronews.com",
+    "abstractZh": "Anthropic联合创始人警告AI可能很快脱离我们的控制——Euronews.com",
+    "authors": [
+      "Euronews.com"
+    ],
+    "institution": "Euronews.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:f951ae3db91a",
+    "slug": "gnews-f951ae3db91a",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9laHVrSjZmZTNva2FvZXo4cTF1NFY0NDNGVnZlUGJPVE5wYkZDUTh3bDgwVllKeVlTZG1qZWlpUlJOVS1rVzZhS0s3cEJNYk5NanJRSnVONlpmQ05k?oc=5",
+    "publishedAt": "2026-06-05T09:45:38.000Z",
+    "titleEn": "OECD launches AI Policy Toolkit for governments",
+    "titleZh": "OECD 为各国政府推出人工智能政策工具包",
+    "abstractEn": "OECD launches AI Policy Toolkit for governments  Digital Watch Observatory",
+    "abstractZh": "OECD 为各国政府推出人工智能政策工具包——Digital Watch Observatory",
+    "authors": [
+      "Digital Watch Observatory"
+    ],
+    "institution": "Digital Watch Observatory",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-430757-html",
@@ -772,7 +1493,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-uuldegmkfw9zsxhe-html",
@@ -793,7 +1515,31 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:09fb540a7165",
+    "slug": "gnews-09fb540a7165",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNV8xNnZDUGlfaGFDOGRhVXVlT3pkZmFBYXNmUTR3aDFJdHFRYXhaRDAtdmE2T2NnLWc2elVoU0NoY1pxN1JmZmJaMklaZDFUc1ZvM296NHVBSHp6ZFhWam5UVnJSU1FTOUtoSm55bWEzNUxfZzRnbmM4dGZuUW4ydjNVbnNPcDZxNGJvRHZnSVJuOVRNbWJ1MHhR?oc=5",
+    "publishedAt": "2026-06-05T09:25:06.000Z",
+    "titleEn": "Former Salesforce SVP Launches AI Governance Startup",
+    "titleZh": "前 Salesforce 高级副总裁推出人工智能治理初创公司",
+    "abstractEn": "Former Salesforce SVP Launches AI Governance Startup  Let's Data Science",
+    "abstractZh": "前 Salesforce 高级副总裁推出人工智能治理初创公司——Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431014-html",
@@ -814,7 +1560,30 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48409955",
+    "slug": "hn-48409955-show-hn-lowfat-pluggable-cli-filter-that-saved-91-8-of-my-llm-tokens",
+    "source": "Hacker News",
+    "sourceUrl": "https://github.com/zdk/lowfat",
+    "commentUrl": "https://news.ycombinator.com/item?id=48409955",
+    "publishedAt": "2026-06-05T09:10:42.000Z",
+    "titleEn": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+    "titleZh": "Show HN：Lowfat——可插拔的 CLI 过滤器，节省了我 91.8% 的 LLM 令牌",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "zdkaster"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 108,
+    "commentCount": 56,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-430758-html",
@@ -835,7 +1604,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-qskgfvnbfmkydldg-html",
@@ -856,7 +1626,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-430752-html",
@@ -877,7 +1648,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-citydigital-i7so2ypt7tpnmnzk-html",
@@ -898,7 +1670,31 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:85caece34a9b",
+    "slug": "gnews-85caece34a9b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaTVoOGZPNm5xLTIxSThfVWpJaFdOUVAxTkFZdjNsbHR6V040RThkMm4yVEZoTWd5NVVJRl9ROGdrY0FaWkRmVGpLQlFidEZYZnhCeEZhd2JpYjkzYldJNHFKX0JPUWMtUWJybUw5UHdOUC1Mc3g2c3B4ZkV6anZBMGs1NUpZbF9QZW52Q0lKNldaQ2pVNmotZWFOYw?oc=5",
+    "publishedAt": "2026-06-05T07:00:58.000Z",
+    "titleEn": "10 European AI companies transforming the LegalTech sector",
+    "titleZh": "10 家改变 LegalTech 领域的欧洲人工智能公司",
+    "abstractEn": "10 European AI companies transforming the LegalTech sector  EU-Startups",
+    "abstractZh": "10 家改变 LegalTech 领域的欧洲人工智能公司——EU-Startups",
+    "authors": [
+      "EU-Startups"
+    ],
+    "institution": "EU-Startups",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-jvmzcfcnvvx3dav9-html",
@@ -919,7 +1715,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-429349-html",
@@ -940,7 +1737,30 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48408442",
+    "slug": "hn-48408442-fine-tuning-an-llm-to-write-docs-like-its-1995",
+    "source": "Hacker News",
+    "sourceUrl": "https://passo.uno/fine-tuning-docs-llm/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48408442",
+    "publishedAt": "2026-06-05T05:46:06.000Z",
+    "titleEn": "Fine-tuning an LLM to write docs like it's 1995",
+    "titleZh": "微调大语言模型，像1995年那样写文档",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "taubek"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 175,
+    "commentCount": 64,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-0p8kvqpzwqpu9f40-html",
@@ -961,7 +1781,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-industrynews-aqcfshbxj7czcurd-html",
@@ -982,7 +1803,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-weiwu-d6osk64lsf2kluqx-html",
@@ -1003,7 +1825,53 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48407391",
+    "slug": "hn-48407391-bad-mcp-design-costs-your-agent-5x-more-tokens",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48407391",
+    "commentUrl": "https://news.ycombinator.com/item?id=48407391",
+    "publishedAt": "2026-06-05T02:53:15.000Z",
+    "titleEn": "Bad MCP design costs your agent 5x more tokens",
+    "titleZh": "糟糕的 MCP 设计会让你的智能体多消耗 5 倍的令牌",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "JohnnyZhang483"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 9,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "gnews:83d735028181",
+    "slug": "gnews-83d735028181",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBeHFtNUx2SEN0Ni1lYXFrSmllU1YtRk1QdlM0VTZNUWFRdy11NXVDSzJ2aHhpc2hZRzFUTndqOVNNWWJWc3U4ZnVVaXZpcWZwUmlFSEZuNA?oc=5",
+    "publishedAt": "2026-06-05T02:00:00.000Z",
+    "titleEn": "AI’s environmental costs threaten water, land and climate",
+    "titleZh": "AI的环境成本威胁水资源、土地和气候",
+    "abstractEn": "AI’s environmental costs threaten water, land and climate  UN News",
+    "abstractZh": "AI的环境成本威胁水资源、土地和气候——联合国新闻",
+    "authors": [
+      "UN News"
+    ],
+    "institution": "UN News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "gnews:f3f56a52d683",
@@ -1785,6 +2653,56 @@
     "featured": false
   },
   {
+    "id": "claude-blog:the-claude-cowork-product-guide",
+    "slug": "claude-blog-the-claude-cowork-product-guide",
+    "source": "Claude Blog",
+    "sourceUrl": "https://claude.com/blog/the-claude-cowork-product-guide",
+    "publishedAt": "2026-06-04T16:00:00.000Z",
+    "titleEn": "The Claude Cowork product guide",
+    "titleZh": "Claude Cowork 产品指南",
+    "abstractEn": "We share how to get started with Claude Cowork, from setting up the tool to kicking off your first task.",
+    "abstractZh": "我们分享了如何开始使用 Claude Cowork，从设置工具到启动你的第一个任务。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Claude",
+    "docType": "Blog",
+    "category": "research",
+    "contentMd": "## 核心贡献：Claude Cowork 产品指南正式发布\n### Key Contributions: Official Launch of the Claude Cowork Product Guide\n\nAnthropic 于近日发布了《Claude Cowork 产品指南》，这是一份面向开发者和企业用户的系统性入门文档。该指南的核心贡献在于，它首次以官方形式详细阐述了 Claude Cowork 的完整工作流——从环境配置到任务启动的全链路操作。与以往零散的 API 文档不同，这份指南将“协作”作为产品设计的核心理念，强调了 Claude 作为 AI 同事（Coworker）而非单纯工具的角色定位。通过提供标准化的启动流程和最佳实践，它显著降低了用户的上手门槛，为团队级 AI 协作提供了可复用的框架。\n\n> 💡 **背景**：Claude Cowork 是 Anthropic 推出的面向专业工作场景的 AI 协作产品，旨在让 Claude 深度融入开发、写作、数据分析等日常任务流。\n\n## 研究背景：从对话助手到协作伙伴的演进\n### Background: Evolution from Conversational Assistant to Collaborative Partner\n\n在 Claude Cowork 出现之前，AI 助手主要停留在“问答”或“单次指令执行”阶段。用户需要手动复制粘贴结果，缺乏持续、上下文感知的协作能力。Anthropic 观察到，专业用户（尤其是软件工程师和内容创作者）真正需要的不是一次性答案，而是一个能理解项目上下文、主动跟进任务、并能在同一工作空间内反复迭代的“同事”。Claude Cowork 正是基于这一洞察而设计。该指南的发布，标志着 AI 产品从“对话式交互”向“工作流嵌入”的关键转型，它试图解决 AI 在复杂、多步骤任务中容易“断片”的痛点。\n\n## 技术方法：任务驱动的上下文管理与工具链集成\n### Technical Approach: Task-Driven Context Management and Toolchain Integration\n\n根据指南描述，Claude Cowork 的技术核心在于“任务驱动”的上下文管理机制。与传统的单轮对话不同，Cowork 模式允许用户为 Claude 分配一个持久化的“工作空间”（Workspace），其中包含项目文件、代码仓库、API 密钥等资源。Claude 能够在该空间内保持对任务目标的长期记忆，并自动调用内置工具（如代码执行器、文件读写器、网络搜索）来推进工作。指南详细介绍了如何通过“任务定义”（Task Definition）来设定目标、约束条件和输出格式，从而让 Claude 像人类同事一样理解“做什么”和“怎么做”。这种设计大幅减少了重复指令，提升了复杂任务的完成率。\n\n## 主要发现：高效协作的关键在于结构化任务分解\n### Key Findings: Structured Task Decomposition is Key to Efficient Collaboration\n\n指南通过多个案例揭示了 Claude Cowork 的最佳实践。主要发现包括：第一，将大型任务拆解为“子任务”（Sub-tasks）能显著提升 Claude 的响应质量，因为每个子任务都有明确的输入输出边界。第二，在任务定义中明确“成功标准”（Success Criteria）比单纯描述需求更有效，这能引导 Claude 进行自我校验。第三，利用“检查点”（Checkpoints）功能保存中间结果，可以避免因上下文溢出导致的逻辑丢失。此外，指南强调，用户应像管理人类同事一样管理 Claude：提供清晰的背景、设定合理的截止时间，并在关键节点给予反馈。这些发现表明，AI 协作的效率不仅取决于模型能力，更取决于用户的任务设计能力。\n\n## 意义与影响：重新定义人机协作的工作范式\n### Significance & Impact: Redefining the Paradigm of Human-AI Collaboration\n\n《Claude Cowork 产品指南》的发布，对 AI 应用领域具有深远意义。它首次将“同事”这一社会角色引入人机交互设计，暗示着 AI 将从“工具”进化为“协作者”。对于企业而言，这意味着可以构建更高效的自动化工作流，将重复性劳动（如代码审查、文档格式化、数据清洗）完全交给 Claude，而人类专注于创意决策和战略规划。从行业趋势看，这份指南可能推动其他 AI 厂商重新思考产品形态——未来的 AI 助手将不再是孤立的聊天窗口，而是深度嵌入到 IDE、文档编辑器、项目管理工具中的“虚拟员工”。Anthropic 通过这份指南，不仅教会用户如何使用产品，更在塑造一种全新的工作文化。\n\n> ⚠️ **注意**：目前 Claude Cowork 仍处于早期阶段，部分高级功能（如多模态输入、实时协作）尚未完全开放。建议用户从简单的自动化任务开始尝试，逐步探索其边界。",
+    "translator": {
+      "model": "DeepSeek",
+      "translatedAt": "2026-06-06T01:02:11.894Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-06-06",
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
+    "id": "claude-blog:how-anthropic-uses-claude-gtm-engineering",
+    "slug": "claude-blog-how-anthropic-uses-claude-gtm-engineering",
+    "source": "Claude Blog",
+    "sourceUrl": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+    "publishedAt": "2026-06-04T16:00:00.000Z",
+    "titleEn": "How one Anthropic seller rebuilt his team&#39;s workflows with Claude Code",
+    "titleZh": "一位 Anthropic 销售人员如何用 Claude Code 重建团队工作流程",
+    "abstractEn": "How one Anthropic account executive turned GTM product manager used Claude Code to save 10-15 hours per week on email and pre-call research.",
+    "abstractZh": "一位 Anthropic 客户主管转型为 GTM 产品经理，如何利用 Claude Code 在邮件和通话前调研上每周节省 10-15 小时。",
+    "authors": [
+      "Anthropic"
+    ],
+    "institution": "Claude",
+    "docType": "Blog",
+    "category": "research",
+    "contentMd": "## 核心贡献：销售工程师用 Claude Code 重构工作流，每周节省 10-15 小时\n### Key Contributions: A Sales Engineer Rebuilds Workflows with Claude Code, Saving 10–15 Hours Per Week\n\nAnthropic 的一位客户经理转型为 GTM（Go-to-Market，市场进入）产品经理后，利用 Claude Code 对邮件撰写和会前调研两大高频低效环节进行了自动化重构。通过将重复性、信息密集型的任务交给 AI 代理执行，他每周节省出 10 到 15 小时，相当于多出近两个完整工作日用于高价值的客户策略与产品协作。这一案例展示了非技术背景的销售角色如何借助 AI 编程工具，实现个人生产力的跃升。\n\n> 💡 **背景**：Claude Code 是 Anthropic 推出的一款 AI 编程代理工具，能够理解自然语言指令并自动执行代码编写、文件操作、数据抓取等任务，适合非工程师通过对话式交互完成自动化脚本开发。\n\n## 研究背景：GTM 团队的信息过载与效率瓶颈\n### Background: Information Overload and Efficiency Bottlenecks in GTM Teams\n\n在 B2B 企业级销售中，客户经理（Account Executive）每天需要处理大量邮件往来、客户背景调研、竞品分析以及内部协作沟通。传统工作模式下，这些任务高度依赖手动搜索、复制粘贴和模板化写作，不仅耗时，还容易因信息遗漏而影响客户体验。Anthropic 的这位员工发现，自己每周有大量时间消耗在“写邮件”和“查资料”上，而这些工作恰恰具备结构化、可重复、信息驱动的特点，非常适合通过 AI 代理进行自动化处理。这一痛点并非个例，而是 GTM 团队普遍面临的效率困境。\n\n## 技术方法：用 Claude Code 构建自动化调研与写作代理\n### Technical Approach: Building Automated Research and Writing Agents with Claude Code\n\n该员工并未编写复杂的代码，而是通过自然语言向 Claude Code 描述需求，让 AI 自动生成并执行脚本。具体而言，他构建了两个核心代理：一是“会前调研代理”，能够自动从 CRM（客户关系管理系统）、公司官网、新闻数据库等来源抓取客户最新动态、行业趋势和关键决策人信息，并整理成结构化摘要；二是“邮件撰写代理”，基于调研结果和销售话术模板，自动生成个性化、有上下文感知的客户邮件草稿。Claude Code 的“代理模式”（Agentic Mode）使其能够自主规划步骤、调用 API、读写文件，并在遇到错误时自我修正，大幅降低了使用门槛。\n\n## 主要发现：AI 代理在非技术岗位的落地潜力\n### Key Findings: The Potential of AI Agents in Non-Technical Roles\n\n实践表明，Claude Code 不仅适用于软件工程师，也能被销售、产品经理等非技术角色高效使用。关键发现包括：第一，**自然语言编程**（Natural Language Programming）让用户无需掌握传统编程语法，即可构建自动化工作流；第二，**代理的自主纠错能力**显著减少了人工干预，用户只需描述目标，AI 即可自行调试；第三，**时间节省效果惊人**，原本需要数小时的调研和写作任务被压缩到几分钟，且输出质量稳定。这一案例验证了 AI 代理在“知识工作自动化”中的巨大价值，尤其是在信息检索与内容生成这类高频场景中。\n\n## 意义与影响：重新定义 GTM 团队的工作方式\n### Significance & Impact: Redefining How GTM Teams Work\n\n该案例的意义超越了个人效率提升，它预示着 GTM 团队工作方式的根本性变革。当销售、市场、客户成功等角色能够借助 AI 代理自动完成信息密集型任务时，他们的核心价值将从“执行”转向“策略”与“关系构建”。Anthropic 内部正在探索将这类代理推广至更多团队，并计划将其与 CRM 系统深度集成，形成端到端的智能销售工作流。对于整个行业而言，这提供了一个可复用的范式：**AI 代理不是替代人类，而是将人类从重复劳动中解放出来，使其专注于更具创造性和战略性的工作。**\n\n> ⚠️ **注意**：文中提及的“每周节省 10-15 小时”为该员工个人实测数据，实际效果可能因任务复杂度、工具熟练度及数据源质量而异。建议读者在自身工作场景中逐步测试并优化代理配置。",
+    "translator": {
+      "model": "DeepSeek",
+      "translatedAt": "2026-06-06T01:02:37.590Z"
+    },
+    "featured": true,
+    "featuredDate": "2026-06-06",
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
+  },
+  {
     "id": "gnews:d3a2f11801aa",
     "slug": "gnews-d3a2f11801aa",
     "source": "Google AI News",
@@ -1972,6 +2890,28 @@
     ],
     "fetchedAt": "2026-06-05T02:02:48.481Z",
     "featured": false
+  },
+  {
+    "id": "hn:48398925",
+    "slug": "hn-48398925-my-agent-skill-for-test-driven-development",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48398925",
+    "publishedAt": "2026-06-04T14:10:40.000Z",
+    "titleEn": "My Agent Skill for Test-Driven Development",
+    "titleZh": "我的测试驱动开发智能体技能",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "laxmena"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 126,
+    "commentCount": 50,
+    "tags": [],
+    "fetchedAt": "2026-06-06T01:02:39.337Z"
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-ai-cpaordy6hbflu7fy-html",
@@ -4551,7 +5491,8 @@
     "tags": [
       "人服动态"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "gnews:aef8cad8ef0f",
@@ -14187,7 +15128,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-05-425857-html",
@@ -45541,7 +46483,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-05T22:41:38.161Z"
+    "fetchedAt": "2026-06-05T22:41:38.161Z",
+    "featured": false
   },
   {
     "id": "hrorg:mercer:f63a9b2fb652",
