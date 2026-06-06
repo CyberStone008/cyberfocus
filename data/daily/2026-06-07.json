@@ -1,0 +1,385 @@
+{
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-06T23:46:47.276Z",
+  "summary": {
+    "aiNews": [
+      "特朗普AI政策顾问Sriram Krishnan将离职，其曾塑造最具影响力的AI政策。",
+      "Meta确认数千个Instagram账户因滥用AI聊天机器人被黑客入侵。",
+      "英格兰和威尔士警方被要求停止在法庭陈述中使用AI，引发监管关注。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "智联招聘发布《中国城市人才吸引力排名：2026》，揭示人才流动趋势。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "gnews:62d3aaa5f824",
+      "slug": "gnews-62d3aaa5f824",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY19XYkFYVmEtbHhNbFdhUFlCQTdnMWc3NDdKUW8yaFMtc2Q3dkYwaUxkVXVodWJGZWJ1clNFS3YxZE43NHJmMkZoQlQ1Z1RSZnFKSWdmRXV6N2owSWpKc3A2ZnByTi1PUXp3NjhEMFRIRG1BSTdkTTR0Xy1aQXFnOFpzUzBhdzROSjFpTW10M29oalVNc0ww?oc=5",
+      "publishedAt": "2026-06-06T22:42:31.000Z",
+      "titleEn": "Top Trump artificial intelligence adviser to leave the White House",
+      "titleZh": "特朗普首席人工智能顾问将离开白宫",
+      "abstractEn": "Top Trump artificial intelligence adviser to leave the White House  The Washington Post",
+      "abstractZh": "特朗普首席人工智能顾问将离开白宫  《华盛顿邮报》",
+      "authors": [
+        "The Washington Post"
+      ],
+      "institution": "The Washington Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:zhilian:c6d6155c7501",
+      "slug": "hrorg-zhilian-c6d6155c7501",
+      "source": "智联招聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0ZYWGVBbTdqZ25aTVk2cmlCckZXaXdNVjJVZjQ1Ym5OcGdZazh2RmphbnE0Yi1PbldnaVVScTNmZkd1MzBnNVp4bmhXOFM4TTBwOFkwT2Z6NTQyUk95Q3FOay14dkVmaGJiZi01STZMSTExQlBJbTAzSFR4dUNCeDV4U0d6ak16Q1Z0WmdzZ2dVQUZRM0Y4Nw?oc=5",
+      "publishedAt": "2026-06-06T20:39:01.000Z",
+      "titleEn": "中国城市人才吸引力排名：2026",
+      "titleZh": "中国城市人才吸引力排名：2026",
+      "abstractEn": "中国城市人才吸引力排名：2026  新浪财经",
+      "abstractZh": "中国城市人才吸引力排名：2026  新浪财经",
+      "authors": [
+        "新浪财经"
+      ],
+      "institution": "新浪财经",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hn:48428647",
+      "slug": "hn-48428647-computex-2026-are-we-heading-for-the-agentic-pc-era-yet",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48428647",
+      "publishedAt": "2026-06-06T20:24:29.000Z",
+      "titleEn": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
+      "titleZh": "Computex 2026：我们是否即将迎来智能体 PC 时代？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rbanffy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 18,
+      "commentCount": 19,
+      "tags": []
+    },
+    {
+      "id": "hn:48428330",
+      "slug": "hn-48428330-ai-enthusiasts-race-against-time-skeptics-race-against-entropy",
+      "source": "Hacker News",
+      "sourceUrl": "https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against",
+      "commentUrl": "https://news.ycombinator.com/item?id=48428330",
+      "publishedAt": "2026-06-06T19:48:15.000Z",
+      "titleEn": "AI Enthusiasts Race Against Time, Skeptics Race Against Entropy",
+      "titleZh": "AI 爱好者与时间赛跑，怀疑者与熵增赛跑",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "birdculture"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:14f884fcb0ed",
+      "slug": "gnews-14f884fcb0ed",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaktTQU1HcTV1STFXX3NxZXlNVFhZNUduZ2tWM2kwY3VPdF9HNnExVm13Ym50WWhpalNWckRjV24xTnp3dmczYlNFdUdZc2xxWG1OcHNqSEtaQVVmaHpoSFFHRVlkT3NiN0ZOVjRqdzhKQmVad3NINS1iV2VqMGVwdGhrZ3hfWkM5cWdKREFFa0g4Q0FKYXNuNnp5SGZPSEVUeGhYWHB3b1VFZnFmaVFPbGZIVVZTMHJtZl9CWjNrVnbSAcABQVVfeXFMT3I0eldwZG1GLUFqNnJFdGVPeVN0TTVDa3I4VmZDZHEtdW5ma0xjU0pDMzkwUThmaVBaalRZbXhnbm94cHhUeGdMaFhXUVJFeHlqLVVEcmh2dHp5bG1LWklxbWh3R1pPR2tLbjhUZ0NUTmFQVDFtSUhaeHNEOVpkeFFWUmpDTDVxX0Q2UTVud05FOExXNEpLMHZvd2hOWTB6dmlpU05ic3ZBY1d0SnlxMTQ3M2RQMmxXdjFnUDhtcll1?oc=5",
+      "publishedAt": "2026-06-06T19:44:25.000Z",
+      "titleEn": "Trump AI policy adviser Sriram Krishnan to leave position",
+      "titleZh": "特朗普AI政策顾问Sriram Krishnan将离职",
+      "abstractEn": "Trump AI policy adviser Sriram Krishnan to leave position  South China Morning Post",
+      "abstractZh": "特朗普AI政策顾问Sriram Krishnan将离职  《南华早报》",
+      "authors": [
+        "South China Morning Post"
+      ],
+      "institution": "South China Morning Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6128758b0deb",
+      "slug": "gnews-6128758b0deb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbm9ob21iQ3MzOGZEb2lwUk1WaDJFWFM0Mm1TS3VZUlBob2x6VVZkUEdSeFRqYU5FQU5XMkl4cExucnZUTkdBOFZBdmk3Qi05OUVNOXh1dXllWElGd3Y2UEtvaVNNNm11Q2RVTU41MVFKVFJjNUl0ZmswZTFlaFJnbzdLYUFFclZKQUtTZXhNMFFMLXFfdGpCZ3FvRUEwbVh4eFNhSHZkRjNqUUF1ZUk1b0hsdw?oc=5",
+      "publishedAt": "2026-06-06T19:10:09.000Z",
+      "titleEn": "Trump AI Policy Adviser Krishnan Is Giving Up White House Role",
+      "titleZh": "特朗普AI政策顾问Krishnan将放弃白宫职务",
+      "abstractEn": "Trump AI Policy Adviser Krishnan Is Giving Up White House Role  Bloomberg.com",
+      "abstractZh": "特朗普AI政策顾问Krishnan将放弃白宫职务  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48427643",
+      "slug": "hn-48427643-meta-confirms-1000s-of-instagram-accounts-were-hacked-by-abusing-its",
+      "source": "Hacker News",
+      "sourceUrl": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48427643",
+      "publishedAt": "2026-06-06T18:35:27.000Z",
+      "titleEn": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "titleZh": "Meta 确认数千个 Instagram 账户因滥用其 AI 聊天机器人而被黑客入侵",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 336,
+      "commentCount": 124,
+      "tags": []
+    },
+    {
+      "id": "gnews:9bf38e17403f",
+      "slug": "gnews-9bf38e17403f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcWhHRUJvZndwanVwWXBlRm1ac3duRDhsLUVWVDNmejU5eWhUM2dHaUpsS0UzTFNNSHJfWnJlclhoLWREbk5fZXp0dE00VERBWEM4bm8zRUFyd01kVW1CdHdSRmtoLUtwalZLWksxZlpUS0Y4RlVrN1JQTlg4b29BVmtES09uYVM3MFpSV0paNjJnS3VjT20xc0p6aGRwZGp4UVJPZzZBVWgyUWtWeVRHUU41TU1hMFdvaHpiYTVBRlM?oc=5",
+      "publishedAt": "2026-06-06T18:29:40.000Z",
+      "titleEn": "Sriram Krishnan Departs the White House After Shaping the Most Consequential AI Policy",
+      "titleZh": "Sriram Krishnan在塑造最具影响力的AI政策后离开白宫",
+      "abstractEn": "Sriram Krishnan Departs the White House After Shaping the Most Consequential AI Policy  American Kahani",
+      "abstractZh": "Sriram Krishnan在塑造最具影响力的AI政策后离开白宫  American Kahani",
+      "authors": [
+        "American Kahani"
+      ],
+      "institution": "American Kahani",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48427592",
+      "slug": "hn-48427592-law-professors-prefer-ai-over-peer-answers",
+      "source": "Hacker News",
+      "sourceUrl": "https://law.stanford.edu/publications/law-professors-prefer-ai-over-peer-answers/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48427592",
+      "publishedAt": "2026-06-06T18:29:06.000Z",
+      "titleEn": "Law Professors Prefer AI over Peer Answers",
+      "titleZh": "法学教授更青睐 AI 而非同行答案",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "davidbarker"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:2745aec6ed07",
+      "slug": "gnews-2745aec6ed07",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT1BCU2htVnMwVUJGSjhvTEh5bFhtRkxiUW5DOXZmeWdRU1Y0QTQwQVFITnhsdktwa1JUNERwd0tocE1GUDlMbkp2SzcyZmNtcWE4NGhFUU53U1czb1VCRjlTRVVHM1M4N1ZYT1VaOGxTSXdQNFRmNURsTHdPZ3dDZlptOUNNYUY5eXJLbUNoVWR1aU5kRHlxNFVqajBScS12T0RNblZVU0tmQVBaQ0FLbTc4UUlpZmU3dnc2YnBjNzBFNXRnTERKbTdNajVyQ0J2dW1JZtIB2gFBVV95cUxOT3A0RFpqa1FKV2lYSkVjQmdMUFduVXZaTTl2Z3RtOTFsWVI1bk5sdU9GeU02SWpRaEZyZzBYS1BuR0JYUl9OODR3ZnRtcktodVBVTXFQOVFzS1pzRjY0OTdjNWh1eVJNMGR5SEEtY05YY1otWVd2LS05VWVtaGVfclJJQlBVcnZ5YmpmdjcxMjRMdWVORVYxUW5SWVpjcFc2NC1SZ2FKUWZlQ0VNUV9MOER0NzFjdTlOWUhLSktHQVNFWEZnOU1rZHgwcENHUVp3UHdUekJnNVdkdw?oc=5",
+      "publishedAt": "2026-06-06T18:15:46.000Z",
+      "titleEn": "Trump's AI policy adviser Sriram Krishnan to step down",
+      "titleZh": "特朗普 AI 政策顾问 Sriram Krishnan 将辞职",
+      "abstractEn": "Trump's AI policy adviser Sriram Krishnan to step down  India Today",
+      "abstractZh": "特朗普 AI 政策顾问 Sriram Krishnan 将辞职  《今日印度》",
+      "authors": [
+        "India Today"
+      ],
+      "institution": "India Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a3b1f473854a",
+      "slug": "gnews-a3b1f473854a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSGprN1lUTzRIUkhMOHhPeEJKYmRicnRIc1VrVWdRb2N4bDVyX2RvNzhWcGp3dS01VWNBekM2SzQwcWQ3V3Z6clpkeFl4SjkxZ1NWT1B2TDFDeGotajlGamV1dzNKamROMG9YVjdxbkxJU1RQNmJFY2RKUGhYR2tteTVlcnpRNlRHbjdCbnFhVXZYTTdXZnB5dtIBngFBVV95cUxPOXVxNERydGlaMkhYZ0pONkVSWEdqekNNdkx5TW1tR1R3aWFwS2FVaGJ1RGhaNEVwUlBHU0JGZFVwWWdNWU4wbld5Ui1ya2h2R1l1WEk5aS1keUN1TGxvT2U1c25YaDViczAyZ0IwLXE3M25kWktCemZXQ190QkoyY1U2U3FjSjVBSDJCR2M4M2gzdmpJaHJodG81c0hVZw?oc=5",
+      "publishedAt": "2026-06-06T18:03:00.000Z",
+      "titleEn": "White House AI policy adviser Krishnan to leave position",
+      "titleZh": "白宫AI政策顾问Krishnan将离职",
+      "abstractEn": "White House AI policy adviser Krishnan to leave position  CNBC",
+      "abstractZh": "白宫AI政策顾问Krishnan将离职  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fe309d941b52",
+      "slug": "gnews-fe309d941b52",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOEM1WEt6dzdoVzFCa1hpbl9ia01Idlh2LXB5LUJ3RTZLenV2Q0U5Q1UzcXZ3TDBXSms2UElJVUdJQVA1U1NKRmlMNXFpc1N0dnRfUWlKR1d1cHQyd3hWU29ydkNWSC1zcUZPS3U1REpCd21va2p6N20xUW9JczlJd1lsYUhBVnpra28xd2RTODNqLWVSdE9Hcw?oc=5",
+      "publishedAt": "2026-06-06T16:22:00.000Z",
+      "titleEn": "White House AI Policy Advisor Sriram Krishnan to Leave Position",
+      "titleZh": "白宫AI政策顾问Sriram Krishnan将离职",
+      "abstractEn": "White House AI Policy Advisor Sriram Krishnan to Leave Position  The Information",
+      "abstractZh": "白宫AI政策顾问Sriram Krishnan将离职  The Information",
+      "authors": [
+        "The Information"
+      ],
+      "institution": "The Information",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:381dab163957",
+      "slug": "gnews-381dab163957",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMjc1NUoxVEdzMFpNZXVmRWc4NlByaGR3TjlHTU83ZG5YLU9CRkZodW5TNHBLWTdQdFlyWlZSazljTENMMDIzdlBMa3lKV2xwc3VraEpvOWsxVEZVdDVLOWJnaGFHeUsyNDEzc2tRYU83MjZMYldDX2gzOVdfTTB0cGMwYllCUmpPa3lWLVpiVEU1by1nTnhZTzF3?oc=5",
+      "publishedAt": "2026-06-06T15:37:56.000Z",
+      "titleEn": "As Calls for AI Regulation Grow, Media Faces a Defining Moment",
+      "titleZh": "随着AI监管呼声高涨，媒体面临决定性时刻",
+      "abstractEn": "As Calls for AI Regulation Grow, Media Faces a Defining Moment  NAB Show",
+      "abstractZh": "随着AI监管呼声高涨，媒体面临决定性时刻  NAB Show",
+      "authors": [
+        "NAB Show"
+      ],
+      "institution": "NAB Show",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48426022",
+      "slug": "hn-48426022-police-in-england-and-wales-told-to-halt-ai-use-in-court-statements",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+      "commentUrl": "https://news.ycombinator.com/item?id=48426022",
+      "publishedAt": "2026-06-06T15:35:49.000Z",
+      "titleEn": "Police in England and Wales told to halt AI use in court statements",
+      "titleZh": "英格兰和威尔士警方被要求停止在法庭陈述中使用 AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nmstoker"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 143,
+      "commentCount": 45,
+      "tags": []
+    },
+    {
+      "id": "hn:48424674",
+      "slug": "hn-48424674-trees-to-flows-and-back-unifying-decision-trees-and-diffusion-models",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.00414",
+      "commentUrl": "https://news.ycombinator.com/item?id=48424674",
+      "publishedAt": "2026-06-06T12:59:59.000Z",
+      "titleEn": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "titleZh": "从树到流再回归：统一决策树与扩散模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rsn243"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 43,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "hn:48423995",
+      "slug": "hn-48423995-ai-cant-care",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.mooreds.com/wordpress/archives/3737",
+      "commentUrl": "https://news.ycombinator.com/item?id=48423995",
+      "publishedAt": "2026-06-06T11:46:43.000Z",
+      "titleEn": "AI Can't Care",
+      "titleZh": "AI 无法关怀",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mooreds"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "gnews:49471cb7b61c",
+      "slug": "gnews-49471cb7b61c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeGJQM080cThSN1docXFwM3BHdk05ZlBSWXZwdWo5Q2RMY2t4akNNUWpqc2RmYWhMMHdWdHUtMFBOTlNHWkhhd0s2MzhLQmJWLXRWWlJIRjFfTWd6Y0RwU20xWTZOM2UyS0xpYXRnX2JqRkZ6WWI0VHVnYnlMM0V1ZWdxNDA5Zw?oc=5",
+      "publishedAt": "2026-06-06T07:00:07.000Z",
+      "titleEn": "A.I. Companies Don’t Know What to Do With Alex Bores",
+      "titleZh": "AI 公司不知如何应对 Alex Bores",
+      "abstractEn": "A.I. Companies Don’t Know What to Do With Alex Bores  The New York Times",
+      "abstractZh": "AI 公司不知如何应对 Alex Bores  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    }
+  ]
+}
