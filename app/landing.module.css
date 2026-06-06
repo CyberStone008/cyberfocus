@@ -32,7 +32,7 @@
   inset: 0;
   background:
     linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
-    url('/hero.png') center center / auto 100vh no-repeat;
+    url('/hero.png') center center / auto 100dvh no-repeat;
 }
 
 /* ── Vignette ── */
@@ -395,4 +395,38 @@
   width: 14px;
   height: 1px;
   background: rgba(180, 180, 180, 0.2);
+}
+
+/* ── 移动端（竖屏窄屏）── 精简装饰，按钮单列居中，副标题换行不裁切 ── */
+@media (max-width: 640px) {
+  /* 隐藏在窄屏会与按钮区重叠/拥挤的装饰元素 */
+  .captionBar,
+  .taglineLeft,
+  .taglineRight,
+  .crosshair { display: none; }
+
+  /* 底部改单列、居中，按钮区贴底但留出安全区 */
+  .bottom {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 48px 16px calc(22px + env(safe-area-inset-bottom));
+    background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 48%, transparent 100%);
+  }
+
+  .bottomCenter { transform: none; gap: 8px; }
+
+  .enterBtn { padding: 15px 38px; }
+  .btnText { font-size: 16px; letter-spacing: 0.3em; }
+
+  /* 副标题：允许换行、缩小字距、限宽留边，避免横向溢出被裁切 */
+  .btnSubtitle {
+    white-space: normal;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    line-height: 1.65;
+    margin-top: 12px;
+    padding: 0 14px;
+    max-width: 90vw;
+  }
 }
