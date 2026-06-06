@@ -241,7 +241,7 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 站点是可安装 PWA。iPhone 用 **Safari**（不是微信/Chrome）打开 → 分享 → 添加到主屏幕，即得全屏 App 图标。组成：
 
-**落地页进入逻辑（记住并跳过）**：根 `/` 是赛博朋克落地页（`app/page.tsx`），点任意处/动画结束进入 `/reports`。为避免每次都要看落地页：① 落地页 mount 时写 `localStorage['cf:entered']='1'`；② 根布局 `<head>` 的 `entryRedirectScript`（同步、早于绘制）检测 `pathname==='/'` 且该标记存在 → 直接 `location.replace('/reports')`，所以**看过一次后再开根链接直接进内容**。③ manifest `start_url` 设为 `/reports`，**主屏 App 启动直达内容**、永不经过落地页。注意：该内联脚本**不要用 `&&`**（Next 会把 `&` 转义成 `&`，运算符位置会语法报错）——用嵌套 `if`。
+**落地页进入逻辑（2 秒倒计时自动进入）**：根 `/` 是赛博朋克落地页（`app/page.tsx`）。每次进入都展示约 **2 秒**（按钮下方小字倒计时「N 秒后自动进入 · 点击立即进入」），到点自动 `setFading(true)` → 淡出 → `router.push('/reports')`；**点屏幕任意处**（`onClick=enterApp`）可立即进入。`manifest start_url='/'`，PWA 启动也走这 2 秒落地页（类原生 splash）。落地页 mount 时 `router.prefetch('/reports')` 预热，跳转无感。（曾短暂用过 localStorage「记住并跳过」+ head 内联跳转脚本，已废弃。）
 
 - **`public/manifest.webmanifest`**：用**静态文件**而非 `app/manifest.ts` 动态路由——后者在 `output:export` 下会报 "force-static not configured" 构建失败。metadata 里 `manifest: "/manifest.webmanifest"` 指向它。
 - **图标**：`scripts/gen-pwa-icons.mjs` 用 sharp 从内联 SVG（聚焦/准星图案）渲染。产物：`app/icon.png`(favicon) + `app/apple-icon.png`(180, Next 自动生成 apple-touch 链接) + `public/icons/icon-{192,512}.png` + `icon-maskable-512.png`(72% 安全区)。改图标改脚本里的 SVG 后重跑。

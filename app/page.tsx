@@ -16,13 +16,18 @@ export default function LandingPage() {
   const [btnContent, setBtnContent] = useState<{ arrow: string; text: string }>({
     arrow: '▶', text: '开启未来',
   });
+  const [count, setCount] = useState(2); // auto-enter countdown
 
-  /* Prefetch the entry page; mark that this visitor has seen the landing so future
-     visits to "/" skip straight to the content (see entryRedirectScript in layout). */
+  /* Prefetch the entry page so the jump is instant. */
+  useEffect(() => { router.prefetch('/reports'); }, [router]);
+
+  /* Auto-enter: show the landing ~2s with a visible countdown, then fade out and
+     navigate. Tapping anywhere (enterApp) still enters immediately. */
   useEffect(() => {
-    router.prefetch('/reports');
-    try { localStorage.setItem('cf:entered', '1'); } catch { /* ignore */ }
-  }, [router]);
+    const tick = setInterval(() => setCount((c) => Math.max(1, c - 1)), 1000);
+    const go   = setTimeout(() => setFading(true), 2000);
+    return () => { clearInterval(tick); clearTimeout(go); };
+  }, []);
 
   /* Navigate after fade-out completes */
   useEffect(() => {
@@ -141,7 +146,9 @@ export default function LandingPage() {
             <span className={styles.btnArrow}>{btnContent.arrow}</span>
             <span className={styles.btnText}>{btnContent.text}</span>
           </button>
-          <div className={styles.btnLabel}>FOCUS IS CONTROL</div>
+          <div className={styles.btnLabel}>
+            {accessing || fading ? '进入中…' : `${count} 秒后自动进入 · 点击立即进入`}
+          </div>
           <div className={styles.btnSubtitle}>真正的自由，不是看见一切，而是知道什么不值得看</div>
         </div>
 

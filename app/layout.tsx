@@ -35,18 +35,6 @@ const themeScript = `(function(){
   }
 })();`;
 
-// 落地页「记住并跳过」：访客看过一次落地页后，再开根链接直接进内容。
-// 同步执行（早于绘制），避免闪一下落地页。仅作用于根路径。
-const entryRedirectScript = `(function(){
-  try {
-    if (location.pathname === '/') {
-      if (localStorage.getItem('cf:entered') === '1') {
-        location.replace('/reports');
-      }
-    }
-  } catch(e){}
-})();`;
-
 export default function RootLayout({
   children,
 }: {
@@ -58,7 +46,6 @@ export default function RootLayout({
         {/* Legacy iOS standalone flag — Next emits the modern `mobile-web-app-capable`
             but older iOS needs the apple-prefixed one for full-screen home-screen mode. */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <script dangerouslySetInnerHTML={{ __html: entryRedirectScript }} suppressHydrationWarning />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} suppressHydrationWarning />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
