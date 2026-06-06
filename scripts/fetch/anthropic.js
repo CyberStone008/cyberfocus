@@ -62,6 +62,13 @@ async function fetchSitemapUrls() {
 const CANDIDATE_LASTMOD_DAYS = 7;  // pre-filter by sitemap lastmod (broad)
 const MAX_CANDIDATES = 25;         // cap pages fetched per run (avoid timeout)
 
+// Important Anthropic posts NOT in sitemap.xml (e.g. the /institute/ section,
+// which Anthropic hasn't sitemapped). Fetched + translated like any blog post;
+// bypass the lastmod/recency filters. Add a URL here to force-capture a post.
+const EXTRA_URLS = [
+  'https://www.anthropic.com/institute/recursive-self-improvement',
+];
+
 export async function fetchAnthropic(processedIds) {
   try {
     console.log('[anthropic] Fetching sitemap...');
@@ -69,15 +76,20 @@ export async function fetchAnthropic(processedIds) {
     console.log(`[anthropic] Found ${all.length} news URLs in sitemap`);
 
     // Only recent-by-lastmod, newest first, capped — so we fetch a handful, not 40+
-    const candidates = all
+    const sitemapCandidates = all
       .filter((e) => e.lastmod && isRecentBJ(e.lastmod, CANDIDATE_LASTMOD_DAYS))
       .sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod))
       .slice(0, MAX_CANDIDATES);
-    console.log(`[anthropic] ${candidates.length} recent candidates (lastmod ≤ ${CANDIDATE_LASTMOD_DAYS}d)`);
+    // Force-include EXTRA_URLS (not in sitemap); they bypass the recency filter below.
+    const candidates = [
+      ...EXTRA_URLS.map((loc) => ({ loc, lastmod: new Date().toISOString(), extra: true })),
+      ...sitemapCandidates,
+    ];
+    console.log(`[anthropic] ${sitemapCandidates.length} recent candidates (lastmod ≤ ${CANDIDATE_LASTMOD_DAYS}d) + ${EXTRA_URLS.length} extra`);
 
     const results = [];
 
-    for (const { loc: url, lastmod } of candidates) {
+    for (const { loc: url, lastmod, extra } of candidates) {
       if (results.length >= MAX_NEW) break;
 
       const slug = slugFromUrl(url);
@@ -100,8 +112,9 @@ export async function fetchAnthropic(processedIds) {
         const dateStr = extractDate(html) || lastmod;
 
         if (!title) continue;
-        // Genuinely new: real publish date within 3 days (filters re-touched old posts)
-        if (!isRecentBJ(dateStr, 3)) continue;
+        // Genuinely new: real publish date within 3 days (filters re-touched old posts).
+        // EXTRA_URLS bypass this — they're hand-picked, may be older.
+        if (!extra && !isRecentBJ(dateStr, 3)) continue;
 
         results.push({
           id: canonicalId,
