@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo, useRef, useCallback } from 'react';
-import Link from 'next/link';
 import { Article } from '../types/article';
 import { getDateKey, todayKey, yesterdayKey, daysAgoFromKey } from '../lib/date';
 import styles from './PodcastFeed.module.css';
@@ -33,14 +32,16 @@ function EpisodeCard({ ep }: { ep: Episode }) {
   const showEngTitle = ep.titleZh && ep.titleEn && ep.titleZh !== ep.titleEn;
   const excerpt      = (ep.abstractZh ?? ep.abstractEn ?? '').trim().slice(0, 140);
   const hasAnalysis  = !!ep.contentMd && !!ep.slug;
+  // Card click → the 解读 detail page when it exists; otherwise the original audio.
+  const detailHref   = hasAnalysis ? `/podcast/${ep.slug}` : null;
 
   return (
     <div className={styles.card}>
       {/* Invisible stretched link for the whole card */}
       <a
-        href={ep.sourceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
+        href={detailHref ?? ep.sourceUrl}
+        target={detailHref ? undefined : '_blank'}
+        rel={detailHref ? undefined : 'noopener noreferrer'}
         className={styles.cardLink}
         aria-label={title}
       />
@@ -55,29 +56,6 @@ function EpisodeCard({ ep }: { ep: Episode }) {
           <span className={styles.durationBadge}>⏱ {ep.duration}</span>
         )}
         <span className={styles.cardDate}>{getDateKey(ep.publishedAt)}</span>
-
-        {/* Action buttons — sit above the stretched link */}
-        <span className={styles.cardActions}>
-          {hasAnalysis ? (
-            <Link
-              href={`/podcast/${ep.slug}`}
-              className={`${styles.actionBtn} ${styles.actionBtnView}`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              查看解读 →
-            </Link>
-          ) : (
-            <a
-              href={ep.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${styles.actionBtn} ${styles.actionBtnListen}`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              收听原版 →
-            </a>
-          )}
-        </span>
       </div>
 
       {/* Content */}
