@@ -1,5 +1,116 @@
 [
   {
+    "id": "gnews:9fe173212073",
+    "slug": "gnews-9fe173212073",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORlgtUUQ1S0JGS25iMU42dnl4WlRUYzhRaVJycHBoMkdaZkp3bkRJcXZ2RGZlUWxKLW9tdW9XVmFQVG40N25mUU50VlVtbVBjS3VWNEY4ZHlHbWxuTVdBZHhPSlM1QmZtdHB6UFBmYWFIVXV4MGJCZXRYTkdlZkpJT25IelJBWkEzOEY2MElMOHoxcUM3emNiTnFkN0VzM3ViTnFwWkhwcWVBTFdaaEpDTUNmN0JueFBsa3BWbU1pa2VzUU5u?oc=5",
+    "publishedAt": "2026-06-06T08:27:45.000Z",
+    "titleEn": "Indian AI Startup Innefu Labs Raises $30 Million to Advance Sovereign AI for National Security",
+    "titleZh": "印度 AI 初创公司 Innefu Labs 融资 3000 万美元，推动国家安全领域的主权 AI 发展",
+    "abstractEn": "Indian AI Startup Innefu Labs Raises $30 Million to Advance Sovereign AI for National Security  CXO Digitalpulse",
+    "abstractZh": "印度 AI 初创公司 Innefu Labs 融资 3000 万美元，推动国家安全领域的主权 AI 发展（来源：CXO Digitalpulse）",
+    "authors": [
+      "CXO Digitalpulse"
+    ],
+    "institution": "CXO Digitalpulse",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
+  },
+  {
+    "id": "gnews:17f840da6d3b",
+    "slug": "gnews-17f840da6d3b",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTXUwYUp0UmNUVVhKcTNYeVRxNGhZZ0VCMGlGNVRabm8yWjBrX2E0dk03QTBiamRVNmpxOHBiS3ZGQVlaVkZVX2V0YUpQb01DczlMUThZSHVfQUM5Z05NUy01ck5Ba2pQV05fVXhZeDZUTFdUSTJkdXM2OVlDZV8wTmU1b3JWWXpiajNlY1FvY2ZqRGMxVk9xWU0wd0Njd0E5bmlHaWRyeVVfZHZINXc?oc=5",
+    "publishedAt": "2026-06-06T07:40:00.000Z",
+    "titleEn": "Humanity still has choice in frontier AI’s future, says Ex-OpenAI CTO",
+    "titleZh": "前 OpenAI CTO 表示：人类在前沿 AI 的未来中仍有选择权",
+    "abstractEn": "Humanity still has choice in frontier AI’s future, says Ex-OpenAI CTO  The News International",
+    "abstractZh": "前 OpenAI CTO 表示：人类在前沿 AI 的未来中仍有选择权（来源：The News International）",
+    "authors": [
+      "The News International"
+    ],
+    "institution": "The News International",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-06-431287-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/06/431287.html",
+    "publishedAt": "2026-06-06T07:15:13.000Z",
+    "titleEn": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
+    "titleZh": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
+    "abstractEn": "观众投币定前十！",
+    "abstractZh": "观众投币定前十！",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-06-431349-html",
+    "slug": "hinton-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/06/431349.html",
+    "publishedAt": "2026-06-06T07:08:15.000Z",
+    "titleEn": "Hinton吹哨了：AI已经有意识！",
+    "titleZh": "Hinton吹哨了：AI已经有意识！",
+    "abstractEn": "人类得接受自己不再是唯一智能生命体",
+    "abstractZh": "人类得接受自己不再是唯一智能生命体",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
+  },
+  {
+    "id": "gnews:171f845d7630",
+    "slug": "gnews-171f845d7630",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX3FDR200WmdjX2c4ckFrRGNyWmdjZnJGejRXQ3NZR1NIcjYtdzVoZ3ZWNXlJWHhrWERaRXZGb2tobGFNWGFJWFcxemVaYkp1andyM0piTXBNd3F1RUhzSi1BU1dUbDc4WXVfS3I2Qmc2R2wwOU1GYTJLUVdhR2pYanpldnlrRzQtMUI2a19HVnVTcWlObmd5Mi1LdVd6Z0xVZkVCcXRGaUk4eXRNM19kNVVHTlQzX3c3ajAxS2QybzVFVm1uRmUtR2hsSnpFMDZkeVc1ckZJOENtQXRwM1h3WmNR0gHiAUFVX3lxTE9fcUNHbTRaZ2NfZzhyQWtEY3JaZ2NmckZ6NFdDc1lHU0hyNi13NWhndlY1eUlYeGtYRFpFdkZva2hsYU1YYUlYVzF6ZVpiSnVqd3IzSmJNcE13cXVFSHNKLUFTV1RsNzhZdV9LcjZCZzZHbDA5TUZhMktRV2FHalhqemV2eWtHNC0xQjZrX0dWdVNxaU5uZ3kyLUt1V3pnTFVmRUJxdEZpSTh5dE0zX2Q1VUdOVDNfdzdqMDFLZDJvNUVWbW5GZS1HaGxKekUwNmR5VzVyRkk4Q21BdHAzWHdaY1E?oc=5",
+    "publishedAt": "2026-06-06T05:23:48.000Z",
+    "titleEn": "Funding and acquisitions in Indian startups this week [June 1 - June 6]",
+    "titleZh": "本周印度初创企业融资与收购动态 [6月1日 - 6月6日]",
+    "abstractEn": "Funding and acquisitions in Indian startups this week [June 1 - June 6]  Entrackr",
+    "abstractZh": "本周印度初创企业融资与收购动态 [6月1日 - 6月6日]（来源：Entrackr）",
+    "authors": [
+      "Entrackr"
+    ],
+    "institution": "Entrackr",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
+  },
+  {
     "id": "hn:48421508",
     "slug": "hn-48421508-ask-hn-does-robotics-capabilities-research-accelerate-agi-timelines",
     "source": "Hacker News",
@@ -19,7 +130,8 @@
     "score": 3,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hn:48421442",
@@ -41,7 +153,8 @@
     "score": 232,
     "commentCount": 60,
     "tags": [],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:7fcc134c4ce9",
@@ -64,7 +177,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hn:48421156",
@@ -86,7 +200,8 @@
     "score": 6,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hn:48421145",
@@ -108,7 +223,8 @@
     "score": 43,
     "commentCount": 21,
     "tags": [],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431056-html",
@@ -129,7 +245,8 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "anthropic:recursive-self-improvement",
@@ -318,7 +435,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:1e6be0a16f8f",
+    "slug": "gnews-1e6be0a16f8f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzF4T3N5S2RhdEh1MzhhMl9uYnB2Tm1IS2NJZkRDOW9USFFvY2RzQmcxcmZPMng2WEJtRXU1VE5JalhxRk12RWpHOWpUZmNaQjZsMkZLWlB2NGUzRTlRaWFJSE5jR0Fzb1d5QUxMZTY1MU1HTWUzZ3ZmNXNYZFJXRlBpREtnTzA1bmlpOXBsQVpSRVNMR1lud3BOWDBmN0hUazY4eEgwT3NjdEFxcmNnanhB?oc=5",
+    "publishedAt": "2026-06-05T21:02:29.000Z",
+    "titleEn": "Apollo Wraps Up $35 Billion Debt to Buy AI Chips for Anthropic",
+    "titleZh": "Apollo 完成 350 亿美元债务融资，为 Anthropic 购买 AI 芯片",
+    "abstractEn": "Apollo Wraps Up $35 Billion Debt to Buy AI Chips for Anthropic  Bloomberg.com",
+    "abstractZh": "Apollo 完成 350 亿美元债务融资，为 Anthropic 购买 AI 芯片（来源：Bloomberg.com）",
+    "authors": [
+      "Bloomberg.com"
+    ],
+    "institution": "Bloomberg.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T09:34:58.672Z"
   },
   {
     "id": "gnews:c247f7ee2430",
@@ -341,7 +482,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hn:48417916",
@@ -627,7 +769,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:ddcf293e519c",
@@ -722,7 +865,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:4784d5c303d2",
@@ -912,7 +1056,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:2afd99408d92",
@@ -1158,7 +1303,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:6ecb578ceea1",
@@ -1181,7 +1327,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "gnews:69323cd6e00d",
@@ -2543,7 +2690,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hn:48409955",
@@ -47591,7 +47739,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-06T07:31:45.632Z"
+    "fetchedAt": "2026-06-06T07:31:45.632Z",
+    "featured": false
   },
   {
     "id": "hrorg:recruit:97ae454c83a4",
