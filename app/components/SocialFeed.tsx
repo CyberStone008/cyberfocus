@@ -139,12 +139,20 @@ export function SocialFeed({ articles, archiveHref }: Props) {
   }, [activeDate]);
 
   function jumpToDate(dateKey: string) {
-    const el   = document.getElementById(`sdate-${dateKey}`);
+    const el = document.getElementById(`sdate-${dateKey}`);
+    if (!el) return;
     const feed = feedRef.current;
-    if (!el || !feed) return;
-    const feedRect = feed.getBoundingClientRect();
-    const elRect   = el.getBoundingClientRect();
-    feed.scrollTo({ top: feed.scrollTop + (elRect.top - feedRect.top) - 16, behavior: 'smooth' });
+    // Desktop: .feed scrolls internally. Mobile: the page (window) scrolls —
+    // .appContent is overflow:visible there, so .feed isn't a scroll container
+    // and feed.scrollTo() is a no-op. Detect which element actually scrolls.
+    if (feed && feed.scrollHeight - feed.clientHeight > 4) {
+      const feedRect = feed.getBoundingClientRect();
+      const elRect   = el.getBoundingClientRect();
+      feed.scrollTo({ top: feed.scrollTop + (elRect.top - feedRect.top) - 16, behavior: 'smooth' });
+    } else {
+      const top = window.scrollY + el.getBoundingClientRect().top - 64;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    }
   }
 
   return (
