@@ -574,6 +574,8 @@ function ReportCard({
     a.contentMd ? 'done' : 'idle'
   );
   const [slug, setSlug] = useState<string>(a.slug);
+  // Card click → the 解读 detail page when it exists; otherwise the original source.
+  const detailHref = genState === 'done' && slug ? `/articles/${slug}` : null;
 
   async function handleGenerate(e: React.MouseEvent) {
     e.preventDefault();
@@ -604,9 +606,9 @@ function ReportCard({
   return (
     <div className={styles.card}>
       <a
-        href={a.sourceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
+        href={detailHref ?? a.sourceUrl}
+        target={detailHref ? undefined : '_blank'}
+        rel={detailHref ? undefined : 'noopener noreferrer'}
         className={styles.cardLink}
         aria-label={title}
       />
@@ -632,11 +634,13 @@ function ReportCard({
           <span className={styles.cardAction}>
             {genState === 'done' ? (
               <a
-                href={`/articles/${slug}`}
+                href={a.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`${styles.actionBtn} ${styles.actionBtnView}`}
                 onClick={(e) => e.stopPropagation()}
               >
-                查看解读 →
+                查看原文 →
               </a>
             ) : !IS_PUBLIC ? (
               <button
