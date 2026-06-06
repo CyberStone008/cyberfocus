@@ -2,7 +2,7 @@
   "name": "CyberFocus · AI 研究速览",
   "short_name": "CyberFocus",
   "description": "自动聚合 AI 前沿研究、顶级博客、播客与人服机构动态的中文速览。",
-  "start_url": "/",
+  "start_url": "/reports",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",

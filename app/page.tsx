@@ -17,8 +17,12 @@ export default function LandingPage() {
     arrow: '▶', text: '开启未来',
   });
 
-  /* Prefetch the entry page during the landing animation so it's instant on click. */
-  useEffect(() => { router.prefetch('/reports'); }, [router]);
+  /* Prefetch the entry page; mark that this visitor has seen the landing so future
+     visits to "/" skip straight to the content (see entryRedirectScript in layout). */
+  useEffect(() => {
+    router.prefetch('/reports');
+    try { localStorage.setItem('cf:entered', '1'); } catch { /* ignore */ }
+  }, [router]);
 
   /* Navigate after fade-out completes */
   useEffect(() => {
@@ -49,7 +53,8 @@ export default function LandingPage() {
   return (
     <div
       className={styles.root}
-      style={{ transition: 'opacity 0.65s ease', opacity: fading ? 0 : 1 }}
+      onClick={enterApp}
+      style={{ transition: 'opacity 0.65s ease', opacity: fading ? 0 : 1, cursor: 'pointer' }}
     >
       {/* Background layers */}
       <div className={styles.hero} />
