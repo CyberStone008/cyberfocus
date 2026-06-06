@@ -105,6 +105,8 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 
 **任何自建 LLM client 的脚本必须 DeepSeek 优先**：写法一律 `const client = isDeepSeekMode() ? deepseekClient : isCliMode() ? claudeCliClient : new Anthropic(...)`。曾出事：`daily-digest.js`、`translate-daily.js` 漏了 DeepSeek 分支 → `run-daily.sh` 的 `USE_CLAUDE_CLI=1` 把它们路由到**未登录的 claude CLI** → 每天静默失败。已加 `npm run check:backends`（`scripts/check-backends.mjs`）做回归体检：扫出任何"自建 client 调 `messages.create` 却无 `isDeepSeekMode`"的脚本就报错（`claude-cli.js` 例外，它本身是 CLI client 实现）。新增生成型脚本后跑一次。
 
+**标签也要反映真实后端**：写 `translator.model` 这类**展示标签**时同样用 `isDeepSeekMode() ? 'DeepSeek' : ...` 动态判断，**别写死**。曾出事：`full-content.js`（Anthropic/OpenAI 博客全文翻译）client 用的是 DeepSeek，却把 `translator.model` 写死成 `'Claude Sonnet 4.6'` → 文章页「翻译：Claude Sonnet」误导（实为 DeepSeek 翻译）。`check:backends` 只查 client、不查标签，注意人工核对。另：`run-daily.sh` 注的 `USE_CLAUDE_CLI=1` 是历史遗留、已无意义（DeepSeek 优先级在它之前），不必理会。GitHub Actions 云端兜底需在仓库 Secrets 配 `DEEPSEEK_API_KEY`，否则云端跑批会退回 Claude。
+
 ### AI 内容过滤：必须用 word-boundary 正则，禁止 `includes('ai')`
 
 凡是按关键词过滤"AI 相关"内容的 fetcher（HN、Reddit、Google News、爬虫、未来新增源），**关键词匹配一律走单词边界正则**，不要用朴素 `includes()`。

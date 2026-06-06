@@ -61,7 +61,7 @@ ${sourceMarkdown}
 直接输出翻译后的 Markdown，不要包裹在代码块里，不要添加 frontmatter，不要添加任何解释文字。第一行应当是以 \`## \` 开头的中文章节标题。`;
 
   const response = await client.messages.create({
-    model: 'claude-sonnet-4-6',
+    model: 'claude-sonnet-4-6', // ignored by deepseekClient (uses deepseek-chat); only used by the Anthropic fallback
     max_tokens: 16000,
     messages: [{ role: 'user', content: prompt }],
   });
@@ -71,7 +71,9 @@ ${sourceMarkdown}
   return {
     contentMd: translatedMd,
     translator: {
-      model: 'Claude Sonnet 4.6',
+      // Reflect the ACTUAL backend — was hardcoded 'Claude Sonnet 4.6' even when
+      // DeepSeek did the translation, so Anthropic/OpenAI blog 全文 mislabeled.
+      model: isDeepSeekMode() ? 'DeepSeek' : isCliMode() ? 'Claude CLI' : 'Claude Sonnet 4.6',
       translatedAt: new Date().toISOString(),
     },
   };
