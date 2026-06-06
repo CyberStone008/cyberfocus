@@ -1,10 +1,10 @@
 name: Update Papers & Deploy
 
 on:
-  # Fallback: runs on GitHub when Mac is off (06:00 UTC = 14:00 Beijing)
-  # Offset 4 hours from local launchd (10:00 BJ) to avoid collision
+  # 云端是唯一每日跑批者（本地 launchd 已停用）。北京时间 = UTC+8。
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '30 22 * * *'   # 06:30 北京（主跑，目标 8 点前就绪）
+    - cron: '30 23 * * *'   # 07:30 北京（重试：主跑被跳过/失败时补位；freshness 防重复）
   # Triggered automatically when data or app code changes
   push:
     branches: [main]
@@ -92,7 +92,21 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/podcast-pipeline.js
+        run: node scripts/podcast-pipeline.js || true
+
+      # 4 个投资报告（脚本自身按节奏 gate：策略快报每2天 / 周报周六 / 季度宏观季首 / 行业深度月首）
+      - name: Run investing reports (self-gated)
+        if: >
+          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
+          github.event.inputs.run_pipeline == 'true'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/strategy-brief.js  || true
+          node scripts/weekly-review.js   || true
+          node scripts/quarterly-macro.js || true
+          node scripts/sector-deep-dive.js || true
 
       - name: Commit updated data (schedule only, when pipeline ran)
         if: github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale'
@@ -100,10 +114,46 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet data/ || (
-            git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json
+            git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json data/strategy-briefs/ data/weekly-reports/ data/sector-reports/ data/macro-reports/
             git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
             git push
           )
+
+      # 跑批结果推到 iPhone（Bark）。BARK_KEY 未配则静默跳过。
+      - name: Bark 晨报推送（成功）
+        if: (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') && success()
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+        run: |
+          [ -z "$BARK_KEY" ] && exit 0
+          BRIEF=$(node -e '
+            try {
+              const A = require("./data/articles.json");
+              const cut = new Date(Date.now() - 4 * 3600 * 1000).toISOString();
+              const HV = new Set(["Anthropic Blog","Claude Blog","OpenAI Blog","DeepMind Blog","Google DeepMind","NVIDIA Blog"]);
+              const f = A.filter(a => a.fetchedAt && a.fetchedAt > cut);
+              f.sort((x,y) => (HV.has(x.source)?0:1)-(HV.has(y.source)?0:1) || String(y.publishedAt).localeCompare(String(x.publishedAt)));
+              console.log(f.slice(0,6).map(a => "• " + String(a.titleZh||a.titleEn||"").slice(0,34)).join("\n"));
+            } catch { console.log(""); }
+          ' || echo "")
+          BODY=$(printf "%s 云端已更新\n%s" "$(TZ=Asia/Shanghai date +%m-%d)" "$BRIEF")
+          curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
+            --data-urlencode "title=📰 CyberFocus 晨报" \
+            --data-urlencode "body=${BODY}" \
+            --data-urlencode "group=CyberFocus" \
+            --data-urlencode "level=active" || true
+
+      - name: Bark 失败告警
+        if: (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') && failure()
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+        run: |
+          [ -z "$BARK_KEY" ] && exit 0
+          curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
+            --data-urlencode "title=⚠️ CyberFocus 云端跑批失败" \
+            --data-urlencode "body=$(TZ=Asia/Shanghai date '+%m-%d %H:%M') GitHub Actions 跑批失败，请看 Actions 日志" \
+            --data-urlencode "group=CyberFocus" \
+            --data-urlencode "level=timeSensitive" || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

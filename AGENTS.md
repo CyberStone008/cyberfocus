@@ -187,9 +187,21 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 ---
 
-### 每日自动化（launchd）：唯一任务 + 双触发补偿
+### 每日自动化：⚠️ 已改为「云端唯一」（GitHub Actions），本地 launchd 已停用
 
-**只有一个 launchd 任务**：`com.cyberfocus.pipeline`（plist 在 `~/Library/LaunchAgents/`），调用 `scripts/run-daily.sh`。**不要再创建第二个任务**——历史上曾存在重复的 `com.zhanglei.ai-research`（同样跑 run-daily.sh、旧的 10:00），导致每天双跑 + 日志混乱，已停用备份为 `*.disabled-dup-*`。新增/排查时先 `launchctl list | grep -iE "cyberfocus|ai-research"` 确认只有一个。
+**现状（2026-06 起）**：每日跑批的**唯一执行者是 GitHub Actions**（`.github/workflows/update-papers.yml`）。本地 launchd `com.cyberfocus.pipeline` **已停用**（plist 改名为 `*.disabled-cloudonly-*`，不再自动加载），用户不想再依赖 Mac 是否开机。本地 `run-daily.sh` / `npm run pipeline` 仍可**手动**跑。
+
+**云端 workflow 跑批**：两条 cron——`30 22 * * *`（北京 06:30 主跑）+ `30 23 * * *`（北京 07:30 重试）。靠 `sources.json` 的 `lastRunAt` 做 12h freshness 判断：主跑时 stale→跑；重试时 fresh→跳（防重复）。跑 pipeline + podcast + 4 个投资报告，commit/push 回 main（→ Vercel + GitHub Pages 部署），再 Bark 推送（成功晨报 / 失败告警）。
+
+**云端必需的 Secrets**（仓库 Settings → Secrets → Actions）：`DEEPSEEK_API_KEY`（否则翻译退回 Claude）、`BARK_KEY`（否则不推送）、`ANTHROPIC_API_KEY`（备用）。云端在境外、`setupProxy()` 无 `HTTPS_PROXY` 即直连，**不需要代理**。
+
+**若要改回本地**：`mv` 那个 `.disabled-cloudonly-*` 回 `.plist` 并 `launchctl load`，同时把 workflow 的 pipeline 步骤关掉以免双跑。
+
+---
+
+以下为**本地 launchd 的历史说明**（已停用，留作手动跑/恢复时参考）：
+
+**`com.cyberfocus.pipeline`**（plist 在 `~/Library/LaunchAgents/`），调用 `scripts/run-daily.sh`。**不要再创建第二个任务**——历史上曾存在重复的 `com.zhanglei.ai-research`（同样跑 run-daily.sh、旧的 10:00），导致每天双跑 + 日志混乱，已停用备份为 `*.disabled-dup-*`。新增/排查时先 `launchctl list | grep -iE "cyberfocus|ai-research"` 确认只有一个。
 
 **调度（本地=北京时间）**：plist 的 `StartCalendarInterval` 是**数组双触发**：
 - **06:30 主跑** —— 目标「8:00 前全部就绪」，留 90 分钟缓冲。
