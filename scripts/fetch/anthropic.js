@@ -29,9 +29,16 @@ function slugFromUrl(url) {
   return url.replace(/\/$/, '').split('/').pop();
 }
 
-// Returns [{loc, lastmod}] for /news/ posts. The sitemap HAS <lastmod> on every
-// entry — use it to sort+filter so we only fetch the few RECENT pages, instead of
-// scanning 40 alphabetically-ordered URLs (which timed out and missed new posts).
+// Content sections to capture from the sitemap. Originally only '/news/', which
+// silently missed Anthropic's /research/ (123) and /engineering/ (25) posts.
+// '/institute/' isn't in sitemap.xml yet (the Anthropic Institute section is new)
+// but is included so it's picked up automatically once Anthropic sitemaps it.
+// Non-content paths (legal/events/product/learn/features) are intentionally excluded.
+const BLOG_SECTIONS = ['/news/', '/research/', '/engineering/', '/institute/'];
+
+// Returns [{loc, lastmod}] for blog/research/engineering posts. The sitemap HAS
+// <lastmod> on every entry — use it to sort+filter so we only fetch the few RECENT
+// pages, instead of scanning all URLs (which timed out and missed new posts).
 async function fetchSitemapUrls() {
   const res = await fetch(SITEMAP_URL, {
     headers: { 'User-Agent': 'ai-research-aggregator/1.0' },
@@ -45,7 +52,7 @@ async function fetchSitemapUrls() {
   while ((m = re.exec(xml)) !== null) {
     const loc = m[1].trim();
     const lastmod = m[2].trim();
-    if (loc.includes('/news/') && !loc.endsWith('/news/')) {
+    if (BLOG_SECTIONS.some((p) => loc.includes(p) && !loc.endsWith(p))) {
       entries.push({ loc, lastmod });
     }
   }

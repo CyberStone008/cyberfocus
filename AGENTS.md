@@ -61,6 +61,13 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 
 > 注：`data/daily/YYYY-MM-DD.json` 快照文件名的日期由 pipeline（Node）决定，与前端分组是两套；如发现 AI 日报按文件名分日也有跨日偏移，需在 pipeline 侧同样按北京时间命名。
 
+### Anthropic 抓取：覆盖 news + research + engineering（别只抓 /news/）
+
+`scripts/fetch/anthropic.js` 从 `sitemap.xml` 抓。**坑：原来只认 `/news/` 路径**，结果把 sitemap 里的 **`/research/`(123 篇) + `/engineering/`(25 篇)** 官方文章全漏了（如 introspection、measuring-agent-autonomy、how-we-contain-claude 等重要研究都没进库）。已改为 `BLOG_SECTIONS = ['/news/','/research/','/engineering/','/institute/']`。
+
+- `/institute/`（Anthropic Institute 新板块，如 `recursive-self-improvement`）**目前不在 sitemap.xml 里**，所以 sitemap 抓取器拿不到——等 Anthropic 收录后会自动抓到（已预置该前缀）。这类文章现在只能靠 HN/Google News 捡漏，或手动「添加报告」。
+- 上限：`MAX_CANDIDATES=25`（每次最多取页数）、`MAX_PER_SOURCE`(默认20，每源每次最多新增)。首次扩展会一次补入近期被漏的研究文章，之后只增新的。
+
 ### OpenAI 博客抓取：用真实发布日期，不能信 sitemap lastmod
 
 `scripts/fetch/openai.js` 从 research sitemap 抓文章。**坑：sitemap 的 `<lastmod>` 是"最后修改"时间，不是发布时间**。OpenAI 改一篇旧文（如 2025-04 的 GPT-4.1、BrowseComp）会让 lastmod 变成最近 → 旧文当成新文涌入"最近"列表（曾出现 GPT-4.1 标成 2026-05-22）。
