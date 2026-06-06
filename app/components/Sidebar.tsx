@@ -12,23 +12,23 @@ const NAV: {
   items: { icon: string; label: string; href: string; disabled: boolean }[];
 }[] = [
   {
-    group: '今日动态',
-    items: [
-      { icon: '⚡', label: 'AI 精选热点', href: '/social',   disabled: false },
-      { icon: '📋', label: 'AI 日报',      href: '/daily',    disabled: false },
-      { icon: '🎙️', label: '顶级播客',     href: '/podcast',  disabled: false },
-    ],
-  },
-  {
     group: '研究速览',
     items: [
-      { icon: '📡', label: 'AI 报告速览',  href: '/reports', disabled: false },
+      { icon: '📡', label: 'AI 精华报告',  href: '/reports', disabled: false },
     ],
   },
   {
     group: '人服动态',
     items: [
       { icon: '🏛', label: '人服机构动态', href: '/orgs',    disabled: false },
+    ],
+  },
+  {
+    group: '今日 AI 热点',
+    items: [
+      { icon: '⚡', label: 'AI 精选热点', href: '/social',   disabled: false },
+      { icon: '📋', label: 'AI 日报',      href: '/daily',    disabled: false },
+      { icon: '🎙️', label: '顶级播客',     href: '/podcast',  disabled: false },
     ],
   },
   {
