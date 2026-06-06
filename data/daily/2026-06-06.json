@@ -1,20 +1,128 @@
 {
   "date": "2026-06-06",
-  "generatedAt": "2026-06-06T11:51:55.903Z",
+  "generatedAt": "2026-06-06T14:57:01.267Z",
   "summary": {
     "aiNews": [
-      "Reid Hoffman 离开微软董事会，专注 AI 初创公司。",
-      "印度 AI 初创 Innefu Labs 融资 3000 万美元，推动国家安全领域主权 AI。",
-      "联邦 AI 监管法案冻结各州消费者保护措施三年，引发强烈反弹。"
+      "美国众议院议员发布草案，拟禁止各州制定AI法规，引发联邦与州权争议。",
+      "OpenCV 5.0发布，重写DNN引擎并内置LLM与VLM支持，提升AI开发能力。",
+      "印度AI初创Innefu Labs融资3000万美元，推动国家安全领域主权AI发展。"
     ],
     "papers": [],
     "hrOrgs": [
       "99%的CEO预计两年内将出现AI驱动的裁员，但消费者和工人正在抵制。",
-      "2026年5月就业报告：一个强劲头条，两种现实。",
-      "Indeed应届生招聘报告详述入门级挑战。"
+      "2026年5月就业报告显示强劲头条数据，但实际存在两种现实差异。",
+      "Indeed应届生招聘报告详述入门级挑战，反映劳动力市场结构性难题。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48425031",
+      "slug": "hn-48425031-us-house-lawmakers-release-draft-bill-to-prohibit-state-ai-rules",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48425031",
+      "publishedAt": "2026-06-06T13:40:22.000Z",
+      "titleEn": "US House lawmakers release draft bill to prohibit state AI rules",
+      "titleZh": "美国众议院议员发布草案，拟禁止各州制定 AI 法规",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "1vuio0pswjnm7"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:c09796ba120a",
+      "slug": "gnews-c09796ba120a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEhpSXYyNFZOSVNqNzZ6WDlpY0FBdmJ5bzU4dC1QalRJMldsOVJoOW5SQU9XRzlSc19icG1wSjY1Q01TY1d3S0NnQWVteUdILTZBQ1VqOEJvLXc0WEZUNldwNEJVNEtTODAxRmpOekY1bVhXSVFxcXRTd3hpVEdoYzhIV3FoX0hHNHdLTm5YZy05SkFkSVpWTDVHaVlIZEZYZXd5Ym9YSkZSajFITHFRNTZDYzM3Z3drdmJfNWZGa1loS2s?oc=5",
+      "publishedAt": "2026-06-06T13:32:34.000Z",
+      "titleEn": "4 surprising ways AI is making your life more expensive",
+      "titleZh": "AI 让你的生活更昂贵的四种惊人方式",
+      "abstractEn": "4 surprising ways AI is making your life more expensive  The Washington Post",
+      "abstractZh": "AI 让你的生活更昂贵的四种惊人方式  《华盛顿邮报》",
+      "authors": [
+        "The Washington Post"
+      ],
+      "institution": "The Washington Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48424252",
+      "slug": "hn-48424252-meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
+      "commentUrl": "https://news.ycombinator.com/item?id=48424252",
+      "publishedAt": "2026-06-06T12:15:59.000Z",
+      "titleEn": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
+      "titleZh": "Meta 持续推迟向开发者发布其新 AI 模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mekpro"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 23,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:061e52f5131a",
+      "slug": "gnews-061e52f5131a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XLTRlTWpkRWt0ZGg2WjNicUpPM3ppNF9BZGxTLTdiSU9lQlZxeEwzbDdJWW5oMGpvcmU4MFhtSkptS25WT0ZhcjFfVnprcFRRWXh4VkxnSjRZenBXLUE?oc=5",
+      "publishedAt": "2026-06-06T12:06:00.000Z",
+      "titleEn": "OpenCV 5.0 Released With Rewritten DNN Engine, Built-In LLM & VLM Support",
+      "titleZh": "OpenCV 5.0 发布：重写 DNN 引擎，内置 LLM 与 VLM 支持",
+      "abstractEn": "OpenCV 5.0 Released With Rewritten DNN Engine, Built-In LLM & VLM Support  Phoronix",
+      "abstractZh": "OpenCV 5.0 发布：重写 DNN 引擎，内置 LLM 与 VLM 支持  Phoronix",
+      "authors": [
+        "Phoronix"
+      ],
+      "institution": "Phoronix",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:84635869dbc5",
+      "slug": "gnews-84635869dbc5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPXzlYU0t4cXBiU0JodlJvUXBfMzRUR3F4MVJ5SEhfcDktNHpYX0JheU1xZUdRRGZwZFBRRzMtQ2JZR0FnN0JCenZTTHN6Ynh5b01IOWlQN0ZjMkc4Qms0ZlkyZzIxMm9ZdFlaSXlkdjdRN0U4aEFxZG5BaDE3NGoySmE4Z2cyaUpzcUJNWl8yTWdqMnc1TmR2cXgwcHlNbnBEbnQ4QXd3YWV6VlVoeW15ckhEVk9YWW83VFhEUWdRMVA1UdIBxwFBVV95cUxPVHQ0VTl4Uk1URjBkQ3loX2F5ZERFSF9UbklVRkJYaXc5MkNJQUZGLV9wU0U1Zi11TktTNUZHNmMyN3h5T2VDYVgzWTFGNFNzZDhoYjJtcWUzaTNIeWFpeWxVZ2xtalZiajZLWmxYZ1c4ZEEwUXBSb2hVYVdibk1ocUlTTF8xYW1yMkE4OVJJSWNuNkxLUWtRb01LY3BFTF9TYl9Vc3hZTElLMVVva3Rsc09TUExyTHA3RVM4X2NIS1hYWGVYSS1R?oc=5",
+      "publishedAt": "2026-06-06T12:00:48.000Z",
+      "titleEn": "Fox News AI Newsletter: Sanders bill would seize 50% of stock in OpenAI, Anthropic for sovereign wealth fund",
+      "titleZh": "福克斯新闻 AI 通讯：桑德斯法案拟没收 OpenAI 和 Anthropic 50% 股份用于主权财富基金",
+      "abstractEn": "Fox News AI Newsletter: Sanders bill would seize 50% of stock in OpenAI, Anthropic for sovereign wealth fund  Fox News",
+      "abstractZh": "福克斯新闻 AI 通讯：桑德斯法案拟没收 OpenAI 和 Anthropic 50% 股份用于主权财富基金  福克斯新闻",
+      "authors": [
+        "Fox News"
+      ],
+      "institution": "Fox News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hrorg:fesco:aea7617bb877",
       "slug": "hrorg-fesco-aea7617bb877",
@@ -140,6 +248,28 @@
         "CXO Digitalpulse"
       ],
       "institution": "CXO Digitalpulse",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4a30113df212",
+      "slug": "gnews-4a30113df212",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYktQZ241NlZxcVotcG1Vc0YxejlXa0ttN2RBX3ZQdXFoelN1OVRmaW54bXk2bzAyYmU5YXdtRkJuRjllUXp4d29jczB6ZFo0cFJ1WHJMalpBT1BpVlp1Qll0QUR6dWI4UFZjWnBGSjZsZGhTSFBJNlNRNHd1UnFBU2hnVXAyYVpONEJvblV3?oc=5",
+      "publishedAt": "2026-06-06T08:10:00.000Z",
+      "titleEn": "Europe's 2026 AI Infrastructure Shift: Michał Gawęda of Montis VC",
+      "titleZh": "欧洲 2026 年 AI 基础设施转型：Montis VC 的 Michał Gawęda 观点",
+      "abstractEn": "Europe's 2026 AI Infrastructure Shift: Michał Gawęda of Montis VC  en.ain.ua",
+      "abstractZh": "欧洲 2026 年 AI 基础设施转型：Montis VC 的 Michał Gawęda 观点  en.ain.ua",
+      "authors": [
+        "en.ain.ua"
+      ],
+      "institution": "en.ain.ua",
       "docType": "Blog",
       "category": "social",
       "score": 0,
