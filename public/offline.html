@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>离线 · CyberFocus</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 14px; font-family: -apple-system, "Noto Sans SC", system-ui, sans-serif;
+      background: radial-gradient(120% 90% at 50% 30%, #13233f 0%, #0a0f1c 55%, #05070d 100%);
+      color: #f5f5f7; text-align: center; padding: 24px;
+    }
+    .dot { width: 44px; height: 44px; border-radius: 50%; background: #34e3ff;
+      box-shadow: 0 0 0 10px rgba(52,227,255,.15), 0 0 0 22px rgba(52,227,255,.07); }
+    h1 { font-size: 19px; font-weight: 700; margin: 8px 0 0; }
+    p { font-size: 14px; color: #aeb4c2; margin: 0; line-height: 1.6; }
+    button { margin-top: 10px; padding: 10px 22px; border-radius: 22px; border: 1px solid #2c3550;
+      background: transparent; color: #7cc4ff; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="dot"></div>
+  <h1>当前离线</h1>
+  <p>网络恢复后即可继续浏览最新内容。</p>
+  <button onclick="location.reload()">重新加载</button>
+</body>
+</html>

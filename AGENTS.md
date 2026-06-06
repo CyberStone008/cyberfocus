@@ -208,3 +208,14 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 **告警（Bark / iPhone）**：run-daily.sh 末尾 `notify_bark()` 把结果推到手机。失败（管道非 0 / 代理挂 / `check:backends` 不过）推 ⚠️，成功推 ✅ + 新增数（满足"每次跑完告诉我一声"）。`BARK_KEY` 存 `.env.local`（不入库），未设则静默跳过。curl 用 `--noproxy '*'` 绕过 xray——这样"代理挂了"也能把告警送出去（api.day.app 国内直连）。本地 macOS 通知保留不变。
 
 **改调度后务必重载**：`launchctl unload <plist> && launchctl load <plist>`，再 `launchctl print gui/$(id -u)/com.cyberfocus.pipeline | grep -iE "Hour|Minute"` 确认。
+
+---
+
+### PWA（iOS 主屏 App）
+
+站点是可安装 PWA。iPhone 用 **Safari**（不是微信/Chrome）打开 → 分享 → 添加到主屏幕，即得全屏 App 图标。组成：
+
+- **`public/manifest.webmanifest`**：用**静态文件**而非 `app/manifest.ts` 动态路由——后者在 `output:export` 下会报 "force-static not configured" 构建失败。metadata 里 `manifest: "/manifest.webmanifest"` 指向它。
+- **图标**：`scripts/gen-pwa-icons.mjs` 用 sharp 从内联 SVG（聚焦/准星图案）渲染。产物：`app/icon.png`(favicon) + `app/apple-icon.png`(180, Next 自动生成 apple-touch 链接) + `public/icons/icon-{192,512}.png` + `icon-maskable-512.png`(72% 安全区)。改图标改脚本里的 SVG 后重跑。
+- **iOS 元数据**：`app/layout.tsx` 的 `metadata.appleWebApp` + `viewport.themeColor`。Next 16 只发现代版 `mobile-web-app-capable`，老 iOS 全屏需 legacy `apple-mobile-web-app-capable`——已在 `<head>` 手动补。
+- **Service Worker**：`public/sw.js`（`RegisterSW.tsx` 注册）。**freshness-first**：页面导航 network-first（不缓存陈旧内容），仅 `/_next/static`、`/icons` 等不可变资源 cache-first，离线回退 `public/offline.html`。改 SW 缓存策略后 bump `CACHE` 版本号。

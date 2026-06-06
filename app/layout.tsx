@@ -1,16 +1,29 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { BaiduAnalytics } from "./components/BaiduAnalytics";
+import { RegisterSW } from "./components/RegisterSW";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "CyberFocus · AI 研究速览",
   description: "自动聚合 arXiv、HuggingFace、Anthropic、OpenAI 等机构前沿 AI 研究报告，提供中文摘要翻译",
+  applicationName: "CyberFocus",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "CyberFocus",
+  },
   openGraph: {
     title: "AI 研究速览",
     description: "最新 AI 研究论文中文摘要聚合",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0f1c",
+  viewportFit: "cover",
 };
 
 const themeScript = `(function(){
@@ -30,6 +43,9 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
+        {/* Legacy iOS standalone flag — Next emits the modern `mobile-web-app-capable`
+            but older iOS needs the apple-prefixed one for full-screen home-screen mode. */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} suppressHydrationWarning />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -40,6 +56,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <RegisterSW />
         <Analytics />
         <BaiduAnalytics />
       </body>
