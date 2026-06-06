@@ -493,6 +493,12 @@ function SeriesCard({ seriesSlug, articles }: { seriesSlug: string; articles: Ar
   const totalChars = articles.reduce((sum, a) => sum + (a.contentLen ?? a.contentMd?.length ?? 0), 0);
   const firstSlug  = articles[0]?.slug;
 
+  // Chapter list collapsed by default so the pinned card stays compact (esp. on
+  // mobile) and the daily timeline below is visible on the first screen.
+  const [expanded, setExpanded] = useState(false);
+  const COLLAPSED_COUNT = 3;
+  const visibleChapters = expanded ? articles : articles.slice(0, COLLAPSED_COUNT);
+
   return (
     <div className={styles.seriesCard} style={{ borderColor: `${color}55` }}>
       {/* Badge */}
@@ -518,9 +524,9 @@ function SeriesCard({ seriesSlug, articles }: { seriesSlug: string; articles: Ar
       {/* Divider */}
       <div className={styles.seriesDivider} />
 
-      {/* Chapter list */}
+      {/* Chapter list — collapsed by default (compact pinned card) */}
       <div className={styles.chapterList}>
-        {articles.map((a, i) => {
+        {visibleChapters.map((a, i) => {
           const chTitle = a.titleZh ?? a.titleEn;
           const label   = CHAPTER_LABELS[i] ?? String(i + 1);
           const href    = a.slug ? `/articles/${a.slug}` : a.sourceUrl;
@@ -539,6 +545,27 @@ function SeriesCard({ seriesSlug, articles }: { seriesSlug: string; articles: Ar
             </a>
           );
         })}
+        {articles.length > COLLAPSED_COUNT && (
+          <button
+            type="button"
+            onClick={() => setExpanded((v) => !v)}
+            style={{
+              display: 'block',
+              width: '100%',
+              marginTop: 4,
+              padding: '8px 0',
+              background: 'transparent',
+              border: 'none',
+              borderTop: '1px solid var(--border)',
+              color: 'var(--text-secondary)',
+              fontSize: 12.5,
+              cursor: 'pointer',
+              textAlign: 'center',
+            }}
+          >
+            {expanded ? '收起 ▴' : `展开全部 ${articles.length} 章 ▾`}
+          </button>
+        )}
       </div>
 
       {/* Footer */}
