@@ -1,20 +1,131 @@
 {
   "date": "2026-06-06",
-  "generatedAt": "2026-06-06T09:34:58.644Z",
+  "generatedAt": "2026-06-06T11:51:55.903Z",
   "summary": {
     "aiNews": [
-      "印度Innefu Labs融资3000万美元，推动国家安全领域主权AI发展。",
-      "前OpenAI CTO称人类在前沿AI未来中仍有选择权，引发行业讨论。",
-      "港股鞋王千百度转型AI数据公司，一夜完成业务重构。"
+      "Reid Hoffman 离开微软董事会，专注 AI 初创公司。",
+      "印度 AI 初创 Innefu Labs 融资 3000 万美元，推动国家安全领域主权 AI。",
+      "联邦 AI 监管法案冻结各州消费者保护措施三年，引发强烈反弹。"
     ],
     "papers": [],
     "hrOrgs": [
-      "99%的CEO预计两年内出现AI驱动裁员，但消费者和工人正抵制。",
-      "2026年5月就业报告显示强劲头条数据下存在两种现实差异。",
-      "Indeed报告详述应届生入门级就业挑战，招聘市场压力持续。"
+      "99%的CEO预计两年内将出现AI驱动的裁员，但消费者和工人正在抵制。",
+      "2026年5月就业报告：一个强劲头条，两种现实。",
+      "Indeed应届生招聘报告详述入门级挑战。"
     ]
   },
   "articles": [
+    {
+      "id": "hrorg:fesco:aea7617bb877",
+      "slug": "hrorg-fesco-aea7617bb877",
+      "source": "FESCO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQekU3VmdLaWthS0ZFRDNqUHJTd2d0UUs3LWlMTEF2Y3BpZEpseGI2WnFmZVQ0RE9KcFVaNXhfallDWGpHUWhvV0R3VnZqeXQ4X25yZ0RibmhrdlpsYWNEWUxVTU5TRU1WdHNtVzZnZWdrQ05BZ3ltSFA4SkQ4WWM4X0FQMHFlV3pz?oc=5",
+      "publishedAt": "2026-06-06T11:50:24.000Z",
+      "titleEn": "赋能企业人才发展，“亦企同行·引才筑桥”活动在北京经开区举办",
+      "titleZh": "赋能企业人才发展，‘亦企同行·引才筑桥’活动在北京经开区举办",
+      "abstractEn": "赋能企业人才发展，“亦企同行·引才筑桥”活动在北京经开区举办  搜狐网",
+      "abstractZh": "赋能企业人才发展，‘亦企同行·引才筑桥’活动在北京经开区举办  搜狐网",
+      "authors": [
+        "搜狐网"
+      ],
+      "institution": "搜狐网",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:ba3ba73b5838",
+      "slug": "gnews-ba3ba73b5838",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVVd3UFc5V2JxVmJQdGlGMngwSXBwVmdUTEc3bl9ZVTJvYmdJUTFtYThvTFl6bDZHLTFYM2c4RTRpbWY4aWtzUGcyZThCNDJYQXNaMFFEamZXc01vOU1OR1E2eFFLdkk0SWpUbm5KSWkxSGxjRkNQU1NBZGpzRmZsVVl2UXFZckRYdFlrTjh6RDAxdDZ6Y29HMXM1SFYwS1B1aFEwaTRYNzdGbG91QlVudDNyUUxBdw?oc=5",
+      "publishedAt": "2026-06-06T10:43:42.000Z",
+      "titleEn": "Reid Hoffman leaves Microsoft board to focus on AI startup",
+      "titleZh": "Reid Hoffman 离开微软董事会，专注 AI 初创公司",
+      "abstractEn": "Reid Hoffman leaves Microsoft board to focus on AI startup  scanx.trade",
+      "abstractZh": "Reid Hoffman 离开微软董事会，专注 AI 初创公司  scanx.trade",
+      "authors": [
+        "scanx.trade"
+      ],
+      "institution": "scanx.trade",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:18cba6f2db3f",
+      "slug": "gnews-18cba6f2db3f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNVdmZVhnQ256Q3dXRDdNM2h0QU9HcVVpcHJ2YjBkM185T3hvYk5kRFFGcDdyR19mWGRTNzdiUFpMNmhTTElvV1U0SzNKd2NfMTJpdE5RUjVaYnIxaW42X0psQ2djN1ZILUNDTzJCS3A1OVo2UWVqcFJMbnRnX2ZIeFRRb3F0ak1DZDliY2ZpYjFTME90RHU5UTRB?oc=5",
+      "publishedAt": "2026-06-06T10:32:51.000Z",
+      "titleEn": "Dutch hospitals face uncertainty as country lacks health AI policy",
+      "titleZh": "荷兰医院因缺乏国家健康 AI 政策而面临不确定性",
+      "abstractEn": "Dutch hospitals face uncertainty as country lacks health AI policy  Medical Buyer",
+      "abstractZh": "荷兰医院因缺乏国家健康 AI 政策而面临不确定性  Medical Buyer",
+      "authors": [
+        "Medical Buyer"
+      ],
+      "institution": "Medical Buyer",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1aba61f3a891",
+      "slug": "gnews-1aba61f3a891",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbXdobk42OVNzTThCd1UycVZGVVhrUGVlRXBuZU83VGdTcWQ1S2MxSjVJNUNDREhRM1l3ajVjWDhkQnRKd2w5Q0JDX1hxNzJabWlhaVlYdlV0dDR1RFpHaEtiRWlKUk5NY2V3UHdFa3loU1VVOW45dHJQTmxFeS1va201UTJRYVlrNW41UF92dGNfRG8yTUFvVU1tQ0VvYklCMkFNdHJZRnBHVW9NV2R6T1Fra19TQ0lJU2NkOXZaX1d4T2dmQ3h4NkhJWUEtcmN2WGcwbEZ1SjRNUQ?oc=5",
+      "publishedAt": "2026-06-06T10:25:57.000Z",
+      "titleEn": "Federal AI Regulation Bill Freezes State Consumer Protections for Three Years, Sparks Revolt",
+      "titleZh": "联邦 AI 监管法案冻结各州消费者保护措施三年，引发强烈反弹",
+      "abstractEn": "Federal AI Regulation Bill Freezes State Consumer Protections for Three Years, Sparks Revolt  Tech Times",
+      "abstractZh": "联邦 AI 监管法案冻结各州消费者保护措施三年，引发强烈反弹  Tech Times",
+      "authors": [
+        "Tech Times"
+      ],
+      "institution": "Tech Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2a0d33f1e39b",
+      "slug": "gnews-2a0d33f1e39b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0dEttV0F0M2lpTHBYS0Y5dWJ6OFRJXzFwYWFsRWVaZnQ1VDU1MnBIcm5wMVBVeGpIcjd3a2RDOEs2WW5tMFB5YllVOXR0bFctM1FIWnpSMA?oc=5",
+      "publishedAt": "2026-06-06T10:05:00.000Z",
+      "titleEn": "OpenAI and Anthropic's new silent move to retain customers is closed \"intent databases.\" What's the catch?",
+      "titleZh": "OpenAI 和 Anthropic 悄然推出封闭式‘意图数据库’以留住客户，背后有何玄机？",
+      "abstractEn": "OpenAI and Anthropic's new silent move to retain customers is closed \"intent databases.\" What's the catch?  dev.ua",
+      "abstractZh": "OpenAI 和 Anthropic 悄然推出封闭式‘意图数据库’以留住客户，背后有何玄机？  dev.ua",
+      "authors": [
+        "dev.ua"
+      ],
+      "institution": "dev.ua",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:9fe173212073",
       "slug": "gnews-9fe173212073",
@@ -1039,6 +1150,28 @@
       },
       "featured": true,
       "featuredDate": "2026-06-06"
+    },
+    {
+      "id": "gnews:1ba87e15c472",
+      "slug": "gnews-1ba87e15c472",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zc1hsOHRIOWpsbk9ralpnMXRFU3lkUTItSVNEbmNMd0ZNenVRTk4tV2dOR1BKNGt1ZUpESFdkaGtFUnk5dzZwdGk2Z1dSQ0I1X3pBd3BiVGhQV182MEZlc2RSUndGeTI0Qnh0ck5rZ0I5MG9KSHlKYjZOYw?oc=5",
+      "publishedAt": "2026-06-05T15:49:12.000Z",
+      "titleEn": "The Week’s 10 Biggest Funding Rounds: Megarounds Proliferate, Led By Enterprise Software, AI, And Space Tech",
+      "titleZh": "本周十大融资事件：巨额融资频现，企业软件、AI 和太空科技领跑",
+      "abstractEn": "The Week’s 10 Biggest Funding Rounds: Megarounds Proliferate, Led By Enterprise Software, AI, And Space Tech  Crunchbase News",
+      "abstractZh": "本周十大融资事件：巨额融资频现，企业软件、AI 和太空科技领跑  Crunchbase News",
+      "authors": [
+        "Crunchbase News"
+      ],
+      "institution": "Crunchbase News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:c4b71f91ae93",
