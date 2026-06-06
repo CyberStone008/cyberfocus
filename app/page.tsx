@@ -1,10 +1,14 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { preload } from 'react-dom';
 import { useRouter } from 'next/navigation';
 import styles from './landing.module.css';
 
 export default function LandingPage() {
+  // Start fetching the hero image at high priority before CSS even applies.
+  preload('/hero.webp', { as: 'image', fetchPriority: 'high' });
+
   const router = useRouter();
   const noiseRef = useRef<HTMLSpanElement>(null);
   const [accessing, setAccessing] = useState(false);

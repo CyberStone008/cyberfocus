@@ -20,7 +20,8 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/hero.png') center center / cover no-repeat;
+  /* 1KB 极小占位图：本就要 blur 48px，低分辨率看不出差别，且几乎瞬时加载 */
+  background: url('/hero-blur.webp') center center / cover no-repeat;
   filter: blur(48px) brightness(0.28) saturate(0.4);
   transform: scale(1.08); /* 消除 blur 边缘白晕 */
 }
@@ -32,7 +33,7 @@
   inset: 0;
   background:
     linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
-    url('/hero.png') center center / auto 100dvh no-repeat;
+    url('/hero.webp') center center / auto 100dvh no-repeat;
 }
 
 /* ── Vignette ── */
