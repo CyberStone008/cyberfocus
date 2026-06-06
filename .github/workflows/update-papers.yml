@@ -1,10 +1,10 @@
 name: Update Papers & Deploy
 
 on:
-  # 云端是唯一每日跑批者（本地 launchd 已停用）。北京时间 = UTC+8。
+  # 云端是唯一跑批者（本地 launchd 已停用）。白天每 3 小时抓一次。北京 = UTC+8。
   schedule:
-    - cron: '30 22 * * *'   # 06:30 北京（主跑，目标 8 点前就绪）
-    - cron: '30 23 * * *'   # 07:30 北京（重试：主跑被跳过/失败时补位；freshness 防重复）
+    - cron: '30 22 * * *'           # 06:30 北京（晨跑 + Bark 晨报）
+    - cron: '30 1,4,7,10,13 * * *'  # 09:30/12:30/15:30/18:30/21:30 北京（日内静默补抓）
   # Triggered automatically when data or app code changes
   push:
     branches: [main]
@@ -58,37 +58,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # On schedule: skip pipeline if local already ran within 12 hours
-      - name: Check if pipeline already ran today (schedule only)
-        id: freshness
-        if: github.event_name == 'schedule'
-        run: |
-          LAST_RUN=$(node -e "
-            try {
-              const s = require('./data/sources.json');
-              const ms = Date.now() - new Date(s.lastRunAt).getTime();
-              console.log(ms < 12 * 3600 * 1000 ? 'fresh' : 'stale');
-            } catch { console.log('stale'); }
-          ")
-          echo "status=$LAST_RUN" >> $GITHUB_OUTPUT
-          echo "[freshness] lastRunAt status: $LAST_RUN"
-
-      # Run pipeline only when: (a) schedule + stale, or (b) manual request
+      # 每个定时批次都抓取（去重靠 processed-ids；下面只在有新内容时才提交+构建）。
       - name: Run fetch + translate pipeline
-        if: >
-          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
-          github.event.inputs.run_pipeline == 'true'
+        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
         env:
-          # DeepSeek first (matches local). Empty if secret unset → falls back to
-          # ANTHROPIC. Add DEEPSEEK_API_KEY in repo Settings → Secrets to use DeepSeek on cloud runs.
+          # DeepSeek 优先（需仓库 Secret DEEPSEEK_API_KEY），未配则退回 ANTHROPIC。
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/pipeline.js
 
       - name: Run podcast pipeline
-        if: >
-          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
-          github.event.inputs.run_pipeline == 'true'
+        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -96,9 +76,7 @@ jobs:
 
       # 4 个投资报告（脚本自身按节奏 gate：策略快报每2天 / 周报周六 / 季度宏观季首 / 行业深度月首）
       - name: Run investing reports (self-gated)
-        if: >
-          (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') ||
-          github.event.inputs.run_pipeline == 'true'
+        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -108,20 +86,26 @@ jobs:
           node scripts/quarterly-macro.js || true
           node scripts/sector-deep-dive.js || true
 
-      - name: Commit updated data (schedule only, when pipeline ran)
-        if: github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale'
+      # 只在有新内容时提交+推送（→ Vercel 自动部署）。committed 输出决定下面要不要构建 Pages。
+      - name: Commit updated data
+        id: commit
+        if: github.event_name == 'schedule'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet data/ || (
+          if git diff --quiet data/; then
+            echo "[commit] 无新内容，跳过提交与构建"
+            echo "committed=false" >> $GITHUB_OUTPUT
+          else
             git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json data/strategy-briefs/ data/weekly-reports/ data/sector-reports/ data/macro-reports/
-            git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
+            git commit -m "chore: update $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
             git push
-          )
+            echo "committed=true" >> $GITHUB_OUTPUT
+          fi
 
-      # 跑批结果推到 iPhone（Bark）。BARK_KEY 未配则静默跳过。
+      # Bark 推送：晨报只在 06:30 那条 cron 推一次；日内批次静默。BARK_KEY 未配则跳过。
       - name: Bark 晨报推送（成功）
-        if: (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') && success()
+        if: github.event_name == 'schedule' && github.event.schedule == '30 22 * * *' && success()
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
         run: |
@@ -144,7 +128,7 @@ jobs:
             --data-urlencode "level=active" || true
 
       - name: Bark 失败告警
-        if: (github.event_name == 'schedule' && steps.freshness.outputs.status == 'stale') && failure()
+        if: github.event_name == 'schedule' && failure()
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
         run: |
@@ -155,20 +139,26 @@ jobs:
             --data-urlencode "group=CyberFocus" \
             --data-urlencode "level=timeSensitive" || true
 
+      # 仅在「有新内容(committed) / push 代码 / 手动」时才构建并部署 Pages，
+      # 日内无新内容的批次跳过，避免每 3 小时白白构建。（Vercel 由 push 自动部署，独立于此。）
       - name: Setup Pages
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
         uses: actions/configure-pages@v4
 
       - name: Build Next.js
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
         run: npx next build --webpack
         env:
           NEXT_EXPORT: "1"
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Upload Pages artifact
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
         uses: actions/deploy-pages@v4

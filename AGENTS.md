@@ -191,7 +191,12 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 **现状（2026-06 起）**：每日跑批的**唯一执行者是 GitHub Actions**（`.github/workflows/update-papers.yml`）。本地 launchd `com.cyberfocus.pipeline` **已停用**（plist 改名为 `*.disabled-cloudonly-*`，不再自动加载），用户不想再依赖 Mac 是否开机。本地 `run-daily.sh` / `npm run pipeline` 仍可**手动**跑。
 
-**云端 workflow 跑批**：两条 cron——`30 22 * * *`（北京 06:30 主跑）+ `30 23 * * *`（北京 07:30 重试）。靠 `sources.json` 的 `lastRunAt` 做 12h freshness 判断：主跑时 stale→跑；重试时 fresh→跳（防重复）。跑 pipeline + podcast + 4 个投资报告，commit/push 回 main（→ Vercel + GitHub Pages 部署），再 Bark 推送（成功晨报 / 失败告警）。
+**云端 workflow 跑批（白天每 3 小时）**：两条 cron——`30 22 * * *`（北京 06:30，晨跑+Bark晨报）+ `30 1,4,7,10,13 * * *`（09:30/12:30/15:30/18:30/21:30，日内静默补抓）。**每个定时批次都抓**（已移除 freshness 门；去重靠 `processed-ids`）。逻辑：
+- 抓取 pipeline + podcast + 4 个投资报告（后两者 `|| true` 容错）。
+- commit 步骤（`id: commit`）：`git diff` **有新内容才** commit/push 并输出 `committed=true`；无则 `false`。
+- **构建/部署 Pages 仅在 `committed==true` 或 push/手动时**才跑——日内空批次不构建，避免每 3 小时白白 build。（Vercel 由 push 自身的 webhook 自动部署，独立于此 workflow；注意 `GITHUB_TOKEN` 的 push **不会**再触发 workflow，所以构建必须放在**同一次**有提交的运行里，不能靠 push 事件触发。）
+- Bark：晨报只在 `github.event.schedule == '30 22 * * *'` 那条 cron 推一次；失败告警任何定时批次都推。
+- 提频只对社交/新闻有意义（高频源）；低频源(博客/HR/播客)去重后近零成本；投资报告自身 gate，不受频率影响。
 
 **云端必需的 Secrets**（仓库 Settings → Secrets → Actions）：`DEEPSEEK_API_KEY`（否则翻译退回 Claude）、`BARK_KEY`（否则不推送）、`ANTHROPIC_API_KEY`（备用）。云端在境外、`setupProxy()` 无 `HTTPS_PROXY` 即直连，**不需要代理**。
 
