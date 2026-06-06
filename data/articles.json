@@ -1,5 +1,137 @@
 [
   {
+    "id": "hn:48421508",
+    "slug": "hn-48421508-ask-hn-does-robotics-capabilities-research-accelerate-agi-timelines",
+    "source": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48421508",
+    "commentUrl": "https://news.ycombinator.com/item?id=48421508",
+    "publishedAt": "2026-06-06T04:51:34.000Z",
+    "titleEn": "Ask HN: Does robotics capabilities research accelerate AGI timelines?",
+    "titleZh": "向HN提问：机器人技术研究是否会加速AGI时间线？",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "themasterchief"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "hn:48421442",
+    "slug": "hn-48421442-s-p-500-rejects-spacex-also-blocking-entry-for-openai-and-anthropic",
+    "source": "Hacker News",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48421442",
+    "publishedAt": "2026-06-06T04:38:36.000Z",
+    "titleEn": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "titleZh": "标普500拒绝SpaceX，同时阻止OpenAI和Anthropic入市",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "maltalex"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 232,
+    "commentCount": 60,
+    "tags": [],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "gnews:7fcc134c4ce9",
+    "slug": "gnews-7fcc134c4ce9",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMEFFcWJMSXFUdUlURG9aVF9Wa2NJMmZIYVJ3M3k3MUdRUDlHb09XbmtUbXV0LUdFWTRlZnNXWGwzRUtnS050bGt6UVR2am9HNmtjZldqa2hrdTJKZVJUSV9GTi1lcEcxQ3gzR2F3cU45dE5OajJ4NjFodEtyU1BiRFd0Q0lGTDRwUHZrZVpkR0pxc0NKSl9NbWgzbGpELW5TVDJEX2dJX3I4WDU0aGFxMGZsUHhXUnRnY2pOLVVYRHFhbW5BRWU2LURoNHUyOG03dHVNWVg3VmtVTzFj?oc=5",
+    "publishedAt": "2026-06-06T04:00:00.000Z",
+    "titleEn": "Column: NC bill blurs AI policy, social media rules",
+    "titleZh": "专栏：北卡罗来纳州法案模糊了AI政策与社交媒体规则",
+    "abstractEn": "Column: NC bill blurs AI policy, social media rules  The Enquirer Journal",
+    "abstractZh": "专栏：北卡罗来纳州法案模糊了AI政策与社交媒体规则  《问询者日报》",
+    "authors": [
+      "The Enquirer Journal"
+    ],
+    "institution": "The Enquirer Journal",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "hn:48421156",
+    "slug": "hn-48421156-bitcoins-star-fades-as-investors-flock-to-lustre-of-ai-and-megacap-i",
+    "source": "Hacker News",
+    "sourceUrl": "https://www.reuters.com/business/finance/bitcoins-star-fades-investors-flock-lustre-ai-megacap-ipos-2026-06-05/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48421156",
+    "publishedAt": "2026-06-06T03:38:14.000Z",
+    "titleEn": "Bitcoin's star fades, as investors flock to lustre of AI and megacap IPOs",
+    "titleZh": "比特币光芒渐褪，投资者涌向AI和大型IPO的吸引力",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "1vuio0pswjnm7"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 6,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "hn:48421145",
+    "slug": "hn-48421145-lockdown-mode",
+    "source": "Hacker News",
+    "sourceUrl": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+    "commentUrl": "https://news.ycombinator.com/item?id=48421145",
+    "publishedAt": "2026-06-06T03:36:15.000Z",
+    "titleEn": "Lockdown Mode",
+    "titleZh": "锁定模式",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "berlianta"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 43,
+    "commentCount": 21,
+    "tags": [],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-06-431056-html",
+    "slug": "ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/06/431056.html",
+    "publishedAt": "2026-06-06T03:35:47.000Z",
+    "titleEn": "港股鞋王千百度，一夜完成AI数据公司转型",
+    "titleZh": "港股鞋王千百度，一夜完成AI数据公司转型",
+    "abstractEn": "形成「鞋履+人工智能数据」双主业",
+    "abstractZh": "形成「鞋履+人工智能数据」双主业",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
     "id": "anthropic:recursive-self-improvement",
     "slug": "recursive-self-improvement",
     "source": "Anthropic Blog",
@@ -44,7 +176,8 @@
     "score": 4,
     "commentCount": 11,
     "tags": [],
-    "fetchedAt": "2026-06-06T03:27:08.133Z"
+    "fetchedAt": "2026-06-06T03:27:08.133Z",
+    "featured": false
   },
   {
     "id": "hn:48420581",
@@ -163,6 +296,52 @@
     ],
     "fetchedAt": "2026-06-06T01:02:39.337Z",
     "featured": false
+  },
+  {
+    "id": "gnews:86471c31306f",
+    "slug": "gnews-86471c31306f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOM2lVcjZZcHZVVXhyLTN1T0FGRHhnVnFSb0NKMkowcy1ocC1pcmtpLW9laGx2ckU0NkVWbFlfbzl3cTUxVzAwcmdVMWJDdlJfMjQ5OWhpTUhGc29oUWpGNUNFZU9BMW9ONFQzZ0l4NUN0Q0xtQzBGYWdoaFRyNE9BVExmRVRtR1FKNkZJVzRvTDh6dTFZeE1wOUx3NFNidVdldEZZbDdTcGhNYUp4bF9TeE4wQ3ZlUU5DOXYzTHhUMFItVUZTVTk0ZndnaWZvLUZXaEF6R3BacTZrS2xXSHFsME50VlBoM1hUbU9iXzFZVExCazQzSkxMWUdZUQ?oc=5",
+    "publishedAt": "2026-06-05T22:33:34.000Z",
+    "titleEn": "Pan IIT Alumni India launches AI policy think tank ‘Pariniti’ to strengthen India’s artificial intelligence ecosystem",
+    "titleZh": "印度理工学院校友会推出人工智能政策智库《Pariniti》，以强化印度人工智能生态系统",
+    "abstractEn": "Pan IIT Alumni India launches AI policy think tank ‘Pariniti’ to strengthen India’s artificial intelligence ecosystem  Prop News Time",
+    "abstractZh": "印度理工学院校友会推出人工智能政策智库《Pariniti》，以强化印度人工智能生态系统  Prop News Time",
+    "authors": [
+      "Prop News Time"
+    ],
+    "institution": "Prop News Time",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "gnews:c247f7ee2430",
+    "slug": "gnews-c247f7ee2430",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZWVRQ3dhLTJIWU9na0VBSzBoM05EZnNoTjNtZUE4ckNuWmJNNF9jR1huandKS3RhYmZ4cFAxSl9EeDlQVnN6WldFME03b2xUUVdrMWdGOW9iQzFnMnpLWWNjMU1FSjNoVXZfcGtNUTVPbEtsNUh3UDZVOFVUTnZNU0NpLVF4TUpl?oc=5",
+    "publishedAt": "2026-06-05T20:51:58.000Z",
+    "titleEn": "Anthropic Warns of Imminent AI Self-Improvement Stage",
+    "titleZh": "Anthropic警告AI即将进入自我改进阶段",
+    "abstractEn": "Anthropic Warns of Imminent AI Self-Improvement Stage  조선일보",
+    "abstractZh": "Anthropic警告AI即将进入自我改进阶段  《朝鲜日报》",
+    "authors": [
+      "조선일보"
+    ],
+    "institution": "조선일보",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "hn:48417916",
@@ -428,6 +607,29 @@
     "featured": false
   },
   {
+    "id": "gnews:764e26d0be4e",
+    "slug": "gnews-764e26d0be4e",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZlY1MzFFMVBqOGNQUm1EdHU0RmhXdEhNUWV2Z2NuZlpGSXB5RWplNGJjVDRiZG55TXdqS3JaRnZtdGhtYXRNaHRqWjh0SUZsNDRiZXV4UzZEdC10TE1JX1doRHpSbzJQelRiYmd0S3k0S3lobjE2UzQtdEpDVnFxYzdCN3JNNmpnelRxSHVmeHE?oc=5",
+    "publishedAt": "2026-06-05T18:25:38.000Z",
+    "titleEn": "Investor Reid Hoffman to Leave Microsoft’s Board of Directors",
+    "titleZh": "投资者Reid Hoffman将离开微软董事会",
+    "abstractEn": "Investor Reid Hoffman to Leave Microsoft’s Board of Directors  The New York Times",
+    "abstractZh": "投资者Reid Hoffman将离开微软董事会  《纽约时报》",
+    "authors": [
+      "The New York Times"
+    ],
+    "institution": "The New York Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
     "id": "gnews:ddcf293e519c",
     "slug": "gnews-ddcf293e519c",
     "source": "Google AI News",
@@ -498,6 +700,29 @@
     ],
     "fetchedAt": "2026-06-05T22:41:38.161Z",
     "featured": false
+  },
+  {
+    "id": "gnews:55d6a6673e64",
+    "slug": "gnews-55d6a6673e64",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yYVdnSFl1dzF5dXN0Smc5U0dja0lEdUxDMThXbzB3SE5BN0k4Yk1wcTFGeUR4RmRydnRQVGV6bUNERlZTZUVibUkxTEc5aEpsT3ZDN0lKNWE2QVVydjBZcVB3ZEUtd0Z2Tmg4QkNB?oc=5",
+    "publishedAt": "2026-06-05T17:12:22.000Z",
+    "titleEn": "Anthropic urges industry coordination to allow for a ‘pause’ in AI development if risks grow",
+    "titleZh": "Anthropic敦促行业协调，以便在风险加剧时暂停AI开发",
+    "abstractEn": "Anthropic urges industry coordination to allow for a ‘pause’ in AI development if risks grow  Boston Herald",
+    "abstractZh": "Anthropic敦促行业协调，以便在风险加剧时暂停AI开发  《波士顿先驱报》",
+    "authors": [
+      "Boston Herald"
+    ],
+    "institution": "Boston Herald",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "gnews:4784d5c303d2",
@@ -665,6 +890,29 @@
     "tags": [],
     "fetchedAt": "2026-06-06T01:02:39.337Z",
     "featured": false
+  },
+  {
+    "id": "gnews:472ba678d9c1",
+    "slug": "gnews-472ba678d9c1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVVnMS1VNVl6bUdEQi10YkxaeEFtSGpoRTQ0cDMtSzd5aTNVWWVJRUNZNlFpazV6bmRmd0pCLTlxMmxDQ3NWcmxuZU1KWEJrSkV1bjF5M3N1dlVUbFdod2w5aEtVNnJuVFZveDdnQWhWaV9MeWRITkwtVGtseGlsQW5Qb0xMVmNfLU9DbGlYaEZhQlBOTzQxTg?oc=5",
+    "publishedAt": "2026-06-05T16:15:09.000Z",
+    "titleEn": "UN Urges Regulation Over AI Environmental Footprint",
+    "titleZh": "联合国敦促对人工智能环境足迹进行监管",
+    "abstractEn": "UN Urges Regulation Over AI Environmental Footprint  Let's Data Science",
+    "abstractZh": "联合国敦促对人工智能环境足迹进行监管  Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "gnews:2afd99408d92",
@@ -888,6 +1136,52 @@
     "featured": true,
     "featuredDate": "2026-06-06",
     "fetchedAt": "2026-06-06T03:19:42.418Z"
+  },
+  {
+    "id": "gnews:b23740c84384",
+    "slug": "gnews-b23740c84384",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVRSOXRQZ3ItZW56aHdBWW1vVzBPQS1zc0hGbkxuZTNPZl9ERGZuWW9qNHdIMlFEU2t0bE1VX3RNQlNhbW40TnUyUS1JYl9wZHlSdnp3bTNsZmxBeTNOTzZ5RzlJSS1iY1JScDd6V3pRV0VzVC1xNE84OXFScmFGcjV1XzFoSmV5dDJJLUlmUk5MUQ?oc=5",
+    "publishedAt": "2026-06-05T15:30:00.000Z",
+    "titleEn": "Arms Cyber launches AI policy enforcement for endpoints",
+    "titleZh": "Arms Cyber 推出面向终端的人工智能策略执行方案",
+    "abstractEn": "Arms Cyber launches AI policy enforcement for endpoints  SecurityBrief Asia",
+    "abstractZh": "Arms Cyber 推出面向终端的人工智能策略执行方案  SecurityBrief Asia",
+    "authors": [
+      "SecurityBrief Asia"
+    ],
+    "institution": "SecurityBrief Asia",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
+  },
+  {
+    "id": "gnews:6ecb578ceea1",
+    "slug": "gnews-6ecb578ceea1",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMnBHMlI0VW9LME1aeGVrRUxBR1pJNEE1SUZOLWNEVlF3MF81cnlNanQwT3JqWThYSU1XWTJrNFhEaVdEVWgxWVo3WFpXdUxrZXNKbV9wSU16c3BRcEdfWmtwUTlLZnRrb2hsSUZhSmNWWGd6eF95a3VyMkFMS2Z0NDZ2U0R6U3R6bmc?oc=5",
+    "publishedAt": "2026-06-05T15:25:00.000Z",
+    "titleEn": "Elon Musk Is Dropping a Boulder in a Kiddie Pool",
+    "titleZh": "埃隆·马斯克在儿童泳池中投下一块巨石",
+    "abstractEn": "Elon Musk Is Dropping a Boulder in a Kiddie Pool  The Atlantic",
+    "abstractZh": "埃隆·马斯克在儿童泳池中投下一块巨石  《大西洋月刊》",
+    "authors": [
+      "The Atlantic"
+    ],
+    "institution": "The Atlantic",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "gnews:69323cd6e00d",
@@ -1905,7 +2199,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T03:27:08.133Z"
+    "fetchedAt": "2026-06-06T03:27:08.133Z",
+    "featured": false
   },
   {
     "id": "雷锋网:https-www-leiphone-com-category-robot-dzhbeoms7u3gvjio-html",
@@ -2226,6 +2521,29 @@
     "tags": [],
     "fetchedAt": "2026-06-05T22:41:38.161Z",
     "featured": false
+  },
+  {
+    "id": "gnews:e707c2d1049d",
+    "slug": "gnews-e707c2d1049d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VRWlUMDJvQ1VJU0NLcXNHam9rV0RRT0xyaDdSd2VWaGFXUXlGTlV3WDZUZDR4QVNMbk1ZVFlwcnJOSzQxQUVFalJ4ZTY3UTYwSzhGNzVVVG03WWxrWjV1ZTYxdnZUZV93Z05FeDF1UWQ3U21oNExNQjJrMF8wZw?oc=5",
+    "publishedAt": "2026-06-05T09:11:56.000Z",
+    "titleEn": "UK Ofcom sets out AI safety and innovation strategy",
+    "titleZh": "英国通信管理局制定人工智能安全与创新战略",
+    "abstractEn": "UK Ofcom sets out AI safety and innovation strategy  Digital Watch Observatory",
+    "abstractZh": "英国通信管理局制定人工智能安全与创新战略  Digital Watch Observatory",
+    "authors": [
+      "Digital Watch Observatory"
+    ],
+    "institution": "Digital Watch Observatory",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "hn:48409955",
@@ -47250,6 +47568,30 @@
       "Other"
     ],
     "featured": false
+  },
+  {
+    "id": "hrorg:mercer:6cec9777c115",
+    "slug": "hrorg-mercer-6cec9777c115",
+    "source": "Mercer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcXJrcDA0b1N2ZE9yZl9Wcno4dm56Z05DeEpUd0pkSU9IYTNjMXFBVUhWN1ZpajBROEpVR1Vva0pIbkUwRVpxUVpJUTdfQkRpSjFmZ3ZQSkV6MHlOT2pOaVVGMldiRk5SdU1GTXJobENNbVFjT1pLN3IyQWhySGFUVlhDOHlydWFvQWZoV1A0MUJ2bEZ3TkRIY3RqWXB1NDVjVENEcDZiVE1kdzJPLUhqanA1dDctb1NUa1BpMFZQMjZfMVZ3LVJ4ekxiblJ4VElIUkRfRm55dEVRLWVRdHc?oc=5",
+    "publishedAt": "2026-05-01T07:00:00.000Z",
+    "titleEn": "How money managers are transforming AI solutions from experimental to practical",
+    "titleZh": "资金管理者如何将人工智能解决方案从实验性转变为实用性",
+    "abstractEn": "How money managers are transforming AI solutions from experimental to practical  Benefits Canada.com",
+    "abstractZh": "资金管理者如何将人工智能解决方案从实验性转变为实用性  Benefits Canada.com",
+    "authors": [
+      "Benefits Canada.com"
+    ],
+    "institution": "Benefits Canada.com",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-06-06T07:31:45.632Z"
   },
   {
     "id": "hrorg:recruit:97ae454c83a4",
