@@ -9,7 +9,7 @@ import { ArticleNavigation } from '../../../components/ArticleNavigation';
 import { ArticleFooter } from '../../../components/ArticleFooter';
 import { ThemeToggle } from '../../../components/ThemeToggle';
 import { ShareButton } from '../../../components/ShareButton';
-import { extractToc } from '../../../lib/toc';
+import { extractToc, mergeBilingualHeadings, isMostlyLatin } from '../../../lib/toc';
 import styles from './page.module.css';
 
 const data = articles as Article[];
@@ -51,17 +51,29 @@ export default async function ArticleDetailPage({
   const prev = currentIndex > 0 ? withContent[currentIndex - 1] : undefined;
   const next = currentIndex < withContent.length - 1 ? withContent[currentIndex + 1] : undefined;
 
-  // Strip the first heading from contentMd if it duplicates the titleZh shown in ArticleHeader
   const contentMd = (() => {
-    const lines = article.contentMd.split('\n');
-    const firstHeadingIdx = lines.findIndex((l) => /^#{1,2}\s/.test(l));
-    if (firstHeadingIdx === -1) return article.contentMd;
-    const headingText = lines[firstHeadingIdx].replace(/^#{1,2}\s+/, '').replace(/\*\*/g, '').trim();
-    const titleText   = (article.titleZh ?? article.titleEn).replace(/\*\*/g, '').trim();
-    if (headingText === titleText) {
-      return lines.slice(0, firstHeadingIdx).concat(lines.slice(firstHeadingIdx + 1)).join('\n').trimStart();
+    let lines = article.contentMd.split('\n');
+    const norm = (s: string) => s.replace(/^#{1,3}\s+/, '').replace(/\*\*/g, '').trim();
+    const titleZh = (article.titleZh ?? '').replace(/\*\*/g, '').trim();
+    const titleEn = (article.titleEn ?? '').replace(/\*\*/g, '').trim();
+
+    // 1) Strip the leading title heading + its bilingual subtitle when either
+    //    side matches the title shown in ArticleHeader. The two languages are
+    //    translated separately, so only one side may match (e.g. the EN subtitle).
+    const fi = lines.findIndex((l) => /^#{1,3}\s/.test(l));
+    if (fi !== -1) {
+      const matches = (t: string) => !!t && (t === titleZh || t === titleEn);
+      let k = fi + 1;
+      while (k < lines.length && lines[k].trim() === '') k++;
+      const subIdx = k < lines.length && /^#{1,3}\s/.test(lines[k]) ? k : -1;
+      if (matches(norm(lines[fi])) || (subIdx !== -1 && matches(norm(lines[subIdx])))) {
+        const end = subIdx !== -1 && (matches(norm(lines[subIdx])) || isMostlyLatin(norm(lines[subIdx]))) ? subIdx : fi;
+        lines = lines.slice(0, fi).concat(lines.slice(end + 1));
+      }
     }
-    return article.contentMd;
+
+    // 2) Collapse bilingual section heading pairs (dedup TOC + content).
+    return mergeBilingualHeadings(lines.join('\n')).trimStart();
   })();
 
   const toc = extractToc(contentMd);
