@@ -632,17 +632,7 @@ function ReportCard({
         {/* Action button — sits above the stretched cardLink via z-index */}
         {showAnalysis && (
           <span className={styles.cardAction}>
-            {genState === 'done' ? (
-              <a
-                href={a.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`${styles.actionBtn} ${styles.actionBtnView}`}
-                onClick={(e) => e.stopPropagation()}
-              >
-                查看原文 →
-              </a>
-            ) : !IS_PUBLIC ? (
+            {genState === 'done' ? null : !IS_PUBLIC ? (
               <button
                 className={`${styles.actionBtn} ${styles.actionBtnGen} ${genState === 'loading' ? styles.actionBtnLoading : ''}`}
                 onClick={handleGenerate}
