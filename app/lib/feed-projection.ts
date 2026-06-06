@@ -19,3 +19,16 @@ export function toSocialItem(a: Article): SocialItem {
     commentUrl: a.commentUrl,
   };
 }
+
+// For ReportFeed (报告速览 / 机构动态): keep every field the cards render but
+// DROP the heavy `contentMd` (full 解读 markdown). The feed never renders it —
+// it only needs to know whether a 解读 exists and its length. That alone was
+// ~1MB of inlined text on /reports.
+export function toReportItem(a: Article): Article {
+  const { contentMd, ...rest } = a;
+  return {
+    ...rest,
+    hasContent: !!contentMd,
+    contentLen: contentMd?.length ?? 0,
+  };
+}

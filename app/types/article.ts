@@ -34,6 +34,8 @@ export interface Article {
 
   // Full content (only present when fully translated)
   contentMd?: string;           // Translated Markdown content
+  hasContent?: boolean;         // feed-only: a 解读 exists (contentMd stripped from list payload for size)
+  contentLen?: number;          // feed-only: 解读 length, for the 总字数 stat
   translator?: Translator;      // Translation credits
 
   /** Content category — defaults to 'research' for backwards compat */

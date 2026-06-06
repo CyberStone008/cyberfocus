@@ -2,6 +2,7 @@ import articles from '../../../data/articles.json';
 import sourcesConfig from '../../../data/sources.json';
 import { Article } from '../../types/article';
 import { ReportFeed } from '../../components/ReportFeed';
+import { toReportItem } from '../../lib/feed-projection';
 import { SOURCES, getEffectiveBoards, BoardId } from '../../lib/sources-config';
 
 export default function ReportsPage() {
@@ -19,7 +20,8 @@ export default function ReportsPage() {
       a.addedManually === true ||
       a.id?.startsWith('manual:')   // backwards-compat for articles added before addedManually field
     )
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .map(toReportItem);
 
   return <ReportFeed articles={sorted} />;
 }

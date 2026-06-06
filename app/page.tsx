@@ -17,10 +17,13 @@ export default function LandingPage() {
     arrow: '▶', text: '开启未来',
   });
 
+  /* Prefetch the entry page during the landing animation so it's instant on click. */
+  useEffect(() => { router.prefetch('/reports'); }, [router]);
+
   /* Navigate after fade-out completes */
   useEffect(() => {
     if (fading) {
-      const id = setTimeout(() => router.push('/social'), 700);
+      const id = setTimeout(() => router.push('/reports'), 700);
       return () => clearTimeout(id);
     }
   }, [fading, router]);

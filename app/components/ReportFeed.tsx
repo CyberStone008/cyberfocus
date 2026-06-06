@@ -134,7 +134,7 @@ export function ReportFeed({
   /* Called when contentMd is generated for an existing article */
   const handleAnalysisGenerated = useCallback((id: string, contentMd: string, slug: string) => {
     setLocalArticles((prev) =>
-      prev.map((a) => (a.id === id ? { ...a, contentMd, slug } : a))
+      prev.map((a) => (a.id === id ? { ...a, contentMd, hasContent: true, contentLen: contentMd.length, slug } : a))
     );
   }, []);
 
@@ -490,7 +490,7 @@ function SeriesCard({ seriesSlug, articles }: { seriesSlug: string; articles: Ar
   // Chapter number labels in order
   const CHAPTER_LABELS = ['序章', 'I', 'II', 'IIIa', 'IIIb', 'IIIc', 'IV', 'V', '尾声'];
 
-  const totalChars = articles.reduce((sum, a) => sum + (a.contentMd?.length ?? 0), 0);
+  const totalChars = articles.reduce((sum, a) => sum + (a.contentLen ?? a.contentMd?.length ?? 0), 0);
   const firstSlug  = articles[0]?.slug;
 
   return (
@@ -571,7 +571,7 @@ function ReportCard({
   const abstract = a.abstractZh ?? a.abstractEn ?? '';
 
   const [genState, setGenState] = useState<'idle' | 'loading' | 'done'>(
-    a.contentMd ? 'done' : 'idle'
+    (a.hasContent ?? !!a.contentMd) ? 'done' : 'idle'
   );
   const [slug, setSlug] = useState<string>(a.slug);
   // Card click → the 解读 detail page when it exists; otherwise the original source.
