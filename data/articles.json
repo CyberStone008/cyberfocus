@@ -1,5 +1,71 @@
 [
   {
+    "id": "hn:48431981",
+    "slug": "hn-48431981-i-design-with-claude-more-than-figma-now",
+    "source": "Hacker News",
+    "sourceUrl": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48431981",
+    "publishedAt": "2026-06-07T05:04:24.000Z",
+    "titleEn": "I design with Claude more than Figma now",
+    "titleZh": "我现在用Claude设计比用Figma更多",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "MrBuddyCasino"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 3,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
+  },
+  {
+    "id": "gnews:2971a3c78ff7",
+    "slug": "gnews-2971a3c78ff7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQQm5SR3lpZ2FfM3AzTUhIRzB5TWN4MmJqMXZXUENEc214Ynl3R3JjUk5kX3VhSEgxcDN4ZDE4NS1mWGZqbm00N1lCZEh2OE1MNmExMTRGYndsVUFRNkkzNlpFcjJ3RDdsdENmdDQtSUw4V29Dcy1YVTdwWmFlTTBTVE9pUkNPeDBQb0NSTlFfQVNjY3Y1VzVieklZNXVDaTRBZnF0SGtRYlhwT3hUTjhyalVFLW54RVd3VzBvSEFqT1BQQnpna0thSmdCM1FBZmx4X2Q5WUdPeERuNmJ1ZkxNeHFraHZ2Y1VSUHlzbElhYTA5Sk1tRHJ4V1dybkNBNGJrTERvOHM1ZUx5S3NIeXRrdnBsdk9sbVBWeUFFdUdjME9DbUtXbUpzbmlKU0Z0VDFWZDQ4emU2N1RmWU9UTjB3S3VBY0RkZw?oc=5",
+    "publishedAt": "2026-06-07T03:44:35.000Z",
+    "titleEn": "The most powerful AI stories right now are not chatbots. They are the quiet algorithms reading burnt Roman scrolls, trawling through millions of galaxies, and finding things hidden in data no human team could ever finish searching.",
+    "titleZh": "当下最强大的AI故事并非聊天机器人，而是那些安静的算法——它们解读烧焦的罗马卷轴、遍历数百万个星系、在人类团队永远无法完成搜索的数据中发现隐藏之物",
+    "abstractEn": "The most powerful AI stories right now are not chatbots. They are the quiet algorithms reading burnt Roman scrolls, trawling through millions of galaxies, and finding things hidden in data no human team could ever finish searching.  Space Daily",
+    "abstractZh": "当下最强大的AI故事并非聊天机器人，而是那些安静的算法——它们解读烧焦的罗马卷轴、遍历数百万个星系、在人类团队永远无法完成搜索的数据中发现隐藏之物。Space Daily",
+    "authors": [
+      "Space Daily"
+    ],
+    "institution": "Space Daily",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-06-431487-html",
+    "slug": "ai-17",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/06/431487.html",
+    "publishedAt": "2026-06-07T03:10:13.000Z",
+    "titleEn": "教你用AI一节课收17万，华尔街精英排着队付费",
+    "titleZh": "教你用AI一节课收17万，华尔街精英排着队付费",
+    "abstractEn": "花旗美银都是客户",
+    "abstractZh": "花旗美银都是客户",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
+  },
+  {
     "id": "gnews:f14762e81ecf",
     "slug": "gnews-f14762e81ecf",
     "source": "Google AI News",
@@ -20,7 +86,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:5d0c3049687d",
+    "slug": "gnews-5d0c3049687d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQS20tbDlnX0h6QTdka08wSFg3UWlVNXpwMEJGWlF1bEY4dTFfbFVVdzJMTFp5blR1YzY4RFBXZEFKb0o4ejVaUHBrRW9lTkhRVVJpN1J1WGZ5ZndQTFFLWXdVYjZTMWFVQmltNTIydm1DVlJoVEJhcnYzNXhaUVZiYXMyenloU19DT01RZXdKTHE4a3U4Q1NodG5Pb0lmeW9JTk5yaVZVRXFwTk41eWItTkFXZVVoQnBqRTluVlBUYlBZVkhJa041QnM3WGxvVkw2cTAxRjcxdGh2U0IzWmFDRzhfdWFTcXI0R2NDZThXbFpGc1BfR3hiczNERVRJYzdxWHhNNVJUWnlKdzIxRDdKUjdxMDBib1V6WkdyandsaDlOZUhMS0lxSnFhTm9YNG1XRkhOM2RoenBPYzVuSW9sZkFManExUDhSOFHSAc8CQVVfeXFMTlBVckpudzVxeElxVFdTSGJPdWZ2LTdpMjdFc2NVNFJCQVg0d3FDMV9TMUZYNzZKRnFPNmRCOVFkR29FYlRqQXhDUGZYYW1FRVN5VEFRUkI5TVYyX0o0eHlaVTJMOGUtVWdHeGlJMlZONVE1WV9qMjlQZmlXdVQ4NkNhNTdqSmFLX2xkQzlzQU9peDNISTh0cG43Qmk4VXBlNVVyU2VBYU5oR0IwN2hnM1JfUGhwZnByMl9iNFhucEN5Z3NlZG5mcWNORk1KTmc4c3J6RWRTbHYtM09xWklqT182NmpUQlFoNEE3Mi1KU1ZYSURYZjRYeElZR0F5dktBOTl6NE5rSDMyeTM2c1dPcWlxUGlYci1HYTVMakFaMmJyMHU4OHNJNnI5ZkVLdHFoTTVUNVZaR3FVdmhFUVJ6QVUwRm8tZXhzbzBoc001SVU?oc=5",
+    "publishedAt": "2026-06-07T02:57:00.000Z",
+    "titleEn": "Google CEO Sundar Pichai to entry-level graduates: Some people are painting a very troubled scenario due",
+    "titleZh": "谷歌CEO桑达尔·皮查伊对入门级毕业生说：有些人描绘了非常严峻的形势",
+    "abstractEn": "Google CEO Sundar Pichai to entry-level graduates: Some people are painting a very troubled scenario due  The Times of India",
+    "abstractZh": "谷歌CEO桑达尔·皮查伊对入门级毕业生说：有些人描绘了非常严峻的形势。《印度时报》",
+    "authors": [
+      "The Times of India"
+    ],
+    "institution": "The Times of India",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:55e105114e26",
@@ -43,7 +133,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:cd13995c0ea3",
+    "slug": "gnews-cd13995c0ea3",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOHBMOUJlNURPRmR3dDdHdzlWdnlZdmJ0Qm91cHZqSE8xRkxmaWVxTERSYzhDZl9xbnVtV213cUUzMl9nakZtLVdLbDRud1hiNjZidHRDRzBXQ3ZreG14Vl91a2hyczd4RG1oNF9RVURLTEMySHYycmVZUHBLNllfSDVZaVR0X3FnS2dDR1VrQ0h3RXh5SG44R0tB?oc=5",
+    "publishedAt": "2026-06-07T02:50:00.000Z",
+    "titleEn": "Forget Palantir Stock at $140 per Share. Buy This Artificial Intelligence (AI) Chip ETF Instead.",
+    "titleZh": "忘掉每股140美元的Palantir股票吧，买入这只人工智能（AI）芯片ETF",
+    "abstractEn": "Forget Palantir Stock at $140 per Share. Buy This Artificial Intelligence (AI) Chip ETF Instead.  Yahoo Finance",
+    "abstractZh": "忘掉每股140美元的Palantir股票吧，买入这只人工智能（AI）芯片ETF。雅虎财经",
+    "authors": [
+      "Yahoo Finance"
+    ],
+    "institution": "Yahoo Finance",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:3a4977cfba18",
@@ -66,7 +180,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "gnews:dcf7766f80bc",
@@ -89,7 +204,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:a42654699ce8",
+    "slug": "gnews-a42654699ce8",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX0lNUDBROHRlem85cFNSRTA1QXZiRGExcmRRanNtaE93bTRKYzdPUk9mOWZwRGl4V0dsdVlaa2RNYVlNeVd5U01MTE5YWHczSGVjMXhmaXZFY1NveVNxRTMzejhDXzZRQkZXRW5XekhGaFA3eW80SERCODNTVUQ2YVlxRk5TamFaNkJ0dVF2UWRXLWw4Mlk0X2V4SWJYU2ZETHZIOTRua19udm9UMHdfM1plNk56UXMyTHppR3pWdTJRWWZs0gHKAUFVX3lxTE1lM3pxSC1MRWVQNjhyZmI0aG15SlRwSWphS0hadEpaTEoyb3RlZWo1cTRnOG9sblFNYWRXLVByUG55SUw0LVpWbDJaT0I4akpUbXRhc1VQQjZUT3F5V080c1pXNi1vTTZFZG5Ub29Qa0dTNnlHT3FmQTdoSUJzMDdmSV9UOWpXbW5QWmM0OGhIeWY2eU5QT0hzU2pzMElVWFRfSGZkSzJpdzdfN3ZzYXRlRHI1ZXl2ajhkSzhnUnAwd01OTk15RG1LQkE?oc=5",
+    "publishedAt": "2026-06-07T01:56:14.000Z",
+    "titleEn": "Trump AI policy adviser Sriram Krishnan is giving up White House role",
+    "titleZh": "特朗普AI政策顾问斯里拉姆·克里希南将放弃白宫职务",
+    "abstractEn": "Trump AI policy adviser Sriram Krishnan is giving up White House role  Moneycontrol.com",
+    "abstractZh": "特朗普AI政策顾问斯里拉姆·克里希南将放弃白宫职务《Moneycontrol.com》",
+    "authors": [
+      "Moneycontrol.com"
+    ],
+    "institution": "Moneycontrol.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "hn:48430923",
@@ -111,7 +250,8 @@
     "score": 40,
     "commentCount": 5,
     "tags": [],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "量子位:https-www-qbitai-com-2026-06-431401-html",
@@ -132,7 +272,53 @@
     "score": 0,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:3db24ac024db",
+    "slug": "gnews-3db24ac024db",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa0l2eW42NFMtZVo3ejN0XzhvVmNlZGlqc095SHVWWmxGbHVtSE5zMExhMEd6OVdzbHRHcHloSWg1R1Z1VmhQRUJHTEpWdVg5YUROcjhJZzJMVmFCVTNGX3FVWjVPa24wUVp6MThLZ2JDcUZXMFFMQjJ5NFFOdHNNcFNVeGMwUnd3TGUzNlJaYW10X3N4T2NyZTNpdEdUMlJpUzZxZjhrVENpRk10UmFLbTdDNHdkYTd5dkVqRzd2bEVhY2NKTEI4akE2blJYQnlEblZ2QlFmaw?oc=5",
+    "publishedAt": "2026-06-07T00:29:10.000Z",
+    "titleEn": "A new national AI policy must recognise higher education and its internationalisation",
+    "titleZh": "新的国家AI政策必须承认高等教育及其国际化",
+    "abstractEn": "A new national AI policy must recognise higher education and its internationalisation  Magzter",
+    "abstractZh": "新的国家AI政策必须承认高等教育及其国际化。Magzter",
+    "authors": [
+      "Magzter"
+    ],
+    "institution": "Magzter",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
+  },
+  {
+    "id": "hn:48430282",
+    "slug": "hn-48430282-human-like-neural-nets-by-catapulting",
+    "source": "Hacker News",
+    "sourceUrl": "https://gwern.net/llm-catapult",
+    "commentUrl": "https://news.ycombinator.com/item?id=48430282",
+    "publishedAt": "2026-06-06T23:45:36.000Z",
+    "titleEn": "Human-Like Neural Nets by Catapulting",
+    "titleZh": "通过弹射实现类人神经网络",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "telotortium"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 10,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:3fd1f83e569d",
@@ -155,7 +341,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:ca57d913fdbc",
+    "slug": "gnews-ca57d913fdbc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRXBZX2lveVJkcnAzYTYyWG9ONEpTbjNZRWJmMHY4S3M1dEdGdzJSUG52cnRVSjRYNFRDUlRGeHRMRG16aXdENDBRc3JoZ0ZkV2hBWGg0TWxhejFvV0hJWi1JR2FEclpOVmhMTXkyVFU4UkFhRldWYXNjemRPOS10SUE0cFB4enpEejY0VnplU1VWNmFDYjZpVTY2akdNVkFXVlIyWC1aY0I?oc=5",
+    "publishedAt": "2026-06-06T23:00:00.000Z",
+    "titleEn": "AVPS implements new procedure to guide AI use",
+    "titleZh": "AVPS实施新程序以指导AI使用",
+    "abstractEn": "AVPS implements new procedure to guide AI use  TownAndCountryToday.com",
+    "abstractZh": "AVPS实施新程序以指导AI使用。TownAndCountryToday.com",
+    "authors": [
+      "TownAndCountryToday.com"
+    ],
+    "institution": "TownAndCountryToday.com",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:62d3aaa5f824",
@@ -182,6 +392,29 @@
     "featured": false
   },
   {
+    "id": "gnews:b1fd34785cc7",
+    "slug": "gnews-b1fd34785cc7",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTEhrYmRVMnB0V3cxYVh1em1oUjZ2bHVXWDIzWHN3VnE0RW9HeTczcVdNMjVyT1ZXVERQOGVIZ21lS1BIVVJFdnFGbmNnQmtUS0Q3N2dqU3RoWnhuSC1Sc1FUd045OENqRHg5LUYyLWJjbUNNbjRvZjVWRTNPMEFCS3p2X1Y?oc=5",
+    "publishedAt": "2026-06-06T21:18:20.000Z",
+    "titleEn": "What we know about the plan to give Americans an equity stake in AI",
+    "titleZh": "关于让美国人获得AI股权计划的已知信息",
+    "abstractEn": "What we know about the plan to give Americans an equity stake in AI  Financial Times",
+    "abstractZh": "关于让美国人获得AI股权计划的已知信息。《金融时报》",
+    "authors": [
+      "Financial Times"
+    ],
+    "institution": "Financial Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
+  },
+  {
     "id": "gnews:c180a10cd027",
     "slug": "gnews-c180a10cd027",
     "source": "Google AI News",
@@ -202,7 +435,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "hrorg:zhilian:c6d6155c7501",
@@ -251,6 +485,29 @@
     "tags": [],
     "fetchedAt": "2026-06-06T23:46:47.302Z",
     "featured": false
+  },
+  {
+    "id": "gnews:b278f785d992",
+    "slug": "gnews-b278f785d992",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbjU5LU43RllxMnhOMW01cUkwV1NMaFNlWXRxTWc3Nk9mb1ZlMXBreVU5cWNYb3FVZUZvYV9TLThhN05fNm5HV2QxSFRubDlNbUVKcUZIZ0FlMGtHclFreHdDeDBKNXhIbF8wT25ZUUZCT0VCMEZpblZ2eGdhd1Vzei1RTVFiVWdtT0lncUVNSkdmUjdIa3BGMzlxcVh1dVdBMk53cmgtNmE4YjI0bWF2cnpMOHBoemZNR1JJOFpSUVlwdm9xbnM1MGdhSkFTWGItOVA2WtIB2gFBVV95cUxNQ29LWW1ZS0cwOTJWZUtPOGljTWdZd3RNbDdFNTF6WmRtcFBrV2J1b3U4Q1E0el9yTkFxa3VhbG03QnZqajlqel9DVkpHeHZubzRWREttY3hneHZWUTQ0VTl5bFVIRl9GWkdmUGJmTWpQYzJteHN2RVl0bVI1VURsSTZlWjZ6Mzk4YktxRjJxQlM0SkREcFp1OXVXZldNNzlBdzV1MjNnRlpRMlU5c2V1TGFTbU5iQVF2QVN2ak1Xckl1c2lpSHNyTFRaNXRTZk1CbnpFekRieVBHQQ?oc=5",
+    "publishedAt": "2026-06-06T20:21:20.000Z",
+    "titleEn": "Sriram Krishnan, Trump's AI policy adviser, to step down from White House role | World News",
+    "titleZh": "特朗普AI政策顾问斯里拉姆·克里希南将辞去白宫职务",
+    "abstractEn": "Sriram Krishnan, Trump's AI policy adviser, to step down from White House role | World News  Hindustan Times",
+    "abstractZh": "特朗普AI政策顾问斯里拉姆·克里希南将辞去白宫职务 | 世界新闻《印度斯坦时报》",
+    "authors": [
+      "Hindustan Times"
+    ],
+    "institution": "Hindustan Times",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "hn:48428330",
@@ -319,7 +576,8 @@
     "score": 10,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "gnews:6128758b0deb",
@@ -344,6 +602,29 @@
     ],
     "fetchedAt": "2026-06-06T23:46:47.302Z",
     "featured": false
+  },
+  {
+    "id": "gnews:c35deb2010d4",
+    "slug": "gnews-c35deb2010d4",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcnBhMmV0VHhQcEI1bnZuYVVLb0U2VE9KV25Tdms2NHZ0ZHpGV3pNMHNtWWxjSFU0eUFrNlk2dS16M1VRZmxqWlRlZk1TbDZHdmRHQ3RjcWhvNzBkdUVPSDQzSEYtV3JBV3B0aE9Sejd1M0w2SjB5N1dMWHZ4dlF0RHlCRUNlREc3dlh6bW01NjF6V291UXg2SU5iSlZ5cVdEdkhwS0oyeUtRWDFmVTNyTkFPVUw5enBaeE1j0gHAAUFVX3lxTE5iTmZjSUNGdHI4bnhhbXJBN1RkY29kYUZXYzZMaUwxWjk1ODI1eEdxU285WWVWbVU4WERlX25Lazl5alRZZ3lZSkZGYXVNVTFJdUtPY0RQMUF6Rm9icTdHSzhGc3o5T3YtOVRLSDU0aG1xR19SUkFMeS15RGFadzRWck02Q2FmeWh0Ri1GX25scEpQNC1aMmdLQWxoVWUzeHNpcnhMUUdTTmxaN05sbFhYenBfZjNTdkVyekEzbUFqZA?oc=5",
+    "publishedAt": "2026-06-06T18:58:40.000Z",
+    "titleEn": "AI Policy Adviser Ends Tenure Amid Strategies for Tech Regulation",
+    "titleZh": "AI政策顾问在科技监管策略中结束任期",
+    "abstractEn": "AI Policy Adviser Ends Tenure Amid Strategies for Tech Regulation  Devdiscourse",
+    "abstractZh": "AI政策顾问在科技监管策略中结束任期。Devdiscourse",
+    "authors": [
+      "Devdiscourse"
+    ],
+    "institution": "Devdiscourse",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "hn:48427643",
@@ -462,6 +743,29 @@
     ],
     "fetchedAt": "2026-06-06T23:46:47.302Z",
     "featured": false
+  },
+  {
+    "id": "gnews:349c1e4def49",
+    "slug": "gnews-349c1e4def49",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTzNldzBVNnJOMUJhSE9JSVRna3FHWWFWeFBlS0dNM0xscmM1aktUYWNUNWVOamFaSHdPa2Nwcmh1b1JYeFZ6elF0SUU0MG52eXRnOWU3S2VxWGE1R3lMMElUNHk2RW5wQU1vX2tjQW9rRlpwcm1DOF83djFleUotVWZiQnRadzd3a3ZpZ2hSMmN6eVVrczFIZVR6REE?oc=5",
+    "publishedAt": "2026-06-06T16:36:00.000Z",
+    "titleEn": "Trump's AI policy advisor said to leave White House",
+    "titleZh": "特朗普AI政策顾问据悉将离开白宫",
+    "abstractEn": "Trump's AI policy advisor said to leave White House  Breakingthenews.net",
+    "abstractZh": "特朗普AI政策顾问据悉将离开白宫《Breakingthenews.net》",
+    "authors": [
+      "Breakingthenews.net"
+    ],
+    "institution": "Breakingthenews.net",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:fe309d941b52",
@@ -722,7 +1026,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "hn:48423995",
@@ -794,6 +1099,29 @@
     ],
     "fetchedAt": "2026-06-06T11:51:55.929Z",
     "featured": false
+  },
+  {
+    "id": "gnews:b08fe859a1ad",
+    "slug": "gnews-b08fe859a1ad",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3MDhGcnBqb21iMW1zYW5hRl9tQ0xLVEllSmU4ODNlbElHTnV5NGRUR1VWZG9mRThKWVJhTmo0elcybzg0V3FxTER1VFdlVmZNTWdiaVRFalliUk1pdFRVWC11NlNLYTFR0gFcQVVfeXFMTTQ4NTEteGFzekFBTWxaYUpnVnpxeDd5OW9QRjlPWmNrSnZFTEZLSllJVHJVZFJYZXBuSzZ3dmJoY2lYTUw2X2ZPVmpOQ0ViaFN2R3lqS0VJbkM4UVk?oc=5",
+    "publishedAt": "2026-06-06T10:27:09.000Z",
+    "titleEn": "Africa Faces AI Risks as Regulation Lags Behind Innovation",
+    "titleZh": "非洲面临AI风险：监管滞后于创新",
+    "abstractEn": "Africa Faces AI Risks as Regulation Lags Behind Innovation  Modern Ghana",
+    "abstractZh": "非洲面临AI风险：监管滞后于创新《Modern Ghana》",
+    "authors": [
+      "Modern Ghana"
+    ],
+    "institution": "Modern Ghana",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T05:52:49.096Z"
   },
   {
     "id": "gnews:1aba61f3a891",
@@ -1051,7 +1379,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "hn:48421442",
@@ -1713,7 +2042,8 @@
     "score": 110,
     "commentCount": 65,
     "tags": [],
-    "fetchedAt": "2026-06-07T03:55:38.218Z"
+    "fetchedAt": "2026-06-07T03:55:38.218Z",
+    "featured": false
   },
   {
     "id": "gnews:ddcf293e519c",
