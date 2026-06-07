@@ -1,19 +1,63 @@
 {
   "date": "2026-06-07",
-  "generatedAt": "2026-06-07T10:10:46.807Z",
+  "generatedAt": "2026-06-07T12:03:09.225Z",
   "summary": {
     "aiNews": [
       "OpenAI推出锁定模式，阻止提示注入攻击，提升AI安全性。",
-      "国产开源框架实现5分钟AI长视频不翻车，跻身全球第一梯队。",
-      "版权监管机构呼吁设立仲裁庭，专门处理AI相关纠纷。"
+      "谷歌CEO皮查伊对入门级毕业生称，AI行业形势严峻，需谨慎应对。",
+      "国产开源框架实现5分钟AI长视频不翻车，跻身全球第一梯队。"
     ],
     "papers": [],
     "hrOrgs": [
-      "智联招聘发布《2026中国城市人才吸引力排名》，揭示人才流动趋势。",
-      "FESCO举办“亦企同行·引才筑桥”活动，助力企业人才对接。"
+      "智联招聘发布2026中国城市人才吸引力排名，揭示人才流动趋势。",
+      "FESCO举办“亦企同行·引才筑桥”活动，助力企业人才对接。",
+      "科锐国际盘点灵活用工平台，推荐几家值得关注的服务商。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:c0798e2f9463",
+      "slug": "gnews-c0798e2f9463",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52Z1BZbkprOUF2YWFTTXRUdVRZMENuVWZ6Y0xQenUyMUpnTjl2THo2bUIzNmh2U1R6ejNwMmpKd2ROc1dRMklkRWdyWVhmc0F6Um9YN3NOcy1lenllOFJKYXNDMUU2VWdkMVVzQzNBTHNJOTJw?oc=5",
+      "publishedAt": "2026-06-07T11:02:39.000Z",
+      "titleEn": "The AI Safety War in My Back Yard",
+      "titleZh": "我家后院的AI安全战争",
+      "abstractEn": "The AI Safety War in My Back Yard  dollarsandsense.org",
+      "abstractZh": "《我家后院的AI安全战争》  dollarsandsense.org",
+      "authors": [
+        "dollarsandsense.org"
+      ],
+      "institution": "dollarsandsense.org",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48433305",
+      "slug": "hn-48433305-efficient-and-training-free-single-image-diffusion-models",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2606.04299",
+      "commentUrl": "https://news.ycombinator.com/item?id=48433305",
+      "publishedAt": "2026-06-07T09:43:45.000Z",
+      "titleEn": "Efficient and Training-Free Single-Image Diffusion Models",
+      "titleZh": "高效且无需训练的单图像扩散模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yorwba"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 0,
+      "tags": []
+    },
     {
       "id": "gnews:48e636009329",
       "slug": "gnews-48e636009329",
@@ -1053,6 +1097,28 @@
       "score": 24,
       "commentCount": 7,
       "tags": []
+    },
+    {
+      "id": "hrorg:careerin:45fa16bea266",
+      "slug": "hrorg-careerin-45fa16bea266",
+      "source": "科锐国际",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lTjlwaXVMdHNRLWtwSno2WDU1WUZodTNIdFVrVU9YR2w4V0FQbE91NUFEcGFESjNaX0s3RVNJdDd2VUJzbkJfeXB6ZlZsSF9QMzJoVjM3UnRLMUFrOThieUxNYlBSdw?oc=5",
+      "publishedAt": "2026-06-03T16:00:00.000Z",
+      "titleEn": "灵活用工平台哪家靠谱？这几家值得关注",
+      "titleZh": "灵活用工平台哪家靠谱？这几家值得关注",
+      "abstractEn": "灵活用工平台哪家靠谱？这几家值得关注  邢台网",
+      "abstractZh": "灵活用工平台哪家靠谱？这几家值得关注  邢台网",
+      "authors": [
+        "邢台网"
+      ],
+      "institution": "邢台网",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
     }
   ]
 }
