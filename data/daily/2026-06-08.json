@@ -1,0 +1,339 @@
+{
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-07T23:20:20.896Z",
+  "summary": {
+    "aiNews": [
+      "VibeOS发布史上首个AI原生操作系统，旨在重新定义人机交互方式。",
+      "OpenAI计划对ChatGPT进行自发布以来最大规模改造，提升用户体验。",
+      "微软与OpenAI保持距离，分析认为此举对投资者是利好信号。"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48438754",
+      "slug": "hn-48438754-vibeos-first-ever-ai-native-operating-system",
+      "source": "Hacker News",
+      "sourceUrl": "https://vibeos.sh/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48438754",
+      "publishedAt": "2026-06-07T21:29:21.000Z",
+      "titleEn": "VibeOS: First ever AI-native operating system",
+      "titleZh": "VibeOS：史上首个AI原生操作系统",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "doener"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 11,
+      "commentCount": 11,
+      "tags": []
+    },
+    {
+      "id": "gnews:5e8974252f0e",
+      "slug": "gnews-5e8974252f0e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONWczUnJZWUJaZTZ0Ty1fU2c0YUlRVlNXRkhWVmZGUk51b0hZZ0Q2cWRielRVcFo0VGZtajFwcUktRWp2UmZ1ajRpaUhTS2JOTzZ5aVo0NG52UENqNHBxYzY5MElLRzRYTk9qR2lEbHhHQmdtYnZQeTJKZTNyTXhSaUp6VEozS29aOXNXbmZSUkVkUQ?oc=5",
+      "publishedAt": "2026-06-07T20:33:51.000Z",
+      "titleEn": "AI CEOs Urge Congress to Mandate DNA Screening",
+      "titleZh": "AI 首席执行官敦促国会强制进行 DNA 筛查",
+      "abstractEn": "AI CEOs Urge Congress to Mandate DNA Screening  Let's Data Science",
+      "abstractZh": "AI 首席执行官敦促国会强制进行 DNA 筛查  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48438180",
+      "slug": "hn-48438180-show-hn-nightwatch-the-open-source-read-only-ai-sre",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/ninoxAI/nightwatch",
+      "commentUrl": "https://news.ycombinator.com/item?id=48438180",
+      "publishedAt": "2026-06-07T20:24:36.000Z",
+      "titleEn": "Show HN: Nightwatch, The open-source, read-only AI SRE",
+      "titleZh": "Show HN：Nightwatch——开源、只读的AI站点可靠性工程师",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "egorferber"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48438097",
+      "slug": "hn-48438097-agentic-ai-solved-coding-and-exposed-every-other-problem-in-se",
+      "source": "Hacker News",
+      "sourceUrl": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering",
+      "commentUrl": "https://news.ycombinator.com/item?id=48438097",
+      "publishedAt": "2026-06-07T20:12:47.000Z",
+      "titleEn": "Agentic AI solved coding and exposed every other problem in SE",
+      "titleZh": "智能体AI解决了编码问题，却暴露了软件工程中的其他所有问题",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "msolujic"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48437913",
+      "slug": "hn-48437913-no-model-will-save-us-pope-leo-the-miserostat-and-ais-woke-coders",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wmbriggs.com/post/61049/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48437913",
+      "publishedAt": "2026-06-07T19:48:14.000Z",
+      "titleEn": "No Model Will Save Us: Pope Leo, the Miserostat, and AI's Woke Coders",
+      "titleZh": "没有模型能拯救我们：教皇利奥、Miserostat与AI的觉醒程序员",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "B1FF_PSUVM"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48437912",
+      "slug": "hn-48437912-billions-spent-and-hypothetical-returns-the-ai-boom-explained-with-s",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/jun/07/billions-spent-hypothetical-returns-the-ai-boom-explained-with-six-charts",
+      "commentUrl": "https://news.ycombinator.com/item?id=48437912",
+      "publishedAt": "2026-06-07T19:48:01.000Z",
+      "titleEn": "Billions spent and hypothetical returns: the AI boom explained with six charts",
+      "titleZh": "数十亿投入与假设性回报：用六张图表解析AI热潮",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "billybuckwheat"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 17,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:45d05c823aee",
+      "slug": "gnews-45d05c823aee",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY2ExSXk0V3dVOWNya1RVVWJqUnVwaG9vQURUWjExTlFMUll5czFmX25MSFdXUjJDaUJ2MUVab2NkQUNLRU5INFlCZU9ISTVianVwNXFHX3lYazZKdXhWamNoVmhrMU90eDV0T05RWVptTkgwMklNTHh5WUZzM0VCVUM3cDNyOFJMWUh4ejRPWmp3ejhXcmNOSTA4NFhuUUpKb09UN2F3?oc=5",
+      "publishedAt": "2026-06-07T19:31:00.000Z",
+      "titleEn": "Why Microsoft Distancing Itself From OpenAI Is a Good Thing for Investors",
+      "titleZh": "微软与OpenAI保持距离对投资者而言是好事",
+      "abstractEn": "Why Microsoft Distancing Itself From OpenAI Is a Good Thing for Investors  Yahoo Finance",
+      "abstractZh": "微软与OpenAI保持距离对投资者而言是好事（雅虎财经）",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48437568",
+      "slug": "hn-48437568-if-llms-have-human-like-attributes-then-so-does-age-of-empires-ii",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.31514",
+      "commentUrl": "https://news.ycombinator.com/item?id=48437568",
+      "publishedAt": "2026-06-07T18:54:55.000Z",
+      "titleEn": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "titleZh": "如果大语言模型具有人类特质，那么《帝国时代 II》也是如此",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ketchup32613"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 83,
+      "commentCount": 65,
+      "tags": []
+    },
+    {
+      "id": "gnews:a0ffc15eaad2",
+      "slug": "gnews-a0ffc15eaad2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rNDBjVEZHRzhrLW1Ud2FhSHppclFBNm5NU1dBajNvMS15OWRkZG5VaHRDbzhTTWM3bUdTeWk3OS0xaTJBdjYxUEtndWhlRkdseUZTSjNPV2dQeW9qZnhVN2Jlb3M3R0tD?oc=5",
+      "publishedAt": "2026-06-07T18:44:00.000Z",
+      "titleEn": "Solana Founder Anatoly Yakovenko Mocks Bernie Sanders’ AI Jobs Warning",
+      "titleZh": "Solana 创始人 Anatoly Yakovenko 嘲讽 Bernie Sanders 的 AI 就业警告",
+      "abstractEn": "Solana Founder Anatoly Yakovenko Mocks Bernie Sanders’ AI Jobs Warning  BeInCrypto",
+      "abstractZh": "Solana 创始人 Anatoly Yakovenko 嘲讽 Bernie Sanders 的 AI 就业警告  BeInCrypto",
+      "authors": [
+        "BeInCrypto"
+      ],
+      "institution": "BeInCrypto",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:659a18f5810b",
+      "slug": "gnews-659a18f5810b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVkstWmpORnVsa2Z2V2lzcXVKcDFleVJQb1ZZTDI4eEY2NUR1X3NhZy1MODJJTXAyQVVUOHlPRGltRzhvZ3lVb3JSSVVudG02WDFOUWZsakEwRGxydkRzb0RseVBmdWpsYi1BY0RCSVVJdmN6SHVaLWdlSGZzVFhycXFmU1RENWs4OXdnUWFHNXNCaW9ybGVFUXdBVEVDWktHLVdvRU9kRGRvN1ZxZWJGbg?oc=5",
+      "publishedAt": "2026-06-07T18:43:33.000Z",
+      "titleEn": "'We blinked': Government accused of backing down on AI regulation",
+      "titleZh": "我们退缩了：政府被指责在 AI 监管上让步",
+      "abstractEn": "'We blinked': Government accused of backing down on AI regulation  Australian Broadcasting Corporation",
+      "abstractZh": "我们退缩了：政府被指责在 AI 监管上让步  澳大利亚广播公司",
+      "authors": [
+        "Australian Broadcasting Corporation"
+      ],
+      "institution": "Australian Broadcasting Corporation",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3faca4964ec9",
+      "slug": "gnews-3faca4964ec9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXJ0U255ekpJTkF2T1BYRzJEUDlVakk0eGVUT2JXc1hlekxVRzRUVTk4a2hyQ0wxbG5xNy03Qkd3b0N1clUxRGotT2pNTS1acWNqQ1lJdG5vR21ZZVVKYUhjTEFITzdJanA3U2ZCb0pRSWJvbXQxajk1THAyekpSbTBfR3BOSVFBTnVyRHlYb2VaMTU5QXUtbEt1bVdMbTB6LV9obQ?oc=5",
+      "publishedAt": "2026-06-07T18:40:06.000Z",
+      "titleEn": "Anthropic wants caution but the market wants more AI",
+      "titleZh": "Anthropic呼吁谨慎，但市场渴望更多AI",
+      "abstractEn": "Anthropic wants caution but the market wants more AI  Australian Broadcasting Corporation",
+      "abstractZh": "Anthropic呼吁谨慎，但市场渴望更多AI（澳大利亚广播公司）",
+      "authors": [
+        "Australian Broadcasting Corporation"
+      ],
+      "institution": "Australian Broadcasting Corporation",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fad883fce976",
+      "slug": "gnews-fad883fce976",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZXU3ampiMTVRaFphWjdLXzkxR2haVUpfNzV2amJHMzBLQkxxWnRRalh6NTd4WHVtb2FkcFJsZUhtWXQwTURjOXBQSlQ0NjI1X3NGQTZKZG1RR0J3ZzlVTUlkaXdDZzhnRGVIUUppQW0yZDFpLXZDa2M0QUVOSTFYdGhoNzRsdVczMWpvNUlKRzMwTTQyTERxdWRCUjhocktnYmlscGlJZTlnTUNRTHQ1aTBqYVNoOS0yYTM4?oc=5",
+      "publishedAt": "2026-06-07T17:34:28.000Z",
+      "titleEn": "Elder Gong teaches how to hear God’s voice amid increased use of artificial intelligence",
+      "titleZh": "龚长老教导如何在人工智能日益普及中聆听上帝的声音",
+      "abstractEn": "Elder Gong teaches how to hear God’s voice amid increased use of artificial intelligence  Church News",
+      "abstractZh": "龚长老教导如何在人工智能日益普及中聆听上帝的声音（教会新闻）",
+      "authors": [
+        "Church News"
+      ],
+      "institution": "Church News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d8cf802c3157",
+      "slug": "gnews-d8cf802c3157",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3TGcxSUlxQzRLc1owX2praTE2SGw1M3cxNzhUQWFvSGJSZnl1czh4VGpBVkNqSUtLRVJZakF5MkxMNmJKZFgzSnpYM0dzNE12WUpXeXZ3?oc=5",
+      "publishedAt": "2026-06-07T15:06:32.000Z",
+      "titleEn": "AI cybersecurity expert warns of hacker threats, discusses regulation",
+      "titleZh": "AI 网络安全专家警告黑客威胁并探讨监管问题",
+      "abstractEn": "AI cybersecurity expert warns of hacker threats, discusses regulation  Fox News",
+      "abstractZh": "AI 网络安全专家警告黑客威胁并探讨监管问题  Fox News",
+      "authors": [
+        "Fox News"
+      ],
+      "institution": "Fox News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:07c27985a5e6",
+      "slug": "gnews-07c27985a5e6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNVFOWm9kU2dEV1diOHNhTU1YdllhZk5PMm03Sjd2Smw5Ukc0cU5BTzdiNGhZYnNZc0RTT2JIMVdUaVZmWDZKVm5SUnZOcUgtSlJsTEtJRW5XYlJhRjFTQ3NBTWhxMDBqVFg1OUVDVUJIQzNXOFlvUHhVMkZORUdrZklDS0VRMVhfandnaklKbmw?oc=5",
+      "publishedAt": "2026-06-07T05:24:00.000Z",
+      "titleEn": "Africa's startups are learning to fund growth closer to home",
+      "titleZh": "非洲初创企业正学习在本土寻找增长资金",
+      "abstractEn": "Africa's startups are learning to fund growth closer to home  Startup Fortune",
+      "abstractZh": "非洲初创企业正学习在本土寻找增长资金  Startup Fortune",
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:60f859882162",
+      "slug": "gnews-60f859882162",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNGJ0WEREdmV6SGUyOG5rbWU2ZFA5Z2Z4Wjg5MTZiQ0V5SGk5RFVHYnZuSXJ3QjZpQXpvRXNwN2s3bXNBZlNkRThwc2hxTG1oQnBkakxnOHBuOUE0NGN3Y0h0R084ZXRKeTBOM1BUaTg1TXRHX1BOU3M4TWFnOHR2bW1ER1Y?oc=5",
+      "publishedAt": "2026-06-07T04:01:23.000Z",
+      "titleEn": "OpenAI plots biggest ChatGPT overhaul since launch",
+      "titleZh": "OpenAI计划自发布以来对ChatGPT进行最大规模改造",
+      "abstractEn": "OpenAI plots biggest ChatGPT overhaul since launch  Financial Times",
+      "abstractZh": "OpenAI计划自发布以来对ChatGPT进行最大规模改造（金融时报）",
+      "authors": [
+        "Financial Times"
+      ],
+      "institution": "Financial Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    }
+  ]
+}
