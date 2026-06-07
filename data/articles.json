@@ -1,5 +1,163 @@
 [
   {
+    "id": "gnews:f14762e81ecf",
+    "slug": "gnews-f14762e81ecf",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUlJHRzVhaW1CR25hQjJ0ZE0wNFpIbkRRVzdScXpFMk5Ed3Z6eEh4RGdqZ294RTVwTm5WT0ljUFBMR2V2NmppTi1pXzBfMVFMNlJmVHRqZXdlSHdFRENMMjMyNFc2Y3BhN1NDOWRmQUVFOEN6SWZsX09CQy1QWUNQVEprVjJHOWlEb1dFb196Vmg4TjQ0RmR4R1ZKRQ?oc=5",
+    "publishedAt": "2026-06-07T03:04:23.000Z",
+    "titleEn": "Copyright watchdog calls for tribunal to handle AI disputes",
+    "titleZh": "版权监管机构呼吁设立仲裁庭处理AI纠纷",
+    "abstractEn": "Copyright watchdog calls for tribunal to handle AI disputes  1News",
+    "abstractZh": "版权监管机构呼吁设立仲裁庭处理AI纠纷  1News",
+    "authors": [
+      "1News"
+    ],
+    "institution": "1News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "gnews:55e105114e26",
+    "slug": "gnews-55e105114e26",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWTExbHl5VXkyRWFSeHJlNzNtZURTdWRsdmxGbmhiVGp0U3BfNzlYNlF6d3ZfTTE2d0p0WWI2UGUxcUFVMW9JVDFaWjgzZmpLZXltaW5OZzBmQ09ZdXpOV2QyS0NsV3BuS3Y2alk0OGZDWjJrMFNOV0VON0FtZkNqYnpqb2p0RUNtcVI1SHlXeHU1QdIBlwFBVV95cUxPVE9hTjZFb3BoX19HV0RLQ2k5UTRGZFBhMmdWV19fdWVXczNkWU5BcmllaXA0cXJGWl9GNUJpMjg3MVpvd2g4NzdEdE5pVEoxWG8tZ3dCdDdkdjM0SVZQaXRfRnFncnNQTFBlN0VNVFMtR2FPTk1KUWtZT0dhcl93eDJidmpMaWR1SzdDNERjSnVjYjdKN1JF?oc=5",
+    "publishedAt": "2026-06-07T02:54:00.000Z",
+    "titleEn": "White House AI policy adviser to leave role at end of month",
+    "titleZh": "白宫AI政策顾问将于月底离职",
+    "abstractEn": "White House AI policy adviser to leave role at end of month  The Hill",
+    "abstractZh": "白宫AI政策顾问将于月底离职  The Hill",
+    "authors": [
+      "The Hill"
+    ],
+    "institution": "The Hill",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "gnews:3a4977cfba18",
+    "slug": "gnews-3a4977cfba18",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLTg0YjhPTWpidnBSRzM1TmxOMHpxc1RJbW50aU9FSS1sa0JsWWp1U0RtQUVaWVJ0akEyWjdGREhyN2JrcUlwLTdyeXdScEtRSzFMdnRzT3o1MDlnRU9pc2VMdVVUYk1sOURHdXVJeEVscko2SmV2eHZMNmMtWjA4b1l5cXNvbWFzd0JqbldDNDdfQWMyaGVnaU01WEN0bzBJeFBIbHFYOEp4RVdmUXYxUDlrSEJMaHJzTWhUdUdIVHFiRmtnU3FNSWppSWNMLVR2bnlaa0FuRG9paWVwTXNkd0U1T2ZjZw?oc=5",
+    "publishedAt": "2026-06-07T02:34:22.000Z",
+    "titleEn": "Trump AI Adviser Sriram Krishnan To Leave White House, Plans New Role Influencing AI Policy: Report",
+    "titleZh": "特朗普AI顾问Sriram Krishnan将离开白宫，计划以新角色影响AI政策：报道",
+    "abstractEn": "Trump AI Adviser Sriram Krishnan To Leave White House, Plans New Role Influencing AI Policy: Report  Benzinga",
+    "abstractZh": "特朗普AI顾问Sriram Krishnan将离开白宫，计划以新角色影响AI政策：报道  Benzinga",
+    "authors": [
+      "Benzinga"
+    ],
+    "institution": "Benzinga",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "gnews:dcf7766f80bc",
+    "slug": "gnews-dcf7766f80bc",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUG0wdlo5TkpHWm95aHlsR2dibDNEVUhidzh3bGxFVE1zZjMxbXo2UHNka3ZZZnFSLXhaZ0V2TDBjVkh6MFVjaWVPQ3BVTURSSS14ZkVWTVRLN2VmQWYwNGhSX1JtMjJxbWtmdGxkRVRFYXJuWnRWbC1ONU1ER2FVUElxV281Zkk?oc=5",
+    "publishedAt": "2026-06-07T01:56:36.000Z",
+    "titleEn": "The Weekly Notable Startup Funding Report: 6/8/26",
+    "titleZh": "每周值得关注的初创企业融资报告：2026年6月8日",
+    "abstractEn": "The Weekly Notable Startup Funding Report: 6/8/26  AlleyWatch",
+    "abstractZh": "每周值得关注的初创企业融资报告：2026年6月8日  AlleyWatch",
+    "authors": [
+      "AlleyWatch"
+    ],
+    "institution": "AlleyWatch",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "hn:48430923",
+    "slug": "hn-48430923-tokenomics-quantifying-where-tokens-are-used-in-agentic-software-eng",
+    "source": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2601.14470",
+    "commentUrl": "https://news.ycombinator.com/item?id=48430923",
+    "publishedAt": "2026-06-07T01:37:11.000Z",
+    "titleEn": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+    "titleZh": "Tokenomics：量化智能体软件工程中 Token 的使用位置",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "Anon84"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 40,
+    "commentCount": 5,
+    "tags": [],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "量子位:https-www-qbitai-com-2026-06-431401-html",
+    "slug": "5-ai",
+    "source": "量子位",
+    "sourceUrl": "https://www.qbitai.com/2026/06/431401.html",
+    "publishedAt": "2026-06-07T01:13:21.000Z",
+    "titleEn": "5分钟AI长视频不翻车！国产开源框架杀到全球第一梯队",
+    "titleZh": "5分钟AI长视频不翻车！国产开源框架杀到全球第一梯队",
+    "abstractEn": "高一致性、低延迟、实时超分全梭哈",
+    "abstractZh": "高一致性、低延迟、实时超分全梭哈",
+    "authors": [
+      "量子位"
+    ],
+    "institution": "量子位",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
+    "id": "gnews:3fd1f83e569d",
+    "slug": "gnews-3fd1f83e569d",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSy1Wb1FvYmF3TXdfUzJQUkJENFA5eGZGMWRILV8wQXl6b0wtNV9JYU1Hc2JLQnJaOUoyS2g0UjZMQnZjMEl4aGgzNjVlemFUenFyWW1rNVlGczZ0TUNOSzUyblFhQV9TRERhNVJoMEs3NTFhUTR2bUlMRkdiMkR4SkZ2ZS1Qb0tGR09GYVRVSmxVZEV0SWFjekNnYw?oc=5",
+    "publishedAt": "2026-06-06T23:00:06.000Z",
+    "titleEn": "Nick Holt's Documentary Questions AI Safety Narratives",
+    "titleZh": "Nick Holt的纪录片质疑AI安全叙事",
+    "abstractEn": "Nick Holt's Documentary Questions AI Safety Narratives  Let's Data Science",
+    "abstractZh": "Nick Holt的纪录片质疑AI安全叙事  Let's Data Science",
+    "authors": [
+      "Let's Data Science"
+    ],
+    "institution": "Let's Data Science",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
     "id": "gnews:62d3aaa5f824",
     "slug": "gnews-62d3aaa5f824",
     "source": "Google AI News",
@@ -20,7 +178,31 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
+  },
+  {
+    "id": "gnews:c180a10cd027",
+    "slug": "gnews-c180a10cd027",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV2dEVkg3UFRSRUFtRmk0NU9kRHhLVkNfeXNzek04VG9XRFBacF9pS0VBVlR0aVRSU3ZXb3QyR3M1RFFVV2pmcUJQQWdJa2g1WDNiZ3lQZlZOTU1qYjIwR2Y1ZnZJMDdxWWk3WEgwVE9VUTJBaHQxMzRveEY4MC13TzZZaTk4cjl0WXlBbFp3?oc=5",
+    "publishedAt": "2026-06-06T21:01:00.000Z",
+    "titleEn": "Sriram Krishnan Leaves White House AI Policy Role | 2026 Update - News and Statistics",
+    "titleZh": "Sriram Krishnan离开白宫AI政策职位 | 2026年更新 - 新闻与统计",
+    "abstractEn": "Sriram Krishnan Leaves White House AI Policy Role | 2026 Update - News and Statistics  IndexBox",
+    "abstractZh": "Sriram Krishnan离开白宫AI政策职位 | 2026年更新 - 新闻与统计  IndexBox",
+    "authors": [
+      "IndexBox"
+    ],
+    "institution": "IndexBox",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
   },
   {
     "id": "hrorg:zhilian:c6d6155c7501",
@@ -44,7 +226,8 @@
       "人服动态",
       "研究报告"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48428647",
@@ -66,7 +249,8 @@
     "score": 18,
     "commentCount": 19,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48428330",
@@ -88,7 +272,8 @@
     "score": 7,
     "commentCount": 0,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:14f884fcb0ed",
@@ -111,7 +296,30 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
+  },
+  {
+    "id": "hn:48428097",
+    "slug": "hn-48428097-claude-teach-me-something",
+    "source": "Hacker News",
+    "sourceUrl": "https://hugotunius.se/2025/10/26/claude-teach-me-something.html",
+    "commentUrl": "https://news.ycombinator.com/item?id=48428097",
+    "publishedAt": "2026-06-06T19:25:25.000Z",
+    "titleEn": "Claude, Teach Me Something",
+    "titleZh": "Claude，教我点东西",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "dannyboland"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 10,
+    "commentCount": 1,
+    "tags": [],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
   },
   {
     "id": "gnews:6128758b0deb",
@@ -134,7 +342,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48427643",
@@ -156,7 +365,8 @@
     "score": 336,
     "commentCount": 124,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:9bf38e17403f",
@@ -179,7 +389,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48427592",
@@ -201,7 +412,8 @@
     "score": 10,
     "commentCount": 1,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:2745aec6ed07",
@@ -224,7 +436,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:a3b1f473854a",
@@ -247,7 +460,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:fe309d941b52",
@@ -270,7 +484,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:381dab163957",
@@ -293,7 +508,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48426022",
@@ -315,7 +531,8 @@
     "score": 143,
     "commentCount": 45,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48425031",
@@ -384,7 +601,8 @@
     "score": 43,
     "commentCount": 8,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "hn:48424252",
@@ -483,6 +701,30 @@
     "featured": false
   },
   {
+    "id": "hrorg:fesco:bc03c8e2b5a4",
+    "slug": "hrorg-fesco-bc03c8e2b5a4",
+    "source": "FESCO",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyYi02ZUROeHhSTGdSQlFySU1URC1DLVBGb2dvcmtsNGNGVUtacWxzOWtxRFMyanJrNW8tMlpkWjNsbmlTUDJHcnlCLWlCc2dZTjE1ZVZjd2N4c255RFpOTk1NenI?oc=5",
+    "publishedAt": "2026-06-06T11:49:00.000Z",
+    "titleEn": "“亦企同行·引才筑桥”活动现场。",
+    "titleZh": "亦企同行·引才筑桥活动现场。",
+    "abstractEn": "“亦企同行·引才筑桥”活动现场。  新京报",
+    "abstractZh": "亦企同行·引才筑桥活动现场。  新京报",
+    "authors": [
+      "新京报"
+    ],
+    "institution": "新京报",
+    "docType": "Report",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "人服动态",
+      "研究报告"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
+  },
+  {
     "id": "hn:48423995",
     "slug": "hn-48423995-ai-cant-care",
     "source": "Hacker News",
@@ -502,7 +744,8 @@
     "score": 22,
     "commentCount": 3,
     "tags": [],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:ba3ba73b5838",
@@ -737,7 +980,8 @@
     "tags": [
       "AI News"
     ],
-    "fetchedAt": "2026-06-06T23:46:47.302Z"
+    "fetchedAt": "2026-06-06T23:46:47.302Z",
+    "featured": false
   },
   {
     "id": "gnews:171f845d7630",
@@ -785,6 +1029,29 @@
     "tags": [],
     "fetchedAt": "2026-06-06T07:31:45.632Z",
     "featured": false
+  },
+  {
+    "id": "gnews:08ac9164018f",
+    "slug": "gnews-08ac9164018f",
+    "source": "Google AI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMHVLb3dqR1VrVktUUkszdzZrb2wzUzl5Q3A0YmNjY3lkNFVldTBKM1NzalVNdGdXZ29xWHBiVjJfQVlQa1ltTnZfODZfSE9TcWk4eHplVlpuYWtvVEdKZ25qeFhCcnFXXzRxM2tuTG53eW1KSFIxUDM3dzAzSjdRaFhkdnlfR0tqVEZUUWQ4Q042dnN1MXdhMllsbE_SAaIBQVVfeXFMTXExd3M2Ynl2TlU4SHBNWGJRTUhnbTN1MFNqSUsxR3JxQlJoUUY3dXlGYXR4am54QUpNcGV6d2dMSVdBbWpsZkFIa0xoYURzd1ZOb0FwYWpsQ2tDZ3hRVW96dDdncnY2b3hXckxRek5vV0xCRVBNWmRwTWEycktHV0dUMWsyTTF6YUJISkhybW16VGluNGJWeWdtRlRVUE1Kb0tn?oc=5",
+    "publishedAt": "2026-06-06T04:49:19.000Z",
+    "titleEn": "Donald Trump, Bernie Sanders and Sam Altman are all talking about public ownership in AI - ABC News",
+    "titleZh": "唐纳德·特朗普、伯尼·桑德斯和山姆·奥特曼都在谈论AI的公共所有权 - ABC News",
+    "abstractEn": "Donald Trump, Bernie Sanders and Sam Altman are all talking about public ownership in AI  ABC News - Breaking News, Latest News and Videos",
+    "abstractZh": "唐纳德·特朗普、伯尼·桑德斯和山姆·奥特曼都在谈论AI的公共所有权  ABC News - 突发新闻、最新新闻和视频",
+    "authors": [
+      "Breaking News, Latest News and Videos"
+    ],
+    "institution": "Breaking News, Latest News and Videos",
+    "docType": "Blog",
+    "category": "social",
+    "score": 0,
+    "commentCount": 0,
+    "tags": [
+      "AI News"
+    ],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
   },
   {
     "id": "hn:48421442",
@@ -1425,6 +1692,28 @@
     ],
     "fetchedAt": "2026-06-06T07:31:45.632Z",
     "featured": false
+  },
+  {
+    "id": "hn:48416264",
+    "slug": "hn-48416264-harness-engineering-leveraging-codex-in-an-agent-first-world",
+    "source": "Hacker News",
+    "sourceUrl": "https://openai.com/index/harness-engineering/",
+    "commentUrl": "https://news.ycombinator.com/item?id=48416264",
+    "publishedAt": "2026-06-05T18:20:06.000Z",
+    "titleEn": "Harness engineering: Leveraging Codex in an agent-first world",
+    "titleZh": "驾驭工程：在智能体优先的世界中利用 Codex",
+    "abstractEn": "",
+    "abstractZh": null,
+    "authors": [
+      "pramodbiligiri"
+    ],
+    "institution": "Hacker News",
+    "docType": "Blog",
+    "category": "social",
+    "score": 110,
+    "commentCount": 65,
+    "tags": [],
+    "fetchedAt": "2026-06-07T03:55:38.218Z"
   },
   {
     "id": "gnews:ddcf293e519c",
