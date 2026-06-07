@@ -112,29 +112,42 @@ jobs:
             echo "committed=true" >> $GITHUB_OUTPUT
           fi
 
-      # Bark 推送：晨报只在 06:12 那条 cron 推一次；日内批次静默。BARK_KEY 未配则跳过。
-      - name: Bark 晨报推送（成功）
-        if: github.event_name == 'schedule' && github.event.schedule == '12 22 * * *' && success()
+      # Bark 推送：每次定时抓取后都通知结果。新增内容→📰 有声+标题；无新内容→📭 静默(passive)。
+      - name: Bark 通知（每次抓取结果）
+        if: github.event_name == 'schedule' && success()
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
+          COMMITTED: ${{ steps.commit.outputs.committed }}
         run: |
           [ -z "$BARK_KEY" ] && exit 0
-          BRIEF=$(node -e '
-            try {
-              const A = require("./data/articles.json");
-              const cut = new Date(Date.now() - 4 * 3600 * 1000).toISOString();
-              const HV = new Set(["Anthropic Blog","Claude Blog","OpenAI Blog","DeepMind Blog","Google DeepMind","NVIDIA Blog"]);
-              const f = A.filter(a => a.fetchedAt && a.fetchedAt > cut);
-              f.sort((x,y) => (HV.has(x.source)?0:1)-(HV.has(y.source)?0:1) || String(y.publishedAt).localeCompare(String(x.publishedAt)));
-              console.log(f.slice(0,6).map(a => "• " + String(a.titleZh||a.titleEn||"").slice(0,34)).join("\n"));
-            } catch { console.log(""); }
-          ' || echo "")
-          BODY=$(printf "%s 云端已更新\n%s" "$(TZ=Asia/Shanghai date +%m-%d)" "$BRIEF")
-          curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
-            --data-urlencode "title=📰 CyberFocus 晨报" \
-            --data-urlencode "body=${BODY}" \
-            --data-urlencode "group=CyberFocus" \
-            --data-urlencode "level=active" || true
+          TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
+          if [ "$COMMITTED" = "true" ]; then
+            OUT=$(node -e '
+              try {
+                const A = require("./data/articles.json");
+                const cut = new Date(Date.now() - 3.5 * 3600 * 1000).toISOString();
+                const HV = new Set(["Anthropic Blog","Claude Blog","OpenAI Blog","DeepMind Blog","Google DeepMind","NVIDIA Blog"]);
+                const f = A.filter(a => a.fetchedAt && a.fetchedAt > cut);
+                f.sort((x,y) => (HV.has(x.source)?0:1)-(HV.has(y.source)?0:1) || String(y.publishedAt).localeCompare(String(x.publishedAt)));
+                console.log(f.length);
+                console.log(f.slice(0,6).map(a => "• " + String(a.titleZh||a.titleEn||"").slice(0,34)).join("\n"));
+              } catch { console.log("0"); }
+            ' 2>/dev/null)
+            N=$(printf '%s' "$OUT" | head -1)
+            LINES=$(printf '%s' "$OUT" | tail -n +2)
+            BODY=$(printf "%s · 新增 %s 条\n%s" "$TS" "$N" "$LINES")
+            curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
+              --data-urlencode "title=📰 CyberFocus 已更新" \
+              --data-urlencode "body=${BODY}" \
+              --data-urlencode "group=CyberFocus" \
+              --data-urlencode "level=active" || true
+          else
+            curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
+              --data-urlencode "title=📭 CyberFocus 本次无新内容" \
+              --data-urlencode "body=${TS} 抓取完成，暂无新内容" \
+              --data-urlencode "group=CyberFocus" \
+              --data-urlencode "level=passive" || true
+          fi
 
       - name: Bark 失败告警
         if: github.event_name == 'schedule' && failure()
