@@ -1,19 +1,85 @@
 {
   "date": "2026-06-07",
-  "generatedAt": "2026-06-07T05:52:49.072Z",
+  "generatedAt": "2026-06-07T10:10:46.807Z",
   "summary": {
     "aiNews": [
-      "谷歌CEO皮查伊对入门级毕业生称AI形势严峻，引发行业对就业影响的讨论。",
-      "特朗普AI政策顾问Sriram Krishnan将离职，计划以新角色影响AI政策。",
-      "国产开源框架实现5分钟AI长视频不翻车，跻身全球第一梯队。"
+      "OpenAI推出锁定模式，阻止提示注入攻击，提升AI安全性。",
+      "国产开源框架实现5分钟AI长视频不翻车，跻身全球第一梯队。",
+      "版权监管机构呼吁设立仲裁庭，专门处理AI相关纠纷。"
     ],
     "papers": [],
     "hrOrgs": [
-      "智联招聘发布2026中国城市人才吸引力排名，揭示人才流动趋势。",
-      "FESCO举办“亦企同行·引才筑桥”活动，助力企业与人才对接。"
+      "智联招聘发布《2026中国城市人才吸引力排名》，揭示人才流动趋势。",
+      "FESCO举办“亦企同行·引才筑桥”活动，助力企业人才对接。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:48e636009329",
+      "slug": "gnews-48e636009329",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnhZVEVwczk2cUxmYU5ZbDE1UWFHY2Nac2Jpano0aW0zbG9wZ2ZuS05qd05yNDMyWl9FeEU0ekV5am5iTXhlV2hCa1Y2QkpSX04xdTNoU210U1o2SExnUjM4aUtnVVItMThKMG5hLWQ2b3gzb3V0cDJNWkhHWThhVUN0Wm5MMkdLdUVhMjNDbXZaZ1VZa2x6Vg?oc=5",
+      "publishedAt": "2026-06-07T07:56:32.000Z",
+      "titleEn": "5 Solid Artificial Intelligence (AI) Stocks That Also Pay Dividends",
+      "titleZh": "五只稳健且派发股息的人工智能（AI）股票",
+      "abstractEn": "5 Solid Artificial Intelligence (AI) Stocks That Also Pay Dividends  The Motley Fool",
+      "abstractZh": "五只稳健且派发股息的人工智能（AI）股票  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:80334c50eee7",
+      "slug": "gnews-80334c50eee7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTG9JM1p0MjBmVHIyT1RlQWJCWENfQ3ZNYVVPUEFLSGZQNXdDbS1HdzVGZlJhYVh2eDZFbEIyclJCZTJGakFGcnB3dmlVeTZ0dEdMQWpqZUxEMWVsTjI5MGszb2tLVC1nMFZyME1EaUlwaTJOZ2hzMzVUZWRpd3RrUEhseGRSWFRYZGRETDZqTElGRjJKRU1qUWdXVDhnekVKUHNSWjhBM3A?oc=5",
+      "publishedAt": "2026-06-07T07:47:01.000Z",
+      "titleEn": "OpenAI launches Lockdown Mode to block prompt injection attacks",
+      "titleZh": "OpenAI 推出锁定模式以阻止提示注入攻击",
+      "abstractEn": "OpenAI launches Lockdown Mode to block prompt injection attacks  The News International",
+      "abstractZh": "OpenAI 推出锁定模式以阻止提示注入攻击  The News International",
+      "authors": [
+        "The News International"
+      ],
+      "institution": "The News International",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8eb3efb30aad",
+      "slug": "gnews-8eb3efb30aad",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSEJZT3ZhdFpudTdwcjlNcXA2ZlRhc3ZPNHlKdHRFX1BrN0dPeGJNZEpQOEJVQ0pGRzJuVWxQc2xodjJpYzVJWUkxRWtiak5ZYVhpalRadF9zVy13Z0JuS2w3eVRjN3l1MEEzYVZZbXlPODd2c2xobGwtN2ViNENMeWI0dllaMTltM24wSQ?oc=5",
+      "publishedAt": "2026-06-07T06:02:48.000Z",
+      "titleEn": "NC bill blurs AI policy, social media rules",
+      "titleZh": "北卡罗来纳州法案模糊了 AI 政策与社交媒体规则",
+      "abstractEn": "NC bill blurs AI policy, social media rules  Salisbury Post",
+      "abstractZh": "北卡罗来纳州法案模糊了 AI 政策与社交媒体规则  Salisbury Post",
+      "authors": [
+        "Salisbury Post"
+      ],
+      "institution": "Salisbury Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48431981",
       "slug": "hn-48431981-i-design-with-claude-more-than-figma-now",
@@ -358,6 +424,27 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48429870",
+      "slug": "hn-48429870-why-arent-we-measuring-how-ai-affects-humans",
+      "source": "Hacker News",
+      "sourceUrl": "https://spectrum.ieee.org/measuring-ai-societal-impact-khan",
+      "commentUrl": "https://news.ycombinator.com/item?id=48429870",
+      "publishedAt": "2026-06-06T22:54:58.000Z",
+      "titleEn": "Why Aren't We Measuring How AI Affects Humans?",
+      "titleZh": "为何我们不衡量 AI 对人类的影响？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "pseudolus"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 9,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:62d3aaa5f824",
@@ -944,6 +1031,27 @@
       "category": "social",
       "score": 110,
       "commentCount": 65,
+      "tags": []
+    },
+    {
+      "id": "hn:48410427",
+      "slug": "hn-48410427-arithmetic-without-numbers-how-llms-do-math",
+      "source": "Hacker News",
+      "sourceUrl": "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48410427",
+      "publishedAt": "2026-06-05T10:19:39.000Z",
+      "titleEn": "Arithmetic Without Numbers – How LLMs Do Math",
+      "titleZh": "无数字的算术——LLM 如何做数学",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "old_sound"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 24,
+      "commentCount": 7,
       "tags": []
     }
   ]
