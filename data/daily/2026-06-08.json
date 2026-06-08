@@ -1,16 +1,62 @@
 {
   "date": "2026-06-08",
-  "generatedAt": "2026-06-07T23:20:20.896Z",
+  "generatedAt": "2026-06-08T00:32:28.269Z",
   "summary": {
     "aiNews": [
-      "VibeOS发布史上首个AI原生操作系统，旨在重新定义人机交互方式。",
-      "OpenAI计划对ChatGPT进行自发布以来最大规模改造，提升用户体验。",
-      "微软与OpenAI保持距离，分析认为此举对投资者是利好信号。"
+      "OpenAI计划对ChatGPT进行最大规模改造，并推出新版记忆系统，提升个性化体验。",
+      "福布斯AI 50榜单显示AI初创公司正超越模型规模，转向应用与商业化。",
+      "微软与OpenAI保持距离，分析认为此举对投资者是利好，降低风险敞口。"
     ],
     "papers": [],
-    "hrOrgs": []
+    "hrOrgs": [
+      "Mercer报告：未来奖励生态系统超越薪酬与福利，强调整体员工体验。"
+    ]
   },
   "articles": [
+    {
+      "id": "gnews:6eb7240ff0f8",
+      "slug": "gnews-6eb7240ff0f8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUTlnc2NPdklsdm1UMUt1Vi13bW9Vb2tKWkRzOXRXRi1QZ09NTExkQnIyR2VPdnlTbXFTVWhaN1lyWGR3NFdmOTZBWmd5SEgxQkhVcUw3d3Q0RENpT2UwMEVBa3dwdTdJRlNrcWx6TjFsa09tV25YMkppZFIzcWxNQmRHSUZwUTVOM1hGZ21tazJGR3d5TjFqU0RGc2ZEeVhDQ21iOGtOb3hubFNTaXVjaWd2SXkzdw?oc=5",
+      "publishedAt": "2026-06-08T00:15:46.000Z",
+      "titleEn": "OpenAI starts rollout of new ChatGPT memory system | ETIH EdTech News",
+      "titleZh": "OpenAI 开始推出新版 ChatGPT 记忆系统 | ETIH EdTech News",
+      "abstractEn": "OpenAI starts rollout of new ChatGPT memory system | ETIH EdTech News  EdTech Innovation Hub",
+      "abstractZh": "OpenAI 开始推出新版 ChatGPT 记忆系统 | ETIH EdTech News  EdTech Innovation Hub",
+      "authors": [
+        "EdTech Innovation Hub"
+      ],
+      "institution": "EdTech Innovation Hub",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b9276e8b06b0",
+      "slug": "gnews-b9276e8b06b0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdERWZ0xGZ19ta1JmQnBPZTdzRGEtLVdoYUNqT3I5cmhLTThpekhyTHJGTDhNTktPT0dDeUZEWWpMNWZ0TmNnM3c3NG9RUE81OWk0VzZUbjdmMTlaZXJkMElycUtVRVctdWI0al9Ca1ZWa0dyMFdUamZHMGtQZ3B3WFNlWXpOQWZYaV9LeUZTOF8?oc=5",
+      "publishedAt": "2026-06-07T23:48:28.000Z",
+      "titleEn": "Forbes AI 50 shows AI startups are moving beyond model size",
+      "titleZh": "福布斯 AI 50 榜单显示 AI 初创公司正超越模型规模",
+      "abstractEn": "Forbes AI 50 shows AI startups are moving beyond model size  Startup Fortune",
+      "abstractZh": "福布斯 AI 50 榜单显示 AI 初创公司正超越模型规模  Startup Fortune",
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48438754",
       "slug": "hn-48438754-vibeos-first-ever-ai-native-operating-system",
@@ -333,6 +379,28 @@
       "commentCount": 0,
       "tags": [
         "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:321fb6a6e927",
+      "slug": "hrorg-mercer-321fb6a6e927",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcmRoc2JJLS1vbTZEY2pZNHhoZ2xVbjBOOFZCNDU3Y3psVVUxa0p0OUlQYVhzZVk5M0FIYUVQUlJvR1gwaEtINFhyU2Zyd043cjBZMFBtMVIzZWxqLU53SDJvY2ZGOXJ4M19OMmxMQ0l2czhYMlN5VTFHRVpjQmdOQmlibGEyeWF4Z1BrbGhWS0ZQZ3c?oc=5",
+      "publishedAt": "2026-06-06T03:51:48.000Z",
+      "titleEn": "Beyond compensation and benefits: The rewards ecosystem of the future",
+      "titleZh": "超越薪酬与福利：未来的奖励生态系统",
+      "abstractEn": "Beyond compensation and benefits: The rewards ecosystem of the future  Mercer | Welcome to brighter",
+      "abstractZh": "超越薪酬与福利：未来的奖励生态系统  Mercer | Welcome to brighter",
+      "authors": [
+        "Mercer | Welcome to brighter"
+      ],
+      "institution": "Mercer | Welcome to brighter",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
       ]
     }
   ]
