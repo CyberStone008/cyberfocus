@@ -111,7 +111,7 @@ export function PodcastFeed({ episodes }: PodcastFeedProps) {
       {/* ── Topbar ── */}
       <div className={styles.topbar}>
         <div className={styles.topbarLeft}>
-          <span className={styles.title}>🎙️ 顶级播客</span>
+          <span className={styles.title}>🎙️ 精选播客</span>
           <span className={styles.sub}>· AI 领域精选播客集</span>
           {analysedCount > 0 && (
             <span className={styles.analysedBadge}>{analysedCount} 篇解读</span>

@@ -86,7 +86,7 @@ export default async function PodcastDetailPage({
 
       <nav className={styles.topNav}>
         <Link href="/podcast" className={styles.backLink}>
-          ← 顶级播客
+          ← 精选播客
         </Link>
       </nav>
 
