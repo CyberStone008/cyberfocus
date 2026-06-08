@@ -9,6 +9,8 @@
  */
 
 import Parser from 'rss-parser';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 
 const parser = new Parser({
   customFields: {
@@ -23,36 +25,34 @@ const parser = new Parser({
   timeout: 30_000,
 });
 
-const FEEDS = [
-  {
-    id:      'lex-fridman',
-    source:  'Lex Fridman Podcast',
-    feedUrl: 'https://lexfridman.com/feed/podcast/',
-    lang:    'en',   // needs translation
-    max:     30,
-  },
-  {
-    id:      'zhang-xiaojun',
-    source:  '张小珺商业访谈录',
-    feedUrl: 'https://feed.xyzfm.space/dk4yh3pkpjp3',
-    lang:    'zh',   // 中文，免翻译
-    max:     8,
-  },
-  {
-    id:      'no-priors',
-    source:  'No Priors',
-    feedUrl: 'https://feeds.megaphone.fm/nopriors',
-    lang:    'en',   // needs translation
-    max:     8,
-  },
-  {
-    id:      'sv101',
-    source:  '硅谷101',
-    feedUrl: 'https://feeds.fireside.fm/sv101/rss',
-    lang:    'zh',   // 中文，免翻译
-    max:     8,
-  },
+// 兜底默认（当 data/sources.json 缺 podcasts 字段时使用）。
+// 正常情况下播客源由 data/sources.json 的 "podcasts" 配置驱动 —— 在「信源」里增删改、
+// 提交后云端自动生效，无需改本文件。详见 AGENTS.md。
+const DEFAULT_FEEDS = [
+  { id: 'lex-fridman',   source: 'Lex Fridman Podcast', feedUrl: 'https://lexfridman.com/feed/podcast/',     lang: 'en', max: 30 },
+  { id: 'zhang-xiaojun', source: '张小珺商业访谈录',     feedUrl: 'https://feed.xyzfm.space/dk4yh3pkpjp3',    lang: 'zh', max: 8 },
+  { id: 'no-priors',     source: 'No Priors',           feedUrl: 'https://feeds.megaphone.fm/nopriors',       lang: 'en', max: 8 },
+  { id: 'sv101',         source: '硅谷101',             feedUrl: 'https://feeds.fireside.fm/sv101/rss',       lang: 'zh', max: 8 },
 ];
+
+/** 从 data/sources.json 读取启用的播客源（支持用全局 disabled 列表按 id/source 停用）。 */
+function loadFeeds() {
+  try {
+    const cfg = JSON.parse(readFileSync(resolve(process.cwd(), 'data/sources.json'), 'utf8'));
+    const list = Array.isArray(cfg.podcasts) && cfg.podcasts.length ? cfg.podcasts : DEFAULT_FEEDS;
+    const disabled = new Set(cfg.disabled ?? []);
+    const active = list.filter((f) =>
+      f && f.feedUrl && f.id && f.source &&
+      f.disabled !== true && !disabled.has(f.id) && !disabled.has(f.source)
+    );
+    return active.map((f) => ({ lang: 'en', max: 8, ...f }));   // 补默认 lang/max
+  } catch (err) {
+    console.warn(`[podcasts] 读取 data/sources.json 失败，用内置默认源: ${err.message}`);
+    return DEFAULT_FEEDS;
+  }
+}
+
+const FEEDS = loadFeeds();
 
 /** Normalise iTunes duration "H:MM:SS" / "MM:SS" / raw-seconds to "Xh Ym" */
 function parseDuration(raw) {

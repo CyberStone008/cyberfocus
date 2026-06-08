@@ -14,7 +14,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 1. **云端定时（晨跑提前+双批兜底）**：cron 改为 `0 20`(北京 04:00 主批)+`0 21`(05:00 兜底)+`12 1,4,7,10,13`(日内每 3h)。GitHub cron 常漂移 1~2.5h/偶尔丢批，提前到 04:00 即便漂 +2h 也在 6 点前跑完，确保「8 点前就绪」。见〈云端 workflow 跑批〉。
 2. **Bark 通知加固**：每个定时批次 + 手动触发都推（`continue-on-error`，绝不拖垮 build/deploy）；统一 `bark_push()`——**curl 必须 `|| echo 000` 兜底**（否则 `bash -e` 下 curl 超时 exit 28 会崩掉整步、重试都跑不到，这是 06-08 排查出的真因），回显 HTTP 码 + 重试 4 次。新增→📰active、无新→📭passive、失败→⚠️timeSensitive。见〈数据溯源铁律〉后的 Bark 段。
-3. **播客新增 3 源**：`张小珺商业访谈录`(zh)、`No Priors`(en)、`硅谷101`(zh)，见 `scripts/fetch/podcasts.js` 的 `FEEDS`。解读逻辑通用化(不再写死 Lex)且守溯源铁律（无逐字稿源严禁编造、附来源声明）。UI「顶级播客」→「精选播客」。
+3. **播客源改为配置驱动（在「信源」里管理，不再改代码）**：播客源定义从 `podcasts.js` 硬编码搬到 `data/sources.json` 的 `"podcasts"` 数组（每条 `{id, source, feedUrl, lang('en'/'zh'), max}`）。`scripts/fetch/podcasts.js` 的 `loadFeeds()` 读取它（缺失则回退内置 `DEFAULT_FEEDS`），并支持用全局 `disabled` 数组按 `id` 或 `source` 停用。信源页(`sources/page.tsx`)新增 `podcast` 板块展示这些源、可启停。**增删改播客源 = 编辑 `data/sources.json`（本地信源页或直接改 JSON）后提交，云端自动生效**。当前 4 源：Lex Fridman、张小珺商业访谈录、No Priors、硅谷101。解读逻辑通用化(不写死 Lex)且守溯源铁律（无逐字稿严禁编造、附来源声明）。UI「顶级播客」→「精选播客」。
 4. **卡片「结论先行」主题说明 `tldrZh`（四模块）**：报告(基于全文)、播客(基于官方简介/Lex逐字稿)、新闻(抓原文正文)。**守数据溯源铁律**：只在拿到真实素材时生成，数字必须逐字出现在素材里；**拿不到素材就退回原文本（标题/副标题/原摘要）、绝不硬编**。详见〈数据溯源铁律〉下三段（report-tldr / 播客 / 新闻）。
    - 常态化入口：报告→`pipeline.js` 生成全文后顺带；播客→`podcast-pipeline.js` 抓到新集顺带；新闻→workflow `Run news TL;DR (capped)` 步骤每批 `MAX=25`（最近优先、抓不到的 Google News 等跳过）。
 

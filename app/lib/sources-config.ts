@@ -1,13 +1,14 @@
 export type SourceStatus   = 'active' | 'idle' | 'failing' | 'paused';
 export type SourceType     = 'push' | 'pull';
 export type SourceCategory = 'research' | 'social';
-export type BoardId        = 'social' | 'research' | 'orgs';
+export type BoardId        = 'social' | 'research' | 'orgs' | 'podcast';
 
 /** 所有可推送的菜单页面 */
 export const BOARDS: { id: BoardId; label: string; href: string }[] = [
   { id: 'social',   label: 'AI 精选热点',  href: '/social' },
   { id: 'research', label: 'AI 报告速览',  href: '/reports' },
   { id: 'orgs',     label: '人服机构动态', href: '/orgs' },
+  { id: 'podcast',  label: '精选播客',     href: '/podcast' },
 ];
 
 export interface SourceDef {
