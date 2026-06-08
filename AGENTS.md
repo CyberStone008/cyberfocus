@@ -202,7 +202,7 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 - 抓取 pipeline + podcast + 4 个投资报告（后两者 `|| true` 容错）。
 - commit 步骤（`id: commit`）：`git diff` **有新内容才** commit/push 并输出 `committed=true`；无则 `false`。
 - **构建/部署 Pages 仅在 `committed==true` 或 push/手动时**才跑——日内空批次不构建，避免每 3 小时白白 build。（Vercel 由 push 自身的 webhook 自动部署，独立于此 workflow；注意 `GITHUB_TOKEN` 的 push **不会**再触发 workflow，所以构建必须放在**同一次**有提交的运行里，不能靠 push 事件触发。）
-- Bark：**每个定时批次抓完都推**（`schedule && success()`）——有新内容→📰 `active`（标题+前 6 条+新增 N 条）；无新内容→📭 `passive`（静默）。失败→⚠️ `timeSensitive` 告警。
+- Bark：**每个定时批次抓完都推**（`schedule && success()`），统一走 `bark_push()`——**回显 HTTP 码 + 非 200 自动重试 3 次**（消除"发失败被 `||true` 静默吞掉"的盲区，那正是 06-08 晨报"消失"的真因，经原样复现证实代码本身返回 200）。分级：有新内容→📰（晨跑两批 `0 20`/`0 21` 用 `timeSensitive` 冲破专注/勿扰，日内用 `active`；含标题+前 6 条+新增 N 条）；无新内容→📭 `passive`（静默）。跑批失败→⚠️ `timeSensitive` 告警（同样带重试）。
 - 提频只对社交/新闻有意义（高频源）；低频源(博客/HR/播客)去重后近零成本；投资报告自身 gate，不受频率影响。
 
 **云端必需的 Secrets**（仓库 Settings → Secrets → Actions）：`DEEPSEEK_API_KEY`（否则翻译退回 Claude）、`BARK_KEY`（否则不推送）、`ANTHROPIC_API_KEY`（备用）。云端在境外、`setupProxy()` 无 `HTTPS_PROXY` 即直连，**不需要代理**。
