@@ -1,0 +1,533 @@
+{
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-08T16:54:38.594Z",
+  "summary": {
+    "aiNews": [
+      "白宫发布AI安全战略，聚焦前沿模型、网络防御和关键基础设施保护。",
+      "DeepSeek接近达成70亿美元融资，创AI交易历史纪录。",
+      "美团接入微信AI生态，将提供本地生活等AI服务体验。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "SK AX与Mercer联合开发AI-人类组织模型。",
+      "日本五大招聘巨头面临反垄断调查。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "hrorg:mercer:31a870ae7c3c",
+      "slug": "hrorg-mercer-31a870ae7c3c",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQm1rOGZxZWNsby02V2JndGlaS0ZoZGFrOHlhTXNBRFlTMGFuMWUtaXM2TlZBU2hNYWxpTVpUaGVMUVk4TEFRc3ZsVnpqcDJ1RTJUWFNoV1RaNm91M2RUR18yaVkwT1o4NHFHTGlrM25hbU1CWGFHamo1Z1N2YWRIVFI5bkcxQnJo?oc=5",
+      "publishedAt": "2026-06-08T15:39:37.000Z",
+      "titleEn": "SK AX, Mercer Develop AI-Human Organization Model",
+      "titleZh": "SK AX 与 Mercer 联合开发 AI-人类组织模型",
+      "abstractEn": "SK AX, Mercer Develop AI-Human Organization Model  조선일보",
+      "abstractZh": "SK AX 与 Mercer 联合开发 AI-人类组织模型  《朝鲜日报》",
+      "authors": [
+        "조선일보"
+      ],
+      "institution": "조선일보",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:9482acc411f4",
+      "slug": "gnews-9482acc411f4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaU93TDcxSE92Z0UzQURza0tXVzV0NUxnSnNmMmxmakFVRE9fam9ZR1VGUFI1eWt3UXNQWGFuWDBHY2xsS3cycENMSjRIMS1lOXZKODVucENkcVNJTVE2UlBFbF9TWlFUdmRlUVY1ZjBaZEViMWg4OG9XTlFsUWNvRG1hczBKbWdPOXMxYy1USF9xa19JcEk0ZFhQWjlXRTFoQWtLSHRIekI5RlhSRzNhWXlDWWJMWW56NjY4cW9PbkFJQnExbDFKbWhVRmt0cHh3RUloTVNiMzBfYkRPcnpuVFBMSU5fbjRWNVRnTU5zY1dlWHlYV0NwU2ZrUjF2enk0dklySFZTbXZUMzZq?oc=5",
+      "publishedAt": "2026-06-08T15:31:24.000Z",
+      "titleEn": "White House unveils AI security strategy focused on frontier models, cyber defense, critical infrastructure protection",
+      "titleZh": "白宫发布AI安全战略，聚焦前沿模型、网络防御和关键基础设施保护",
+      "abstractEn": "White House unveils AI security strategy focused on frontier models, cyber defense, critical infrastructure protection  Industrial Cyber",
+      "abstractZh": "白宫发布AI安全战略，聚焦前沿模型、网络防御和关键基础设施保护。  Industrial Cyber",
+      "authors": [
+        "Industrial Cyber"
+      ],
+      "institution": "Industrial Cyber",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48446673",
+      "slug": "hn-48446673-terry-tao-became-an-evangelist-for-ai-in-math",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48446673",
+      "publishedAt": "2026-06-08T15:30:09.000Z",
+      "titleEn": "Terry Tao Became an Evangelist for AI in Math",
+      "titleZh": "陶哲轩成为数学领域AI的布道者",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Tomte"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48445469",
+      "slug": "hn-48445469-soulsonly-tff-a-font-for-humans-not-ai-and-keyboard-firmware-to-type",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/convictional/souls-only",
+      "commentUrl": "https://news.ycombinator.com/item?id=48445469",
+      "publishedAt": "2026-06-08T14:00:22.000Z",
+      "titleEn": "SoulsOnly.tff – A font for humans not AI and keyboard firmware to type in it",
+      "titleZh": "SoulsOnly.tff——一款为人类而非AI设计的字体及配套键盘固件",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "billtarbell"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 36,
+      "commentCount": 18,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-2cda62bqrxvass8z-html",
+      "slug": "ai-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/2cdA62bqRxvASS8z.html",
+      "publishedAt": "2026-06-08T13:44:00.000Z",
+      "titleEn": "首发|美团接入微信AI生态，将提供本地生活等AI服务体验",
+      "titleZh": "首发|美团接入微信AI生态，将提供本地生活等AI服务体验",
+      "abstractEn": "6月8日，微信宣布正式面向开发者提供便捷接入微信AI生态的能力，用户可通过微信AI Agent调取小程序AI应用服务。携程、同程等本地生活服务平台先后宣布接入微信。与此同时，雷峰网从美团方面获悉，作为首批内测团队，美团此前已与微信团队联合开发并测试接入。\n雷峰网了解，未来，用户通过微信Agent调用美团外卖等本地生活服务，实现更智能、便捷的AI生活服务体验。后续美团还将持续扩展更多业务场景。\n此前，在美团一季度财报电话会上，美团CEO王兴曾表示：未来，除了服务消费者（To C）和商家（To B），服务AI Agent（To A）正变得越来越重要。据雷峰网获悉，4月，美团新一代大模型LongCat-2.0-Preview开放测试，模型总参数规模突破万亿，训练、推理全程依托国产算力集群完成。基于LongCat，美团先后升级了“小团”“小美”等AI应用，帮助用户完成高复杂度、跨场景的决策。",
+      "abstractZh": "6月8日，微信宣布正式面向开发者提供便捷接入微信AI生态的能力，用户可通过微信AI Agent调取小程序AI应用服务。携程、同程等本地生活服务平台先后宣布接入微信。与此同时，雷峰网从美团方面获悉，作为首批内测团队，美团此前已与微信团队联合开发并测试接入。\n雷峰网了解，未来，用户通过微信Agent调用美团外卖等本地生活服务，实现更智能、便捷的AI生活服务体验。后续美团还将持续扩展更多业务场景。\n此前，在美团一季度财报电话会上，美团CEO王兴曾表示：未来，除了服务消费者（To C）和商家（To B），服务AI Agent（To A）正变得越来越重要。据雷峰网获悉，4月，美团新一代大模型LongCat-2.0-Preview开放测试，模型总参数规模突破万亿，训练、推理全程依托国产算力集群完成。基于",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:69d047ec35a2",
+      "slug": "gnews-69d047ec35a2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPR3gzdUxrdDBQalVQTmpfdFBfSExDaUFxMnBtYnYtQk8xLXBrR3N1WG5fc01pQTZuc0NGS2dqaC02NzN4a1VWRjBRYUFsQ0diNmM0SlpybmdoV3pqX2tXUFhnQzY3VUxVSVozd0ZOMWs0NlI5WmtJZnktYXpXUXlIbXRscWkxVHpBTUZpSTJzcmRhamxoYzB1c2pjczBRR0M5V1JHMklZcWxSTjdJd3pjZ1RaS2xSNnhBcGRoc0YtYkRfbjcxUDhWSjJ30gHPAUFVX3lxTFBPZ0dwTnZDTnA0N2U3VWp4NTFOR0lkWjZ0SGhTbzJfcDFlZzg3djUwaXJiVXF4ZWEyNC1fWnkwc2taVGVoU25YVVpnbFRxV2RSUk04WnV4LU5SRkVBMUhBa003NlQxZlZqSU14dDJrLWdIcExpeXpYS1NsYVpvNTIyUXpiQUVxcHhYSnJNNWQtbHZSV3h0WDdhVDlrWURWdnNvYVhDcVk3dTZjYzRCNDBjZ1Vsdi1EaWxiYXhDelhFMEltY2VSTTlBWXR3X3lHMA?oc=5",
+      "publishedAt": "2026-06-08T13:36:28.000Z",
+      "titleEn": "DeepSeek close to sealing $7 billion funding in historic AI deal",
+      "titleZh": "DeepSeek 接近达成 70 亿美元融资，创 AI 交易历史纪录",
+      "abstractEn": "DeepSeek close to sealing $7 billion funding in historic AI deal  The Economic Times",
+      "abstractZh": "DeepSeek 接近达成 70 亿美元融资，创 AI 交易历史纪录  《经济时报》",
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4832805129c5",
+      "slug": "gnews-4832805129c5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZEhaQlBGdmw4UjBoM09CRXRsbXNDcDBuRVJ0N0loV255cnp3YW9oU1BYZkwxZDRsM3NqQzFkUExjQ1IwUEMyd0M4UW9lR3BfMjlER3lpSExqNV9pTHdLNllZYVpwN1BXWldiYjBiR3NydXhtZ0VQSVJjTnhFeXVtUTlzZXlPdUFRbGF2ZEgzN09za0FpSVdaTkJCeWhqd0JaeWdHRVR3MWxOVEZSVzdiY0hvcmVjUzJicjZHc2E5ek1IRkxW?oc=5",
+      "publishedAt": "2026-06-08T13:35:47.000Z",
+      "titleEn": "AI regulation ‘wholly inadequate’ to prevent harm, says archbishop",
+      "titleZh": "大主教称AI监管‘完全不充分’，无法防止危害",
+      "abstractEn": "AI regulation ‘wholly inadequate’ to prevent harm, says archbishop  Magzter",
+      "abstractZh": "大主教称AI监管‘完全不充分’，无法防止危害。  Magzter",
+      "authors": [
+        "Magzter"
+      ],
+      "institution": "Magzter",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5faefd0d24af",
+      "slug": "gnews-5faefd0d24af",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVlNmVWhDYWE0Wk9BanA4d1FCOE9EWFJGVGtFd3hlU2c0bHU5Si1aZWR5T2FrSGRCdHB1emZPSGZpekZiX21VejhGVzc2MWJpNkVfQlpJYVV5TmlPWnd3U2xOS3pYb010b2p4VXhfQVlhdjdPbGFQX21EandUVFNoci1OUXVPRTB6MDVTcDB1TmtmUmhHMXU2ZTYxNWNRdHNtRGlVNUxPNTdZOFRic1Z0eA?oc=5",
+      "publishedAt": "2026-06-08T13:18:11.000Z",
+      "titleEn": "The United States Must Reject Government Control of Artificial Intelligence",
+      "titleZh": "美国必须拒绝政府对人工智能的控制",
+      "abstractEn": "The United States Must Reject Government Control of Artificial Intelligence  R Street Institute",
+      "abstractZh": "美国必须拒绝政府对人工智能的控制  R Street Institute",
+      "authors": [
+        "R Street Institute"
+      ],
+      "institution": "R Street Institute",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-phqfkuzjy2xadmae-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/PHqfkUzjY2xaDmae.html",
+      "publishedAt": "2026-06-08T13:06:00.000Z",
+      "titleEn": "重载具身，步履荒野：灵锶智能肖恺受邀ICRA 2026发表主题演讲，定义野外自主新高度",
+      "titleZh": "重载具身，步履荒野：灵锶智能肖恺受邀ICRA 2026发表主题演讲，定义野外自主新高度",
+      "abstractEn": "维也纳之约：灵锶智能闪耀机器人顶级殿堂\n2026 年 6 月，全球机器人与自动化领域的顶级学术盛会——IEEE 国际机器人与自动化会议（ICRA 2026）在奥地利维也纳正式拉开帷幕。作为机器人学界规模最大、影响力最强的国际会议，ICRA 历来被誉为机器人行业的“奥林匹克”。在本届盛会上，灵锶智能（LINXAI）创始人肖恺受邀发表了题为《具身智能与野外自主：从实验室走向真实部署》的主题演讲，向世界展示了中国具身智能企业在野外复杂环境下的硬核实力。\n\n\n肖恺在演讲中深入探讨了具身智能在“野外自主”这一极限场景下的应用逻辑。他指出，灵锶智能（LINXAI）的核心使命是攻克 GNSS 信号缺失环境下的机器人定位难题。在精彩的分享中，肖恺系统地阐述了灵锶智能的技术护城河，并诚挚邀请全球合作伙伴共同推动算法从论文走向真实部署。\n\n“我们深知野外机器人最大的痛点在于定位。腿式机器人的接触不确定性与运动",
+      "abstractZh": "维也纳之约：灵锶智能闪耀机器人顶级殿堂\n2026 年 6 月，全球机器人与自动化领域的顶级学术盛会——IEEE 国际机器人与自动化会议（ICRA 2026）在奥地利维也纳正式拉开帷幕。作为机器人学界规模最大、影响力最强的国际会议，ICRA 历来被誉为机器人行业的“奥林匹克”。在本届盛会上，灵锶智能（LINXAI）创始人肖恺受邀发表了题为《具身智能与野外自主：从实验室走向真实部署》的主题演讲，向世界展示了中国具身智能企业在野外复杂环境下的硬核实力。\n\n\n肖恺在演讲中深入探讨了具身智能在“野外自主”这一极限场景下的应用逻辑。他指出，灵锶智能（LINXAI）的核心使命是攻克 GNSS 信号缺失环境下的机器人定位难题。在精彩的分享中，肖恺系统地阐述了灵锶智能的技术护城河，并诚挚邀请全球合作伙伴共同推",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:7675d54a26a3",
+      "slug": "gnews-7675d54a26a3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85N3RRb1Bzams3OEIxZjVNejFKS1BkT295MHA0bnZWSlRvZ1JjdXZmMzZwTGtMdVpRYUR2QU9iN3I5NE5SZU04dHluRU1jaGJPQ1BqZjF3?oc=5",
+      "publishedAt": "2026-06-08T13:03:18.000Z",
+      "titleEn": "EU Delays Key AI Rules as Brussels Reconsiders Pace of Regulation",
+      "titleZh": "欧盟推迟关键AI规则，布鲁塞尔重新考虑监管节奏",
+      "abstractEn": "EU Delays Key AI Rules as Brussels Reconsiders Pace of Regulation  EU Today",
+      "abstractZh": "欧盟推迟关键AI规则，布鲁塞尔重新考虑监管节奏。  EU Today",
+      "authors": [
+        "EU Today"
+      ],
+      "institution": "EU Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-q6pmfp8kpxiamcaw-html",
+      "slug": "naviai-atc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/q6pmfP8kpxIamcaw.html",
+      "publishedAt": "2026-06-08T13:03:00.000Z",
+      "titleEn": "可泛化高精准，NAVIAI 亮相 ATC 落地汽车全流程装配",
+      "titleZh": "可泛化高精准，NAVIAI 亮相 ATC 落地汽车全流程装配",
+      "abstractEn": "近日，ATC 上海国际汽车技术及零部件展览会盛大启幕。浙江人形机器人创新中心（以下简称浙江人形）发布汽车柔性智造全流程解决方案，成为首家实现汽车装配柔性制造全链路的科技公司。\n\n现场实景展演了分拣、搬运、装配自主闭环协作，精准匹配汽车装配柔性制造核心工序。凭借多任务泛化、高精度作业、平稳移动、长效循环四大核心优势，迅速成为展会焦点。\n\n\nNAVIAI-WA2承接料箱自主搬运与无序分拣，NAVIAI-WA1专攻汽车零部件超精密装配。 搭配智能输送线与可视化调度平台，打通从物料入库、分拣、装配到成品出库的全链路无人化作业，满足真实生产场景需求。\n\n\n依托自研的具身智能架构SPIRE，该方案展现出优异的落地成效。\n机器人末端重复定位精度达±0.02mm，装配精度达0.03mm，非标产线最快1天即可部署，无需大规模改造产线。高效破解人力短缺、人工误差、产线升级难等行业痛点。\n现场，NAVIAI收获",
+      "abstractZh": "近日，ATC 上海国际汽车技术及零部件展览会盛大启幕。浙江人形机器人创新中心（以下简称浙江人形）发布汽车柔性智造全流程解决方案，成为首家实现汽车装配柔性制造全链路的科技公司。\n\n现场实景展演了分拣、搬运、装配自主闭环协作，精准匹配汽车装配柔性制造核心工序。凭借多任务泛化、高精度作业、平稳移动、长效循环四大核心优势，迅速成为展会焦点。\n\n\nNAVIAI-WA2承接料箱自主搬运与无序分拣，NAVIAI-WA1专攻汽车零部件超精密装配。 搭配智能输送线与可视化调度平台，打通从物料入库、分拣、装配到成品出库的全链路无人化作业，满足真实生产场景需求。\n\n\n依托自研的具身智能架构SPIRE，该方案展现出优异的落地成效。\n机器人末端重复定位精度达±0.02mm，装配精度达0.03mm，非标产线最快1天即可",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48444528",
+      "slug": "hn-48444528-anthropics-project-glasswing-update",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48444528",
+      "publishedAt": "2026-06-08T12:33:14.000Z",
+      "titleEn": "Anthropic's Project Glasswing Update",
+      "titleZh": "Anthropic的Project Glasswing更新",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mikece"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:bae7cebe8a80",
+      "slug": "gnews-bae7cebe8a80",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSNHh4WUc2VlkweXEzeWxrazZVeEwyUkIzSkVfWDBRbjJEZTVIVjVIQzZ6TXJpUDA2NXdQZGdwbW91Mi0yYm4zWUM0dw?oc=5",
+      "publishedAt": "2026-06-08T12:29:43.000Z",
+      "titleEn": "\"Artificial intelligence (AI) startups are a place where the future is created,\" Nvidia CEO Jensen H..",
+      "titleZh": "英伟达CEO黄仁勋：人工智能（AI）初创公司是创造未来的地方",
+      "abstractEn": "\"Artificial intelligence (AI) startups are a place where the future is created,\" Nvidia CEO Jensen H..  매일경제",
+      "abstractZh": "英伟达CEO黄仁勋表示：人工智能（AI）初创公司是创造未来的地方。  매일경제",
+      "authors": [
+        "매일경제"
+      ],
+      "institution": "매일경제",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48444451",
+      "slug": "hn-48444451-nvidia-partners-with-lg-robotics-to-build-humanoid-robots-in-south-k",
+      "source": "Hacker News",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48444451",
+      "publishedAt": "2026-06-08T12:25:14.000Z",
+      "titleEn": "Nvidia partners with LG robotics to build humanoid robots in South Korea",
+      "titleZh": "英伟达与LG机器人合作在韩国打造人形机器人",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "spwa4"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 54,
+      "commentCount": 62,
+      "tags": []
+    },
+    {
+      "id": "gnews:b0e01f0b9b7d",
+      "slug": "gnews-b0e01f0b9b7d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1M5Smh1Q2NvODNoRFEtaXRDVnp1ODJXUV90Y2dIb3NJSm9tUzk4bjdzUXozb0Q3Q3B6ZkdPVTZIaUlSdkc4WGxFUWVyREhUMVZVeFVJX3RYV3ZLVlM0M0RPZnpEUTZIM0tITHZERkRuQnJvZkRnSS14VmplemZiWmR1REMtMGhOangzTUlR?oc=5",
+      "publishedAt": "2026-06-08T12:20:42.000Z",
+      "titleEn": "NVIDIA Acquires Predictive AI Startup Kumo AI",
+      "titleZh": "NVIDIA 收购预测性 AI 初创公司 Kumo AI",
+      "abstractEn": "NVIDIA Acquires Predictive AI Startup Kumo AI  AIM Media House",
+      "abstractZh": "NVIDIA 收购预测性 AI 初创公司 Kumo AI  AIM Media House",
+      "authors": [
+        "AIM Media House"
+      ],
+      "institution": "AIM Media House",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4a1e94492776",
+      "slug": "gnews-4a1e94492776",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcTFRcWNLelNHUjNHNVBsWmo4RXpOcTV1dG1WX2Zya2UxbU5YenFaSi1TdFZnS05IUnpnSUp3QnN2UTFTX2p2amtLZTVtREJocXk0U1pfTGtMSlllUmNZUGFQMTg0VF9XdUpJRGRpcko1LVhwQklIN0Q5Rm1Ha1NjVi1n?oc=5",
+      "publishedAt": "2026-06-08T12:03:00.000Z",
+      "titleEn": "White House AI Policy Advisor Sriram Krishnan Leaving the Post",
+      "titleZh": "白宫AI政策顾问Sriram Krishnan将离职",
+      "abstractEn": "White House AI Policy Advisor Sriram Krishnan Leaving the Post  Indianweb2.com",
+      "abstractZh": "白宫AI政策顾问Sriram Krishnan将离职。  Indianweb2.com",
+      "authors": [
+        "Indianweb2.com"
+      ],
+      "institution": "Indianweb2.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:12d25dcd8fff",
+      "slug": "gnews-12d25dcd8fff",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzhsLWlBTk5yY2FzTFdGcmZmUHBBbnRKeVF0Y05iVXVHTmRZeXBTTVJLQVpaeGMwSTdOT1BZQU1Qdm8xbkNveW0yek9peXN6a0xNTWNobTJfNnpxMnFJMWdnVHZLQnNKOWl4NW1jWDR4aXVtdjFldDZrVkxDcG94Wk05WWl4V2tVajhPcnVWUU5QMmhXeGRz?oc=5",
+      "publishedAt": "2026-06-08T11:00:00.000Z",
+      "titleEn": "Worried About a Crash in Artificial Intelligence (AI) Stocks? Instantly Diversify Your Portfolio With This Spectacular Vanguard ETF.",
+      "titleZh": "担心人工智能（AI）股票崩盘？用这只出色的Vanguard ETF立即分散投资组合",
+      "abstractEn": "Worried About a Crash in Artificial Intelligence (AI) Stocks? Instantly Diversify Your Portfolio With This Spectacular Vanguard ETF.  The Motley Fool",
+      "abstractZh": "担心人工智能（AI）股票崩盘？用这只出色的Vanguard ETF立即分散投资组合。  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-e6nkpw4t7jjlxppd-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/e6NKPw4t7jJlxPpd.html",
+      "publishedAt": "2026-06-08T10:47:00.000Z",
+      "titleEn": "对腾讯来说，AI为什么是一场「长期游戏」？",
+      "titleZh": "对腾讯来说，AI为什么是一场「长期游戏」？",
+      "abstractEn": "姚顺雨加入腾讯后，第一次线下大型活动的公开亮相，是在6月5日的2026腾讯云AI产业应用大会上。\n他与腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生的同台对谈，吸引了无数观众涌入线下会场和线上直播间。\n人们涌向这里，不仅是为了一睹这位从OpenAI加盟腾讯的AI首席科学家的风采，更是为了从这场对谈中探知腾讯的AI战略：\nAI下半场，腾讯需要正视的核心问题是什么？从QQ时代到AI时代，腾讯做产品的理念有何异同？这波Agent浪潮，腾讯如何布局？还有一个更为犀利、外界热议已久的问题——腾讯做AI，真的慢了吗？\nAI下半场要“找对问题”\n何谓“AI下半场”？\n早在去年，姚顺雨便在一篇博客中阐释过这一概念。他提到，过去几十年AI的发展更多聚焦于方法论创新：从AlphaGo到机器翻译，每个任务都需要单独设计模型，但预训练与大模型的兴起，使得通用方法论成为现实。技术能力不再是瓶颈，真正的难点变",
+      "abstractZh": "姚顺雨加入腾讯后，第一次线下大型活动的公开亮相，是在6月5日的2026腾讯云AI产业应用大会上。\n他与腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生的同台对谈，吸引了无数观众涌入线下会场和线上直播间。\n人们涌向这里，不仅是为了一睹这位从OpenAI加盟腾讯的AI首席科学家的风采，更是为了从这场对谈中探知腾讯的AI战略：\nAI下半场，腾讯需要正视的核心问题是什么？从QQ时代到AI时代，腾讯做产品的理念有何异同？这波Agent浪潮，腾讯如何布局？还有一个更为犀利、外界热议已久的问题——腾讯做AI，真的慢了吗？\nAI下半场要“找对问题”\n何谓“AI下半场”？\n早在去年，姚顺雨便在一篇博客中阐释过这一概念。他提到，过去几十年AI的发展更多聚焦于方法论创新：从AlphaGo到机器翻译，每个任务",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432587-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432587.html",
+      "publishedAt": "2026-06-08T10:40:55.000Z",
+      "titleEn": "蚂蚁集团推出海外AI支付解决方案 商户可实现全球智能体运营",
+      "titleZh": "蚂蚁集团推出海外AI支付解决方案 商户可实现全球智能体运营",
+      "abstractEn": "协助用户与商家判断智能体可信赖程度",
+      "abstractZh": "协助用户与商家判断智能体可信赖程度",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:b9b40e475aae",
+      "slug": "gnews-b9b40e475aae",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoU2p2a01JYTVXbWk3QXZBTEVzbTRnUXpvYmlrY2U2d1RVX241YXFUTGV1WUtIdzB4N0hYNHdJU2VPZDNfTF9VMm1KaTdCUU1ORjhpVjAyWlRpQk5kbDdTQ2hHRkxwSXVnZlkyY1o2U1FpZUJHT2c?oc=5",
+      "publishedAt": "2026-06-08T10:06:41.000Z",
+      "titleEn": "The AI security race needs accountability, not overregulation",
+      "titleZh": "AI安全竞赛需要问责制，而非过度监管",
+      "abstractEn": "The AI security race needs accountability, not overregulation  CyberScoop",
+      "abstractZh": "AI安全竞赛需要问责制，而非过度监管。  CyberScoop",
+      "authors": [
+        "CyberScoop"
+      ],
+      "institution": "CyberScoop",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3eced24d6c6f",
+      "slug": "gnews-3eced24d6c6f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFoyRzNDc3QyLU5PV1ZEaWZFclRVdGtzNS1zXzluM0RrRllNcG9SSnU3aHJ5VEpDa3ZUS2MtWm9iZWlYTm40c3pJbVMya3hJQ2duQVBldDJkdmViSWtORWdNcExycWk0TVQ4bGxDOVB5bjhoT2RPSjJ4YjAyUExSOGpOY29penRDLUFQdnllSTRhc1U4REpMMQ?oc=5",
+      "publishedAt": "2026-06-08T09:05:00.000Z",
+      "titleEn": "Billionaire David Tepper Sold Most of Appaloosa's Position in Microsoft and Initiated a New Stake in an Artificial Intelligence (AI) Memory Stock Up Over 4,100% in the Past Year",
+      "titleZh": "亿万富翁David Tepper抛售Appaloosa大部分微软持仓，新建仓一只过去一年涨幅超4100%的人工智能（AI）内存股票",
+      "abstractEn": "Billionaire David Tepper Sold Most of Appaloosa's Position in Microsoft and Initiated a New Stake in an Artificial Intelligence (AI) Memory Stock Up Over 4,100% in the Past Year  The Motley Fool",
+      "abstractZh": "亿万富翁David Tepper抛售Appaloosa大部分微软持仓，新建仓一只过去一年涨幅超4100%的人工智能（AI）内存股票。  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0fb5e632c9dc",
+      "slug": "gnews-0fb5e632c9dc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTJJMDNSaW1nRndoN25jY1NEN05vV1dZdmE0b0JJMXUwNTh4T3BWSXVZWm50MWJoWHJDaVhoeDR2MnJ1dXhSY05VMHBtODZ2ZVdJdHAtaUxTdDdIcmUxNWV1S25vOEZLSjF6ZmhsY2VtZjVxZ1BJT3V0V1plRHd6aHZ2YW4tTnBWTFpEYkRVSGg1dlNPNVRpTk1R?oc=5",
+      "publishedAt": "2026-06-08T07:40:35.000Z",
+      "titleEn": "AI safety cameras could cause influx of fines, FleetCheck warns",
+      "titleZh": "FleetCheck警告：AI安全摄像头可能导致罚款激增",
+      "abstractEn": "AI safety cameras could cause influx of fines, FleetCheck warns  Business Motoring",
+      "abstractZh": "FleetCheck警告：AI安全摄像头可能导致罚款激增。  Business Motoring",
+      "authors": [
+        "Business Motoring"
+      ],
+      "institution": "Business Motoring",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e8e4ec00def8",
+      "slug": "gnews-e8e4ec00def8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmcySnEwTEFwQmJpdjM3YzVWY1BQOXJlR1RYUDJrN2R3M0xmRUFGMV9BaVJrMmRPcFB1cThzUzhNOXlEZWgtdjZsZ1RqWk9ibDMyQjZWU2dldHFwSkFyMmhOU1ZQOWhKaG5vaTQ4MENpTjRfNl9MdUxTWlVkTWlLcmh4cUNlalhlU1VSQW5KNXJrU2tIZmdtSWxHRWF5MXIta1pwSnVJdkhXUVZkME5xUmlIWkEyalZON1h0Y2tzSGlJVElI?oc=5",
+      "publishedAt": "2026-06-08T05:00:00.000Z",
+      "titleEn": "Startup PhysicsX Hits $2.4 Billion Valuation to Provide AI for Manufacturing",
+      "titleZh": "初创公司PhysicsX估值达24亿美元，为制造业提供AI解决方案",
+      "abstractEn": "Startup PhysicsX Hits $2.4 Billion Valuation to Provide AI for Manufacturing  Bloomberg.com",
+      "abstractZh": "初创公司PhysicsX估值达24亿美元，为制造业提供AI解决方案。  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:adecco:e1f0e0a34c18",
+      "slug": "hrorg-adecco-e1f0e0a34c18",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1dubTZoRmRDYUNMUGIyeHNGU0JlZnJLZUhpMHJoV3ZiYzhHdy1NWXRjamw4bW9UYXRIa3FHZF9jTVowX3ZjV2VBdVF3TUZjdUtPdFUxd2tuNnFPalIyenNIRWNXdmFTODdWb3U0OUNIZUxhU2c2MkFKRl9KODIzQ3pFVlhJalFkckJsV1k1MEVQZVgwQ2MzVVdnYkQ1TXFxSjNUWU9pVDE1RC1VZk9UQnpXdEtEU28?oc=5",
+      "publishedAt": "2026-06-06T16:39:04.000Z",
+      "titleEn": "Five of largest staffing firms face antitrust probe in Japan",
+      "titleZh": "日本五大招聘巨头面临反垄断调查",
+      "abstractEn": "Five of largest staffing firms face antitrust probe in Japan  Staffing Industry Analysts",
+      "abstractZh": "日本五大招聘巨头面临反垄断调查  Staffing Industry Analysts",
+      "authors": [
+        "Staffing Industry Analysts"
+      ],
+      "institution": "Staffing Industry Analysts",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
