@@ -118,24 +118,28 @@ jobs:
       # 通过 bark_push() 统一发送：回显 HTTP 码 + Bark 返回体，非 200 自动重试 3 次（消除"发失败看不见"盲区）。
       - name: Bark 通知（每次抓取结果）
         if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && success()
+        continue-on-error: true   # Bark 抖动永不拖垮跑批/部署
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
           COMMITTED: ${{ steps.commit.outputs.committed }}
         run: |
           [ -z "$BARK_KEY" ] && { echo "[bark] BARK_KEY 为空，跳过"; exit 0; }
-          # $1=title $2=body $3=level
+          # $1=title $2=body $3=level。GitHub→api.day.app 偶发超时(curl 28)，故：
+          #  · curl 用 `|| echo 000` 兜底——失败也不让赋值在 set -e 下中断脚本（这正是上次崩的原因）
+          #  · 连超时拆分(connect 10s / 总 25s)，重试 4 次、间隔 5s，提高在抖动窗口内打通的概率
           bark_push() {
-            local i code body
-            for i in 1 2 3; do
-              body=$(curl -s -w '\n%{http_code}' --max-time 15 -X POST "https://api.day.app/${BARK_KEY}" \
+            local i code
+            for i in 1 2 3 4; do
+              code=$(curl -s -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 25 \
+                -X POST "https://api.day.app/${BARK_KEY}" \
                 --data-urlencode "title=$1" --data-urlencode "body=$2" \
-                --data-urlencode "group=CyberFocus" --data-urlencode "level=$3")
-              code=$(printf '%s' "$body" | tail -1)
-              echo "[bark] 第 $i 次 HTTP=$code 返回=$(printf '%s' "$body" | head -1)"
-              [ "$code" = "200" ] && return 0
-              sleep 3
+                --data-urlencode "group=CyberFocus" --data-urlencode "level=$3" || echo "000")
+              echo "[bark] 第 $i 次 HTTP=$code"
+              if [ "$code" = "200" ]; then return 0; fi
+              sleep 5
             done
-            echo "[bark] ⚠️ 3 次仍未成功（HTTP=$code），但不让通知失败拖垮整批"; return 0
+            echo "[bark] ⚠️ 4 次仍未送达（最后 HTTP=$code）"
+            return 0
           }
           TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
           if [ "$COMMITTED" = "true" ]; then
@@ -160,21 +164,22 @@ jobs:
 
       - name: Bark 失败告警
         if: github.event_name == 'schedule' && failure()
+        continue-on-error: true
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
         run: |
           [ -z "$BARK_KEY" ] && exit 0
-          for i in 1 2 3; do
-            body=$(curl -s -w '\n%{http_code}' --max-time 15 -X POST "https://api.day.app/${BARK_KEY}" \
+          for i in 1 2 3 4; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --connect-timeout 10 --max-time 25 \
+              -X POST "https://api.day.app/${BARK_KEY}" \
               --data-urlencode "title=⚠️ CyberFocus 云端跑批失败" \
               --data-urlencode "body=$(TZ=Asia/Shanghai date '+%m-%d %H:%M') GitHub Actions 跑批失败，请看 Actions 日志" \
               --data-urlencode "group=CyberFocus" \
-              --data-urlencode "level=timeSensitive")
-            code=$(printf '%s' "$body" | tail -1)
+              --data-urlencode "level=timeSensitive" || echo "000")
             echo "[bark] 失败告警 第 $i 次 HTTP=$code"
-            [ "$code" = "200" ] && break
-            sleep 3
-          done || true
+            if [ "$code" = "200" ]; then break; fi
+            sleep 5
+          done
 
       # 仅在「有新内容(committed) / push 代码 / 手动」时才构建并部署 Pages，
       # 日内无新内容的批次跳过，避免每 3 小时白白构建。（Vercel 由 push 自动部署，独立于此。）
