@@ -1,19 +1,130 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-08T21:52:39.909Z",
+  "generatedAt": "2026-06-08T22:28:36.129Z",
   "summary": {
     "aiNews": [
-      "OpenAI 向 SEC 秘密提交 IPO 申请，计划上市融资，标志其从非营利向商业化转型。",
-      "Apple 密码功能利用 Agentic AI 自动修复弱密码和泄露密码，提升用户安全体验。",
-      "Meta 因 WIRED 报道从智能眼镜应用中删除面部识别系统，回应隐私争议。"
+      "前白宫AI沙皇警告：若华盛顿过度监管，美国可能输掉AI竞赛给中国。",
+      "OpenAI向SEC提交S-1草案，申请IPO，成为AI公司涌向华尔街的最新案例。",
+      "Apple密码功能利用Agentic AI自动修复弱密码和泄露密码。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup 调查显示 2026 年第三季度 APME 地区招聘势头放缓，技能短缺仍是关注焦点。",
-      "日本五大招聘巨头因涉嫌垄断面临反垄断调查，可能影响行业竞争格局。"
+      "ManpowerGroup调查：2026年第三季度APME地区招聘势头放缓，技能仍是关注焦点。",
+      "日本五大招聘巨头面临反垄断调查。",
+      "SK AX与Mercer联合开发AI-人类组织模型。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:d2c23d1a07ca",
+      "slug": "gnews-d2c23d1a07ca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUVVHVFJLLXUtbExHOFNTbnVGLTNKV2FuZktSR1RQRC12bC1XUEc4N0szdzc3bm5QbTBQalMtNHJOa2t5RDdPNHpCdTZFd0dSZV9GN3o1OUNqZGQteUNJdnpOVHZweDh1VFRKSGx6MEVZTTJZQXJmQ3J6ZlZ2VDh3VkJRN3hrYThmSEtqSWdQaV9TaW5pY0ZTYUdCeWRva0FGbXRDU2FzTV95bWptZmpxUnRTbkw1Z9IBuwFBVV95cUxQQXM1RWpaZ2lORGlBc1p4MmNpMzJZS1BOUEVBdGU0cDd5ZVZCLVcycmg3ODhMN3QydHUzZThNMlpnR1FQcHZCUTd3ejBWeFdmN1BZdVFNZm1nOUxXV285WU11OHhuenFxQVRfaW0tYjY5ajlKSjBPbk4ySTZKZnNMTm9jZDlRYTVjTkZvaWtBMXdCWDNqYk9KX2ZFdkxISHhzS2x0OVlEQTZLRXJRQzZCeFItbEVVbUV6djRF?oc=5",
+      "publishedAt": "2026-06-08T22:07:00.000Z",
+      "titleEn": "Ex-White House ‘AI czar’ warns US could lose AI race to China if Washington overregulates",
+      "titleZh": "前白宫‘AI 沙皇’警告：若华盛顿过度监管，美国可能输掉 AI 竞赛给中国",
+      "abstractEn": "Ex-White House ‘AI czar’ warns US could lose AI race to China if Washington overregulates  Fox Business",
+      "abstractZh": "前白宫‘AI 沙皇’警告：若华盛顿过度监管，美国可能输掉 AI 竞赛给中国  Fox Business",
+      "authors": [
+        "Fox Business"
+      ],
+      "institution": "Fox Business",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:047715112da5",
+      "slug": "gnews-047715112da5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN1A0eVJqRUpCVXNvNTdtaVliOTZ5cFo0RmZOVEdRdWNuanFYNEZ4UW05WVltRXIzejNCeEhBNDdPMGlQR1BOeXMydVBMWjdwdkJFQ2JrYklVWkxNMURiaGRlTjkyRnBnblFFYUJWWjhmTF9tMkdwWG9hMmNTZWtsYnIzNGFxVXF2Ml9yVEJadWYyOUN5?oc=5",
+      "publishedAt": "2026-06-08T21:58:19.000Z",
+      "titleEn": "Montana School Boards Gradually Adopt AI Guidelines",
+      "titleZh": "蒙大拿州学校董事会逐步采纳 AI 指导方针",
+      "abstractEn": "Montana School Boards Gradually Adopt AI Guidelines  govtech.com",
+      "abstractZh": "蒙大拿州学校董事会逐步采纳 AI 指导方针  govtech.com",
+      "authors": [
+        "govtech.com"
+      ],
+      "institution": "govtech.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0427c28494ac",
+      "slug": "gnews-0427c28494ac",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jMDF6T2tOZnBDcUdPb1RlLUt4eThJd1NaRFpCS0wzSVNJTERDTGhJQUNERE9JRUxIS0Q0YjVQRUd2TVZndm0tTnBtS1huNld4blViOFBsSWNQaTA?oc=5",
+      "publishedAt": "2026-06-08T21:46:58.000Z",
+      "titleEn": "David Sacks warns AI regulation could cost US race against China",
+      "titleZh": "David Sacks 警告：AI 监管可能让美国输掉与中国的竞赛",
+      "abstractEn": "David Sacks warns AI regulation could cost US race against China  Fox Business",
+      "abstractZh": "David Sacks 警告：AI 监管可能让美国输掉与中国的竞赛  Fox Business",
+      "authors": [
+        "Fox Business"
+      ],
+      "institution": "Fox Business",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:88a349068c31",
+      "slug": "gnews-88a349068c31",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZmMtTHVxbUtrOVlGV2phVWoyMENVRlJfZmxyckhvY2g1ajBhcEh0V3pqRTRQUGdXVlRxREZBcldIV0VNdHU3UnBaTjJBNGdQalJyT2hkNXV6RmdXaFJwNllvUjhEQ1hwWWMwQ2dqZ0laZkJhMEdCYjV1QWs3d1JTaUxQN1NHalQ2NWRac0RnY3RNVTNNU05ERVpWcW5pS0toMjBLRDJQZUg5RG43NWNzZEZYM2hleEs2d2hjQ1pjcEpwVmtQRnVGWDFvQXh1TWtnb1BwOTlkT3MtX0pOSXdCNUhXYWdwU2gzcXc?oc=5",
+      "publishedAt": "2026-06-08T21:26:31.000Z",
+      "titleEn": "OpenAI files for IPO, the latest in a stream of possible AI mega-sales",
+      "titleZh": "OpenAI 申请 IPO，成为一系列潜在 AI 巨额交易中的最新案例",
+      "abstractEn": "OpenAI files for IPO, the latest in a stream of possible AI mega-sales  KTEN",
+      "abstractZh": "OpenAI 申请 IPO，成为一系列潜在 AI 巨额交易中的最新案例  KTEN",
+      "authors": [
+        "KTEN"
+      ],
+      "institution": "KTEN",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d817cd1731da",
+      "slug": "gnews-d817cd1731da",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90QWIzaHhCR2xlRVVmWEZyWWNrMXkyOUtCZFJJN2dSOHp0ZWtLdkg1dGdIdU9rVEtVMG5ZeGVVRFZIemFLalZhSnQySFE0VnM4VmNmSEY3eHB1aXl6SmRpQ01QLWw4ZUdKV2h4bXpn?oc=5",
+      "publishedAt": "2026-06-08T21:25:18.000Z",
+      "titleEn": "OpenAI Files to Go Public as A.I. Companies Rush to Wall St.",
+      "titleZh": "OpenAI 提交上市申请，AI 公司纷纷涌向华尔街",
+      "abstractEn": "OpenAI Files to Go Public as A.I. Companies Rush to Wall St.  The New York Times",
+      "abstractZh": "OpenAI 提交上市申请，AI 公司纷纷涌向华尔街  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48452317",
       "slug": "hn-48452317-openai-submits-s-1-draft-to-sec",
@@ -33,6 +144,49 @@
       "category": "social",
       "score": 27,
       "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:2e10eac1984c",
+      "slug": "gnews-2e10eac1984c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXlGakJTSGFyNmh2Qm9HMU4zaEkyLVRuTUN2ZndMdE1halk2RUVuYXNiVE1pUl9jcW5UVEpoMWhSakxfQzRIcmVTWGlkemI1REpjUFVmSTFBcUs5Yl9OcTNHckhkaEVfY1IyMTJrUDhBU2NQMUxMbHFNNXkwcEN6aG1jX0NwVFQ1dE9yYUdENW9TeEJJYnhmWGJsQXRJNmxzV1FpdHUwU2JydGFWeVdoU2xjcjRqemQzUUxHcndHd2JQbkl2TEduYVhB?oc=5",
+      "publishedAt": "2026-06-08T21:19:43.000Z",
+      "titleEn": "SHINEDOWN's ZACH MYERS Blasts Use Of A.I. To Compose Songs: 'I'm Not Writing With Artificial Intelligence'",
+      "titleZh": "SHINEDOWN 乐队 ZACH MYERS 抨击使用 AI 创作歌曲：'我不会用人工智能写歌'",
+      "abstractEn": "SHINEDOWN's ZACH MYERS Blasts Use Of A.I. To Compose Songs: 'I'm Not Writing With Artificial Intelligence'  BLABBERMOUTH.NET",
+      "abstractZh": "SHINEDOWN 乐队 ZACH MYERS 抨击使用 AI 创作歌曲：'我不会用人工智能写歌'  BLABBERMOUTH.NET",
+      "authors": [
+        "BLABBERMOUTH.NET"
+      ],
+      "institution": "BLABBERMOUTH.NET",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48452229",
+      "slug": "hn-48452229-openai-files-s-1",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/openainewsroom/status/2064094175541461220",
+      "commentUrl": "https://news.ycombinator.com/item?id=48452229",
+      "publishedAt": "2026-06-08T21:16:43.000Z",
+      "titleEn": "OpenAI Files S-1",
+      "titleZh": "OpenAI 提交 S-1 文件",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "davidbarker"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 1,
       "tags": []
     },
     {
@@ -99,6 +253,28 @@
       "tags": []
     },
     {
+      "id": "gnews:263ec391610c",
+      "slug": "gnews-263ec391610c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVRMUlhka2JWUXRGMUJhQ0x5bnlOOXdlZk5ZY1JkQVZ5NGJ3bE1VeXZPOElvTTJNdWhWYnd2Z0hDTVhLaDlRODlfNlhoNnJEWkRCMHM5VlFWYnZENlhFZ3cwWmg0Z3ZfRjZVQnhORlZtekZCT1dzUVpXSko1aVphczZ4dEdLTGs1bm9NdkVzNm5BcHduQ3YzZXRuMXlIbXExMkVoNA?oc=5",
+      "publishedAt": "2026-06-08T20:32:00.000Z",
+      "titleEn": "Warren Requests Administration Leaders to Testify on AI Policy",
+      "titleZh": "沃伦要求行政领导就 AI 政策作证",
+      "abstractEn": "Warren Requests Administration Leaders to Testify on AI Policy  Let's Data Science",
+      "abstractZh": "沃伦要求行政领导就 AI 政策作证  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:1ddfea51d0bc",
       "slug": "gnews-1ddfea51d0bc",
       "source": "Google AI News",
@@ -155,6 +331,28 @@
         "Crypto Briefing"
       ],
       "institution": "Crypto Briefing",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ee7ccd941a0f",
+      "slug": "gnews-ee7ccd941a0f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNFlUSWFWQ1d1aDJUODg0YjlBZDFtZXA4U3V1TkZqNkVhOE5ZcW8zbV9qNDRpalk2LUxCNFpsclVObXZuNzc2Y3I1VzZ4WEFZVmpLV0xtLVpIVVkxeU1lWFhSS2VyZnZIQkVTVmNZdmFnX0FTamhoalBOY2t1TWF0V01Kd0xOUUx1bFprN1BBVnhvR0ZrcXZjVkdod2NEUQ?oc=5",
+      "publishedAt": "2026-06-08T20:10:46.000Z",
+      "titleEn": "Canada’s National Artificial Intelligence Strategy: AI for All",
+      "titleZh": "加拿大国家人工智能战略：AI 惠及全民",
+      "abstractEn": "Canada’s National Artificial Intelligence Strategy: AI for All  ised-isde.canada.ca",
+      "abstractZh": "加拿大国家人工智能战略：AI 惠及全民  ised-isde.canada.ca",
+      "authors": [
+        "ised-isde.canada.ca"
+      ],
+      "institution": "ised-isde.canada.ca",
       "docType": "Blog",
       "category": "social",
       "score": 0,
