@@ -143,7 +143,7 @@ function PodcastDetailHeader({ ep }: { ep: Episode }) {
       <h1 className={styles.titleZh}>{ep.titleZh ?? ep.titleEn}</h1>
       {ep.titleZh && <p className={styles.titleEn}>{ep.titleEn}</p>}
       <div className={styles.metaRow}>
-        <span className={styles.metaBadge}>🎙️ Lex Fridman Podcast</span>
+        <span className={styles.metaBadge}>🎙️ {ep.source}</span>
         {ep.duration && <span className={styles.metaItem}>⏱ {ep.duration}</span>}
         {date && <span className={styles.metaItem}>📅 {date}</span>}
         <a
