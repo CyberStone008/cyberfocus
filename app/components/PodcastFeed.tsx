@@ -7,6 +7,17 @@ import styles from './PodcastFeed.module.css';
 
 type Episode = Article & { duration?: string | null; contentMd?: string };
 
+/* 各播客源的徽标缩写 + 颜色（未配置的源用名称首字 + 灰色兜底）。 */
+const PODCAST_META: Record<string, { abbr: string; color: string }> = {
+  'Lex Fridman Podcast': { abbr: 'Lx', color: '#3b82f6' },
+  '张小珺商业访谈录':     { abbr: '张', color: '#ec4899' },
+  'No Priors':           { abbr: 'NP', color: '#8b5cf6' },
+  '硅谷101':             { abbr: '硅', color: '#10b981' },
+};
+function podcastMeta(source: string) {
+  return PODCAST_META[source] ?? { abbr: (source ?? '·').slice(0, 2), color: '#6b7280' };
+}
+
 /* ── Date helpers (grouping in Beijing time) ── */
 function formatDateLabel(dateKey: string): string {
   const [y, m, d] = dateKey.split('-').map(Number);
@@ -35,6 +46,7 @@ function EpisodeCard({ ep }: { ep: Episode }) {
   const hasAnalysis  = !!ep.contentMd && !!ep.slug;
   // Card click → the 解读 detail page when it exists; otherwise the original audio.
   const detailHref   = hasAnalysis ? `/podcast/${ep.slug}` : null;
+  const meta         = podcastMeta(ep.source);
 
   return (
     <div className={styles.card}>
@@ -49,8 +61,8 @@ function EpisodeCard({ ep }: { ep: Episode }) {
 
       {/* Meta row */}
       <div className={styles.cardMeta}>
-        <span className={styles.sourceTag}>
-          <span className={styles.sourceAbbr}>Lx</span>
+        <span className={styles.sourceTag} style={{ color: meta.color, background: `${meta.color}1a` }}>
+          <span className={styles.sourceAbbr} style={{ background: meta.color }}>{meta.abbr}</span>
           {ep.source}
         </span>
         {ep.duration && (
