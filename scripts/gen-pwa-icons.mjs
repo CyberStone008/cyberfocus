@@ -44,4 +44,27 @@ await png(full, 192, 'public/icons/icon-192.png');
 await png(mask, 512, 'public/icons/icon-maskable-512.png');
 await png(full, 180, 'app/apple-icon.png');
 await png(full, 512, 'app/icon.png');
+
+// favicon.ico（多尺寸 PNG-in-ICO，现代浏览器全支持）——与 APP 图标同源，保持一致。
+async function pngBuf(buf, size) { return sharp(buf, { density: 384 }).resize(size, size).png().toBuffer(); }
+function buildIco(images /* [{size, buf}] */) {
+  const header = Buffer.alloc(6);
+  header.writeUInt16LE(0, 0); header.writeUInt16LE(1, 2); header.writeUInt16LE(images.length, 4);
+  let offset = 6 + images.length * 16;
+  const dirs = images.map(({ size, buf }) => {
+    const d = Buffer.alloc(16);
+    d.writeUInt8(size >= 256 ? 0 : size, 0);
+    d.writeUInt8(size >= 256 ? 0 : size, 1);
+    d.writeUInt16LE(1, 4);   // planes
+    d.writeUInt16LE(32, 6);  // bpp
+    d.writeUInt32LE(buf.length, 8);
+    d.writeUInt32LE(offset, 12);
+    offset += buf.length;
+    return d;
+  });
+  return Buffer.concat([header, ...dirs, ...images.map((i) => i.buf)]);
+}
+const icoImgs = await Promise.all([16, 32, 48].map(async (s) => ({ size: s, buf: await pngBuf(full, s) })));
+writeFileSync('app/favicon.ico', buildIco(icoImgs));
+console.log('  ✓ app/favicon.ico');
 console.log('done');
