@@ -169,6 +169,24 @@ async function run() {
     }
   }
 
+  // ── 卡片一句话说明（结论先行，守溯源铁律）──────────────────────────────
+  // 新抓取的集补 tldrZh：Lex 用逐字稿解读，其余源用官方节目简介（不用推断式解读，避免外推）。
+  if (canAI && fetched.length > 0) {
+    const { generateReportTldr } = await import('./translate/report-tldr.js');
+    for (const ep of fetched) {
+      if (ep.tldrZh) continue;
+      const lex = ep.source === 'Lex Fridman Podcast' && ep.contentMd && ep.contentMd.length > 300;
+      const zh = ep.abstractZh || '', en = ep.abstractEn || '';
+      const text = lex ? ep.contentMd : (en.length > zh.length ? en : zh);
+      if (text.trim().length < 150) continue;
+      try {
+        const tldr = await generateReportTldr(ep.titleZh || ep.titleEn, text, { kind: '节目', label: lex ? '节目解读' : '节目简介', minLen: 150 });
+        if (tldr) { ep.tldrZh = tldr; console.log(`[podcast-pipeline] TL;DR ✓ ${(ep.titleZh || ep.titleEn).slice(0, 24)}`); }
+      } catch (e) { console.warn(`[podcast-pipeline] TL;DR 失败: ${e.message}`); }
+      await new Promise((r) => setTimeout(r, 800));
+    }
+  }
+
   const hasChanges = fetched.length > 0
     || untranslatedExisting.length > 0
     || merged.some((e) => e.contentMd && !preAnalysisWithContent.has(e.id));

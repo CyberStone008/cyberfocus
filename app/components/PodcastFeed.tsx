@@ -30,7 +30,8 @@ function formatDatePill(dateKey: string): string {
 function EpisodeCard({ ep }: { ep: Episode }) {
   const title        = ep.titleZh ?? ep.titleEn;
   const showEngTitle = ep.titleZh && ep.titleEn && ep.titleZh !== ep.titleEn;
-  const excerpt      = (ep.abstractZh ?? ep.abstractEn ?? '').trim().slice(0, 140);
+  // 优先用结论先行的一句话说明（基于节目简介/解读生成），没有再退回官方简介
+  const excerpt      = (ep.tldrZh ?? ep.abstractZh ?? ep.abstractEn ?? '').trim().slice(0, 160);
   const hasAnalysis  = !!ep.contentMd && !!ep.slug;
   // Card click → the 解读 detail page when it exists; otherwise the original audio.
   const detailHref   = hasAnalysis ? `/podcast/${ep.slug}` : null;

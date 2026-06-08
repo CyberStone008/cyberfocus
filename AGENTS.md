@@ -96,6 +96,9 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 
 **报告卡片一句话主题（`tldrZh`）同此铁律**（`scripts/translate/report-tldr.js`）：AI 精华报告卡片那行描述原用 `abstractZh`，但博客类常抓到网站通用 meta 描述（"Anthropic 是一家…公司"）无法说明本文。故新增 `tldrZh`——**基于真实全文 `contentMd` 生成的一句话（≤60字）主题概述**，prompt 强约束只依据正文、禁止编造数字/结论。卡片显示优先级 `tldrZh ?? abstractZh ?? abstractEn`（`ReportFeed.tsx`）。生成时机：pipeline 生成全文后顺带产出；历史回填用 `node scripts/backfill-report-tldr.js`（每篇即时落盘可续跑）。`toReportItem` 用 `...rest` 展开，`tldrZh` 自动随投影下发。
 
+**精选播客卡片同样用 `tldrZh`**（`generateReportTldr` 通用化，传 `{kind:'节目',label}`）：素材取「Lex→逐字稿解读 contentMd，其余源→更丰富的官方简介 abstractEn/Zh」。**关键阈值 minLen=150**——素材太薄会逼模型外推编造（实测硅谷101 仅 19-79 字短副标题时，生成的"体内直接编辑/跨国药企押注"等都不在素材里），故素材 <150 字一律**不生成、退回显示真实副标题**。回填 `node scripts/backfill-podcast-tldr.js`，pipeline 抓到新集自动补。当前：张小珺/No Priors/Lex 全覆盖；硅谷101（feed 简介过短）退回副标题。卡片显示优先级 `tldrZh ?? abstractZh ?? abstractEn`（`PodcastFeed.tsx`）。
+> 注：人服机构动态(orgs)用 ReportCard，已认 tldrZh（有全文的已覆盖）；AI 热点精选(social)与 orgs 的纯新闻条目只有标题、无正文，按铁律**不硬生成摘要**。
+
 **播客解读同此铁律**（`scripts/translate/podcast-analysis.js`）：①**有逐字稿**（仅 Lex Fridman，其 `abstractEn` 带 `Transcript: https://lexfridman.com/...` 链接）→ 抓全文做深读（"主要话题/金句"）；②**无逐字稿**（张小珺/No Priors/硅谷101 等绝大多数源）→ **只能基于标题+官方简介克制概述**，标题用"本集可能涵盖的话题"、措辞为"这一主题通常关注…/嘉宾可能会…"，**严禁编造具体引语、数字、市值、生平、未在简介出现的事件**；且自动在文末附「ℹ️ 本解读基于节目标题与官方简介由 AI 整理…以原节目为准」声明+原链接。prompt 按 `hasTranscript` 分支（`grounding`/`formatRich` vs `formatLite`）。
 
 ### 翻译后端：默认且固定用 DeepSeek
