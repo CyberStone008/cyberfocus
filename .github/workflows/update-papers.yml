@@ -61,22 +61,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 临时诊断：仅手动触发时跑。打印云端 BARK_KEY 指纹(长度+末4位)并发一条测试推送，
-      # 用来核对 GitHub Secret 里的 BARK_KEY 是否与本地一致、能否推达手机。确认后即删除本步骤。
-      - name: 🔧 Bark 自检（仅手动触发·临时诊断）
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          BARK_KEY: ${{ secrets.BARK_KEY }}
-        run: |
-          if [ -z "$BARK_KEY" ]; then echo "[自检] BARK_KEY 为空：Secret 未设置或为空值"; exit 0; fi
-          echo "[自检] 云端 BARK_KEY 长度=${#BARK_KEY}  末4位=${BARK_KEY: -4}  (正确应为 长度22 末4位 i3bX)"
-          RESP=$(curl -s --max-time 15 -X POST "https://api.day.app/${BARK_KEY}" \
-            --data-urlencode "title=🔧 CyberFocus 云端 Bark 自检" \
-            --data-urlencode "body=这是来自 GitHub Actions 的测试推送，收到说明云端 key 正确" \
-            --data-urlencode "group=CyberFocus" \
-            --data-urlencode "level=active")
-          echo "[自检] Bark 服务器返回: $RESP"
-
       # 每个定时批次都抓取（去重靠 processed-ids；下面只在有新内容时才提交+构建）。
       - name: Run fetch + translate pipeline
         if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
@@ -131,13 +115,28 @@ jobs:
           fi
 
       # Bark 推送：每次定时抓取后都通知结果。新增内容→📰 有声+标题；无新内容→📭 静默(passive)。
+      # 通过 bark_push() 统一发送：回显 HTTP 码 + Bark 返回体，非 200 自动重试 3 次（消除"发失败看不见"盲区）。
       - name: Bark 通知（每次抓取结果）
         if: github.event_name == 'schedule' && success()
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
           COMMITTED: ${{ steps.commit.outputs.committed }}
         run: |
-          [ -z "$BARK_KEY" ] && exit 0
+          [ -z "$BARK_KEY" ] && { echo "[bark] BARK_KEY 为空，跳过"; exit 0; }
+          # $1=title $2=body $3=level
+          bark_push() {
+            local i code body
+            for i in 1 2 3; do
+              body=$(curl -s -w '\n%{http_code}' --max-time 15 -X POST "https://api.day.app/${BARK_KEY}" \
+                --data-urlencode "title=$1" --data-urlencode "body=$2" \
+                --data-urlencode "group=CyberFocus" --data-urlencode "level=$3")
+              code=$(printf '%s' "$body" | tail -1)
+              echo "[bark] 第 $i 次 HTTP=$code 返回=$(printf '%s' "$body" | head -1)"
+              [ "$code" = "200" ] && return 0
+              sleep 3
+            done
+            echo "[bark] ⚠️ 3 次仍未成功（HTTP=$code），但不让通知失败拖垮整批"; return 0
+          }
           TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
           if [ "$COMMITTED" = "true" ]; then
             OUT=$(node -e '
@@ -154,17 +153,9 @@ jobs:
             N=$(printf '%s' "$OUT" | head -1)
             LINES=$(printf '%s' "$OUT" | tail -n +2)
             BODY=$(printf "%s · 新增 %s 条\n%s" "$TS" "$N" "$LINES")
-            curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
-              --data-urlencode "title=📰 CyberFocus 已更新" \
-              --data-urlencode "body=${BODY}" \
-              --data-urlencode "group=CyberFocus" \
-              --data-urlencode "level=active" || true
+            bark_push "📰 CyberFocus 已更新" "$BODY" "active"
           else
-            curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
-              --data-urlencode "title=📭 CyberFocus 本次无新内容" \
-              --data-urlencode "body=${TS} 抓取完成，暂无新内容" \
-              --data-urlencode "group=CyberFocus" \
-              --data-urlencode "level=passive" || true
+            bark_push "📭 CyberFocus 本次无新内容" "${TS} 抓取完成，暂无新内容" "passive"
           fi
 
       - name: Bark 失败告警
@@ -173,11 +164,17 @@ jobs:
           BARK_KEY: ${{ secrets.BARK_KEY }}
         run: |
           [ -z "$BARK_KEY" ] && exit 0
-          curl -s --max-time 12 -X POST "https://api.day.app/${BARK_KEY}" \
-            --data-urlencode "title=⚠️ CyberFocus 云端跑批失败" \
-            --data-urlencode "body=$(TZ=Asia/Shanghai date '+%m-%d %H:%M') GitHub Actions 跑批失败，请看 Actions 日志" \
-            --data-urlencode "group=CyberFocus" \
-            --data-urlencode "level=timeSensitive" || true
+          for i in 1 2 3; do
+            body=$(curl -s -w '\n%{http_code}' --max-time 15 -X POST "https://api.day.app/${BARK_KEY}" \
+              --data-urlencode "title=⚠️ CyberFocus 云端跑批失败" \
+              --data-urlencode "body=$(TZ=Asia/Shanghai date '+%m-%d %H:%M') GitHub Actions 跑批失败，请看 Actions 日志" \
+              --data-urlencode "group=CyberFocus" \
+              --data-urlencode "level=timeSensitive")
+            code=$(printf '%s' "$body" | tail -1)
+            echo "[bark] 失败告警 第 $i 次 HTTP=$code"
+            [ "$code" = "200" ] && break
+            sleep 3
+          done || true
 
       # 仅在「有新内容(committed) / push 代码 / 手动」时才构建并部署 Pages，
       # 日内无新内容的批次跳过，避免每 3 小时白白构建。（Vercel 由 push 自动部署，独立于此。）
