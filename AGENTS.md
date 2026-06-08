@@ -198,11 +198,11 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 **现状（2026-06 起）**：每日跑批的**唯一执行者是 GitHub Actions**（`.github/workflows/update-papers.yml`）。本地 launchd `com.cyberfocus.pipeline` **已停用**（plist 改名为 `*.disabled-cloudonly-*`，不再自动加载），用户不想再依赖 Mac 是否开机。本地 `run-daily.sh` / `npm run pipeline` 仍可**手动**跑。
 
-**云端 workflow 跑批（白天每 3 小时）**：两条 cron——`12 22 * * *`（北京 06:12，晨跑+Bark晨报）+ `12 1,4,7,10,13 * * *`（09:12/12:12/15:12/18:12/21:12，日内静默补抓）。**故意用 :12 错开整点/半点**，降低被 GitHub Actions 高峰丢弃/延迟的概率（曾遇到 `30` 的晨跑被整段跳过）。**每个定时批次都抓**（已移除 freshness 门；去重靠 `processed-ids`）。逻辑：
+**云端 workflow 跑批**：三条 cron——`0 20 * * *`（北京 04:00，晨跑主批）+ `0 21 * * *`（北京 05:00，晨跑兜底）+ `12 1,4,7,10,13 * * *`（09:12/12:12/15:12/18:12/21:12，日内每 3 小时补抓）。**晨跑提前 + 双批兜底**是因为 GitHub cron 常漂移 1~2.5h、偶尔整段丢批（实测 06-08 晨跑从 06:12 漂到 07:24，06-06 那批直接失败）；提前到 04:00 即便漂 +2h 也在 06:00 前跑完，主批被丢还有 05:00 补上 → 确保「8 点前就绪」。日内仍用 :12 错开整点/半点降低被丢概率。**每个定时批次都抓**（已移除 freshness 门；去重靠 `processed-ids`）。逻辑：
 - 抓取 pipeline + podcast + 4 个投资报告（后两者 `|| true` 容错）。
 - commit 步骤（`id: commit`）：`git diff` **有新内容才** commit/push 并输出 `committed=true`；无则 `false`。
 - **构建/部署 Pages 仅在 `committed==true` 或 push/手动时**才跑——日内空批次不构建，避免每 3 小时白白 build。（Vercel 由 push 自身的 webhook 自动部署，独立于此 workflow；注意 `GITHUB_TOKEN` 的 push **不会**再触发 workflow，所以构建必须放在**同一次**有提交的运行里，不能靠 push 事件触发。）
-- Bark：晨报只在 `github.event.schedule == '12 22 * * *'` 那条 cron 推一次；失败告警任何定时批次都推。
+- Bark：**每个定时批次抓完都推**（`schedule && success()`）——有新内容→📰 `active`（标题+前 6 条+新增 N 条）；无新内容→📭 `passive`（静默）。失败→⚠️ `timeSensitive` 告警。
 - 提频只对社交/新闻有意义（高频源）；低频源(博客/HR/播客)去重后近零成本；投资报告自身 gate，不受频率影响。
 
 **云端必需的 Secrets**（仓库 Settings → Secrets → Actions）：`DEEPSEEK_API_KEY`（否则翻译退回 Claude）、`BARK_KEY`（否则不推送）、`ANTHROPIC_API_KEY`（备用）。云端在境外、`setupProxy()` 无 `HTTPS_PROXY` 即直连，**不需要代理**。
