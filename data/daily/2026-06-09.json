@@ -1,19 +1,493 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-08T16:54:38.594Z",
+  "generatedAt": "2026-06-08T21:52:39.909Z",
   "summary": {
     "aiNews": [
-      "白宫发布AI安全战略，聚焦前沿模型、网络防御和关键基础设施保护。",
-      "DeepSeek接近达成70亿美元融资，创AI交易历史纪录。",
-      "美团接入微信AI生态，将提供本地生活等AI服务体验。"
+      "OpenAI 向 SEC 秘密提交 IPO 申请，计划上市融资，标志其从非营利向商业化转型。",
+      "Apple 密码功能利用 Agentic AI 自动修复弱密码和泄露密码，提升用户安全体验。",
+      "Meta 因 WIRED 报道从智能眼镜应用中删除面部识别系统，回应隐私争议。"
     ],
     "papers": [],
     "hrOrgs": [
-      "SK AX与Mercer联合开发AI-人类组织模型。",
-      "日本五大招聘巨头面临反垄断调查。"
+      "ManpowerGroup 调查显示 2026 年第三季度 APME 地区招聘势头放缓，技能短缺仍是关注焦点。",
+      "日本五大招聘巨头因涉嫌垄断面临反垄断调查，可能影响行业竞争格局。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48452317",
+      "slug": "hn-48452317-openai-submits-s-1-draft-to-sec",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48452317",
+      "publishedAt": "2026-06-08T21:22:43.000Z",
+      "titleEn": "OpenAI Submits S-1 Draft to SEC",
+      "titleZh": "OpenAI 向 SEC 提交 S-1 草案",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hackerBanana"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 27,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "hn:48452224",
+      "slug": "hn-48452224-openai-confidentially-files-for-ipo",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48452224",
+      "publishedAt": "2026-06-08T21:16:20.000Z",
+      "titleEn": "OpenAI Confidentially Files for IPO",
+      "titleZh": "OpenAI 秘密提交 IPO 申请",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rvz"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 16,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48451883",
+      "slug": "hn-48451883-built-to-benefit-everyone-our-plan",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48451883",
+      "publishedAt": "2026-06-08T20:56:24.000Z",
+      "titleEn": "Built to benefit everyone: our plan",
+      "titleZh": "为造福所有人而建：我们的计划",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "j4mie"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48451723",
+      "slug": "hn-48451723-frontiercode",
+      "source": "Hacker News",
+      "sourceUrl": "https://cognition.ai/blog/frontier-code",
+      "commentUrl": "https://news.ycombinator.com/item?id=48451723",
+      "publishedAt": "2026-06-08T20:45:03.000Z",
+      "titleEn": "FrontierCode",
+      "titleZh": "FrontierCode",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "streamer45"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 20,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:1ddfea51d0bc",
+      "slug": "gnews-1ddfea51d0bc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLVJKVEhHSUhBNUM5RjFES2lCSlJSRlBEN1hKbTcwOGh4b19SYkpsTkNreC1EZEhpRG1pMWVGRDhhTjhKUWhPbGVvcGpOellwTklkYlVZbjJaMVhXTE9mbzhkcUVCeEczWkdRZ2J3SUdFSlVoWDhBTkY2aUlib0xONVRydUdWTzU4QmVFR1JfSFpRQ095ZXBxNGczUGhXR0NZSy1KZXBHZFBCV0g1Uk9oNA?oc=5",
+      "publishedAt": "2026-06-08T20:32:00.000Z",
+      "titleEn": "Warren seeks admin leadership to testify on AI policy",
+      "titleZh": "沃伦寻求行政领导就 AI 政策作证",
+      "abstractEn": "Warren seeks admin leadership to testify on AI policy  Nextgov/FCW",
+      "abstractZh": "沃伦寻求行政领导就 AI 政策作证  Nextgov/FCW",
+      "authors": [
+        "Nextgov/FCW"
+      ],
+      "institution": "Nextgov/FCW",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48451450",
+      "slug": "hn-48451450-apple-passwords-now-auto-fixes-weak-and-compromised-passwords-with-a",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.macrumors.com/2026/06/08/apple-passwords-can-now-automatically-fix-passwords-with-agentic-ai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48451450",
+      "publishedAt": "2026-06-08T20:28:48.000Z",
+      "titleEn": "Apple Passwords Now Auto Fixes Weak and Compromised Passwords with Agentic AI",
+      "titleZh": "Apple 密码功能现利用 Agentic AI 自动修复弱密码和泄露密码",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "7777777phil"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:cd431223dce5",
+      "slug": "gnews-cd431223dce5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10N1JqOHI1dmJ2b19kaloxbDJUS1JyczRYRGpxNHRqSmVlREJ1V0hoX0tKVzU2a0luazZUNmdJcGJTWnpZbFB2TGVmOHdfcHJqSjNYeElabWozZTBOZ0FVcVFrZlRnbHR1cHZVaHVialVWYWFyeFBoZ2VyS3ZhdlE?oc=5",
+      "publishedAt": "2026-06-08T20:17:41.000Z",
+      "titleEn": "Obernolte, Trahan unveil bipartisan AI regulation proposal amid legislative caution",
+      "titleZh": "Obernolte 和 Trahan 在立法谨慎态度下提出两党 AI 监管提案",
+      "abstractEn": "Obernolte, Trahan unveil bipartisan AI regulation proposal amid legislative caution  Crypto Briefing",
+      "abstractZh": "Obernolte 和 Trahan 在立法谨慎态度下提出两党 AI 监管提案  Crypto Briefing",
+      "authors": [
+        "Crypto Briefing"
+      ],
+      "institution": "Crypto Briefing",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0c0e0769c924",
+      "slug": "gnews-0c0e0769c924",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNkVSUHVFdEY4ZmgxX20wcDBWcGNLOV9hZUZvdU5abWxtWWQxeGw2bFV0a3NSbDFIT2FlMzhyNjZybGMwNE9kSVRJbTJvNmEwNWhldUk3a3ZSbGxrclpRZkN4SWtiemFJX1FENm0ydkpFVHhtMkFRWjNrV2gwVGFGRmdRVGp0TVhsOUR5WmU4MGttQlJpN0pIS0t3NnVzX1NrRkQxSFBMZHF4dF9pYVE?oc=5",
+      "publishedAt": "2026-06-08T19:56:37.000Z",
+      "titleEn": "Apple renames Siri as ‘Siri AI’ with new push into artificial intelligence",
+      "titleZh": "Apple 将 Siri 更名为‘Siri AI’，全力进军人工智能领域",
+      "abstractEn": "Apple renames Siri as ‘Siri AI’ with new push into artificial intelligence  NBC News",
+      "abstractZh": "Apple 将 Siri 更名为‘Siri AI’，全力进军人工智能领域  NBC News",
+      "authors": [
+        "NBC News"
+      ],
+      "institution": "NBC News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48450142",
+      "slug": "hn-48450142-apple-reveals-new-ai-architecture-built-around-google-gemini-models",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48450142",
+      "publishedAt": "2026-06-08T19:14:47.000Z",
+      "titleEn": "Apple reveals new AI architecture built around Google Gemini models",
+      "titleZh": "苹果发布围绕 Google Gemini 模型构建的新 AI 架构",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "unclefuzzy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 254,
+      "commentCount": 209,
+      "tags": []
+    },
+    {
+      "id": "gnews:47a435b65173",
+      "slug": "gnews-47a435b65173",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXVJNFo4YmJlcmdlWG9oRnZQMDZFcGpLUUZ4M1RjRXc1aWdpVjhYMm9kQldkdnJ5dWVKaHYwTjBQMmVPN2kxSkN6Qk0tYk05U0VxbUVFNGhLS1NZSUgwMVdsdUZDUjB6TUdVRzJkZzJRbzQ4NDFGY25oSTdISE5LOTFfbWpjX3ZmMHI3MDcyZkNjb3djTFk3MzBQREd1Wk9OZ1NCUnpmMWt6NVFlTHZfZko1T3jSAboBQVVfeXFMUHNucXdMSlVDUkxDeUllQUZkTlpWeTA3UXBHbE1JT0diMFpGcDRDcTBtU2FGOFBBSXBOUExQNVUzd01wYTNweWE1LUljME5wemJWYU5ReE13dDVTWEI4UkJxN1JycnFzZTlhZXBVdGhTV1pkUEFEQWNBdHAyR2EwQ0hkSllJWVd2ZEc2RGVNMU5vcUxsV05xQkxBQWVXcGV1SEN5NFpON25EcVFOYVVycFJaRE82VW1JbjlR?oc=5",
+      "publishedAt": "2026-06-08T18:54:13.000Z",
+      "titleEn": "California Lays the Groundwork for More Sweeping AI Workforce Regulation—Employers Should Start Preparing Now",
+      "titleZh": "加州为更全面的 AI 劳动力监管奠定基础——雇主应从现在开始准备",
+      "abstractEn": "California Lays the Groundwork for More Sweeping AI Workforce Regulation—Employers Should Start Preparing Now  The National Law Review",
+      "abstractZh": "加州为更全面的 AI 劳动力监管奠定基础——雇主应从现在开始准备  The National Law Review",
+      "authors": [
+        "The National Law Review"
+      ],
+      "institution": "The National Law Review",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48449665",
+      "slug": "hn-48449665-apple-core-ai-framework",
+      "source": "Hacker News",
+      "sourceUrl": "https://developer.apple.com/documentation/coreai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48449665",
+      "publishedAt": "2026-06-08T18:47:38.000Z",
+      "titleEn": "Apple Core AI Framework",
+      "titleZh": "Apple Core AI 框架",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hmokiguess"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 65,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48449424",
+      "slug": "hn-48449424-microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48449424",
+      "publishedAt": "2026-06-08T18:34:04.000Z",
+      "titleEn": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "titleZh": "微软遭黑客攻击，向 Claude 和 Gemini 用户传播恶意软件",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "guessmyname"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 14,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48449187",
+      "slug": "hn-48449187-ask-hn-what-are-tools-you-have-made-for-yourself-since-the-advent-of",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48449187",
+      "commentUrl": "https://news.ycombinator.com/item?id=48449187",
+      "publishedAt": "2026-06-08T18:22:39.000Z",
+      "titleEn": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "titleZh": "Ask HN：自 AI 出现以来，你为自己制作了哪些工具？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "aryamaan"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 67,
+      "commentCount": 90,
+      "tags": []
+    },
+    {
+      "id": "hn:48449084",
+      "slug": "hn-48449084-siri-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.apple.com/apple-intelligence/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48449084",
+      "publishedAt": "2026-06-08T18:17:53.000Z",
+      "titleEn": "Siri AI",
+      "titleZh": "Siri AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "0xedb"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 258,
+      "commentCount": 189,
+      "tags": []
+    },
+    {
+      "id": "anthropic:agents-in-biology",
+      "slug": "agents-in-biology",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/research/agents-in-biology",
+      "publishedAt": "2026-06-08T17:37:03.000Z",
+      "titleEn": "Paving the way for agents in biology",
+      "titleZh": "为生物学中的智能体铺平道路",
+      "abstractEn": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "abstractZh": "Anthropic 是一家致力于构建可靠、可解释且可操控的 AI 系统的 AI 安全与研究公司。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 科学\n\n### Science\n\n# 为生物学中的智能体铺平道路\n\n### Paving the way for agents in biology\n\n2026年6月8日\n\n![为生物学中的智能体铺平道路](https://www-cdn.anthropic.com/images/4zrzovbb/website/8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)\n\n作者：Laura Luebbert。基于 Ferdous Nasri、Sarah Gurev、Patrick Varilly、Krithik Ramesh、Nuala A. O'Leary、Jonah Cool、Bernhard Y. Renard、Pardis Sabeti 和 Laura Luebbert 的研究。\n\n*在这篇文章中，Laura Luebbert 认为我们需要让生物数据基础设施对智能体更加友好。作为一个案例研究，她和她的团队让科学研究智能体（Claude、Biomni、Edison Analysis、GPT）从 NCBI Virus 中检索序列数据，这是病毒学家用于监测和诊断检测开发等任务的数据库。即使是最强大的模型，也无法始终达到可靠数据集构建所需的准确度。但一旦她和她的团队添加了 gget virus（一个确定性检索层），准确率就提升到了接近 100%。对科学智能体而言，更广泛的启示是：确定性检索工具（目前）对于使智能体工作流更加可靠至关重要，而生物数据库在设计时需要将智能体视为规模化用户来考虑。*\n\n使用 AI 智能体来导航生物数据基础设施，就像驾驶汽车穿越一座在汽车发明之前设计的古城：基础设施可能很漂亮，甚至考虑周全，但到处都是狭窄蜿蜒的街道，现代车辆难以通行（独特的文件格式、分散的数据库、一次性的检索脚本）¹。你可以给这座城市加装交通标志、停车场，偶尔拓宽道路，但基本布局仍然难以导航，因为它最初是为不同的交通方式设计的。相比之下，软件基础设施基本上是为汽车（智能体）的需求而建的：铺好的道路、清晰的车道、标准化的信号，以及为快速直达而设计的系统（版本控制、文档完善的 API 和包管理器）。\n\n因此，编码智能体的发展速度远快于生物学智能体。软件通常提供结构化的数字工作流和可靠的接口，而计算生物学中用于数据检索和验证的基础设施往往脆弱、异构且依赖于特定流程。我们用来导航这些基础设施的工具必然是定制的，并针对特定领域或假设进行了调整。此外，软件提供可测试的输出，可以快速编译和验证（例如，通过生成一个通过项目测试的补丁来解决 GitHub 问题），而生物学则很少提供简单、可验证且有意义的回报。\n\n因此，生物学智能体的瓶颈不仅在于推理能力，还在于缺乏用于查询生物数据的广泛可用的确定性执行层。科学家可以表达他们的意图（例如，找到所有具有这个结构域的人类激酶并提取它们的结构），但智能体往往缺乏可靠的方式来访问包含所需信息的数据库。\n\n在生物学和科学工作流中，即使是微小的错误也可能导致严重后果。例如，从错误的基因组版本中检索坐标，可能会使下游的生物学解释失效。同样，无意中混合 RefSeq 和 GenBank 记录、将部分基因组视为完整基因组、混淆分段病毒的片段名称，或者由于元数据字段不一致而遗漏相关记录，都会造成问题。研究的魅力和挑战在于，细节往往至关重要。\n\n就像开车穿过意大利的山城一样，如果街道太窄、转弯太急、路线依赖于本地知识，那么汽车的动力再强也无济于事。如果我们希望智能体能够帮助科学发现——从疫情应对到药物设计，再到生物建模——我们需要构建它们能够像人类一样可靠导航的生物数据基础设施。\n\n### Karpathy 关于 Web 开发的讲座告诉我们如何用 AI 智能体做生物学\n\n### What Karpathy's lecture about web development tells us about doing biology with AI agents\n\n这种智能体需求与人类构建工具之间的不匹配并非生物学独有。只要将智能体插入到专为人类使用而设计的环境中，就会出现同样的摩擦。\n\n几个月前，Andrej Karpathy 做了一场关于 AI 时代软件的演讲，最后抱怨了一些听起来非常熟悉的事情。他用 vibe-coding 方式做了一个小型 Web 应用，但当他试图让它真正可用时（添加身份验证、支付、部署），他花了一周时间在浏览器仪表板中点来点去。\n\n正如他总结的那样：“代码是最简单的部分！大部分工作都在浏览器里，点击各种东西。”文档总是告诉他“去这个 URL，点击这个下拉菜单”。他的结论是，没有人应该做这种事情。相反，我们必须为智能体构建。\n\nKarpathy 在软件智能体世界中经历了一些新事物，而生物学研究人员已经为此挣扎了很久：试图让智能系统在围绕异构信息、隐式约定和人类通过浏览器点击构建的环境中运行的痛苦。\n\n## 案例研究：病毒学中的“点击税”\n\n### A case study: The click tax in virology\n\n早在 AI 智能体出现之前，计算生物学家和遗传学家就已经开始为传统计算生物学生产工具，逐步解决了这个问题。像 Biopython、BioPerl、BioJulia、Entrez Direct、BioMart、gget 以及许多其他工作流库，都是将生物数据从浏览器界面转移到研究人员可以直接计算的地方的努力。\n\n问题在于，生物数据并不存在于一个具有单一接口的数据库中。它是一个杂乱的道路网络，每条路都有自己的标识符、约定、格式、过滤逻辑和程序化访问程度。有些数据可以很容易地通过程序化方式访问。其他的则不然。\n\n特别是病毒学，是其中较难的领域之一。从疫苗和诊断检测设计到为蛋白质模型构建训练数据的研究工作流，通常都是从 NCBI Virus 中检索序列开始的。NCBI Virus 是一个来自 GenBank、RefSeq 以及国际 INSDC 生态系统（包括 Pathoplexus）的病毒序列记录集合，背后是一个可搜索的 Web 界面。作为为病毒爆发监测构建工具的研究人员，我们亲身知道这些检索背后隐藏着多少专业知识。在病毒学实验室中，针对 NCBI Virus 的数据集整理说明通常以长长的复杂过滤器列表形式传递，用户必须在 Web 界面中手动重现这些过滤器——这正是 Karpathy 抱怨的那种浏览器点击工作流。\n\n目前由本迪布焦病毒（Bundibugyo virus）在刚果民主共和国引起的埃博拉疫情，是一个鲜明的例子，说明了为什么简化的病毒数据访问可能带来生死攸关的现实后果。2026年5月14日，刚果（金）金沙萨的国家生物医学研究所（INRB）分析了13份血样，次日确认其中8份为本迪布焦病毒病阳性²，随后宣布爆发埃博拉疫情。到5月29日，世界卫生组织报告刚果（金）已有超过1000例确诊和疑似病例，包括200多人死亡。研究人员还生成了首批近乎完整的疫情基因组，帮助确定这次疫情是由一次新的溢出事件引起的。\n\n这些基因组给公共卫生官员带来了三个紧迫的问题。首先，这次爆发的病毒与之前见过的埃博拉病毒有多大差异？其次，现有的诊断方法还能检测到它吗？第三，现有的治疗方法还能保护人们免受其害吗？回答这些问题需要将新基因组与通过 NCBI Virus 和 Pathoplexus（与 NCBI Virus 同步）获得的埃博拉历史基因组进行比较。但这个过程并非易于自动化，分析的第一步涉及手动点击 Web 界面、手工重现复杂的过滤器，并希望得到的数据集完整且正确。\n\n这个工作流难以自动化的原因是，NCBI Virus 的许多过滤逻辑*只*存在于这个 Web 界面中。这对人类来说很烦人，对智能体来说则更糟糕。如果研究人员想要获取2025年发布的所有包含表面糖蛋白的 SARS-CoV-2 序列，一位经验丰富的病毒学家可能只需在浏览器中点几下。但通过程序化方式，可能需要一个数百行的脚本，将多个 API（REST、Datasets、E-utilities）拼接在一起，逐页检索结果，协调标识符，并下载数百 GB 的数据，然后在本地过滤后丢弃大部分数据。\n\n即使某个资源有 API，由于各种原因，智能体仍然难以可靠地使用它，例如：API 没有暴露与 Web 界面相同的过滤语义；元数据字段文档不完善或标准化不一致；标识符在不同来源之间发生变化；或者“正确答案”依赖于专家人类知道但机器必须推断的约定。\n\n### 当智能体无论如何都要尝试时会发生什么\n\n### What happens when agents try anyway\n\n为了更好地理解将智能体与数据库连接起来的挑战，我们开发了一个测试，评估最先进的科学研究智能体（Claude、Biomni、Edison Analysis、GPT）在利用现有基础设施从 NCBI Virus 检索病毒序列时的能力。我们的基准测试 VirBench 包含120个真实的病毒序列查询，涵盖40种病原体，并附有手动验证的真实计数。这些查询反映了病毒监测、诊断检测设计和蛋白质模型训练数据构建中出现的任务。例如，一个查询要求智能体“从 NCBI 检索分类ID 3052462（扎伊尔埃博拉病毒，ZEBOV）的病毒序列，需满足以下条件：宿主生物：人类，样本采集地理位置：非洲，采集日期在2014年1月1日或之后，2014年6月20日或之前，最小序列长度：15,200个碱基，最多1,900个模糊字符（N），排除实验室传代样本。”\n\n当智能体被要求自行解决这些查询时，不同系统的性能差异很大，并且在较新的前沿模型中有了显著改善。然而，即使是最强大的模型，也无法始终达到可靠数据集构建所需的准确度和可重复性。Claude Sonnet 4、Claude Opus 4.7、Biomni、Edison Analysis、GPT-5.2-pro 和 GPT-5.53 的平均准确率从16.9%到91.3%不等。对于这些数据检索任务，标准实际上是100%：在某些情况下，一条缺失或错误的记录可能决定诊断检测是否覆盖了流行的多样性，或者疫情被推断为比实际早几周或晚几周开始。此外，当同一个模型被三次询问同一个问题时，它经常给出截然不同的答案，这破坏了可靠科学工作流所需的准确性和可重复性。对于上面提到的埃博拉病毒查询示例，Sonnet 4⁴ 在一次运行中返回了106条序列（预期：266条），第二次运行返回15条，第三次运行返回5条，尽管每次提示完全相同。\n\n像这样的不一致性会对下游分析产生影响。我们使用上面显示的查询来检索埃博拉病毒序列并构建系统发育树，这是重建疫情中病毒样本之间关系的标准分析。我们可以从系统发育树中获得的一个重要量是最近共同祖先的估计时间（TMRCA）。这是推断出的疫情根日期，它可以改变关于病毒起源时间和地点以及病毒传播了多长时间的结论。在这种情况下，从手动整理的 NCBI Virus 序列集构建的树恢复了2014年1月的 TMRCA，与之前关于2014年埃博拉疫情爆发的报告一致（95%最高后验密度区间为1月27日至3月14日）。相比之下，Sonnet 4 检索到的三个序列集中有两个明显不完整，其中一个树将推断的 TMRCA 推回到了1922年。剩下的数据集（运行1）表面上看起来合理，但未能检索到来自几内亚的序列，并将估计的 TMRCA 移到了2014年4月，改变了推断的疫情时间。\n\n![使用 Delphy 推断的2014年西非疫情扎伊尔埃博拉病毒的系统发育树。尖端按采样国家着色；灰色表示缺失或错误检索的国家元数据。红色虚线标记每棵树估计的最近共同祖先时间（TMRCA）。左上角的树由通过 NCBI Web 界面手动检索的序列构建，而运行1-3则由 Sonnet 4 智能体使用网络搜索和代码执行工具组装的序列集生成。分析和可视化由 Gage Moreno 完成。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaa2dc4dccb2e47dbce35a8d6acc92b0aa5e5782-5820x5898.png&w=3840&q=75)\n\nNCBI Virus 检索尝试之间的变异性也会影响关于治疗方法的结论。我们检索了埃博拉病毒糖蛋白序列，以检查 maftivimab 和 MBP134 所结合的抗原表位，这两种抗体疗法是针对扎伊尔埃博拉病毒开发的，并且是当前埃博拉疫情中世界卫生组织的优先治疗候选药物。我们询问了在相关的扎伊尔埃博拉病毒序列中，这些抗体靶向的区域是否曾出现过突变。这类分析可以让研究人员了解，随着病毒进化，治疗方法是否仍能保护患者。如果基础序列不完整或提取错误，可能会推翻他们的结论。在我们的例子中，Sonnet 4 第一次尝试检索到的序列接近通过手动 NCBI 查询获得的结果。在重复运行时，它错过了大多数突变残基。而在第三次运行时，它突出了另一组不同的残基，对这些靶区域的变异性产生了三种不同的印象⁵。\n\n![现有的扎伊尔埃博拉病毒糖蛋白突变以红色显示，颜色越深表示突变频率越高。球体表示抗体疗法 maftivimab 和 MBP134 的已知足迹。最左边的可视化基于手动整理的 NCBI 数据集构建，而运行1-3则由 Sonnet 4 智能体使用网络搜索和代码执行工具组装的序列集生成。显示的 PDB 结构为7TN9。分析和可视化由 Sarah Gurev 完成。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5f8526abfb93dbe99a0c2078ddd344528de2be0f-2500x646.png&w=3840&q=75)\n\n这两个例子都说明了科学中的一个普遍模式：看似微小的检索选择细节可能会改变生物学结论。在这种情况下，病毒序列检索中不一致的模型性能以及失败模式的本质表明，大多数变异可归因于基础设施的缺陷。当智能体未能检索到大型结果集时，它们会少计数；当过滤器应用不正确时，它们会多计数。例如，与预期计数的最大偏差出现在拥有大量可用记录的病毒中，包括甲型流感、HIV-1 和 SARS-CoV-2，在这些情况下，检索中途停止和不正确的下游过滤会严重扭曲最终数据集。它们还在元数据字段上遇到困难，这些字段的含义取决于上下文、约定或信息恰好存储的位置。随着查询变得更加复杂，性能会下降，尤其是在超过三四个同时过滤器时。\n\n最终，智能体通常能够很好地理解任务并尝试执行，但它们缺乏一种机器可操作的方式来执行、验证和重复它。由此产生的答案可能看起来合理，但仍然是错误的，这尤其危险，因为序列检索通常是更长的生物学工作流的第一步。\n\n### 病毒数据检索的确定性层\n\n### A deterministic layer for viral data retrieval\n\n> *关于 VirBench 和 gget virus 的更详细解释，请阅读预印本。*\n\n为了将病毒数据检索转变为智能体和人类可以直接调用的东西，我们与 NCBI 的研究人员合作开发了 *gget virus*。起初，这似乎只是连接到正确 API 调用的简单问题。实际上，这要困难得多：NCBI Virus 是一个覆盖多个底层资源的门户，包括在美国、欧洲和日本维护的国际同步序列数据库，因此回答一个看似简单的查询通常需要从多个地方拼凑信息。\n\n为了重现 NCBI Virus Web 界面的行为，*gget virus* 必须协调其下的不同系统，包括 REST、Datasets 和 E-utilities API。*gget virus* 决定哪些过滤器可以通过这些现有 API 应用，哪些必须在本地检查，因为 Web 界面暴露了单个程序化端点无法提供的过滤行为。它处理批处理，以便大型结果集（例如 SARS-CoV-2 和甲型流感数据集）能够被全面检索，而不是任意截断。当过滤依赖于存储在单独数据库中的附加信息时（例如，指示序列是否包含特定病毒蛋白的 GenBank 记录），*gget virus* 会检索这些记录，使用它们来应用过滤器，并在最终输出中保留相关的 GenBank 信息。然后，它返回人和机器都可读的标准化输出，并附带详细日志，显示最终结果是如何产生的⁶。\n\n![AI 智能体在使用和不使用 gget virus 的情况下在 VirBench 基准测试上的表现。VirBench 评估智能体正确检索病毒序列数据集的能力。最后一个条形图显示直接运行 gget virus（无需智能体）的结果。图改编自 Nasri 等人，2026年。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1206c88f2917169c303ecd2a8ad8ab7622042852-1920x1080.jpg&w=3840&q=75)\n\n当我们让智能体访问 *gget virus* 时，所有智能体的准确率都上升到90%以上，GPT-5.5 达到了99.7%的峰值。运行间的变异性基本消除，模型之间的性能差距也急剧缩小。换句话说，**添加一个确定性检索层使得模型选择变得不那么重要**。这一点尤其重要，因为可靠的数据集构建不应依赖于访问最新或最昂贵的模型，也不应依赖于知道哪个模型对给定数据库效果最好。相反，更便宜的模型与正确的工具配对可以减少变异性并实现更广泛的访问。\n\n*gget virus* 通过将复杂的、基于浏览器的检索工作流转换为准确且可重复的接口，使现有智能体在病毒数据检索方面更加可靠。回到我们那个步行城市的比喻，这就像我们在人行基础设施下方增加了一条高速公路隧道，配有入口和出口匝道、顺畅的立交桥，以及连接到已知里程碑的出口编号。\n\n### 正如 Karpathy 所说：“让[基因组数据]对智能体可访问”\n\n### As Karpathy said: \"make [genomic data] accessible to agents\"\n\n我们希望模型在生成假设、设计实验或推理机制时具有创造性。但创造性之下的那一层——基因标识符、模式、检索逻辑、坐标系统、元数据约定和数据访问路径——必须可靠得令人乏味（或者说，是确定性的）。*gget virus* 是构建这些*上下文引擎*的更广泛努力中的一个例子：为生物数据构建可靠、智能体可访问的基础设施。其他努力来自 AI 驱动科学系统，其中许多依赖于将智能体连接到生物数据源的模型框架，包括 ToolUniverse、Edison Scientific 的 Robin、Biomni 以及相关的生物医学智能体。挑战在于弄清楚这种确定性属于哪里，以及如何构建它。\n\n当我们考虑到模型能力变化的速度时，关于连接器和框架的工作变得更加棘手。如果我们根据上述结果将模型曲线向前推演，很容易想象一个（非常近的）未来，像 *gget virus* 这样的工具的好处趋近于零：智能体变得足够好，可以导航混乱的门户、协调标识符、正确分页，并自行从失败中恢复。在那个世界里，可能不再需要框架。尽管如此，即使智能体能够做到，也不意味着每次都应该由智能体来处理（和重新发明）这个任务。一个能够艰难地通过混乱的生物信息学工作流的模型，对于常规科学工作来说，可能仍然太昂贵、太慢、太难审计或太难信任。如果智能体最终使今天的框架过时，那么对生物数据库的启示仍然成立：在考虑我们的用户时，我们需要将智能体考虑在内，并且我们需要为规模化而构建。\n\n### 致谢\n\n### Acknowledgements\n\n我们感谢 Xander Balwit、Ethan Dyer、Stuart Ritchie、Rebecca Hiscott、Alyssa Morrow、Keir Bradwell、Eric Kauderer-Abrams、Jonah Cool、Andrej Karpathy、Patrick Varilly、Cesar Arze、Blake Lash、Philine Guckelberger、Nisha Gopal、Elliot Hershberg、Pardis Sabeti 和 Jonathan Feldman 富有见地的反馈、仔细的编辑和有益的对话，这些改进了本文。\n\n我们特别感谢 Sarah Gurev 和 Gage Moreno 在开发和执行示例病毒学分析方面的帮助，以及 Ferdous Nasri 和 Krithik Ramesh，他们对本文的想法、框架和写作做出了重大贡献。\n\n### 脚注\n\n### Footnotes\n\n¹ 关于为什么生物软件常常感觉支离破碎、维护不足且难以使用的更深入说明，请参见 Elliot Hershberg 的文章《生命科学中的软件实际上是如何工作的（以及为什么不工作）》。\n\n² 我们感谢并认可刚果（金）国家生物医学研究所（INRB）和乌干达中央公共卫生实验室（CPHL）的团队，他们在2026年5月疫情期间快速测序、分析并开放共享了最初的本迪布焦病毒基因组。\n\n³ 在360次运行中的一次（查询32，第三次重复），GPT-5.5 独立识别并使用了 *gget virus*，尽管没有被明确提示这样做。这是该问题唯一一次产生正确答案的运行。\n\n⁴ Claude Sonnet 4 代表了可用于此评估的最新公开 Anthropic 模型，因为后续较新模型受到生物安全相关的访问限制。\n\n⁵ 此处执行的所有分析仅供说明之用，不旨在提供医疗或公共卫生指导；有关埃博拉疾病治疗建议，请参考世界卫生组织的官方指南。\n\n⁶ 呼应 Nils Homer 最近关于 AI 就绪生物信息学工具的观点：“AI 助手需要与你的代码、你的输出和你的分析逻辑一起工作。”这使得智能体不仅可以检查检索到了什么，还可以检查是如何检索到的，将一个看似合理的答案转变为可以检查和重现的东西。",
+      "tldrZh": "生物数据基础设施对AI智能体不友好是当前瓶颈，通过添加确定性检索层（如gget virus）可将智能体检索准确率提升至接近100%，而仅靠现有API和Web界面难以实现可靠自动化。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-08T21:52:01.390Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-09"
+    },
+    {
+      "id": "gnews:7eaa835779f6",
+      "slug": "gnews-7eaa835779f6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTNHdkx3TFE0TVptSzBOSWtRbGhPa3N0VU1wVllaaW5Jb1VabjVqVnp0bEhvOVdvZTQ5eXdDTVNoMW9Ua1pxazVlWTV2azhDT3FkLUZYbWNVRV9zYllMQXU0VU94WjlGVWlSdzl3amdvbzk2bFI4Y0J3dEdjRlYwcEdBRGtyMUJHVGNUaEFlb2U4TUE?oc=5",
+      "publishedAt": "2026-06-08T17:31:00.000Z",
+      "titleEn": "Meta Deletes Face-Recognition System From Its Smart Glasses App After WIRED Report",
+      "titleZh": "Meta 在 WIRED 报道后从其智能眼镜应用中删除面部识别系统",
+      "abstractEn": "Meta Deletes Face-Recognition System From Its Smart Glasses App After WIRED Report  WIRED",
+      "abstractZh": "Meta 在 WIRED 报道后从其智能眼镜应用中删除面部识别系统  WIRED",
+      "authors": [
+        "WIRED"
+      ],
+      "institution": "WIRED",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5e6efefd788f",
+      "slug": "gnews-5e6efefd788f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmp5aVpILVZoWXg2U0NtM2FRc1JSTkU2LUMzVUt3RmNLWEZPTHRLRXlQYVdXeEVKLThaM2UydFdFZ1dKSFpWejNfVFdhN2dJWF9Oc2dmcXFNNnJ3bDhZRGNLXzdVMXExWGpMNEFtSWphakxvOEl0N25scWFMNWIzdG9NYzE0bENpQXRHempSZWlucHVGSjJBbVg5d1FIdDQwcFJrcFN1T3Q?oc=5",
+      "publishedAt": "2026-06-08T17:01:00.000Z",
+      "titleEn": "AI and Elections: Brazil’s Sectoral Regulation in Comparative Perspective",
+      "titleZh": "AI 与选举：比较视角下的巴西行业监管",
+      "abstractEn": "AI and Elections: Brazil’s Sectoral Regulation in Comparative Perspective  PYMNTS.com",
+      "abstractZh": "AI 与选举：比较视角下的巴西行业监管  PYMNTS.com",
+      "authors": [
+        "PYMNTS.com"
+      ],
+      "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48447806",
+      "slug": "hn-48447806-show-hn-gitdot-a-better-github-open-source-anti-ai-and-written-in-ru",
+      "source": "Hacker News",
+      "sourceUrl": "https://gitdot.io/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48447806",
+      "publishedAt": "2026-06-08T16:52:11.000Z",
+      "titleEn": "Show HN: Gitdot – a better GitHub. Open-source, anti-AI, and written in Rust",
+      "titleZh": "Show HN：Gitdot——一个更好的 GitHub。开源、反 AI、用 Rust 编写",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "baepaul"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 55,
+      "commentCount": 46,
+      "tags": []
+    },
+    {
+      "id": "hn:48447391",
+      "slug": "hn-48447391-two-leaps-to-1000-tokens-s-on-a-1t-parameter-model",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.tilert.ai/blog/breaking-1000-tps.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48447391",
+      "publishedAt": "2026-06-08T16:24:08.000Z",
+      "titleEn": "Two Leaps to 1000 Tokens/s on a 1T-Parameter Model",
+      "titleZh": "万亿参数模型实现每秒 1000 Token 的两大突破",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "__natty__"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:manpower:3b0437dac28a",
+      "slug": "hrorg-manpower-3b0437dac28a",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51eENLRGJNeWgtTGt2bDhub0NpUV9YazN2djJ1dTFLQ3FNUGU5S21XS2FQUGNtUlFLandtUFhjVWkzX3NiLVM4NGhtTzc3TDVGQVBYZWVPWGVsZU05?oc=5",
+      "publishedAt": "2026-06-08T16:00:00.000Z",
+      "titleEn": "Skills Remain in Focus as Hiring Momentum Moderates Across APME in Q3 2026, ManpowerGroup Survey Finds",
+      "titleZh": "ManpowerGroup 调查发现，2026 年第三季度 APME 地区招聘势头放缓，技能仍是关注焦点",
+      "abstractEn": "Skills Remain in Focus as Hiring Momentum Moderates Across APME in Q3 2026, ManpowerGroup Survey Finds  acrofan.com",
+      "abstractZh": "ManpowerGroup 调查发现，2026 年第三季度 APME 地区招聘势头放缓，技能仍是关注焦点  acrofan.com",
+      "authors": [
+        "acrofan.com"
+      ],
+      "institution": "acrofan.com",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hn:48446893",
+      "slug": "hn-48446893-ai-is-slowing-down",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48446893",
+      "publishedAt": "2026-06-08T15:46:37.000Z",
+      "titleEn": "AI is slowing down",
+      "titleZh": "AI 正在放缓",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "crescit_eundo"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 283,
+      "commentCount": 315,
+      "tags": []
+    },
+    {
+      "id": "hn:48446816",
+      "slug": "hn-48446816-how-confident-are-ai-classifiers-about-their-own-confidence",
+      "source": "Hacker News",
+      "sourceUrl": "https://gmcirco.github.io/blog/posts/ai-calibration/calibration.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48446816",
+      "publishedAt": "2026-06-08T15:41:07.000Z",
+      "titleEn": "How Confident Are AI Classifiers About Their Own Confidence?",
+      "titleZh": "AI 分类器对其自身置信度有多自信？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "apwheele"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
     {
       "id": "hrorg:mercer:31a870ae7c3c",
       "slug": "hrorg-mercer-31a870ae7c3c",
@@ -99,6 +573,28 @@
       "score": 36,
       "commentCount": 18,
       "tags": []
+    },
+    {
+      "id": "gnews:4e0803b67dd6",
+      "slug": "gnews-4e0803b67dd6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR0FoM0ZLeTBKakxVQm1mWUlFV2lCN2YzdFVqODJzUjJPX3N2ZWU1Z29yMXpKWVFSczlDWXpjaC1uUWVBUG9RXy1mLWp1ZVRNSnBndW5FN0FDMF9oU0xNQnFNRjZKLVZwbEhvU1REUExxWDVsTkZwYWRVNzRxUWNZRUlR?oc=5",
+      "publishedAt": "2026-06-08T13:55:15.000Z",
+      "titleEn": "Milei Wants to Unleash AI Chaos in Argentina",
+      "titleZh": "米莱希望在阿根廷释放 AI 混乱",
+      "abstractEn": "Milei Wants to Unleash AI Chaos in Argentina  World Politics Review",
+      "abstractZh": "米莱希望在阿根廷释放 AI 混乱  World Politics Review",
+      "authors": [
+        "World Politics Review"
+      ],
+      "institution": "World Politics Review",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "雷锋网:https-www-leiphone-com-category-industrynews-2cda62bqrxvass8z-html",
@@ -463,6 +959,28 @@
       ]
     },
     {
+      "id": "gnews:36525f7fb9c8",
+      "slug": "gnews-36525f7fb9c8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSGlGMkdXWFVzMkh3ODdyaUQxMUZ5cE5VdVA5TkZhc19iTE9LRjU4X1dyYy1xY0M2SUxGZHFaVG5pYXBVVVhMTHU1RWNDNXRJZ19Oc2tVSXZINkYxUnZIVmt0UlBUYjRHWlhNWi15MEk4WWF3TU1fbFhyZHNJTDNwa3Z3N01FVG5qSDhHUnJaZkxjUQ?oc=5",
+      "publishedAt": "2026-06-08T09:01:51.000Z",
+      "titleEn": "Apple Expected to Detail Its A.I. Plans at Conference",
+      "titleZh": "Apple 预计将在大会上详细阐述其 AI 计划",
+      "abstractEn": "Apple Expected to Detail Its A.I. Plans at Conference  The New York Times",
+      "abstractZh": "Apple 预计将在大会上详细阐述其 AI 计划  The New York Times",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:0fb5e632c9dc",
       "slug": "gnews-0fb5e632c9dc",
       "source": "Google AI News",
@@ -505,6 +1023,122 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "gnews:2575e2b53072",
+      "slug": "gnews-2575e2b53072",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2huQXRGQW80YllDRDE0bzhnYU9UVTVLX2hFTElFdUlvY1BqWnB3ZVRvSzRBdTl1VGRxaWRpQldQMWxCYzh2MUhhOWtKWWw5N2pZenlkLWJUcEtQamZIejJGX3BTUVB6dElqT3dkQk5YZ01zZHhYWVhjMnV5dnFISkhMbHBEaWJYWWJmcEwxMnlPQ1U?oc=5",
+      "publishedAt": "2026-06-08T03:24:30.000Z",
+      "titleEn": "Moonshot AI's valuation race is testing China's AI funding boom",
+      "titleZh": "Moonshot AI 的估值竞赛考验中国 AI 融资热潮",
+      "abstractEn": "Moonshot AI's valuation race is testing China's AI funding boom  Startup Fortune",
+      "abstractZh": "Moonshot AI 的估值竞赛考验中国 AI 融资热潮  Startup Fortune",
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:bfe5afdb2bcc",
+      "slug": "gnews-bfe5afdb2bcc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWEZseDluUW5hZ3l3VENWbWxvb25UN25ZRHVRU0sxVHVOdy1PczdvSzVvVGxOU2hZYk95aW5iZGNUSXozaFlkTXF5UHBZcjhzSXFCZ0h3Zm5VVGlwRUlaUm1JS0sxNmZGODZmbXdpTnJfMzYtTzJlSlU1NzNGYkp2SURUdG1Db3pTUlRQY2J6WTk0Zw?oc=5",
+      "publishedAt": "2026-06-08T02:59:57.000Z",
+      "titleEn": "Moonshot AI shows how fast China is repricing AI challengers",
+      "titleZh": "Moonshot AI 显示中国对 AI 挑战者重新定价的速度有多快",
+      "abstractEn": "Moonshot AI shows how fast China is repricing AI challengers  Startup Fortune",
+      "abstractZh": "Moonshot AI 显示中国对 AI 挑战者重新定价的速度有多快  Startup Fortune",
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3f8c6b27b9b3",
+      "slug": "gnews-3f8c6b27b9b3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNU5rTGZuYk9qRGxGcldiZ1BJcW5tTHpYQks5a0NKQjJic21zSnRnWEdpOHNlSlFCTlBNdXVRNm9hcndXZFBkeGlnaFY2czI1T1hRY3RtSXhZbDF1RDFNeEZDdXh1SEUtQmNPYU0wMEpLSGNoNC1jTllqc3k3Ml9zQ05DUnB4N2dHOGUyNEl4eVhUMVZwNUczazJOZ25wLXF1LU1KSXdhdWo4dXBrZl8zdWFMRWNpelU?oc=5",
+      "publishedAt": "2026-06-08T01:09:02.000Z",
+      "titleEn": "Impersonation scams on the rise: RBFCU warns of increased AI bank fraud",
+      "titleZh": "冒充诈骗激增：RBFCU 警告 AI 银行欺诈风险上升",
+      "abstractEn": "Impersonation scams on the rise: RBFCU warns of increased AI bank fraud  KSAT",
+      "abstractZh": "冒充诈骗激增：RBFCU 警告 AI 银行欺诈风险上升  KSAT",
+      "authors": [
+        "KSAT"
+      ],
+      "institution": "KSAT",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "claude-blog:claude-for-foundation-models",
+      "slug": "claude-blog-claude-for-foundation-models",
+      "source": "Claude Blog",
+      "sourceUrl": "https://claude.com/blog/claude-for-foundation-models",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "titleEn": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "titleZh": "利用 Foundation Models 框架中的 Claude 为 Apple 平台构建智能应用",
+      "abstractEn": "A new Swift package connects Apple&#x27;s Foundation Models framework to Claude. Hand off complex reasoning from on-device models with typed Swift outputs.",
+      "abstractZh": "一个新的 Swift 包将 Apple 的 Foundation Models 框架与 Claude 连接起来。通过类型化的 Swift 输出，将复杂的推理任务从设备端模型转移出来。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Claude",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 核心贡献：将 Claude 引入 Apple 原生 AI 框架\n### Key Contributions: Bringing Claude into Apple’s Native AI Framework\n\nAnthropic 近日发布了一款全新的 Swift 包，将 Claude 模型无缝集成到 Apple 的 Foundation Models 框架中。这一举措的核心贡献在于：开发者现在可以在 Apple 生态内，利用 Claude 强大的推理能力，同时享受 Foundation Models 框架提供的类型安全（typed Swift outputs）和本地设备端模型的高效性。这意味着，复杂的多步骤推理任务可以优雅地在设备端模型与云端 Claude 之间进行分工与交接，而无需开发者手动处理底层 API 调用或数据格式转换。\n\n> 💡 **背景**：Foundation Models 框架是 Apple 在 WWDC 2024 上推出的新工具，旨在为 iOS、macOS 等平台提供统一的、类型安全的模型调用接口，简化 AI 功能的集成。\n\n## 研究背景：Apple 生态中的 AI 集成痛点\n### Background: The Pain Points of AI Integration in the Apple Ecosystem\n\n长期以来，在 Apple 平台上集成大型语言模型（LLM）面临两大挑战：一是设备端模型（如 Apple 自家的 on-device 模型）虽然响应快、保护隐私，但推理能力有限，难以处理复杂逻辑；二是调用云端模型（如 Claude）通常需要手动编写网络请求、处理 JSON 序列化与反序列化，不仅开发效率低，还容易因类型不匹配引发运行时错误。Foundation Models 框架的初衷正是为了解决这些问题——它提供了一套标准化的接口，让开发者能以声明式的方式调用模型，并自动获得类型安全的输出。然而，该框架最初仅支持 Apple 自家的模型。Anthropic 此次发布的 Swift 包，正是填补了这一空白，将 Claude 这一业界领先的云端模型纳入该框架的生态。\n\n## 技术方法：类型安全的 Swift 接口与任务交接\n### Technical Approach: Type-Safe Swift Interfaces and Task Handoff\n\n该 Swift 包的核心技术思路是“桥接”。它通过实现 Foundation Models 框架定义的协议（Protocols），将 Claude 的 API 封装成符合该框架规范的 Swift 类型。具体而言，开发者可以像调用本地模型一样，定义一个 `Prompt` 结构体，并指定期望的输出类型（例如 `struct AnalysisResult: Codable { ... }`）。框架会自动将 Swift 类型序列化为 Claude 能理解的 JSON 格式，并将 Claude 的 JSON 响应反序列化为指定的 Swift 类型。更重要的是，该包支持“任务交接”（task handoff）：开发者可以先用设备端模型进行初步的、对隐私敏感的预处理（如文本摘要），然后将需要深度推理的部分（如逻辑分析、代码生成）无缝传递给 Claude，最终结果仍以类型安全的 Swift 对象返回。这种混合架构兼顾了隐私、速度与智能。\n\n## 主要发现：降低门槛，提升可靠性\n### Key Findings: Lowering the Barrier and Improving Reliability\n\n从 Anthropic 的博客介绍和开发者反馈来看，该 Swift 包带来了几个关键发现。首先，**开发效率显著提升**：开发者不再需要手动编写和维护网络层与 JSON 解析代码，只需专注于业务逻辑。其次，**运行时错误大幅减少**：类型安全机制确保在编译阶段就能捕获数据类型不匹配的问题，而非等到运行时崩溃。第三，**混合推理模式可行且高效**：通过将简单任务留在设备端、复杂任务交给 Claude，应用可以在保持流畅用户体验的同时，处理更复杂的用户请求。例如，一个笔记应用可以先用设备端模型识别手写文字，再让 Claude 对识别结果进行语义分析和自动分类。\n\n## 意义与影响：加速 Apple 平台上的智能应用开发\n### Significance & Impact: Accelerating Intelligent App Development on Apple Platforms\n\n这一举措的意义远超一个简单的 SDK 更新。它标志着云端大模型与 Apple 原生开发框架的深度整合进入新阶段。对于开发者而言，这意味着他们可以更轻松地构建“智能原生应用”（Intelligent Native Apps），将 Claude 的推理能力无缝嵌入到 iOS、macOS 等应用中，而无需成为 AI 或网络编程专家。对于 Apple 生态而言，这有助于吸引更多高质量的 AI 应用落地，增强其平台在 AI 时代的竞争力。长远来看，这种“设备端+云端”的混合 AI 架构，可能成为未来智能应用的标准范式——既保护了用户隐私，又解锁了云端大模型的无限潜力。\n\n> ⚠️ **注意**：该 Swift 包目前处于早期发布阶段，开发者需拥有 Anthropic API 密钥才能使用 Claude 的云端能力。设备端模型调用则无需额外配置。",
+      "tldrZh": "Anthropic 发布的新 Swift 包将 Claude 无缝集成到 Apple 的 Foundation Models 框架，让开发者能以类型安全的 Swift 接口调用云端模型，并实现设备端与 Claude 之间的任务交接，显著提升开发效率并减少运行时错误。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-08T21:52:19.181Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-09"
+    },
+    {
+      "id": "claude-blog:observability-for-developers-building-connectors",
+      "slug": "claude-blog-observability-for-developers-building-connectors",
+      "source": "Claude Blog",
+      "sourceUrl": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "titleEn": "Observability for developers building connectors",
+      "titleZh": "面向构建连接器的开发者的可观测性",
+      "abstractEn": "Monitor connector performance across Claude, diagnose errors and latency, and submit your MCP server to the directory in-app. Public beta now live.",
+      "abstractZh": "监控 Claude 中的连接器性能，诊断错误和延迟，并将您的 MCP 服务器提交到应用内目录。公开测试版现已上线。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Claude",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 核心贡献：为 Claude 连接器开发者提供可观测性工具\n### Key Contributions: Observability Tools for Connector Developers\n\nAnthropic 在 Claude Blog 中宣布推出面向连接器（Connector）开发者的可观测性（Observability）功能，旨在帮助开发者监控 MCP（Model Context Protocol）服务器的性能表现。该功能允许开发者实时诊断错误与延迟问题，并支持在应用内直接将 MCP 服务器提交至目录。目前，该功能已进入公开测试阶段。这一贡献填补了 Claude 生态中连接器开发缺乏系统化监控手段的空白，使开发者能够更高效地排查问题、优化性能，从而提升整体用户体验。\n\n> 💡 **背景**：MCP 是 Anthropic 提出的开放协议，用于标准化 AI 模型与外部数据源、工具之间的交互方式，连接器则是实现这一协议的关键组件。\n\n## 研究背景：连接器开发中的监控挑战\n### Background: Monitoring Challenges in Connector Development\n\n随着 Claude 生态系统的扩展，越来越多的开发者开始构建连接器，以将 Claude 与外部数据源、API 或工具集成。然而，连接器在实际运行中可能面临多种问题，包括网络延迟、数据格式错误、认证失败等。传统上，开发者缺乏对连接器运行时状态的可见性，导致问题排查耗时且困难。Anthropic 观察到，缺乏可观测性工具已成为连接器开发的主要瓶颈之一。因此，团队决定将可观测性能力直接嵌入 Claude 平台，使开发者能够像监控传统软件服务一样，实时追踪连接器的健康状态。\n\n> ⚠️ **注意**：可观测性不仅包括错误监控，还涵盖性能指标（如延迟、吞吐量）和行为日志，这对于调试 AI 模型与外部系统的交互尤为关键。\n\n## 技术方法：实时监控与诊断机制\n### Technical Approach: Real-Time Monitoring and Diagnostics\n\n该可观测性功能的核心是提供一套实时监控与诊断机制。开发者可以通过 Claude 平台界面查看连接器的关键性能指标，包括请求成功率、平均响应时间、错误类型分布等。当出现异常时，系统会自动生成详细的错误日志，帮助开发者快速定位问题根源。此外，该功能还支持延迟分析，能够展示每个请求的完整链路耗时，从而识别瓶颈环节。在部署方面，开发者无需额外配置监控代理，只需将 MCP 服务器注册到 Claude 平台，即可自动获得可观测性能力。最后，开发者可以直接在应用内将调试完成的 MCP 服务器提交至官方目录，简化了发布流程。\n\n## 主要发现：可观测性对连接器生态的积极影响\n### Key Findings: Positive Impact of Observability on Connector Ecosystem\n\n尽管该功能尚处于公开测试阶段，Anthropic 已观察到可观测性对连接器生态的积极影响。首先，错误诊断效率显著提升：开发者不再需要依赖手动日志分析或用户反馈来定位问题，而是可以直接从平台获取结构化的错误信息。其次，延迟分析帮助开发者优化了连接器的性能，例如通过调整请求超时设置或缓存策略来减少响应时间。此外，应用内提交功能降低了 MCP 服务器的发布门槛，鼓励更多开发者贡献高质量的连接器。这些发现表明，可观测性不仅是技术工具，更是推动生态繁荣的关键因素。\n\n## 意义与影响：推动 AI 集成开发的标准化\n### Significance & Impact: Standardizing AI Integration Development\n\nAnthropic 此次推出的可观测性功能，标志着 AI 集成开发从“黑盒”走向“透明化”。对于开发者而言，这意味着他们可以像构建传统软件一样，对 AI 连接器进行系统化的监控与优化。对于 Claude 生态而言，可观测性降低了连接器开发的门槛，有望吸引更多第三方开发者参与，从而丰富可用的工具和数据源。长远来看，这一举措可能推动整个 AI 行业形成连接器开发的标准化实践，包括性能基准、错误处理规范和监控接口。随着公开测试的推进，Anthropic 预计将根据开发者反馈进一步迭代功能，最终实现连接器开发的全面可观测性。",
+      "tldrZh": "Anthropic 为 Claude 连接器开发者推出可观测性功能，填补了MCP服务器开发缺乏系统化监控手段的空白，支持实时诊断错误与延迟，并允许在应用内直接提交服务器至目录，目前处于公开测试阶段。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-08T21:52:35.076Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-09"
     },
     {
       "id": "hrorg:adecco:e1f0e0a34c18",
