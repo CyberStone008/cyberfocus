@@ -12,6 +12,7 @@ export function toSocialItem(a: Article): SocialItem {
     sourceUrl: a.sourceUrl,
     titleEn: a.titleEn,
     titleZh: a.titleZh,
+    tldrZh: a.tldrZh ?? null,
     publishedAt: a.publishedAt,
     fetchedAt: a.fetchedAt,
     score: a.score,

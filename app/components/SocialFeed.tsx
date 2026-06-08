@@ -57,7 +57,7 @@ function formatTime(iso: string): string {
 // drops contentMd/abstracts/tags/etc. — /social was 4.8MB of inlined data.
 export type SocialItem = Pick<
   Article,
-  'id' | 'source' | 'sourceUrl' | 'titleEn' | 'titleZh' | 'publishedAt' | 'fetchedAt' | 'score' | 'commentCount' | 'commentUrl'
+  'id' | 'source' | 'sourceUrl' | 'titleEn' | 'titleZh' | 'tldrZh' | 'publishedAt' | 'fetchedAt' | 'score' | 'commentCount' | 'commentUrl'
 >;
 interface Props { articles: SocialItem[]; view?: string; archiveHref?: string }
 
@@ -316,6 +316,8 @@ function SocialCard({ article: a }: { article: SocialItem }) {
       {a.titleZh && a.titleEn !== title && (
         <div className={styles.cardTitleEn}>{a.titleEn}</div>
       )}
+      {/* 结论先行说明（仅抓到正文的新闻才有；抓不到的退回只显示标题） */}
+      {a.tldrZh && <div className={styles.cardAbstract}>{a.tldrZh}</div>}
     </div>
   );
 }
