@@ -117,17 +117,12 @@ jobs:
       # Bark 推送：每次定时抓取后都通知结果。新增内容→📰 有声+标题；无新内容→📭 静默(passive)。
       # 通过 bark_push() 统一发送：回显 HTTP 码 + Bark 返回体，非 200 自动重试 3 次（消除"发失败看不见"盲区）。
       - name: Bark 通知（每次抓取结果）
-        if: github.event_name == 'schedule' && success()
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && success()
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}
           COMMITTED: ${{ steps.commit.outputs.committed }}
-          SCHED: ${{ github.event.schedule }}
         run: |
           [ -z "$BARK_KEY" ] && { echo "[bark] BARK_KEY 为空，跳过"; exit 0; }
-          # 晨跑两批(04:00/05:00=UTC 0 20 / 0 21)的"已更新"用 timeSensitive：
-          # 冲破专注/勿扰/通知摘要，保证早上不漏；日内批次维持 active。
-          LEVEL="active"
-          case "$SCHED" in "0 20 * * *"|"0 21 * * *") LEVEL="timeSensitive";; esac
           # $1=title $2=body $3=level
           bark_push() {
             local i code body
@@ -158,7 +153,7 @@ jobs:
             N=$(printf '%s' "$OUT" | head -1)
             LINES=$(printf '%s' "$OUT" | tail -n +2)
             BODY=$(printf "%s · 新增 %s 条\n%s" "$TS" "$N" "$LINES")
-            bark_push "📰 CyberFocus 已更新" "$BODY" "$LEVEL"
+            bark_push "📰 CyberFocus 已更新" "$BODY" "active"
           else
             bark_push "📭 CyberFocus 本次无新内容" "${TS} 抓取完成，暂无新内容" "passive"
           fi
