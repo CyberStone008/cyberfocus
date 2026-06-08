@@ -1,19 +1,351 @@
 {
   "date": "2026-06-08",
-  "generatedAt": "2026-06-08T01:33:40.333Z",
+  "generatedAt": "2026-06-08T06:08:04.085Z",
   "summary": {
     "aiNews": [
-      "OpenAI推出新版ChatGPT记忆系统，提升个性化交互能力。",
-      "福布斯AI 50榜单显示AI初创公司正超越模型规模，行业重心转向应用。",
-      "OpenAI计划对ChatGPT进行最大规模改造，自发布以来首次重大升级。"
+      "OpenAI在G7峰会前呼吁成立国际青年AI安全研究所，推动全球AI治理。",
+      "DeepSeek获70亿美元AI融资，加速2026年竞赛，挑战行业格局。",
+      "福布斯AI 50榜单显示AI初创公司正超越模型规模，转向应用创新。"
     ],
     "papers": [],
     "hrOrgs": [
-      "SK AX与Mercer推动AI-人类HR模型，在韩国构建智能代理平台。",
-      "Mercer发布报告：未来奖励生态系统超越薪酬与福利，强调全面激励。"
+      "SK AX与Mercer合作推动AI-人类HR模型，在韩国构建智能代理平台。",
+      "Mercer报告：未来奖励生态系统超越薪酬与福利，聚焦员工体验。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:c4eeeadc5d56",
+      "slug": "gnews-c4eeeadc5d56",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTGgtRW5yQ2VnMGJ1MHNsUnZXeEl0T0QtNVltNUM0NVNJZ0laU2NBZjR1QWZ6dno0TUlBOVhiUlUyaXppenc0elVMWVBWaTdmeUF5dHJJNHNSdzdpSG4wVXNsWnRjNEtBVTZTUVNWa2dST0tkVzJlSWs3X3ZwZzk1cFBCU19ZdGh3WDk3UmZOX0ZZZw?oc=5",
+      "publishedAt": "2026-06-08T05:58:05.000Z",
+      "titleEn": "Eliminating the Fatal Flaws in Enterprise AI Policy",
+      "titleZh": "消除企业AI政策中的致命缺陷",
+      "abstractEn": "Eliminating the Fatal Flaws in Enterprise AI Policy  CXOToday.com",
+      "abstractZh": "消除企业AI政策中的致命缺陷  CXOToday.com",
+      "authors": [
+        "CXOToday.com"
+      ],
+      "institution": "CXOToday.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:23f4b8cd519a",
+      "slug": "gnews-23f4b8cd519a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVDNFVm1Ca0xFVkRZR3p1THMyV1hSdE5PVXF2RTY3a1FYRTYwelE2WTNHeFFwZkNxU0ljQmlDRDYtdm1fdTQyNGNWcGlFa3JrZ3hybkRyTW9ETEpRQzRoNEhuMXlISWxrajBTZHVsOFd1bjRZVFJjUjFnYmxqTGhQUTdHWmY5b1IyRGE2ZXJveV9Ra1NKWFFMTDUtdzFDV0hFSFhhS0cwOEloOXFJaEdiVEpQTkwxaFBjWXJnS0s2YnFuQk5RMHZpdHAxeThhblk?oc=5",
+      "publishedAt": "2026-06-08T05:26:16.000Z",
+      "titleEn": "Genrobotics Leads ₹1 Crore Seed Round for Estro Tech Robotics",
+      "titleZh": "Genrobotics领投Estro Tech Robotics 1000万卢比种子轮",
+      "abstractEn": "Genrobotics Leads ₹1 Crore Seed Round for Estro Tech Robotics  Indiatimes",
+      "abstractZh": "Genrobotics领投Estro Tech Robotics 1000万卢比种子轮  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ffd4a4bdc720",
+      "slug": "gnews-ffd4a4bdc720",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdlBIdHA4aElNYjFTZTNMYkdyTERMZ2YyeU5USThUNGk2RUtrdklTeF9JWmtBNldBMG9xTTBGb2pZUlVvLWVxZkZ1OUVid2RJdWdhMVdlQm9vbFdiWjJCc21maDU5aVRVUkdIa05NdFlyRHczUmhpcjJ6QlN5aGNkT3RSd0p0bWxmb0J3aFJGaUEtM0hIa3M5V0tR?oc=5",
+      "publishedAt": "2026-06-08T04:10:23.000Z",
+      "titleEn": "Bishop of Hereford warns AI is 'potentially catastrophic'",
+      "titleZh": "赫里福德主教警告AI具有‘潜在灾难性’",
+      "abstractEn": "Bishop of Hereford warns AI is 'potentially catastrophic'  The Hereford Times",
+      "abstractZh": "赫里福德主教警告AI具有‘潜在灾难性’  The Hereford Times",
+      "authors": [
+        "The Hereford Times"
+      ],
+      "institution": "The Hereford Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cec6be692af0",
+      "slug": "gnews-cec6be692af0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdEFPZVRUdmpoWDlFYVkydDRwYXZMQ1ZySkF0RWNTNms0SzZJbUNfcTU5d1hYZkozQVpmNkg4bTRTRDl4REZkd0ZIeFdnTTBQUUY5QngwOVdZb2YwN0xiWkt5dE9GRDNENTFpU3VLNE1VR3JMaWFlY0tRUjUyMUdOYmZUa1Jqb0gtZ3MxV1ZFSGNIRkwtT1NDVlp3eE4zTnk5dVpYOHNn0gGrAUFVX3lxTFBoX1czcjdiUGlvWTZrSXEyVE9HMkYxNmthQnp1dzZkQi1yX0k1ZVVWSHpMQmlsNjFRMk9XRmdaSHFHbWhTTTZGT1dFaHN5RHJXQ1I3WFRBejlRTmw4VzFqenB6T3VOMjVfM015b0xGaWE4UGl4NFJRQ3ZER04zXzNTVGJMZHlkNm8tT0FESmdtTHRuclAxOXZwV2N6aVFzZjBHMDdCN29qN0J4Zw?oc=5",
+      "publishedAt": "2026-06-08T03:57:52.000Z",
+      "titleEn": "OpenAI Calls For International Youth AI Safety Institute Ahead Of G7 Leaders’ Summit",
+      "titleZh": "OpenAI在G7领导人峰会前呼吁成立国际青年AI安全研究所",
+      "abstractEn": "OpenAI Calls For International Youth AI Safety Institute Ahead Of G7 Leaders’ Summit  Pulse 2.0",
+      "abstractZh": "OpenAI在G7领导人峰会前呼吁成立国际青年AI安全研究所  Pulse 2.0",
+      "authors": [
+        "Pulse 2.0"
+      ],
+      "institution": "Pulse 2.0",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48440994",
+      "slug": "hn-48440994-sdsu-wired-its-dorms-with-1-300-ai-cameras-without-telling-students",
+      "source": "Hacker News",
+      "sourceUrl": "https://reclaimthenet.org/sdsu-adds-1300-ai-cameras-330-in-student-dorms",
+      "commentUrl": "https://news.ycombinator.com/item?id=48440994",
+      "publishedAt": "2026-06-08T03:24:44.000Z",
+      "titleEn": "SDSU Wired Its Dorms with 1,300 AI Cameras Without Telling Students",
+      "titleZh": "SDSU 在学生不知情的情况下为宿舍安装了 1300 个 AI 摄像头",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "iamnothere"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:aa4411e3bf1c",
+      "slug": "gnews-aa4411e3bf1c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tUXk4S3diN0h0WmFpQVRlVnFFamdzRUxzMzJWNVlXUTVvVGFFUlNPNnBoS3VRT0laVTlvYVo5dUdHeWg1WG1OQm5KRTFEQ2RmSW9NR2dSOUtIZzhOSHJCNzFHRDRUZkhCWU1sb3o2VzFLcnZ1T0JtM3hWaFdjYWM?oc=5",
+      "publishedAt": "2026-06-08T03:00:39.000Z",
+      "titleEn": "DeepSeek’s $7 billion AI Funding Push Shakes 2026 Race",
+      "titleZh": "DeepSeek 70亿美元AI融资推动震撼2026年竞赛",
+      "abstractEn": "DeepSeek’s $7 billion AI Funding Push Shakes 2026 Race  Memeburn",
+      "abstractZh": "DeepSeek 70亿美元AI融资推动震撼2026年竞赛  Memeburn",
+      "authors": [
+        "Memeburn"
+      ],
+      "institution": "Memeburn",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-bouzx0z8allo18p8-html",
+      "slug": "guidedvla-vla",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/BOuZx0Z8ALLO18p8.html",
+      "publishedAt": "2026-06-08T02:41:00.000Z",
+      "titleEn": "让机器人行动更有依据：复旦等提出 GuidedVLA，提升 VLA 可控可解释能力",
+      "titleZh": "让机器人行动更有依据：复旦等提出 GuidedVLA，提升 VLA 可控可解释能力",
+      "abstractEn": "GuidedVLA：以目标、阶段和空间约束，重塑 VLA 动作生成过程。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n机器人要进入更复杂的真实环境，真正的难点已经超出“能不能完成一个动作”。\n更关键的问题是：当桌面变得杂乱、光照发生变化、任务步骤变长，或者目标物体变得透明、难以定位时，机器人能否稳定判断自己该看哪里、该做哪一步、空间位置是否准确。\n这也是视觉-语言-动作模型（VLA）正在面对的核心挑战。VLA 可以让机器人根据图像观测和语言指令生成动作，但在很多端到端训练框架中，动作生成过程仍然高度隐式。模型给出了动作，却很难解释它依赖了哪些线索。\n对真",
+      "abstractZh": "GuidedVLA：以目标、阶段和空间约束，重塑 VLA 动作生成过程。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n机器人要进入更复杂的真实环境，真正的难点已经超出“能不能完成一个动作”。\n更关键的问题是：当桌面变得杂乱、光照发生变化、任务步骤变长，或者目标物体变得透明、难以定位时，机器人能否稳定判断自己该看哪里、该做哪一步、空间位置是否准确。\n这也是视觉-语言-动作模型（VLA）正在面对的核心挑战。VLA 可以让机器人根据图像观测和语言指令生成动作，但",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-dy9vohqhitkbu2i9-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/DY9VohqHITkbu2i9.html",
+      "publishedAt": "2026-06-08T02:33:00.000Z",
+      "titleEn": "CVPR 2026 几何智能研究盘点：从看见形状，到理解运动与交互",
+      "titleZh": "CVPR 2026 几何智能研究盘点：从看见形状，到理解运动与交互",
+      "abstractEn": "可动结构、4D 表征与高效重建登场。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n2026 年 6 月 1 日，国际机器人与自动化会议（ICRA）在奥地利维也纳召开。次日上午的自动驾驶与导航报告环节，雷峰网GAIR 2021大会嘉宾、上海交通大学教授王贺升发表了题为《Learning to Navigate: From Scene Understanding to Decision Makin》的演讲。\n3D 视觉研究正在从“重建形状”走向“理解空间”。过去，一个模型只要能生成外观合理的三维物体，就已经足够令人关注。\n但现在，真正重要的问题正在变得更复杂",
+      "abstractZh": "可动结构、4D 表征与高效重建登场。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n2026 年 6 月 1 日，国际机器人与自动化会议（ICRA）在奥地利维也纳召开。次日上午的自动驾驶与导航报告环节，雷峰网GAIR 2021大会嘉宾、上海交通大学教授王贺升发表了题为《Learning to Navigate: From Scene Understanding to Decision Makin》的演讲。\n3D 视觉研究正在从“重建形状”走向“理解空间”。过",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-zxtiqzndmhoizvbh-html",
+      "slug": "cvpr-2026-7-4k-ps-sr",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/zXTiqznDMhoIzvbh.html",
+      "publishedAt": "2026-06-08T02:26:00.000Z",
+      "titleEn": "CVPR 2026 | 支撑春晚合肥 7 分钟的4K画面奇观  PS-SR让视频超分不用在速度与质量间为难",
+      "titleZh": "CVPR 2026 | 支撑春晚合肥 7 分钟的4K画面奇观  PS-SR让视频超分不用在速度与质量间为难",
+      "abstractEn": "鱼灯破水，凌空游城；火狮踏焰，奋跃腾空；一群剪纸奔马通体透亮，在壁中狂奔；一纸诗词垂挂成瀑，于天幕间翻卷——2026年央视春晚合肥分会场《合韵满江淮》，用一连串美轮美奂的超现实奇观，刷新了虚实融合的想象边界。\n\n鲜有人知的是，支撑这些4K级画面的技术核心，来自智象未来团队提出的PS-SR，一个「伪单步」（Pseudo-Single-Step）视频超分框架。凭借这一突破性工作，该成果被计算机视觉顶级会议 CVPR 2026接收。\n把天马行空的创意落地为春晚级的播出画面，不仅需要在4K画质下，高效处理海量实拍与生成素材，更重要的是，60帧率，每一帧都要经得起逐秒推敲。鱼灯的鳞片反光必须与水波同频，奔马的筋肉在疾驰中不能有丝毫畸变，AI生成的特效要与真人实景严丝合缝地“长”在一起，仿佛它们本就属于那个时空。 \n然而，这一切的前提离不开一项基础能力：视频超分。没有足够清晰、稳定、真实的底层4K画面",
+      "abstractZh": "鱼灯破水，凌空游城；火狮踏焰，奋跃腾空；一群剪纸奔马通体透亮，在壁中狂奔；一纸诗词垂挂成瀑，于天幕间翻卷——2026年央视春晚合肥分会场《合韵满江淮》，用一连串美轮美奂的超现实奇观，刷新了虚实融合的想象边界。\n\n鲜有人知的是，支撑这些4K级画面的技术核心，来自智象未来团队提出的PS-SR，一个「伪单步」（Pseudo-Single-Step）视频超分框架。凭借这一突破性工作，该成果被计算机视觉顶级会议 CVPR 2026接收。\n把天马行空的创意落地为春晚级的播出画面，不仅需要在4K画质下，高效处理海量实拍与生成素材，更重要的是，60帧率，每一帧都要经得起逐秒推敲。鱼灯的鳞片反光必须与水波同频，奔马的筋肉在疾驰中不能有丝毫畸变，AI生成的特效要与真人实景严丝合缝地“长”在一起，仿佛它们本就属于",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-6ftw05zu0izgndjt-html",
+      "slug": "cvpr-cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/6Ftw05ZU0izgNdJT.html",
+      "publishedAt": "2026-06-08T02:20:00.000Z",
+      "titleEn": "CVPR 开幕式：全场泪目缅怀孙剑，广工本科生靠「古董显卡」逆袭 | CVPR 2026",
+      "titleZh": "CVPR 开幕式：全场泪目缅怀孙剑，广工本科生靠「古董显卡」逆袭 | CVPR 2026",
+      "abstractEn": "算力时代“微光”，广工本科生靠古早Titan显卡拼下顶会大奖；十年树木，CV社区将最高荣誉授予已故先驱孙剑。\n\n\n\n\n\n    作者丨小雷哥\n\n    编辑丨岑   峰\n                                                                                                               \n\n\n美国当地时间6月5日，在结束了两天的Workshop议程后，全球计算机视觉与模式识别领域的顶级学术盛会 CVPR 2026（IEEE Conference on Computer Vision and Pattern Recognition）正会，在科罗拉多州丹佛市正式拉开帷幕。\n随着开幕式各项重磅数据与大奖的揭晓，现场气氛被彻底点燃。\n\n\n\n\n01\n\n\n\n从物理世界重返视觉殿堂，\n\n双城“无缝衔接",
+      "abstractZh": "算力时代“微光”，广工本科生靠古早Titan显卡拼下顶会大奖；十年树木，CV社区将最高荣誉授予已故先驱孙剑。\n\n作者丨小雷哥\n编辑丨岑 峰\n\n美国当地时间6月5日，在结束了两天的Workshop议程后，全球计算机视觉与模式识别领域的顶级学术盛会 CVPR 2026（IEEE Conference on Computer Vision and Pattern Recognition）正会，在科罗拉多州丹佛市正式拉开帷幕。\n随着开幕式各项重磅数",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-dd8wsfvt3bwq1see-html",
+      "slug": "cvpr-2026-cv",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/dD8WSfVt3bwq1sEe.html",
+      "publishedAt": "2026-06-08T02:18:00.000Z",
+      "titleEn": "CVPR 2026现场直击：CV与机器人的物理结界被彻底打破",
+      "titleZh": "CVPR 2026现场直击：CV与机器人的物理结界被彻底打破",
+      "abstractEn": "6月4日，当维也纳多瑙河畔的 ICRA 2026 进入正会的最后一天，大洋彼岸的美国丹佛科罗拉多会议中心（Colorado Convention Center）已经人声鼎沸。许多我们前几天还在维也纳见到的熟悉面孔，各大顶尖高校的学者和硬科技企业的高管，此刻都正拖着行李箱，马不停蹄地出现在丹佛的街头。\n这种罕见的“全球双城赶场”现象背后，是计算机视觉（CVPR）与机器人（ICRA）两大顶会赛道正在发生的史诗级大融合。\n今年的 CVPR 在丹佛当地时间 6月3日至4日率先开启 Workshop 环节，正会及重磅颁奖典礼则在 6月5日正式拉开帷幕，雷峰网已提前抵达第一现场，为您带来这份滚烫的展前观察。\n\n\n\n\n\n01\n\n\n1.6万篇投稿的“诸神之战”：\n\n从感知世界，到理解物理\n\n\n\n最新官方数据显示，本届 CVPR 2026 的论文投稿量达到了惊人的 16,092 篇，较上一年激增 24%，而",
+      "abstractZh": "6月4日，当维也纳多瑙河畔的 ICRA 2026 进入正会的最后一天，大洋彼岸的美国丹佛科罗拉多会议中心（Colorado Convention Center）已经人声鼎沸。许多我们前几天还在维也纳见到的熟悉面孔，各大顶尖高校的学者和硬科技企业的高管，此刻都正拖着行李箱，马不停蹄地出现在丹佛的街头。\n这种罕见的“全球双城赶场”现象背后，是计算机视觉（CVPR）与机器人（ICRA）两大顶会赛道正在发生的史诗级大融合。\n今年的 CVPR 在丹佛当地时间 6月3日至4日率先开启 Workshop 环节，正会及重磅颁奖典礼则在 6月5日正式拉开帷幕，雷峰网已提前抵达第一现场，为您带来这份滚烫的展前观察。\n\n01\n\n1.6万篇投稿的“诸神之战”：\n从感知世界，到理解物理\n\n最新官方数据",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-7bidz0vi001jq6lt-html",
+      "slug": "jeannette-bohg-icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/7bIdz0Vi001jq6lt.html",
+      "publishedAt": "2026-06-08T02:11:00.000Z",
+      "titleEn": "斯坦福Jeannette Bohg教授：抛弃“人手崇拜”，灵巧手要「解构物理」 | ICRA 2026",
+      "titleZh": "斯坦福Jeannette Bohg教授：抛弃“人手崇拜”，灵巧手要「解构物理」 | ICRA 2026",
+      "abstractEn": "2026年6月3日，ICRA 2026维也纳会议“操作、控制与具身设计”主题Keynote环节，斯坦福大学计算机科学系的副教授，同时也是斯坦福交互式感知实验室（Interactive Perception Lab）的负责人Jeannette Bohg以一个反问开场——“我们还需要灵巧手吗？”\n \n这个问题之所以有力，恰恰因为它指向了当下机器人操作领域最真实的张力：二指夹爪（two-finger gripper）配合端到端大模型，已经能完成Rubik魔方、精细拼装等令人叹服的任务。那么，高自由度、高复杂度的灵巧手（dexterous hand）的价值究竟在哪里？\n \nJeannette Bohg给出了清晰的回答：灵巧手的价值不在于“像人类一样”，而在于吞吐量（throughput）与可控子空间（controllable subspace）这两个维度上不可替代的优势。她举了一个例子： 一名制表",
+      "abstractZh": "2026年6月3日，ICRA 2026维也纳会议“操作、控制与具身设计”主题Keynote环节，斯坦福大学计算机科学系的副教授，同时也是斯坦福交互式感知实验室（Interactive Perception Lab）的负责人Jeannette Bohg以一个反问开场——“我们还需要灵巧手吗？”\n这个问题之所以有力，恰恰因为它指向了当下机器人操作领域最真实的张力：二指夹爪（two-finger gripper）配合端到端大模型，已经能完成Rubik魔方、精细拼装等令人叹服的任务。那么，高自由度、高复杂度的灵巧手（dexterous hand）的价值究竟在哪里？\nJeannette Bohg给出了清晰的回答：灵巧手的价值不在于“像人类一样”，而在于吞吐量（throughput）与可控子空间",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-mskjxbpowyl23wvc-html",
+      "slug": "aniket-bera-icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/msKJXBpOWYL23WVc.html",
+      "publishedAt": "2026-06-08T02:08:00.000Z",
+      "titleEn": "普渡大学Aniket Bera教授：可靠自主机器人的“安全阀”，藏在“可检查接口”里 | ICRA 2026",
+      "titleZh": "普渡大学Aniket Bera教授：可靠自主机器人的“安全阀”，藏在“可检查接口”里 | ICRA 2026",
+      "abstractEn": "2026年6月2日，国际机器人与自动化会议（ICRA 2026）在奥地利维也纳进入第二天。普渡大学（Purdue University）计算机科学系教授、IDEAS Lab实验室主任Aniket Bera发表了题为\"RobotsSafe Navigation in Unstructured & Human-Centered Environments\"（在非结构化与以人为中心环境中安全导航）的主题演讲，系统阐述了他对鲁棒自主机器人系统的一整套方法论。\n \n他的核心论断直指当前自主系统研发中的结构性缺陷：今天绝大多数“成功”的自主系统，本质上是因为我们把世界变简单了，而不是机器人真正理解了世界。 工厂里的机械臂被围栏隔离、仓库中的AGV依赖地面标记、自动驾驶依赖高精地图——这些人为铺设的外部条件，本质上都是帮助系统起步的脚手架。而真正的自主性，恰恰要求最终拆掉它们。\n \n对此，他提出了贯穿其实",
+      "abstractZh": "2026年6月2日，国际机器人与自动化会议（ICRA 2026）在奥地利维也纳进入第二天。普渡大学（Purdue University）计算机科学系教授、IDEAS Lab实验室主任Aniket Bera发表了题为'RobotsSafe Navigation in Unstructured & Human-Centered Environments'（在非结构化与以人为中心环境中安全导航）的主题演讲，系统阐述了他对鲁棒自主机器人系统的一整套方法论。\n他的核心论断直指当前自主系统研发中的结构性缺陷：今天绝大多数“成功”的自主系统，本质上是因为我们把世界变简单了，而不是机器人真正理解了世界。 工厂里的机械臂被围栏隔离、仓库中的AGV依赖地面标记、自动驾驶依赖高精地图——这些人为铺设的外部条件",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-lpcnomdfvrgtm2co-html",
+      "slug": "3d-2d-icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/LPcnomdfvrGTm2cO.html",
+      "publishedAt": "2026-06-08T02:05:00.000Z",
+      "titleEn": "3D 还是 2D？哥大李昀烛：通用机器人基础模型的解药在“中间地带”  | ICRA 2026",
+      "titleZh": "3D 还是 2D？哥大李昀烛：通用机器人基础模型的解药在“中间地带”  | ICRA 2026",
+      "abstractEn": "作者｜岑峰\n\n\n2026年6月1日，机器人领域最重要的学术会议国际机器人与自动化会议（ICRA）在奥地利维也纳召开。\n在首日举行的“Synthetic Data for Robot Learning” Workshop上，哥伦比亚大学助理教授李昀烛（Yunzhu Li）发表了题为“Structured  World Models as Scalable Data Enginesfor Robot Policy Training and Evaluation”的演讲，直击了当今具身智能领域面临的核心痛点：真实物理交互数据采集成本极高，且模型试错与评估极其困难。\n\n为此，他提出将结构化世界模型（Structured World Models）作为机器人策略训练与评估的“无限数据引擎”。演讲指出，纯端到端大模型缺乏物理常识，而纯物理引擎又受限于严苛的观测条件。团队从而开辟了一条融合两者优势的“中",
+      "abstractZh": "作者｜岑峰\n\n2026年6月1日，机器人领域最重要的学术会议国际机器人与自动化会议（ICRA）在奥地利维也纳召开。\n在首日举行的“Synthetic Data for Robot Learning” Workshop上，哥伦比亚大学助理教授李昀烛（Yunzhu Li）发表了题为“Structured  World Models as Scalable Data Enginesfor Robot Policy Training and Evaluation”的演讲，直击了当今具身智能领域面临的核心痛点：真实物理交互数据采集成本极高，且模型试错与评估极其困难。\n\n为此，他提出将结构化世界模型（Structured World Models）作为机器人策略训练与评估的“无限数据引擎”。演讲指出，",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-jv4wkdnuenee7lby-html",
+      "slug": "1000",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/Jv4WkDnUENee7Lby.html",
+      "publishedAt": "2026-06-08T02:05:00.000Z",
+      "titleEn": "集齐1000种方式，抖音精选创作者为高考生“放大招”",
+      "titleZh": "集齐1000种方式，抖音精选创作者为高考生“放大招”",
+      "abstractEn": "今天，1290万考生阔步踏入高考考场。\n为迎接这一刻，自2026年3月起，抖音、抖音精选集结名师、学霸、名校及各赛道创作者，发起「抖音精选高考应援联盟」，他们用自己的方式出招出策，为每一位考生应援：\n从考前备考复习的系统课程，联合名师公益出题送题，号召学长学姐直播义诊有问必答，再到千人高考应援接力……\n1000种应援方式，只为今日护你冲向主场。\n\n01.“数学帝”葛军老师领衔，独家课程为你应援高考百日百课\n高考倒计时100天，抖音、抖音精选超前落地《高考百日百课》课程计划，特邀前高考出题人@葛军 等11位抖音名师学霸，针对语、数、英、政、史、地、物、化、生九门高考科目，系统化输出备考干货。更有近百位创作者自发加入计划，发布了3000多节高考系列备考课，话题累计播放量突破10亿次。\n\n被网友戏称为“数学帝”的@葛军 接连更新30余条干货短视频，详解高考出题逻辑、立体几何辅助线解题思路等内容，",
+      "abstractZh": "今天，1290万考生阔步踏入高考考场。为迎接这一刻，自2026年3月起，抖音、抖音精选集结名师、学霸、名校及各赛道创作者，发起「抖音精选高考应援联盟」，他们用自己的方式出招出策，为每一位考生应援：从考前备考复习的系统课程，联合名师公益出题送题，号召学长学姐直播义诊有问必答，再到千人高考应援接力……1000种应援方式，只为今日护你冲向主场。01.‘数学帝’葛军老师领衔，独家课程为你应援高考百日百课高考倒计时100天，抖音、抖音精选超前落地《高考百日百课》课程计划，特邀前高考出题人@葛军 等11位抖音名师学霸，针对语、数、英、政、史、地、物、化、生九门高考科目，系统化输出备考干货。更有近百位创作者自发加入计划，发布了3000多节高考系列备考课，话题累计播放量突破10亿次。被网友戏",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48440448",
+      "slug": "hn-48440448-deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "source": "Hacker News",
+      "sourceUrl": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "commentUrl": "https://news.ycombinator.com/item?id=48440448",
+      "publishedAt": "2026-06-08T01:39:30.000Z",
+      "titleEn": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "titleZh": "DeepSeek V4 Pro 在精度上超越 GPT-5.5 Pro",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yogthos"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 195,
+      "commentCount": 65,
+      "tags": []
+    },
     {
       "id": "hrorg:mercer:7109f86e63dd",
       "slug": "hrorg-mercer-7109f86e63dd",
@@ -72,6 +404,28 @@
         "Startup Fortune"
       ],
       "institution": "Startup Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:323ab6a76d2a",
+      "slug": "gnews-323ab6a76d2a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaWtLNnd2M2NGdDNLcVdwN3E1dUlmMkpkVktLY0RNX29YRVlibnBDSWlIWDBEUG5BaDQ1dVV3cUU0TGVuUEdRdnU3Skk0ajBOMHpHeDFJQVFXSzFaRE8wUkxWQ2p5eW1LdDB3aVBiTi16RENDc1VFNmVtTlh2N2RHZ09GZDdxTW96MVdsRmh2bXpGX0FzSDdLbXZ2eXRNRGRSWFNvLQ?oc=5",
+      "publishedAt": "2026-06-07T23:25:00.000Z",
+      "titleEn": "3 High-Growth Artificial Intelligence (AI) Stocks to Buy With $5,000 Right Now",
+      "titleZh": "3只高增长人工智能（AI）股票，现在用5000美元即可买入",
+      "abstractEn": "3 High-Growth Artificial Intelligence (AI) Stocks to Buy With $5,000 Right Now  Yahoo Finance",
+      "abstractZh": "3只高增长人工智能（AI）股票，现在用5000美元即可买入  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -352,6 +706,28 @@
         "Fox News"
       ],
       "institution": "Fox News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8db1be575ce2",
+      "slug": "gnews-8db1be575ce2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY3hrSG9SUl9XU0ZoZHJZVDNST0kyendqZVNnZnpVRmdPbVlmeFVFNklwd1NMdThHWmxrM1NKSnhsU2tRQUxuVVZEZl9LZXdrU0FsWEd1NWFxSVU2WGgxam5tckhxb2JVdHU0Q241dEx2UEo0RUoxdHUzR2c1NkExUEFESGtNelN4OTdfeHZ3OG41elEwbTdWdHlqWmNPekUtYmc?oc=5",
+      "publishedAt": "2026-06-07T08:07:19.000Z",
+      "titleEn": "How authoritarian governments twist AI safety to coerce tech companies to comply",
+      "titleZh": "威权政府如何扭曲AI安全以胁迫科技公司服从",
+      "abstractEn": "How authoritarian governments twist AI safety to coerce tech companies to comply  Fast Company",
+      "abstractZh": "威权政府如何扭曲AI安全以胁迫科技公司服从  Fast Company",
+      "authors": [
+        "Fast Company"
+      ],
+      "institution": "Fast Company",
       "docType": "Blog",
       "category": "social",
       "score": 0,

@@ -7,10 +7,34 @@
   ],
   "custom": [],
   "podcasts": [
-    { "id": "lex-fridman", "source": "Lex Fridman Podcast", "feedUrl": "https://lexfridman.com/feed/podcast/", "lang": "en", "max": 30 },
-    { "id": "zhang-xiaojun", "source": "张小珺商业访谈录", "feedUrl": "https://feed.xyzfm.space/dk4yh3pkpjp3", "lang": "zh", "max": 8 },
-    { "id": "no-priors", "source": "No Priors", "feedUrl": "https://feeds.megaphone.fm/nopriors", "lang": "en", "max": 8 },
-    { "id": "sv101", "source": "硅谷101", "feedUrl": "https://feeds.fireside.fm/sv101/rss", "lang": "zh", "max": 8 }
+    {
+      "id": "lex-fridman",
+      "source": "Lex Fridman Podcast",
+      "feedUrl": "https://lexfridman.com/feed/podcast/",
+      "lang": "en",
+      "max": 30
+    },
+    {
+      "id": "zhang-xiaojun",
+      "source": "张小珺商业访谈录",
+      "feedUrl": "https://feed.xyzfm.space/dk4yh3pkpjp3",
+      "lang": "zh",
+      "max": 8
+    },
+    {
+      "id": "no-priors",
+      "source": "No Priors",
+      "feedUrl": "https://feeds.megaphone.fm/nopriors",
+      "lang": "en",
+      "max": 8
+    },
+    {
+      "id": "sv101",
+      "source": "硅谷101",
+      "feedUrl": "https://feeds.fireside.fm/sv101/rss",
+      "lang": "zh",
+      "max": 8
+    }
   ],
   "boardOverrides": {
     "OpenAI Blog": [
@@ -22,5 +46,5 @@
       "social"
     ]
   },
-  "lastRunAt": "2026-06-08T01:33:40.413Z"
+  "lastRunAt": "2026-06-08T06:08:04.170Z"
 }
