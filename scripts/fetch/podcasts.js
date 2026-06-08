@@ -97,6 +97,9 @@ export async function fetchPodcasts(processedIds = new Set()) {
       console.log(`[podcasts] Fetching ${feed.source} (${feed.feedUrl})…`);
       const rss = await parser.parseURL(feed.feedUrl);
 
+      // 频道级封面，用于单集没有自带封面时兜底（如 Lex 的 RSS 每集不带 itunes:image）
+      const channelImg = rss.image?.url || (typeof rss.itunes?.image === 'string' ? rss.itunes.image : rss.itunes?.image?.href) || null;
+
       const items = (rss.items ?? []).slice(0, feed.max);
       let added = 0;
 
@@ -118,10 +121,10 @@ export async function fetchPodcasts(processedIds = new Set()) {
         // itunesImage can be a string URL, { href }, or { $: { href } } depending on the feed
         const rawThumb = item.itunesImage;
         const thumbnail =
-          typeof rawThumb === 'string' ? rawThumb
-          : rawThumb?.href        ? rawThumb.href
-          : rawThumb?.['$']?.href ? rawThumb['$'].href
-          : null;
+          (typeof rawThumb === 'string' ? rawThumb
+           : rawThumb?.href        ? rawThumb.href
+           : rawThumb?.['$']?.href ? rawThumb['$'].href
+           : null) || channelImg;   // 单集无封面 → 用频道封面兜底
 
         results.push({
           id,
