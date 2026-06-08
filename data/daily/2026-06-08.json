@@ -1,19 +1,612 @@
 {
   "date": "2026-06-08",
-  "generatedAt": "2026-06-08T06:08:04.085Z",
+  "generatedAt": "2026-06-08T12:09:20.776Z",
   "summary": {
     "aiNews": [
-      "OpenAI在G7峰会前呼吁成立国际青年AI安全研究所，推动全球AI治理。",
-      "DeepSeek获70亿美元AI融资，加速2026年竞赛，挑战行业格局。",
-      "福布斯AI 50榜单显示AI初创公司正超越模型规模，转向应用创新。"
+      "英伟达通过新AI合作伙伴关系深化韩国布局，拓展当地AI生态。",
+      "OpenAI推出ChatGPT锁定模式，限制对话范围以提升安全性。",
+      "Moonshot AI寻求300亿美元估值进行新一轮融资谈判。"
     ],
     "papers": [],
     "hrOrgs": [
-      "SK AX与Mercer合作推动AI-人类HR模型，在韩国构建智能代理平台。",
-      "Mercer报告：未来奖励生态系统超越薪酬与福利，聚焦员工体验。"
+      "SK AX与Mercer合作开发AI驱动的人力资源模型，构建智能代理平台。",
+      "Mercer发布报告：未来奖励生态系统将超越薪酬与福利，整合AI技术。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:eaad7d376e1d",
+      "slug": "gnews-eaad7d376e1d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQzZQbVpwMUx6TEFPNGdpT05LSXVGS2NCR0xac2lOeFRCWE1zT0pya21rMjdYeGlRWHdzZnhBbWdyQTAwbjB5eDlXVnlXQ2hUZFlnTk5HQ2pldEo1Wk1tT2ZNa1RhQjF2d3ExbWxfZmRTYnF5VGVfMV81NFRuOElxdA?oc=5",
+      "publishedAt": "2026-06-08T11:00:00.000Z",
+      "titleEn": "Majority of US’s new AI datacenters to be built on drought-hit land",
+      "titleZh": "美国多数新建AI数据中心将建于干旱地区",
+      "abstractEn": "Majority of US’s new AI datacenters to be built on drought-hit land  The Guardian",
+      "abstractZh": "美国多数新建AI数据中心将建于干旱地区  《卫报》",
+      "authors": [
+        "The Guardian"
+      ],
+      "institution": "The Guardian",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1d3c87e6d5e0",
+      "slug": "gnews-1d3c87e6d5e0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWndMTDdDNlQzTUgwbFJaZGhwZDRuVkdlNWZvWkQyMkwxRVg5VEZ6SlFxeVZRZFdLM3paQTI5WWVRTmhFVFNzaEZtTTVydzNQQnJRQ2tCSFZhN3k0SHBFLUQtZjdzbk92dnNKMC13dzhValNOVUVBN21vZkV1Y0lsaGZMc1JoYVB2eTVn?oc=5",
+      "publishedAt": "2026-06-08T10:38:16.000Z",
+      "titleEn": "AI safety cameras ramp up pressure on fleets",
+      "titleZh": "AI安全摄像头加大对车队的压力",
+      "abstractEn": "AI safety cameras ramp up pressure on fleets  Bodyshop Magazine",
+      "abstractZh": "AI安全摄像头加大对车队的压力  《Bodyshop Magazine》",
+      "authors": [
+        "Bodyshop Magazine"
+      ],
+      "institution": "Bodyshop Magazine",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cc9b0085a8c5",
+      "slug": "gnews-cc9b0085a8c5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPekV5dm83UTNnYk9KS3E4bW1Hd2x1VFE4T19qdmhxZzJhYkU2dWVuMTlYcVVPN29pdEo5dGNyOVRwQWxCWmJlZEJDOEg3UUJNWFVHOTlSbzM2aGowWkh6c1l5YVpNTWJONnJnWGM5UU1CWVRqSmZDTXVsX0Z6NG8yZnZhbVQxYUl4QnZlY21WYm1NVE9NNmtlaVY0RVNDMVB1ZGlkUEE5TzFJTGJyMXhaMjBNZ3Z0Snp1TFRWQzZhb0pEbU9SSUVtbEFRSWZjZkJfczVBWmZB0gHeAUFVX3lxTE40R1AxMG9ScVpwS19RaEs1SzFpcm03STBHakdJR2NFWDJFdzNGUkVLdjJoalhFZHpYZ0hYNVBSaTNROWwteTFsN2x4MWtGQjIwRVVnRnJoRVlkdHd4emVMSm1GSGdwTjNQQ19rUW9hQXJPd0ZtcjFYNU1VRVhPWkVmQUU1OFJVRzlKbi1qUGlVMzNkSmZUSlpNR3ZOLWFLM0tSRm1DM3hPaHMzRnlBUWhiaW5lbHUwbG9vLWh3SjQ1RGdIdWZfYmFGWkV1a1NrZ2JZNnVVUmJjTmN1RDBYUQ?oc=5",
+      "publishedAt": "2026-06-08T10:24:15.000Z",
+      "titleEn": "OpenAI's New Lockdown Mode Is Basically ChatGPT In A Straightjacket",
+      "titleZh": "OpenAI的新锁定模式基本上就是给ChatGPT穿上紧身衣",
+      "abstractEn": "OpenAI's New Lockdown Mode Is Basically ChatGPT In A Straightjacket  NDTV",
+      "abstractZh": "OpenAI的新锁定模式基本上就是给ChatGPT穿上紧身衣  NDTV",
+      "authors": [
+        "NDTV"
+      ],
+      "institution": "NDTV",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:67823aad9b80",
+      "slug": "gnews-67823aad9b80",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSE81VC1ueUl2b2w4ZU0zX0p5RF9qUnN4clRNaGlINWZHRGo3MnJxa2VVRHhwVTlHZmkwSWJrYkY4ZmNqcEpwbGRITEIyNzVVVFRnZDAzODhiWUpFRUM5M3Y4SFhESWpBc1I3R1BkUUdfeHQyVmRWcDkwY3dDNUVMZG5MdFFUVlhQN0NJbTNxNXdGd0I5cldZd3k1LXRORWpqS1E?oc=5",
+      "publishedAt": "2026-06-08T10:18:31.000Z",
+      "titleEn": "Nvidia deepens South Korea ties through new AI partnerships (NVDA)",
+      "titleZh": "英伟达通过新AI合作伙伴关系深化韩国布局（NVDA）",
+      "abstractEn": "Nvidia deepens South Korea ties through new AI partnerships (NVDA)  Yahoo Finance",
+      "abstractZh": "英伟达通过新AI合作伙伴关系深化韩国布局（NVDA）  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d33c47e3c947",
+      "slug": "gnews-d33c47e3c947",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RNIBgAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RA?oc=5",
+      "publishedAt": "2026-06-08T10:18:17.000Z",
+      "titleEn": "Is OpenAI's New Lockdown Mode An Admission That Default ChatGPT Was Never Safe Enough? - The Cyber Ex ...",
+      "titleZh": "OpenAI的新锁定模式是否承认默认ChatGPT从未足够安全？ - The Cyber Ex ...",
+      "abstractEn": "Is OpenAI's New Lockdown Mode An Admission That Default ChatGPT Was Never Safe Enough? - The Cyber Ex ...  The Cyber Express",
+      "abstractZh": "OpenAI的新锁定模式是否承认默认ChatGPT从未足够安全？ - The Cyber Ex ...  The Cyber Express",
+      "authors": [
+        "The Cyber Express"
+      ],
+      "institution": "The Cyber Express",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-mommrp3ha5lmxy70-html",
+      "slug": "aidc",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/mOmmRp3HA5LMXY70.html",
+      "publishedAt": "2026-06-08T10:07:00.000Z",
+      "titleEn": "独家丨瑞浦兰钧AIDC电芯年底量产，终端客户是阿里腾讯",
+      "titleZh": "独家丨瑞浦兰钧 AIDC 电芯年底量产，终端客户是阿里腾讯",
+      "abstractEn": "作者丨马诗晴\n编辑丨李雨晨\n6月3日，上海SNEC展会现场，瑞浦兰钧在展台发布两大新品：AIDC（智算中心）储能电芯以及钠离子电芯。\n据知情人士透露，此次发布的AIDC电芯为85Ah，采用实心磷酸铁锂，支持10C放电倍率，计划于年底量产；钠离子电芯为320Ah，具有循环性能好、宽温性能佳、长生命周期维持成本相对较低的优势，目前处于A样阶段，计划明年量产。\n成本上，据知情人士介绍，当前常规储能电芯成本约4毛多每瓦时，适用于AIDC场景的电芯成本通常比常规高50%左右。\n成本增加来自两方面：一是为实现倍率提升，结构件调整导致成本增加；二是瓦时成本因电芯容量变小而增加。具体而言，高倍率电芯发热大，大电芯散热难度高，所以需要采用小电芯，电芯数量增多涉及材料和工艺增加，单位能量成本增加。\n“成本增加在行业是普遍现象，目前往AIDC电芯方向做的厂家也不多，因为有一定技术难度。”知情人士告诉雷峰网。\n据",
+      "abstractZh": "作者丨马诗晴\n编辑丨李雨晨\n6 月 3 日，上海 SNEC 展会现场，瑞浦兰钧在展台发布两大新品：AIDC（智算中心）储能电芯以及钠离子电芯。\n据知情人士透露，此次发布的 AIDC 电芯为 85Ah，采用实心磷酸铁锂，支持 10C 放电倍率，计划于年底量产；钠离子电芯为 320Ah，具有循环性能好、宽温性能佳、长生命周期维持成本相对较低的优势，目前处于 A 样阶段，计划明年量产。\n成本上，据知情人士介绍，当前常规储能电芯成本约 4 毛多每瓦时，适用于 AIDC 场景的电芯成本通常比常规高 50% 左右。\n成本增加来自两方面：一是为实现倍率提升，结构件调整导致成本增加；二是瓦时成本因电芯容量变小而增加。具体而言，高倍率电芯发热大，大电芯散热难度高，所以需要采用小电芯，电芯数量增多涉及材料和工艺增加，单位能量成本增加。\n“成本增加在",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:08e87a2ca505",
+      "slug": "gnews-08e87a2ca505",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUU5TVGhqS09lSWw4SEZ0TnE1MDJLdHFmaWhmX2VXc3NKN01wSGV2Yk83SnNnZ0M1SVJHMFVEMkVpUExBdGhka3V3b1NPN3d2WlBZd0tmN2M2N3V4NDE3bFBldnlQN0VBdkc2RzNhaTNSQ3NRbWRtbVdNQVl6U1h2dWV3T3dyLS15M1Eybmg5amozM0E?oc=5",
+      "publishedAt": "2026-06-08T10:05:00.000Z",
+      "titleEn": "Nvidia Started the AI Boom. These 2 Stocks Could Fuel Its Next Chapter.",
+      "titleZh": "英伟达开启了AI热潮，这两只股票或能推动其下一篇章",
+      "abstractEn": "Nvidia Started the AI Boom. These 2 Stocks Could Fuel Its Next Chapter.  Yahoo Finance",
+      "abstractZh": "英伟达开启了AI热潮，这两只股票或能推动其下一篇章  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3818d456bae5",
+      "slug": "gnews-3818d456bae5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5NU0zV2tCWFhyazdFTHVadzFxdHBLTzlRaGpCMWlmMUFNRzFBZHlpLXJrOVREdEI0VkNyWk1kdGlZLU4xbUwzcGFtckROWFZadVU1blAtdmd0OE5fSlc5XzlR?oc=5",
+      "publishedAt": "2026-06-08T10:02:23.000Z",
+      "titleEn": "AI is masking America's \"post-literate\" workforce",
+      "titleZh": "AI正在掩盖美国‘后读写时代’的劳动力现状",
+      "abstractEn": "AI is masking America's \"post-literate\" workforce  Axios",
+      "abstractZh": "AI正在掩盖美国‘后读写时代’的劳动力现状  Axios",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-dwh5z104irxqjpy8-html",
+      "slug": "token-foundry",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/dwh5Z104IRXqJPY8.html",
+      "publishedAt": "2026-06-08T09:57:00.000Z",
+      "titleEn": "阿里巴巴成立Token Foundry事业部",
+      "titleZh": "阿里巴巴成立 Token Foundry 事业部",
+      "abstractEn": "阿里巴巴面向AI未来，持续对组织进行升级。6月8日，阿里巴巴宣布合并通义大模型事业部和未来生活实验室，成立Token Foundry事业部，由集团CEO吴泳铭直接负责。\n据了解，此次调整涉及到一批AI业务。周靖人将担任阿里巴巴首席科学家，牵头成立阿里巴巴AI未来研究院，专注前沿AI科技的探索与突破。郑波带领Happy Horse、Happy Oyster等加入Token Foundry事业部。\n此次升级是阿里在AI领域的持续加码。最新的Qwen-3.7模型能力突出，实现全球前三、国内第一的Coding能力，在开发者社区和行业客户中获得广泛认可。上个月发布的Q4财报首次披露阿里AI业务已跨越初期投入阶段，迈入商业化回报周期，资本市场反应积极。\n通义大模型团队从零到一的搭建，到Qwen系列在全球模型中确立领先地位，周靖人是关键人物之一，并于去年成为阿里巴巴合伙人。首席科学家是阿里巴巴技术体系的",
+      "abstractZh": "阿里巴巴面向 AI 未来，持续对组织进行升级。6 月 8 日，阿里巴巴宣布合并通义大模型事业部和未来生活实验室，成立 Token Foundry 事业部，由集团 CEO 吴泳铭直接负责。\n据了解，此次调整涉及到一批 AI 业务。周靖人将担任阿里巴巴首席科学家，牵头成立阿里巴巴 AI 未来研究院，专注前沿 AI 科技的探索与突破。郑波带领 Happy Horse、Happy Oyster 等加入 Token Foundry 事业部。\n此次升级是阿里在 AI 领域的持续加码。最新的 Qwen-3.7 模型能力突出，实现全球前三、国内第一的 Coding 能力，在开发者社区和行业客户中获得广泛认可。上个月发布的 Q4 财报首次披露阿里 AI 业务已跨越初期投入阶段，迈入商业化回报周期，资本市场反应积极。\n通义大模型团队从零到一的搭建，到 Qwen 系列在全球",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48443258",
+      "slug": "hn-48443258-replies-to-comments-on-my-llms-are-eroding-my-career-post",
+      "source": "Hacker News",
+      "sourceUrl": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48443258",
+      "publishedAt": "2026-06-08T09:52:03.000Z",
+      "titleEn": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "titleZh": "对我《LLMs 正在侵蚀我的职业生涯》一文的回复",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "omblivion"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 66,
+      "commentCount": 89,
+      "tags": []
+    },
+    {
+      "id": "gnews:27c37b0ed3d1",
+      "slug": "gnews-27c37b0ed3d1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbjZLVWxXckRvNElSdGcxRC1YVEo1U3RVWlVMX1hqaG80TTR3Zy02Q3RIRlNEWjJESjVRczVTaVM3OVFLQVFjLUJlVjA5ajZoRExDN0JIZ0tleV9wYUdhclUwSUlsVzZidWZ1eVlFQlh3MFktZG1RRnpvWjNaUVFDcUs2czhlT05HRVZvV0lKWXdXb3psNWpoVjZyLUpKMEFoTHlFb3RTZE1HZXlEX1RFVXFneDRKM2RRVEJ6bnFsbU1uRWhpU2RTUEt3WFdvc1BuNVFzNGdCbFJOcFZWLTFj?oc=5",
+      "publishedAt": "2026-06-08T09:41:13.000Z",
+      "titleEn": "JumpStart secures Series C from Cool Japan Fund for AI vending expansion",
+      "titleZh": "JumpStart从Cool Japan Fund获得C轮融资，用于AI自动售货机扩展",
+      "abstractEn": "JumpStart secures Series C from Cool Japan Fund for AI vending expansion  Indiatimes",
+      "abstractZh": "JumpStart从Cool Japan Fund获得C轮融资，用于AI自动售货机扩展  《Indiatimes》",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f94dfc9aebd9",
+      "slug": "gnews-f94dfc9aebd9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb2ZjT3ZVWXE2MEdZWmprelByMlFUVFh3d29RZkJKNHRVckFEQUFxcHJhTVdHQ2VPeEZpcjF2c0JGSUhZOURUV2R4NHpYcDcwWDktUW9UQ2kxSm1vazRxamExYm5HZTFOaElUeXJJMVZHUllKWTlmUFVQbjNpcnNwWVQ1eGpQcjFhNnlMcjBQelVfOUtFNzF2QzVVcGF6M2xsTzBIb1h5Y2Etbzh1ajNoRHBaMmdFRk9KUnZ0eGpnS0tHTXJGQk1Jd0Zud0Y?oc=5",
+      "publishedAt": "2026-06-08T09:41:12.000Z",
+      "titleEn": "moonshot ai seeks 30 billion valuation in new funding talks",
+      "titleZh": "Moonshot AI在新一轮融资谈判中寻求300亿美元估值",
+      "abstractEn": "moonshot ai seeks 30 billion valuation in new funding talks  Indiatimes",
+      "abstractZh": "Moonshot AI在新一轮融资谈判中寻求300亿美元估值  《Indiatimes》",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-b0tuuc0qszerbmzn-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/b0TuuC0QsZerbmzN.html",
+      "publishedAt": "2026-06-08T09:38:00.000Z",
+      "titleEn": "从“工具箱”到“操盘手”：跨境电商AI的闭环突围",
+      "titleZh": "从“工具箱”到“操盘手”：跨境电商 AI 的闭环突围",
+      "abstractEn": "在跨境电商圈里，2026年的夏天，AI的喧嚣似乎进入了一个微妙的沉淀期。\n两年前，当大模型初露锋芒时，卖家们还在为一个能写Listing的插件而兴奋；年初，各种“全能Agent”涌现，大家开始尝试用自然语言指挥电脑干活。然而，当新鲜感褪去，一个普遍的困惑在从业者心中蔓延：为什么工具装了一大堆，生意却好像越做越累？\n“我的电脑里有五六个AI工具，写文案用一个，看数据用一个，做图用一个。最后我还是得像个‘人肉搬运工’，把它们生成的东西拼凑起来。”一位跨境卖家无奈表示。\n这种“工具割裂、数据孤岛”的痛点，正在成为制约电商AI真正落地的瓶颈。对于同时运营Amazon、Shopify、TikTok Shop等多渠道的卖家而言，他们需要的不再是一个个孤立的“螺丝刀”，而是一个能听懂生意、能跨平台协同的“中央控制系统”。\n这正是StoreClaw试图解决的问题。在最近与雷峰网的对话中，StoreClaw",
+      "abstractZh": "在跨境电商圈里，2026 年的夏天，AI 的喧嚣似乎进入了一个微妙的沉淀期。\n两年前，当大模型初露锋芒时，卖家们还在为一个能写 Listing 的插件而兴奋；年初，各种“全能 Agent”涌现，大家开始尝试用自然语言指挥电脑干活。然而，当新鲜感褪去，一个普遍的困惑在从业者心中蔓延：为什么工具装了一大堆，生意却好像越做越累？\n“我的电脑里有五六个 AI 工具，写文案用一个，看数据用一个，做图用一个。最后我还是得像个‘人肉搬运工’，把它们生成的东西拼凑起来。”一位跨境卖家无奈表示。\n这种“工具割裂、数据孤岛”的痛点，正在成为制约电商 AI 真正落地的瓶颈。对于同时运营 Amazon、Shopify、TikTok Shop 等多渠道的卖家而言，他们需要的不再是一个个孤立的“螺丝刀”，而是一个能听懂生意、能跨平台协同的“",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:0b85e3884f64",
+      "slug": "gnews-0b85e3884f64",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdjFzV2pha1R2aWI0cXZIcDNjOUN0aXFVcFhoNktzTGJQOGhPRkJsd0duT0pyaUdoVndQOGlrcGxBRE14ajlxT29YTVNtaC1VRmNZSmo5V2Q1Wm54UWcwbkZFd2w4WEJIV2k3aHA2Z3dXQ0I4SFpPY2VZSjBFQ2Vvdm9DQjR4dV82MUJ1VDJTeVhYTFlTMWRlWDBMZGUtcEppNEJTSQ?oc=5",
+      "publishedAt": "2026-06-08T09:08:52.000Z",
+      "titleEn": "Mathematicians call for AI regulation, warn of research integrity crisis",
+      "titleZh": "数学家呼吁AI监管，警告研究诚信危机",
+      "abstractEn": "Mathematicians call for AI regulation, warn of research integrity crisis  Rappler",
+      "abstractZh": "数学家呼吁AI监管，警告研究诚信危机  Rappler",
+      "authors": [
+        "Rappler"
+      ],
+      "institution": "Rappler",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-dsc6la4s08k9dmu1-html",
+      "slug": "soulagent",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/DSC6lA4s08K9DMu1.html",
+      "publishedAt": "2026-06-08T08:56:00.000Z",
+      "titleEn": "SoulAgent 即将亮相北京智源大会，探索个人智能体在知识服务场景中的应用",
+      "titleZh": "SoulAgent 即将亮相北京智源大会，探索个人智能体在知识服务场景中的应用",
+      "abstractEn": "2026年6月，北京智源大会即将开启。对于大型学术会议的参会者而言，平行论坛密集、重磅议题交叉、专家交流机会有限，常常带来“想听的太多、能到场的太少、想追问却没机会”的困境。围绕这一高密度知识场景，智源将正式推出面向个人的专属智能体 SoulAgent，为参会者提供全新的智能参会体验。\n \nSoulAgent 不只是一次性的问答工具，而是一个会在长期交互中持续成长、越用越懂用户的 AI 伙伴。在本届智源大会期间，SoulAgent 将全程陪伴参会者，支持跨会场同步听会，帮助用户实时追踪多场论坛内容，记录、总结并提炼关键观点；同时，SoulAgent 还将接入11位顶尖 AI 专家分身，用户可围绕前沿观点、研究方向和技术问题展开多轮对话，让前沿交流从单向聆听延展为双向互动。\n \n本届智源大会期间，25场论坛与特色活动将密集展开。面对多场论坛并行、信息密度高的参会场景，SoulAgent 将帮",
+      "abstractZh": "2026 年 6 月，北京智源大会即将开启。对于大型学术会议的参会者而言，平行论坛密集、重磅议题交叉、专家交流机会有限，常常带来“想听的太多、能到场的太少、想追问却没机会”的困境。围绕这一高密度知识场景，智源将正式推出面向个人的专属智能体 SoulAgent，为参会者提供全新的智能参会体验。\n \nSoulAgent 不只是一次性的问答工具，而是一个会在长期交互中持续成长、越用越懂用户的 AI 伙伴。在本届智源大会期间，SoulAgent 将全程陪伴参会者，支持跨会场同步听会，帮助用户实时追踪多场论坛内容，记录、总结并提炼关键观点；同时，SoulAgent 还将接入 11 位顶尖 AI 专家分身，用户可围绕前沿观点、研究方向和技术问题展开多轮对话，让前沿交流从单向聆听延展为双向互动。\n \n本届智源大会期",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432425-html",
+      "slug": "chatgpt-pk",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432425.html",
+      "publishedAt": "2026-06-08T08:28:48.000Z",
+      "titleEn": "难上热搜的高考数学，我拿ChatGPT和豆包PK了一把！",
+      "titleZh": "难上热搜的高考数学，我拿 ChatGPT 和豆包 PK 了一把！",
+      "abstractEn": "豆包硬刚ChatGPT",
+      "abstractZh": "豆包硬刚 ChatGPT",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-nvfdezeazbxqciip-html",
+      "slug": "cvpr-2026-d4rt-vgg",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/nVFDeZEAzBxQCiiP.html",
+      "publishedAt": "2026-06-08T08:11:00.000Z",
+      "titleEn": "CVPR 2026完美落幕！D4RT封神最佳论文、牛津VGG两连冠，中国本科生泰坦显卡逆袭引爆全网",
+      "titleZh": "CVPR 2026完美落幕！D4RT封神最佳论文、牛津VGG两连冠，中国本科生泰坦显卡逆袭引爆全网",
+      "abstractEn": "CVPR 2026主会议于6月7日落下帷幕，三大重磅信号同频共振：奖项端，Google DeepMind的D4RT摘得最佳论文奖，Oxford VGG实现CVPR最佳论文「背靠背」两连冠，何恺明的ResNet/YOLO同获Longuet-Higgins时间检验奖，微软×清华的TRELLIS.2斩获最佳学生论文奖；数据基建端，号称「视觉物理ImageNet时刻」的PhysInOne以2M视频、150K+3D场景、71种物理现象震撼发布，VLA论文5倍增长、世界模型3倍增长已成共识；人才端，2名本科生半年揽5个顶会、大三学生凭老旧泰坦GPU拿下最佳学生论文提名，中国本科生顶会现象成为闭幕日全网热议话题。以下三大热门议题，雷峰网带你一口气看完CVPR 2026闭幕日的所有精华。\n \n热门议题一：五大奖项全揭晓——D4RT封神、牛津VGG两连冠、何恺明再获至高荣誉\n闭幕式上，CVPR 2026五大",
+      "abstractZh": "CVPR 2026主会议于6月7日落下帷幕，三大重磅信号同频共振：奖项端，Google DeepMind的D4RT摘得最佳论文奖，Oxford VGG实现CVPR最佳论文‘背靠背’两连冠，何恺明的ResNet/YOLO同获Longuet-Higgins时间检验奖，微软×清华的TRELLIS.2斩获最佳学生论文奖；数据基建端，号称‘视觉物理ImageNet时刻’的PhysInOne以2M视频、150K+3D场景、71种物理现象震撼发布，VLA论文5倍增长、世界模型3倍增长已成共识；人才端，2名本科生半年揽5个顶会、大三学生凭老旧泰坦GPU拿下最佳学生论文提名，中国本科生顶会现象成为闭幕日全网热议话题。以下三大热门议题，雷峰网带你一口气看完CVPR 2026闭幕日的所有精华。\n热门议题一：五",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432581-html",
+      "slug": "ai-2026",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432581.html",
+      "publishedAt": "2026-06-08T08:09:25.000Z",
+      "titleEn": "AI创业者集结！“2026新一代人工智能（深圳）创业创新大赛”正式启动",
+      "titleZh": "AI 创业者集结！“2026 新一代人工智能（深圳）创业创新大赛”正式启动",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:bb780d6858d5",
+      "slug": "gnews-bb780d6858d5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSG55WV9wRTVNUkNOVE9oZ0p6eHRiazg0bkZtd1Vmd0wtbGxZeXFSWlBxWEg3VXFRaWJDSFRxenNmSGRJMTVpRUJsdDhXU25xaGVKd09Kd01UaUtQQlI5YS1nWXFnR0dKeVVNSllPTnE3N04ya05kZFlFNnVwa3RMYUNzX2xEalBRMkcta2h4cXNMMV9oWm5oc3AzR296clBVaTJrenVlZWM2ODVWanpnOHk3RjhIWmhHZG8wY1o1VmxJRnliYUNYSDlwYjV2a0toeTczc0pseDk?oc=5",
+      "publishedAt": "2026-06-08T07:38:00.000Z",
+      "titleEn": "Temasek-backed startup PhysicsX hits US$2.4 billion valuation to provide AI for manufacturing",
+      "titleZh": "淡马锡支持的初创公司PhysicsX估值达24亿美元，为制造业提供AI",
+      "abstractEn": "Temasek-backed startup PhysicsX hits US$2.4 billion valuation to provide AI for manufacturing  The Business Times",
+      "abstractZh": "淡马锡支持的初创公司PhysicsX估值达24亿美元，为制造业提供AI  《The Business Times》",
+      "authors": [
+        "The Business Times"
+      ],
+      "institution": "The Business Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-sst61ymyygw7ovo6-html",
+      "slug": "icra-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/sSt61ymYYgw7OVO6.html",
+      "publishedAt": "2026-06-08T07:36:00.000Z",
+      "titleEn": "ICRA 2026上的灵巧手们，到底有多“卷”？",
+      "titleZh": "ICRA 2026上的灵巧手们，到底有多‘卷’？",
+      "abstractEn": "原文作者：公众号“NE时代智能体”\n原文链接：https://mp.weixin.qq.com/s/qWvJdOFTkD2iOjM2hlWlWw\n\n\n\n\n\n\n全球机器人行业顶会ICRA 2026圆满落幕，从展会各家前沿方案的密集发布来看，灵巧手正加速脱离传统「工业末端夹爪」的刻板印象，向着高自由度、拟人化感知和手脑协同的具身智能核心终端演进。\n本次ICRA展会释放了明确的信号：仿生灵巧手已经跨越了“能不能动”的初级阶段，在诸如反向驱动、结构稳定性、多模态触觉融合以及复杂场景适应力等多个维度上完成了全方位升级。\n无论是全直驱的精准力控，还是混合驱动的柔顺大负载，这些硬核进化都让灵巧手在面对装配文具、线束装配、叠气球狗、连续发牌等高难度真实长时序任务时游刃有余。以下为NE时代智能体的盘点梳理（不完全统计）：\n▍舞肌科技：Wuji Hand 2\n舞肌科技在ICRA现场重磅展示了新一代仿生灵巧手W",
+      "abstractZh": "原文作者：公众号‘NE时代智能体’\n原文链接：https://mp.weixin.qq.com/s/qWvJdOFTkD2iOjM2hlWlWw\n\n全球机器人行业顶会ICRA 2026圆满落幕，从展会各家前沿方案的密集发布来看，灵巧手正加速脱离传统‘工业末端夹爪’的刻板印象，向着高自由度、拟人化感知和手脑协同的具身智能核心终端演进。\n本次ICRA展会释放了明确的信号：仿生灵巧手已经跨越了‘能不能动’的初级阶段，在诸如反向驱动、结构稳定性、多模态触觉融合以及复杂场景适应力等多个维度上完成了全方位升级。\n无论是全直驱的精准力控，还是混合驱动的柔顺大负载，这些硬核进化都让灵巧手在面对装配文具、线束装配、叠气球狗、连续发牌等高难度真实长时序任务时游刃有余。以下为NE时代智能体的盘点梳理（不",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:0cff4c3a17ae",
+      "slug": "gnews-0cff4c3a17ae",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMEltVnV1QzFVeGhwYUpJVHdXNVBqWXhjc29sRWpzVW5QRk43TE5FVFZjM3NVOTRsQ1REbm5RUkgtd2NpTHR5RjZBTFd6MWNnU3VncU5sYUZfS0pqdlBUUzRzb3U2dFJQbGVMRUJCNFVVSDBHdm1Wa2VvUW55ckQ2WlA0Q0h4MmhJOFBsY2wyMUktVVB4QWZmMnNZdnU3TlRLUTBkY3NzdVl6MWxudlE5SEJUZjlLZ3JoM3BmSG12X0NXa0Z1TkMtYTRpQVdCQQ?oc=5",
+      "publishedAt": "2026-06-08T07:30:00.000Z",
+      "titleEn": "AI regulation: what it is, its impact on businesses, and how to create value with secure and reliable artificial intelligence",
+      "titleZh": "AI监管：定义、对商业的影响，以及如何通过安全可靠的人工智能创造价值",
+      "abstractEn": "AI regulation: what it is, its impact on businesses, and how to create value with secure and reliable artificial intelligence  Telefónica",
+      "abstractZh": "AI监管：定义、对商业的影响，以及如何通过安全可靠的人工智能创造价值  Telefónica",
+      "authors": [
+        "Telefónica"
+      ],
+      "institution": "Telefónica",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-ttanpzx7mu3cdicj-html",
+      "slug": "icra-2026-fp3",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/tTanpzX7mu3CDICJ.html",
+      "publishedAt": "2026-06-08T07:28:00.000Z",
+      "titleEn": "ICRA 2026最佳论文奖，千寻智能首席科学家、清华高阳团队FP3入围",
+      "titleZh": "ICRA 2026最佳论文奖，千寻智能首席科学家、清华高阳团队FP3入围",
+      "abstractEn": "原文作者：谭梓馨\n原文链接：https://mp.weixin.qq.com/s/llcXE2be4oNWItL_0ydVZw\n2026年IEEE国际机器人与自动化会议（IEEE ICRA 2026）是机器人与自动化领域的顶级学术盛会，于6月1日至5日在奥地利维也纳举办。\n今年，FP3、HITTER等多篇华人团队论文入围最佳论文奖提名，头部科技此前曾报道过HITTER，今天来看另一篇研究FP3。\n\n\n\nFP3论文的导师之一高阳是清华大学跨学科信息科学研究院（IIIS）的助理教授，同时他也是国内具身独角兽千寻智能（Spirit AI）的联创兼首席科学家。\n\n下面，一起来看看FP3做了哪些创新工作。\n\n\n三维基座带来的改进\n\n基于海量多任务数据预训练的基座大模型在机器人领域展现出巨大潜力，但绝大多数机器人基础策略模型仅采用二维图像作为输入观测，缺失三维几何信息，而三维几何是机器人感知、理解真实",
+      "abstractZh": "原文作者：谭梓馨\n原文链接：https://mp.weixin.qq.com/s/llcXE2be4oNWItL_0ydVZw\n2026年IEEE国际机器人与自动化会议（IEEE ICRA 2026）是机器人与自动化领域的顶级学术盛会，于6月1日至5日在奥地利维也纳举办。\n今年，FP3、HITTER等多篇华人团队论文入围最佳论文奖提名，头部科技此前曾报道过HITTER，今天来看另一篇研究FP3。\n\nFP3论文的导师之一高阳是清华大学跨学科信息科学研究院（IIIS）的助理教授，同时他也是国内具身独角兽千寻智能（Spirit AI）的联创兼首席科学家。\n\n下面，一起来看看FP3做了哪些创新工作。\n\n三维基座带来的改进\n\n基于海量多任务数据预训练的基座大模型在机器人领域展现出巨大潜力，但绝大",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:675ca84bdac4",
+      "slug": "gnews-675ca84bdac4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmgtdTNkQXZiV0dGNDlCTHJ2aEIyYW8td2dSNl9VUmxKXzE0OWZBbTFXSENQdmFQaTloS3pHQUJCZUhXcXBfZEdJeXhJQUpNT1paWGdmZ3BmclczVHR6YkNwYlB3OG5hWGQ1dmx2enozY3AzY1JPcVJFeGpVd0I1TVE5M3hKZjZjLTF6S282bnE3WWszOEhiMU1tN0tRa0s3NzRTZzhwNTV2QW8?oc=5",
+      "publishedAt": "2026-06-08T06:57:18.000Z",
+      "titleEn": "OPINION: Outpaced by its ambition, can Kenya bridge AI regulation gap?",
+      "titleZh": "观点：雄心超前，肯尼亚能否弥合AI监管差距？",
+      "abstractEn": "OPINION: Outpaced by its ambition, can Kenya bridge AI regulation gap?  Citizen Digital",
+      "abstractZh": "观点：雄心超前，肯尼亚能否弥合AI监管差距？  Citizen Digital",
+      "authors": [
+        "Citizen Digital"
+      ],
+      "institution": "Citizen Digital",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:d661d5d1583a",
+      "slug": "hrorg-mercer-d661d5d1583a",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX05nZFFBd3VocXVWblNaUHNYcDY4RlppdTFEUEpfWEFSWlpOY0hiNVJhUk1yalRxZzc0ekF1LVQ3Yi10alVjZU5leF9lNDJ3VUMxZVNJTThjNnQ0Z2hUZzFoN19MTmF5ZzhRTmZHUHczWlp2emd3Mm5tajA1c21ULWhtNGxobXVE?oc=5",
+      "publishedAt": "2026-06-08T06:30:48.000Z",
+      "titleEn": "SK AX Partners With Mercer to Develop AI-Driven HR Model",
+      "titleZh": "SK AX与Mercer合作开发AI驱动的人力资源模型",
+      "abstractEn": "SK AX Partners With Mercer to Develop AI-Driven HR Model  조선일보",
+      "abstractZh": "SK AX与Mercer合作开发AI驱动的人力资源模型  《조선일보》",
+      "authors": [
+        "조선일보"
+      ],
+      "institution": "조선일보",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432417-html",
+      "slug": "coding-picking",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432417.html",
+      "publishedAt": "2026-06-08T06:30:23.000Z",
+      "titleEn": "大模型看Coding，具身看Picking！原力灵机已抢先入局",
+      "titleZh": "大模型看 Coding，具身看 Picking！原力灵机已抢先入局",
+      "abstractEn": "轻视它就会错过整个时代",
+      "abstractZh": "轻视它就会错过整个时代",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-f6k18uktjjmkbywd-html",
+      "slug": "ringconn",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/f6k18uKTJjmKBYwd.html",
+      "publishedAt": "2026-06-08T06:26:00.000Z",
+      "titleEn": "智能戒指爆发前夜，RingConn走到哪一步了？",
+      "titleZh": "智能戒指爆发前夜，RingConn走到哪一步了？",
+      "abstractEn": "作者 | 吴优\n编辑 | 刘伟\n\n\n“智能戒指在世界上依然是一个小众市场，年销量几百万枚，但我相信它在未来一定会跟上智能手表的步伐，实现全球上亿只的销量”。作为上海交通大学特聘教授及RingConn品牌创始人的王国兴教授，5月30日在深圳 INNO100 全球创新旗舰店内发表了对智能戒指未来的看法。\n这天是 RingConn Gen3 的产品发布会，王国兴教授着装浅绿衬衫，手戴三枚智能戒指出席了本次活动，向到场的科技爱好者和用户们介绍新一代AI智能戒指产品。\n与 Gen 2 相比，Gen 3 的核心亮点集中在三个方面：\n其一， 长期血压趋势洞察，依托临床验证实现每 15 分钟自动监测，呈现用户真实血管负荷；同时基于睡眠、运动、昼夜节律、全天血管稳定度的负荷因子综合分析，给到全面血管健康分析与个性化改善；\n其二，行业首创微觉醒识别，能够捕捉睡眠中用户不自知的短暂苏醒，更真实反映疲劳度与睡眠质",
+      "abstractZh": "作者 | 吴优\n编辑 | 刘伟\n\n‘智能戒指在世界上依然是一个小众市场，年销量几百万枚，但我相信它在未来一定会跟上智能手表的步伐，实现全球上亿只的销量’。作为上海交通大学特聘教授及RingConn品牌创始人的王国兴教授，5月30日在深圳 INNO100 全球创新旗舰店内发表了对智能戒指未来的看法。\n这天是 RingConn Gen3 的产品发布会，王国兴教授着装浅绿衬衫，手戴三枚智能戒指出席了本次活动，向到场的科技爱好者和用户们介绍新一代AI智能戒指产品。\n与 Gen 2 相比，Gen 3 的核心亮点集中在三个方面：\n其一， 长期血压趋势洞察，依托临床验证实现每 15 分钟自动监测，呈现用户真实血管负荷；同时基于睡眠、运动、昼夜节律、全天血管稳定度的负荷因子综合分析，给到全面血管健康分析与",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:689db6263ef9",
+      "slug": "gnews-689db6263ef9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFZaLTgwYjc4eVBhMWlYV05qMkFyck1vRFREQVZzRHF5cjNIQldsbTNWdkVCTUU0UzRBemNock56M1VCbjRtNjAzLUpXUUZWcXZEb0FIaWc5MThiQ2tQdGpwVGs2TE0zb3hZS1ljS0ZhVzB6WTM0b1djZm9YV2xOZ2NYQ2lBY1dJVDJoSmsxbW1YakE1RDFiWms3QUI0MEN1VVdoempVV29BTEpBVksxRWRURlN6Zw?oc=5",
+      "publishedAt": "2026-06-08T06:25:57.000Z",
+      "titleEn": "EDITORIAL: Pope Leo and the global charge for AI regulation",
+      "titleZh": "社论：教皇利奥与全球AI监管浪潮",
+      "abstractEn": "EDITORIAL: Pope Leo and the global charge for AI regulation  Premium Times Nigeria",
+      "abstractZh": "社论：教皇利奥与全球AI监管浪潮  Premium Times Nigeria",
+      "authors": [
+        "Premium Times Nigeria"
+      ],
+      "institution": "Premium Times Nigeria",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:30d6cfe474f2",
+      "slug": "gnews-30d6cfe474f2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONlhqRVZxZDBxWW9UcmNWRVJzV295SjlPdHd1cVA0ZXZFZU1jT0tOLXRPODY2dmY5UlJ4TE12X0hvVUhIV3RTNG1JM04xVTEwRFdNYXNxaTRxa0d5Q0h3ZDc1NzUwWVRDOHNSOGxFVnpaaEhWRkc0cDgzdTJEc05lVVpNSUFnWmRH?oc=5",
+      "publishedAt": "2026-06-08T06:21:00.000Z",
+      "titleEn": "Former White House AI Adviser Calls Safety Fears ‘Hollywood Storytelling’",
+      "titleZh": "前白宫AI顾问称安全担忧是‘好莱坞式故事’",
+      "abstractEn": "Former White House AI Adviser Calls Safety Fears ‘Hollywood Storytelling’  BeInCrypto",
+      "abstractZh": "前白宫AI顾问称安全担忧是‘好莱坞式故事’  BeInCrypto",
+      "authors": [
+        "BeInCrypto"
+      ],
+      "institution": "BeInCrypto",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:c4eeeadc5d56",
       "slug": "gnews-c4eeeadc5d56",
@@ -59,6 +652,91 @@
       ]
     },
     {
+      "id": "hn:48441589",
+      "slug": "hn-48441589-do-agents-md-files-help-coding-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/rasbt/status/2063649136323252397",
+      "commentUrl": "https://news.ycombinator.com/item?id=48441589",
+      "publishedAt": "2026-06-08T05:21:56.000Z",
+      "titleEn": "Do agents.md files help coding agents?",
+      "titleZh": "agents.md 文件能帮助编码智能体吗？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "smushback"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 46,
+      "commentCount": 37,
+      "tags": []
+    },
+    {
+      "id": "gnews:d18c0efe8e33",
+      "slug": "gnews-d18c0efe8e33",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX292T3F3SUgtd0Z6QmJQNGRtdU5nMS13d2pUdXhUdmduV3d3Y25kQlFuQlFWa1JlOXBFdVR1TTRhM01NbXg0SDJDbWhRNUtMOFBQYTEyU0NpM2VXVTU1RjZJZm1nZ2NxRlNfQmhtRHdHcDFoQllxUDI4UXlSTGJyWVNza0pzVDdoRDFPNzBIN1pCLXpmR2JlSWRZcnowbXd5SG1yLUpadnpESUFp?oc=5",
+      "publishedAt": "2026-06-08T05:21:06.000Z",
+      "titleEn": "Moonshot AI targets $2 Bn funding round at $30 Bn valuation amid China AI boom",
+      "titleZh": "Moonshot AI在中国AI热潮中寻求以300亿美元估值进行20亿美元融资",
+      "abstractEn": "Moonshot AI targets $2 Bn funding round at $30 Bn valuation amid China AI boom  Business Review Live",
+      "abstractZh": "Moonshot AI在中国AI热潮中寻求以300亿美元估值进行20亿美元融资  《Business Review Live》",
+      "authors": [
+        "Business Review Live"
+      ],
+      "institution": "Business Review Live",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432084-html",
+      "slug": "spacex-ppt-60-1-77",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432084.html",
+      "publishedAt": "2026-06-08T05:02:40.000Z",
+      "titleEn": "马斯克SpaceX路演PPT：60页，值1.77万亿美元",
+      "titleZh": "马斯克 SpaceX 路演 PPT：60 页，值 1.77 万亿美元",
+      "abstractEn": "最值得看的不是火箭是AI",
+      "abstractZh": "最值得看的不是火箭是 AI",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:mercer:cd880d7f47c1",
+      "slug": "hrorg-mercer-cd880d7f47c1",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JLVZhUm5yZGhic2dRbFlRN1ZUMlhlNmp6eEhmSmlOMjBlUlVUX1JDVjk1bDhYaHV5YmRQS1VtSjNkMElTYTVTYXVZQQ?oc=5",
+      "publishedAt": "2026-06-08T04:24:54.000Z",
+      "titleEn": "SK AX will work with Mercer, a global HR consulting firm, to develop an organizational operating mod..",
+      "titleZh": "SK AX将与全球人力资源咨询公司Mercer合作开发组织运营模式",
+      "abstractEn": "SK AX will work with Mercer, a global HR consulting firm, to develop an organizational operating mod..  매일경제",
+      "abstractZh": "SK AX将与全球人力资源咨询公司Mercer合作开发组织运营模式  《매일경제》",
+      "authors": [
+        "매일경제"
+      ],
+      "institution": "매일경제",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
       "id": "gnews:ffd4a4bdc720",
       "slug": "gnews-ffd4a4bdc720",
       "source": "Google AI News",
@@ -79,6 +757,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-yanxishe-sinorlmymwes9kqq-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/yanxishe/SinorLMYmWes9Kqq.html",
+      "publishedAt": "2026-06-08T04:10:00.000Z",
+      "titleEn": "独家丨华为天才少年王裕鑫创业，首月完成数千万级首轮融资",
+      "titleZh": "独家丨华为天才少年王裕鑫创业，首月完成数千万级首轮融资",
+      "abstractEn": "聚焦「流式视频生成」，攻破实时视频生成难题。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n雷峰网 AI 科技评论独家获悉，华为“天才少年”、元石科技早期核心技术成员王裕鑫已创立形界智能，方向聚焦“流式视频生成”。据悉，形界智能已在成立首月完成数千万级首轮融资。\n形界智能切入的并非传统文生视频、图生视频工具，而是更强调实时性和连续交互的视频生成方向。简单来说，其目标是让视频像“流”一样持续生成，并能在用户交互过程中实时响应、不断续写。\n这一方向也延续了王裕鑫此前在视频 Agent 和实时视频模型上的积累。此前，他曾担任 Muset 视频 Agent 技术负",
+      "abstractZh": "聚焦‘流式视频生成’，攻破实时视频生成难题。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n雷峰网 AI 科技评论独家获悉，华为‘天才少年’、元石科技早期核心技术成员王裕鑫已创立形界智能，方向聚焦‘流式视频生成’。据悉，形界智能已在成立首月完成数千万级首轮融资。\n形界智能切入的并非传统文生视频、图生视频工具，而是更强调实时性和连续交互的视频生成方向。简单来说，其目标是让视频像‘流’一样持续生成，并能在用户交互过程中实时响应、不断续写。\n这一方向也延续了王裕鑫",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:cec6be692af0",
@@ -122,6 +820,28 @@
       "score": 33,
       "commentCount": 5,
       "tags": []
+    },
+    {
+      "id": "gnews:37cafa9ad731",
+      "slug": "gnews-37cafa9ad731",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTRtOTZ0Zm1GaExWdUI2VGVqUFFGQ1BnU1dDWTBlRUpPR2NvLWVMclJnMGVYWGM5UVB6N0h3M1c2RjRIYjJRazRmUlBBdlVHYnZZdVJ5VElnTDBJYlNqSGNZc3A0MmpYVmt5bHdSTEgtQkJPWlkyQU5zS1puZE5tRWczMzNtLUhZcTduc2FaZzg4QzF2OG42TTJKdU5xU0o4V29NaUtkaHRBNmFJbkFENg?oc=5",
+      "publishedAt": "2026-06-08T03:03:00.000Z",
+      "titleEn": "Nvidia CEO Shrugs Off Tech Stock Rout With AI Just ‘Beginning’",
+      "titleZh": "英伟达CEO无视科技股暴跌，称AI才刚‘起步’",
+      "abstractEn": "Nvidia CEO Shrugs Off Tech Stock Rout With AI Just ‘Beginning’  Bloomberg.com",
+      "abstractZh": "英伟达CEO无视科技股暴跌，称AI才刚‘起步’  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:aa4411e3bf1c",
@@ -367,6 +1087,26 @@
       "tags": [
         "人服动态"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-yjcokedrewmakpjm-html",
+      "slug": "9",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/YJcokedrEwmaKpjm.html",
+      "publishedAt": "2026-06-08T00:28:00.000Z",
+      "titleEn": "乘客用智能眼镜偷拍空姐，平台还搜到大量偷拍视频，多方回应；李国庆自曝曾9次拒绝刘强东见面；瑞幸咖啡回应拿铁去冰仅半杯：可退款",
+      "titleZh": "乘客用智能眼镜偷拍空姐，平台还搜到大量偷拍视频，多方回应；李国庆自曝曾9次拒绝刘强东见面；瑞幸咖啡回应拿铁去冰仅半杯：可退款",
+      "abstractEn": "要闻提示\n1.乘客用智能眼镜偷拍空姐，平台还能搜到大量偷拍视频，多方回应\n\n\n\n2.李国庆自曝曾9次拒绝刘强东见面，当当上市后京东图书价格战致其由盈转亏\n\n3.正式官宣！华为昇腾910C芯片成功完成1.6万亿DeepSeek全参数后训练，国产算力终于跨过最难一关\n4.传淘宝闪购加大零售业务投入：发展“淘宝便利店”、盒马前置仓等\n5.瑞幸咖啡回应拿铁去冰仅半杯：提供订单可退款\n6.暑期前入境游预订激增237%，飞猪上新“中国智造”定制研学游\n7.小鹏被传机器人核心产品一号位施晓鑫离职，内部人士称业务进展顺利\n8.马斯克 SpaceX IPO：禁止中国投资者参与\n今日头条\n乘客用智能眼镜偷拍空姐，平台还能搜到大量偷拍视频，多方回应\n\n6月7日消息，近日，上海云女士在乐奇ROKID智能眼镜用户社区内，发现有用户使用该品牌眼镜在登机时拍摄“春秋航空”空姐并公开发布，引发公众对智能眼镜沦为“偷拍神器",
+      "abstractZh": "要闻提示\n1.乘客用智能眼镜偷拍空姐，平台还能搜到大量偷拍视频，多方回应\n\n2.李国庆自曝曾9次拒绝刘强东见面，当当上市后京东图书价格战致其由盈转亏\n\n3.正式官宣！华为昇腾910C芯片成功完成1.6万亿DeepSeek全参数后训练，国产算力终于跨过最难一关\n4.传淘宝闪购加大零售业务投入：发展‘淘宝便利店’、盒马前置仓等\n5.瑞幸咖啡回应拿铁去冰仅半杯：提供订单可退款\n6.暑期前入境游预订激增237%，飞猪上新‘中国智造’定制研学游\n7.小鹏被传机器人核心产品一号位施晓鑫离职，内部人士称业务进展顺利\n8.马斯克 SpaceX IPO：禁止中国投资者参与\n今日头条\n乘客用智能眼镜偷拍空姐，平台还能搜到大量偷拍视频，多方回应\n\n6月7日消息，近日，上海云女士在乐奇ROKID智能眼镜用户社区",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:6eb7240ff0f8",
@@ -693,6 +1433,28 @@
       ]
     },
     {
+      "id": "gnews:fbf637381306",
+      "slug": "gnews-fbf637381306",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTWRzbzVCSHBQWjhOWFV3MGlmMC04Uzd2V2t4SlFGNnRsdl9tWm53QnNfVXBkcVZHRWVFX0VZX1FGOGV5dDFTd2o4R3FpUWlhRHBpejZtb2RvWmxvblcxQkZVTUVRUkRLNzVLaHJ0bXN5c1JKdXFxcFg2Szl3SDJRTVpR?oc=5",
+      "publishedAt": "2026-06-07T16:23:22.000Z",
+      "titleEn": "OpenAI is still working on that ‘super app’",
+      "titleZh": "OpenAI仍在开发那个‘超级应用’",
+      "abstractEn": "OpenAI is still working on that ‘super app’  TechCrunch",
+      "abstractZh": "OpenAI仍在开发那个‘超级应用’  TechCrunch",
+      "authors": [
+        "TechCrunch"
+      ],
+      "institution": "TechCrunch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:d8cf802c3157",
       "slug": "gnews-d8cf802c3157",
       "source": "Google AI News",
@@ -706,6 +1468,28 @@
         "Fox News"
       ],
       "institution": "Fox News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c7239c1274c6",
+      "slug": "gnews-c7239c1274c6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenhGOEdQYlFUV0tYbTdjdFJIclN1Nm5GYlJ1UXM1dUZKVkdsUU5mdGxMbTV4bDd5UExDR3RGQU5SN1k5bDQwWk9WVGpGV3h5TC01SEF1NE5mczh1RTNHUkdZQ1lBWUpKSVZKUjZJTjVBazdzS1lHcjllUFpGeDdmdVQ0cUwwQ0ZxQ211WXpMV2VBSFBsM2RjMmhUV29ZbXV1ZndKUWU2bXJkaGV2a3UwMExHVzQ?oc=5",
+      "publishedAt": "2026-06-07T14:15:40.000Z",
+      "titleEn": "Will artificial intelligence soon escape human control?",
+      "titleZh": "人工智能会很快脱离人类控制吗？",
+      "abstractEn": "Will artificial intelligence soon escape human control?  The Economist",
+      "abstractZh": "人工智能会很快脱离人类控制吗？  《经济学人》",
+      "authors": [
+        "The Economist"
+      ],
+      "institution": "The Economist",
       "docType": "Blog",
       "category": "social",
       "score": 0,
