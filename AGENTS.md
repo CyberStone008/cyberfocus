@@ -94,6 +94,8 @@ Pipeline 在写入 `articles.json` 前，给每篇新文章打上 `fetchedAt: ne
 
 新增任何"生成型"内容时，必须遵循同样的"只用抓取数据 + 来源可溯"原则。
 
+**播客解读同此铁律**（`scripts/translate/podcast-analysis.js`）：①**有逐字稿**（仅 Lex Fridman，其 `abstractEn` 带 `Transcript: https://lexfridman.com/...` 链接）→ 抓全文做深读（"主要话题/金句"）；②**无逐字稿**（张小珺/No Priors/硅谷101 等绝大多数源）→ **只能基于标题+官方简介克制概述**，标题用"本集可能涵盖的话题"、措辞为"这一主题通常关注…/嘉宾可能会…"，**严禁编造具体引语、数字、市值、生平、未在简介出现的事件**；且自动在文末附「ℹ️ 本解读基于节目标题与官方简介由 AI 整理…以原节目为准」声明+原链接。prompt 按 `hasTranscript` 分支（`grounding`/`formatRich` vs `formatLite`）。
+
 ### 翻译后端：默认且固定用 DeepSeek
 
 所有翻译（文章标题/摘要、播客标题等，凡走 `translateBatch`）**默认用 DeepSeek**，不要改回智谱 CLI 或 Anthropic。

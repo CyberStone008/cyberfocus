@@ -98,63 +98,80 @@ export async function generatePodcastAnalysis(episode) {
   }
 
   const hasTranscript = transcriptText.length > 500;
-  const guestNames = extractGuests(episode.titleEn);
-  const episodeNum = (episode.titleEn.match(/^#(\d+)/) || [])[1] ?? '';
+  // 中英文源通吃：优先中文标题/简介（中文源），否则英文（Lex 等）。
+  const title = episode.titleZh || episode.titleEn || '';
+  const intro = (episode.abstractZh || episode.abstractEn || '').slice(0, 800);
+  const guestNames = extractGuests(episode.titleEn || '');
+  const episodeNum = (String(episode.titleEn || '').match(/^#(\d+)/) || [])[1] ?? '';
 
+  // 数据溯源铁律：有逐字稿 → 依文稿深读；无逐字稿 → 只能基于标题+简介克制概述，严禁编造。
   const transcriptSection = hasTranscript
     ? `\n\n## 对话文稿（节选）\n${transcriptText}`
-    : `\n\n（文稿暂不可用，请根据标题和简介进行分析）`;
+    : '';
 
-  const prompt = `你是一位专业的播客内容分析师，擅长将英文长播客提炼为结构清晰的中文解读。
+  const grounding = hasTranscript
+    ? `本集提供了对话文稿节选，请严格依据文稿内容分析，不要编造文稿里没有的内容。`
+    : `⚠️ 本集没有逐字稿，你掌握的真实信息只有上方的「标题」和「节目简介」两项。必须严守数据溯源铁律：
+- 只能基于标题与简介中明确出现的主题做合理概述；
+- **严禁编造**嘉宾的具体引语、数字、估值、市值、生平经历、未在简介中出现的事件或观点；
+- 对标题列出的话题，可解释"这类话题通常关注什么、为何重要"，但要让读者看得出这是基于公开主题的合理展开，而非转述原话；
+- 简介信息不足时，宁可写得概括、克制、留白，也绝不为了丰富而虚构细节。`;
 
-## 任务
-为以下 Lex Fridman 播客单集生成一篇完整的中文解读文章，帮助中文读者快速了解本集的核心内容，判断是否值得收听原版。
+  const formatRich = `## 本集概述
 
-## 单集信息
-- 编号：#${episodeNum}
-- 标题：${episode.titleEn}
-- 嘉宾：${guestNames || '（见标题）'}
-- 时长：${episode.duration ?? '未知'}
-- 发布日期：${episode.publishedAt?.slice(0, 10) ?? ''}
-- 英文简介：${(episode.abstractEn ?? '').slice(0, 500)}
-${transcriptSection}
-
-## 输出格式要求
-
-请输出一篇 Markdown 文章，严格遵守以下结构：
-
-\`\`\`
-## 本集概述
-
-[2-3 段，介绍嘉宾背景、本集主题、为什么值得关注。全部中文。]
+[2-3 段，介绍嘉宾背景、本集主题、为什么值得关注。]
 
 ## 主要话题
 
-[根据对话内容，划分出 4-7 个主要话题。每个话题用三级标题，格式如下：]
-
-### 1. [话题中文标题]
-
-[2-4 段详细介绍该话题的主要内容、核心观点、重要细节。]
-
-### 2. [话题中文标题]
-
-...
+[根据文稿划分出 4-7 个主要话题，每个用三级标题 ### 1. [话题]，下接 2-4 段详述核心观点与重要细节。]
 
 ## 金句与核心观点
 
-[用 bullet list 列出 4-6 条最值得记住的观点或金句，用中文复述。]
+[bullet list 列出 4-6 条最值得记住的观点或金句，用中文复述。]
 
 ## 适合谁听
 
-[1-2 段，说明这集最适合哪类读者/听众，以及最值得深入了解的部分。]
+[1-2 段，说明最适合哪类听众、最值得深入的部分。]`;
+
+  const formatLite = `## 本集概述
+
+[2-3 段，基于标题与简介，概述本集主题、嘉宾（仅简介/标题已给出的身份）、为何值得关注。不要编造细节。]
+
+## 本集可能涵盖的话题
+
+[把标题/简介中点到的话题逐条展开（### 1. [话题] 形式），每条 1-2 段，解释"这一主题通常关注什么、为何重要"。明确是基于公开主题的合理展开，不要伪造嘉宾原话或具体数字。]
+
+## 适合谁听
+
+[1-2 段，说明最适合哪类听众。]`;
+
+  const prompt = `你是一位专业的播客内容分析师，擅长将长播客提炼为结构清晰的中文解读。
+
+## 任务
+为以下《${episode.source}》播客单集生成中文解读，帮助中文读者快速判断是否值得收听原版。
+
+## 数据来源约束（最重要，优先级高于"内容要丰富"）
+${grounding}
+
+## 单集信息
+${episodeNum ? `- 编号：#${episodeNum}\n` : ''}- 标题：${title}
+- 嘉宾：${guestNames || '（见标题）'}
+- 时长：${episode.duration ?? '未知'}
+- 发布日期：${episode.publishedAt?.slice(0, 10) ?? ''}
+- 节目简介：${intro || '（无简介）'}
+${transcriptSection}
+
+## 输出格式要求
+请输出一篇 Markdown 文章，严格遵守以下结构：
+
+\`\`\`
+${hasTranscript ? formatRich : formatLite}
 \`\`\`
 
 重要说明：
 - 全部使用简体中文，专有名词（人名、品牌、技术术语）保留英文
-- 话题划分要有逻辑，体现对话的实际流程
-- 深度挖掘内容，不要泛泛而谈
-- 如果文稿中有具体数据、故事、例子，请引用
-- 不要在文章开头重复标题`;
+- 不要在文章开头重复标题
+- 再次强调：${hasTranscript ? '依据文稿，不要外推编造' : '只就标题与简介合理展开，绝不编造具体引语、数字与生平'}`;
 
   console.log(`[podcast-analysis] Generating analysis for: ${episode.titleEn}`);
 
@@ -165,7 +182,11 @@ ${transcriptSection}
     messages: [{ role: 'user', content: prompt }],
   });
 
-  const contentMd = res.content[0].text.trim();
+  let contentMd = res.content[0].text.trim();
+  // 无逐字稿时附上来源声明，让读者明确这是基于标题+简介的整理，而非转述全集。
+  if (!hasTranscript) {
+    contentMd += `\n\n---\n\n> ℹ️ 本解读基于节目标题与官方简介由 AI 整理，未获取完整文稿；具体观点、数据与引语请以[原节目](${episode.sourceUrl || ''})为准。`;
+  }
   return { contentMd, analyzedAt: new Date().toISOString() };
 }
 

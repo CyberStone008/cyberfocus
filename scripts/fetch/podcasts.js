@@ -2,7 +2,7 @@
  * podcasts.js
  *
  * Fetches episodes from curated podcast RSS feeds.
- * Currently supports: Lex Fridman, 硅谷101
+ * Currently supports: Lex Fridman, 张小珺商业访谈录, No Priors, 硅谷101
  *
  * Returns an array of PodcastEpisode objects (compatible with the
  * Article interface, stored in data/podcasts.json).
@@ -30,6 +30,27 @@ const FEEDS = [
     feedUrl: 'https://lexfridman.com/feed/podcast/',
     lang:    'en',   // needs translation
     max:     30,
+  },
+  {
+    id:      'zhang-xiaojun',
+    source:  '张小珺商业访谈录',
+    feedUrl: 'https://feed.xyzfm.space/dk4yh3pkpjp3',
+    lang:    'zh',   // 中文，免翻译
+    max:     8,
+  },
+  {
+    id:      'no-priors',
+    source:  'No Priors',
+    feedUrl: 'https://feeds.megaphone.fm/nopriors',
+    lang:    'en',   // needs translation
+    max:     8,
+  },
+  {
+    id:      'sv101',
+    source:  '硅谷101',
+    feedUrl: 'https://feeds.fireside.fm/sv101/rss',
+    lang:    'zh',   // 中文，免翻译
+    max:     8,
   },
 ];
 
