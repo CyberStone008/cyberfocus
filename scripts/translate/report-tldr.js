@@ -26,7 +26,7 @@ const MAX_INPUT_CHARS = 3500;   // 正文开头通常已含主旨；截取足够
 /**
  * @param {string} title  报告标题（中文优先）
  * @param {string} contentMd  已翻译的全文 markdown
- * @returns {Promise<string|null>}  一句话主题说明（≤60字），失败返回 null
+ * @returns {Promise<string|null>}  结论先行的主题说明（1-2句，约60-110字），失败返回 null
  */
 export async function generateReportTldr(title, contentMd) {
   const body = (contentMd ?? '').trim();
@@ -55,24 +55,28 @@ ${clean}
 """
 
 ## 要求
-- 输出 **一句话**（不超过 60 个汉字），点明本报告"讲了什么 / 核心主题或结论"。
-- 直接陈述主题，**不要**用"本文/这篇报告/本报告"开头，不要复述标题。
+- **结论先行**：第一句直接抛出本报告最关键的结论 / 发现 / 主张（最重要的信息放最前）。
+- 可再补一句关键支撑（方法、范围或适用场景之一），帮读者判断要不要读全文。
+- 共 **1-2 句、约 60-100 个汉字**（最多 120），不要分点、不要换行。
+- ⚠️ **数字铁律**：只有当某个数字 / 百分比 / 倍数 / 型号**逐字出现在上面的正文里**，才可以写进来；任何无法在正文中确认的数字一律不要出现，改用定性表述（如"大幅提升""显著领先"）。**宁可不写数字，也绝不编造。**
+- **不要**用"本文/这篇报告/本报告"开头，不要复述标题。
 - 简体中文，专有名词（人名、品牌、技术术语）保留英文。
-- 只输出这句话本身，不要引号、不要任何额外说明或标点前缀。`;
+- 只输出这段话本身，不要引号、不要任何额外前缀。`;
 
   try {
     const res = await client.messages.create({
       model: 'claude-haiku-4-5-20251001',   // DeepSeek 包装层会忽略此 model
-      max_tokens: 200,
+      max_tokens: 320,
       _timeoutMs: 120_000,
       messages: [{ role: 'user', content: prompt }],
     });
     let out = (res.content?.[0]?.text ?? '').trim();
-    // 清掉可能的引号/前缀
-    out = out.replace(/^["“”'`]+|["“”'`]+$/g, '').replace(/^(主题|说明|摘要)[:：]\s*/, '').trim();
-    // 只取第一句，避免模型多写
-    const firstLine = out.split('\n').map((s) => s.trim()).filter(Boolean)[0] ?? '';
-    return firstLine || null;
+    // 合并多行为一段、清掉引号/前缀
+    out = out.replace(/\s*\n+\s*/g, ' ')
+             .replace(/^["“”'`]+|["“”'`]+$/g, '')
+             .replace(/^(主题|说明|摘要|结论)[:：]\s*/, '')
+             .trim();
+    return out || null;
   } catch (err) {
     console.warn(`[report-tldr] 生成失败: ${err.message}`);
     return null;
