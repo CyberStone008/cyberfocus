@@ -300,12 +300,21 @@ async function run() {
           })()
         : await generateFeaturedContent(featured);
 
+      // 基于真实全文生成卡片用的一句话主题说明（溯源铁律；失败则留空，卡片退回 abstract）
+      let tldrZh = null;
+      try {
+        const { generateReportTldr } = await import('./translate/report-tldr.js');
+        tldrZh = await generateReportTldr(translated.find((a) => a.id === featured.id)?.titleZh || featured.titleEn, contentMd);
+        if (tldrZh) console.log(`[pipeline] TL;DR: ${tldrZh}`);
+      } catch (e) { console.warn(`[pipeline] TL;DR 生成失败: ${e.message}`); }
+
       // Apply to the translated array
       const idx = translated.findIndex((a) => a.id === featured.id);
       if (idx !== -1) {
         translated[idx] = {
           ...translated[idx],
           contentMd,
+          ...(tldrZh ? { tldrZh } : {}),
           translator,
           featured: true,
           featuredDate: todayBJ,

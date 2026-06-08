@@ -26,6 +26,7 @@ export interface Article {
   titleZh: string | null;
   abstractEn: string;
   abstractZh: string | null;
+  tldrZh?: string | null;       // 报告卡片用的一句话主题说明（基于全文生成，溯源铁律）
   authors: string[];
   institution?: string;
   thumbnail?: string;

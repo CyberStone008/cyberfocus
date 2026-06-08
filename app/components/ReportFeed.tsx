@@ -595,7 +595,8 @@ function ReportCard({
 }) {
   const meta     = SOURCE_META[a.source] ?? { color: '#6b7280', abbr: a.source.slice(0, 2) };
   const title    = a.titleZh ?? a.titleEn;
-  const abstract = a.abstractZh ?? a.abstractEn ?? '';
+  // 优先用基于全文生成的一句话主题说明；没有再退回原摘要（部分博客抓到的是网站通用 meta 描述）
+  const abstract = a.tldrZh ?? a.abstractZh ?? a.abstractEn ?? '';
 
   const [genState, setGenState] = useState<'idle' | 'loading' | 'done'>(
     (a.hasContent ?? !!a.contentMd) ? 'done' : 'idle'
