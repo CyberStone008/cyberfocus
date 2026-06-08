@@ -1,18 +1,41 @@
 {
   "date": "2026-06-08",
-  "generatedAt": "2026-06-08T00:32:28.269Z",
+  "generatedAt": "2026-06-08T01:33:40.333Z",
   "summary": {
     "aiNews": [
-      "OpenAI计划对ChatGPT进行最大规模改造，并推出新版记忆系统，提升个性化体验。",
-      "福布斯AI 50榜单显示AI初创公司正超越模型规模，转向应用与商业化。",
-      "微软与OpenAI保持距离，分析认为此举对投资者是利好，降低风险敞口。"
+      "OpenAI推出新版ChatGPT记忆系统，提升个性化交互能力。",
+      "福布斯AI 50榜单显示AI初创公司正超越模型规模，行业重心转向应用。",
+      "OpenAI计划对ChatGPT进行最大规模改造，自发布以来首次重大升级。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Mercer报告：未来奖励生态系统超越薪酬与福利，强调整体员工体验。"
+      "SK AX与Mercer推动AI-人类HR模型，在韩国构建智能代理平台。",
+      "Mercer发布报告：未来奖励生态系统超越薪酬与福利，强调全面激励。"
     ]
   },
   "articles": [
+    {
+      "id": "hrorg:mercer:7109f86e63dd",
+      "slug": "hrorg-mercer-7109f86e63dd",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1DSHk5UW1ZeDVnWERuaDdYbGZ1WHhzam9jdEVfY3lwZTVaRGpETkhVbmNJVy10a1pCcHcxbHpUZjlfaGk3VTZCN1NzWTN3dlJxbzE3TEpGSGlrZmlOZkFoS2M3Ny0zakEwbUJYY1hZdEZMaXhCdTlvUVB30gGOAUFVX3lxTFA3eWdjc3VsQk5XS2VjZkdIN3NjeXlvRElBOWRBcFNoTjZLN3N0NVdQVGxTRUY3OGVLTFo5NlZ4QjItSnhYclZVTnc1OUZKc20xQ29pU1p3TXZsODZ0TFV2TEpPUHFTZWhRanJHVTNBZ2REeW4xV2RtZk90ZEs3RE55WWFPZU5DRTFBckpIbmc?oc=5",
+      "publishedAt": "2026-06-08T00:59:00.000Z",
+      "titleEn": "SK AX and Mercer drive AI-human HR model, build agentic platform in Korea - CHOSUNBIZ",
+      "titleZh": "SK AX 与 Mercer 推动 AI-人类 HR 模型，在韩国构建智能代理平台 - CHOSUNBIZ",
+      "abstractEn": "SK AX and Mercer drive AI-human HR model, build agentic platform in Korea - CHOSUNBIZ  Chosunbiz",
+      "abstractZh": "SK AX 与 Mercer 推动 AI-人类 HR 模型，在韩国构建智能代理平台 - CHOSUNBIZ  Chosunbiz",
+      "authors": [
+        "Chosunbiz"
+      ],
+      "institution": "Chosunbiz",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
     {
       "id": "gnews:6eb7240ff0f8",
       "slug": "gnews-6eb7240ff0f8",
