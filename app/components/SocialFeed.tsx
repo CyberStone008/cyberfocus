@@ -57,7 +57,7 @@ function formatTime(iso: string): string {
 // drops contentMd/abstracts/tags/etc. — /social was 4.8MB of inlined data.
 export type SocialItem = Pick<
   Article,
-  'id' | 'source' | 'sourceUrl' | 'titleEn' | 'titleZh' | 'tldrZh' | 'publishedAt' | 'fetchedAt' | 'score' | 'commentCount' | 'commentUrl'
+  'id' | 'source' | 'sourceUrl' | 'titleEn' | 'titleZh' | 'tldrZh' | 'dupCount' | 'dupSources' | 'publishedAt' | 'fetchedAt' | 'score' | 'commentCount' | 'commentUrl'
 >;
 interface Props { articles: SocialItem[]; view?: string; archiveHref?: string }
 
@@ -292,6 +292,14 @@ function SocialCard({ article: a }: { article: SocialItem }) {
           {a.source}
         </span>
         {isNew(a) && <span className={styles.newBadge}>新</span>}
+        {(a.dupCount ?? 0) > 1 && (
+          <span
+            className={styles.dupBadge}
+            title={`${a.dupCount} 家媒体报道：${(a.dupSources ?? []).join('、')}`}
+          >
+            🔗 {a.dupCount} 家报道
+          </span>
+        )}
         {(a.score ?? 0) > 0 && (
           <span className={styles.stat}>▲ {a.score}</span>
         )}

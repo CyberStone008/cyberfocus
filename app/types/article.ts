@@ -27,6 +27,8 @@ export interface Article {
   abstractEn: string;
   abstractZh: string | null;
   tldrZh?: string | null;       // 报告卡片用的一句话主题说明（基于全文生成，溯源铁律）
+  dupCount?: number;            // 去重后：同一新闻被多少家媒体报道（render-only，见 lib/dedupe）
+  dupSources?: string[];        // 去重后：报道这条新闻的媒体名列表（render-only）
   authors: string[];
   institution?: string;
   thumbnail?: string;

@@ -13,6 +13,8 @@ export function toSocialItem(a: Article): SocialItem {
     titleEn: a.titleEn,
     titleZh: a.titleZh,
     tldrZh: a.tldrZh ?? null,
+    dupCount: a.dupCount,
+    dupSources: a.dupSources,
     publishedAt: a.publishedAt,
     fetchedAt: a.fetchedAt,
     score: a.score,

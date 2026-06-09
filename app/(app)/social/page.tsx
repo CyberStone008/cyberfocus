@@ -3,6 +3,7 @@ import sourcesConfig from '../../../data/sources.json';
 import { Article } from '../../types/article';
 import { SocialFeed } from '../../components/SocialFeed';
 import { toSocialItem } from '../../lib/feed-projection';
+import { dedupeNews } from '../../lib/dedupe';
 import { SOURCES, getEffectiveBoards, BoardId } from '../../lib/sources-config';
 
 export default function SocialPage() {
@@ -18,11 +19,11 @@ export default function SocialPage() {
   // keeps the inlined static-HTML payload small (was 4.8MB with the full list).
   const RECENT_DAYS = 21;
   const cutoff = Date.now() - RECENT_DAYS * 86400000;
-  const social = (articles as Article[])
+  const sorted = (articles as Article[])
     .filter((a) => sourceIds.has(a.source))
     .filter((a) => new Date(a.publishedAt).getTime() >= cutoff)
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .map(toSocialItem);
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  const social = dedupeNews(sorted).map(toSocialItem);   // 同一新闻多源 → 只留代表条 + 标注 N 家报道
 
   return <SocialFeed articles={social} archiveHref="/social/all" />;
 }

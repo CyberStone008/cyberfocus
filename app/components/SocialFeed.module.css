@@ -371,6 +371,29 @@
   border-color: #4ade8040;
 }
 
+.dupBadge {
+  position: relative;
+  z-index: 2;            /* 在拉伸 cardLink 之上，hover 能出 title 提示 */
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  font-weight: 600;
+  background: #6366f114;
+  color: #6366f1;
+  border: 1px solid #6366f133;
+  line-height: 1.6;
+  cursor: help;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .dupBadge {
+  background: #818cf820;
+  color: #a5b4fc;
+  border-color: #a5b4fc40;
+}
+
 .discussLink {
   position: relative;
   z-index: 3;
