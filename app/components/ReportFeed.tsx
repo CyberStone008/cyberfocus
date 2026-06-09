@@ -655,6 +655,14 @@ function ReportCard({
           <span className={styles.manualBadge}>手动添加</span>
         )}
         {isNew(a) && <span className={styles.newBadge}>新</span>}
+        {(a.dupCount ?? 0) > 1 && (
+          <span
+            className={styles.dupBadge}
+            title={`${a.dupCount} 家媒体报道：${(a.dupSources ?? []).join('、')}`}
+          >
+            🔗 {a.dupCount} 家报道
+          </span>
+        )}
         <span className={styles.cardDate}>{getDateKey(a.publishedAt)}</span>
 
         {/* Action button — sits above the stretched cardLink via z-index */}

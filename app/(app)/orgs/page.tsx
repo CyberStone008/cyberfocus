@@ -3,6 +3,7 @@ import sourcesConfig from '../../../data/sources.json';
 import { Article } from '../../types/article';
 import { ReportFeed } from '../../components/ReportFeed';
 import { toReportItem } from '../../lib/feed-projection';
+import { dedupeNews } from '../../lib/dedupe';
 import { SOURCES, getEffectiveBoards, BoardId } from '../../lib/sources-config';
 
 export default function OrgsPage() {
@@ -13,10 +14,10 @@ export default function OrgsPage() {
       .map((s) => s.id)
   );
 
-  const sorted = (articles as Article[])
+  const sortedRaw = (articles as Article[])
     .filter((a) => sourceIds.has(a.source))
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .map(toReportItem);
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  const sorted = dedupeNews(sortedRaw).map(toReportItem);   // 同一机构动态多源 → 只留代表 + N 家报道
 
   return (
     <ReportFeed
