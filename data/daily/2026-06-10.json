@@ -1,0 +1,761 @@
+{
+  "date": "2026-06-10",
+  "generatedAt": "2026-06-09T16:14:36.648Z",
+  "summary": {
+    "aiNews": [
+      "Anthropic获Apollo和Blackstone支持350亿美元产能扩张，并与Broadcom达成新合作。",
+      "DeepSeek接近完成74亿美元融资，由腾讯和宁德时代领投，估值或超300亿美元。",
+      "美国出版商要求Common Crawl停止抓取并删除存档，引发AI训练数据版权争议。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "万宝盛华集团报告：第三季度全球招聘前景稳定，中型雇主最乐观。",
+      "万宝盛华集团发现：雇主在招聘中仍更信任人类而非AI，强调人性化决策。",
+      "印度招聘前景虽从峰值回落，但仍是全球最强，雇主整体保持乐观。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "hn:48462823",
+      "slug": "hn-48462823-sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48462823",
+      "publishedAt": "2026-06-09T15:59:41.000Z",
+      "titleEn": "'Sloppenheimer:' Amazon Employees Mock the Company's AI on Slack",
+      "titleZh": "“Sloppenheimer”：亚马逊员工在Slack上嘲讽公司AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "doener"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 9,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:5aab799262c8",
+      "slug": "gnews-5aab799262c8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbFA5U1F5QUJxUzRPajhCRFp4RXpLbzlxQWJOdjlqVTdPRnBwMmVTSXNoNTQ1U1JBWmc2NHVTeHlCaXhoRkFwaUVqOXRHNVFHSkE4N2dPNVRrcy0yZnh3M1IwV0hXX0hiaVdRVGpQUzBkNGlIcDZkVTluM2xvakR3aG5VWVpLdmRhTkUxR2NJWDVhWmhEdHVhNTBDc3RYV2V3cDBaVk1HY2FMaDlZTElsbmYtOUs2WjlpR24yRUJCeE4xMkk?oc=5",
+      "publishedAt": "2026-06-09T15:53:45.000Z",
+      "titleEn": "Apollo, Blackstone back Anthropic's $35 billion capacity expansion in new Broadcom tie-up",
+      "titleZh": "Apollo 和 Blackstone 支持 Anthropic 350 亿美元产能扩张，与 Broadcom 达成新合作",
+      "abstractEn": "Apollo, Blackstone back Anthropic's $35 billion capacity expansion in new Broadcom tie-up  Reuters",
+      "abstractZh": "Apollo 和 Blackstone 支持 Anthropic 350 亿美元产能扩张，与 Broadcom 达成新合作  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48462428",
+      "slug": "hn-48462428-judge-learns-both-sides-used-ai-cancels-trial-kicks-everyone-off-the",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.404media.co/judge-learns-lawyers-on-both-sides-of-case-used-ai-cancels-trial-kicks-everyone-off-the-case/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48462428",
+      "publishedAt": "2026-06-09T15:30:19.000Z",
+      "titleEn": "Judge Learns Both Sides Used AI, Cancels Trial, Kicks Everyone Off the Case",
+      "titleZh": "法官发现双方均使用AI，取消庭审并将所有人逐出案件",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "arto"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48462062",
+      "slug": "hn-48462062-can-llms-beat-classical-hyperparameter-optimization-algorithms",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2603.24647",
+      "commentUrl": "https://news.ycombinator.com/item?id=48462062",
+      "publishedAt": "2026-06-09T15:01:15.000Z",
+      "titleEn": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
+      "titleZh": "LLM能否超越经典超参数优化算法？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "galsapir"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 31,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:2573572d217f",
+      "slug": "gnews-2573572d217f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNMXllNG5qNURlZG55MzA4TERCWUFTckhxdlF4NzMtT0dZY0g3ZE5yM09UZWNLeEwzbFBGR3Vob0t5QlFnNGJQcFo0SXcxak00Ni1rd0ZXN19EYXpNa05menJMaThYNko5Q3VIM3BNa0IwYkNTRTBMWHFWcWY4azVTSnV3N3BVd1p5WUdGRmlReHkteXZhdm1VNGM1OURQN3ZsTDZSTlNraVhUNlM3TkRpVjk4QkZuSDZkMnczTTlScWhYTENLZDE5eVBCbGt3a080cnlQX2k0Qi14WVRlR3dRdm9lWEVFWlJUWFhmZDlSdEJ1SzN6Tm5PeQ?oc=5",
+      "publishedAt": "2026-06-09T15:00:00.000Z",
+      "titleEn": "Center for AI Safety Names Former Robinhood and Meta Executive Rochelle Nadhiri as Head of Public Engagement",
+      "titleZh": "AI安全中心任命前Robinhood和Meta高管Rochelle Nadhiri为公共参与负责人",
+      "abstractEn": "Center for AI Safety Names Former Robinhood and Meta Executive Rochelle Nadhiri as Head of Public Engagement  Business Wire",
+      "abstractZh": "AI安全中心任命前Robinhood和Meta高管Rochelle Nadhiri为公共参与负责人（Business Wire）",
+      "authors": [
+        "Business Wire"
+      ],
+      "institution": "Business Wire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4d01155499d5",
+      "slug": "gnews-4d01155499d5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUU9TQklQQjgzQUNadmZqMTA0UDVBUklHcno5eU93VWlacTN3ajVDODROczA5YlRpZGlza05wS3AxWGhobDFDNVliNTNFRUExRWR1RjVvelZGUW5pRml4YUR0TmpkbjV4OXNQMkxlQlVpVlNFM083ZHcwOVp0dXNXRnRHdVk1VW00VEc3YzFJbGJyc2M0eG9MVmlEcDVqSkFwclNzMURB?oc=5",
+      "publishedAt": "2026-06-09T14:28:44.000Z",
+      "titleEn": "Anthropic’s Claude Mythos Launches Today: Crypto Security Shock Ahead?",
+      "titleZh": "Anthropic 的 Claude Mythos 今日上线：加密货币安全冲击将至？",
+      "abstractEn": "Anthropic’s Claude Mythos Launches Today: Crypto Security Shock Ahead?  Yahoo Finance",
+      "abstractZh": "Anthropic 的 Claude Mythos 今日上线：加密货币安全冲击将至？  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:83de9a15c661",
+      "slug": "gnews-83de9a15c661",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJRX2Rta1dQZ19DQm41ajVyQk5qbEd0ZnNUeFBIRGhCNkU2QndEUXc2UEHSAYwBQVVfeXFMTTluYzdGZjJxa083MDVRdU9BYU9paUtaQVl1WWE5VndvYkVtZjNDTnhKeUI1alBtSEdfclhzUTZIWHJGU05EcnIwa0pGUHNHZHJ0d1ZWQWR4N2FpcHRwS3VBZFhrWU01dEQ4NTZfNWFVYXU0TUhQSE1nRzZUcDNZZGdwMXhfbi1NeDFValo?oc=5",
+      "publishedAt": "2026-06-09T14:12:03.000Z",
+      "titleEn": "What to know about the OpenAI IPO - ABC News",
+      "titleZh": "关于 OpenAI IPO 需要了解什么 - ABC 新闻",
+      "abstractEn": "What to know about the OpenAI IPO  ABC News - Breaking News, Latest News and Videos",
+      "abstractZh": "关于 OpenAI IPO 需要了解什么  ABC 新闻 - 突发新闻、最新新闻和视频",
+      "authors": [
+        "Breaking News, Latest News and Videos"
+      ],
+      "institution": "Breaking News, Latest News and Videos",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48461311",
+      "slug": "hn-48461311-unified-controllable-and-faithful-text-to-cad-generation-with-llms",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.19773",
+      "commentUrl": "https://news.ycombinator.com/item?id=48461311",
+      "publishedAt": "2026-06-09T14:04:54.000Z",
+      "titleEn": "Unified Controllable and Faithful Text-to-CAD Generation with LLMs",
+      "titleZh": "基于LLM的统一可控且忠实文本到CAD生成",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "PaulHoule"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 26,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:20a1c19eb873",
+      "slug": "gnews-20a1c19eb873",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHowXzRwdHlULWFSX193NmNJTzBVYmE1OGFKZ1VITEZSN0lFdklXWjUtQWNtbVVyZVhuaTRtcHZzWFRRaXd0dDJOSnlmZWdDeWgxR0M0bzlrVG5pTXh3UGluTXZHakY0ZXVyR1FDb3RDYWJubXQwTTYxMksyYXMtR0k1dGZjOVBQckJrTkxMX015YVZNd3FvS3g0X1RvQlRXZDRBalZVQmp1Ui04Z1FadE9SSGFHQ2ZLRGVYVjdfT1d3b1ZSWDBXTW1EX0xvRlg1YmNFME5ObF96U0wyM1RzTExkb2tTNGfSAewBQVVfeXFMTzJlWXZ2NjV2ajVMNEZrMndlcUZrODI2SHNGaThkV3RUbjBWZDdCejdSUHVqbUdnMmo3bkZXOHp3bjZveUt1Sml1dG94alJxSVp4c21iUjZJVEMzNHdsbnVBTWFBZHZKcURNTWJwNDhLUFp6S0hyOWMzbFZoTjRJS3AxUWp2bGx3d25DaGhIMG9HbE1NSFZ1QmgxLWkxVGJyWFJMajZnN1V3UzVDaGp2YVpmak5OTTJ4czNKaDlfUkQtNHYxX2lZbVJiS0oxQ2l3Z1haZ0Z5Y0ZITVliUkIxUzE4MTJiOG5CZDg0bW0?oc=5",
+      "publishedAt": "2026-06-09T14:04:38.000Z",
+      "titleEn": "TRREB Welcomes Launch of Canada’s New National Artificial Intelligence Strategy",
+      "titleZh": "TRREB 欢迎加拿大启动新的国家人工智能战略",
+      "abstractEn": "TRREB Welcomes Launch of Canada’s New National Artificial Intelligence Strategy  The Manila Times",
+      "abstractZh": "TRREB 欢迎加拿大启动新的国家人工智能战略  《马尼拉时报》",
+      "authors": [
+        "The Manila Times"
+      ],
+      "institution": "The Manila Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48461144",
+      "slug": "hn-48461144-us-publishers-tell-common-crawl-to-stop-scraping-and-delete-archive",
+      "source": "Hacker News",
+      "sourceUrl": "https://pressgazette.co.uk/media_law/common-crawl-ai-news-publishers-scraping-cease-and-desist-letter/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48461144",
+      "publishedAt": "2026-06-09T13:49:37.000Z",
+      "titleEn": "US publishers tell Common Crawl to stop scraping and delete archive",
+      "titleZh": "美国出版商要求Common Crawl停止抓取并删除存档",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "thm"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 20,
+      "commentCount": 7,
+      "tags": []
+    },
+    {
+      "id": "gnews:b19507e66d27",
+      "slug": "gnews-b19507e66d27",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLXpld0ptU2Rfcjk4MFFPS2o4dGJNYUozRFFHMGEwbHUwT0ZZR2hGLWt6WFVKcE1MdnlXSWlwdlRKUzItT29pc3NHOGJVWHdGNGxLT0FYc0JZdlhfbXNjenAyZUJaNkFudXdiM2dOblhIVkd3QnExMUljMkR1dWxiSEFkSUJpUzhTMGdDLURn?oc=5",
+      "publishedAt": "2026-06-09T13:46:28.000Z",
+      "titleEn": "OpenAI Tests Investor Appetite for Yet Another Giant I.P.O.",
+      "titleZh": "OpenAI 测试投资者对又一轮大规模 IPO 的兴趣",
+      "abstractEn": "OpenAI Tests Investor Appetite for Yet Another Giant I.P.O.  The New York Times",
+      "abstractZh": "OpenAI 测试投资者对又一轮大规模 IPO 的兴趣  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433565-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433565.html",
+      "publishedAt": "2026-06-09T13:40:54.000Z",
+      "titleEn": "内蒙跑通AI逆袭新解法",
+      "titleZh": "内蒙跑通AI逆袭新解法",
+      "abstractEn": "全行业的Token焦虑何解？",
+      "abstractZh": "全行业的Token焦虑何解？",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:manpower:248a37c7fd20",
+      "slug": "hrorg-manpower-248a37c7fd20",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaDViYkxOQ2NUM1ItZE9jZXE1R0RHaHRyd0cwTHFoRVVSQ216ZEtZVHNtWml1cGtRanpGTDFyTnB3Um4xOGlPX3FhMUsyNVBGLVRCeXJFbVZtNkVnaTlab1dJdkpuOWJ2QjloaE1MOURGQXA5M1ZuanAwNzlVdHoyTlhfLUlPQnFkS0ZwWGktUW5HS29JdXptZnk4OU5EckFzN3FKOTF6TjJBVFp4Z29MemhSZVRmY2c5UlZYVjRnRnVXX05JRUNNbW1KZzlTbDFtNlRsVHRWRFgzdw?oc=5",
+      "publishedAt": "2026-06-09T13:31:00.000Z",
+      "titleEn": "Global Hiring Outlook Holds Steady in Q3 With Mid-Size Employers Showing Most Optimism",
+      "titleZh": "第三季度全球招聘前景保持稳定，中型雇主最为乐观",
+      "abstractEn": "Global Hiring Outlook Holds Steady in Q3 With Mid-Size Employers Showing Most Optimism  PR Newswire",
+      "abstractZh": "第三季度全球招聘前景保持稳定，中型雇主最为乐观（PR Newswire）",
+      "authors": [
+        "PR Newswire"
+      ],
+      "institution": "PR Newswire",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:114f890559a3",
+      "slug": "hrorg-manpower-114f890559a3",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVUxLYjkxRWhXZFdWX0E5MHgwMTFyaFhvQXlYbk55Mloybl9zVzJKTVVFcEN0T1RSMGIwdHlZYTF6eFRVT05CSlFpVUxQaDRYYXkzVHk4ZjFLUGtKejI0U1ZBUnpmaTVUbUdMcDR3MVdVWXZoMk5KUWc0aVg0UjRJLUpXajdRaWhtc3ppbk5vNHlYSF96cnRYZ2ZrSUFpMm5xT2JLNEZtankxTzBPN2FPSlF3LWtid3JKQUE?oc=5",
+      "publishedAt": "2026-06-09T13:31:00.000Z",
+      "titleEn": "Employers still trust humans over AI in hiring, ManpowerGroup finds",
+      "titleZh": "万宝盛华集团发现：雇主在招聘中仍更信任人类而非AI",
+      "abstractEn": "Employers still trust humans over AI in hiring, ManpowerGroup finds  Stock Titan",
+      "abstractZh": "万宝盛华集团发现：雇主在招聘中仍更信任人类而非AI —— Stock Titan",
+      "authors": [
+        "Stock Titan"
+      ],
+      "institution": "Stock Titan",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hn:48460863",
+      "slug": "hn-48460863-is-grep-all-you-need-how-agent-harnesses-reshape-agentic-search",
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.15184",
+      "commentUrl": "https://news.ycombinator.com/item?id=48460863",
+      "publishedAt": "2026-06-09T13:27:03.000Z",
+      "titleEn": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "titleZh": "Grep就够了吗？Agent工具如何重塑智能体搜索",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Anon84"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 30,
+      "commentCount": 13,
+      "tags": []
+    },
+    {
+      "id": "gnews:5ecda4a8a0af",
+      "slug": "gnews-5ecda4a8a0af",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDVvQ1FsN2U2LV9wbmUtcHI3Mk9PWFh5anZFVHlJVHFtc2wzZ0V3TjVYb0FOWVFhZFhTczhqUjRWWTgyU25HemV5dzdZYWQyTDBrZTJLZloxTXMzYTRUbXNxbGd4Q3pDYmtQbEhGTjVQWVFLT2t6UTZZTllIMUc5YVNSUlRMUU16NWxKX2VR?oc=5",
+      "publishedAt": "2026-06-09T13:23:15.000Z",
+      "titleEn": "Pakistan Commits to Train One Million in AI",
+      "titleZh": "巴基斯坦承诺培训一百万人掌握AI技术",
+      "abstractEn": "Pakistan Commits to Train One Million in AI  Let's Data Science",
+      "abstractZh": "巴基斯坦承诺培训一百万人掌握AI技术（Let's Data Science）",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:be4c1ff1a46f",
+      "slug": "gnews-be4c1ff1a46f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZ0tDaUowaW5LSHktMC1TVW9uZEwxaXBOU3JkR0E4eVdhNHFvbWI3QzY1Z010eFNPaV9YTFlwb0oteTNUaUxjOFBUQm5MZV9TN2RSc3UxbFVnRmdfOUR3TDU0VnNHV1RiRW8wY3hCZXktNlJRcXFucGhhWU0wMmp0Ty14cFJJcTc1eHN5UEVJMm81RmduajM1dFYyZnBJb29SZkRjSk9SOTNBTm9tT0Z3YVhIMTRxT1ZDMzRMdWlyNW1jMkJYZFF4enpwTTN1ZEwyWTl6WGtrT3NVaWpGLUUxUmlzU0dzMWhNTkdUMGJHdHlvaHgzYnpGb2tn?oc=5",
+      "publishedAt": "2026-06-09T13:00:42.000Z",
+      "titleEn": "The Great American Artificial Intelligence Act Would Reshape AI Regulation, Cybersecurity Compliance, and Developer Oversight",
+      "titleZh": "《美国伟大人工智能法案》将重塑 AI 监管、网络安全合规与开发者监督",
+      "abstractEn": "The Great American Artificial Intelligence Act Would Reshape AI Regulation, Cybersecurity Compliance, and Developer Oversight  Clearance Jobs",
+      "abstractZh": "《美国伟大人工智能法案》将重塑 AI 监管、网络安全合规与开发者监督  Clearance Jobs",
+      "authors": [
+        "Clearance Jobs"
+      ],
+      "institution": "Clearance Jobs",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:00e51fffb194",
+      "slug": "gnews-00e51fffb194",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcDR6bVlDRklWZkRfbWNlYVpMM1FNLV9wbW02MzdiZnBIM1BHRHhrQXUyZVlmT0VMYmNjVER0TXBwVzc5OVk5d3dDWVdvMExhTVdpaDJTQjUyN1M5QkFhQzhHVFYwU0VmN1pkQW8zUXJoNzREaFNBUV8xM08xNjVRWHNhek1aV1k5ZmVuX2NOcGJBaVBUY0Uxc3cxU1pONDY3MTdZWFJ6R1pzaUZUcm9XdWxmQ1FkR0lKclEwTjNSU193RkhlVU1hRzdhYldOdlNxTHRyZ0hUSzFCazBjUkdSNkJJaWQzSnBkZy1oN1diNGo?oc=5",
+      "publishedAt": "2026-06-09T13:00:00.000Z",
+      "titleEn": "Cye 2026 Global AI and Cyber Maturity Report Reveals a Wide-spread Gap in Turning AI Policy Into Action",
+      "titleZh": "Cye 2026年全球AI与网络成熟度报告揭示将AI政策转化为行动方面存在广泛差距",
+      "abstractEn": "Cye 2026 Global AI and Cyber Maturity Report Reveals a Wide-spread Gap in Turning AI Policy Into Action  PR Newswire",
+      "abstractZh": "Cye 2026年全球AI与网络成熟度报告揭示将AI政策转化为行动方面存在广泛差距（PR Newswire）",
+      "authors": [
+        "PR Newswire"
+      ],
+      "institution": "PR Newswire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:boss-zhipin:25a6807d86d8",
+      "slug": "hrorg-boss-zhipin-25a6807d86d8",
+      "source": "BOSS直聘",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxQZVFGTFFSTkIyenVreDZHU05Tb0RJS2oyUHUxOWxNd3FCNlMwbWc4dkYzdkpManBIM2FKMk9HU0xCaFJzT3lydHlJZk5HQWNfaHZpYlVJYWFXcUVCOVNGZjhYZnY4RkJXQnlmeVpRWV9XaXd2WGZ4VVlOaGUzNmljeV9hZnBBZG40Z0d0OWxTeHUzSE11MXp4cVF2TFVmWkNraXFxNlMwMDdIbERSeDZDVzBWMjlTOTlySEx4b2FiRkt5YVVaV2VzWXh1ZE1MQUp5SGg5bGo1MHBZWGNpSlFsZ0pVTWw5bHVZQVgwc083STlaQlROVHRvSE1sdGJzSkxVNWFSVVN0WTJPNGNDV2lkRzlMYTR0Mm4wOXhQNnVEVXRCZlR3b19jZDQ3VkNfSzgtZmdqb3lJbm1Ja0FWVkZ3cm1CWHpPTndnNlE4QTBLRDNhcmFieFJhSjJCX0p2U2VWemVUV3V6UUVGOUs2SkpYM09GaHgtUXhZUGx4TGpYXzdPQlBFakhSYlk4TGdhbDFIbkdPcWZET04zQUI1Y3BnX3BEbjcxWTBmTjQtaUdfSV9NMzlqVWtBSy1oTEwwRmpoUk5BV1lQZUdKQ2puSWJpcU1RQ2xDSGp2cVotY2s4LU52eThrczd0RFVHZ2hzSlh6?oc=5",
+      "publishedAt": "2026-06-09T12:55:43.000Z",
+      "titleEn": "【ESG动态】BOSS直聘-W（02076.HK）获华证指数ESG最新评级BBB，行业排名第1",
+      "titleZh": "ESG动态：BOSS直聘-W（02076.HK）获华证指数ESG最新评级BBB，行业排名第1",
+      "abstractEn": "【ESG动态】BOSS直聘-W（02076.HK）获华证指数ESG最新评级BBB，行业排名第1  MSN",
+      "abstractZh": "ESG动态：BOSS直聘-W（02076.HK）获华证指数ESG最新评级BBB，行业排名第1 —— MSN",
+      "authors": [
+        "MSN"
+      ],
+      "institution": "MSN",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:512684fdb994",
+      "slug": "gnews-512684fdb994",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb2dvZWp2ZjFzZFJqcEdRZWJ2RFIxYXl1bFJaTmhqd2RBdktab0RrZ0liT1FWbE1GZWtCSGg2V1dwX2UxZGRUYnctUmZLX1VWbWtfMk5oczNDcEI4djJIM3hmVEZvSzZRS3RTVTR3c1JHcXc0aUxCbVpPVmN4QVZCLU9OdFpVa3duMkhlcF9nMW5aTW55SWVQb1V2ZG9tWGhwVDRIVzZELUNDdmtka053V0FTdklwMG5SRFNNZGs0WWVrTUdnLVpkZ1RORXE?oc=5",
+      "publishedAt": "2026-06-09T12:42:32.000Z",
+      "titleEn": "deepseek nears 7 4 billion funding led by tencent and catl",
+      "titleZh": "DeepSeek接近完成74亿美元融资，由腾讯和宁德时代领投",
+      "abstractEn": "deepseek nears 7 4 billion funding led by tencent and catl  Indiatimes",
+      "abstractZh": "DeepSeek接近完成74亿美元融资，由腾讯和宁德时代领投（Indiatimes）",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:479aa340a2d5",
+      "slug": "gnews-479aa340a2d5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNa0lERTI3Uy1GLVZzX2tvazQxdVBrN2RBSDBaSUNGT0oyMzR5eFZ5cDJxbVFvWGt1RnJSSlJkbXltY3hOU2pFOUNTREFDUXBOR3dRTTZpTG40b2MtSk42Y3N6UlZkMWhmOVpjaWpIOEdicHpDRW9weXQyVUE5SzM2bS0yQmwweGV1Ni0tV3VSMEpKNlpOWWlIUWkwb3hmYXVXek1uMjFPX2MydHhld1ZCaG80RmpDczBsSVNnZ0IwbmtockhJSXJpYjNBR0xsb0lLNEZTOUFLR1VLMENqR29KM0lReXpkZnlubUQ1RFl1Nk9qYlctOERTeGViMnVoOGhDVEN3TDVaZlFUSTNqMUM3b3B6LW9vcUwzanpuYXBCd1NkNVotWXVYcNIBrgJBVV95cUxNYzZYN29KSVlfTzJtdktyZ1hzLW92ZFJGTUVTVjNzZWZtMXRLVHFiRGlfSTN4R2hSUElLNE9BX05iWWVUai1pTHJVUUVDV2lsRW9OV28xTktXMWozWmFGakRoRnBKWkhUMk9EZU9nQ1BrS1VTOURULU02S2lHY0dpbXFEcFdRWFBVOXJsUEh4NEEzR2JDTTYtd3htZjhXdTBOQTNYeHlLOWg2bS1MNFNIZG5uTUVrTkYxSlUwMDFZNjM0ajRpR2p2alB5Z0IxYVZiMWVaMkRyRWxHWUI2U2thYTRTcGhWRjJQYXZ6RXRzY2g1NlNIdVpyZHNSX3FCTGJZdjhpR093bWNZT0xUSWFRTE9qRURXQmltdkd4REVoVmdwU2NJeExQb0FIYnNvQQ?oc=5",
+      "publishedAt": "2026-06-09T12:38:27.000Z",
+      "titleEn": "ENvue Medical Launches AI Training Platform Establishing Artificial Intelligence Foundation for Robotic Feeding Tube Navigation",
+      "titleZh": "ENvue Medical 推出 AI 训练平台，为机器人鼻饲管导航奠定人工智能基础",
+      "abstractEn": "ENvue Medical Launches AI Training Platform Establishing Artificial Intelligence Foundation for Robotic Feeding Tube Navigation  The Manila Times",
+      "abstractZh": "ENvue Medical 推出 AI 训练平台，为机器人鼻饲管导航奠定人工智能基础  《马尼拉时报》",
+      "authors": [
+        "The Manila Times"
+      ],
+      "institution": "The Manila Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3895496996b6",
+      "slug": "gnews-3895496996b6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORV9BNzBIZ1dnUm9oc2JzeWpUQ1EydDBkejR3cDNzYWM4cWEwSFhUXzltdEthdFZtRWdXMlV5bVQydlNLdUg4cVdpaUpiRHlibGVzU1lJMG4xVGdzMG9uTmdZS0c1UXg5MnMxQnVXUzFMVW9vV3lZUjJiUm8wN255RGpNYS15OGE2dnQ3R1k1SnQxWE1raXFqZXFLZkIyQnhBcGhTZFpleFNtUzZTcFVhTWwwVGRxamFrRkMwckdMaTM?oc=5",
+      "publishedAt": "2026-06-09T12:17:00.000Z",
+      "titleEn": "New AI coach 'Ask Oscar' trains hospital staff on feeding tubes",
+      "titleZh": "新型AI教练“Ask Oscar”培训医院员工使用饲管",
+      "abstractEn": "New AI coach 'Ask Oscar' trains hospital staff on feeding tubes  Stock Titan",
+      "abstractZh": "新型AI教练“Ask Oscar”培训医院员工使用饲管  Stock Titan",
+      "authors": [
+        "Stock Titan"
+      ],
+      "institution": "Stock Titan",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9a9589c32bc4",
+      "slug": "gnews-9a9589c32bc4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdUl6aFFKc0hVTHdSdWVHRndaRzdxd0FLOTdwY3kxQ05QUnVCS1RmWFJJT1psTWxfcnd4TzMtU1d1RWdUREU1cU1La05VQjNmbUMxQlpSbmlwVGFRUFhmdUR2ZHl2aU1iRkxqR0hjVjlmZHhpRHdMd0RtVTR4V3NPMEJpVFVSSEk0U2R4VlNpSkhuNDdKdzNPWTdqNFMwbFh0RmFXYU5WNVZZdGFjd0w0TGhUMlQyck1IekF6YlZtRGxXaFZtUUo1X3ZjOWdIcC1qMWpJbVBCcw?oc=5",
+      "publishedAt": "2026-06-09T11:59:44.000Z",
+      "titleEn": "Juncker and Keller-Sutter to address Zurich finance summit as banks face AI and regulation shake-up",
+      "titleZh": "Juncker和Keller-Sutter将在苏黎世金融峰会上发表演讲，银行业面临AI与监管变革",
+      "abstractEn": "Juncker and Keller-Sutter to address Zurich finance summit as banks face AI and regulation shake-up  The European Magazine",
+      "abstractZh": "Juncker和Keller-Sutter将在苏黎世金融峰会上发表演讲，银行业面临AI与监管变革（The European Magazine）",
+      "authors": [
+        "The European Magazine"
+      ],
+      "institution": "The European Magazine",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c84fe77f6097",
+      "slug": "gnews-c84fe77f6097",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcjVJaGFreV91OTBoekFjTDh2NTV5SUVfZUR4OHRUQlRVTHgzcVpLVjBjX3ppOHJEMVoyeU1YalRkNldJVXdwY2VsdXRUaXVVbU1qbDFwZXl5c1NjSmsyZlZYNnIxOWZMNnpOdTJlZ0I0ZGNBcmRLQ01zaEU4VTJsd2lxbw?oc=5",
+      "publishedAt": "2026-06-09T11:51:13.000Z",
+      "titleEn": "Belgian VC Pitchdrive caps Fund IV at €60M as rising AI costs reshape early-stage ticket sizes — TFN",
+      "titleZh": "比利时风投Pitchdrive将第四期基金规模上限设为6000万欧元，AI成本上升重塑早期投资规模 — TFN",
+      "abstractEn": "Belgian VC Pitchdrive caps Fund IV at €60M as rising AI costs reshape early-stage ticket sizes — TFN  Tech Funding News",
+      "abstractZh": "比利时风投Pitchdrive将第四期基金规模上限设为6000万欧元，AI成本上升重塑早期投资规模 — TFN（Tech Funding News）",
+      "authors": [
+        "Tech Funding News"
+      ],
+      "institution": "Tech Funding News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:ff8516a9e071",
+      "slug": "hrorg-manpower-ff8516a9e071",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN29JampPQ3pCcmJYbm50a2FLYnRiNjRQNy1LZUN3NmlpbjlpWWs3Uk9SRGk1SS1heWltYVV3cjRDQnozNEtXLUVRQXdEWjZtX0hoZEpMc2RzMVJPRE9WN2hpaWI2R3dwWTlRMGx4d0JwZVVpWGlyMUhpdnpGdUQtcXdXZmdQWEZtTzhtcHUtY2FUaExweXc?oc=5",
+      "publishedAt": "2026-06-09T11:27:45.000Z",
+      "titleEn": "ManpowerGroup Sees India Hiring Outlook Ease While Staying Strongest Globally",
+      "titleZh": "万宝盛华集团：印度招聘前景虽有所放缓，但仍为全球最强",
+      "abstractEn": "ManpowerGroup Sees India Hiring Outlook Ease While Staying Strongest Globally  Prittle Prattle News",
+      "abstractZh": "万宝盛华集团：印度招聘前景虽有所放缓，但仍为全球最强 —— Prittle Prattle News",
+      "authors": [
+        "Prittle Prattle News"
+      ],
+      "institution": "Prittle Prattle News",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:dac31693f809",
+      "slug": "gnews-dac31693f809",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZjBfWTUtM05OV2N1aTlwQW90ZUJBczl0bEY3ZEpkMVpVSElsVkRRYUtmVkFlTjV1SHlxVzR1RDhMRDFkdjVNOHlEbER0TzdTUEJwa2xGX0tmRnNUdTNWenllbXNPQ0ttWlZKdTdxbnBVVEMzczBETHcwbEpHdWM0dVR5TQ?oc=5",
+      "publishedAt": "2026-06-09T11:14:00.000Z",
+      "titleEn": "US Court Sanctions Lawyers For Submitting AI-Generated Briefs",
+      "titleZh": "美国法院因律师提交AI生成的简报而对其进行制裁",
+      "abstractEn": "US Court Sanctions Lawyers For Submitting AI-Generated Briefs  BeInCrypto",
+      "abstractZh": "美国法院因律师提交AI生成的简报而对其进行制裁（BeInCrypto）",
+      "authors": [
+        "BeInCrypto"
+      ],
+      "institution": "BeInCrypto",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48458586",
+      "slug": "hn-48458586-cleaning-up-after-ai-rockstar-developers",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48458586",
+      "publishedAt": "2026-06-09T09:10:10.000Z",
+      "titleEn": "Cleaning up after AI rockstar developers",
+      "titleZh": "为AI明星开发者收拾残局",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "BrunoBernardino"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 293,
+      "commentCount": 206,
+      "tags": []
+    },
+    {
+      "id": "gnews:9ebb0abf93aa",
+      "slug": "gnews-9ebb0abf93aa",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMm8wUUNQS1FMaktpY21TMzZUOTJISjhHMjRvMGpDMzNaVEtOWTl0cDRhS25NTXpDaUVmN2Z2dEVTLTJjQTNyZnZaSmpnMTVrTDk5MTMtbFc4c1RVSnhfSVZFOUtXV2VIMTBTejMzb083QjlVZGp2VGtMS0k1VTBROFdkQ2MwR2I5RjJR?oc=5",
+      "publishedAt": "2026-06-09T08:53:52.000Z",
+      "titleEn": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses",
+      "titleZh": "DevOps 中的自主 AI 数据丢失：构建高效防御",
+      "abstractEn": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses  AI News",
+      "abstractZh": "DevOps 中的自主 AI 数据丢失：构建高效防御  AI 新闻",
+      "authors": [
+        "AI News"
+      ],
+      "institution": "AI News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-l1nrampntbiamrzp-html",
+      "slug": "ai-tabbit-1-0",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/l1NRaMPNtbIamRZp.html",
+      "publishedAt": "2026-06-09T08:48:00.000Z",
+      "titleEn": "美团发布AI浏览器Tabbit 1.0，可自动执行各类任务",
+      "titleZh": "美团发布AI浏览器Tabbit 1.0，可自动执行各类任务",
+      "abstractEn": "6月9日，美团旗下GN06团队宣布AI原生浏览器Tabbit 1.0正式上线。Tabbit是浏览器形式的AI入口，内置多款头部大模型，用户输入需求后，Tabbit可自动执行跨软件、跨网页等各类复杂任务。据介绍，Tabbit标准版永久免费，Windows、macOS同步上架，移动端也已开启测试。用户可前往官网（www.tabbit.com）下载使用。",
+      "abstractZh": "6月9日，美团旗下GN06团队宣布AI原生浏览器Tabbit 1.0正式上线。Tabbit是浏览器形式的AI入口，内置多款头部大模型，用户输入需求后，Tabbit可自动执行跨软件、跨网页等各类复杂任务。据介绍，Tabbit标准版永久免费，Windows、macOS同步上架，移动端也已开启测试。用户可前往官网（www.tabbit.com）下载使用。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:85b7659883dd",
+      "slug": "gnews-85b7659883dd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZnBENW9pNHlGSVV0N0ZqTmlCT2ozMzB5YVd3SjJYSmR1T3FyVnd6dFNhSmNZVG5jUl8wc09JMHowZ0c1bWdLaHBNUGFoT1JncHNBMTdLM1VaeVgxUzh4Tjd3VEQ2RE1PTk1lc1FBX2IyNHVybE9NMElzTTktOFdfcFlNNG1RblIyMXYxY2pJUzJfaVJFMW42TXB3OHZCdWplRTNsalluYnVuQQ?oc=5",
+      "publishedAt": "2026-06-09T08:38:31.000Z",
+      "titleEn": "Hub71 Startups Surpass USD 2.7B in Funding as Abu Dhabi Strengthens Its Tech Ecosystem",
+      "titleZh": "Hub71初创企业融资总额突破27亿美元，阿布扎比强化其科技生态系统",
+      "abstractEn": "Hub71 Startups Surpass USD 2.7B in Funding as Abu Dhabi Strengthens Its Tech Ecosystem  waya.media",
+      "abstractZh": "Hub71初创企业融资总额突破27亿美元，阿布扎比强化其科技生态系统（waya.media）",
+      "authors": [
+        "waya.media"
+      ],
+      "institution": "waya.media",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:bc598fa1d926",
+      "slug": "gnews-bc598fa1d926",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOenpNY0tCbFMxVTd4WFRjX2FpU0ROVlhNbkNYQ2gyN3Q3STNZWFJmcGtzLTVQRGI0NjN0Mzc0X1JSZGkxUUtoN3M4bDhUajRxeE5YUlBzbWg1bkhfSkEtZkRaQkNicjNGeGFDNDBYcXNuTGNTaHhaYndDUmkwLWo1R2ZDaXpnalVZVnhwYWpkb0FtMmpjRkE?oc=5",
+      "publishedAt": "2026-06-09T08:26:53.000Z",
+      "titleEn": "Bye-Bye FAANG, Hello MANGOS: Will SpaceX, OpenAI, Anthropic IPOs Herald A New Wall Street Order?",
+      "titleZh": "再见 FAANG，你好 MANGOS：SpaceX、OpenAI、Anthropic 的 IPO 会开启华尔街新秩序吗？",
+      "abstractEn": "Bye-Bye FAANG, Hello MANGOS: Will SpaceX, OpenAI, Anthropic IPOs Herald A New Wall Street Order?  Yahoo Finance",
+      "abstractZh": "再见 FAANG，你好 MANGOS：SpaceX、OpenAI、Anthropic 的 IPO 会开启华尔街新秩序吗？  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:d07d4a87d602",
+      "slug": "hrorg-manpower-d07d4a87d602",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywJBVV95cUxONWZoZzRqU0ljaElKVXFQejF6OFJRM0JWckIyT0lXQTFYUk1CdldITXNPWV9tZlpLZ0lCV0VrRnkwelF5Zjk5Zmk0bzJUaXFDTzJqR2ZldV84UWxMMXh2TFM5MUpiem1abWoxXzZ2ZllvSUpQVVhSTU45WEhTa1hENlBzNmVVOW1KNkxIQTh2MnljVWw4NThybzFOMklGYlQ3X2lja3ZMVkpnb1Z6WUxrbnZ1bjdlSmIzdXZNZFBqRVo0QTV3VVZINFJVRVFKamtwSU5VTGNKb0hXMjh0VGIweUNkTjBQOGN3S0hWbE5pb0F2aGVHdEJjWGh4UVAzQmVSMVVIWHNWaThBU0c0anVZbVpYZExRa0hNN0ZWZV9Fa0NhRFIwdnlKcTdHREJZS0EtbFFPeVo3ZUt4MG5QWUdGTEVvMEpVV2RiaTRv?oc=5",
+      "publishedAt": "2026-06-09T07:34:45.000Z",
+      "titleEn": "India's Employment Outlook Softened from a Peak Last Quarter; Employers Remain Positive Overall but are Becoming More Selective in Hiring.",
+      "titleZh": "印度就业前景从上季度峰值回落；雇主整体保持乐观，但招聘时更加谨慎",
+      "abstractEn": "India's Employment Outlook Softened from a Peak Last Quarter; Employers Remain Positive Overall but are Becoming More Selective in Hiring.  Dailyhunt",
+      "abstractZh": "印度就业前景从上季度峰值回落；雇主整体保持乐观，但招聘时更加谨慎 —— Dailyhunt",
+      "authors": [
+        "Dailyhunt"
+      ],
+      "institution": "Dailyhunt",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:a3616128cb4b",
+      "slug": "gnews-a3616128cb4b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkVscnFRSnRVd1RsakdibDRIdVMzRjdnV3lDQ3A5S21UaUgxWVB2TVJVXzRxRGpmRjhlMHcxZHdaZFVzY2RpaDNhTm5jRmZPQ0pXeERad2F1S1cyOHNCVEgwNTNNRlFpU0dVelRlcjdWSzc2QlQtX1JOdUtNcUdwaHQ5VWZkR3dsYkFNQnpfck9nU0hYQUs5NDV0eGMwSFFLNFRobmN4N3A5cGp4bUdQVmw2SGZ4Y1JBTVl5eDIySjNHZGJB?oc=5",
+      "publishedAt": "2026-06-09T05:04:33.000Z",
+      "titleEn": "Exclusive | Startup Beacon Software Raises $225 Million to Expand Venture Roll-Up Strategy",
+      "titleZh": "独家 | 初创公司Beacon Software融资2.25亿美元以扩展风险投资整合策略",
+      "abstractEn": "Exclusive | Startup Beacon Software Raises $225 Million to Expand Venture Roll-Up Strategy  WSJ",
+      "abstractZh": "独家 | 初创公司Beacon Software融资2.25亿美元以扩展风险投资整合策略（WSJ）",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2716af4dc638",
+      "slug": "gnews-2716af4dc638",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV2lTejliZVJWV0doeDNEYVAxYnlHblhXQmQ1LTRQcW1ZYjROMFVDUkM4QWx0bEludlBwYzQ3aDVHYVg2bEZVOXpGQmlGNDd3OEtBb1VhWnhkVWtlNE1zaGhhU0Yzb3NHd2pQa1hEdWt3bkF4b2NnTEw2WGJIT1QxdGV6RjhZTF9xV1Z4bDZBeGdPU2gtMFpuYjkweU43dEZrQW5RWQ?oc=5",
+      "publishedAt": "2026-06-09T04:29:00.000Z",
+      "titleEn": "OpenAI makes move to go public one week after rival Anthropic",
+      "titleZh": "OpenAI 在竞争对手 Anthropic 一周后采取行动上市",
+      "abstractEn": "OpenAI makes move to go public one week after rival Anthropic  Hürriyet Daily News",
+      "abstractZh": "OpenAI 在竞争对手 Anthropic 一周后采取行动上市  《自由日报》",
+      "authors": [
+        "Hürriyet Daily News"
+      ],
+      "institution": "Hürriyet Daily News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    }
+  ]
+}
