@@ -1,20 +1,384 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-09T05:17:58.634Z",
+  "generatedAt": "2026-06-09T10:42:01.731Z",
   "summary": {
     "aiNews": [
-      "DeepSeek开招土木老哥，自建GW级数据中心，加速算力基础设施布局。",
-      "OpenAI提交IPO申请，AI公司涌向华尔街，与Anthropic展开新竞赛。",
-      "近九成儿童使用AI，报告警示教育与情感依赖问题，引发行业关注。"
+      "苹果推出AI助手升级版，强化端侧智能与隐私保护，标志其正式加入AI竞争。",
+      "Anthropic指出生物智能体瓶颈在数据基础设施而非模型，推动行业关注数据治理。",
+      "OpenAI提交重磅IPO申请，AI巨头加速进军公开市场，估值或创历史新高。"
     ],
     "papers": [],
     "hrOrgs": [
-      "调查显示新加坡雇主在招聘意愿趋软背景下仍愿为AI技能支付溢价。",
-      "ManpowerGroup调查发现2026年Q3 APME地区招聘势头放缓，技能仍是焦点。",
-      "日本五大招聘巨头面临反垄断调查，或影响行业格局。"
+      "ManpowerGroup调查显示新加坡雇主愿为AI技能支付溢价，反映全球技能需求转向。",
+      "日本五大招聘巨头遭反垄断调查，或重塑亚太人力资源市场格局。",
+      "Mercer报告称Ibex 35公司全员覆盖健康保险，凸显企业福利竞争加剧。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:d5371d074d25",
+      "slug": "gnews-d5371d074d25",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVmdCZjlzWkRCUWJrYWh5RXkyVHZJZEVHbnk2ZGVJWVQ5dlR4RFdydXczTHdpdm00UkpCdWZxNTUtenBmUk5hQjRQcV9iWEFhbVB6aWlrSFhIVTFOdUN0bHR6dWVnVFM4cU9LeHVxc2lQTkh6VmZseV9oaFZUODJIbjBJRHp5V3dQZVFod0NwZE54T1ppT2F1U3IyNUhvb3o2?oc=5",
+      "publishedAt": "2026-06-09T10:25:08.000Z",
+      "titleEn": "Norfork Council to discuss AI Policy, sewer project funding Tuesday",
+      "titleZh": "Norfork 市议会将于周二讨论 AI 政策与下水道项目资金",
+      "abstractEn": "Norfork Council to discuss AI Policy, sewer project funding Tuesday  KTLO",
+      "abstractZh": "Norfork 市议会将于周二讨论 AI 政策与下水道项目资金  KTLO",
+      "authors": [
+        "KTLO"
+      ],
+      "institution": "KTLO",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:325dd7ad66d4",
+      "slug": "gnews-325dd7ad66d4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OSTAzQU9EbVRJc0d1aUpqMk1GNE5ZbGxfVlc5dzNRSnZWaTFiLUJxNzNfTnZZM3EyMGRDN2tjUWs5cTNOazF3R2lic2tBZ0g5OGJj?oc=5",
+      "publishedAt": "2026-06-09T10:12:02.000Z",
+      "titleEn": "Anthropic's Latest Blog: The Bottleneck for Biological Agents: Models Aren't the Issue, Data Infrastructure Is",
+      "titleZh": "Anthropic 最新博客：生物智能体的瓶颈——模型不是问题，数据基础设施才是",
+      "abstractEn": "Anthropic's Latest Blog: The Bottleneck for Biological Agents: Models Aren't the Issue, Data Infrastructure Is  36Kr",
+      "abstractZh": "Anthropic 最新博客：生物智能体的瓶颈——模型不是问题，数据基础设施才是  36Kr",
+      "authors": [
+        "36Kr"
+      ],
+      "institution": "36Kr",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8b194f6051e2",
+      "slug": "gnews-8b194f6051e2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0WDNseWFfc0ZidGVqczllelh3eVZhZmNVVkk2b0xzMkU0MnZCcUxTWTNLXzR2Y0xaaTIydGQtbkNVbkxDZ3NURnB0d3MwWF9OSDhPUjROZklvZVFZUG5VTDNPcUh5NmlhSlE?oc=5",
+      "publishedAt": "2026-06-09T09:33:45.000Z",
+      "titleEn": "Apple finally ships its AI assistant upgrade",
+      "titleZh": "苹果终于推出其AI助手升级版",
+      "abstractEn": "Apple finally ships its AI assistant upgrade  Axios",
+      "abstractZh": "苹果终于推出其AI助手升级版  Axios",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d9b9c0e58b43",
+      "slug": "gnews-d9b9c0e58b43",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVWgtMEg5VFNzRXQtRmNabDNKeGdfWW1DeXI3enIzLUpLeHlOZDZaZnlqMUZDVDJtV29wRGVDZUJEWllUbHFNVVd6eUh0TzFmRzV6cy11THNIRlItZU1lUkVOUmlkRXB2STFvSGd0S2tPZFA3cGswM09RZjRaUlBHbEpUY2tqR1AySWItVmtHeHRfaTFOcU5jWnRodi1ZaXhTYUZzUG1JUGd0aDBZNEdFMW92ZHQ2TW1wbVhRUElHYUI2R1pObXNNQw?oc=5",
+      "publishedAt": "2026-06-09T09:17:44.000Z",
+      "titleEn": "1 in 3 UK Customers Comfortable With AI in Insurance but Want Human Checks and Robust Regulation",
+      "titleZh": "三分之一的英国客户对保险业使用AI感到满意，但希望有人工审核和严格监管",
+      "abstractEn": "1 in 3 UK Customers Comfortable With AI in Insurance but Want Human Checks and Robust Regulation  Claims Media",
+      "abstractZh": "三分之一的英国客户对保险业使用AI感到满意，但希望有人工审核和严格监管 Claims Media",
+      "authors": [
+        "Claims Media"
+      ],
+      "institution": "Claims Media",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433517-html",
+      "slug": "ceo-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433517.html",
+      "publishedAt": "2026-06-09T09:12:19.000Z",
+      "titleEn": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
+      "titleZh": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
+      "abstractEn": "祝大家都能找到，属于自己的驱动力",
+      "abstractZh": "祝大家都能找到，属于自己的驱动力",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:30a3ecd316f8",
+      "slug": "gnews-30a3ecd316f8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1COUpieGpiNEdPZ2hDWVVma3JGOFl1RjcwY2lHNUx2azkxanpFRVRaMXBpYUhoZHJRbVNBRzAxWmxydFBSVF8xazNpUVBNSDlXUUJ6bTNuN1NtcExMTS1mc1ByNA?oc=5",
+      "publishedAt": "2026-06-09T09:08:00.000Z",
+      "titleEn": "Oklahoma Ethics Commission, political leaders weigh future of AI-generated ads",
+      "titleZh": "俄克拉荷马州伦理委员会与政治领袖探讨 AI 生成广告的未来",
+      "abstractEn": "Oklahoma Ethics Commission, political leaders weigh future of AI-generated ads  KOSU",
+      "abstractZh": "俄克拉荷马州伦理委员会与政治领袖探讨 AI 生成广告的未来  KOSU",
+      "authors": [
+        "KOSU"
+      ],
+      "institution": "KOSU",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:e04df246ac71",
+      "slug": "hrorg-mercer-e04df246ac71",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeGtYdzRXTHFYRDhRMEtQN2lRano3elRCa2RkamRLOXROa194YmtVWU5QcEo0cHlZQlFRbk83SHA2MDBHVUFFejk2Rl9EZnBHTlZiZEduUVA4aWFVWjBGTkMzVGN1bnJ5eTB0WS1adVFRc3gtTDdUNlFlYVM3aUdCaGZjZXVfakgtMG9paXRfX3dZOXZhNXhNeUNxdjROYVpzNlFrb1VzWjdsRmRQVG12UFY3MEEzeEpScDg40gHAAUFVX3lxTE43cHFGUmFQUkVFY0Q5M2dCYkhDQzZTNGxpUVdxSnZCdkdyZFdNY2I0Y2tObGxQb0R1ajJLT0cteWo0TzVlN0w2bEUwdGR0QmVDbGU4ODlveHZoRVRyaW9tMkRGMnMxVWtRa1pXdFdldTNMdDQ0SkZWTzRqVmZ6MU4zWExJbjF1UGd0eXo4aUpQWHMtRlRCazFGZ1VZdXdpYm92NDhLNWdPM19UeEJvZjlNRDFlNHdIU2VlMDJ0ME1GTA?oc=5",
+      "publishedAt": "2026-06-09T08:38:40.000Z",
+      "titleEn": "All Ibex 35 companies include health insurance for their staff, according to Mercer",
+      "titleZh": "根据Mercer报告，所有Ibex 35公司均为其员工提供健康保险",
+      "abstractEn": "All Ibex 35 companies include health insurance for their staff, according to Mercer  Demócrata",
+      "abstractZh": "根据Mercer报告，所有Ibex 35公司均为其员工提供健康保险 Demócrata",
+      "authors": [
+        "Demócrata"
+      ],
+      "institution": "Demócrata",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:721d51d6f100",
+      "slug": "gnews-721d51d6f100",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qcXl2R1BtSFZydUxGakRKaG4xWnlkczNxanJNNkhmT3RoMWRtODNmSGJQcVZibzlKMUwxSUZUNm12d2tIMTVNZWF6VHBOcHdnOFl5a0k0dDNyTUk2cFBWYWJvMnVBenhrUFp3U1VPTVlOUHc?oc=5",
+      "publishedAt": "2026-06-09T08:30:02.000Z",
+      "titleEn": "Germany to create AI safety agency",
+      "titleZh": "德国将设立 AI 安全机构",
+      "abstractEn": "Germany to create AI safety agency  Tech Xplore",
+      "abstractZh": "德国将设立 AI 安全机构  Tech Xplore",
+      "authors": [
+        "Tech Xplore"
+      ],
+      "institution": "Tech Xplore",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:52abb1dd666b",
+      "slug": "hrorg-manpower-52abb1dd666b",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTmltV3pfVGlJRDA0ZHV5TWVjMEhDUFJrX1RibE5jZVJVVHlMUF9aOFB0RXh3VlZYSXFpMlZEZ2NnWVRPVnNMSmY0YTNENk05QkJIQkpUVDJadHdOZkQyU0VGVHpHYnpqcW0tazNreXZNSkpzZjhVdW81Sm9faGpjUF9RWUJDdDY5RHhFWkhseXQtT3hVc2VzNDIxcC02WWNWUWVJcDZZOUVYZXB2NGNKTkViRUVLVjRib215em5jMGI0UGdWTWh5Z1NtUWhLTWZrS1RYR181MUw0S3BJdzUw0gHkAUFVX3lxTE82WnczYjRtUzhMbjE2bW5WdV9SZ0VZNkRmYUZ2SDR0VDVqSFVmRVlzQzBIT29PODhOREZrdlhzMGFHMDhRdHhGYThwZVdid0Q5bE94SEJWM2wwcV92WjFZb3ZhaWQ4QXhqbXJ4OFVoZUlRdy02WUlfYm5HY3BhQl9ndEJodk1TaEdZeW4ya2lpRzk1LTZOQ01LSHoxZUl4ZGVCLTNzV2Z1eUNrYUFJN3JxLWxHVzI1RS1jdHh6Qk91UTUzZWhXZG5xanNZR2d3RmV6dGY4eTBwbXA1VW9rQ2hSdDhIcA?oc=5",
+      "publishedAt": "2026-06-09T08:22:03.000Z",
+      "titleEn": "Indian Employers Turn Cautious For July-Sep Quarter Amid Global Uncertainties: Report",
+      "titleZh": "报告：全球不确定性下，印度雇主对7月至9月季度持谨慎态度",
+      "abstractEn": "Indian Employers Turn Cautious For July-Sep Quarter Amid Global Uncertainties: Report  ETV Bharat",
+      "abstractZh": "报告：全球不确定性下，印度雇主对7月至9月季度持谨慎态度 ETV Bharat",
+      "authors": [
+        "ETV Bharat"
+      ],
+      "institution": "ETV Bharat",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:11f378c70ccf",
+      "slug": "gnews-11f378c70ccf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ3llWExDYmFUYVJpOXAwcWlQUVZXUXJpRG1qMkRrdnFGWVlRSm9zVXNFM2dOVUFQdHBENmI1ak9tX0o4WGpndnQ2dWdHa0ZGbmhWOUVFMXp4YWdnRWxxZDJyWUJxNlFJRFdyeWF3cW5PbndCbDdLNEpVbDk3Vjc5RmZxelBMS3BZc1FxZWp3Zm1hbjdQTFE?oc=5",
+      "publishedAt": "2026-06-09T08:00:04.000Z",
+      "titleEn": "q.beyond launches “AI Act as a Service”",
+      "titleZh": "q.beyond 推出《AI 法案即服务》",
+      "abstractEn": "q.beyond launches “AI Act as a Service”  TradingView",
+      "abstractZh": "q.beyond 推出《AI 法案即服务》  TradingView",
+      "authors": [
+        "TradingView"
+      ],
+      "institution": "TradingView",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-kdfy44s9ezfikxvd-html",
+      "slug": "latent-labs-simon-kohl-ai-cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/KDFY44S9EzFIKxVD.html",
+      "publishedAt": "2026-06-09T07:49:00.000Z",
+      "titleEn": "从诺奖项目到生成式药物设计，Latent Labs 创始人 Simon Kohl：AI 正在让生物学进入「可编程时代」 | CVPR 2026",
+      "titleZh": "从诺奖项目到生成式药物设计，Latent Labs 创始人 Simon Kohl：AI 正在让生物学进入「可编程时代」 | CVPR 2026",
+      "abstractEn": "作者｜吴思梦\n编辑｜岑峰\n \n2026年6月3日，计算机视觉与模式识别顶级会议（CVPR）在美国丹佛举行。在大会特邀演讲环节，前 DeepMind 蛋白质设计团队核心成员、2024年诺贝尔化学奖获奖项目 AlphaFold 核心研究员，Latent Labs 创始人兼 CEO Simon Kohl 发表了题为“Programmable Biology：Generative AI for Molecular Design”的精彩演讲。\n围绕当今药物发现领域最核心的痛点：一种新药从研发到上市平均耗时超过10年、花费超20亿美元，但九成候选药物最终失败。\n而Simon Kohl认为，这一切的根源在于“我们从错误的分子出发”。为此，他提出了一条从“结构预测”到“条件生成”再到“自主智能体”的技术跃迁路线。\n演讲以AlphaFold 2为起点，回顾了蛋白质结构预测突破如何催生生成式药物设计；随后展示",
+      "abstractZh": "作者｜吴思梦\n编辑｜岑峰\n\n2026年6月3日，计算机视觉与模式识别顶级会议（CVPR）在美国丹佛举行。在大会特邀演讲环节，前 DeepMind 蛋白质设计团队核心成员、2024年诺贝尔化学奖获奖项目 AlphaFold 核心研究员，Latent Labs 创始人兼 CEO Simon Kohl 发表了题为《Programmable Biology：Generative AI for Molecular Design》的精彩演讲。\n围绕当今药物发现领域最核心的痛点：一种新药从研发到上市平均耗时超过10年、花费超20亿美元，但九成候选药物最终失败。\n而Simon Kohl认为，这一切的根源在于“我们从错误的分子出发”。为此，他提出了一条从“结构预测”到“条件生成”再到“自主智能体”的技术跃迁",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48457830",
+      "slug": "hn-48457830-microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-de",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48457830",
+      "publishedAt": "2026-06-09T07:33:16.000Z",
+      "titleEn": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "titleZh": "微软开源工具遭黑客攻击，用于窃取AI开发者密码",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "raffael_de"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 176,
+      "commentCount": 76,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433508-html",
+      "slug": "ai-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433508.html",
+      "publishedAt": "2026-06-09T07:11:48.000Z",
+      "titleEn": "与爱为舞亮相腾讯云AI产业应用大会，深耕教育大模型，打造下一代学习Agent",
+      "titleZh": "与爱为舞亮相腾讯云AI产业应用大会，深耕教育大模型，打造下一代学习Agent",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-gb1m547vcomitjrr-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/gb1m547vcoMiTJRR.html",
+      "publishedAt": "2026-06-09T07:09:00.000Z",
+      "titleEn": "滴滴率先接入微信 AI 生态，一键唤起叫车服务全程不跳转",
+      "titleZh": "滴滴率先接入微信 AI 生态，一键唤起叫车服务全程不跳转",
+      "abstractEn": "随着微信正式面向开发者提供AI生态接入能力，滴滴作为首批合作伙伴，已与微信团队合作将核心网约车服务融入微信AI Agent。未来，用户通过微信内AI交互，即可直接唤起滴滴快车、专车、特惠等服务。\n当用户在微信中产生出行需求，只需说一句“帮我叫一辆滴滴去机场”，“我要打滴滴回家，要特惠快车或者快车”即可根据行程距离、时效需求与个人偏好，自动推荐最优车型，一键唤起叫车服务，全程不跳转，极速出发。\n据了解，滴滴顺风车、滴滴代驾等更多服务也将接入微信AI生态。\n从对话到上车，滴滴用十多年出行能力沉淀，让微信里的每一次出行都聪明、精准、可靠。",
+      "abstractZh": "随着微信正式面向开发者提供AI生态接入能力，滴滴作为首批合作伙伴，已与微信团队合作将核心网约车服务融入微信AI Agent。未来，用户通过微信内AI交互，即可直接唤起滴滴快车、专车、特惠等服务。\n当用户在微信中产生出行需求，只需说一句“帮我叫一辆滴滴去机场”，“我要打滴滴回家，要特惠快车或者快车”即可根据行程距离、时效需求与个人偏好，自动推荐最优车型，一键唤起叫车服务，全程不跳转，极速出发。\n据了解，滴滴顺风车、滴滴代驾等更多服务也将接入微信AI生态。\n从对话到上车，滴滴用十多年出行能力沉淀，让微信里的每一次出行都聪明、精准、可靠。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:manpower:2031825f0c6e",
+      "slug": "hrorg-manpower-2031825f0c6e",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQUloeGZhQWZLVFJvOG9KckU4bkdjWUdza0xwT29IQ2ZQeUEwTkYtSzNPdnpuWlJyU1ByS0dxM2RRMVMwblFpX08yWkI3UzJYbmdJaUp5Z0xReXJRdnVZV3BZaVBfMllsTGlpWWoxNkgycHJVdjk4Sl81M0pSREVyVHg1aEw5Y0lJQndRNE9MRG8yNVg4bmFr?oc=5",
+      "publishedAt": "2026-06-09T06:39:36.000Z",
+      "titleEn": "Employers signal strong hiring intentions for third quarter",
+      "titleZh": "雇主表示第三季度招聘意愿强烈",
+      "abstractEn": "Employers signal strong hiring intentions for third quarter  London Business News",
+      "abstractZh": "雇主表示第三季度招聘意愿强烈 London Business News",
+      "authors": [
+        "London Business News"
+      ],
+      "institution": "London Business News",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chips-8qdt8enj1uwj7cqt-html",
+      "slug": "agent-cpu-6-agentic-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chips/8QdT8eNj1uWJ7cQt.html",
+      "publishedAt": "2026-06-09T06:08:00.000Z",
+      "titleEn": "Agent时代的CPU军备竞赛，至强6+如何把Agentic AI变成生产力？",
+      "titleZh": "Agent时代的CPU军备竞赛，至强6+如何把Agentic AI变成生产力？",
+      "abstractEn": "今年的数据中心采购出现了一个反常情况，CPU开始缺货了。\n英特尔市场营销集团副总裁、中国区总经理郭威在发布会上给出了一组数字：2026年一季度，中国AI算力需求同比爆涨417%；与此同时，CPU与GPU的配比已经从过去的1:8，逐步走向1:4、1:2，部分场景甚至达到了1:1。\n这不是宏观预测，是正在发生的现实。英特尔数据中心集团副总裁、中国区总经理陈葆立透露，某国内头部大模型厂商从去年到今年，CPU需求增长了5倍。\n\n英特尔数据中心集团副总裁、中国区总经理陈葆立\n需求从哪里来？答案是Agent。\n与传统推理不同，Agent不是完成一次问答就结束，而是持续执行任务——调度工具、查询数据库、管理记忆、创建子Agent。这些工作绝大多数落在CPU身上，不是GPU。Agent越多，CPU的压力越大，缺货也就不难理解了。\n近期英特尔在北京举办数据中心创新日，发布首款基于Intel 18A制程的数据",
+      "abstractZh": "今年的数据中心采购出现了一个反常情况，CPU开始缺货了。\n英特尔市场营销集团副总裁、中国区总经理郭威在发布会上给出了一组数字：2026年一季度，中国AI算力需求同比爆涨417%；与此同时，CPU与GPU的配比已经从过去的1:8，逐步走向1:4、1:2，部分场景甚至达到了1:1。\n这不是宏观预测，是正在发生的现实。英特尔数据中心集团副总裁、中国区总经理陈葆立透露，某国内头部大模型厂商从去年到今年，CPU需求增长了5倍。\n\n英特尔数据中心集团副总裁、中国区总经理陈葆立\n需求从哪里来？答案是Agent。\n与传统推理不同，Agent不是完成一次问答就结束，而是持续执行任务——调度工具、查询数据库、管理记忆、创建子Agent。这些工作绝大多数落在CPU身上，不是GPU。Agent越多，CPU的压力越大",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:d25a8c5060a7",
+      "slug": "gnews-d25a8c5060a7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckpybmRJTWNLaWtuaUs4azZKNm5oQ0xoU28yeV9kelNJcVJqSlpfYl9sWTExUk95ZHd3UVFUeEFyRzBlc3hvcWRKX2xXZ0JvRzZUbkRpSDQxVnlPZS1uMmFfWnN4VVAxcUpESmNpbkpvSnRFYjZhN25PRWNsRXJzdkJHZHdya09YWlBKaVhjdnZrZTRQNXgyTDVPZjRyaWxrSDBCbmpNUWU3NDN0cWswcWppdU1vZUxyODRBYndR?oc=5",
+      "publishedAt": "2026-06-09T05:48:20.000Z",
+      "titleEn": "Can AI Regulation Keep Up With the Global AI Race?",
+      "titleZh": "AI 监管能否跟上全球 AI 竞赛的步伐？",
+      "abstractEn": "Can AI Regulation Keep Up With the Global AI Race?  ET BrandEquity",
+      "abstractZh": "AI 监管能否跟上全球 AI 竞赛的步伐？  ET BrandEquity",
+      "authors": [
+        "ET BrandEquity"
+      ],
+      "institution": "ET BrandEquity",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:0db0542d6692",
       "slug": "gnews-0db0542d6692",
@@ -60,6 +424,48 @@
       ]
     },
     {
+      "id": "gnews:25d60b96a17c",
+      "slug": "gnews-25d60b96a17c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUhJWjNuY3RXempoVzhYRTBBSklZLUlNR3l0ZDV1YnNzME9SRDJTa0g2WkEwUTNldlhFeEVkTU1nWFlWSUdFSmR5VmVNYUJGaUM0Vi01UW82TjF6ZF9EalF3dmZ2VndYRUd5dUlpM2xQeF9GbUFBcVFfMjBoRV9oQTJUbEFudV8weXhaRGtIN1YyYlk5VTJtOF9OXzY3cU10ZmtRRm5ZSDRwWWRPWHFTdGQxVGFmRXYtOVI3dzNiUmxHZw?oc=5",
+      "publishedAt": "2026-06-09T04:20:00.000Z",
+      "titleEn": "OpenAI files for blockbuster IPO as AI giants head to public markets",
+      "titleZh": "OpenAI 提交重磅 IPO 申请，AI 巨头纷纷进军公开市场",
+      "abstractEn": "OpenAI files for blockbuster IPO as AI giants head to public markets  AFR",
+      "abstractZh": "OpenAI 提交重磅 IPO 申请，AI 巨头纷纷进军公开市场  AFR",
+      "authors": [
+        "AFR"
+      ],
+      "institution": "AFR",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433478-html",
+      "slug": "4b",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433478.html",
+      "publishedAt": "2026-06-09T04:17:04.000Z",
+      "titleEn": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+      "titleZh": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+      "abstractEn": "效果比肩GPT-5.4",
+      "abstractZh": "效果比肩GPT-5.4",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "gnews:24d675be5694",
       "slug": "gnews-24d675be5694",
       "source": "Google AI News",
@@ -80,6 +486,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-vpfbndcvbz9lubuo-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/VpFBnDCVbZ9lUbUo.html",
+      "publishedAt": "2026-06-09T02:58:00.000Z",
+      "titleEn": "“超级明星创企”昆仑行机器人正式浮出水面",
+      "titleZh": "“超级明星创企”昆仑行机器人正式浮出水面",
+      "abstractEn": "从3月份网上爆出前阿里集团副总裁任庚联合前理想汽车智驾一号位郎咸朋创业的新闻以来，这个备受市场关注的具身智能企业正式浮出水面。近日，从北京经开区传出相关消息，昆仑行机器人科技有限公司正式落地北京亦庄经开区，经开区主要领导与公司创始人任庚及核心团队开展了专项会晤，明确成立专班定向支持这家“超级明星创企”。\n昆仑行今年3月正式在北京亦庄经开区完成工商注册，两周内核心团队全部到岗，短短2月内完成企业基础架构搭建、人才规模化集聚、研发体系搭建等一系列关键工作。资本端更是备受青睐，成立初期便斩获顶级机构重磅投资、被头部资本真金白银坚定锁仓，成为2026年具身智能赛道备受瞩目的“超级明星创企”。\n\n昆仑行创始人任庚，是国内具身智能赛道极度稀缺的，集阿里云千亿营收商业一号位、华为全球化发展中的海外国家CEO、超5万人大型集团总裁经验于一身的全能型行业领军人物。任庚职业生涯起步于华为，是华为最年轻的国家C",
+      "abstractZh": "从3月份网上爆出前阿里集团副总裁任庚联合前理想汽车智驾一号位郎咸朋创业的新闻以来，这个备受市场关注的具身智能企业正式浮出水面。近日，从北京经开区传出相关消息，昆仑行机器人科技有限公司正式落地北京亦庄经开区，经开区主要领导与公司创始人任庚及核心团队开展了专项会晤，明确成立专班定向支持这家“超级明星创企”。\n昆仑行今年3月正式在北京亦庄经开区完成工商注册，两周内核心团队全部到岗，短短2月内完成企业基础架构搭建、人才规模化集聚、研发体系搭建等一系列关键工作。资本端更是备受青睐，成立初期便斩获顶级机构重磅投资、被头部资本真金白银坚定锁仓，成为2026年具身智能赛道备受瞩目的“超级明星创企”。\n\n昆仑行创始人任庚，是国内具身智能赛道极度稀缺的，集阿里云千亿营收商业一号位、华为全球化发展中的海外国家CE",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "量子位:https-www-qbitai-com-2026-06-432747-html",
@@ -177,6 +603,28 @@
         "Reuters"
       ],
       "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b124ccce6217",
+      "slug": "gnews-b124ccce6217",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUW1DOTEtTE9LWERXV0hyTU83aG5mOXpJTmN4Wkw4dHF3NUpCZHR6WXkyYTZUaHN6Y2x6Q1lnM3hQU0owR1d1bi1qbWZTOGJGVTUtT3ZyYkdFeXJVMEhMY3RwbHJlV3RxMmxMTVBtU3hhQlRwc1gxX3ZlT2lMX2xIallTTDV0RnJBYjhQV3pMUC1CR0xQdUE?oc=5",
+      "publishedAt": "2026-06-09T00:55:33.000Z",
+      "titleEn": "OpenAI files to go public as giants battle for largest IPO",
+      "titleZh": "OpenAI 申请上市，巨头竞逐史上最大 IPO",
+      "abstractEn": "OpenAI files to go public as giants battle for largest IPO  The Times",
+      "abstractZh": "OpenAI 申请上市，巨头竞逐史上最大 IPO  The Times",
+      "authors": [
+        "The Times"
+      ],
+      "institution": "The Times",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -527,6 +975,28 @@
         "BLABBERMOUTH.NET"
       ],
       "institution": "BLABBERMOUTH.NET",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0bbf44a1f3d9",
+      "slug": "gnews-0bbf44a1f3d9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FJYXdqcEJac0hlSTNib2dhTTZDeFZLY0V2T3lNTFFYWWhObmRNOFJPNVEyNGNIUFhNaThpVGk2VEFvVTNMZndvZWg4ZFBFVTN0ZUVqd1UtVk91R3lON3VHVUJUdDVYTzIxdnBHcUk2dFN2WHhOOXkyMkhkalQtZjRHb25EWHpMRTVUaEdyWmNPODlhb3daUlVWZ2JmSHhkODFOdG1OR0ZIc3IxbDl2VU1R?oc=5",
+      "publishedAt": "2026-06-08T21:17:00.000Z",
+      "titleEn": "OpenAI files for US IPO after Anthropic as AI giants head to public markets",
+      "titleZh": "继 Anthropic 之后，OpenAI 提交美国 IPO 申请，AI 巨头进军公开市场",
+      "abstractEn": "OpenAI files for US IPO after Anthropic as AI giants head to public markets  Reuters",
+      "abstractZh": "继 Anthropic 之后，OpenAI 提交美国 IPO 申请，AI 巨头进军公开市场  Reuters",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -955,6 +1425,28 @@
         "9to5Mac"
       ],
       "institution": "9to5Mac",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e7b153fea0ee",
+      "slug": "gnews-e7b153fea0ee",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDc0poWWVRZXlzMldPQXVoMWdSeWZSSFBSeG96QjdWWUNJc1g2ZXE5V253SWhOWmpfWlUwVDhubGdTY1dYYXljektTaFp1NHhuSVFGczBEM3NmWGNVWGVsSHFB?oc=5",
+      "publishedAt": "2026-06-08T17:46:55.000Z",
+      "titleEn": "Paving the way for agents in biology",
+      "titleZh": "为生物学中的智能体铺平道路",
+      "abstractEn": "Paving the way for agents in biology  Anthropic",
+      "abstractZh": "为生物学中的智能体铺平道路  Anthropic",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1539,6 +2031,28 @@
         "AIM Media House"
       ],
       "institution": "AIM Media House",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cb08c04aa382",
+      "slug": "gnews-cb08c04aa382",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuOWZ2Xy0tSTAyYVZtSGh2Z2Rzc2dWS1oxUUdOdUtfdTBWUlprLVpXVlFnQ1pmQnlKbExJUGV0c2xVVUpnREloZTlRakotdTJPT0ZuY3J0MDBBM085Q1VNOTJtWER5Qm94VjZfWmp1ajdZeXpVcHJGaEllQUlYQQ?oc=5",
+      "publishedAt": "2026-06-08T12:12:34.000Z",
+      "titleEn": "Trump Eyes a Piece of A.I. Giants",
+      "titleZh": "特朗普瞄准AI巨头",
+      "abstractEn": "Trump Eyes a Piece of A.I. Giants  The New York Times",
+      "abstractZh": "特朗普瞄准AI巨头  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
       "docType": "Blog",
       "category": "social",
       "score": 0,
