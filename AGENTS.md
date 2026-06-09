@@ -10,6 +10,12 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 > 每条规则都已落到代码里、**每次抓取/构建自动执行**；本记录用于追溯与防止误改回退。详情见对应章节。
 
+### 2026-06-09
+
+1. **新闻卡片详细摘要（让用户不必点链接）**：`report-tldr.js` 加 `detail` 选项；新闻（`backfill-news-tldr.js` 传 `detail:true`）生成 **3-5 句、约 150-240 字**的详细概况（人物/事件/数据/影响），守溯源铁律。动机：Google News 等链接国内打不开，摘要够详细就不必跳转。报告 tldr 仍是一句话（`detail:false`）。SocialCard 完整显示不截断。
+2. **新闻去重 V1 + 「N 家媒体报道」徽标**（`app/lib/dedupe.ts`）：同一新闻多家报道 → 只显 1 条代表 + 徽标显示有几家报道（含真实媒体名，从 Google 摘要尾部抽取）。**render 时计算**（`social/page.tsx`、`social/all/page.tsx` 在 sort 后 dedupe 再投影），不改数据。算法：±4 天窗内「强实体(英文品牌)+标题相似度」并查集聚类，**保守阈值**（`shared≥2 && jaccard≥0.18` 或 `jaccard≥0.5`）宁漏勿误并。代表条优先「有详细摘要 > 国内可直达(非 Google) > 中文 > 标题更全」。实测 /social 去重率 ~10%。跨语言去重（HN-en × 量子位-zh）留待 v2（需向量/LLM）。`dupCount`/`dupSources` 经 `toSocialItem` 投影下发。
+3. **播客源配置化 + favicon 同源**：见下方各节（播客源进 `data/sources.json`、favicon 由 `gen-pwa-icons.mjs` 生成与 APP 图标一致）。
+
 ### 2026-06-08
 
 1. **云端定时（晨跑提前+双批兜底）**：cron 改为 `0 20`(北京 04:00 主批)+`0 21`(05:00 兜底)+`12 1,4,7,10,13`(日内每 3h)。GitHub cron 常漂移 1~2.5h/偶尔丢批，提前到 04:00 即便漂 +2h 也在 6 点前跑完，确保「8 点前就绪」。见〈云端 workflow 跑批〉。
