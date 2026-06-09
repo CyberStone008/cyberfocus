@@ -1,20 +1,343 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-08T22:28:36.129Z",
+  "generatedAt": "2026-06-09T05:17:58.634Z",
   "summary": {
     "aiNews": [
-      "前白宫AI沙皇警告：若华盛顿过度监管，美国可能输掉AI竞赛给中国。",
-      "OpenAI向SEC提交S-1草案，申请IPO，成为AI公司涌向华尔街的最新案例。",
-      "Apple密码功能利用Agentic AI自动修复弱密码和泄露密码。"
+      "DeepSeek开招土木老哥，自建GW级数据中心，加速算力基础设施布局。",
+      "OpenAI提交IPO申请，AI公司涌向华尔街，与Anthropic展开新竞赛。",
+      "近九成儿童使用AI，报告警示教育与情感依赖问题，引发行业关注。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup调查：2026年第三季度APME地区招聘势头放缓，技能仍是关注焦点。",
-      "日本五大招聘巨头面临反垄断调查。",
-      "SK AX与Mercer联合开发AI-人类组织模型。"
+      "调查显示新加坡雇主在招聘意愿趋软背景下仍愿为AI技能支付溢价。",
+      "ManpowerGroup调查发现2026年Q3 APME地区招聘势头放缓，技能仍是焦点。",
+      "日本五大招聘巨头面临反垄断调查，或影响行业格局。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:0db0542d6692",
+      "slug": "gnews-0db0542d6692",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdDBzVEVLdE9VOFFRWUhMcG05ZWVZdV9WbzE5T1BiekszLWw5Nnh6djdlZDhjNjNKaS1GT1ZIZHlCcElZcUlNUEZhVFRuUjF1dFBFeHNhRmZVUlBoMWhnS0JodnRZWmRzR1hWVFhSTTlZdFBRTlhZN09JMTl6QlU3N053b0o2VUllMVZ6azEwdTY0Q3AwTjdxU2xJelQ1NURkb3pmMU5ua25QZUwybjJIalMyUnYzclFReUhJS1NGYjhWUDE1S3JwcmhyOXNwbkNIeTFoaXVtREozdlZwSEFkSmVfaGhjYkFibVV0RHZSWlhTdw?oc=5",
+      "publishedAt": "2026-06-09T05:11:08.000Z",
+      "titleEn": "19-year-old Jordanian founder sells AI EdTech startup NoNerds to JoAcademy in $140,000 acquisition",
+      "titleZh": "19岁约旦创始人以14万美元将AI教育科技初创公司NoNerds出售给JoAcademy",
+      "abstractEn": "19-year-old Jordanian founder sells AI EdTech startup NoNerds to JoAcademy in $140,000 acquisition  ZAWYA",
+      "abstractZh": "19岁约旦创始人以14万美元将AI教育科技初创公司NoNerds出售给JoAcademy 来源：ZAWYA",
+      "authors": [
+        "ZAWYA"
+      ],
+      "institution": "ZAWYA",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b86c7b9520e8",
+      "slug": "gnews-b86c7b9520e8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa3A5TktQRTg3WkU0cWUza1UyeGI1bmRvQ3loOFhUczZJV3lYYjI0VHFBNmdhLWtxRVVTNGZpcHgxUnlrRFdpYVRjN3VhQ0dQaVc5SVdEdEN5cm9ORnQ2R3ByTDh3YmY5SlBRZF9EVF9IUngxYmM3QVpvQ2ZyNnFXRGJQNzJQeDUtR0xMY3pyTGlPTXpNaHd4RjZrU3p6NV82QmdGZUZKcWs3RVlpb0s4eDdRMEZiSzJucHfSAb8BQVVfeXFMUEZRcUJCSDhQWUY3d0psVEpaNUJSbXJNajR1cGlCMkRrX3JWTlVIeTRxT0lFcUt5bDJ0NFpZUlNUX2tfRmhwOWl0WFVmRjduNW9aREp4d2VmVjNfVy04NUFuRDlIR1VTNFBCTWRfcktMaGRhY0JSN1dhRndLb2NZd2NpUG0wM3M3SnhYRzB4ZnMyM0tyODJQQXVxMUhoWF91UktwR0FjV3lQaHFnWE9GOFM5VUdIZzJ1emxjQVpHR1U?oc=5",
+      "publishedAt": "2026-06-09T05:00:45.000Z",
+      "titleEn": "AI Startup Cursor Expands in Europe as SpaceX Eyes Acquisition",
+      "titleZh": "AI初创公司Cursor在欧洲扩张，SpaceX考虑收购",
+      "abstractEn": "AI Startup Cursor Expands in Europe as SpaceX Eyes Acquisition  Devdiscourse",
+      "abstractZh": "AI初创公司Cursor在欧洲扩张，SpaceX考虑收购 Devdiscourse",
+      "authors": [
+        "Devdiscourse"
+      ],
+      "institution": "Devdiscourse",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:24d675be5694",
+      "slug": "gnews-24d675be5694",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ndzhtNk1zSEIydVFnTERFcU5jamNJMHhmWVNmMzhuQUtDVXVKWnR0N3JCbU96WHRxYTFfZnVOUHRDZnZkUTM4bm16cDRQeld5OXRBTnpZYUowdmo0ZTRsSXFXSldjU3oyckVBdnhZUDRINU54cWdfcA?oc=5",
+      "publishedAt": "2026-06-09T04:09:25.000Z",
+      "titleEn": "\"Advance Notification of Electricity Usage Surge in Summer\"... KEPCO Launches AI Safety Alert Service",
+      "titleZh": "夏季用电量激增提前通知...韩国电力公司推出AI安全预警服务",
+      "abstractEn": "\"Advance Notification of Electricity Usage Surge in Summer\"... KEPCO Launches AI Safety Alert Service  아시아경제",
+      "abstractZh": "夏季用电量激增提前通知...韩国电力公司推出AI安全预警服务 亚洲经济",
+      "authors": [
+        "아시아경제"
+      ],
+      "institution": "아시아경제",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432747-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432747.html",
+      "publishedAt": "2026-06-09T02:55:08.000Z",
+      "titleEn": "国产通用大模型第一梯队，来新人了？！",
+      "titleZh": "国产通用大模型第一梯队，来新人了？！",
+      "abstractEn": "不卷参数，卷“智能密度×Token价值”",
+      "abstractZh": "不卷参数，卷‘智能密度×Token价值’",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432735-html",
+      "slug": "deepseek-gw",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432735.html",
+      "publishedAt": "2026-06-09T02:39:19.000Z",
+      "titleEn": "DeepSeek开招土木老哥：自建GW级数据中心",
+      "titleZh": "DeepSeek开招土木老哥：自建GW级数据中心",
+      "abstractEn": "追赶老马与微软",
+      "abstractZh": "追赶老马与微软",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:46a597141daf",
+      "slug": "gnews-46a597141daf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hTHhQRi1CRzRJTHVtR2VLRTM5R1JhdHNUWV9wTWJyMEpIWVhXLVNyeTJtRXdmRFRrbTExNFQ5b0JNUFRhZ3ZNcW1XQQ?oc=5",
+      "publishedAt": "2026-06-09T01:37:04.000Z",
+      "titleEn": "Upstage, an artificial intelligence (AI) startup, took over the portal \"Next\" and even acquired an A..",
+      "titleZh": "人工智能初创公司Upstage接管门户网站Next并收购A..",
+      "abstractEn": "Upstage, an artificial intelligence (AI) startup, took over the portal \"Next\" and even acquired an A..  매일경제",
+      "abstractZh": "人工智能初创公司Upstage接管了门户网站Next，并收购了A.. 来源：매일경제",
+      "authors": [
+        "매일경제"
+      ],
+      "institution": "매일경제",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-432631-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/432631.html",
+      "publishedAt": "2026-06-09T01:24:10.000Z",
+      "titleEn": "腾讯想让企业打开AI的方式只剩一个",
+      "titleZh": "腾讯想让企业打开AI的方式只剩一个",
+      "abstractEn": "一个入口串起全栈智能体",
+      "abstractZh": "一个入口串起全栈智能体",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:00689e78acfa",
+      "slug": "gnews-00689e78acfa",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbnRRSW9XMG5QOUVzUno4SnZYOTVoUVZiSGN0R1VNR3VsdGxjTWJWdC1qWklFbUl1RkdnS0dwMjhTN3JHSmt5cDkxNzdfc3FZY0lUemNlVW10Y0ltdWNnY2I5UkY0ZnE1bGZQWGN2bkVtcDQxTjczZmVxMlVzVDNKMXpwVmNCbGVvcmxvN2ZtSkhfNjU0YS1kZkUzOV9tMTk3Z2pzQk1xOTFsMTE3STRRaXZjd0I0bS0xUENIajNUalRvN0g3QWc?oc=5",
+      "publishedAt": "2026-06-09T01:20:00.000Z",
+      "titleEn": "Trump administration denies unlawful retaliation in Anthropic AI blacklisting",
+      "titleZh": "特朗普政府否认在Anthropic AI黑名单事件中存在非法报复",
+      "abstractEn": "Trump administration denies unlawful retaliation in Anthropic AI blacklisting  Reuters",
+      "abstractZh": "特朗普政府否认在Anthropic AI黑名单事件中存在非法报复 路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2672f2e3cd2e",
+      "slug": "gnews-2672f2e3cd2e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVGd6NWJlV2RtN2ZQLTRHOGZUQTQ1VUJlRDFPZk5nUlRtZzJHUTFyMnlVbXIyYW9MaGNFVDdWdjNOT1JKdHJfdTVXRlpVbnc5NjBzTFNiZVpBSWs2Q09ZUWx2OTBaWER3NGtla040SHBUaUU5ajJRZlZ3dHF4WHJqVDc2akZQNVUtc1EzQmRJUmxiZw?oc=5",
+      "publishedAt": "2026-06-09T00:40:00.000Z",
+      "titleEn": "Germany to set up AI safety institute",
+      "titleZh": "德国将设立人工智能安全研究所",
+      "abstractEn": "Germany to set up AI safety institute  Yahoo",
+      "abstractZh": "德国将设立人工智能安全研究所 Yahoo",
+      "authors": [
+        "Yahoo"
+      ],
+      "institution": "Yahoo",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4e7a97d361d2",
+      "slug": "gnews-4e7a97d361d2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUzU3Ul9UWGdXcWl0RDR3ZFA5OGUwekVtajd4dkRWNmFEWGFXYnZuUF80MUNiYlkyTDhfWWtUbzJMc2huTjJXUURHU3RYS3RZcjYyLWxFdDNBOXV5WDE1V1dhZWxWMExTZ1hiVEN3cmJub2NqVHRRd3l4YzFuMERyeFl6MWNlb0NPakN3cmwxQ3lrNG0wRHlUdDdINA?oc=5",
+      "publishedAt": "2026-06-08T23:50:50.000Z",
+      "titleEn": "Meta walks back facial recognition in Meta AI app",
+      "titleZh": "Meta在Meta AI应用中撤回面部识别功能",
+      "abstractEn": "Meta walks back facial recognition in Meta AI app  Social Media Today",
+      "abstractZh": "Meta在Meta AI应用中撤回面部识别功能 Social Media Today",
+      "authors": [
+        "Social Media Today"
+      ],
+      "institution": "Social Media Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48454036",
+      "slug": "hn-48454036-meta-deletes-face-recognition-system-from-smart-glasses-app-after-wi",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48454036",
+      "publishedAt": "2026-06-08T23:43:38.000Z",
+      "titleEn": "Meta Deletes Face-Recognition System from Smart Glasses App After Wired Report",
+      "titleZh": "Meta在《连线》报道后从智能眼镜应用中删除面部识别系统",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "littlexsparkee"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "gnews:58b96ec7bbe5",
+      "slug": "gnews-58b96ec7bbe5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5",
+      "publishedAt": "2026-06-08T23:37:21.000Z",
+      "titleEn": "OpenAI plans to go public setting up new race with Anthropic",
+      "titleZh": "OpenAI计划上市，与Anthropic展开新竞赛",
+      "abstractEn": "OpenAI plans to go public setting up new race with Anthropic  BBC",
+      "abstractZh": "OpenAI计划上市，与Anthropic展开新竞赛  BBC",
+      "authors": [
+        "BBC"
+      ],
+      "institution": "BBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:ae38d7f8e7d5",
+      "slug": "hrorg-manpower-ae38d7f8e7d5",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZjlfMUZZOFl0MGFjbXh4VXRmUlRlNXJKVkVGSmZQMUg0RHdLVE5GSEJKb2R5ZGZPZ2hYTTFRZkljRHNxTm9rYkQ5OG1uQzBXaVNnZkg5TEZ3cHAwWm5IM3JRbklReGRsdm52bFMzbWR2Z29vRGxxV3hfeVhqLTFBZlJBZFdKVDVlZk52OFRiWjVQdS1ZS2pkUEx4REtaN1M0VTZkamY1THJRQTVhd1VFYjZoWWRXeHZ6SkI2a040X3NTczhyazBB?oc=5",
+      "publishedAt": "2026-06-08T23:00:00.000Z",
+      "titleEn": "Singapore employers willing to pay premium for AI skills amid softer hiring sentiment: survey",
+      "titleZh": "调查显示：新加坡雇主在招聘意愿趋软背景下仍愿为AI技能支付溢价",
+      "abstractEn": "Singapore employers willing to pay premium for AI skills amid softer hiring sentiment: survey  The Business Times",
+      "abstractZh": "调查显示：新加坡雇主在招聘意愿趋软背景下仍愿为AI技能支付溢价 来源：The Business Times",
+      "authors": [
+        "The Business Times"
+      ],
+      "institution": "The Business Times",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:92b8c0ad2cd2",
+      "slug": "gnews-92b8c0ad2cd2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOeHFBNDJCSU40eWRiX2hlVGNXTk5YVGJRcjNxMTJCSFhsRWRZUnlZSGRfUm9pdUZHV29OQ2ViWGpzYVl1Y0JHT1Q3d3paZzF6MUhBM2p4aE9DajZQby13T1BaOE9wcVJlalhTeWE5T2NEa0o1WHBWcXBRRl9XY09QTHpkOFd3aEtsallSOWx2d1A5Tm50SU9OdWI2WTJvYlRXaXRpR3FMVFdJUlNIeU4wb2lVT1FNSFlUNWZvYlFDdGppSEQxYTdIUWo5Y0d0cW0xQ24xQW5ObWx0Q01uZWNKTHRYZE9rUUZXZFFqU1I0OU5ITlJJOWR5b0hyeUZsZkhTZUVYSFRMUjFTUlpsWC1Ra0pyS1BkdVJoYkxCTzdNczdFaTB0X05LV0VRMFBZc2pMNFo5bnJmcGp4UFJQbG90SHpvM2N1Y1dpbTQ3TktYaDZmQQ?oc=5",
+      "publishedAt": "2026-06-08T22:23:08.000Z",
+      "titleEn": "Nearly 9 in 10 kids use AI; report flags concerns over educational, emotional dependencies",
+      "titleZh": "近九成儿童使用AI；报告警示教育与情感依赖问题",
+      "abstractEn": "Nearly 9 in 10 kids use AI; report flags concerns over educational, emotional dependencies  WBFF",
+      "abstractZh": "近九成儿童使用AI；报告警示教育与情感依赖问题 WBFF",
+      "authors": [
+        "WBFF"
+      ],
+      "institution": "WBFF",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48453002",
+      "slug": "hn-48453002-show-hn-command-center-the-ai-coding-env-for-people-who-care-about-q",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cc.dev/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48453002",
+      "publishedAt": "2026-06-08T22:10:18.000Z",
+      "titleEn": "Show HN: Command Center, the AI coding env for people who care about quality",
+      "titleZh": "Show HN：Command Center——面向注重质量的AI编码环境",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Darmani"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 40,
+      "commentCount": 12,
+      "tags": []
+    },
     {
       "id": "gnews:d2c23d1a07ca",
       "slug": "gnews-d2c23d1a07ca",
@@ -73,6 +396,28 @@
         "Fox Business"
       ],
       "institution": "Fox Business",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a3d94c63bee7",
+      "slug": "gnews-a3d94c63bee7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOUlJxOC14NjVFT1V2ZzU3UGExcnppUllIWm9ndm55ZTZ5R2RnQ3FBVXQ0SFBjajZqMWd0dm5FY2ltbmRjaUlwMmYwZW5YWnppenJvTnJRN0VJYUY0VnRnX3lidE1tUjJQeEpKZ3FUdV9QODFydG96Q0VrNUdwTkNydlZZUF9MbzFQaWJOUndUZHlRV2lOaEp0dUpld0NiNmVReFBVTHBRS215bmV2VXktTFVUSHlTZ3RxZDZsVE10OVFXZkxCZm1Ydmx3aHpqRHdNN2dZQldudDI3cTRwck9hOElVUml0RG03NFcwOTRRRHpISkNPT3JiLUxOLVVseC1Md3JQdw?oc=5",
+      "publishedAt": "2026-06-08T21:40:00.000Z",
+      "titleEn": "‘Our hardware is designed to be picked up and shaken about’: Aquark Technologies takes quantum sensing outside of the lab as a viable GNSS alternative",
+      "titleZh": "我们的硬件设计为可随身携带和摇晃：Aquark Technologies将量子传感带出实验室，作为可行的GNSS替代方案",
+      "abstractEn": "‘Our hardware is designed to be picked up and shaken about’: Aquark Technologies takes quantum sensing outside of the lab as a viable GNSS alternative  TechRadar",
+      "abstractZh": "我们的硬件设计为可随身携带和摇晃：Aquark Technologies将量子传感带出实验室，作为可行的GNSS替代方案 TechRadar",
+      "authors": [
+        "TechRadar"
+      ],
+      "institution": "TechRadar",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -147,6 +492,28 @@
       "tags": []
     },
     {
+      "id": "gnews:f35c5e81a648",
+      "slug": "gnews-f35c5e81a648",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1acHQzdUtIMzJkVmlHbkJ1Z294Y3p1d0JIR0FieFFQOHZwaENrUkFQNWFhNmctWVU0ODlSZDdFN0NZQUFpUHBqeEVxTWhNTlRNV3Z2NVRHMHlVcVBEckt4VXhScnhDaU9OcEd3cw?oc=5",
+      "publishedAt": "2026-06-08T21:19:58.000Z",
+      "titleEn": "Built to benefit everyone: our plan",
+      "titleZh": "为造福所有人而建：我们的计划",
+      "abstractEn": "Built to benefit everyone: our plan  OpenAI",
+      "abstractZh": "为造福所有人而建：我们的计划 OpenAI",
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:2e10eac1984c",
       "slug": "gnews-2e10eac1984c",
       "source": "Google AI News",
@@ -211,6 +578,49 @@
       "tags": []
     },
     {
+      "id": "gnews:099410a4dca0",
+      "slug": "gnews-099410a4dca0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMVhyczJEUzJvM0ktd0k2RmJwZGY2YW1CRThUTTdLNERQY0ZXVXUyNjhHMklyRFVSdnRoTlc3dTFZd0NqNDd2TDJrYk43NTc4Y0Z5R0Qta08zLU5XdVVSd05LNF94WTlDS05xRklDYzluVnpWUjFqeHg2QWVZZWdSMkJHN0VVYWQtSU9BNVA3ejg2V3YyOHM3TkhsZFRtakxoRXY2WjZxWkdUZ9IBrwFBVV95cUxNYmdiVHBYUUVMODVqaDh4ZjJmV3RyXzNJa1BtblRDRWRFbEIzb2tQNURabU1hSmEtQkZCSDhva3JCVWFIYV9leDVYaVFxWXBQeTNpeHoxbVQzRk5vMVdsa1dpZW0tLXVNRXhuVzZtLVBCSTU2U0pBRDE2NzFKOFRqT041anVxS0RfamwtcEpqeHhiTnNxZ3ZIZWotSzZsSHQ5eTRJcW8xRGdMRkdjWmxF?oc=5",
+      "publishedAt": "2026-06-08T21:14:27.000Z",
+      "titleEn": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
+      "titleZh": "OpenAI秘密提交IPO申请，为华尔街筹备大型AI首秀",
+      "abstractEn": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut  CNBC",
+      "abstractZh": "OpenAI秘密提交IPO申请，为华尔街筹备大型AI首秀  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48452000",
+      "slug": "hn-48452000-apple-bets-cheaper-ai-will-woo-small-developers",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48452000",
+      "publishedAt": "2026-06-08T21:02:00.000Z",
+      "titleEn": "Apple bets cheaper AI will woo small developers",
+      "titleZh": "苹果押注更便宜的AI以吸引小型开发者",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jbernardo95"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 41,
+      "commentCount": 21,
+      "tags": []
+    },
+    {
       "id": "hn:48451883",
       "slug": "hn-48451883-built-to-benefit-everyone-our-plan",
       "source": "Hacker News",
@@ -229,6 +639,27 @@
       "category": "social",
       "score": 6,
       "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48451791",
+      "slug": "hn-48451791-ai-and-agency",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bitsandletters.com/ideas/ai-and-agency",
+      "commentUrl": "https://news.ycombinator.com/item?id=48451791",
+      "publishedAt": "2026-06-08T20:48:56.000Z",
+      "titleEn": "AI and Agency",
+      "titleZh": "AI与能动性",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "demaree"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 0,
       "tags": []
     },
     {
@@ -511,6 +942,50 @@
       "tags": []
     },
     {
+      "id": "gnews:d58f6b35361b",
+      "slug": "gnews-d58f6b35361b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jd2RfcVJ1QzhvcC1qMk1zU1dpYWV6VExjYUl3UGZadzVJNHFQNkowWHA2RnQ4LXNReDZSX0VibUJscWJ6ZXRvMHh5dFFHWnJDbmxNZndJRWpaSXlIcDE0SWVmU3VHcm0yVS1F?oc=5",
+      "publishedAt": "2026-06-08T18:11:00.000Z",
+      "titleEn": "AI photo editing in iOS 27: revamped Clean Up and two new AI tools for iPhone Photos app",
+      "titleZh": "iOS 27中的AI照片编辑：改进的Clean Up工具及两款iPhone照片应用新AI工具",
+      "abstractEn": "AI photo editing in iOS 27: revamped Clean Up and two new AI tools for iPhone Photos app  9to5Mac",
+      "abstractZh": "iOS 27中的AI照片编辑：改进的Clean Up工具及两款iPhone照片应用新AI工具  9to5Mac",
+      "authors": [
+        "9to5Mac"
+      ],
+      "institution": "9to5Mac",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7c9ee8ec96f7",
+      "slug": "gnews-7c9ee8ec96f7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxb2hfTGdINWkxRGFEcWZJOXJHYmN2WXNTelluemZzOVpvLWc2WGc2RlJ3czhKelN6SldCTkJxeFZ5ZkowNkFVSXFHZm1vU2gtVTRnRFJwLThBUWQzVUp1MDdYY09YRGE5?oc=5",
+      "publishedAt": "2026-06-08T17:37:55.000Z",
+      "titleEn": "Why Anthropic just doubled Claude Cowork limits at no charge",
+      "titleZh": "Anthropic为何免费将Claude Cowork使用限额翻倍",
+      "abstractEn": "Why Anthropic just doubled Claude Cowork limits at no charge  The New Stack",
+      "abstractZh": "Anthropic为何免费将Claude Cowork使用限额翻倍 The New Stack",
+      "authors": [
+        "The New Stack"
+      ],
+      "institution": "The New Stack",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "anthropic:agents-in-biology",
       "slug": "agents-in-biology",
       "source": "Anthropic Blog",
@@ -549,6 +1024,28 @@
         "WIRED"
       ],
       "institution": "WIRED",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:19d987cbfb2f",
+      "slug": "gnews-19d987cbfb2f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV0p3bGEyM3dISF84WFFCS2JiREViUllqOGFqbEZmdWZHUUZkMHJkN09KZmtDZU9JSGZZcTJXWk1Qd3NpVmk2S3JtTmp4dnBGQ1pINHpPME94aXBYOVpsU0c5d1pzLWtIazA3MXlLZGtfVzJ0c05CYlBLVlNGM2NnQW45eDlDU2Eya0pmem04WjFmVjRvc3Q5QTlDZ0FJMFlvaDBoSzQwc2doSU5OSTFERjNrbzRNUQ?oc=5",
+      "publishedAt": "2026-06-08T17:11:49.000Z",
+      "titleEn": "AI Music Startup Suno Raises $400M at $5.4B Valuation Despite Copyright Battles",
+      "titleZh": "AI音乐初创公司Suno在版权纠纷中以54亿美元估值融资4亿美元",
+      "abstractEn": "AI Music Startup Suno Raises $400M at $5.4B Valuation Despite Copyright Battles  AI Insider",
+      "abstractZh": "AI音乐初创公司Suno在版权纠纷中以54亿美元估值融资4亿美元 AI Insider",
+      "authors": [
+        "AI Insider"
+      ],
+      "institution": "AI Insider",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -620,6 +1117,28 @@
       "score": 5,
       "commentCount": 0,
       "tags": []
+    },
+    {
+      "id": "hrorg:careerin:2d81d245aefd",
+      "slug": "hrorg-careerin-2d81d245aefd",
+      "source": "科锐国际",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnVDFnNDYtLVlXRWdOb0dVMTBtZHNzMGhrbVBJT3ZjYjM5MVJ2U1p3c1lfS01yM3FKZWFEck1iWWl5Y0twVFhNRnlUNjNvc0pDMUNEUW45eko3UXRpdjJjN3BLN3AtQQ?oc=5",
+      "publishedAt": "2026-06-08T16:00:00.000Z",
+      "titleEn": "2026年灵活用工平台前十强权威媒体联合发布，合规与实力双认证",
+      "titleZh": "2026年灵活用工平台前十强权威媒体联合发布，合规与实力双认证",
+      "abstractEn": "2026年灵活用工平台前十强权威媒体联合发布，合规与实力双认证  邢台网",
+      "abstractZh": "2026年灵活用工平台前十强权威媒体联合发布，合规与实力双认证 来源：邢台网",
+      "authors": [
+        "邢台网"
+      ],
+      "institution": "邢台网",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
     },
     {
       "id": "hrorg:manpower:3b0437dac28a",
