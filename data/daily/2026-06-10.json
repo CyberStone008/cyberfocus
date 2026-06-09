@@ -1,20 +1,648 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-09T16:14:36.648Z",
+  "generatedAt": "2026-06-09T21:50:01.767Z",
   "summary": {
     "aiNews": [
-      "Anthropic获Apollo和Blackstone支持350亿美元产能扩张，并与Broadcom达成新合作。",
-      "DeepSeek接近完成74亿美元融资，由腾讯和宁德时代领投，估值或超300亿美元。",
-      "美国出版商要求Common Crawl停止抓取并删除存档，引发AI训练数据版权争议。"
+      "Anthropic发布带护栏的Mythos级模型，并推出Claude Fable 5，旨在突破前沿大语言模型研究。",
+      "欧盟责令Meta免费允许竞争对手AI聊天机器人重返WhatsApp，强化反垄断监管。",
+      "AI工具推动单人创业激增，美国一人初创企业数量上升，显示AI对就业结构的影响。"
     ],
     "papers": [],
     "hrOrgs": [
-      "万宝盛华集团报告：第三季度全球招聘前景稳定，中型雇主最乐观。",
-      "万宝盛华集团发现：雇主在招聘中仍更信任人类而非AI，强调人性化决策。",
-      "印度招聘前景虽从峰值回落，但仍是全球最强，雇主整体保持乐观。"
+      "ManpowerGroup数据显示35%公司计划增聘，22%预计裁员，全球招聘前景稳定但雇主更谨慎。",
+      "万宝盛华报告：雇主在招聘中仍更信任人类而非AI，印度招聘前景全球最强但有所放缓。",
+      "多数印度企业面临持续外部干扰，招聘前景从峰值回落，雇主整体乐观但更谨慎。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48467865",
+      "slug": "hn-48467865-claude-fable-5-will-sabotage-frontier-llm-research-tasks",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/i/status/2064399902684139852",
+      "commentUrl": "https://news.ycombinator.com/item?id=48467865",
+      "publishedAt": "2026-06-09T21:16:20.000Z",
+      "titleEn": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
+      "titleZh": "Claude Fable 5 将破坏‘前沿大语言模型研究’任务",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "qwertyforce"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:6cfb796679ba",
+      "slug": "gnews-6cfb796679ba",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zRVAwQ25IaXhDRnlEdkpMZWtIX1l5Z0YzVmdheVlSdzVkNHU3NHRXbUZha3RkN2Q1R2dLWGZxTzUyMFNVaF90Z2FQdl8yVkVKakNrVmtKbHlEQXFJQi12YWt5Q1BhVXR4a3hkT0hfTlNkeXNHZWh1VFEwZlZWQQ?oc=5",
+      "publishedAt": "2026-06-09T20:30:32.000Z",
+      "titleEn": "Another top White House AI policy adviser is leaving",
+      "titleZh": "又一位白宫高级 AI 政策顾问即将离职",
+      "abstractEn": "Another top White House AI policy adviser is leaving  Politico",
+      "abstractZh": "又一位白宫高级 AI 政策顾问即将离职  Politico",
+      "authors": [
+        "Politico"
+      ],
+      "institution": "Politico",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:claude-fable-5-mythos-5",
+      "slug": "claude-fable-5-mythos-5",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publishedAt": "2026-06-09T20:27:50.000Z",
+      "titleEn": "Claude Fable 5 and Claude Mythos 5",
+      "titleZh": "Claude Fable 5 与 Claude Mythos 5",
+      "abstractEn": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
+      "abstractZh": "今天，我们发布了 Claude Fable 5：一款经过安全处理、可供通用使用的 Mythos 级模型。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 公告\n### Announcements\n\n## Claude Fable 5 与 Claude Mythos 5\n### Claude Fable 5 and Claude Mythos 5\n\n2026年6月9日\n\n![由数只蝴蝶组成的数字五](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=3840&q=75)\n\n今天，我们正式发布 **Claude Fable 5**：这是一款 Mythos 级别的模型，我们已为其添加了安全措施，使其可面向大众使用。\n\nFable 5 的能力超越了以往任何一款我们公开发布的模型。在几乎所有 AI 能力基准测试中，它都达到了业界顶尖水平，在软件工程、知识工作、视觉识别、科学研究等多个领域表现尤为出色。任务越长越复杂，Fable 5 相对于我们其他模型的领先优势就越明显。\n\n发布如此强大的模型也伴随着风险。如果没有安全防护，Fable 5 在网络安全等领域的能力可能被滥用，造成严重损害。因此，我们在发布该模型时加入了安全机制：对于某些主题的查询，模型将转而由我们次强的模型 Claude Opus 4.8 来回应。为了既安全又快速地发布模型，我们对这些安全机制进行了保守调校——它们有时会误拦无害请求，不过平均而言，触发率低于 5% 的会话。随着未来几个月更强大模型的到来，我们正努力改进安全机制，尽快减少误报。\n\n对于一小部分网络防御者和基础设施提供商，我们还发布了 **Claude Mythos 5**。它与 Fable 5 使用相同的基础模型，但在某些领域解除了安全限制。² Mythos 5 将首先通过 Project Glasswing 项目部署，与美国政府合作，作为 Claude Mythos Preview 的升级版。它拥有全球所有模型中最强的网络安全能力。不久后，我们计划通过更广泛的信任访问计划（trusted access program）来扩大 Mythos 5 的使用范围。\n\n像 Fable 5 和 Mythos 5 这样的模型，其能力有潜力为世界带来深远的益处。我们在 Project Glasswing 项目中已经看到了这一点——这些模型帮助网络防御者保护了至关重要的软件。在生命科学研究领域，我们也看到了它们的价值——模型正在提出新颖的假设，并加速新疗法的开发。\n\nFable 5 和 Mythos 5 的定价为每百万输入 token 10 美元，每百万输出 token 50 美元——不到 Claude Mythos Preview 价格的一半。今天的联合发布，是我们朝着尽快、尽可能安全地将先进 AI 能力带给尽可能多用户这一目标迈出的又一步。\n\n## 评估 Claude Fable 5 与 Claude Mythos 5\n### Evaluating Claude Fable 5 and Claude Mythos 5\n\n下表比较了 Fable 5 和 Mythos 5 与其他领先模型的能力。\n\n![一段延时摄影，展示 Claude 仅使用原始游戏截图，从开始到通关 Pokémon FireRed 的全过程——没有地图、导航辅助或额外的游戏状态信息。早期的 Claude 模型需要复杂的辅助工具才能玩 Pokémon；而 Claude Fable 5 仅凭视觉就完成了游戏。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e65982497d7d4891219ed0e83141625a291b860-2600x2870.png&w=3840&q=75)\n\n*记忆与长上下文。* Fable 5 能在涉及数百万 token 的长时间任务中保持专注，并利用自身笔记改进输出。当我们让模型玩卡牌构筑游戏《Slay the Spire》时，赋予其持久化文件记忆后，其性能提升幅度是 Opus 4.8 的三倍；Fable 5 到达游戏最终幕的次数也是 Opus 4.8 的三倍。\n\n日食 | Factorio | VibeCAD | Fluid with Classical EDM\n\n![由 Mythos 5 设计的蛋白质复合体。目标包括免疫检查点、生长因子与受体信号传导、神经退行性疾病、肌肉疾病以及更难的结构性靶点。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6a97019c4d8ea13fdd7200455f6dd9e8c267ba0b-1920x1080.png&w=3840&q=75)\n\n*分子生物学中的新颖假设。* Mythos 5 是我们第一个能够持续提出新颖、有说服力的科学假设的模型。在与 Opus 级别模型的盲法头对头比较中，我们的科学家约 80% 的情况下更偏好 Mythos 的分子生物学假设，并且已有多个假设进入实验评估阶段。与此同时，Mythos 提出的一个假设——关于一种大肠杆菌蛋白的新机制——得到了独立研究同一问题的实验室研究的证实。\n\n*基因组学中的新颖研究。* Mythos 5 在超过一周的近乎自主工作中，开展了新颖的基因组学研究。它整合了涵盖 138 个动物物种、数百万个细胞的单细胞数据，并设计并训练了一个自定义机器学习模型，用于识别即使在远缘生物中也执行相同功能的细胞。在仅有高层级人类输入的情况下，Mythos 5 训练的模型性能超过了近期发表在《科学》杂志上的一篇论文中的模型——尽管其规模小了 100 倍。我们计划在未来几个月内公布这些结果。\n\n*对齐性。* 在我们的自动化对齐评估中，我们发现 Mythos 5 的不对齐行为（包括模型采取的欺骗等不对齐行动，以及与用户滥用模型行为的合作）水平较低，与 Opus 4.8 相似。由于它们使用相同的基础模型，Fable 5 的对齐水平也将类似。该评估的完整描述，以及一系列其他安全性和能力测试的详细信息，均包含在模型的系统卡中。\n\n![来自我们自动化对齐评估的不对齐行为总体水平。更多信息请参见系统卡第 6.2.3.1 节。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2502a0daf85b741641cff36757d7243ef48f8be8-3840x2160.png&w=3840&q=75)\n\n## Claude Fable 5 的早期反馈\n### Early feedback for Claude Fable 5\n\n获得早期访问权限的客户对 Fable 5 进行了自己的测试。以下是他们的一些评价：\n\n> Claude Fable 5 是 CursorBench 上最先进的模型。它开启了一类此前模型无法企及的长期规划问题。\n\n> Claude Fable 5 对 GitHub 服务的开发者来说是一个真正的进步。在我们的早期测试中，它处理复杂、长期的编码任务时，展现出的自主性和可靠性超越了以往的基准。但最让我们兴奋的是它所指向的方向：一个开发者可以将越来越雄心勃勃的工作交给智能体，并信任其在软件生命周期中的结果。\n\n> 这是我们有机会测试的所有 Claude 模型中最强的结果。Claude Fable 5 在智能体编码和原型设计方面迈出了清晰的一步。\n\n> Claude Fable 5 的推理能力明显超越了 Opus 4.8。它达到了高级研究科学家的水平——选择方向、分配资源、摒弃错误信念，并产生基于第一性原理的新颖输出。\n\n> Claude Fable 5 理解构建者的意图，而不仅仅是他们输入的内容。一年前需要一百次提示才能完成的应用，现在它一次就能搞定。当客户真正遇到瓶颈时，我们就会求助于这个模型，帮助他们快速突破，完成他们想要构建的东西。\n\n> Claude Fable 5 给人的感觉截然不同。在盲审中，我们的律师发现它的红线（redlines）每次都能达到或超越我们当前的模型。\n\n> 在最高努力水平下，Claude Fable 5 会反思并验证自己的工作。对我们来说，这正是实现高度自主操作的关键——额外的思考物超所值。\n\n> Claude Fable 5 用更少的轮次提供了更强大的工程能力——它处理了我们员工每天在 Claude Code 中运行的复杂多智能体工作流。\n\n> Claude Fable 5 是 FrontierBench（Cognition 的前沿编码评估）上得分最高的模型。它擅长长期推理，并能开箱即用地泛化到不熟悉的工具。\n\n> Claude Fable 5 是我们测试过的最强的金融优先模型，无论是在通用金融还是推理方面。这是一个显著的进步。\n\n> Claude Fable 5 是第一个在我们核心分析基准（复杂、长期运行的分析任务）上突破 90% 的模型——比 Opus 高出 10 个百分点。在最难的问题上，它表现出强大的判断力和对细微差别的关注。\n\n> Claude Fable 5 是我们测试过的在前沿物理研究方面最强的模型，同时使用的推理 token 仅为其三分之一。在 36 小时内，它几乎达到了 GPT-5.5 在四天后才达到的水平。\n\n> 在 ViBench（我们的端到端 Vibe 编码基准）上，Claude Fable 5 是我们测试过的性能最高的模型——几乎饱和了我们的基本用例，并且用更少的时间和 token 构建了应用。\n\n> Claude Fable 5 在我们日常使用的电子表格套件上，在每个努力水平上都击败了 Opus 4.8——而且它用更少的轮次完成，运行速度快了 25-30%。01 / 14\n\n## Claude Fable 5 的新安全机制\n### Claude Fable 5’s new safeguards\n\nMythos 级别的模型已经达到了一个存在重大风险的阈值。今年四月，我们启动了 Project Glasswing，仅向有限的网络防御者和关键软件基础设施提供商发布了第一款 Mythos 级别模型（Claude Mythos Preview）。当时我们表示，只要我们开发出足够强大、能够可靠防止滥用的新安全机制，我们希望最终能向所有用户开放 Mythos 级别的能力。\n\n在过去的几个月里，我们一直在改进这些安全机制，现在它们已经足够稳健，可以进行公开发布。由于我们将安全放在首位，我们特意将安全机制调校得较为谨慎，它们仍然比理想状态更严格——例如，有时良性请求也会触发我们的分类器。我们认识到这会让一些用户感到沮丧，我们的目标是在发布后通过更新和完善安全机制来减少误报。\n\n下面我们将逐一讨论 Fable 5 的每项新安全机制。我们更广泛的安全机制套件在模型的系统卡和我们最新的风险报告中进行了讨论和评估。\n\n### 安全分类器\n### Safety classifiers\n\nMythos 级别模型在前沿网络安全和研究生物学方面的能力意味着它们对恶意行为者构成了显著的“能力提升”风险。也就是说，这些模型可能提供信息或建议，帮助这些行为者造成他们无法从其他来源（例如互联网搜索引擎）获得的严重伤害。此外，AI 模型的大量高级用途具有双重用途：同样的查询，在网络安全专业人员和生物学研究人员手中是有益的，但如果被恶意行为者获取，则可能是危险的。\n\n因此，我们需要强大的安全机制来防止滥用，并且它们的覆盖范围需要很广。安全机制本身必须能够抵御持续且复杂的绕过尝试（也称为“越狱”系统）。Mythos 级别能力带来的提升对许多对手来说都很有价值——例如，那些可能从网络攻击中获得经济利益的对手——因此我们预计他们会试图规避我们的安全措施。\n\nFable 5 配备了一套新的*分类器*：这些是独立的 AI 系统，用于检测潜在的滥用行为，包括越狱尝试，并阻止主模型（此处为 Fable 5）做出响应。我们已经在我们的模型上运行分类器一段时间了，Fable 5 的分类器是这项先前工作的扩展，覆盖范围更广。\n\n当 Fable 的分类器检测到与网络安全、生物学和化学或蒸馏（distillation）相关的请求时，响应将自动由 Claude Opus 4.8 处理。每当发生这种情况时，用户都会收到通知。Opus 4.8 本身就是一个非常强大的模型：回退到 Opus 的响应远比 Fable 直接拒绝要好得多。我们的早期数据显示，超过 95% 的 Fable 会话完全没有触发回退——在这些会话中，Fable 5 的性能实际上与 Mythos 5 相同。\n\n以下是分类器覆盖的领域：\n\n*1. 网络安全。* Mythos 级别的模型擅长发现和利用软件漏洞。因此，它们可以使网络攻击变得更容易、成本更低。Mythos 级别的模型还展示了强大的智能体黑客能力。这包括执行网络攻击的多个不同部分，除了寻找漏洞之外——侦察、发现、横向移动等等。为了防止这些智能体黑客能力在网络攻击中提供能力提升，我们设计了网络安全分类器，以更广泛的意义覆盖漏洞利用和攻击性网络任务。如下图所示，我们的分类器阻止了 Fable 在这些任务上取得任何进展。\n\n![运行网络评估的结果³，Fable 5 处于阻止响应而非回退到 Opus 4.8 的模式。评估未涉及规避安全机制的尝试。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaf941fe1ebfd09139d39b8e4ad9048121979284-3840x2160.png&w=3840&q=75)\n\n我们对分类器进行了广泛的红队测试，以检验其对越狱的鲁棒性。除了内部测试，我们还开展了一项外部漏洞赏金计划，在超过 1000 小时的测试中未发现通用越狱方法。我们聘请的外部红队测试组织迄今为止也未能发现针对长篇智能体任务的任何通用越狱方法——尽管英国 AISI 在短暂的初始测试窗口内已取得一定进展。⁴ 完全阻止通用越狱可能是不可能的，但我们的目标是使任何剩余的越狱方法足够缓慢且成本高昂，以便我们能够在它们被大规模使用之前检测并阻止它们。\n\n下图来自我们的一项内部评估，说明了 Fable 5 的安全机制如何使其比我们以前可公开访问的模型更能抵抗越狱：\n\n![一项内部评估的结果，其中自动化红队测试者试图在 400 轮内使用模型完成与攻击性网络安全相关的简短任务，并在被阻止时重新开始和回退。这些任务大多很简单，不代表真实的网络使用情况——有时简单到像在远程服务器上加密文件。在更复杂和现实的任务上，我们尚未在我们的生产系统上看到成功的越狱。请注意，Opus 4.6 没有阻止性的网络安全机制。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6bede3f6101d15bd899922917ea6246adda4515b-1920x1080.png&w=3840&q=75)\n\n我们的一家外部合作伙伴发现，Fable 5 针对有害网络查询的安全机制是所有测试模型（包括 Opus 4.8 和 Opus 4.7）中最强大的。Fable 5 对任何与策划网络攻击、漏洞利用开发或防御规避相关的有害单轮请求均未遵从。无论这些请求是否使用了 30 种不同的公开越狱技术中的任何一种，结果都是如此。\n\n*2. 生物学和化学。* 长期以来，我们一直使用分类器来阻止我们的模型回应一小部分与生物武器相关的查询。但我们不再确定仅阻止这一小部分就足够了。这有两个原因：首先，我们有理由担心资源充足的恶意行为者试图从我们的模型中获得能力提升，以进行高风险生物学研究。其次，模型现在完成现实世界科学任务的能力更强了。\n\n例如，我们测试了 Mythos 5 在设计腺相关病毒（AAV）方面完成一个具有挑战性步骤的能力。AAV 是递送基因疗法的组成部分，但同样的能力，如果落入坏人之手，可能被用于设计危险病毒。在这项任务中，我们评估了各种 AI 模型预测基因修饰如何影响病毒外壳组装的能力（在一组由 Dyno Therapeutics 开发的、与治疗相关的未公开候选物中）。我们没有明确训练我们的模型来执行这项任务——然而，Mythos 级别的模型仅凭其生物学推理能力就超越了专门用于蛋白质任务的复杂模型（称为“蛋白质语言模型”）。这展示了在基因疗法研究和开发中完成简单但重要任务的有前景的能力——但也突显了这种双重用途能力所带来的风险。\n\n![一项评估的结果，我们的模型预测了简单病毒病毒外壳的未公开实验特性。病毒外壳组装是此背景下最容易预测的病毒特性，但在设计更复杂特征时，它仍然是一个需要正确把握的重要属性。AAV = 腺相关病毒。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3437ad5c0853a7bd273ed5e56289a4f38dcd9731-3840x2160.png&w=3840&q=75)\n\n我们的首要任务是尽快安全地发布 Fable，即使以安全机制过于宽泛为代价。因此，目前我们已安排 Fable 在与生物学和化学相关的大多数请求上回退到 Opus 4.8。与我们所有的分类器一样，我们希望尽快缩小这些安全机制的范围：从上述证据可以看出，Fable 在科学领域有着巨大的积极应用潜力，我们不希望分类器的误报阻碍这一点。在未来几周内，一些生物医学研究人员和公司将能够加入我们针对 Mythos 5 生物学能力的信任访问计划（下文讨论）。\n\n*3. 蒸馏。* 我们之前已经发现，有大规模尝试从 Claude 中提取（“蒸馏”）能力，用于在威权国家训练竞争模型。蒸馏 Fable 5 的能力可能会间接导致接近前沿的 AI 能力扩散——而这些能力可能在缺乏适当安全机制的情况下被发布。被我们的分类器标记为属于此类蒸馏尝试的请求将回退到 Opus 4.8。\n\n### 新的数据保留政策\n### A new data retention policy\n\n最后，我们正在改变处理 Fable 5、Mythos 5 以及未来具有类似或更高能力水平的模型的商业客户数据的方式。我们将要求对 Mythos 级别模型的所有流量（无论是在第一方还是第三方平台上）保留 30 天。我们不会使用这些数据来训练新的 Claude 模型，或用于任何非安全相关目的，并且我们已制定新的隐私保护措施，包括记录所有对人类访问数据的操作，并确保在几乎所有情况下 30 天后删除这些数据（详情请参阅此文章）。这些数据将帮助我们防御复杂和新颖的攻击（包括新的越狱方法和跨多个请求操作的攻击），并帮助我们识别和减少误报。\n\n## Claude Mythos 5 与信任访问计划\n### Claude Mythos 5 and the trusted access program\n\n从今天开始，所有当前有权访问 Claude Mythos Preview 的用户（例如，我们在 Project Glasswing 中的网络安全合作伙伴）将能够升级到 Claude Mythos 5——与 Claude Fable 5 相同的模型，但解除了网络安全限制。用户会发现，在大多数情况下，Mythos 5 与 Mythos Preview 相当或略强，而成本却大大降低。\n\n在与美国政府协商后，我们计划稳步扩大 Claude Mythos 5 的访问权限，继续定期增加新的合作伙伴，并推行一个信任访问计划，允许网络安全组织以更系统的方式申请。\n\n我们的计划还包括开放一个针对生物学的信任访问计划，以帮助加速生物医学研究，并利用 Mythos 级别的能力发现新疗法。该计划将提供对 Fable 5 的访问权限，但移除生物学和化学方面的安全限制（网络安全限制仍然保留）。它将招募来自涵盖基础研究和转化研究的各种生命科学组织中的少量研究人员；我们计划在改进安全机制的同时，扩大对该计划的访问权限。\n\n## 可用性\n### Availability\n\nClaude Fable 5 今天起全面可用。Claude Mythos 5 目前仅限 Glasswing 合作伙伴使用（已解除网络安全限制），并很快将仅限选定的生物学研究人员使用（已解除生物学和化学限制），直到我们更广泛的信任访问计划可用。\n\n两个模型的定价均为每百万输入 token 10 美元，每百万输出 token 50 美元。开发者可以通过 Claude API 使用 `claude-fable-5`。\n\n我们预计 Fable 5 的需求会非常高，且难以预测。在 Claude API 和基于消耗量的企业计划中，Fable 5 从今天起完全可用。对于订阅计划，我们宁愿尽早提供访问权限，因此我们将采取更保守的分阶段推出方式：\n\n- 从今天到 6 月 22 日，Fable 5 将包含在 Pro、Max、Team 和基于座位的企业计划中，无需额外费用。\n- 在 6 月 23 日，我们将从这些计划中移除 Fable 5。之后使用它将需要消耗使用额度。如果容量允许，我们将延长免费包含期。\n- 在此之后——当有足够容量时——我们的目标是将 Fable 5 恢复为订阅计划的标准组成部分。我们打算尽快实现这一目标。\n\n在此期间，我们将提前沟通任何变更，以便用户了解最新情况。\n\n*编辑于 2026 年 6 月 9 日：更新了关于 AAV 的讨论，指出候选物由 Dyno Therapeutics 开发。*",
+      "tldrZh": "Claude Fable 5 是迄今最强公开发布模型，在软件工程、科学研究等多项基准上达到业界顶尖，同时引入保守安全机制；其同基础模型的 Claude Mythos 5 则面向网络防御者，拥有全球最强网络安全能力，并在分子生物学假设与基因组学研究中取得突破性成果。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-09T21:49:46.109Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-10"
+    },
+    {
+      "id": "gnews:d308e41f2ea6",
+      "slug": "gnews-d308e41f2ea6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Gc1NlMkpWazRyVjJlcDRxZi01UlZFVFFteGl2Z2J3OEFrZW5jT01lakpxT1MtR1l6T011R1BLc2VXazF1Z0hXSm9wemxBVW1sS1g1S3JCZ0ptVFU?oc=5",
+      "publishedAt": "2026-06-09T19:46:32.000Z",
+      "titleEn": "Liz Peek warns AI overregulation could cost America competitive edge",
+      "titleZh": "Liz Peek 警告：过度监管 AI 可能让美国失去竞争优势",
+      "abstractEn": "Liz Peek warns AI overregulation could cost America competitive edge  Fox Business",
+      "abstractZh": "Liz Peek 警告：过度监管 AI 可能让美国失去竞争优势  Fox Business",
+      "authors": [
+        "Fox Business"
+      ],
+      "institution": "Fox Business",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48466519",
+      "slug": "hn-48466519-devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/devops/2026/06/09/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5252824",
+      "commentUrl": "https://news.ycombinator.com/item?id=48466519",
+      "publishedAt": "2026-06-09T19:37:35.000Z",
+      "titleEn": "Devs know AI code is riddled with holes, but ship it anyway",
+      "titleZh": "开发者明知 AI 代码漏洞百出，却仍将其发布",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 18,
+      "commentCount": 16,
+      "tags": []
+    },
+    {
+      "id": "hn:48466277",
+      "slug": "hn-48466277-ultrafast-machine-learning-on-fpgas-via-kolmogorov-arnold-networks",
+      "source": "Hacker News",
+      "sourceUrl": "https://aarushgupta.io/posts/kan-fpga/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48466277",
+      "publishedAt": "2026-06-09T19:21:45.000Z",
+      "titleEn": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "titleZh": "基于 Kolmogorov-Arnold 网络的 FPGA 超快机器学习",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ag2718"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 93,
+      "commentCount": 14,
+      "tags": []
+    },
+    {
+      "id": "hn:48465980",
+      "slug": "hn-48465980-meta-ordered-by-eu-to-allow-rival-ai-chatbots-back-on-whatsapp-for-f",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/world/eu-regulators-order-meta-allow-rival-ai-chatbots-free-access-whatsapp-2026-06-09/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48465980",
+      "publishedAt": "2026-06-09T19:05:08.000Z",
+      "titleEn": "Meta ordered by EU to allow rival AI chatbots back on WhatsApp for free",
+      "titleZh": "欧盟责令 Meta 免费允许竞争对手的 AI 聊天机器人重返 WhatsApp",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "onemoresoop"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 19,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:b8b6a8014bef",
+      "slug": "gnews-b8b6a8014bef",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcnRSd0VTbGpMUVVHVUsxaGtLZ0tVNWlacGNuWXlBSEJkdnZpUHAyZWsteVNYUjA5M3BQNzBwWjBFWm5CU1VuT3BJb2pyYUZPZnZSWGZPSndoNjVKWUR3Q3czQWlyX2dYTVQ4ZkdMX01OM19DdWZFUHBjZTY4Wk1MeFQxNFFoSmZiZVVNODNLTmZKcmhJNEYxUUh5ZjliNVlHRkRXd0JzY2JJRHRJNndUY2tVSXpmUnluRktzWG5VcW82NVVJYk4yNlBzM3ZRMy1PckhzOUM3WXVEVTQ1SFBGRnV6NnFsZUktTUZfdFAyOG1PZm5z?oc=5",
+      "publishedAt": "2026-06-09T19:00:39.000Z",
+      "titleEn": "Caldworth Launches Specialist Advisory Firm Focused on Artificial Intelligence in Investment Management",
+      "titleZh": "Caldworth 推出专注于投资管理中人工智能的专业咨询公司",
+      "abstractEn": "Caldworth Launches Specialist Advisory Firm Focused on Artificial Intelligence in Investment Management  markets.businessinsider.com",
+      "abstractZh": "Caldworth 推出专注于投资管理中人工智能的专业咨询公司  markets.businessinsider.com",
+      "authors": [
+        "markets.businessinsider.com"
+      ],
+      "institution": "markets.businessinsider.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48465744",
+      "slug": "hn-48465744-apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.kylereddoch.me/blog/apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48465744",
+      "publishedAt": "2026-06-09T18:50:27.000Z",
+      "titleEn": "Apple's AI Can Now Change Your Passwords. What Could Possibly Go Wrong?",
+      "titleZh": "苹果的 AI 现在可以更改你的密码。会出什么问题呢？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 77,
+      "commentCount": 39,
+      "tags": []
+    },
+    {
+      "id": "hn:48465675",
+      "slug": "hn-48465675-ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48465675",
+      "publishedAt": "2026-06-09T18:45:59.000Z",
+      "titleEn": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
+      "titleZh": "认为 AI 能取代员工的首席执行官都是糟糕的首席执行官",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 190,
+      "commentCount": 83,
+      "tags": []
+    },
+    {
+      "id": "gnews:63276329940c",
+      "slug": "gnews-63276329940c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHc0l1dVYtWjV2bldfaEdZTjhvcndHN0VqQUwtcjNFd1dlNnBjVmllTkhmbGRUVldVODNESlFFa3BKc1I4Y0tDVml2cUNjUEZuOHQ3UDJrRnhQNGxEY084RFc3SVFhUkhCcnJNN2ZTY2pPd1lwZlk0?oc=5",
+      "publishedAt": "2026-06-09T18:38:00.000Z",
+      "titleEn": "Anthropic Releases New ‘Mythos-Class’ Model to General Public With Guardrails",
+      "titleZh": "Anthropic 向公众发布带有护栏的新‘Mythos 级’模型",
+      "abstractEn": "Anthropic Releases New ‘Mythos-Class’ Model to General Public With Guardrails  WSJ",
+      "abstractZh": "Anthropic 向公众发布带有护栏的新‘Mythos 级’模型  WSJ",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48465269",
+      "slug": "hn-48465269-gpt-2-too-dangerous-to-release-2019",
+      "source": "Hacker News",
+      "sourceUrl": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48465269",
+      "publishedAt": "2026-06-09T18:21:43.000Z",
+      "titleEn": "GPT-2: Too Dangerous To Release (2019)",
+      "titleZh": "GPT-2：过于危险而无法发布（2019）",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "AbuAssar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 234,
+      "commentCount": 87,
+      "tags": []
+    },
+    {
+      "id": "gnews:ad3f5f89c375",
+      "slug": "gnews-ad3f5f89c375",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZTg4ejAwS3ZDOWpJZVA1UjQtYzZlTEljT0hiTnFzUUExN25UQVZVTHNKdTVyeHhMdm03ZTdLY0UzaFVJSG9IdjZacW1Zb0RZR2hHWFF5R3JOOE9lYlBMMzI3OGJnSWgxQ2JDT3IwcHZ2cTl0b3d4NGVIVjU1U0xSdVhrTjU0Y2I4VzZMbno2SHlldEhfcDJWRk53NA?oc=5",
+      "publishedAt": "2026-06-09T18:12:58.000Z",
+      "titleEn": "Student AI innovators honored as White House navigates AI policy",
+      "titleZh": "白宫制定 AI 政策之际，学生 AI 创新者获表彰",
+      "abstractEn": "Student AI innovators honored as White House navigates AI policy  Yahoo",
+      "abstractZh": "白宫制定 AI 政策之际，学生 AI 创新者获表彰  Yahoo",
+      "authors": [
+        "Yahoo"
+      ],
+      "institution": "Yahoo",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48465029",
+      "slug": "hn-48465029-anthropic-kept-every-promise-it-could-afford",
+      "source": "Hacker News",
+      "sourceUrl": "https://techtrenches.dev/p/anthropic-kept-every-promise-it-could",
+      "commentUrl": "https://news.ycombinator.com/item?id=48465029",
+      "publishedAt": "2026-06-09T18:06:32.000Z",
+      "titleEn": "Anthropic Kept Every Promise It Could Afford",
+      "titleZh": "Anthropic 兑现了所有力所能及的承诺",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "pavel_lishin"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 15,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:61c754a377d3",
+      "slug": "gnews-61c754a377d3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUWdOU0N3RVRfNEphdnFDd1pTQ2RjZS1ndHRmU09JVjhsUU5ORjV6a2hrMU1Yb044V2ttZHJlUXAyeWRwVzctVFFDVGlNSjVzd1I3XzRUZXpXV0tEbHRoQzZIaHNyd2gzeVNTakZ4WkJPLWlwZGhhd0tNX0FJeVBHay0tMjJ1MDhMd3o3OWg4NnRobC1pTjJjZXZKcEJuS1J4Q2xEUW5idWtZS0NPQkd5Rw?oc=5",
+      "publishedAt": "2026-06-09T18:04:04.000Z",
+      "titleEn": "AI Tools Drive Surge In Solo Business Formation As One-Person Startups Rise Across US",
+      "titleZh": "AI 工具推动单人创业激增，美国一人初创企业数量上升",
+      "abstractEn": "AI Tools Drive Surge In Solo Business Formation As One-Person Startups Rise Across US  International Business Times",
+      "abstractZh": "AI 工具推动单人创业激增，美国一人初创企业数量上升  International Business Times",
+      "authors": [
+        "International Business Times"
+      ],
+      "institution": "International Business Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:df007f027298",
+      "slug": "gnews-df007f027298",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeV9WSzFRRXY1RUN0U0NqTVVXYkZ6dXNFRGo1U3VkRUV4M3hkWGpQM25RcldOUFpfTXM2ZWwtamFfVHFPdW0zX3RJSWFOYmY3bDFPeV9yTXB5SHU3RWhud19DY0NVTVNJTER6RzByZ0RrNEdiUDFvZzRKc19EZk54NF9iNXU2QURQMUs0MkkzWkxkTUdhYXJaTXVjU0ZQcmxpOUFJRjlDejk0Rk0?oc=5",
+      "publishedAt": "2026-06-09T17:57:39.000Z",
+      "titleEn": "Former xAI engineer alleges retaliation over AI safety warnings",
+      "titleZh": "前 xAI 工程师指控因 AI 安全警告遭报复",
+      "abstractEn": "Former xAI engineer alleges retaliation over AI safety warnings  Daily Journal",
+      "abstractZh": "前 xAI 工程师指控因 AI 安全警告遭报复  Daily Journal",
+      "authors": [
+        "Daily Journal"
+      ],
+      "institution": "Daily Journal",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:d5908d577793",
+      "slug": "hrorg-manpower-d5908d577793",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObGZIaWREcFNZbzVoazByT1BGeVZrT3BsYlk2RGRMb2p5YjdfYTZ5NGxGejlHVXFfVUNvdU1FWGhvUEpCbEJCRUwwS3Z5SVBWbXJONEI1ZTAwNjJRVnVHeDlQYmctNXdqeEd2am9lUDhWQkxqMlpRMklqSHBVQ0hIRTNIb1JYaUZTTmxkQjZpR1ZtaExHMGY3enE3X3VvR3N0NWxxRzRiZ1NndlNIWjlQeGdUOWtjNXlPV2xqMkRETlVfSkcxNUdRSWhDMjZvVVoxeWF6bmlPa9IB3AFBVV95cUxNTEwyX0NrNEFPd0RDT19yOVgxSzlNcUpjQ1N0XzlsMXBJa05uRmdjdEttN3ZRdmlUajJyZjdPS0NVYXJROUtUeDRrZE1BdC1icmhKbFg2V1lNYkxwNUxRbHM4bExhVkwxQnliRkk3MHFxc3JmUl9fNjRGeUpEWjZlU0ZVaC16N1dSc1dzeWxVWXAyXzdQRGxMeWI3cnRiU1hIREF5cjhncHBtUGlycWR1NmRKdnd1SWZqU0FadXoyN29qNHh6a2JfSnRRUlZPMkR5TzdvQjlnTEhLVFFt?oc=5",
+      "publishedAt": "2026-06-09T17:31:03.000Z",
+      "titleEn": "A Look At ManpowerGroup (MAN) Valuation As Hiring Survey Contrasts With Ongoing Profitability Pressures",
+      "titleZh": "ManpowerGroup (MAN) 估值分析：招聘调查与持续盈利压力形成对比",
+      "abstractEn": "A Look At ManpowerGroup (MAN) Valuation As Hiring Survey Contrasts With Ongoing Profitability Pressures  simplywall.st",
+      "abstractZh": "ManpowerGroup (MAN) 估值分析：招聘调查与持续盈利压力形成对比  simplywall.st",
+      "authors": [
+        "simplywall.st"
+      ],
+      "institution": "simplywall.st",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "hn:48464333",
+      "slug": "hn-48464333-where-is-the-ai-jobs-crisis",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "commentUrl": "https://news.ycombinator.com/item?id=48464333",
+      "publishedAt": "2026-06-09T17:29:17.000Z",
+      "titleEn": "Where is the AI jobs crisis?",
+      "titleZh": "AI 就业危机在哪里？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bwestergard"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 115,
+      "commentCount": 166,
+      "tags": []
+    },
+    {
+      "id": "hn:48464305",
+      "slug": "hn-48464305-ai-profitability-is-mathematically-impossible",
+      "source": "Hacker News",
+      "sourceUrl": "https://old.reddit.com/r/BetterOffline/comments/1tzwnhi/ai_profitability_is_mathematically_impossible/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48464305",
+      "publishedAt": "2026-06-09T17:27:23.000Z",
+      "titleEn": "AI profitability is mathematically impossible",
+      "titleZh": "AI 盈利在数学上不可能实现",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "droptablemain"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 16,
+      "commentCount": 21,
+      "tags": []
+    },
+    {
+      "id": "gnews:e189aac09db7",
+      "slug": "gnews-e189aac09db7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
+      "publishedAt": "2026-06-09T17:08:42.000Z",
+      "titleEn": "Claude Fable 5 and Claude Mythos 5",
+      "titleZh": "Claude Fable 5 与 Claude Mythos 5",
+      "abstractEn": "Claude Fable 5 and Claude Mythos 5  Anthropic",
+      "abstractZh": "Claude Fable 5 与 Claude Mythos 5  Anthropic",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b449bdd1dbeb",
+      "slug": "gnews-b449bdd1dbeb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZFcyNWs3Sld2amRoMW80b1ptQ0gtN0hzTy1JMzFGRVVDeE9ZUUxQc3lDNWt2amd3WERrUXkzV3J5SWxmbzZYbEo1bWEzcW1SSTViREg4cVFrUXhhQ18tdVdsZVp3YTBpUHZrcWxVdTlueUhmQ0NPWUhuLVhrUnM?oc=5",
+      "publishedAt": "2026-06-09T17:02:53.000Z",
+      "titleEn": "Anthropic’s new model is Mythos on a leash",
+      "titleZh": "Anthropic 的新模型是拴着链子的 Mythos",
+      "abstractEn": "Anthropic’s new model is Mythos on a leash  CyberScoop",
+      "abstractZh": "Anthropic 的新模型是拴着链子的 Mythos  CyberScoop",
+      "authors": [
+        "CyberScoop"
+      ],
+      "institution": "CyberScoop",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c19e4e1a9714",
+      "slug": "gnews-c19e4e1a9714",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodkY4MFh1TE1B0gF8QVVfeXFMTnE5TEtyeWVsVjdmVXZsNGRLMkpxRE5iQzlGdzQ4V1N2d0gxQk5xMGRJdjZ5ckRSRFhZeFFDYk1odkZLdWE5Uk15R3VlWnV3MzRvRms2Tm14T1lxVE1Wc2t0a1FUUm8yYWVwXzA3TDIwWVRUTGctVENYTHpZUg?oc=5",
+      "publishedAt": "2026-06-09T17:00:01.000Z",
+      "titleEn": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "titleZh": "Anthropic 在私人发布震撼华尔街两个月后，向公众发布类似 Mythos 的 AI 模型",
+      "abstractEn": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street  CNBC",
+      "abstractZh": "Anthropic 在私人发布震撼华尔街两个月后，向公众发布类似 Mythos 的 AI 模型  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:79344f00e78f",
+      "slug": "gnews-79344f00e78f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFpQVTBXMTI4QmVkall2bkNfRnJTXzQ4RmJZSldZV1kyVDJWNFlRamNhRjN2dVlYR2dEQTNQN0ZsaTAtRXVfY0J3V0R4SFNZM3VtX2VxSWJuSjQzbU5rOU5raGF0THNyUE1YRXFwZGQ4dFU4a1MxOUlSMnJkOXdTZ091cUJQazJKRVVpVEYydkM?oc=5",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "titleEn": "Anthropic releases its first Mythos-class model to the public",
+      "titleZh": "Anthropic 向公众发布其首个 Mythos 级模型",
+      "abstractEn": "Anthropic releases its first Mythos-class model to the public  Fortune",
+      "abstractZh": "Anthropic 向公众发布其首个 Mythos 级模型  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48463808",
+      "slug": "hn-48463808-claude-fable-5",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "commentUrl": "https://news.ycombinator.com/item?id=48463808",
+      "publishedAt": "2026-06-09T16:58:01.000Z",
+      "titleEn": "Claude Fable 5",
+      "titleZh": "Claude Fable 5",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Philpax"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 1438,
+      "commentCount": 1133,
+      "tags": []
+    },
+    {
+      "id": "hn:48463755",
+      "slug": "hn-48463755-amazon-employees-ask-seattle-to-put-the-brakes-on-new-data-centers",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
+      "commentUrl": "https://news.ycombinator.com/item?id=48463755",
+      "publishedAt": "2026-06-09T16:55:04.000Z",
+      "titleEn": "Amazon employees ask Seattle to put the brakes on new data centers",
+      "titleZh": "亚马逊员工请求西雅图暂停新建数据中心",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Brajeshwar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 28,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "gnews:3abd8b27a8da",
+      "slug": "gnews-3abd8b27a8da",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CLU5mTmY5T25wYUVmRFFZQjZ4VG15Z2tMaUR2cUZqVjVzSkJLclBWX2JvSGI3clpjbGd4alM1RjRaQXN3aG1YMXJLaVNOVmZGMG9hUTBGSVk1dU5qWkRPRGVTR0FNdW5NWkQ4VVFMUTM0NEEyQkxzRG5GWF8?oc=5",
+      "publishedAt": "2026-06-09T16:44:05.000Z",
+      "titleEn": "Ex-Nigerian envoy to UN calls for regulation of AI",
+      "titleZh": "尼日利亚前驻联合国大使呼吁对人工智能进行监管",
+      "abstractEn": "Ex-Nigerian envoy to UN calls for regulation of AI  Blueprint Newspapers",
+      "abstractZh": "尼日利亚前驻联合国大使呼吁对人工智能进行监管  Blueprint Newspapers",
+      "authors": [
+        "Blueprint Newspapers"
+      ],
+      "institution": "Blueprint Newspapers",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6742ccfbf2e0",
+      "slug": "gnews-6742ccfbf2e0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmdqWnp1aFRfNzgtYUFIczhYaHVOZUVzVEdZOEF6QzhZNFQyeW9fR0psWWhoX0tHMHdOSFpQMVR2ZktqOC1rU216SHBhNE8wYW5oTWRVREthWm1JWkZERjdiNWtzVUFqckN1U0pJQU4tTXFDcXhjck1mcjFlT3VwMDRvbkdrNDV6RnZNOU5ZSDZUd0Mwa0V6dC1lbGpKMUVCWndYM1VGbm5wS3YxcGJLQnFOUEN1X28?oc=5",
+      "publishedAt": "2026-06-09T16:31:00.000Z",
+      "titleEn": "Prediction: This Artificial Intelligence (AI) Semiconductor Stock Will Go Parabolic in June (Hint: It's Not Nvidia)",
+      "titleZh": "预测：这只人工智能（AI）半导体股票将在六月暴涨（提示：不是 Nvidia）",
+      "abstractEn": "Prediction: This Artificial Intelligence (AI) Semiconductor Stock Will Go Parabolic in June (Hint: It's Not Nvidia)  Yahoo Finance",
+      "abstractZh": "预测：这只人工智能（AI）半导体股票将在六月暴涨（提示：不是 Nvidia）  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48463102",
+      "slug": "hn-48463102-show-hn-open-source-version-of-anthropics-internal-analytics-engine",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Kaelio/ktx",
+      "commentUrl": "https://news.ycombinator.com/item?id=48463102",
+      "publishedAt": "2026-06-09T16:17:36.000Z",
+      "titleEn": "Show HN: Open-source version of Anthropic's internal analytics engine",
+      "titleZh": "Show HN：Anthropic 内部分析引擎的开源版本",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "lucamrtl"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48463024",
+      "slug": "hn-48463024-apple-decided-not-to-roll-out-siri-in-eu-after-denied-request-for-ex",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48463024",
+      "publishedAt": "2026-06-09T16:13:10.000Z",
+      "titleEn": "Apple decided not to roll out Siri in EU after denied request for exemption",
+      "titleZh": "苹果在豁免请求被拒后决定不在欧盟推出 Siri",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "flanged"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 308,
+      "commentCount": 510,
+      "tags": []
+    },
     {
       "id": "hn:48462823",
       "slug": "hn-48462823-sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack",
@@ -50,6 +678,28 @@
         "Reuters"
       ],
       "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5e524aafefe2",
+      "slug": "gnews-5e524aafefe2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBOYXNXb25HY2lvRlpBVXE1N3J2a3k5Y2RaWVhJQnRQaWRqb1h4YmdNZklNbXotMzhTaHRpUTM3N2thQS15R2wxMmJ3QXVBaVNyN0ZQSS1xRTdmZUZhZmFZNGQ1dkZ0VDF1ZzJWZFZJUS1yT2M5WE1R?oc=5",
+      "publishedAt": "2026-06-09T15:50:49.000Z",
+      "titleEn": "The hard part is about to begin for the world’s biggest AI companies",
+      "titleZh": "全球最大 AI 公司的艰难时刻即将开始",
+      "abstractEn": "The hard part is about to begin for the world’s biggest AI companies  CNN",
+      "abstractZh": "全球最大 AI 公司的艰难时刻即将开始  CNN",
+      "authors": [
+        "CNN"
+      ],
+      "institution": "CNN",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -99,6 +749,28 @@
       "score": 31,
       "commentCount": 4,
       "tags": []
+    },
+    {
+      "id": "gnews:063485c93212",
+      "slug": "gnews-063485c93212",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMlNZQ2Fpc255QWlma0hSYXRhTE1OQW1iV3FkdkNXTnlqeW5pSUhTOWRoNGk2SEgxOTlvWEVkeENJMUZSTXNHcVdjWnQxN1dnbjRSZllxTkE0dXgzX1pHVktMRy1vdUl4M2VmdDFQVVkzRnFtNlpQNmllbE5BVWQ0c0NVVEZuSy1UQWpkcW1ZSGtWM0VxZzUzQkU5TWdTcUY2UWlXbktlMzc3dmNEdXpzdENmTTB4R29IMTlqdVotelhUblJOSnNiTDR4UUF3T0s2MS1qM3J3?oc=5",
+      "publishedAt": "2026-06-09T15:00:00.000Z",
+      "titleEn": "New AI safety tool expands critical safety guidance for journalists and editors in US",
+      "titleZh": "新 AI 安全工具为美国记者和编辑扩展关键安全指南",
+      "abstractEn": "New AI safety tool expands critical safety guidance for journalists and editors in US  Editor and Publisher",
+      "abstractZh": "新 AI 安全工具为美国记者和编辑扩展关键安全指南  Editor and Publisher",
+      "authors": [
+        "Editor and Publisher"
+      ],
+      "institution": "Editor and Publisher",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:2573572d217f",
@@ -362,6 +1034,28 @@
       ]
     },
     {
+      "id": "hrorg:adecco:02f01dd1b814",
+      "slug": "hrorg-adecco-02f01dd1b814",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSDZhODZzUWROdnhVMElRaWlyeTRsOEhpQ1VVNUZyT0VQWE5XMTFpcklCbFQ1U0l2UzZSWUg2LWY2dXJDMmprbWtvS0RTeDdjXzFRZTVOYW8yeGFxSEc4b2FiVGJEdVItLXBsbVFSMS1TUGZrWlFLY0dRT09STzl1OENrdDg5dG5vWkRyMEw5a0JkQ1RXaXpFeDRTYkN0ZnMzOUJyeEVqUVREZHU2Nk1jMGgzNFhGVFFlbGhWd0c1OUg3MDh0OFVkN3YwNEJBT0lCcUxLMC1tT0MyQjRNR0ZEZGVUT3pSMXg0dUphVtIB7AFBVV95cUxPSDZhODZzUWROdnhVMElRaWlyeTRsOEhpQ1VVNUZyT0VQWE5XMTFpcklCbFQ1U0l2UzZSWUg2LWY2dXJDMmprbWtvS0RTeDdjXzFRZTVOYW8yeGFxSEc4b2FiVGJEdVItLXBsbVFSMS1TUGZrWlFLY0dRT09STzl1OENrdDg5dG5vWkRyMEw5a0JkQ1RXaXpFeDRTYkN0ZnMzOUJyeEVqUVREZHU2Nk1jMGgzNFhGVFFlbGhWd0c1OUg3MDh0OFVkN3YwNEJBT0lCcUxLMC1tT0MyQjRNR0ZEZGVUT3pSMXg0dUphVg?oc=5",
+      "publishedAt": "2026-06-09T13:17:00.000Z",
+      "titleEn": "Majority of Indian firms face persistent external disruptions: Report",
+      "titleZh": "报告：多数印度企业面临持续的外部干扰",
+      "abstractEn": "Majority of Indian firms face persistent external disruptions: Report  The Economic Times",
+      "abstractZh": "报告：多数印度企业面临持续的外部干扰  The Economic Times",
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
       "id": "gnews:be4c1ff1a46f",
       "slug": "gnews-be4c1ff1a46f",
       "source": "Google AI News",
@@ -375,6 +1069,28 @@
         "Clearance Jobs"
       ],
       "institution": "Clearance Jobs",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e07cb11bfc19",
+      "slug": "gnews-e07cb11bfc19",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05LXpidTBESHMyWVJjcWItWktGcVFaVGZzbGdUZ09Ic2EtRkxMbFczNE1QRlQ4YmtJaGZmV09FY2ttSUt0X2d5WjZqRHY1V0o0a0h2Z25LWmRtdGtKclQ2WHE4VF9mMmNn?oc=5",
+      "publishedAt": "2026-06-09T13:00:00.000Z",
+      "titleEn": "Rylo raises $85 million at $500 million valuation, targets $1 billion revenue by 2028",
+      "titleZh": "Rylo 以 5 亿美元估值融资 8500 万美元，目标 2028 年营收达 10 亿美元",
+      "abstractEn": "Rylo raises $85 million at $500 million valuation, targets $1 billion revenue by 2028  CTech",
+      "abstractZh": "Rylo 以 5 亿美元估值融资 8500 万美元，目标 2028 年营收达 10 亿美元  CTech",
+      "authors": [
+        "CTech"
+      ],
+      "institution": "CTech",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -530,6 +1246,50 @@
         "Tech Funding News"
       ],
       "institution": "Tech Funding News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:3930c62b6ea0",
+      "slug": "hrorg-manpower-3930c62b6ea0",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSHZja0tUdHlKMzh1ek9NMkM4RE9NQ01SMGlFSm42TGVOZThmWTd0V3A3SEMxbWFqeTJQUHRfZDVRNUpnaFZHWHIwT1FmMzhjb1FEWUpsR2hlRE5IZDVlYXlNdVZaMFByLWlHNFFzV0lCTnJ1THVoWEZERlFYZnFidTFmQnJwMno3M3lBblZOb0RtaVNNQkdHOUxoNWVuRlRRWWxUcHRMTXRqeVdCb1YycTk2NDlFLTJSQkd1QmN3M1pMUlNVSHdhRnlReGVjLXZSRmxlcktrRdIB1wFBVV95cUxPSHZja0tUdHlKMzh1ek9NMkM4RE9NQ01SMGlFSm42TGVOZThmWTd0V3A3SEMxbWFqeTJQUHRfZDVRNUpnaFZHWHIwT1FmMzhjb1FEWUpsR2hlRE5IZDVlYXlNdVZaMFByLWlHNFFzV0lCTnJ1THVoWEZERlFYZnFidTFmQnJwMno3M3lBblZOb0RtaVNNQkdHOUxoNWVuRlRRWWxUcHRMTXRqeVdCb1YycTk2NDlFLTJSQkd1QmN3M1pMUlNVSHdhRnlReGVjLXZSRmxlcktrRQ?oc=5",
+      "publishedAt": "2026-06-09T11:40:36.000Z",
+      "titleEn": "35% of companies plan to hire more staff compared to 22% that foresee cuts, according to ManpowerGroup",
+      "titleZh": "ManpowerGroup 数据显示，35% 的公司计划增加招聘，而 22% 预计裁员",
+      "abstractEn": "35% of companies plan to hire more staff compared to 22% that foresee cuts, according to ManpowerGroup  Demócrata",
+      "abstractZh": "ManpowerGroup 数据显示，35% 的公司计划增加招聘，而 22% 预计裁员  Demócrata",
+      "authors": [
+        "Demócrata"
+      ],
+      "institution": "Demócrata",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:3c3789328f6e",
+      "slug": "gnews-3c3789328f6e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRFBSbkNPUWtCLUxHVG1QckVnTFN6eGl2TlhyZ3JfdUMxU0dCVHU0UWRMblNYU0ZNZFdVZmwxLXJNR3kyUk5nbzVjMFhsX25QaXVRZzY5LS1obm1IdFFOLWxhN0QtMFliVXZqYk9vYzRmX2lFT3Y2LXRxQW0yelpSWm4tVWJUS1NOUUgySHRMR1lMLU84NGVoZWRjUnVVU3RGckNLQ1RXQU5fRHoySG1yLUdWTnQ0Qm53Z0JB?oc=5",
+      "publishedAt": "2026-06-09T11:36:33.000Z",
+      "titleEn": "Why Apple's WWDC and Siri AI hype left investors sad",
+      "titleZh": "为何苹果 WWDC 和 Siri AI 炒作让投资者失望",
+      "abstractEn": "Why Apple's WWDC and Siri AI hype left investors sad  Yahoo Finance",
+      "abstractZh": "为何苹果 WWDC 和 Siri AI 炒作让投资者失望  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -756,6 +1516,31 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "claude-blog:whats-new-in-claude-managed-agents",
+      "slug": "claude-blog-whats-new-in-claude-managed-agents",
+      "source": "Claude Blog",
+      "sourceUrl": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "titleEn": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+      "titleZh": "Claude Managed Agents 新功能：按计划运行代理并将环境变量存储在保险库中",
+      "abstractEn": "Claude Managed Agents can now run on a schedule and securely access CLI tools and other authenticated services.",
+      "abstractZh": "Claude Managed Agents 现在可以按计划运行，并安全地访问 CLI 工具及其他经过身份验证的服务。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Claude",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 核心贡献：Claude 托管代理迎来定时运行与安全凭据管理\n### Key Contributions: Scheduled Execution and Secure Credential Management for Claude Managed Agents\n\nAnthropic 近日为 Claude Managed Agents 推出两项关键更新：**定时运行**（scheduled execution）与**环境变量保险库**（environment variable vaults）。前者允许用户设定周期性任务，使代理在无人值守时自动执行操作；后者则让代理能够安全访问 CLI 工具及其他需要身份验证的服务。这两项功能显著提升了 Claude 托管代理的自动化能力与安全性，使其从“按需响应”向“自主运维”迈出重要一步。\n\n> 💡 **背景**：此前 Claude Managed Agents 仅支持手动触发或通过 API 调用运行，缺乏定时任务能力；同时，代理在访问外部服务时需硬编码凭据，存在安全隐患。\n\n## 研究背景：从对话助手到自主代理的演进\n### Background: From Conversational Assistants to Autonomous Agents\n\nClaude 系列模型最初以对话助手形态问世，但 Anthropic 持续推动其向**自主代理**（autonomous agent）方向演进。Managed Agents 是这一战略的核心产品——它允许用户部署一个长期运行的 Claude 实例，持续执行复杂任务。然而，实际部署中用户面临两大痛点：一是无法让代理在特定时间自动启动（如每日数据清洗）；二是代理需要访问数据库、云服务等外部资源时，凭据管理成为安全瓶颈。本次更新正是针对这些生产环境中的真实需求而设计。\n\n## 技术方法：定时调度与安全存储机制\n### Technical Approach: Scheduling Engine and Secure Vault Architecture\n\n在定时运行方面，Anthropic 为 Managed Agents 引入了**基于 Cron 表达式的调度引擎**（Cron-based scheduling engine）。用户只需在代理配置中指定时间规则（如“每天凌晨 2 点”），系统便会自动在对应时间点唤醒代理并执行预设任务。执行完成后，代理可生成报告或触发后续流程。\n\n在安全存储方面，新推出的**环境变量保险库**（vaults）采用加密存储机制。用户可将 API 密钥、数据库密码等敏感信息存入保险库，代理在运行时通过安全通道动态获取这些变量，而非将其硬编码在提示词或配置文件中。这既降低了凭据泄露风险，也便于在多个代理间共享和更新凭据。\n\n> ⚠️ **注意**：保险库中的环境变量仅在代理运行时临时注入，不会在日志或对话历史中明文暴露。\n\n## 主要发现：自动化运维与安全合规的双重提升\n### Key Findings: Enhanced Automation and Security Compliance\n\n从实际应用场景来看，这两项更新带来了显著收益。首先，**定时运行**使代理能够承担日常运维任务，例如：定期检查服务器健康状态、自动生成业务报表、定时同步数据等。用户无需再手动触发或编写外部调度脚本，降低了运维复杂度。\n\n其次，**环境变量保险库**解决了企业级部署中的安全合规问题。在金融、医疗等受监管行业，凭据管理是审计重点。保险库机制确保敏感信息不会出现在代理的对话记录或日志文件中，同时支持细粒度的访问控制——不同代理可被授予不同保险库的访问权限。\n\n## 意义与影响：向生产级自主代理平台迈进\n### Significance & Impact: Toward a Production-Grade Autonomous Agent Platform\n\n这两项更新标志着 Claude Managed Agents 从实验性工具向**生产级平台**（production-grade platform）的转型。定时运行能力使其能够融入企业现有的自动化工作流（如 CI/CD 管道、数据管道），而安全存储机制则扫清了在敏感环境中部署的障碍。\n\n展望未来，Anthropic 可能进一步扩展代理的自主能力，例如：支持事件驱动触发（如 Webhook）、提供更丰富的调度策略（如基于依赖关系的任务编排），以及集成更完善的审计日志系统。对于开发者而言，这意味着可以构建更复杂、更可靠的 AI 自动化系统，而无需担心底层调度与安全问题。",
+      "tldrZh": "Claude Managed Agents 新增定时运行与环境变量保险库功能，使其从按需响应迈向自主运维，显著提升自动化能力与安全性，解决了企业级部署中凭据泄露和无法无人值守的痛点。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-09T21:49:58.072Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-10"
     }
   ]
 }
