@@ -44,7 +44,7 @@ for (const a of targets) {
   let md = null;
   try { md = await fetchAnySourceMd(a); } catch { /* 抓取失败 */ }
   if (!md || md.length < 500) { noBody++; continue; }   // 没抓到正文 → 跳过(退回标题)
-  const tldr = await generateReportTldr(a.titleZh || a.titleEn, md, { kind: '报道', label: '原文正文', minLen: 200 });
+  const tldr = await generateReportTldr(a.titleZh || a.titleEn, md, { kind: '报道', label: '原文正文', minLen: 200, detail: true });
   if (tldr) {
     a.tldrZh = tldr;
     ok++;

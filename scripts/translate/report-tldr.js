@@ -29,7 +29,7 @@ const MAX_INPUT_CHARS = 3500;   // 正文开头通常已含主旨；截取足够
  * @returns {Promise<string|null>}  结论先行的主题说明（1-2句，约60-110字），失败返回 null
  */
 export async function generateReportTldr(title, text, opts = {}) {
-  const { kind = '报告', label = '报告正文', minLen = 200 } = opts;
+  const { kind = '报告', label = '报告正文', minLen = 200, detail = false } = opts;
   const body = (text ?? '').trim();
   if (body.length < minLen) return null;   // 素材太短，不强行概括
 
@@ -42,7 +42,7 @@ export async function generateReportTldr(title, text, opts = {}) {
     .trim()
     .slice(0, MAX_INPUT_CHARS);
 
-  const prompt = `你在为一个 AI 研究速览站点的${kind}卡片写「一句话主题说明」。读者扫一眼就能判断要不要点进去看详情。
+  const prompt = `你在为一个 AI 研究速览站点的${kind}卡片写${detail ? '「详细概况」——让读者不必点开原文就能掌握这条新闻的要点' : '「一句话主题说明」，读者扫一眼就能判断要不要点进去看详情'}。
 
 ## 数据来源约束（最重要）
 - **只能依据下面给出的${label}**，严禁编造材料中没有的数字、结论、观点或事实。
@@ -56,9 +56,10 @@ ${clean}
 """
 
 ## 要求
-- **结论先行**：第一句直接抛出最关键的结论 / 看点 / 主张（最重要的信息放最前）。
-- 可再补一句关键支撑（方法、范围或适用场景之一），帮读者判断要不要看详情。
-- 共 **1-2 句、约 60-100 个汉字**（最多 120），不要分点、不要换行。
+- **结论先行**：开头直接抛出最关键的结论 / 看点 / 主张（最重要的信息放最前）。
+- ${detail
+    ? '共 **3-5 句、约 150-240 个汉字**：先给结论，再补充关键事实（涉及的人物/机构、发生了什么、关键数据或背景、影响或意义），让读者读完就掌握全貌、不必点开原文。不要分点、不要换行。'
+    : '可再补一句关键支撑（方法、范围或适用场景之一）；共 **1-2 句、约 60-100 个汉字**（最多 120）。不要分点、不要换行。'}
 - ⚠️ **数字铁律**：只有当某个数字 / 百分比 / 倍数 / 型号**逐字出现在上面的材料里**，才可以写进来；任何无法在材料中确认的数字一律不要出现，改用定性表述（如"大幅提升""显著领先"）。**宁可不写数字，也绝不编造。**
 - **不要**用"本文/这篇${kind}"开头，不要复述标题。
 - 简体中文，专有名词（人名、品牌、技术术语）保留英文。
@@ -67,7 +68,7 @@ ${clean}
   try {
     const res = await client.messages.create({
       model: 'claude-haiku-4-5-20251001',   // DeepSeek 包装层会忽略此 model
-      max_tokens: 320,
+      max_tokens: detail ? 520 : 320,
       _timeoutMs: 120_000,
       messages: [{ role: 'user', content: prompt }],
     });

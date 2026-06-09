@@ -316,7 +316,7 @@ function SocialCard({ article: a }: { article: SocialItem }) {
       {a.titleZh && a.titleEn !== title && (
         <div className={styles.cardTitleEn}>{a.titleEn}</div>
       )}
-      {/* 结论先行说明（仅抓到正文的新闻才有；抓不到的退回只显示标题） */}
+      {/* 详细概况（仅抓到正文的新闻才有；抓不到的退回只显示标题）。读完即懂，多数情况无需点开原文 */}
       {a.tldrZh && <div className={styles.cardAbstract}>{a.tldrZh}</div>}
     </div>
   );
