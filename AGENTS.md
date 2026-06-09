@@ -14,7 +14,12 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 1. **新闻卡片详细摘要（让用户不必点链接）**：`report-tldr.js` 加 `detail` 选项；新闻（`backfill-news-tldr.js` 传 `detail:true`）生成 **3-5 句、约 150-240 字**的详细概况（人物/事件/数据/影响），守溯源铁律。动机：Google News 等链接国内打不开，摘要够详细就不必跳转。报告 tldr 仍是一句话（`detail:false`）。SocialCard 完整显示不截断。
 2. **新闻去重 V1 + 「N 家媒体报道」徽标**（`app/lib/dedupe.ts`）：同一新闻多家报道 → 只显 1 条代表 + 徽标显示有几家报道（含真实媒体名，从 Google 摘要尾部抽取）。**render 时计算**（`social/page.tsx`、`social/all/page.tsx`、`orgs/page.tsx` 在 sort 后 dedupe 再投影），不改数据。AI 热点(social)用 SocialCard、人服动态(orgs)用 ReportCard，两套卡片都加了 `dupBadge`。算法：±4 天窗内「强实体(英文品牌)+标题相似度」并查集聚类，**保守阈值**（`shared≥2 && jaccard≥0.18` 或 `jaccard≥0.5`）宁漏勿误并。代表条优先「有详细摘要 > 国内可直达(非 Google) > 中文 > 标题更全」。实测 /social 去重率 ~10%。跨语言去重（HN-en × 量子位-zh）留待 v2（需向量/LLM）。`dupCount`/`dupSources` 经 `toSocialItem` 投影下发。
-3. **播客源配置化 + favicon 同源**：见下方各节（播客源进 `data/sources.json`、favicon 由 `gen-pwa-icons.mjs` 生成与 APP 图标一致）。
+3. **播客多源化收尾**：
+   - 播客源**配置驱动**：定义在 `data/sources.json` 的 `podcasts` 数组（`{id,source,feedUrl,lang,max}`），`fetch/podcasts.js` `loadFeeds()` 读取（缺失回退内置 `DEFAULT_FEEDS`），信源页有 `podcast` 板块可启停。**增删改播客源 = 改 JSON 不改代码**。
+   - 详情页来源标签、卡片头像缩写/颜色**改为按 `ep.source` 动态**（原硬编码 `Lex Fridman`/`Lx`，多源后会错标）；`PodcastFeed.tsx` 的 `PODCAST_META` 给各源配色，未配的用名称首字+灰兜底。
+   - 单集无封面时**用频道封面兜底**（`fetch/podcasts.js` 取 `rss.image.url`；Lex 每集不带 itunes:image，会落到频道封面）。
+4. **favicon 与 APP 图标同源**：`gen-pwa-icons.mjs` 增加生成 `app/favicon.ico`（16/32/48 多尺寸 PNG-in-ICO，与 PWA 图标同一 SVG）。以后改图标 favicon 一起更新，不会再脱节。
+5. **新闻源策略（Google News 链接国内打不开的应对，背景知识）**：实测 Google News 的 `CBMi…` 跳转链接**无法可靠还原**为真实媒体链接（base64 解码 / 跟随跳转 / 抠 HTML 均失败，仅脆弱的 batchexecute 可解，且解出的媒体很多本身也被墙）。**不押注解析**。已落地应对：①新闻卡片**详细摘要**（见上 1，不点链接也能看懂）②**去重 + 多源标注**（见上 2，顺带给可直达备选）。中期方向（**尚未实施**）：方案 C——AI 热点加国内可直达源（InfoQ/钛媒体/量子位/雷锋网，已实测可抓直链）并降权 `Google AI News`；人服动态改抓机构官网。模拟对比发现 Google News（欧美政策/资本）与中文源（中国产业/产品）**内容差异大、非冗余替换**，故 C 是"增量+降权"而非"无损换源"。
 
 ### 2026-06-08
 
