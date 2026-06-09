@@ -1,20 +1,84 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-09T21:50:01.767Z",
+  "generatedAt": "2026-06-09T22:25:58.780Z",
   "summary": {
     "aiNews": [
-      "Anthropic发布带护栏的Mythos级模型，并推出Claude Fable 5，旨在突破前沿大语言模型研究。",
+      "Anthropic发布Claude Mythos/Fable 5，称达Mythos级别但设严格防护，建议尽快体验。",
       "欧盟责令Meta免费允许竞争对手AI聊天机器人重返WhatsApp，强化反垄断监管。",
-      "AI工具推动单人创业激增，美国一人初创企业数量上升，显示AI对就业结构的影响。"
+      "白宫高级AI政策顾问即将离职，美国AI监管政策或面临调整不确定性。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup数据显示35%公司计划增聘，22%预计裁员，全球招聘前景稳定但雇主更谨慎。",
-      "万宝盛华报告：雇主在招聘中仍更信任人类而非AI，印度招聘前景全球最强但有所放缓。",
-      "多数印度企业面临持续外部干扰，招聘前景从峰值回落，雇主整体乐观但更谨慎。"
+      "ManpowerGroup数据显示35%公司计划增聘，22%预计裁员，全球招聘前景稳定。",
+      "万宝盛华集团调查：雇主招聘中仍更信任人类而非AI，中型雇主最乐观。",
+      "印度就业前景从峰值回落，招聘前景仍为全球最强但雇主更谨慎。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:3a3ede2b1ad1",
+      "slug": "gnews-3a3ede2b1ad1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHU2hFYmFpa3NrdXJfSktrdGNlYVBGS25UWmxXVll0WHZBOXA3amZ6X3ZZdjc4TlBodC1vS0MzN280VnNxaFlzRVI1bTVBdkpJdDRFR0lpRF9xenItVmdtSHE1dXUwM254Z1VwUzNZaExmenM?oc=5",
+      "publishedAt": "2026-06-09T21:53:16.000Z",
+      "titleEn": "Ted Cruz plans markup to address federal AI regulation with light-touch framework",
+      "titleZh": "Ted Cruz 计划以轻触式框架推进联邦 AI 监管法案修订",
+      "abstractEn": "Ted Cruz plans markup to address federal AI regulation with light-touch framework  Crypto Briefing",
+      "abstractZh": "Ted Cruz 计划以轻触式框架推进联邦 AI 监管法案修订 —— Crypto Briefing",
+      "authors": [
+        "Crypto Briefing"
+      ],
+      "institution": "Crypto Briefing",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48468169",
+      "slug": "hn-48468169-mythos-fable-intentionally-hinders-requests-involving-ai-research-de",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/eliebakouch/status/2064399902684139852",
+      "commentUrl": "https://news.ycombinator.com/item?id=48468169",
+      "publishedAt": "2026-06-09T21:42:07.000Z",
+      "titleEn": "Mythos/Fable intentionally hinders requests involving AI Research Development",
+      "titleZh": "Mythos/Fable 故意阻碍涉及 AI 研究开发的请求",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "behnamoh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 2,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48467896",
+      "slug": "hn-48467896-if-claude-fable-stops-helping-you-youll-never-know",
+      "source": "Hacker News",
+      "sourceUrl": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48467896",
+      "publishedAt": "2026-06-09T21:19:11.000Z",
+      "titleEn": "If Claude Fable stops helping you, you'll never know",
+      "titleZh": "如果 Claude Fable 停止帮助你，你将无从知晓",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mips_avatar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 121,
+      "commentCount": 45,
+      "tags": []
+    },
     {
       "id": "hn:48467865",
       "slug": "hn-48467865-claude-fable-5-will-sabotage-frontier-llm-research-tasks",
@@ -35,6 +99,49 @@
       "score": 5,
       "commentCount": 1,
       "tags": []
+    },
+    {
+      "id": "hn:48467835",
+      "slug": "hn-48467835-flathub-disallows-llm-based-submissions",
+      "source": "Hacker News",
+      "sourceUrl": "https://social.treehouse.systems/@barthalion/116657011366876079",
+      "commentUrl": "https://news.ycombinator.com/item?id=48467835",
+      "publishedAt": "2026-06-09T21:12:37.000Z",
+      "titleEn": "Flathub disallows LLM-based submissions",
+      "titleZh": "Flathub 禁止基于 LLM 的提交",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "birdculture"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:b2ae7191140c",
+      "slug": "gnews-b2ae7191140c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelluX0h1VmVxZTBKZ2Yxd0I5aWhDTUdoeExON3BvR3Y0OEgybjVmQU10UncteUZFTG9fcjZuOWV5Sm82WEcyUWVNRTM3ZGZKNkxUZVpfMzN0M3hiRWo0Tzdma2s4YVNudjBocmhwX3l2UWFBeEJ3ZVhDbldkeDNROG1Sc216aXlpeEFJTg?oc=5",
+      "publishedAt": "2026-06-09T20:34:07.000Z",
+      "titleEn": "6/9/2026",
+      "titleZh": "2026年9月6日",
+      "abstractEn": "6/9/2026  AlleyWatch",
+      "abstractZh": "2026年9月6日 —— AlleyWatch",
+      "authors": [
+        "AlleyWatch"
+      ],
+      "institution": "AlleyWatch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:6cfb796679ba",
@@ -84,6 +191,49 @@
       "featuredDate": "2026-06-10"
     },
     {
+      "id": "gnews:e53d338f88ff",
+      "slug": "gnews-e53d338f88ff",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPS0ZxRjhsMk9xbnRNaVZ0ek9tWUtvakQwa0tvV1VZTUQ0UU51QktUUHk1bkRfSlB5Zzh4X3dSNWdPNXVVWTVYdlQzcUd1SkN4b0VyanRMWVNZMl81d2lLM09HVFNwdEFzOHFQMk5iem1wOUo2VG5sT2JJaWs?oc=5",
+      "publishedAt": "2026-06-09T20:00:38.000Z",
+      "titleEn": "Anthropic Says Its Latest Model Is 'Mythos-Level,' but With Strict Safeguards",
+      "titleZh": "Anthropic 称其最新模型达到‘Mythos 级别’，但设有严格防护措施",
+      "abstractEn": "Anthropic Says Its Latest Model Is 'Mythos-Level,' but With Strict Safeguards  Lifehacker",
+      "abstractZh": "Anthropic 称其最新模型达到‘Mythos 级别’，但设有严格防护措施——Lifehacker",
+      "authors": [
+        "Lifehacker"
+      ],
+      "institution": "Lifehacker",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48466812",
+      "slug": "hn-48466812-grit-rewriting-git-in-rust-with-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.gitbutler.com/true-grit",
+      "commentUrl": "https://news.ycombinator.com/item?id=48466812",
+      "publishedAt": "2026-06-09T19:58:21.000Z",
+      "titleEn": "Grit: Rewriting Git in Rust with Agents",
+      "titleZh": "Grit：用 Rust 和智能体重写 Git",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "cbrewster"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 17,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "gnews:d308e41f2ea6",
       "slug": "gnews-d308e41f2ea6",
       "source": "Google AI News",
@@ -127,6 +277,28 @@
       "tags": []
     },
     {
+      "id": "gnews:61f3ae208115",
+      "slug": "gnews-61f3ae208115",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43STJBdE9kUy1LZGV5MjNQdTdzOVFVQUswRkF4cEpUU3ZfTjJ1bGtKVVdoUTBkeGdYY2JLUU94eXlBSTdtczJXWF85bmFoWlJTcDFrcWlwSmg4d3A1M3FhRG9WOFc3Zw?oc=5",
+      "publishedAt": "2026-06-09T19:32:57.000Z",
+      "titleEn": "Anthropic launches Claude Mythos/Fable 5, but you better try it soon",
+      "titleZh": "Anthropic 发布 Claude Mythos/Fable 5，但建议尽快体验",
+      "abstractEn": "Anthropic launches Claude Mythos/Fable 5, but you better try it soon  The New Stack",
+      "abstractZh": "Anthropic 发布 Claude Mythos/Fable 5，但建议尽快体验 —— The New Stack",
+      "authors": [
+        "The New Stack"
+      ],
+      "institution": "The New Stack",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48466277",
       "slug": "hn-48466277-ultrafast-machine-learning-on-fpgas-via-kolmogorov-arnold-networks",
       "source": "Hacker News",
@@ -146,6 +318,50 @@
       "score": 93,
       "commentCount": 14,
       "tags": []
+    },
+    {
+      "id": "gnews:6fc5ed61cbcb",
+      "slug": "gnews-6fc5ed61cbcb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcFJZWWpUc0xTQ1JTTjR2Z2JacWNkYmpPd3FJV0NwTk9SOHEtUFRHN3UxVGE0aE94WFM4TGpkekoybE9hb3hWYXpLMUNvT3VzbHhvTkxQRUNvVTZCWHZRYUJBTTBUcG9IWWZLdHg4emYzZEFkUVE3WWZoaHFUaEZhcmhOTV8xU1p3Q3VuNUhPY205VEkyQVE0dGlKdnZSeTlncmFaNVM1d0dNU0RaN1d5ZkczSzczbVE?oc=5",
+      "publishedAt": "2026-06-09T19:19:39.000Z",
+      "titleEn": "Artificial intelligence ‘promising and problematic’ for courts, chief justice says",
+      "titleZh": "首席大法官称人工智能对法院而言‘充满希望且问题重重’",
+      "abstractEn": "Artificial intelligence ‘promising and problematic’ for courts, chief justice says  CHAT News Today",
+      "abstractZh": "首席大法官称人工智能对法院而言‘充满希望且问题重重’——CHAT News Today",
+      "authors": [
+        "CHAT News Today"
+      ],
+      "institution": "CHAT News Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e7432cb1d3bd",
+      "slug": "gnews-e7432cb1d3bd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUTRPRzJONy1paHM0TUV1MHFYRnpBV1RVcVB0REM1SDBRTGhRZE9IWTNWU2xhTkg4M255LVZjdUtveTFXMDZ1TXEyTzdGNjJsZnk3eFpkc1Y4b0F0Vm5DUVNHQ1hvRzZBNngyZ2hIYVV6TzdrRTVQYVRYSl9jZGJsN0hR?oc=5",
+      "publishedAt": "2026-06-09T19:15:00.000Z",
+      "titleEn": "Anthropic’s Mythos Is One Step Closer to Rollout After Claude Fable 5 Release",
+      "titleZh": "在 Claude Fable 5 发布后，Anthropic 的 Mythos 距离部署更近一步",
+      "abstractEn": "Anthropic’s Mythos Is One Step Closer to Rollout After Claude Fable 5 Release  Barron's",
+      "abstractZh": "在 Claude Fable 5 发布后，Anthropic 的 Mythos 距离部署更近一步——《巴伦周刊》",
+      "authors": [
+        "Barron's"
+      ],
+      "institution": "Barron's",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "hn:48465980",
@@ -363,6 +579,28 @@
       ]
     },
     {
+      "id": "gnews:15642421c8f3",
+      "slug": "gnews-15642421c8f3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc3BPWjQxZlR3bHJkQUd3cDRyNThrWmYxMzR1OGU2TVpvYm9iTHc0aFNYVGNBOXplVGlSUUNNM3ZubENENGw2SzBWSk9kbTdKNGQ3UGlVZ0t2UV9sak9PSmhHcjZzR0RLVHY1b3YzbE1yTkhZS0JsMHRJRGY4RmNaeHBSSzFGWVhYSVh3OUxrQQ?oc=5",
+      "publishedAt": "2026-06-09T17:53:03.000Z",
+      "titleEn": "Claude Fable 5 from Anthropic now available on AWS",
+      "titleZh": "Anthropic 的 Claude Fable 5 现已在 AWS 上可用",
+      "abstractEn": "Claude Fable 5 from Anthropic now available on AWS  About Amazon",
+      "abstractZh": "Anthropic 的 Claude Fable 5 现已在 AWS 上可用——About Amazon",
+      "authors": [
+        "About Amazon"
+      ],
+      "institution": "About Amazon",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hrorg:manpower:d5908d577793",
       "slug": "hrorg-manpower-d5908d577793",
       "source": "ManpowerGroup",
@@ -428,6 +666,28 @@
       "tags": []
     },
     {
+      "id": "gnews:b65f940b9530",
+      "slug": "gnews-b65f940b9530",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLVpkQjBWb1RrbXlrcjBtY3VON1FsVEExT1RRWFgxci1GQkN4SnF1OTdObjl4Rjc4c2ZLLWh5RS1RNFcxbTJkb2l5am5hNXFkd3pTTmxMbzJfaWlDc0pVYmtDenRUUGtlVFVQWXNYdlQtSzVob1VtMDktUTNLa0h0ZnNxaVhnYmVyLXZz?oc=5",
+      "publishedAt": "2026-06-09T17:16:42.000Z",
+      "titleEn": "Anthropic Releases ‘Safe’ Version of Its Mythos A.I. Technology",
+      "titleZh": "Anthropic 发布其 Mythos AI 技术的‘安全’版本",
+      "abstractEn": "Anthropic Releases ‘Safe’ Version of Its Mythos A.I. Technology  The New York Times",
+      "abstractZh": "Anthropic 发布其 Mythos AI 技术的‘安全’版本——《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:e189aac09db7",
       "slug": "gnews-e189aac09db7",
       "source": "Google AI News",
@@ -463,6 +723,28 @@
         "CyberScoop"
       ],
       "institution": "CyberScoop",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:858bac09eed2",
+      "slug": "gnews-858bac09eed2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVGM1TzlvdE9GOURobHcwd0ljbElJU0Z4X0lVelpTY3FybGlURllCdEhtclhibVNzSXB2N2dDcFZPc2ZWOC1zVW8tcmFtWkpVMDNpRllIS2k0Z1pyN0NJU3JZS0JkX1dSUWQwZkx5X2VKTkZqMTRsQmhwZXd0bFZFTXpCTHlUdDRxaXgtbENiZnBtWU9hd1VkT1BxVEJMazZ5RnhV?oc=5",
+      "publishedAt": "2026-06-09T17:00:40.000Z",
+      "titleEn": "Anthropic releases Fable 5 model, built on the same tech that spooked the government",
+      "titleZh": "Anthropic 发布 Fable 5 模型，基于曾让政府不安的同一技术",
+      "abstractEn": "Anthropic releases Fable 5 model, built on the same tech that spooked the government  NBC News",
+      "abstractZh": "Anthropic 发布 Fable 5 模型，基于曾让政府不安的同一技术——NBC News",
+      "authors": [
+        "NBC News"
+      ],
+      "institution": "NBC News",
       "docType": "Blog",
       "category": "social",
       "score": 0,
