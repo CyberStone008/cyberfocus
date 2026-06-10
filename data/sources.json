@@ -36,6 +36,40 @@
       "max": 8
     }
   ],
+  "orgSites": [
+    {
+      "id": "recruit-holdings",
+      "source": "Recruit Holdings",
+      "mode": "rss",
+      "url": "https://recruit-holdings.com/en/newsroom/rss.xml",
+      "lang": "en",
+      "max": 8
+    },
+    {
+      "id": "mercer",
+      "source": "Mercer",
+      "mode": "html",
+      "url": "https://www.mercer.com/insights/",
+      "lang": "en",
+      "max": 8
+    },
+    {
+      "id": "korn-ferry",
+      "source": "Korn Ferry",
+      "mode": "html",
+      "url": "https://www.kornferry.com/insights",
+      "lang": "en",
+      "max": 8
+    },
+    {
+      "id": "fesco-adecco",
+      "source": "FESCO Adecco",
+      "mode": "html",
+      "url": "https://www.fescoadecco.com/index.php/about/news.html",
+      "lang": "zh",
+      "max": 8
+    }
+  ],
   "boardOverrides": {
     "OpenAI Blog": [
       "research",

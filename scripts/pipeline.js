@@ -24,6 +24,7 @@ import { fetchReddit } from './fetch/reddit.js';
 import { fetchChineseBlogs } from './fetch/chinese-blogs.js';
 import { fetchAINewsSearch } from './fetch/ai-news-search.js';
 import { fetchHROrgNews } from './fetch/hr-orgs.js';
+import { fetchHROrgSites } from './fetch/hr-org-sites.js';
 import { translateBatch } from './translate/claude.js';
 import { pickFeatured, generateFeaturedContent, fetchAnySourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
@@ -51,7 +52,7 @@ const SINGLE_SOURCE = process.env.SINGLE_SOURCE ?? null;
 const MULTI_SOURCE_IDS = [
   'Reddit ML', 'Reddit LocalLLaMA',
   '量子位', '雷锋网', '36氪',
-  'Korn Ferry', 'Mercer', 'ManpowerGroup', 'Randstad', 'Adecco Group',
+  'Korn Ferry', 'Mercer', 'ManpowerGroup', 'Randstad', 'Adecco Group', 'Recruit Holdings',
   '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
 ];
 
@@ -158,6 +159,11 @@ async function run() {
     timed('ai-news',    enabled('Google AI News')    ? fetchAINewsSearch(processed, existingTitleFPs) : skip()),
     // HR / Orgs sources — Google News curl can be slow; give it more headroom
     timed('hr-orgs',    fetchHROrgNews(processed, effectiveDisabledIds, existingHROrgFPs), 300_000),
+    // HR org official sites（官网双轨：第一手直链，与 Google News 报道并存；失败仅 warn 不拖垮）
+    timed('hr-org-sites', fetchHROrgSites(processed, effectiveDisabledIds).catch((err) => {
+      console.warn(`[pipeline] hr-org-sites failed: ${err.message}`);
+      return [];
+    }), 300_000),
   ]);
 
   const allFetched = fetchResults
@@ -185,7 +191,7 @@ async function run() {
   // Backfill untranslated HR org articles already in articles.json
   // (e.g. articles added before translation ran, or whose translation failed)
   const HR_SOURCES = new Set([
-    'ManpowerGroup', 'Mercer', 'Korn Ferry', 'Randstad', 'Adecco Group',
+    'ManpowerGroup', 'Mercer', 'Korn Ferry', 'Randstad', 'Adecco Group', 'Recruit Holdings',
     '科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco',
   ]);
   const CHINESE_HR_SOURCES = new Set(['科锐国际', 'FESCO', '中智咨询', '智联招聘', 'BOSS直聘', 'FESCO Adecco']);
@@ -262,7 +268,8 @@ async function run() {
   console.log('\n[pipeline] Selecting featured articles...');
   const todayBJ = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
   const HIGH_VALUE_BLOGS = new Set(['Anthropic Blog', 'Claude Blog', 'OpenAI Blog', 'DeepMind Blog', 'Google DeepMind', 'NVIDIA Blog']);
-  const researchItems = translated.filter((a) => a.category !== 'social');
+  // hrsite:（机构官网动态）虽是 research 类别，但属人服板块内容，不参与 AI 精选解读
+  const researchItems = translated.filter((a) => a.category !== 'social' && !a.id.startsWith('hrsite:'));
   const top3 = pickFeatured(researchItems, 3);
   const hvBlogs = researchItems.filter((a) => HIGH_VALUE_BLOGS.has(a.source) && a.sourceUrl);
   // union, dedup by id
