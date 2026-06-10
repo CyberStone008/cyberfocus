@@ -1,20 +1,557 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-10T05:49:14.500Z",
+  "generatedAt": "2026-06-10T08:10:51.818Z",
   "summary": {
     "aiNews": [
-      "Anthropic发布Mythos 5和Fable 5模型，创下AI性能纪录，可1天处理5000万行代码。",
-      "OpenCV 5发布，全新DNN引擎增强ONNX和LLM/VLM支持，优化Intel、Arm和RISC-V硬件。",
-      "德国法院裁定谷歌对AI概览中的虚假回答承担责任，强化AI法律责任边界。"
+      "百度智能云与FluxA合作，共建Agent经济全球支付基础设施，推动AI代理商业化。",
+      "GPT-5.6首批实测精准狙击Mythos，性能表现引发行业关注。",
+      "德国法院裁定谷歌对AI概览中的虚假回答承担责任，确立AI法律责任先例。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Indeed报告：2024年英国夏季职位空缺同比下降31%，劳动力市场持续降温。",
-      "ManpowerGroup数据：35%公司计划增加招聘，22%预计裁员，全球招聘前景稳定。",
-      "万宝盛华集团：印度招聘前景虽放缓但仍为全球最强，雇主招聘更谨慎。"
+      "Korn Ferry报告聚焦职场AI应用，探讨AI对人才招聘与员工体验的影响。",
+      "Indeed报告显示2024年英国夏季职位空缺下降31%，反映劳动力市场降温。"
     ]
   },
   "articles": [
+    {
+      "id": "hrsite:korn-ferry:02eee8072d04",
+      "slug": "hrsite-korn-ferry-02eee8072d04",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/gen-ai-in-the-workplace",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "AI in the Workplace",
+      "titleZh": "职场中的AI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:11f167e5bf26",
+      "slug": "hrsite-korn-ferry-11f167e5bf26",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/leadership-articles/pay-transparency-in-the-workplace",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Pay Transparency",
+      "titleZh": "薪酬透明度",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:1074a18ba9ca",
+      "slug": "hrsite-korn-ferry-1074a18ba9ca",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/future-of-work",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Future of Work",
+      "titleZh": "工作的未来",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:59a5cba3b3fd",
+      "slug": "hrsite-korn-ferry-59a5cba3b3fd",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/organizational-transformation",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Organizational Transformation",
+      "titleZh": "组织转型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:b72820a16e62",
+      "slug": "hrsite-korn-ferry-b72820a16e62",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/talent-recruitment",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Talent Recruitment",
+      "titleZh": "人才招聘",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:7e19b0595c00",
+      "slug": "hrsite-korn-ferry-7e19b0595c00",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/interim-talent",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Interim talent",
+      "titleZh": "临时人才",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:83479ffb4d12",
+      "slug": "hrsite-korn-ferry-83479ffb4d12",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/employee-experience",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Employee Experience",
+      "titleZh": "员工体验",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:korn-ferry:d7e520b0fd99",
+      "slug": "hrsite-korn-ferry-d7e520b0fd99",
+      "source": "Korn Ferry",
+      "sourceUrl": "https://www.kornferry.com/insights/featured-topics/workforce-management",
+      "publishedAt": "2026-06-10T08:09:34.177Z",
+      "titleEn": "Workforce Management",
+      "titleZh": "劳动力管理",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Korn Ferry"
+      ],
+      "institution": "Korn Ferry",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:34.177Z"
+    },
+    {
+      "id": "hrsite:mercer:146610baa2cf",
+      "slug": "hrsite-mercer-146610baa2cf",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/investments/alternative-investments/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Alternative investments",
+      "titleZh": "另类投资",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:e35d9d7df608",
+      "slug": "hrsite-mercer-e35d9d7df608",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/investments/podcast-critical-thinking-critical-issues/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Critical thinking podcast",
+      "titleZh": "批判性思维播客",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:8513a0ba7373",
+      "slug": "hrsite-mercer-8513a0ba7373",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/investments/investing-sustainably/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Investing sustainably",
+      "titleZh": "可持续投资",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:445357b612fc",
+      "slug": "hrsite-mercer-445357b612fc",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/investments/market-outlook-and-trends/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Market outlook and trends",
+      "titleZh": "市场展望与趋势",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "Report",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:4aaf1516deff",
+      "slug": "hrsite-mercer-4aaf1516deff",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/investments/portfolio-strategies/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Portfolio strategies",
+      "titleZh": "投资组合策略",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:9e16385e5bbd",
+      "slug": "hrsite-mercer-9e16385e5bbd",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/total-rewards/employee-benefits-strategy/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Health benefits strategy",
+      "titleZh": "健康福利策略",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:dae67b32d544",
+      "slug": "hrsite-mercer-dae67b32d544",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/total-rewards/employee-benefits-optimization/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Employee benefits optimization",
+      "titleZh": "员工福利优化",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "hrsite:mercer:eed468efbde7",
+      "slug": "hrsite-mercer-eed468efbde7",
+      "source": "Mercer",
+      "sourceUrl": "https://www.mercer.com/insights/total-rewards/employee-wellbeing/",
+      "publishedAt": "2026-06-10T08:09:32.572Z",
+      "titleEn": "Employee well-being",
+      "titleZh": "员工福祉",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Mercer"
+      ],
+      "institution": "Mercer",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:32.572Z"
+    },
+    {
+      "id": "gnews:173784bf70d2",
+      "slug": "gnews-173784bf70d2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVJ2NVBDTHNLQ213eXhRa01XLUZxZVNtTjhUWW5lVGhVQUFYWUhRWEZoRnQwaHlRMmdGa3RQY2tmd2VGcHR4NTFNY0hiU2hqZjh2dGVvMzFQbkpkY0ZfT011SDJMTTZsMGZzMUxBeWFDYWV3SldQbi1aek5OUldqY1MycmZHNlZ0WVNMbmU0VGJCaFRjZkVqQXdPUQ?oc=5",
+      "publishedAt": "2026-06-10T07:52:27.000Z",
+      "titleEn": "Plan for the regulation that isn't coming: what the case for an AI disarmament pact means for UK organisations",
+      "titleZh": "为尚未到来的监管做准备：AI 裁军协议对英国组织的意义",
+      "abstractEn": "Plan for the regulation that isn't coming: what the case for an AI disarmament pact means for UK organisations  Resultsense",
+      "abstractZh": "为尚未到来的监管做准备：AI 裁军协议对英国组织的意义  Resultsense",
+      "authors": [
+        "Resultsense"
+      ],
+      "institution": "Resultsense",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9636e525791f",
+      "slug": "gnews-9636e525791f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZlNVb1djR0lKS1R5M2dpcDR2LWRQSTJPSTVIOXBLYVdnSFgwQkxQUVRQR0NLdTZadU9HX01yVWNUZVVtRUEwcWlVcndGUmN1TEN4cXBRYWZPN1NKNmk2Um9sQXdqU1BKZWxkUGRjQ09FTVVVTkRkaURBdGFXaFFJM253S2V2Z19QbUN3TG5xOG9najBjS2FXV0R2eGUzZEMtUDBxT1RJOWJTX2VxTlNBNWJickhwTkc3eldMQmlERnZtTVBuTFE?oc=5",
+      "publishedAt": "2026-06-10T07:41:15.000Z",
+      "titleEn": "AI policy implementation doubled last year but remains lower than usage, data shows",
+      "titleZh": "数据显示：去年 AI 政策实施数量翻倍，但仍低于使用率",
+      "abstractEn": "AI policy implementation doubled last year but remains lower than usage, data shows  Third Sector",
+      "abstractZh": "数据显示：去年 AI 政策实施数量翻倍，但仍低于使用率  Third Sector",
+      "authors": [
+        "Third Sector"
+      ],
+      "institution": "Third Sector",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8c288d0fcc51",
+      "slug": "gnews-8c288d0fcc51",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbGxvUV96SnEyaGR5WlAzd2tLNDVLMUc0TUZQZHl0Wlh2QzBxYmFZVFRaMGZFOEJiSnkxSVFqTGR5ZFY2d3RLOGJCMGdOY3I4ZnNRdHlUelhWTEdSdnJQSzNtY3pwdG5CSzNSM1A1NzdvcHdoaHdlNWdMRS10TFh0MEc2R2NBdWEwUmFpeV9uVjVYa05EQlFHVXZxUEpYcHdWZTdFeFExb9IBpwFBVV95cUxQbGxvUV96SnEyaGR5WlAzd2tLNDVLMUc0TUZQZHl0Wlh2QzBxYmFZVFRaMGZFOEJiSnkxSVFqTGR5ZFY2d3RLOGJCMGdOY3I4ZnNRdHlUelhWTEdSdnJQSzNtY3pwdG5CSzNSM1A1NzdvcHdoaHdlNWdMRS10TFh0MEc2R2NBdWEwUmFpeV9uVjVYa05EQlFHVXZxUEpYcHdWZTdFeFExbw?oc=5",
+      "publishedAt": "2026-06-10T07:03:51.000Z",
+      "titleEn": "Wealth advisory startup HyperNorm AI raises $2.2 Mn in seed funding",
+      "titleZh": "财富咨询初创公司 HyperNorm AI 获 220 万美元种子轮融资",
+      "abstractEn": "Wealth advisory startup HyperNorm AI raises $2.2 Mn in seed funding  Entrackr",
+      "abstractZh": "财富咨询初创公司 HyperNorm AI 获 220 万美元种子轮融资  Entrackr",
+      "authors": [
+        "Entrackr"
+      ],
+      "institution": "Entrackr",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433516-html",
+      "slug": "fluxa-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433516.html",
+      "publishedAt": "2026-06-10T06:51:35.000Z",
+      "titleEn": "百度智能云与FluxA达成战略合作，共建 Agent 经济全球支付基础设施",
+      "titleZh": "百度智能云与 FluxA 达成战略合作，共建 Agent 经济全球支付基础设施",
+      "abstractEn": "诚邀30家OPC入驻内测",
+      "abstractZh": "诚邀 30 家 OPC 入驻内测",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433731-html",
+      "slug": "gpt-5-6-mythos",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433731.html",
+      "publishedAt": "2026-06-10T06:45:09.000Z",
+      "titleEn": "GPT-5.6首批实测来了！精准狙击Mythos",
+      "titleZh": "GPT-5.6 首批实测来了！精准狙击 Mythos",
+      "abstractEn": "本月发布！",
+      "abstractZh": "本月发布！",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:ee1ac50af7d5",
+      "slug": "gnews-ee1ac50af7d5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVUNRNDE3Qy1rWVQzTGtqbDJPMW1IOEhZdXY4bFUtbkhpaVZBa09XdDgwcHpWa3FFcXZSS0ZkNTdsZXIyM2V5aTlOZDFfWmZmaEl3bVVid214UGJrbTlzVnJGbXVpdTdPUXp2ekw1V1E4X0VScFdYcHVNLTVPcXhrUE05cGhydkJPZUswQlhCbFU1SGk4WnUtdGltTVN2QUIzZVRwRFVHOA?oc=5",
+      "publishedAt": "2026-06-10T06:21:16.000Z",
+      "titleEn": "Religious leaders seek inclusion in Nigeria’s AI policy, demand ethical safeguards",
+      "titleZh": "宗教领袖寻求纳入尼日利亚 AI 政策，要求伦理保障",
+      "abstractEn": "Religious leaders seek inclusion in Nigeria’s AI policy, demand ethical safeguards  Peoples Gazette Nigeria",
+      "abstractZh": "宗教领袖寻求纳入尼日利亚 AI 政策，要求伦理保障  Peoples Gazette Nigeria",
+      "authors": [
+        "Peoples Gazette Nigeria"
+      ],
+      "institution": "Peoples Gazette Nigeria",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433682-html",
+      "slug": "claude-fable-5",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433682.html",
+      "publishedAt": "2026-06-10T05:54:17.000Z",
+      "titleEn": "Claude Fable 5首日实测，杀疯了…",
+      "titleZh": "Claude Fable 5 首日实测，杀疯了…",
+      "abstractEn": "听取哇声一片",
+      "abstractZh": "听取哇声一片",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:9591535154f5",
+      "slug": "gnews-9591535154f5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMnhNcFJhUHNFZmduYWFsajlidXFJa0ItYUNOeHRWNWFaZ0RaZEo5cTdIVWpZRnppNVhVZ2tPOGFXQ0hTWFdmZWxNc1BfMUVBaHRKU1ptcUNjaG43cnhLQWdTOW1pYnlxX0YxQkowc1BYc0RQVE54am04RTFXSF9nN012RmhacEFqV2xJbkxuRmcwdXZSQlM3ZTdoZ29BY25kb2N3Rg?oc=5",
+      "publishedAt": "2026-06-10T05:37:03.000Z",
+      "titleEn": "Journalists Visit Sungkyunkwan University to Study AI Policy",
+      "titleZh": "记者团访问成均馆大学研究 AI 政策",
+      "abstractEn": "Journalists Visit Sungkyunkwan University to Study AI Policy  Let's Data Science",
+      "abstractZh": "记者团访问成均馆大学研究 AI 政策  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48471444",
       "slug": "hn-48471444-what-we-learned-hiring-33-engineers-in-two-weeks",
@@ -57,6 +594,27 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48471153",
+      "slug": "hn-48471153-initial-impressions-of-claude-fable-5",
+      "source": "Hacker News",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/9/claude-fable-5/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48471153",
+      "publishedAt": "2026-06-10T03:42:37.000Z",
+      "titleEn": "Initial impressions of Claude Fable 5",
+      "titleZh": "Claude Fable 5 的初步印象",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mfiguiere"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
     },
     {
       "id": "gnews:e70838b5d220",
@@ -227,6 +785,27 @@
       "tags": [
         "人服动态"
       ]
+    },
+    {
+      "id": "hn:48469874",
+      "slug": "hn-48469874-ai-companies-investing-billions-in-residential-proxy",
+      "source": "Hacker News",
+      "sourceUrl": "https://nanog.org/events/nanog-97/content/5771",
+      "commentUrl": "https://news.ycombinator.com/item?id=48469874",
+      "publishedAt": "2026-06-10T00:57:58.000Z",
+      "titleEn": "AI Companies Investing Billions in Residential Proxy",
+      "titleZh": "AI 公司斥资数十亿美元投资住宅代理",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "lakoshi"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
     },
     {
       "id": "gnews:ea94d4b90754",
@@ -551,6 +1130,28 @@
       "tags": []
     },
     {
+      "id": "gnews:a5a3c7374b52",
+      "slug": "gnews-a5a3c7374b52",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOVllLeWIyemxlSlJXSGU4ZGw4TzliSmtIRVE3eHNnLWNFZl9vR3Y4RmF4QVc4aFQwU0FvamY3Ym1EeEdIUE5KakdBMnJKMkxqd0tUdDAtNVV1cXkxeXRHQncwbHhJVUdvNkphZ0szdTJfdHVoVWgya1pJb25XUS1TUHExWkJTYTF2Z2IzZU1qSmhBTVRuM3FuemJpeGMtNnY4dUNwUm5qWXhXb1IwSk5vNkZCTzlDR0ttM0dYempNYV95QlhYWTd2WDZkVEpEUmZqTHNXdHFLWHdZUnlEUVFKcjB3ZU84Wlc3a3NHSGVwbW9SSlBQMDJxcWYzV0c0RTBQN2wtMXUzWWFaa2hzMkg1SDdIMUpJczNoaGh3Ug?oc=5",
+      "publishedAt": "2026-06-09T20:34:10.000Z",
+      "titleEn": "Claude Fable 5 brings Mythos to the masses — Anthropic's new frontier model is 'state-of-the-art on nearly all tested benchmarks'",
+      "titleZh": "Claude Fable 5 将 Mythos 带给大众——Anthropic 的新前沿模型在几乎所有测试基准上达到最先进水平",
+      "abstractEn": "Claude Fable 5 brings Mythos to the masses — Anthropic's new frontier model is 'state-of-the-art on nearly all tested benchmarks'  Tom's Hardware",
+      "abstractZh": "Claude Fable 5 将 Mythos 带给大众——Anthropic 的新前沿模型在几乎所有测试基准上达到最先进水平  Tom's Hardware",
+      "authors": [
+        "Tom's Hardware"
+      ],
+      "institution": "Tom's Hardware",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:b2ae7191140c",
       "slug": "gnews-b2ae7191140c",
       "source": "Google AI News",
@@ -595,6 +1196,28 @@
       ]
     },
     {
+      "id": "gnews:c5ae2ae66326",
+      "slug": "gnews-c5ae2ae66326",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2dVBaeHlIUXY2cW42VzhHdE0tSFAtdGtQN1Q5bllCLWFlWGtZM3AyM3FEc0t3MklPejZMXzc5OVJDd1BSRFFWeW5kTjRZNnJreER5YTl3TjBHZ3dyc2tfclVmdW5VWC13ZjVNMGtha1V0TU5kR19hRw?oc=5",
+      "publishedAt": "2026-06-09T20:29:00.000Z",
+      "titleEn": "Why SpaceX’s IPO Won’t Steal the Show From Anthropic and OpenAI",
+      "titleZh": "为何 SpaceX 的 IPO 不会抢走 Anthropic 和 OpenAI 的风头",
+      "abstractEn": "Why SpaceX’s IPO Won’t Steal the Show From Anthropic and OpenAI  Barron's",
+      "abstractZh": "为何 SpaceX 的 IPO 不会抢走 Anthropic 和 OpenAI 的风头  Barron's",
+      "authors": [
+        "Barron's"
+      ],
+      "institution": "Barron's",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "anthropic:claude-fable-5-mythos-5",
       "slug": "claude-fable-5-mythos-5",
       "source": "Anthropic Blog",
@@ -618,6 +1241,28 @@
       },
       "featured": true,
       "featuredDate": "2026-06-10"
+    },
+    {
+      "id": "gnews:3fe7333d73d1",
+      "slug": "gnews-3fe7333d73d1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13ZFBRaGUwN2hnZll1bEZpTTNXdFJNNXNhaEdkNzNqQnllTGRPZ2pXY1NYcG5va0lkcWY4YmxSM2VLdWptMWRuNEVpY0dKTzJwVW5xVEN1dzVjT1RQOUpXX0VTd0N2QmFZaU05QVlNbGxuNDZ4dzBZQg?oc=5",
+      "publishedAt": "2026-06-09T20:18:26.000Z",
+      "titleEn": "Announcing Anthropic Claude Fable 5 on Snowflake Cortex AI",
+      "titleZh": "在 Snowflake Cortex AI 上发布 Anthropic Claude Fable 5",
+      "abstractEn": "Announcing Anthropic Claude Fable 5 on Snowflake Cortex AI  Snowflake",
+      "abstractZh": "在 Snowflake Cortex AI 上发布 Anthropic Claude Fable 5  Snowflake",
+      "authors": [
+        "Snowflake"
+      ],
+      "institution": "Snowflake",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:e53d338f88ff",
@@ -1139,6 +1784,28 @@
       "tags": []
     },
     {
+      "id": "gnews:131d69fb5b7b",
+      "slug": "gnews-131d69fb5b7b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aSTM0YkZnWnpsXzJjTUN0NUhhREVOSzA5RDdmbGFONDhqcU9Nb2llMVRDbVp6MEpBejZ3TDl5dGx4TEFWRm9mRHZaZ0VOZWdYX0ZkRlR0LXFFb1M2RlNaV3RmU2lBSWg1S1E?oc=5",
+      "publishedAt": "2026-06-09T17:23:14.000Z",
+      "titleEn": "Anthropic Fable 5 Now Available",
+      "titleZh": "Anthropic Fable 5 现已可用",
+      "abstractEn": "Anthropic Fable 5 Now Available  Harvey",
+      "abstractZh": "Anthropic Fable 5 现已可用  Harvey",
+      "authors": [
+        "Harvey"
+      ],
+      "institution": "Harvey",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:b65f940b9530",
       "slug": "gnews-b65f940b9530",
       "source": "Google AI News",
@@ -1262,6 +1929,28 @@
         "CNBC"
       ],
       "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:34630b37c870",
+      "slug": "gnews-34630b37c870",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORXNFd050a3E2TWg3VWFuckhfN21iTUxtcU15VENRVmk0UE9VLWRfVExFN1M3ZWxURzduT25NWXMySDBfMmpQSG05dEV6M3lIZmxGXzJSRnJZb0UzZmpMWGVWTlIwTHBJaXdHV0R6Qm9VZ04wZFdtajkxeHlFNVFpcjNSR2xuc19fc01WaVlOSTFSb3JqR1BHak12YVNRNnhKLWJqWTg2Y0FyWUN6OWtSUlhWWTlQSTRQNE9fUm1uUlhYdkV0cXpYLWVEbldQRUY3d3g5SWp1dFZzeVBi?oc=5",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "titleEn": "Anthropic launches Mythos-class Claude Fable 5 model, available to the public",
+      "titleZh": "Anthropic 发布 Mythos 级 Claude Fable 5 模型，面向公众开放",
+      "abstractEn": "Anthropic launches Mythos-class Claude Fable 5 model, available to the public  Yahoo Finance",
+      "abstractZh": "Anthropic 发布 Mythos 级 Claude Fable 5 模型，面向公众开放  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1585,6 +2274,28 @@
         "Business Wire"
       ],
       "institution": "Business Wire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:569bc31148bd",
+      "slug": "gnews-569bc31148bd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSmFQMXdPclh1dThRWExTTHRFRllNRGsyUEpfXzFidDdBc1htdmVOZWlvNnc5TDlXYWdONndsdGYzYUFwcDI5OG9ROUU4aWZlOWxqZURST0daMW9EbU1fOTVfT3dCQVpoQ0dEeWxWcUpKbk9NaEwySzFQLUF6ZzYzQm9EWTgyN2dRLUdMYmNvTU80MnJhSVRZWmJfMDRQak9jSVlIUG9MVjhsY2lNVmJRR01rWmZwUnk1STcwM3pQUmhob2UxczFFMVVRSDl3MTRyTFFLY0Jjek1ZZ0ZlZ2lSag?oc=5",
+      "publishedAt": "2026-06-09T14:31:00.000Z",
+      "titleEn": "Ordinary People Can Soon Invest In OpenAI, Anthropic And SpaceX IPOs: Here’s How—And Why It’s Risky",
+      "titleZh": "普通人很快就能投资 OpenAI、Anthropic 和 SpaceX 的 IPO：方法如下——以及为何存在风险",
+      "abstractEn": "Ordinary People Can Soon Invest In OpenAI, Anthropic And SpaceX IPOs: Here’s How—And Why It’s Risky  Forbes",
+      "abstractZh": "普通人很快就能投资 OpenAI、Anthropic 和 SpaceX 的 IPO：方法如下——以及为何存在风险  Forbes",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -2403,6 +3114,374 @@
       "score": 6,
       "commentCount": 0,
       "tags": []
+    },
+    {
+      "id": "hrsite:recruit-holdings:9c8bc3cac7df",
+      "slug": "hrsite-recruit-holdings-9c8bc3cac7df",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260604_0002/",
+      "publishedAt": "2026-06-03T15:00:00.000Z",
+      "titleEn": "The transcript of The Morgan Stanley and MUFG Japan Summit 2026 is posted",
+      "titleZh": "摩根士丹利与三菱日联金融集团 2026 年日本峰会记录已发布",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.562Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:61d828326e0a",
+      "slug": "hrsite-recruit-holdings-61d828326e0a",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260601_0001/",
+      "publishedAt": "2026-05-31T15:00:00.000Z",
+      "titleEn": "Status of Share Repurchases",
+      "titleZh": "股票回购状况",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:e4b0bfd6313d",
+      "slug": "hrsite-recruit-holdings-e4b0bfd6313d",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260522_0001/",
+      "publishedAt": "2026-05-21T15:00:00.000Z",
+      "titleEn": "Notice of Annual Meeting of Shareholders 2026 posted",
+      "titleZh": "2026 年年度股东大会通知已发布",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:087b8f2fd4a5",
+      "slug": "hrsite-recruit-holdings-087b8f2fd4a5",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260515_0002/",
+      "publishedAt": "2026-05-14T15:05:00.000Z",
+      "titleEn": "Recruit Holdings Announces Execution of the Equity Compensation Plan for Key Management Personnel of the Company and Directors of the Board and Key Management Personnel of its Subsidiaries",
+      "titleZh": "Recruit Holdings 宣布实施公司关键管理人员及其子公司董事会成员和关键管理人员的股权激励计划",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:001df260822e",
+      "slug": "hrsite-recruit-holdings-001df260822e",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260515_0001/",
+      "publishedAt": "2026-05-14T15:03:00.000Z",
+      "titleEn": "Recruit Holdings Announces Partial Revision of its Equity Compensation Plan for Directors of the Board",
+      "titleZh": "Recruit Holdings 宣布对董事会董事股权薪酬计划进行部分修订",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:061d8bc0ee25",
+      "slug": "hrsite-recruit-holdings-061d8bc0ee25",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260515_q4_fy2025_financial_results_index/",
+      "publishedAt": "2026-05-14T15:00:00.000Z",
+      "titleEn": "Q4 and Fiscal Year 2025 Financial Results",
+      "titleZh": "2025财年第四季度及全年财务业绩",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:262a19e86da8",
+      "slug": "hrsite-recruit-holdings-262a19e86da8",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260501_0001/",
+      "publishedAt": "2026-04-30T15:00:00.000Z",
+      "titleEn": "Status of Share Repurchases",
+      "titleZh": "股份回购状况",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:52d6002a6235",
+      "slug": "hrsite-fesco-adecco-52d6002a6235",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24502.html",
+      "publishedAt": "2026-04-17T00:00:00.000Z",
+      "titleEn": "德科集团 CEO：以敏捷优势，铸就未来信心",
+      "titleZh": "德科集团 CEO：以敏捷优势，铸就未来信心",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:b4b4271f890e",
+      "slug": "hrsite-fesco-adecco-b4b4271f890e",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24503.html",
+      "publishedAt": "2026-04-15T00:00:00.000Z",
+      "titleEn": "FESCO Adecco 上海公司斩获2026“金帜奖”四项大奖 彰显行业引领力",
+      "titleZh": "FESCO Adecco 上海公司斩获2026‘金帜奖’四项大奖 彰显行业引领力",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:recruit-holdings:b0cf70f4f063",
+      "slug": "hrsite-recruit-holdings-b0cf70f4f063",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://recruit-holdings.com/en/newsroom/20260408_0001/",
+      "publishedAt": "2026-04-07T15:00:00.000Z",
+      "titleEn": "Recruit Holdings Announces Policy on the Investment Unit",
+      "titleZh": "Recruit Holdings 宣布投资单位政策",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Recruit Holdings"
+      ],
+      "institution": "Recruit Holdings",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:30.563Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:fe9877627d34",
+      "slug": "hrsite-fesco-adecco-fe9877627d34",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24499.html",
+      "publishedAt": "2026-03-23T00:00:00.000Z",
+      "titleEn": "德科集团与 Agentforce 达成无限制许可协议，加速规模化部署AI智能体",
+      "titleZh": "德科集团与 Agentforce 达成无限制许可协议，加速规模化部署AI智能体",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:88cd3e2df082",
+      "slug": "hrsite-fesco-adecco-88cd3e2df082",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24490.html",
+      "publishedAt": "2026-03-11T00:00:00.000Z",
+      "titleEn": "德科集团发布2025年第四季度及全年财报：市场份额显著提升，业绩增长稳健",
+      "titleZh": "德科集团发布2025年第四季度及全年财报：市场份额显著提升，业绩增长稳健",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:f402671484c0",
+      "slug": "hrsite-fesco-adecco-f402671484c0",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24489.html",
+      "publishedAt": "2026-03-09T00:00:00.000Z",
+      "titleEn": "外企德科荣膺黄浦区投资促进突出贡献集体",
+      "titleZh": "外企德科荣膺黄浦区投资促进突出贡献集体",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:c1932c5bc6c9",
+      "slug": "hrsite-fesco-adecco-c1932c5bc6c9",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24491.html",
+      "publishedAt": "2026-03-04T00:00:00.000Z",
+      "titleEn": "德科集团发布《2026年劳动力趋势报告》：职业抱负回归，安全保障与敏捷赋能成核心诉求",
+      "titleZh": "德科集团发布《2026年劳动力趋势报告》：职业抱负回归，安全保障与敏捷赋能成核心诉求",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "Report",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:e5db1e3144be",
+      "slug": "hrsite-fesco-adecco-e5db1e3144be",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24477.html",
+      "publishedAt": "2026-02-04T00:00:00.000Z",
+      "titleEn": "AI 重塑职场层级，“新蓝领” 崛起正当时！德科集团解读全球急需的核心技能",
+      "titleZh": "AI 重塑职场层级，‘新蓝领’ 崛起正当时！德科集团解读全球急需的核心技能",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
+    },
+    {
+      "id": "hrsite:fesco-adecco:27c10d436057",
+      "slug": "hrsite-fesco-adecco-27c10d436057",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://www.fescoadecco.com/index.php/about/news/article/24480.html",
+      "publishedAt": "2026-02-02T00:00:00.000Z",
+      "titleEn": "外企德科受聘担任上海国际商会新任常务理事单位",
+      "titleZh": "外企德科受聘担任上海国际商会新任常务理事单位",
+      "abstractEn": null,
+      "abstractZh": null,
+      "authors": [
+        "FESCO Adecco"
+      ],
+      "institution": "FESCO Adecco",
+      "docType": "News",
+      "category": "research",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "官网发布"
+      ],
+      "fetchedAt": "2026-06-10T08:09:37.611Z"
     }
   ]
 }
