@@ -90,3 +90,8 @@
 @media (max-width: 640px) {
   .root { padding: 1.5rem 1rem 3rem; }
 }
+
+/* 手机端：标题给左上角悬浮汉堡按钮让位（本页类名不含 _topbar__，不被 globals.css 全局规则覆盖） */
+@media (max-width: 768px) {
+  .header { padding-left: 26px; } /* root 左 32px + 26px = 58px，越过按钮右缘 48px */
+}
