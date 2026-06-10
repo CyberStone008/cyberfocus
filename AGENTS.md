@@ -47,15 +47,15 @@ This version has breaking changes — APIs, conventions, and file structure may 
 | product-manager（产品经理） | 只读 | 一句话需求 → 任务单（方案选项/验收标准/影响面）；决策权永远在用户 |
 | pipeline-dev（管道研发） | 可写·worktree | `scripts/` + workflows 开发 |
 | frontend-engineer（前端工程师） | 可写·worktree | `app/` + `public/` 开发 |
-| ui-designer（UI 设计师） | 只读+preview | UI 改动双视口截图评审，输出 必须修/建议/可忽略 |
-| qa-engineer（测试工程师） | 只读+执行 | 跑 `npm run verify` + 冒烟，只报失败项 |
+| ui-designer（UI 设计师） | 只读+preview | ①开发前出 UI 设计方案（布局/尺寸/交互规格）②实现后双视口走查（对照设计方案），输出 必须修/建议/可忽略 |
+| qa-engineer（测试工程师） | 只读+执行 | ①按任务单验收标准+设计方案逐条验收（附证据）②工程回归（verify+冒烟），只报失败项 |
 | content-auditor（内容审计） | 只读 | 溯源铁律核查：数字/引语逐字有据 |
 
 ### 流转规则
-1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 product-manager 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。**轻 UI 任务**：可不派 ui-designer，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
+1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 product-manager 任务单 → 用户选定方案 → **涉及界面的，ui-designer 先出设计方案（用户可过目）** → 对应 dev 在 worktree 分支按设计实现 → ui-designer 对照设计走查 + qa-engineer 按验收标准验收。**轻 UI 任务**：可不派 ui-designer，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
 2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
 3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
-4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；生成逻辑改动须 content-auditor 抽查）。
+4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；重需求须 qa-engineer 验收报告全部通过；生成逻辑改动须 content-auditor 抽查）。
 5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 
