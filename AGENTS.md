@@ -12,6 +12,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ### 2026-06-10
 
+0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（planner/pipeline-dev/ui-dev/design-critic/release-verifier/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
 1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
 
 ### 2026-06-09
@@ -34,6 +35,28 @@ This version has breaking changes — APIs, conventions, and file structure may 
    - 常态化入口：报告→`pipeline.js` 生成全文后顺带；播客→`podcast-pipeline.js` 抓到新集顺带；新闻→workflow `Run news TL;DR (capped)` 步骤每批 `MAX=25`（最近优先、抓不到的 Google News 等跳过）。
 
 ---
+
+## 开发工作流（agent 团队规范）
+
+> 目标：流程规范可控、产出可验证、任务可并行、出错可回滚。**所有会话（含 subagent）必须遵守。**
+
+### 角色（定义在 `.claude/agents/`，含各自坑库/清单）
+| 角色 | 性质 | 职责 |
+|---|---|---|
+| product-planner | 只读 | 一句话需求 → 任务单（方案选项/验收标准/影响面）；决策权永远在用户 |
+| pipeline-dev | 可写·worktree | `scripts/` + workflows 开发 |
+| ui-dev | 可写·worktree | `app/` + `public/` 开发 |
+| design-critic | 只读+preview | UI 改动双视口截图评审，输出 必须修/建议/可忽略 |
+| release-verifier | 只读+执行 | 跑 `npm run verify` + 冒烟，只报失败项 |
+| content-auditor | 只读 | 溯源铁律核查：数字/引语逐字有据 |
+
+### 流转规则
+1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 planner 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。
+2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
+3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
+4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 design-critic「✅ 可合并」；生成逻辑改动须 content-auditor 抽查）。
+5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
+6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 
 ## 技术约束（踩过的坑，不要重踩）
 

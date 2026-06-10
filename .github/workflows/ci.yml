@@ -1,0 +1,33 @@
+name: CI (PR Gate)
+
+# 代码改动走 PR 必须过此关卡；data/ 由 cron 机器人直推 main，不经过这里。
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'scripts/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'next.config.*'
+      - 'tsconfig.json'
+      - '.github/workflows/**'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      # 与本地 npm run verify 完全相同的标准：
+      # scripts 语法 / workflow YAML / 数据校验器+坑扫描 / 双构建(静态导出+server)
+      - name: Run unified verify
+        run: bash scripts/verify.sh

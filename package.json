@@ -11,7 +11,9 @@
     "start": "next start",
     "pipeline": "node scripts/pipeline.js",
     "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js",
-    "check:backends": "node scripts/check-backends.mjs"
+    "check:backends": "node scripts/check-backends.mjs",
+    "verify": "bash scripts/verify.sh",
+    "validate:data": "node scripts/validate-data.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.89.0",
