@@ -306,12 +306,19 @@ function toArticle(entry, { title, url, publishedAt, abstract }) {
 
 // ── 主导出 ───────────────────────────────────────────────────────────────────
 
+// 本次运行的抓取统计（运行期哨兵 C3「官网防烂」用：pipeline 将其写入 data/health/last-fetch.json）。
+// candidates = 列表页解析出的候选条目数（与 added 不同：added 受 processedIds 去重影响，
+// 老内容稳定的站 added 常为 0 是正常的；candidates=0 才说明解析/站点结构出了问题）。
+let lastFetchStats = {};
+export function getLastFetchStats() { return lastFetchStats; }
+
 /**
  * 抓取所有启用的官网源。
  * @param {Set<string>} processedIds 已处理 ID 集合（与其它 fetcher 同约定）
  * @param {Set<string>} disabledIds  停用集合（按条目 id 或 source；pipeline 单源模式会传不同集合）
  */
 export async function fetchHROrgSites(processedIds = new Set(), disabledIds = new Set()) {
+  lastFetchStats = {};
   const entries = loadOrgSites();
   if (entries.length === 0) {
     console.log('[hr-org-sites] 无启用的官网源（data/sources.json 缺 orgSites 或全部停用）');
@@ -339,6 +346,8 @@ export async function fetchHROrgSites(processedIds = new Set(), disabledIds = ne
         : extractHtmlItems(entry, body);
     } catch (err) {
       console.warn(`[hr-org-sites] ${entry.source} fetch failed: ${err.message}`);
+      // 抓取失败计 candidates=0（站点改版/挪 URL 也是"烂"，哨兵 C3 连续 0 会报）
+      lastFetchStats[entry.id] = { source: entry.source, mode: entry.mode, candidates: 0, added: 0, error: err.message };
       continue;
     }
 
@@ -353,6 +362,7 @@ export async function fetchHROrgSites(processedIds = new Set(), disabledIds = ne
       added++;
     }
     console.log(`[hr-org-sites] ${entry.source}: ${added} new articles (${candidates.length} candidates)`);
+    lastFetchStats[entry.id] = { source: entry.source, mode: entry.mode, candidates: candidates.length, added };
   }
 
   console.log(`[hr-org-sites] Total: ${results.length} new articles`);

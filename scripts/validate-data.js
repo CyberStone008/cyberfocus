@@ -8,7 +8,7 @@
  *  B. 内容规则：无纯日期垃圾标题；无逐字稿播客解读须带来源声明
  *  C. 已知坑扫描（代码层）：UTC 日期 slice、播客硬编码 Lex 等历史事故的回归防线
  */
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync, readdirSync, existsSync } from 'fs';
 import { resolve } from 'path';
 
 const errors = [];
@@ -85,6 +85,28 @@ scanDir('app', ['.tsx'], (p, txt) => {
     warns.push(`${p}: 疑似硬编码 'Lex Fridman Podcast' 展示文案，确认是否应按 ep.source 动态`);
   }
 });
+
+/* ── D. 运行期哨兵健康数据轻校验（文件存在时才查；详见 AGENTS.md〈运行期哨兵〉） ── */
+if (existsSync(resolve(root, 'data/health/state.json'))) {
+  const hs = load('data/health/state.json');
+  if (hs) {
+    const isObj = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
+    if (!isObj(hs.perSource))            errors.push('data/health/state.json: perSource 应为对象');
+    if (!isObj(hs.alertState))           errors.push('data/health/state.json: alertState 应为对象');
+    if (!Array.isArray(hs.openIncidents)) errors.push('data/health/state.json: openIncidents 应为数组');
+    if (!isObj(hs.judged))               errors.push('data/health/state.json: judged 应为对象');
+    const badInc = (hs.openIncidents ?? []).filter((i) => !i?.id || !i?.checkId || !i?.status);
+    if (badInc.length) errors.push(`data/health/state.json: ${badInc.length} 条 openIncidents 缺 id/checkId/status`);
+  }
+}
+if (existsSync(resolve(root, 'data/health/last-fetch.json'))) {
+  const lf = load('data/health/last-fetch.json');
+  if (lf) {
+    if (typeof lf.ranAt !== 'string')                              errors.push('data/health/last-fetch.json: ranAt 应为字符串');
+    if (lf.perSource === null || typeof lf.perSource !== 'object') errors.push('data/health/last-fetch.json: perSource 应为对象');
+    if (lf.orgSitesParse === null || typeof lf.orgSitesParse !== 'object') errors.push('data/health/last-fetch.json: orgSitesParse 应为对象');
+  }
+}
 
 /* ── 结果 ── */
 for (const w of warns) console.log(`⚠️  ${w}`);

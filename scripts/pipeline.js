@@ -24,7 +24,7 @@ import { fetchReddit } from './fetch/reddit.js';
 import { fetchChineseBlogs } from './fetch/chinese-blogs.js';
 import { fetchAINewsSearch } from './fetch/ai-news-search.js';
 import { fetchHROrgNews } from './fetch/hr-orgs.js';
-import { fetchHROrgSites } from './fetch/hr-org-sites.js';
+import { fetchHROrgSites, getLastFetchStats } from './fetch/hr-org-sites.js';
 import { translateBatch } from './translate/claude.js';
 import { pickFeatured, generateFeaturedContent, fetchAnySourceMd } from './translate/featured-content.js';
 import { loadProcessed, saveProcessed, normalizeId } from './utils/dedup.js';
@@ -187,6 +187,32 @@ async function run() {
   });
 
   console.log(`[pipeline] New items to process: ${newItems.length}`);
+
+  // ── 运行期哨兵的 fetch 统计（data/health/last-fetch.json）─────────────────
+  // 哨兵 C2/C3 消费：perSource=本批各源新增数；orgSitesParse=官网源列表页解析出的候选数
+  // （候选数优先口径——added 受去重影响常为 0 属正常，candidates=0 才说明解析烂了）。
+  // 必须在"无新内容提前 return"之前写：空批也要记账，C3 的"连续 2 批 0"才数得出来。
+  // DRY_RUN / SINGLE_SOURCE（管理后台单源补抓，统计不完整）不写。
+  if (!DRY_RUN && !SINGLE_SOURCE) {
+    try {
+      const perSource = {};
+      for (const item of newItems) perSource[item.source] = (perSource[item.source] ?? 0) + 1;
+      const orgStats = getLastFetchStats();
+      const orgSitesParse = {};
+      for (const [id, s] of Object.entries(orgStats)) orgSitesParse[id] = s.candidates;
+      const healthDir = resolve(process.cwd(), 'data/health');
+      if (!existsSync(healthDir)) mkdirSync(healthDir, { recursive: true });
+      writeFileSync(resolve(healthDir, 'last-fetch.json'), JSON.stringify({
+        ranAt: new Date().toISOString(),
+        perSource,
+        orgSitesParse,          // { 条目id: 解析数 }（哨兵 C3 的判定输入）
+        orgSitesDetail: orgStats, // 人读调试用：{ 条目id: { source, mode, candidates, added, error? } }
+      }, null, 2));
+      console.log('[pipeline] Wrote data/health/last-fetch.json (sentinel fetch stats)');
+    } catch (e) {
+      console.warn(`[pipeline] last-fetch.json 写入失败（不影响跑批）: ${e.message}`);
+    }
+  }
 
   // Backfill untranslated HR org articles already in articles.json
   // (e.g. articles added before translation ran, or whose translation failed)
