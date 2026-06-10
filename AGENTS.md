@@ -52,7 +52,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 | content-auditor | 只读 | 溯源铁律核查：数字/引语逐字有据 |
 
 ### 流转规则
-1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 planner 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。
+1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 planner 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。**轻 UI 任务**：可不派 design-critic，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
 2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
 3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
 4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 design-critic「✅ 可合并」；生成逻辑改动须 content-auditor 抽查）。
