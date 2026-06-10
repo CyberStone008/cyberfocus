@@ -41,7 +41,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# local harness data
-/.claude/
+# local harness data — 个人/本机配置不入库，但 agent 团队定义和启动配置是项目资产，必须入库
+/.claude/*
+!/.claude/agents/
+!/.claude/launch.json
 logs/
 backups/
