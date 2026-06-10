@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from './Sidebar.module.css';
 import { IS_PUBLIC } from '../lib/public-mode';
+import { PushSubscribe } from './PushSubscribe';
 
 const NAV: {
   group: string;
@@ -131,6 +132,7 @@ export function Sidebar() {
       </nav>
 
       <div className={styles.footer}>
+        <PushSubscribe />
         <button className={styles.themeBtn} onClick={toggleTheme}>
           <span className={styles.navIcon}>{theme === 'light' ? '◑' : '○'}</span>
           {theme === 'light' ? '切换深色' : '切换浅色'}

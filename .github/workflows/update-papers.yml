@@ -173,6 +173,23 @@ jobs:
             bark_push "📭 CyberFocus 本次无新内容" "${TS} 抓取完成，暂无新内容" "passive"
           fi
 
+      # Web Push：有新内容时给 iOS PWA 订阅者推一条（走 APNs，国内可达）。未配 VAPID/KV 则脚本自动跳过。
+      - name: 发送 Web Push（有新内容时）
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && success() && steps.commit.outputs.committed == 'true'
+        continue-on-error: true
+        env:
+          VAPID_PUBLIC_KEY:  ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          KV_REST_API_URL:   ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+        run: |
+          TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
+          N=$(node -e 'try{const A=require("./data/articles.json");const cut=new Date(Date.now()-3.5*3600*1000).toISOString();console.log(A.filter(a=>a.fetchedAt&&a.fetchedAt>cut).length)}catch{console.log("")}' 2>/dev/null)
+          export PUSH_TITLE="📰 CyberFocus 已更新"
+          export PUSH_BODY="${TS} · 新增 ${N} 条 AI 精华，点开看看"
+          export PUSH_URL="/reports"
+          node scripts/send-push.js || true
+
       - name: Bark 失败告警
         if: github.event_name == 'schedule' && failure()
         continue-on-error: true
@@ -200,7 +217,11 @@ jobs:
 
       - name: Build Next.js
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
-        run: npx next build --webpack
+        # 静态导出(output:export)不支持动态路由——删掉只在 Vercel 运行的 push 接口再打包。
+        # （仅删 CI 工作区，不影响仓库；Vercel 用自己的 server-mode 构建，照常保留这些接口。）
+        run: |
+          rm -rf app/api/push
+          npx next build --webpack
         env:
           NEXT_EXPORT: "1"
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
