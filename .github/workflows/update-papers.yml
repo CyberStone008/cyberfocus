@@ -48,12 +48,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '20'
           cache: 'npm'
@@ -233,7 +233,7 @@ jobs:
       # 日内无新内容的批次跳过，避免每 3 小时白白构建。（Vercel 由 push 自动部署，独立于此。）
       - name: Setup Pages
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Build Next.js
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.commit.outputs.committed == 'true'
