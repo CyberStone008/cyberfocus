@@ -180,6 +180,9 @@ function urlToId(orgId, url) {
  * This is intentionally broad so irrelevant content from publicly-traded HR companies is excluded.
  */
 function isNoise(title, abstract) {
+  // 纯日期/纯数字符号标题（如 AlleyWatch 每日聚合页 "6/9/2026"）无信息量，直接跳过
+  const t = (title ?? '').trim();
+  if (!t || /^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(t) || /^\d{4}-\d{1,2}-\d{1,2}$/.test(t) || /^[\d\s\/.,:：\-—年月日]+$/.test(t)) return true;
   const text = (title + ' ' + abstract).toLowerCase();
   // Stock / investor news patterns
   if (/earnings call|earnings preview|earnings report|beats.*sales|beats.*expectations|misses.*expectations|profit exceeds|stock slowing|shares sold|acquires.*shares|shares of.*\$|dividend|ipo|institutional.*hold|% stake|stake in korn|stake in mercer|nyse:|nasdaq:|analyst.*question|analyst.*downgrad|analyst.*upgrad|price target|q[1-4] \d{4} earn|share buyback|share repurchase|authoriz.*buyback/.test(text)) return true;

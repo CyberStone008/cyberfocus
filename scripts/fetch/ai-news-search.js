@@ -63,6 +63,17 @@ function urlToId(url) {
   return `gnews:${createHash('md5').update(url).digest('hex').slice(0, 12)}`;
 }
 
+/** 垃圾标题：纯日期/纯数字符号（如 AlleyWatch 每日聚合页标题就是 "6/9/2026"），无信息量不入库 */
+export function isJunkTitle(t) {
+  const s = (t ?? '').trim();
+  if (!s) return true;
+  if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(s)) return true;
+  if (/^\d{4}-\d{1,2}-\d{1,2}$/.test(s)) return true;
+  if (/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}$/i.test(s)) return true;
+  if (/^[\d\s\/.,:：\-—年月日]+$/.test(s)) return true;
+  return false;
+}
+
 /** Normalize a title to a short fingerprint for duplicate detection */
 function titleFingerprint(title) {
   return title
@@ -116,6 +127,7 @@ export async function fetchAINewsSearch(processedIds, existingTitles = new Set()
       if (processedIds && processedIds.has(id)) continue;
 
       const { titleEn, source: publisher } = parseSourceAndTitle(rawTitle);
+      if (isJunkTitle(titleEn)) continue;   // 纯日期等无内容标题不入库
 
       // Skip near-duplicate titles (same story from different publishers)
       const fp = titleFingerprint(titleEn);

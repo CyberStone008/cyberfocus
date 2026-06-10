@@ -9,6 +9,21 @@ import { Article } from '../types/article';
  * 跨语言（英文标题 × 中文标题）靠共享英文品牌实体能抓一部分，彻底跨语言留待 v2。
  */
 
+/**
+ * 垃圾标题判定：标题为空 / 纯日期（Google News 偶尔混入 AlleyWatch 等站点的
+ * "每日聚合页"，标题就是 "6/9/2026"）/ 纯数字符号。这种卡片没有信息量，直接过滤。
+ */
+export function isJunkTitle(titleEn?: string | null, titleZh?: string | null): boolean {
+  const t = (titleZh || titleEn || '').trim();
+  if (!t) return true;
+  if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(t)) return true;                     // 6/9/2026
+  if (/^\d{4}年\d{1,2}月\d{1,2}日$/.test(t)) return true;                      // 2026年9月6日
+  if (/^\d{4}-\d{1,2}-\d{1,2}$/.test(t)) return true;                         // 2026-09-06
+  if (/^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}$/i.test(t)) return true;
+  if (/^[\d\s\/.,:：\-—年月日]+$/.test(t)) return true;                        // 只剩数字/日期符号
+  return false;
+}
+
 const STOP = new Set([
   'the','a','an','of','to','in','on','for','and','with','is','at','by','as','from','its','it',
   'new','ai','llm','say','says','how','why','what','will','can','使用','推出','发布','宣布',
