@@ -1,0 +1,42 @@
+{
+  "ranAt": "2026-06-10T16:46:28.884Z",
+  "perSource": {
+    "Hacker News": 4,
+    "量子位": 1,
+    "雷锋网": 1,
+    "Google AI News": 21,
+    "Recruit Holdings": 1
+  },
+  "orgSitesParse": {
+    "recruit-holdings": 379,
+    "mercer": 31,
+    "korn-ferry": 16,
+    "fesco-adecco": 10
+  },
+  "orgSitesDetail": {
+    "recruit-holdings": {
+      "source": "Recruit Holdings",
+      "mode": "rss",
+      "candidates": 379,
+      "added": 0
+    },
+    "mercer": {
+      "source": "Mercer",
+      "mode": "html",
+      "candidates": 31,
+      "added": 0
+    },
+    "korn-ferry": {
+      "source": "Korn Ferry",
+      "mode": "html",
+      "candidates": 16,
+      "added": 0
+    },
+    "fesco-adecco": {
+      "source": "FESCO Adecco",
+      "mode": "html",
+      "candidates": 10,
+      "added": 0
+    }
+  }
+}

@@ -9,19 +9,19 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+      "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "量子位": {
-      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+      "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+      "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "雷锋网": {
-      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+      "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "Recruit Holdings": {
-      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+      "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "Anthropic Blog": {
       "lastSeenAt": "2026-06-09T21:50:01.814Z"
@@ -153,7 +153,7 @@
       "lastSeenAt": "2026-06-09T05:22:16.743Z"
     },
     "No Priors": {
-      "lastSeenAt": "2026-06-09T05:22:27.822Z"
+      "lastSeenAt": "2026-06-10T16:50:48.988Z"
     },
     "Lex Fridman Podcast": {
       "lastSeenAt": "2026-06-04T08:39:50.185Z"
@@ -162,14 +162,73 @@
       "lastSeenAt": "2026-06-09T10:46:29.141Z"
     }
   },
-  "alertState": {},
-  "openIncidents": [],
+  "alertState": {
+    "C2:Korn Ferry": {
+      "status": "alerting",
+      "firstFailedAt": "2026-06-10T16:51:27.378Z",
+      "lastAlertedAt": null,
+      "lastAlertedDateBJ": null,
+      "resolvedAt": null,
+      "lastFailedAt": "2026-06-10T16:51:27.378Z",
+      "note": "Korn Ferry 已静默 7.6 天（阈值 7 天，最后收录 2026-06-03）"
+    },
+    "C2:中智咨询": {
+      "status": "alerting",
+      "firstFailedAt": "2026-06-10T16:51:27.379Z",
+      "lastAlertedAt": null,
+      "lastAlertedDateBJ": null,
+      "resolvedAt": null,
+      "lastFailedAt": "2026-06-10T16:51:27.379Z",
+      "note": "中智咨询 已静默 33.7 天（阈值 7 天，最后收录 2026-05-08）"
+    },
+    "C2:FESCO Adecco": {
+      "status": "alerting",
+      "firstFailedAt": "2026-06-10T16:51:27.379Z",
+      "lastAlertedAt": null,
+      "lastAlertedDateBJ": null,
+      "resolvedAt": null,
+      "lastFailedAt": "2026-06-10T16:51:27.379Z",
+      "note": "FESCO Adecco 已静默 31.4 天（阈值 7 天，最后收录 2026-05-10）"
+    }
+  },
+  "openIncidents": [
+    {
+      "id": "C2-Korn_Ferry-mq8b2tcj",
+      "checkId": "C2",
+      "target": "Korn Ferry",
+      "severity": "warning",
+      "firstSeenAt": "2026-06-10T16:51:27.379Z",
+      "lastSeenAt": "2026-06-10T16:51:27.379Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=7.6 threshold=7",
+      "status": "open"
+    },
+    {
+      "id": "C2-中智咨询-mq8b2tcj",
+      "checkId": "C2",
+      "target": "中智咨询",
+      "severity": "warning",
+      "firstSeenAt": "2026-06-10T16:51:27.379Z",
+      "lastSeenAt": "2026-06-10T16:51:27.379Z",
+      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=33.7 threshold=7",
+      "status": "open"
+    },
+    {
+      "id": "C2-FESCO_Adecco-mq8b2tcj",
+      "checkId": "C2",
+      "target": "FESCO Adecco",
+      "severity": "warning",
+      "firstSeenAt": "2026-06-10T16:51:27.379Z",
+      "lastSeenAt": "2026-06-10T16:51:27.379Z",
+      "evidence": "lastSeenAt=2026-05-10T07:52:13.106Z ageDays=31.4 threshold=7",
+      "status": "open"
+    }
+  ],
   "dailyCounts": {
     "2026-06-10": {
-      "aiNews": 113,
+      "aiNews": 135,
       "papers": 2,
       "hrOrgs": 37,
-      "podcasts": 0
+      "podcasts": 1
     },
     "2026-06-09": {
       "aiNews": 99,
@@ -218,11 +277,21 @@
       "papers": 0,
       "hrOrgs": 5,
       "podcasts": 0
+    },
+    "2026-06-11": {
+      "aiNews": 27,
+      "papers": 0,
+      "hrOrgs": 1,
+      "podcasts": 0
     }
   },
-  "orgSitesZeroStreak": {},
-  "lastFetchConsumedRanAt": null,
+  "orgSitesZeroStreak": {
+    "mercer": 0,
+    "korn-ferry": 0,
+    "fesco-adecco": 0
+  },
+  "lastFetchConsumedRanAt": "2026-06-10T16:46:28.884Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-10T11:00:48.779Z"
+  "updatedAt": "2026-06-10T16:51:27.557Z"
 }

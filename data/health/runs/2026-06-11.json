@@ -1,0 +1,51 @@
+[
+  {
+    "ranAt": "2026-06-10T16:51:27.558Z",
+    "trigger": "piggyback",
+    "checks": [
+      {
+        "id": "C2",
+        "status": "fail",
+        "value": "3/28 静默",
+        "threshold": "高频2天/HR新闻7天/其余14天",
+        "note": "Korn Ferry 已静默 7.6 天（阈值 7 天，最后收录 2026-06-03）；中智咨询 已静默 33.7 天（阈值 7 天，最后收录 2026-05-08）；FESCO Adecco 已静默 31.4 天（阈值 7 天，最后收录 2026-05-10）"
+      },
+      {
+        "id": "C3",
+        "status": "ok",
+        "value": "mercer=31(streak 0) korn-ferry=16(streak 0) fesco-adecco=10(streak 0)",
+        "threshold": "连续 2 批解析 0",
+        "note": "html 官网源解析正常"
+      },
+      {
+        "id": "C5a",
+        "status": "ok",
+        "value": 0,
+        "threshold": "退出码 0",
+        "note": "validate-data 退出码 0"
+      },
+      {
+        "id": "C5b",
+        "status": "ok",
+        "value": "aiNews: 昨日 135 vs 中位 70；papers: 中位数 2 太小跳过；hrOrgs: 昨日 37 vs 中位 7；podcasts: 中位数 0 太小跳过",
+        "threshold": "昨日 < 7天中位数×30%",
+        "note": "各板块产出量正常"
+      },
+      {
+        "id": "C5c",
+        "status": "ok",
+        "value": null,
+        "threshold": "【一句话叙事】非空",
+        "note": "2026-06-10.md 叙事 OK（科技板块遭遇剧烈抛售，半导体与软件板块领跌，纳指单日重挫2.83%，周跌幅扩大至…）"
+      },
+      {
+        "id": "C6",
+        "status": "ok",
+        "value": 70,
+        "threshold": "≥50%（仅记周报）",
+        "note": "近 24h 可抓新闻 67 条，tldr 覆盖 47 条（70%）"
+      }
+    ],
+    "alertsSent": []
+  }
+]

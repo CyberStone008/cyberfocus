@@ -1,0 +1,625 @@
+{
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-10T16:46:48.056Z",
+  "summary": {
+    "aiNews": [
+      "DiffusionGemma发布，文本生成速度提升4倍，显著加速AI推理效率。",
+      "Anthropic新模型Fable 5性能强大但使用受限，引发对AI竞争与反垄断讨论。",
+      "2026年Q1初创融资报告：AI占据全部资本的57%，显示行业资本高度集中。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击，反映劳动力市场降温。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "hn:48478471",
+      "slug": "hn-48478471-diffusiongemma-4x-faster-text-generation",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48478471",
+      "publishedAt": "2026-06-10T16:09:37.000Z",
+      "titleEn": "DiffusionGemma: 4x Faster Text Generation",
+      "titleZh": "DiffusionGemma：文本生成速度提升4倍",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "meetpateltech"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 19,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48478404",
+      "slug": "hn-48478404-would-claude-fables-shadownerfing-making-an-anticompetitive-class-ac",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48478404",
+      "commentUrl": "https://news.ycombinator.com/item?id=48478404",
+      "publishedAt": "2026-06-10T16:04:51.000Z",
+      "titleEn": "Would Claude Fable's shadownerfing making an anticompetitive class action case?",
+      "titleZh": "Claude Fable的暗影网络行为是否构成反垄断集体诉讼案由？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hashmap"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:47583fec19dd",
+      "slug": "gnews-47583fec19dd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRklFN29YSDBEN3hYV29QdHdrRHJFMFVPd0ZoaVA3RzBnU0ZKbDFQX1VubXZNbmk0UDJyUFg5MV9YdkdKUFc5VjRBOE9pTTBjVkFwTWtSekdFSnNJbVpuOFJiSzY2WEEwY194UGRjT21zcU90ZTkxVzhwbFVxdEhhSjZlZkMyYVJsaXUtN2JUbGFIOTgzSFNGdWlBd0laTk5xdzViVC1WRE5sdlFJX0d5NUtIVnpxTkVZSHhGWC1sSno4U2F0bzhTM2EydS1kc2JOdkljWkJqUWp4RzhTdkNJ?oc=5",
+      "publishedAt": "2026-06-10T15:44:25.000Z",
+      "titleEn": "AI governance: Can regulation keep pace with autonomous networks?",
+      "titleZh": "AI 治理：监管能否跟上自主网络的步伐？",
+      "abstractEn": "AI governance: Can regulation keep pace with autonomous networks?  Developing Telecoms",
+      "abstractZh": "AI 治理：监管能否跟上自主网络的步伐？信息来源：Developing Telecoms",
+      "authors": [
+        "Developing Telecoms"
+      ],
+      "institution": "Developing Telecoms",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d95ac3eda08a",
+      "slug": "gnews-d95ac3eda08a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnpiamVlYktGNTJjZERnVlQ1S1dxaHNveFEzV3lmNFdWNktDNENPeERqOElNRnA1cFQ5Vzh5RVotZTdoRGxVd3Yxd3RtektoUmduZmM2V1NnbmIyTUJpSC1PYkNEYnhSZWRQdXdzcmhpZjZhWkN6d1B3cmxjcWRwZTBEcW83ZTNXY01FYzZNM2dObjdwLW1RTHZJUHA1d1ZxV2M0aVcwRWo?oc=5",
+      "publishedAt": "2026-06-10T15:29:47.000Z",
+      "titleEn": "Preliminary AI policy reviewed by Kitsap County Commissioners",
+      "titleZh": "Kitsap 县委员会审议初步 AI 政策",
+      "abstractEn": "Preliminary AI policy reviewed by Kitsap County Commissioners  Kitsap Daily News",
+      "abstractZh": "Kitsap 县委员会审议初步 AI 政策。信息来源：Kitsap Daily News",
+      "authors": [
+        "Kitsap Daily News"
+      ],
+      "institution": "Kitsap Daily News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9e0d13ddd9b7",
+      "slug": "gnews-9e0d13ddd9b7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wMDdpbDZtMWdmRWRtdVZMTVJvODhaNWNiUjZoR0VtSjNtWTdZYkZCajhmVjVVODNVejlKYnFIdkxHRVlpM0F0SnFNN204NmYzRWZZOWV3cnJHY1J3QS1QeFg2dXZGUnBBOEU5QQ?oc=5",
+      "publishedAt": "2026-06-10T15:22:19.000Z",
+      "titleEn": "Israeli tech sees bigger funding rounds, fewer deals amid AI and cybersecurity boom",
+      "titleZh": "以色列科技行业在 AI 和网络安全热潮中迎来更大融资轮次、更少交易",
+      "abstractEn": "Israeli tech sees bigger funding rounds, fewer deals amid AI and cybersecurity boom  Ynetnews",
+      "abstractZh": "以色列科技行业在 AI 和网络安全热潮中迎来更大融资轮次、更少交易  Ynetnews",
+      "authors": [
+        "Ynetnews"
+      ],
+      "institution": "Ynetnews",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:626ba49ba9bb",
+      "slug": "gnews-626ba49ba9bb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONHVUVFlTb3ZXbEdYZE5JTm1YeUt2LTM2T1BJcU1tdEI0bDFua0xOVlRkRnhiM2ZTNWJvcWhLSEpGdmlqUHdwbE9DR1FRY0Z1ZEJXYkF1X3dFdXpKcktRc18ydW05TVlxZy10NE4tdEczRThSd2ppbEYtbmhKT2EtVUFHaFRKSEhTM2NoazJCNVlURmxQZlRUcXQ2QXpxMm1ISUxnU3pxbk1ZVTlnT3lpQVRQX2prMFRsSGt4VWpwLTRpVFdJRG52akVn?oc=5",
+      "publishedAt": "2026-06-10T15:11:00.000Z",
+      "titleEn": "Q1 2026 Startup Funding Report: AI Takes 57% of All Capital",
+      "titleZh": "2026年第一季度初创企业融资报告：AI 占据全部资本的57%",
+      "abstractEn": "Q1 2026 Startup Funding Report: AI Takes 57% of All Capital  FinancialContent",
+      "abstractZh": "2026年第一季度初创企业融资报告：AI 占据全部资本的57%  FinancialContent",
+      "authors": [
+        "FinancialContent"
+      ],
+      "institution": "FinancialContent",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48477400",
+      "slug": "hn-48477400-apache-burr-build-reliable-ai-agents-and-applications",
+      "source": "Hacker News",
+      "sourceUrl": "https://burr.apache.org/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48477400",
+      "publishedAt": "2026-06-10T15:01:06.000Z",
+      "titleEn": "Apache Burr: Build reliable AI agents and applications",
+      "titleZh": "Apache Burr：构建可靠的AI智能体与应用",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "anhldbk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 56,
+      "commentCount": 28,
+      "tags": []
+    },
+    {
+      "id": "gnews:bf81f60baf1b",
+      "slug": "gnews-bf81f60baf1b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnBTald2T3VFd1VaaVdNOVIwOVBIYW9rZFBPR3JtcmtJcWthNkZDNU0wbnBsbHIwZUNla1paVU95MFBIV1pVaXZFV0hCal9LWWZHNFFVbFB2OTJLMWNHU0J6YmZOdUxXMEx2dDA0aHdBb0xXY0dDZlQ2U3pSUGU2WGNkYTBNeV9mZndDeGl1eDlQVTd2ZVRqOUt3REpJSVJvMmc?oc=5",
+      "publishedAt": "2026-06-10T14:46:10.000Z",
+      "titleEn": "Researchers argue EU-style AI laws misfit African contexts",
+      "titleZh": "研究人员认为欧盟式 AI 法律不适合非洲背景",
+      "abstractEn": "Researchers argue EU-style AI laws misfit African contexts  Let's Data Science",
+      "abstractZh": "研究人员认为欧盟式 AI 法律不适合非洲背景。信息来源：Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e16a3458dea7",
+      "slug": "gnews-e16a3458dea7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZjd6RGRoRFRmRFlvSnJDRUtHTDh2aEhDOXlJSGpCVndDTHpJOE1VbUdOSmFyWUZSOHM0aTg1UVktS3FaZjFtSFR0RXFwajNwcUhNeUdMb0FRWlZHLUFTX2d0TkNpMTJndDByNkpjck92ZlJGeUFtSHoxZF9BTHBYM2czcTZNcFZ0X2tDcmVtcnJTckRPbU9LV0dOd3ppR2dILWRaMkJtckFfSGkx?oc=5",
+      "publishedAt": "2026-06-10T14:00:00.000Z",
+      "titleEn": "Anthropic’s New Model Targets Power Users But Cuts Off AI Rivals",
+      "titleZh": "Anthropic 新模型瞄准高级用户，但切断 AI 竞争对手",
+      "abstractEn": "Anthropic’s New Model Targets Power Users But Cuts Off AI Rivals  The Information",
+      "abstractZh": "Anthropic 的新模型瞄准高级用户，但切断了 AI 竞争对手的接入。信息来源：The Information",
+      "authors": [
+        "The Information"
+      ],
+      "institution": "The Information",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3c4745aada46",
+      "slug": "gnews-3c4745aada46",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaG5aaEozNXpsR0oxT1lUN0xUUGZPX0VFNkxkdVFrNDJXdUthSkVZdWtWOFp0ZGJITEZ2clFxamh0ZVZVWWZHQ3pzMkJ6Z3VCd3JfbFo0bURrZksyX08wY1Rud0Rwd0x3QVg0SzlUOEdZNGZYd1d1UXhpQjAySF9ZSmRVNXJsVFZUZXEyVVV4N3c5ai1GZENFMmllbFJTbmJ6c1NsdmRheTFYYkZhcERvenhqWXBLODdTX2p6Z0pyWUJrVnZzQXIwSkRpeTZpRzQ?oc=5",
+      "publishedAt": "2026-06-10T13:59:00.000Z",
+      "titleEn": "Bloomberg Tax Leadership Forum to Examine AI, Policy Shifts, and Global Tax Risk",
+      "titleZh": "Bloomberg Tax 领导力论坛将探讨 AI、政策转变与全球税务风险",
+      "abstractEn": "Bloomberg Tax Leadership Forum to Examine AI, Policy Shifts, and Global Tax Risk  PR Newswire",
+      "abstractZh": "Bloomberg Tax 领导力论坛将探讨 AI、政策转变与全球税务风险。信息来源：PR Newswire",
+      "authors": [
+        "PR Newswire"
+      ],
+      "institution": "PR Newswire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d4c3c8521a19",
+      "slug": "gnews-d4c3c8521a19",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTVyVjBqbTB2QVAzdngzbVBmYWhqZnN4ekFJcy1ZOEh0UTJEUWZMY1hCQjJqU1Vaeml1MGlZaVZyX1JsVTI1Zy1vOGQyMExBZm9Lc1Jua2pWZ01tNURaUEVGUzNLTmNMWUVqcEZhY3pWYmZNQXgtNHdsUVNZSFVkUEdES0VZeFVzSUM3ZnlDU0dsT2J2NnpGUl9wc2t6bzJEWjVFOGthc0NJU0txbXNkS3dGcGowaDQ?oc=5",
+      "publishedAt": "2026-06-10T13:58:46.000Z",
+      "titleEn": "Anthropic’s Latest Model Fable 5 Arrives With Power And Caveats",
+      "titleZh": "Anthropic最新模型Fable 5：强大性能与使用限制并存",
+      "abstractEn": "Anthropic’s Latest Model Fable 5 Arrives With Power And Caveats  Forbes",
+      "abstractZh": "Anthropic最新模型Fable 5：强大性能与使用限制并存。Forbes",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:060d1769ed71",
+      "slug": "gnews-060d1769ed71",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVUtTVhvTzhUNUxSNEtSZWY3SnR3MmlxY3JzcUtYYnF2bFpwd2UycXRIZGFISEhlVTVVUG9NOHV3R3JHTGJ3Qm1WOXJDaDIxenpsTDlVa0cxSktMQ2hHbl9EZUFweTYzWVVrcThaeFhqXzdWcHA5LU9nWFN2NGExa1VvcWJiMWQzUE0zQ3I2cWVud1VCNjFB?oc=5",
+      "publishedAt": "2026-06-10T13:58:00.000Z",
+      "titleEn": "The World's Most Important Chipmaker Has Fantastic News for Artificial Intelligence (AI) Stock Investors",
+      "titleZh": "全球最重要的芯片制造商为人工智能（AI）股票投资者带来重磅利好",
+      "abstractEn": "The World's Most Important Chipmaker Has Fantastic News for Artificial Intelligence (AI) Stock Investors  The Motley Fool",
+      "abstractZh": "全球最重要的芯片制造商为人工智能（AI）股票投资者带来重磅利好。The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a7a99b99d75d",
+      "slug": "gnews-a7a99b99d75d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbWJMSkZjWVdUQkxEM256WUJrOU1zaHlRUV9aRFcxdi01MVh0ejlGd3U1eXVqVjJLc2lJT0FKNHQzQTVKMnYtQmhGd0k4cDNUS2pYMzY3c3h3cWpwRUdLSFdxdXVmcXdFMXZnTlEwZXhUb0pnVG9XeUpOejB1UFpJWm1LeThtY3lkY2tZZmYwVDQ?oc=5",
+      "publishedAt": "2026-06-10T13:44:04.000Z",
+      "titleEn": "AI-routing Startups See Major Venture Funding",
+      "titleZh": "AI 路由初创企业获得大额风险投资",
+      "abstractEn": "AI-routing Startups See Major Venture Funding  Let's Data Science",
+      "abstractZh": "AI 路由初创企业获得大额风险投资  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48476136",
+      "slug": "hn-48476136-a-0-01-bank-transfer-could-compromise-a-banking-ai-agent",
+      "source": "Hacker News",
+      "sourceUrl": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48476136",
+      "publishedAt": "2026-06-10T13:39:11.000Z",
+      "titleEn": "A €0.01 bank transfer could compromise a banking AI agent",
+      "titleZh": "一笔0.01欧元的银行转账可能危及银行AI智能体",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tvissers"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 61,
+      "commentCount": 44,
+      "tags": []
+    },
+    {
+      "id": "gnews:bf52a19da81f",
+      "slug": "gnews-bf52a19da81f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYjA2M0E1OXo1SkI2V1EwNkROcXB5ckRxeElRMkVOekltU0FDa2N0aGlSamNEVW45dWdvbHVWUHFsME5FcW5iRkxTV01RQS1fM3BmVUxmOXlkNlVLcXdOemgwS2h1X3RGbnlmZVVFMG9lX0NDNDZ2cTFYdG9JT3RyNjFDUlMwRjc0b0xQN1ZIMndaZmI0NnVaSlVQWkQ1VnJuNjhGc0p3TWdmeFpaUTl6Sm9TWjF4b3BzVGNrRWhwQlBkQQ?oc=5",
+      "publishedAt": "2026-06-10T13:19:13.000Z",
+      "titleEn": "SingularityNET to Participate in SUMMIT 333 AI Safety on June 17th",
+      "titleZh": "SingularityNET 将于6月17日参加 SUMMIT 333 AI 安全会议",
+      "abstractEn": "SingularityNET to Participate in SUMMIT 333 AI Safety on June 17th  TradingView",
+      "abstractZh": "SingularityNET 将于6月17日参加 SUMMIT 333 AI 安全会议  TradingView",
+      "authors": [
+        "TradingView"
+      ],
+      "institution": "TradingView",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:05545f289489",
+      "slug": "gnews-05545f289489",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQk5fWWlVNjRjeUZENGlydV9pMnJicUlham1saXh3Q19BTTR1NXNXYUhsY3piSEFZaXF0cF9IN0VfMi02THBwZjJtMGRmVlNfdmpzUnRmUTBCVGVabEhuY2xUaVZWZG14dkNTcVpISV9xUWxsSHQtQ0NnOFB3enVXaVNTUS1uSEVzY3BBMUxRMDRQQU9QU0hoRHZ1c0tySzIwcDhUYkxuZnNEcm1yRkJjTDNIc2R2TDNmOVA2RzJ1Q1pxZGdzbzZ5MjNjWQ?oc=5",
+      "publishedAt": "2026-06-10T13:14:39.000Z",
+      "titleEn": "What smart people are saying about the 2 most controversial parts of Anthropic's new models",
+      "titleZh": "关于 Anthropic 新模型最具争议的两个部分，聪明人怎么说",
+      "abstractEn": "What smart people are saying about the 2 most controversial parts of Anthropic's new models  Business Insider Africa",
+      "abstractZh": "关于 Anthropic 新模型最具争议的两个部分，聪明人怎么说。信息来源：Business Insider Africa",
+      "authors": [
+        "Business Insider Africa"
+      ],
+      "institution": "Business Insider Africa",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3dd6fcd3eefe",
+      "slug": "gnews-3dd6fcd3eefe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWl9GQlViRFZnekl2Yk5FZjEyaEVCM1FTWVQzX0IwcjVzN00wSmsyQU9HeFIxWFdDRWdKdXFuWTdJWkxLSS1vV18yVzBNVUhQUThMYktqeDRoSjdmbXFKdjJaWEp2U2JhNlJUT29WU0w3LVlHdUg3QlNpX1dxb2pwUmtFSXJJNjc1ZWtoa2IwZFJaNWhwb0pZQk1tcXc2bC1zX2paTWM5RURtQUtSbEtvMlF3clY?oc=5",
+      "publishedAt": "2026-06-10T13:13:14.000Z",
+      "titleEn": "Why Our Obsession With Artificial Intelligence Might Be Completely Wrong",
+      "titleZh": "为何我们对人工智能的痴迷可能完全错了",
+      "abstractEn": "Why Our Obsession With Artificial Intelligence Might Be Completely Wrong  Futura, le média qui explore le monde",
+      "abstractZh": "为何我们对人工智能的痴迷可能完全错了。Futura, le média qui explore le monde",
+      "authors": [
+        "Futura, le média qui explore le monde"
+      ],
+      "institution": "Futura, le média qui explore le monde",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:255cd7ead4c8",
+      "slug": "gnews-255cd7ead4c8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNW15bFRLazVkOHJtTDNiaVU0NXpyOWJHZmEwU3ZLZThTbGc2QUF0b25reG1JeWE5WW41UWJfdktOMlpZZEFQd2pwZEFpN3NHOVBJNHE0a3J4NTVHOGptOWZsSnpSWHc5cUYzWFNKaUlZTUM0aFpGVFlOamY1Q0x0UUJxYUoyTC1hbnRTaGt0ZUx3cEN0?oc=5",
+      "publishedAt": "2026-06-10T13:02:44.000Z",
+      "titleEn": "Here's How SoFi Is Using Artificial Intelligence (AI) and Why It Matters. Hint: It Could Be a Game-Changer.",
+      "titleZh": "SoFi如何利用人工智能（AI）及其重要性：暗示这可能是一场颠覆性变革",
+      "abstractEn": "Here's How SoFi Is Using Artificial Intelligence (AI) and Why It Matters. Hint: It Could Be a Game-Changer.  The Motley Fool",
+      "abstractZh": "SoFi如何利用人工智能（AI）及其重要性：暗示这可能是一场颠覆性变革。The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1b558188a134",
+      "slug": "gnews-1b558188a134",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUDJHLXVVaE1QcDVIbjdlcDI3dFVLRmlvc2k5NWNHdjZ4aFBxeE44RnBSMzVDUE9VS1djMVNrVmZEWjZabm96c3ZILXpTOFNKVk5nYzRWZ0w3dkN1Z0dtQXROMHVOaV90R1hVUmdHM1ZmS0NDRGdsYnJEa1l3TGJKdjJGa0d2N29ER1B0bzFBLWFBNFRWdmN5U3R3?oc=5",
+      "publishedAt": "2026-06-10T13:00:21.000Z",
+      "titleEn": "'AI routing' startups cash in on the messiest part of the AI boom",
+      "titleZh": "AI 路由初创企业从 AI 热潮中最混乱的部分获利",
+      "abstractEn": "'AI routing' startups cash in on the messiest part of the AI boom  Business Insider",
+      "abstractZh": "AI 路由初创企业从 AI 热潮中最混乱的部分获利  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ccd3d1564e84",
+      "slug": "gnews-ccd3d1564e84",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU3k5aU1FVk92aE1lb2h0Yi1oNWFWbDg2QjZOSGk2d29vV3E2NHhnQW1mSW5CaTZzaURZTEVtdFJRWU1FY3hyOElHaGpwNG0wYmVFeDdSMDBjUEYtWlcxZGZCckhXNHJKTHV2SS1WN0djZHlqcXo0RkVJT2hjVjFCVDFzXzZhenpldTZSN1JiTkJxd016ZDRwRnZIenF5dndNeGNoTEhmYkViNVhLNnVxa3J2Yw?oc=5",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "titleEn": "OpenAI Backs AI Startup Fielding Compliance, Underwriting Tasks",
+      "titleZh": "OpenAI 支持从事合规与核保任务的 AI 初创企业",
+      "abstractEn": "OpenAI Backs AI Startup Fielding Compliance, Underwriting Tasks  Bloomberg.com",
+      "abstractZh": "OpenAI 支持从事合规与核保任务的 AI 初创企业  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e25df733d988",
+      "slug": "gnews-e25df733d988",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTXNuLU1FYThpSTJMQ1lsLUZVUTRSNGdXMWJVek1fakpzc3VXcnZid2hrdWpzTkZDZXhJcTVOQ0c2Y3RfZ3BZYTBfTzctUTNhYkJFMzFvWnhTSVJnTDVpcng5R0JyWjBob2d2N0VkSGh4Q2pRYlFYX08yRlo3Q29tUUMycWs0UWc2a1k1TWZscVRBR1BHOWgzMzhKTUVqcFhQZ3JvV25FdTY1T2JMaXVZaHVSNDVYbmRDOUdTYg?oc=5",
+      "publishedAt": "2026-06-10T11:53:19.000Z",
+      "titleEn": "Germany's National Security Council greenights an AI Safety Institute modeled after the UK's AISI",
+      "titleZh": "德国国家安全委员会批准设立 AI 安全研究所，效仿英国 AISI",
+      "abstractEn": "Germany's National Security Council greenights an AI Safety Institute modeled after the UK's AISI  the-decoder.com",
+      "abstractZh": "德国国家安全委员会批准设立 AI 安全研究所，效仿英国 AISI。信息来源：the-decoder.com",
+      "authors": [
+        "the-decoder.com"
+      ],
+      "institution": "the-decoder.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433956-html",
+      "slug": "hi",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433956.html",
+      "publishedAt": "2026-06-10T11:38:15.000Z",
+      "titleEn": "东风联手九识，商用无人车也有“HI模式”了",
+      "titleZh": "东风联手九识，商用无人车也有‘HI模式’了",
+      "abstractEn": "商用车AI基座已成型",
+      "abstractZh": "商用车AI基座已成型",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:recruit:45369ddf775d",
+      "slug": "hrorg-recruit-45369ddf775d",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXlRTHhjSm14NlBabjVqVC03SHQzMDFxcmluWF80aFFuQ0FRTnc3ZXFwM0NrZ1N0a0lZMlhubjVZY3pMSlFUMlIyQXFac2N2MUNJVWVRSmFSaHJoQjF4Wml5ejM1TDhrNDhNRWZ3Y2VLZnFsT0FLUVd6NjM4b1JiUV9MMnhlODFUME9RNzFtYThobjh0NWpNQmNoTFlrTHNuT2h3Y1Nn?oc=5",
+      "publishedAt": "2026-06-10T11:34:02.000Z",
+      "titleEn": "Summer Hiring Slows in Another Blow to Young Workers, Indeed Data Shows",
+      "titleZh": "Indeed 数据显示夏季招聘放缓，对年轻工人造成又一打击",
+      "abstractEn": "Summer Hiring Slows in Another Blow to Young Workers, Indeed Data Shows  FE News",
+      "abstractZh": "Indeed 数据显示夏季招聘放缓，对年轻工人造成又一打击  FE News",
+      "authors": [
+        "FE News"
+      ],
+      "institution": "FE News",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:3f86a9e436d1",
+      "slug": "gnews-3f86a9e436d1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQkZBMFo1eFN6VzAtY05ENGdSUWMxdm02WURseldnVFBZY0ZYb3lnV1RvZTY0QXoxS3ZpdGQ2ekZ0QkRFdGFkZWc2NkFab2x6QWpnbFk2WWttNEJLVUdsS0RlN2FybFBEMzgyUFluS0VTdXZNbGVuMEFtSGJUaG5mZWlUSnBFQU1lcXg5SFF1MmJnMWdRR2dUZW1xRVFYajlPR0t1ZE1Mb2o5c0JhdkNF?oc=5",
+      "publishedAt": "2026-06-10T11:00:39.000Z",
+      "titleEn": "Sector Snapshot: Semiconductor Startup Funding Still Running Hot",
+      "titleZh": "行业快照：半导体初创企业融资依然火热",
+      "abstractEn": "Sector Snapshot: Semiconductor Startup Funding Still Running Hot  Crunchbase News",
+      "abstractZh": "行业快照：半导体初创企业融资依然火热  Crunchbase News",
+      "authors": [
+        "Crunchbase News"
+      ],
+      "institution": "Crunchbase News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-920o0mjxy30oie6r-html",
+      "slug": "8",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/920O0mJxY30OIE6r.html",
+      "publishedAt": "2026-06-10T10:47:00.000Z",
+      "titleEn": "离谱！哈啰单车员工曾计划殴打竞品核心人员，公司回应；员工「迟开电脑8分钟」被开除，法院判了；丰巢取件得先看广告，客服称暂无法关闭",
+      "titleZh": "离谱！哈啰单车员工曾计划殴打竞品核心人员，公司回应；员工‘迟开电脑8分钟’被开除，法院判了；丰巢取件得先看广告，客服称暂无法关闭",
+      "abstractEn": "要闻提示\n1.离谱！曝哈啰单车员工曾计划殴打竞品核心人员，公司回应\n\n\n\n2.网友称早晚双脚投票？丰巢取件得先看广告，客服：暂无法关闭\n3.员工因“迟开电脑8分钟、和同事说话4分钟”被当场开除！法院：公司违法，赔偿10.8万元\n4.阿维塔称被抄袭：中国汽车不能走Ctrl+C、Ctrl+V之路\n5.App开屏广告比牛皮癣还烦人，摇一摇就跳转！多平台回应：无法取消开屏广告\n6.赛力斯赛豆科技正式发布！品牌Logo亮相\n7.离谱操作！Meta智能眼镜暗藏人脸识别系统：曝光仅一天后被紧急移除\n8.苹果终止造车后开始处理资产！Waymo2.2亿美元拿下其自动驾驶测试场\n\n\n\n\n\n今日头条\n离谱！曝哈啰单车员工曾计划殴打竞品核心人员，公司回应\n\n\n\n6月9日消息，据报道，哈啰单车在行业竞争中被曝出多项争议行为，不仅长期扣押竞争对手车辆，还被指曾推出相关暴力手段针对竞品核心人员。\n有知情人士透露，哈啰单",
+      "abstractZh": "要闻提示\n1.离谱！曝哈啰单车员工曾计划殴打竞品核心人员，公司回应\n\n2.网友称早晚双脚投票？丰巢取件得先看广告，客服：暂无法关闭\n3.员工因‘迟开电脑8分钟、和同事说话4分钟’被当场开除！法院：公司违法，赔偿10.8万元\n4.阿维塔称被抄袭：中国汽车不能走Ctrl+C、Ctrl+V之路\n5.App开屏广告比牛皮癣还烦人，摇一摇就跳转！多平台回应：无法取消开屏广告\n6.赛力斯赛豆科技正式发布！品牌Logo亮相\n7.离谱操作！Meta智能眼镜暗藏人脸识别系统：曝光仅一天后被紧急移除\n8.苹果终止造车后开始处理资产！Waymo以2.2亿美元拿下其自动驾驶测试场\n\n今日头条\n离谱！曝哈啰单车员工曾计划殴打竞品核心人员，公司回应\n\n6月9日消息，据报道，哈啰单车在行业竞争中被曝出多项争",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:631244da8935",
+      "slug": "gnews-631244da8935",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRjVtM2wzSk1DZUxqR0ZyOWswOF9ZeUpCaTdnbnBUNUNZWFNpY0d1VlM1VEppUmVzVDhjaDlzcXY1SDFJWGNMTkhndFo0emFGaWtKMjBBZS1GSzh1OVY3NElsT3A1OTdIOVl3ZzQxZmd2YmFDcnVYX1I4YzViaXB1eFQyZ3YybVl6MEd5dFdjSTZ2b1pWQXR5Vm1zTFoydDFaemdyaFgzVHRSSVFYMDc1djNHQ2pCNGJ6Qld0MWRaaEp5Sm5yM01TQ1U1bjA3VW94M2gxNm1CNjkxQmdvS0E?oc=5",
+      "publishedAt": "2026-06-10T03:00:00.000Z",
+      "titleEn": "Anthropic releases new, Mythos-class model that company says is safe for general use",
+      "titleZh": "Anthropic 发布新的 Mythos 级模型，公司称其可安全用于一般用途",
+      "abstractEn": "Anthropic releases new, Mythos-class model that company says is safe for general use  Spectrum News",
+      "abstractZh": "Anthropic 发布新的 Mythos 级模型，公司称其可安全用于一般用途。信息来源：Spectrum News",
+      "authors": [
+        "Spectrum News"
+      ],
+      "institution": "Spectrum News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7ed815e8e8f2",
+      "slug": "gnews-7ed815e8e8f2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1EcmktakhubHNxM21JVk9SdEI0Y0pKdG8wSHhtdVVEOHQ2ZXJvSEVhM1dNVl9HLUhMVk44M1FZa0hCZDhudUlqZnFQX04?oc=5",
+      "publishedAt": "2026-06-10T01:50:08.000Z",
+      "titleEn": "Video Anthropic’s new AI model and 3 massive tech IPOs - ABC News",
+      "titleZh": "视频：Anthropic 的新 AI 模型与三大科技 IPO - ABC News",
+      "abstractEn": "Video Anthropic’s new AI model and 3 massive tech IPOs  ABC News - Breaking News, Latest News and Videos",
+      "abstractZh": "视频：Anthropic 的新 AI 模型与三大科技 IPO。信息来源：ABC News - 突发新闻、最新新闻与视频",
+      "authors": [
+        "Breaking News, Latest News and Videos"
+      ],
+      "institution": "Breaking News, Latest News and Videos",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c757ebf3ba47",
+      "slug": "gnews-c757ebf3ba47",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMWhydGZFQmdRUnpQM1NoeTNhTnBlblgya1RLNHZRWDZwcEdHaTNnNFNhVlU3RlB4U0FNUUFhUC1pSVhNLURQVjg5cWxIeUc3ajlDQ0otbW96YUdLcy1ieDdvUGtTVDBoMjB4X2xuUzdsbUEyMEtMOEprRXVSd1hSTnNUU0NPQ1R0WjJNelA2N18wS2RJLWRFMTJMQi1FVHFsTVlnS056M3RnMVFLa1pXeTRGTkluMmsyd2VzWXJQakJWczd3?oc=5",
+      "publishedAt": "2026-06-09T21:36:00.000Z",
+      "titleEn": "Anthropic, which claimed AI model was too risky for public to use, releases ‘safe’ version",
+      "titleZh": "Anthropic 曾称 AI 模型对公众风险过高，现发布‘安全’版本",
+      "abstractEn": "Anthropic, which claimed AI model was too risky for public to use, releases ‘safe’ version  New York Post",
+      "abstractZh": "Anthropic 曾称 AI 模型对公众风险过高，现发布‘安全’版本。信息来源：New York Post",
+      "authors": [
+        "New York Post"
+      ],
+      "institution": "New York Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    }
+  ]
+}

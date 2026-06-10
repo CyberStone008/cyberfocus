@@ -1,5 +1,23 @@
 [
   {
+    "id": "podcast:no-priors:1l3vjqg",
+    "source": "No Priors",
+    "sourceUrl": "https://traffic.megaphone.fm/PDP2294664679.mp3",
+    "publishedAt": "2026-06-10T13:00:00.000Z",
+    "titleEn": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+    "titleZh": "Biohub：联合创始人Mark Zuckerberg、Priscilla Chan与科学负责人Alex Rives谈生物学的开源未来",
+    "abstractEn": "Biohub started with an ambitious goal of curing, preventing, and managing all disease by the end of the century. A decade later, thanks to the convergence of frontier AI and biological data, that goal may have been too conservative. In this episode, Elad Gil and Sarah Guo sit down with Biohub co-founders Mark Zuckerberg and Priscilla Chan, alongside Biohub Head of Science Alex Rives. Together, the",
+    "abstractZh": "Biohub最初设定了一个雄心勃勃的目标：在本世纪末治愈、预防并管理所有疾病。十年后，得益于前沿AI与生物学数据的融合，这一目标",
+    "authors": [],
+    "category": "podcast",
+    "duration": "56m",
+    "thumbnail": "https://megaphone.imgix.net/podcasts/803e0244-9d0f-11ed-923a-4bb54bf77468/image/NO_PRIORS_ALBUM_and_PROFILE_PIC-01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "slug": "podcast-no-priors-1l3vjqg",
+    "contentMd": "## 本集概述\n\n本期《No Priors》播客邀请到了Biohub的联合创始人Mark Zuckerberg、Priscilla Chan以及科学负责人Alex Rives，共同探讨生物学领域的开源未来。Biohub最初设定了一个极具雄心的目标：在本世纪末治愈、预防并管理所有疾病。十年过去，随着前沿AI与生物学数据的深度融合，这一目标正在被重新审视和推进。\n\n节目围绕“开源”这一核心理念展开，讨论如何通过开放科学、共享数据和协作研究来加速生物医学的突破。三位嘉宾分别从技术、慈善和科研管理的角度，分享了对AI驱动生物学变革的见解。这期节目对于关注生物科技、AI应用以及开源运动如何重塑科学研究的听众来说，具有很高的参考价值。\n\n## 本集可能涵盖的话题\n\n### 1. Biohub的十年历程与目标演进\n节目简介提到Biohub最初设定了“在本世纪末治愈、预防并管理所有疾病”的宏大目标。十年后，这一目标可能经历了怎样的调整或细化？话题可能涉及：从最初聚焦于特定疾病（如传染病、罕见病）到更广泛的生物医学研究；AI技术的引入如何改变了研究路径和优先级；以及“治愈、预防、管理”这三个维度在实际操作中的平衡与取舍。\n\n### 2. AI与生物学数据的融合\n这是节目简介中明确强调的关键驱动力。话题可能涵盖：AI（尤其是深度学习、大语言模型）如何被用于分析基因组、蛋白质结构、临床数据等海量生物信息；数据质量、标准化和共享机制对模型训练的影响；以及AI在药物发现、疾病诊断、个性化医疗等领域的实际应用案例。嘉宾可能讨论AI如何帮助科学家从“假设驱动”转向“数据驱动”的研究范式。\n\n### 3. 生物学的开源未来\n标题直接点明了“开源”这一核心主题。话题可能包括：开源在生物学领域的具体含义（如开放数据集、开源算法、共享实验方法）；开源模式如何加速科学发现、降低重复研究成本；以及面临的挑战，如知识产权保护、数据隐私、商业利益与公共利益的冲突。嘉宾可能分享Biohub在推动开源科学方面的具体实践和理念。\n\n### 4. 跨学科协作与科研组织创新\nBiohub作为由科技领袖、慈善家和科学家共同创立的机构，其组织模式本身就是一个话题。可能涉及：如何打破传统学术机构、企业和政府之间的壁垒；如何吸引和培养跨学科人才（如AI专家与生物学家合作）；以及慈善资本在推动高风险、长周期基础研究中的作用。Mark Zuckerberg和Priscilla Chan的参与，也体现了科技慈善在生物医学领域的新趋势。\n\n## 适合谁听\n\n- **生物科技与AI从业者**：希望了解AI如何具体应用于生物学研究，以及开源模式如何改变行业生态的科学家、工程师和创业者。\n- **科技与投资领域人士**：关注前沿科技趋势、慈善资本运作以及长期科研项目商业潜力的投资者和战略分析师。\n- **开源运动与科学政策关注者**：对开放科学、数据共享、知识产权等议题感兴趣，希望了解这些理念在生命科学领域实践情况的研究者和政策制定者。\n- **普通科技爱好者**：对“治愈所有疾病”这类宏大愿景充满好奇，想了解当前技术进展和未来可能性的听众。\n\n---\n\n> ℹ️ 本解读基于节目标题与官方简介由 AI 整理，未获取完整文稿；具体观点、数据与引语请以[原节目](https://traffic.megaphone.fm/PDP2294664679.mp3)为准。",
+    "analyzedAt": "2026-06-10T16:50:48.988Z",
+    "tldrZh": "Mark Zuckerberg、Priscilla Chan 与科学负责人 Alex Rives 在 Biohub 节目中透露，前沿 AI 与生物数据的融合使“本世纪末治愈所有疾病”的目标可能过于保守。"
+  },
+  {
     "id": "podcast:zhang-xiaojun:1sd6e23",
     "source": "张小珺商业访谈录",
     "sourceUrl": "https://www.xiaoyuzhoufm.com/episode/6a2543dcb30e1571aea20d0b?utm_source=rss",
