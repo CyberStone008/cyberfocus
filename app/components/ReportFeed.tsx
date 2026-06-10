@@ -657,15 +657,23 @@ function ReportCard({
         )}
         {isNew(a) && <span className={styles.newBadge}>新</span>}
         {(a.dupCount ?? 0) > 1 && (
-          <span
-            className={styles.dupBadge}
-            role="button"
-            tabIndex={0}
-            onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowDups((v) => !v); }}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowDups((v) => !v); } }}
-          >
-            🔗 {a.dupCount} 家报道 <span className={styles.dupCaret}>{showDups ? '▾' : '▸'}</span>
-          </span>
+          <>
+            {/* PC 悬停展开媒体列表；点击只吃掉事件防误开卡片链接 */}
+            <span
+              className={styles.dupBadge}
+              onMouseEnter={() => setShowDups(true)}
+              onMouseLeave={() => setShowDups(false)}
+              onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
+            >
+              🔗 {a.dupCount} 家报道
+            </span>
+            {/* 手机端：媒体名跑马灯（PC 隐藏，见 CSS） */}
+            {(a.dupSources?.length ?? 0) > 0 && (
+              <span className={styles.dupMarquee} aria-hidden onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+                <span className={styles.dupMarqueeInner}>{a.dupSources!.join(' · ')}</span>
+              </span>
+            )}
+          </>
         )}
         <span className={styles.cardDate}>{getDateKey(a.publishedAt)}</span>
 
