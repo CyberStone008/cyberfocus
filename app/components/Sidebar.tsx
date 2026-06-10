@@ -56,6 +56,14 @@ export function Sidebar() {
   const [open, setOpen] = useState(false); // mobile drawer
 
   useEffect(() => {
+    // 以页面实际主题为唯一事实来源（layout 的 themeScript 已设好 data-theme，默认 dark）。
+    // 此前这里用 localStorage??系统偏好 重新推导：localStorage 为空+浅色系统时推出 light，
+    // 与页面实际 dark 错位 → 第一次点击"切到深色"=无视觉变化，表现为"按钮失灵"（移动端 PWA 首装必踩）。
+    const current = document.documentElement.getAttribute('data-theme');
+    if (current === 'light' || current === 'dark') {
+      setTheme(current);
+      return;
+    }
     const saved = localStorage.getItem('theme') as 'light' | 'dark' | null;
     const system = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
     setTheme(saved ?? system);

@@ -19,6 +19,7 @@ isolation: worktree
 - feed 页 payload：列表页禁止内联 contentMd 等重字段，走 `lib/feed-projection.ts` 投影（新字段要记得加进投影，否则卡片拿不到）。
 - 多源化后禁止硬编码单一来源（曾把所有播客标成 Lex）：来源名/缩写/颜色/封面一律按 `ep.source` 动态。
 - SW 改动必须 bump `public/sw.js` 的 CACHE 版本号。
+- **preview 调试会被 SW 旧缓存欺骗**：sw.js 对 `/_next/static` 缓存优先，dev 的 chunk 名不带哈希（永远 layout.js）→ SW 一直喂旧 bundle，改代码/重启 dev/清 .next 全"无效"。**preview 验证改动前先 unregister SW + 清 caches**（2026-06-10 实锤耗 20 分钟排查）。生产无此问题（chunk 带哈希）。
 - 大图先过 sharp 压成 webp（hero 2.4MB→167KB 教训）。
 - 去重/垃圾过滤在 render 层（`lib/dedupe.ts`），sort 后 dedupe 再投影。
 
