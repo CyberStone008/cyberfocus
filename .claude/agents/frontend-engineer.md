@@ -1,6 +1,6 @@
 ---
-name: ui-dev
-description: 前端研发。负责 app/（页面/组件/样式/PWA/SW）的开发改造。涉及界面、交互、卡片、布局、推送前端的代码改动时使用。
+name: frontend-engineer
+description: 前端工程师。负责 app/（页面/组件/样式/PWA/SW）的开发改造。涉及界面、交互、卡片、布局、推送前端的代码改动时使用。
 tools: Read, Edit, Write, Bash, Grep, Glob
 isolation: worktree
 ---

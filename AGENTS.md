@@ -12,7 +12,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ### 2026-06-10
 
-0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（planner/pipeline-dev/ui-dev/design-critic/release-verifier/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
+0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（product-manager/pipeline-dev/frontend-engineer/ui-designer/qa-engineer/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
 1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
 2. **人服机构动态「官网抓取」试点（官网双轨）**：新增 `scripts/fetch/hr-org-sites.js`，直抓 4 家机构官网（Recruit Holdings RSS / Mercer / Korn Ferry / FESCO Adecco 新闻列表页），与 Google News 第三方报道**并存**（Google News=行业报道面，官网=第一手直链）。配置在 `data/sources.json` 的 `orgSites`（**改配置不改代码**）。网络一律走 curl（同 hr-orgs.js 的坑：Node fetch 不读代理环境变量）；任一源失败仅 warn 不拖垮 pipeline。详见〈HR 机构动态〉章节。
 
@@ -44,18 +44,18 @@ This version has breaking changes — APIs, conventions, and file structure may 
 ### 角色（定义在 `.claude/agents/`，含各自坑库/清单）
 | 角色 | 性质 | 职责 |
 |---|---|---|
-| product-planner | 只读 | 一句话需求 → 任务单（方案选项/验收标准/影响面）；决策权永远在用户 |
-| pipeline-dev | 可写·worktree | `scripts/` + workflows 开发 |
-| ui-dev | 可写·worktree | `app/` + `public/` 开发 |
-| design-critic | 只读+preview | UI 改动双视口截图评审，输出 必须修/建议/可忽略 |
-| release-verifier | 只读+执行 | 跑 `npm run verify` + 冒烟，只报失败项 |
-| content-auditor | 只读 | 溯源铁律核查：数字/引语逐字有据 |
+| product-manager（产品经理） | 只读 | 一句话需求 → 任务单（方案选项/验收标准/影响面）；决策权永远在用户 |
+| pipeline-dev（管道研发） | 可写·worktree | `scripts/` + workflows 开发 |
+| frontend-engineer（前端工程师） | 可写·worktree | `app/` + `public/` 开发 |
+| ui-designer（UI 设计师） | 只读+preview | UI 改动双视口截图评审，输出 必须修/建议/可忽略 |
+| qa-engineer（测试工程师） | 只读+执行 | 跑 `npm run verify` + 冒烟，只报失败项 |
+| content-auditor（内容审计） | 只读 | 溯源铁律核查：数字/引语逐字有据 |
 
 ### 流转规则
-1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 planner 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。**轻 UI 任务**：可不派 design-critic，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
+1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 product-manager 任务单 → 用户选定方案 → 对应 dev 在 worktree 分支开发。**轻 UI 任务**：可不派 ui-designer，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
 2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
 3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
-4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 design-critic「✅ 可合并」；生成逻辑改动须 content-auditor 抽查）。
+4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；生成逻辑改动须 content-auditor 抽查）。
 5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 
