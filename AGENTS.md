@@ -14,6 +14,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（planner/pipeline-dev/ui-dev/design-critic/release-verifier/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
 1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
+2. **人服机构动态「官网抓取」试点（官网双轨）**：新增 `scripts/fetch/hr-org-sites.js`，直抓 4 家机构官网（Recruit Holdings RSS / Mercer / Korn Ferry / FESCO Adecco 新闻列表页），与 Google News 第三方报道**并存**（Google News=行业报道面，官网=第一手直链）。配置在 `data/sources.json` 的 `orgSites`（**改配置不改代码**）。网络一律走 curl（同 hr-orgs.js 的坑：Node fetch 不读代理环境变量）；任一源失败仅 warn 不拖垮 pipeline。详见〈HR 机构动态〉章节。
 
 ### 2026-06-09
 
@@ -78,7 +79,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ### HR 机构动态（人服机构动态）数据管道
 
-数据来源：`scripts/fetch/hr-orgs.js`，通过 Google News RSS 抓取 11 家机构（国际 5 家 + 国内 6 家）。
+数据来源**官网双轨**：
+- **Google News（第三方报道）**：`scripts/fetch/hr-orgs.js`，通过 Google News RSS 抓取 12 家机构（国际 6 家 + 国内 6 家）。
+- **机构官网（第一手直链，试点 4 家）**：`scripts/fetch/hr-org-sites.js`，直接抓机构官网 RSS/列表页（Recruit Holdings=rss、Mercer/Korn Ferry/FESCO Adecco=html），产出官网直链（国内通常可直达，区别于 Google News 跳转链）。**配置驱动**：源定义在 `data/sources.json` 的 `orgSites` 数组（每条 `{id, source, mode:'rss'|'html', url, lang, max}`），**增删改官网源 = 改 JSON 不改代码**；`source` 必须与 `app/lib/sources-config.ts` ORGS_SOURCES 的 id 完全一致才会进 orgs 板块。文章 `id` 前缀 `hrsite:`、`tags:['官网发布']`、`category:'research'`（pipeline 已排除其参与 AI 精选解读）；html 模式解析不出日期时 `publishedAt` 用抓取时刻（orgs 板块按 `fetchedAt` 分组，可接受）。两轨并存不互斥——Google News 给行业报道面，官网给第一手发布。
 
 **双 query 模式**：每家机构运行两条查询：
 - `newsQuery`：7 天回溯，抓一般资讯
