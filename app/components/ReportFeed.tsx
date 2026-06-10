@@ -602,7 +602,6 @@ function ReportCard({
     (a.hasContent ?? !!a.contentMd) ? 'done' : 'idle'
   );
   const [slug, setSlug] = useState<string>(a.slug);
-  const [showDups, setShowDups] = useState(false);
   // Card click → the 解读 detail page when it exists; otherwise the original source.
   const detailHref = genState === 'done' && slug ? `/articles/${slug}` : null;
 
@@ -658,18 +657,12 @@ function ReportCard({
         {isNew(a) && <span className={styles.newBadge}>新</span>}
         {(a.dupCount ?? 0) > 1 && (
           <>
-            {/* PC 悬停展开媒体列表；点击只吃掉事件防误开卡片链接 */}
-            <span
-              className={styles.dupBadge}
-              onMouseEnter={() => setShowDups(true)}
-              onMouseLeave={() => setShowDups(false)}
-              onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
-            >
+            {/* 徽标 + 媒体名跑马灯（PC/手机一致；PC 悬停暂停滚动，见 CSS）。点击只吃掉事件防误开卡片 */}
+            <span className={styles.dupBadge} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
               🔗 {a.dupCount} 家报道
             </span>
-            {/* 手机端：媒体名跑马灯（PC 隐藏，见 CSS） */}
             {(a.dupSources?.length ?? 0) > 0 && (
-              <span className={styles.dupMarquee} aria-hidden onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+              <span className={styles.dupMarquee} title={(a.dupSources ?? []).join('、')} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
                 <span className={styles.dupMarqueeInner}>{a.dupSources!.join(' · ')}</span>
               </span>
             )}
@@ -699,15 +692,6 @@ function ReportCard({
           </span>
         )}
       </div>
-
-      {/* 展开后列出报道这条动态的各家媒体 */}
-      {showDups && (a.dupSources?.length ?? 0) > 0 && (
-        <div className={styles.dupList}>
-          {a.dupSources!.map((s, i) => (
-            <span key={i} className={styles.dupItem}>{s}</span>
-          ))}
-        </div>
-      )}
 
       {/* Title */}
       <div className={styles.cardTitle}>{title}</div>

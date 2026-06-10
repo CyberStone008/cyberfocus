@@ -273,7 +273,6 @@ function SocialCard({ article: a }: { article: SocialItem }) {
   const color = SOURCE_COLOR[a.source] ?? '#6b7280';
   const abbr  = SOURCE_ABBR[a.source]  ?? a.source.slice(0, 2);
   const title = a.titleZh ?? a.titleEn;
-  const [showDups, setShowDups] = useState(false);
 
   return (
     <div className={styles.card}>
@@ -295,18 +294,12 @@ function SocialCard({ article: a }: { article: SocialItem }) {
         {isNew(a) && <span className={styles.newBadge}>新</span>}
         {(a.dupCount ?? 0) > 1 && (
           <>
-            {/* PC 悬停展开媒体列表；点击只吃掉事件防误开卡片链接 */}
-            <span
-              className={styles.dupBadge}
-              onMouseEnter={() => setShowDups(true)}
-              onMouseLeave={() => setShowDups(false)}
-              onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
-            >
+            {/* 徽标 + 媒体名跑马灯（PC/手机一致；PC 悬停暂停滚动，见 CSS）。点击只吃掉事件防误开卡片 */}
+            <span className={styles.dupBadge} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
               🔗 {a.dupCount} 家报道
             </span>
-            {/* 手机端：媒体名跑马灯（PC 隐藏，见 CSS） */}
             {(a.dupSources?.length ?? 0) > 0 && (
-              <span className={styles.dupMarquee} aria-hidden onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
+              <span className={styles.dupMarquee} title={(a.dupSources ?? []).join('、')} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
                 <span className={styles.dupMarqueeInner}>{a.dupSources!.join(' · ')}</span>
               </span>
             )}
@@ -330,15 +323,6 @@ function SocialCard({ article: a }: { article: SocialItem }) {
           </a>
         )}
       </div>
-
-      {/* 展开后列出报道这条新闻的各家媒体 */}
-      {showDups && (a.dupSources?.length ?? 0) > 0 && (
-        <div className={styles.dupList}>
-          {a.dupSources!.map((s, i) => (
-            <span key={i} className={styles.dupItem}>{s}</span>
-          ))}
-        </div>
-      )}
 
       {/* Title */}
       <div className={styles.cardTitle}>{title}</div>

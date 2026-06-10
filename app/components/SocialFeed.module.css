@@ -394,16 +394,16 @@
   border-color: #a5b4fc40;
 }
 
-/* 手机端跑马灯：媒体名自动横向滚动，无需任何点击（PC 隐藏，用悬停展开） */
+/* 媒体名跑马灯：PC/手机一致，自动横向滚动、无需点击。两端渐隐遮罩。 */
 .dupMarquee {
-  display: none;
   position: relative;
   z-index: 2;
-  flex: 1 1 60px;
-  min-width: 60px;
+  display: inline-flex;
+  flex: none;
+  width: clamp(90px, 30vw, 240px);
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
 }
 
 .dupMarqueeInner {
@@ -411,44 +411,24 @@
   white-space: nowrap;
   font-size: 11px;
   color: var(--text-tertiary);
-  animation: dupScroll 14s linear infinite;
-  padding-left: 8px;
+  padding-left: 100%;                  /* 从右侧进入 */
+  animation: dupScroll 16s linear infinite;
 }
 
 @keyframes dupScroll {
-  from { transform: translateX(100%); }
+  from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
 
-/* 手机/触屏：显示跑马灯、不用悬停展开列表 */
-@media (hover: none), (max-width: 640px) {
-  .dupMarquee { display: inline-flex; }
-  .dupList    { display: none !important; }
+/* PC：鼠标悬停暂停滚动，方便看清 */
+@media (hover: hover) {
+  .dupMarquee:hover .dupMarqueeInner { animation-play-state: paused; }
 }
 
-.dupList {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin: 2px 0 8px;
-}
-
-.dupItem {
-  font-size: 11px;
-  color: var(--text-secondary);
-  background: #6366f10f;
-  border: 1px solid #6366f126;
-  border-radius: 6px;
-  padding: 1px 7px;
-  white-space: nowrap;
-}
-
-[data-theme='dark'] .dupItem {
-  background: #818cf818;
-  color: #c7d2fe;
-  border-color: #a5b4fc33;
+/* 尊重「减少动态效果」：不滚动，改为换行展示全部 */
+@media (prefers-reduced-motion: reduce) {
+  .dupMarquee { width: auto; max-width: 100%; overflow: visible; -webkit-mask-image: none; mask-image: none; }
+  .dupMarqueeInner { animation: none; white-space: normal; padding-left: 0; }
 }
 
 .discussLink {
