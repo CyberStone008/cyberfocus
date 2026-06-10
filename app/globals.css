@@ -136,3 +136,14 @@ a {
     overflow: visible;
   }
 }
+
+/* 手机端：所有页面顶栏给左上角悬浮汉堡按钮(fixed left:10px width:38px)让位，
+   否则页面标题被压住（如"报告速览"显示成"告速览"）。
+   CSS Modules 类名形如 Component_topbar__hash，用 [class*="_topbar__"] 全局匹配，
+   新增页面自动获得避让；!important 用于压过各模块自身的 padding。 */
+@media (max-width: 768px) {
+  [class*="_topbar__"],
+  [class*="_topNav__"] {
+    padding-left: 58px !important;
+  }
+}
