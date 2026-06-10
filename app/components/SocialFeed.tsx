@@ -273,6 +273,7 @@ function SocialCard({ article: a }: { article: SocialItem }) {
   const color = SOURCE_COLOR[a.source] ?? '#6b7280';
   const abbr  = SOURCE_ABBR[a.source]  ?? a.source.slice(0, 2);
   const title = a.titleZh ?? a.titleEn;
+  const [showDups, setShowDups] = useState(false);
 
   return (
     <div className={styles.card}>
@@ -295,9 +296,12 @@ function SocialCard({ article: a }: { article: SocialItem }) {
         {(a.dupCount ?? 0) > 1 && (
           <span
             className={styles.dupBadge}
-            title={`${a.dupCount} 家媒体报道：${(a.dupSources ?? []).join('、')}`}
+            role="button"
+            tabIndex={0}
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowDups((v) => !v); }}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowDups((v) => !v); } }}
           >
-            🔗 {a.dupCount} 家报道
+            🔗 {a.dupCount} 家报道 <span className={styles.dupCaret}>{showDups ? '▾' : '▸'}</span>
           </span>
         )}
         {(a.score ?? 0) > 0 && (
@@ -318,6 +322,15 @@ function SocialCard({ article: a }: { article: SocialItem }) {
           </a>
         )}
       </div>
+
+      {/* 展开后列出报道这条新闻的各家媒体 */}
+      {showDups && (a.dupSources?.length ?? 0) > 0 && (
+        <div className={styles.dupList}>
+          {a.dupSources!.map((s, i) => (
+            <span key={i} className={styles.dupItem}>{s}</span>
+          ))}
+        </div>
+      )}
 
       {/* Title */}
       <div className={styles.cardTitle}>{title}</div>

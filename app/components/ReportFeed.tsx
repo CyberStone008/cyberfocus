@@ -602,6 +602,7 @@ function ReportCard({
     (a.hasContent ?? !!a.contentMd) ? 'done' : 'idle'
   );
   const [slug, setSlug] = useState<string>(a.slug);
+  const [showDups, setShowDups] = useState(false);
   // Card click → the 解读 detail page when it exists; otherwise the original source.
   const detailHref = genState === 'done' && slug ? `/articles/${slug}` : null;
 
@@ -658,9 +659,12 @@ function ReportCard({
         {(a.dupCount ?? 0) > 1 && (
           <span
             className={styles.dupBadge}
-            title={`${a.dupCount} 家媒体报道：${(a.dupSources ?? []).join('、')}`}
+            role="button"
+            tabIndex={0}
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowDups((v) => !v); }}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowDups((v) => !v); } }}
           >
-            🔗 {a.dupCount} 家报道
+            🔗 {a.dupCount} 家报道 <span className={styles.dupCaret}>{showDups ? '▾' : '▸'}</span>
           </span>
         )}
         <span className={styles.cardDate}>{getDateKey(a.publishedAt)}</span>
@@ -687,6 +691,15 @@ function ReportCard({
           </span>
         )}
       </div>
+
+      {/* 展开后列出报道这条动态的各家媒体 */}
+      {showDups && (a.dupSources?.length ?? 0) > 0 && (
+        <div className={styles.dupList}>
+          {a.dupSources!.map((s, i) => (
+            <span key={i} className={styles.dupItem}>{s}</span>
+          ))}
+        </div>
+      )}
 
       {/* Title */}
       <div className={styles.cardTitle}>{title}</div>

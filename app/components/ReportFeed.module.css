@@ -623,6 +623,33 @@
   border-color: #a5b4fc40;
 }
 
+.dupCaret { font-size: 9px; opacity: 0.75; }
+
+.dupList {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 4px 0 8px;
+}
+
+.dupItem {
+  font-size: 11px;
+  color: var(--text-secondary);
+  background: #6366f10f;
+  border: 1px solid #6366f126;
+  border-radius: 6px;
+  padding: 1px 7px;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .dupItem {
+  background: #818cf818;
+  color: #c7d2fe;
+  border-color: #a5b4fc33;
+}
+
 /* "报告" badge — shown on cards with docType === 'Report' */
 .reportBadge {
   display: inline-flex;
