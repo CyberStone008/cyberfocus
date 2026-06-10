@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "judged": {},
+  "perSource": {
+    "Korn Ferry(官网)": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "Mercer(官网)": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "Google AI News": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "量子位": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "Hacker News": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "雷锋网": {
+      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+    },
+    "Recruit Holdings": {
+      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+    },
+    "Anthropic Blog": {
+      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+    },
+    "Mercer": {
+      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+    },
+    "ManpowerGroup": {
+      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+    },
+    "Adecco Group": {
+      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+    },
+    "BOSS直聘": {
+      "lastSeenAt": "2026-06-09T16:14:36.679Z"
+    },
+    "Claude Blog": {
+      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+    },
+    "科锐国际": {
+      "lastSeenAt": "2026-06-09T05:17:58.666Z"
+    },
+    "智联招聘": {
+      "lastSeenAt": "2026-06-06T23:46:47.302Z"
+    },
+    "FESCO": {
+      "lastSeenAt": "2026-06-07T03:55:38.218Z"
+    },
+    "Google DeepMind": {
+      "lastSeenAt": "2026-06-05T02:02:48.481Z"
+    },
+    "OpenAI Blog": {
+      "lastSeenAt": "2026-06-05T02:02:48.481Z"
+    },
+    "Recruit Holdings(官网)": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "Randstad": {
+      "lastSeenAt": "2026-06-05T22:41:38.161Z"
+    },
+    "Korn Ferry": {
+      "lastSeenAt": "2026-06-03T02:03:06.567Z"
+    },
+    "Reddit LocalLLaMA": {
+      "lastSeenAt": "2026-05-21T01:09:22.154Z"
+    },
+    "NVIDIA Blog": {
+      "lastSeenAt": "2026-05-11T03:27:29.065Z"
+    },
+    "SITUATIONAL AWARENESS - The Decade Ahead": {
+      "lastSeenAt": "2026-05-06T06:56:35.481Z"
+    },
+    "中智咨询": {
+      "lastSeenAt": "2026-05-08T00:45:02.180Z"
+    },
+    "Reddit ML": {
+      "lastSeenAt": "2026-04-29T05:29:25.000Z"
+    },
+    "Reuters": {
+      "lastSeenAt": "2026-04-29T05:26:25.000Z"
+    },
+    "arXiv cs.AI": {
+      "lastSeenAt": "2026-04-29T04:00:00.000Z"
+    },
+    "cio.com": {
+      "lastSeenAt": "2026-04-29T01:39:19.000Z"
+    },
+    "HuggingFace Daily": {
+      "lastSeenAt": "2026-04-29T00:00:00.000Z"
+    },
+    "WSJ": {
+      "lastSeenAt": "2026-04-29T00:00:00.000Z"
+    },
+    "WIRED": {
+      "lastSeenAt": "2026-04-28T23:45:00.000Z"
+    },
+    "NBC News": {
+      "lastSeenAt": "2026-04-28T21:21:33.000Z"
+    },
+    "MeriTalk": {
+      "lastSeenAt": "2026-04-28T19:28:42.000Z"
+    },
+    "JD Supra": {
+      "lastSeenAt": "2026-04-28T19:27:20.000Z"
+    },
+    "News From The States": {
+      "lastSeenAt": "2026-04-28T19:00:10.000Z"
+    },
+    "The Washington Post": {
+      "lastSeenAt": "2026-04-28T18:00:00.000Z"
+    },
+    "Florida Phoenix": {
+      "lastSeenAt": "2026-04-28T17:35:46.000Z"
+    },
+    "MLQ.ai": {
+      "lastSeenAt": "2026-04-28T17:22:51.000Z"
+    },
+    "About Amazon": {
+      "lastSeenAt": "2026-04-28T17:13:28.000Z"
+    },
+    "MobiHealthNews": {
+      "lastSeenAt": "2026-04-28T14:43:57.000Z"
+    },
+    "Healthcare IT News": {
+      "lastSeenAt": "2026-04-28T13:50:00.000Z"
+    },
+    "Holland & Knight": {
+      "lastSeenAt": "2026-04-28T13:45:23.000Z"
+    },
+    "AI News": {
+      "lastSeenAt": "2026-04-28T13:02:25.000Z"
+    },
+    "Gotrade": {
+      "lastSeenAt": "2026-04-28T12:54:03.000Z"
+    },
+    "Fortune": {
+      "lastSeenAt": "2026-04-28T11:37:00.000Z"
+    },
+    "InfoWorld": {
+      "lastSeenAt": "2026-04-28T11:20:08.000Z"
+    },
+    "FESCO Adecco": {
+      "lastSeenAt": "2026-05-10T07:52:13.106Z"
+    },
+    "FESCO Adecco(官网)": {
+      "lastSeenAt": "2026-06-10T08:10:51.864Z"
+    },
+    "张小珺商业访谈录": {
+      "lastSeenAt": "2026-06-09T05:22:16.743Z"
+    },
+    "No Priors": {
+      "lastSeenAt": "2026-06-09T05:22:27.822Z"
+    },
+    "Lex Fridman Podcast": {
+      "lastSeenAt": "2026-06-04T08:39:50.185Z"
+    },
+    "硅谷101": {
+      "lastSeenAt": "2026-06-09T10:46:29.141Z"
+    }
+  },
+  "alertState": {},
+  "openIncidents": [],
+  "dailyCounts": {
+    "2026-06-10": {
+      "aiNews": 113,
+      "papers": 2,
+      "hrOrgs": 37,
+      "podcasts": 0
+    },
+    "2026-06-09": {
+      "aiNews": 99,
+      "papers": 3,
+      "hrOrgs": 8,
+      "podcasts": 0
+    },
+    "2026-06-08": {
+      "aiNews": 70,
+      "papers": 0,
+      "hrOrgs": 4,
+      "podcasts": 1
+    },
+    "2026-06-07": {
+      "aiNews": 58,
+      "papers": 0,
+      "hrOrgs": 3,
+      "podcasts": 0
+    },
+    "2026-06-06": {
+      "aiNews": 124,
+      "papers": 20,
+      "hrOrgs": 8,
+      "podcasts": 0
+    },
+    "2026-06-05": {
+      "aiNews": 80,
+      "papers": 2,
+      "hrOrgs": 5,
+      "podcasts": 0
+    },
+    "2026-06-04": {
+      "aiNews": 51,
+      "papers": 23,
+      "hrOrgs": 7,
+      "podcasts": 1
+    },
+    "2026-06-03": {
+      "aiNews": 69,
+      "papers": 0,
+      "hrOrgs": 9,
+      "podcasts": 0
+    },
+    "2026-06-02": {
+      "aiNews": 49,
+      "papers": 0,
+      "hrOrgs": 5,
+      "podcasts": 0
+    }
+  },
+  "orgSitesZeroStreak": {},
+  "lastFetchConsumedRanAt": null,
+  "netFail": {},
+  "barkDeliveries": [],
+  "updatedAt": "2026-06-10T11:00:48.779Z"
+}

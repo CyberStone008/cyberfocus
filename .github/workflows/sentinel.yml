@@ -1,0 +1,82 @@
+name: Health Sentinel
+
+# 运行期「健康哨兵」独立批（搭车体检在 update-papers.yml 里跑）。北京 = UTC+8。
+# GitHub cron 常漂移 1~2.5h、偶尔丢批 → 晨检学晨批「提前 + 双批兜底」，
+# 且脚本内有「绝对时间闸」：sleep-loop 等到北京 08:00（晨检）/ 21:00（周报）才判定，
+# 启动时已过点则立即判定；state.judged 记当日已判 → 第二批幂等退出。
+on:
+  schedule:
+    - cron: '45 21 * * *'   # 北京 05:45 — 晨检批1（等到 08:00 判定 C1/C4）
+    - cron: '45 22 * * *'   # 北京 06:45 — 晨检批2（兜底；批1已判则幂等退出）
+    - cron: '45 12 * * 0'   # 北京周日 20:45 — 周报（等到 21:00 发送，兼任哨兵心跳）
+  workflow_dispatch:
+    inputs:
+      trigger:
+        description: '哨兵触发类型'
+        required: true
+        default: 'morning'
+        type: choice
+        options: ['morning', 'weekly', 'piggyback']
+
+permissions:
+  contents: write
+
+# ⚠️ data/health/ 绝不能加进 update-papers.yml 的 push paths 触发列表，
+# 否则哨兵落盘会触发整轮构建（已确认当前不在列表中，保持现状）。
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # 绝对时间闸最长要等 ~2h15m（05:45→08:00），给足余量
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # schedule 事件靠 cron 表达式区分晨检/周报；手动触发用输入
+      - name: Resolve trigger
+        id: trig
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "trigger=${{ github.event.inputs.trigger }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "45 12 * * 0" ]; then
+            echo "trigger=weekly" >> $GITHUB_OUTPUT
+          else
+            echo "trigger=morning" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run sentinel
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}        # 缺失时脚本静默跳过推送
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # C1 失败分诊查 Actions API
+        run: node scripts/sentinel.js --trigger=${{ steps.trig.outputs.trigger }}
+
+      # 判定后 state/runs 有变更才提交；与跑批机器人竞态 → rebase-retry（复用既有模式）
+      - name: Commit health state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/health/
+          if git diff --cached --quiet; then
+            echo "[sentinel] 无 health 变更，跳过提交"
+          else
+            git commit -m "chore(sentinel): health state $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+            pushed=false
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then pushed=true; break; fi
+              echo "[sentinel] push 第 $i 次失败（main 可能已推进），rebase 后重试…"; sleep 5
+            done
+            if [ "$pushed" != true ]; then echo "[sentinel] 重试后仍无法 push"; exit 1; fi
+          fi

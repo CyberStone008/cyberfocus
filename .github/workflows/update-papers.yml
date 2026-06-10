@@ -100,19 +100,38 @@ jobs:
           MAX: '25'
         run: node scripts/backfill-news-tldr.js || true
 
+      # 运行期健康哨兵——搭车体检（C2 源健康 / C3 官网防烂 / C5 产出体检 / C6 tldr 覆盖率）。
+      # 必须放在 Commit 之前：哨兵落盘的 data/health/ 随本批一起提交。
+      # continue-on-error：哨兵自身故障绝不拖垮跑批/构建/部署。告警当日去重，详见 AGENTS.md〈运行期哨兵〉。
+      - name: 健康哨兵（搭车体检）
+        if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
+        continue-on-error: true
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sentinel.js --trigger=piggyback
+
       # 只在有新内容时提交+推送（→ Vercel 自动部署）。committed 输出决定下面要不要构建 Pages。
       # 手动触发(run_pipeline=true)也提交，否则抓到的数据被丢弃、Vercel 收不到。
+      # 哨兵的 data/health/ 随同一提交落库，但「是否构建/📰通知」只看 data/health 之外的内容变化——
+      # 哨兵每批都写 state/runs，若计入会让空批也构建（这正是要避免的）。Bark 语义不变。
       - name: Commit updated data
         id: commit
         if: github.event_name == 'schedule' || github.event.inputs.run_pipeline == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet data/; then
-            echo "[commit] 无新内容，跳过提交与构建"
+          git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json data/strategy-briefs/ data/weekly-reports/ data/sector-reports/ data/macro-reports/ data/health/
+          if git diff --cached --quiet; then
+            echo "[commit] 无任何变更，跳过提交与构建"
             echo "committed=false" >> $GITHUB_OUTPUT
           else
-            git add data/articles.json data/processed-ids.json data/sources.json data/daily/ data/podcasts.json data/strategy-briefs/ data/weekly-reports/ data/sector-reports/ data/macro-reports/
+            # 内容是否变化（排除 data/health）决定 committed → 构建 Pages + 📰 Bark
+            if git diff --cached --quiet -- ':(exclude)data/health' .; then
+              CONTENT=false
+            else
+              CONTENT=true
+            fi
             git commit -m "chore: update $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
             # 跑批期间 main 可能被其它提交推进（手动推送 / 批次重叠）→ 直接 push 会被拒。
             # 先 rebase 再 push，带重试，避免非 fast-forward 把整批跑批判失败。
@@ -122,7 +141,8 @@ jobs:
               echo "[commit] push 第 $i 次失败（main 可能已推进），rebase 后重试…"; sleep 5
             done
             if [ "$pushed" != true ]; then echo "[commit] 重试后仍无法 push"; exit 1; fi
-            echo "committed=true" >> $GITHUB_OUTPUT
+            [ "$CONTENT" = "true" ] || echo "[commit] 仅哨兵 health 数据变化 → committed=false（不构建）"
+            echo "committed=$CONTENT" >> $GITHUB_OUTPUT
           fi
 
       # Bark 推送：每次定时抓取后都通知结果。新增内容→📰 有声+标题；无新内容→📭 静默(passive)。

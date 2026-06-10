@@ -15,6 +15,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（product-manager/pipeline-dev/frontend-engineer/ui-designer/qa-engineer/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
 1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
 2. **人服机构动态「官网抓取」试点（官网双轨）**：新增 `scripts/fetch/hr-org-sites.js`，直抓 4 家机构官网（Recruit Holdings RSS / Mercer / Korn Ferry / FESCO Adecco 新闻列表页），与 Google News 第三方报道**并存**（Google News=行业报道面，官网=第一手直链）。配置在 `data/sources.json` 的 `orgSites`（**改配置不改代码**）。网络一律走 curl（同 hr-orgs.js 的坑：Node fetch 不读代理环境变量）；任一源失败仅 warn 不拖垮 pipeline。详见〈HR 机构动态〉章节。
+3. **运行期「健康哨兵」v1**（`scripts/sentinel.js` + `.github/workflows/sentinel.yml`，纯确定性、零 AI 调用）：七项检查盯跑批/源/站点/产出是否还活着。运行方式 C=搭车（update-papers 每批 `--trigger=piggyback`，continue-on-error）+ 独立晨检/周报（sentinel.yml 双批兜底 + **绝对时间闸**）。告警全部 Bark `active`（**严禁 timeSensitive**）、分组「CyberFocus哨兵」、当日去重、恢复静默只入周报；周报（周日 21:00 北京）兼任心跳。状态落盘 `data/health/`（保留 30 天）。**坑**：① update-papers 的 commit 步骤改为「committed 只看 data/health 之外的内容变化」——哨兵每批都写 state，若计入会让空批也构建；② data/health **绝不能**加进 update-papers 的 push paths。详见〈运行期哨兵〉章节。
 
 ### 2026-06-09
 
@@ -298,6 +299,29 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 **改调度后务必重载**：`launchctl unload <plist> && launchctl load <plist>`，再 `launchctl print gui/$(id -u)/com.cyberfocus.pipeline | grep -iE "Hour|Minute"` 确认。
 
 ---
+
+### 运行期哨兵（健康监控）
+
+`scripts/sentinel.js`（零 LLM 依赖，纯确定性）。CLI：`node scripts/sentinel.js --trigger=piggyback|morning|weekly`。
+
+**七项检查**：
+| # | 名称 | 触发 | 判定 | 失败动作 |
+|---|---|---|---|---|
+| C1 | 晨批考勤 | morning | `data/daily/{北京今日}.json` 存在且 generatedAt ≤ 北京 08:00（记录相对 04:00 主批的漂移分钟） | 即时告警 + Actions API 分诊（无 schedule run=cron 丢批 / run failed=跑批失败 / 成功但无产出=逻辑问题） |
+| C2 | 源健康 | piggyback | state 自存 perSource lastSeenAt（**不能只看 articles.json**——3000 条滚动池会淘汰小源旧记录；首跑用 articles+podcasts 播种）。高频源(Google AI News/HN/雷锋网/量子位/Reddit LocalLLaMA) 2 天；HR Google News 12 家 7 天；其余博客/播客/官网 14 天（官网条目独立记 `源名(官网)`） | 高频→即时；其余→只入周报 |
+| C3 | 官网防烂 | piggyback | 消费 `data/health/last-fetch.json`：orgSites **html 模式**源解析候选数连续 2 批=0（rss 模式归 C2） | 即时 |
+| C4 | 站点存活+新鲜 | morning | reallylink.cn/reports/ 3 次重试(5/15/30s)须 200；200 时本地最新 3 条 research 标题**纯子串**匹配页面（先解码 RSC \uXXXX/HTML 实体）；Pages 只查 200 | 网络类(curl 退出码)**两击确认**；HTTP 非 200/新鲜度（逻辑类）一击即报 |
+| C5 | 产出体检 | piggyback | a) `validate-data.js` 子进程退出码 b) 各板块**昨日(完整日)**新增 vs 前 7 天中位数骤降>70%（判昨日不判当日——凌晨批当日计数天然小会必然误报；中位数<5 的低基数板块不判） c) 最新策略快报【一句话叙事】解析为空（正则复刻自 `app/(app)/investing/page.tsx` extractNarrative，**两处改动需同步**） | 即时 |
+| C6 | tldr 覆盖率 | piggyback | 近 24h「可抓 host」新闻（口径复刻 backfill-news-tldr.js 的 SKIP_HOSTS）tldrZh 覆盖率 <50%（样本<5 不判） | 只入周报 |
+| C7 | Bark 受理统计 | 每次发送 | 每次 bark 的最终 HTTP 码记 state.barkDeliveries | 受理失败只入周报，**绝不递归告警** |
+
+**告警治理**：全部 `level=active`（严禁 timeSensitive）、`group=CyberFocus哨兵`；curl 失败兜底等价 `|| echo 000` + 4 重试 + 回显 HTTP 码；BARK_KEY 缺失静默跳过。**当日去重**：`state.alertState[checkId:target].lastAlertedDateBJ` 同北京日期不重发。**恢复静默**：翻转 status + resolvedAt，不即时推送，只在周报披露。
+
+**绝对时间闸**（sentinel.yml）：晨检双批 cron 北京 05:45/06:45（学晨批双批兜底），脚本内 sleep-loop 等到北京 08:00 才判定（已过点立即判）；周报周日 20:45 启动、21:00 发送。判定前在 CI 里 `git pull --rebase` 刷新检出 → `state.judged[trigger]` 当日已判则第二批幂等退出。`SENTINEL_FORCE=1` 跳过闸+幂等（本地测试用）。
+
+**数据接口（黑板，未来夜班 agent 消费）**：`data/health/state.json`（perSource/alertState/**openIncidents**[{id,checkId,target,severity,firstSeenAt,lastSeenAt,evidence,status}]/judged/各类 streak）+ `data/health/runs/{北京日期}.json`（append {ranAt,trigger,checks,alertsSent}，超 30 天自动清理）+ `data/health/last-fetch.json`（pipeline 每批写：{ranAt,perSource:{源:新增数},orgSitesParse:{条目id:解析数}}；DRY_RUN/SINGLE_SOURCE 不写）。阈值覆盖：`data/sources.json` 顶层可加 `healthDays:{源名:天数}`，podcasts/orgSites 条目级可加 `healthDays`。
+
+**两个关键坑（勿改回）**：① update-papers.yml 的 commit 步骤 `committed=true`（→构建 Pages+📰通知）**只看 data/health 之外的内容变化**——哨兵每批都写 state/runs，若计入会让空批也构建；② `data/health/` **绝不能**加进 update-papers.yml 的 push paths 触发列表，否则哨兵落盘触发整轮构建。
 
 ### PWA（iOS 主屏 App）
 
