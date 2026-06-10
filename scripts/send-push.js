@@ -9,9 +9,14 @@
  *   PUSH_TITLE / PUSH_BODY / PUSH_URL      — 可选，通知内容（默认晨报式）
  */
 import webpush from 'web-push';
-import { kv } from '@vercel/kv';
+import { createClient } from '@vercel/kv';
 
 const KEY = 'push:subs';
+// 兼容 Vercel KV 与 Upstash 两种命名
+const kv = createClient({
+  url: process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || '',
+  token: process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || '',
+});
 const PUBLIC  = process.env.VAPID_PUBLIC_KEY;
 const PRIVATE = process.env.VAPID_PRIVATE_KEY;
 const SUBJECT = process.env.VAPID_SUBJECT || 'mailto:admin@reallylink.cn';
@@ -22,9 +27,9 @@ const url   = process.env.PUSH_URL   || '/reports';
 
 async function main() {
   if (!PUBLIC || !PRIVATE) { console.log('[push] 未配置 VAPID 密钥，跳过'); return; }
-  if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
-    console.log('[push] 未配置 Vercel KV 连接，跳过'); return;
-  }
+  const kvUrl = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+  const kvTok = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!kvUrl || !kvTok) { console.log('[push] 未配置 KV 连接，跳过'); return; }
   webpush.setVapidDetails(SUBJECT, PUBLIC, PRIVATE);
 
   let all;
