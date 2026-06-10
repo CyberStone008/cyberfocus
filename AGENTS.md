@@ -10,6 +10,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 > 每条规则都已落到代码里、**每次抓取/构建自动执行**；本记录用于追溯与防止误改回退。详情见对应章节。
 
+### 2026-06-10
+
+1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
+
 ### 2026-06-09
 
 1. **新闻卡片详细摘要（让用户不必点链接）**：`report-tldr.js` 加 `detail` 选项；新闻（`backfill-news-tldr.js` 传 `detail:true`）生成 **3-5 句、约 150-240 字**的详细概况（人物/事件/数据/影响），守溯源铁律。动机：Google News 等链接国内打不开，摘要够详细就不必跳转。报告 tldr 仍是一句话（`detail:false`）。SocialCard 完整显示不截断。
