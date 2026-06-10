@@ -1,19 +1,106 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-10T22:03:54.283Z",
+  "generatedAt": "2026-06-10T22:53:10.678Z",
   "summary": {
     "aiNews": [
-      "谷歌开源DiffusionGemma模型，文本生成速度提升4倍，降低AI部署成本。",
-      "Anthropic CEO呼吁对强大AI模型实施FAA式监管，强调政府应阻止危险AI。",
-      "拉斯维加斯AI初创公司获创纪录3.5亿美元融资，用于扩展数据中心版图。"
+      "Anthropic CEO Amodei建议用全民基本收入抵消AI导致的失业，并承诺投入2亿美元研究AI经济影响。",
+      "谷歌开源AI模型DiffusionGemma实现4倍速度提升，新一轮降价令OpenAI和Anthropic承压。",
+      "Anthropic提出具有政府否决权的AI安全框架，呼吁对强大AI模型实施FAA式监管。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup第三季度招聘前景疲软，投资者质疑AI技能溢价是否改变。",
-      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击。"
+      "ManpowerGroup第三季度招聘前景疲软，引发对AI技能溢价是否改变投资者看法的质疑。",
+      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击，劳动力市场降温信号明显。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:2c23c6a73d62",
+      "slug": "gnews-2c23c6a73d62",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbUNNUU9uZTlWcUozeDlQRTlpcmprWUdrMWlyaVRFb1dXeGtrdTFpTU9HcEZjNVVIOERNSGhXVFhsRG15N2JlczJDVjVoZktiSEpNRUN6aWc4VGtSYnVSRkQwajZJNFR4WFhVVDJnMENqZ3Y4NjdGZl9OZW1IMEp5WXZ0Q043dkNkU24wcXJha2JPWDNGTURVc3BxNExFNjFwUUY1R25KNVc?oc=5",
+      "publishedAt": "2026-06-10T22:38:39.000Z",
+      "titleEn": "Anthropic's Amodei suggests universal basic income could offset 'intrinsic' AI-related job losses",
+      "titleZh": "Anthropic 的 Amodei 建议用全民基本收入抵消 AI 导致的‘固有’失业",
+      "abstractEn": "Anthropic's Amodei suggests universal basic income could offset 'intrinsic' AI-related job losses  Business Insider",
+      "abstractZh": "Anthropic 的 Amodei 建议用全民基本收入抵消 AI 导致的‘固有’失业  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d7cf6ec34894",
+      "slug": "gnews-d7cf6ec34894",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdFQyMVVVX2xHc1JXdGIxcHJrZ19UeEtaUHZMX1ZmZHoyVkxZRG1tSHJTcXVxVlc3T3hNLXZlV2xyVFRjNllXWXByWEh6ZDFTWmtGMTBHMlAyNTJjb0pFRmprZ2NYSmdlVE1ZMlpMTkc2dFVMVUI1R2hIS3VodVpfZFdyY3JDSjN4NEdhNzNxeHlfOVZhMkFqVW12UXo1Zw?oc=5",
+      "publishedAt": "2026-06-10T21:39:00.000Z",
+      "titleEn": "Apple vs OpenAI: Latecomer leviathan makes its move",
+      "titleZh": "Apple 对决 OpenAI：后来居上的巨头开始行动",
+      "abstractEn": "Apple vs OpenAI: Latecomer leviathan makes its move  Reuters",
+      "abstractZh": "Apple 对决 OpenAI：后来居上的巨头开始行动  Reuters",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48483049",
+      "slug": "hn-48483049-ottawa-moves-to-restrict-social-media-for-kids-under-16",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cbc.ca/news/politics/online-harms-ai-social-media-children-9.7229976",
+      "commentUrl": "https://news.ycombinator.com/item?id=48483049",
+      "publishedAt": "2026-06-10T21:35:52.000Z",
+      "titleEn": "Ottawa moves to restrict social media for kids under 16",
+      "titleZh": "渥太华拟限制 16 岁以下儿童使用社交媒体",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ChrisArchitect"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:a1174850dca5",
+      "slug": "gnews-a1174850dca5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TUUNYWWhSNHdHdzVDSGlMSDQxT3diUlBsWF84eGphSkpqS2YxT25KdnNERWRJOXlTV0MyeVVJaF9wYWFNNlFxZmxiZXhMZ1hfY2o5bk1XeVhhQ1RNVXlpNkpGdDhGN2F6?oc=5",
+      "publishedAt": "2026-06-10T21:30:26.000Z",
+      "titleEn": "Former xAI engineer sues SpaceX, alleges firing over AI safety warnings",
+      "titleZh": "前 xAI 工程师起诉 SpaceX，指控因 AI 安全警告被解雇",
+      "abstractEn": "Former xAI engineer sues SpaceX, alleges firing over AI safety warnings  mezha.net",
+      "abstractZh": "前 xAI 工程师起诉 SpaceX，指控因 AI 安全警告被解雇  mezha.net",
+      "authors": [
+        "mezha.net"
+      ],
+      "institution": "mezha.net",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:0a15edc88e34",
       "slug": "gnews-0a15edc88e34",
@@ -28,6 +115,50 @@
         "inc.com"
       ],
       "institution": "inc.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d5b49912decd",
+      "slug": "gnews-d5b49912decd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQMk1UR2ZBeDN0NGtmU2VTSHVpUnQ3RVRJZHNXbW1SbEhyMnZQeFpSZ0RHNFd0STlvRVplZ2JYbEk2cXJRd0dSdXpDeWFuZnZXRXp6ZUpFSVFFbFJzN241aXI3Qm5yam9tSHFidEtrOFBGbTNOb0ptTlNBZ3pOdEVxYXZFeEdzZ0RtSlBGUHZybkxxbHB4MXJJdTNmbVl5bDBpekZBb0JlVFhrYmtuZnd5T3pGQktYQ2k0Qlhya1YzVHlVeWsyRFY3ODFNVVVxaUp1Z09KQy1yblYxb29VTHNrd3BIeUFkYkJuUEFwbXRMTEJLMWp1SGFjVjd1M1VHaHRHSjdXczJCSll3Z2laRUd0RFNUT1k4anRreU9jOTFDdWU?oc=5",
+      "publishedAt": "2026-06-10T21:03:00.000Z",
+      "titleEn": "Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions",
+      "titleZh": "Anthropic 承诺投入 2 亿美元研究 AI 的经济影响，CEO 提出失业解决方案",
+      "abstractEn": "Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions  KING5.com",
+      "abstractZh": "Anthropic 承诺投入 2 亿美元研究 AI 的经济影响，CEO 提出失业解决方案  KING5.com",
+      "authors": [
+        "KING5.com"
+      ],
+      "institution": "KING5.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:239d746a4df0",
+      "slug": "gnews-239d746a4df0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUzhnNkEtdXB2bWk2TFlKQ3pjVXdGby1NTTFjbFRKWnRsRU1oUXRSaS1PbldwU0hOUC1PamROZG5lT2VlTTN2Yy1qWG1ueWQ4TU9WVkdHM3hQYUtuWmI4XzltNjN3UjZ2RWttMkdnTFdHc2hBNDBBLVRtamxINVpjTXl2V2luWFJUOXh0SkxDUk9DcnNPV3B6dXh6eFczbkpoUU9abEdGRHJjTm8wVV9mQWQyNEp3NC15SFdLXzU1UHRIbVp6?oc=5",
+      "publishedAt": "2026-06-10T20:35:27.000Z",
+      "titleEn": "Anthropic proposes AI safety framework with government veto power By Investing.com",
+      "titleZh": "Anthropic 提出具有政府否决权的 AI 安全框架",
+      "abstractEn": "Anthropic proposes AI safety framework with government veto power By Investing.com  Investing.com Australia",
+      "abstractZh": "Anthropic 提出具有政府否决权的 AI 安全框架  Investing.com 澳大利亚",
+      "authors": [
+        "Investing.com Australia"
+      ],
+      "institution": "Investing.com Australia",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -72,6 +203,50 @@
         "VentureBeat"
       ],
       "institution": "VentureBeat",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5cc11f65bea1",
+      "slug": "gnews-5cc11f65bea1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9wZXVIbDBrZTBsN1hoZXgyOGY0Wm56RGdhVkVMNjFzOUxwdXhHeVJJX09XUzRKR080YnpoclhmNmVPbjhIU1l2MUVaa2t1dnM0b3NIWlFHTnVLWkN2dEpUVktIMWVmeHhRM3JVdDhEd3NpSTc5M0FqWUJkRGZCNGpDbTdCOTJMVEZEbWJLSi1waUhab3hZRlNqaVlBeW9aWkl4WmxzLTFIb3psVUZPb2ln?oc=5",
+      "publishedAt": "2026-06-10T19:38:24.000Z",
+      "titleEn": "OpenAI and Anthropic renew AI safety warnings amid race for growth",
+      "titleZh": "OpenAI 与 Anthropic 在增长竞赛中再次发出 AI 安全警告",
+      "abstractEn": "OpenAI and Anthropic renew AI safety warnings amid race for growth  Türkiye Today",
+      "abstractZh": "OpenAI 与 Anthropic 在增长竞赛中再次发出 AI 安全警告  Türkiye Today",
+      "authors": [
+        "Türkiye Today"
+      ],
+      "institution": "Türkiye Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:98298a87a3e5",
+      "slug": "gnews-98298a87a3e5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS0phQ0hDSmFrdlhNOC15eEpzRWdjdkkxQThYdlpOMHJkdEdJejQ5SW1UZVdZZ1J4MWNrdURZWTEtTlVYbmJReGhBbkF4eElLOWFxUHpKUjlKOUNhQ3BNZktOYk5acHBvQmp5b01NTWNQcEFRb1ZOcG1ZM09CMGcxTjVnVDNFVjdDN2V2ZXVTUENyUWgyRE9QN1ktRnlmb1dUZ29FN3c5eE15bnVkTFV6YlhWTUFvS0nSAbwBQVVfeXFMTTdqNlFzeVotZEJJazI1amotWDlvR09GZFRCdTlQQUc1UWNPdFplQlBMaUhsYlRad0FISUd6YmRVd1BOdjYtTUNXdUZVQVlDdFBPbGRXdmFxc0lfeXEtLVNLVm5EcHdScW9sNzVlU0FCc3lfMk5KU2dXRF9xeGhKcFFYS2hEUEkxRVJtNGQ4MjY2NU1XOTZ3cjNvTDREQ29NOUlnX0Q1ZmZkMUFjczEzU2l0a1ZyZlFyby1LbmQ?oc=5",
+      "publishedAt": "2026-06-10T19:36:27.000Z",
+      "titleEn": "Anthropic Pushes for AI Regulation: A Call to the U.S. Congress",
+      "titleZh": "Anthropic 推动 AI 监管：向美国国会发出呼吁",
+      "abstractEn": "Anthropic Pushes for AI Regulation: A Call to the U.S. Congress  Devdiscourse",
+      "abstractZh": "Anthropic 推动 AI 监管：向美国国会发出呼吁  Devdiscourse",
+      "authors": [
+        "Devdiscourse"
+      ],
+      "institution": "Devdiscourse",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -299,6 +474,28 @@
       "tags": []
     },
     {
+      "id": "gnews:5c8818f3652e",
+      "slug": "gnews-5c8818f3652e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnU4ZXVsNmVtNHJiZWl6bXkyQUhEUG5ZaDJWZHhKWmt1aUhvYzVLRW1Td1lWbFFLYm9uZ09HOEUwU3BfYlYxLWQ5NXcwOGJDY1E2YmhtemNtd1RlN01jNTQ4TlRVczlKbjFaRFRzOVpCS245cXBqeEtzdHIxMkNuZVdMNTg0bVFoYWhFbFBKeGhScWswOU0yWmp0bG9hRW5OX0wzX3RhOFEwZw?oc=5",
+      "publishedAt": "2026-06-10T18:18:01.000Z",
+      "titleEn": "ChatGPT ads get measurement boost from new LiveRamp partnership",
+      "titleZh": "ChatGPT 广告借助 LiveRamp 新合作获得衡量提升",
+      "abstractEn": "ChatGPT ads get measurement boost from new LiveRamp partnership  Marketing Dive",
+      "abstractZh": "ChatGPT 广告借助 LiveRamp 新合作获得衡量提升  Marketing Dive",
+      "authors": [
+        "Marketing Dive"
+      ],
+      "institution": "Marketing Dive",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:6a1c85fc45ff",
       "slug": "gnews-6a1c85fc45ff",
       "source": "Google AI News",
@@ -406,6 +603,71 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "gnews:80db4b1fe3b2",
+      "slug": "gnews-80db4b1fe3b2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRXFZNEJRVGc3V2U4OGZCbHp1SktVUTRndlFUVHRrN2Y2cVExOWVYaktiX3ZFZTdKNDdNbm1mR1JRNkxVWUMzb1dZQnl3cjdZV0RUbUtORGtTQzJkekdMb1BIdi15ZlJ3UkhWTHB6T3BxTDdYQ0tPZ0pQWmlKaTFvdUNsaHFjOGNsRFp1SHgtaHhDWEJ2blNwSzRsb2NycThRbTVSZ0R2bFg0clhf0gGyAUFVX3lxTE1zZzJqb3g5M0lHY0toa091ZnRsekdFZXFoSHc5WVhOZkdhREljMHIySEFiNThweXl0TFR5a2hYU190cjRxTkFlT0syUGlKLVlXOUl5VXUwZlpBTlVSMEd3MmVRTzNCVmVwYU82NjZmeTE1elNsZWM5QVZuaE4tUjBJaXBrdTFfQVltQlR4SjZEdjhCQXlSaDNZcjNVbmx0NTRBcWw4SGNIRVo5ZnAtTTFSMFE?oc=5",
+      "publishedAt": "2026-06-10T16:58:03.000Z",
+      "titleEn": "Engineer Fired for AI Safety Concerns Sues Musk's xAI",
+      "titleZh": "因 AI 安全问题被解雇的工程师起诉马斯克的 xAI",
+      "abstractEn": "Engineer Fired for AI Safety Concerns Sues Musk's xAI  Devdiscourse",
+      "abstractZh": "因 AI 安全问题被解雇的工程师起诉马斯克的 xAI  Devdiscourse",
+      "authors": [
+        "Devdiscourse"
+      ],
+      "institution": "Devdiscourse",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0262e02109ca",
+      "slug": "gnews-0262e02109ca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM0JiRlVTSWtfVXhnUFlXSlBkdE1oaGY4bzNfWGVDUk8wc0hWZDNpYzllc3J1UnVQMGozUm5JMlBJNFg1bk55d0M3LUNkamFaMEh0Z2lFYldCS1N6c2hnNDhsejU5T2tHU2xmX3dnNE1qY3gydEcwMXJvTTlLMHlTYkJ3dDdsZW5WV3BkM1JsRUk?oc=5",
+      "publishedAt": "2026-06-10T16:48:42.000Z",
+      "titleEn": "Anthropic’s new model refuses to find smart contract vulnerabilities",
+      "titleZh": "Anthropic 的新模型拒绝查找智能合约漏洞",
+      "abstractEn": "Anthropic’s new model refuses to find smart contract vulnerabilities  Protos | Informed crypto news",
+      "abstractZh": "Anthropic 的新模型拒绝查找智能合约漏洞  Protos | Informed crypto news",
+      "authors": [
+        "Protos | Informed crypto news"
+      ],
+      "institution": "Protos | Informed crypto news",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48478969",
+      "slug": "hn-48478969-cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthro",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48478969",
+      "publishedAt": "2026-06-10T16:42:00.000Z",
+      "titleEn": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "titleZh": "网络安全研究人员对 Anthropic 的 Fable 防护措施表示不满",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 26,
+      "commentCount": 21,
+      "tags": []
     },
     {
       "id": "hn:48478471",
@@ -592,6 +854,28 @@
         "FinancialContent"
       ],
       "institution": "FinancialContent",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a73215a51361",
+      "slug": "gnews-a73215a51361",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm5iaDk1T3RrSWN4enpwQm1NbGdnT3RnUUlVQV9lOVJXYmp5NklRTUFmNHZyYVgtakVWVXBESENYOXFrWXlTSnZxYm1sY1h2TDR4ZEY5bHZOOHlnRUdFUm9ORzNPNS11X1E4S2ZNRU92Mm04bHptcExXZ1ZheVRtUzVQRzZndEpnQnI5YVlKVE9iR1lzcjZz?oc=5",
+      "publishedAt": "2026-06-10T15:10:40.000Z",
+      "titleEn": "Greg Abbott recommends data center industry crack down",
+      "titleZh": "Greg Abbott 建议对数据中心行业进行严厉打击",
+      "abstractEn": "Greg Abbott recommends data center industry crack down  The Texas Tribune",
+      "abstractZh": "Greg Abbott 建议对数据中心行业进行严厉打击  The Texas Tribune",
+      "authors": [
+        "The Texas Tribune"
+      ],
+      "institution": "The Texas Tribune",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1144,6 +1428,28 @@
       ]
     },
     {
+      "id": "gnews:7c80af298447",
+      "slug": "gnews-7c80af298447",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYU42SE1XcFZfY1pmQ3BvRlFqYmJIcHBXTlNKVUZpeHdieEZUQlZOeXJ6al9iMGltb2RqVjZsMlo1X3RxazctS1RCQTVrUnFGVmJDMjhqdEFGcVV3anFsNWdiVTBvaElKTEpkUkdFWS1UbkNTazZXQkNucGNPdzR3UzN3?oc=5",
+      "publishedAt": "2026-06-10T07:37:00.000Z",
+      "titleEn": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+      "titleZh": "Anthropic 发布 Claude Fable 5，其最强大的 AI 模型，并配备网络安全防护",
+      "abstractEn": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards  The Hacker News",
+      "abstractZh": "Anthropic 发布 Claude Fable 5，其最强大的 AI 模型，并配备网络安全防护  The Hacker News",
+      "authors": [
+        "The Hacker News"
+      ],
+      "institution": "The Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:631244da8935",
       "slug": "gnews-631244da8935",
       "source": "Google AI News",
@@ -1233,6 +1539,27 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48464258",
+      "slug": "hn-48464258-anthropic-requires-30-day-data-retention-for-fable-and-mythos",
+      "source": "Hacker News",
+      "sourceUrl": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "commentUrl": "https://news.ycombinator.com/item?id=48464258",
+      "publishedAt": "2026-06-09T17:23:40.000Z",
+      "titleEn": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "titleZh": "Anthropic 要求对 Fable 和 Mythos 进行 30 天数据留存",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "lebovic"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 35,
+      "commentCount": 8,
+      "tags": []
     }
   ]
 }

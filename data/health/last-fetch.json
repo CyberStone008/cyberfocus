@@ -1,11 +1,8 @@
 {
-  "ranAt": "2026-06-10T22:03:17.486Z",
+  "ranAt": "2026-06-10T22:52:59.874Z",
   "perSource": {
-    "Claude Blog": 1,
-    "Hacker News": 6,
-    "雷锋网": 1,
-    "Google AI News": 19,
-    "ManpowerGroup": 1
+    "Hacker News": 3,
+    "Google AI News": 12
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
