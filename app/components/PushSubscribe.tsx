@@ -51,7 +51,7 @@ export function PushSubscribe() {
           applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY) as BufferSource,
         });
       }
-      const res = await fetch('/api/push/subscribe', {
+      const res = await fetch('/api/push/subscribe/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(sub),
@@ -69,7 +69,7 @@ export function PushSubscribe() {
       const reg = await navigator.serviceWorker.ready;
       const sub = await reg.pushManager.getSubscription();
       if (sub) {
-        await fetch('/api/push/unsubscribe', {
+        await fetch('/api/push/unsubscribe/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ endpoint: sub.endpoint }),
