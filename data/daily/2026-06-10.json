@@ -1,19 +1,277 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-10T08:10:51.818Z",
+  "generatedAt": "2026-06-10T11:04:20.742Z",
   "summary": {
     "aiNews": [
-      "百度智能云与FluxA合作，共建Agent经济全球支付基础设施，推动AI代理商业化。",
-      "GPT-5.6首批实测精准狙击Mythos，性能表现引发行业关注。",
-      "德国法院裁定谷歌对AI概览中的虚假回答承担责任，确立AI法律责任先例。"
+      "抖音征召AI视频英才，创作者可获AI红利，推动AI视频创作新生态。",
+      "火山引擎与周星驰比高集团合作，打造AI视频IP新模式，拓展版权合作。",
+      "GPT-5.6首批实测精准狙击Mythos，展示模型性能新突破。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Korn Ferry报告聚焦职场AI应用，探讨AI对人才招聘与员工体验的影响。",
-      "Indeed报告显示2024年英国夏季职位空缺下降31%，反映劳动力市场降温。"
+      "Korn Ferry报告：职场AI应用加速，影响劳动力管理与员工体验。",
+      "Mercer聚焦另类投资与批判性思维，探讨未来工作趋势。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:c94679776dfe",
+      "slug": "gnews-c94679776dfe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNT3lMOU03TWxoRk15Qk93SnZSVjNPbzI0SE50NXhqU1o3SWRncmRDaTBGZVN6bVZQWlBXSUM5Tlp3TFB5WkEySDVrUG56QUJsLUhsbFpTMXNJT2x1VmtZLWlNXzlzVnBxMzl1cVQ1T1Z4M0ktbllzZmVXLVplc3pXbGpHU2FHRWdpSjVFTlRkWGZmNUZHRWZ6NWxzODFramRMcVlyblVaS2J1S09QNjl1VDlKSlN4cW5hYlFoU3JfMUpHM1NYSktJcU9MMEh1Vk53S3hENGdB?oc=5",
+      "publishedAt": "2026-06-10T10:46:39.000Z",
+      "titleEn": "HyperNorm AI Raises $2.2 Million Seed Funding to Expand AI-Powered Wealth Management Platform",
+      "titleZh": "HyperNorm AI 获220万美元种子轮融资，扩展AI驱动的财富管理平台",
+      "abstractEn": "HyperNorm AI Raises $2.2 Million Seed Funding to Expand AI-Powered Wealth Management Platform  Indian Startup Times",
+      "abstractZh": "HyperNorm AI 获220万美元种子轮融资，扩展AI驱动的财富管理平台  Indian Startup Times",
+      "authors": [
+        "Indian Startup Times"
+      ],
+      "institution": "Indian Startup Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fc85e1351990",
+      "slug": "gnews-fc85e1351990",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOC0xWVZZa25lMWZFS3pqdFBjU1pITjR3bzNTUUVfNjJIczFKUkp3OE40NWNjcFJVTXhLeEhiY1lJMmJTbUpLY3I2d09GMjc3UUdLUjRCa2VmQ282dnBCSWFuZVV3ZUo3ejdsdXBQZEVXamU3V1UteHEwOVh4NjJMVW55Wml1VXZkekhZaTFFX0cydUhXMFdYYWppdHZXV0pPLVlUVWNKTHNqdDZxeXdTWThIb1lOb3F0dUVKN0J2Rm5TOW13YnFSelVEb3dYUQ?oc=5",
+      "publishedAt": "2026-06-10T10:30:24.000Z",
+      "titleEn": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records",
+      "titleZh": "法国外科 AI 初创公司 Uncovr 融资 600 万欧元，将手术视频转化为临床记录",
+      "abstractEn": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records  EU-Startups",
+      "abstractZh": "法国外科 AI 初创公司 Uncovr 融资 600 万欧元，将手术视频转化为临床记录  EU-Startups",
+      "authors": [
+        "EU-Startups"
+      ],
+      "institution": "EU-Startups",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433832-html",
+      "slug": "ai-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433832.html",
+      "publishedAt": "2026-06-10T10:25:41.000Z",
+      "titleEn": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了…",
+      "titleZh": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了…",
+      "abstractEn": "踮起脚尖吧。",
+      "abstractZh": "踮起脚尖吧。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48473845",
+      "slug": "hn-48473845-show-hn-macos-menu-bar-gauges-for-your-claude-code-quota",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/grzegorz-raczek-unit8/claude-quota",
+      "commentUrl": "https://news.ycombinator.com/item?id=48473845",
+      "publishedAt": "2026-06-10T09:43:16.000Z",
+      "titleEn": "Show HN: macOS menu bar gauges for your Claude Code quota",
+      "titleZh": "Show HN：适用于 Claude Code 配额的 macOS 菜单栏仪表盘",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "grzracz"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:ec0b6fb6114a",
+      "slug": "gnews-ec0b6fb6114a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEl0dWw3OGtoLWhFNERxVUlyU1hzVXVYWWVreXZtTmRSTDR2a3JUSUhwVHhjSTFkaFU1NW53V2I0OGJlR3pNM091WlkzalB3NzQ2dERXc2pBNnl1T0RkSEloLWszOGdhZEZCcGpWVEJiclVyQlNodURraU5aa3VvMTBmTzd5ZTQ?oc=5",
+      "publishedAt": "2026-06-10T09:33:38.000Z",
+      "titleEn": "Artificial Intelligence Is Changing The Rules Of Cybercrime",
+      "titleZh": "人工智能正在改变网络犯罪的规则",
+      "abstractEn": "Artificial Intelligence Is Changing The Rules Of Cybercrime  iAfrica.com",
+      "abstractZh": "人工智能正在改变网络犯罪的规则 iAfrica.com",
+      "authors": [
+        "iAfrica.com"
+      ],
+      "institution": "iAfrica.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e6e29ef2c685",
+      "slug": "gnews-e6e29ef2c685",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ2pYTDNCeWRnOWV5VUpldEF0dk5Wd0xNZ3FjMGE3bGxVeGpacllEQlJUUW5IblBmSHdWTDlON3V6cm0zNEkwSlNpREhTT0xNdExCd1hzQ3k1akM5ZmIzQkhKallveVRUdE8wUjhjdEJRSVVHOW03SGR4WlNzV3g3R3RXSEEyaXBobXV5N2xIbzM?oc=5",
+      "publishedAt": "2026-06-10T09:30:16.000Z",
+      "titleEn": "Bishop of Limerick says AI regulation ‘essential’",
+      "titleZh": "利默里克主教称 AI 监管‘至关重要’",
+      "abstractEn": "Bishop of Limerick says AI regulation ‘essential’  Limerick Post",
+      "abstractZh": "利默里克主教称 AI 监管‘至关重要’  Limerick Post",
+      "authors": [
+        "Limerick Post"
+      ],
+      "institution": "Limerick Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:bb1ae2a6f2a2",
+      "slug": "gnews-bb1ae2a6f2a2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTlh1WHZFOXN0Y1hSUzlOVmo3b3Z4YXlQR0k3ang4eDJ0RXNHbENPM2RtMkFBV253M2VjQlJQN0RpWGJpY2RoSHdDMl9ubVloSVRDeW03Y292V2sxM3ZUOW9zOU51N1dGZ045MjROemxRODhfT0tody1jSGxxMEZ3SWNITjdpZElsX09LQ1A1aERTYjdTNUg2dnNLOWVyamfSAbgBQVVfeXFMTkg1Rm5KakpVSy1vdlFQZTFTYUxpSk1TcWJwSlNqcFR5QlM4TDRBTnNmS24tRnNrODIxLVlxVlE1dFFLVW4yb3JxRk14ZGJza3B5UVJlbkR4dGFnNUlLN0NRZTRfeUNMeUh1OFUyYXhoV3hXZHZFS25iYnM3YTNPMHNoTUY1eTgzTUJuQXlSQVpQTnhsbHZTenZfUzBHUE0yT3RPdEZBdUY2TGh6Y2dySk9LbXFpWlowag?oc=5",
+      "publishedAt": "2026-06-10T09:00:10.000Z",
+      "titleEn": "The hands-off era of AI oversight is ending. What comes next?",
+      "titleZh": "AI 监管的‘放手’时代即将结束。接下来会发生什么？",
+      "abstractEn": "The hands-off era of AI oversight is ending. What comes next?  The Christian Science Monitor",
+      "abstractZh": "AI 监管的‘放手’时代即将结束。接下来会发生什么？  The Christian Science Monitor",
+      "authors": [
+        "The Christian Science Monitor"
+      ],
+      "institution": "The Christian Science Monitor",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:95c01e0dcdc3",
+      "slug": "gnews-95c01e0dcdc3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDY2MUdBemFxVm1BU1gzWkcxeDRYR2ZoVE11T0ZESnotQ1ViR05oUFVCUmVWdFh2cm5WcGZScTRzQjZvOWtmYmFBSVdOd0wyRWpLNWtHZV8zajc4aEJoOUF6NTBKMFdBZzBLRG9HRjBUR1Nocl9XS0tlbk9TeEdfeHkwamZjWnV3VHZIbnozSW5KbEpsZGo1OGlrNUxYY0VvSTVsd3U3SHRwUktSMWROeEd5Tkh3Zw?oc=5",
+      "publishedAt": "2026-06-10T09:00:00.000Z",
+      "titleEn": "Exclusive | Anti-Nvidia Data Center Startup Is Valued at $1.55 Billion in New Funding Round",
+      "titleZh": "独家 | 反英伟达数据中心初创公司在新一轮融资中估值达 15.5 亿美元",
+      "abstractEn": "Exclusive | Anti-Nvidia Data Center Startup Is Valued at $1.55 Billion in New Funding Round  WSJ",
+      "abstractZh": "独家 | 反英伟达数据中心初创公司在新一轮融资中估值达 15.5 亿美元  WSJ",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-g1yzbjmswq6xrhdj-html",
+      "slug": "ai-ip",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/g1yZBjmsWQ6XRHdJ.html",
+      "publishedAt": "2026-06-10T08:35:00.000Z",
+      "titleEn": "火山引擎与周星驰比高集团达成版权合作，打造AI 视频 IP 合作新模式",
+      "titleZh": "火山引擎与周星驰比高集团达成版权合作，打造AI 视频 IP 合作新模式",
+      "abstractEn": "6月10日，火山方舟版权商业化平台正式上线，周星驰旗下比高集团携《喜剧之王》《长江七号》《食神》三大经典影视 IP 率先入驻，双方达成 AI 视频创作版权合作。\n火山方舟版权商业化平台依托全球领先的 Seedance 2.0 视频生成模型及完备的版权治理体系，推出业内首个「授权 — 保护 — 审核 — 分发 — 变现」全链路合作机制，为 IP 在 AI 场景下的合规使用与商业价值挖掘提供全新参考模式。\n本次合作中，火山引擎与多家工具伙伴共同将周星驰三部经典电影中的代表性桥段制作成创作模板。用户只需上传少量素材，即可一键生成属于自己的经典名场面，轻松产出更具传播力的爆款短视频。\n面向企业用户，火山引擎同步开放了一批营销模板，将经过市场验证的爆款内容逻辑沉淀其中。企业可基于授权 IP 和现成模板快速完成创作，将成熟内容形式转化为品牌传播素材。\n目前，相关玩法已先行在火山方舟体验中心、火山引擎 ",
+      "abstractZh": "6月10日，火山方舟版权商业化平台正式上线，周星驰旗下比高集团携《喜剧之王》《长江七号》《食神》三大经典影视 IP 率先入驻，双方达成 AI 视频创作版权合作。\n火山方舟版权商业化平台依托全球领先的 Seedance 2.0 视频生成模型及完备的版权治理体系，推出业内首个「授权 — 保护 — 审核 — 分发 — 变现」全链路合作机制，为 IP 在 AI 场景下的合规使用与商业价值挖掘提供全新参考模式。\n本次合作中，火山引擎与多家工具伙伴共同将周星驰三部经典电影中的代表性桥段制作成创作模板。用户只需上传少量素材，即可一键生成属于自己的经典名场面，轻松产出更具传播力的爆款短视频。\n面向企业用户，火山引擎同步开放了一批营销模板，将经过市场验证的爆款内容逻辑沉淀其中。企业可基于授权 IP 和现成模板",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48473166",
+      "slug": "hn-48473166-aws-bedrock-to-require-sharing-data-with-anthropic-for-mythos-and-fu",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48473166",
+      "commentUrl": "https://news.ycombinator.com/item?id=48473166",
+      "publishedAt": "2026-06-10T08:21:38.000Z",
+      "titleEn": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "titleZh": "AWS Bedrock 将要求与 Anthropic 共享数据以用于 Mythos 及未来模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "TomAnthony"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 86,
+      "commentCount": 31,
+      "tags": []
+    },
+    {
+      "id": "gnews:fcbb1d0c9e31",
+      "slug": "gnews-fcbb1d0c9e31",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmR0bkhVX1NWN1NMdjM1MTRZRzc0cXROY2Vwa2haeWg3dkNhYjlmcUd3NVRpY2NhWkhMZy1oTkhpRktrU1k3LXdPY1lydmdJVTVFOXJUY3RlZzBzR19pY3J0SmxHQXRDQmI4Ti1JRHNBYUk0RWQxSFFDMWRFZXpXeDd5SzR1ajFkN19ybDhBR0EtclhWQnlkZXhoTThEWnNnTER4WDZ5TXRsSFZHWWJWSjdISVZrVkhyLVYyRVNLNFBnWDhrcUE?oc=5",
+      "publishedAt": "2026-06-10T08:17:00.000Z",
+      "titleEn": "Temasek leads 300 million series c round for physicsx",
+      "titleZh": "淡马锡领投 PhysicsX 3 亿美元 C 轮融资",
+      "abstractEn": "Temasek leads 300 million series c round for physicsx  Indiatimes",
+      "abstractZh": "淡马锡领投 PhysicsX 3 亿美元 C 轮融资  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:264567240198",
+      "slug": "gnews-264567240198",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUVZ0eVZHdlZmZVVFWktQZUlzU1VoMHdGZmpURmVQVUlvWnozemR4WE1Hd281eUtHaTJCa1dGeGFPZ2lqallzc0hUUzlXM2JWNFhOVUJabmJyV3pjQkxocjQwRGRGQUVHc0JYRTJfVFM3aGxkcXczLVVKbzJsMHdCQVZfVUJqVXVJVE9CVWp2elFEbW1UcXVabFNkN3hfSVg4U1NWdXlZdTVtRXI1eXhoRTE3V2MyQ0VRV3FNcDdfSXZiVTY4eVl6Nmdac0k4SFlpa3c1X25HUGc?oc=5",
+      "publishedAt": "2026-06-10T08:16:58.000Z",
+      "titleEn": "Super micro computer plans 7 billion equity offering for ai servers",
+      "titleZh": "超微电脑计划为AI服务器进行70亿美元股权融资",
+      "abstractEn": "Super micro computer plans 7 billion equity offering for ai servers  Indiatimes",
+      "abstractZh": "超微电脑计划为AI服务器进行70亿美元股权融资  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hrsite:korn-ferry:02eee8072d04",
       "slug": "hrsite-korn-ferry-02eee8072d04",
@@ -427,6 +685,46 @@
       ]
     },
     {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-yrfmcuwnpjyysgy4-html",
+      "slug": "agent",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/YRFMCuwNPJyySGY4.html",
+      "publishedAt": "2026-06-10T07:35:00.000Z",
+      "titleEn": "千问发布高考志愿填报Agent，为全国考生免费提供志愿填报咨询",
+      "titleZh": "千问发布高考志愿填报Agent，为全国考生免费提供志愿填报咨询",
+      "abstractEn": "6月10日，千问上线国内首个全周期高考志愿填报Agent，为全国考生免费提供志愿填报和咨询服务。高考Agent基于千问高考志愿大模型和夸克8年高考数据经验打造，具备“志愿报告”、“志愿日历”、“志愿问答”三项核心能力，相当于为每位考生配备了一位贴身的AI高考志愿填报专家。\n类似的深度志愿服务在市场上收费往往超过5000元。现在，考生向千问提供选科、估分等基础信息后，即可在“志愿日历”的规划下，一步步形成对专业院校、性格偏好和志愿方案的深入了解，并免费获取定制化的“高考志愿报告”，涵盖填报所需的几十种志愿组合，可直接写入填报系统。\n为确保内容的专业性与准确性，高考志愿填报Agent基于千问高考志愿大模型打造，并结合了夸克8年高考服务积累的数据与经验。它不仅掌握了人类专家的思考链路、“位次法定位”等专业填报方法，还能结合历年院校录取数据和高考用户行为理解，提供更符合考生实际需求的志愿规划建议。",
+      "abstractZh": "6月10日，千问上线国内首个全周期高考志愿填报Agent，为全国考生免费提供志愿填报和咨询服务。高考Agent基于千问高考志愿大模型和夸克8年高考数据经验打造，具备「志愿报告」、「志愿日历」、「志愿问答」三项核心能力，相当于为每位考生配备了一位贴身的AI高考志愿填报专家。\n类似的深度志愿服务在市场上收费往往超过5000元。现在，考生向千问提供选科、估分等基础信息后，即可在「志愿日历」的规划下，一步步形成对专业院校、性格偏好和志愿方案的深入了解，并免费获取定制化的「高考志愿报告」，涵盖填报所需的几十种志愿组合，可直接写入填报系统。\n为确保内容的专业性与准确性，高考志愿填报Agent基于千问高考志愿大模型打造，并结合了夸克8年高考服务积累的数据与经验。它不仅掌握了人类专家的思考链路、「位次法定位",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433798-html",
+      "slug": "pro-b70-gpu-mpts2026-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433798.html",
+      "publishedAt": "2026-06-10T07:27:58.000Z",
+      "titleEn": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
+      "titleZh": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
+      "abstractEn": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能",
+      "abstractZh": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "gnews:8c288d0fcc51",
       "slug": "gnews-8c288d0fcc51",
       "source": "Google AI News",
@@ -447,6 +745,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-bfglup9w6hrnvgts-html",
+      "slug": "ai-agent-os-token",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/BFGlUP9W6hRnVGtS.html",
+      "publishedAt": "2026-06-10T06:56:00.000Z",
+      "titleEn": "重磅首发！奥尼AI Agent OS、Token工厂正式上线，构建智能体运行新生态",
+      "titleZh": "重磅首发！奥尼AI Agent OS、Token工厂正式上线，构建智能体运行新生态",
+      "abstractEn": "“智能体AI已经到来。”NVIDIA创始人兼CEO黄仁勋在近期的GTC 2026台北演讲中宣告。一个新的共识正在形成：个人和企业都将拥有自己的智能体，社会生产力将被重塑。\n \n面对这场浪潮，如何让智能体安全部署、高效运行并持续创造价值？作为NVIDIA的合作伙伴，奥尼给出了具体的落地答案。\n \n \n6月9日，奥尼集中发布多项重磅成果，从硬件底座、操作系统、算力网络到开放生态，为智能体规模化落地提供一条全新的实践路径。\n \n \n端侧Agent操作系统：奥尼AI Agent OS 1.0全球首发\n \nPC时代，Windows定义了个人计算的入口；移动时代，iOS重塑了人机交互的方式。当下，智能体时代同样需要一套专属的操作系统。\n \n奥尼AI Agent OS 1.0应运而生。这是一款基于NVIDIA Jetson Thor、专为本地化而生的端侧Agent操作系统。面向政务、企业、行业私有化以及",
+      "abstractZh": "「智能体AI已经到来。」NVIDIA创始人兼CEO黄仁勋在近期的GTC 2026台北演讲中宣告。一个新的共识正在形成：个人和企业都将拥有自己的智能体，社会生产力将被重塑。\n面对这场浪潮，如何让智能体安全部署、高效运行并持续创造价值？作为NVIDIA的合作伙伴，奥尼给出了具体的落地答案。\n6月9日，奥尼集中发布多项重磅成果，从硬件底座、操作系统、算力网络到开放生态，为智能体规模化落地提供一条全新的实践路径。\n端侧Agent操作系统：奥尼AI Agent OS 1.0全球首发\nPC时代，Windows定义了个人计算的入口；移动时代，iOS重塑了人机交互的方式。当下，智能体时代同样需要一套专属的操作系统。\n奥尼AI Agent OS 1.0应运而生。这是一款基于NVID",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "量子位:https-www-qbitai-com-2026-06-433516-html",
@@ -659,6 +977,28 @@
       "tags": []
     },
     {
+      "id": "gnews:8f2588718193",
+      "slug": "gnews-8f2588718193",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzBfNmYxb2FSR0tVWTdBYUFlYm5BTy1NQnVtclE0M19TQzE4ZnpMRzVpT2tCcGkzckE5YkppYi14ajUzSXVBT0l1cXh0UlNqTHNVaUNEWXJSWEZvVmZZQktpaG5ieU13T1FVSkI1VzJIOFN5V0NhcVlLQWlETkNsNENWWGdYVHZjc2ZpTHFn?oc=5",
+      "publishedAt": "2026-06-10T03:04:02.000Z",
+      "titleEn": "India Minister Seeks New AI Legal Framework",
+      "titleZh": "印度部长寻求建立新的 AI 法律框架",
+      "abstractEn": "India Minister Seeks New AI Legal Framework  Let's Data Science",
+      "abstractZh": "印度部长寻求建立新的 AI 法律框架  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:1a70449eec60",
       "slug": "gnews-1a70449eec60",
       "source": "Google AI News",
@@ -830,6 +1170,28 @@
       ]
     },
     {
+      "id": "gnews:6fafecf30fc0",
+      "slug": "gnews-6fafecf30fc0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdWhnTXNxMGdVbGUzM09Bdmo5cDBCVnVXZTduLWMzZXI3Q2xRZHk4VnNSSHpWcks5V2hBN0s0NWtpcGw3WXZCLVJlenk0bkR2NHIyZENuNi1CM2lOTGtjSVc1WTVFem5DTWxoajd6SlVrQnRhMGE5MmFLcXRqMU1TaVdod0kzc1RzTkE?oc=5",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "titleEn": "Watch Anthropic Releases New Mythos-Like Model Ahead of IPO | The Opening Trade 6/10/2026",
+      "titleZh": "关注：Anthropic 在 IPO 前发布类似 Mythos 的新模型 | 开盘交易 2026年6月10日",
+      "abstractEn": "Watch Anthropic Releases New Mythos-Like Model Ahead of IPO | The Opening Trade 6/10/2026  Bloomberg.com",
+      "abstractZh": "关注：Anthropic 在 IPO 前发布类似 Mythos 的新模型 | 开盘交易 2026年6月10日  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:c17ef496b10c",
       "slug": "gnews-c17ef496b10c",
       "source": "Google AI News",
@@ -865,6 +1227,28 @@
         "SiliconANGLE"
       ],
       "institution": "SiliconANGLE",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:dfe8350497b8",
+      "slug": "gnews-dfe8350497b8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUE5reDNLYU1sUHpVanBzSWRwMFlGdXItVGJBNTNUcmNqR0R4ZUoyd0s0RXhteU83bW1Ba2RHaVI3VEktWExlUl9KTEV3S3laZkNaN3VQMTJLck5PRkVUeXRweHFDZUhRYl81MktoN1lpdElRNFdsejREanljcjBfOUw1OEIxNnlyeG9CVklfNDM2NnIwaXQ5emMtQjJRQlJUVlBDVmVNVnY4SFoxY3VV?oc=5",
+      "publishedAt": "2026-06-09T23:19:00.000Z",
+      "titleEn": "Anthropic announces new AI model",
+      "titleZh": "Anthropic 发布新 AI 模型",
+      "abstractEn": "Anthropic announces new AI model  news8000.com",
+      "abstractZh": "Anthropic 发布新 AI 模型 news8000.com",
+      "authors": [
+        "news8000.com"
+      ],
+      "institution": "news8000.com",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1525,6 +1909,28 @@
       ]
     },
     {
+      "id": "gnews:1a1ccb1ccb30",
+      "slug": "gnews-1a1ccb1ccb30",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVpvQklzeUpyLS1vVHU3aE9HMEJ6THVtN3d0ZndIQ3d1NG5VOHUxRy0yUW9HWnNjNW4xTzdld2E2a04tUXJkcllzbGtUeS0xb1hZSTEweVB4YmJtQ0drUWRFLXp6MlRKSjdPM2EzN2x1cV9tYlNNXzNoWG9EX0U0OFd4N1JoRzFWa183RTR1RjhxMnM?oc=5",
+      "publishedAt": "2026-06-09T18:56:04.000Z",
+      "titleEn": "Claude Fable 5: Anthropic releases a 'safe' version of Claude Mythos",
+      "titleZh": "Claude Fable 5：Anthropic 发布 Claude Mythos 的‘安全’版本",
+      "abstractEn": "Claude Fable 5: Anthropic releases a 'safe' version of Claude Mythos  Mashable",
+      "abstractZh": "Claude Fable 5：Anthropic 发布 Claude Mythos 的‘安全’版本  Mashable",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48465744",
       "slug": "hn-48465744-apples-ai-can-now-change-your-passwords-what-could-possibly-go-wrong",
       "source": "Hacker News",
@@ -1872,6 +2278,28 @@
       ]
     },
     {
+      "id": "gnews:645a964f0fa4",
+      "slug": "gnews-645a964f0fa4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNclJjVzlnSzJ4M3c1WkdyY19SUVFrQXhlWTF1VWExeVhXSXp2czEzbGMtaEpDV0Ezc045bzBTUFhRNzUzTkhKOS0tbU54X2M5YWw2RWZZSUFrWjJvTElhMFlVMndfUF9yTUptX1QtbXd1UzVMR29FZUN5cEJ0T2RZTC1tUThTNE5QbS1VcEtWYkJNaFJpeHZlVVFoSXdkUG5IWFBWLXNOMGdwMzlHMnhtMjR0YmxzYXd5TlUwQnR3?oc=5",
+      "publishedAt": "2026-06-09T17:03:00.000Z",
+      "titleEn": "Anthropic rolls out public version of Mythos without cybersecurity capability",
+      "titleZh": "Anthropic 推出不含网络安全功能的 Mythos 公开版本",
+      "abstractEn": "Anthropic rolls out public version of Mythos without cybersecurity capability  Reuters",
+      "abstractZh": "Anthropic 推出不含网络安全功能的 Mythos 公开版本 路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:b449bdd1dbeb",
       "slug": "gnews-b449bdd1dbeb",
       "source": "Google AI News",
@@ -1929,6 +2357,28 @@
         "CNBC"
       ],
       "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:65a13084ed59",
+      "slug": "gnews-65a13084ed59",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "titleEn": "Anthropic Offers Mythos Upgrade for Cyber Partners and a ‘Safe’ Version for the Rest of You",
+      "titleZh": "Anthropic 为网络合作伙伴提供 Mythos 升级版，并为其他用户推出‘安全’版本",
+      "abstractEn": "Anthropic Offers Mythos Upgrade for Cyber Partners and a ‘Safe’ Version for the Rest of You  WIRED",
+      "abstractZh": "Anthropic 为网络合作伙伴提供 Mythos 升级版，并为其他用户推出‘安全’版本  WIRED",
+      "authors": [
+        "WIRED"
+      ],
+      "institution": "WIRED",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -2059,6 +2509,28 @@
         "Blueprint Newspapers"
       ],
       "institution": "Blueprint Newspapers",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:97a8051ef2ea",
+      "slug": "gnews-97a8051ef2ea",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5",
+      "publishedAt": "2026-06-09T16:35:53.000Z",
+      "titleEn": "It's official: OpenAI files IPO",
+      "titleZh": "官方消息：OpenAI 提交 IPO 申请",
+      "abstractEn": "It's official: OpenAI files IPO  Mashable",
+      "abstractZh": "官方消息：OpenAI 提交 IPO 申请  Mashable",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -2851,6 +3323,28 @@
       "commentCount": 0,
       "tags": [
         "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:1c36209af70c",
+      "slug": "hrorg-recruit-1c36209af70c",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGV4a3VNTVVLajZ2YXowUnVVTV9MTENtSDZOVkk2eThzNC11bENIOU5GZmpDZWtGckxGSThnVGY3RUUxWXdKVmhOZGxKMlpHVlhKQ0FSZHM0aExpNFZQcWxkTVd3b2dlUTB6bnhRSGtNTUNoSmFvd0YyellPZGltbjczQ0VmRjlQMDZhNWtUSWRJV2dw?oc=5",
+      "publishedAt": "2026-06-09T11:03:12.000Z",
+      "titleEn": "Nearly 16% of Active Job Seekers Are Already Working Multiple Jobs",
+      "titleZh": "近16%的活跃求职者已在从事多份工作",
+      "abstractEn": "Nearly 16% of Active Job Seekers Are Already Working Multiple Jobs  Indeed Hiring Lab",
+      "abstractZh": "近16%的活跃求职者已在从事多份工作  Indeed Hiring Lab",
+      "authors": [
+        "Indeed Hiring Lab"
+      ],
+      "institution": "Indeed Hiring Lab",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
       ]
     },
     {
