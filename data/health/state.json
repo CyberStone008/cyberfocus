@@ -9,16 +9,16 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-10T16:46:48.092Z"
+      "lastSeenAt": "2026-06-10T22:03:54.326Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-10T16:46:48.092Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-10T16:46:48.092Z"
+      "lastSeenAt": "2026-06-10T22:03:54.326Z"
     },
     "雷锋网": {
-      "lastSeenAt": "2026-06-10T16:46:48.092Z"
+      "lastSeenAt": "2026-06-10T22:03:54.326Z"
     },
     "Recruit Holdings": {
       "lastSeenAt": "2026-06-10T16:46:48.092Z"
@@ -30,7 +30,7 @@
       "lastSeenAt": "2026-06-10T05:49:14.532Z"
     },
     "ManpowerGroup": {
-      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+      "lastSeenAt": "2026-06-10T22:03:54.326Z"
     },
     "Adecco Group": {
       "lastSeenAt": "2026-06-09T21:50:01.814Z"
@@ -39,7 +39,7 @@
       "lastSeenAt": "2026-06-09T16:14:36.679Z"
     },
     "Claude Blog": {
-      "lastSeenAt": "2026-06-09T21:50:01.814Z"
+      "lastSeenAt": "2026-06-10T22:03:54.326Z"
     },
     "科锐国际": {
       "lastSeenAt": "2026-06-09T05:17:58.666Z"
@@ -169,8 +169,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-10T16:51:27.378Z",
-      "note": "Korn Ferry 已静默 7.6 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-10T22:08:01.601Z",
+      "note": "Korn Ferry 已静默 7.8 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -178,8 +178,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-10T16:51:27.379Z",
-      "note": "中智咨询 已静默 33.7 天（阈值 7 天，最后收录 2026-05-08）"
+      "lastFailedAt": "2026-06-10T22:08:01.601Z",
+      "note": "中智咨询 已静默 33.9 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
       "status": "alerting",
@@ -187,8 +187,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-10T16:51:27.379Z",
-      "note": "FESCO Adecco 已静默 31.4 天（阈值 7 天，最后收录 2026-05-10）"
+      "lastFailedAt": "2026-06-10T22:08:01.601Z",
+      "note": "FESCO Adecco 已静默 31.6 天（阈值 7 天，最后收录 2026-05-10）"
     }
   },
   "openIncidents": [
@@ -198,8 +198,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-10T16:51:27.379Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=7.6 threshold=7",
+      "lastSeenAt": "2026-06-10T22:08:01.601Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=7.8 threshold=7",
       "status": "open"
     },
     {
@@ -208,8 +208,8 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-10T16:51:27.379Z",
-      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=33.7 threshold=7",
+      "lastSeenAt": "2026-06-10T22:08:01.601Z",
+      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=33.9 threshold=7",
       "status": "open"
     },
     {
@@ -218,8 +218,8 @@
       "target": "FESCO Adecco",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-10T16:51:27.379Z",
-      "evidence": "lastSeenAt=2026-05-10T07:52:13.106Z ageDays=31.4 threshold=7",
+      "lastSeenAt": "2026-06-10T22:08:01.601Z",
+      "evidence": "lastSeenAt=2026-05-10T07:52:13.106Z ageDays=31.6 threshold=7",
       "status": "open"
     }
   ],
@@ -279,9 +279,9 @@
       "podcasts": 0
     },
     "2026-06-11": {
-      "aiNews": 27,
-      "papers": 0,
-      "hrOrgs": 1,
+      "aiNews": 53,
+      "papers": 1,
+      "hrOrgs": 2,
       "podcasts": 0
     }
   },
@@ -290,8 +290,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-10T16:46:28.884Z",
+  "lastFetchConsumedRanAt": "2026-06-10T22:03:17.486Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-10T16:51:27.557Z"
+  "updatedAt": "2026-06-10T22:08:01.762Z"
 }

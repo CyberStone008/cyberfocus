@@ -1,18 +1,412 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-10T16:46:48.056Z",
+  "generatedAt": "2026-06-10T22:03:54.283Z",
   "summary": {
     "aiNews": [
-      "DiffusionGemma发布，文本生成速度提升4倍，显著加速AI推理效率。",
-      "Anthropic新模型Fable 5性能强大但使用受限，引发对AI竞争与反垄断讨论。",
-      "2026年Q1初创融资报告：AI占据全部资本的57%，显示行业资本高度集中。"
+      "谷歌开源DiffusionGemma模型，文本生成速度提升4倍，降低AI部署成本。",
+      "Anthropic CEO呼吁对强大AI模型实施FAA式监管，强调政府应阻止危险AI。",
+      "拉斯维加斯AI初创公司获创纪录3.5亿美元融资，用于扩展数据中心版图。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击，反映劳动力市场降温。"
+      "ManpowerGroup第三季度招聘前景疲软，投资者质疑AI技能溢价是否改变。",
+      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:0a15edc88e34",
+      "slug": "gnews-0a15edc88e34",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX01DbW9sb3RKdG5WdEhManRzVFhHYzdPZWpRLUJiaWhVYy1RbzhOd3RxRWh4OUtwRWJKSXdxb2xVRmZxX2lRWXc0X2EzeEp6Mkp4SXhHV25qbDhNYXlZYW5zeENDNDY5R1ZTV0o4S2dwWHdOYUtHU0p0Ml9TemNYMUc2d1Q4WDhSQzVLeU5mOHNFa2VfQzh2TldNMTRfeGx3LW5jRTAzOTVWVEts?oc=5",
+      "publishedAt": "2026-06-10T21:22:30.000Z",
+      "titleEn": "Google’s New AI Price Cuts Should Make OpenAI and Anthropic Nervous",
+      "titleZh": "谷歌新一轮AI降价应让OpenAI和Anthropic感到紧张",
+      "abstractEn": "Google’s New AI Price Cuts Should Make OpenAI and Anthropic Nervous  inc.com",
+      "abstractZh": "谷歌新一轮AI降价应让OpenAI和Anthropic感到紧张  inc.com",
+      "authors": [
+        "inc.com"
+      ],
+      "institution": "inc.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f4c686120f16",
+      "slug": "gnews-f4c686120f16",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQczgxYjFHU2V2dGFla0VzZXBacXAxYjZpQkNGcnRoU19YblJYSkpZeG9fWHRKN08yOFl6alUzSmdPcXpWcFFZclA4dThOOGc0SXpOeGMwS0JULTlxZDhBaGUtUGE3ZTVOeFhZWmZqQUxkX0NnSV9ORi13emZBQUtnN2JRZmJWd21odUJOdXVJQmtkbGFVUXc?oc=5",
+      "publishedAt": "2026-06-10T20:10:51.000Z",
+      "titleEn": "The summer AI safety check every parent should do right now",
+      "titleZh": "每位家长现在都应进行的夏季 AI 安全自查",
+      "abstractEn": "The summer AI safety check every parent should do right now  Transparency Coalition",
+      "abstractZh": "每位家长现在都应进行的夏季 AI 安全自查  Transparency Coalition",
+      "authors": [
+        "Transparency Coalition"
+      ],
+      "institution": "Transparency Coalition",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ec2a402a075c",
+      "slug": "gnews-ec2a402a075c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQek9ndmxod255ZDg1N0pIbVJteVdnVVVBanpFaHd3ZmhrOXhMQVpvaTdrSHhHVlZNTXR4eHFxQUs5MDgyWVYzVjVMR1ItaWlzYzNmVG10eFNNRW5PWFJTWUtHU0RqZGUxVkR2VjRJYjFNZmg3QmNGUFFuXy1tQ0xDUGNJaWZTc0hHZnVzRk55NkRySjhFWk15UXN3em5Uc3ZNMnhEc2tQNTlfZG1JUDZXYk5RSGpfMkxHQ0hDXzRGMmZjNkd4Ty12V2RR?oc=5",
+      "publishedAt": "2026-06-10T19:50:12.000Z",
+      "titleEn": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know",
+      "titleZh": "Anthropic CEO 呼吁对强大 AI 模型实施 FAA 式监管：企业应知事项",
+      "abstractEn": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know  VentureBeat",
+      "abstractZh": "Anthropic CEO 呼吁对强大 AI 模型实施 FAA 式监管：企业应知事项  VentureBeat",
+      "authors": [
+        "VentureBeat"
+      ],
+      "institution": "VentureBeat",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:434a73f85f3c",
+      "slug": "gnews-434a73f85f3c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUNjSmdLQjVNUW1QV2ZhTEJvT1Z3aVI2eXJjd21USmpuMWhHV2FiNGkwUnIxbDZiZ01OT2I5Ty1sZDVSd3RaSU1aY2dUcElDY0NKTDNKRXhFX1AyWWZyeDFiOVRZeXQ0VjRsOFUzRnllMGNTTDdtRGJnTGZsSmgxcmptZG5iQllIb2lvZ2F4T3lFQXh3RUxhQTJrWXNPamV4Z3FOMktFSlFJenNidXloSw?oc=5",
+      "publishedAt": "2026-06-10T19:29:21.000Z",
+      "titleEn": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
+      "titleZh": "谷歌最新开源AI模型DiffusionGemma实现4倍速度提升",
+      "abstractEn": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost  Ars Technica",
+      "abstractZh": "谷歌最新开源AI模型DiffusionGemma实现4倍速度提升  Ars Technica",
+      "authors": [
+        "Ars Technica"
+      ],
+      "institution": "Ars Technica",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3f1761442740",
+      "slug": "gnews-3f1761442740",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmZrTGNvSHFScGZENWhLMDd1clZ4amp6NGJsX3R1T2Q2SWw2UHNoV1hGMklpdG5BY2lmUk5USXl2eTQ3RklIOUxIZHFtNER0eGszeWFPTFVqUEwxRXVYUldEUXV3N05hdjBfWTA1R1RTOENvSEc4c0p1MmwyWGV6bmxTM2htOEQ4MkFVMmdIekdrRnZTc0Nva3FkNGNUXy0tWU10TS1SZVRfSS1SUlI4?oc=5",
+      "publishedAt": "2026-06-10T19:29:06.000Z",
+      "titleEn": "Anthropic CEO calls for binding AI regulation in new essay",
+      "titleZh": "Anthropic CEO 在新文章中呼吁制定具有约束力的 AI 监管法规",
+      "abstractEn": "Anthropic CEO calls for binding AI regulation in new essay  Investing.com",
+      "abstractZh": "Anthropic CEO 在新文章中呼吁制定具有约束力的 AI 监管法规  Investing.com",
+      "authors": [
+        "Investing.com"
+      ],
+      "institution": "Investing.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7c164c6d340d",
+      "slug": "gnews-7c164c6d340d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNalRJTWRuVlNzQmphWkFUOFJIYU9YaGZSdW9LS3I4SmZwemRmaXdfVkNlWW93bGdlWTRtOXFjdUFYX3RySUdDZzFjLXFqS2FOUjF2dXhEQ2xCcjItWlkwNFZNRWp3QmIzNWxlYTE2ZzdTLVZyT2tNYkxOUUNOYTBKSllSUUt4cVJ6WDZtUm05RFcxWkFOOWdqVHpFQXlCaWRtMHdGUXJ2TWo3SkpYZTZzbkUxS0hmT2ZvYmhYTg?oc=5",
+      "publishedAt": "2026-06-10T19:27:00.000Z",
+      "titleEn": "Las Vegas AI startup secures record $350M to expand data center footprint",
+      "titleZh": "拉斯维加斯 AI 初创公司获创纪录 3.5 亿美元融资，用于扩展数据中心版图",
+      "abstractEn": "Las Vegas AI startup secures record $350M to expand data center footprint  reviewjournal.com",
+      "abstractZh": "拉斯维加斯 AI 初创公司获创纪录 3.5 亿美元融资，用于扩展数据中心版图  reviewjournal.com",
+      "authors": [
+        "reviewjournal.com"
+      ],
+      "institution": "reviewjournal.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:60c139997ad8",
+      "slug": "hrorg-manpower-60c139997ad8",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFRtNzVmS3p0M05rSFIxZF9tWVJDSEFDTV9QYUxPcGR4Z2pWdERzVXZxWG5waWFad0lyU2VDVEdTRTZXc2ttVGxvSm1kTi1rVGUyekxiaTVIX05ZOTdHMGtDZVRLWmZKZ1FtYWhhZjFSSlZhS1VTSkNEckVCbm14SUtKT2JraE9USDFnQVJPekVTVGp5VmFoRUFJXzdReFZPd3c?oc=5",
+      "publishedAt": "2026-06-10T19:14:34.000Z",
+      "titleEn": "Should ManpowerGroup's (MAN) Softer Q3 Hiring Outlook Shift How Investors View Its AI-Skills Premium?",
+      "titleZh": "ManpowerGroup (MAN) 第三季度招聘前景疲软，是否应改变投资者对其 AI 技能溢价的看法？",
+      "abstractEn": "Should ManpowerGroup's (MAN) Softer Q3 Hiring Outlook Shift How Investors View Its AI-Skills Premium?  Yahoo Finance",
+      "abstractZh": "ManpowerGroup (MAN) 第三季度招聘前景疲软，是否应改变投资者对其 AI 技能溢价的看法？  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:16310253e4a0",
+      "slug": "gnews-16310253e4a0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUGFPeVR2VldXM21VWDNBRFdaVEVtVDNwZDBCcnhzWmp1a3p2YTN3eGhUTE13TTRZMzhpckkza0QzRUxaZkJLQ3Q4UnY1U1JweTluZ19zNGdhZndyZW9SQ2JSWGd5dWRJQnJkb1ZhY0pCWmkwaTFkZnVZdTRLYnowMWNR?oc=5",
+      "publishedAt": "2026-06-10T18:50:31.000Z",
+      "titleEn": "Anthropic CEO says government should block dangerous AI",
+      "titleZh": "Anthropic CEO称政府应阻止危险AI",
+      "abstractEn": "Anthropic CEO says government should block dangerous AI  Axios",
+      "abstractZh": "Anthropic CEO称政府应阻止危险AI  Axios",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f1291dc9a295",
+      "slug": "gnews-f1291dc9a295",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYTZnVVR2LTFhVTV2QS1kd2pDNzEtUFdPVHEwaHZnZkFCOXNDYjdSV3ZOc29Ld0lNUHRlY0R2Z25TZlhhMTZFbEZ6blUxZTBLODE2Y2pGREYxbk1YdFRRWWxCZWU1R1F6MHlhcFpHNEdWRzNmR29sS3BRLUdlY1FqWlNkTFZ1RHVER2NyU1Z4a1lKMDRmYUxLeHpXWEhqZWlfU0dEb1NMSHpxQlpLX2QxMk0yT3VEb3h0NjlEWlBXa1Q?oc=5",
+      "publishedAt": "2026-06-10T18:49:15.000Z",
+      "titleEn": "OpenAI chairman Bret Taylor: Heartened everyone is taking AI regulation seriously",
+      "titleZh": "OpenAI董事长Bret Taylor：欣慰各方认真对待AI监管",
+      "abstractEn": "OpenAI chairman Bret Taylor: Heartened everyone is taking AI regulation seriously  CNBC",
+      "abstractZh": "OpenAI董事长Bret Taylor：欣慰各方认真对待AI监管  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48480852",
+      "slug": "hn-48480852-anthropics-model-naming-extrapolated",
+      "source": "Hacker News",
+      "sourceUrl": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "commentUrl": "https://news.ycombinator.com/item?id=48480852",
+      "publishedAt": "2026-06-10T18:45:20.000Z",
+      "titleEn": "Anthropic's Model Naming, Extrapolated",
+      "titleZh": "Anthropic 模型命名方式的推演",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "sammycdubs"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 226,
+      "commentCount": 61,
+      "tags": []
+    },
+    {
+      "id": "gnews:39794240a3fe",
+      "slug": "gnews-39794240a3fe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcDhiRHFISW5rT0kzdVpfNkNDQXJvWE9kWHBHNmpQaEFjZ3dNRmZwRnJqMXRzVk16S2VwaHJINnFHM2F1cmNuUEhOdXlZcFNrb0xCWG05NlA3VW1US0U4aHlVUVlyZlpqTFpkOVd4dkhMcGtReTc1YkFIVDdQalFQbF9zbGdDTGxCbWtteGVhWi1ZU0VVVUxj?oc=5",
+      "publishedAt": "2026-06-10T18:41:00.000Z",
+      "titleEn": "2 Stocks That Could Soar from SpaceX's $26.5 Trillion Artificial Intelligence (AI) Empire",
+      "titleZh": "两只可能因 SpaceX 26.5 万亿美元人工智能帝国而飙升的股票",
+      "abstractEn": "2 Stocks That Could Soar from SpaceX's $26.5 Trillion Artificial Intelligence (AI) Empire  Yahoo Finance",
+      "abstractZh": "两只可能因 SpaceX 26.5 万亿美元人工智能帝国而飙升的股票  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48480719",
+      "slug": "hn-48480719-policy-on-the-ai-exponential",
+      "source": "Hacker News",
+      "sourceUrl": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "commentUrl": "https://news.ycombinator.com/item?id=48480719",
+      "publishedAt": "2026-06-10T18:36:04.000Z",
+      "titleEn": "Policy on the AI Exponential",
+      "titleZh": "AI 指数级增长的政策应对",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yjp20"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 100,
+      "commentCount": 146,
+      "tags": []
+    },
+    {
+      "id": "hn:48480515",
+      "slug": "hn-48480515-stackoverflow-for-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48480515",
+      "publishedAt": "2026-06-10T18:22:46.000Z",
+      "titleEn": "Stackoverflow for Agents",
+      "titleZh": "面向智能体的 Stackoverflow",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rexthonyy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 13,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:6a1c85fc45ff",
+      "slug": "gnews-6a1c85fc45ff",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHVtb1p4TEx2TDNkenFNQlV0ekZfSkd5amJMc0NyNld4ZTBFUGc3WlNYWGJfUjJ1dDVtTTJyVnkwV1BGOTRIaGxNb1Q5VFB6bFZrVkRYOElOR1NvRl9qeXl4X3RiOVNQYkVYZnpXakFBTndJMkpCX0wwV09xeVU0NGdHTkVTZw?oc=5",
+      "publishedAt": "2026-06-10T18:00:08.000Z",
+      "titleEn": "Why the Real A.I. Threat Is in the Back Office",
+      "titleZh": "为什么真正的人工智能威胁在后端办公室",
+      "abstractEn": "Why the Real A.I. Threat Is in the Back Office  The New York Times",
+      "abstractZh": "为什么真正的人工智能威胁在后端办公室  The New York Times",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a716a7f320bb",
+      "slug": "gnews-a716a7f320bb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQenhOekhXZ1BLQ0U3TVRLOUVWbUFOMXBGdWx6eEdILVprR21GUW1RSEN0VkIyNmpmbDdHTkY3V1o3V1pmRHRiNzJSRUZMQS1heVl0YnFZZmJrclZZYm05ZlR0Q09OclFsblZlNlFILWNVNVlhMl85Y05HakZoQklFcmdXcC1tOWJmS1Z0Y0V5SXhCejA1TEJwTS1uTDltOGFWQm9BbGl3MWJSX0MwWkRxaTRhVC03TkVPNGVhMXAwcy1kLWxDc3pWU1RVYVpyQQ?oc=5",
+      "publishedAt": "2026-06-10T17:57:06.000Z",
+      "titleEn": "Anthropic's latest AI model Claude Fable just built Minecraft for less than $50",
+      "titleZh": "Anthropic最新AI模型Claude Fable以不到50美元成本构建《我的世界》",
+      "abstractEn": "Anthropic's latest AI model Claude Fable just built Minecraft for less than $50  TweakTown",
+      "abstractZh": "Anthropic最新AI模型Claude Fable以不到50美元成本构建《我的世界》  TweakTown",
+      "authors": [
+        "TweakTown"
+      ],
+      "institution": "TweakTown",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:dd42041cb601",
+      "slug": "gnews-dd42041cb601",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZHo2dVdKM2QxMG5ZVjdaWHNDVDZWRHBmRDUtVVd0UG1aQXBNMkdablVubjQ2WDZnRWU3ajR6dnpkQ0o0eTNIS1hnZE9WQURnQjRXQWJOa1l0dzE3blZIRkVkUmIwdFJYSUhpRmpHQ2lXbmo2dDgxbFEyS3M0TFVKX2pkQ05kaDZR?oc=5",
+      "publishedAt": "2026-06-10T17:38:00.000Z",
+      "titleEn": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+      "titleZh": "AI监管的未来：拉拢最奇特、最焦虑的盟友",
+      "abstractEn": "The future of AI regulation is courting the strangest, most anxious bedfellows  The Verge",
+      "abstractZh": "AI监管的未来：拉拢最奇特、最焦虑的盟友  The Verge",
+      "authors": [
+        "The Verge"
+      ],
+      "institution": "The Verge",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48479452",
+      "slug": "hn-48479452-claude-desktop-spawns-1-8-gb-hyper-v-vm-on-every-launch-even-for-cha",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/29045",
+      "commentUrl": "https://news.ycombinator.com/item?id=48479452",
+      "publishedAt": "2026-06-10T17:11:56.000Z",
+      "titleEn": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "titleZh": "Claude Desktop 每次启动生成 1.8 GB Hyper-V 虚拟机，即使仅用于聊天",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tonyrice"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 278,
+      "commentCount": 192,
+      "tags": []
+    },
+    {
+      "id": "gnews:bae19f38d1a1",
+      "slug": "gnews-bae19f38d1a1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGNBMkQyUlpFT1o4T29OU09SR0I0dWlNd1h4aEtVbC1ZZkJ3bDY2aGl1ckVOUVM5c21zTUYwQ0F4bUZBVDhNYnNpTUZYckh3UUJCU29ybE92NWxaM2phNTBGR1lUVDlJampwZFQyWkFnQ3c5cHl6NzVLRFVZcVpmZTVhQXFIV1AwMHdFak5xUUM0UjU1d1A1WHlNMXVtTVg3X3Rxa21XV3rSAa4BQVVfeXFMTnVCOWd3c3JLN2xiOWlVTG1VbjBFMXJ6SzF4eWM0alp3Ums0eWdzNGtXeWRFdk5fcnY2b3Z6VFU4VzNjWUlIX252TkZocU1scGg5MFdLOW1yQ1dibDJvbUV5YTQ1end6MXBhN3Z3b09FeXhURTlUTjU5aFp5b2J1eGgtN053bGRuSG14WXFBVHB3RGN3SEF4YjIyNEtlTUJFVVNhb3Q4QkRaV0o0d3ln?oc=5",
+      "publishedAt": "2026-06-10T17:07:55.000Z",
+      "titleEn": "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
+      "titleZh": "华尔街需在AI IPO前速修代币经济学课程，SpaceX提供预览",
+      "abstractEn": "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview  CNBC",
+      "abstractZh": "华尔街需在AI IPO前速修代币经济学课程，SpaceX提供预览  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48478471",
       "slug": "hn-48478471-diffusiongemma-4x-faster-text-generation",
@@ -32,6 +426,27 @@
       "category": "social",
       "score": 19,
       "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "hn:48478469",
+      "slug": "hn-48478469-show-hn-extend-ui-open-source-ui-kit-for-modern-document-apps",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.extend.ai/ui",
+      "commentUrl": "https://news.ycombinator.com/item?id=48478469",
+      "publishedAt": "2026-06-10T16:09:26.000Z",
+      "titleEn": "Show HN: Extend UI – open-source UI kit for modern document apps",
+      "titleZh": "Show HN: Extend UI – 面向现代文档应用的开源 UI 工具包",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "kbyatnal"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 86,
+      "commentCount": 17,
       "tags": []
     },
     {
@@ -69,6 +484,48 @@
         "Developing Telecoms"
       ],
       "institution": "Developing Telecoms",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-6wl1sbqjqm2lvl94-html",
+      "slug": "hidream-o1-image-1-5",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/6WL1SBqJQM2LVl94.html",
+      "publishedAt": "2026-06-10T15:43:00.000Z",
+      "titleEn": "会写字、懂排版、能分镜：HiDream-O1-Image-1.5 全能图像生成能力解析",
+      "titleZh": "会写字、懂排版、能分镜：HiDream-O1-Image-1.5 全能图像生成能力解析",
+      "abstractEn": "近日，智象未来（HiDream.ai） 全新推出的商用版图像生成模型 HiDream-O1-Image-1.5 再次实现 SOTA，在全球知名独立 AI 模型评测与分析平台 Artificial Analysis的文生图榜单（Text to Image Leaderboard）上，一举登上中国图像生成模型第一，成为评分仅次于OpenAI的中国大模型公司，超越Google Nano Banana 2（Gemini 3.1 Flash Image Preview）、NVIDIA Cosmos3-Super-Text2Image 和字节跳动的Seedream 4.0等国内外大厂的主流图像生成模型。\n \n \n半个月前，智象未来 HiDream-O1 系列的开源模型 HiDream-O1-Image-Dev-2604 刚刚登顶文生图榜单开源模型全球第一。数周之后，HiDream-O1-Image-1",
+      "abstractZh": "近日，智象未来（HiDream.ai）全新推出的商用版图像生成模型 HiDream-O1-Image-1.5 再次实现 SOTA，在全球知名独立 AI 模型评测与分析平台 Artificial Analysis 的文生图榜单（Text to Image Leaderboard）上，一举登上中国图像生成模型第一，成为评分仅次于 OpenAI 的中国大模型公司，超越 Google Nano Banana 2（Gemini 3.1 Flash Image Preview）、NVIDIA Cosmos3-Super-Text2Image 和字节跳动的 Seedream 4.0 等国内外大厂的主流图像生成模型。半个月前，智象未来 HiDream-O1 系列的开源模型 HiDream-O1-Image-",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:280869dfcaa6",
+      "slug": "gnews-280869dfcaa6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMVRPeXpmMjVtRUdjdF9TdWV1a3VlcTZNSFRWOVM0eFlYZ3NTdDE3azQ5MU5WNnl3bnJIYTdBQ0VNSDJZT0tKdjdlcWJSOGhMWldZTGphOGQ2bTRqV1AteW1Jck53bUI5dW5mXzBaUjF1S1NXWm9iSXFqbDJURk5kMnFRUWdJcXFQaE03SERtRWwzS2t1OVFJS2VkSmlsdWZoSDVzTnNZc244QlkxNDdSMTBkMA?oc=5",
+      "publishedAt": "2026-06-10T15:41:22.000Z",
+      "titleEn": "Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable",
+      "titleZh": "网络安全研究人员对Anthropic的Fable模型防护措施不满",
+      "abstractEn": "Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable  TechCrunch",
+      "abstractZh": "网络安全研究人员对Anthropic的Fable模型防护措施不满  TechCrunch",
+      "authors": [
+        "TechCrunch"
+      ],
+      "institution": "TechCrunch",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -187,6 +644,28 @@
       ]
     },
     {
+      "id": "gnews:44696085bdfe",
+      "slug": "gnews-44696085bdfe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTFFlNU1wMDYyTm9VWE1nd09SRlRUUDQ5RXRuQmF3YWs4aFBLUWEwUG9YemthTWtXQm9iRUg2dDlxa2tGdzBYMDgzZUlfZTFMWUtTVkJIRmRHUjlmd2lwYVFwS3pGNU4wSjN2SGctT0F0UW1BNmcwa0VPblVnbVRRcGx3UnhPZw?oc=5",
+      "publishedAt": "2026-06-10T14:05:52.000Z",
+      "titleEn": "The Forbes 30 Under 30 CEO who left Lockheed Martin's Skunk Works raises $350M at $1.55B to challenge Nvidia's grip on AI infrastructure — TFN",
+      "titleZh": "福布斯 30 Under 30 CEO 离开洛克希德·马丁臭鼬工厂，以 15.5 亿美元估值融资 3.5 亿美元，挑战英伟达在 AI 基础设施领域的主导地位 — TFN",
+      "abstractEn": "The Forbes 30 Under 30 CEO who left Lockheed Martin's Skunk Works raises $350M at $1.55B to challenge Nvidia's grip on AI infrastructure — TFN  Tech Funding News",
+      "abstractZh": "福布斯 30 Under 30 CEO 离开洛克希德·马丁臭鼬工厂，以 15.5 亿美元估值融资 3.5 亿美元，挑战英伟达在 AI 基础设施领域的主导地位 — TFN  Tech Funding News",
+      "authors": [
+        "Tech Funding News"
+      ],
+      "institution": "Tech Funding News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:e16a3458dea7",
       "slug": "gnews-e16a3458dea7",
       "source": "Google AI News",
@@ -222,6 +701,28 @@
         "PR Newswire"
       ],
       "institution": "PR Newswire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:eb76aa8d9594",
+      "slug": "gnews-eb76aa8d9594",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTFteFE1aHVyZmZ2dXp3NE9OVV9SMHQzajBzRVJ3Y3F2WnFrcUEyMC1wcWdHUXNCS1R3YlV6MVkyVlFhTVpIOXpsdHNpamQyNzEybUduMF9pcXF1cUxBVkZkdHlaclZTcHpHQUtMRUUxNW9CS3lDWWFqanNoaGd6eExFUWRyeUhZMnZOSUp3?oc=5",
+      "publishedAt": "2026-06-10T13:58:46.000Z",
+      "titleEn": "Anthropic's Fable 5 AI Model Offers More Power At A Higher Price",
+      "titleZh": "Anthropic的Fable 5 AI模型：更高性能，更高价格",
+      "abstractEn": "Anthropic's Fable 5 AI Model Offers More Power At A Higher Price  Forbes",
+      "abstractZh": "Anthropic的Fable 5 AI模型：更高性能，更高价格  Forbes",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -273,6 +774,27 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48476212",
+      "slug": "hn-48476212-why-llms-still-lack-taste",
+      "source": "Hacker News",
+      "sourceUrl": "https://beyondtheprior.com/post/why-llms-lack-taste/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48476212",
+      "publishedAt": "2026-06-10T13:46:13.000Z",
+      "titleEn": "Why LLMs still lack taste",
+      "titleZh": "为什么大语言模型仍然缺乏品味",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "supermdguy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:a7a99b99d75d",
@@ -428,6 +950,28 @@
       ]
     },
     {
+      "id": "gnews:1e36bd4dad7d",
+      "slug": "gnews-1e36bd4dad7d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzajRrUzRKcDcyMXpWdVRkR0tVclRsVHllZi1waDJHYkFvdlQ4UW93RG1Ba1cyZHFIRG01U21hWDJVU2FOd0ZQUFh4MG1XVmZDWXdic1YxZWZWZTAweFR1dGE0SGRRVlNWUG5BR0VR?oc=5",
+      "publishedAt": "2026-06-10T12:43:56.000Z",
+      "titleEn": "Poetic emerges from stealth with $50M funding from OpenAI to automate enterprise tasks",
+      "titleZh": "Poetic 从隐身模式中亮相，获 OpenAI 5000 万美元融资以自动化企业任务",
+      "abstractEn": "Poetic emerges from stealth with $50M funding from OpenAI to automate enterprise tasks  Crypto Briefing",
+      "abstractZh": "Poetic 从隐身模式中亮相，获 OpenAI 5000 万美元融资以自动化企业任务  Crypto Briefing",
+      "authors": [
+        "Crypto Briefing"
+      ],
+      "institution": "Crypto Briefing",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:ccd3d1564e84",
       "slug": "gnews-ccd3d1564e84",
       "source": "Google AI News",
@@ -536,6 +1080,28 @@
       ]
     },
     {
+      "id": "gnews:883bbaf239a0",
+      "slug": "gnews-883bbaf239a0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVl3Z1F1M3VCS0Q0d0pLNlhDRTdiLWM4ZmV2NWg0dXpCVUVqWDFNMmgxRE9RWWpLVkIwS1FIUXRaSElkTU5jZFhDN1AzcDNkcVdYb0JHay1nM3pId195ek1tUDZSV3k3cnpYakkwZHlRNm9QRm5wNjJSb1FqQWRLTGQzNUg1UWJQT0R2SVJDRnJ1RjU5cHc4T0c1aXI3alU?oc=5",
+      "publishedAt": "2026-06-10T10:50:00.000Z",
+      "titleEn": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
+      "titleZh": "美光与闪迪在2026年超越英伟达成为顶级人工智能（AI）股票，这一势头能否持续？",
+      "abstractEn": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?  Yahoo Finance",
+      "abstractZh": "美光与闪迪在2026年超越英伟达成为顶级人工智能（AI）股票，这一势头能否持续？  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "雷锋网:https-www-leiphone-com-category-zaobao-920o0mjxy30oie6r-html",
       "slug": "8",
       "source": "雷锋网",
@@ -554,6 +1120,28 @@
       "score": 0,
       "commentCount": 0,
       "tags": []
+    },
+    {
+      "id": "gnews:a77a92eed6de",
+      "slug": "gnews-a77a92eed6de",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUXhsb1YzQVY1UGJPdlp5WE5zSXRQU2FWU1A4dEhWb3Nra2lNWlc0dFY3YWNFSy14ZC1zT0lyb2dSRVBJT3pMR0pYRm9hTXkyZWNsM1NsZ1Nfc2xBYjFMcmxOTWJhYTdrZEhRLWNDMmhhYWE0Xzg0TDFXVW0zalFqNDd5bnJjSlFsajJZV3h3THNUZkhKaWk5Z0htNXVYdjFEeEZ4aWdTMjZVaXMxUkdVc1ZiU0c3TW4tZXFWQ2xsYWpMODY3?oc=5",
+      "publishedAt": "2026-06-10T10:45:30.000Z",
+      "titleEn": "Surgical AI startup Uncovr raises €6 Mn in funding to transform surgical documentation with AI",
+      "titleZh": "外科 AI 初创公司 Uncovr 获 600 万欧元融资，用 AI 革新手术文档",
+      "abstractEn": "Surgical AI startup Uncovr raises €6 Mn in funding to transform surgical documentation with AI  Business Review Live",
+      "abstractZh": "外科 AI 初创公司 Uncovr 获 600 万欧元融资，用 AI 革新手术文档  Business Review Live",
+      "authors": [
+        "Business Review Live"
+      ],
+      "institution": "Business Review Live",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:631244da8935",
@@ -598,6 +1186,31 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "claude-blog:building-with-claude-managed-agents",
+      "slug": "claude-blog-building-with-claude-managed-agents",
+      "source": "Claude Blog",
+      "sourceUrl": "https://claude.com/blog/building-with-claude-managed-agents",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "titleEn": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "titleZh": "智能体表面的演进：使用 Claude Managed Agents 构建系统",
+      "abstractEn": "Claude Managed Agents allows teams to build and deploy agents in production environments reliably at scale. Here’s why and how teams are using it.",
+      "abstractZh": "Claude Managed Agents 使团队能够在生产环境中可靠地大规模构建和部署智能体。以下是团队使用它的原因和方式。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Claude",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 从静态界面到动态代理：Claude Managed Agents 如何重塑人机交互范式\n### The Evolution of Agentic Surfaces: Building with Claude Managed Agents\n\n## 核心贡献\n### Key Contributions\n\nClaude Managed Agents 的核心贡献在于将 AI 代理（Agent）从实验性原型推向了可规模化部署的生产环境。它解决了团队在构建可靠、可控的自主代理时面临的两大痛点：**状态管理**与**任务编排**。通过提供托管式的运行环境，该平台允许开发者定义复杂的多步骤工作流，而无需担心底层基础设施的稳定性。更重要的是，它引入了一种“代理表面”（Agentic Surface）的概念——即 AI 与用户、工具、数据之间的交互界面——使得代理不仅能理解指令，还能在长期任务中保持上下文连贯性，并自主调用外部 API 或数据库。这标志着 AI 应用从“问答式”向“执行式”的关键跃迁。\n\n> 💡 **背景**：传统 AI 助手通常是无状态的，每次对话独立处理。而 Claude Managed Agents 通过持久化会话状态和任务队列，实现了类似“数字员工”的持续工作能力。\n\n## 研究背景\n### Background\n\n当前 AI 应用开发正面临一个根本性矛盾：大语言模型（LLM）的能力日益强大，但将其嵌入真实业务流程时，开发者往往需要自行处理错误恢复、工具调用、权限控制等繁琐工程问题。Anthropic 观察到，许多团队在构建代理时陷入了“手工编排”的泥潭——他们需要编写大量胶水代码来管理代理的思考循环、工具选择与结果验证。Claude Managed Agents 的诞生正是为了抽象掉这些复杂性。它基于 Claude 模型家族（尤其是 Claude 3.5 Sonnet 和 Claude 3 Opus）的推理能力，提供了一套开箱即用的代理框架，让开发者可以专注于业务逻辑而非代理基础设施。\n\n> ⚠️ **注意**：该服务并非简单的 API 封装，而是一个完整的代理运行时（Agent Runtime），包含任务调度、错误重试、安全沙箱等企业级特性。\n\n## 技术方法\n### Technical Approach\n\nClaude Managed Agents 的技术架构围绕三个核心设计原则展开：**确定性执行**、**可观测性**与**安全边界**。在确定性执行方面，系统采用了一种“结构化推理”模式——代理的每一步思考都被记录为可审计的轨迹（Trace），开发者可以随时回溯或干预。可观测性则通过内置的日志、指标和调试面板实现，允许团队监控代理的决策过程与资源消耗。安全边界方面，每个代理运行在隔离的沙箱中，通过细粒度的权限模型控制其对工具和数据的访问。此外，Anthropic 引入了“工具契约”（Tool Contract）机制，要求代理在调用外部 API 前必须声明意图，从而防止意外操作。\n\n> 💡 **背景**：这种设计借鉴了微服务架构中的“断路器”模式，当代理连续失败或产生异常输出时，系统会自动降级或暂停任务，避免级联故障。\n\n## 主要发现\n### Key Findings\n\n根据 Anthropic 的博客披露，早期采用 Claude Managed Agents 的团队主要发现了三个关键价值点。首先，**任务完成率显著提升**：在涉及多步骤工具调用的场景（如客户支持工单处理、数据管道编排）中，代理的自主完成率从手工编排的约 60% 提升至 85% 以上。其次，**开发效率大幅改善**：团队平均减少了 40% 的代理相关代码量，因为状态管理、重试逻辑和错误处理被平台接管。最后，**安全合规性得到强化**：通过内置的审计日志和权限控制，企业能够满足金融、医疗等行业的监管要求。值得注意的是，博客强调代理并非完全自主——人类监督（Human-in-the-Loop）仍然是关键环节，尤其是在涉及财务交易或敏感数据操作的场景中。\n\n## 意义与影响\n### Significance & Impact\n\nClaude Managed Agents 的出现预示着 AI 应用开发正在进入“代理即服务”（Agent-as-a-Service）的新阶段。它降低了构建自主系统的门槛，使得中小团队也能部署复杂的 AI 工作流。从更宏观的视角看，这推动了人机协作模式的进化：人类从“操作者”转变为“监督者”，AI 则从“工具”升级为“协作者”。然而，这也带来了新的挑战——如何确保代理的决策符合伦理规范？如何防止代理在长期任务中产生偏差？Anthropic 通过托管式架构和可审计轨迹给出了初步答案，但整个行业仍需在代理的可解释性、鲁棒性和价值观对齐方面持续探索。未来，随着更多企业采用此类平台，我们可能会看到“代理表面”成为继网页、移动应用之后的第三种主流人机交互界面。",
+      "tldrZh": "Claude Managed Agents 将 AI 代理从实验性原型推向可规模化生产，通过托管式运行环境解决状态管理与任务编排痛点，使多步骤工具调用场景的自主完成率从约60%提升至85%以上，并减少40%的代理代码量。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-10T22:03:50.131Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-11"
     },
     {
       "id": "gnews:c757ebf3ba47",
