@@ -28,11 +28,18 @@ function countWords(md: string): number {
   return md.replace(/\s+/g, '').length;
 }
 
-/** First blockquote line after the H1 — used as the card preview/summary */
+/** First blockquote line after the H1 — used as the card preview/summary.
+ *  容错：LLM 偶尔不按模板输出 `>` 引用块，此时退而取 H1 后第一个正文段落。 */
 function extractFocus(md: string): string {
   const m = md.match(/^>\s+\*?\*?(.+?)(?=\n\s*\n|\n>)/m);
-  if (!m) return '';
-  return m[1].replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+  if (m) return m[1].replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+  // 兜底：跳过标题/分隔线/空行，取第一个普通段落
+  for (const line of md.split('\n')) {
+    const t = line.trim();
+    if (!t || t.startsWith('#') || t.startsWith('---') || t.startsWith('|') || t.startsWith('!')) continue;
+    return t.replace(/^>\s*/, '').replace(/\*\*/g, '').slice(0, 160).trim();
+  }
+  return '';
 }
 
 function extractTitle(md: string, fallback: string): string {

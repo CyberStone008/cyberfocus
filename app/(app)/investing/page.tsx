@@ -6,12 +6,14 @@ import { getInvestingCounts } from '../../lib/investing-data';
 
 const BRIEFS_DIR  = resolve(process.cwd(), 'data/strategy-briefs');
 
-/** Parse the 一句话叙事 narrative line from a brief's markdown */
+/** Parse the 一句话叙事 narrative line from a brief's markdown.
+ *  容错：LLM 有时不按模板输出 `>` 引用块（如 2026-06-10 直接给了普通段落），
+ *  所以 `>` 是可选的——只要标题后跟着文字就提取，直到分隔线/下个标题为止。 */
 function extractNarrative(md: string): string {
-  const m = md.match(/##\s*【一句话叙事】\s*\n+\s*>\s*([\s\S]+?)(?=\n\s*\n---|\n\s*##)/);
+  const m = md.match(/##\s*【一句话叙事】\s*\n+\s*(?:>\s*)?([\s\S]+?)(?=\n\s*---|\n\s*##|$)/);
   if (!m) return '';
   return m[1]
-    .replace(/\n>/g, ' ')
+    .replace(/\n\s*>?\s*/g, ' ')
     .replace(/\*\*/g, '')
     .replace(/\s+/g, ' ')
     .trim();
