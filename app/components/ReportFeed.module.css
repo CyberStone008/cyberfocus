@@ -623,6 +623,9 @@
   border-color: #a5b4fc40;
 }
 
+/* PC 显示「家报道」；手机端在 @media 里隐藏（顶层声明确保 CSS Module 导出该类名） */
+.badgeLabel { display: inline; }
+
 /* 媒体名跑马灯：PC/手机一致，自动横向滚动、无需点击。两端渐隐遮罩。 */
 .dupMarquee {
   position: relative;
@@ -1060,4 +1063,8 @@
   .dateDivider { padding-left: 16px; }
   .modalBox  { padding: 20px; }
   .modalActions { flex-direction: column; }
+  /* 跑马灯：徽标缩成「🔗 N」腾出空间，跑马灯 flex:1 1 0 填满本行剩余、永不换行、字号更小 */
+  .badgeLabel      { display: none; }
+  .dupMarquee      { flex: 1 1 0; width: auto; min-width: 0; }
+  .dupMarqueeInner { font-size: 10px; }
 }

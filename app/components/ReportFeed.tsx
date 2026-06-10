@@ -659,7 +659,7 @@ function ReportCard({
           <>
             {/* 徽标 + 媒体名跑马灯（PC/手机一致；PC 悬停暂停滚动，见 CSS）。点击只吃掉事件防误开卡片 */}
             <span className={styles.dupBadge} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
-              🔗 {a.dupCount} 家报道
+              🔗 {a.dupCount}<span className={styles.badgeLabel}> 家报道</span>
             </span>
             {(a.dupSources?.length ?? 0) > 0 && (
               <span className={styles.dupMarquee} title={(a.dupSources ?? []).join('、')} onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}>
