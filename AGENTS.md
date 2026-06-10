@@ -59,6 +59,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；重需求须 qa-engineer 验收报告全部通过；生成逻辑改动须 content-auditor 抽查）。
 5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
+7. **后台 agent 跑长任务可能撞会话额度中止**（2026-06-10 哨兵 v1 实锤）：task-notification 会显示 `completed`，但 result 是额度提示——它常停在「代码写完、未自验、未提交」的半成品节点。**绝不直接合半成品**：主会话接管时先 `git status` + 实跑 + `npm run verify` 核对 worktree 真实状态，补做全部验证、把测试污染的 state 清成干净种子，再提交+PR。所以派 dev agent 务必 **worktree 隔离**，中止也不污染主检出。
 
 ## 技术约束（踩过的坑，不要重踩）
 
