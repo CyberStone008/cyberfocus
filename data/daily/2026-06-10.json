@@ -1,20 +1,449 @@
 {
   "date": "2026-06-10",
-  "generatedAt": "2026-06-09T22:25:58.780Z",
+  "generatedAt": "2026-06-10T05:49:14.500Z",
   "summary": {
     "aiNews": [
-      "Anthropic发布Claude Mythos/Fable 5，称达Mythos级别但设严格防护，建议尽快体验。",
-      "欧盟责令Meta免费允许竞争对手AI聊天机器人重返WhatsApp，强化反垄断监管。",
-      "白宫高级AI政策顾问即将离职，美国AI监管政策或面临调整不确定性。"
+      "Anthropic发布Mythos 5和Fable 5模型，创下AI性能纪录，可1天处理5000万行代码。",
+      "OpenCV 5发布，全新DNN引擎增强ONNX和LLM/VLM支持，优化Intel、Arm和RISC-V硬件。",
+      "德国法院裁定谷歌对AI概览中的虚假回答承担责任，强化AI法律责任边界。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup数据显示35%公司计划增聘，22%预计裁员，全球招聘前景稳定。",
-      "万宝盛华集团调查：雇主招聘中仍更信任人类而非AI，中型雇主最乐观。",
-      "印度就业前景从峰值回落，招聘前景仍为全球最强但雇主更谨慎。"
+      "Indeed报告：2024年英国夏季职位空缺同比下降31%，劳动力市场持续降温。",
+      "ManpowerGroup数据：35%公司计划增加招聘，22%预计裁员，全球招聘前景稳定。",
+      "万宝盛华集团：印度招聘前景虽放缓但仍为全球最强，雇主招聘更谨慎。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48471444",
+      "slug": "hn-48471444-what-we-learned-hiring-33-engineers-in-two-weeks",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.digitalocean.com/blog/ai-native-engineering-interview",
+      "commentUrl": "https://news.ycombinator.com/item?id=48471444",
+      "publishedAt": "2026-06-10T04:30:43.000Z",
+      "titleEn": "What We Learned Hiring 33 Engineers in Two Weeks",
+      "titleZh": "两周内招聘33名工程师的经验总结",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "RyeCombinator"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:7009cf97afd9",
+      "slug": "gnews-7009cf97afd9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWxwaW4wQVFtdlNKbzVqZDQ5SklrQVlvOUpjV2R5VzRjMXd1bEs1ZE5qWUlpTUtqWVJjb2pjX1ktdWpfZmEwaGxVZmt4WmtLbkx3clBjUEV5a2VBaWxObkRLVmd3OVZPdkhjMXVaMVhpbWZId3NxSUZUNnVRVk5vYkJ0bXp3MC1BeFRzV3MzRTFfVVVYMkYwWmwxMFJ2UQ?oc=5",
+      "publishedAt": "2026-06-10T03:58:29.000Z",
+      "titleEn": "Trend Micro COO sees Taiwan as model for AI regulation",
+      "titleZh": "Trend Micro 首席运营官视台湾为 AI 监管典范",
+      "abstractEn": "Trend Micro COO sees Taiwan as model for AI regulation  digitimes",
+      "abstractZh": "Trend Micro 首席运营官视台湾为 AI 监管典范  digitimes",
+      "authors": [
+        "digitimes"
+      ],
+      "institution": "digitimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e70838b5d220",
+      "slug": "gnews-e70838b5d220",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaFpPX1M0V3ZlazVWaTRFQ1RRMThieTRPcUdnaFJoRG5IUkplU043QWczVzM3Y1FYSmgxbFk2YzEyN2xUYm5xM3RhSEthdGk1d0ZUWXJ5QnVQNDNIaDNoTm1odVJ0Yzdtb21BMHFTSTRjTzNoWTlHMUg1NnNUWlB6ZVhvTmxRS0p4U1ZIb1RPU3dJSkx0MU5SdjdOT1JBbVFfLVFFWGdzemRTczk5XzE1UHQ0SzZva1hCVTVVN3Y3LTh3YnluOVZBam5hNDJRd2w0c3MyT2Flc1RzZTc3RjdtMFhnX1Vua1JpaWtz0gHzAUFVX3lxTE1KYkx0MVc0OGNlTFRsNnBUS1E0YVU0dmIwclpoTVZoWGoxTHNuYWllbWJGLXRFYUk4cFNDY0xWYTZPZE1QWHBpcndZcG0yZmFOd2RlRzNpYVItMWNrNTQtLXZYUVFWSkNzeWlRRDdYMUtmazFKWDMxVURFSElsVThBbHJYeG1la0NVYVh1R3FoaW14eFlFbVJlRVNMR2M0TXh3R3BiMjZlQUxfM2U0NmpRMUx6LXdybm9nTXI4bHI3Sk5XdzRJMWRQSnZKdDV2cU1jd1NVbW5NZlk1VHNWYnJ6aXlRVzJtay1hOFBUZkNRVzgxdw?oc=5",
+      "publishedAt": "2026-06-10T03:31:49.000Z",
+      "titleEn": "OpenCV 5 release – New DNN engine with enhanced ONNX and LLM/VLM support, Intel, Arm, and RISC-V hardware optimizations",
+      "titleZh": "OpenCV 5 发布——全新 DNN 引擎，增强 ONNX 和 LLM/VLM 支持，Intel、Arm 和 RISC-V 硬件优化",
+      "abstractEn": "OpenCV 5 release – New DNN engine with enhanced ONNX and LLM/VLM support, Intel, Arm, and RISC-V hardware optimizations  CNX Software",
+      "abstractZh": "OpenCV 5 发布——全新 DNN 引擎，增强 ONNX 和 LLM/VLM 支持，Intel、Arm 和 RISC-V 硬件优化  CNX Software",
+      "authors": [
+        "CNX Software"
+      ],
+      "institution": "CNX Software",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-ifuwtraq1na2j08s-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/IFUwTraq1nA2j08s.html",
+      "publishedAt": "2026-06-10T03:12:00.000Z",
+      "titleEn": "猫眼娱乐成首批接入微信AI生态团队，打造智能化票务新体验",
+      "titleZh": "猫眼娱乐成首批接入微信AI生态团队，打造智能化票务新体验",
+      "abstractEn": "6月8日，微信公开课发布《关于开发者接入微信AI生态的指引》。微信开放平台在充分尊重开发者权益和自主选择的基础上，面向开发者提供了便捷接入微信AI生态的能力，开发者可主动授权接入微信Al。\n作为微信AI生态首批内测开发者之一，猫眼旗下小程序率先接入，借助微信AI Agent能力，为用户提供影片演出推荐、附近影院筛选、智能选座、一键支付等服务，打造智能化一站式购票体验。\n未来，猫眼娱乐与腾讯将携手探索文娱领域的智能化升级，持续拓展更多创新落地场景。",
+      "abstractZh": "6月8日，微信公开课发布《关于开发者接入微信AI生态的指引》。微信开放平台在充分尊重开发者权益和自主选择的基础上，面向开发者提供了便捷接入微信AI生态的能力，开发者可主动授权接入微信AI。\n作为微信AI生态首批内测开发者之一，猫眼旗下小程序率先接入，借助微信AI Agent能力，为用户提供影片演出推荐、附近影院筛选、智能选座、一键支付等服务，打造智能化一站式购票体验。\n未来，猫眼娱乐与腾讯将携手探索文娱领域的智能化升级，持续拓展更多创新落地场景。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:1a70449eec60",
+      "slug": "gnews-1a70449eec60",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVlNDNGlaa3BEaUtqMzlrdXU2V1VqRkNxYWkwX0lqb0NkbFdfblFxdXJyWUNJdlJDaTF6a0JrdjJCUUtzRkNEdkJBVmZfZllabEw1SEhfb1BCaGRIRURRRkhubWpzcnlEcGZwR3RkTEZkWERjckR4QnJZMFRsMDlHVFQ3Z1B2WGh5c1BtaG50NzJRLWZPdUtENWwtVkZoMHNWaUtDM2JBdHRydEZ6c0dSUV8xdVJTWVZkT1FTbWVvTXBrdHBwaDNlNk91MzdJZ1FJQjRFVWNqeUVuTlVYQmlJbldTZWc4endHR1AzNHpB?oc=5",
+      "publishedAt": "2026-06-10T02:58:00.000Z",
+      "titleEn": "The national AI policy showdown is being decided in Utah’s backyard",
+      "titleZh": "国家 AI 政策对决在犹他州后院决定",
+      "abstractEn": "The national AI policy showdown is being decided in Utah’s backyard  Deseret News",
+      "abstractZh": "国家 AI 政策对决在犹他州后院决定  Deseret News",
+      "authors": [
+        "Deseret News"
+      ],
+      "institution": "Deseret News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-cuas5zonmsrwjs7u-html",
+      "slug": "ai-agent",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/CUaS5ZOnMSrwjs7u.html",
+      "publishedAt": "2026-06-10T02:49:00.000Z",
+      "titleEn": "美团AI浏览器正式上线，聚合多个大模型、强调Agent能力",
+      "titleZh": "美团AI浏览器正式上线，聚合多个大模型、强调Agent能力",
+      "abstractEn": "6月9日，美团旗下GN06团队宣布AI原生浏览器Tabbit 1.0正式上线。雷峰网获悉，当天Windows、macOS版本的Tabbit已同步上架，移动端也已开启测试。\n从0.23版本到1.0版本，Tabbit嵌入了更多的Agent能力，目前内置多款头部大模型可供用户调用选择。在发布现场，Tabbit 负责人刘炯强调，标准版永久免费，用户一周大概可以使用1000次模型对话、50张AI生成配图、10个Agent任务、撰写 100 篇左右万字总结。专业版执行任务数可以扩大到标准版的10倍以上，价格是“一杯瑞幸”，一周9.9元。\n在复杂任务执行上，一位大学毕业生现身说法，使用Tabbit完成毕业论文，细分参与到每个工作流，从前期方向细化到中间数据分析，以及后期的论文答辩要点提炼。以HR工作场景为例，从筛选简历到生成PPT，以往需要借助多款工作软件，现在用户在Tabbit输入需求，可以通过一句指",
+      "abstractZh": "6月9日，美团旗下GN06团队宣布AI原生浏览器Tabbit 1.0正式上线。雷峰网获悉，当天Windows、macOS版本的Tabbit已同步上架，移动端也已开启测试。\n从0.23版本到1.0版本，Tabbit嵌入了更多的Agent能力，目前内置多款头部大模型可供用户调用选择。在发布现场，Tabbit 负责人刘炯强调，标准版永久免费，用户一周大概可以使用1000次模型对话、50张AI生成配图、10个Agent任务、撰写 100 篇左右万字总结。专业版执行任务数可以扩大到标准版的10倍以上，价格是“一杯瑞幸”，一周9.9元。\n在复杂任务执行上，一位大学毕业生现身说法，使用Tabbit完成毕业论文，细分参与到每个工作流，从前期方向细化到中间数据分析，以及后期的论文答辩要点提炼。以HR工作场景为",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48470581",
+      "slug": "hn-48470581-rich-sutton-on-ai-creativity-and-discovery",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+      "commentUrl": "https://news.ycombinator.com/item?id=48470581",
+      "publishedAt": "2026-06-10T02:25:24.000Z",
+      "titleEn": "Rich Sutton on AI creativity and discovery",
+      "titleZh": "Rich Sutton谈AI的创造力与发现",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yimby"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 67,
+      "commentCount": 33,
+      "tags": []
+    },
+    {
+      "id": "gnews:907b8e2f6e7d",
+      "slug": "gnews-907b8e2f6e7d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcGFYaDY4dG9sYWt4aWFSb3otckJ4VE95emxjaXdBbGhrd3JsRkxuQzM2bFAzeVBtZ1BLTi1uNGlBRUs1alcxVlFUMjQ3STdDMHhqNlhWYlZqRGxHTDBVbkNwMEFkNzlnNlNXbnFSZ3hnYjNNZFFFV0VNTzBwLTZXaWZSVEN5MkVYRmdz?oc=5",
+      "publishedAt": "2026-06-10T02:04:00.000Z",
+      "titleEn": "Australia's AI Regulation Set for Crucial Review",
+      "titleZh": "澳大利亚人工智能监管面临关键审查",
+      "abstractEn": "Australia's AI Regulation Set for Crucial Review  Mirage News",
+      "abstractZh": "澳大利亚人工智能监管面临关键审查  Mirage News",
+      "authors": [
+        "Mirage News"
+      ],
+      "institution": "Mirage News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48470248",
+      "slug": "hn-48470248-german-ruling-declares-google-liable-for-false-answers-in-ai-overvie",
+      "source": "Hacker News",
+      "sourceUrl": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48470248",
+      "publishedAt": "2026-06-10T01:44:13.000Z",
+      "titleEn": "German ruling declares Google liable for false answers in AI Overviews",
+      "titleZh": "德国法院裁定谷歌对AI概览中的虚假回答承担责任",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ahlCVA"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 266,
+      "commentCount": 159,
+      "tags": []
+    },
+    {
+      "id": "hrorg:recruit:cd3b986c3ba2",
+      "slug": "hrorg-recruit-cd3b986c3ba2",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcHp2czFieXlSbXF3N0V3X1V3ZGZObWlTdDNtN1BKak9vQUtJdDRTa29YV3FncmNjdXdsdHE1VFhTajV0bU9SS19ycnpaZm0xN1QtWWdlX0VMdm5nRDNyQ2dubUZ2NFNxdHlCRWJvZGhEU2hod2drNmVfNGZtUjdSTFJ1aTFaLXVTRzdoeQ?oc=5",
+      "publishedAt": "2026-06-10T01:24:58.000Z",
+      "titleEn": "UK Summer Job Vacancies Drop 31% in 2024, Says Indeed Report",
+      "titleZh": "Indeed报告：2024年英国夏季职位空缺下降31%",
+      "abstractEn": "UK Summer Job Vacancies Drop 31% in 2024, Says Indeed Report  Global Banking & Finance Review",
+      "abstractZh": "Indeed报告：2024年英国夏季职位空缺下降31%  Global Banking & Finance Review",
+      "authors": [
+        "Global Banking & Finance Review"
+      ],
+      "institution": "Global Banking & Finance Review",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:ea94d4b90754",
+      "slug": "gnews-ea94d4b90754",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaWZMSG9Ddm4yb0pPb1dTQkwwYllKMF8yMXBNS0t5SVNHU1I5bEdfMUc1S1dvdGE2NHZrYjBjVzJoTlN2akNqNk45WVQ4VlBvc0I0NERpMzNRaHZzdk1XZEFEN2xTcGVkLUU1U0dWVHFhWEktOXpPck9hR2FXVlY4Tm5QcWNhcnRCdkk3SVBPNHhPWld1akxwaXJxVXQ5MFU?oc=5",
+      "publishedAt": "2026-06-10T00:46:00.000Z",
+      "titleEn": "Anthropic purposely made its new Mythos-based models bad at AI research, and developers are fuming",
+      "titleZh": "Anthropic 故意使其基于 Mythos 的新模型在 AI 研究中表现不佳，开发者愤怒不已",
+      "abstractEn": "Anthropic purposely made its new Mythos-based models bad at AI research, and developers are fuming  Business Insider",
+      "abstractZh": "Anthropic 故意使其基于 Mythos 的新模型在 AI 研究中表现不佳，开发者愤怒不已  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c17ef496b10c",
+      "slug": "gnews-c17ef496b10c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOTBGSExqSGEzcFlST05vbW5wcXZGVHJ0dTlEa1VwbXAxSXVvY2lkUjJpY3ZvZURURWFVWHB5VG5Ic0xpbDQtMlp1YWpuYWdfd092UExCYnc0c3RhNWVLazFrMTZrTGI2SU5BYm1YTklRYVhOc3ZhV0pSRWJXanFOYnpBdGc?oc=5",
+      "publishedAt": "2026-06-09T23:53:16.000Z",
+      "titleEn": "Apollo and Blackstone raise $35bn in chip financing deal for Anthropic",
+      "titleZh": "Apollo 和 Blackstone 为 Anthropic 筹集 350 亿美元芯片融资交易",
+      "abstractEn": "Apollo and Blackstone raise $35bn in chip financing deal for Anthropic  Financial Times",
+      "abstractZh": "Apollo 和 Blackstone 为 Anthropic 筹集 350 亿美元芯片融资交易  《金融时报》",
+      "authors": [
+        "Financial Times"
+      ],
+      "institution": "Financial Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:bec9870afce6",
+      "slug": "gnews-bec9870afce6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOG15U0Z4RERib1c4cWdJelNKMmhEU1NVZTgzUE95ckFsNS1CWVhPbzB0aXEwdGhxel9hX3E1ekU1LWNVZUFINGV5S3RiQmNQWGdxZm1TRzFROG53bkt1Wnh4QXFvMVQxdEhQRUpQakRXTzhWRDE2T3dXVGJlOVp0MDQwT29sNG54T2JySmVzcVNkX29vQjdlN1QzeHR2OElUMzdFdmphcmk2dUVCU1JZMw?oc=5",
+      "publishedAt": "2026-06-09T23:24:20.000Z",
+      "titleEn": "Anthropic sets AI performance records with new Mythos 5, Fable 5 frontier models",
+      "titleZh": "Anthropic 凭借全新 Mythos 5 和 Fable 5 前沿模型创下 AI 性能纪录",
+      "abstractEn": "Anthropic sets AI performance records with new Mythos 5, Fable 5 frontier models  SiliconANGLE",
+      "abstractZh": "Anthropic 凭借全新 Mythos 5 和 Fable 5 前沿模型创下 AI 性能纪录  SiliconANGLE",
+      "authors": [
+        "SiliconANGLE"
+      ],
+      "institution": "SiliconANGLE",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:378f6f9c7e71",
+      "slug": "gnews-378f6f9c7e71",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEgteXN4dGczTERXZnJMeWs5WmlBdWJONVRMeWNpdDVGSVBQOFVZZEZDOVQzWS1uUVVfTHN3LUsxNzFuVFRKOVRKYnNDWmFJMUpMUExiTzZJaXZPUENhZ0g1clFFaGdrLUhyeXNucC1tcXliRjhmenZNRE10bS03M29XSElsLVFTSGswTzE0Tk13cjJ2d2NpWmxCWUxUNEU1Tnh3cg?oc=5",
+      "publishedAt": "2026-06-09T23:15:33.000Z",
+      "titleEn": "OpenAI calls for youth AI safety institute ahead of G7 Summit",
+      "titleZh": "OpenAI 在 G7 峰会前呼吁建立青年 AI 安全研究所",
+      "abstractEn": "OpenAI calls for youth AI safety institute ahead of G7 Summit  EdTech Innovation Hub",
+      "abstractZh": "OpenAI 在 G7 峰会前呼吁建立青年 AI 安全研究所  EdTech Innovation Hub",
+      "authors": [
+        "EdTech Innovation Hub"
+      ],
+      "institution": "EdTech Innovation Hub",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:33d5bd12c1cc",
+      "slug": "gnews-33d5bd12c1cc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLU53YUFlM2Y1dW93YWNMTkpxS21TMWltLVYzVUplT0plS2ItRXZhU3BpVEtaSEVJTWNqX2p5elR6UUhQcFI2Y05XanZZMkw3YjYyd2hhUlBwRlBrQXZiT3BFN3BYZ3hIeE1wVUQtYnZIWmhaSWw4akJBMDRCOXJ6VGxrR2xwR21UNlBBYkVHS1V4R29aVEJON0FGT05KQ2w4MFM0SjJDZHBCdXAxRHBzQ1g1aHdFeWl5ZENfZ2Q3UEl5d2dqZHc?oc=5",
+      "publishedAt": "2026-06-09T23:14:20.000Z",
+      "titleEn": "German Insurer Pushes AI Risk Assessments as Regulation Tightens – But Human Oversight Stays",
+      "titleZh": "德国保险公司在监管收紧下推动AI风险评估——但人工监督仍保留",
+      "abstractEn": "German Insurer Pushes AI Risk Assessments as Regulation Tightens – But Human Oversight Stays  AD HOC NEWS",
+      "abstractZh": "德国保险公司在监管收紧下推动AI风险评估——但人工监督仍保留  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:26e0770d4803",
+      "slug": "gnews-26e0770d4803",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOckswUHZyS1BqcXAtY1c1OTViNExIY2ptY1ZydzNFRFpHREo4cGZiQ3RqNGM3emprdV9tWHM1WUgwNWZQeUpXeTVHMXFjNmJFQmNsUmh4ZVhzUTZXd093VlVpYXJiUDM2YV9jZ09TMTlqZFRObUhtV0hmd2pJRjRrX1JFYnQ0ZzVLZHRTZHh4NWJDLUJIUGxGeEZFR21jTmY3UmZxWWplV2FsVVhHc1RBdi1ocnZhdV96VkE?oc=5",
+      "publishedAt": "2026-06-09T23:00:00.000Z",
+      "titleEn": "Single founders, billion-dollar valuations: AI is minting unicorn startups at birth",
+      "titleZh": "单一创始人、十亿美元估值：AI正在催生独角兽初创公司",
+      "abstractEn": "Single founders, billion-dollar valuations: AI is minting unicorn startups at birth  The Business Times",
+      "abstractZh": "单一创始人、十亿美元估值：AI正在催生独角兽初创公司  The Business Times",
+      "authors": [
+        "The Business Times"
+      ],
+      "institution": "The Business Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433590-html",
+      "slug": "claude-mythos-5-5000-1",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433590.html",
+      "publishedAt": "2026-06-09T22:52:37.000Z",
+      "titleEn": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
+      "titleZh": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
+      "abstractEn": "一个更强的模型上桌了",
+      "abstractZh": "一个更强的模型上桌了",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48468789",
+      "slug": "hn-48468789-ai-misidentification-results-in-wrongful-arrest-man-seeks-justice",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsoctv.com/news/local/ai-misidentification-results-wrongful-arrest-man-seeks-justice/I7UQJWV33FBN3LMKHCSXI6FIVA/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48468789",
+      "publishedAt": "2026-06-09T22:37:49.000Z",
+      "titleEn": "AI misidentification results in wrongful arrest; man seeks justice",
+      "titleZh": "AI误判导致无辜者被捕，当事人寻求正义",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "text0404"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 82,
+      "commentCount": 40,
+      "tags": []
+    },
+    {
+      "id": "gnews:4abc58fa37b2",
+      "slug": "gnews-4abc58fa37b2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0tsVnQ5eWhUaGM5aVNTOFdKM3BTb2NUSkk2bWdmVTk3c2tUUEdGX0JNcjdjMEZv?oc=5",
+      "publishedAt": "2026-06-09T22:28:00.000Z",
+      "titleEn": "Anthropic releases ‘safe’ version of Claude Mythos AI model to public",
+      "titleZh": "Anthropic 向公众发布 Claude Mythos AI 模型的‘安全’版本",
+      "abstractEn": "Anthropic releases ‘safe’ version of Claude Mythos AI model to public  The Guardian",
+      "abstractZh": "Anthropic 向公众发布 Claude Mythos AI 模型的‘安全’版本  《卫报》",
+      "authors": [
+        "The Guardian"
+      ],
+      "institution": "The Guardian",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48468370",
+      "slug": "hn-48468370-surprise-pay-1000",
+      "source": "Hacker News",
+      "sourceUrl": "https://forestwalk.ai/blog/surprise-blacksmith-costs/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48468370",
+      "publishedAt": "2026-06-09T22:01:15.000Z",
+      "titleEn": "Surprise, Pay $1000",
+      "titleZh": "惊喜，请支付1000美元",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "apike"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 57,
+      "commentCount": 9,
+      "tags": []
+    },
     {
       "id": "gnews:3a3ede2b1ad1",
       "slug": "gnews-3a3ede2b1ad1",
@@ -299,6 +728,28 @@
       ]
     },
     {
+      "id": "hrorg:mercer:8bf37125a311",
+      "slug": "hrorg-mercer-8bf37125a311",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVFna2p2a2UtTTVkemxlV1hpT3hDQkxyZXlmeWFlUHBoTVY5N0ZDT3lWeHI3MFdZeFZpQmhMSHl4WkliQVlWV05DUzV5bjIwRU5TU3Bvb1BtbmItY0NZcnAyLUd4ZHZDeEZhOTBWMU80UER1Yko1UVZzTjBCUUZSYkhBOFdKYjByaHV4NFAxdWEtc2pBcHd0WnU1eU1EZ1FXZ0dBQdIBqgFBVV95cUxNVUFPWkJCSlJfX0ZEQ2JWUUViYWZTS2NheFJuZXExbWI3aWZOQWEzV0o5NW5JQnE3VDl6VVFoTnRpMmpiLXMtUFFiMUJsMEFEeWN5OXloMER0NjZpVVVmcnY0ZnZoYVVvZFphOGpsT2Y2Q1c5VjFsY1hHWFR1d2JBNzR6eEdlYTZuOFd4dWxLb2NieTVDSGlfb0d6dWtEZ0d5S08wNVhaZDljdw?oc=5",
+      "publishedAt": "2026-06-09T19:26:35.000Z",
+      "titleEn": "Ebola risks should be key focus for benefits, HR leaders: Mercer",
+      "titleZh": "Mercer：埃博拉风险应成为福利与人力资源领导者的关注重点",
+      "abstractEn": "Ebola risks should be key focus for benefits, HR leaders: Mercer  BenefitsPRO",
+      "abstractZh": "Mercer：埃博拉风险应成为福利与人力资源领导者的关注重点  BenefitsPRO",
+      "authors": [
+        "BenefitsPRO"
+      ],
+      "institution": "BenefitsPRO",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
       "id": "hn:48466277",
       "slug": "hn-48466277-ultrafast-machine-learning-on-fpgas-via-kolmogorov-arnold-networks",
       "source": "Hacker News",
@@ -333,6 +784,28 @@
         "CHAT News Today"
       ],
       "institution": "CHAT News Today",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a07981acb2dc",
+      "slug": "gnews-a07981acb2dc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNURZWXlOV0J2Ql9GUXJfLXJtcW5RTnhieDVnX09RanhHY3ZRMUNWRkdlUVg0cTh2M2xZQjFQWU1uNjdNNTB0ODhJckFqd3NqQXN6eW5YUTR0eVVZdWFNeEJDa1VWWXM4ZE9fRS1JeC1FTk9zLUhITVZBZVdxOHhZd1dtcTFFUjlXMDVGNjlqRmNaWmY2NEx2ZF9OVVlnVkNfNzVneTZiZHhObDUzQzRZeA?oc=5",
+      "publishedAt": "2026-06-09T19:17:53.000Z",
+      "titleEn": "Anthropic releases a less-powerful version of its most advanced model",
+      "titleZh": "Anthropic 发布其最先进模型的低性能版本",
+      "abstractEn": "Anthropic releases a less-powerful version of its most advanced model  Politico",
+      "abstractZh": "Anthropic 发布其最先进模型的低性能版本  Politico",
+      "authors": [
+        "Politico"
+      ],
+      "institution": "Politico",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -688,6 +1161,28 @@
       ]
     },
     {
+      "id": "gnews:563b81a4590f",
+      "slug": "gnews-563b81a4590f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJVUNTV1NLZFVKS3Y5SzRubHY1czd4UzRfRmpFNmY3aG9CSjFFMnY4cXdXdEk5SnZaVkxURV8xQS1HcEMtbGJRMndMNTRuOFZaSEdsREVnN1JranhfTkhEa0JkYml3ZEw5MTlJVVBzSGR6TDdDZC1xQQ?oc=5",
+      "publishedAt": "2026-06-09T17:15:10.000Z",
+      "titleEn": "UK AI Startups Raised £8.2B In Venture Capital This Year",
+      "titleZh": "英国AI初创公司今年筹集82亿英镑风险投资",
+      "abstractEn": "UK AI Startups Raised £8.2B In Venture Capital This Year  Quantum Zeitgeist",
+      "abstractZh": "英国AI初创公司今年筹集82亿英镑风险投资  Quantum Zeitgeist",
+      "authors": [
+        "Quantum Zeitgeist"
+      ],
+      "institution": "Quantum Zeitgeist",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:e189aac09db7",
       "slug": "gnews-e189aac09db7",
       "source": "Google AI News",
@@ -767,6 +1262,28 @@
         "CNBC"
       ],
       "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a7cf7200264f",
+      "slug": "gnews-a7cf7200264f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSW5BNkhvSXNYVEpPcDdMTDlINGIzZVVsazh5bjcyYW0yMWdKaGZ2UHVHWmEybmpLRE5ZblppR0U0c0VWcUZFaUFhTkFxd29UbzRvbmFTc1M4TDNDZXNhTXdoNUJweGdwaERaN0M2ZlBlaFhkUWIwZDdJb2xFNTZYSlgzN2JQNVpTOEpaNVQ5Um81Zk5XQ3ZyeV9hM1hFclJrMHBCLTVFVDY1YkdqRHMtaVVIeTdicVBmdlQyWTZIN1dKT21XcTZiNWh2TU0xVWF3?oc=5",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "titleEn": "Claude Fable 5 available today in Microsoft Foundry: Powering the next era of autonomous agents",
+      "titleZh": "Claude Fable 5 今日在 Microsoft Foundry 上线：赋能自主智能体的新时代",
+      "abstractEn": "Claude Fable 5 available today in Microsoft Foundry: Powering the next era of autonomous agents  Microsoft Azure",
+      "abstractZh": "Claude Fable 5 今日在 Microsoft Foundry 上线：赋能自主智能体的新时代  Microsoft Azure",
+      "authors": [
+        "Microsoft Azure"
+      ],
+      "institution": "Microsoft Azure",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1756,6 +2273,28 @@
       ]
     },
     {
+      "id": "gnews:e75438b8dc9c",
+      "slug": "gnews-e75438b8dc9c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnRPb25ra0p6cWtreDRkN0w1VGxxNjNscmM4cElzb2wtcm5Vc2xZdkEzcENjR0FITzhZQU5WUjJtcDJjazhzQVk2N1F0dmxERmRiSDZEa3d2TU1UVFdOQ0tTWjQwQURFVWw3Y3JEQUlFUjVuQzV1NmEzTnNxMjNyVnNPVnFZaFlzdjVZ?oc=5",
+      "publishedAt": "2026-06-09T07:06:07.000Z",
+      "titleEn": "Zaro lands $5.1M to build the next layer of enterprise AI",
+      "titleZh": "Zaro获510万美元融资，打造企业AI新层级",
+      "abstractEn": "Zaro lands $5.1M to build the next layer of enterprise AI  Tech.eu",
+      "abstractZh": "Zaro获510万美元融资，打造企业AI新层级  Tech.eu",
+      "authors": [
+        "Tech.eu"
+      ],
+      "institution": "Tech.eu",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:a3616128cb4b",
       "slug": "gnews-a3616128cb4b",
       "source": "Google AI News",
@@ -1800,6 +2339,26 @@
       ]
     },
     {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-zdoluye1l8p5aqjj-html",
+      "slug": "tp-link",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/Zdoluye1L8P5aQJJ.html",
+      "publishedAt": "2026-06-09T00:37:00.000Z",
+      "titleEn": "国际宇航科学院喊话：别擅自回复外星人！这是全人类的决定；董事长被曝电梯亲密视频！胜宏科技回应；TP-LINK全员转签遭近九成员工抵制",
+      "titleZh": "国际宇航科学院喊话：别擅自回复外星人！这是全人类的决定；董事长被曝电梯亲密视频！胜宏科技回应；TP-LINK全员转签遭近九成员工抵制",
+      "abstractEn": "要闻提示\n1.国际宇航科学院对全球喊话：别擅自回复外星人！“这是全人类的决定”\n\n\n\n2.TP-LINK全员转签遭近九成员工抵制，社保突停叠加百人离职，引发人心动荡\n3.董事长被曝电梯亲密视频！胜宏科技回应：与生产经营无关\n4.Kimi估值飙升至300亿美元，半年猛增6倍\n5.微信新功能：朋友圈能搜索了\n6.加入仅半年，字节前公关总监据传从理想汽车离职\n7.再也不怕调休睡过头！苹果 iOS27 新增工作日（调休）闹钟，将于今秋发布，Siri AI也来了\n8.特斯拉在日本卖到白菜价！Model 3实际到手仅需13.4万元，全球最低\n今日头条\n国际宇航科学院对全球喊话：别擅自回复外星人！“这是全人类的决定”\n\n6月8日消息，6月1日，非政府组织国际宇航科学院发布了探索地外生命相关的最新指导文件。这份文件由国际宇航科学院在2022-2025年间制定，旨在为“个人、机构及其他参与寻找地外智慧生命的",
+      "abstractZh": "要闻提示\n1.国际宇航科学院对全球喊话：别擅自回复外星人！“这是全人类的决定”\n\n\n\n2.TP-LINK全员转签遭近九成员工抵制，社保突停叠加百人离职，引发人心动荡\n3.董事长被曝电梯亲密视频！胜宏科技回应：与生产经营无关\n4.Kimi估值飙升至300亿美元，半年猛增6倍\n5.微信新功能：朋友圈能搜索了\n6.加入仅半年，字节前公关总监据传从理想汽车离职\n7.再也不怕调休睡过头！苹果 iOS27 新增工作日（调休）闹钟，将于今秋发布，Siri AI也来了\n8.特斯拉在日本卖到白菜价！Model 3实际到手仅需13.4万元，全球最低\n今日头条\n国际宇航科学院对全球喊话：别擅自回复外星人！“这是全人类的决定”\n\n6月8日消息，6月1日，非政府组织国际宇航科学院发布了探索地外生命相关的最新指导文件。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "claude-blog:whats-new-in-claude-managed-agents",
       "slug": "claude-blog-whats-new-in-claude-managed-agents",
       "source": "Claude Blog",
@@ -1823,6 +2382,27 @@
       },
       "featured": true,
       "featuredDate": "2026-06-10"
+    },
+    {
+      "id": "hn:48449567",
+      "slug": "hn-48449567-experience-using-ai-software-to-prove-euler-sum-results-pdf",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.davidhbailey.com/dhbpapers/Chatbots.pdf",
+      "commentUrl": "https://news.ycombinator.com/item?id=48449567",
+      "publishedAt": "2026-06-08T18:42:01.000Z",
+      "titleEn": "Experience using AI software to prove Euler sum results [pdf]",
+      "titleZh": "使用AI软件验证欧拉求和结果的体验 [pdf]",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "cpp_frog"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 0,
+      "tags": []
     }
   ]
 }
