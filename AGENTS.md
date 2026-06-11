@@ -10,6 +10,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 > 每条规则都已落到代码里、**每次抓取/构建自动执行**；本记录用于追溯与防止误改回退。详情见对应章节。
 
+### 2026-06-11
+
+1. **qa-engineer 增「代码评审」层 + systematic-debugging 进两个 dev 章程**（superpowers 插件评估后的选择性采纳）：qa 从两层→三层，新增第二层「代码评审」——手工读 diff 找逻辑/正确性 bug（边界空值/口径一致/时间正确/根因/契约/静默失败），补上原 6 角色"无人读代码找逻辑 bug"的唯一真空（验收看需求、回归看构建/界面，逻辑 bug 三者都漏）。pipeline-dev/frontend-engineer 加「根因优先（root-cause-first）」铁律。详见〈开发工作流〉末「superpowers 与本 6 角色的关系」：skill 是方法不是角色、agent 调不了 skill（无 Skill 工具）、本项目刻意不采纳 TDD/frontend-design 的理由。
+
 ### 2026-06-10
 
 0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（product-manager/pipeline-dev/frontend-engineer/ui-designer/qa-engineer/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
@@ -49,17 +53,24 @@ This version has breaking changes — APIs, conventions, and file structure may 
 | pipeline-dev（管道研发） | 可写·worktree | `scripts/` + workflows 开发 |
 | frontend-engineer（前端工程师） | 可写·worktree | `app/` + `public/` 开发 |
 | ui-designer（UI 设计师） | 只读+preview | ①开发前出 UI 设计方案（布局/尺寸/交互规格）②实现后双视口走查（对照设计方案），输出 必须修/建议/可忽略 |
-| qa-engineer（测试工程师） | 只读+执行 | ①按任务单验收标准+设计方案逐条验收（附证据）②工程回归（verify+冒烟），只报失败项 |
+| qa-engineer（测试工程师） | 只读+执行 | ①按任务单验收标准+设计方案逐条验收 ②**代码评审**（读 diff 找逻辑/正确性 bug：边界/口径一致/时间/根因/契约）③工程回归（verify+冒烟），只报问题项 |
 | content-auditor（内容审计） | 只读 | 溯源铁律核查：数字/引语逐字有据 |
 
 ### 流转规则
 1. **任务分流**：轻任务（文案/小样式/查问题，≤15 分钟）主会话直做，但完工仍须 `npm run verify`；重任务（新功能/重构/多文件）必须先出 product-manager 任务单 → 用户选定方案 → **涉及界面的，ui-designer 先出设计方案（用户可过目）** → 对应 dev 在 worktree 分支按设计实现 → ui-designer 对照设计走查 + qa-engineer 按验收标准验收。**轻 UI 任务**：可不派 ui-designer，但主会话必须**亲自代行**其核心检查——preview 移动端 375px 实测受影响页面+截图确认（涉及桌面布局再加 1280px）；做不到就升级为重任务派角色。
 2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
 3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
-4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；重需求须 qa-engineer 验收报告全部通过；生成逻辑改动须 content-auditor 抽查）。
+4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；重需求须 qa-engineer 验收报告全部通过；**代码量大的改动须 qa-engineer 第二层代码评审无正确性问题**；生成逻辑改动须 content-auditor 抽查）。
 5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 7. **后台 agent 跑长任务可能撞会话额度中止**（2026-06-10 哨兵 v1 实锤）：task-notification 会显示 `completed`，但 result 是额度提示——它常停在「代码写完、未自验、未提交」的半成品节点。**绝不直接合半成品**：主会话接管时先 `git status` + 实跑 + `npm run verify` 核对 worktree 真实状态，补做全部验证、把测试污染的 state 清成干净种子，再提交+PR。所以派 dev agent 务必 **worktree 隔离**，中止也不污染主检出。
+
+### superpowers 等 skill 与本 6 角色的关系（2026-06-11 评估，避免误用）
+- **skill 是「方法」，6 角色是「分工」，正交**：skill 不替代角色，是角色/主会话采用的工作方法。
+- **硬约束**：6 个 agent 章程的 `tools` 均**不含 Skill 工具** → spawn 出去的角色 agent **调不了** superpowers/`/code-review` 等 skill。这些 skill 只能在**主会话（编排层）**用；要让角色遵守某方法，把方法的**原则**写进它章程当普通守则（如已把 systematic-debugging 的"根因优先"写进 pipeline-dev/frontend-engineer，把 code-review 蒸馏成 qa 第二层）。
+- **已被本工作流覆盖、勿重复接入**：verification-before-completion ≈ 完工三件套+PR 证据+qa；using-git-worktrees、writing-plans、dispatching-parallel-agents、finishing-branch ≈ 现有编排/任务单/合并流。
+- **已采纳**：systematic-debugging（根因优先，进两个 dev 章程）；code-review 正确性评审（蒸馏为 qa 第二层；代码量大的 PR 主会话可另跑 `/code-review` 做 backstop）。
+- **本项目刻意不采纳（别 cargo-cult）**：① **TDD**——本仓库无单测框架，是内容管道+静态站，"测试"的本体是 `verify`（构建+数据校验+坑扫描）；采纳其精神（先写校验后写实现，已体现在 validate-data.js），不上红-绿-重构仪式。② **frontend-design（创意视觉）**——与 ui-designer"复用既有视觉语言、不发明新风格"的维护期原则冲突；仅绿地重做才用。
 
 ## 技术约束（踩过的坑，不要重踩）
 

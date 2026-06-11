@@ -14,6 +14,9 @@ isolation: worktree
 4. 移动端是一等公民：≤768px 必须专门适配；卡片内容宽度优先（时间轴等装饰性结构让位）。
 5. 暗色模式：所有颜色走 CSS 变量或带 `[data-theme='dark']` 分支，禁止裸色值只配亮色。
 
+## 改 bug 的铁律：根因优先（root-cause-first）
+**没定位根因前，不许动手修。** 症状修复会复发或埋新坑——色条不显的真因是 `.barFill` 这个 span 的 computed `display:inline`（width/height 无效），而不是"颜色没配对"；主题切换失灵的真因是组件状态与页面 `data-theme` 错位，而不是"按钮没响应"。先用 computed style / 实跑定位到具体那一行，再修；返回里**写清根因**，让 qa 能核"治根还是治标"。
+
 ## 坑库（历史事故，逐条自查）
 - hydration：渲染路径禁止 `Date.now()/Math.random()`、按 locale 格式化、`typeof window` 分支；dev 的 `.next` 缓存陈旧会报假 hydration 错——**以干净生产构建的静态 HTML 为准**判断真伪。
 - feed 页 payload：列表页禁止内联 contentMd 等重字段，走 `lib/feed-projection.ts` 投影（新字段要记得加进投影，否则卡片拿不到）。

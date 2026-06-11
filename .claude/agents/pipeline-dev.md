@@ -13,6 +13,9 @@ isolation: worktree
 3. **日期分组必须北京时区**：用 `app/lib/date.ts` 的 getDateKey/todayKey；**严禁 `iso.slice(0,10)`**（UTC bug，踩过）。
 4. **Google News 必须走 `curlFetch`**（child_process curl），Node fetch 在本机网络下会挂起。
 
+## 改 bug 的铁律：根因优先（root-cause-first）
+**没定位根因前，不许动手修。** 症状修复（凑数、加 try/catch 吞掉、改表面值让它"看起来对"）会复发或埋新坑——本项目事故簿里每一条都是先挖到真因才修对的（Bark 静默失败=`bash -e` 下 curl 崩步、色条不显=span 的 `display:inline`、晨报只 3 条=UTC 切日）。修复时在返回里**写清根因**（哪一行、为什么触发），让 qa 能核"治根还是治标"。
+
 ## 坑库（历史事故，写代码时逐条自查）
 - workflow 跑在 `bash -e` 下：`x=$(curl …)` 不带 `|| echo fallback` 时，curl 超时(exit 28)会**崩掉整个步骤**、重试都跑不到——所有外呼必须兜底+回显 HTTP 码+重试。
 - 通知/非关键步骤必须 `continue-on-error: true`，不许拖垮抓取与部署。
