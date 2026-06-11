@@ -39,6 +39,12 @@ const NAV: {
     ],
   },
   {
+    group: '系统',
+    items: [
+      { icon: '🛰', label: '健康仪表盘', href: '/health', disabled: false },
+    ],
+  },
+  {
     group: '管理',
     adminOnly: true,
     items: [
