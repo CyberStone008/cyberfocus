@@ -1,0 +1,934 @@
+{
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-11T17:03:32.926Z",
+  "summary": {
+    "aiNews": [
+      "杰夫·贝佐斯的AI初创公司Prometheus估值达410亿美元，工业AI领域受资本追捧。",
+      "Anthropic CEO呼吁政府有权阻止危险AI部署，并承诺投入3.5亿美元推动监管。",
+      "经销商因AI聊天机器人失控撤销回购承诺，暴露AI应用风险与责任归属问题。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "Indeed推出AI驱动职位匹配活动，从搜索转向智能推荐，提升招聘效率。",
+      "科锐国际去年营收超145亿元，净利同比增52.68%，AI赋能人力资源服务增长。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "gnews:23fd2f66eae8",
+      "slug": "gnews-23fd2f66eae8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN280cnFPcklRSGRTdlluSjAzZGg4TmVJakZYclg4TWI0a19Yd29qX3FXQ1NKY2pIM2FHYW85UFM3YThFZEltVTVUTVotTmNxeXBSTVJDY0dYV2JVTmx1N2RNVzlNbHBPSHJlaDRUSjNVRnJmTk9zVl9teGRYcVV6c1pGUmw1WXJJZmlDd2FlUzBwNUtqemtrVzdXSVB0Wm42V0x4aVpPWTY0eG9lLXp3VWFtLWY3QQ?oc=5",
+      "publishedAt": "2026-06-11T16:58:14.000Z",
+      "titleEn": "Industry calls for substantial reform to UK’s AI regulation in healthcare",
+      "titleZh": "行业呼吁对英国医疗保健领域的 AI 监管进行实质性改革",
+      "abstractEn": "Industry calls for substantial reform to UK’s AI regulation in healthcare  Medical Device Network",
+      "abstractZh": "行业呼吁对英国医疗保健领域的 AI 监管进行实质性改革  Medical Device Network",
+      "authors": [
+        "Medical Device Network"
+      ],
+      "institution": "Medical Device Network",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48492696",
+      "slug": "hn-48492696-dealership-revoked-offer-to-buy-back-customers-bmw-blaming-wayward-a",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492696",
+      "publishedAt": "2026-06-11T16:39:03.000Z",
+      "titleEn": "Dealership revoked offer to buy back customer's BMW, blaming wayward AI chatbot",
+      "titleZh": "经销商撤销回购客户宝马的承诺，归咎于失控的 AI 聊天机器人",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "cf100clunk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:0c8ff9f3941e",
+      "slug": "gnews-0c8ff9f3941e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbkV4dVFoYlVaR3R2MWh6WU10Q2J4NWN0NXZ1UHBfMTJpXzFGaTFod29rOXI3c3pGY3hLVkh2X2JGWk9HeG1xTHg2cWxJZWxraWdzczlaUndqQTdCSDF4YVNBdmFnTU1LdWV4QTdXN1NlMEJ0clNKQThiaFctRWwtZVlmY3p3d3JuTXRTUnkxVzhPbFdQMTVMZ2hCNDhTRnZLZS12N2Z2WkRBR0x0UVA4?oc=5",
+      "publishedAt": "2026-06-11T16:23:25.000Z",
+      "titleEn": "Jeff Bezos’ AI Startup Valued at $41 Billion in Funding Round",
+      "titleZh": "杰夫·贝佐斯的 AI 初创公司在融资轮中估值达 410 亿美元",
+      "abstractEn": "Jeff Bezos’ AI Startup Valued at $41 Billion in Funding Round  Bloomberg",
+      "abstractZh": "杰夫·贝佐斯的 AI 初创公司在融资轮中估值达 410 亿美元  Bloomberg",
+      "authors": [
+        "Bloomberg"
+      ],
+      "institution": "Bloomberg",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48492397",
+      "slug": "hn-48492397-the-most-ai-friendly-ui-frameworks-summer-2026",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/sethltx/status/2065105437750337910",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492397",
+      "publishedAt": "2026-06-11T16:17:17.000Z",
+      "titleEn": "The Most AI-Friendly UI Frameworks – Summer 2026",
+      "titleZh": "2026 年夏季最具 AI 友好性的 UI 框架",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "sethlivingston"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:3efd62d8288a",
+      "slug": "gnews-3efd62d8288a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWmFncTFFZnJnQl84cmpxY3diOVVwTXppaFBYeEpQWGIxU3VldUxNazA3SE9lWjY2RTlLVUFZZlJwT21YYV9GcWFXOVlNRnBCMHF0eDVPWVlITWNOYUFZN1BCWk1sWVd0WXRNUGpEQWFRZGRNS3IwaFFRYjNnRnowQjFfTUw4S3pFbTFKWngxb01rYllSaGZGN1JOMmpSc0FocThJaU84enNoRDJ1NGVGZEVxLXNKTDE2U3dqRmowd3FOQ19GSHVnaVBB0gHPAUFVX3lxTE5Vbk9UWjgzaVJpbDNNX1N3RlpiM1ZnY1p5MkE5YUhrY1ctYndqelVOWU93eWxtRk1ySU9wcUtpai1wOHNJY01YRVN1TXhEUUVmOFJLQWY1cHB3MUhISjU0dFQyWFRjdGxtUUwyaTlMaDBqWUk4NE9jQ0JaeXctSElrZWRudlB0NVhuX0VXYjlKeEhQS1MzUjZiRnRWUTJJanh6TVVzTUFIWmdWa2d3WWlfamJveWFXWm1BSFdNWjMtZ0J6TEFBcHc3UVBSOFdXUQ?oc=5",
+      "publishedAt": "2026-06-11T16:13:58.000Z",
+      "titleEn": "Prometheus, Jeff Bezos' AI startup, is now worth $41 billion: Report",
+      "titleZh": "报告：杰夫·贝佐斯的 AI 初创公司 Prometheus 估值达 410 亿美元",
+      "abstractEn": "Prometheus, Jeff Bezos' AI startup, is now worth $41 billion: Report  The Economic Times",
+      "abstractZh": "报告：杰夫·贝佐斯的 AI 初创公司 Prometheus 估值达 410 亿美元  The Economic Times",
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3fb7fb8cde1a",
+      "slug": "gnews-3fb7fb8cde1a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lcGdQc2dOU2tvMUpLTFVrSi1ILWVZWVE1WkdkbUFKdGdwa1FSYmJSQS0wZmRyb0JlUFlIeUZjZkNfOGh0RHhDS0tUSklJLUYzR2NUblNhZTZtaEUzcTh1VXVYX2FCTGRZeGM1MFRVLW1pX2JDY2FMM1pB?oc=5",
+      "publishedAt": "2026-06-11T16:07:19.000Z",
+      "titleEn": "FDA Struggles With Adaptive AI Medical Devices",
+      "titleZh": "FDA 在自适应 AI 医疗设备方面面临挑战",
+      "abstractEn": "FDA Struggles With Adaptive AI Medical Devices  Legis1",
+      "abstractZh": "FDA 在自适应 AI 医疗设备方面面临挑战  Legis1",
+      "authors": [
+        "Legis1"
+      ],
+      "institution": "Legis1",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48492118",
+      "slug": "hn-48492118-ask-hn-how-do-you-get-into-a-flow-state-when-using-ai-to-code",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48492118",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492118",
+      "publishedAt": "2026-06-11T15:56:25.000Z",
+      "titleEn": "Ask HN: How do you get into a flow state when using AI to code?",
+      "titleZh": "Ask HN：使用 AI 编码时如何进入心流状态？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "kilroy123"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 30,
+      "commentCount": 37,
+      "tags": []
+    },
+    {
+      "id": "hrorg:randstad:029a1ccebf36",
+      "slug": "hrorg-randstad-029a1ccebf36",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTmJ6VDZEMjcxNHpNRHFoaURYbXNjSnFFTXZ5akVkRS1zY2R5ZkRiNlFJdUxsbUV5Ri1HWGlUZm52czUwYXBUTlhWWklLWi1kSEF2VE9tWVh1QkpvaXV5MWhJaXV4NFllUVBmcHVuREdKY1F4VE9Zdk1EaWI4ZVNDZ2RtZ1VHTFJJYVNxSUhkOUJRakk1c3NsSVZoLWloZWtvWTZFSEdEeC15Vll5RV9pT2hOejFlSFhWeUd2UnVsS2JCZWF3NFlzblJBY1dwTGlUdEgxb05Cb0tLMGlBb2VSVXAtb01Tel9UV2Fva2JxTWtIWnlGaVZ0ZTN3dnhCYWZlTkRTUjdFaTBuS201?oc=5",
+      "publishedAt": "2026-06-11T15:41:00.000Z",
+      "titleEn": "Forze Hydrogen Racing Deploys Agentic AI",
+      "titleZh": "Forze Hydrogen Racing 部署自主 AI 系统",
+      "abstractEn": "Forze Hydrogen Racing Deploys Agentic AI  Fuel Cells Works",
+      "abstractZh": "Forze Hydrogen Racing 部署自主 AI 系统  Fuel Cells Works",
+      "authors": [
+        "Fuel Cells Works"
+      ],
+      "institution": "Fuel Cells Works",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hn:48491534",
+      "slug": "hn-48491534-yserver-modern-x11-server-written-in-rust-with-the-help-of-claude-co",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.phoronix.com/news/YSERVER-Rust-X11-Server",
+      "commentUrl": "https://news.ycombinator.com/item?id=48491534",
+      "publishedAt": "2026-06-11T15:17:42.000Z",
+      "titleEn": "Yserver: Modern X11 Server Written in Rust with the Help of Claude Code",
+      "titleZh": "Yserver：借助 Claude Code 用 Rust 编写的现代 X11 服务器",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rbanffy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "hn:48491301",
+      "slug": "hn-48491301-craig-federighi-details-apples-collaboration-with-google-for-siri-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48491301",
+      "publishedAt": "2026-06-11T15:01:26.000Z",
+      "titleEn": "Craig Federighi Details Apple's Collaboration with Google for Siri AI in iOS 27",
+      "titleZh": "Craig Federighi 详解苹果与 Google 在 iOS 27 中 Siri AI 的合作",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tambourine_man"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 9,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:66c702a9067b",
+      "slug": "gnews-66c702a9067b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFlqWEUwaU0tdVVmV0Y1V3lLVUFFRmlWYTEtUlMwRFUzQWNPc2tGdUZGYS1pU3MtNDRFVUMzaHlMaDM3ZnM2Q09ZLUd0SUFHZmFxLXNudVBSUjkteXVZZXktQVA2cDJQd3gxQ2JNM3NWYWMtYzZwSWRibUZIMTdXZXlfbGVYUWZmRTNGVVFHM2xnbF9jeG5QQURrWUtQMVE0dWRpNFdLS1JMR1hOQ19WMEk5LTY4NEJZNVJwNmtqaW4tMjQ?oc=5",
+      "publishedAt": "2026-06-11T14:56:10.000Z",
+      "titleEn": "Jeff Bezos on AI regulation: Government regulation has a lot of reasonable purposes",
+      "titleZh": "杰夫·贝佐斯谈 AI 监管：政府监管有许多合理目的",
+      "abstractEn": "Jeff Bezos on AI regulation: Government regulation has a lot of reasonable purposes  CNBC",
+      "abstractZh": "杰夫·贝佐斯谈 AI 监管：政府监管有许多合理目的  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fb4d3f038cdc",
+      "slug": "gnews-fb4d3f038cdc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5nUHlsdmNnT25PcUpTYUFLYS1FSHl3bmdpRE0wN0NfSzBSd3FRdkVtT1VPSE55bmJnczN3aGFmRUlyTmhPVlRJYlhHOElpZGl2X0hpMW1iZU0yMVJOZHhjaVU3RXVWa19xUTJTY2c4T2JUNmhRXzRVMUdsdXgtTVFhRG9yd1FQSU03SVN2ZjhnQ0I3RWdPZEh4aEVVSDc3RTdndzV2VWY?oc=5",
+      "publishedAt": "2026-06-11T14:46:51.000Z",
+      "titleEn": "Anthropic v. OpenAI: Behind the bitter battle for the future of AI",
+      "titleZh": "Anthropic 诉 OpenAI：AI 未来激烈争夺的背后",
+      "abstractEn": "Anthropic v. OpenAI: Behind the bitter battle for the future of AI  Reuters",
+      "abstractZh": "Anthropic 诉 OpenAI：AI 未来激烈争夺的背后  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d392cba2eeda",
+      "slug": "gnews-d392cba2eeda",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSURtcXJSNU5iUThoNlAwZGl2OUdTaHlBTHRrVVhuTTlZbkpKc3NCaW9Sc29YUnVfbDVCcDMzbFF2STQzOWU0aEZrbnZsVVk4UG9obzZ1Q1hVU1Z4em55VkZLTjB1d0k1X0g5dUpjVGMzVnJHOS1LUlctVlZldDDSAYQBQVVfeXFMTnhNZWFfd2M4WGhYejdlcWgtN1ZhMnVFa1RkWDdDejJqNjBUTFk0cUVPQ3paOXFDcDE0Rmp3TzVnUFVLeEw3NVVqZVRaMU9TQ1BUNWRLQjBQX01wWE54ei1paUZ3dzNwZjV1cVBpVUJ6b212cEJvVzY4cXlRcE12cm9xMDZN?oc=5",
+      "publishedAt": "2026-06-11T14:38:00.000Z",
+      "titleEn": "Anthropic CEO: Government should have power to block dangerous AI deployments",
+      "titleZh": "Anthropic CEO：政府应有权阻止危险的 AI 部署",
+      "abstractEn": "Anthropic CEO: Government should have power to block dangerous AI deployments  The Hill",
+      "abstractZh": "Anthropic CEO：政府应有权阻止危险的 AI 部署  The Hill",
+      "authors": [
+        "The Hill"
+      ],
+      "institution": "The Hill",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:36fa4c6845c6",
+      "slug": "gnews-36fa4c6845c6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTERydnp1c3M5X3YwX0ZzQXRVTlR4LTN1QW1SUmN1QVBTeTVMWU1LTTBKMlZFcnhwUWc2LUJoZGRZeHBUMklhUEtwZlRabHE1clBwdkJTZ1VhelFuUm94MDUxX0Vpcy1wZGhKRk1TM2FsVzZWZ2dhRUtvLUVwWkpaMG1rRGNYQzQzSW1UcG1MMGc4UTZNYk5xZg?oc=5",
+      "publishedAt": "2026-06-11T14:23:00.000Z",
+      "titleEn": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom",
+      "titleZh": "更优的人工智能（AI）股票：Marvell Technology 与 Broadcom 对比",
+      "abstractEn": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom  The Motley Fool",
+      "abstractZh": "更优的人工智能（AI）股票：Marvell Technology 与 Broadcom 对比  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8032164e51af",
+      "slug": "gnews-8032164e51af",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbEw3ZUtuSEhsT2hrZVpnbkRtY2RJMmtUQkxSbDZMMlZ4MFlHUDFkSDUwazRqcUhWWklGZTF1Ymsydm9ybFEtTm96Qm8tSHhmb0ZMMFg1aHRCcU5zbUVNUW9mRXZkWU1pOHVjbjFkeEROcXRmS1FRd3o3STBfcEtyYUpOSUxfZC1PLWQ0U0N2SXUwajhPSmlkcENqTEJ2ZjNMMVEyNVJwSGFjYU9haDAtb0hOeDhqQUw1TWFKQTI5WDBKal9QTFNJTUxkUFNTcktRbE56b0NwT3lVRGlndUZfVzNMeFFBMERZZ3F0blZR0gHzAUFVX3lxTE9aM09yTEx6UjlZb0JpVVh6SzF0RVU4NlpPYk54b3hCSlFKX2ZBMTdURW83ZWVYemc1cjFjQ1BzMnFSZTA4dUh1dUpBNWVnWVYzNVVReVJzenlWemJhQVUxZTRrMlpYMzUtVVpkMDBFUkl4SjdUOE91Z0w2N1YzZHNkTnZwc1dXWHFudGcwWmp3ZFBJd2JJell0UkdXRlJaa084Z01MUnhDYzIwd3FMY0N6ckVpZ2pOTk9rUVI0R2pQU0lyR0p5cHJmZWEzZm45cEx4akpBMVNhbWNBSlBrS09UbGRtOGp1c3IyZC1VRGVuaWNPbw?oc=5",
+      "publishedAt": "2026-06-11T14:21:57.000Z",
+      "titleEn": "AI will create more jobs than it disrupts, says Microsoft India chief",
+      "titleZh": "微软印度负责人表示，AI 创造的就业机会将多于其取代的",
+      "abstractEn": "AI will create more jobs than it disrupts, says Microsoft India chief  Business Standard",
+      "abstractZh": "微软印度负责人表示，AI 创造的就业机会将多于其取代的  Business Standard",
+      "authors": [
+        "Business Standard"
+      ],
+      "institution": "Business Standard",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7008864c3748",
+      "slug": "gnews-7008864c3748",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DT090MEZDbjRYNzlELVRud2cyWDE0X3h0NjRoVkh1ZENQUTBKUFoyZ3dRVnZRcXdaMC00WnJ3bFpZTkt2dUVORnBfQlYxVmJyeExvUUFqbl96U0xkLWpldmxiOUY2aVFGVzljR2V2LVQ?oc=5",
+      "publishedAt": "2026-06-11T14:01:32.000Z",
+      "titleEn": "Prometheus, the industrial AI startup from Jeff Bezos, is now worth $41 billion",
+      "titleZh": "杰夫·贝佐斯的工业 AI 初创公司 Prometheus 如今估值 410 亿美元",
+      "abstractEn": "Prometheus, the industrial AI startup from Jeff Bezos, is now worth $41 billion  Axios",
+      "abstractZh": "杰夫·贝佐斯的工业 AI 初创公司 Prometheus 如今估值 410 亿美元  Axios",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48490410",
+      "slug": "hn-48490410-nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against",
+      "source": "Hacker News",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48490410",
+      "publishedAt": "2026-06-11T13:56:24.000Z",
+      "titleEn": "Nobody needs AI to search the Internet, court says in ruling against Google",
+      "titleZh": "法院裁定：没人需要 AI 来搜索互联网——对 Google 的裁决",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "doener"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:b04e28080edb",
+      "slug": "gnews-b04e28080edb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLWNnMWJLSzNkenFaNy1JUm00NUtoeEFSUU1iSi1PcGV5RnlzRUVTOHRFNUdKZW5iVGVJZUVSaWZ6Uk54NEEwZTY0Ml9kMkItb0tweDc2UlI0dnNkWEs2OEplZUxEN0xvT2QtdlQ0Wm84VXJMZmlBS3VWYjgwVGdyUGdIOWN6SUEwSm5OV3pyaVRFbzRIa29iWDQ4M2h4azVPSzYxV1NpQjREc19lbTU5M0lpUGVVVHZoSWlQcFBROXpnLVRRSTVuQjhCZ3EwVDlhX2lhWG5XZWtyUHFsWWhXRQ?oc=5",
+      "publishedAt": "2026-06-11T13:41:46.000Z",
+      "titleEn": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million",
+      "titleZh": "AI 监管推进：Amodei 要求阻止不安全模型，Anthropic 承诺投入 3.5 亿美元",
+      "abstractEn": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million  Tech Times",
+      "abstractZh": "AI 监管推进：Amodei 要求阻止不安全模型，Anthropic 承诺投入 3.5 亿美元  Tech Times",
+      "authors": [
+        "Tech Times"
+      ],
+      "institution": "Tech Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:claude-corps",
+      "slug": "claude-corps",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-corps",
+      "publishedAt": "2026-06-11T13:36:07.000Z",
+      "titleEn": "Introducing Claude Corps",
+      "titleZh": "推出 Claude Corps 项目",
+      "abstractEn": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+      "abstractZh": "我们正在启动 Claude Corps，这是一个面向职业生涯早期人士的全国性奖学金项目，旨在帮助那些热衷于将人工智能的益处推广到美国各地社区的人们。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 公告与政策\n### AnnouncementsPolicy\n\n# 推出 Claude Corps\n## Introducing Claude Corps\n\n2026年6月11日\n\n![一名身穿白色长袖 REEF 衬衫的潜水员，在湛蓝的天空中点缀着云朵的背景下调整潜水装备。](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Feb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg&w=3840&q=75)\n\n我们正在推出 Claude Corps，这是一个面向早期职业人士的全国性奖学金项目，旨在帮助那些热衷于将人工智能（AI）的益处推广到美国各地社区的人们。\n\n我们将教授 1,000 名研究员如何熟练使用 Claude，将他们与全美各地的非营利组织进行匹配，并支付薪酬，让他们全职、实地工作一年，帮助主办组织推进其使命。我们的目标有两个：一是让主办组织获得有价值的工具和系统，二是让研究员掌握对其职业生涯有益的 AI 技能。\n\n变革性 AI 系统带来的好处可能伴随着重大颠覆的代价。构建这项技术的公司有责任确保这些好处得以充分实现并广泛分享，并直接投资于正在适应变革的劳动者。为此，我们初步承诺为该计划投入 1.5 亿美元。\n\n如果 Claude Corps 取得成功，我们将为更宏大的目标奠定基础：一个在巨大经济变革时期扩大 AI 惠益的模型。我们是在发布关于应对 AI 对工作影响的政策框架的同时，宣布推出 Claude Corps 的。\n\n## Claude Corps 的运作方式\n### How Claude Corps works\n\nClaude Corps 是由三个组织合作建立的。Anthropic 将资助该计划，领导其整体战略，并提供 Claude 方面的专业知识。CodePath 是 Anthropic 的非营利合作伙伴，也是美国最大的大学计算机科学教育提供者，将担任研究员的官方雇主，并在奖学金期间领导项目规划。Social Finance 是一家非营利组织兼注册投资顾问，将负责测量与评估，并建立一个长期金融工具，以使该计划能够规模化。\n\n## 研究员的体验\n### The fellow experience\n\n每期奖学金为期 12 个月。项目开始时，Anthropic 和 CodePath 将提供关于如何在非营利环境中使用 Claude 的强化培训。在分配到位后，研究员每周将接受五小时的持续培训，其余时间则投入到其主办组织的工作中。\n\n研究员将获得 85,000 美元的全职年薪和福利、来自 CodePath 导师的支持、Anthropic 提供的技术问题答疑时间、充足的 Claude 令牌（token）预算，以及来自主办组织经理的专业指导。\n\n在未来 12 个月内，至少将有 400 个非营利组织接待 Claude Corps 研究员。主办组织包括：\n\n- **Braven（伊利诺伊州芝加哥）**：一个教授第一代大学生和低收入学生如何获得优质第一份工作的非营利组织。\n- **Code the Dream（北卡罗来纳州达勒姆）**：一个为寻求技能以构建更好生活的人们提供免费编程教育和带薪软件学徒机会的非营利组织。\n- **Heartland Forward（阿肯色州本顿维尔）**：一个无党派智库兼行动组织，专注于加速美国中心地带的经济增长。\n- **Montgomery County Food Bank（德克萨斯州康罗）**：一个食品银行，通过 100 多个本地食品储藏室和合作机构，为休斯顿北部的儿童、老年人和家庭提供食物。\n- **Team Red, White & Blue（印第安纳州弗洛伊德诺布斯）**：一个通过专注于建立健康生活方式的项目和活动，支持退伍军人健康与福祉的非营利组织。\n- **Reef Environmental Education Foundation（佛罗里达州基拉戈）**：一个海洋保护非营利组织，通过进行水下调查来保护珊瑚礁。\n- **SoundOff（德克萨斯州圣安东尼奥）**：一个为军人提供匿名访问持证咨询师和同伴支持服务的非营利组织。\n- **StriveTogether（俄亥俄州辛辛那提）**：一个全国性非营利组织，支持地方合作伙伴利用数据改变社区合作方式，以帮助年轻人茁壮成长。\n- **YMCA of Greater Charlotte（北卡罗来纳州夏洛特）**：夏洛特地区的本地 YMCA，拥有 14 个中心、三个项目设施和两个过夜营地，每年服务近 30 万名儿童、家庭和老年人。\n\n您可以在下方听到更多来自我们主办方的声音：\n\n在美国的 70 个社区，我们致力于让更多年轻人走上经济机遇之路。这需要持续追踪、分析和共享数据和实地洞察，以便在一个地方有效的策略能够在各地生根发芽。AI 改变了这一格局。有了我们的 Claude Corps 研究员，我们将能够以前所未有的速度进行分析，将各个点连接起来。这种专门的技术人才使我们能够更快地推进直接惠及我们所服务的数百万年轻人的工作。\n\nGoodwill Industries International 参与 Claude Corps，是为了帮助我们弥合 AI 潜力与其负责任、实际应用之间的差距。我们期待向同行学习，分享我们的经验，并获得能够推动我们工作产生有意义影响的见解。\n\nTeam Red, White & Blue 一直在利用技术进行创新，以丰富退伍军人的生活。AI 正在重塑我们所处的环境，我们正在投资于那些将定义我们未来十年如何履行使命的工具。对于 Team RWB 来说，社区就是解决方案。Claude Corps 的研究员将帮助我们利用数据、自动化和个性化来扩大其规模。\n\n饥饿不会等待，创新也不能等待。食品银行在解决问题时需要像我们对待所服务人群那样具有前瞻性。Claude Corps 将 AI 人才应用于能够立即产生影响的领域，从了解捐赠者和分销预测，到将数据转化为依赖我们的家庭所需的更快决策。\n\nHeartland Forward 致力于确保美国中部的 20 个州为因人工智能而改变的经济做好准备。从应届毕业生到职业生涯后期的专业人士，拥有 AI 技能和知识以促进经济发展从未像现在这样重要。我们与 Anthropic 和 Claude Corps 的合作有助于确保中心地带的劳动力在利用 AI 的变革力量造福社会方面引领步伐。\n\n在 RAINN，我们的团队花在技术基础设施上的时间，就是远离帮助幸存者的时间。Claude Corps 将帮助我们更快地为幸存者扩展安全、私密的工具，这样我们的员工就可以专注于只有人类才能做的事情：支持处于危机中的受害者。我们不是在取代人际联系，而是在保护它。\n\nREEF 对 AI 在扩大海洋保护、公民科学和公众参与方面的潜力感到兴奋。作为一个管理大型海洋数据集和保护技术项目的草根非营利组织，Claude Corps 为我们提供了一个机会，来构建一个规模虽小但极具影响力的团队原本无法企及的工具和工作流程。\n\n在 MyFriendBen，我们是一个应对重大公共福利挑战的小团队，一直在寻找事半功倍的方法。Claude Corps 让我们有机会在组织内部建立真正的 AI 能力——不是一次性的修复，而是持久的技能和工作流程，这将帮助我们在未来几年更有效地服务社区。我知道这项倡议将为我们的组织带来活力和学习机会，并鼓励年轻有为的人才支持非营利组织和成长中的团队。\n\nAI 正在重塑劳动力市场，如果用心引导，它可以帮助第一代大学生和低收入大学生在经济上获得公平的竞争环境。Braven 很自豪能加入 Claude Corps 的首批队伍，以加速我们研究员的 AI 素养，建设能力，并塑造高等教育和雇主如何对待入门级工作的未来。\n\nAI 可以帮助我们解决社区面临的紧迫问题。Claude Corps 的研究员将真正改善那些使用 Code the Dream 构建的技术所服务的人们的生活——学生、寻求医疗保健的家庭以及为我们提供食物的农场工人。\n\n在 Year Up United，我们相信 AI 必须既是劳动力技能，也是组织能力。这种伙伴关系体现了我们使命的实际行动，并将帮助我们在适应快速变化的就业市场时扩大影响力。Claude Corps 将加强运营，改善学生体验，并加速 AI 的影响。\n\n政府和社区组织信任 Code for America，因为我们始终将人置于一切工作的中心，并且我们花了多年时间赢得这种信任。我们很高兴欢迎 Claude Corps 的研究员，他们能够与我们一样，热衷于使用负责任的 AI 来解决公共服务挑战，并产生有意义、可衡量的影响。\n\nClaude Corps 之所以重要，是因为 YMCA 服务着数百万人，我们的员工值得拥有能够为他们赢回时间用于人际交往的工具。研究员可以帮助我们从零散的 AI 成功案例，转向跨协会的可扩展、与价值观一致的采用，特别是在员工入职、项目设计以及将社区洞察转化为行动方面。\n\nPCV 为被低估社区的小企业和工人释放经济机遇和气候韧性，因此任何 AI 的使用都必须具有不可动摇的道德基础。Claude Corps 的研究员将帮助加强我们的预测性承保模型，并提高我们基于大语言模型（LLM）的调查工具的准确性。由此产生的经验教训将有助于前沿实验室和影响力公司都将人类能动性置于中心位置。\n\n这项倡议让我们有机会将工程人才嵌入到为战争和危机中的人们服务的团队中，以推动有意义的变革。从简化运营到构建能够更快、更有效地触达人们的 AI 驱动服务，Claude Corps 的研究员可以帮助我们重新思考人道主义组织如何在最后一英里大规模地产生影响力。\n\nSound Off 的存在是为了利用技术将关怀扩展到成千上万原本不会参与的人。优先考虑技术是我们的本能——在慈善资金有限的情况下，这一点更为重要。自这些模型出现以来，我们就一直在投资 AI。与 Claude Corps 合作，以提高我们的软件开发速度、自动化组织管理并广泛支持我们的小团队——同时保持成本不变——这对我们影响退伍军人心理健康来说是一个巨大的机会。01 / 16\n\n## 申请与时间表\n### Applications and timeline\n\n研究员申请今日开放，首批 100 人的申请将于 7 月 17 日截止，该批次将于 2026 年 10 月开始。后续两批（分别于 2027 年 1 月和 2027 年 8 月开始）的申请将滚动开放。欢迎任何年满 18 岁、全职工作经验不足两年的人士申请，无论其教育背景如何。唯一的要求是您有权在美国工作、乐于使用 Claude，并且愿意在必要时搬迁（可根据需要提供搬迁支持）。\n\n主办组织的申请也于今日对所有批次的开始日期开放。有关主办标准及涉及内容的更多信息，请参阅 Claude Corps 网站。\n\n## 未来展望\n### What’s next\n\n正如我们上面所概述的，我们的目标是让这个计划远远超出 1,000 名研究员的规模。我们将严格衡量主办组织在多大程度上推进了其使命，以及研究员如何发展其技能和职业前景，以了解 Claude Corps 应如何发展。我们计划开源部分使该计划得以运作的核心技术和基础设施，以便其他人能够建立类似的倡议，最终可能形成全国性的大规模努力。此外，我们希望建立一个可以在美国以外的其他国家复制的模式。",
+      "tldrZh": "Anthropic 推出 Claude Corps 全国性奖学金项目，投入1.5亿美元，为1,000名早期职业人士提供AI培训并匹配非营利组织全职工作一年，旨在将AI惠益推广至美国各地社区。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-11T17:03:28.651Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-12"
+    },
+    {
+      "id": "hn:48490057",
+      "slug": "hn-48490057-workers-are-spending-over-6-hours-a-week-botsitting-ai-fueling-job-f",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+      "commentUrl": "https://news.ycombinator.com/item?id=48490057",
+      "publishedAt": "2026-06-11T13:26:59.000Z",
+      "titleEn": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+      "titleZh": "员工每周花费超过 6 小时‘照看’AI，加剧工作挫败感",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ZeidJ"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 222,
+      "commentCount": 187,
+      "tags": []
+    },
+    {
+      "id": "gnews:c03a520f455b",
+      "slug": "gnews-c03a520f455b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOFRQZE1jZmJ4S2hPUHpfVXllSU9vT2pqMlNnaUtIUUhISzFUeWZmWHAwS3FhS3o4bV8ydEMyYm9icmRZWnFfYlVNR1lTcUh6ZG9rRGdzXzdYcG1aMTRpQVBXQjdQdzlPMzVqcUxpV3IwejZES3NsbHpFd0I5Sm16azRXbDBLdlRkWUl0Slh2NFdNQnJjMWxsbTZkNlpNaDJvU1ptWGc2M1QxdUp5Um82cWJ4Q1p6LTgzQUFFSXNRZEdmWjJQTUE?oc=5",
+      "publishedAt": "2026-06-11T13:20:47.000Z",
+      "titleEn": "Florida-based tech expert talks concerns surrounding Anthropic’s latest AI model",
+      "titleZh": "佛罗里达技术专家谈对 Anthropic 最新 AI 模型的担忧",
+      "abstractEn": "Florida-based tech expert talks concerns surrounding Anthropic’s latest AI model  News4JAX",
+      "abstractZh": "佛罗里达技术专家谈对 Anthropic 最新 AI 模型的担忧  News4JAX",
+      "authors": [
+        "News4JAX"
+      ],
+      "institution": "News4JAX",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:655d0d688c1a",
+      "slug": "gnews-655d0d688c1a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHhrcjVVR3RjRlo4Rlp3Y3lqSm5vR2ZYZDNhZkFGSUh6b2FucnBqUFdEOU40Z21EdUNHWHBUdDZvNkNkbVhwZnpZOGg5NjBCUzRiaW05RVJzUXNGT1hnckwwUDFqTVZXeGx6T21EYmtrcEY1NEZ1OFdhQWRySmVsTGZfRXZ2TXlXVTlWbEx0ZXFld2I3MkFHaC1yWHROOUx3d3FHMC1lekNTM2U0dG04OXJNVkxPRGhnazllbnNfZ2Y?oc=5",
+      "publishedAt": "2026-06-11T13:17:00.000Z",
+      "titleEn": "Courtroom Simulator Startup Receives Funding From Rel Labs, Open AI Employees",
+      "titleZh": "法庭模拟器初创公司获得 Rel Labs 和 OpenAI 员工投资",
+      "abstractEn": "Courtroom Simulator Startup Receives Funding From Rel Labs, Open AI Employees  Law.com",
+      "abstractZh": "法庭模拟器初创公司获得 Rel Labs 和 OpenAI 员工投资  Law.com",
+      "authors": [
+        "Law.com"
+      ],
+      "institution": "Law.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48489917",
+      "slug": "hn-48489917-open-reproduction-of-deepseek-r1",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/huggingface/open-r1",
+      "commentUrl": "https://news.ycombinator.com/item?id=48489917",
+      "publishedAt": "2026-06-11T13:14:31.000Z",
+      "titleEn": "Open Reproduction of DeepSeek-R1",
+      "titleZh": "DeepSeek-R1 的开放复现",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yogthos"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 100,
+      "commentCount": 12,
+      "tags": []
+    },
+    {
+      "id": "hn:48489835",
+      "slug": "hn-48489835-more-ai-generated-code-doesnt-make-your-team-faster-it-might-slow-yo",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/awscloud/status/2064449711155589396",
+      "commentUrl": "https://news.ycombinator.com/item?id=48489835",
+      "publishedAt": "2026-06-11T13:06:08.000Z",
+      "titleEn": "More AI-generated code doesn't make your team faster. It might slow you",
+      "titleZh": "更多 AI 生成的代码并不会让你的团队更快，反而可能拖慢你",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "_____k"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 41,
+      "commentCount": 17,
+      "tags": []
+    },
+    {
+      "id": "gnews:eca02bb7d724",
+      "slug": "gnews-eca02bb7d724",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVlFKMjczMVlQVEtHQ1pfd00xTnE2eUdFM1RJTEh0LThESFV1cEZWTG5MZFFMT1RSREUyVzNrRTdlVHJXbnNINmNOQndjS3Z1b2F2YThvc3JGd19BRVU2X3R6NFBDTHVHaEl0WFdMYzFsTnk5djdMemlFRF85T1pmZkVCZDdqOS1GV3Q0TG9QSjJWdU5xRV94N2tPaWNNQnNQZG1Sa2l4S1U0TUlobFkzZ1Y1bVpVaUtTc3AwWVVkeTJyWDg?oc=5",
+      "publishedAt": "2026-06-11T13:01:27.000Z",
+      "titleEn": "Anthropic announces 'Claude Corps' to teach nonprofits to use AI more effectively",
+      "titleZh": "Anthropic 宣布成立 Claude Corps，帮助非营利组织更有效地使用 AI",
+      "abstractEn": "Anthropic announces 'Claude Corps' to teach nonprofits to use AI more effectively  News4JAX",
+      "abstractZh": "Anthropic 宣布成立 Claude Corps，帮助非营利组织更有效地使用 AI  News4JAX",
+      "authors": [
+        "News4JAX"
+      ],
+      "institution": "News4JAX",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48489335",
+      "slug": "hn-48489335-the-ai-agent-in-the-billing-department-of-verizon-is-a-mentally-hand",
+      "source": "Hacker News",
+      "sourceUrl": "https://samhenrycliff.medium.com/the-ai-agent-in-the-billing-department-of-verizon-wireless-is-a-mentally-handicapped-thug-99890a389ff5",
+      "commentUrl": "https://news.ycombinator.com/item?id=48489335",
+      "publishedAt": "2026-06-11T12:19:17.000Z",
+      "titleEn": "The AI Agent in the Billing Department of Verizon Is a Mentally Handicapped Thug",
+      "titleZh": "Verizon 账单部门的 AI 代理是个智力低下的恶霸",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "6stringmerc"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 24,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "gnews:5e5e9a189653",
+      "slug": "gnews-5e5e9a189653",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16NmhXZm1URUZEYWVQeURCc0U5OGYyYzRTS1hmRUtGdnVuUWdCVE1HN1RyeFV4UTdsc3hNc1ExenNIdTBLbmoyUFBGeVdZZlpEYWVacVo5VUtKQU5KdkJUM0lFdEhhRHpscGRFdUpURVIyd2FRSGljS2pXcHBBRDg?oc=5",
+      "publishedAt": "2026-06-11T12:19:01.000Z",
+      "titleEn": "7 Best Ways to Get Funding for Your Startup Idea",
+      "titleZh": "为你的创业想法获取资金的 7 种最佳方式",
+      "abstractEn": "7 Best Ways to Get Funding for Your Startup Idea  KDnuggets",
+      "abstractZh": "为你的创业想法获取资金的 7 种最佳方式  KDnuggets",
+      "authors": [
+        "KDnuggets"
+      ],
+      "institution": "KDnuggets",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:de2a9979e319",
+      "slug": "gnews-de2a9979e319",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EY0dJNjdoSWxUUEtHSlk2WkJtQks3bUhmUl9FMkE4dV90Zm15ckhNMmRoZHU2MVZvbTJ5SXZyMmFtTTRkRlYtc2hSNjVmYmVFNGVjM3RUVGZQak5rVmZ5bDYxT3d1Y2hyZFNDdWpEdzlXZmFB?oc=5",
+      "publishedAt": "2026-06-11T12:17:16.000Z",
+      "titleEn": "Anthropic urges Congress to require AI safety tests",
+      "titleZh": "Anthropic 敦促国会要求进行 AI 安全测试",
+      "abstractEn": "Anthropic urges Congress to require AI safety tests  qz.com",
+      "abstractZh": "Anthropic 敦促国会要求进行 AI 安全测试  qz.com",
+      "authors": [
+        "qz.com"
+      ],
+      "institution": "qz.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48489229",
+      "slug": "hn-48489229-anthropic-apologizes-for-invisible-claude-fable-guardrails",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "commentUrl": "https://news.ycombinator.com/item?id=48489229",
+      "publishedAt": "2026-06-11T12:05:02.000Z",
+      "titleEn": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "titleZh": "Anthropic 为不可见的 Claude Fable 护栏致歉",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rarisma"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 50,
+      "commentCount": 32,
+      "tags": []
+    },
+    {
+      "id": "gnews:36b19ef03ccf",
+      "slug": "gnews-36b19ef03ccf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV3N3TlcxQVppMmFJZ2xMZDlHQWYwRHlfemc0bktNTThCbFAxVXQ2QVVSMEVvSW1KTzJYYUxxVFJNWDNqakt3U1F2ZGtXZTBJRGZuaGNmM3JnbDRCVTctV3N5dWp4WENWTWxVaWZaUXljbUdvMzN4ZzZzbk1vVEd3VWE5elN2T3ZVOGpsV0JwaU8ydEMwZUYtbXJsODRnRWE3N2hickF4cGJIQlhxMUJkRDg5UDY?oc=5",
+      "publishedAt": "2026-06-11T12:04:54.000Z",
+      "titleEn": "Databricks’ OpenSharing targets the ‘integration tax’ of enterprise AI",
+      "titleZh": "Databricks 的 OpenSharing 瞄准企业 AI 的‘集成税’",
+      "abstractEn": "Databricks’ OpenSharing targets the ‘integration tax’ of enterprise AI  InfoWorld",
+      "abstractZh": "Databricks 的 OpenSharing 瞄准企业 AI 的‘集成税’  InfoWorld",
+      "authors": [
+        "InfoWorld"
+      ],
+      "institution": "InfoWorld",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1579b5ba6d04",
+      "slug": "gnews-1579b5ba6d04",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVEdXamxpMWFfSmR4a0owYzJnVFJWZE1pQ3dOeWgzb2J0Tm9kVU0zdXZELUVPeGpkNmZRS0l3a3RvSm9UWGNIejRaWlhhc1dUemY5WXJaNTJQLUw2S3ZFTDlNc0R2UEc2Y3pBRG5uUVdUc1A2V2tWX3I2V0FHOE16S1A0c1Z1Wndua2ZOUUZWZTJIWEZzUFJZV3hR?oc=5",
+      "publishedAt": "2026-06-11T12:00:21.000Z",
+      "titleEn": "25 years later, Steven Spielberg finally reveals one of his biggest sci-fi movie regrets",
+      "titleZh": "25 年后，史蒂文·斯皮尔伯格终于透露了他最大的科幻电影遗憾之一",
+      "abstractEn": "25 years later, Steven Spielberg finally reveals one of his biggest sci-fi movie regrets  Polygon.com",
+      "abstractZh": "25 年后，史蒂文·斯皮尔伯格终于透露了他最大的科幻电影遗憾之一  Polygon.com",
+      "authors": [
+        "Polygon.com"
+      ],
+      "institution": "Polygon.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:27019308afec",
+      "slug": "gnews-27019308afec",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSTB6cEVFX0hSbC1tSVR1dmZNYkt1eXF4VlBJcEZBbF9GTndRTDB2YVFyakxSQUZyRFVUOGpaOFBKMUswbFk2QnpvVkNPNkp1WFdYM0I2ZVpiV09BZl9NRlNHUXZiRFp3SFVYX21XcG5IY1Utc2JoSzRHODZrbldDWUpyM2IxQ3h0SXp0ZGVlZ2pEZVd0UXlGZ2dSVWRxTFVQRW5BRUhCa9IBrAFBVV95cUxNSHNRZ0FlNm1WN1NmbHM3ZWh6c0pPNUlPeFBrLTdpTkpBcXE1aEFlNzQwVUpNeDNQZDNBMlZ0b3ZYdTVQQ0FWdFoxWWJuVzA4YWxFeWIxSy1NUzhCZXQyNE5UeUdzMjRJN3ZydnYxcUVVTnBMOXBQR0l3YWFGRmJzcWxaeXpISmJlOHhubTRWdWd4ekd2UUpqVlRwWG51TThpaXkwQmdoYmczdzIw?oc=5",
+      "publishedAt": "2026-06-11T12:00:02.000Z",
+      "titleEn": "As OpenAI leans into enterprise business, Apple and Google set sights on the masses",
+      "titleZh": "OpenAI 发力企业业务之际，苹果和谷歌瞄准大众市场",
+      "abstractEn": "As OpenAI leans into enterprise business, Apple and Google set sights on the masses  CNBC",
+      "abstractZh": "随着 OpenAI 向企业业务倾斜，苹果和谷歌将目光投向大众市场  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:948e79d199da",
+      "slug": "hrorg-recruit-948e79d199da",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uUzNTVWxjWkFsa3lmQnowR1RrZUUwWDNZZHkyNjdwZEE4SUdVMU1fQjJsSldpbGhyTmtFRXN5cWhkM3pCTnFGamI0X3g0U1hUTGdTTDJhMVdDLWItUzk1WTBYWVlDVFZOemxRbW12ZDloeTdMZEFKbnlIRTBnUQ?oc=5",
+      "publishedAt": "2026-06-11T11:59:58.000Z",
+      "titleEn": "Indeed launches \"Jobs Need People\" campaign as it shifts from job search to AI-powered matching",
+      "titleZh": "Indeed 发起‘Jobs Need People’活动，从职位搜索转向AI驱动的匹配",
+      "abstractEn": "Indeed launches \"Jobs Need People\" campaign as it shifts from job search to AI-powered matching  ContentGrip",
+      "abstractZh": "Indeed 发起‘Jobs Need People’活动，标志着其从职位搜索向AI驱动的匹配转型。ContentGrip",
+      "authors": [
+        "ContentGrip"
+      ],
+      "institution": "ContentGrip",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:bd9d4d18f4cf",
+      "slug": "gnews-bd9d4d18f4cf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWXY0WU9NRWxnckJ3VnZ0UldDSWpON1ZPSXdEaUVTZmxUNHd3OUQza0tLX0hsQUc5QTlqUU5PNENuMHAtNUJ0UU15Z0tTOUJ1Vm45RGMtOWFuRlVSTV9HM0Q5aDM2QWZtbjVDOFo2UmZISUxLR0RVQmlGZlJGcUZvXzFIbUhZQzF5eU1sZ1h3?oc=5",
+      "publishedAt": "2026-06-11T11:30:08.000Z",
+      "titleEn": "Coram Raised $35 Million to Turn Security Cameras Into AI Detectives",
+      "titleZh": "Coram 融资 3500 万美元，将安防摄像头转变为 AI 侦探",
+      "abstractEn": "Coram Raised $35 Million to Turn Security Cameras Into AI Detectives  Business Insider",
+      "abstractZh": "Coram 融资 3500 万美元，将安防摄像头转变为 AI 侦探  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48488870",
+      "slug": "hn-48488870-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agent",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/vishal-dehurdle/state-harness",
+      "commentUrl": "https://news.ycombinator.com/item?id=48488870",
+      "publishedAt": "2026-06-11T11:21:54.000Z",
+      "titleEn": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
+      "titleZh": "Show HN：我将李雅普诺夫稳定性理论应用于检测 LLM 代理何时失控",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "visha1v"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48488753",
+      "slug": "hn-48488753-show-hn-claumon-forecasting-claude-code-usage-limits-with-a-gamma-pr",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/fabioconcina/claumon",
+      "commentUrl": "https://news.ycombinator.com/item?id=48488753",
+      "publishedAt": "2026-06-11T11:05:55.000Z",
+      "titleEn": "Show HN: Claumon – forecasting Claude Code usage limits with a Gamma process",
+      "titleZh": "Show HN：Claumon——使用 Gamma 过程预测 Claude Code 使用限制",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "fabioconcina"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:8b5315955acd",
+      "slug": "gnews-8b5315955acd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcEJtRXNBeW1MVlJmRVlyRVlzbnh4MG1uY3FDTzhoMFd2WG43czlZc212RDB0MGxleGZ2MWN1ekNpdC1kS1NiUXlJcXhSc21nR1hZenpiZFpGVlRFc1kyYTk5N0RHenViTVd0ek91TXJwYk5PQ1hjN1BRT0Z2ZTdXQndOdkpLMTZLakZnajVFVTdITDE0NlJWYlREMWdFVmdmWTZiVFRKcFlQQTViWV8xalo5S2lQUmtlRXJwek9xOEk?oc=5",
+      "publishedAt": "2026-06-11T10:45:15.000Z",
+      "titleEn": "Xebia: Why AI agents fail without the right data foundation",
+      "titleZh": "Xebia：为何缺乏正确数据基础的 AI 代理会失败",
+      "abstractEn": "Xebia: Why AI agents fail without the right data foundation  AI News",
+      "abstractZh": "Xebia：为何缺乏正确数据基础的 AI 代理会失败  AI News",
+      "authors": [
+        "AI News"
+      ],
+      "institution": "AI News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f4ad390663f3",
+      "slug": "gnews-f4ad390663f3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNkYWdNVUtBc3lEOHFLd2RwQ1FoeE0xZXRIWTFYTzd5bFdjQ3kycXVWQ3Q4ZExGSE5zT2t5MUFFMmJ3enBJVnQ3VlhpX3NrNlM3Sldyb1V4SVVVcWhhaVU1aUNwSmVjdnI0Wi1YQ2ZWRFJJQkR4WG1LNUJYVGg4RkdhZkktZ3hQeS1EYTdDdHZjZGtnVTNnWGxtZ052V2FNajFuQlNQMXlwc0lTaFc2TTJpNTJIaEx5RnNvQ3FNLXFkUkFLREpDRA?oc=5",
+      "publishedAt": "2026-06-11T10:22:58.000Z",
+      "titleEn": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling",
+      "titleZh": "TCS 与 Anthropic 建立全球首要合作伙伴关系，推动企业级 AI 规模化",
+      "abstractEn": "TCS and Anthropic launch Global Premier Partnership to drive Enterprise AI scaling  Tata Consultancy Services",
+      "abstractZh": "TCS 与 Anthropic 建立全球首要合作伙伴关系，推动企业级 AI 规模化  塔塔咨询服务公司",
+      "authors": [
+        "Tata Consultancy Services"
+      ],
+      "institution": "Tata Consultancy Services",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:49f9491d8781",
+      "slug": "hrorg-manpower-49f9491d8781",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUXI2VnVOMXJwdmFOXzRyNWptRXNZd2FGV3F5TVN6QmhjbzBKbWpubXRVeUlOSjh5ZTZZdGpMbzYwYjN3b0YwN0Z3WTZhQzJSUkNUSjV5RllUQ1lPLXZkUWVCOHpuZEdwN0xTZFRlcEthOUlUa0pkS29lLUdvRWdKRm84eUNhMkpPcDF4OWhBeTNRdw?oc=5",
+      "publishedAt": "2026-06-11T09:21:26.000Z",
+      "titleEn": "Survey: Puerto Rico leads global hiring outlook for Q3 2026",
+      "titleZh": "调查：波多黎各领跑 2026 年第三季度全球招聘前景",
+      "abstractEn": "Survey: Puerto Rico leads global hiring outlook for Q3 2026  News is My Business",
+      "abstractZh": "调查：波多黎各领跑 2026 年第三季度全球招聘前景  News is My Business",
+      "authors": [
+        "News is My Business"
+      ],
+      "institution": "News is My Business",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:28f9228a5fd5",
+      "slug": "gnews-28f9228a5fd5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjcya01JdlhsMExvOHVJTzFYUEtITjBIejlmUFBqNzRNRTdTSU5CS1VTWGcyMFdvQXJzSUFRcmpLdVQwRXlXYldXOUtDN19HOHBSSURWeGZBcW95WkctXzVXSU1hNHV3dEl6dFVjSTJaTy13S1RZeENKOXZacEkzOVpfdGVEUnNOcE9EZldMbDV2eEcwNHRrSzVB?oc=5",
+      "publishedAt": "2026-06-11T07:24:18.000Z",
+      "titleEn": "OpenAI and Anthropic keep warning about a future they're building at breakneck speed",
+      "titleZh": "OpenAI 和 Anthropic 不断警告他们正以惊人速度构建的未来",
+      "abstractEn": "OpenAI and Anthropic keep warning about a future they're building at breakneck speed  Business Insider",
+      "abstractZh": "OpenAI 和 Anthropic 不断警告他们正以惊人速度构建的未来  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4ceab242b77c",
+      "slug": "gnews-4ceab242b77c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZGVkaUpkQ0pMamJlaWtTODZ5dG9MaDNITWh0QWJkaDBNVHRtaE5XRm4tQU9iY1JmVEl0bmo0NkZXVFB6OW10NlJQVzVtbERDLW16TU9BNU13MERKVU1rbGdfajZBcDZmWFBRWnJ3QlB5UTl6TzJiQ2tnN0NyN3A1LVA4MTU5Y1dtdE1CeU5ZbFJ4aFA1dTFleERURGowbUpRNFpsd1ZnS0FxOU1PRXNGekJUSUzSAboBQVVfeXFMT2d4VFBVS0pLdnNydmJXcnlvdWhmd3UydkpIWWw3SzZ2cnRNMmk1T1pfbkpwdVVXX05Qa3dnT2wyYzdzS2pIcmFhZGNuUkV4aDZ6NEFpWnlpOFlBVjA2M0diVmJwbm82aXFCU2d1VnU0c0dkRUxIdjc1V2dQNGxtdVdNVGNKY1J3REZKZDJNdEl6OURMMy1vZERpYUdvOGF2WjNyZmt3SDFwMmJ3NEVzcjY3eEFUeTlrYXpR?oc=5",
+      "publishedAt": "2026-06-10T23:55:13.000Z",
+      "titleEn": "WATCH: Senate Banking Committee holds hearing on artificial intelligence",
+      "titleZh": "观看：参议院银行委员会就人工智能举行听证会",
+      "abstractEn": "WATCH: Senate Banking Committee holds hearing on artificial intelligence  PBS",
+      "abstractZh": "观看：参议院银行委员会就人工智能举行听证会  PBS",
+      "authors": [
+        "PBS"
+      ],
+      "institution": "PBS",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:careerin:9904f76518ed",
+      "slug": "hrorg-careerin-9904f76518ed",
+      "source": "科锐国际",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbUZYVnY4RzNQQl9xSERzeFhmN0hEeHRTVUJHM28xV3owVVI5ZEFRY0lxYzN3anhpZlEtVjZuaVo3YzZBMFJSRVNCSGd4VmItRjFoNERnVTdLVXUyU29SWjdCUUg0VFB6aVFrTFVzaVVlYXVfWHh3VWZPV1dOTVl1Qg?oc=5",
+      "publishedAt": "2026-04-27T07:00:00.000Z",
+      "titleEn": "科锐国际去年营收超145亿元 净利同比增52.68%",
+      "titleZh": "科锐国际去年营收超145亿元 净利同比增52.68%",
+      "abstractEn": "科锐国际去年营收超145亿元 净利同比增52.68%  新浪财经",
+      "abstractZh": "科锐国际去年营收超145亿元，净利润同比增长52.68%。新浪财经",
+      "authors": [
+        "新浪财经"
+      ],
+      "institution": "新浪财经",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
