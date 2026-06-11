@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # verify.sh — 统一验证关卡（本地 npm run verify 与 CI 跑的是同一套）。
-# 内容：① scripts 语法 ② workflow YAML 语法 ③ 数据校验器+坑扫描 ④ 双构建（静态导出 + server）。
+# 内容：① scripts 语法 ② workflow YAML 语法 ③ 数据校验器+坑扫描 ④ 单元测试(vitest) ⑤ 双构建（静态导出 + server）。
 # 任何一步失败立即退出非零。
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -23,7 +23,11 @@ echo "✅ 全部通过"
 step "③ 数据校验器 + 已知坑扫描"
 node scripts/validate-data.js
 
-step "④a 静态导出构建（GitHub Pages 模式，临时移除仅 Vercel 的动态路由）"
+step "④ 单元测试（vitest：date / dedupe / toc 纯逻辑回归护栏）"
+npx vitest run
+echo "✅ 单元测试通过"
+
+step "⑤a 静态导出构建（GitHub Pages 模式，临时移除仅 Vercel 的动态路由）"
 # 与 CI 的 Pages 构建一致：push 动态路由(force-dynamic)与 output:export 不兼容
 RESTORE=""
 if [ -d app/api/push ]; then
@@ -34,7 +38,7 @@ NEXT_EXPORT=1 npx next build --webpack
 if [ -n "$RESTORE" ]; then mv "$RESTORE" app/api/push; RESTORE=""; trap - EXIT; fi
 echo "✅ 静态导出 OK"
 
-step "④b server 构建（Vercel 模式，含动态路由）"
+step "⑤b server 构建（Vercel 模式，含动态路由）"
 npx next build --webpack
 echo "✅ server 构建 OK"
 

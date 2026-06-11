@@ -13,7 +13,9 @@
     "pipeline:dry": "DRY_RUN=true node scripts/pipeline.js",
     "check:backends": "node scripts/check-backends.mjs",
     "verify": "bash scripts/verify.sh",
-    "validate:data": "node scripts/validate-data.js"
+    "validate:data": "node scripts/validate-data.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.89.0",
@@ -38,6 +40,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.6"
   }
 }

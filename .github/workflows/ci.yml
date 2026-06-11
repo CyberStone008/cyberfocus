@@ -12,6 +12,7 @@ on:
       - 'package-lock.json'
       - 'next.config.*'
       - 'tsconfig.json'
+      - 'vitest.config.ts'
       - '.github/workflows/**'
 
 jobs:
@@ -28,6 +29,6 @@ jobs:
       - run: npm ci
 
       # 与本地 npm run verify 完全相同的标准：
-      # scripts 语法 / workflow YAML / 数据校验器+坑扫描 / 双构建(静态导出+server)
+      # scripts 语法 / workflow YAML / 数据校验器+坑扫描 / 单元测试(vitest) / 双构建(静态导出+server)
       - name: Run unified verify
         run: bash scripts/verify.sh
