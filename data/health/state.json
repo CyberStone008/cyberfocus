@@ -11,13 +11,13 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-11T22:04:29.342Z"
+      "lastSeenAt": "2026-06-11T22:51:41.131Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-11T11:48:43.283Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-11T22:04:29.342Z"
+      "lastSeenAt": "2026-06-11T22:51:41.131Z"
     },
     "雷锋网": {
       "lastSeenAt": "2026-06-11T11:48:43.283Z"
@@ -171,8 +171,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-11T22:08:17.714Z",
-      "note": "Korn Ferry 已静默 8.8 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-11T22:56:08.340Z",
+      "note": "Korn Ferry 已静默 8.9 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -180,7 +180,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-11T22:08:17.714Z",
+      "lastFailedAt": "2026-06-11T22:56:08.340Z",
       "note": "中智咨询 已静默 34.9 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
@@ -200,8 +200,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-11T22:08:17.714Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=8.8 threshold=7",
+      "lastSeenAt": "2026-06-11T22:56:08.340Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=8.9 threshold=7",
       "status": "open"
     },
     {
@@ -210,7 +210,7 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-11T22:08:17.714Z",
+      "lastSeenAt": "2026-06-11T22:56:08.340Z",
       "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=34.9 threshold=7",
       "status": "open"
     },
@@ -288,7 +288,7 @@
       "podcasts": 0
     },
     "2026-06-12": {
-      "aiNews": 61,
+      "aiNews": 74,
       "papers": 3,
       "hrOrgs": 6,
       "podcasts": 0
@@ -299,8 +299,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-11T22:03:37.125Z",
+  "lastFetchConsumedRanAt": "2026-06-11T22:51:31.881Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-11T22:08:17.890Z"
+  "updatedAt": "2026-06-11T22:56:08.500Z"
 }

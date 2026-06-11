@@ -1,20 +1,63 @@
 {
   "date": "2026-06-12",
-  "generatedAt": "2026-06-11T22:04:29.292Z",
+  "generatedAt": "2026-06-11T22:51:41.096Z",
   "summary": {
     "aiNews": [
-      "OpenAI收购云初创公司Ona，增强AI编程助手Codex能力。",
-      "杰夫·贝佐斯的AI初创公司Prometheus融资120亿美元，估值达410亿美元。",
-      "Anthropic CEO警告：缺乏监管的AI可能成为大规模杀伤性武器。"
+      "Anthropic以安全为先的Fable发布引发用户不满，安全策略与用户体验冲突。",
+      "OpenAI收购云初创公司Ona，增强编程助手Codex能力，推动AI编程工具发展。",
+      "杰夫·贝佐斯为AI工程初创公司Prometheus融资120亿美元，估值达410亿美元。"
     ],
     "papers": [],
     "hrOrgs": [
+      "TCNJ与默瑟县技术学校推出AI与机器人双录取路径，打造新泽西未来劳动力。",
       "Indeed发起‘Jobs Need People’活动，从职位搜索转向AI驱动的匹配。",
-      "科锐国际去年营收超145亿元，净利同比增52.68%。",
-      "调查：波多黎各领跑2026年第三季度全球招聘前景。"
+      "科锐国际去年营收超145亿元，净利同比增52.68%，业绩显著增长。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:bcee1d4d8797",
+      "slug": "gnews-bcee1d4d8797",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT0dBSDkxQU9FamFvM3VsdTlGOHlWa3YyaGllTkRsb1JYR2NQRWlBb01FZlNTYzVVb3NjTW16QjZfcHBkbUZhZWdRc2xQUXVzTkxlV0RxaUtDNTc0d2VpMWtlcDRMb3FnS254RVVLSFdUX0pmekpiZldLOFJlUjBsdlBhUHJ1YVRNY0g4NHJleHcyeUI0dm5pLWgyb2pNRENQT1E?oc=5",
+      "publishedAt": "2026-06-11T22:26:09.000Z",
+      "titleEn": "Anthropic rankles users with safety-first Fable release",
+      "titleZh": "Anthropic以安全为先的Fable发布引发用户不满",
+      "abstractEn": "Anthropic rankles users with safety-first Fable release  NBC News",
+      "abstractZh": "Anthropic以安全为先的Fable发布引发用户不满 NBC News",
+      "authors": [
+        "NBC News"
+      ],
+      "institution": "NBC News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48496332",
+      "slug": "hn-48496332-openais-june-2026-report-on-malicious-uses-of-ai-pdf",
+      "source": "Hacker News",
+      "sourceUrl": "https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf",
+      "commentUrl": "https://news.ycombinator.com/item?id=48496332",
+      "publishedAt": "2026-06-11T21:00:17.000Z",
+      "titleEn": "OpenAI's June 2026 Report on Malicious Uses of AI [pdf]",
+      "titleZh": "OpenAI 2026年6月关于AI恶意使用报告 [pdf]",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jklmnopqrstuvw"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 1,
+      "tags": []
+    },
     {
       "id": "gnews:0294455bc3e3",
       "slug": "gnews-0294455bc3e3",
@@ -36,6 +79,27 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48495969",
+      "slug": "hn-48495969-show-hn-tunnelmind-reputation-api-for-ips-asns-and-ad-tech-supply-ch",
+      "source": "Hacker News",
+      "sourceUrl": "https://tunnelmind.ai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48495969",
+      "publishedAt": "2026-06-11T20:27:59.000Z",
+      "titleEn": "Show HN: TunnelMind – reputation API for IPs, ASNs, and ad-tech supply chains",
+      "titleZh": "Show HN: TunnelMind – 面向IP、ASN及广告技术供应链的声誉API",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "o2k"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "hn:48495575",
@@ -207,6 +271,28 @@
         "Maine Sunday Telegram"
       ],
       "institution": "Maine Sunday Telegram",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:42c8381da7d6",
+      "slug": "gnews-42c8381da7d6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzFNdzg4ODFHMHF4blg3LUNpTmNhYUN2UUx3SmVqemNabFdYYmx5OXJPeGR0bDZHMnFOUkgzTXNlNW1fZllkUDRUdzJlV2Noc2JSY25WT3JtZnp1ckdTamtSbmZKSno5N0VTSVhQMTBCMDJwVFJVMDJLSS01c3lCQldhUDNVTU5aWVlweGpULXZZeXQ5Q3VhQUw3VHNyYU1OcFpDbWQxclg2SkhSN0hXeHNUaDFNSkZjVU1OS2xndVdOMlRKNFJ3cWJPTElkZG82WWc?oc=5",
+      "publishedAt": "2026-06-11T17:31:27.000Z",
+      "titleEn": "Biotech Firm Launches Massive AI Safety Solution for Zero-Tolerance Industries",
+      "titleZh": "生物技术公司为零容忍行业推出大规模AI安全解决方案",
+      "abstractEn": "Biotech Firm Launches Massive AI Safety Solution for Zero-Tolerance Industries  Streetwise Reports",
+      "abstractZh": "生物技术公司为零容忍行业推出大规模AI安全解决方案 Streetwise Reports",
+      "authors": [
+        "Streetwise Reports"
+      ],
+      "institution": "Streetwise Reports",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -562,6 +648,50 @@
       "tags": []
     },
     {
+      "id": "gnews:6f4d450d0108",
+      "slug": "gnews-6f4d450d0108",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQekVZZUZBS2YyZTVJc3I1bXZkbW15OVpHaVV1YmxXT3dVNHlPbkIzVWpKajQ0WkRYOHRNUndhUTBZOWFvWVp0ck5WeXRrVXBsYlFzTGszdGp3Z0o3NUlPUUU2UUZvZFVLWkJyaTZLLUdjMVB2NnpzNFZkTlIwWGNRQlBCQ0YzZFlVb3c?oc=5",
+      "publishedAt": "2026-06-11T15:34:46.000Z",
+      "titleEn": "Microsoft Restricts Claude Fable 5 Access Amid AI Safety Review",
+      "titleZh": "微软在AI安全审查期间限制Claude Fable 5的访问",
+      "abstractEn": "Microsoft Restricts Claude Fable 5 Access Amid AI Safety Review  TechRepublic",
+      "abstractZh": "微软在AI安全审查期间限制Claude Fable 5的访问 TechRepublic",
+      "authors": [
+        "TechRepublic"
+      ],
+      "institution": "TechRepublic",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b978ec674a4a",
+      "slug": "gnews-b978ec674a4a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHo1R2c5STJFaGtadHJON1Zwem9nQkNfbU5fOGs1QV9ZWFlxOGM0Z1BhbUZWblFjMnpKdGo3MVMyODdqTFFUTmg0RE80RUlPb0dEU3dsMmNOSlk4RU05cW9RaXBoQzJZYTZRVFhvQjN0ajR5T191UTI4aV9GRjhnUFhrYjZMYXd6ak84ZWJYb1JnRzRLak41cGpUY25tcFVKNE5VZGRxZEQ1Y3lqZk1EOTVmZUVYSWUzc09hOA?oc=5",
+      "publishedAt": "2026-06-11T15:21:35.000Z",
+      "titleEn": "Rivvun ai secures 7 55 million in seed funding",
+      "titleZh": "Rivvun ai 获得755万美元种子轮融资",
+      "abstractEn": "Rivvun ai secures 7 55 million in seed funding  Indiatimes",
+      "abstractZh": "Rivvun ai 获得755万美元种子轮融资  《Indiatimes》",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48491534",
       "slug": "hn-48491534-yserver-modern-x11-server-written-in-rust-with-the-help-of-claude-co",
       "source": "Hacker News",
@@ -596,6 +726,28 @@
         "GeekWire"
       ],
       "institution": "GeekWire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cee644a7014f",
+      "slug": "gnews-cee644a7014f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlVJZlNCRkdEb3d3Zm54ejEycDFZakdVVWp4VXNzSlNlaGRLTDlqeVdwSWFqY3JOODl1TVp6WGVMVjBiOU1IY3B4dGhMcW04MGVGSloxdXlpWkJNMmxaX0Q0MGRkVWZwV3UzcEFGdXl0UEI4R0pJZGJZVVVwM1VES3M3VHU1amlxeTg0dTA0cEtCY1dPOG5hSDZCaUhYekpFYWJsR2pNdnVuTjJwSFc5RWotSkc0UUFBZXJhV0VRUFc3b3Rs?oc=5",
+      "publishedAt": "2026-06-11T15:05:19.000Z",
+      "titleEn": "Amazon and Nvidia Just Backed German Startup NEURA Robotics With $1.4 Billion Funding",
+      "titleZh": "亚马逊和英伟达刚刚以14亿美元投资德国初创公司NEURA Robotics",
+      "abstractEn": "Amazon and Nvidia Just Backed German Startup NEURA Robotics With $1.4 Billion Funding  Interesting Engineering",
+      "abstractZh": "亚马逊和英伟达刚刚以14亿美元投资德国初创公司NEURA Robotics  《Interesting Engineering》",
+      "authors": [
+        "Interesting Engineering"
+      ],
+      "institution": "Interesting Engineering",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -913,6 +1065,28 @@
       ]
     },
     {
+      "id": "gnews:8fedd4fc0465",
+      "slug": "gnews-8fedd4fc0465",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObVFEeV9STURiNXZNRE1NS1VNU2FBWmNWaFRfelVuNlIteVExZENUeWhPd3ZwczhDYkxfRkRpNFgtOUpmV1hPRS1iTUlIVm9vSVkyc0FFeE44Zjk0Wnp0NTBEQmRqM0l1S3NnZEl6Q2xZRGc1SXRMTWJtV3dNandCTlZMZVpIMlBMV0xHT1dnbURRcG14YlJhU3ZfeDkyUHRSNWVpYzhpTE5lbHJ0VFM4dGg3WWUwZXRXZGhBNkt4ZEQ5TXFiN2FqaFNaSl93cTZHVG5IenlxVVA?oc=5",
+      "publishedAt": "2026-06-11T13:18:51.000Z",
+      "titleEn": "Anthropic urges US to require safety tests for most capable AI models",
+      "titleZh": "Anthropic敦促美国对最强大的AI模型实施安全测试要求",
+      "abstractEn": "Anthropic urges US to require safety tests for most capable AI models  Indiatimes",
+      "abstractZh": "Anthropic敦促美国对最强大的AI模型实施安全测试要求 Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:655d0d688c1a",
       "slug": "gnews-655d0d688c1a",
       "source": "Google AI News",
@@ -990,6 +1164,50 @@
         "News4JAX"
       ],
       "institution": "News4JAX",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:80d11ce51266",
+      "slug": "gnews-80d11ce51266",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVWVLcXBvT2pDbGF1NUhUSVA0U0ZvQU9xaTdoQzd6b1NhTWJGek9oLWtqX3VMNlBjdHdDTnUxLTNpbDVkMWlwSlR0TW5laUZBUHdqX3pZMTZxLVp5Z0VwVHplMjJMMGwtWW44RTlqX0J6TFFLd0R5M3YyclJlUHpHYUJ1UVpwbW43ZHM0MXBJOXlZenZkSDd3U3pjclhTdWlSRU5Dc1o2dHdJYV9lQUItVzlIZ01RZUY0NE0wTzRjODEyd3BMazliODRNMjRwRmE3aEZpT2dCQWtnY3YyeHd30gHkAUFVX3lxTE5fZTdOUjEzMjlLUDU5N3lzX2Nqa05VVDJDUEJwNWFYQzBIZGFPWGl6V0ZtbmJ6ckdLSmVHMGFjZXphYURpUFpBMV92WWRNd0FZNHAtWDE3VHQxQ3ZFRDJNejlkbGlSSHFhVmFHMGdyR0R0aG5RdWF2X0hxd044Ujg3RmR5dlJpMGt5UnBCUGF0WUZ3U0VDWmh4ZDdjTlhxcU5pUEpSaGR3OU1rZV9lME5zaktoZ0VKejhDdlFjNVNhd0tLOGo0Y2pMWjZqZDk5Rml3YXdaNGRzRVd1R2pRcjBMUVFObg?oc=5",
+      "publishedAt": "2026-06-11T12:26:41.000Z",
+      "titleEn": "IN-SPACe selects three space startups for funding under technology fund",
+      "titleZh": "IN-SPACe 根据技术基金选定三家太空初创公司进行资助",
+      "abstractEn": "IN-SPACe selects three space startups for funding under technology fund  Business Standard",
+      "abstractZh": "IN-SPACe 根据技术基金选定三家太空初创公司进行资助  《Business Standard》",
+      "authors": [
+        "Business Standard"
+      ],
+      "institution": "Business Standard",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:50cc65007e73",
+      "slug": "gnews-50cc65007e73",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaFRRTF9vcHdic1NiLXBaWjBZNHdQNDIySjB6X2xTV3QtamY5V0tMeHp1YWFkVFBCVVJ0TmplTDQxNEcteDFBSlVXMVFHNS1meGx5d3pKTGNOSW1jTDFFdW5rVlpXMDlfN1ZmWVQ3aVNDczRNNUtXVk1xLTNfajYyTzktbXFiWGZmWmNjN1Awd2xnSDd6Mlo2dHFsV1dfRjZqMHBrc0xPd3hveEhyZF9OX0JzdlQ5LTRsdE9tY3NLYURockFibEtVSDgzLXZQaVoyRXhWOQ?oc=5",
+      "publishedAt": "2026-06-11T12:24:32.000Z",
+      "titleEn": "Anthropic AI Safety Warning Meets $35B Compute Deal: Silicon Valley Cannot Slow Alone",
+      "titleZh": "Anthropic AI安全警告遇上350亿美元算力交易：硅谷无法独自减速",
+      "abstractEn": "Anthropic AI Safety Warning Meets $35B Compute Deal: Silicon Valley Cannot Slow Alone  Tech Times",
+      "abstractZh": "Anthropic AI安全警告遇上350亿美元算力交易：硅谷无法独自减速 Tech Times",
+      "authors": [
+        "Tech Times"
+      ],
+      "institution": "Tech Times",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1301,6 +1519,28 @@
       ]
     },
     {
+      "id": "gnews:9517e12f1593",
+      "slug": "gnews-9517e12f1593",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmZjLWpDNTdVX3R3MnJCNFppN3VHNEpKUmpJV0g4TmRudlh2ODdhWFctWU9fRFFrY1RKRFdqM3NPMVNPZnNUVFhUczFzbUF0X0tZXy1WbHhLOWdNT0g0WV9UMmEybkgya01XdjV5OVJ2X2VZdzlBQkM2SzVXWjFvRTFXejBxTnlJZm00?oc=5",
+      "publishedAt": "2026-06-11T10:33:55.000Z",
+      "titleEn": "Anthropic pledges more than €170 million to study AI's impact on jobs",
+      "titleZh": "Anthropic承诺投入超过1.7亿欧元研究AI对就业的影响",
+      "abstractEn": "Anthropic pledges more than €170 million to study AI's impact on jobs  Yahoo! Finance Canada",
+      "abstractZh": "Anthropic承诺投入超过1.7亿欧元研究AI对就业的影响 Yahoo! Finance Canada",
+      "authors": [
+        "Yahoo! Finance Canada"
+      ],
+      "institution": "Yahoo! Finance Canada",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:f4ad390663f3",
       "slug": "gnews-f4ad390663f3",
       "source": "Google AI News",
@@ -1358,6 +1598,28 @@
         "Fortune"
       ],
       "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:815b612cbf06",
+      "slug": "gnews-815b612cbf06",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbHhBbG9tMzM3cTh5bmpDdmlpalRlVjZGQjlraUtyTmFjUGNsZFYtbm55cnE5TDljQ3J2NEFLQlhwLW5kd0taemFiOU5GSURSeUZfcGUxeHgyeXI0bmlvMURoQlVoVFF1R3V3WlQ0MTcxZlRKanFhWFk0ajF1WmZTZmE3aVhfeGdXbjBuWHAyVnRNQjVWb0JqdVk0SDhRV2xY0gGmAUFVX3lxTE4yTnNwRDl1eE1mSENBVU05UGtRS1Z5YThRZS1SYWl5SWJqcGIyN21BdHJGakNDMTZTc1F4WTV2UWtRQXBjd3RjdWNULWVTY2FiNllNUUNWUUt5M2d0aVJINGRUTkkyNTVsZF9HRWhfTm94Y1g4N1dpYU9uQWt0OTYzQ29yTmJaei1oNTJtWENsSWNmNWpYSWViN294MzhPOG5KbXR1dXc?oc=5",
+      "publishedAt": "2026-06-11T09:50:11.000Z",
+      "titleEn": "Minister highlights urgency of specific AI laws for Indonesia",
+      "titleZh": "部长强调印尼制定专门AI法律的紧迫性",
+      "abstractEn": "Minister highlights urgency of specific AI laws for Indonesia  ANTARA News",
+      "abstractZh": "部长强调印尼制定专门AI法律的紧迫性 ANTARA News",
+      "authors": [
+        "ANTARA News"
+      ],
+      "institution": "ANTARA News",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1447,6 +1709,28 @@
         "Business Insider"
       ],
       "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f66ae17cb6a8",
+      "slug": "gnews-f66ae17cb6a8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzRfc3Mxbk1KU0FmUURLQ3diUlgzTFJoN093TGdvc05rT3lJeXZ4V2RiWDVhUEFrTnZBd0RISndEbW5WaGFfakd3SjVPeFpsNlNtSHN4NzNJY0pHZlJwM3I4V1lzMDNrT3FBWV9TenVZX0xncWI1S3ZfdllPYzhYblJmUENjb1FNVGpzQTJKelVVOXdsODBIMG5YaFpLdlNyblIxdmdRM2JjaktWMVFtOU13cXJ1R3B2a2xGMXcxQV9ZWjTSAcgBQVVfeXFMTk9iQVZxLWlpQXdnV3pZVWZKX0N5d1c1aFVEZVRRQXB5N2dfaDNUZjBEQm9mWDVhelBfaW9pcURwRHBFa3FxM0VnTFluRWpidDRuRmhUeGh5ZFE3czR4VmRuOHNJLW1HTFVmQkFLUjhEWjhLUnJ2RVczU3FOOFA1Y3ZPRWZvaXpSYTlFbXJ3bkR0cE8wNmFQMUxmdWwzWW5HOUR1ZUpPTVl1QWJTd3ZXSHYzRVQwSEh5aS1QRGpIeVdXb09BOUptLWE?oc=5",
+      "publishedAt": "2026-06-11T06:05:43.000Z",
+      "titleEn": "Anthropic CEO Dario Amodei pushes government for stronger AI regulation",
+      "titleZh": "Anthropic CEO Dario Amodei敦促政府加强AI监管",
+      "abstractEn": "Anthropic CEO Dario Amodei pushes government for stronger AI regulation  CNBC TV18",
+      "abstractZh": "Anthropic CEO Dario Amodei敦促政府加强AI监管 CNBC TV18",
+      "authors": [
+        "CNBC TV18"
+      ],
+      "institution": "CNBC TV18",
       "docType": "Blog",
       "category": "social",
       "score": 0,
