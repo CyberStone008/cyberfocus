@@ -14,6 +14,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 1. **qa-engineer 增「代码评审」层 + systematic-debugging 进两个 dev 章程**（superpowers 插件评估后的选择性采纳）：qa 从两层→三层，新增第二层「代码评审」——手工读 diff 找逻辑/正确性 bug（边界空值/口径一致/时间正确/根因/契约/静默失败），补上原 6 角色"无人读代码找逻辑 bug"的唯一真空（验收看需求、回归看构建/界面，逻辑 bug 三者都漏）。pipeline-dev/frontend-engineer 加「根因优先（root-cause-first）」铁律。详见〈开发工作流〉末「superpowers 与本 6 角色的关系」：skill 是方法不是角色、agent 调不了 skill（无 Skill 工具）、本项目刻意不采纳 TDD/frontend-design 的理由。
 
+2. **引入 vitest 单测框架 + date/dedupe/toc 回归护栏（verify 第五关）**：装 `vitest`（devDep），加 `npm test`(=`vitest run`)/`test:watch` 脚本与根目录 `vitest.config.ts`（`include: app/**/*.test.ts + scripts/**/*.test.js`、`environment:node`、`globals:false`——刻意不开全局/不改 tsconfig types，否则 next build 的 `**/*.ts` 类型检查会因缺全局类型失败）。v1 只覆盖 3 个**历史事故**纯逻辑模块，断言锁死真实坑：**date**——`2026-06-04T20:30Z` 经 `getDateKey` 须得北京 `2026-06-05` 非 UTC `06-04`（"今天只 3 条"根因）；**dedupe**——`isJunkTitle('6/9/2026')`、同实体高相似并簇(dupCount≥2)/同公司异闻不并(守保守阈值)、代表条优先(tldrZh>非Google)；**toc**——H2+紧跟英文 H3 副标题不重复、相同双语标题折叠("目录/Contents 错乱"事故）。共 26 个 `it`。`verify.sh` 在「③ validate-data」后、「双构建」前插「④ 单元测试 `npx vitest run`」（双构建顺延⑤），CI 仍只调 `verify.sh`（守单一关卡）、ci.yml 的 paths 触发列表补 `vitest.config.ts`。测试文件与源码同目录、顶部显式 `import {describe,it,expect} from 'vitest'`；out/ 不会把 *.test.* 当路由。**坑**：validate-data.js 的 C1「UTC 分组坑」扫描是对 `app/**/*.ts` 原文做子串匹配（含 *.test.ts、连注释文本也算）——测试里要造日期键别裸用 `toISOString().slice(0,10)`，一律走 `getDateKey`，注释里也别写出该字面量。
+
 ### 2026-06-10
 
 0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（product-manager/pipeline-dev/frontend-engineer/ui-designer/qa-engineer/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
@@ -61,7 +63,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 2. **并行上限 3**；任务拆分以**目录不相交**为原则（scripts/ 与 app/ 天然可并行）。
 3. **代码 vs 数据双轨**：代码改动（app/ scripts/ public/ workflows/ 配置）走 **分支 + PR + CI**（`.github/workflows/ci.yml`）；`data/` 由 cron 机器人**直推 main**，不走 PR——这是本仓库特殊性，勿改。
 4. **合并门槛**：CI 绿 + PR 模板验证证据齐全（UI 改动须 ui-designer「✅ 可合并」；重需求须 qa-engineer 验收报告全部通过；**代码量大的改动须 qa-engineer 第二层代码评审无正确性问题**；生成逻辑改动须 content-auditor 抽查）。
-5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 双构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描 + 写进本文档。
+5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 单元测试(vitest) / 双构建）。其中第五关「单元测试」= `npx vitest run`，护 date/dedupe/toc 三个纯逻辑痛点（顺序在 validate-data 之后、双构建之前，失败即非零退出不再跑构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描（或对纯逻辑模块补 *.test.ts）+ 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 7. **后台 agent 跑长任务可能撞会话额度中止**（2026-06-10 哨兵 v1 实锤）：task-notification 会显示 `completed`，但 result 是额度提示——它常停在「代码写完、未自验、未提交」的半成品节点。**绝不直接合半成品**：主会话接管时先 `git status` + 实跑 + `npm run verify` 核对 worktree 真实状态，补做全部验证、把测试污染的 state 清成干净种子，再提交+PR。所以派 dev agent 务必 **worktree 隔离**，中止也不污染主检出。
 
@@ -70,7 +72,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - **硬约束**：6 个 agent 章程的 `tools` 均**不含 Skill 工具** → spawn 出去的角色 agent **调不了** superpowers/`/code-review` 等 skill。这些 skill 只能在**主会话（编排层）**用；要让角色遵守某方法，把方法的**原则**写进它章程当普通守则（如已把 systematic-debugging 的"根因优先"写进 pipeline-dev/frontend-engineer，把 code-review 蒸馏成 qa 第二层）。
 - **已被本工作流覆盖、勿重复接入**：verification-before-completion ≈ 完工三件套+PR 证据+qa；using-git-worktrees、writing-plans、dispatching-parallel-agents、finishing-branch ≈ 现有编排/任务单/合并流。
 - **已采纳**：systematic-debugging（根因优先，进两个 dev 章程）；code-review 正确性评审（蒸馏为 qa 第二层；代码量大的 PR 主会话可另跑 `/code-review` 做 backstop）。
-- **本项目刻意不采纳（别 cargo-cult）**：① **TDD**——本仓库无单测框架，是内容管道+静态站，"测试"的本体是 `verify`（构建+数据校验+坑扫描）；采纳其精神（先写校验后写实现，已体现在 validate-data.js），不上红-绿-重构仪式。② **frontend-design（创意视觉）**——与 ui-designer"复用既有视觉语言、不发明新风格"的维护期原则冲突；仅绿地重做才用。
+- **本项目刻意不采纳（别 cargo-cult）**：① **TDD 全套仪式**——本仓库已有**轻量单测**护纯逻辑（vitest 覆盖 date/dedupe/toc，进 `verify` 第五关），但主体仍是内容管道+静态站，"测试"的本体是 `verify`（构建+数据校验+坑扫描+这层单测）；采纳其精神（先写校验/断言后写实现，已体现在 validate-data.js 与这批回归断言），**不上红-绿-重构全套仪式**、不对 UI/管道铺开单测。② **frontend-design（创意视觉）**——与 ui-designer"复用既有视觉语言、不发明新风格"的维护期原则冲突；仅绿地重做才用。
 
 ## 技术约束（踩过的坑，不要重踩）
 
