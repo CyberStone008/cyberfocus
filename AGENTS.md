@@ -22,6 +22,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 1. **iOS PWA Web Push 推送**：给把站点加到主屏幕的 iPhone 用户推"今日已更新"（走苹果 APNs，国内可达；安卓/电脑因依赖 Google FCM 收不到，故 iOS-only）。链路：`PushSubscribe.tsx`(侧栏按钮，iOS 未 standalone 时提示先加桌面)→ 订阅存 **Vercel KV**(`app/api/push/{subscribe,unsubscribe}` 动态路由，仅 Vercel server 模式运行)→ `scripts/send-push.js`(GitHub Actions 有新内容时用 `web-push`+VAPID 发送、自动清理 404/410 失效订阅)。`public/sw.js` 加 `push`/`notificationclick`(缓存升 v2)。**关键坑**：push 路由 `force-dynamic` 与 `output:export` 不兼容 → workflow 的 Pages 构建步骤会先 `rm -rf app/api/push` 再打包(Vercel server 构建保留)。**依赖配置**(否则脚本/路由自动跳过)：GitHub Secrets `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`KV_REST_API_URL`/`KV_REST_API_TOKEN`；Vercel 项目接入 KV(自动注入 KV_* 变量)。VAPID 公钥在 `app/lib/push-config.ts`(可提交)，私钥仅在 Secret。KV 客户端兼容 `KV_REST_API_*` 与 `UPSTASH_REDIS_REST_*` 两种命名。
 2. **人服机构动态「官网抓取」试点（官网双轨）**：新增 `scripts/fetch/hr-org-sites.js`，直抓 4 家机构官网（Recruit Holdings RSS / Mercer / Korn Ferry / FESCO Adecco 新闻列表页），与 Google News 第三方报道**并存**（Google News=行业报道面，官网=第一手直链）。配置在 `data/sources.json` 的 `orgSites`（**改配置不改代码**）。网络一律走 curl（同 hr-orgs.js 的坑：Node fetch 不读代理环境变量）；任一源失败仅 warn 不拖垮 pipeline。详见〈HR 机构动态〉章节。
 3. **运行期「健康哨兵」v1**（`scripts/sentinel.js` + `.github/workflows/sentinel.yml`，纯确定性、零 AI 调用）：七项检查盯跑批/源/站点/产出是否还活着。运行方式 C=搭车（update-papers 每批 `--trigger=piggyback`，continue-on-error）+ 独立晨检/周报（sentinel.yml 双批兜底 + **绝对时间闸**）。告警全部 Bark `active`（**严禁 timeSensitive**）、分组「CyberFocus哨兵」、当日去重、恢复静默只入周报；周报（周日 21:00 北京）兼任心跳。状态落盘 `data/health/`（保留 30 天）。**坑**：① update-papers 的 commit 步骤改为「committed 只看 data/health 之外的内容变化」——哨兵每批都写 state，若计入会让空批也构建；② data/health **绝不能**加进 update-papers 的 push paths。详见〈运行期哨兵〉章节。
+4. **健康仪表盘 `/health` v1**（公开只读页，零图表库）：四卡片=总览状态灯（七项 chips 聚合全部 runs，C5=worst(C5a/C5b/C5c)、过滤 WEEKLY）/源健康榜（阈值映射**复刻** `sentinel.js` buildMonitors，`app/lib/health.ts` 与之**两处改动需同步**；停用源灰显不计超阈）/近 14 天产出（state.dailyCounts，缺日空槽≠真实 0）/告警事件流（openIncidents+runs alertsSent）。数据构建时 fs 静态读取 `data/health/`，北京时刻一律固定 +8h 数学；**数据滞后是设计内行为**（哨兵落盘不触发 Pages 构建，红线勿改），页面以「数据截至」行披露。侧栏新增公开「系统」组；〈管理员 vs 访客〉补只读监控页例外口径。
 
 ### 2026-06-09
 
@@ -257,6 +258,7 @@ const isAiRelated = (title, url) => AI_PATTERNS.some(re => re.test(title + ' ' +
 
 - **访客（线上 reallylink.cn / Vercel）**：构建时设 `NEXT_PUBLIC_PUBLIC_MODE=1` → 公开**只读**。`Sidebar` 过滤掉所有 `adminOnly` 导航（信源管理），`ReportFeed` 隐藏管理按钮（添加报告/生成解读），且 `app/api/*` 全部 `if (PUBLIC_MODE==='1') return 403`。
 - **管理员（本机）**：不设 PUBLIC_MODE → 全套管理功能可用。
+- **例外口径**：只读监控页（`/health` 健康仪表盘）**公开 ≠ 管理工具**——「管理」的判别标准是**能写**（写 `data/*.json` / spawn 流水线），纯展示哨兵落盘数据的只读页归公开导航（侧栏「系统」组，非 `adminOnly`），且不依赖任何 `app/api/*`。
 
 **为什么管理只能在本地**：所有管理 API（`update-source`/`add-report`/`generate-analysis`/`trigger-fetch`）都是 `writeFileSync` 直接写仓库里的 JSON（信源 = `data/sources.json`，文章 = `data/articles.json`）或 `spawn` 流水线。这只在本机文件系统成立——**Vercel 运行时 FS 只读/临时**，写了既不持久也回不到 git。数据流向是「本地改 `data/*.json` → git → Vercel 重建」，不是反过来。所以管理后台本质是本地工具，**不要**试图在 Vercel 上做可写管理（那需要换成 GitHub API 提交或数据库后端，属于另一个量级的改造）。
 
