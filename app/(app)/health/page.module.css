@@ -257,6 +257,7 @@
 }
 
 .barFill {
+  display: block; /* span 默认 inline，width/height 无效 → 色条画不出（走查实锤 fillW:0） */
   height: 100%;
   border-radius: 3px;
 }
