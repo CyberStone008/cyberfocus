@@ -1,19 +1,604 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-10T22:53:10.678Z",
+  "generatedAt": "2026-06-11T06:06:18.959Z",
   "summary": {
     "aiNews": [
-      "Anthropic CEO Amodei建议用全民基本收入抵消AI导致的失业，并承诺投入2亿美元研究AI经济影响。",
-      "谷歌开源AI模型DiffusionGemma实现4倍速度提升，新一轮降价令OpenAI和Anthropic承压。",
-      "Anthropic提出具有政府否决权的AI安全框架，呼吁对强大AI模型实施FAA式监管。"
+      "OpenAI考虑降价与Anthropic争夺用户，竞争加剧或影响AI服务定价格局。",
+      "Anthropic新模型Fable 5因过度拒绝无害提示及反蒸馏机制误触率高，引发用户强烈反对。",
+      "Meshy发布全球首个3D AI Agent，被视为3D创作领域的ChatGPT时刻。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup第三季度招聘前景疲软，引发对AI技能溢价是否改变投资者看法的质疑。",
-      "Indeed数据显示夏季招聘放缓，对年轻工人造成又一打击，劳动力市场降温信号明显。"
+      "ManpowerGroup第三季度招聘前景疲软，投资者质疑AI技能溢价是否仍成立。",
+      "Indeed数据显示夏季招聘放缓，年轻工人就业市场再受打击。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48486486",
+      "slug": "hn-48486486-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48486486",
+      "publishedAt": "2026-06-11T05:16:42.000Z",
+      "titleEn": "OpenAI mulls slashing prices as it competes with Anthropic for users",
+      "titleZh": "OpenAI 考虑降价以与 Anthropic 争夺用户",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "agentifysh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 32,
+      "commentCount": 22,
+      "tags": []
+    },
+    {
+      "id": "hn:48486411",
+      "slug": "hn-48486411-adafruit-files-suit-against-flux-ai-over-legal-threats-pdf",
+      "source": "Hacker News",
+      "sourceUrl": "https://storage.courtlistener.com/recap/gov.uscourts.cand.471648/gov.uscourts.cand.471648.1.0.pdf",
+      "commentUrl": "https://news.ycombinator.com/item?id=48486411",
+      "publishedAt": "2026-06-11T05:01:57.000Z",
+      "titleEn": "Adafruit files suit against Flux.ai over legal threats [pdf]",
+      "titleZh": "Adafruit 因法律威胁起诉 Flux.ai [pdf]",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "russdill"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48486370",
+      "slug": "hn-48486370-it-blocked-us-at-hello-anthropic-fable-5-refusing-innocuous-prompts",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/06/10/anthropic-claude-fable-5-refuses-innocuous-prompts/5253754",
+      "commentUrl": "https://news.ycombinator.com/item?id=48486370",
+      "publishedAt": "2026-06-11T04:54:52.000Z",
+      "titleEn": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
+      "titleZh": "它从‘你好’就阻止我们：Anthropic 的 Fable 5 拒绝无害提示",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "abliterationai"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48486313",
+      "slug": "hn-48486313-terms-of-service-ban-ai-agents-from-using-stack-overflow-for-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://meta.stackoverflow.com/questions/438910/introducing-stack-overflow-for-agents",
+      "commentUrl": "https://news.ycombinator.com/item?id=48486313",
+      "publishedAt": "2026-06-11T04:44:06.000Z",
+      "titleEn": "Terms of Service Ban AI Agents from Using Stack Overflow for Agents",
+      "titleZh": "服务条款禁止 AI 代理使用 Stack Overflow for Agents",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nomilk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:423b36c358d0",
+      "slug": "gnews-423b36c358d0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRnM0Vzd4SGJ4NW9SdXBodWZZZ2ZUbnNxNlpmVEVvMmNhaGV0cHEwOFI1WWluRW95aW8zWGR6V1B4MnpkWF9DTXlkOW1LXzhPOFljUkVwNG1ycXRwcEpQaHFCMFAxVnM2V0d2eGFvODdPcUIzOHh6dA?oc=5",
+      "publishedAt": "2026-06-11T04:20:39.000Z",
+      "titleEn": "On AI Safety Concerns, Mark Carney Is Out of Step with Canadians",
+      "titleZh": "关于 AI 安全问题，Mark Carney 与加拿大人意见相左",
+      "abstractEn": "On AI Safety Concerns, Mark Carney Is Out of Step with Canadians  The Tyee",
+      "abstractZh": "关于 AI 安全问题，Mark Carney 与加拿大人意见相左  The Tyee",
+      "authors": [
+        "The Tyee"
+      ],
+      "institution": "The Tyee",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434317-html",
+      "slug": "3d-chatgpt-meshy-3d-ai-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434317.html",
+      "publishedAt": "2026-06-11T04:18:34.000Z",
+      "titleEn": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+      "titleZh": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+      "abstractEn": "Meshy发布全球首个3D AI Agent",
+      "abstractZh": "Meshy发布全球首个3D AI Agent",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434326-html",
+      "slug": "fable-5",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434326.html",
+      "publishedAt": "2026-06-11T04:16:20.000Z",
+      "titleEn": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+      "titleZh": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+      "abstractEn": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+      "abstractZh": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434298-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434298.html",
+      "publishedAt": "2026-06-11T04:07:32.000Z",
+      "titleEn": "AI短剧工具赛道，年度最大单笔融资来了",
+      "titleZh": "AI短剧工具赛道，年度最大单笔融资来了",
+      "abstractEn": "年度最大单笔融资来了",
+      "abstractZh": "年度最大单笔融资来了",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-n8n8vhfmovfkdkww-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/n8n8vHFMOvFkDKWw.html",
+      "publishedAt": "2026-06-11T04:01:00.000Z",
+      "titleEn": "淘宝闪购升级“新店成长体系”，扶持中小商家数字化起步",
+      "titleZh": "淘宝闪购升级“新店成长体系”，扶持中小商家数字化起步",
+      "abstractEn": "6月11日，淘宝闪购正式面向餐饮商家推出全新的“新店成长任务体系”及系列配套扶持举措。此次升级旨在通过清晰的成长路径指引、全面加码的流量权益，以及一站式AI经营能力的深度赋能，帮助新入驻商家打破“冷启动”难题，铺设一条从“起步探索”到“稳健增长”的确定性经营之路，进一步激发餐饮行业在即时零售领域的增长活力。\n \n构建透明化成长体系，锚定新店确定性增长路径\n过去一年，即时零售行业规模快速扩张，淘宝闪购活跃商家数量突破700万。随着商家基数扩大，如何更好帮助新店“活下来、活得好”，成为构建行业健康可持续生态的关键。淘宝闪购提供的更清晰、更确定、更智能的成长体系和扶持举措，可以助力提升更多萌芽小店的存活率。\n据介绍，新版成长体系较过去更精细化地划分为五个阶段。根据各阶段的目标，新体系将复杂的运营逻辑拆解为清晰可视的阶梯式成长任务，例如营业天数达标、好评积累等。商家每达成一个成长任务，即可实时解锁",
+      "abstractZh": "6月11日，淘宝闪购正式面向餐饮商家推出全新的“新店成长任务体系”及系列配套扶持举措。此次升级旨在通过清晰的成长路径指引、全面加码的流量权益，以及一站式AI经营能力的深度赋能，帮助新入驻商家打破“冷启动”难题，铺设一条从“起步探索”到“稳健增长”的确定性经营之路，进一步激发餐饮行业在即时零售领域的增长活力。\n构建透明化成长体系，锚定新店确定性增长路径\n过去一年，即时零售行业规模快速扩张，淘宝闪购活跃商家数量突破700万。随着商家基数扩大，如何更好帮助新店“活下来、活得好”，成为构建行业健康可持续生态的关键。淘宝闪购提供的更清晰、更确定、更智能的成长体系和扶持举措，可以助力提升更多萌芽小店的存活率。\n据介绍，新版成长体系较过去更精细化地划分为五个阶段。根据各阶段的目标，新体系将复杂的运营逻",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-dvz76xnimms03mgz-html",
+      "slug": "cvpr-2026-5-1-3",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/dvz76xNimms03Mgz.html",
+      "publishedAt": "2026-06-11T03:49:00.000Z",
+      "titleEn": "CVPR 2026终极盘点：这5篇论文、1个演讲、3个展台，藏着计算机视觉下一个十年的答案",
+      "titleZh": "CVPR 2026终极盘点：这5篇论文、1个演讲、3个展台，藏着计算机视觉下一个十年的答案",
+      "abstractEn": "视觉-语言与多模态LLM论文占比一年飙涨5.7个百分点，CVPR正以前所未有的速度把具身智能推上主赛道。\n\n\n\n\n\n    作者丨陈淑瑜\n\n    编辑丨岑峰\n                                                                                                               \n\n\n16,092篇投稿，4,071篇录用，25.3%录取率，今年的CVPR创下了多项历史纪录。\n但比数字更具风向标意义的是行业风向：5篇获奖论文中至少3篇直指具身智能；展台上NVIDIA和Tesla正合力把机器人从实验室推向商业化；一场关于“可编程生物学”的重磅演讲，则彻底打破了计算机视觉与传统药物设计的边界。\n如果你没能亲自前往丹佛，这篇全景盘点将带你用最短的时间，一眼看透本届大会的全部精髓。\n\n\n\n\n01\n5",
+      "abstractZh": "视觉-语言与多模态LLM论文占比一年飙涨5.7个百分点，CVPR正以前所未有的速度把具身智能推上主赛道。\n\n作者丨陈淑瑜\n\n编辑丨岑峰\n\n16,092篇投稿，4,071篇录用，25.3%录取率，今年的CVPR创下了多项历史纪录。\n但比数字更具风向标意义的是行业风向：5篇获奖论文中至少3篇直指具身智能；展台上NVIDIA和Tesla正合力把机器人从实验室推向商业化；一场关于“可编程生物学”的重磅演讲，则彻底打破了计算机视觉与传统药物设计的边界。",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48485958",
+      "slug": "hn-48485958-anthropic-walks-back-policy-that-could-have-sabotaged-researchers-us",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48485958",
+      "publishedAt": "2026-06-11T03:41:06.000Z",
+      "titleEn": "Anthropic Walks Back Policy That Could Have 'Sabotaged' Researchers Using Claude",
+      "titleZh": "Anthropic 撤回可能‘破坏’使用 Claude 的研究人员的政策",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ericflo"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 30,
+      "commentCount": 13,
+      "tags": []
+    },
+    {
+      "id": "hn:48485889",
+      "slug": "hn-48485889-the-backlash-against-ai-in-4-charts",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.fastcompany.com/91553925/the-backlash-against-ai-in-4-charts",
+      "commentUrl": "https://news.ycombinator.com/item?id=48485889",
+      "publishedAt": "2026-06-11T03:26:40.000Z",
+      "titleEn": "The backlash against AI, in 4 charts",
+      "titleZh": "对 AI 的抵制：四张图表解读",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "1vuio0pswjnm7"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 9,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:8e18caa8e09f",
+      "slug": "gnews-8e18caa8e09f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd09NdEpKY2pWLTJsVmtMS2JDVVRGbks1OE10X2xPLXZONmZTWm9ndlJyRVRfNGNvUW14b05EYVcyOFI4TlhvaG5pYlRDV3dweGNPNTQ3RmhCMzc5OER1Yll2emhZTmlCbXh2LS05VjY1VlRqQ2VWRmxwU0Y1cVc0cF9OTDJVQQ?oc=5",
+      "publishedAt": "2026-06-11T02:53:00.000Z",
+      "titleEn": "Anthropic’s New Fable AI Model Is Met With User Backlash Over Restrictions",
+      "titleZh": "Anthropic新推出的Fable AI模型因限制措施引发用户强烈反对",
+      "abstractEn": "Anthropic’s New Fable AI Model Is Met With User Backlash Over Restrictions  WSJ",
+      "abstractZh": "Anthropic新推出的Fable AI模型因限制措施引发用户强烈反对  华尔街日报",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434267-html",
+      "slug": "i-o",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434267.html",
+      "publishedAt": "2026-06-11T02:46:41.000Z",
+      "titleEn": "谷歌I/O最出圈的一幕，发生在抖音？？？",
+      "titleZh": "谷歌I/O最出圈的一幕，发生在抖音？？？",
+      "abstractEn": "看12位抖音创作者如何”翻译“AI",
+      "abstractZh": "看12位抖音创作者如何”翻译“AI",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:ac105ddc0192",
+      "slug": "gnews-ac105ddc0192",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFlQb3NWek5rd0VSRlhOS3FoYjJIclVyWU9kMHNBeGJjMkVnN0dfb3J3ZEVlSXVPV2YzY28xRHpZUU1nQmtFNnl4NVhTRE5pWTF2R0hlZ0tsQzFVbTlTZ2dRdmtweWV4VFJNNklYc3dwcUNNc3EwLVU4bmhIQkFTc1VsYml6Y3hoald2clJBZXZucWJTZVpyLWFRRGZqV3ZqVUlSN3E2WVRVTWxIYzNGZ3l4cw?oc=5",
+      "publishedAt": "2026-06-11T02:24:32.000Z",
+      "titleEn": "Dario Amodei says AI regulation needs enforcement, transparency alone not enough",
+      "titleZh": "Dario Amodei 称 AI 监管需要强制执行，仅靠透明度不够",
+      "abstractEn": "Dario Amodei says AI regulation needs enforcement, transparency alone not enough  디지털투데이",
+      "abstractZh": "Dario Amodei 称 AI 监管需要强制执行，仅靠透明度不够  디지털투데이",
+      "authors": [
+        "디지털투데이"
+      ],
+      "institution": "디지털투데이",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-u8aj9qfqvhnafoj2-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/U8aJ9qfqvhNAFoJ2.html",
+      "publishedAt": "2026-06-11T02:16:00.000Z",
+      "titleEn": "拒绝被剧透！解密大型赛事直播背后的超低延迟黑科技",
+      "titleZh": "拒绝被剧透！解密大型赛事直播背后的超低延迟黑科技",
+      "abstractEn": "隔壁已经欢呼，自己的直播还在回传球——这是无数球迷在大型赛事中最怕遇到的瞬间。\n大型赛事最怕的不是卡顿，是慢那一秒\n进球、绝杀、点球大战，每个关键时刻都只有一次情绪爆发机会。越是热门比赛，观众越追求实时；但海量用户同时在线、超高清码率、跨终端播放，每增加一层负担，端到端延迟就越容易失控。真正的难点不是“播出来”，而是在千万级并发下，依然把延迟稳定压低。\n火山引擎RTM ：把端到端延迟压进1秒\n以往用手机看球，总有一种“慢半拍”的憋屈——这边刚看到射门，朋友圈里已经刷屏“进了”。这是因为目前国内主流直播协议如FLV，容易受网络抖动影响，延迟通常高达3-10秒。火山引擎的超低延时直播技术RTM，将端到端延迟压缩到了1秒以内。这意味着，当你看到球入网的那一刻，隔壁房间的欢呼几乎同时响起，不会再出现“先听到叫声、后看到进球”的错位感。\n更重要的是，这项技术用起来毫无负担。RTM兼容直播现有的转码、",
+      "abstractZh": "隔壁已经欢呼，自己的直播还在回传球——这是无数球迷在大型赛事中最怕遇到的瞬间。\n大型赛事最怕的不是卡顿，是慢那一秒\n进球、绝杀、点球大战，每个关键时刻都只有一次情绪爆发机会。越是热门比赛，观众越追求实时；但海量用户同时在线、超高清码率、跨终端播放，每增加一层负担，端到端延迟就越容易失控。真正的难点不是“播出来”，而是在千万级并发下，依然把延迟稳定压低。\n火山引擎RTM ：把端到端延迟压进1秒\n以往用手机看球，总有一种“慢半拍”的憋屈——这边刚看到射门，朋友圈里已经刷屏“进了”。这是因为目前国内主流直播协议如FLV，容易受网络抖动影响，延迟通常高达3-10秒。火山引擎的超低延时直播技术RTM，将端到端延迟压缩到了1秒以内。这意味着，当你看到球入网的那一刻，隔壁房间的欢呼几乎同时响起，不会再出现",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434268-html",
+      "slug": "ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434268.html",
+      "publishedAt": "2026-06-11T02:08:25.000Z",
+      "titleEn": "行业首创AI志愿填报+真人专家验真，百度全新升级高考服务",
+      "titleZh": "行业首创AI志愿填报+真人专家验真，百度全新升级高考服务",
+      "abstractEn": "全新的AI志愿报告",
+      "abstractZh": "全新的AI志愿报告",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-ea4a0xaq1pm3teqm-html",
+      "slug": "92-ceo",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/EA4A0xaQ1pM3TeQM.html",
+      "publishedAt": "2026-06-11T02:08:00.000Z",
+      "titleEn": "钉钉换帅 92年技术极客陈宇森接任钉钉CEO",
+      "titleZh": "钉钉换帅 92年技术极客陈宇森接任钉钉CEO",
+      "abstractEn": "6月11日，阿里巴巴宣布钉钉管理层调整：陈航卸任钉钉CEO，92年技术极客陈宇森接棒。\n \n10日，阿里巴巴合伙人委员会在公司内网发布帖文《有情有义有成长，才是阿里文化》，对近日钉钉离职员工长文《置身钉内》引发的讨论表达了鲜明的态度。合伙人委员会以严厉的措辞批评了钉钉团队的管理方式，直接指出这\"不是阿里文化该有的样子\"。紧接着，阿里集团宣布了对钉钉管理层的调整。\n \n陈宇森生于1992年，是年少成名的技术极客，也是技术型连续创业者，入选福布斯亚洲“30 Under 30“榜单。他曾在国内外顶级计算机赛事中屡获冠军，22岁时创办的网络安全公司长亭科技被阿里云收购。作为一名兼具技术实力与商业判断力的年轻管理者，他2025年在阿里云内部创业，带领研发了AI Agent产品MuleRun。\n \n接任钉钉CEO后，陈宇森成为阿里巴巴最年轻的事业部CEO。 \n \n近期，阿里巴巴持续迭代组织与管理方式，",
+      "abstractZh": "6月11日，阿里巴巴宣布钉钉管理层调整：陈航卸任钉钉CEO，92年技术极客陈宇森接棒。\n10日，阿里巴巴合伙人委员会在公司内网发布帖文《有情有义有成长，才是阿里文化》，对近日钉钉离职员工长文《置身钉内》引发的讨论表达了鲜明的态度。合伙人委员会以严厉的措辞批评了钉钉团队的管理方式，直接指出这'不是阿里文化该有的样子'。紧接着，阿里集团宣布了对钉钉管理层的调整。\n陈宇森生于1992年，是年少成名的技术极客，也是技术型连续创业者，入选福布斯亚洲“30 Under 30“榜单。他曾在国内外顶级计算机赛事中屡获冠军，22岁时创办的网络安全公司长亭科技被阿里云收购。作为一名兼具技术实力与商业判断力的年轻管理者，他2025年在阿里云内部创业，带领研发了AI Agent产品MuleRun。\n接任",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-vrbrqcub585dkhxq-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/VrBrQcuB585dkhXq.html",
+      "publishedAt": "2026-06-11T02:07:00.000Z",
+      "titleEn": "阿里合伙人委员会内网发帖：钉钉管理“不是阿里文化该有的样子\"",
+      "titleZh": "阿里合伙人委员会内网发帖：钉钉管理“不是阿里文化该有的样子”",
+      "abstractEn": "6月10日，阿里巴巴合伙人委员会在公司内网发布帖文《有情有义有成长，才是阿里文化》，对近日钉钉前产品经理离职长文《置身钉内》引发的讨论表达了清晰的态度。帖文以严厉的措辞批评了钉钉团队的管理方式，直接指出这\"不是阿里文化该有的样子\"。 \n \n在批评之外，合伙人委员会的帖文阐述了阿里文化应当坚持的方向。\"相互尊重，视人为人，有情有义\"是阿里的文化底色，\"无论时代如何改变，技术如何发展\"，底色都一定不能改变。\n \n此前，钉钉的管理风格曾多次引发外部讨论。合伙人组织进行了认真讨论并形成一致判断，强调\"无论什么情况下，无论任务多么紧迫\"都不应该出现这种管理，“这不是阿里文化倡导的方向”。\n \n帖文指出，AI时代创新依靠的不是\"高压和机械执行\"，而是员工的热爱和创造力，只有充分尊重员工个体价值，才能真正创造客户价值。管理者的职责是\"远见、主动担当、团结和激励团队\"，\"培养人激发人是每个leader的责",
+      "abstractZh": "6月10日，阿里巴巴合伙人委员会在公司内网发布帖文《有情有义有成长，才是阿里文化》，对近日钉钉前产品经理离职长文《置身钉内》引发的讨论表达了清晰的态度。帖文以严厉的措辞批评了钉钉团队的管理方式，直接指出这“不是阿里文化该有的样子”。在批评之外，合伙人委员会的帖文阐述了阿里文化应当坚持的方向。“相互尊重，视人为人，有情有义”是阿里的文化底色，“无论时代如何改变，技术如何发展”，底色都一定不能改变。此前，钉钉的管理风格曾多次引发外部讨论。合伙人组织进行了认真讨论并形成一致判断，强调“无论什么情况下，无论任务多么紧迫”都不应该出现这种管理，“这不是阿里文化倡导的方向”。帖文指出，AI时代创新依靠的不是“高压和机械执行”，而是员工的热爱和创造力，只有充分尊重员工个体价值，才能真正",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:34fb9eae7a4e",
+      "slug": "gnews-34fb9eae7a4e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE40eW9MSDg3RTVrM1hVSUNoNXl0VHNpbTM3SVRUZ1BDUUtCUUwyZXdfb3VlU1lEcUl4RkZydTV6R1ljdy12ajltd1R4LXU?oc=5",
+      "publishedAt": "2026-06-11T01:24:10.000Z",
+      "titleEn": "Video Exclusive: Anthropic CEO explains his latest AI warning - ABC News",
+      "titleZh": "视频独家：Anthropic CEO解释其最新AI警告 - ABC新闻",
+      "abstractEn": "Video Exclusive: Anthropic CEO explains his latest AI warning  ABC News - Breaking News, Latest News and Videos",
+      "abstractZh": "视频独家：Anthropic CEO解释其最新AI警告  ABC新闻 - 突发新闻、最新新闻和视频",
+      "authors": [
+        "Breaking News, Latest News and Videos"
+      ],
+      "institution": "Breaking News, Latest News and Videos",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434225-html",
+      "slug": "1t-1000-tokens-vibe-coding",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434225.html",
+      "publishedAt": "2026-06-11T01:18:16.000Z",
+      "titleEn": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+      "titleZh": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+      "abstractEn": "通用GPU就能实现",
+      "abstractZh": "通用GPU就能实现",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:f87b2e7fd771",
+      "slug": "gnews-f87b2e7fd771",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbElUTEFLby15cG1KMExDMnFIMGk4U180RmZXWWY5dWNrQUNmV1lEV0s0V0I3d1dBLTRNcUhGeDdFZ0pFSndVNGo1N0VjWTcweFVmUUY2WWd2SThpMDlPRzZaMnFzSm9qSjlQOXpKNzgtY18taDRjUGlBUm55Q1F5Ynl3ZjFOd1E0RTNnX0JGR2kwUFp3YXRjRk9VZHRTY1ZUM0Utbmc5TXFnZTNnUG11eE05ejRmSUt2d0lBTzgzdlRlYXdjZWc?oc=5",
+      "publishedAt": "2026-06-11T01:18:00.000Z",
+      "titleEn": "Anthropic CEO calls for stronger regulation of AI - ABCNews",
+      "titleZh": "Anthropic CEO呼吁加强对AI的监管 - ABC新闻",
+      "abstractEn": "Anthropic CEO calls for stronger regulation of AI - ABCNews  TradingView",
+      "abstractZh": "Anthropic CEO呼吁加强对AI的监管 - ABC新闻  TradingView",
+      "authors": [
+        "TradingView"
+      ],
+      "institution": "TradingView",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0ce253f09228",
+      "slug": "gnews-0ce253f09228",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
+      "publishedAt": "2026-06-11T01:03:28.000Z",
+      "titleEn": "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News",
+      "titleZh": "独家：Anthropic CEO呼吁加强对AI的监管 - ABC新闻",
+      "abstractEn": "Exclusive: Anthropic CEO calls for stronger regulation of AI  ABC News - Breaking News, Latest News and Videos",
+      "abstractZh": "独家：Anthropic CEO呼吁加强对AI的监管  ABC新闻 - 突发新闻、最新新闻和视频",
+      "authors": [
+        "Breaking News, Latest News and Videos"
+      ],
+      "institution": "Breaking News, Latest News and Videos",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:03e193bdac9b",
+      "slug": "gnews-03e193bdac9b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5iRl9EbEFSSTRLU1c5MzdQQTVmTERmYU5HaVBDUHN6dVZndThLUlhBN2xhZUJ2anRDc1RXU0pQWVNGWlV0Z0R1a1o2ZUFiSXdrTEIteXlhMG9ObkJ5SjJCZlFHbWc2VjJzM2ducE9nTmxwQV9neTY1LVh3?oc=5",
+      "publishedAt": "2026-06-11T00:18:08.000Z",
+      "titleEn": "Anthropic CEO says AI growth is exponential. Anthropic research says otherwise.",
+      "titleZh": "Anthropic CEO称AI增长呈指数级，但Anthropic研究却显示相反",
+      "abstractEn": "Anthropic CEO says AI growth is exponential. Anthropic research says otherwise.  Mashable",
+      "abstractZh": "Anthropic CEO称AI增长呈指数级，但Anthropic研究却显示相反  Mashable",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48484606",
+      "slug": "hn-48484606-antirez-on-x-i-believe-what-anthropic-is-doing-is-deeply-wrong",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/antirez/status/2064766429887352971",
+      "commentUrl": "https://news.ycombinator.com/item?id=48484606",
+      "publishedAt": "2026-06-11T00:13:06.000Z",
+      "titleEn": "Antirez on X: I believe what Anthropic is doing is *deeply* wrong",
+      "titleZh": "Antirez 在 X 上表示：我认为 Anthropic 的做法 *严重* 错误",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ethanpil"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 34,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:66989b0b3981",
+      "slug": "gnews-66989b0b3981",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6TUdEYUlSOHpvZXVHRUVvV3NnandtdEZScVY1WWJmSURNX3JLOHVCYUozMW04SC1kaF82UUhCbzdzMlkzSFB6dzR1WXhxUkVxVDg5YTlYdEZwNGRvT1VhakxsUWNxREpfYkwyNmF3ZFh1dGt4all3?oc=5",
+      "publishedAt": "2026-06-11T00:11:31.000Z",
+      "titleEn": "FSB Agentic AI Financial Regulation 2025: What Investors Must Know",
+      "titleZh": "FSB 代理型 AI 金融监管 2025：投资者须知",
+      "abstractEn": "FSB Agentic AI Financial Regulation 2025: What Investors Must Know  Intellectia AI",
+      "abstractZh": "FSB 代理型 AI 金融监管 2025：投资者须知  Intellectia AI",
+      "authors": [
+        "Intellectia AI"
+      ],
+      "institution": "Intellectia AI",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48484584",
+      "slug": "hn-48484584-ai-agent-runs-amok-in-fedora-and-elsewhere",
+      "source": "Hacker News",
+      "sourceUrl": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48484584",
+      "publishedAt": "2026-06-11T00:10:08.000Z",
+      "titleEn": "AI agent runs amok in Fedora and elsewhere",
+      "titleZh": "AI 代理在 Fedora 及其他系统中失控",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tanelpoder"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 289,
+      "commentCount": 81,
+      "tags": []
+    },
+    {
+      "id": "hn:48484282",
+      "slug": "hn-48484282-deficient-executive-control-in-transformer-attention",
+      "source": "Hacker News",
+      "sourceUrl": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
+      "commentUrl": "https://news.ycombinator.com/item?id=48484282",
+      "publishedAt": "2026-06-10T23:35:01.000Z",
+      "titleEn": "Deficient executive control in transformer attention",
+      "titleZh": "Transformer 注意力机制中的执行控制缺陷",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "derbOac"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 30,
+      "commentCount": 10,
+      "tags": []
+    },
     {
       "id": "gnews:2c23c6a73d62",
       "slug": "gnews-2c23c6a73d62",
@@ -28,6 +613,28 @@
         "Business Insider"
       ],
       "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0bec50d4f798",
+      "slug": "gnews-0bec50d4f798",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDVXdGFSTEZnSHFqLTlwU09JTEFYTGdzTnRuT2ZrTlFCb2d5Z1Z2X3NNdGZCQ3A5SG9pWkFmREJnQnBlM2Y2VkJPcGYxUDZOV0lsS21XOXpCUjBuR2ZSZ25fUS1QOWdyb0FlSmNvTVNQcEdfaVB6NVhmbnFWZkRwcXNTRjZFS1BwWTE0SXFLR0x5RU9Ick9qN2ZxcTc2VGp6ZnVlb01PWnFxNC1DSHJJ?oc=5",
+      "publishedAt": "2026-06-10T21:53:20.000Z",
+      "titleEn": "AI, Creative Destruction, And The Politicization Of Economic Change – OpEd",
+      "titleZh": "AI、创造性破坏与经济变革的政治化——观点评论",
+      "abstractEn": "AI, Creative Destruction, And The Politicization Of Economic Change – OpEd  Eurasia Review",
+      "abstractZh": "AI、创造性破坏与经济变革的政治化——观点评论  欧亚评论",
+      "authors": [
+        "Eurasia Review"
+      ],
+      "institution": "Eurasia Review",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -93,6 +700,28 @@
         "mezha.net"
       ],
       "institution": "mezha.net",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a8bf8957d8eb",
+      "slug": "gnews-a8bf8957d8eb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QYkFqQnlya1dWTGRScG93bXJsSTlqRE1jMHQtbHM2ZEYxWXBmNDBOTng2SU9mWHpPY0d2OV9kZWg4UzZGdFdJSFFzSUZ4ZWRROFZlUUdMalNaV044T2tfcUNkdHFWN0VMN3pJVjNvOTRJS1dpRlNzVg?oc=5",
+      "publishedAt": "2026-06-10T21:24:54.000Z",
+      "titleEn": "Anthropic AI policy frameworks: frontier safety rules",
+      "titleZh": "Anthropic AI 政策框架：前沿安全规则",
+      "abstractEn": "Anthropic AI policy frameworks: frontier safety rules  The Cryptonomist",
+      "abstractZh": "Anthropic AI 政策框架：前沿安全规则  The Cryptonomist",
+      "authors": [
+        "The Cryptonomist"
+      ],
+      "institution": "The Cryptonomist",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -168,6 +797,27 @@
       ]
     },
     {
+      "id": "hn:48482043",
+      "slug": "hn-48482043-prc-linked-influence-operations-are-targeting-ai-debates-in-the-us",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48482043",
+      "publishedAt": "2026-06-10T20:17:37.000Z",
+      "titleEn": "PRC-linked influence operations are targeting AI debates in the US",
+      "titleZh": "与 PRC 相关的影响力行动正针对美国 AI 辩论",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "amrrs"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 14,
+      "commentCount": 11,
+      "tags": []
+    },
+    {
       "id": "gnews:f4c686120f16",
       "slug": "gnews-f4c686120f16",
       "source": "Google AI News",
@@ -181,6 +831,28 @@
         "Transparency Coalition"
       ],
       "institution": "Transparency Coalition",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9477509a05fe",
+      "slug": "gnews-9477509a05fe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmc4bnlySl9KRWNrbTdjWmU5SjdFMU9IdlhiVFRnTkVmc3hKVk9aVWxmY0U4cEE3U1FqbGFfc1VxQ3BQWTR2dVUwd0JmaUNVTDROeXBiM0xIc0pEMzk0SnFtZ3FaYzZaM19scEliOXNQZzVmREtvYTdJQ19fVXMwWU5GNlR4djAydDBFa016dGxWT0RNSkozc1930gFeQVVfeXFMUHZvczZJZk5mRVVvX2F3WWpsSDBrQWt0bldMZzRTUkcxNWpOREJVQW1xMmhGS0RFN3VDcjk5bUZ5ZkJ1Q0hwX2hfUzlKc2hGN08xaEEwblc0bVNQTTI3dw?oc=5",
+      "publishedAt": "2026-06-10T20:02:00.000Z",
+      "titleEn": "Patent AI Startup Fearn Raises $5.5M Seed Funding",
+      "titleZh": "专利 AI 初创公司 Fearn 获 550 万美元种子轮融资",
+      "abstractEn": "Patent AI Startup Fearn Raises $5.5M Seed Funding  Law360",
+      "abstractZh": "专利 AI 初创公司 Fearn 获 550 万美元种子轮融资  Law360",
+      "authors": [
+        "Law360"
+      ],
+      "institution": "Law360",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -247,6 +919,28 @@
         "Devdiscourse"
       ],
       "institution": "Devdiscourse",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:663990630d53",
+      "slug": "gnews-663990630d53",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeThBS29nNTJnQWxiOEp2Z2pScUN6dmNIcHRRU3pCSkl6MDBzMjlJR3dDRHJ2aE5haUlxMG0wcjNiVHVWaU8wd3E0am9UQ05XMVkySHNsbjRGX2R5cHZXQWRMX29jQmFrYzFDcHlWV2UtQ2F5d0JGYmVFTkRJS2l2RXAwVW9sNHN5UnIxT2x6a1pHTlhxeUQwV2hR0gGYAUFVX3lxTE5XUTUzVk03eG9xOElhX1VQYWJGaktNUHVJenVfWGE1Tk1XekZQekZ0S3lmbEt2b1puMVRnazVKSEprSjFPbkI2Z3Q0bGRxZUEwRWRiZG9xUTRXN05FVGE0X0h6VXFQeVhJNF9WaHBoek5DUEE0S040S1ZZWi13OGRWZkR5WWlOR29NNmNET2Y0bG9ta0dzTkVH?oc=5",
+      "publishedAt": "2026-06-10T19:35:43.000Z",
+      "titleEn": "AI regulation in Africa: why copying the European model won’t work",
+      "titleZh": "非洲的 AI 监管：为何照搬欧洲模式行不通",
+      "abstractEn": "AI regulation in Africa: why copying the European model won’t work  Modern Ghana",
+      "abstractZh": "非洲的 AI 监管：为何照搬欧洲模式行不通  Modern Ghana",
+      "authors": [
+        "Modern Ghana"
+      ],
+      "institution": "Modern Ghana",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -540,6 +1234,28 @@
       ]
     },
     {
+      "id": "gnews:d203c8a54202",
+      "slug": "gnews-d203c8a54202",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYXhYbms3WGVpeVBaMlVLd1hyTzU4NGpMcmYxeWNWQWFkSVBxM0tnQVMyNWtORks0SlB3ZE5FekdVMzhqVS1UNHp6UUlwaGtQOHJhdkRBdWpGOVBkTDRZeFlYSElTRE8tM1dBdzQzRzAwOWRBZ0VsdFd1b0toWm9kLUNYdW8wX1phUFhqeEh3LUNteWxVaXI4M2ltZHVCVVQxNWhkNDBIanRaNWc?oc=5",
+      "publishedAt": "2026-06-10T17:43:00.000Z",
+      "titleEn": "Anthropic accused of ‘secret sabotage’ as Claude Fable 5 silently limits capabilities for AI researchers and developers",
+      "titleZh": "Anthropic被指控“秘密破坏”：Claude Fable 5悄然限制AI研究人员和开发者的能力",
+      "abstractEn": "Anthropic accused of ‘secret sabotage’ as Claude Fable 5 silently limits capabilities for AI researchers and developers  Fortune",
+      "abstractZh": "Anthropic被指控“秘密破坏”：Claude Fable 5悄然限制AI研究人员和开发者的能力  财富杂志",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:dd42041cb601",
       "slug": "gnews-dd42041cb601",
       "source": "Google AI News",
@@ -733,6 +1449,28 @@
       "tags": []
     },
     {
+      "id": "gnews:0ceb51fd79d7",
+      "slug": "gnews-0ceb51fd79d7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRUM5N01kYjVHRHZNX1FzeG1pbUJYR25HVG1raGN0YkplRldOMVM5LXZwYl9QeDVoQQ?oc=5",
+      "publishedAt": "2026-06-10T15:46:58.000Z",
+      "titleEn": "Using Claude Fable 5 means your data will be collected. It’s not optional.",
+      "titleZh": "使用Claude Fable 5意味着你的数据将被收集，且无法选择",
+      "abstractEn": "Using Claude Fable 5 means your data will be collected. It’s not optional.  Mashable",
+      "abstractZh": "使用Claude Fable 5意味着你的数据将被收集，且无法选择  Mashable",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:47583fec19dd",
       "slug": "gnews-47583fec19dd",
       "source": "Google AI News",
@@ -810,6 +1548,28 @@
         "Kitsap Daily News"
       ],
       "institution": "Kitsap Daily News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e8f2a31d575d",
+      "slug": "gnews-e8f2a31d575d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVV5SmdxcS1kbEE1OFRtRzROUVBKWEpqam9jb1BtZzJrR1NsaFprR3lTUzJXdE5ydGd6amhia3dBT1d6SWRTVjVaZVh6dTlmYXUyR2FLSE45ajhOVkxDeWQzNFhDT21KOWdNWDZGNktFb1JJTEFKT0JzdnlZdjdJM3pmY1FJWGVXVmtxTHBHOC11TTJSSXFMYjVLT3Rza1RJR1I4d05Fd3U4eHJLRHdmR2E2WQ?oc=5",
+      "publishedAt": "2026-06-10T15:24:00.000Z",
+      "titleEn": "USC football, Lincoln Riley hiring first-of-its-kind director of AI",
+      "titleZh": "南加州大学橄榄球队与林肯·莱利聘请首位AI总监",
+      "abstractEn": "USC football, Lincoln Riley hiring first-of-its-kind director of AI  USA Today",
+      "abstractZh": "南加州大学橄榄球队与林肯·莱利聘请首位AI总监  今日美国",
+      "authors": [
+        "USA Today"
+      ],
+      "institution": "USA Today",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -919,6 +1679,28 @@
         "Let's Data Science"
       ],
       "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:10c0dbd57652",
+      "slug": "gnews-10c0dbd57652",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnptc3dpYkNBUXMzamVkcDB4T2ZKOHhLcHNoR1lrLTRCbko1NGN6WkVOTTJMNFViQVpHOVE4dkJ4QUFKM253bXhJYm04dVdZOGxjSVg5Y3FTMV9CNUdTbjFhZkE5cnpJQzMybGx6SUhuTVhNWC0td1RwZnJva2E5MWZkeVR2ZXR5MVdPdmRvMjNNVUU?oc=5",
+      "publishedAt": "2026-06-10T14:31:30.000Z",
+      "titleEn": "Warner Music acquires AI attribution startup Sureel AI",
+      "titleZh": "华纳音乐收购 AI 归属权初创公司 Sureel AI",
+      "abstractEn": "Warner Music acquires AI attribution startup Sureel AI  TechCrunch",
+      "abstractZh": "华纳音乐收购 AI 归属权初创公司 Sureel AI  TechCrunch",
+      "authors": [
+        "TechCrunch"
+      ],
+      "institution": "TechCrunch",
       "docType": "Blog",
       "category": "social",
       "score": 0,
