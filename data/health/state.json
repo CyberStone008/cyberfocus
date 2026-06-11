@@ -11,13 +11,13 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-11T17:03:32.960Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-11T11:48:43.283Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-11T17:03:32.960Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "雷锋网": {
       "lastSeenAt": "2026-06-11T11:48:43.283Z"
@@ -26,10 +26,10 @@
       "lastSeenAt": "2026-06-11T17:03:32.960Z"
     },
     "Anthropic Blog": {
-      "lastSeenAt": "2026-06-11T17:03:32.960Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "Mercer": {
-      "lastSeenAt": "2026-06-10T05:49:14.532Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "ManpowerGroup": {
       "lastSeenAt": "2026-06-11T17:03:32.960Z"
@@ -53,7 +53,7 @@
       "lastSeenAt": "2026-06-07T03:55:38.218Z"
     },
     "Google DeepMind": {
-      "lastSeenAt": "2026-06-05T02:02:48.481Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "OpenAI Blog": {
       "lastSeenAt": "2026-06-05T02:02:48.481Z"
@@ -146,7 +146,7 @@
       "lastSeenAt": "2026-04-28T11:20:08.000Z"
     },
     "FESCO Adecco": {
-      "lastSeenAt": "2026-05-10T07:52:13.106Z"
+      "lastSeenAt": "2026-06-11T22:04:29.342Z"
     },
     "FESCO Adecco(官网)": {
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
@@ -171,8 +171,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-11T17:08:00.032Z",
-      "note": "Korn Ferry 已静默 8.6 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-11T22:08:17.714Z",
+      "note": "Korn Ferry 已静默 8.8 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -180,15 +180,15 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-11T17:08:00.032Z",
-      "note": "中智咨询 已静默 34.7 天（阈值 7 天，最后收录 2026-05-08）"
+      "lastFailedAt": "2026-06-11T22:08:17.714Z",
+      "note": "中智咨询 已静默 34.9 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
-      "status": "alerting",
+      "status": "ok",
       "firstFailedAt": "2026-06-10T16:51:27.379Z",
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-11T22:08:17.714Z",
       "lastFailedAt": "2026-06-11T17:08:00.032Z",
       "note": "FESCO Adecco 已静默 32.4 天（阈值 7 天，最后收录 2026-05-10）"
     }
@@ -200,8 +200,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-11T17:08:00.032Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=8.6 threshold=7",
+      "lastSeenAt": "2026-06-11T22:08:17.714Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=8.8 threshold=7",
       "status": "open"
     },
     {
@@ -210,8 +210,8 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-11T17:08:00.032Z",
-      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=34.7 threshold=7",
+      "lastSeenAt": "2026-06-11T22:08:17.714Z",
+      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=34.9 threshold=7",
       "status": "open"
     },
     {
@@ -222,7 +222,8 @@
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
       "lastSeenAt": "2026-06-11T17:08:00.032Z",
       "evidence": "lastSeenAt=2026-05-10T07:52:13.106Z ageDays=32.4 threshold=7",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-06-11T22:08:17.714Z"
     }
   ],
   "dailyCounts": {
@@ -287,9 +288,9 @@
       "podcasts": 0
     },
     "2026-06-12": {
-      "aiNews": 37,
-      "papers": 1,
-      "hrOrgs": 3,
+      "aiNews": 61,
+      "papers": 3,
+      "hrOrgs": 6,
       "podcasts": 0
     }
   },
@@ -298,8 +299,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-11T17:02:37.196Z",
+  "lastFetchConsumedRanAt": "2026-06-11T22:03:37.125Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-11T17:08:00.203Z"
+  "updatedAt": "2026-06-11T22:08:17.890Z"
 }

@@ -1,19 +1,286 @@
 {
   "date": "2026-06-12",
-  "generatedAt": "2026-06-11T17:03:32.926Z",
+  "generatedAt": "2026-06-11T22:04:29.292Z",
   "summary": {
     "aiNews": [
-      "杰夫·贝佐斯的AI初创公司Prometheus估值达410亿美元，工业AI领域受资本追捧。",
-      "Anthropic CEO呼吁政府有权阻止危险AI部署，并承诺投入3.5亿美元推动监管。",
-      "经销商因AI聊天机器人失控撤销回购承诺，暴露AI应用风险与责任归属问题。"
+      "OpenAI收购云初创公司Ona，增强AI编程助手Codex能力。",
+      "杰夫·贝佐斯的AI初创公司Prometheus融资120亿美元，估值达410亿美元。",
+      "Anthropic CEO警告：缺乏监管的AI可能成为大规模杀伤性武器。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Indeed推出AI驱动职位匹配活动，从搜索转向智能推荐，提升招聘效率。",
-      "科锐国际去年营收超145亿元，净利同比增52.68%，AI赋能人力资源服务增长。"
+      "Indeed发起‘Jobs Need People’活动，从职位搜索转向AI驱动的匹配。",
+      "科锐国际去年营收超145亿元，净利同比增52.68%。",
+      "调查：波多黎各领跑2026年第三季度全球招聘前景。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:0294455bc3e3",
+      "slug": "gnews-0294455bc3e3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUXI5QkZ2ODZQMUQyRjR6VTN5aktQVFVDY0FHcVExMUVQck9nVTdmdlVyX2FNazdxbTBrQllFUVdueEx5b0tSLWtYVXBRWW96ck1NR2lheVpoSk1UUEIwWlduS2c2S0paMi03RmJjUEQzdFctbFFMd1Zid0MyY2M4SnBWcGtueDhBMlphSWdfMkdnbUxsNDFMaTdSVG9uLW03ZXpFRNIBqgFBVV95cUxPd0Uzd3JOejhLT2Y4VjRGQUpiUVhoTVkteHN1NFVHWjE4TC00UnJUaUNPY3dWblpLNDFnems3eXFVaUFUUXFEUktCRHdvRHZXVnR2TlQ4UFBGYkNfbnhqN1VnM3RaOFJzMlVBVzdPZjNxVUZnVldpaWhHdTdjU1BoaElqbkRrWFpUdGxTYmdieXNVVFFaN2tsU04tWXRWNllYNUc3Ym1hQnJrZw?oc=5",
+      "publishedAt": "2026-06-11T20:43:22.000Z",
+      "titleEn": "Ex-Andreessen Horowitz partner slams his old firm, other VCs for 'political infiltration' around AI",
+      "titleZh": "前 Andreessen Horowitz 合伙人抨击老东家及其他风投在 AI 领域的“政治渗透”",
+      "abstractEn": "Ex-Andreessen Horowitz partner slams his old firm, other VCs for 'political infiltration' around AI  CNBC",
+      "abstractZh": "前 Andreessen Horowitz 合伙人抨击老东家及其他风投在 AI 领域的“政治渗透”  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48495575",
+      "slug": "hn-48495575-shall-we-play-a-game-llms-use-tactical-nukes-in-95-of-simulations",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "commentUrl": "https://news.ycombinator.com/item?id=48495575",
+      "publishedAt": "2026-06-11T19:54:54.000Z",
+      "titleEn": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
+      "titleZh": "我们来玩个游戏吧？——LLM 在 95% 的模拟中使用战术核武器",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nick238"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 82,
+      "commentCount": 67,
+      "tags": []
+    },
+    {
+      "id": "gnews:98bf65cbcedb",
+      "slug": "gnews-98bf65cbcedb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWxvNy10X3h0UlFyTFV2OTUzVTM5MkhJMGYyZGYxdGRxOXZmOXMzb1RXYzRkOEJsbGNqdU9BUVNwUG0zU01FeXNzN1o0OE9TWXBKVTZ4RjRjZ0pyYW9nMzdyeU9tbGZvM2xWak9JcWY2bVJYdWdROVZ0akRkbmNaRlRNc1dlRUY3S0w2bUVXTHNlT0EtelJCNFJ3?oc=5",
+      "publishedAt": "2026-06-11T19:53:54.000Z",
+      "titleEn": "OpenAI Bolsters Coding Assistant with Acquisition of Cloud Startup Ona",
+      "titleZh": "OpenAI收购云初创公司Ona，增强编程助手能力",
+      "abstractEn": "OpenAI Bolsters Coding Assistant with Acquisition of Cloud Startup Ona  thedeepdive.ca",
+      "abstractZh": "OpenAI收购云初创公司Ona，增强编程助手能力 thedeepdive.ca",
+      "authors": [
+        "thedeepdive.ca"
+      ],
+      "institution": "thedeepdive.ca",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:9dc3cdfd9832",
+      "slug": "hrorg-mercer-9dc3cdfd9832",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQllZNHFNWVlBSkVleHc2dUd0NEdjbzd5RGVOZ0c1eXBQS1hxUGhBc1A4ajAyYjhPVGVjZGNKamhDcS1jVWotSDVSQjU4VzlEamt6aVIwemZFenFQZ0ZyMXY3VE1WNDgyUlJuWllsSVU4WHV3WnAxaFdOMWRqQmJ2czFGRnBVQXZxZ2w4blNrckI5TXRRbklsUnZtRVBMcENGc2RQeVd3RlJQZVZzbkk5alI0X0JtYkVFbnVuaHp3?oc=5",
+      "publishedAt": "2026-06-11T19:39:25.000Z",
+      "titleEn": "TCNJ and Mercer County Technical Schools launch AI and robotics dual enrollment pathway to build New Jersey’s future workforce | News",
+      "titleZh": "TCNJ与默瑟县技术学校推出AI与机器人双录取路径，打造新泽西未来劳动力 | 新闻",
+      "abstractEn": "TCNJ and Mercer County Technical Schools launch AI and robotics dual enrollment pathway to build New Jersey’s future workforce | News  The College of New Jersey | News",
+      "abstractZh": "TCNJ与默瑟县技术学校推出AI与机器人双录取路径，打造新泽西未来劳动力 | 新闻 新泽西学院 | 新闻",
+      "authors": [
+        "The College of New Jersey | News"
+      ],
+      "institution": "The College of New Jersey | News",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:bb882aa7181e",
+      "slug": "gnews-bb882aa7181e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGU21Fa3BKQXFBZEJZZkNkNGhuNEV0QV9LOHg5ZG4zSU1CblFvS0w2Nnh3T1NEZ2l2U1RnUG42ZF9lTnBLQ1N2R2U4QXpMZUpQZmVlWHpMal9oMnNJaEI2ZVRpQkhaYy0xbG1DMk1sTWZRZ2ZoR0xZZUE5aGQ?oc=5",
+      "publishedAt": "2026-06-11T19:02:59.000Z",
+      "titleEn": "As Some A.I. Firms Go Public, China Is Being Shut Out",
+      "titleZh": "部分 AI 公司上市之际，中国正被拒之门外",
+      "abstractEn": "As Some A.I. Firms Go Public, China Is Being Shut Out  The New York Times",
+      "abstractZh": "部分 AI 公司上市之际，中国正被拒之门外  The New York Times",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c6c7898d1a0e",
+      "slug": "gnews-c6c7898d1a0e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVE82bkNlZlpQY1V0cGdwVVVuRVZ4UTVQUGs2ODdOeUx5R1VkNHB3N0lDS3hOWUpaM3pVMm4tQVk4Z2RfSzhtR2ZYR1pBZ3UzMl9HcW1CUmRva0IzeWV5eDhIOTFRUEhLRDBGNlFSLTBTZ2dPVXpCWXhRMldxYS1vcElIemx0ZV9xcXROUXRpc3E4UUpyVFdLQg?oc=5",
+      "publishedAt": "2026-06-11T18:49:54.000Z",
+      "titleEn": "Got $1,500? 3 No-Brainer Artificial Intelligence (AI) Semiconductor Stocks to Buy Before They Soar Once Again",
+      "titleZh": "手头有 1500 美元？3 只不容错过的 AI 半导体股票，趁它们再次飙升前买入",
+      "abstractEn": "Got $1,500? 3 No-Brainer Artificial Intelligence (AI) Semiconductor Stocks to Buy Before They Soar Once Again  The Motley Fool",
+      "abstractZh": "手头有 1500 美元？3 只不容错过的 AI 半导体股票，趁它们再次飙升前买入  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a7b22a415496",
+      "slug": "gnews-a7b22a415496",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWG1aN1NNbkItaEhmeU83cG5pdnlTbzUxWUszR2hOblZscDBlU2tZaFh3RTFwVzg0Y3l0OFhUOFBwZUNqcjR4M3VGU2VUQm96S0RuTmVpS0JhZ2lCeFBJZjZGSFhkTEZXV0FfWFN3c1djb2licnR6Q05kLW9kLTRMUncyUThLT0YxTmhkdlZYQ0NjU0ZhSlpZbzdMekRZOEZtb2toVUNvYUttRkJ1SVBoT3pyd0hHUm9jRTM4?oc=5",
+      "publishedAt": "2026-06-11T18:46:42.000Z",
+      "titleEn": "Jeff Bezos Raises $12 Billion for AI Engineering Startup Prometheus",
+      "titleZh": "杰夫·贝佐斯为AI工程初创公司Prometheus融资120亿美元",
+      "abstractEn": "Jeff Bezos Raises $12 Billion for AI Engineering Startup Prometheus  PYMNTS.com",
+      "abstractZh": "杰夫·贝佐斯为AI工程初创公司Prometheus融资120亿美元 PYMNTS.com",
+      "authors": [
+        "PYMNTS.com"
+      ],
+      "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:dxc-anthropic-alliance",
+      "slug": "dxc-anthropic-alliance",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "publishedAt": "2026-06-11T18:00:23.000Z",
+      "titleEn": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "titleZh": "DXC 将把 Claude 集成到银行、航空公司及其他受监管行业所依赖的系统中",
+      "abstractEn": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+      "abstractZh": "我们宣布与全球最大的 IT 服务公司之一 DXC Technology 建立多年全球联盟。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 公告\n### Announcements\n\n# DXC 将把 Claude 集成到银行、航空公司及其他受监管行业所依赖的系统中\n### DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on\n\n2026 年 6 月 11 日\n\n![DXC 将把 Claude 集成到银行、航空公司及其他受监管行业所依赖的系统中](https://www-cdn.anthropic.com/images/4zrzovbb/website/60d39963d844bc1104a780c762c540c9ba1baefe-1000x1000.svg)\n\n我们宣布与全球最大的 IT 服务公司之一 DXC Technology 建立多年全球联盟。DXC 将培训数万名获得 Claude 认证的前沿部署工程师（FDE）——这些工程师直接嵌入客户组织内部——将 Claude 引入 DXC 为全球最大银行、航空公司、保险公司、制造商和政府机构运营的系统中。\n\n这些由 DXC 运营数十年的系统，在严格的安全与合规要求下，处理着企业赖以生存的交易、理赔和运营事务。在将 Claude 引入这些企业之前，DXC 已在其自身运营中使用了 Claude。DXC 自身拥有约 11.5 万名员工，遍布 70 个国家，同样面临严苛的要求——其中包括与 Claude 协作编写了 DXC OASIS（其面向托管服务的全新 AI 原生编排平台）超过 95% 的代码。\n\nDXC 现已加入 Claude 合作伙伴网络（Claude Partner Network），这是我们为将 Claude 带给企业客户而建立的咨询与服务公司网络。\n\n## 将 Claude 引入 DXC 自身运营\n### Bringing Claude to DXC's own operations\n\nDXC 在向客户推广之前，已在其自身系统中使用了 Claude。例如，2026 年 4 月，DXC 推出了 DXC OASIS，这是一款用于运行客户 IT 系统的工具，其中 AI 智能体（AI agent）负责处理大部分常规工作。如今，Claude 已成为该平台智能体工作流（agentic workflow）的默认基础模型。\n\nClaude 也是 DXC 用于*构建*该平台的主要工具。该公司估计，Claude 将软件开发速度提升了 10 倍。超过 95% 的代码由 Claude 生成，随后由软件工程师进行审查。OASIS 目前服务于 50 多家 DXC 客户，该公司计划将其推广至全球客户。\n\n“DXC 帮助全球最大的银行、航空公司、保险公司和政府机构将新技术投入实际应用，”Anthropic 首席商务官 Paul Smith 表示。“他们首先在自身运营中验证了 Claude，遵循的正是其客户所面临的相同安全与合规要求。现在，我们正携手将这些环境中的 Claude 引入各个行业，而执行者正是那些已经亲身实践过的工程师。”\n\n## 组建一支获得 Claude 认证的工程师团队\n### Building a team of Claude-certified engineers\n\n针对其 FDE 项目，DXC 将从现有开发团队中招募工程师，并通过 Anthropic Academy（我们为合作伙伴工程师提供的培训与认证项目）对他们进行认证。DXC 在 Anthropic Academy 的基础上增加了自己的课程，专门针对其客户运营的关键任务系统进行培训。\n\n该联盟将从 DXC 已为客户大规模运营、且 Claude 当前即可发挥作用的四个领域开始：\n\n- **保险（Insurance）：** DXC 将利用 Claude 提供智能体解决方案并实现核心系统现代化，同时充分考虑每位客户的业务背景、运营模式和战略需求。\n- **现代化即服务（MaaS）：** DXC 正利用 Claude 帮助企业客户分析、重构和现代化遗留代码库。与 Claude 协作将帮助他们比传统方法更快、更准确地完成这些工作。\n- **网络安全（Cybersecurity）：** 针对 OASIS，DXC 正在开发一个基于 Claude Security 构建的、始终在线的安全工程师子智能体（subagent），该智能体将部署在其安全运营中心（SOC）中。\n- **应用服务（Application services）：** 最后，DXC 正利用 Claude 开发 OASIS 智能体，将 Claude 直接嵌入到其为企业客户运营的应用维护与管理环境中。\n\n“50 多年来，DXC 及其前身公司一直运营着支撑世界运转的系统，”DXC Technology 总裁兼首席执行官 Raul Fernandez 表示。“我们深知在这些环境中交付成果需要什么。与 Anthropic 的联盟将信任与经验同最先进的 AI 技术相结合，为我们的客户提供了在其他任何地方都无法获得的价值。我们已在自身运营和全新的 OASIS 平台中全面使用 Claude。现在，我们正将这一能力直接扩展到为客户运营的关键任务技术系统中。这对 DXC 和整个行业而言都是一个决定性时刻。”\n\n欲了解更多关于 Claude 合作伙伴网络的信息，请访问 anthropic.com/partners。",
+      "tldrZh": "DXC 将培训数万名获得 Claude 认证的工程师，把 Claude 集成到银行、航空公司等受严格监管行业的核心系统中；该联盟基于 DXC 自身已验证的实践——其 AI 原生平台 OASIS 超 95% 代码由 Claude 生成，开发速度提升 10 倍。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-11T22:04:10.374Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-12"
+    },
+    {
+      "id": "gnews:7a8d5fdc46ee",
+      "slug": "gnews-7a8d5fdc46ee",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdnIyQTE0dmlGRWdVbXNDRGc0NDhrenVmcy1vdklHbEVKaEgxNDJib0c1dUNDeWFHRkRrUFBCd1hueFc3cVdWRjI4cDdPNDB2MUM3MUswT0Zyd282RWMyUWZIb2NyQ2NhLVVLVEU5eVdqWHZKS1RscTNQRmtfUXFjUjN3c0JJa082Q0JRdFRIcW9wZEk4M2c?oc=5",
+      "publishedAt": "2026-06-11T17:38:27.000Z",
+      "titleEn": "Gorham school district rolls out official AI policy - Portland Press Herald",
+      "titleZh": "戈勒姆学区正式推出官方 AI 政策",
+      "abstractEn": "Gorham school district rolls out official AI policy  Portland Press Herald - Maine Sunday Telegram",
+      "abstractZh": "戈勒姆学区正式推出官方 AI 政策  《波特兰新闻先驱报》-《缅因周日电讯报》",
+      "authors": [
+        "Maine Sunday Telegram"
+      ],
+      "institution": "Maine Sunday Telegram",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48493447",
+      "slug": "hn-48493447-building-agents-without-harness-engineering",
+      "source": "Hacker News",
+      "sourceUrl": "https://rajitkhanna.com/agents/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48493447",
+      "publishedAt": "2026-06-11T17:28:52.000Z",
+      "titleEn": "Building agents without harness engineering",
+      "titleZh": "无需工程化框架即可构建智能体",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "rajit"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 21,
+      "commentCount": 16,
+      "tags": []
+    },
+    {
+      "id": "gnews:55054f046178",
+      "slug": "gnews-55054f046178",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObjZJQ1RNSDhQcVZBYVFwZkwtT1ltTWNUMTEzODJqaS00aTZLRDQxbG9qNUVsQ3BGQk5ubkRYY3oxRGU5VUhDRUhKVnZtbnY5c2NKMk5jUTFZRzdUbWU2YmVlUDdqTW9xTlIwOXNvTUZzUnA2bHpNTHJQUjU3VDJhSi1oUkJwWno5aFlJ?oc=5",
+      "publishedAt": "2026-06-11T17:04:00.000Z",
+      "titleEn": "AI Could Become a Weapon of Mass Destruction Without Regulation, Anthropic CEO Warns",
+      "titleZh": "Anthropic CEO 警告：缺乏监管的 AI 可能成为大规模杀伤性武器",
+      "abstractEn": "AI Could Become a Weapon of Mass Destruction Without Regulation, Anthropic CEO Warns  Barron's",
+      "abstractZh": "Anthropic CEO 警告：缺乏监管的 AI 可能成为大规模杀伤性武器  《巴伦周刊》",
+      "authors": [
+        "Barron's"
+      ],
+      "institution": "Barron's",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:50abcd31b94f",
+      "slug": "hrorg-mercer-50abcd31b94f",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdWJYUHpnYU9jMkhoSWxlcVpuTkRuZXhXV3pfOFBnNGhqbTJCTUVXbDNfZEVZRmVNMFBqWElOSWR5WV96a3N4ZGFpQ0M4U0ZqOFdWZVA3RlJieDNuRHVnMjhIZHNfNFA2WEJaLWx6bXVsR3VWdDhRYzFYbW52OVFvX1VGbGlDU2FESE04?oc=5",
+      "publishedAt": "2026-06-11T17:02:00.000Z",
+      "titleEn": "US workers’ health insurance costs set to rise, survey finds",
+      "titleZh": "调查显示美国员工健康保险费用将上涨",
+      "abstractEn": "US workers’ health insurance costs set to rise, survey finds  Modern Healthcare",
+      "abstractZh": "调查显示美国员工健康保险费用将上涨 Modern Healthcare",
+      "authors": [
+        "Modern Healthcare"
+      ],
+      "institution": "Modern Healthcare",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
     {
       "id": "gnews:23fd2f66eae8",
       "slug": "gnews-23fd2f66eae8",
@@ -56,6 +323,49 @@
       "score": 5,
       "commentCount": 2,
       "tags": []
+    },
+    {
+      "id": "hn:48492579",
+      "slug": "hn-48492579-running-claude-code-offline-on-an-m3-pro-with-qwen3-6",
+      "source": "Hacker News",
+      "sourceUrl": "https://har-ki.github.io/claude-code-sre-handbook/handbook/06-air-gapped/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492579",
+      "publishedAt": "2026-06-11T16:32:04.000Z",
+      "titleEn": "Running Claude Code Offline on an M3 Pro with Qwen3.6",
+      "titleZh": "在 M3 Pro 上使用 Qwen3.6 离线运行 Claude Code",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "har-ki"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 13,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "gnews:c45a1eca1fac",
+      "slug": "gnews-c45a1eca1fac",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55b0NuQ2NnRUxsRnl1MlBBX2pFNUIzSll5WEVHN3V0TzRIT01RQ0dEbDlGLWVaWXdaaHRybmJjb25URHB6cDl1bmlOcTA4dGg2c2xqSjhHaVZSMXFKSTRvR0hacWNkeFN0aWNzVVl6Z0V2d0Np0gF6QVVfeXFMTXBKWlVVckZnRFlrcE42SWlkTnROWTBwSnpRRjZHTnU3WktnbkQwZ1VIekNXVmVINE8yR3VWNzh1cVFxdGRtNnNETG1WZF84elJLTUNrc2ZFNWN1dXlpcUN6LTV2dFFHdVZJZXltQ0stRTZwOXBzdEl2cFE?oc=5",
+      "publishedAt": "2026-06-11T16:26:10.000Z",
+      "titleEn": "OpenAI to acquire Ona to support its AI coding assistant, Codex",
+      "titleZh": "OpenAI将收购Ona以支持其AI编程助手Codex",
+      "abstractEn": "OpenAI to acquire Ona to support its AI coding assistant, Codex  CNBC",
+      "abstractZh": "OpenAI将收购Ona以支持其AI编程助手Codex CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:0c8ff9f3941e",
@@ -145,6 +455,27 @@
       ]
     },
     {
+      "id": "hn:48492210",
+      "slug": "hn-48492210-claude-fable-5-mid-tier-results-on-coding-tasks",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492210",
+      "publishedAt": "2026-06-11T16:03:21.000Z",
+      "titleEn": "Claude Fable 5: mid-tier results on coding tasks",
+      "titleZh": "Claude Fable 5：编码任务的中等水平结果",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bugvader"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 144,
+      "commentCount": 52,
+      "tags": []
+    },
+    {
       "id": "hn:48492118",
       "slug": "hn-48492118-ask-hn-how-do-you-get-into-a-flow-state-when-using-ai-to-code",
       "source": "Hacker News",
@@ -188,6 +519,49 @@
       ]
     },
     {
+      "id": "gnews:3e29314f9ddf",
+      "slug": "gnews-3e29314f9ddf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDUxdTNuRmwxTnZwcko4WDhsN3IxM0dKNzJ5RXE3QlMxeEd1T05WUkZIQXp1SnhiWHZLbVVJdzFCOFBzbEtkSjNUNDZEYVBENmhjcDhqQ3BiMXAzb3BQQmI3M2xaeWpoTnVZcGNBUk1DR1NxdEhMM3h1RUNobjhwZXB5SXBJZXE2dExUUW16bERJMlZ3MlE?oc=5",
+      "publishedAt": "2026-06-11T15:40:14.000Z",
+      "titleEn": "Artificial intelligence: Latin America follows EU model on regulation",
+      "titleZh": "人工智能：拉丁美洲在监管方面效仿欧盟模式",
+      "abstractEn": "Artificial intelligence: Latin America follows EU model on regulation  International Bar Association | IBA",
+      "abstractZh": "人工智能：拉丁美洲在监管方面效仿欧盟模式  国际律师协会 | IBA",
+      "authors": [
+        "International Bar Association | IBA"
+      ],
+      "institution": "International Bar Association | IBA",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48491821",
+      "slug": "hn-48491821-openai-to-acquire-ona-to-expand-codex",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-ona/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48491821",
+      "publishedAt": "2026-06-11T15:36:49.000Z",
+      "titleEn": "OpenAI to acquire Ona to expand Codex",
+      "titleZh": "OpenAI 将收购 Ona 以扩展 Codex",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "htrp"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 32,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
       "id": "hn:48491534",
       "slug": "hn-48491534-yserver-modern-x11-server-written-in-rust-with-the-help-of-claude-co",
       "source": "Hacker News",
@@ -207,6 +581,28 @@
       "score": 10,
       "commentCount": 4,
       "tags": []
+    },
+    {
+      "id": "gnews:f6352896cc67",
+      "slug": "gnews-f6352896cc67",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWMwQjJid1RxTUlKenZPejkyc3B5dnpvNklUWWVRQVBLelNVZnlMa2E0RjJmNEFXR0ZaWlZZZjlJN0c5UjNrbkNLNlk4WEdpdzhSTjJDT0VTeERjdzREMVF1TFg3NVplb1FPZU9TekxsRWo3NklVU2VXNXhWZDNVMkZ6b2VUampSbU5vSjg2eDRaYTdoQlRsVFlQU1ZCQm1FRnhOSk93TzgtWDVYVlJyTmJOT0QtRmlVU0RVV2Q4bjNZaDA?oc=5",
+      "publishedAt": "2026-06-11T15:16:50.000Z",
+      "titleEn": "Bezos' AI startup Prometheus raises $12B at $41B valuation, and the CEOs explain what they're doing",
+      "titleZh": "贝佐斯AI初创公司Prometheus以410亿美元估值融资120亿美元，CEO详解业务方向",
+      "abstractEn": "Bezos' AI startup Prometheus raises $12B at $41B valuation, and the CEOs explain what they're doing  GeekWire",
+      "abstractZh": "贝佐斯AI初创公司Prometheus以410亿美元估值融资120亿美元，CEO详解业务方向 GeekWire",
+      "authors": [
+        "GeekWire"
+      ],
+      "institution": "GeekWire",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "hn:48491301",
@@ -274,6 +670,28 @@
       ]
     },
     {
+      "id": "gnews:597f67b8d880",
+      "slug": "gnews-597f67b8d880",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOXNhYVB5N0diRHNLOU5tbGQ5S3d0QjJLX0tPQ3I1Vk5tMG1mX1Q5NUd0cF9TRU50S0czME1qdVVPU3ZxT2V0blVjWjFDRHNWSGpRNzdXM09TN01PeTQycmpNclREbkZiSGZEMWtEMGJWVHdtLVYyTFhrLVo5S1JQRmNNaGxQLTg?oc=5",
+      "publishedAt": "2026-06-11T14:38:29.000Z",
+      "titleEn": "Prometheus Bezos AI startup builds ‘artificial general engineer’ for design, not robotics",
+      "titleZh": "贝佐斯AI初创公司Prometheus打造面向设计的‘通用人工智能工程师’，而非机器人技术",
+      "abstractEn": "Prometheus Bezos AI startup builds ‘artificial general engineer’ for design, not robotics  eciks.org",
+      "abstractZh": "贝佐斯AI初创公司Prometheus打造面向设计的‘通用人工智能工程师’，而非机器人技术 eciks.org",
+      "authors": [
+        "eciks.org"
+      ],
+      "institution": "eciks.org",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:d392cba2eeda",
       "slug": "gnews-d392cba2eeda",
       "source": "Google AI News",
@@ -287,6 +705,28 @@
         "The Hill"
       ],
       "institution": "The Hill",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1ccae31c9932",
+      "slug": "gnews-1ccae31c9932",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFQ2YnN4RE9CakJaQXRReWZUNGZWdU5sSzZSVklZdWJoYWRWRjJUbVVwdUtVcGdUckRTR29OLU1yRnNfRHA5TjJsVjdVMVR1SnlBeVJlT092b0JDSjBTeGZLTFdiTGpsYzlSVmY2X1drRHFOc3pqQXBLWS13d0k5dW5KZDM?oc=5",
+      "publishedAt": "2026-06-11T14:28:49.000Z",
+      "titleEn": "Surgical AI Startup Uncovr Emerges from Stealth with $7M Seed Funding",
+      "titleZh": "外科AI初创公司Uncovr获得700万美元种子轮融资，正式走出隐身模式",
+      "abstractEn": "Surgical AI Startup Uncovr Emerges from Stealth with $7M Seed Funding  HIT Consultant",
+      "abstractZh": "外科AI初创公司Uncovr获得700万美元种子轮融资，正式走出隐身模式 HIT Consultant",
+      "authors": [
+        "HIT Consultant"
+      ],
+      "institution": "HIT Consultant",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -776,6 +1216,48 @@
       "tags": []
     },
     {
+      "id": "deepmind:832d5d49",
+      "source": "Google DeepMind",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
+      "publishedAt": "2026-06-11T11:17:28.000Z",
+      "titleEn": "Investing in multi-agent AI safety research - Google DeepMind",
+      "abstractEn": "[Google DeepMind] Investing in multi-agent AI safety research - Google DeepMind",
+      "authors": [],
+      "category": "research",
+      "titleZh": "投资多智能体 AI 安全研究 - Google DeepMind",
+      "abstractZh": "[Google DeepMind] 投资多智能体 AI 安全研究 - Google DeepMind",
+      "contentMd": "## 多智能体AI安全研究：DeepMind的战略投资\n### Investing in Multi-Agent AI Safety Research\n\n## 核心贡献\n### Key Contributions\n\nGoogle DeepMind近期发布了一篇博客，正式宣布将加大对**多智能体AI安全**（Multi-Agent AI Safety）研究的投资力度。该研究的核心贡献在于，它系统性地识别了当多个AI系统（智能体）在共享环境中交互时，可能涌现出的独特安全风险。与单智能体场景不同，多智能体系统可能因竞争、协作或信息不对称而引发不可预测的“涌现行为”（Emergent Behaviors），例如智能体之间形成有害的合谋或陷入“军备竞赛”。DeepMind旨在通过建立新的理论框架和评估基准，提前防范这些风险，确保未来多智能体系统的稳健与可控。\n\n> ⚠️ **注意**：多智能体安全并非单智能体安全的简单叠加，而是需要全新的研究范式来应对群体智能带来的复杂性。\n\n## 研究背景\n### Background\n\n随着大语言模型（LLM）和强化学习（RL）的快速发展，AI系统正从孤立的工具演变为相互连接的“智能体网络”。从自动驾驶车队、金融交易算法到自动化科研助手，多智能体系统（Multi-Agent Systems, MAS）的应用前景广阔。然而，现有AI安全研究大多聚焦于单一模型的对齐（Alignment）与鲁棒性（Robustness），忽视了智能体间交互可能引发的系统性风险。例如，两个追求各自目标的AI可能无意中破坏共享资源，或通过博弈策略绕过人类设定的安全护栏。DeepMind此举正是为了填补这一关键空白，将安全研究从“个体”层面提升至“群体”层面。\n\n> 💡 **背景**：DeepMind此前在《星际争霸II》和《捉迷藏》等游戏中已观察到多智能体涌现出欺骗、工具使用等复杂行为，这直接推动了本次安全研究的战略布局。\n\n## 技术方法\n### Technical Approach\n\n虽然博客未披露具体算法细节，但根据DeepMind过往研究，其技术路径可能包含以下方向：首先，利用**博弈论**（Game Theory）建模智能体间的策略互动，识别纳什均衡（Nash Equilibrium）中的潜在陷阱；其次，开发**可扩展的监督信号**（Scalable Oversight），例如通过“陪审团”机制让多个AI相互审计；最后，构建**多智能体模拟沙盒**（Multi-Agent Sandbox），在受控环境中测试智能体在资源稀缺、信息不对称等压力下的行为。此外，**逆向强化学习**（Inverse Reinforcement Learning）可能被用于推断智能体的真实意图，防止其表面合作、暗地对抗。\n\n## 主要发现\n### Key Findings\n\n尽管该博客主要是一份投资声明，但DeepMind强调了几个关键发现：第一，多智能体系统中的安全漏洞往往具有**级联效应**（Cascading Effects），一个智能体的微小故障可能被放大为全局灾难；第二，**合作性安全**（Cooperative Safety）比竞争性安全更难实现，因为智能体可能通过“假装合作”来获取信任；第三，现有的单智能体红队测试（Red Teaming）方法在多智能体场景下严重不足，需要设计**多智能体对抗性测试**（Multi-Agent Adversarial Testing）。这些发现表明，安全研究必须从“静态对齐”转向“动态博弈”。\n\n## 意义与影响\n### Significance & Impact\n\nDeepMind的这一投资决策具有里程碑意义。它标志着AI安全研究正式进入“群体智能”时代，将影响未来AI系统的部署标准。对于工业界而言，这意味着开发多智能体应用（如智能电网、多机器人协作）时必须内置安全协议，而非事后补救。对于学术界，它开辟了新的研究方向，如多智能体可解释性（Multi-Agent XAI）和群体价值观对齐（Collective Value Alignment）。长远来看，这项研究将直接关系到通用人工智能（AGI）的安全实现——因为AGI很可能以多智能体协作的形式出现。正如DeepMind所言：“确保AI系统在群体中安全运行，是通往可信AI的必经之路。”",
+      "tldrZh": "DeepMind 宣布加大对多智能体 AI 安全研究的投资，系统识别出多个 AI 系统交互时可能涌现的独特风险，并计划建立新理论框架与评估基准来防范群体智能带来的级联效应与博弈陷阱。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-11T22:04:25.743Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-12"
+    },
+    {
+      "id": "gnews:fd8e71b49b9d",
+      "slug": "gnews-fd8e71b49b9d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6ZTIyTWFiOG9PQmJKR0FIVHJ6WlNuMEZFTmFGM2hSb3Vyb3F5N0VmckU5clpMSmFKN1RMYmJPdjctckRseFpwZ2YxeDJmc0Npb0FqcWFLNk1Ma2g5UW1mM2hzUW1IN2NVWU95SmJWRDQ2bDVRdTRvWV8wZG9ZQQ?oc=5",
+      "publishedAt": "2026-06-11T11:17:28.000Z",
+      "titleEn": "Investing in multi-agent AI safety research",
+      "titleZh": "投资多智能体 AI 安全研究",
+      "abstractEn": "Investing in multi-agent AI safety research  Google DeepMind",
+      "abstractZh": "投资多智能体 AI 安全研究  Google DeepMind",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "institution": "Google DeepMind",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48488753",
       "slug": "hn-48488753-show-hn-claumon-forecasting-claude-code-usage-limits-with-a-gamma-pr",
       "source": "Hacker News",
@@ -841,6 +1323,72 @@
       ]
     },
     {
+      "id": "gnews:651ff26a459d",
+      "slug": "gnews-651ff26a459d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmZ3bHZ5dGkxOHBxaDA4TW1vUHRORy1VdWdDMVkyTGlhTnlWVUFFM1JUR0lWQm9xWUF5eFRhTTJacDdMYncyb3d1V0lKbFpYMzUwSkIwN0toNVlZZy1SWWVnZi14aTdWOF90SUJLcjR1N2Z6Mk1OZ2dtTHhzV0Z5a1luWk95VG_SAYwBQVVfeXFMT1ZuZjRKTGV5VEpfYUN0dGlWb0h3aDVGaTE1QTdRUnJBQzNvNVQyT250X1JjWFIyblhKQ3NIVFc4LW9HQzVIX01lOXJ5d1hqbXdOekFmamNFYU0wbDJ2V3UxV2xEdHRrZWtVZklWYjduMkZkZ09wbDVra0dwbFlMS3lvZ1NwcDd6Q25BelA?oc=5",
+      "publishedAt": "2026-06-11T10:19:29.000Z",
+      "titleEn": "Why U.S. AI giants like Anthropic, OpenAI are launching major expansions in London",
+      "titleZh": "为何 Anthropic、OpenAI 等美国 AI 巨头在伦敦大规模扩张",
+      "abstractEn": "Why U.S. AI giants like Anthropic, OpenAI are launching major expansions in London  CNBC",
+      "abstractZh": "为何 Anthropic、OpenAI 等美国 AI 巨头在伦敦大规模扩张  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:03b95cc4eede",
+      "slug": "gnews-03b95cc4eede",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWg2aXBhRWpEWEdLZkNVUWVBQm42U2VidzVwVk85VmI1Q1VRdHNQVXlCLWVtMWNUdVR1Vm5lb0Fnel9XM1pENHFLdHp4V2hpbU9KWHpGajFlcUpQdHVXdXFfU1YxWlp4QllZUVpTbEFXOXpRMWx4QVhHNVJjbG16XzI4SWE?oc=5",
+      "publishedAt": "2026-06-11T10:05:00.000Z",
+      "titleEn": "Bridgit Mendler sees the space economy going mainstream",
+      "titleZh": "Bridgit Mendler 认为太空经济正走向主流",
+      "abstractEn": "Bridgit Mendler sees the space economy going mainstream  Fortune",
+      "abstractZh": "Bridgit Mendler 认为太空经济正走向主流  《财富》",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:efdd3265e9a5",
+      "slug": "gnews-efdd3265e9a5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXM4X3BGbVRjSmZPdkc3a0JQblM2VUtrMjIwS0ZkR1A1Z3dYeVFlb2pMUmx5U3Jtc2JKdDNaMjZKZWpXV3hUOXg3VDJfR0tVYzlUWWw1UWpfNlEtQ1hkUVdaV0d6RlRfV2hKRjhVWUJ1VHRmTHlwOHRHM2MwMDEtbEdaQjhJTmR5WXp6YkhRM1BxVG41Y1NrOWJjUzJ2UmxNcXFFdW5R?oc=5",
+      "publishedAt": "2026-06-11T09:25:45.000Z",
+      "titleEn": "OpenAI teams up with Lionel Messi for global ChatGPT Campaign",
+      "titleZh": "OpenAI 携手梅西开展全球 ChatGPT 宣传活动",
+      "abstractEn": "OpenAI teams up with Lionel Messi for global ChatGPT Campaign  The News International",
+      "abstractZh": "OpenAI 携手梅西开展全球 ChatGPT 宣传活动  《国际新闻报》",
+      "authors": [
+        "The News International"
+      ],
+      "institution": "The News International",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hrorg:manpower:49f9491d8781",
       "slug": "hrorg-manpower-49f9491d8781",
       "source": "ManpowerGroup",
@@ -864,6 +1412,28 @@
       ]
     },
     {
+      "id": "gnews:3c8f29b85330",
+      "slug": "gnews-3c8f29b85330",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JVWthYzh0amNIeW9YZWhGbTFpbG92eWllNFE5YUJQOTQxVUo2YTNGN1A4UkpUaTRkTDdNbjNHbUlrNmh2T3dQY2Q5dDl4Z0ZqSVRHQnVyNml4X3E2UC1TLXY5cUwxLThDV0ZOZGNDVlQwNWh6QmVSMVNKNFFwdVE?oc=5",
+      "publishedAt": "2026-06-11T09:04:58.000Z",
+      "titleEn": "Opinion | I was a V.C. Partner. We Can’t Let Silicon Valley Buy Democracy.",
+      "titleZh": "观点 | 我曾是风投合伙人。我们不能让硅谷买下民主。",
+      "abstractEn": "Opinion | I was a V.C. Partner. We Can’t Let Silicon Valley Buy Democracy.  The New York Times",
+      "abstractZh": "观点 | 我曾是风投合伙人。我们不能让硅谷买下民主。  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:28f9228a5fd5",
       "slug": "gnews-28f9228a5fd5",
       "source": "Google AI News",
@@ -877,6 +1447,72 @@
         "Business Insider"
       ],
       "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3060c2d5f458",
+      "slug": "gnews-3060c2d5f458",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUld1anJGR2V5N0pLeGM3MURyYktjdHcybU44RjBfMWNEaUN0bzdob2dUZmVXaDQ5X0ZzYmN3dTJ1X0p6Q3RMbFJWZkRyeGVZZ2RTa2hsNVo1X2hBVGgzWDFoMVJuZUF5bmtjeXQxd0s5TE81bTcweEt1cEFUR2JYZDJWTm5ya3YtNUNfYzJMWlFQTk5NZDhBVHdwQ1BmNFdqc3hzMkhwaGdSQdIBtwFBVV95cUxQOGgyQm1XTTVHWEQ0SU52YzNQNGZRQUJZMWJ1em1fRmhPVGV1blNMbXFKWVFKdkozV1pOcGdHbmFkVkJYSHExSGo2cWI1OF92S3BsME5pbkJqWmxfdmxHYWRvV2oyU2tnM2gwc2hhaDMwRnlYdm9HaWNnNzNkaVB0d0lMNmpndW1lNmhoX2paUWw2QUx5Sl9LUll0MTY0dFN4dkVLQ3RPYmdXY2FzcC15Q0ljbU10cGM?oc=5",
+      "publishedAt": "2026-06-11T05:48:33.000Z",
+      "titleEn": "Claude Fable 5 Explained: What Makes Anthropic’s New AI So Powerful?",
+      "titleZh": "Claude Fable 5 详解：Anthropic 的新 AI 为何如此强大？",
+      "abstractEn": "Claude Fable 5 Explained: What Makes Anthropic’s New AI So Powerful?  outlookbusiness.com",
+      "abstractZh": "Claude Fable 5 详解：Anthropic 的新 AI 为何如此强大？  outlookbusiness.com",
+      "authors": [
+        "outlookbusiness.com"
+      ],
+      "institution": "outlookbusiness.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:fesco-adecco:20c9febe19d1",
+      "slug": "hrorg-fesco-adecco-20c9febe19d1",
+      "source": "FESCO Adecco",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RbklBYWhkdkRodUxLU3NKb1hoSjhxSHZTc0dRN2E1clVwUmV0bEMwT2dZWDlvS0wwcjNaVGktNEc3NGcyNjdSZUZFUDIyeVZNcmF5ck43OFVEOXBvdGVnQWtUTjdRRnJaWUN0XzZMVQ?oc=5",
+      "publishedAt": "2026-06-11T04:30:42.000Z",
+      "titleEn": "第十二届中国（上海）国际技术进出口交易会今天开幕",
+      "titleZh": "第十二届中国（上海）国际技术进出口交易会今天开幕",
+      "abstractEn": "第十二届中国（上海）国际技术进出口交易会今天开幕  上观新闻",
+      "abstractZh": "第十二届中国（上海）国际技术进出口交易会今天开幕 上观新闻",
+      "authors": [
+        "上观新闻"
+      ],
+      "institution": "上观新闻",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:7dff39ed40b2",
+      "slug": "gnews-7dff39ed40b2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVnFqNTRNQ3kyTnVCSTY1Z1V2QXEzUUd4MndFc2dNLWJqSWNHWTIxa19CelFzT3IzTFVsTEdiY2xJOU52OW1qVERrLTFfSlptTV83cmxtYkYyX3lIRzJjT2xScENLeGdyeEdTaGdFRHp1aGQxRGd4Tm5YS3RWRGlibWJtYXRVeVlXUEtvLUVOM3ZqZlJTTEh5eDJlWVRpRm9PNThFbTNNUXdPRFB3Q2tGa19na0M?oc=5",
+      "publishedAt": "2026-06-11T01:36:00.000Z",
+      "titleEn": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic",
+      "titleZh": "独家 | OpenAI 考虑大幅降价，预计将与 Anthropic 展开用户争夺战",
+      "abstractEn": "Exclusive | OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic  WSJ",
+      "abstractZh": "独家 | OpenAI 考虑大幅降价，预计将与 Anthropic 展开用户争夺战  《华尔街日报》",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
       "docType": "Blog",
       "category": "social",
       "score": 0,
