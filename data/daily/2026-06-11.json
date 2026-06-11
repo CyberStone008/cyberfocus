@@ -1,19 +1,450 @@
 {
   "date": "2026-06-11",
-  "generatedAt": "2026-06-11T06:06:18.959Z",
+  "generatedAt": "2026-06-11T11:48:43.243Z",
   "summary": {
     "aiNews": [
-      "OpenAI考虑降价与Anthropic争夺用户，竞争加剧或影响AI服务定价格局。",
-      "Anthropic新模型Fable 5因过度拒绝无害提示及反蒸馏机制误触率高，引发用户强烈反对。",
-      "Meshy发布全球首个3D AI Agent，被视为3D创作领域的ChatGPT时刻。"
+      "Anthropic发布新AI模型Fable 5，性能强大但成本高昂，CEO呼吁以航空和制药为蓝本进行监管。",
+      "阿里推出免费高考志愿填报Agent，面向1290万考生，利用大模型提供个性化建议。",
+      "前Icertis高管创立的Rivvun AI获755万美元种子轮融资，专注AI合同管理领域。"
     ],
     "papers": [],
     "hrOrgs": [
-      "ManpowerGroup第三季度招聘前景疲软，投资者质疑AI技能溢价是否仍成立。",
-      "Indeed数据显示夏季招聘放缓，年轻工人就业市场再受打击。"
+      "Recruit Holdings数据显示年轻人暑期招聘岗位大幅减少，夏季招聘放缓对年轻工人造成打击。",
+      "ManpowerGroup报告印度2026年第三季度招聘前景放缓，AI技能溢价影响投资者看法。",
+      "Mercer 2026年人才报告指出南非工人面临AI技能差距困境，需加强培训应对。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:6e57770b090b",
+      "slug": "gnews-6e57770b090b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV0FxaDNaWENSaklHMERfUEtQOFU2bFB5M0dFbXd6WXg3aUdCcGtIOURHejJKNnlrZjgzajB1SDYwdnJZS2s2X0JnbmY2NmlwUUVxWG9QcjV4UUpMY2FLWEJGUGlIRmJ5aUFmZFlNRUliSVJmNFZMRTYzUTZZSG1lZ2xn?oc=5",
+      "publishedAt": "2026-06-11T11:00:32.000Z",
+      "titleEn": "John R. Dearie: America needs a consistent national approach to AI regulation",
+      "titleZh": "John R. Dearie：美国需要一致的全国性 AI 监管方法",
+      "abstractEn": "John R. Dearie: America needs a consistent national approach to AI regulation  Chicago Tribune",
+      "abstractZh": "John R. Dearie：美国需要一致的全国性 AI 监管方法  Chicago Tribune",
+      "authors": [
+        "Chicago Tribune"
+      ],
+      "institution": "Chicago Tribune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-rlbyfxsp1xl2mrvo-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/rlbyFXSP1xl2Mrvo.html",
+      "publishedAt": "2026-06-11T09:42:00.000Z",
+      "titleEn": "千问上线足球预测 AI 助手，大模型预测能否战胜人类？",
+      "titleZh": "千问上线足球预测 AI 助手，大模型预测能否战胜人类？",
+      "abstractEn": "2026美加墨世界杯开赛在即。今日，千问举办首个足球预测AI助手上线沙龙。邀请用户预测比分赢积分，参与用户不仅能与千问一起为乡村学校捐出足球场，还有机会赢下万元现金大奖。\n \n千问上线足球预测AI助手\n上线首个足球预测AI助手\n融合天气、地貌等大数据\n这是AI全面参与竞猜的首届足球世界杯。此次千问上线足球预测 AI 助手，向所有用户开放。千问AI预测产品负责人程飞介绍，该足球预测AI助手基于海量大数据训练，不仅包括历史数据、各国足球运动员数据、受伤情况等，甚至还包括美加墨地貌数据及比赛期间天气数据。\n程飞以6月22日小组赛挪威对阵塞内加尔为例，拥有世界级前锋哈兰德的挪威，取胜似乎显而易见。但千问却给出了“1:1平局”的预测结果。\n“给出这个预测的原因是天气，”程飞介绍道：“因为今年世界杯由三个国家承办，不同比赛可能面临的天气情况完全不同。千问会去关注比赛举办地的气温、湿度、开球时间，以及两",
+      "abstractZh": "2026美加墨世界杯开赛在即。今日，千问举办首个足球预测AI助手上线沙龙。邀请用户预测比分赢积分，参与用户不仅能与千问一起为乡村学校捐出足球场，还有机会赢下万元现金大奖。\n千问上线足球预测AI助手\n上线首个足球预测AI助手\n融合天气、地貌等大数据\n这是AI全面参与竞猜的首届足球世界杯。此次千问上线足球预测 AI 助手，向所有用户开放。千问AI预测产品负责人程飞介绍，该足球预测AI助手基于海量大数据训练，不仅包括历史数据、各国足球运动员数据、受伤情况等，甚至还包括美加墨地貌数据及比赛期间天气数据。\n程飞以6月22日小组赛挪威对阵塞内加尔为例，拥有世界级前锋哈兰德的挪威，取胜似乎显而易见。但千问却给出了“1:1平局”的预测结果。\n“给出这个预测的原因是天气，”程飞介绍道：“因为今年世界杯由三",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:recruit:a9e2a8c6999f",
+      "slug": "hrorg-recruit-a9e2a8c6999f",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcnhWaFVzRTBSSW9HSGFfQTVMV1F2SHltZlRiaG5LY2pZc2NqR3Y3dHRqRmpnR2pOaU1JUUpWMGZScDZMYU40YmVRMVpjQ3NGTWFFR3BOWXdSRUVLVFRpci0zOUl0T2lOYlhtVGpmRnZHSFNjMnc0dDJwUEo4Y2ZyMTFmQUJFZmtGLW1OZQ?oc=5",
+      "publishedAt": "2026-06-11T09:39:47.000Z",
+      "titleEn": "Summer hiring roles for young people fall sharply",
+      "titleZh": "年轻人暑期招聘岗位大幅减少",
+      "abstractEn": "Summer hiring roles for young people fall sharply  Personnel Today",
+      "abstractZh": "年轻人暑期招聘岗位大幅减少（来源：Personnel Today）",
+      "authors": [
+        "Personnel Today"
+      ],
+      "institution": "Personnel Today",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:02042a3370c6",
+      "slug": "gnews-02042a3370c6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX0tFUXExSklWalJlWXkzS0V5VzZXY1o4YU0tZGpWcjdUNFJQNnhtS29TdDJkeGo0MVZJOWNjLUZCOGU4UUxvR1R2eFFZelpfTm9VQXFxaDc2RFd3NUNwUmp0ZmxSbWtfc09wUUxLNkdtelE0aWRkT3p3MkJQcEhWdU5MSlhCVVBFTTZfWUppN0QxTGVYVHlOR2F0Y3FOb1h0MUg4cHZjd0NJNFlKWEVRWjlR0gGyAUFVX3lxTE9fS0VRcTFKSVZqUmVZeTNLRXlXNldjWjhhTS1kalZyN1Q0UlA2eG1Lb1N0MmR4ajQxVkk5Y2MtRkI4ZThRTG9HVHZ4UVl6Wl9Ob1VBcXFoNzZEV3c1Q3BSanRmbFJta19zT3BRTEs2R216UTRpZGRPencyQlBwSFZ1TkxKWEJVUEVNNl9ZSmk3RDFMZVhUeU5HYXRjcU5vWHQxSDhwdmN3Q0k0WUpYRVFaOVE?oc=5",
+      "publishedAt": "2026-06-11T09:35:57.000Z",
+      "titleEn": "Former Icertis executives' startup Rivvun AI raises $7.55 Mn in seed funding",
+      "titleZh": "前 Icertis 高管创立的 Rivvun AI 获 755 万美元种子轮融资",
+      "abstractEn": "Former Icertis executives' startup Rivvun AI raises $7.55 Mn in seed funding  Entrackr",
+      "abstractZh": "前 Icertis 高管创立的 Rivvun AI 获 755 万美元种子轮融资（来源：Entrackr）",
+      "authors": [
+        "Entrackr"
+      ],
+      "institution": "Entrackr",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d39dcff16ec9",
+      "slug": "gnews-d39dcff16ec9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zdTBfYnFFUVQ5S3ZiMm5adW5lenZObWRiZDZBcDhwVmp0NE1RUG9DYmRMX183SVI1czFCWW0tNWFDUmdSRnlxMGFKT0c1ajhoMEU4QlBMdkhKRXEzNVB2OGlkWnl5NEw3N3BnYklxbDZQNmoyaFdHNjhzdw?oc=5",
+      "publishedAt": "2026-06-11T09:27:00.000Z",
+      "titleEn": "'Oh God, no! Not another thing:' What Anthropic's Mythos-class Fable 5 means for CEOs trying to govern AI",
+      "titleZh": "天哪，不！别再来了：Anthropic 的 Mythos 级 Fable 5 对试图治理 AI 的 CEO 意味着什么",
+      "abstractEn": "'Oh God, no! Not another thing:' What Anthropic's Mythos-class Fable 5 means for CEOs trying to govern AI  Fortune",
+      "abstractZh": "天哪，不！别再来了：Anthropic 的 Mythos 级 Fable 5 对试图治理 AI 的 CEO 意味着什么  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:630857ab3a7f",
+      "slug": "gnews-630857ab3a7f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRy05UXNPcVhQNWlveWRobWJMSHhVUWJpQ1FVcGF1MFpoZEtFZnNfUl8ySXBXb3dVOXpxX1J6RjhNemo5UXdCbWJJSXJRM2ZMMXE0b1pRZXNDTV91eXlITWlXM21GUU9iVEpKRm9FUUJuTDUtOVVEWWh3Z3FlbWZsal95UVZVdzVNM2JRZTgyRWkzVWIzNzNmdXFKZUM2Vno3VWR5ZHBWV3RHMHVh?oc=5",
+      "publishedAt": "2026-06-11T09:19:52.000Z",
+      "titleEn": "Anthropic’s new AI model is powerful, dazzling—and about to get really expensive",
+      "titleZh": "Anthropic的新AI模型强大而耀眼——但即将变得非常昂贵",
+      "abstractEn": "Anthropic’s new AI model is powerful, dazzling—and about to get really expensive  Fast Company",
+      "abstractZh": "Anthropic的新AI模型强大而耀眼——但即将变得非常昂贵  Fast Company",
+      "authors": [
+        "Fast Company"
+      ],
+      "institution": "Fast Company",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ff98cdd367a6",
+      "slug": "gnews-ff98cdd367a6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNDdoVWE2RnhjWjVIR0Utb0FMdTdXczhZX2pwZGtGZWg0ejF2LWNNaGxoLTF3RmRYeVUya2tYZlBINjJWUWxIN2pjXzNMb015VDZ6M0Jwa2dFY0R2RUlsR3I4NVBvQWZ3SzF1ZVpRNHpVRkdRNGhIS2o1dUVXclVNZllmS0VWT3o4?oc=5",
+      "publishedAt": "2026-06-11T09:01:53.000Z",
+      "titleEn": "Anthropic writes Washington an AI regulation playbook",
+      "titleZh": "Anthropic 为华盛顿撰写 AI 监管操作手册",
+      "abstractEn": "Anthropic writes Washington an AI regulation playbook  The Rundown AI",
+      "abstractZh": "Anthropic 为华盛顿撰写 AI 监管操作手册  The Rundown AI",
+      "authors": [
+        "The Rundown AI"
+      ],
+      "institution": "The Rundown AI",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:034ed9915118",
+      "slug": "gnews-034ed9915118",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdHlrYUswLWtaNHE2SHFPRy1Ca253aEVPTXNob2x0cXdsV1dfbFduSUZkZWJvUU5jZEpDSE1kSUY5TkItcjF6VEtIaXlaZG5NbXc5STE5MU1zUk9HM0szM21VRkt2QXhtcnZUaFAwZndGUkJLajhILTlkZXZZZ0ZFRTJKVG95N1hxcHhHaGNfdy1MSFc2Y2VQMVlwNUhQLUtOYlNtVtIBqgFBVV95cUxOWmdGa0dmZWpkLW5ncHVzVUFZQm1mOVl0SXNDb253akY5LTJRbW9sOUZKSU9aWUtKM2ZncVNoNTdLZXhZOENiNmVpeEc4WjlVdXFjc2M2d0ZLcXZUOGY1NV96YzZWRGh4VEdPbHJMbDYxQ3F1VDBQY2x6Vl9aSVYwY2dicmE5MVRRVkRTVDVidWZQZ2JzTjZjUF8taklYMlVYZDI2a2hLS0tnZw?oc=5",
+      "publishedAt": "2026-06-11T08:53:00.000Z",
+      "titleEn": "Dario Amodei calls for AI regulation modelled on aviation and pharmaceuticals",
+      "titleZh": "Dario Amodei 呼吁以航空和制药为蓝本进行 AI 监管",
+      "abstractEn": "Dario Amodei calls for AI regulation modelled on aviation and pharmaceuticals  Mezha",
+      "abstractZh": "Dario Amodei 呼吁以航空和制药为蓝本进行 AI 监管  Mezha",
+      "authors": [
+        "Mezha"
+      ],
+      "institution": "Mezha",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cee3852f96d0",
+      "slug": "gnews-cee3852f96d0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR3ZQS2tLQUltM19PUFgzbUJLQUlxZkJlSENWVmszLTlxdEJmOGZQejZ5UVhRTW00TWtkT3o5dXdvVnJOUEY4eWcxT3ZzMHl5RXF3dWRqOHduTF9pUUM2WGR4bmRjTkZpekpoQ0t0Z3N6T0VDNjlYekpoT19kZGVZbGExVThiSmtuclIxbDRJYXhLdGFjYzg1eA?oc=5",
+      "publishedAt": "2026-06-11T08:43:56.000Z",
+      "titleEn": "Better Artificial Intelligence (AI) Stock Buy in June: AMD vs. Nvidia (The Winner Might Surprise You)",
+      "titleZh": "六月更值得买入的人工智能（AI）股票：AMD vs. Nvidia（胜者可能出乎意料）",
+      "abstractEn": "Better Artificial Intelligence (AI) Stock Buy in June: AMD vs. Nvidia (The Winner Might Surprise You)  The Motley Fool",
+      "abstractZh": "六月更值得买入的人工智能（AI）股票：AMD vs. Nvidia（胜者可能出乎意料）  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:06b891262254",
+      "slug": "gnews-06b891262254",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU05VMFg4aXhvVTZzV053MWdoaFJ3OS14TUJ4ZzR0c0s5VEFNWGJWcmdKOFJiSDhfSllqMXBPdFM4dDhPRDc0eWlFUkNkQzBQcGt0UnEwdFp3V1h0cTNaS0xZcERrT25DWGNMZWVZZU1ENnJ0RFpYZ180VFRhZ1Z6ejJFX1ZEM3BjaTROYU5uRUh6dGc3TVRMYno2N2FQcXBjREFaSThaSjlqNnV0bV9iclY0UTlwU0tjcU9QWdIBwgFBVV95cUxOZ1dkVUhaR1h0bUd0bVJ1aEpPaC1hN3ZmVXJ4bkluZGhHNW1uX19xeDE4aURabmo4dDB6anNSd19IcGJrY2dGV2ZBM1IwanA1TjBLZ0FiN3JQT0tWanEteEEyZlpULU5rZlZUV25JQ2JqZEpzR1llTURjUTRzbURoYWpDWnZpV2NHSER2U2lCa1p0cnFXbVRDMGlxeWh4QjJGYmUzQmMxS2xaZVhtRTc5TEdxLUZKTk9tb3hQRTVFN1V6dw?oc=5",
+      "publishedAt": "2026-06-11T08:39:39.000Z",
+      "titleEn": "EU Siri AI Delay Puts Apple Growth Story And Regulation In Focus",
+      "titleZh": "欧盟 Siri AI 延迟使苹果增长故事与监管成为焦点",
+      "abstractEn": "EU Siri AI Delay Puts Apple Growth Story And Regulation In Focus  simplywall.st",
+      "abstractZh": "欧盟 Siri AI 延迟使苹果增长故事与监管成为焦点  simplywall.st",
+      "authors": [
+        "simplywall.st"
+      ],
+      "institution": "simplywall.st",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434571-html",
+      "slug": "claude-fable-5-low-opus",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434571.html",
+      "publishedAt": "2026-06-11T08:23:31.000Z",
+      "titleEn": "Claude Fable 5省钱秘诀来了：调成Low档比Opus更便宜",
+      "titleZh": "Claude Fable 5省钱秘诀来了：调成Low档比Opus更便宜",
+      "abstractEn": "聪明人总能花最少的钱办最好的事，AI也一样。",
+      "abstractZh": "聪明人总能花最少的钱办最好的事，AI也一样。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:dd2238bd6dc4",
+      "slug": "gnews-dd2238bd6dc4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQN2pxZ3cySVRyRkUyUllVcXFPY1k3RXVwcDdqS1VsN1VWa21KV0wtaEFiSjF6dUR6MWl6NVdvSTloWDk3U2QycW9ObFE0SzJVellUYnc3OWRzTXZuYzItZTBPRGFRWmdZelNabUtqdlJ0cm84X1Myc1VpVGp2NlBvWGxsVHl5WURFNmVlWTJYTlNhUzlZMFFDZV95Rl9jdFlvVHZDbWpRS25lQ1VPdm13WWFjMzNBb1I3dVZIRkJsS0lKS0lpNE1JSnJ1RXd2NlZobXRibTJ2QU8tZGdneTNIeDVRNS12QWM0RC1n?oc=5",
+      "publishedAt": "2026-06-11T08:04:06.000Z",
+      "titleEn": "OpenAI Reveals Alleged Chinese Network Used ChatGPT To Influence US Debate On Trump Tariffs, AI Policy",
+      "titleZh": "OpenAI 揭露疑似中国网络利用 ChatGPT 影响美国关于特朗普关税及 AI 政策的辩论",
+      "abstractEn": "OpenAI Reveals Alleged Chinese Network Used ChatGPT To Influence US Debate On Trump Tariffs, AI Policy  Benzinga",
+      "abstractZh": "OpenAI 揭露疑似中国网络利用 ChatGPT 影响美国关于特朗普关税及 AI 政策的辩论（来源：Benzinga）",
+      "authors": [
+        "Benzinga"
+      ],
+      "institution": "Benzinga",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48487540",
+      "slug": "hn-48487540-why-ai-hasnt-replaced-software-engineers-and-wont",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "commentUrl": "https://news.ycombinator.com/item?id=48487540",
+      "publishedAt": "2026-06-11T07:51:17.000Z",
+      "titleEn": "Why AI hasn't replaced software engineers, and won't",
+      "titleZh": "为什么AI尚未取代软件工程师，未来也不会",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "trueduke"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 63,
+      "commentCount": 80,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434558-html",
+      "slug": "1290-agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434558.html",
+      "publishedAt": "2026-06-11T07:25:55.000Z",
+      "titleEn": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
+      "titleZh": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
+      "abstractEn": "前期做了40万AI考生压测",
+      "abstractZh": "前期做了40万AI考生压测",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:bffc1f92d0b4",
+      "slug": "gnews-bffc1f92d0b4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjVDa1ZRVm14X2dZZlJyMHNuUy1EZjFILUQwOGhWdThQNTBVU3lQZWtBb3JGNGprc1IyeENzVW9qWUJYZEUxQy1YdV9zbmFHa3NCSFJ1YUllZV81NWpqczVXZTFPcmJaYkRIaUgzc25tbjFZb3VxbV85VlFVSzJ1RE00aG00dWZ1X2RhdU91MU45RFNzeUoyTjRmVER1SXZFcklzeFJPYnZnaEVz?oc=5",
+      "publishedAt": "2026-06-11T07:18:45.000Z",
+      "titleEn": "The right balance: how to fix European Union artificial intelligence regulation",
+      "titleZh": "恰当的平衡：如何修正欧盟人工智能监管",
+      "abstractEn": "The right balance: how to fix European Union artificial intelligence regulation  Bruegel",
+      "abstractZh": "恰当的平衡：如何修正欧盟人工智能监管  Bruegel",
+      "authors": [
+        "Bruegel"
+      ],
+      "institution": "Bruegel",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a6299820c9a7",
+      "slug": "gnews-a6299820c9a7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd3pNYjJKUFhlbWxseHp4ODdJdFB5N2d3bUtIdkNYWVBBZnpwZzFlaW1fMms1eDFJTURfRUhZNk5GVGlCUkpPcXhfMHJaS3FFbFJRRV8tSXhvemVGVHFNUlhKd0RFd3JPRWFHdUN2Y0dwU201X3lIU25ZclZ0SGhFMlRGaEpQUzljTENwTnVJWk91SzU2OU5CN2N0Z3ZqUENGeE5MMnlkY0EteUlNZWZUV293?oc=5",
+      "publishedAt": "2026-06-11T07:18:30.000Z",
+      "titleEn": "Anthropic: 'We made the wrong tradeoff' in new model guardrails",
+      "titleZh": "Anthropic：我们在新模型护栏中做出了错误的权衡",
+      "abstractEn": "Anthropic: 'We made the wrong tradeoff' in new model guardrails  Business Insider",
+      "abstractZh": "Anthropic：我们在新模型护栏中做出了错误的权衡  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-fbvk2vtxekzhfa4x-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/fBvk2VTXEKZHfa4X.html",
+      "publishedAt": "2026-06-11T07:08:00.000Z",
+      "titleEn": "独家丨前九号机器人负责人孙春阳创业，布局AI家庭影像赛道",
+      "titleZh": "独家丨前九号机器人负责人孙春阳创业，布局AI家庭影像赛道",
+      "abstractEn": "孙春阳曾先后在九号、Momenta就职。\n作者丨姚单\n\n编辑丨刘伟\n\n\n\n\n\n\n\n\n雷峰网·鲸犀独家获悉，前九号机器人负责人孙春阳已开启创业，成立公司「妙趣科技」，瞄准AI家庭影像赛道。目前，其核心团队已经组建完成。\n孙春阳毕业于美国卡内基梅隆大学（CMU）机器人专业，拥有机器人、自动驾驶领域的多年从业经验。\n在创业之前，孙春阳曾担任Momenta高级产品总监，后加入九号机器人，负责机器人相关业务。在过去多年里，其经历了机器人与智能产品从0到1的产品定义阶段，以及后续规模化落地过程。\n这种能力积累，也成为其此次创业的重要基础。据了解，孙春阳的创业方向将从家庭影像场景切入，探索Home Agent方向。\n近年来，家庭影像市场正在经历新一轮演进。一方面，手机已经完成了大众记录需求的普及；另一方面，AI技术的发展开始重新定义影像设备的价值边界。\n在不少人看来，影像仍会是今年AI应用最热门的方向之",
+      "abstractZh": "孙春阳曾先后在九号、Momenta就职。\n作者丨姚单\n\n编辑丨刘伟\n\n\n\n\n\n\n\n\n雷峰网·鲸犀独家获悉，前九号机器人负责人孙春阳已开启创业，成立公司「妙趣科技」，瞄准AI家庭影像赛道。目前，其核心团队已经组建完成。\n孙春阳毕业于美国卡内基梅隆大学（CMU）机器人专业，拥有机器人、自动驾驶领域的多年从业经验。\n在创业之前，孙春阳曾担任Momenta高级产品总监，后加入九号机器人，负责机器人相关业务。在过去多年里，其经历了机器人与智能产品从0到1的产品定义阶段，以及后续规模化落地过程。\n这种能力积累，也成为其此次创业的重要基础。据了解，孙春阳的创业方向将从家庭影像场景切入，探索Home Agent方向。\n近年来，家庭影像市场正在经历新一轮演进。一方面，手机已经完成了大众记录需求的普及；另一方面",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-ecsjjzrpgtefdgbn-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/EcsjjzrPGtEFdgBn.html",
+      "publishedAt": "2026-06-11T07:04:00.000Z",
+      "titleEn": "在红海中重做云台相机，影石看到了什么？",
+      "titleZh": "在红海中重做云台相机，影石看到了什么？",
+      "abstractEn": "对于很多消费电子公司来说，最理想的事情，是创造一个全新品类。\n但现实往往恰恰相反。\n回顾过去几十年的科技产业史，真正能够孕育出大公司的机会，很少诞生于蓝海，更多隐藏在已经足够拥挤的红海之中。智能手机并非由苹果发明，电动车在特斯拉出现之前便已存在；同样，无人机和云台相机也并非随着大疆的入场才第一次出现。\n以云台相机为例，在大疆Pocket出现之前，市场上已经出现过Removu K1、GoPro Karma Grip等产品，对“小型相机+云台稳定”的形态进行了探索。但直到大疆将云台、相机、算法与供应链能力整合到一起，口袋云台相机才真正走向大众市场。\n过去十年里，影石的发展轨迹与此颇为相似。\n当GoPro定义了运动相机市场之后，影石从全景切入，开辟出全景运动影像赛道；当运动相机行业陷入参数竞争时，它又通过Ace Pro切入街拍和日常记录场景，把原本属于极限运动爱好者的产品带向更广泛的大众市场。\n",
+      "abstractZh": "对于很多消费电子公司来说，最理想的事情，是创造一个全新品类。\n但现实往往恰恰相反。\n回顾过去几十年的科技产业史，真正能够孕育出大公司的机会，很少诞生于蓝海，更多隐藏在已经足够拥挤的红海之中。智能手机并非由苹果发明，电动车在特斯拉出现之前便已存在；同样，无人机和云台相机也并非随着大疆的入场才第一次出现。\n以云台相机为例，在大疆Pocket出现之前，市场上已经出现过Removu K1、GoPro Karma Grip等产品，对“小型相机+云台稳定”的形态进行了探索。但直到大疆将云台、相机、算法与供应链能力整合到一起，口袋云台相机才真正走向大众市场。\n过去十年里，影石的发展轨迹与此颇为相似。\n当GoPro定义了运动相机市场之后，影石从全景切入，开辟出全景运动影像赛道；当运动相机行业陷入参数竞争时，",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:da8c038825e0",
+      "slug": "gnews-da8c038825e0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdTF3RUlwbkRrbDFZeDVMNDFjd1lrRGZXWjdxdTdkRWpfTlJJeURGaHlkZ2JucnkxX25nWS1ISlV5WjhIY0xFWHF0elRMSGg3RGN6a3p6dmlHd3hsYV85WmFJV21zRmV5cWlQOWc5V25ZY3hXZm8zblRaS0x0eTAtZEV5SWY4UlhydHhXSmZMbEh6WDVTRTdsMjNRaGQ3TVIxVDF6eGJfMXAtcjBqVEUyZHFjUDVJYUpfc1g1UDdqVmZBMmdsVjZvelFDaFJvTkJWamJUMkVUaG80TFA4aWJqdlpxX294amQtTWNQaUhSVUZXQQ?oc=5",
+      "publishedAt": "2026-06-11T06:46:34.000Z",
+      "titleEn": "Paris-based generative and agentic AI startup Mendo secures €12 million Series A funding round for Europe push",
+      "titleZh": "巴黎生成式与自主式 AI 初创公司 Mendo 获 1200 万欧元 A 轮融资，拓展欧洲市场",
+      "abstractEn": "Paris-based generative and agentic AI startup Mendo secures €12 million Series A funding round for Europe push  Retail Technology Innovation Hub",
+      "abstractZh": "巴黎生成式与自主式 AI 初创公司 Mendo 获 1200 万欧元 A 轮融资，拓展欧洲市场（来源：Retail Technology Innovation Hub）",
+      "authors": [
+        "Retail Technology Innovation Hub"
+      ],
+      "institution": "Retail Technology Innovation Hub",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:7e5b0f3dc257",
+      "slug": "hrorg-manpower-7e5b0f3dc257",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3VjMlg0WkxXSHhJX3VROHZveDVOTEI4eEpVZHQ3QTNnVmdtM3ZOWGxQdlJYaENfSWJWQlVkOXhsNjhlUnQ4M3IxMFhOT25xdDgwekdVMUgxN1lqVFNTWWY3bGVydnU0U0F6YkZFc3M2THRPZEhaRWhoTUJVNkFUaTh0RUdmTUZLM3huQU9OS2hKT2E2cEFj0gGXAUFVX3lxTE53dWMyWDRaTFdIeElfdVE4dm94NU5MQjh4SlVkdDdBM2dWZ20zdk5YbFB2UlhoQ19JYlZCVWQ5eGw2OGVSdDgzcjEwWE5PbnF0ODB6R1UxSDE3WWpUU1NZZjdsZXJ2dTRTQXpiRkVzczZMdE9kSFpFaGhNQlU2QVRpOHRFR2ZNRkszeG5BT05LaEpPYTZwQWM?oc=5",
+      "publishedAt": "2026-06-11T06:31:37.000Z",
+      "titleEn": "India Hiring Outlook Slows in Q3 2026: ManpowerGroup",
+      "titleZh": "ManpowerGroup：印度 2026 年第三季度招聘前景放缓",
+      "abstractEn": "India Hiring Outlook Slows in Q3 2026: ManpowerGroup  SMEStreet",
+      "abstractZh": "ManpowerGroup：印度 2026 年第三季度招聘前景放缓（来源：SMEStreet）",
+      "authors": [
+        "SMEStreet"
+      ],
+      "institution": "SMEStreet",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
     {
       "id": "hn:48486486",
       "slug": "hn-48486486-openai-mulls-slashing-prices-as-it-competes-with-anthropic-for-users",
@@ -263,6 +694,28 @@
       "tags": []
     },
     {
+      "id": "gnews:9701fec63d18",
+      "slug": "gnews-9701fec63d18",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnEtMHRDdUF6VkFPSkE5MkpSQ3pKNWdvWGpCd3dDU0dTTEE0UVF0aVhfOC0zaHRNYWdDWXFpQklCOXVRbEEwT19ZNVN3ZnVjRWRsejhMU09scUh1eTdTd2dGa3ltUXJQUHd4ZW8tMWJLU3FjUkRPYW5fQVRSUjJfZ2JnOTQ0NWFDb3NSYTFNa2ZaX1lRV2tmT1BmQmFlclFuT2NZ?oc=5",
+      "publishedAt": "2026-06-11T03:11:00.000Z",
+      "titleEn": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "titleZh": "Anthropic 撤回可能‘破坏’使用 Claude 的 AI 研究人员的政策",
+      "abstractEn": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude  WIRED",
+      "abstractZh": "Anthropic 撤回可能‘破坏’使用 Claude 的 AI 研究人员的政策  WIRED",
+      "authors": [
+        "WIRED"
+      ],
+      "institution": "WIRED",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:8e18caa8e09f",
       "slug": "gnews-8e18caa8e09f",
       "source": "Google AI News",
@@ -471,6 +924,28 @@
       ]
     },
     {
+      "id": "gnews:42e8890d6bba",
+      "slug": "gnews-42e8890d6bba",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFRiRC15TFY4QVNIQUdZOWR3RFVmcDZwdWpIWGhDWTFMR0otcWI1QW5ZbjI4WVdleGF2cUdNbEt1bHVITnlia05QeGx5RS12VWRncjB5bjFqTzMybXBDMUNuN2x0V3pKYnRzYjVBRFk2WHpEUzF1UWFvV3loc2M1WU04QzRnV1prOVBiQkl1cTZfblA4RDJ5Tg?oc=5",
+      "publishedAt": "2026-06-11T01:17:00.000Z",
+      "titleEn": "2 Bargain Artificial Intelligence (AI) Stocks to Buy Now Down Around 25% From Their All-Time Highs",
+      "titleZh": "两只现价较历史高点下跌约25%的人工智能（AI）特价股票值得买入",
+      "abstractEn": "2 Bargain Artificial Intelligence (AI) Stocks to Buy Now Down Around 25% From Their All-Time Highs  The Motley Fool",
+      "abstractZh": "两只现价较历史高点下跌约25%的人工智能（AI）特价股票值得买入  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:0ce253f09228",
       "slug": "gnews-0ce253f09228",
       "source": "Google AI News",
@@ -613,6 +1088,28 @@
         "Business Insider"
       ],
       "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8672cb43e716",
+      "slug": "gnews-8672cb43e716",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55VVFwTHI2a21SMkRfWWc4cUY2UkZBWVhNZkctQ2xMSXNBcGpqSTg4Q0hkaTlYR3huZDVkVzVwVW5ERWt2cmVNeHdGLUEyRnhVTUdyd0RFVEZGd1Z1?oc=5",
+      "publishedAt": "2026-06-10T22:28:00.000Z",
+      "titleEn": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "titleZh": "通过您的 Oracle 云承诺访问 OpenAI 模型和 Codex",
+      "abstractEn": "Access OpenAI models and Codex through your Oracle cloud commitment  OpenAI",
+      "abstractZh": "通过您的 Oracle 云承诺访问 OpenAI 模型和 Codex  OpenAI",
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1117,6 +1614,28 @@
         "Yahoo Finance"
       ],
       "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:66dbd30a059d",
+      "slug": "gnews-66dbd30a059d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSTVaZGZsS25xQTFQWV9NNVBBTnl5UG9tYUl0SnRhWnVWT3haV0xwSk4yN3l2aTduVFpWZC0wNkx4V0htS1FsS2JqM2EwNWZfSTVWbVZMTkY1RVNWVnNPbFBjeXc3Z2pWb1QtcDFoUjhjNUdGVW9HX0FFMjlvQmYxUzFMU184amR0cGV4c1dJaWtpSW11Z0NEd0JTeDItSlBUOTdFOVN0RTNDVHhpTGxaaDc4QUtFM0lXa3plYm0zbzdqWDMx?oc=5",
+      "publishedAt": "2026-06-10T18:37:44.000Z",
+      "titleEn": "Google DeepMind and Sanger Institute form AI genomics consortium",
+      "titleZh": "Google DeepMind 与桑格研究所组建 AI 基因组学联盟",
+      "abstractEn": "Google DeepMind and Sanger Institute form AI genomics consortium  C&EN",
+      "abstractZh": "Google DeepMind 与桑格研究所组建 AI 基因组学联盟  C&EN",
+      "authors": [
+        "C&EN"
+      ],
+      "institution": "C&EN",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1972,6 +2491,28 @@
       ]
     },
     {
+      "id": "gnews:0d2ef5dfec67",
+      "slug": "gnews-0d2ef5dfec67",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWxaOXpvekRXTzV6OG44MFVKXzhPSWM1N19nZlBQZFV6YlNfT2czWHhiZmFxU0dLWjZiZzg0SlVieHFhM2ctTWJTVzN4TlUyU0M5cXh0ZnAwT01WdzRlNmNUSGlQa1lScVFCU3dXbzZGUVR5cjNtUUVEdEFhYTEyWlA1UmtLRVc4d2s1Y2xEUzdWYmhrZFdScw?oc=5",
+      "publishedAt": "2026-06-10T13:03:24.000Z",
+      "titleEn": "Voltus is acquiring energy storage startup Brightfield AI",
+      "titleZh": "Voltus 收购储能初创公司 Brightfield AI",
+      "abstractEn": "Voltus is acquiring energy storage startup Brightfield AI  Latitude Media",
+      "abstractZh": "Voltus 收购储能初创公司 Brightfield AI（来源：Latitude Media）",
+      "authors": [
+        "Latitude Media"
+      ],
+      "institution": "Latitude Media",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:255cd7ead4c8",
       "slug": "gnews-255cd7ead4c8",
       "source": "Google AI News",
@@ -2342,6 +2883,50 @@
       "score": 35,
       "commentCount": 8,
       "tags": []
+    },
+    {
+      "id": "hn:48461635",
+      "slug": "hn-48461635-build-a-basic-ai-agent-from-scratch-long-task-planning",
+      "source": "Hacker News",
+      "sourceUrl": "https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d",
+      "commentUrl": "https://news.ycombinator.com/item?id=48461635",
+      "publishedAt": "2026-06-09T14:29:34.000Z",
+      "titleEn": "Build a Basic AI Agent from Scratch: Long Task Planning",
+      "titleZh": "从零构建基础AI智能体：长任务规划",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ruxudev"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "hrorg:mercer:497d9f7e7204",
+      "slug": "hrorg-mercer-497d9f7e7204",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc1NXTG41Y0lrS1Y2eHVMdEUtV3Bfc0JPbk85VzRyY0IwelR6LTI0bkd1VHZsRDdQUXhvNGlUVlgxMVJ1aGZRbE53QmJCM0dFY2M2N0ZXQXFwemRLUUVZM2c1aTRUWWQxOTdlczhCMzh3Sml2d2Z0U3d2RUl2WHRLU3IySlppTjJYeEdNM21HU2h3Ul9tYXRidC11NllJZUhWZlFCTFhlYmZaYmRYS0tKRTJ5akRyLWIwdERj?oc=5",
+      "publishedAt": "2026-04-17T14:01:15.000Z",
+      "titleEn": "Mercer's 2026 talent report: South African workers face AI skills gap dilemma",
+      "titleZh": "Mercer 2026 年人才报告：南非工人面临 AI 技能差距困境",
+      "abstractEn": "Mercer's 2026 talent report: South African workers face AI skills gap dilemma  Bizcommunity",
+      "abstractZh": "Mercer 2026 年人才报告：南非工人面临 AI 技能差距困境（来源：Bizcommunity）",
+      "authors": [
+        "Bizcommunity"
+      ],
+      "institution": "Bizcommunity",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
     }
   ]
 }
