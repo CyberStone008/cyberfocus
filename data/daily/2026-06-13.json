@@ -1,19 +1,460 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-12T16:29:17.625Z",
+  "generatedAt": "2026-06-12T21:46:21.050Z",
   "summary": {
     "aiNews": [
-      "贝佐斯旗下实体AI公司Prometheus以410亿美元估值融资120亿美元，创AI领域融资纪录。",
-      "OpenAI收购新公司，旨在为Codex编码助手带来重大变革，提升AI编程能力。",
-      "Meta发布一天后从智能眼镜撤下面部识别功能，因隐私争议引发关注。"
+      "卢旺达批准成立国家人工智能机构，成为首个设立专门AI机构的非洲国家。",
+      "Anthropic为州、地方、部落和领地政府启动1500万美元网络防御计划。",
+      "前DOGE员工为AI国家安全初创公司筹集1.3亿美元，聚焦国家安全领域。"
     ],
     "papers": [],
     "hrOrgs": [
-      "调查显示99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临转型。",
-      "加拿大就业市场‘快速离职’现象大幅减少，新员工留任率上升，反映就业稳定。"
+      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临变革。",
+      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，反映就业稳定性提升。",
+      "ManpowerGroup因劳动力市场乐观情绪回归上涨4.3%，显示行业信心恢复。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:662f41b11162",
+      "slug": "gnews-662f41b11162",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVDZzU1hDS0pKVlJQYldValFDU0g5MHY4cUhOWkhBWFpnaWxqeUVycTJ5TUszdUhRV1V5SWYtNkYwZ0FhZmJqcVFBb2VSdnBmbzNlLWhOXzM4bjhjNEcyWVRJYjh0UDFuZ2phdzFmS3k0eUhxM0JJUlpvczAtQjI2MHFXRVNFdmU2ZWROeHFQTVBTaU5zTzJ3UldiVm9oT3pkRzgzc3g3Zk1Ia3ppZVFGdXdJbWpPWVhNTlBSb2M1NkpxMzNGVm9PVE1oejBhei00OVYybHljYWw5R2c?oc=5",
+      "publishedAt": "2026-06-12T21:24:20.000Z",
+      "titleEn": "Amazon Stock AMZN Lags Tech Rally as Massive AI Spending, Regulation and Weak Cash Flow Cloud Outlook",
+      "titleZh": "亚马逊股票 AMZN 落后于科技股涨势，巨额 AI 支出、监管及疲软现金流令前景蒙阴",
+      "abstractEn": "Amazon Stock AMZN Lags Tech Rally as Massive AI Spending, Regulation and Weak Cash Flow Cloud Outlook  FXLeaders",
+      "abstractZh": "亚马逊股票 AMZN 落后于科技股涨势，巨额 AI 支出、监管及疲软现金流令前景蒙阴  FXLeaders",
+      "authors": [
+        "FXLeaders"
+      ],
+      "institution": "FXLeaders",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:8d068fdb2243",
+      "slug": "hrorg-randstad-8d068fdb2243",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeS1Td3cyaU9uZ2ZxZEdldEJhclFQZF9RV2IyUE1hdENDLTBkc3FldEZfWWNCTE1NUW9YT00yZ2hrYnFHZFRob2hQblFHcVFZS1VOY1hpdFpjTUJFV24xVkZYaGtKbWVqUFQzNDBqa3VCVWFHTV9NcXh4UUdDUEtZb0JLQXNMN0JKQkVxZVBZbXFlclZZU1pkcFM3eXRPYUFOcmJZaFY1TGFoQ182Nko5MzMwNXV1SWVidFlFWElrNXpFNmta?oc=5",
+      "publishedAt": "2026-06-12T20:59:06.000Z",
+      "titleEn": "Randstad N.V. Stock (NL0000379121): fundamentals and valuation in focus for US investors",
+      "titleZh": "Randstad N.V. 股票（NL0000379121）：美国投资者关注的估值与基本面分析",
+      "abstractEn": "Randstad N.V. Stock (NL0000379121): fundamentals and valuation in focus for US investors  AD HOC NEWS",
+      "abstractZh": "Randstad N.V. 股票（NL0000379121）：美国投资者关注的估值与基本面分析  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:3830564a7677",
+      "slug": "gnews-3830564a7677",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUM0N1pnemJMbTkxX1JYd0t1c3JRTDYtSmJiSkUwTkprOVZ1NTdVdFNQelEyc1FwV0ZRLXRfSWxGWmFtcXV0ODJoY2xUUU0tQS1kZC1oMmtKa3ZjX2ZXU3ZSZ0VtN3NHazRzWWlldnBHdEJFM2NzN2h1WG1mWU5rRi1IdTFwZE4xd2sxZlhoUHhnUjhPV2FpdlZIUFlFSjY3R3VaRzFicHg5blgzQThPcTdmYmU?oc=5",
+      "publishedAt": "2026-06-12T20:37:18.000Z",
+      "titleEn": "SpaceX value surges past $2 trillion in historic IPO debut",
+      "titleZh": "SpaceX 在历史性 IPO 首秀中市值突破 2 万亿美元",
+      "abstractEn": "SpaceX value surges past $2 trillion in historic IPO debut  Reuters",
+      "abstractZh": "SpaceX 在历史性 IPO 首秀中市值突破 2 万亿美元  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48509143",
+      "slug": "hn-48509143-mmorpg-world-of-claudecraft-vibe-coded-with-fable-5",
+      "source": "Hacker News",
+      "sourceUrl": "https://worldofclaudecraft.com/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48509143",
+      "publishedAt": "2026-06-12T20:34:42.000Z",
+      "titleEn": "Mmorpg World of ClaudeCraft, vibe coded with Fable 5",
+      "titleZh": "大型多人在线角色扮演游戏《ClaudeCraft 世界》，使用 Fable 5 进行氛围编码",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "beatthatflight"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 28,
+      "commentCount": 7,
+      "tags": []
+    },
+    {
+      "id": "hn:48509011",
+      "slug": "hn-48509011-ex-doge-employees-raise-130-mill-for-ai-national-security-startup",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.vanityfair.com/story/doge-defense-startups",
+      "commentUrl": "https://news.ycombinator.com/item?id=48509011",
+      "publishedAt": "2026-06-12T20:20:21.000Z",
+      "titleEn": "Ex-DOGE Employees Raise $130 Mill for AI National Security Startup",
+      "titleZh": "前 DOGE 员工为 AI 国家安全初创公司筹集 1.3 亿美元",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "gaheehwjhwbs"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48508824",
+      "slug": "hn-48508824-why-the-ai-renaissance-keeps-not-arriving",
+      "source": "Hacker News",
+      "sourceUrl": "https://jamesfbaker.substack.com/p/why-the-ai-renaissance-keeps-not",
+      "commentUrl": "https://news.ycombinator.com/item?id=48508824",
+      "publishedAt": "2026-06-12T20:02:48.000Z",
+      "titleEn": "Why the AI Renaissance Keeps Not Arriving",
+      "titleZh": "为何 AI 复兴迟迟未至",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "jamesbaker1"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "gnews:fb5cf71bd82a",
+      "slug": "gnews-fb5cf71bd82a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV19JRTlzVG02X0M5VnFRMUtNX243OWpaX3hDWkRtOS1Ldk5JdEN0X2tEdDUtcFlmZnhhUDlnbl9MT0JvUDI4NmZPbU92d2tyNlZZOEFvbnVhdGhDVmFFT1RiM1BTaW9aNDRSOXJJMTNwV0pRMTFxUVpFVFhQMzJocFV2a24?oc=5",
+      "publishedAt": "2026-06-12T18:53:32.000Z",
+      "titleEn": "What the SpaceX I.P.O. Means for OpenAI and Anthropic",
+      "titleZh": "SpaceX IPO 对 OpenAI 和 Anthropic 意味着什么",
+      "abstractEn": "What the SpaceX I.P.O. Means for OpenAI and Anthropic  The New York Times",
+      "abstractZh": "SpaceX IPO 对 OpenAI 和 Anthropic 意味着什么  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:tcs-anthropic-partnership",
+      "slug": "tcs-anthropic-partnership",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "publishedAt": "2026-06-12T17:59:27.000Z",
+      "titleEn": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "titleZh": "TCS 与 Anthropic 合作，将 Claude 引入受监管行业",
+      "abstractEn": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
+      "abstractZh": "我们宣布与塔塔咨询服务公司（TCS）建立合作伙伴关系。TCS 将向其遍布 56 个国家的 50,000 名员工提供 Claude；为金融服务、医疗保健、公共部门及其他受监管行业的客户构建基于 Claude 的产品；并加入 Claude 合作伙伴网络。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 公告\n### Announcements\n\n# TCS 与 Anthropic 合作，将 Claude 引入受监管行业\n## TCS and Anthropic partner to bring Claude to regulated industries\n\n2026年6月12日\n\n![TCS 与 Anthropic 合作，将 Claude 引入受监管行业](https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)\n\n我们宣布与全球最大的技术服务公司之一——塔塔咨询服务公司（Tata Consultancy Services，TCS）建立合作伙伴关系。TCS 将向其遍布56个国家的5万名员工提供 Claude；为金融服务、医疗保健、公共部门及其他受监管行业的客户构建基于 Claude 的产品；并加入 Claude 合作伙伴网络（Claude Partner Network），该网络由咨询和服务公司组成，旨在帮助将 Claude 引入其企业客户。\n\n受监管行业的工作需要高度准确且可审计，这些领域的企业已因此开始使用 Claude。TCS 拥有数十年的经验，能够提供符合企业监管要求的技术，并且有能力将 Claude 推广至全球数千家企业。\n\n## TCS 如何使用 Claude\n### How TCS is using Claude\n\n作为“零号客户”（customer zero），TCS 将首先在其自身的工程、财务、法律、营销和销售团队中部署 Claude，并利用所学经验来规划如何将 Claude 带给客户。同时，TCS 正在为此次合作组建一个专门的业务部门，汇集顾问、工程师和行业专家，为客户设计和运行基于 Claude 的系统。TCS 将把 Claude 打包成行业特定的解决方案，例如保险公司的理赔处理和银行的贷款咨询，其团队将为金融服务、公共服务、生命科学、医疗保健、航空、电信和医疗技术领域的客户实施和运行这些方案。\n\n这项工作已经启动。例如：\n\n- **Diligenta**（TCS 旗下的英国人寿与养老金业务）将使用 Claude 改善其服务的超过2200万保单持有人的客户体验。\n- **TCS 的银行与金融服务产品团队**将使用 Claude Code 提升软件工程和 IT 运营方面的生产力。\n- **TCS 的工程团队**将为 Claude Code 生态系统添加可复用的技能和插件，首先聚焦于理赔裁决和贷款咨询领域。\n- **TCS iON**（每年在印度1500个城市进行超过7500万次评估）将提供 Claude 培训与认证。\n\n“企业 AI 的价值源于理解业务背景、编排复杂系统以及运用深厚的 AI 工程人才，”TCS 首席执行官兼董事总经理 K. Krithivasan 表示。“通过将 Claude 与我们的行业专长、工程严谨性以及大规模转型能力相结合，我们将帮助客户更快地将产品投入生产——尤其是在那些信任、韧性和监管纪律至关重要的行业。此次合作反映了 TCS 的更广泛战略：通过将前沿 AI 转化为企业级转型，帮助客户成为持续适应型组织。”\n\n“我们构建 Claude 的目标是使其安全、可信且有用，尤其是在对准确性要求最高的场景中，”Anthropic 联合创始人兼首席执行官 Dario Amodei 表示。“此次合作加深了我们对印度（我们的第二大市场）的承诺，TCS 将把 Claude 带给该地区乃至全球的企业和专业人士。”\n\n要了解更多关于 Claude 合作伙伴网络的信息，请访问 anthropic.com/partners。",
+      "tldrZh": "TCS 与 Anthropic 合作，将向56个国家的5万名员工提供Claude，并为金融、医疗等受监管行业构建基于Claude的行业解决方案，首批应用已覆盖保险理赔和银行贷款咨询。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-12T21:45:25.193Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-13"
+    },
+    {
+      "id": "hn:48507278",
+      "slug": "hn-48507278-dont-you-just-upload-it-to-chatgpt",
+      "source": "Hacker News",
+      "sourceUrl": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48507278",
+      "publishedAt": "2026-06-12T17:52:46.000Z",
+      "titleEn": "\"Don't You Just Upload It to ChatGPT?\"",
+      "titleZh": "《难道你只是把它上传到 ChatGPT 吗？》",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "speckx"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 200,
+      "commentCount": 181,
+      "tags": []
+    },
+    {
+      "id": "gnews:b3c5e4f842ad",
+      "slug": "gnews-b3c5e4f842ad",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOEhvU18zamNXaVYzd1JGak1uNXhzLWpma0JBYUdkUTgxZGNienFkeGRhd2lNUTRWcXRBN0g0Ty04NldlcXh2LUo1QXVxVzRnWkFUT1lCS3VibWhyeTFSOHgwMjUxWWhUSmVyODZVUUl4R0ljRDQ1cU8zZlFySGk1RW9uV2s4aDMwcnJ1c0tXUmJtak9SQkktcGg0cjPSAV5BVV95cUxQdEJJdTBvMU51RV9vN0NLdnVuVC1xNGRlRGprWlB2RHRrUzZHWHNMS293YloxTUcycmhOZWMxTDhEemduYVdvb1RTZ3hnWW1rQ2d4RVJheVBueXpKczJR?oc=5",
+      "publishedAt": "2026-06-12T17:44:00.000Z",
+      "titleEn": "AI Compliance Startup Compuvi Raises $40M In Seed Funding",
+      "titleZh": "AI 合规初创公司 Compuvi 获 4000 万美元种子轮融资",
+      "abstractEn": "AI Compliance Startup Compuvi Raises $40M In Seed Funding  Law360",
+      "abstractZh": "AI 合规初创公司 Compuvi 获 4000 万美元种子轮融资  Law360",
+      "authors": [
+        "Law360"
+      ],
+      "institution": "Law360",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48507020",
+      "slug": "hn-48507020-how-to-setup-a-local-coding-agent-on-macos",
+      "source": "Hacker News",
+      "sourceUrl": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "commentUrl": "https://news.ycombinator.com/item?id=48507020",
+      "publishedAt": "2026-06-12T17:34:55.000Z",
+      "titleEn": "How to setup a local coding agent on macOS",
+      "titleZh": "如何在 macOS 上设置本地编码代理",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "kkm"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 155,
+      "commentCount": 55,
+      "tags": []
+    },
+    {
+      "id": "gnews:4b306d52c48c",
+      "slug": "gnews-4b306d52c48c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORzdkaHlRSFN3S2RnSUpuWGo3Z0tpbUtLeXlXeFB3ZGNiU3hzaDFvSVZqNktRcGxwRGdFMzJweWZQNXZEZ1F3RVJRNzkxUXJVbkFVcnBMOHJfZlBNVm5DcTBheHcwalo4eWczbzFBUVBHeTBnM0FXZl9VbGJmWHhtQldLQkpmUWpDQXI3ZVBCbzhrdXdhS1BURVhPV0JmU00?oc=5",
+      "publishedAt": "2026-06-12T17:09:14.000Z",
+      "titleEn": "About 20 New Billionaires Could Be Minted by 3 Mega-I.P.O.s",
+      "titleZh": "三大超级 IPO 或将催生约 20 位新亿万富翁",
+      "abstractEn": "About 20 New Billionaires Could Be Minted by 3 Mega-I.P.O.s  The New York Times",
+      "abstractZh": "三大超级 IPO 或将催生约 20 位新亿万富翁  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cf4f0767a32e",
+      "slug": "gnews-cf4f0767a32e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNF9WRnhldUlDYjJXMkNKb1Rac2FQNmN2SVNCaWZLdzVFU19HTTRiY2xGTXcyQy0xUzJvQUxEOWJhUEhUUUdCZ3U1d0t0SEVtc21qWlVkZTB5cVUyOUhDbk81RTUwM0UzR1NnWFJuckttcm5QOV9jNm5uV2xoanZ3Qi01Mzl4TkpDbWRwcVhnbzJZa3M0Y0padzB4eDI4UklJUWRGbF9JcHNNY1REOGtHZTNtZTFZUGs?oc=5",
+      "publishedAt": "2026-06-12T16:59:54.000Z",
+      "titleEn": "Rwanda Approves National AI Agency, Becoming First African Country With Dedicated AI Institution",
+      "titleZh": "卢旺达批准成立国家人工智能机构，成为首个设立专门 AI 机构的非洲国家",
+      "abstractEn": "Rwanda Approves National AI Agency, Becoming First African Country With Dedicated AI Institution  iAfrica.com",
+      "abstractZh": "卢旺达批准成立国家人工智能机构，成为首个设立专门 AI 机构的非洲国家  iAfrica.com",
+      "authors": [
+        "iAfrica.com"
+      ],
+      "institution": "iAfrica.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48506545",
+      "slug": "hn-48506545-launch-hn-bitboard-yc-p25-analytics-workspace-for-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://bitboard.work/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48506545",
+      "publishedAt": "2026-06-12T16:58:03.000Z",
+      "titleEn": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "titleZh": "发布 HN：BitBoard (YC P25) – 面向代理的分析工作空间",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "arcb"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 28,
+      "commentCount": 15,
+      "tags": []
+    },
+    {
+      "id": "gnews:9f2bcd03b686",
+      "slug": "gnews-9f2bcd03b686",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWx4ZklJZGdzRThDanVsMzRHVXF4WUg2cGs5T05ZZ18wdnkxWFU4WmpKMFNfMUk4SHRLZGlVdjVRQ2x5LVNfQWNqTzdBbU5UTE5zYTRlWVlwZGJYU0pxTWVNOUl0MXlUeGl1d0hmZ0RWUFNjeFRpRVQzcmQzU2xjMTB6OHhaaHVNUDRJWnNNUExaLWJ5VU5ETTJCdWdILU5icUoyOU5HaXFTV0xvVmc?oc=5",
+      "publishedAt": "2026-06-12T16:46:01.000Z",
+      "titleEn": "Jeff Bezos-backed AI startup Prometheus raises $12 billion",
+      "titleZh": "杰夫·贝索斯支持的 AI 初创公司 Prometheus 融资 120 亿美元",
+      "abstractEn": "Jeff Bezos-backed AI startup Prometheus raises $12 billion  The American Bazaar",
+      "abstractZh": "杰夫·贝索斯支持的 AI 初创公司 Prometheus 融资 120 亿美元  The American Bazaar",
+      "authors": [
+        "The American Bazaar"
+      ],
+      "institution": "The American Bazaar",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f4dcc3f3fed8",
+      "slug": "gnews-f4dcc3f3fed8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNME1NNUNiODhvSFVlVldoMTFQMDVRSTg2VFg2TTlzUHkzb0kxaXJsa3NVYkhhX3FkTXRYNERVX0NjVXVJRUVicWNVRVZQTWxtRC1OclFrQjlsWkZNWHBnRk14WE1FVUNveC1FMTJhdkZDekZzUTFyT1NYdmtaV3hKdDdBeDNYTXNXRUs2cnI3UDhiQWpLdGN5Y2I2cEtMS0JHSDliTkVNT0ZoY2h4YjJKWFdPZ0xtamUtNl80?oc=5",
+      "publishedAt": "2026-06-12T16:43:41.000Z",
+      "titleEn": "Anthropic launches $15M cyber defense program for state, local, tribal and territorial governments",
+      "titleZh": "Anthropic 为州、地方、部落和领地政府启动 1500 万美元网络防御计划",
+      "abstractEn": "Anthropic launches $15M cyber defense program for state, local, tribal and territorial governments  StateScoop",
+      "abstractZh": "Anthropic 为州、地方、部落和领地政府启动 1500 万美元网络防御计划  StateScoop",
+      "authors": [
+        "StateScoop"
+      ],
+      "institution": "StateScoop",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:918a0a36c4f6",
+      "slug": "gnews-918a0a36c4f6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNUMyd19yalJlOGVLV0c4RGxYbFhhWURsa3U2cHR2YjVHeXFaYkVUbHdXcUE4T0xnWHRTSGM2U2k2NVBhd3Joay1KRVRkU1l3QkdBQzlIbGtib3p1dUUyNGhoclFRcno1ZHRlMjlUYmVlZTBRTU1UZlo1TFdHNlJSclpuWkZQQ191TVZCYXhvMlVfSmdwaEZXWWp3WnM?oc=5",
+      "publishedAt": "2026-06-12T16:30:00.000Z",
+      "titleEn": "AI Regulation and the Looming Problem of the Takings Clause",
+      "titleZh": "人工智能监管与征用条款的潜在问题",
+      "abstractEn": "AI Regulation and the Looming Problem of the Takings Clause  Lawfare",
+      "abstractZh": "人工智能监管与征用条款的潜在问题  Lawfare",
+      "authors": [
+        "Lawfare"
+      ],
+      "institution": "Lawfare",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:anthropic-public-record",
+      "slug": "anthropic-public-record",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-public-record",
+      "publishedAt": "2026-06-12T16:24:44.000Z",
+      "titleEn": "Results from first Anthropic Public Record",
+      "titleZh": "首次 Anthropic 公共记录结果",
+      "abstractEn": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
+      "abstractZh": "Anthropic 公共记录是一项关于公众对人工智能态度和看法的全国性调查。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 首次 Anthropic 公共记录调查结果\n### Results from the first Anthropic Public Record\n\n公告\n\n# 首次 Anthropic 公共记录调查结果\n# Results from the first Anthropic Public Record\n\n2026年6月12日\n\n![首次 Anthropic 公共记录调查结果](https://www-cdn.anthropic.com/images/4zrzovbb/website/b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)\n\n我们正在开展一项名为“Anthropic 公共记录”（Anthropic Public Record）的新系列调查，旨在了解公众对人工智能的看法与感受。本文呈现了首轮调查的结果，该调查于2025年11月至12月进行，覆盖了近52,000名美国人。\n\n**主要发现：**\n\n- 近半数（48%）美国人将治愈癌症或阿尔茨海默症等疾病列为对AI的首要期望之一，其次是帮助残障人士（36%），以及推动技术进步和让生活更便捷（并列23%）。\n- AI导致的失业是各州最普遍的担忧，64%的美国人对此感到忧虑。第二大担忧是认知依赖（cognitive dependency，56%），其次是错误信息（misinformation，52%）。\n- 对政府干预AI的支持度很高：超过70%的受访美国人认为政府应在AI监管中发挥作用，且这一支持跨越党派。人们最希望政府在隐私（56%）、儿童安全（52%）和伤害责任（49%）等领域对AI采取行动。\n- 当被问及什么最能确保AI造福人类时，美国人认为让AI公司对伤害承担法律责任（47%）和将安全置于增长之上（44%）是最有效的举措。\n- 仅有15%的美国人表示信任AI公司就AI的开发和用途做出决策。\n\n![失业担忧 集成用户 对政府参与的支持](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F723f3519ffdbeb2184e516e3ba2323d75acd22c5-2528x2840.png&w=3840&q=75)\n\n![图表2](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F507cad62820d33f5a2503f84759445032c22530e-2528x2844.png&w=3840&q=75)\n\n![图表3](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F07db5342ec9e5fdfc971b37fced7d4dfcb6af6ee-2528x2844.png&w=3840&q=75)\n\n引人注目的是，在大多数问题上，AI并未按照典型的党派、地域或教育背景将美国人严重分化。总体而言，各话题存在广泛共识：美国人渴望实现AI承诺的益处，但同时也担忧其可能带来的颠覆，并希望构建AI的公司承担责任。我们观察到的分歧，主要仅体现在人们观点的强烈程度上。\n\n这项研究建立在 Anthropic 正在进行的其他工作之上，旨在了解人们如何使用 Claude 以及他们对AI发展的看法。我们最近通过 Anthropic Interviewer（我们用于大规模进行深度访谈的工具）对81,000名 Claude 用户进行了一项全球定性研究。我们还定期发布来自 Anthropic 经济指数（Anthropic Economic Index）的数据，该指数利用匿名的 Claude 使用数据来展示世界各地的人们如何运用AI。Anthropic 公共记录调查标志着我们首次与普通公众对话，使我们能够接触到非AI用户，并更好地理解不同人口群体间态度的差异。\n\nAnthropic 公共记录将定期重复进行，其范围将随着新话题变得日益重要而演变，使我们能够追踪公众对AI的态度如何随着模型能力的进步和应用的深化而变化。未来，我们计划将调查扩展到美国以外。\n\n## 方法简述\n### Method in brief\n\n我们于2025年11月至12月进行了一项具有全国代表性的在线调查，样本来自 YouGov，共51,993名美国人，并根据美国人口普查基准进行了加权。各州样本量从232人（阿拉斯加州）到1,902人（纽约州）不等，州级误差幅度在±2.6至±9.1个百分点之间。方法论的更多细节见附录。\n\n## 美国人对AI的期望\n### What Americans hope AI will deliver\n\n我们要求美国人从17个选项中选出他们对AI的三个首要期望。治愈疾病位居榜首，48%的受访者将其列入前三，领先于排名第二的“帮助残障人士”（36%）12个百分点。像心理治疗和减少孤独感——或者说AI可能替代人际接触的期望——是所列选项中排名最低的。\n\n![期望图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe8e083125487dcbc09340e15130901e2172c6754-2528x2372.png&w=3840&q=75)\n\n## 美国人的担忧\n### What Americans fear\n\n我们向受访者提供了20种AI可能带来的危害清单，要求他们标出自己个人担心的每一项，然后按五级量表对每项担忧程度进行评分。我们将任何评分为2（有点担心）或更高的回答视为“担忧”。（此方法与上述问题不同，上述问题要求参与者仅对*三个*期望进行排序；因此数字不可比。）\n\n失业是迄今为止最常见的担忧，近三分之二（64%）的美国人对此表示忧虑。其次是认知依赖——即AI的融入使人们无法独立思考——占56%，以及错误信息占52%。在我们对81,000名 Claude 用户的定性研究中，失业和认知依赖也是主要的担忧。\n\n最常见的危害往往是近期且具体的：失业、认知依赖、错误信息、犯罪用途和监控。这些担忧在AI出现之前就已存在，在早期技术中已有先例——例如，自动化导致失业、智能手机助长依赖、社交媒体传播错误信息。总体而言，美国人更担心AI的滥用而非AI的失调（misalignment），他们提及犯罪用途、监控和恐怖主义的频率高于例如AI“失控”。\n\n在我们提及的所有危害中，除了三项之外，大多数受访者表示自己“不担心”，但没有任何一项潜在危害是少于1/4的美国人至少有些担忧的。\n\n![担忧图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef7aabafd7abdaae2892f9286877c788a52c9982-2528x2780.png&w=3840&q=75)\n\n## 失业担忧的模式\n### Patterns with job loss\n\n64%的美国人担心AI会取代工作岗位。这种担忧分布得异常均匀。它是民主党人（67%）和共和党人（62%）、有孩子的家庭（59%）和无孩子的家庭（66%），以及从最高点的爱荷华州（71%）到最低点的密西西比州（57%）的每个州中排名第一的担忧。\n\n![失业担忧地图](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4653d27a2bfe64ecb26951b95083b1919753d67a-2528x2144.png&w=3840&q=75)\n\n### 教育程度越高的美国人，对失业的担忧越强烈\n### Job loss concerns are higher among Americans with more education\n\n对失业的担忧随着受访者教育水平的提高而上升。拥有研究生学位的美国人比仅受过高中或以下教育的人对失业的担忧高出近10个百分点。换句话说，最担心失业的劳动者，正是那些工作内容已经与AI被要求执行的任务重叠度更高的人——这一发现与我们经济研究团队对全球 Anthropic Interviewer 研究的分析结果一致。\n\n![教育程度与失业担忧](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa6adecdb6dcd4a10e8c131745de60b3423f07d9f-2528x1312.png&w=3840&q=75)\n\n### 最不常使用AI的人，对失业的恐惧更强烈\n### Fear of job loss is heightened among those who use AI least\n\n与此同时，每天在工作中使用AI的人对失业的担忧*明显*低于完全不使用AI的人：分别为54%和70%。\n\n![使用频率与失业担忧](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F47710f04a3c93648488effd4b2d4d20d03656d74-2528x1596.png&w=3840&q=75)\n\n这种趋势有多种可能的解释。亲身体验AI可能帮助人们发展技能和熟练度，从而增强而非自动化其部分工作，使失业看起来不那么迫在眉睫。亲身体验也可能揭示AI的局限性。很可能是这些因素及其他因素共同作用的结果。\n\n### 对AI能力的认知与工作场所的接受度\n### Perceived capabilities and acceptance of AI at work\n\n我们向受访者提供了14项工作任务清单，并就每项任务问了两个问题：“你认为今天的AI工具或应用能在多大程度上完成这项任务？”以及“考虑到你自己的工作，对于以下每项工作/目的，你希望AI参与的程度是多少？”\n\n对AI能力的总体评价相当高。在最高端，75%的美国人认为AI在研究方面与人类一样好或更好。在最低端，44%的人认为AI在服务和支持方面与人类一样好或更好。\n\n在大多数任务上，大多数美国人*不希望*AI参与他们的工作，即使在他们认为AI能力最强的任务上——例如研究和数据分析——也有近一半的受访者表示不希望AI参与自己的工作。然而，工作场所中对AI参与的接受度似乎与感知能力同步变化：在特定领域，AI被认为能力越强，人们就越可能愿意使用它。\n\n![能力与接受度图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F50c5fe81fc536fb4cfb27022811ba8d841f2ca8d-2528x2432.png&w=3840&q=75)\n\n### 认知依赖是一种预期性恐惧\n### Cognitive dependency is an anticipatory fear\n\n我们调查中第二常见的担忧是对AI的认知依赖。为了更好地理解人们是否*实际*正在经历依赖，我们询问受访者，如果明天AI突然无法使用，他们会感到多大程度的干扰，然后比较了那些担心依赖的人和那些不担心依赖的人的回答。\n\n到目前为止，认知依赖似乎主要是一种预期性恐惧：在56%对依赖表示某种担忧的美国人中，只有大约1/5的人会在AI无法使用时感到显著干扰。相反，在44%不担心依赖的人中，有更高比例——大约1/3——*会*感到显著干扰。\n\n![认知依赖图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F28b1b9c63672d465d5f4a02a2b384ce693b27dca-2528x2516.png&w=3840&q=75)\n\n我们对81,000名 Claude 用户的定性研究发现，教育工作者报告亲眼目睹认知萎缩（cognitive atrophy）的可能性是平均水平的2.5到3倍，这很可能发生在他们的学生身上。在 Anthropic 公共记录中，教育工作者同样是最担心依赖的职业之一，仅次于艺术和设计领域的工作者。\n\n![职业与依赖担忧](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3dd48f5843dd41ada5a6fc5abe3a26dced56d810-2528x1916.png&w=3840&q=75)\n\n与失业担忧类似，对依赖的恐惧随着使用频率的增加而稳步下降。每天在工作中使用AI的美国人（46%）比从不使用的人（62%）对依赖的担忧低16个百分点。\n\n### 重度AI用户告诉我们的信息\n### What the heaviest AI users tell us\n\n截至2025年底，大约6%的美国人每天在*工作和个人生活*中都使用AI。这些*集成用户*（integrated users）预示了更深度采用AI可能呈现的形态，也可能预示着随着采用率增长，主流观点将走向何方。\n\n集成用户偏向年轻、男性、城市居民、在职和受过大学教育。近三分之二的人称自己是“在大多数人之前尝试新技术”或“一旦看到潜力就尽早采用”的人，而在普通公众中这一比例为30%。\n\n![集成用户画像](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e09703a3cc891672624602963e9d63e5559ec4b-2528x3456.png&w=3840&q=75)\n\n在我们列出的每一项危害上，集成用户的担忧程度都低于普通公众，但这可能反映了早期采用者本身不同的世界观。\n\n![集成用户担忧对比](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2a4141655ac5dcbaff410f46fd9d13b9ecdbedc8-2528x1456.png&w=3840&q=75)\n\n## 美国人对AI治理的期望\n### What Americans want from AI governance\n\n71%的美国人表示政府应参与AI的开发和监管。这一比例在民主党人中为79%，共和党人中为68%，独立人士中为69%——这是一个跨党派的绝对多数。在我们调查的每个州和领地，大多数人都支持政府参与AI，从哥伦比亚特区的81%到夏威夷的63%不等。\n\n![政府参与支持地图](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff3e56b04f92bcb5ad89ae415ef23652f60f3057f-2528x2596.png&w=3840&q=75)\n\n### 美国人希望政府采取行动的领域\n### Where Americans want government to act\n\n我们随后询问了八个具体领域，以及政府应在每个领域介入的程度。只有两个领域——隐私和儿童安全——获得了超过最低限度参与的绝对多数支持。与此同时，国家安全是党派分歧最小的领域，民主党和共和党之间仅相差三个百分点。\n\n![政府介入领域图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb59aa2814c89f05f0fdcc01aca5bd86d7080b5d1-2528x2136.png&w=3840&q=75)\n\n### 美国人对行业的期望\n### What Americans want from the industry\n\n当被问及应采取什么措施来确保AI的发展符合人类利益时，美国人的答案集中在两点：让AI公司对伤害承担法律责任（47%将其选入前三）和将安全置于增长之上（44%）。其次是拥有实权的独立监督机构（29%）和为安全而放缓AI发展（27%）。\n\n![行业期望图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fadd14f5405fd185ef6e0e523d1212fb46215c5a1-2528x2172.png&w=3840&q=75)\n\n### 信任赤字\n### The trust deficit\n\n仅有15%的美国人表示他们信任AI公司就技术的开发和用途做出决策。这是我们测试的所有机构中最低的数字，低于联邦政府（20%）、州和地方政府（19%）以及国际机构（20%），远低于独立专家（43%）。\n\n![信任度图表](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F90be42bbfd5671adf2a1f621669d5f688df0abbc-2528x1536.png&w=3840&q=75)\n\n### 集成用户对监管和监督有同样的诉求\n### Integrated users have the same appetite for regulation and oversight\n\n集成用户对我们询问的每个机构都更信任，包括AI公司——并且明显不太倾向于认为AI发展应该放缓或停止。然而，他们支持政府参与AI的比例基本上与全国水平持平（74%对71%），并且在我们测试的八个具体治理领域中，他们的偏好与公众几乎无法区分。\n\n## Anthropic 的举措与下一步计划\n### Anthropic initiatives and what comes next\n\n公众意见对于确保强大的AI服务于人类利益至关重要。Anthropic 公共记录、Anthropic Interviewer、Anthropic 经济指数以及我们的许多其他研究项目，都是为了更深入地了解公众意见，并获取关于如何使AI转型顺利进行的反馈。\n\n我们最近宣布了几项与这些发现相关的政策框架。我们的《先进AI框架》（Advanced AI Framework）提议对前沿模型进行强制性独立安全测试、透明度要求，以及赋予政府阻止或召回危险AI部署的权力。我们的《经济政策框架》（Economic Policy Framework）阐述了政府如何为AI的经济影响做好准备——尽可能减少失业，并支持劳动者，使AI的益处得到广泛分享。\n\nAI的发展方向不应仅由构建它的公司决定。公众的希望和担忧被衡量得越清晰，我们——以及其他公司——就越能更好地满足它们。\n\n## 附录：方法论\n### Appendix: Methodology\n\n**人群与模式：** Anthropic 公共记录是一项针对美国青少年及成年网络人口的在线调查，对象为16岁及以上、居住在美国50个州、哥伦比亚特区或波多黎各的居民。实地调查由 YouGov 于2025年11月1日至12月11日期间通过其在线小组进行。\n\n**样本设计：** 该研究设计为52个并行的州和领地样本，目标为每个州约1,000份完成问卷（蒙大拿州、北达科他州、南达科他州、怀俄明州、佛蒙特州和波多黎各约500份）。在每个州内，按年龄、性别、教育和种族/民族设置了配额。最终获得的样本为51,993份完成问卷，各州样本量从232份（阿拉斯加州）到1,902份（纽约州）不等。\n\n**加权：** 数据经过加权，以在州、年龄、性别、教育和种族/民族方面代表16岁及以上的美国常住人口。权重已归一化至实际样本量（均值1.00，总和51,993）。\n\n**误差幅度：** 对于50%的比例，在95%置信水平下，全国抽样误差幅度为±0.6个百分点。州级误差幅度从±2.6个百分点（加利福尼亚州、纽约州、德克萨斯州）到±9.1个百分点（怀俄明州）不等。亚组的误差幅度更大。\n\n**报告惯例：** 本报告中的所有百分比均为加权值。除非另有说明，百分比使用完整细分群体作为分母（回答“不知道”或跳过的受访者仍包含在基数中）。恐惧电池中的“担忧”指五级担忧量表中的前四个等级。能力电池中的“一样好或更好”指五级表现量表中的前三个等级。“集成用户”指报告每天在工作用途中使用AI一次或多次，并且在个人用途中也每天使用一次或多次的受访者（未加权n=2,717）。党派归属群体包括倾向者。\n\n**局限性：** Anthropic 公共记录捕捉了美国人在2025年末对AI的看法。我们将其视为一个基线。",
+      "tldrZh": "近半数美国人将治愈癌症列为对AI的首要期望，但64%担忧失业、56%担忧认知依赖；超70%支持政府监管，仅15%信任AI公司决策，且各州、党派间存在广泛共识。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-12T21:46:16.633Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-13"
+    },
+    {
+      "id": "gnews:99871c085653",
+      "slug": "gnews-99871c085653",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR0RTN1lrSlFOZF9NZU5hdl84TXFMRklub0M2a1NZblNuTHhCdzdGclZ6ZDVucmV2cEh5cjRkRFJMMXdaWU43VnduUGpTLVppUXNPUGZFaXFFV2dFSlExNl9MMVNKMFJVQVRPbWl3Vjh4QzNNTjNVS2QzRXMwSTV5LTVLQ2VxVVBkc1ZIektqa3pobWlKVXV3QUdKdVZkWGZsbUJJaEVBTlFidi1QYS1xd190b0E5Sl9pWXc?oc=5",
+      "publishedAt": "2026-06-12T16:22:15.000Z",
+      "titleEn": "Software engineer reportedly wins religious exemption from AI use",
+      "titleZh": "据报道，软件工程师赢得 AI 使用宗教豁免权",
+      "abstractEn": "Software engineer reportedly wins religious exemption from AI use  Computerworld",
+      "abstractZh": "据报道，软件工程师赢得 AI 使用宗教豁免权  Computerworld",
+      "authors": [
+        "Computerworld"
+      ],
+      "institution": "Computerworld",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:73c4cf533543",
+      "slug": "gnews-73c4cf533543",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc2M1bUIyZnMtM0k0YWpoTHZlRDFOTllXa1RLNlBLN2pOR2UxVTAxRENPRmV1RVNaUXpnUjNCdE1oZ3d6elZadEdrdUNSUTJDLU9xLXExNW1xMDYweW5jWlU0NWxFR3hyNXNxTjRiclM1bzZ0aEVDcjFKQkh5TUJhN2xTMFZwVC1PTU9KX0xEOGNlWlBLcmw0cGJXNlVHSDJnRTNncHcwS2VnS1ZYdHRV?oc=5",
+      "publishedAt": "2026-06-12T16:19:57.000Z",
+      "titleEn": "Artificial Intelligence - AI Update, June 12, 2026: AI News and Views From the Past Week",
+      "titleZh": "人工智能 - AI 更新，2026 年 6 月 12 日：过去一周的 AI 新闻与观点",
+      "abstractEn": "Artificial Intelligence - AI Update, June 12, 2026: AI News and Views From the Past Week  MarketingProfs",
+      "abstractZh": "人工智能 - AI 更新，2026 年 6 月 12 日：过去一周的 AI 新闻与观点  MarketingProfs",
+      "authors": [
+        "MarketingProfs"
+      ],
+      "institution": "MarketingProfs",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:435a0d8e0c02",
       "slug": "gnews-435a0d8e0c02",
@@ -56,6 +497,29 @@
       "commentCount": 0,
       "tags": [
         "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:adecco:0120ace101bb",
+      "slug": "hrorg-adecco-0120ace101bb",
+      "source": "Adecco Group",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONktkVVZRSUJjUkUxNTJ5N2pjNTRWemhTVUhGSFRYbkdhUjZwOHQ5LW9kY1hXSzVQVlZSZVduZkN1M1JxZTJIaXNSY016cFBxWEhnVndkYnIxVExHcHFPMVdPdjFwRXhISlVtVHlSNXZ3T05Eb3pqQ09QY3dyZmRsZ0lsTWhVWmNFVjQ2WDE3bW9NTUFkTl85dkZMU2wwdm85bUtlb1pQYw?oc=5",
+      "publishedAt": "2026-06-12T16:09:31.000Z",
+      "titleEn": "Adecco Group’s Entegee acquired by Red Dog Equity",
+      "titleZh": "Adecco 集团旗下 Entegee 被 Red Dog Equity 收购",
+      "abstractEn": "Adecco Group’s Entegee acquired by Red Dog Equity  Staffing Industry Analysts",
+      "abstractZh": "Adecco 集团旗下 Entegee 被 Red Dog Equity 收购  Staffing Industry Analysts",
+      "authors": [
+        "Staffing Industry Analysts"
+      ],
+      "institution": "Staffing Industry Analysts",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
       ]
     },
     {
@@ -145,6 +609,51 @@
       "tags": []
     },
     {
+      "id": "hrorg:mercer:f15f68d4cf1f",
+      "slug": "hrorg-mercer-f15f68d4cf1f",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXZTVmZnb0swaWVHRzQ2MGQxT2FkNlNxM2U3TmY1cDFYNkZwZ2l4SzVDLW5mSlNzWjBXVjFRbFI2T2thZXJwNWYxM0VLWjJveVJKSzZnNmpZRi1pRFduY3RRWFZKZ1FnTDVKY1oxb0pyQ0lLNDU2Zk04MGpjM0VIaF9KZktTS2JYcGpRMUpFbGcwb2FQdkVnS052ZlVBQVFFT3Znb3lUY0VzV1p6RnU5eTZ5Um8zNzUwaVJZ?oc=5",
+      "publishedAt": "2026-06-12T15:46:11.000Z",
+      "titleEn": "Mercer survey: Employers eye cost-shifting strategies as health benefit spend rises",
+      "titleZh": "Mercer 调查：雇主在健康福利支出上升时考虑成本转移策略",
+      "abstractEn": "Mercer survey: Employers eye cost-shifting strategies as health benefit spend rises  Fierce Healthcare",
+      "abstractZh": "Mercer 调查：雇主在健康福利支出上升时考虑成本转移策略  Fierce Healthcare",
+      "authors": [
+        "Fierce Healthcare"
+      ],
+      "institution": "Fierce Healthcare",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:f82ae9ef762b",
+      "slug": "gnews-f82ae9ef762b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObHpRLWhOTzNwckcwZnh3V1JXUk9sWURiZC1GZjMyaUJlbDd5TE5zYlVCZ3laT0lCX25DRTFteDJ2clk4a1ZRVkRHZ1E1NGR3eHdXTVI0aFRaT0N5YXhYWFhCRWVrczE0Mk5iekU2YWVCbUtUZ29pWDR3MXd4ZkxJUUZhZ3VJSFNPbHhFVzJmRUdCUEJhZmk4NHdqbi00NnJySGJBX3d4alliTmdz?oc=5",
+      "publishedAt": "2026-06-12T15:31:47.000Z",
+      "titleEn": "(Weekly funding roundup June 6-12) Steady rise in VC inflow into Indian startups",
+      "titleZh": "（每周融资摘要 6 月 6 日至 12 日）印度初创公司风险投资流入稳步增长",
+      "abstractEn": "(Weekly funding roundup June 6-12) Steady rise in VC inflow into Indian startups  YourStory.com",
+      "abstractZh": "（每周融资摘要 6 月 6 日至 12 日）印度初创公司风险投资流入稳步增长  YourStory.com",
+      "authors": [
+        "YourStory.com"
+      ],
+      "institution": "YourStory.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:5edf93e35946",
       "slug": "gnews-5edf93e35946",
       "source": "Google AI News",
@@ -232,6 +741,28 @@
       ]
     },
     {
+      "id": "gnews:6c9c7f72a5b2",
+      "slug": "gnews-6c9c7f72a5b2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04c214STNfR3hUQi10QnRUUXNDSzZidVp4VTl1dWJKVDJGT3Naem1URGkxUEk5Y0o1MTVZOERYMjU2ejlHcDBhWjJpZUppTVFCSVFnUU44UUlCTDQzd2VkdlN0d2psVy1rX3lZb29B?oc=5",
+      "publishedAt": "2026-06-12T14:49:15.000Z",
+      "titleEn": "New OpenAI Academy courses for the next era of work",
+      "titleZh": "面向新时代工作的全新 OpenAI Academy 课程",
+      "abstractEn": "New OpenAI Academy courses for the next era of work  OpenAI",
+      "abstractZh": "面向新时代工作的全新 OpenAI Academy 课程  OpenAI",
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48504912",
       "slug": "hn-48504912-slightly-reducing-the-sloppiness-of-ai-generated-front-end",
       "source": "Hacker News",
@@ -253,6 +784,28 @@
       "tags": []
     },
     {
+      "id": "gnews:8b8a8177c65a",
+      "slug": "gnews-8b8a8177c65a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNekQ2RTVsZzBYN0o5ZWhySnBoQWpyaXljMFc5SVpLMlFJdEZkTmFmMUF5QkUzN2lGNEVFamJYSGpBOVRnemtFMjJOOVZCNVptNV9scnhqcGY3V3JaRzhPWkZ6YzRLOWhZTl9yeEU0M01xems4RlNIZTI3OGd0NURFSTFsQmc?oc=5",
+      "publishedAt": "2026-06-12T14:46:45.000Z",
+      "titleEn": "The A.I. Proxy Fight Roiling the Race for a New York House Seat",
+      "titleZh": "搅动纽约众议院席位争夺战的人工智能代理权之争",
+      "abstractEn": "The A.I. Proxy Fight Roiling the Race for a New York House Seat  The New York Times",
+      "abstractZh": "搅动纽约众议院席位争夺战的人工智能代理权之争  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48504845",
       "slug": "hn-48504845-one-day-after-discovery-meta-pulls-facial-recognition-from-its-smart",
       "source": "Hacker News",
@@ -272,6 +825,28 @@
       "score": 5,
       "commentCount": 2,
       "tags": []
+    },
+    {
+      "id": "gnews:d128fdb06fc4",
+      "slug": "gnews-d128fdb06fc4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV0RtOTZWbHFhNnpGcnA2ekwweFlldkRuM1ZKczFnLW1zVjAtVHROYlNCRV81VExGYWpOVFFsbDNuazUxVGMwRFlZOVhLWk41NFhWVmVWVUlfc1lTZTFtcXlnWUp1SWtRSk5HTEVxb0dUMGFVTWhfQVNoX0lXbVRCMHpvaFZadndxcjVjak56TXVzWkx3eHp3eU5RNmdNUTFiXzNoRzFKRlVaWmpINVJzMzU3UWV6YlhBYlRrc1Jyc293UHhET3lYeFpUQnI3d0NhT0J30gHYAUFVX3lxTE10THZTUWJSb2w4clJXR0hIbHdKVzBlRmJRTmRuYTR2R2k2TWdWaUtKdFM5QjhoS1cydmZQRkZza2F5MnBUQ3BYZnU0RTdjREliamRjQ0pzeUdZZ094dm5ReEZtMHNONDdqTUg0aF8wV3FON1FLR1pxVmtCTEZjZGsySnhJUjZHZ1RCWWRDU0hKbFFEaUR1RUR5TnJGUnpIekdiUVotSlQ0aENNVXVJTWtGdldBX2xFUVE3UmR2bUFRRWpkWTdfSkVZUzliZVZwZzFITDhuSm5kaw?oc=5",
+      "publishedAt": "2026-06-12T14:29:53.000Z",
+      "titleEn": "How a 22-year-old Indian techie dropped out to build an AI startup",
+      "titleZh": "22 岁印度技术天才辍学创办 AI 初创公司",
+      "abstractEn": "How a 22-year-old Indian techie dropped out to build an AI startup  The Economic Times",
+      "abstractZh": "22 岁印度技术天才辍学创办 AI 初创公司  The Economic Times",
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:6d970e047fc4",
@@ -332,6 +907,28 @@
         "GuruFocus"
       ],
       "institution": "GuruFocus",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9a4a17f74598",
+      "slug": "gnews-9a4a17f74598",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORzB3NE9zVmxPOUYxS1BMN0IwWFZlNUlhRTRYRkFhN3FwQ29NX0o3MGlDQWdaN2VhZkwtb1ZhT2R0QXJsc0hydmFpSHBuWk1LVDQzMGhrbXRZSjFHZnpqd1cwbHhNcnlLLTRNWWxPMjk2SWtJV3JkckZyZ09XbVhSOS1lZkxnNmpGckJsMVNRSFdYeEVTT2RKNjVEbUppcVJvUnZWYkc4N2xsOFhRYkNIa1dnVEQ?oc=5",
+      "publishedAt": "2026-06-12T13:00:46.000Z",
+      "titleEn": "France’s Mistral in Funding Talks at About €20 Billion Valuation",
+      "titleZh": "法国 Mistral 融资谈判，估值约 200 亿欧元",
+      "abstractEn": "France’s Mistral in Funding Talks at About €20 Billion Valuation  Bloomberg.com",
+      "abstractZh": "法国 Mistral 融资谈判，估值约 200 亿欧元  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -555,6 +1152,50 @@
       ]
     },
     {
+      "id": "gnews:ae29594cfbc1",
+      "slug": "gnews-ae29594cfbc1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3hZWUMtNWJSc2pNR04xXy15VnMyblZkaXZDSVdVNEE2RnRNM1FRX1VGbXFwM0JJc0RIanlYX3J6aUtJSDVFY1lUMllDaENNUjZmSXM5S2d3UGxGLXdJSXZyeGZrWXZxWV9LZC1ya0M2dHVpcGN6ZTRHYXFEZ2Y1RWNGZEhNYTc1dElpTmpCMWVKd1dLcVVjVEd2QQ?oc=5",
+      "publishedAt": "2026-06-12T10:47:58.000Z",
+      "titleEn": "Singapore deepens AI safety push with IMDA-Microsoft partnership",
+      "titleZh": "新加坡通过 IMDA 与微软合作深化人工智能安全推进",
+      "abstractEn": "Singapore deepens AI safety push with IMDA-Microsoft partnership  CNA",
+      "abstractZh": "新加坡通过 IMDA 与微软合作深化人工智能安全推进  CNA",
+      "authors": [
+        "CNA"
+      ],
+      "institution": "CNA",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0b90c3070879",
+      "slug": "gnews-0b90c3070879",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZU5lb25XSHVpOG01TXJqaldRV2ZEZTRmV1BSY0ZEWjBNUllPVWZ6ZVF6WEtJYm9raTNpX2g0REUzd2UwakF3Wk4ySFZXUDl6R2ZrUHdGbDZiWFFmbDVFeWx0bVg3N3RuQjlqX0I5NGcwRW1ZMVhzWWJxLTNSNW1WNnMtbzc4MVYtaW9YeHFfbHJOZXI0bFVTZVNoOER3MnZBT2lTZXFQVUsxdm9OcnBrdWFSWmRJRjZmVHRZU2RDQk40eXJwcS1BMUN1WFdDUElm0gHWAUFVX3lxTE9QakNvTUZFTkRIMXFNeF9iRU1hUUN1eDRqaVFSLXdJb2ttNlhkU1VVV1FxMkJwR1VzOVJvMlItaENlZHNOSm9zSTBBNmlOWHNpV2R4T0lCaGZJUVc5MlYycnMxZmVUN0Q1eTJEU25GdDNaVVlWc3FDdkNrTHZsUFMzenAyMmowenQtZ2phNHFIam1wdEJvRmV6aE9iOTB3a2h2NmNzdTMyMkttb2tsbUZwM2o3TDhzejktajR5b0ZGQlFFZmpFcUdCa2hpb05FaWNTczhnWnc?oc=5",
+      "publishedAt": "2026-06-12T10:44:00.000Z",
+      "titleEn": "Privue Secures Angel Funding to Revolutionize AI Risk Intelligence in Enterprises",
+      "titleZh": "Privue 获得天使投资，旨在革新企业 AI 风险智能",
+      "abstractEn": "Privue Secures Angel Funding to Revolutionize AI Risk Intelligence in Enterprises  Devdiscourse",
+      "abstractZh": "Privue 获得天使投资，旨在革新企业 AI 风险智能  Devdiscourse",
+      "authors": [
+        "Devdiscourse"
+      ],
+      "institution": "Devdiscourse",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:43aa8172adc0",
       "slug": "gnews-43aa8172adc0",
       "source": "Google AI News",
@@ -704,6 +1345,29 @@
       "commentCount": 0,
       "tags": [
         "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:0e225ae64eaa",
+      "slug": "hrorg-manpower-0e225ae64eaa",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXI2YzNuZWMyWVFsNGNieGRHZlUtNkwzc3prZ21fekpqemN1M3RLTWRFQmdGa1ZiZGs0V0FrbGhuQTA2X3VyblUzQUItMFF3ZUJER1QzREl1bGc0T1ZqUFJ4bVg5dXhBZ25DcUl6NEc2aU5TRHA2bmd4YUZqQTdEaE12Z3I5Vk1yYWxDUFduRzJwNVdxcmVGUFgwUlZFZw?oc=5",
+      "publishedAt": "2026-05-29T07:00:00.000Z",
+      "titleEn": "ManpowerGroup Surges 4.3% as Labor Market Optimism Returns - Safe Entry Stocks",
+      "titleZh": "ManpowerGroup 因劳动力市场乐观情绪回归上涨 4.3%——安全入场股票",
+      "abstractEn": "ManpowerGroup Surges 4.3% as Labor Market Optimism Returns - Safe Entry Stocks  newsline.com",
+      "abstractZh": "ManpowerGroup 因劳动力市场乐观情绪回归上涨 4.3%——安全入场股票  newsline.com",
+      "authors": [
+        "newsline.com"
+      ],
+      "institution": "newsline.com",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
       ]
     },
     {

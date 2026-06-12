@@ -1,12 +1,13 @@
 {
-  "ranAt": "2026-06-12T16:28:51.143Z",
+  "ranAt": "2026-06-12T21:44:53.068Z",
   "perSource": {
-    "Hacker News": 5,
-    "雷锋网": 4,
-    "Google AI News": 20,
-    "Mercer": 2,
+    "Anthropic Blog": 2,
+    "Hacker News": 6,
+    "Google AI News": 18,
+    "Mercer": 1,
+    "ManpowerGroup": 1,
     "Randstad": 1,
-    "Recruit Holdings": 1
+    "Adecco Group": 1
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
