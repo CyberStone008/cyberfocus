@@ -1,20 +1,468 @@
 {
   "date": "2026-06-12",
-  "generatedAt": "2026-06-11T22:51:41.096Z",
+  "generatedAt": "2026-06-12T06:01:50.877Z",
   "summary": {
     "aiNews": [
-      "Anthropic以安全为先的Fable发布引发用户不满，安全策略与用户体验冲突。",
-      "OpenAI收购云初创公司Ona，增强编程助手Codex能力，推动AI编程工具发展。",
-      "杰夫·贝佐斯为AI工程初创公司Prometheus融资120亿美元，估值达410亿美元。"
+      "Aum Ventures推出8000万美元基金，专注半导体、太空科技和AI初创公司。",
+      "Anthropic模型导致印度IT股暴跌，凸显AI对行业冲击。",
+      "微软中国Azure研发团队超200人受影响，最高补偿N+7。"
     ],
     "papers": [],
     "hrOrgs": [
-      "TCNJ与默瑟县技术学校推出AI与机器人双录取路径，打造新泽西未来劳动力。",
-      "Indeed发起‘Jobs Need People’活动，从职位搜索转向AI驱动的匹配。",
-      "科锐国际去年营收超145亿元，净利同比增52.68%，业绩显著增长。"
+      "科锐国际去年营收超145亿元，净利同比增52.68%。",
+      "调查显示美国员工健康保险费用将上涨。",
+      "Indeed发起‘Jobs Need People’活动，转向AI驱动的职位匹配。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:3069bc8e682e",
+      "slug": "gnews-3069bc8e682e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUjVWMk5vR1VmMWxZQzJDTU42dUZJT3NULVowby1RanRwcGZGSGo5RXhSWW1FeUtJZXlYYUV4MEVlODNBV3pJTXJyUk9mZzJXYkRud2F4d0JmREFvWkJ5V2NScnNRTDRVNjdTTE9yRHYyV0x2OFRKY0NONmk2TmZHRlE2N2J1S3FDdmlMY3pTZ2ZrcElvTk1HM0NjNTQtRXJRQ2J3TG92ZS10MXQ2anQzN013VUVYUFlVT0ZtZHBDQmRrN2IwUExuaFA0MGZNR3lHbElaYnlKVHlIWjJOcUNmVXVRYVVSbEgzZmlr?oc=5",
+      "publishedAt": "2026-06-12T05:42:44.000Z",
+      "titleEn": "Aum ventures unveils 80 million fund for semiconductors spacetech and ai startups",
+      "titleZh": "Aum Ventures 推出 8000 万美元基金，专注半导体、太空科技和 AI 初创公司",
+      "abstractEn": "Aum ventures unveils 80 million fund for semiconductors spacetech and ai startups  Indiatimes",
+      "abstractZh": "Aum Ventures 推出 8000 万美元基金，专注半导体、太空科技和 AI 初创公司  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:215c1d14480f",
+      "slug": "gnews-215c1d14480f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWGl2VWx6bW54cnhzMkhlRjR5Q2YtOU56dllmZVNrSExvTDdGWmtjcVFFNlZiTUhOakFYbkdIdUFCTVpIRjUxN2ZEU040ZFlwd2dYZjVhZUxQOExMbjl2RlhRRnI1dmxKNG9OQkZ4ZHVueW5ZRG0zcVVKcXNVRERSQ093?oc=5",
+      "publishedAt": "2026-06-12T05:30:52.000Z",
+      "titleEn": "Why Anthropic's S-1 is more important for European AI startups than any funding round this year — TFN",
+      "titleZh": "为何Anthropic的S-1文件对欧洲AI初创公司比今年任何融资轮都更重要——TFN",
+      "abstractEn": "Why Anthropic's S-1 is more important for European AI startups than any funding round this year — TFN  Tech Funding News",
+      "abstractZh": "为何Anthropic的S-1文件对欧洲AI初创公司比今年任何融资轮都更重要——TFN Tech Funding News",
+      "authors": [
+        "Tech Funding News"
+      ],
+      "institution": "Tech Funding News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48500012",
+      "slug": "hn-48500012-ai-agent-bankrupted-their-operator-while-trying-to-scan-dn42",
+      "source": "Hacker News",
+      "sourceUrl": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48500012",
+      "publishedAt": "2026-06-12T04:42:53.000Z",
+      "titleEn": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+      "titleZh": "AI 智能体在尝试扫描 DN42 时导致运营者破产",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "xiaoyu2006"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 38,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:2879884f7182",
+      "slug": "gnews-2879884f7182",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaTE0U2UxSEE4T3hfdGhMT3I2am5fRGYwV3JCUEpxMHFZZjRuMDFYS2VRbUxFSmRjUEU2YnRIVHZTRXB5MzJYZk5BZDZuTm1DV0hZV2s1TjVPdzZ6QXZvYXdBZUJSLV85eWxuWWY2VFQ5Ty1jUFgzbnRtUnV3LURVcWJFR3ZTZ05EQmpOX2pOSDhjLThTU3M4MHl6NUc3YXFycERyaWt4WjBjcW1zbXlaeVd2anVaOHVwWTI2ZDZSVmdVMU9jNjAzS192ZVZ2Z9IB0wFBVV95cUxNRkh6NUl5NE5LRXZydkFGNklYVGV4WXJRckRwYV9kMG9SSmRMM3VZZ0k5QVFvck1FVWtTOXh4cjdGSnJDTmt4Nm5vOVdFZkhfVHAzbnB3cFhkemh1VmRVR0gzc05fRjc3ZEpMZkswVUNGZDR3WEsyVFR2ejdMalp3MEhtdnd3R2JVWTdFdTVVTG0tU0U1d0prU3lJdVJfdzdMSnB5RmJTLW9kWGJ0WWJzMkx2UDRidlEtSkRPT2NGSkpaSkJ1bl91TldUdHFodFN3ODdF?oc=5",
+      "publishedAt": "2026-06-12T04:34:06.000Z",
+      "titleEn": "Jeff Bezos-backed Prometheus hits $41 billion valuation after $12 billion funding round",
+      "titleZh": "杰夫·贝佐斯支持的 Prometheus 在 120 亿美元融资后估值达 410 亿美元",
+      "abstractEn": "Jeff Bezos-backed Prometheus hits $41 billion valuation after $12 billion funding round  Storyboard18",
+      "abstractZh": "杰夫·贝佐斯支持的 Prometheus 在 120 亿美元融资后估值达 410 亿美元  Storyboard18",
+      "authors": [
+        "Storyboard18"
+      ],
+      "institution": "Storyboard18",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434774-html",
+      "slug": "fable-5-gpt-5-5",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434774.html",
+      "publishedAt": "2026-06-12T04:13:23.000Z",
+      "titleEn": "“智能体最后的考试”，Fable 5竟然不敌GPT 5.5",
+      "titleZh": "智能体最后的考试：Fable 5 竟然不敌 GPT 5.5",
+      "abstractEn": "最难档通通零蛋",
+      "abstractZh": "最难档通通零蛋",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-434761-html",
+      "slug": "bev-scaling",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/434761.html",
+      "publishedAt": "2026-06-12T04:11:02.000Z",
+      "titleEn": "BEV 杀入具身智能：跨维把机器人数据带上 Scaling 快车道",
+      "titleZh": "BEV 杀入具身智能：跨维把机器人数据带上 Scaling 快车道",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:0166204e169e",
+      "slug": "gnews-0166204e169e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd3ExYWhlN09VSzdGcm80SndkbTdydVFXU0FIVkVTRXB5dkVGMmRlUGRicWhQZ0pkUkZKQ3M4TDRZaDg3WHFDSS1zQy1wby1ScjNnSEcxR09XMkRiZzZ6ZW1FSVprWmZuRHdFRDFHZ21ZNzcwcHlTaVRWb1lUcm8ya1c5ejJ2OFRhcUY3UDhhVk9MR1ZvTG95T0xSM3JRRGY2cFJtZUdRYWQzX1VrSjdQVUgxQ0JQTFRiTldiWEZSSEo3YjEzOE5VN0JYQ1JGeDNjM0FVLWxLc9IB3AFBVV95cUxPOFZLVThSd3NPWUV2UXFHT3VkMWhWdzhoclY2cWRMdEQ4LXp1YWZUODJDZFhzZzRUNXA0NGlsTkZJb1NrWUJhY2l4eTBwczRoXzVfRUlZVUduR1V3VFpQbWgyc2wyWFFaT1NtMlp0ZGthR05OV1VuS1VRc2Fyek12ZEtYOGdTMFl4aG5KY005RnlOUW9JUk9kT3FyT05hTGV4WnAzY1hXYkJGb2NSS0E4UXpsTDBQMkw3aFQ1QUpDNmw0cTJGdTZCYXd5WFdtTktPNTlqNWdlTWp1aTBC?oc=5",
+      "publishedAt": "2026-06-12T03:29:25.000Z",
+      "titleEn": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
+      "titleZh": "前xAI工程师因AI安全问题起诉公司，声称因直言不讳被解雇",
+      "abstractEn": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up  Firstpost",
+      "abstractZh": "前xAI工程师因AI安全问题起诉公司，声称因直言不讳被解雇 Firstpost",
+      "authors": [
+        "Firstpost"
+      ],
+      "institution": "Firstpost",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c670cb07f2dc",
+      "slug": "gnews-c670cb07f2dc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSTgzWFpkS2RIQ2xfd1EteXNLR19YSmZhekRLMnRIV2YzZDJvRWdsa01TTnNOZTZYbVRiUmRNNGIyc2N3WC1OUG1oeDNyQ1FidG93MXByVTBtS01iRE85V1gtMUhjaDBncEZPd3RCbTJXTzk1QURRQVJ5Z2dnYm85ZzdNTk1YSV9INU9DSGxNQkNvS2QyZERxeEVR?oc=5",
+      "publishedAt": "2026-06-12T03:03:27.000Z",
+      "titleEn": "Jordan's JoAcademy Acquires AI Startup NoNerds in $140,000 Deal",
+      "titleZh": "约旦 JoAcademy 以 14 万美元收购 AI 初创公司 NoNerds",
+      "abstractEn": "Jordan's JoAcademy Acquires AI Startup NoNerds in $140,000 Deal  cairoscene.com",
+      "abstractZh": "约旦 JoAcademy 以 14 万美元收购 AI 初创公司 NoNerds  cairoscene.com",
+      "authors": [
+        "cairoscene.com"
+      ],
+      "institution": "cairoscene.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:bb86cc87f928",
+      "slug": "gnews-bb86cc87f928",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqMzd0UUdEQmRnZlJzSnY1emt3WkNfSTdrYS1scEw1SmJrYjBIbkF5UFIzalJTOXdwazZQUERXbldUZUsyYTRueHB0YnlkZlBjMTNoRTdqSklxc0k?oc=5",
+      "publishedAt": "2026-06-12T02:53:17.000Z",
+      "titleEn": "Former Fliggy executive’s AI startup secures over $14.7 million in Pre-A funding",
+      "titleZh": "前飞猪高管创立的 AI 初创公司获超 1470 万美元 Pre-A 轮融资",
+      "abstractEn": "Former Fliggy executive’s AI startup secures over $14.7 million in Pre-A funding  China Travel News",
+      "abstractZh": "前飞猪高管创立的 AI 初创公司获超 1470 万美元 Pre-A 轮融资  China Travel News",
+      "authors": [
+        "China Travel News"
+      ],
+      "institution": "China Travel News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-ce76ykduydostdkc-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/CE76ykduYdOStDkC.html",
+      "publishedAt": "2026-06-12T02:22:00.000Z",
+      "titleEn": "什么样的机器人，是我们所期待的？",
+      "titleZh": "什么样的机器人，是我们所期待的？",
+      "abstractEn": "智能已经学会了很多事。\n它会推理，会生成，会在海量信息里迅速找到方向。\n屏幕之内，一切都在加速。\n可屏幕之外，支撑现实世界运转的任务，仍然必须有人到场，必须有人判断，必须有人行动。\n所以今年，ATEC向一个更接近未来的问题，发出追问：\n如果智能的下一步，不再只是理解世界，而是开始进入世界，开始承担任务——\n那么，我们该对它抱有怎样的期待？\n或者说，如果用一场赛事去回应我们的期待，这场赛事应该长什么样子？\n我们将用一个视频，讲述ATEC2026命题的思考\n\n\n \n\n一、ATEC2026希望回答的，是机器人如何作为一个完整系统成立\n\n现实中的任务不会被拆成若干完美步骤，也不会在一个动作完成之后，再给出下一步的标准答案，移动、感知、操作、判断往往同时发生。\nATEC2026正是从这一判断出发，重新组织比赛的命题逻辑。\n赛事将更关注系统在真实环境中的连续执行、长期稳定与整体协同。这也是ATEC20",
+      "abstractZh": "智能已经学会了很多事。\n它会推理，会生成，会在海量信息里迅速找到方向。\n屏幕之内，一切都在加速。\n可屏幕之外，支撑现实世界运转的任务，仍然必须有人到场，必须有人判断，必须有人行动。\n所以今年，ATEC向一个更接近未来的问题，发出追问：\n如果智能的下一步，不再只是理解世界，而是开始进入世界，开始承担任务——\n那么，我们该对它抱有怎样的期待？\n或者说，如果用一场赛事去回应我们的期待，这场赛事应该长什么样子？\n我们将用一个视频，讲述ATEC2026命题的思考\n\n\n \n\n一、ATEC2026希望回答的，是机器人如何作为一个完整系统成立\n\n现实中的任务不会被拆成若干完美步骤，也不会在一个动作完成之后，再给出下一步的标准答案，移动、感知、操作、判断往往同时发生。\nATEC2026正是从这一判断出发，重新",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:83c4a53f763f",
+      "slug": "gnews-83c4a53f763f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkl2Z2ZCVE9QVWI1TG8tTDc0UEZHTmxGQ2JNSkViQldkT1MyTmZPYXJFSEkyZUZ6M25vaFVPaGlOVlRHaE0ybkZCdVR0MzV2OFAtSjdUc0wwY1BKT2tFaTNPYlVJdWFBSFRqQTVmZW9XTTBoUk1ZWWlDRHRzaU1ZMnFsemxyMER4Q2VWOThnbUNMYzdqWklDX0pn?oc=5",
+      "publishedAt": "2026-06-12T02:20:41.000Z",
+      "titleEn": "Deeptech in focus during PM Modi’s France visit; TCS joins hands with Anthropic",
+      "titleZh": "莫迪总理访法聚焦深科技；TCS与Anthropic达成合作",
+      "abstractEn": "Deeptech in focus during PM Modi’s France visit; TCS joins hands with Anthropic  YourStory.com",
+      "abstractZh": "莫迪总理访法聚焦深科技；TCS与Anthropic达成合作 YourStory.com",
+      "authors": [
+        "YourStory.com"
+      ],
+      "institution": "YourStory.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:ecb6171e542a",
+      "slug": "hrorg-mercer-ecb6171e542a",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM3Y0Ynppci1RV01uSTk4X2JqaFUwUEN4UXBWYXNWVmhNSWstZlVXUXYwcy1XNTJ3SlNVbkJIR2VLTkRZNXVfZTBpNDM5cXI1TnVQNlljMmZ4Q1BHY3gxXzhFUEdaQmxtdGxkVHEzdVNJVmFnVl9MSzk3OUM5WTNDM3FFWTZxVy1pVmo0cE0yWHdFUk82VG5qV2d6RTR4SDU5QnZGQ25mZXlBTlE2OW05dkNMc2JzdXdxbHNkNldZamkyZ0dBRXAzdGpUT2hXQlBrNDllMGtn?oc=5",
+      "publishedAt": "2026-06-12T02:07:12.000Z",
+      "titleEn": "Insurance moves: Consilium, South Wales Insurance, Mercer Marsh and Aon",
+      "titleZh": "保险行业动态：Consilium、South Wales Insurance、Mercer Marsh 和 Aon",
+      "abstractEn": "Insurance moves: Consilium, South Wales Insurance, Mercer Marsh and Aon  Insurance Business",
+      "abstractZh": "保险行业动态：Consilium、South Wales Insurance、Mercer Marsh 和 Aon  Insurance Business",
+      "authors": [
+        "Insurance Business"
+      ],
+      "institution": "Insurance Business",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-smarthome-ib0fwcobetwu3dgm-html",
+      "slug": "ai-2-0-iot",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/smarthome/Ib0fWcObeTWu3DGM.html",
+      "publishedAt": "2026-06-12T02:06:00.000Z",
+      "titleEn": "让AI回归工具：萤石开放平台2.0如何用「双平台」破解IoT落地难题？",
+      "titleZh": "让AI回归工具：萤石开放平台2.0如何用「双平台」破解IoT落地难题？",
+      "abstractEn": "过去半年，OpenClaw 掀起的“龙虾热”让AI社区陷入一种集体亢奋：AI替你写代码、回邮件、甚至接管设备，仿佛“取代人”的倒计时已经开始。英伟达黄仁勋的那句“迄今发布过的最重要软件之一”的评论，更是为这场狂欢添了一把火。\n但当泡沫稍稍退去，IoT行业的沙滩上留下的却是尴尬的裂痕。\n某公司实验室的邮件误删、某公司的源代码泄露，以及工信部于今年3月发布的关于防范OpenClaw（“龙虾”）开源智能体安全风险建议，都在提醒我们：通用智能体在追求“全知全能”时，往往伴随着失控的风险。\n对于IoT开发者而言，现实更加骨感——私有协议堆积如山，文档残缺不全，即便AI能在15分钟内写完功能代码，繁琐的测试与发布流程依然能让交付周期拉长到数天。\n面对这种狂热和困境，萤石给出了一个更克制也更务实的答案：AI不需要取代人，只需要让IoT开发者活得更好。\n这份清醒，源于对产业的本质洞察。当下的IoT产业不需",
+      "abstractZh": "过去半年，OpenClaw 掀起的“龙虾热”让AI社区陷入一种集体亢奋：AI替你写代码、回邮件、甚至接管设备，仿佛“取代人”的倒计时已经开始。英伟达黄仁勋的那句“迄今发布过的最重要软件之一”的评论，更是为这场狂欢添了一把火。\n但当泡沫稍稍退去，IoT行业的沙滩上留下的却是尴尬的裂痕。\n某公司实验室的邮件误删、某公司的源代码泄露，以及工信部于今年3月发布的关于防范OpenClaw（“龙虾”）开源智能体安全风险建议，都在提醒我们：通用智能体在追求“全知全能”时，往往伴随着失控的风险。\n对于IoT开发者而言，现实更加骨感——私有协议堆积如山，文档残缺不全，即便AI能在15分钟内写完功能代码，繁琐的测试与发布流程依然能让交付周期拉长到数天。\n面对这种狂热和困境，萤石给出了一个更克制也更务实的答案：A",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:a11badc2464e",
+      "slug": "gnews-a11badc2464e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDZ1LWFwTGh0VHdXY1Ruc2RLYVJ6SURrdldUZmZtUjRxcExWczNXZnplRWdBMFBLa2ZxdTNmRlZjQ1FhaDRiSmhiZnh3R0hwV2g0SmdLM1QxNktXWVh6eUxWb0dBdEw4M2pLelV1ZUxSMHNVMmhCci1PUVhzVi01X2NMYjg5djN5ZmRhenZLY3hlUDQ?oc=5",
+      "publishedAt": "2026-06-12T01:41:33.000Z",
+      "titleEn": "Anthropic model sends Indian IT stocks tumbling",
+      "titleZh": "Anthropic模型导致印度IT股暴跌",
+      "abstractEn": "Anthropic model sends Indian IT stocks tumbling  Let's Data Science",
+      "abstractZh": "Anthropic模型导致印度IT股暴跌 Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48498573",
+      "slug": "hn-48498573-claude-fable-is-relentlessly-proactive",
+      "source": "Hacker News",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48498573",
+      "publishedAt": "2026-06-12T01:06:51.000Z",
+      "titleEn": "Claude Fable is relentlessly proactive",
+      "titleZh": "Claude Fable 具有持续主动的特性",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "lumpa"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 293,
+      "commentCount": 246,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-k9mpjzrxh6jnki8k-html",
+      "slug": "azure-200-n-7-ceo-92",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/K9MpJZRxh6jNKi8k.html",
+      "publishedAt": "2026-06-12T00:25:00.000Z",
+      "titleEn": "微软中国Azure研发团队遭「一锅端」：超200人受影响，最高补偿N+7；无招卸任钉钉CEO，92年技术极客陈宇森接任；李书福卸任极氪董事长",
+      "titleZh": "微软中国Azure研发团队遭「一锅端」：超200人受影响，最高补偿N+7；无招卸任钉钉CEO，92年技术极客陈宇森接任；李书福卸任极氪董事长",
+      "abstractEn": "要闻提示\n\n\n\n\n\n\n1.微软中国Azure研发遭“一锅端”：超200人受影响，最高补偿N+7\n2.钉钉官宣换帅：无招卸任CEO，92年技术极客陈宇森接任\n3.智界称法拉利前首席设计师加盟，法拉利高管质疑：设计师姓甚名谁？\n4.李书福卸任极氪董事长\n5.曾经落地近90万的神车！路虎揽胜极光L跌至17.98万\n6.曝字节豆包手机硬件负责人林夕离职\n7.OpenAI拟大幅降价，与Anthropic展开用户争夺\n8.SpaceX上市造富：4000名员工晋升百万富翁\n\n\n\n\n\n今日头条\n微软中国Azure研发遭“一锅端”：超200人受影响，最高补偿N+7\n\n\n\n6月11日消息，近日，微软中国Azure研发团队“一锅端”的消息在科技圈炸开。\n6月5日，微软中国区 Azure 本土研发团队启动大规模业务优化，约200名技术人员受波及，多条国内自研产品线宣告关停。据悉，不少分布在Azure北京和上海办公",
+      "abstractZh": "要闻提示\n\n\n\n\n\n\n1.微软中国Azure研发遭“一锅端”：超200人受影响，最高补偿N+7\n2.钉钉官宣换帅：无招卸任CEO，92年技术极客陈宇森接任\n3.智界称法拉利前首席设计师加盟，法拉利高管质疑：设计师姓甚名谁？\n4.李书福卸任极氪董事长\n5.曾经落地近90万的神车！路虎揽胜极光L跌至17.98万\n6.曝字节豆包手机硬件负责人林夕离职\n7.OpenAI拟大幅降价，与Anthropic展开用户争夺\n8.SpaceX上市造富：4000名员工晋升百万富翁\n\n\n\n\n\n今日头条\n微软中国Azure研发遭“一锅端”：超200人受影响，最高补偿N+7\n\n\n\n6月11日消息，近日，微软中国Azure研发团队“一锅端”的消息在科技圈炸开。\n6月5日，微软中国区 Azure 本土研发团队启动大规模业务",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48498283",
+      "slug": "hn-48498283-dont-let-the-llm-speak-just-probe-it",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48498283",
+      "publishedAt": "2026-06-12T00:24:48.000Z",
+      "titleEn": "Don't let the LLM speak, just probe it",
+      "titleZh": "别让 LLM 说话，只需探测它",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "gmays"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 17,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:fc3f948037dc",
+      "slug": "gnews-fc3f948037dc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdmJFTWlQdlI1N2RSZS1DOVRSeTlUUGVQbE9wRkdmT3IzaGJOY21ldHBpS1JWNE0waVdBZURaa0wwVDMtVXRacmF2UkhSa25zLWU1cWVqMXNmbzVac254X2ZfVDAwREotM2RocWNCYlZoQzAyTVpodkFXeHhWV3JPVTJIbm1zblpaa3JkZkFHX250dzdTLS14cUtyaWJHVHd3Q2FlMlExT3dzNEJsQ09KM2JVY2FDSl84dk5pbmNJSmp0QV8tZHdoc3VKNk5QYVQ5OF94U05MVTE2Rm1VNnpkSGZqWVp0eW5WLTlwNXZ1U0pnTmhPbTBWMVZWc0htRnc?oc=5",
+      "publishedAt": "2026-06-12T00:22:27.000Z",
+      "titleEn": "The AI coding boom is creating security headaches for organizations",
+      "titleZh": "AI编程热潮给组织带来安全难题",
+      "abstractEn": "The AI coding boom is creating security headaches for organizations  TechRadar",
+      "abstractZh": "AI编程热潮给组织带来安全难题 TechRadar",
+      "authors": [
+        "TechRadar"
+      ],
+      "institution": "TechRadar",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:36abe831d770",
+      "slug": "gnews-36abe831d770",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMnRCN3d0elNTN0ZzMUFIX1Zyc1doRjNhcFFNWkcyUXp6bEJqdkFObVBQajFBcWFZY0RBX0JWVnNaS3hybHlkYzVKNmlYbFNNekJlalBBN1NMd1lVb2U1Vlo3NTIzV0Y2Uk5sR1dENWExOEFjRTd0MEVrdGxEWW5BUlVkN2NTaHNXYmllMHVqbUFxN0tRZ1RDYWx3?oc=5",
+      "publishedAt": "2026-06-11T23:29:15.000Z",
+      "titleEn": "California, Texas Among First States in Anthropic Cyber Cohort",
+      "titleZh": "加州与德州成为Anthropic网络安全队列首批成员州",
+      "abstractEn": "California, Texas Among First States in Anthropic Cyber Cohort  govtech.com",
+      "abstractZh": "加州与德州成为Anthropic网络安全队列首批成员州  govtech.com",
+      "authors": [
+        "govtech.com"
+      ],
+      "institution": "govtech.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fbcbbb13f7ac",
+      "slug": "gnews-fbcbbb13f7ac",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeFdWOW41NGRELTByUTdldTlfTWhxSkszUUNOWmFvRGFONUNEbW82WVphTmM1RjdMOHltOGpQV29nZ29FQTM5d0pacnZGSDhDbldsQWRocmRIVEwxdDhpSGk1dVVyQ25ZY3U1MkJ6YTRDUDY5T3NiUEVhcmZOakNldWIwbzdrR3oxNEt1dVJzY3hsOEJM?oc=5",
+      "publishedAt": "2026-06-11T22:52:53.000Z",
+      "titleEn": "Europe at risk of AI-driven irrelevance",
+      "titleZh": "欧洲面临AI驱动的边缘化风险",
+      "abstractEn": "Europe at risk of AI-driven irrelevance  Yahoo",
+      "abstractZh": "欧洲面临AI驱动的边缘化风险 Yahoo",
+      "authors": [
+        "Yahoo"
+      ],
+      "institution": "Yahoo",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48497260",
+      "slug": "hn-48497260-openai-prepping-for-on-prem-product",
+      "source": "Hacker News",
+      "sourceUrl": "https://ledger.somantix.ai/posts/open-ai-lays-groundwork-for-on-prem-product/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48497260",
+      "publishedAt": "2026-06-11T22:28:01.000Z",
+      "titleEn": "OpenAI Prepping for On-Prem Product?",
+      "titleZh": "OpenAI 正在准备本地部署产品？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "bdroopy"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 10,
+      "tags": []
+    },
     {
       "id": "gnews:bcee1d4d8797",
       "slug": "gnews-bcee1d4d8797",
@@ -36,6 +484,70 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "hn:48497195",
+      "slug": "hn-48497195-codex-for-open-source",
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/form/codex-for-oss/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48497195",
+      "publishedAt": "2026-06-11T22:20:03.000Z",
+      "titleEn": "Codex for Open Source",
+      "titleZh": "面向开源的 Codex",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "EvgeniyZh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 28,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:820567be9ebf",
+      "slug": "gnews-820567be9ebf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUjdLNC1na2M5eWI1cWRvQTJiZlVVaVkwSXVQZVZ2WkwwSTZCYzNsQVloSWVkcEt3TUJwNlFpYXlFRG0zSEpuczRPaUN0XzJ6cGJVN1FIdGoxMjF6Y29qUndNclZDLVZ2TFhHM0VZWGFWTzhYczJ4NkJ1N2VtMEt5LVE5UGx3RTAtTnhsTlE4bkdOR2F0bXNqTDJ6bjVFWGZHdzZLa1RNems5eFN6SGhCeGxFaVNZNzVnU1dGallkV1dvVUhubzdZTWM4bTBDYURBcWFuMHBYR0tvQ0tVQ01fUmNWRUt1OXJZWDBNa2pn0gHzAUFVX3lxTE5BOWZNWFRWc0ZSZEo0bV96NE5SZmJrYWNsa0dYcnRtT2RjcWdxeEQtUHR2Q1E2QnczZ2xHMzI5R2Q0RUVESllzUUJEYlJuQy11OWFFd3dFNEVSS2xzY05NR3JKUi1CWFlHcEgydlZta2RrTHphWkJheThaTGVCWlZVOHFFNnp4bXlzTTdfRGtka0FGUlRGbDZGNFViUkZtNVNpZS1IMjZOT1ZOaGhhM3NENWxWaUxGY2g2Uzgwb2J2MGZ0Z1A5a2tETE5QUTFmUUc0TEw1TElqS2JhVmlMWFYxbnUwRmRrWUVxNWZ5dktoUDVGSQ?oc=5",
+      "publishedAt": "2026-06-11T21:36:00.000Z",
+      "titleEn": "CAIO Connect Podcast: Hitachi’s Simon Ninan Tells Sanjay Puri Why AI Needs Standards, Regulation &",
+      "titleZh": "CAIO Connect播客：日立Simon Ninan向Sanjay Puri阐述AI为何需要标准与监管",
+      "abstractEn": "CAIO Connect Podcast: Hitachi’s Simon Ninan Tells Sanjay Puri Why AI Needs Standards, Regulation &  EIN News",
+      "abstractZh": "CAIO Connect播客：日立Simon Ninan向Sanjay Puri阐述AI为何需要标准与监管 EIN News",
+      "authors": [
+        "EIN News"
+      ],
+      "institution": "EIN News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48496483",
+      "slug": "hn-48496483-tailwind-and-slop-apps",
+      "source": "Hacker News",
+      "sourceUrl": "https://briandouglas.ie/llm-tailwind-template/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48496483",
+      "publishedAt": "2026-06-11T21:12:47.000Z",
+      "titleEn": "Tailwind and slop apps",
+      "titleZh": "Tailwind 与粗糙应用",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "coneonthefloor"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 66,
+      "commentCount": 49,
+      "tags": []
     },
     {
       "id": "hn:48496332",
@@ -167,6 +679,28 @@
       ]
     },
     {
+      "id": "gnews:d4b5d064e0e0",
+      "slug": "gnews-d4b5d064e0e0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjNjZUhmYmpJdFNHcjh5MDV1SHNudjNfMEtNRkZlZ1ZqZThjZzhhbkFXQW9uZ0t2Rl9SN3lTQTB4WXFBalphQWRTbmI1N3pxY25OeXR4d1EtVUNFV3lmNkFOdEdEUkN1emVKNEhIb1JLUkFpYk9GWWZONXlDUlNPWWtJYzBfWThsdXVPLUR5enJtNlZ6dGNRZzZJX3g5TVFISlRsMWFNUjFqMTctTnl2bU9IWjZ6MnM2?oc=5",
+      "publishedAt": "2026-06-11T19:28:50.000Z",
+      "titleEn": "Mother sues OpenAI, alleging ChatGPT encouraged daughter's suicide",
+      "titleZh": "母亲起诉OpenAI，指控ChatGPT诱导女儿自杀",
+      "abstractEn": "Mother sues OpenAI, alleging ChatGPT encouraged daughter's suicide  Reuters",
+      "abstractZh": "母亲起诉OpenAI，指控ChatGPT诱导女儿自杀 路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:bb882aa7181e",
       "slug": "gnews-bb882aa7181e",
       "source": "Google AI News",
@@ -224,6 +758,50 @@
         "PYMNTS.com"
       ],
       "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8376fe9048ec",
+      "slug": "gnews-8376fe9048ec",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd0dfbDZPMGhmcVlLdXFqd1lUYXF0aUEyVzhnZ2dJZE9xNDRpaXd5YzZGVHA5ajI2RkRxdEJDNWVDSWdKaEtRcFV5NjVwNWtscHZvcTlqTDd1RXYxOTM2dGd2amVfeVRSd05QVzdUcEpzczlXZ0sxd3dWcnBOTWtaUHZYNHBQYTVaYnRubQ?oc=5",
+      "publishedAt": "2026-06-11T18:22:55.000Z",
+      "titleEn": "OpenAI Buys German AI Startup Ona to Strenghten Codex",
+      "titleZh": "OpenAI 收购德国 AI 初创公司 Ona 以强化 Codex",
+      "abstractEn": "OpenAI Buys German AI Startup Ona to Strenghten Codex  trendingtopics.eu",
+      "abstractZh": "OpenAI 收购德国 AI 初创公司 Ona 以强化 Codex  trendingtopics.eu",
+      "authors": [
+        "trendingtopics.eu"
+      ],
+      "institution": "trendingtopics.eu",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ed0451e025a5",
+      "slug": "gnews-ed0451e025a5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSTE2RHl4VkdQS0hPdFItNUdRcmM5X0FXRHBwRWdLdm5KWWhKcUZjeVhXdi15OVp2LVNWUWdsajdmSVlubDJTUnBhcUpiSmE1VkNjZFh1M3hvRXBlMW5rbHF0ZGFaWGExbHpVMXpIMVpHZmJNNjNVU2lTTzY3bjd2RkJpNWwyemwwRlNZdWtqQ1RQYmotczJvRWF5Yw?oc=5",
+      "publishedAt": "2026-06-11T18:10:00.000Z",
+      "titleEn": "Jeff Bezos says AI is like a knife that can be used for good or bad, and the solution isn't 'no more data centers'",
+      "titleZh": "杰夫·贝佐斯称AI如同刀剑，可善可恶，解决方案并非‘停止建设数据中心’",
+      "abstractEn": "Jeff Bezos says AI is like a knife that can be used for good or bad, and the solution isn't 'no more data centers'  Business Insider",
+      "abstractZh": "杰夫·贝佐斯称AI如同刀剑，可善可恶，解决方案并非‘停止建设数据中心’ Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -541,6 +1119,28 @@
       ]
     },
     {
+      "id": "gnews:c7d67449add0",
+      "slug": "gnews-c7d67449add0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWVE5YU1qbE5aWUgxQnRieGdXR2xXRW9rUk54RlBhRkg1NUh3VlppaEJ0ZmU2UzI4LXo4UldSenhNNTJRbTg5eWstLXYzY0tMMFZmZmE5eGwwVVowUmRCN3U1TERfcDZaTUxSQ0I5SFpVN1pJNF92TFUwdTFEOTljMVJkYXlneG1UZkVCVV8tMUdVR1pYX1plQlFieEdKT0FfT1ZvQjBOU1JMNnZtRzhua3lPT2E3LXpfemVYOHdCcEhjQQ?oc=5",
+      "publishedAt": "2026-06-11T16:04:47.000Z",
+      "titleEn": "Anthropic’s 30-Day Data Policy Exposes Enterprise AI Governance Gaps",
+      "titleZh": "Anthropic的30天数据政策暴露企业AI治理漏洞",
+      "abstractEn": "Anthropic’s 30-Day Data Policy Exposes Enterprise AI Governance Gaps  PYMNTS.com",
+      "abstractZh": "Anthropic的30天数据政策暴露企业AI治理漏洞  PYMNTS.com",
+      "authors": [
+        "PYMNTS.com"
+      ],
+      "institution": "PYMNTS.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48492210",
       "slug": "hn-48492210-claude-fable-5-mid-tier-results-on-coding-tasks",
       "source": "Hacker News",
@@ -559,6 +1159,27 @@
       "category": "social",
       "score": 144,
       "commentCount": 52,
+      "tags": []
+    },
+    {
+      "id": "hn:48492177",
+      "slug": "hn-48492177-mtg-bench-testing-how-well-llms-can-play-magic",
+      "source": "Hacker News",
+      "sourceUrl": "https://mtgautodeck.com/articles/mtg-bench/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48492177",
+      "publishedAt": "2026-06-11T16:01:01.000Z",
+      "titleEn": "MTG Bench: Testing how well LLMs can play Magic",
+      "titleZh": "MTG Bench：测试大语言模型玩万智牌的能力",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "CallumFerg"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 47,
+      "commentCount": 27,
       "tags": []
     },
     {
@@ -646,6 +1267,28 @@
       "score": 32,
       "commentCount": 4,
       "tags": []
+    },
+    {
+      "id": "gnews:4e6e9fcee478",
+      "slug": "gnews-4e6e9fcee478",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbl9yQzBnT20xdDZ5cnZKQURiVVZZODU2WXF2R0c2clhwdTlGZUM2NUZnWmZfRWpPUmZVUzRONGFtMEhia0x3NU9PUE04Qy1mYXljemo0YXFTMngwWFczSlNDZjBoc2pSd3BjMDRlMWhVYnFjTVN0NWtRSWpnNWpDV2diUkZOSkU?oc=5",
+      "publishedAt": "2026-06-11T15:36:02.000Z",
+      "titleEn": "Q&A: The evolution of artificial intelligence",
+      "titleZh": "问答：人工智能的演进",
+      "abstractEn": "Q&A: The evolution of artificial intelligence  The Pennsylvania State University",
+      "abstractZh": "问答：人工智能的演进  宾夕法尼亚州立大学",
+      "authors": [
+        "The Pennsylvania State University"
+      ],
+      "institution": "The Pennsylvania State University",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:6f4d450d0108",
@@ -866,6 +1509,27 @@
       ]
     },
     {
+      "id": "hn:48490939",
+      "slug": "hn-48490939-how-a-new-dsl-may-survive-in-the-era-of-llms",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.williamcotton.com/articles/how-a-new-dsl-survives-in-the-era-of-llms",
+      "commentUrl": "https://news.ycombinator.com/item?id=48490939",
+      "publishedAt": "2026-06-11T14:35:41.000Z",
+      "titleEn": "How a new DSL may survive in the era of LLMs",
+      "titleZh": "新领域特定语言如何在 LLM 时代生存",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "williamcotton"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 35,
+      "commentCount": 12,
+      "tags": []
+    },
+    {
       "id": "gnews:1ccae31c9932",
       "slug": "gnews-1ccae31c9932",
       "source": "Google AI News",
@@ -879,6 +1543,28 @@
         "HIT Consultant"
       ],
       "institution": "HIT Consultant",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:47f14f395d77",
+      "slug": "gnews-47f14f395d77",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzNsdVV5UGJYcnNEZHA1Tnl5azVQMTBleWVrN3hmZXRCTjJLclQ2aERrdnA5SmlmUjkxMnBGWW0zckoyS3lXSWExME94R3N1NnZBdTFuU0FIMGk0UHl2d1hEQS03bE9KM3BZQzljU1luY0pzelFWSktOMGxXdkw0U19qUDBTVXZEdkJvbl9XVERhbjJIRk9DZ3diWnpBeUp0aDRUNEhn?oc=5",
+      "publishedAt": "2026-06-11T14:27:00.000Z",
+      "titleEn": "What the Opioid Epidemic Can Teach Washington About AI Regulation",
+      "titleZh": "阿片类药物危机能给华盛顿的AI监管带来什么启示",
+      "abstractEn": "What the Opioid Epidemic Can Teach Washington About AI Regulation  The Well News",
+      "abstractZh": "阿片类药物危机能给华盛顿的AI监管带来什么启示 The Well News",
+      "authors": [
+        "The Well News"
+      ],
+      "institution": "The Well News",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -988,6 +1674,28 @@
         "Tech Times"
       ],
       "institution": "Tech Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e989625a7092",
+      "slug": "gnews-e989625a7092",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWx4dWFzVmVxejV3blVMUS1EN0c4eDhHcmsxZGFfMkxNc1p0VFZFUWJySnRiQ010V0puRjhHRUdJM0dzcWtqcEg3WGVTUHFZTk5mMUN0b1R6ZFExOU9uQTduWHpGQjBnUm1BaVpKSGJQanh5Q3d1MkdnZV91cTB5WlBZbDRnMTAwUERaWg?oc=5",
+      "publishedAt": "2026-06-11T13:40:00.000Z",
+      "titleEn": "Anthropic just proposed taxing itself to pay for the jobs its AI destroys",
+      "titleZh": "Anthropic提议对自己征税，以补偿其AI所摧毁的工作岗位",
+      "abstractEn": "Anthropic just proposed taxing itself to pay for the jobs its AI destroys  Fortune",
+      "abstractZh": "Anthropic提议对自己征税，以补偿其AI所摧毁的工作岗位  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -1497,6 +2205,26 @@
       "tags": []
     },
     {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-roqfgakxoc7oa8hu-html",
+      "slug": "roboparty-u30",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/rOQfGakXOc7Oa8HU.html",
+      "publishedAt": "2026-06-11T10:55:00.000Z",
+      "titleEn": "RoboParty 萝博派对创始人黄一荣登福布斯亚洲 U30 精英榜单",
+      "titleZh": "RoboParty 萝博派对创始人黄一荣登福布斯亚洲 U30 精英榜单",
+      "abstractEn": "专注机器人创新，\nRoboParty 创始人获福布斯亚洲荣誉\n近日，Forbes 公布2026 年 Asia 30 Under 30 榜单，RoboParty 创始人黄一（Alex Huang），入选 Industry, Manufacturing & Energy 方向。\nForbes Asia 30 Under 30 是福布斯面向亚太地区青年创业者、技术创新者与行业推动者设立的重要榜单，长期关注在科技、制造、商业与社会创新中展现突破潜力的新一代力量。此次入选，是 Forbes 对黄一在具身智能与人形机器人领域持续探索的认可，也意味着 RoboParty 所坚持的全栈开源人形机器人方向，正在被更广泛的全球语境看见。\n\n\n图片来源：Forbes 官网\n从 0 到 1 到 RoboParty（萝博派对）\n\n黄一的机器人实践起步于校园。2023 年底，本科期间的黄一开始自主研发双足机器人 Al",
+      "abstractZh": "专注机器人创新，\nRoboParty 创始人获福布斯亚洲荣誉\n近日，Forbes 公布2026 年 Asia 30 Under 30 榜单，RoboParty 创始人黄一（Alex Huang），入选 Industry, Manufacturing & Energy 方向。\nForbes Asia 30 Under 30 是福布斯面向亚太地区青年创业者、技术创新者与行业推动者设立的重要榜单，长期关注在科技、制造、商业与社会创新中展现突破潜力的新一代力量。此次入选，是 Forbes 对黄一在具身智能与人形机器人领域持续探索的认可，也意味着 RoboParty 所坚持的全栈开源人形机器人方向，正在被更广泛的全球语境看见。\n\n\n图片来源：Forbes 官网\n从 0 到 1 到 RoboParty（",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "gnews:8b5315955acd",
       "slug": "gnews-8b5315955acd",
       "source": "Google AI News",
@@ -1560,6 +2288,29 @@
       "commentCount": 0,
       "tags": [
         "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:e28d63dc7534",
+      "slug": "hrorg-randstad-e28d63dc7534",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaHRwYW9USGNpcF92V01zRnk0VTQyLWZ2SlMzVF9wOVRBUlFQZHRJNUhfd0oxWW11YjZobTBLY1NBYTBqRW1Eb3B4Xy1zOGtPQXVEY2U3OXdNQ0cwa3U0SG5aLW9yNkZfSWotaUloWXRIcHpKOHg0cDJ3b2UtNS05OGN2SlQ1aG9rRG94YkJ0MXNNMUxya0liMEVwTkJSMjFiQVF1WUd6TDdsSE1CVUEw?oc=5",
+      "publishedAt": "2026-06-11T10:21:56.000Z",
+      "titleEn": "Lampsa Hotels Among the 10 Most Attractive Employers in Greece",
+      "titleZh": "Lampsa Hotels 入选希腊十大最具吸引力雇主",
+      "abstractEn": "Lampsa Hotels Among the 10 Most Attractive Employers in Greece  Tornos News",
+      "abstractZh": "Lampsa Hotels 入选希腊十大最具吸引力雇主  Tornos News",
+      "authors": [
+        "Tornos News"
+      ],
+      "institution": "Tornos News",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
       ]
     },
     {
@@ -1696,6 +2447,27 @@
       ]
     },
     {
+      "id": "hn:48487829",
+      "slug": "hn-48487829-making-a-vintage-llm-from-scratch",
+      "source": "Hacker News",
+      "sourceUrl": "https://crlf.link/log/entries/260525-1/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48487829",
+      "publishedAt": "2026-06-11T08:38:00.000Z",
+      "titleEn": "Making a vintage LLM from scratch",
+      "titleZh": "从零构建一个复古大语言模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "croqaz"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 35,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
       "id": "gnews:28f9228a5fd5",
       "slug": "gnews-28f9228a5fd5",
       "source": "Google AI News",
@@ -1804,6 +2576,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-cn7hbyyhcwoe0k8e-html",
+      "slug": "meta-8000-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/Cn7hBYyhcWoe0k8e.html",
+      "publishedAt": "2026-06-11T00:36:00.000Z",
+      "titleEn": "销售岗最安全！Meta裁员8000人，开发岗、管理岗成AI转型最大牺牲品；梁文锋高考状元旧照曝光：不去清华去浙大；微信官宣：朋友圈搜索功能",
+      "titleZh": "销售岗最安全！Meta裁员8000人，开发岗、管理岗成AI转型最大牺牲品；梁文锋高考状元旧照曝光：不去清华去浙大；微信官宣：朋友圈搜索功能",
+      "abstractEn": "要闻提示\n1.销售岗最安全！Meta 裁员 8000 人，开发岗、管理岗成 AI 转型最大牺牲品\n\n\n\n2.阿里合伙人委员会内网发帖：钉钉管理“不是阿里文化该有的样子”\n3.微信官宣新功能，网友：终于能精准“考古”\n4.DeepSeek创始人梁文锋高考状元旧照及报道曝光：分数过了清华线，却选择浙大\n5.拼多多新公司落户雄安：计划提供5000个工作岗位，首批招聘1000人\n\n6.何小鹏内部信：将亲自带队机器人业务，拉通集团所有资源冲刺量产\n7.字节跳动 AI 制药业务线启动拆分与独立融资进程，首次试水 AI4S 产业化\n8.华尔街抢疯了！SpaceX已获4倍超额认购，认购需求高达2500亿美元\n\n\n\n\n\n今日头条\n销售岗最安全！Meta 裁员 8000 人，开发岗、管理岗成 AI 转型最大牺牲品\n\n\n\n6 月 10 日消息，据外媒报道，Meta 正投入数十亿美元押注 AI，但在最新一轮裁员中",
+      "abstractZh": "要闻提示\n1.销售岗最安全！Meta 裁员 8000 人，开发岗、管理岗成 AI 转型最大牺牲品\n\n\n\n2.阿里合伙人委员会内网发帖：钉钉管理“不是阿里文化该有的样子”\n3.微信官宣新功能，网友：终于能精准“考古”\n4.DeepSeek创始人梁文锋高考状元旧照及报道曝光：分数过了清华线，却选择浙大\n5.拼多多新公司落户雄安：计划提供5000个工作岗位，首批招聘1000人\n\n6.何小鹏内部信：将亲自带队机器人业务，拉通集团所有资源冲刺量产\n7.字节跳动 AI 制药业务线启动拆分与独立融资进程，首次试水 AI4S 产业化\n8.华尔街抢疯了！SpaceX已获4倍超额认购，认购需求高达2500亿美元\n\n\n\n\n\n今日头条\n销售岗最安全！Meta 裁员 8000 人，开发岗、管理岗成 AI 转型最大牺牲",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:4ceab242b77c",
