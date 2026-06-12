@@ -1,7 +1,7 @@
 {
   "version": 1,
   "judged": {
-    "morning": "2026-06-11"
+    "morning": "2026-06-12"
   },
   "perSource": {
     "Korn Ferry(官网)": {
@@ -302,5 +302,5 @@
   "lastFetchConsumedRanAt": "2026-06-11T22:51:31.881Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-11T22:56:08.500Z"
+  "updatedAt": "2026-06-12T00:00:01.298Z"
 }
