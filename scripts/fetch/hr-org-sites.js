@@ -296,7 +296,8 @@ function toArticle(entry, { title, url, publishedAt, abstract }) {
     authors:      [entry.source],
     institution:  entry.source,
     docType:      REPORT_TITLE_RE.test(title) ? 'Report' : 'News',
-    category:     'research',
+    category:     'social',              // 人服机构内容属「人服动态」板块，与 hr-orgs.js(Google News) 一致；
+                                         // 严禁 'research'——/reports 页按 category==='research' 收录，会把官网文章泄漏进 AI 精华报告
     score:        0,
     commentCount: 0,
     tags:         ['官网发布'],
