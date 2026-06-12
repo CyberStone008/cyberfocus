@@ -174,21 +174,13 @@ jobs:
           }
           TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
           if [ "$COMMITTED" = "true" ]; then
-            OUT=$(node -e '
-              try {
-                const A = require("./data/articles.json");
-                const cut = new Date(Date.now() - 3.5 * 3600 * 1000).toISOString();
-                const HV = new Set(["Anthropic Blog","Claude Blog","OpenAI Blog","DeepMind Blog","Google DeepMind","NVIDIA Blog"]);
-                const f = A.filter(a => a.fetchedAt && a.fetchedAt > cut);
-                f.sort((x,y) => (HV.has(x.source)?0:1)-(HV.has(y.source)?0:1) || String(y.publishedAt).localeCompare(String(x.publishedAt)));
-                console.log(f.length);
-                console.log(f.slice(0,6).map(a => "• " + String(a.titleZh||a.titleEn||"").slice(0,34)).join("\n"));
-              } catch { console.log("0"); }
-            ' 2>/dev/null)
-            N=$(printf '%s' "$OUT" | head -1)
-            LINES=$(printf '%s' "$OUT" | tail -n +2)
-            BODY=$(printf "%s · 新增 %s 条\n%s" "$TS" "$N" "$LINES")
-            bark_push "📰 CyberFocus 已更新" "$BODY" "active"
+            # 共享摘要脚本：第 1 行=标题，其余=正文（头条一句话简介 + 几条标题）。与 Web Push 同源。
+            OUT=$(node scripts/build-push-digest.js 2>/dev/null)
+            TITLE=$(printf '%s' "$OUT" | head -1)
+            BODY=$(printf '%s' "$OUT" | tail -n +2)
+            [ -z "$TITLE" ] && TITLE="📰 CyberFocus 已更新"
+            [ -z "$BODY" ]  && BODY="${TS} 今日 AI 精华已就绪，点开看看"
+            bark_push "$TITLE" "$BODY" "active"
           else
             bark_push "📭 CyberFocus 本次无新内容" "${TS} 抓取完成，暂无新内容" "passive"
           fi
@@ -203,10 +195,13 @@ jobs:
           KV_REST_API_URL:   ${{ secrets.KV_REST_API_URL }}
           KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
         run: |
-          TS="$(TZ=Asia/Shanghai date '+%m-%d %H:%M')"
-          N=$(node -e 'try{const A=require("./data/articles.json");const cut=new Date(Date.now()-3.5*3600*1000).toISOString();console.log(A.filter(a=>a.fetchedAt&&a.fetchedAt>cut).length)}catch{console.log("")}' 2>/dev/null)
-          export PUSH_TITLE="📰 CyberFocus 已更新"
-          export PUSH_BODY="${TS} · 新增 ${N} 条 AI 精华，点开看看"
+          # 共享摘要脚本（与 Bark 同源）：第 1 行=标题，其余=正文（头条一句话简介 + 几条标题）。
+          OUT=$(node scripts/build-push-digest.js 2>/dev/null)
+          PUSH_TITLE=$(printf '%s' "$OUT" | head -1)
+          PUSH_BODY=$(printf '%s' "$OUT" | tail -n +2)
+          [ -z "$PUSH_TITLE" ] && PUSH_TITLE="📰 CyberFocus 已更新"
+          [ -z "$PUSH_BODY" ]  && PUSH_BODY="今日 AI 精华已就绪，点开看看"
+          export PUSH_TITLE PUSH_BODY
           export PUSH_URL="/reports"
           node scripts/send-push.js || true
 

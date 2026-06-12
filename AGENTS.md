@@ -16,6 +16,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 2. **引入 vitest 单测框架 + date/dedupe/toc 回归护栏（verify 第五关）**：装 `vitest`（devDep），加 `npm test`(=`vitest run`)/`test:watch` 脚本与根目录 `vitest.config.ts`（`include: app/**/*.test.ts + scripts/**/*.test.js`、`environment:node`、`globals:false`——刻意不开全局/不改 tsconfig types，否则 next build 的 `**/*.ts` 类型检查会因缺全局类型失败）。v1 只覆盖 3 个**历史事故**纯逻辑模块，断言锁死真实坑：**date**——`2026-06-04T20:30Z` 经 `getDateKey` 须得北京 `2026-06-05` 非 UTC `06-04`（"今天只 3 条"根因）；**dedupe**——`isJunkTitle('6/9/2026')`、同实体高相似并簇(dupCount≥2)/同公司异闻不并(守保守阈值)、代表条优先(tldrZh>非Google)；**toc**——H2+紧跟英文 H3 副标题不重复、相同双语标题折叠("目录/Contents 错乱"事故）。共 26 个 `it`。`verify.sh` 在「③ validate-data」后、「双构建」前插「④ 单元测试 `npx vitest run`」（双构建顺延⑤），CI 仍只调 `verify.sh`（守单一关卡）、ci.yml 的 paths 触发列表补 `vitest.config.ts`。测试文件与源码同目录、顶部显式 `import {describe,it,expect} from 'vitest'`；out/ 不会把 *.test.* 当路由。**坑**：validate-data.js 的 C1「UTC 分组坑」扫描是对 `app/**/*.ts` 原文做子串匹配（含 *.test.ts、连注释文本也算）——测试里要造日期键别裸用 `toISOString().slice(0,10)`，一律走 `getDateKey`，注释里也别写出该字面量。
 
+3. **每日推送内容增强（头条简介 + 几条标题）**：新增 `scripts/build-push-digest.js`（纯函数 `buildDigest(articles,now,windowHours)` + IO 包装），**Bark 与 Web Push 共用同一摘要**（消除原 Bark 标题逻辑写死在 YAML、Web Push 仅"新增 N 条"的不一致）。输出协议：第 1 行=标题(`📰 CyberFocus · 新增 N 条`)、其余=正文（头条 `📌 标题` + 一句话 `tldrZh`（仅 ~1/3 覆盖，有则放无则退回多放标题）+ `• 标题`×3 + `…等共 N 条`）。高价值源(各实验室官博)优先。workflow 两步均 `OUT=$(node scripts/build-push-digest.js)`→`head -1`取标题、`tail -n +2`取多行正文。默认窗口 3.5h（匹配批次）。
+
 ### 2026-06-10
 
 0. **开发工作流与 agent 团队（本仓库的工程规范，所有会话必须遵守）**：见下方〈开发工作流〉章节。要点：6 角色分工（product-manager/pipeline-dev/frontend-engineer/ui-designer/qa-engineer/content-auditor，定义在 `.claude/agents/`）；**代码改动走分支+PR+CI，数据(`data/`)由 cron 机器人直推 main**；统一验证关卡 `npm run verify`（=CI 同标准）；PR 必须附验证证据（模板强制）。
