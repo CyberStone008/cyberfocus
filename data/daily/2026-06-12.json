@@ -1,20 +1,491 @@
 {
   "date": "2026-06-12",
-  "generatedAt": "2026-06-12T06:01:50.877Z",
+  "generatedAt": "2026-06-12T11:10:14.049Z",
   "summary": {
     "aiNews": [
-      "Aum Ventures推出8000万美元基金，专注半导体、太空科技和AI初创公司。",
-      "Anthropic模型导致印度IT股暴跌，凸显AI对行业冲击。",
-      "微软中国Azure研发团队超200人受影响，最高补偿N+7。"
+      "Equal AI获3000万美元B轮融资，由Prosus和Tomales Bay Capital领投，用于扩展AI通话助手业务。",
+      "腾讯云护航全球16国世界杯直播，AI技术首次在世界杯大规模应用，提升直播体验。",
+      "苹果因监管担忧推迟在欧洲推出Siri AI功能，反映AI监管对产品部署的影响。"
     ],
     "papers": [],
     "hrOrgs": [
-      "科锐国际去年营收超145亿元，净利同比增52.68%。",
-      "调查显示美国员工健康保险费用将上涨。",
-      "Indeed发起‘Jobs Need People’活动，转向AI驱动的职位匹配。"
+      "Indeed发起‘Jobs Need People’活动，从职位搜索转向AI驱动的匹配，提升招聘效率。",
+      "科锐国际去年营收超145亿元，净利同比增52.68%，显示人力资源行业增长强劲。",
+      "调查显示美国员工健康保险费用将上涨，影响企业用工成本与福利策略。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:8df99dd7aa6f",
+      "slug": "gnews-8df99dd7aa6f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmtjSndkeTlWUnlLOUtxcjRYWmJqRFFRdWlpRXNoX1VLQ3paMGpsYm9ETFF1Umg1RHNJcTBTTzdKNXV0NjBUNElRQ0YwWHM1SExIM1RqQjdaNGREblRTUThZcWc4MFgtR0FHWXl3OHZmSG9HX0NPNzNnZjEtT0d0TWpPRlBmS1VOUGJJUWo3YW5RT1E2ejNPSHlLWXF5UQ?oc=5",
+      "publishedAt": "2026-06-12T11:00:00.000Z",
+      "titleEn": "The next AI safety fight may actually be about DNA",
+      "titleZh": "下一场AI安全之争可能实际上围绕DNA展开",
+      "abstractEn": "The next AI safety fight may actually be about DNA  vox.com",
+      "abstractZh": "下一场AI安全之争可能实际上围绕DNA展开  vox.com",
+      "authors": [
+        "vox.com"
+      ],
+      "institution": "vox.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2581fdbac571",
+      "slug": "gnews-2581fdbac571",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVnZzaFFUMmUxd2Y5LUVlQkVUWHc5OWYwOHN1S1NsUEhOVE9vSS1oY2t1VjlxLVBGcFFxNkRZb2t0c1oxX05QTWxKYm1OMG1mTGRfc0k3Rkx4SUNUNGxVT3ZIWUhrc3FzZlozY3NpTndXQlFsRF9HM0RncFFBaVRHT3hlaFpfZVh6WFh2eU0yWFhfS051RFAyMmduYjl5YmtWZDR6ZzJqb3F6YmVxZGdHZGtvcEdjUFBwSDRZVHJ5cG5zdGk4LVptZGo0bnotTDJFbEVVaXEzOERTVXJs?oc=5",
+      "publishedAt": "2026-06-12T10:53:00.000Z",
+      "titleEn": "Equal ai secures 30 million series b led by prosus tomales bay capital",
+      "titleZh": "Equal AI 获 3000 万美元 B 轮融资，由 Prosus 和 Tomales Bay Capital 领投",
+      "abstractEn": "Equal ai secures 30 million series b led by prosus tomales bay capital  Indiatimes",
+      "abstractZh": "Equal AI 获 3000 万美元 B 轮融资，由 Prosus 和 Tomales Bay Capital 领投  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48502347",
+      "slug": "hn-48502347-kimi-k2-7-code-open-source-coding-model-with-better-token-efficiency",
+      "source": "Hacker News",
+      "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "commentUrl": "https://news.ycombinator.com/item?id=48502347",
+      "publishedAt": "2026-06-12T10:42:50.000Z",
+      "titleEn": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "titleZh": "Kimi K2.7-Code：具有更优 Token 效率的开源编程模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "nekofneko"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:c560cdeed1a4",
+      "slug": "gnews-c560cdeed1a4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XMnJMTTF4Tll3Z3FpVjNWUUtnU1N0WlN6VWl2aXZhYnZTMnVIbjBNdUxzTVJNeHFxVHJpa0d6dk5fN2I1VmVFd0NuRzNBa0w3Qmd5dE93QV85WVFNRWhBM1hSQVpzX2tvZHoxaVVkaGxkOW11QVRTMEUxc2M?oc=5",
+      "publishedAt": "2026-06-12T10:39:34.000Z",
+      "titleEn": "Latin American AI proposals draw on EU risk-based regulation",
+      "titleZh": "拉丁美洲的AI提案借鉴欧盟基于风险的监管模式",
+      "abstractEn": "Latin American AI proposals draw on EU risk-based regulation  Digital Watch Observatory",
+      "abstractZh": "拉丁美洲的AI提案借鉴欧盟基于风险的监管模式  Digital Watch Observatory",
+      "authors": [
+        "Digital Watch Observatory"
+      ],
+      "institution": "Digital Watch Observatory",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2c9ff909a325",
+      "slug": "gnews-2c9ff909a325",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zZEFKN2hSOVFGVDNuVGN6dXdLUXg3YjZra0JycXE2OXEzXzl6dzc0aEQyVzdwTWdaUVBNNUVFVkNsLTVvTHBHc01MUzRsTGttUjY4V01lTUw1VW52am5ReUhVOHpMUC10UDBuQkd2MA?oc=5",
+      "publishedAt": "2026-06-12T10:18:45.000Z",
+      "titleEn": "How Claude Fable 5 Outperforms ChatGPT 5.5 in Complex Coding Tasks",
+      "titleZh": "Claude Fable 5如何在复杂编码任务中超越ChatGPT 5.5",
+      "abstractEn": "How Claude Fable 5 Outperforms ChatGPT 5.5 in Complex Coding Tasks  Geeky Gadgets",
+      "abstractZh": "Claude Fable 5如何在复杂编码任务中超越ChatGPT 5.5  Geeky Gadgets",
+      "authors": [
+        "Geeky Gadgets"
+      ],
+      "institution": "Geeky Gadgets",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:513222143a18",
+      "slug": "gnews-513222143a18",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYnZvSmFjSHozXzZBN3JXaHNELW9FTUd3aUgtYnJyZV81TU9YcHF3c0c4VWMxZ09Sbk5CbnMzXzhVMFBkVkt1aGIwVEx5N19zekN6WGdjSlJ0M0Zfa20yQjZJaVEwQUp3bFpJVERLYndTZVJncXZ0YWRHS1lmUTVqVmw1ZkVZWl9IQ0JSZTBMMDM2MGY3NlhuUFNGWmN5Mm5qLU4tZnpXbHpWWm1kMTROc1NVYm9iQQ?oc=5",
+      "publishedAt": "2026-06-12T09:54:01.000Z",
+      "titleEn": "Moroccan proptech startup Agenz secures $5m to scale its AI platform",
+      "titleZh": "摩洛哥房地产科技初创公司 Agenz 获 500 万美元融资以扩展其 AI 平台",
+      "abstractEn": "Moroccan proptech startup Agenz secures $5m to scale its AI platform  Africa Business Communities",
+      "abstractZh": "摩洛哥房地产科技初创公司 Agenz 获 500 万美元融资以扩展其 AI 平台  Africa Business Communities",
+      "authors": [
+        "Africa Business Communities"
+      ],
+      "institution": "Africa Business Communities",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:69888bb3abb7",
+      "slug": "gnews-69888bb3abb7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXN0SU9hY2hpODBJTXRjNHBXU1MwMEc3RHBaLUJkLTduNmxHT3FqZzd0YlNqOEEyNWpnSl9aTHhsNmw0bXpjUkU0Y1VPZDF1aTl6SGw4ZWw2YnFBWVZhSHVXSGF0c3F0T2d0d1lkcUdRbmptNlFQb3R0dEQyT3VFYThLUm5kSU1tYWpzeWNyLVlxaTBmN3R6UFFLZHg3VHc?oc=5",
+      "publishedAt": "2026-06-12T09:35:52.000Z",
+      "titleEn": "MHRA report highlights public priorities for AI regulation in healthcare",
+      "titleZh": "MHRA报告强调公众对医疗领域AI监管的优先事项",
+      "abstractEn": "MHRA report highlights public priorities for AI regulation in healthcare  Digital Watch Observatory",
+      "abstractZh": "MHRA报告强调公众对医疗领域AI监管的优先事项  Digital Watch Observatory",
+      "authors": [
+        "Digital Watch Observatory"
+      ],
+      "institution": "Digital Watch Observatory",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7b9862340247",
+      "slug": "gnews-7b9862340247",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFF0RngwaXJMT3ZVSFUybU9HZ1Ffb3czTkZHZTR3NGZkLU5sTGVlamwySVhPMGdPazBjbDFPcndqaW9YcW5NVWM0VWdGdEFPUGE4WEdMQnIxdUlycGM2c1dGR2tXUXNWWklFR3J0alRFbnRyUHRJOGVKd1M3TUVtZTNEQ2d0OEZDQkw1R2ZpdEFuLWZvX0RzdlZJWU1WenNPWlgtODFsZUI5UQ?oc=5",
+      "publishedAt": "2026-06-12T09:33:44.000Z",
+      "titleEn": "Week 24’s Biggest Startup Funding Rounds in Africa and the Middle East, Led by Rylo",
+      "titleZh": "第 24 周非洲和中东地区最大初创企业融资轮次，由 Rylo 领衔",
+      "abstractEn": "Week 24’s Biggest Startup Funding Rounds in Africa and the Middle East, Led by Rylo  Techloy",
+      "abstractZh": "第 24 周非洲和中东地区最大初创企业融资轮次，由 Rylo 领衔  Techloy",
+      "authors": [
+        "Techloy"
+      ],
+      "institution": "Techloy",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b0a4e04935d9",
+      "slug": "gnews-b0a4e04935d9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSi1wYmJ3eXB4YXA5alRPcHVOYnVUdmo4OE9zeDY2dGhCRHhvQ29DVmxQRlZDWFppWDBIU3YwY0FqYWFqellxU1gteWgxd2Rld0lRR3BBLWlrUUpMQnpMdHR0LXpUODRFcldWV1pWZWNZT1FEMU5TQXV2SkdnTUJNNEV3?oc=5",
+      "publishedAt": "2026-06-12T09:27:31.000Z",
+      "titleEn": "Jeff Bezos Rejects AI Job Fears as Prometheus Secures $12B Funding",
+      "titleZh": "杰夫·贝索斯驳斥 AI 失业担忧，Prometheus 获 120 亿美元融资",
+      "abstractEn": "Jeff Bezos Rejects AI Job Fears as Prometheus Secures $12B Funding  The Cryptonomist",
+      "abstractZh": "杰夫·贝索斯驳斥 AI 失业担忧，Prometheus 获 120 亿美元融资  The Cryptonomist",
+      "authors": [
+        "The Cryptonomist"
+      ],
+      "institution": "The Cryptonomist",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-etblifprnifrpffo-html",
+      "slug": "16-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/EtblIFPRNIfRPFFO.html",
+      "publishedAt": "2026-06-12T08:53:00.000Z",
+      "titleEn": "腾讯云护航全球16个国家及地区世界杯直播，AI技术首次在世界杯大规模应用",
+      "titleZh": "腾讯云护航全球 16 个国家及地区世界杯直播，AI 技术首次在世界杯大规模应用",
+      "abstractEn": "6月12日凌晨，2026年美加墨世界杯正式开幕。本届世界杯首次扩军至48支球队，104场比赛横跨美国、加拿大、墨西哥三国的16座城市，堪称史上最大规模。作为世界杯的老朋友，本届腾讯云首次大规模服务全球四大洲共16个国家和地区，覆盖亚太地区三分之二官方授权赛事直播平台；在国内，腾讯云为两大持权转播平台提供直播技术支持，承载全网约七成世界杯网络流量。\n \n赛事直播向来是技术领域最难啃的骨头之一。世界杯期间，全球数亿人同时涌入直播平台，高并发流量冲击之下，画面不能卡、进球不能延迟、解说不能断，任何一秒的闪失都会影响球迷们的观赛体验。凭借超过20年的音视频技术积累，腾讯云在媒体处理、云直播、媒资管理等核心能力上持续迭代，本届已是其连续服务的第三届世界杯。值得关注的是，得益于成熟的赛事直播解决方案，腾讯云在本届世界杯赢得海外直播平台的广泛选择，为中国、中国香港、新加坡、韩国、马来西亚、印尼、泰国、巴",
+      "abstractZh": "6月12日凌晨，2026年美加墨世界杯正式开幕。本届世界杯首次扩军至48支球队，104场比赛横跨美国、加拿大、墨西哥三国的16座城市，堪称史上最大规模。作为世界杯的老朋友，本届腾讯云首次大规模服务全球四大洲共16个国家和地区，覆盖亚太地区三分之二官方授权赛事直播平台；在国内，腾讯云为两大持权转播平台提供直播技术支持，承载全网约七成世界杯网络流量。\n赛事直播向来是技术领域最难啃的骨头之一。世界杯期间，全球数亿人同时涌入直播平台，高并发流量冲击之下，画面不能卡、进球不能延迟、解说不能断，任何一秒的闪失都会影响球迷们的观赛体验。凭借超过20年的音视频技术积累，腾讯云在媒体处理、云直播、媒资管理等核心能力上持续迭代，本届已是其连续服务的第三届世界杯。值得关注的是，得益于成熟的赛事直播解决方案，腾",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:3548efb14ebb",
+      "slug": "gnews-3548efb14ebb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EZGJXTnUxZkRyQ0IxVlREeTB4dFVJcS1PbE0tY0ZYM2U0RmZ4aFZfUEliYnpvZXlnTE1ZcWtxUjcwUWprbDBUUjgybmZtYnRpQm5TMDZFS2dvdFBmc1dRbWR4aEMxZXhyZmY2SGdwR1F3V1dhemEw?oc=5",
+      "publishedAt": "2026-06-12T08:51:45.000Z",
+      "titleEn": "Anthropic’s Claude Fable 5 AI Model Jailbroken for Stack Exploit Creation",
+      "titleZh": "Anthropic的Claude Fable 5 AI模型被破解用于堆栈漏洞利用",
+      "abstractEn": "Anthropic’s Claude Fable 5 AI Model Jailbroken for Stack Exploit Creation  gbhackers.com",
+      "abstractZh": "Anthropic的Claude Fable 5 AI模型被破解用于堆栈漏洞利用  gbhackers.com",
+      "authors": [
+        "gbhackers.com"
+      ],
+      "institution": "gbhackers.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a52593c9a882",
+      "slug": "gnews-a52593c9a882",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPak9aLUd4UUxJT29DWF9WaHAtNkFGSGM2OWt4SzJHNEY2RndEVkVWdHU4UHdxQjl1VWktSmprRVJpM2hNc1hRUVJvRG1rYllYQm1DVW41dkZOYk1HTmhUN1A1VU1kSk5pMVgyLVRUUHVEOUZVdTBZSDZSazBpRXd6S0YtSUlrbFdfRjhGdmRjWmw5a2ZPc2gwUzhoTjZmMm5fdVA4TTdYMGMwR0N5ZDhoX1VGd21PRDZYMl82elhn?oc=5",
+      "publishedAt": "2026-06-12T08:31:00.000Z",
+      "titleEn": "Apple to delay Siri AI rollout across Europe over regulation concerns",
+      "titleZh": "苹果因监管担忧推迟在欧洲推出Siri AI功能",
+      "abstractEn": "Apple to delay Siri AI rollout across Europe over regulation concerns  Olive Press News Spain",
+      "abstractZh": "苹果因监管担忧推迟在欧洲推出Siri AI功能  Olive Press News Spain",
+      "authors": [
+        "Olive Press News Spain"
+      ],
+      "institution": "Olive Press News Spain",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0c63c87e2a46",
+      "slug": "gnews-0c63c87e2a46",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeUxHUjdfU1c5VTlTd0wzcHZNSUZNcXVlX0JnT2NXY3Nmb1BWT0hSMFBUQjJzN3hzU2xHM2M0QXNaRGgwMU5oS3U0dVJjdjdycS1Yb1MwcnNrQ2lLVkpRc1VERmdiMTBaZEhNTVRZMmFvX3Vlbkx5TkNjR084TWtMOHhPajB4SGlKZlh5TlZXbHdTYm1Ya2tKbUN2LXl5WDl1aG1zWDZNQlZ0N1h6clJGNlR1TTFXWDRDWHQ3WlZHenJXUmJMNHlnSVZIaFpFWl9qS1U5OUpYZUlkLVF4Qi1LcUtkOW3SAeoBQVVfeXFMUGFtR1hMSGdnRkx0YzJld3ZOSE1RLXB6YTNPV0g0X1V5ek9QR19wbWNfbXdmTFdIaHlYdmdtaUlMMjA0VUJsandSWTQ4U1JiV1ZNQ3EzRnhGVFZVQlN6Q1pJeDBfY09SWEdIVTdxZXB1azRmbllZS0pFeVdxTVZrOUU4MkQwdXpvdkM3UVprakY3TDZPTTlpMFp2ejlpS0JVaG9qZFFXX3dfRGktSDRaWVZpMWg0QTNpeUNZV3E2ajVaNFZudnZJWFlHakpTR1VwcWoya1NhaUdiNkhQdWp1UXplTVBjaXB1bWd3?oc=5",
+      "publishedAt": "2026-06-12T08:09:36.000Z",
+      "titleEn": "AI will not make GBS firms obsolete, but more important: BCG report",
+      "titleZh": "AI不会让GBS公司过时，反而会使其更重要：BCG报告",
+      "abstractEn": "AI will not make GBS firms obsolete, but more important: BCG report  Business Standard",
+      "abstractZh": "AI不会让GBS公司过时，反而会使其更重要：BCG报告  Business Standard",
+      "authors": [
+        "Business Standard"
+      ],
+      "institution": "Business Standard",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c5e9159f3216",
+      "slug": "gnews-c5e9159f3216",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeEpnY0Z6elJOcG5EM3dHbndET1Z3VFlLM3VCbE9SQ09iT1A1UGhxeF82T3hJdXo2N2RXOG9fMXRMdkEyUkVOS0NpLTZCNlRQLWhPc2c5YXREeTRRSm1rR0dlSGM3Q3N5MTVJMmphbGY2em5ORmpteG1zVXUyZGV0WjF4MlFnQQ?oc=5",
+      "publishedAt": "2026-06-12T07:58:41.000Z",
+      "titleEn": "AI call assistant startup Equal raises Series B funding",
+      "titleZh": "AI 通话助手初创公司 Equal 完成 B 轮融资",
+      "abstractEn": "AI call assistant startup Equal raises Series B funding  VCCircle",
+      "abstractZh": "AI 通话助手初创公司 Equal 完成 B 轮融资  VCCircle",
+      "authors": [
+        "VCCircle"
+      ],
+      "institution": "VCCircle",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:687b2cf451dc",
+      "slug": "gnews-687b2cf451dc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYVlZNEZtSVpOTzJjT0c1TmZvd1o3bXE4ejlJdjZQd0ZMUExRUTdlS3F0dXBRaHFna0RvSmp6dGVaUnVRckl5bWd2MUJyejczWjREY3ZGVC1GRVpjNEY3S1BfTVJraTZ2dkFNME5BQWpySm01a0o3M0o2ZlZIUUU1dVlUNE81ajlQOXMxeVdqem9lbU5xSlhsNmUwd2g2YlJNM2drNGVLSDBpdkdLT3JRQlBxVGllUm9oN05faFN0bHhNQlRTbEZYOTFoM1psaFpQekpzTU9mWdIB3AFBVV95cUxQMk9jVVhPdWZicVJJejcyYzNaX1F3VWlvY2hvWWtPUUFlaHFwZ0ZjQlMtREdxTVdfRks4TXlYWFVZbWpvNWZaekppZS1Qd1RNQTJ6eVJwdGVlUGNDelIwdXBVZGIwU2ZSZUNlUGZkUmE2Q1Vxd0FwMEowcEhnWFNmb3czY0taUHltNm13TENtdm13U0RXUUd6VXVFLUxCWkJiaFBnNEZCeWtyRE5wQTA3RlIzUXJyMkNSYW5ZLVJydTVaREhWVkhnSDI5aFFfWXJVcGw2QWJ6Zm1BT2JF?oc=5",
+      "publishedAt": "2026-06-12T07:51:09.000Z",
+      "titleEn": "Equal AI raises $30 million in funding co-led by Prosus Ventures, Tomales Bay Capital",
+      "titleZh": "Equal AI 获 3000 万美元融资，由 Prosus Ventures 和 Tomales Bay Capital 联合领投",
+      "abstractEn": "Equal AI raises $30 million in funding co-led by Prosus Ventures, Tomales Bay Capital  Moneycontrol.com",
+      "abstractZh": "Equal AI 获 3000 万美元融资，由 Prosus Ventures 和 Tomales Bay Capital 联合领投  Moneycontrol.com",
+      "authors": [
+        "Moneycontrol.com"
+      ],
+      "institution": "Moneycontrol.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-433717-html",
+      "slug": "anthropic-1-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/433717.html",
+      "publishedAt": "2026-06-12T07:29:59.000Z",
+      "titleEn": "Anthropic老大的唯一 -1，就是AI股神的未婚妻",
+      "titleZh": "Anthropic 老大的唯一 -1，就是 AI 股神的未婚妻",
+      "abstractEn": "那位被OpenAI开除的股神",
+      "abstractZh": "那位被 OpenAI 开除的股神",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435105-html",
+      "slug": "2026-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435105.html",
+      "publishedAt": "2026-06-12T07:27:14.000Z",
+      "titleEn": "2026奇点智能产品大会首批嘉宾官宣：在 AI 的“可交付的时代”，看一线专家如何拆解真实落地闭环！",
+      "titleZh": "2026 奇点智能产品大会首批嘉宾官宣：在 AI 的‘可交付的时代’，看一线专家如何拆解真实落地闭环！",
+      "abstractEn": "7 月 17-18 日",
+      "abstractZh": "7 月 17-18 日",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:24ad7840a6f6",
+      "slug": "gnews-24ad7840a6f6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDI2Z1RUTTBtTFBibTFuTmswanZpaFdsaWtZZ2NFME1veC1wbzhaOGFnSVAyc2FjYWZNVHp5akRlZEZpUUlqLTdDY0dGSVFvMDRnOExmOW9nU01oSl9BdWdRbFU4SnFISnRydmVUSk1nQ1V6Mm1uVmxybGpOaGUtVFVoZGl6emJYT3hpejhITUx3UEZMN2dBNk5MZ1JEaXBhWmhyekVMR0pxdGgxSVBPUV9IdDRXbEFzN08tNWhfZGVpZ3RydEF3TWdsRkZWWEJYNWI5ZExlRjV2UdIB3wFBVV95cUxNazNXOENyckZ0TjcxbnpHRW92bndXVzRlUmJONDY2Q3R3UDlhUllYQ25aVm1uckJqeXg2aDh0NzVXVmQ0ekFhNGJNcmI5TDAzTHdZLTVGVkJDS2lxaXNpUHlLY043UEtKaVAtMkFHby04NHpkbFYzellDdmhvQ1JKOW5QcGZ3QmhQaGVSMmhtWU5aWlJxeHI3cS1oa284Q2pfdjVZeVM1R2Jab05iZXEtT3Z3QUh0VDRuOVQtZWhRcXpST2RHOVByX3dWMEN6cjNHaVBYaXhYUldjM2dpQzVv?oc=5",
+      "publishedAt": "2026-06-12T06:56:23.000Z",
+      "titleEn": "Anthropic warns AI could face social media-style restrictions as regulation debate intensifies",
+      "titleZh": "Anthropic警告AI可能面临类似社交媒体的限制，监管辩论愈演愈烈",
+      "abstractEn": "Anthropic warns AI could face social media-style restrictions as regulation debate intensifies  Storyboard18",
+      "abstractZh": "Anthropic警告AI可能面临类似社交媒体的限制，监管辩论愈演愈烈  Storyboard18",
+      "authors": [
+        "Storyboard18"
+      ],
+      "institution": "Storyboard18",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-qdr8trunjdevurwa-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/qDR8TrUNjdEVUrWa.html",
+      "publishedAt": "2026-06-12T06:28:00.000Z",
+      "titleEn": "中科大&智象未来：强模型打底、轻模型精修，重塑视频超分体验丨CVPR 2026",
+      "titleZh": "中科大 & 智象未来：强模型打底、轻模型精修，重塑视频超分体验丨CVPR 2026",
+      "abstractEn": "PS-SR：兼顾速度、细节与稳定性，让低清画面更可信。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n在生成式 AI 进入视频生产链之后，视频增强正在从后期修补工具，变成内容生产、内容分发和机器视觉理解中的基础能力。\n现实需求已经不只是让画面变清楚，而是要在电商直播中看清商品质感，在工业巡检中识别裂纹和仪表读数，在远程协作中保留设计细节，在文博数字化中尽量还原影像纹理。\n随着 4K 级高清内容逐渐成为视频平台、智能电视、大屏显示和专业制作流程中的常见需求，低清素材如何被稳定放大到更高分辨率，同时保留纹理、边缘和运动连续性，也成为视频增强技术必须面对的问题。",
+      "abstractZh": "PS-SR：兼顾速度、细节与稳定性，让低清画面更可信。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n在生成式 AI 进入视频生产链之后，视频增强正在从后期修补工具，变成内容生产、内容分发和机器视觉理解中的基础能力。\n现实需求已经不只是让画面变清楚，而是要在电商直播中看清商品质感，在工业巡检中识别裂纹和仪表读数，在远程协作中保留设计细节，在文博数字化中尽量还原影像纹理。\n随着 4K 级高清内容逐渐成为视频平台、智能电视、大屏显示和专业制作流程中的常见需求，低",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-sgux2zblafbxazxd-html",
+      "slug": "nature-ai-enso-19",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/Sgux2ZbLaFbXaZxD.html",
+      "publishedAt": "2026-06-12T06:26:00.000Z",
+      "titleEn": "Nature 子刊收录！清华李勇团队用 AI 解码全球气候耦合，ENSO 预测提前期延长至 19 个月",
+      "titleZh": "Nature 子刊收录！清华李勇团队用 AI 解码全球气候耦合，ENSO 预测提前期延长至 19 个月",
+      "abstractEn": "UniCM：揭示极端 El Niño 和 La Niña 背后的跨洋盆信号。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n在全球气候风险越来越难以用单一事件解释的今天，气候预测行业正面临一个明显转向：预测对象不再只是某一次 El Niño 或某一个海温指数，而是整个海洋和大气系统中多个气候模态的联动变化。\n过去，很多预测方法更擅长处理 ENSO 这样的核心模态，却较难同时理解印度洋、大西洋和太平洋副热带区域之间的连锁反应。\n现实中的气候异常也往往不是单点发生的，例如一次太平洋海温异常，可能会改变远洋航线沿途的风浪条件，影响跨洋货运的时间安排；一个印度洋或",
+      "abstractZh": "UniCM：揭示极端 El Niño 和 La Niña 背后的跨洋盆信号。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n在全球气候风险越来越难以用单一事件解释的今天，气候预测行业正面临一个明显转向：预测对象不再只是某一次 El Niño 或某一个海温指数，而是整个海洋和大气系统中多个气候模态的联动变化。\n过去，很多预测方法更擅长处理 ENSO 这样的核心模态，却较难同时理解印度洋、大西洋和太平洋副热带区域之间的连锁反应。\n现实中的气候异常也往往不是单点发",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-9x05sw5uy0rhgedo-html",
+      "slug": "cvpr-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/9x05Sw5uY0RhgEdO.html",
+      "publishedAt": "2026-06-12T06:25:00.000Z",
+      "titleEn": "CVPR 2026 模型适应性研究盘点：从保留旧知识，到适应真实世界",
+      "titleZh": "CVPR 2026 模型适应性研究盘点：从保留旧知识，到适应真实世界",
+      "abstractEn": "稳定性，正在成为大模型落地的关键命题。\n\n\n\n\n\n    作者丨郑佳美\n\n    编辑丨马晓宁\n                                                                                                               \n\n\n当 AI 模型从“单次完成任务”走向真实世界部署时，真正的挑战不再只是参数规模和单点性能，而是模型能否在变化中保持稳定。\n它要在持续出现的新类别中不遗忘旧知识，要从大规模真实数据中获得更强的泛化能力，要在多客户端、数据分布不断变化的环境下继续学习，也要把图像、视频和 3D 等不同视觉经验组织成统一理解。\n这种变化也体现在 CVPR 2026 的相关研究趋势中。越来越多工作不再只追求某个单一任务上的性能提升，而是更关注模型在长期学习、真实数据、分布变化和多模态协同中的稳定性",
+      "abstractZh": "稳定性，正在成为大模型落地的关键命题。\n\n作者丨郑佳美\n编辑丨马晓宁\n\n当 AI 模型从‘单次完成任务’走向真实世界部署时，真正的挑战不再只是参数规模和单点性能，而是模型能否在变化中保持稳定。\n它要在持续出现的新类别中不遗忘旧知识，要从大规模真实数据中获得更强的泛化能力，要在多客户端、数据分布不断变化的环境下继续学习，也要把图像、视频和 3D 等不同视觉经验组织成统一理解。\n这种变化也体现在 CVPR 2026 的相关研究趋势中。越来越多工作不",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:535e2baaf4fd",
+      "slug": "gnews-535e2baaf4fd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd3g4NFFaWjNOTXB3ZUdyY0tsWFZSNlFUU1hZa2Z1NnRjbGg2d1lxTXBra3FFeC1zLTZpNUFvNWVVNkpkejFDdGI1dHJuVm4wZTBPTm5RX0xnYldFX0dyam40dGRHX045alhNd0RudUpCTVMzbTB2WFZ0VlB3RUVmX284NFRUalJxa2tLNXRzdmRzVHdqS1MzTGxRbjUxeHFzQWRKTjZjWEhRZ2c2WUN0aUFtNmQ5Q1ZpSEN1UGpR?oc=5",
+      "publishedAt": "2026-06-12T05:52:05.000Z",
+      "titleEn": "Anthropic's New Policy Framework Sits Well with Trump's Plan of Expanded Ownership of AI Companies",
+      "titleZh": "Anthropic的新政策框架与特朗普扩大AI公司所有权的计划相契合",
+      "abstractEn": "Anthropic's New Policy Framework Sits Well with Trump's Plan of Expanded Ownership of AI Companies  CXOToday.com",
+      "abstractZh": "Anthropic的新政策框架与特朗普扩大AI公司所有权的计划相契合  CXOToday.com",
+      "authors": [
+        "CXOToday.com"
+      ],
+      "institution": "CXOToday.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:3069bc8e682e",
       "slug": "gnews-3069bc8e682e",
@@ -60,6 +531,26 @@
       ]
     },
     {
+      "id": "雷锋网:https-www-leiphone-com-category-ai-g88m8g2t61aivi2f-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/ai/G88m8g2T61aivI2F.html",
+      "publishedAt": "2026-06-12T05:27:00.000Z",
+      "titleEn": "生成预测四大权威榜单第一！开悟世界模型确立具身智能世界模型新标杆",
+      "titleZh": "生成预测四大权威榜单第一！开悟世界模型确立具身智能世界模型新标杆",
+      "abstractEn": "近日，大晓机器人开悟世界模型（Kairos）同时在 RoboTwin 2.0、LIBERO-Plus、WorldModelBench Robot、DreamGen等全球针对世界模型视频生成和状态预测的权威具身智能评测中均实现第一，超越 Cosmos3、PI、MotuBrain、being-H0.7、Abot、Fast-WAM、Wan2.2等全球主流世界模型 。凭借首创的原生统一世界模型架构——“多模态理解—生成—预测”一体化架构，实现了从具身视频生成、任务指令追随、泛化能力到场景鲁棒性的全维度领先，并向全行业开源。\n 针对行业普遍基于视频生成模型做后训练所固有的物理缺失、因果匮乏与推理延迟等痛点，大晓机器人（ACE ROBOTICS）于2025年12月重磅推出创新的一体化统一架构。作为国内唯一坚持自主设计网络架构与自主预训练范式的团队，大晓彻底摒弃了“外挂式”改良捷径，从底层重构世界模型运",
+      "abstractZh": "近日，大晓机器人开悟世界模型（Kairos）同时在 RoboTwin 2.0、LIBERO-Plus、WorldModelBench Robot、DreamGen 等全球针对世界模型视频生成和状态预测的权威具身智能评测中均实现第一，超越 Cosmos3、PI、MotuBrain、being-H0.7、Abot、Fast-WAM、Wan2.2 等全球主流世界模型。凭借首创的原生统一世界模型架构——‘多模态理解—生成—预测’一体化架构，实现了从具身视频生成、任务指令追随、泛化能力到场景鲁棒性的全维度领先，并向全行业开源。\n针对行业普遍基于视频生成模型做后训练所固有的物理缺失、因果匮乏与推理延迟等痛点，大晓机器人（ACE ROBOTICS）于2025年12月重磅推出创新的一体化统一架构。作为国内唯",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "hn:48500012",
       "slug": "hn-48500012-ai-agent-bankrupted-their-operator-while-trying-to-scan-dn42",
       "source": "Hacker News",
@@ -79,6 +570,28 @@
       "score": 38,
       "commentCount": 4,
       "tags": []
+    },
+    {
+      "id": "gnews:37cd4fef3f2a",
+      "slug": "gnews-37cd4fef3f2a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYU5MeUJrMmFSQVJoVWFXT1AtZzNESFpLTElWSVF4Q3QtUHZZUnF6c0c2U0djVnRPdzk4WG01b0h2NTdnNHRaaWZzaV9zaDFRNy1heFZBMGthM0gzZjdIdmE1YWRTTXhvd3FmZHd3a3FmR3lqOG9CUkZOX3JXWHBWbWJJUG9FcEtBOGx1WDNqSmoyb2J3YldwQ09QRWpvd1NHbGlVUk54TVRvOW9rVWdyUVJ4T1FFd1FL?oc=5",
+      "publishedAt": "2026-06-12T04:35:37.000Z",
+      "titleEn": "Regulation and standards not designed with AI in mind are leaving consumers exposed - LSB",
+      "titleZh": "未针对AI设计的法规和标准使消费者面临风险 - LSB",
+      "abstractEn": "Regulation and standards not designed with AI in mind are leaving consumers exposed - LSB  Today's Family Lawyer",
+      "abstractZh": "未针对AI设计的法规和标准使消费者面临风险 - LSB  Today's Family Lawyer",
+      "authors": [
+        "Today's Family Lawyer"
+      ],
+      "institution": "Today's Family Lawyer",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:2879884f7182",
@@ -136,6 +649,47 @@
         "量子位"
       ],
       "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48499790",
+      "slug": "hn-48499790-the-normalization-of-deviance-in-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://embracethered.com/blog/posts/2025/the-normalization-of-deviance-in-ai/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48499790",
+      "publishedAt": "2026-06-12T04:04:23.000Z",
+      "titleEn": "The Normalization of Deviance in AI",
+      "titleZh": "AI 中的异常常态化",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "gurjeet"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 13,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-chips-zhn0h84fe91cixnf-html",
+      "slug": "6-15",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/chips/zhn0h84fE91cixNf.html",
+      "publishedAt": "2026-06-12T04:01:00.000Z",
+      "titleEn": "6月15日上会！燧原科技营收三年高增，盈利拐点渐近",
+      "titleZh": "6月15日上会！燧原科技营收三年高增，盈利拐点渐近",
+      "abstractEn": "近日，上交所发布公告，将于 2026 年 6 月 15 日召开上市审核会议，审议燧原科技科创板首次公开发行申请，这家国内 AI 算力芯片企业正式迎来上市关键节点。\n \n燧原科技自成立以来始终深耕算力芯片领域，历经八年发展，已成为国内专注云端AI芯片自主研发的领军企业。2023-2025 年，燧原科技营业收入从 3.01 亿元增长至 9.90 亿元，三年营收复合增长率达到 81.32%，增长势头十分强劲。结合现有在手订单与产品交付计划，公司预判 2026 年上半年营收将同比大幅上涨，半年营收有望追平 2025 年全年水平。\n \n盈利层面同样呈现向好态势。2023至2025三年间公司净亏损从 16.65 亿元缩减至 11.64 亿元，亏损规模持续收窄。公司表示，根据在手订单、产品交付节奏、员工成本预算、研发规划等因素考虑，预计在2026年或2027年可实现合并报表盈利。\n\n亮眼业绩背后，是公司",
+      "abstractZh": "近日，上交所发布公告，将于 2026 年 6 月 15 日召开上市审核会议，审议燧原科技科创板首次公开发行申请，这家国内 AI 算力芯片企业正式迎来上市关键节点。\n燧原科技自成立以来始终深耕算力芯片领域，历经八年发展，已成为国内专注云端AI芯片自主研发的领军企业。2023-2025 年，燧原科技营业收入从 3.01 亿元增长至 9.90 亿元，三年营收复合增长率达到 81.32%，增长势头十分强劲。结合现有在手订单与产品交付计划，公司预判 2026 年上半年营收将同比大幅上涨，半年营收有望追平 2025 年全年水平。\n盈利层面同样呈现向好态势。2023至2025三年间公司净亏损从 16.65 亿元缩减至 11.64 亿元，亏损规模持续收窄。公司表示，根据在手订单、产品交付节奏、员工成",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
       "docType": "Blog",
       "category": "social",
       "score": 0,

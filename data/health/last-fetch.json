@@ -1,12 +1,10 @@
 {
-  "ranAt": "2026-06-12T06:01:21.475Z",
+  "ranAt": "2026-06-12T11:09:50.432Z",
   "perSource": {
-    "Hacker News": 9,
+    "Hacker News": 2,
     "量子位": 2,
-    "雷锋网": 5,
-    "Google AI News": 19,
-    "Mercer": 1,
-    "Randstad": 1
+    "雷锋网": 6,
+    "Google AI News": 16
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
