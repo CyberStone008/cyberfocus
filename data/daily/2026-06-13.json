@@ -1,0 +1,733 @@
+{
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-12T16:29:17.625Z",
+  "summary": {
+    "aiNews": [
+      "贝佐斯旗下实体AI公司Prometheus以410亿美元估值融资120亿美元，创AI领域融资纪录。",
+      "OpenAI收购新公司，旨在为Codex编码助手带来重大变革，提升AI编程能力。",
+      "Meta发布一天后从智能眼镜撤下面部识别功能，因隐私争议引发关注。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "调查显示99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临转型。",
+      "加拿大就业市场‘快速离职’现象大幅减少，新员工留任率上升，反映就业稳定。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "gnews:435a0d8e0c02",
+      "slug": "gnews-435a0d8e0c02",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS3VGbWY5bE1RcS04ZnY0Z3YtYm9GcDN6Y3dBTGUxRVc2MmRucWxKZ0RqTUVQdU1uNktrVkxBdWZFVFdpRmhsQ2pKbHdlcDd1MFBXeUFSb0lPSktOdWNlMWYtRjl5OFoySWpXVXVNbHN4eDhhY1U1ZzJEdmk2NzJNWENFSHNGbzQ?oc=5",
+      "publishedAt": "2026-06-12T16:14:34.000Z",
+      "titleEn": "Why Rezolve AI Stock Is Soaring Today",
+      "titleZh": "Rezolve AI 股票今日为何飙升",
+      "abstractEn": "Why Rezolve AI Stock Is Soaring Today  The Motley Fool",
+      "abstractZh": "Rezolve AI 股票今日为何飙升  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ab0d10f1af0c",
+      "slug": "gnews-ab0d10f1af0c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWm5OakxURUNpa1kzMmY5RDU2Nm0zTExRZDRSQUNrMm11TWtzNC01a2ZXYmp6VTdrbFhhOEFzR3Z3RTNkY2NCdS03R1RPdDdNazNJWjViZUFuY1FENmxOUWxmTDYwd01TNVA4a3NnRzBHUjlWRk1idlpYQUxIOG9xRTJNQTJUYTQtLTN2UjRrVXVKRTVhaWlJMHBrWVA4NTNCSDVGWjNQRXFpUmc0NHV1Y0JBQUVBOEFseHFqYw?oc=5",
+      "publishedAt": "2026-06-12T16:10:00.000Z",
+      "titleEn": "OpenAI's latest acquisition could see big changes on the way for its Codex coding assistant",
+      "titleZh": "OpenAI 的最新收购可能为其 Codex 编码助手带来重大变革",
+      "abstractEn": "OpenAI's latest acquisition could see big changes on the way for its Codex coding assistant  TechRadar",
+      "abstractZh": "OpenAI 的最新收购可能为其 Codex 编码助手带来重大变革  TechRadar",
+      "authors": [
+        "TechRadar"
+      ],
+      "institution": "TechRadar",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f96b91fa8cda",
+      "slug": "gnews-f96b91fa8cda",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMkxXUkpfcldUbVZKVU5oOG96TE5VRjB4d3MyZzlLekR3YlVIVHhOb3l6SkxhSEQ2REpxeXhIT0hoQzdtSTlXaUVHRUNVdkhFZEFmaUZ0VllXNUlNS0NQZldsTlRFbnhtZ0tQN1JpWlJETDVVVk9Dd2luU1BlZkJfaEppSkN5VVRmOGFTOUtwQ1BYaFU?oc=5",
+      "publishedAt": "2026-06-12T16:07:12.000Z",
+      "titleEn": "Bluechip acquires Nigerian AI startup YarnGPT, signals new era for African innovation",
+      "titleZh": "Bluechip 收购尼日利亚 AI 初创公司 YarnGPT，标志着非洲创新的新时代",
+      "abstractEn": "Bluechip acquires Nigerian AI startup YarnGPT, signals new era for African innovation  Business News Nigeria",
+      "abstractZh": "Bluechip 收购尼日利亚 AI 初创公司 YarnGPT，标志着非洲创新的新时代  Business News Nigeria",
+      "authors": [
+        "Business News Nigeria"
+      ],
+      "institution": "Business News Nigeria",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48505773",
+      "slug": "hn-48505773-my-claude-code-setup",
+      "source": "Hacker News",
+      "sourceUrl": "https://illuminatedcomputing.com/posts/2026/06/my-claude-code-setup/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48505773",
+      "publishedAt": "2026-06-12T15:57:53.000Z",
+      "titleEn": "My Claude Code Setup",
+      "titleZh": "我的Claude Code配置",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "pjungwir"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:30ef1c1a9c0c",
+      "slug": "gnews-30ef1c1a9c0c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQmZNM2VRaDJ4eUYtdS1EOVpFUEdqMnYxNW9vRVdVeXFSeUhybFlUdGxsdTNRYW9VbG02a0tlQzBEUkgyVkljcTBiWGNqQUxWREdGQ21MY2hIQlRuZllLSFJ2MTd6UWhPaHlvRklWTHB6cFREX3JwT0FWYW5odmpZaW1sQVptcm1Jd2o3NGI3MG1BZkZJWWhYU1FpSVh2bjVUVFl4R0NlSXYxd1FJ?oc=5",
+      "publishedAt": "2026-06-12T15:56:14.000Z",
+      "titleEn": "Jeff Bezos’s Physical AI Startup Prometheus Raises $12B at $41B Valuation",
+      "titleZh": "杰夫·贝佐斯的实体 AI 初创公司 Prometheus 以 410 亿美元估值融资 120 亿美元",
+      "abstractEn": "Jeff Bezos’s Physical AI Startup Prometheus Raises $12B at $41B Valuation  AI Insider",
+      "abstractZh": "杰夫·贝佐斯的实体 AI 初创公司 Prometheus 以 410 亿美元估值融资 120 亿美元  AI Insider",
+      "authors": [
+        "AI Insider"
+      ],
+      "institution": "AI Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48505628",
+      "slug": "hn-48505628-the-nerdy-escorts-cashing-in-on-silicon-valleys-ai-boom",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.forbes.com/sites/annatong/2026/06/07/the-nerdy-escorts-cashing-in-on-silicon-valleys-ai-boom/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48505628",
+      "publishedAt": "2026-06-12T15:47:26.000Z",
+      "titleEn": "The Nerdy Escorts Cashing in on Silicon Valley's AI Boom",
+      "titleZh": "借硅谷AI热潮牟利的极客陪游服务",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "fortran77"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:5edf93e35946",
+      "slug": "gnews-5edf93e35946",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcmo0UzlfRy1QTGZsMlctM2J5TExCdHdaX0ItNkxWWGZsQVh5RENTZVhkQVZQYVQtaGZaMzVLLUVxc2ZrUVVkaWpFcE5HWkUwcHM1a0YxRTJtd0tiQ29tSmVBeUdybDJ6QmJrZjc1X3gxYjFpa0w1Y1FYVDVsSjdiNHlMQlo1al8zaGZYSG1xWFR1RTllTGJKTUdBZ1YyWG1Ub2JXdGJrS3RlQVE?oc=5",
+      "publishedAt": "2026-06-12T15:27:50.000Z",
+      "titleEn": "Microsoft president responds to students’ distrust for AI",
+      "titleZh": "微软总裁回应学生对 AI 的不信任",
+      "abstractEn": "Microsoft president responds to students’ distrust for AI  Computerworld",
+      "abstractZh": "微软总裁回应学生对 AI 的不信任  Computerworld",
+      "authors": [
+        "Computerworld"
+      ],
+      "institution": "Computerworld",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:a5a1d9afe50c",
+      "slug": "hrorg-randstad-a5a1d9afe50c",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWnFqNFdkM0htSHVZLTlXeFFEWjJWb19oRzI5bG43bkFicmN2eWc4UXlLdmVXTzFKUElnY1FKSktpQUI4Y1laRTJsbnNzRmxyTzMwVGZKOUVfdGtRQVk3YjlrMl9zd1g2cHpkN3FRODdJdThXSXdSNGg5dzV0ZjB4X2VaeFUzU0ctbFAtblMxRk9ncFRSandsMi1YNVNIRDAwRmhlZDBOcUhRWW9oRzJybG40OHNjMlRCSGpxUEVqOVcwSWRGdFhv?oc=5",
+      "publishedAt": "2026-06-12T15:20:04.000Z",
+      "titleEn": "Randstad Talent Connect: AI-powered platform for U.S. employers and job seekers",
+      "titleZh": "Randstad Talent Connect：面向美国雇主和求职者的AI驱动平台",
+      "abstractEn": "Randstad Talent Connect: AI-powered platform for U.S. employers and job seekers  AD HOC NEWS",
+      "abstractZh": "Randstad Talent Connect：面向美国雇主和求职者的AI驱动平台  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hn:48505161",
+      "slug": "hn-48505161-show-hn-script-to-bulk-delete-claude-chats-from-the-web-ui",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "commentUrl": "https://news.ycombinator.com/item?id=48505161",
+      "publishedAt": "2026-06-12T15:08:59.000Z",
+      "titleEn": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "titleZh": "Show HN：从Web UI批量删除Claude聊天的脚本",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ML0037"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 22,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:57fe812094bd",
+      "slug": "gnews-57fe812094bd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT3FuVm5iSHdDcmE1OUFTSkstODVsOGljdjJfVjVIRVdjb2ZqdHFKTEJ3Sy1RR0JOT3VfTmEzZEp5WFU5dEdWZ0N3cmtGbnk5RkJzTEV3RGFkYkdrODYtM0luSDM3NFBzZzZoVlJDREQ0bU91MU9OUjhobDJLajUwNDdTU1g5V0xKb1RjNTZtamdtb0ZLMFVYYkJ4OTAwVGs0cV9qakhuNkpVT1dKY0hYRjZKTnVFUTF4VXN1RF9VUQ?oc=5",
+      "publishedAt": "2026-06-12T14:56:25.000Z",
+      "titleEn": "Former xAI Engineer Sues Elon Musk’s Companies Over AI Safety Whistleblower Dismissal",
+      "titleZh": "前 xAI 工程师因 AI 安全举报被解雇而起诉 Elon Musk 旗下公司",
+      "abstractEn": "Former xAI Engineer Sues Elon Musk’s Companies Over AI Safety Whistleblower Dismissal  AI Insider",
+      "abstractZh": "前 xAI 工程师因 AI 安全举报被解雇而起诉 Elon Musk 旗下公司  AI Insider",
+      "authors": [
+        "AI Insider"
+      ],
+      "institution": "AI Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48504912",
+      "slug": "hn-48504912-slightly-reducing-the-sloppiness-of-ai-generated-front-end",
+      "source": "Hacker News",
+      "sourceUrl": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48504912",
+      "publishedAt": "2026-06-12T14:48:38.000Z",
+      "titleEn": "Slightly reducing the sloppiness of AI generated front end",
+      "titleZh": "略微降低AI生成前端的粗糙度",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "FergusArgyll"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 41,
+      "commentCount": 17,
+      "tags": []
+    },
+    {
+      "id": "hn:48504845",
+      "slug": "hn-48504845-one-day-after-discovery-meta-pulls-facial-recognition-from-its-smart",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48504845",
+      "publishedAt": "2026-06-12T14:44:45.000Z",
+      "titleEn": "One day after discovery, Meta pulls facial recognition from its smart glasses",
+      "titleZh": "发现一天后，Meta从其智能眼镜中撤下面部识别功能",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "greenburger"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:6d970e047fc4",
+      "slug": "gnews-6d970e047fc4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYmNYWlFWN0JnY0sxTFB4MTYxQmgwUWZ5VjhaLXlwMzVwMHhkWjRyUC04N0VPZTkyTU5UWVdlZFlYYlloV0JPZTBISUkwOHRyc1ZPdi1mRkRPWXpJZjZ1ZmMwS0FJLWV0cUxUVXdxbnB5aDN5YnNnTlEwWjRobHRFNnZOcWNQRG8?oc=5",
+      "publishedAt": "2026-06-12T14:18:28.000Z",
+      "titleEn": "Human psychology tricks can bypass AI safety guardrails",
+      "titleZh": "人类心理技巧可绕过 AI 安全护栏",
+      "abstractEn": "Human psychology tricks can bypass AI safety guardrails  PsyPost",
+      "abstractZh": "人类心理技巧可绕过 AI 安全护栏  PsyPost",
+      "authors": [
+        "PsyPost"
+      ],
+      "institution": "PsyPost",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:bca56d779631",
+      "slug": "hrorg-mercer-bca56d779631",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMG85R1h4RUc0U1d3SHVtTFRLRmIzSERhbkhtdVFyNUZDUmcwcG9wOVlDOWNDc2t5UFBZRjVZMXVZTXAxeS1lV1ZHS1lvSlhmWG9VSmFBcU13V2lONE9wR1BkMTFOclFUaGZXME10T1BQbFFHd0FZWjhhQmVpb3R0ZlF5dDNrYnhqMzhjZkV1TW1WV3B5enRtNzJMQjZOQzNyTzVuaHVXZl93Rmlu0gHAAUFVX3lxTE1TNG5acGZDUUd0OV9ucTRpSXVBZmhQMTZVZXNqU21hR1VVU3dJaFdOeGJOQ0ZyQUxfZXFfUWRKY1lNQk9SSDQwT3hEbVVVQWFiR2VsRExqeTRjcUIyamJsWGRRSmpzV3NfU3B6M2FGWG1XQ1R4OHpVMnFNXy1pVnd1Qzd3U29xUklha1p2N2Q0QWRCdDRNVlZKWTM2ZTVydjJ2NlhlMjRpR1pDUGJ1WVlWYVZxRkZIRjlWYXM5TEdkWQ?oc=5",
+      "publishedAt": "2026-06-12T13:26:35.000Z",
+      "titleEn": "Storm damage survey planned for Mercer County by NWS",
+      "titleZh": "美国国家气象局计划对默瑟县进行风暴损害调查",
+      "abstractEn": "Storm damage survey planned for Mercer County by NWS  WHIO TV",
+      "abstractZh": "美国国家气象局计划对默瑟县进行风暴损害调查  WHIO TV",
+      "authors": [
+        "WHIO TV"
+      ],
+      "institution": "WHIO TV",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:53b96404ac96",
+      "slug": "gnews-53b96404ac96",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdV9FZS1CVjdhM3ktQzJwQXg0SXBfdG5DV0Z4cjBnSUZfR2ZUcTlCMWFBSjMxT2p6aW5vb3VmaERkTlYxR0hNSXJWVjZaVEpQZ244ZEE1UWJMdGp3OXVrV21EcUFaZXZlR3J5cVVrQkxhc3EyMDdEM000QXpmazZlaHVTcmF5SDdUZXh4UDlIb1BrME91M3VHX1ZWWXhJSjdjX3pDbXQzbm5vQk83RVJWdA?oc=5",
+      "publishedAt": "2026-06-12T13:14:25.000Z",
+      "titleEn": "Microsoft (MSFT) Partners with IMDA for AI Safety and Security I",
+      "titleZh": "微软（MSFT）与 IMDA 合作推进人工智能安全与保障",
+      "abstractEn": "Microsoft (MSFT) Partners with IMDA for AI Safety and Security I  GuruFocus",
+      "abstractZh": "微软（MSFT）与 IMDA 合作推进人工智能安全与保障  GuruFocus",
+      "authors": [
+        "GuruFocus"
+      ],
+      "institution": "GuruFocus",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-j9yj1yxi4upizhit-html",
+      "slug": "hdc-2026-harmonyos-6-6600",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/j9yj1yXi4UpIZhIT.html",
+      "publishedAt": "2026-06-12T12:56:00.000Z",
+      "titleEn": "HDC 2026：HarmonyOS 6终端设备数突破6600万，鸿蒙生态驶入高速增长快车道",
+      "titleZh": "HDC 2026：HarmonyOS 6终端设备数突破6600万，鸿蒙生态驶入高速增长快车道",
+      "abstractEn": "【中国，东莞，2026年6月12日】在华为开发者大会2026（HDC 2026）上，华为宣布HarmonyOS 7 Developer Beta正式发布，鸿蒙生态在应用创新、能力共建等方面的繁盛图景也集中亮相。目前，搭载HarmonyOS 6的终端设备数量突破6600万台，自去年发布以来，用户满意度提升了20个百分点，注册开发者超1100万，华为应用市场可获取应用与服务超40万款，应用日均下载量已超2亿次，鸿蒙生态已驶入高速增长的快车道。\n\n大会期间，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东强调：“我们一直秉承伙伴和开发者优先原则，不设限、不争利、不停步，持续投入，长期共赢。鸿蒙将坚定打造行业最优的商业模式，助力伙伴全面创新、走向全球。”\n\n \n鸿蒙生态高速增长，能力共建成果丰硕\n历经两年多携手共建，鸿蒙生态实现从“可用”到“好用”“爱用”的跨越，各领域应用创新持续突破。",
+      "abstractZh": "【中国，东莞，2026年6月12日】在华为开发者大会2026（HDC 2026）上，华为宣布HarmonyOS 7 Developer Beta正式发布，鸿蒙生态在应用创新、能力共建等方面的繁盛图景也集中亮相。目前，搭载HarmonyOS 6的终端设备数量突破6600万台，自去年发布以来，用户满意度提升了20个百分点，注册开发者超1100万，华为应用市场可获取应用与服务超40万款，应用日均下载量已超2亿次，鸿蒙生态已驶入高速增长的快车道。\n\n大会期间，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东强调：“我们一直秉承伙伴和开发者优先原则，不设限、不争利、不停步，持续投入，长期共赢。鸿蒙将坚定打造行业最优的商业模式，助力伙伴全面创新、走向全球。”\n\n \n鸿蒙生态高速增长，能力共建成",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:305cfa83558b",
+      "slug": "gnews-305cfa83558b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQWmJwUno4cldMTldyb2NEWHNIQ0V0eFhMTnJiTHN6ZmpmX0pXNXVaclVKNTk3NWhTZlN3UWdEU2JkZEpDUXR1UG1LZ3VUaTF1bk5Lb29HTUFwMTBQNW42OWlfQkNHVllOVDkzSGJkWFEzX212SHdkTTZEbUxNbDV4cmx3OUsxRkRfcGVRWl9hdnFjazQ5c2VxakFneUNIUnFoanJRMERNbkxtN0ZPMXQ2MXNZUjU2cVN2ejV3TWhMSGNySXAyOFJDZjBCSm5CMGVFM2FROGNVQlVQamR5bWxseUswWk40NlcwS2JReGRuNTQtUWhsc1M2UDdFeFZfeWRwU1pHaTgwclM3ZXk0QkJWTmF6RHJzN1QzVVZ1TkM0ZG1TLU5fR2d2bkRrd1BQZUxzNzd4dUxDdTJPYVE0aVM4WkVEUHEya3otRU5sZm5wdw?oc=5",
+      "publishedAt": "2026-06-12T12:33:31.000Z",
+      "titleEn": "Focus Universal (FCUV) Reveals Further Aspects to Proprietary Deterministic AI Technologies - A New Class of Artificial Intelligence Designed for Certainty, Compliance, and Execution",
+      "titleZh": "Focus Universal (FCUV) 揭示其专有确定性 AI 技术的更多方面——一种专为确定性、合规性和执行而设计的新型人工智能",
+      "abstractEn": "Focus Universal (FCUV) Reveals Further Aspects to Proprietary Deterministic AI Technologies - A New Class of Artificial Intelligence Designed for Certainty, Compliance, and Execution  TradingView",
+      "abstractZh": "Focus Universal (FCUV) 揭示其专有确定性 AI 技术的更多方面——一种专为确定性、合规性和执行而设计的新型人工智能  TradingView",
+      "authors": [
+        "TradingView"
+      ],
+      "institution": "TradingView",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:06a8590089c7",
+      "slug": "gnews-06a8590089c7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1FBZmR1Mmw2N0dfWVc4ZDBUOTNMeklRUW5BOWFLajdsWER3bmIzaVhoaEpRTlc0amphNkF4ZTN6NXlubjc2MzJXR2tZRVJtMzg4bmI3NkZMQV9KeWxnOEUyM1hkQ1VEZnpSeWNlckg5WGhWZW9mbGtuN1Y5VDVzd1lHMEpqOFZ6N0hQQU8xNmVrZS15cS1ROGdpRU9nN194QXEzS1RIUVc4U2Nod2VYZTNVVW5jOEI3?oc=5",
+      "publishedAt": "2026-06-12T12:21:24.000Z",
+      "titleEn": "Trump’s AI security order acknowledges risks but stops short of regulating industry",
+      "titleZh": "特朗普的 AI 安全行政令承认风险，但未对行业进行监管",
+      "abstractEn": "Trump’s AI security order acknowledges risks but stops short of regulating industry  The Conversation",
+      "abstractZh": "特朗普的 AI 安全行政令承认风险，但未对行业进行监管  The Conversation",
+      "authors": [
+        "The Conversation"
+      ],
+      "institution": "The Conversation",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c19675aba90c",
+      "slug": "gnews-c19675aba90c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVzF0VnRIaWl6NHhJM1NrNGc0V1JnU0lJd3JmUERHcFIwZm5LT2NaTXU4ckVGSU5mUTZPWTlsZXlSaWhRTnI4MzdQTHlzVGViM0UtV3R4OHBZcDNHNWh5Qk04U1lpa1dIQ2o2WktpTW5Vd2doSEdnMmtMUGFYczRxa1A1V1o3MXM?oc=5",
+      "publishedAt": "2026-06-12T12:06:05.000Z",
+      "titleEn": "‘There’s a huge market demand’: University of Utah approves new bachelor’s degree in artificial intelligence",
+      "titleZh": "市场需求巨大：犹他大学批准设立人工智能新学士学位",
+      "abstractEn": "‘There’s a huge market demand’: University of Utah approves new bachelor’s degree in artificial intelligence  The Salt Lake Tribune",
+      "abstractZh": "市场需求巨大：犹他大学批准设立人工智能新学士学位  《盐湖城论坛报》",
+      "authors": [
+        "The Salt Lake Tribune"
+      ],
+      "institution": "The Salt Lake Tribune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-smarthome-gvhsx45m5wgkjpta-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/smarthome/gVhSX45M5wgkjPTa.html",
+      "publishedAt": "2026-06-12T12:05:00.000Z",
+      "titleEn": "美的泰国灯塔工厂启示录：如何将中国供应链的“根系”植入全球土壤？",
+      "titleZh": "美的泰国灯塔工厂启示录：如何将中国供应链的“根系”植入全球土壤？",
+      "abstractEn": "武汉宏海科技的创始人周宏，至今还记得2019年初到泰国时的情景。\n“选址、买地、报批、招工，每一步都是难关，一张合规文件就能卡上一个月。”这位在中国摸爬滚打多年的制造业老手，第一次感受到什么叫“两眼一抹黑”。他以为出海就是把国内的图纸、设备、产线，照搬过去即可。但现实很快给了他答案：搬得动的是设备，搬不动的是土壤。\n宏海科技的故事不是孤例。过去十年，数以千计的中国制造企业踏上出海之路，试图把产能搬到东南亚、南亚、甚至更远的非洲和东欧。但大多数人的遭遇惊人地相似——供应链断了、品质失控了、员工跑了、合规文件堆成了山。\n热闹的出海潮背后，是一场关于“能力”而非“产能”的隐形战争。\n告别产能外溢时代，为何“能力出海”知易行难？\n如果我们把时间拉回到2015年前后，那一波中国企业出海，关键词很简单：便宜的土地、低廉的劳工、避开关税壁垒。\n这是一种典型的“产能外溢”——国内成本高了，就去找成本更低的",
+      "abstractZh": "武汉宏海科技的创始人周宏，至今还记得2019年初到泰国时的情景。\n“选址、买地、报批、招工，每一步都是难关，一张合规文件就能卡上一个月。”这位在中国摸爬滚打多年的制造业老手，第一次感受到什么叫“两眼一抹黑”。他以为出海就是把国内的图纸、设备、产线，照搬过去即可。但现实很快给了他答案：搬得动的是设备，搬不动的是土壤。\n宏海科技的故事不是孤例。过去十年，数以千计的中国制造企业踏上出海之路，试图把产能搬到东南亚、南亚、甚至更远的非洲和东欧。但大多数人的遭遇惊人地相似——供应链断了、品质失控了、员工跑了、合规文件堆成了山。\n热闹的出海潮背后，是一场关于“能力”而非“产能”的隐形战争。\n告别产能外溢时代，为何“能力出海”知易行难？\n如果我们把时间拉回到2015年前后，那一波中国企业出海，关键词很简单：",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:e22b27357c95",
+      "slug": "gnews-e22b27357c95",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYXlqTTRsRTRwTFhkQ3dNeGtJaTRNYzJWekJwbVJGRmVBeEdSM3dGem9iMkJfaG5vOTA1YmRpWXpITElHbkVTUnNEM0xhWk1VWmNmeGpLalJOZE5aejZQV2ZZeHFfbWFURHNTR2RmQ1N5WS11S1RGMFV0X2ZqbTdGUThnNVFYY2gwazdLN1FLX05MWVpxY012N19NbzlDcHNpT3RTbV9fdFhSRjZIWnVqTEZfa3NDOUJtVkxLMUJlWGFjVUtRTE9mYlQ5MGdvdw?oc=5",
+      "publishedAt": "2026-06-12T11:56:51.000Z",
+      "titleEn": "Profitable Oslo-based AI startup Mimir raises €518.3k pre-Seed to automate e-commerce operations",
+      "titleZh": "盈利的奥斯陆 AI 初创公司 Mimir 获 51.83 万欧元种子轮前融资，用于自动化电商运营",
+      "abstractEn": "Profitable Oslo-based AI startup Mimir raises €518.3k pre-Seed to automate e-commerce operations  EU-Startups",
+      "abstractZh": "盈利的奥斯陆 AI 初创公司 Mimir 获 51.83 万欧元种子轮前融资，用于自动化电商运营  EU-Startups",
+      "authors": [
+        "EU-Startups"
+      ],
+      "institution": "EU-Startups",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-4ryqvst0k4tgaugg-html",
+      "slug": "4",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/4RYQVSt0k4tgaUGg.html",
+      "publishedAt": "2026-06-12T11:44:00.000Z",
+      "titleEn": "米家空调「冷媒动态调节」等4项技术获评「国际领先」",
+      "titleZh": "米家空调「冷媒动态调节」等4项技术获评「国际领先」",
+      "abstractEn": "今年高考季，小米大家电也迎来了一场特殊的“考试”——带着四项核心技术，接受行业权威专家委员会的鉴定。\n近日，中国制冷学会、中国节能协会共同在湖北武汉组织召开小米大家电系列科技成果鉴定会。由小米智能家电（武汉）有限公司主导研发的四项关键技术——制冷剂动态调节与虚拟感知融合、出风形态重构的舒适送风、全温域宽频高能效控制、多智能体强化学习的多联机节能——经专家委员会鉴定，全部达到「国际领先」水平。\n \n至此，小米大家电累计有20项关键技术被认定为「国际领先」水平，并陆续搭载于各款旗舰产品——强劲风 Pro 系列搭载9项、上出风 Pro系列 9项、中央空调系列 6项，为用户带来更舒适、更智能、更节能的使用体验。\n \n强劲风Pro系列｜制冷剂动态调节+全温域宽频高能效控制：极速冷暖，控温精准，全域节能\n很多用户有这样的困扰：盛夏回家，空调迟迟降不下温；夜间睡眠，室温忽冷忽热；每月结算电费，空调堪称“",
+      "abstractZh": "今年高考季，小米大家电也迎来了一场特殊的“考试”——带着四项核心技术，接受行业权威专家委员会的鉴定。\n近日，中国制冷学会、中国节能协会共同在湖北武汉组织召开小米大家电系列科技成果鉴定会。由小米智能家电（武汉）有限公司主导研发的四项关键技术——制冷剂动态调节与虚拟感知融合、出风形态重构的舒适送风、全温域宽频高能效控制、多智能体强化学习的多联机节能——经专家委员会鉴定，全部达到「国际领先」水平。\n \n至此，小米大家电累计有20项关键技术被认定为「国际领先」水平，并陆续搭载于各款旗舰产品——强劲风 Pro 系列搭载9项、上出风 Pro系列 9项、中央空调系列 6项，为用户带来更舒适、更智能、更节能的使用体验。\n \n强劲风Pro系列｜制冷剂动态调节+全温域宽频高能效控制：极速冷暖，控温精准，全域节能",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:af725c19b0e2",
+      "slug": "gnews-af725c19b0e2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaUFBandXZ000ZG5Uc3pRZHVLd3BYMUZrdjBHc0pTOGo5RDc3amxUcmZxZUJFb3RncW9oQ3VFN2l4X1ZaWFNUbmV4QV9iV3JVWk94N3FtTHFsVGVLRmpvU0Y1eUFJQldoMWZsUXlVUml1SHkwQUNKZmtGenJrZlZEM0lXVWdYTzQxZjJZRzQtOXRWU0NaNXdrMldTQjRWRXgxd2RLRzJZdVlzVEUzX2M4WEptdUgtNEROVVlB?oc=5",
+      "publishedAt": "2026-06-12T11:28:07.000Z",
+      "titleEn": "Microsoft blocks Claude Fable 5 for employees, citing fears of sensitive data exposure",
+      "titleZh": "微软因担心敏感数据泄露而禁止员工使用 Claude Fable 5",
+      "abstractEn": "Microsoft blocks Claude Fable 5 for employees, citing fears of sensitive data exposure  Windows Central",
+      "abstractZh": "微软因担心敏感数据泄露而禁止员工使用 Claude Fable 5  Windows Central",
+      "authors": [
+        "Windows Central"
+      ],
+      "institution": "Windows Central",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:889148e628c1",
+      "slug": "gnews-889148e628c1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNlkzR0g1Z2NUdFFpdTYzSk5ublppTHVlMnJqakQzU3Zwbmk3eW1vWXJfN0YzUW0xeVdEa3Z3U2pYUTlOcldNZEZEcmNTWFMxclRvLXBBZUl4eUFJM0ZIREk0anIxZWhuQ2ZhWEpYb0R1V2NzZkh5VEdnRzlWd3RKNnBwMGxwSmhlQVd2YnMza25WbjFmRkE?oc=5",
+      "publishedAt": "2026-06-12T11:10:48.000Z",
+      "titleEn": "LSB study points to gaps in AI regulation",
+      "titleZh": "LSB 研究指出人工智能监管存在空白",
+      "abstractEn": "LSB study points to gaps in AI regulation  The Law Society Gazette",
+      "abstractZh": "LSB 研究指出人工智能监管存在空白  《法律协会公报》",
+      "authors": [
+        "The Law Society Gazette"
+      ],
+      "institution": "The Law Society Gazette",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:43ca2fafad37",
+      "slug": "gnews-43ca2fafad37",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQclN5Y1lqTHpmNFl4UnZYWFBTbGdHNVhDOEhkVE0zT0wwQ1ZKY05CWWdOYnVuaVNLd2U0RTZnSThtRG1PTEI5NHdBZ3JIYlFPc290MU56ODZoVUZjWlU1WW5rQVhhbHlFS3dzMFJiM2VRWUNnNTVaVTVVaEtpN2xhOU1RMG1EekZtVzkwM3dKN0c2dFhPNTFic3JOQjd2UWFKNEdWTldrVGxiTkZOTTR0UENWTTdFNG5D?oc=5",
+      "publishedAt": "2026-06-12T11:03:21.000Z",
+      "titleEn": "Anthropic funding round pushes corporate investments in May to a new high",
+      "titleZh": "Anthropic 融资轮推动五月企业投资创下新高",
+      "abstractEn": "Anthropic funding round pushes corporate investments in May to a new high  Global Venturing",
+      "abstractZh": "Anthropic 融资轮推动五月企业投资创下新高  Global Venturing",
+      "authors": [
+        "Global Venturing"
+      ],
+      "institution": "Global Venturing",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:43aa8172adc0",
+      "slug": "gnews-43aa8172adc0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa2p4akZJUVh3Y0FrYV9DOU1HN2dvdy1nSzlTeWtlVXdUVUFtN2RlbU1tMno1bzF4NmRCWmtVZW00aktfcDdHQjRzRkl1T0ZyRmZwQ1k2Z0xMSm5CMFF1bVRCZEQ4aVROVEtIYXlVTEZiT3lPTm1fQndRQWNZcVlDd1RjVXFJM2pLaVJDWHdXMFFvY3BURDFZSGg0MVVRNWY2R1J2QzctWDllSkFFd1lxVmF4MFE3QTlKTXBn?oc=5",
+      "publishedAt": "2026-06-12T09:42:42.000Z",
+      "titleEn": "Voice AI startup Equal AI raises $30 Mn in Series B to expand consumer voice AI platform",
+      "titleZh": "语音 AI 初创公司 Equal AI 获 3000 万美元 B 轮融资，用于扩展消费者语音 AI 平台",
+      "abstractEn": "Voice AI startup Equal AI raises $30 Mn in Series B to expand consumer voice AI platform  Business Review Live",
+      "abstractZh": "语音 AI 初创公司 Equal AI 获 3000 万美元 B 轮融资，用于扩展消费者语音 AI 平台  Business Review Live",
+      "authors": [
+        "Business Review Live"
+      ],
+      "institution": "Business Review Live",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-q05jaenenmmjieh0-html",
+      "slug": "",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/q05jAEnENMMJiEH0.html",
+      "publishedAt": "2026-06-12T09:17:00.000Z",
+      "titleEn": "万台量产之后，机器人企业比拼什么？",
+      "titleZh": "万台量产之后，机器人企业比拼什么？",
+      "abstractEn": "2026 年，几乎整个行业都把同一个词喊到了最响：量产。\n这一年被普遍视为人形机器人的“量产元年”。头部公司密集公布交付与产能数字——有的宣布整机下线突破千台，有的披露年出货已达数千台，产能目标直指万台、乃至十万台级。融资在加码，产线在铺开，行业的共识清晰可见：具身智能正在告别比拼参数的\"上半场\"，进入拼交付、拼落地的“下半场”。\n但数字的背后，有一个行业普遍回避的追问：这些万台级的量产目标，真的准备好了吗？\n造一台能演示的机器人原型，和稳定地、批量地向真实用户交付成百上千台，是两件完全不同的事。后者对供应链管理、BOM 成本控制、品质一致性、交付周期稳定性、售后响应体系的要求，远超大多数技术团队的经验边界。一台机器人下了产线，不代表它能在用户家里稳定运行三年五年；一条产线开起来，不代表每一台下线的产品品质一致。\n喊出量产数字很容易，真正交付得住、用得久、修得了，才是难的。\n更值得关注的是",
+      "abstractZh": "2026 年，几乎整个行业都把同一个词喊到了最响：量产。\n这一年被普遍视为人形机器人的“量产元年”。头部公司密集公布交付与产能数字——有的宣布整机下线突破千台，有的披露年出货已达数千台，产能目标直指万台、乃至十万台级。融资在加码，产线在铺开，行业的共识清晰可见：具身智能正在告别比拼参数的'上半场'，进入拼交付、拼落地的“下半场”。\n但数字的背后，有一个行业普遍回避的追问：这些万台级的量产目标，真的准备好了吗？\n造一台能演示的机器人原型，和稳定地、批量地向真实用户交付成百上千台，是两件完全不同的事。后者对供应链管理、BOM 成本控制、品质一致性、交付周期稳定性、售后响应体系的要求，远超大多数技术团队的经验边界。一台机器人下了产线，不代表它能在用户家里稳定运行三年五年；一条产线开起来，不代表每一",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:b86e6693fec0",
+      "slug": "gnews-b86e6693fec0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTEs1WFJlNXRJVjdxS1R4TEI4X2kzd1VnWkRndHNRQXFNX0RHRHFYUEFFYTNCRGxIWUdpRjdIQlBtTnZ5YzI5a0pxa1BlV01JUmtmNkh5YUhiV0tVR1l5NlZwV1NLMGNsTEtqbkxyTVVGMUhrc19XMnZxVVNNTTJiU3F3TUV2VTJsLW1ud291UURvSFRpUEpGdGtFLTFIRTdqSUt6NVZ4ODAyTmlxTHNGTmxsdlpIYl9aNGQ5UjZ1ZlZCbGxBdUpZMUNlSTVXRUhYMVFSOFhtRUsySTJSTGZ0QmlmRGFpZGdMeFhKQmtoOA?oc=5",
+      "publishedAt": "2026-06-12T07:16:34.000Z",
+      "titleEn": "General Catalyst, India Quotient invest $1.5 million in kids-focussed AI startup Omli",
+      "titleZh": "General Catalyst 和 India Quotient 向专注儿童的 AI 初创公司 Omli 投资 150 万美元",
+      "abstractEn": "General Catalyst, India Quotient invest $1.5 million in kids-focussed AI startup Omli  Moneycontrol.com",
+      "abstractZh": "General Catalyst 和 India Quotient 向专注儿童的 AI 初创公司 Omli 投资 150 万美元  Moneycontrol.com",
+      "authors": [
+        "Moneycontrol.com"
+      ],
+      "institution": "Moneycontrol.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2e1451657d60",
+      "slug": "gnews-2e1451657d60",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNE5ZamxLSS1LeldWMHJ5M0JPWFJuTktrNk0zQ3VJa0JjbURXczQ4X2puMk5sdWsxUURpNXZOYVRpbGpjclNsYnRjVFdhRTVCemZ5ZGlxSzQ0bHRqWVR2YkQ2dW4xQllSMUZVMWpfZWxoQjJMR0NCaXIwbjlNeXZHN3VFVVhJTXFQdTdBcDZ0ZC03SFZKS1k4V2g4b1pnekc4Q1NYX0FRSGtIYldYdnfSAa4BQVVfeXFMTzROWWpsS0ktS3pXVjByeTNCT1hSbk5LazZNM0N1SWtCY21EV3M0OF9qbjJObHVrMVFEaTV2TmFUaWxqY3JTbGJ0Y1RXYUU1QnpmeWRpcUs0NGx0allUdmJENnVuMUJZUjFGVTFqX2VsaEIyTEdDQmlyMG45TXl2Rzd1RVVYSU1xUHU3QXA2dGQtN0hWSktZOFdoOG9aZ3pHOENTWF9BUUhrSGJXWHZ3?oc=5",
+      "publishedAt": "2026-06-12T06:30:05.000Z",
+      "titleEn": "Equal AI raises $30 Mn Series B round led by Prosus and Tomales Bay Capital",
+      "titleZh": "Equal AI 获 3000 万美元 B 轮融资，由 Prosus 和 Tomales Bay Capital 领投",
+      "abstractEn": "Equal AI raises $30 Mn Series B round led by Prosus and Tomales Bay Capital  Entrackr",
+      "abstractZh": "Equal AI 获 3000 万美元 B 轮融资，由 Prosus 和 Tomales Bay Capital 领投  Entrackr",
+      "authors": [
+        "Entrackr"
+      ],
+      "institution": "Entrackr",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2a7474d955b4",
+      "slug": "gnews-2a7474d955b4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnZmNESzRKRmQxVWQ5VkFiWno3VEY4SUpvTzI5bkVUdWJqeGFiZDJkaHJvTFh6Y09KNGhZaXZ6ZjUyX3pfZ0VOcVZNa2p4cklBVC11RFlFOEJUcnJVd2RuYnY5dE90b0ZhS0ZKNWlKekE1WGs?oc=5",
+      "publishedAt": "2026-06-12T01:54:47.000Z",
+      "titleEn": "Here's what Canada’s AI strategy could mean for students",
+      "titleZh": "加拿大的人工智能战略对学生意味着什么",
+      "abstractEn": "Here's what Canada’s AI strategy could mean for students  The Ubyssey",
+      "abstractZh": "加拿大的人工智能战略对学生意味着什么  《Ubyssey》",
+      "authors": [
+        "The Ubyssey"
+      ],
+      "institution": "The Ubyssey",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:37554f99ba2f",
+      "slug": "gnews-37554f99ba2f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzN3dVWU5FZjgtUFR1V1hXMkZxSms3Y2h3X1Q0VnBxWXNrMGkxTVRLRjU0cmF4b3hHOWV3MnloMWhOX0hacWRSSXBvLTRJd2g5VEJaM2hJVDV4Ri0xWURCTFdwekpYeFRNRnFjQzQ1bWRPeUU4b2dfWQ?oc=5",
+      "publishedAt": "2026-06-11T22:50:11.000Z",
+      "titleEn": "Anthropic’s Fable is the most locked-down public model we’ve ever seen",
+      "titleZh": "Anthropic 的 Fable 是我们见过的最受限制的公开模型",
+      "abstractEn": "Anthropic’s Fable is the most locked-down public model we’ve ever seen  understandingai.org",
+      "abstractZh": "Anthropic 的 Fable 是我们见过的最受限制的公开模型  understandingai.org",
+      "authors": [
+        "understandingai.org"
+      ],
+      "institution": "understandingai.org",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:ae89b879da2a",
+      "slug": "hrorg-recruit-ae89b879da2a",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLWdsc3g4QTkxWU1oZjhIVDdUN2IwVXBzT0Y2Z0syWTJPTW9pT1h0eGN5RWFVUzJGQmhpRzR2TmxraWZoVDVjMTVsLUFIdU1ja0xtMEhLbU5SZndqSGZXYmRvVV9PZm1CRkxDUnN5bVF2UXVRcUtDRDVUV3g3NlBvc2FsMVVjX3FlSmtB?oc=5",
+      "publishedAt": "2026-06-11T20:29:22.000Z",
+      "titleEn": "Canada’s job market sees sharp decline in ‘quick quitting’ as new hires opt to stick around",
+      "titleZh": "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任",
+      "abstractEn": "Canada’s job market sees sharp decline in ‘quick quitting’ as new hires opt to stick around  The Globe and Mail",
+      "abstractZh": "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任  《环球邮报》",
+      "authors": [
+        "The Globe and Mail"
+      ],
+      "institution": "The Globe and Mail",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:ad77092a4da7",
+      "slug": "hrorg-mercer-ad77092a4da7",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRHBxckhGbHpMVG9EUFVoWVpzZ0NDbUYzT1RVYTNUUEwxb0Y4c3paYWJjbFNHLUZhNDlZT1NPQ0ZfU0FFTWZBQVA4MlE4TThFMk43bEl4d2J1OWFZd1ZGYjZXOF9JRzlKYkIxek1maWRiMEd2a2c5b3hDc3RnckdVXzZvM0kzekstZnd1RTgyTlhaWXFSclpFYXdpd2RHdkQ2aFN0OTBub19pc0lHU0dRbmMzemE0U2pOc0pxR2RBN2xydmhUeWxHQVRCMEtvR1lDcWpPa1lPeGNxd3pzUDBQSHF6eEtvWTdnS0E?oc=5",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "titleEn": "Survey finds 99% of CEOs expect AI-driven layoffs by 2028",
+      "titleZh": "调查发现99%的CEO预计到2028年将出现AI驱动的裁员",
+      "abstractEn": "Survey finds 99% of CEOs expect AI-driven layoffs by 2028  MSN",
+      "abstractZh": "调查发现99%的CEO预计到2028年将出现AI驱动的裁员  MSN",
+      "authors": [
+        "MSN"
+      ],
+      "institution": "MSN",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
