@@ -11,7 +11,7 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-12T21:46:21.096Z"
+      "lastSeenAt": "2026-06-12T22:26:32.302Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-12T11:10:14.094Z"
@@ -171,8 +171,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-12T21:49:25.199Z",
-      "note": "Korn Ferry 已静默 9.8 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-12T22:31:00.440Z",
+      "note": "Korn Ferry 已静默 9.9 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -180,7 +180,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-12T21:49:25.199Z",
+      "lastFailedAt": "2026-06-12T22:31:00.440Z",
       "note": "中智咨询 已静默 35.9 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
@@ -200,8 +200,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-12T21:49:25.199Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=9.8 threshold=7",
+      "lastSeenAt": "2026-06-12T22:31:00.440Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=9.9 threshold=7",
       "status": "open"
     },
     {
@@ -210,7 +210,7 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-12T21:49:25.199Z",
+      "lastSeenAt": "2026-06-12T22:31:00.440Z",
       "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=35.9 threshold=7",
       "status": "open"
     },
@@ -294,19 +294,19 @@
       "podcasts": 2
     },
     "2026-06-13": {
-      "aiNews": 53,
+      "aiNews": 57,
       "papers": 2,
       "hrOrgs": 8,
       "podcasts": 0
     }
   },
   "orgSitesZeroStreak": {
-    "mercer": 0,
+    "mercer": 1,
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-12T21:44:53.068Z",
+  "lastFetchConsumedRanAt": "2026-06-12T22:26:26.248Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-12T21:49:25.375Z"
+  "updatedAt": "2026-06-12T22:31:00.613Z"
 }

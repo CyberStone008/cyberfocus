@@ -1,17 +1,11 @@
 {
-  "ranAt": "2026-06-12T21:44:53.068Z",
+  "ranAt": "2026-06-12T22:26:26.248Z",
   "perSource": {
-    "Anthropic Blog": 2,
-    "Hacker News": 6,
-    "Google AI News": 18,
-    "Mercer": 1,
-    "ManpowerGroup": 1,
-    "Randstad": 1,
-    "Adecco Group": 1
+    "Google AI News": 4
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
-    "mercer": 31,
+    "mercer": 0,
     "korn-ferry": 16,
     "fesco-adecco": 10
   },
@@ -25,8 +19,9 @@
     "mercer": {
       "source": "Mercer",
       "mode": "html",
-      "candidates": 31,
-      "added": 0
+      "candidates": 0,
+      "added": 0,
+      "error": "HTTP 403"
     },
     "korn-ferry": {
       "source": "Korn Ferry",

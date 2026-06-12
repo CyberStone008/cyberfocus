@@ -1,11 +1,11 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-12T21:46:21.050Z",
+  "generatedAt": "2026-06-12T22:26:32.267Z",
   "summary": {
     "aiNews": [
-      "卢旺达批准成立国家人工智能机构，成为首个设立专门AI机构的非洲国家。",
-      "Anthropic为州、地方、部落和领地政府启动1500万美元网络防御计划。",
-      "前DOGE员工为AI国家安全初创公司筹集1.3亿美元，聚焦国家安全领域。"
+      "前DOGE员工为AI国家安全初创公司筹集1.3亿美元，聚焦AI安全应用。",
+      "卢旺达批准成立国家AI机构，成为首个设立专门AI机构的非洲国家。",
+      "Anthropic启动1500万美元网络防御计划，面向州、地方、部落和领地政府。"
     ],
     "papers": [],
     "hrOrgs": [
@@ -158,6 +158,28 @@
         "The New York Times"
       ],
       "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fe68d8330cc2",
+      "slug": "gnews-fe68d8330cc2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb1BkUXVRNS1oZG5DeWVnWlRTSlZBNHFuZjV5bmJieVpDRDhBcEVrWC1kMl9mXzZnNk8tX19BUjQwUGtJM2JJWUxaaGJYTG5PNnlVT2plRGM1MFhSWFNJQVRCYXZiQ2FNdldzTnoxMnFpMUVuZ254SHN3bGlyZC1mUzVFX1ZWXzF1SDhMaF9BZVZSOWszbDBOanZLV0thTkFGcnVLWldkSHpqQlBmbVhZUg?oc=5",
+      "publishedAt": "2026-06-12T18:26:10.000Z",
+      "titleEn": "New Brunswick woman sues OpenAI, alleging ChatGPT led to daughter’s death",
+      "titleZh": "新不伦瑞克省女子起诉OpenAI，指控ChatGPT导致其女儿死亡",
+      "abstractEn": "New Brunswick woman sues OpenAI, alleging ChatGPT led to daughter’s death  CityNews Halifax",
+      "abstractZh": "新不伦瑞克省一名女子起诉OpenAI，指控ChatGPT导致其女儿死亡。来源：CityNews Halifax",
+      "authors": [
+        "CityNews Halifax"
+      ],
+      "institution": "CityNews Halifax",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -719,6 +741,28 @@
       "tags": []
     },
     {
+      "id": "gnews:1d5f813cace7",
+      "slug": "gnews-1d5f813cace7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUXl6OXhIREp4eXFtTkNRTFc3YnpleklVSEdlU3F4aG43a1NsLXpweUk5VXBwVkI5OG5WYi1MMGt5al8wUXhCdWNDaXdUc19heUlzQVkxNFlZN3ZNMmVzRnNEM1QzNHFKNnZMV0xIQW1zWklUbmpuVldCckMwMnREOWhEOUhqbEd0WU16clhtWXZ6U2hfS1FTZ1pWWTlTYkVVcm1TWFhsRHJvWjUwT1NSeHR6cDVGY2pfeGREd29UV3ZNY2hWY3JRS3V1N1RlOWl4eXJ6Vkc0c3pleVlsXzFoVVJUQlBKa05x?oc=5",
+      "publishedAt": "2026-06-12T14:56:27.000Z",
+      "titleEn": "Canada's move to rein in AI chatbots, spurred by school shooting, faces doubts over loopholes",
+      "titleZh": "加拿大因校园枪击事件推动限制AI聊天机器人，但漏洞问题引发质疑",
+      "abstractEn": "Canada's move to rein in AI chatbots, spurred by school shooting, faces doubts over loopholes  Indiatimes",
+      "abstractZh": "加拿大因校园枪击事件推动限制AI聊天机器人，但漏洞问题引发质疑。来源：Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:57fe812094bd",
       "slug": "gnews-57fe812094bd",
       "source": "Google AI News",
@@ -1152,6 +1196,28 @@
       ]
     },
     {
+      "id": "gnews:8cc43e97b1ed",
+      "slug": "gnews-8cc43e97b1ed",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uWG9PSkxVOFphZ25QMWNabERFVnk2Z0ZoRDFlbnZjNWItOXpaR2c0RHI5NnB3cWdKSFNjNmdrQTcyQms5SzlqSlhxUHVCQ2lPSjdpd0pNZi0tUnZXbmIxZXlrNFIzYlFCNUJFb1hNdDVmMV9hWEloNVlB0gF6QVVfeXFMT25Yb09KTFU4WmFnblAxY1psREVWeTZnRmhEMWVudmM1Yi05elpHZzREcjk2cHdxZ0pIU2M2Z2tBNzJCazlLOWpKWHFQdUJDaU9KN2l3Sk1mLS1SdlduYjFleWs0UjNiUUI1QkVvWE10NWYxX2FYSWg1WUE?oc=5",
+      "publishedAt": "2026-06-12T11:00:36.000Z",
+      "titleEn": "WAIB Summit Monaco 2026: Regulation, Stablecoins, AI Cinema",
+      "titleZh": "WAIB摩纳哥2026峰会：监管、稳定币与AI电影",
+      "abstractEn": "WAIB Summit Monaco 2026: Regulation, Stablecoins, AI Cinema  Irish Tech News",
+      "abstractZh": "WAIB摩纳哥2026峰会：监管、稳定币与AI电影。来源：Irish Tech News",
+      "authors": [
+        "Irish Tech News"
+      ],
+      "institution": "Irish Tech News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:ae29594cfbc1",
       "slug": "gnews-ae29594cfbc1",
       "source": "Google AI News",
@@ -1295,6 +1361,28 @@
         "The Ubyssey"
       ],
       "institution": "The Ubyssey",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:57555999595b",
+      "slug": "gnews-57555999595b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2V6TmNmNndIbnY3S1p6Y0VPcGNscm00dlQzb1RuRjVWLUFkTXV2ajVxc05NMHlxU0wwSkV3cVZTbnlSMm9nb0lZbWllb3h4ck4tRzVlckVLNGNPZXprUU45MVlDSFNTaTV5eWJrekRFcUZUU0FnSUhjRHprd2RlUUpqZlprUnN1aFFySU9nX1RVeTk0bXIyOEpfa3gzeHVldmJmdkZTdjctNkdCNWltSWhWUC1pZw?oc=5",
+      "publishedAt": "2026-06-12T01:09:36.000Z",
+      "titleEn": "Medical AI startup Evom AI raises seed bridge funding to advance heart disease-focused AI",
+      "titleZh": "医疗AI初创公司Evom AI获得种子轮过渡融资，推动专注于心脏病的AI技术",
+      "abstractEn": "Medical AI startup Evom AI raises seed bridge funding to advance heart disease-focused AI  디지털투데이",
+      "abstractZh": "医疗AI初创公司Evom AI获得种子轮过渡融资，以推动专注于心脏病的AI技术。来源：디지털투데이",
+      "authors": [
+        "디지털투데이"
+      ],
+      "institution": "디지털투데이",
       "docType": "Blog",
       "category": "social",
       "score": 0,
