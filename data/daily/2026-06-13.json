@@ -1,20 +1,149 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-13T10:08:53.946Z",
+  "generatedAt": "2026-06-13T12:04:07.282Z",
   "summary": {
     "aiNews": [
-      "Mistral AI 寻求以200亿欧元估值融资30亿欧元，加速全球AI竞赛。",
-      "美国以安全风险为由，禁止外国人访问Anthropic最新AI模型Fable和Mythos。",
-      "2026智源大会开幕，推动AI、物理世界和生命科学“三体互动”。"
+      "Anthropic遵循美国命令暂停最新AI模型Fable访问，因其过于强大，美政府禁止全球使用。",
+      "Mistral AI寻求30亿欧元融资，估值达200亿欧元，加速全球AI竞赛布局。",
+      "OpenAI面临多州调查，涉及AI安全与消费者保护，法律与监管风暴来袭。"
     ],
     "papers": [],
     "hrOrgs": [
-      "调查显示：第三季度金融服务业招聘前景最为强劲，ManpowerGroup报告。",
-      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员，Mercer报告。",
-      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，Recruit Holdings数据。"
+      "调查显示99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临变革。",
+      "ManpowerGroup调查：第三季度金融服务业招聘前景最为强劲，劳动力市场乐观。",
+      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，稳定性提升。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48515733",
+      "slug": "hn-48515733-kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/5255029",
+      "commentUrl": "https://news.ycombinator.com/item?id=48515733",
+      "publishedAt": "2026-06-13T10:32:38.000Z",
+      "titleEn": "KPMG's AI report turns into a demo of AI hallucinations",
+      "titleZh": "毕马威AI报告沦为AI幻觉的现场演示",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "dijksterhuis"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 4,
+      "tags": []
+    },
+    {
+      "id": "gnews:8c9ca45d628c",
+      "slug": "gnews-8c9ca45d628c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVm5LN2djaW00d1dSc0xjMmU2WFhLYkh5dm1paXBjTDVnOWFnVjdZTnpBeVVva3NlNjM0UUpWN0hYeFpZOUVrWU5PZV9PVXdGR29BWXAwLVhVYW1PaXUtc1BmRU1XSnZuMmJfTnI2dXhnT1V0cXFBQ1JoM1BZU0V2Sm9tZXNYeEluVWpn?oc=5",
+      "publishedAt": "2026-06-13T10:30:26.000Z",
+      "titleEn": "The Best AI ETF To Invest $1,000 In Today",
+      "titleZh": "今日投资1000美元的最佳AI ETF",
+      "abstractEn": "The Best AI ETF To Invest $1,000 In Today  24/7 Wall St.",
+      "abstractZh": "今日投资1000美元的最佳AI ETF  24/7 Wall St.",
+      "authors": [
+        "24/7 Wall St."
+      ],
+      "institution": "24/7 Wall St.",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d43b5e9f9f52",
+      "slug": "gnews-d43b5e9f9f52",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLW0yaFkwdWtHVjg4U3dsUlZuV29QY2dwbngyWmVUMGlMbFZkWTZqLWJVdlE1VjVzNkhUM2swdnVHb2VLSXQtXy1zdXVvRWlfYm1XNE4tN2dFYW9kZks2YUw3bTNaLXoyTkRrTTJOdWhmY016NjB5alUyNTFaQ0hrSHotYmRLTjdKR3A2Tnp1TGQ0dmFQYlhiXzhKbkpiUQ?oc=5",
+      "publishedAt": "2026-06-13T10:12:15.000Z",
+      "titleEn": "Anthropic suspends access to latest AI models following US order",
+      "titleZh": "Anthropic 遵循美国命令暂停最新AI模型访问权限",
+      "abstractEn": "Anthropic suspends access to latest AI models following US order  politico.eu",
+      "abstractZh": "Anthropic 遵循美国命令暂停最新AI模型访问权限  politico.eu",
+      "authors": [
+        "politico.eu"
+      ],
+      "institution": "politico.eu",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7a5dfbd44ec1",
+      "slug": "gnews-7a5dfbd44ec1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWWVnN0FCeWUwZThwV2pob3RhOWZscXhGNUdGRzRDT21EQkhiNDNvZkVCc01rNWRsM0FyX09PcnRtN3ZLbjU1WVNObUs5RUs3bmw4dXQ5Ukw0eXB0cHVndGQxRU9XT2RiS1puWF9kbUpzNnBZRElST2ZZUWZHN0JidVhGVldlWVVNZ254OVJpZ1ZiMWPSAZMBQVVfeXFMTU5fdTdMSWEwWml1TGRXTzdxOXdDVGpsTnV2VE9fdXNpM3VEVnI4MjlqWDNobmphcTFRQUkxdlFxOVpsLUpJTDZQbkotVjhnUjNnZnRZMFplWHVhN0tQT3FUc0Fmem1oZm4zWUY3ZG5kUXVpQm0yUW5tLWtvU1huRmp2eTZkQzkwdjZVcDFKS2hIS3A4?oc=5",
+      "publishedAt": "2026-06-13T09:45:00.000Z",
+      "titleEn": "Anthropic cuts top-tier AI access after US foreigner ban",
+      "titleZh": "美国禁止外国人使用后，Anthropic 削减顶级AI访问权限",
+      "abstractEn": "Anthropic cuts top-tier AI access after US foreigner ban  dw.com",
+      "abstractZh": "美国禁止外国人使用后，Anthropic 削减顶级AI访问权限  dw.com",
+      "authors": [
+        "dw.com"
+      ],
+      "institution": "dw.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48515385",
+      "slug": "hn-48515385-show-hn-paca-lightweight-jira-alternative-for-human-ai-collaboration",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Paca-AI/paca",
+      "commentUrl": "https://news.ycombinator.com/item?id=48515385",
+      "publishedAt": "2026-06-13T09:44:25.000Z",
+      "titleEn": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+      "titleZh": "Show HN：Paca——面向人机协作的轻量级Jira替代方案",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "pikann22"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 33,
+      "commentCount": 12,
+      "tags": []
+    },
+    {
+      "id": "hn:48515349",
+      "slug": "hn-48515349-what-would-it-look-like-if-the-ai-bubble-popped",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.thebignewsletter.com/p/what-would-it-look-like-if-the-ai",
+      "commentUrl": "https://news.ycombinator.com/item?id=48515349",
+      "publishedAt": "2026-06-13T09:40:13.000Z",
+      "titleEn": "What Would It Look Like If the AI Bubble Popped?",
+      "titleZh": "如果AI泡沫破裂，世界会是什么样子？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "pimeys"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 10,
+      "commentCount": 6,
+      "tags": []
+    },
     {
       "id": "gnews:44bc18da0568",
       "slug": "gnews-44bc18da0568",
@@ -56,6 +185,28 @@
       "score": 0,
       "commentCount": 0,
       "tags": []
+    },
+    {
+      "id": "gnews:9316ede105c3",
+      "slug": "gnews-9316ede105c3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRGRQa1BmZWN3QThmMzB3Z0psNHVtaWI5MXQ0NFZMRi12ZEFxRElkcFJ3bUtjWUhDNFhNZ1FUMEJOMkdrVHc2SFM1SmRnZWNCYnd3eTl2SFlKR3J4bUlYc1FObHdRR2Myb29PUWlSRlVhV1NIWHVWdWJmUDBTR2ZmYnMtUERxeEJqelBobXpMS2ZINFRSYmk3ODRaNmdpSkxJNXN0bG5yd25iSTZ1N3ZTRUZKZjY2SFhua1Y2Uk8tMFhXS0ZxdUEyelJOS3lGSW5kalozWXVISQ?oc=5",
+      "publishedAt": "2026-06-13T07:35:06.000Z",
+      "titleEn": "Anthropic's latest AI model 'Fable' was so powerful the US government banned the world from it",
+      "titleZh": "Anthropic 最新AI模型《Fable》过于强大，美国政府禁止全球使用",
+      "abstractEn": "Anthropic's latest AI model 'Fable' was so powerful the US government banned the world from it  TweakTown",
+      "abstractZh": "Anthropic 最新AI模型《Fable》过于强大，美国政府禁止全球使用  TweakTown",
+      "authors": [
+        "TweakTown"
+      ],
+      "institution": "TweakTown",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "hrorg:manpower:26ef68c2f107",
@@ -332,6 +483,28 @@
         "South China Morning Post"
       ],
       "institution": "South China Morning Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5d74416f480f",
+      "slug": "gnews-5d74416f480f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVTZaMEVPXzdZczdjYm92RU9RR2Y0WmpvNXd3RGk3ZnV2bXJyaU9JRlJteFRnQjlrcVp2dDV5TkpXVXF0dWhKQ0ttVjlESWU4N0l5UXNfeVpUZWd1ZmY1REQ5emNCVGZOVFZvZG4waG1WTUhlOVVRYW4taWxVWTF1QU5QVnJnX280aDhmWC05N1Utc3g1OTZHUUJFbVdMN2tINTVDQ2oyNE8?oc=5",
+      "publishedAt": "2026-06-13T04:34:00.000Z",
+      "titleEn": "Anthropic Halts Access to Top AI Models After U.S. Ban on Foreign Use",
+      "titleZh": "美国禁止外国人使用后，Anthropic 暂停顶级AI模型访问",
+      "abstractEn": "Anthropic Halts Access to Top AI Models After U.S. Ban on Foreign Use  WSJ",
+      "abstractZh": "美国禁止外国人使用后，Anthropic 暂停顶级AI模型访问  WSJ",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -801,6 +974,28 @@
       "tags": []
     },
     {
+      "id": "gnews:fca08799178e",
+      "slug": "gnews-fca08799178e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaHJNZWRFb1ZBMDJYVDVKb3NzMkNoUEJkalM3aWQwdjhFaEl2aHBzRjhCeGZOaG56NWJ1VUwwRFdKSUx3cUpjY1Qya3Y3cGc3ZHRBN3NwaHRWTzFNc1RYaGZ0UzdneWYzMlNqS18wOGRhTHJkb3ZPR2pqX2FKei1ZT01MbVFpQlpGVXM2bU9GSjN1QUpmVGZ30gGcAUFVX3lxTE1EYkczQTF0em9RWHdvVnhRaVFyUFdSOTdjTkxEcG96STZOWFRWQlpKdkJSUFZjdFJmR2k3QlFNV3p1OEZ2elFtdnp6TjVBYldsV3NYWGtVcUZROWp6N0cySGNGSEVYd2lHN180eGE2NjA3MmYyVHVpdURxSVBDbE5Dc04zTlEzcEdfLXBhaWNjR0ZYa2dpalhSOHhtZQ?oc=5",
+      "publishedAt": "2026-06-13T00:27:00.000Z",
+      "titleEn": "OpenAI says it's engaging 'constructively' with state AGs about concerns",
+      "titleZh": "OpenAI 表示正与各州总检察长就相关问题进行建设性沟通",
+      "abstractEn": "OpenAI says it's engaging 'constructively' with state AGs about concerns  CNBC",
+      "abstractZh": "OpenAI 表示正与各州总检察长就相关问题进行建设性沟通  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "雷锋网:https-www-leiphone-com-category-academic-prkjukqsdv4q1le5-html",
       "slug": "2026",
       "source": "雷锋网",
@@ -885,6 +1080,28 @@
       "tags": [
         "人服动态",
         "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:b2cf57c13c81",
+      "slug": "gnews-b2cf57c13c81",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0VNSkhmX3pnRzR1NWdCaW1iS3lCQ0dOdDREb3BSV2pNV2tTUVRBbGdMcjVtcW96Nm9rN1lkdkhQQmo1ZEgtU042TklUUUI1STFxS1F1LWE5RHVjdFJyRlRZcmU1eVl0UGxGWjJyX2dkNDlaWFlTYW50TEl5dWt0ZTA5YnozZlZva2JPOXcwREtXeU9RbE1JMUM5TEdDYWpSVlBLdTd6UVEwZ1p0X0FFS1k3eWdwRnpIRGM5UA?oc=5",
+      "publishedAt": "2026-06-12T23:30:00.000Z",
+      "titleEn": "OpenAI under investigation by group of state attorneys general, source says",
+      "titleZh": "消息人士称，OpenAI 正遭多州总检察长联合调查",
+      "abstractEn": "OpenAI under investigation by group of state attorneys general, source says  Reuters",
+      "abstractZh": "消息人士称，OpenAI 正遭多州总检察长联合调查  Reuters",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
       ]
     },
     {
