@@ -11,7 +11,7 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-13T21:16:49.487Z"
+      "lastSeenAt": "2026-06-13T22:06:15.137Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-13T10:08:53.989Z"
@@ -171,7 +171,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-13T21:21:35.807Z",
+      "lastFailedAt": "2026-06-13T22:10:25.168Z",
       "note": "Korn Ferry 已静默 10.8 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
@@ -180,7 +180,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-13T21:21:35.807Z",
+      "lastFailedAt": "2026-06-13T22:10:25.168Z",
       "note": "中智咨询 已静默 36.9 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
@@ -200,7 +200,7 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-13T21:21:35.807Z",
+      "lastSeenAt": "2026-06-13T22:10:25.168Z",
       "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=10.8 threshold=7",
       "status": "open"
     },
@@ -210,7 +210,7 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-13T21:21:35.807Z",
+      "lastSeenAt": "2026-06-13T22:10:25.168Z",
       "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=36.9 threshold=7",
       "status": "open"
     },
@@ -300,7 +300,7 @@
       "podcasts": 0
     },
     "2026-06-14": {
-      "aiNews": 20,
+      "aiNews": 27,
       "papers": 0,
       "hrOrgs": 1,
       "podcasts": 0
@@ -311,8 +311,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-13T21:16:35.614Z",
+  "lastFetchConsumedRanAt": "2026-06-13T22:06:08.763Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-13T21:21:35.982Z"
+  "updatedAt": "2026-06-13T22:10:25.327Z"
 }

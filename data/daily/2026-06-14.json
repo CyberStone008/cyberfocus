@@ -1,18 +1,40 @@
 {
   "date": "2026-06-14",
-  "generatedAt": "2026-06-13T21:16:49.452Z",
+  "generatedAt": "2026-06-13T22:06:15.106Z",
   "summary": {
     "aiNews": [
-      "Anthropic 因美国禁令撤回最先进AI模型，涉及安全担忧与出口限制。",
-      "MENA地区初创公司5月融资增长202%，达4.547亿美元，显示AI投资热度。",
-      "警察因在多起案件中使用AI‘制造证据’被调查，引发伦理争议。"
+      "Anthropic 的 Fable 模型因安全担忧被美国政府暂停，引发 AI 监管新争议。",
+      "亚马逊 CEO 与白宫会谈后，Anthropic 撤回 Fable 和 Mythos 模型，出口限制生效。",
+      "MENA 地区 AI 初创公司 5 月融资增长 202%，达 4.547 亿美元，显示行业热度。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Mercer调查显示：AI被视为合作伙伴而非决策者，强调人机协作。"
+      "Mercer 调查显示：AI 被视为合作伙伴而非决策者，强调人机协作角色。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:bd99b00b4795",
+      "slug": "gnews-bd99b00b4795",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdk1uSWlJRlc4SDNPRmF1OVkzSFd0MTZmejVmRHBRZzkxdkM1bFl4QWx5NUI3TnN3NE5rcEZ3c293MnFBWGlROGtqZ2dkZFgzQVVNQlEyYkxBaGFCUHNNemlITTU2SzYtM3MyQVhvTW5mQjBKeGJXT05aR3VVVENRb215UXlXT19DYUxJVWpUSG1OcGt6Z3otS2c4aW0yV0NVOEpsQUlmUlQ5aDg?oc=5",
+      "publishedAt": "2026-06-13T21:12:26.000Z",
+      "titleEn": "Anthropic's Fable Lockdown Raises New Questions About AI Regulation",
+      "titleZh": "Anthropic 的 Fable 模型封锁引发关于 AI 监管的新问题",
+      "abstractEn": "Anthropic's Fable Lockdown Raises New Questions About AI Regulation  Forbes",
+      "abstractZh": "Anthropic 的 Fable 模型封锁引发关于 AI 监管的新问题 ——《福布斯》",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48521279",
       "slug": "hn-48521279-llms-arent-conscious-and-thinking-they-are-is-culturally-dangerous",
@@ -35,6 +57,28 @@
       "tags": []
     },
     {
+      "id": "gnews:e292316a92a1",
+      "slug": "gnews-e292316a92a1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0NVaXFnLWlNX1lTRGJEMTBCcnVhbFJrOUVYN29GNzhQaXU1RS1FY0tsZWUyOXFlaGFxdWQyVFU3ZHlSLXVpakVmMERUQmZwVHdGRXdSdXRZemFIYzFFQ1hQdTZyTk9VSjQtNVlnNHE0TDNaRG1FanB1b3VtLWt3TGpWZTRPbU9zUVFQYlBOWGNJU2Q5YUp0MThkMXZqR1FUSVB6TUg4M0cyVTd5QjJkbzdQTQ?oc=5",
+      "publishedAt": "2026-06-13T20:25:00.000Z",
+      "titleEn": "Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models",
+      "titleZh": "亚马逊 CEO 与美国官员的会谈引发对 Anthropic 模型的打压",
+      "abstractEn": "Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models  WSJ",
+      "abstractZh": "亚马逊 CEO 与美国官员的会谈引发对 Anthropic 模型的打压 ——《华尔街日报》",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:dee5aeb466c4",
       "slug": "gnews-dee5aeb466c4",
       "source": "Google AI News",
@@ -48,6 +92,28 @@
         "Arab News PK"
       ],
       "institution": "Arab News PK",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c729bee97e8a",
+      "slug": "gnews-c729bee97e8a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Ral9kZkV6VDBnTWQ1X1ZWdlVWRlJrazdORXFxLVJYU1NGVXJQNUFMZ1pCNXRTeUxORGVXWEliX0NEZ3hXT2dFLXdmRGlzYkstbEk1ZlR1VG83bXVNbDVPZEZlX2Qtb3ZpSFBFVlB3?oc=5",
+      "publishedAt": "2026-06-13T20:03:07.000Z",
+      "titleEn": "How Amazon and the White House ended Anthropic's Fable",
+      "titleZh": "亚马逊与白宫如何终结了 Anthropic 的 Fable 模型",
+      "abstractEn": "How Amazon and the White House ended Anthropic's Fable  Axios",
+      "abstractZh": "亚马逊与白宫如何终结了 Anthropic 的 Fable 模型 ——《Axios》",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -100,6 +166,28 @@
       "tags": []
     },
     {
+      "id": "gnews:899fb4112159",
+      "slug": "gnews-899fb4112159",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa3VaeFZPNnRXZmUwdnFndU9oU2xHNGhpMUhSWUNNRHUybm5HM2ItX3pkNGh5aEMtR3dlNmc0c2ZaY3FaLThrNTFRTlhXbGd1ajFVYTFhMjNZM010UUUwS1p6cDc5dFlZSU5PYmNIS3pJem5nN2hjeGtxaVVSR2ZhcWM5dHBmMkNNVFZHbFF4S3gyVFZ3NVBHdWxuSlFUb2lUSlJyQ1gzN1U0eWJmSUt5cGFnamJkc0x4TUtyaHhRVTZlNmRpei1yQ25mY2ZtWmNzS2c?oc=5",
+      "publishedAt": "2026-06-13T19:53:37.000Z",
+      "titleEn": "Anthropic Pulls Fable, Mythos After Government Issues Emergency Export Control Order",
+      "titleZh": "Anthropic 在政府发布紧急出口管制令后撤回 Fable 和 Mythos 模型",
+      "abstractEn": "Anthropic Pulls Fable, Mythos After Government Issues Emergency Export Control Order  Forbes",
+      "abstractZh": "Anthropic 在政府发布紧急出口管制令后撤回 Fable 和 Mythos 模型 ——《福布斯》",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:fe58e56e7d6b",
       "slug": "gnews-fe58e56e7d6b",
       "source": "Google AI News",
@@ -135,6 +223,28 @@
         "Reuters"
       ],
       "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:30f305f2755c",
+      "slug": "gnews-30f305f2755c",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0ZTZER6Z09tTUc5UEpOMnA4U3NTWGFSVFZWcF90N3d2LWlyb1lkUW15RTVlNUlZWjRLTnZ5bG1vMkFCbnZ3VDI4RVpEcHVGRWxfbVFPSFlwRWRQYkU4dHVqZFNOOUE2VVdZQkxpdy1LSHZjLVdfYjVtNjhRNzNkSUVCSE1qQW8?oc=5",
+      "publishedAt": "2026-06-13T18:32:18.000Z",
+      "titleEn": "Anthropic disables new models after government calls them a national security concern",
+      "titleZh": "Anthropic 在政府将新模型列为国家安全关切后将其禁用",
+      "abstractEn": "Anthropic disables new models after government calls them a national security concern  CyberScoop",
+      "abstractZh": "Anthropic 在政府将新模型列为国家安全关切后将其禁用 ——《CyberScoop》",
+      "authors": [
+        "CyberScoop"
+      ],
+      "institution": "CyberScoop",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -185,6 +295,28 @@
       "score": 12,
       "commentCount": 16,
       "tags": []
+    },
+    {
+      "id": "gnews:bc9b046fc3f3",
+      "slug": "gnews-bc9b046fc3f3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWU5oOWFSQ05WaTFiR1B6bkwwNElJcUp6UWdJUFFJRkFPbnFscmZOUV9NU3pUaGktTFVScFJ5QTZOV1FGWGtydXAzV2VRVjFMd1NJMmg2UnlFZlNSM21hWGktOTM0dlJKc2dBTWRGZmJ5eWZ2T21ROURhOHdJbjlKcUhjVFBjdGM1eVpWQ1ltRWF1bTFNVkJILXIzVjBKUQ?oc=5",
+      "publishedAt": "2026-06-13T18:00:00.000Z",
+      "titleEn": "Anthropic suspends latest AI models after historic Trump administration order - Straight Arrow News - SAN",
+      "titleZh": "Anthropic 在特朗普政府历史性行政令后暂停最新 AI 模型",
+      "abstractEn": "Anthropic suspends latest AI models after historic Trump administration order  Straight Arrow News - SAN - Unbiased. Straight Facts.",
+      "abstractZh": "Anthropic 在特朗普政府历史性行政令后暂停最新 AI 模型 ——《Straight Arrow News》- 无偏见，直击事实。",
+      "authors": [
+        "Unbiased. Straight Facts."
+      ],
+      "institution": "Unbiased. Straight Facts.",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:9500bed0d25f",
@@ -372,6 +504,28 @@
         "TTYBrand Africa"
       ],
       "institution": "TTYBrand Africa",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e739f7c2f54d",
+      "slug": "gnews-e739f7c2f54d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdnFxYW1wWjh4UHdmT01SLS1zMVVnaFZtTTdaaUFCZ2hxRjZhSFA5ajRwZE12bGM5MlBlOGkxYjlVX3FidldWMk1xNGlGNktCYlF0OG93dHRlOWI0UjVlSDJmdlJTa1hJYUx6Y2NpT1VEb29OSFRYUHdnamlWWm9JREc3bnFzLTUzZk1UbkxlamtVSWJlTGRvM29Mc2t1Q0RtcE9QbWhhUEU?oc=5",
+      "publishedAt": "2026-06-13T15:15:13.000Z",
+      "titleEn": "The Moral Of Anthropic’s Fable: Model Access Is Power",
+      "titleZh": "Anthropic 的 Fable 模型启示：模型访问权即权力",
+      "abstractEn": "The Moral Of Anthropic’s Fable: Model Access Is Power  Forbes",
+      "abstractZh": "Anthropic 的 Fable 模型启示：模型访问权即权力 ——《福布斯》",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
       "docType": "Blog",
       "category": "social",
       "score": 0,
