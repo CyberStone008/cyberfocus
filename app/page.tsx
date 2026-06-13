@@ -18,8 +18,8 @@ export default function LandingPage() {
   });
   const [count, setCount] = useState(2); // auto-enter countdown
 
-  /* Prefetch the entry page so the jump is instant. */
-  useEffect(() => { router.prefetch('/reports'); }, [router]);
+  /* Prefetch the entry page so the jump is instant. 默认入口 = AI 精选热点(/social)。 */
+  useEffect(() => { router.prefetch('/social'); }, [router]);
 
   /* Auto-enter: show the landing ~2s with a visible countdown, then fade out and
      navigate. Tapping anywhere (enterApp) still enters immediately. */
@@ -32,7 +32,7 @@ export default function LandingPage() {
   /* Navigate after fade-out completes */
   useEffect(() => {
     if (fading) {
-      const id = setTimeout(() => router.push('/reports'), 700);
+      const id = setTimeout(() => router.push('/social'), 700);
       return () => clearTimeout(id);
     }
   }, [fading, router]);
