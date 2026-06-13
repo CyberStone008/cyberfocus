@@ -1,20 +1,237 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-13T12:04:07.282Z",
+  "generatedAt": "2026-06-13T15:09:11.506Z",
   "summary": {
     "aiNews": [
-      "Anthropic遵循美国命令暂停最新AI模型Fable访问，因其过于强大，美政府禁止全球使用。",
-      "Mistral AI寻求30亿欧元融资，估值达200亿欧元，加速全球AI竞赛布局。",
-      "OpenAI面临多州调查，涉及AI安全与消费者保护，法律与监管风暴来袭。"
+      "Anthropic应美国政府要求，暂停最新AI模型Fable 5和Mythos 5的全球访问，引发欧洲反应。",
+      "Claude Fable 5对比GPT-5.5：规划更优，执行相当，引发行业关注。",
+      "美国禁止Anthropic向外国出口最先进AI系统，凸显AI安全与地缘政治风险。"
     ],
     "papers": [],
     "hrOrgs": [
-      "调查显示99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临变革。",
-      "ManpowerGroup调查：第三季度金融服务业招聘前景最为强劲，劳动力市场乐观。",
-      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，稳定性提升。"
+      "调查显示：第三季度金融服务业招聘前景最为强劲，ManpowerGroup报告。",
+      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员，Mercer报告。",
+      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，Recruit Holdings数据。"
     ]
   },
   "articles": [
+    {
+      "id": "hn:48517973",
+      "slug": "hn-48517973-claude-fable-5-vs-gpt-5-5-better-planning-similar-execution",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+      "commentUrl": "https://news.ycombinator.com/item?id=48517973",
+      "publishedAt": "2026-06-13T14:59:59.000Z",
+      "titleEn": "Claude Fable 5 vs. GPT-5.5: Better Planning, Similar Execution",
+      "titleZh": "Claude Fable 5 对比 GPT-5.5：规划更优，执行相当",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "justiceforsaas"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:e13b7c3d4cce",
+      "slug": "gnews-e13b7c3d4cce",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEhvdDROR0kyT2JPS1EyMFJCQ0lFLVA2UDk4S0x3RjBrNEY2UkgxeXQ4Sk5lblo3X0duMk9YMEo5TTF4S3R0ZVp3b0VwTUNpdUhxQjg0M05JaFVyUHBuOHZJdW93RXJiNi0xMGpMbTNKMW15cVNKR0xkWnRlMFNFM096ZG5LQ1U?oc=5",
+      "publishedAt": "2026-06-13T14:43:08.000Z",
+      "titleEn": "Anthropic suspends all access to Mythos model after US government bans foreign nationals use",
+      "titleZh": "美国政府禁止外国人使用后，Anthropic 暂停对 Mythos 模型的所有访问",
+      "abstractEn": "Anthropic suspends all access to Mythos model after US government bans foreign nationals use  CNN",
+      "abstractZh": "美国政府禁止外国人使用后，Anthropic 暂停对 Mythos 模型的所有访问（CNN）",
+      "authors": [
+        "CNN"
+      ],
+      "institution": "CNN",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3749cbdde457",
+      "slug": "gnews-3749cbdde457",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORm5McjRoaHcyVHBOR28tbGVxdThMVkpnbE54TWNsZHVwN1BHMEtXUDBjNFFyNkl0NC1xbjByNE1xZHJHUTlOLV9FMFhkdmRJQUpfQjR2SUpmUHM4WWpzbTd3aldsaTBTMVktNEpvX19CbmFsbEpmeVB0UmM5anctUXR6QVpJRjZNcW94Uk01T252MkhwQXhiUVpTTnVlWVFWMzdpb0xvenhrWGJCVUdMTlVfcVRhU3hOc3FBZkpUSlZ1LWFy?oc=5",
+      "publishedAt": "2026-06-13T14:26:31.000Z",
+      "titleEn": "'Wake-up call': Europe reacts to Anthropic halting access to its Fable 5 and Mythos 5 AI models",
+      "titleZh": "警钟敲响：欧洲对 Anthropic 停止提供 Fable 5 和 Mythos 5 AI 模型作出反应",
+      "abstractEn": "'Wake-up call': Europe reacts to Anthropic halting access to its Fable 5 and Mythos 5 AI models  Euronews.com",
+      "abstractZh": "警钟敲响：欧洲对 Anthropic 停止提供 Fable 5 和 Mythos 5 AI 模型作出反应（Euronews.com）",
+      "authors": [
+        "Euronews.com"
+      ],
+      "institution": "Euronews.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8e56a9802943",
+      "slug": "gnews-8e56a9802943",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVk9QaE5uT3d1NzBvRTh4YjlQYm9OVXRLeTNiYzhtQUZqQ1hhcVduemM5azNrM0J1aFBwdTE4TDFWMExFZnlRVko5WFI0b184TndQM3VGbEh2dFMyeENhYTJldWlTNXJrd1J6T1hES21UV0ZWeFpVZU9OMGlMaldTcFdwLTliZHduSEV3UjRIWmJqME5BVDQtMUgtWEdmS1nSAaQBQVVfeXFMT1RtUWdPVllWVnpsdUF0VHRxWVE3TmFMRWt6YjlUN2ExSUlJYk1zU2d3VkR3eGs0bXp6aXN6d05fVGo5LTdKU2RORFlKc2lHNHdlejRhOVk4X1d0aE1aUWFvUC1Gelp6Wkhpd2Vzd2tiR0hKX0tuQVJybUcxS2szanowdFRUVGpIWlozUnRZeGhUbTFqUG9leUJES212T3VxQkxZeTQ?oc=5",
+      "publishedAt": "2026-06-13T13:18:00.000Z",
+      "titleEn": "Anthropic pulls plug on new AI models after Trump admin directive",
+      "titleZh": "Anthropic 在特朗普政府指令后停止发布新 AI 模型",
+      "abstractEn": "Anthropic pulls plug on new AI models after Trump admin directive  The Hill",
+      "abstractZh": "Anthropic 在特朗普政府指令后停止发布新 AI 模型（《国会山报》）",
+      "authors": [
+        "The Hill"
+      ],
+      "institution": "The Hill",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:9388cfab21ae",
+      "slug": "gnews-9388cfab21ae",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjhkRkZ2S3JBQ3gxOHRFU19xM0VxRGRvSThQd3FyUURHQzlPME5Rd3JWR3JXbi1EQ1dsWjhqNE5NZTdLckFCWUdUaTZHQWJDOUlldlRHdFZieEVJRG5KdWtYWWxoNGhhNHg3bXFzTENoMC1jTXA2eUgzQUtSeGsxYi1WejdVNElGbG16SURHZHJXbThITWNR?oc=5",
+      "publishedAt": "2026-06-13T13:09:45.000Z",
+      "titleEn": "Anthropic pulls Claude Fable 5, Mythos 5 after Trump admin order",
+      "titleZh": "Anthropic 在特朗普政府命令后撤回 Claude Fable 5 和 Mythos 5",
+      "abstractEn": "Anthropic pulls Claude Fable 5, Mythos 5 after Trump admin order  Mashable",
+      "abstractZh": "Anthropic 在特朗普政府命令后撤回 Claude Fable 5 和 Mythos 5（Mashable）",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:17b32b89eb8e",
+      "slug": "gnews-17b32b89eb8e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DakFiWFNBUzdsczV5dWFMWUVLWVFiV1RhUDNQZWIxNHoxal9Wa2gzV3FCTy1NS0w5aThRQjRJYXF0bFJvRzNUN0c2aksyWmRZZVRFSnlwWW5nUkc1dmc3MEpLRGpDNDZpTXNWVzhQNUpGOS0yM3BhZQ?oc=5",
+      "publishedAt": "2026-06-13T12:55:11.000Z",
+      "titleEn": "US bans Anthropic from exporting most advanced AI systems to other countries",
+      "titleZh": "美国禁止 Anthropic 向其他国家出口最先进的 AI 系统",
+      "abstractEn": "US bans Anthropic from exporting most advanced AI systems to other countries  The Jerusalem Post",
+      "abstractZh": "美国禁止 Anthropic 向其他国家出口最先进的 AI 系统（《耶路撒冷邮报》）",
+      "authors": [
+        "The Jerusalem Post"
+      ],
+      "institution": "The Jerusalem Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48516504",
+      "slug": "hn-48516504-ai-oss-tool-repo-goes-archived-over-night-after-raising-7-3m-seed",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/tensorzero/tensorzero",
+      "commentUrl": "https://news.ycombinator.com/item?id=48516504",
+      "publishedAt": "2026-06-13T12:10:47.000Z",
+      "titleEn": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "titleZh": "AI 开源工具仓库在获得 730 万美元种子轮融资后一夜归档",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "hek2sch"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 118,
+      "commentCount": 74,
+      "tags": []
+    },
+    {
+      "id": "hn:48516437",
+      "slug": "hn-48516437-cerebras-chips-rival-nvidia-gpus-for-ai-video",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.youtube.com/watch?v=qC_lCFTOJU0",
+      "commentUrl": "https://news.ycombinator.com/item?id=48516437",
+      "publishedAt": "2026-06-13T12:01:16.000Z",
+      "titleEn": "Cerebras chips rival Nvidia GPUs for AI [video]",
+      "titleZh": "Cerebras 芯片在 AI 领域与 Nvidia GPU 竞争（视频）",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "binyu"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 5,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:c4874baffa7e",
+      "slug": "gnews-c4874baffa7e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUGhiSEs1RkUtSG9BVFJDWjhBU3BUNFRLc3hJbG9BMnJ1ZVc2SEN2LVlrNEtyRm1XWGRybS1uSmhoMzdRRnUweTZuMEpReUFLalZmNDRwaVN1WlY5ZnlSQTB4XzU0ZGxzUzlSbVVVZE5QT3dhS0ZOWGU0U3RzMElXWEdsREM0UV9yMkZ6bDBVZFpSYXhyVGc?oc=5",
+      "publishedAt": "2026-06-13T12:00:00.000Z",
+      "titleEn": "Mises Argues Monetary Inflation Fuels AI Excesses",
+      "titleZh": "米塞斯认为货币通胀助长AI过度发展",
+      "abstractEn": "Mises Argues Monetary Inflation Fuels AI Excesses  Let's Data Science",
+      "abstractZh": "米塞斯认为货币通胀助长AI过度发展  让我们数据科学",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d8600ed96c81",
+      "slug": "gnews-d8600ed96c81",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLUlsUDRVbXRXdUNOYVQzZmFYNXlsd2ZPbi1kTmROTjd2aFFWN01lNE1DaEhTV1I4NU44UlF1WXRHbVF4SUdnejY2di1HZlY1czliNy05ZGZ0eGlJNl9pR3hUQ2VYSVVfQkItbzJZUVlLM2thcXFGbFBUdHk2b1c0THR4UWJmLXNPTkJ6VHRyV0U?oc=5",
+      "publishedAt": "2026-06-13T11:38:16.000Z",
+      "titleEn": "Anthropic takes latest AI models offline on U.S. order (ANTHRO)",
+      "titleZh": "Anthropic 应美国要求将最新 AI 模型下线（ANTHRO）",
+      "abstractEn": "Anthropic takes latest AI models offline on U.S. order (ANTHRO)  Seeking Alpha",
+      "abstractZh": "Anthropic 应美国要求将最新 AI 模型下线（ANTHRO）（Seeking Alpha）",
+      "authors": [
+        "Seeking Alpha"
+      ],
+      "institution": "Seeking Alpha",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "hn:48515733",
       "slug": "hn-48515733-kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations",
@@ -944,6 +1161,28 @@
         "CNBC"
       ],
       "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f60be1186ba0",
+      "slug": "gnews-f60be1186ba0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSVVrcUxGYkkyQkdjRGdjQTVrLUdneC1kYmMyVzdWMXhJVWU0WHJ6NE1yNlBZeF9iLWQteWt0ZUFtSWNCQldYVms4c2Z6MENaeFpmbjgzdVFsOWJkLVdVby0tWEhoVlZyX2M2R1c0MEp4dmNTQXBPRlNsdUZMa2RXelVzRHBoZw?oc=5",
+      "publishedAt": "2026-06-13T01:07:51.000Z",
+      "titleEn": "Scoop: Trump admin blocks foreign access to Anthropic's most powerful AI",
+      "titleZh": "独家：特朗普政府阻止外国访问 Anthropic 最强大的 AI",
+      "abstractEn": "Scoop: Trump admin blocks foreign access to Anthropic's most powerful AI  Axios",
+      "abstractZh": "独家：特朗普政府阻止外国访问 Anthropic 最强大的 AI（Axios）",
+      "authors": [
+        "Axios"
+      ],
+      "institution": "Axios",
       "docType": "Blog",
       "category": "social",
       "score": 0,

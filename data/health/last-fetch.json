@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-06-13T12:04:00.526Z",
+  "ranAt": "2026-06-13T15:09:01.684Z",
   "perSource": {
     "Hacker News": 3,
-    "Google AI News": 7
+    "Google AI News": 8
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
-    "mercer": 31,
+    "mercer": 0,
     "korn-ferry": 16,
     "fesco-adecco": 10
   },
@@ -20,8 +20,9 @@
     "mercer": {
       "source": "Mercer",
       "mode": "html",
-      "candidates": 31,
-      "added": 0
+      "candidates": 0,
+      "added": 0,
+      "error": "HTTP 403"
     },
     "korn-ferry": {
       "source": "Korn Ferry",
