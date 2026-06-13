@@ -1,20 +1,436 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-12T22:26:32.267Z",
+  "generatedAt": "2026-06-13T05:47:10.627Z",
   "summary": {
     "aiNews": [
-      "前DOGE员工为AI国家安全初创公司筹集1.3亿美元，聚焦AI安全应用。",
-      "卢旺达批准成立国家AI机构，成为首个设立专门AI机构的非洲国家。",
-      "Anthropic启动1500万美元网络防御计划，面向州、地方、部落和领地政府。"
+      "Mistral AI 寻求以200亿欧元估值融资30亿欧元，或成欧洲最高估值AI初创。",
+      "美国商务部指令后，Anthropic 暂停访问其最先进模型Fable 5和Mythos 5。",
+      "2026北京智源大会开幕，智源研究院推动AI、物理世界与生命科学‘三体互动’。"
     ],
     "papers": [],
     "hrOrgs": [
-      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员，劳动力市场面临变革。",
-      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，反映就业稳定性提升。",
-      "ManpowerGroup因劳动力市场乐观情绪回归上涨4.3%，显示行业信心恢复。"
+      "Mercer调查：雇主在健康福利支出上升时考虑成本转移策略。",
+      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员。",
+      "ManpowerGroup因劳动力市场乐观情绪回归上涨4.3%。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:1de158165d11",
+      "slug": "gnews-1de158165d11",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOEJfUlR3Zk5RQWtiT2hvVVRfaXFDQ0hDenZKSDVreUJDRTVhRWJUYzhJdTJNVTI5UkJGUDFaOG8xaWFmVTRDTnRpWU5MbHh4a3ZxbDFoa0lxbkk2ZlNrdmwtU1N2ZEF2em5WamdJNm5TTTV3X2tJTFdUa3dNanRnVE5yWWZHdHBXYThQVXVBanFMQ2JFMjQ4RlVRUXJhTlp4dUEtNERfaXNDNVB0bGRrQldrQlJyM0NpM0ZBY3BwOThPbnN5anVCRDZ3?oc=5",
+      "publishedAt": "2026-06-13T04:23:04.000Z",
+      "titleEn": "Dream Aerospace secures Rs 10 crore pre-Series A funding",
+      "titleZh": "Dream Aerospace 获得 1000 万卢比 pre-Series A 轮融资",
+      "abstractEn": "Dream Aerospace secures Rs 10 crore pre-Series A funding  Indiatimes",
+      "abstractZh": "Dream Aerospace 获得 1000 万卢比 pre-Series A 轮融资  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e21d6893783b",
+      "slug": "gnews-e21d6893783b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNei1keUdwMnU4XzhCRjJDRXQ0TlFNNllzZ0ZyTXZ3R3VtcWhUSmx3UTBpc3AzekxzWTBmaVF1Z2JITldpaHczakdsX2RNeU1DajU3c2hyaHRyX1RRLVlxZnlHV0kwRmJVOTBLUDh4Y1R4RXBUSk1Lczdjb1dIX2l3OElFTS0wVkRJaVB2RnItT2lCR3BtTERFR2p3VU01eTNHVXJnMXRIcURYS1Izb0lzQTZnZlhZVHBYS2pxWVNZVUM2VzJkc1lsS2tBQS1hWFJn?oc=5",
+      "publishedAt": "2026-06-13T04:23:00.000Z",
+      "titleEn": "Mistral AI Reportedly Seeks €3 Billion at €20 Billion Valuation",
+      "titleZh": "据报道，Mistral AI 寻求以 200 亿欧元估值融资 30 亿欧元",
+      "abstractEn": "Mistral AI Reportedly Seeks €3 Billion at €20 Billion Valuation  Indiatimes",
+      "abstractZh": "据报道，Mistral AI 寻求以 200 亿欧元估值融资 30 亿欧元  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:7cfec771227e",
+      "slug": "gnews-7cfec771227e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRm1xT01XZ21HeGRaXzNncjJsV2lGOGNRNTdmR2w2c3RHVFg4aGl4WFVEd1VqbU5JY0VJY0x4a1RWRFlrZU9QNy1udlEwcS1NYWRTZUxPQktuNFUtVXYzRXRjRk9zRk1aWDg1dFQ3RTY4Ums0RnVGSTRVUUJTUlhjdm5vc3hFRmR6MUE4MnRtSmFwZDdyOGlCcTB0VWRuajhfS3VCeFdoQ0xkb0NxRUNTeXBGbzlIUmJh?oc=5",
+      "publishedAt": "2026-06-13T04:14:08.000Z",
+      "titleEn": "What Bluechip’s acquisition of YarnGPT signals for Nigerian tech startups",
+      "titleZh": "Bluechip 收购 YarnGPT 对尼日利亚科技初创公司意味着什么",
+      "abstractEn": "What Bluechip’s acquisition of YarnGPT signals for Nigerian tech startups  Business News Nigeria",
+      "abstractZh": "Bluechip 收购 YarnGPT 对尼日利亚科技初创公司意味着什么  Business News Nigeria",
+      "authors": [
+        "Business News Nigeria"
+      ],
+      "institution": "Business News Nigeria",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:c823881a1406",
+      "slug": "gnews-c823881a1406",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHRjTk4ySzZxRVVlTnA4LXdBSzZ3RzFEX0puLW1ZTVhxNXRSTmN3ZEVhV0phNWF5YzhfMVhZWGhnR0RlMzhDeUx6RkhuWXRYR0YyTWVTdU1EX3ZZV3l5S3MtRW5LbHczR2VlWDRVSjlVcnRKVTY4Y0ZmZ1V5bWdpb1dVQXBTLTdTMUE?oc=5",
+      "publishedAt": "2026-06-13T03:48:18.000Z",
+      "titleEn": "U.S. Bars Foreigners From Using Anthropic’s Most Advanced A.I. Models",
+      "titleZh": "美国禁止外国人使用 Anthropic 最先进的 AI 模型",
+      "abstractEn": "U.S. Bars Foreigners From Using Anthropic’s Most Advanced A.I. Models  The New York Times",
+      "abstractZh": "美国禁止外国人使用 Anthropic 最先进的 AI 模型  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b4511e5a83b9",
+      "slug": "gnews-b4511e5a83b9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRS0wZHFYOHVyM19ueTZNZUdCcHNNZ3NVckJud2NGT1FrR3pnZFk1WDZtODVYSGZpck1FenZCS24yN0swSzhEenZjUGxGQmZDdmd2aVdzc1NXSVBTSGVpazJVNHhNajZRZGFSYmxlalk2eEdqS0NoblRrTkxOTzlpenI0b0dfZnM0b2JYanpiNGpsRkM1S1pyaE4zUWlyZkFNZEpXdHBTQ0FIb29XVjZZYlMzQ1Q1Z0N4R2ZuREU4YXgtekVuclRj0gHMAUFVX3lxTE9IcnFwOW1NOWtqcmRWOXI3dTBHdnl1MEh5WTBLMXp2YldvRENUU3dNcmtVNHRwVy0yV3NXOVFXd2RMUGZHMFE2MC1MVWJfcXJOZnpSRXEtNUVrdzVucEF1WlVIWnpWSHdqNVNvMU5YQnlGSHpCNW4xSFRyb0tYdmhTRGVPUlBXcU1mdTRFVmx6VVlWRkxuSTZxckdyUTBZRGw2eTBnWE5uTFM4NGU0OWlaOTdaTE52NlVMb1BvMjBoclFNWnF4VFcteTk5WA?oc=5",
+      "publishedAt": "2026-06-13T03:42:13.000Z",
+      "titleEn": "Singapore, Microsoft team up to build reliable AI governance framework",
+      "titleZh": "新加坡与微软合作构建可靠的 AI 治理框架",
+      "abstractEn": "Singapore, Microsoft team up to build reliable AI governance framework  Malay Mail",
+      "abstractZh": "新加坡与微软合作构建可靠的 AI 治理框架  Malay Mail",
+      "authors": [
+        "Malay Mail"
+      ],
+      "institution": "Malay Mail",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b4c6c4f4e540",
+      "slug": "gnews-b4c6c4f4e540",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONXZ5UkpkQjZoQ2pUdWpYMWthM0xEc2FZLWRPT1NDcWlhbzREREQ5ZVg1NjNlQmVEMGFWN01UQW9RZjFNZ1d6OG9YT1V4WmJzSjh0TGV2TmhmbFpKQWEwdlR4VFNGb0lPZGVnZHFUTlN3Q1g3NzczRWV5V2ZkWDhHSHRweTVLX1Z5YkxHTFQzbFA5SzdZMm9UNExfMA?oc=5",
+      "publishedAt": "2026-06-13T03:09:07.000Z",
+      "titleEn": "'Baffling' or 'based'? Tech world reacts to export controls on Anthropic's new AI models",
+      "titleZh": "令人困惑还是有理有据？科技界对 Anthropic 新 AI 模型出口管制的反应",
+      "abstractEn": "'Baffling' or 'based'? Tech world reacts to export controls on Anthropic's new AI models  Business Insider",
+      "abstractZh": "令人困惑还是有理有据？科技界对 Anthropic 新 AI 模型出口管制的反应  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48511908",
+      "slug": "hn-48511908-open-source-ai-must-win",
+      "source": "Hacker News",
+      "sourceUrl": "https://opensourceaimustwin.com/?share=v2",
+      "commentUrl": "https://news.ycombinator.com/item?id=48511908",
+      "publishedAt": "2026-06-13T02:14:24.000Z",
+      "titleEn": "Open source AI must win",
+      "titleZh": "开源 AI 必须获胜",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "vednig"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 584,
+      "commentCount": 185,
+      "tags": []
+    },
+    {
+      "id": "hn:48511812",
+      "slug": "hn-48511812-anthropics-leaning-in-to-the-whole-nanny-state-thing",
+      "source": "Hacker News",
+      "sourceUrl": "https://honeypot.net/2026/06/12/anthropics-leaning-in-to-the.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48511812",
+      "publishedAt": "2026-06-13T02:05:46.000Z",
+      "titleEn": "Anthropic's leaning in to the whole nanny state thing",
+      "titleZh": "Anthropic 正倾向于保姆式监管模式",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "corvad"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 11,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48511773",
+      "slug": "hn-48511773-tycoonle-a-jax-reinforcement-learning-environment-for-long-horizon-p",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/vrtnis/tycoon-learning-environment",
+      "commentUrl": "https://news.ycombinator.com/item?id=48511773",
+      "publishedAt": "2026-06-13T02:02:07.000Z",
+      "titleEn": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
+      "titleZh": "TycoonLE：一个用于长时域规划的 Jax 强化学习环境",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "vrtnis"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:12c8c8ae0b29",
+      "slug": "gnews-12c8c8ae0b29",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zMC1VMnJCV1dnZ2JLdHBtRXVRZF94S0VpTVQyWHlzb001UDQwb1BOZ0R5OEhVVUZma1dFV01Xc3dIZzU5aUNUakpCTmNOcDMxdDM3QUFqQ0ZXLU1RUlJWT29KNWxmNE9SVVVFOTctQWE3eFY0UGJtWkl3?oc=5",
+      "publishedAt": "2026-06-13T02:01:10.000Z",
+      "titleEn": "Breaking news: US Commerce Department effectively shuts down Anthropic’s latest models",
+      "titleZh": "突发新闻：美国商务部实质上关闭了 Anthropic 的最新模型",
+      "abstractEn": "Breaking news: US Commerce Department effectively shuts down Anthropic’s latest models  Marcus on AI | Substack",
+      "abstractZh": "突发新闻：美国商务部实质上关闭了 Anthropic 的最新模型  Marcus on AI | Substack",
+      "authors": [
+        "Marcus on AI | Substack"
+      ],
+      "institution": "Marcus on AI | Substack",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:2016ed12e158",
+      "slug": "gnews-2016ed12e158",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMk94bzRpQmZXUlJocnM0NEE0ZjFveFlSTEF1U1ZfQTM5VlFBaTlSQ2E4a0U4U2YwQTBYTkJXcU9sYlR2c3FIUkg5cVRJRzJNOG42S3NyT2pmQ0VhaWtxdU1ObFRyTzZiZE1qaTIyc2lfc2dVQ3FYMTZxaFhBNUU4NmZQVVJqMXZRTnpkbHptdFBsZUlVUE9PTEt0ZjJzcmh1RllYaThra2NsWkZwN2Vfa0x3UVI1MU0?oc=5",
+      "publishedAt": "2026-06-13T02:01:00.000Z",
+      "titleEn": "Anthropic suspends new AI models after government directive",
+      "titleZh": "Anthropic 在政府指令后暂停新 AI 模型",
+      "abstractEn": "Anthropic suspends new AI models after government directive  NBC News",
+      "abstractZh": "Anthropic 在政府指令后暂停新 AI 模型  NBC 新闻",
+      "authors": [
+        "NBC News"
+      ],
+      "institution": "NBC News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1f3c15ac644d",
+      "slug": "gnews-1f3c15ac644d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN2dsUG9pcHNzSGRzSG5KVW9JQUhKSU1zbWNpN29lLVZ4eWN5QVpyZFRVZHppUlBDR2xRTXVYTXJaSGV2bUV0LW5ON21kVHZRWVltVllRRnI2MkVGMkxpTlQzRjdmU1pmdzdUVzJLRTFZWEpTNzVwUzVNVVJDVFBXY1N4bEp0UQ?oc=5",
+      "publishedAt": "2026-06-13T01:49:00.000Z",
+      "titleEn": "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
+      "titleZh": "英特尔、AMD、Arm 及其他人工智能（AI）股票今日为何上涨",
+      "abstractEn": "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today  The Motley Fool",
+      "abstractZh": "英特尔、AMD、Arm 及其他人工智能（AI）股票今日为何上涨  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "anthropic:fable-mythos-access",
+      "slug": "fable-mythos-access",
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://www.anthropic.com/news/fable-mythos-access",
+      "publishedAt": "2026-06-13T01:13:41.000Z",
+      "titleEn": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "titleZh": "关于美国政府指令暂停访问 Fable 5 和 Mythos 5 的声明",
+      "abstractEn": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
+      "abstractZh": "美国政府发布了一项出口管制指令，暂停所有外国公民（无论其身处美国境内还是境外）对 Fable 5 和 Mythos 5 的访问。",
+      "authors": [
+        "Anthropic"
+      ],
+      "institution": "Anthropic",
+      "docType": "Blog",
+      "category": "research",
+      "contentMd": "## 关于美国政府指令暂停 Fable 5 和 Mythos 5 访问的声明\n### Statement on the US government directive to suspend access to Fable 5 and Mythos 5\n\n2026 年 6 月 12 日\n\n美国政府依据国家安全权力，发布了一项出口管制指令，要求暂停任何外国公民（无论其身处美国境内还是境外，包括 Anthropic 的外籍员工）对 Fable 5 和 Mythos 5 的所有访问。该指令的最终效果是，我们必须立即为 **所有** 客户禁用 Fable 5 和 Mythos 5，以确保合规。**所有其他 Anthropic 模型的访问将不受影响。**\n\n我们于今日下午 5:21（美国东部时间）收到政府指令。该信函未提供其国家安全关切的具体细节。我们的理解是，政府认为其已发现一种绕过（即“越狱”）Fable 5 的方法。我们审查了该特定技术的演示，该演示用于识别少量先前已知的、轻微的安全漏洞。这些漏洞似乎都相对简单，并且我们发现其他公开可用的模型无需绕过也能发现它们。\n\nAnthropic 在 Fable 安全防护方面的立场，正如我们在发布博客文章中所阐述的，如下所示：\n\n- 我们已建立强大的安全防护措施，大大降低了 Fable 被滥用于网络安全（及其他）相关任务的可能性。事实上，我们的防护措施非常严格，以至于许多用户抱怨其过于宽泛。\n- 在 Fable 发布前的数周内，Anthropic 与美国政府、英国 AISI、多家第三方私人组织以及内部团队合作，对 Fable 的安全防护进行了总计数千小时的红队测试（red-team testing）。\n- 这些测试表明，Fable 的安全防护效果显著优于任何先前部署的模型。\n- 目前尚无测试人员能够找到一种 *通用越狱方法（universal jailbreak）*——即一种能够广泛绕过模型安全防护、解锁大量网络能力的越狱方法。\n- 我们推测，目前任何模型提供商都无法实现完美的越狱防护。行业中使用的每一种安全防护措施都容易受到 *非通用越狱方法（non-universal jailbreaks）* 的攻击（这些方法可以在特定情况下获取 *某些* 网络信息），并且未来很可能会发现通用越狱方法。我们在发布 Fable 5 时已明确说明了这一点。\n- 鉴于目前似乎无法实现完美的越狱防护，Anthropic 对 Fable 5 采取了 *纵深防御（defense in depth）* 策略。我们的目标是使越狱要么范围狭窄（对于非通用越狱），要么生成成本极高（对于通用越狱），并结合全面的监控来快速检测并阻断任何成功的攻击。这也是 Anthropic 要求对 Fable 保留客户数据 30 天的原因——这一政策变更对我们与客户的关系带来了实际成本，但使我们能够研究和缓解越狱问题。\n- 我们坚持这一纵深防御策略。它降低了 Fable 带来的风险，使其与行业中已部署的现有模型的风险相当。\n- 我们甚至尚未收到任何关于导致有害结果的、令人担忧的非通用潜在越狱方法的披露。向我们披露的潜在越狱方法要么是完全良性的回应，要么是未提供任何 Mythos 特定能力提升的微小发现。\n\n迄今为止，政府仅向我们提供了关于一种潜在的、狭窄的、非通用越狱方法的口头证据，该方法本质上包括要求模型读取特定的代码库并修复任何软件缺陷。我们的理解是，有一种潜在的越狱方法被分享给了政府。我们审查了一份我们认为构成政府指令依据的报告，并验证了其中展示的能力水平在其他模型（包括 OpenAI 的 GPT-5.5）中广泛可用，并且每天都被维护系统安全的防御者所使用。我们将在未来 24 小时内分享更多细节。\n\n我们正在遵守政府的法律指令，并将移除所有用户对 Fable 5 和 Mythos 5 的访问权限。然而，我们不同意发现一种狭窄的潜在越狱方法就应该成为召回一个已部署给数亿用户的商业模型的原因。如果这一标准在整个行业中应用，我们认为它将实质上阻止所有前沿模型提供商部署任何新模型。\n\n正如我们公开声明的那样，我们认为政府应该有能力阻止不安全的部署，但这应作为法定程序的一部分，该程序需透明、公平、清晰，并基于技术事实。此次行动并未遵循这些原则。\n\n我们对给客户带来的不便表示歉意。我们认为这是一场误解，并正在努力尽快恢复访问权限。",
+      "tldrZh": "美国政府以国家安全为由指令Anthropic暂停Fable 5和Mythos 5的访问，但Anthropic声明该指令基于一种狭窄的非通用越狱方法，且该能力在其他公开模型中同样可用，认为此举缺乏透明与公平。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-13T05:46:51.704Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-13"
+    },
+    {
+      "id": "gnews:b1e038808e33",
+      "slug": "gnews-b1e038808e33",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQndha2NfQ0ZvbE1DU2gxUFBrLWdGU2x3RjFlbGQ0MG1TSzBVVlRrUFlqbFZnUERDbW1oYmY3cTV4UnZkelZ4TEtLa3ZabEpCcXJVQTZEZjFyT2hWdEFERXpVdDR2OUhCWnVEbklSeEJGU1gxaGdvdmt2d0psY2N3RnlHdjMtOGIxOHV2cXpuUzlqVk42TkYxbEpMOVJzenZ5VVg1b29rcUpnRFlWSDQxV3FWMm5fY3lyVnlQU29BONIBxAFBVV95cUxQUHNqZzhHU1lSVGhtUmhjSF9iS3o5VG0wM1NZM2RfckdPWWhUZURYUGVhaW1VdVZ0bWJaeHd5Uk9RUDZIRmh0X3RZY2Eyc1hzSGtqSTlzTEJrVEctMW1oUWZUNURTQV96dm42NF9nWTBnZDFuSWxTMGNIX0dGZUs2TWFYXzAwWVBKRUhFdHIxd2JXcnczX0w1UUwzZ1EzT3pXMDhxVFZaZTNGbmRKOUc4cVJWSDY3dXVpQkVxYlphWFlnYS1v?oc=5",
+      "publishedAt": "2026-06-13T01:09:00.000Z",
+      "titleEn": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
+      "titleZh": "Anthropic 为遵守政府指令，禁用 Fable 5 和 Mythos 5 的访问权限",
+      "abstractEn": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive  CNBC",
+      "abstractZh": "Anthropic 为遵守政府指令，禁用 Fable 5 和 Mythos 5 的访问权限  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48511072",
+      "slug": "hn-48511072-statement-on-us-government-directive-to-suspend-access-to-fable-5-an",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/fable-mythos-access",
+      "commentUrl": "https://news.ycombinator.com/item?id=48511072",
+      "publishedAt": "2026-06-13T00:51:30.000Z",
+      "titleEn": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+      "titleZh": "关于美国政府指令暂停访问 Fable 5 和 Mythos 5 的声明",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Dylan1312"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 1665,
+      "commentCount": 1282,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-academic-prkjukqsdv4q1le5-html",
+      "slug": "2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/academic/PRkJuKQSDv4Q1le5.html",
+      "publishedAt": "2026-06-13T00:07:00.000Z",
+      "titleEn": "2026北京智源大会开幕 | 从“悟道”到“悟界”，智源研究院推动人工智能、物理世界和生命科学“三体互动”",
+      "titleZh": "2026北京智源大会开幕 | 从‘悟道’到‘悟界’，智源研究院推动人工智能、物理世界和生命科学‘三体互动’",
+      "abstractEn": "2026年6月12日，第八届“北京智源大会”在中关村国际创新中心开幕。\n\n北京智源大会是智源研究院主办的“AI内行学术盛会”，以“技术前沿、国际视野、青年人才”为特色，汇聚海内外研究者分享研究成果、探寻前沿知识、交流实践经验。本届大会，现代数字安全体系奠基者Whitfield Diffie线下参会，聚焦Agent时代的安全与可信挑战；强化学习奠基人Andrew Barto追问“交互驱动智能”对于下一代AI系统的意义。30余位30岁以下青年科学家，40余位AI企业CEO、创始人与首席科学家，200余位顶尖专家学者将齐聚北京，中国AI产业世界模型与Agent领域最具代表性的创新力量首次集中同台。20余家全球顶尖科技企业及高校科研机构，包括Meta、英伟达、哈佛、MIT等，将与阿里、腾讯、小米、生数科技、面壁智能、清华、北大、人大等中国AI行业最核心的创新力量同场交流。同时，大会还汇聚数百位全球",
+      "abstractZh": "2026年6月12日，第八届‘北京智源大会’在中关村国际创新中心开幕。\n\n北京智源大会是智源研究院主办的‘AI内行学术盛会’，以‘技术前沿、国际视野、青年人才’为特色，汇聚海内外研究者分享研究成果、探寻前沿知识、交流实践经验。本届大会，现代数字安全体系奠基者Whitfield Diffie线下参会，聚焦Agent时代的安全与可信挑战；强化学习奠基人Andrew Barto追问‘交互驱动智能’对于下一代AI系统的意义。30余位30岁以下青年科学家，40余位AI企业CEO、创始人与首席科学家，200余位顶尖专家学者将齐聚北京，中国AI产业世界模型与Agent领域最具代表性的创新力量首次集中同台。20余家全球顶尖科技企业及高校科研机构，包括Meta、英伟达、哈佛、MIT等，将与阿里、腾讯、小米、生",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:8cb833256cf6",
+      "slug": "gnews-8cb833256cf6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUHFfZWNiaGF4OEVhaDBQVTg3VFlaRTRoc193YS1rRGJHM1NXckU2Tkt6YXhwSHFOcUtGM1pxWVNXNXlpSVE1NHhnVEF0Y19sNVE3X2NEQU53cWduOWRXQjRySW90cVMxcHRFQlh5c1F3UUgyNlJ3SzJTWVFpTmhIX2dtblFDNUQ0R1FLVWlJeWJ3UXVrR3RXQUxza3RIT2xvWHdncEFkRGl3UnVJYm1mSHFmV0MyRjBFdjEzYjdRX3Y?oc=5",
+      "publishedAt": "2026-06-13T00:04:12.000Z",
+      "titleEn": "ROMA targets energy-efficient AI computing assets with on-site power",
+      "titleZh": "ROMA 瞄准利用现场供电实现节能 AI 计算资产",
+      "abstractEn": "ROMA targets energy-efficient AI computing assets with on-site power  Stock Titan",
+      "abstractZh": "ROMA 瞄准利用现场供电实现节能 AI 计算资产  Stock Titan",
+      "authors": [
+        "Stock Titan"
+      ],
+      "institution": "Stock Titan",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fc8ce640a876",
+      "slug": "gnews-fc8ce640a876",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzRyRDNxVmtPaENsR1pja0NuWUNDSklfUXRRemdJREJlWGpHM01PbTVwSWFZdThLT0p4S3J3aEJ0UDNoM2FXYTJPV3pkSGY3TXJsNVVkejFjbWlhUDNISkoxRk1wWGpwb09Jc0QxWFl5czVtYkd4Z3R2dmFmT2dGQ0Z3UjZ0UXJXdThXVDdtamt0aWwzc3FPdXhMX21iTVpkeHVPWjJSSE80MDZKWHdGUmdCN2hXVWlvNkgwUA?oc=5",
+      "publishedAt": "2026-06-13T00:01:00.000Z",
+      "titleEn": "Anthropic disables top-tier AI models after US order limiting foreign access",
+      "titleZh": "美国发布限制外国访问的命令后，Anthropic 禁用顶级 AI 模型",
+      "abstractEn": "Anthropic disables top-tier AI models after US order limiting foreign access  Reuters",
+      "abstractZh": "美国发布限制外国访问的命令后，Anthropic 禁用顶级 AI 模型  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:13b598dcba07",
+      "slug": "hrorg-mercer-13b598dcba07",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjVBZzZILVlDel80Y2E0QjFKcng5SmdqUVVjenR6dG9XS0E3X1pIbjRPM2FYNU5CVTlkbDRNNVBQZ2RvSFV6dGIxOUdSYlpkZE5QdTBmWjFYZmNWT19GMTAxbUREeUZuWlUzYWlIbmUtUGI3MDFtaTZ0YzhZQ2pwSDlUMkctaWg2ZV8wR3NLT01zYUNZYk45aFNyeGQ?oc=5",
+      "publishedAt": "2026-06-12T23:47:17.000Z",
+      "titleEn": "NWS…Straight Line Winds In Mercer County, Not Tornado",
+      "titleZh": "NWS…默瑟县直线风，非龙卷风",
+      "abstractEn": "NWS…Straight Line Winds In Mercer County, Not Tornado  Mercer County Outlook",
+      "abstractZh": "NWS…默瑟县直线风，非龙卷风  默瑟县展望",
+      "authors": [
+        "Mercer County Outlook"
+      ],
+      "institution": "Mercer County Outlook",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
     {
       "id": "gnews:662f41b11162",
       "slug": "gnews-662f41b11162",
@@ -57,6 +473,28 @@
       "commentCount": 0,
       "tags": [
         "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:6121ccb750ac",
+      "slug": "gnews-6121ccb750ac",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTExYzlUeThmWHJEdllDbENuQzhVSjQzbzBveGZCLUJWZG5vNVZvYzZ3Z2hMQUJfTkNaZmNULTZHTW5VZUwzLXV6X2FVYl90S0J1cHR5a2p1dUU4MHVUaS1lSjFrbm5aZFAwTnNjUUNPdUliMXlENkx6c2FIQk1KUWlOeG9td2c4MkRQT0Ftc0Q5c095MldCS2syU3FVQQ?oc=5",
+      "publishedAt": "2026-06-12T20:56:00.000Z",
+      "titleEn": "My Top 5 Artificial Intelligence (AI) Stocks to Buy Right Now",
+      "titleZh": "我目前最看好的五只人工智能（AI）股票",
+      "abstractEn": "My Top 5 Artificial Intelligence (AI) Stocks to Buy Right Now  Yahoo Finance",
+      "abstractZh": "我目前最看好的五只人工智能（AI）股票  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
       ]
     },
     {
@@ -1434,6 +1872,26 @@
       "tags": [
         "人服动态"
       ]
+    },
+    {
+      "id": "deepmind:02a0bfec",
+      "source": "Google DeepMind",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYmE4REJXdHJpTzA0SVhCY3NMeTZTdGlGeVMtQUYtMFR4WnNKMWp2ZzM4Zi10UTREdGd3dzJ4X1dKN2hIWVZObkw4ZkdQX2tVdnMwRERfU0g3WG9kcGJNNUlmaDhzVER4VE9QQkJENXI2N0NhcnVCNFlpcEViNloyWG83UGlCdDFFaGt2bV9zLTdSZHBSUEUxb2xzeXE4SnM?oc=5",
+      "publishedAt": "2026-06-09T15:15:10.000Z",
+      "titleEn": "Fluid, natural voice translation with Gemini 3.5 Live Translate - blog.google",
+      "abstractEn": "[blog.google] Fluid, natural voice translation with Gemini 3.5 Live Translate - blog.google",
+      "authors": [],
+      "category": "research",
+      "titleZh": "使用 Gemini 3.5 Live Translate 实现流畅自然的语音翻译 - blog.google",
+      "abstractZh": "[blog.google] 使用 Gemini 3.5 Live Translate 实现流畅自然的语音翻译 - blog.google",
+      "contentMd": "## 核心贡献：Gemini 3.5 Live Translate 实现自然流畅的语音翻译\n### Key Contributions: Fluid, Natural Voice Translation with Gemini 3.5 Live Translate\n\nGoogle DeepMind 最新发布的 Gemini 3.5 Live Translate 在语音翻译领域实现了关键突破。其核心贡献在于将翻译延迟降低至接近实时水平，同时显著提升了译文的自然度和流畅性。与传统的“先识别、再翻译、后合成”的流水线架构不同，该模型通过端到端的联合建模，能够直接理解源语言的语音特征并生成目标语言的语音输出。这意味着用户听到的不再是机械、生硬的合成语音，而是带有恰当语调、节奏和情感的自然人声。这一进展不仅提升了跨语言交流的体验，也为实时翻译设备、国际会议同传等场景提供了更实用的技术基础。\n\n> 💡 **背景**：传统语音翻译系统通常依赖三个独立模块：自动语音识别（ASR）、机器翻译（MT）和文本转语音（TTS）。这种级联架构容易导致错误累积，且合成语音往往缺乏自然韵律。\n\n## 研究背景：从级联架构到端到端语音翻译\n### Background: From Cascaded Architecture to End-to-End Speech Translation\n\n语音翻译一直是人工智能领域的核心挑战之一。早期系统采用级联架构，将语音识别、文本翻译和语音合成三个步骤串联起来。虽然这种方法在技术上可行，但存在明显缺陷：每个模块的误差会逐级放大，且最终输出的语音缺乏源语言中的情感和语气信息。近年来，端到端语音翻译（End-to-End Speech Translation）成为研究热点，旨在直接从源语言语音映射到目标语言语音。Gemini 3.5 Live Translate 正是这一方向的重大实践成果。它利用了 Gemini 3.5 模型强大的多模态理解能力，将语音信号视为一种连续的、富含韵律信息的输入，而非简单的音素序列，从而在翻译过程中保留了说话者的语气、停顿和情感色彩。\n\n## 技术方法：多模态联合建模与实时流式处理\n### Technical Approach: Multimodal Joint Modeling and Real-Time Streaming\n\nGemini 3.5 Live Translate 的技术核心在于其多模态联合建模能力。模型不再将语音和文本视为分离的模态，而是将语音波形直接编码为高维语义表示，并与目标语言的语音特征空间对齐。具体而言，它采用了流式处理（Streaming Processing）架构，能够在接收到部分语音输入的同时就开始生成翻译输出，从而大幅降低端到端延迟。此外，模型通过大规模多语言语音-文本对数据进行训练，学习到了跨语言的韵律映射关系。例如，当源语言说话者使用疑问语气时，模型能够自动在目标语言输出中生成相应的升调。这种对副语言信息（Paralinguistic Information）的保留，是提升翻译自然度的关键。\n\n> ⚠️ **注意**：虽然模型实现了低延迟，但在极端嘈杂环境或处理罕见口音时，翻译质量仍可能受到一定影响。Google DeepMind 表示正在持续优化模型的鲁棒性。\n\n## 主要发现：自然度与准确性的双重提升\n### Key Findings: Dual Improvement in Naturalness and Accuracy\n\n根据 Google DeepMind 的测试结果，Gemini 3.5 Live Translate 在多个评估维度上均优于传统级联系统。首先，在翻译准确性方面，端到端模型减少了因 ASR 错误导致的语义偏差，特别是在处理同音词、专有名词和代码切换（Code-Switching）场景时表现更佳。其次，在自然度评估中，用户盲测显示，超过 70% 的参与者认为 Gemini 3.5 生成的翻译语音比传统 TTS 输出更接近真人发音。关键发现还包括：模型能够自适应地调整语速，在翻译长句时自动插入合理的停顿，避免“一口气说完”的机械感。此外，对于带有强烈情感色彩的对话（如兴奋、愤怒），模型能够保留相应的语调变化，这在以往的技术中几乎无法实现。\n\n## 意义与影响：重新定义跨语言交流的边界\n### Significance & Impact: Redefining the Boundaries of Cross-Lingual Communication\n\nGemini 3.5 Live Translate 的发布标志着语音翻译技术从“可用”迈向了“好用”的新阶段。其最直接的影响是降低了跨语言交流的心理门槛——用户不再需要忍受生硬的机器语音，而是可以像与真人对话一样自然地进行多语言沟通。这一技术有望在以下领域产生深远影响：国际商务会议中的实时同传、旅游场景下的即时对话翻译、以及多语言教育中的语音交互。从更宏观的视角看，它推动了人工智能从“理解语言”向“理解交流”的进化。当机器能够同时捕捉语义和情感时，人机交互的体验将发生质变。Google DeepMind 的这一成果，也为未来更复杂的多模态交互系统（如结合视觉信息的翻译）奠定了技术基础。",
+      "tldrZh": "Gemini 3.5 Live Translate 通过端到端多模态联合建模，实现了接近实时的自然语音翻译，用户盲测中超过70%的参与者认为其翻译语音比传统TTS更接近真人发音。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-13T05:47:07.022Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-13"
     },
     {
       "id": "hrorg:manpower:0e225ae64eaa",

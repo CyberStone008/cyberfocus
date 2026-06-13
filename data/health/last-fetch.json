@@ -1,11 +1,16 @@
 {
-  "ranAt": "2026-06-12T22:26:26.248Z",
+  "ranAt": "2026-06-13T05:46:27.073Z",
   "perSource": {
-    "Google AI News": 4
+    "Anthropic Blog": 1,
+    "Google DeepMind": 1,
+    "Hacker News": 4,
+    "雷锋网": 1,
+    "Google AI News": 13,
+    "Mercer": 1
   },
   "orgSitesParse": {
     "recruit-holdings": 379,
-    "mercer": 0,
+    "mercer": 31,
     "korn-ferry": 16,
     "fesco-adecco": 10
   },
@@ -19,9 +24,8 @@
     "mercer": {
       "source": "Mercer",
       "mode": "html",
-      "candidates": 0,
-      "added": 0,
-      "error": "HTTP 403"
+      "candidates": 31,
+      "added": 0
     },
     "korn-ferry": {
       "source": "Korn Ferry",
