@@ -215,5 +215,54 @@
       }
     ],
     "alertsSent": []
+  },
+  {
+    "ranAt": "2026-06-13T10:13:19.100Z",
+    "trigger": "piggyback",
+    "checks": [
+      {
+        "id": "C2",
+        "status": "fail",
+        "value": "2/28 静默",
+        "threshold": "高频2天/HR新闻7天/其余14天",
+        "note": "Korn Ferry 已静默 10.3 天（阈值 7 天，最后收录 2026-06-03）；中智咨询 已静默 36.4 天（阈值 7 天，最后收录 2026-05-08）"
+      },
+      {
+        "id": "C3",
+        "status": "ok",
+        "value": "mercer=31(streak 0) korn-ferry=16(streak 0) fesco-adecco=10(streak 0)",
+        "threshold": "连续 2 批解析 0",
+        "note": "html 官网源解析正常"
+      },
+      {
+        "id": "C5a",
+        "status": "ok",
+        "value": 0,
+        "threshold": "退出码 0",
+        "note": "validate-data 退出码 0"
+      },
+      {
+        "id": "C5b",
+        "status": "ok",
+        "value": "aiNews: 昨日 135 vs 中位 99；papers: 中位数 2 太小跳过；hrOrgs: 昨日 8 vs 中位 5；podcasts: 中位数 0 太小跳过",
+        "threshold": "昨日 < 7天中位数×30%",
+        "note": "各板块产出量正常"
+      },
+      {
+        "id": "C5c",
+        "status": "ok",
+        "value": null,
+        "threshold": "【一句话叙事】非空",
+        "note": "2026-06-12.md 叙事 OK（美股三大指数周四小幅反弹，芯片股领涨，但周线仍录得显著跌幅；地缘冲突（美伊新一轮…）"
+      },
+      {
+        "id": "C6",
+        "status": "ok",
+        "value": 91,
+        "threshold": "≥50%（仅记周报）",
+        "note": "近 24h 可抓新闻 34 条，tldr 覆盖 31 条（91%）"
+      }
+    ],
+    "alertsSent": []
   }
 ]

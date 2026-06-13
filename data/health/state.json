@@ -11,13 +11,13 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-13T05:47:10.671Z"
+      "lastSeenAt": "2026-06-13T10:08:53.989Z"
     },
     "量子位": {
-      "lastSeenAt": "2026-06-12T11:10:14.094Z"
+      "lastSeenAt": "2026-06-13T10:08:53.989Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-13T05:47:10.671Z"
+      "lastSeenAt": "2026-06-13T10:08:53.989Z"
     },
     "雷锋网": {
       "lastSeenAt": "2026-06-13T05:47:10.671Z"
@@ -32,7 +32,7 @@
       "lastSeenAt": "2026-06-13T05:47:10.671Z"
     },
     "ManpowerGroup": {
-      "lastSeenAt": "2026-06-12T21:46:21.096Z"
+      "lastSeenAt": "2026-06-13T10:08:53.989Z"
     },
     "Adecco Group": {
       "lastSeenAt": "2026-06-12T21:46:21.096Z"
@@ -171,8 +171,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-13T05:51:03.862Z",
-      "note": "Korn Ferry 已静默 10.2 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-13T10:13:18.918Z",
+      "note": "Korn Ferry 已静默 10.3 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -180,8 +180,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-13T05:51:03.862Z",
-      "note": "中智咨询 已静默 36.2 天（阈值 7 天，最后收录 2026-05-08）"
+      "lastFailedAt": "2026-06-13T10:13:18.918Z",
+      "note": "中智咨询 已静默 36.4 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
       "status": "ok",
@@ -200,8 +200,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-13T05:51:03.862Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=10.2 threshold=7",
+      "lastSeenAt": "2026-06-13T10:13:18.918Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=10.3 threshold=7",
       "status": "open"
     },
     {
@@ -210,8 +210,8 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-13T05:51:03.862Z",
-      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=36.2 threshold=7",
+      "lastSeenAt": "2026-06-13T10:13:18.918Z",
+      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=36.4 threshold=7",
       "status": "open"
     },
     {
@@ -294,9 +294,9 @@
       "podcasts": 2
     },
     "2026-06-13": {
-      "aiNews": 75,
+      "aiNews": 95,
       "papers": 4,
-      "hrOrgs": 9,
+      "hrOrgs": 10,
       "podcasts": 0
     }
   },
@@ -305,8 +305,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-13T05:46:27.073Z",
+  "lastFetchConsumedRanAt": "2026-06-13T10:08:39.043Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-13T05:51:04.021Z"
+  "updatedAt": "2026-06-13T10:13:19.100Z"
 }

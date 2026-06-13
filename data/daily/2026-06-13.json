@@ -1,20 +1,367 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-13T05:47:10.627Z",
+  "generatedAt": "2026-06-13T10:08:53.946Z",
   "summary": {
     "aiNews": [
-      "Mistral AI 寻求以200亿欧元估值融资30亿欧元，或成欧洲最高估值AI初创。",
-      "美国商务部指令后，Anthropic 暂停访问其最先进模型Fable 5和Mythos 5。",
-      "2026北京智源大会开幕，智源研究院推动AI、物理世界与生命科学‘三体互动’。"
+      "Mistral AI 寻求以200亿欧元估值融资30亿欧元，加速全球AI竞赛。",
+      "美国以安全风险为由，禁止外国人访问Anthropic最新AI模型Fable和Mythos。",
+      "2026智源大会开幕，推动AI、物理世界和生命科学“三体互动”。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Mercer调查：雇主在健康福利支出上升时考虑成本转移策略。",
-      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员。",
-      "ManpowerGroup因劳动力市场乐观情绪回归上涨4.3%。"
+      "调查显示：第三季度金融服务业招聘前景最为强劲，ManpowerGroup报告。",
+      "调查发现99%的CEO预计到2028年将出现AI驱动的裁员，Mercer报告。",
+      "加拿大就业市场‘快速离职’现象大幅减少，新员工选择留任，Recruit Holdings数据。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:44bc18da0568",
+      "slug": "gnews-44bc18da0568",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGhkeWJQZVNINS1SWGQwU19rbWxUc21BWEZWNkFydUx0WHBZN2NLS1k4UEhHU2hEZVJKUHNvcU1lNWVXekR5X1BfSFlyS2JzSldzS1c1UGc0ZThtX2JPMXNwT0lRbVpQRmpfZEpOeWE0cDVmTmNFYzloR3FPdlkwRGV0YmVsS05FWHc?oc=5",
+      "publishedAt": "2026-06-13T09:14:03.000Z",
+      "titleEn": "Anthropic Restrictions Highlight AI-Crypto Security Risks",
+      "titleZh": "Anthropic 的限制凸显 AI-加密货币安全风险",
+      "abstractEn": "Anthropic Restrictions Highlight AI-Crypto Security Risks  Global Crypto",
+      "abstractZh": "Anthropic 的限制凸显 AI-加密货币安全风险 —— Global Crypto",
+      "authors": [
+        "Global Crypto"
+      ],
+      "institution": "Global Crypto",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435455-html",
+      "slug": "agent-jiuwen-symbiosis",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435455.html",
+      "publishedAt": "2026-06-13T08:11:07.000Z",
+      "titleEn": "Agent终于长出了身体：Jiuwen Symbiosis背后的思考与实践",
+      "titleZh": "Agent终于长出了身体：Jiuwen Symbiosis背后的思考与实践",
+      "abstractEn": "一起构建下一代物理世界的智能系统",
+      "abstractZh": "一起构建下一代物理世界的智能系统",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hrorg:manpower:26ef68c2f107",
+      "slug": "hrorg-manpower-26ef68c2f107",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yX0U0c09KYUc1STJWZ3Fhckd0NlJBUHcxam10X2xrVm05RzdUWHNBSkN2SGpFa0dya3VLeU15c21NRHRtallfUHBmaDJXQ1d0RUxSZnhZWQ?oc=5",
+      "publishedAt": "2026-06-13T07:14:00.000Z",
+      "titleEn": "Hiring outlook strongest in financial services sector in Q3: Poll",
+      "titleZh": "调查显示：第三季度金融服务业招聘前景最为强劲",
+      "abstractEn": "Hiring outlook strongest in financial services sector in Q3: Poll  Focus Taiwan",
+      "abstractZh": "调查显示：第三季度金融服务业招聘前景最为强劲  聚焦台湾",
+      "authors": [
+        "Focus Taiwan"
+      ],
+      "institution": "Focus Taiwan",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:0e2f1d5c2895",
+      "slug": "gnews-0e2f1d5c2895",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUUV1R2hTejN1cWc2eVY1NGVaaXlRcHU1SGZRYUJaSDVmUTFiZy16STQxVmFvNkZFVXY0cG44Z3N6cTlfT2FVbE1kejBXX0YzMlRFQ1NUVzBTOFNNVFVFSGN5UVI4bERYSUVVTUN5VDlVZWdKYjJVaUdiWGpJbV9wVDFCYmo4dlpwMDRVUWozaFBXa0NqeFRxemxCbVRFM1pYX2pCME5ER0pYSWs1OWhIZk1UWjcwNERtaThxb2JZRXViWUtzTmdUckxhQnFYa1dWbWExc29jWEd5TEhsYjVPRU9FNW1ZV0dLMUFicnI3cTJ1amprcjhDdzVzQQ?oc=5",
+      "publishedAt": "2026-06-13T07:09:04.000Z",
+      "titleEn": "OpenAI Reportedly Faces Legal And Regulatory Storm As States Probe AI Safety and Consumer Protections Ahe",
+      "titleZh": "OpenAI 据报面临法律与监管风暴，各州调查 AI 安全与消费者保护",
+      "abstractEn": "OpenAI Reportedly Faces Legal And Regulatory Storm As States Probe AI Safety and Consumer Protections Ahe  Benzinga",
+      "abstractZh": "OpenAI 据报面临法律与监管风暴，各州调查 AI 安全与消费者保护 —— Benzinga",
+      "authors": [
+        "Benzinga"
+      ],
+      "institution": "Benzinga",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:da838c815775",
+      "slug": "gnews-da838c815775",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFtbFdhSUQ4UzlCSTQ3SUtQbVdYUm53cUFiRVpoSWh4R25tbkthM0hCZXctakNTalhIR0ZDUzRmZ0NNQWtraFFIclk4NXd5ckx0eXJ0MWNDYzV0U0VueUozRHN2ZWR2RjBsanQ1aTV6ZVdrU3NzSjg2QlRxZkVUTE9JTWYyYlpkWVBHdS1mRGtCS0xaY0c1QVpLemhIc0ItMHF6M05RdC0wSWtuTUNpWE1vMU4yZENjcVJYaWMtalVuUW84LVRYWFdZREt2c2xZN0JzR0x4T2xnbkp3NXJETlhBZU94X29aMG5LUjdSZTRmQdIB9wFBVV95cUxQRTV0Z0lxa2VBYzRvNkpXN3lweXRfd0JjX0hDVXk5QnZoSWxSYVF1cjZHNHVTS0pOQjNxY25oWWJ2czVZSWRCUWFEZE1VcmxJZUFGVnZ5THgzX3ZuMkYwaEV0WkF2TzFPdDV5WmtIaXk2WG0xcmROWTF3Q2w2MFBfQTUtVVVNM2xpM0QwaTliUGhMTG13LXFtay1uclRzaVdBNVJyOE1hZjFXUU9TN2lCeWdOSHktR3hkNHV3cnJ2V2hVcmtfWDZReG53QjdyQ2Y0SmhURFJvTGo1UktNNUpIaUhJUEdRckY0cmFkd0FpSm5VZmYwV2NR?oc=5",
+      "publishedAt": "2026-06-13T07:08:33.000Z",
+      "titleEn": "Marc Andreessen critiques AI regulation debate after Anthropic model shutdown",
+      "titleZh": "Marc Andreessen 在 Anthropic 模型关闭后批评 AI 监管辩论",
+      "abstractEn": "Marc Andreessen critiques AI regulation debate after Anthropic model shutdown  The Economic Times",
+      "abstractZh": "Marc Andreessen 在 Anthropic 模型关闭后批评 AI 监管辩论 —— The Economic Times",
+      "authors": [
+        "The Economic Times"
+      ],
+      "institution": "The Economic Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48514124",
+      "slug": "hn-48514124-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/vladignatyev/brain-map-skill",
+      "commentUrl": "https://news.ycombinator.com/item?id=48514124",
+      "publishedAt": "2026-06-13T06:43:42.000Z",
+      "titleEn": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+      "titleZh": "Show HN：让你的智能体可视化gbrain和Obsidian的技能",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "v_ignatyev"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 8,
+      "commentCount": 6,
+      "tags": []
+    },
+    {
+      "id": "gnews:242807cd10a8",
+      "slug": "gnews-242807cd10a8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzZkVjI1cU82T05jVjVvU0picG1PaVNwUGJ0T05xaVJSNnpRc1Baek16bWEwOC1kTXJ2TVBjNFd3a2RjR3NxSV9hcDlPN3JaNVgzODZqdlU5YlpUeVRza3RBZWxNSm5GeTlqRl81cEVYSHlPOVpUSml2bzNRVFd0RFo1RHV1bzAyMXhwYVVOVy12dXY5d1NURWVVWlYxUFRyZHRwY0V1YmM1U28?oc=5",
+      "publishedAt": "2026-06-13T06:25:00.000Z",
+      "titleEn": "Mistral AI eyes €3 Bn funding round at €20 Bn valuation amid global AI race",
+      "titleZh": "Mistral AI 在全球 AI 竞赛中寻求 30 亿欧元融资，估值达 200 亿欧元",
+      "abstractEn": "Mistral AI eyes €3 Bn funding round at €20 Bn valuation amid global AI race  Business Review Live",
+      "abstractZh": "Mistral AI 在全球 AI 竞赛中寻求 30 亿欧元融资，估值达 200 亿欧元 —— Business Review Live",
+      "authors": [
+        "Business Review Live"
+      ],
+      "institution": "Business Review Live",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:47cc367e5c59",
+      "slug": "gnews-47cc367e5c59",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbHppUEhwc2RnTHNOTjU3TFlPVVBWQm40Z1FCV0w5dkdmOWVaZ0g4a2xUamVGSVhGZV9TMTM4X2lTa2g1Z0ZtV1AzS05DLUI5MlRFUzAtUUp5N3ZpdVdLX3BZNkxiSHJZX2pUM0NNcG54WGplam1wTVlZSFdSeHFyYnhoVUdxR1g1Zm9pM1NoVGtYOVNhZVkzak5OUVM4VnljN3hacWhualFpRXRpTWFBVHBOdFBCVlk?oc=5",
+      "publishedAt": "2026-06-13T06:14:00.000Z",
+      "titleEn": "Anthropic shuts down newest AI model after U.S. bans foreign use",
+      "titleZh": "美国禁止外国人使用后，Anthropic关闭最新AI模型",
+      "abstractEn": "Anthropic shuts down newest AI model after U.S. bans foreign use  The Washington Post",
+      "abstractZh": "美国禁止外国人使用后，Anthropic关闭最新AI模型  The Washington Post",
+      "authors": [
+        "The Washington Post"
+      ],
+      "institution": "The Washington Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6337ee820ad8",
+      "slug": "gnews-6337ee820ad8",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWng4QjFxLVk5UlRiZDZWbUhhV09seUtKMjRGNFZKdm9rWDUybDVMeUpCdXNURW1NUkRVcTk3aHNZY0JPVmFfZF9wbmhPREtFOTdhV2FKaUJTRzhtb1Jfc0hwblhQSGpMZU9zTXZVQ0o2SV9hZVhYR3dENkg5OW1QaUt2djZ2bWd5b3RpRzZibXB2VnFVazBwQ0hfQkZnMzNGZllxc0hYWGltY19ROVN0V01DYWhoSjd1cm9udlFxWmV0UQ?oc=5",
+      "publishedAt": "2026-06-13T06:00:01.000Z",
+      "titleEn": "South Africa officially withdraws draft AI policy with fake AI sources",
+      "titleZh": "南非正式撤回含有虚假 AI 来源的 AI 政策草案",
+      "abstractEn": "South Africa officially withdraws draft AI policy with fake AI sources  MyBroadband",
+      "abstractZh": "南非正式撤回含有虚假 AI 来源的 AI 政策草案 —— MyBroadband",
+      "authors": [
+        "MyBroadband"
+      ],
+      "institution": "MyBroadband",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f4533a5694f5",
+      "slug": "gnews-f4533a5694f5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmZxYm1YNjhXQUlKcUNVelBIcGs4TlFHN0h2U0lZRy04MjdBbVZaaTZoT2cxMGlSSlVtcWVYLXp3Z3dfb081R3hvakdsRlRDNG1NS3JjcjdNTG9EWmZKYXB4VkRqalFCVFhra0IwYXZXSWtxWUFJQVZWZzBhZWhnYkdjSTVqWHVRMkJRcXFLdXJRRTZBMHpFa1h3?oc=5",
+      "publishedAt": "2026-06-13T06:00:00.000Z",
+      "titleEn": "Spanish minister says AI regulation boosts competitiveness and trust",
+      "titleZh": "西班牙部长称人工智能监管提升竞争力与信任",
+      "abstractEn": "Spanish minister says AI regulation boosts competitiveness and trust  Digital Watch Observatory",
+      "abstractZh": "西班牙部长称人工智能监管提升竞争力与信任 —— Digital Watch Observatory",
+      "authors": [
+        "Digital Watch Observatory"
+      ],
+      "institution": "Digital Watch Observatory",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:6a9765d73703",
+      "slug": "gnews-6a9765d73703",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSXFWREZPUFI5clZ6WGR2bkNXb3hwZnM0NzNTQ2RrOGVpMWJiTEVQZmlJb1pXWGFIVkVucDM1NFJaMGt5X1JscTdKeGpUSmd0MU1ydEVZejBoWE1pVlh3NEF0aGxrZkpzVWttR2hSV3BQcnVhMUVoMXNQbkRiOTRBY2pfYzhUOGJqa1VZXy1DbWRYMTk5RjBKM2w4NDk5aERSN1pmdVFhaVRwZXFqTHJ1ZEZOaHlSU21CZzlnVURB?oc=5",
+      "publishedAt": "2026-06-13T05:58:48.000Z",
+      "titleEn": "Anthropic’s Fable Is Locked Down As US Takes AI Safety Into Its Hands",
+      "titleZh": "Anthropic 的 Fable 被封锁，美国将 AI 安全掌握在自己手中",
+      "abstractEn": "Anthropic’s Fable Is Locked Down As US Takes AI Safety Into Its Hands  Forbes",
+      "abstractZh": "Anthropic 的 Fable 被封锁，美国将 AI 安全掌握在自己手中 —— Forbes",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3761f1ace613",
+      "slug": "gnews-3761f1ace613",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4OHZKQVBSUzJsOVBFQm5KUHJDTGpNazhESVRFS2h3TnV4ZmRRcUJaa0VmT1A0RkNqOEJVZDBaTWM2OFRGc083QVFYSDNCV0NxTEVj?oc=5",
+      "publishedAt": "2026-06-13T05:49:06.000Z",
+      "titleEn": "[Korean Startup Weekly News #122] Beyond the Algorithm : AI Meets Industry",
+      "titleZh": "《韩国初创企业每周新闻 #122》超越算法：AI 遇见产业",
+      "abstractEn": "[Korean Startup Weekly News #122] Beyond the Algorithm : AI Meets Industry  Wowtale",
+      "abstractZh": "《韩国初创企业每周新闻 #122》超越算法：AI 遇见产业 —— Wowtale",
+      "authors": [
+        "Wowtale"
+      ],
+      "institution": "Wowtale",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48513728",
+      "slug": "hn-48513728-shepherds-dog-a-game-by-the-most-dangerous-ai-model",
+      "source": "Hacker News",
+      "sourceUrl": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+      "commentUrl": "https://news.ycombinator.com/item?id=48513728",
+      "publishedAt": "2026-06-13T05:44:46.000Z",
+      "titleEn": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
+      "titleZh": "牧羊犬：由最危险AI模型开发的游戏",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "vnglst"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 89,
+      "commentCount": 71,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435394-html",
+      "slug": "2026-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435394.html",
+      "publishedAt": "2026-06-13T05:19:13.000Z",
+      "titleEn": "2026智源大会开幕：推动AI、物理世界和生命科学“三体互动”",
+      "titleZh": "2026智源大会开幕：推动AI、物理世界和生命科学“三体互动”",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:c15fcaaadd4b",
+      "slug": "gnews-c15fcaaadd4b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUp3aW9IU1RIcFVZX2VNSTJjdnROay1xLXFfelo2Z05Ja0ZQRUMwbmdqekJrREtaLWx6UmI0S2M3aWw3WTlWbU0yUUhlZk4wdFpzSzB2a1JtbXhrbjBiT3NXT0dkNkxZdnI3a2wwOURrLWxlU0VwQ0drUzV2MDhpek9kay02Zk9oV3Rkc2dPQ1BOWjk0WXJzUzNEdEFYX2tWeUNBNmh4eVktaHFzN3dYeXVXS0LSAbQBQVVfeXFMUE1OQW9SWm9Qd1RoU2VXYjFRRjk2MjY4enRGNUJ0STFsWmQ3NC1pNERLRUVqaTE3LS1WZWRDM3dGRzhEcVZLQnhGOUhZUk9nbkJQaHlmX2FHMEFkX2g2Mk9YRVY5ZFFGOVlRdnFlaklad2RIcjNvU3FOMnJWTUdSbGc2VDdaeW9JY2dIaWVfZFNsM0Z1VkxHUV9wQ2JwejdMSnQtN1ZZcE9qUGpDZU1zNUJXU1h3?oc=5",
+      "publishedAt": "2026-06-13T05:06:27.000Z",
+      "titleEn": "US blocks foreign access to Anthropic’s newest AI models over security risks",
+      "titleZh": "美国以安全风险为由阻止外国人访问Anthropic最新AI模型",
+      "abstractEn": "US blocks foreign access to Anthropic’s newest AI models over security risks  South China Morning Post",
+      "abstractZh": "美国以安全风险为由阻止外国人访问Anthropic最新AI模型  South China Morning Post",
+      "authors": [
+        "South China Morning Post"
+      ],
+      "institution": "South China Morning Post",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:57b2261572c4",
+      "slug": "gnews-57b2261572c4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUEg1ZTBqMnhKa2FranJlb2QxUmJEUzNZNFE5SUhvRTBKTU9JeXUzdEdybHZxYWpZN2syVWl3SkR5MXhudERUSVVuRXZvUEdxbWpMRmFPdHdVV0RXTFJvT1hfalF4R29xbnE1c1RFS3hSN3F3V2txX1hjdU9jTkZfT3pYejlVc2JUQ3JLRHp0a29LR0VjWTFKdWZQVmVQUzV2MWI0TG9JUQ?oc=5",
+      "publishedAt": "2026-06-13T04:25:00.000Z",
+      "titleEn": "Anthropic disables Fable and Mythos AI models after U.S. government bars it from giving foreigners access",
+      "titleZh": "美国政府禁止向外国人提供访问权限后，Anthropic禁用Fable和Mythos AI模型",
+      "abstractEn": "Anthropic disables Fable and Mythos AI models after U.S. government bars it from giving foreigners access  Fortune",
+      "abstractZh": "美国政府禁止向外国人提供访问权限后，Anthropic禁用Fable和Mythos AI模型  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:1de158165d11",
       "slug": "gnews-1de158165d11",
@@ -148,6 +495,93 @@
       ]
     },
     {
+      "id": "hn:48512136",
+      "slug": "hn-48512136-show-hn-lead-qualifier-get-leads-qualified-in-minutes",
+      "source": "Hacker News",
+      "sourceUrl": "https://lead.robowrite.ai",
+      "commentUrl": "https://news.ycombinator.com/item?id=48512136",
+      "publishedAt": "2026-06-13T02:36:32.000Z",
+      "titleEn": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+      "titleZh": "Show HN：Lead Qualifier – 数分钟内完成线索资格鉴定",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mehdizare"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 3,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:7a547389d2e4",
+      "slug": "gnews-7a547389d2e4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ0c5cU10TTQ0RVB4aHZRMm5BcFJQaGdDUjJLS2tMVnRLc3NLdUJKRmowZGFpMTNyYXBsQ2VfLUlIT0ZPeVc1THdxRGJqRjgzQThKX2RFLXJsRXFTbVBwMVN4dU9jcWVYVzlTMHQ3ZlBQSHFtNVRCeGdiSmRWRnRXNnZadkVvZDUwN1R4ODhvS1BZTWRpMFBPTjdxT0t3TWhTV0JBd3g4dklodkNXdjBBSEpR?oc=5",
+      "publishedAt": "2026-06-13T02:36:00.000Z",
+      "titleEn": "Anthropic says it has taken its latest AI models offline to comply with new export controls",
+      "titleZh": "Anthropic称已将其最新AI模型下线以遵守新的出口管制规定",
+      "abstractEn": "Anthropic says it has taken its latest AI models offline to comply with new export controls  AP News",
+      "abstractZh": "Anthropic称已将其最新AI模型下线以遵守新的出口管制规定  AP News",
+      "authors": [
+        "AP News"
+      ],
+      "institution": "AP News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cb4700da34ee",
+      "slug": "gnews-cb4700da34ee",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQQ01lZFRpRjA2OFpVY0RUNHhfcXNoV3pNRV9TbUlpRUplUU9WcTA3UzAyR3lwVnFvSTFpU2ZaYTVwNndNY1NFRml3eC1QRnpsMkxBT1I0b0tPcVpjbGhkU2o4QVRCVWE4TGhjbUN6TmZzZ05uOWtvREFaUlptV0FwWnVsemtZYmpnajFROE0yTEIwRkVGSU5HY05OWUNTWnN6VXhiaUhYM2dzaUZab256OG1GS19EYUxRRlJtank1STZITGxlWmFLZGJYM1ZBbFlaNVdhZTVoc1dfNUhkcTZmTExNZnJ2c1E1OUxnSnlGUlVWbmJXN0h4Nk1BVzBPY3Z4YzR6N0hzTll3S2kwTDFsanhUcnBjV3lGU2tLT3BzT2lEU2Y1dnfSAasCQVVfeXFMTTdvdmgweVJNVHVKaXZha19CYlpFQmhMR1c5MUdYdkhZLXV0NFdkSWZhZ0xrNFRKendhckpianVnTHJRR00yZzZkYmVOZ3JkX1JhRDRNUk9lR0dpTDdhU1I1eG02V0JGNjNjM2hXRjhpUmYzS2M2OWhXUUVXZDBNRWpjc0lDMWRQXzA2eURXdUJ2TDN5WG9LNEg4Y2RnV09rWmcweGw3T3lZLTVfRzlCQXA4ZGhkbXV3NHJPU001QmhxVFBUSWVqQVR0eDA3R3dZcWpFb3ZpQlpfUUxGVlFCOW9ibTZxSFhnMUlCazhBeDNHUVZnNC1VS2pmOGlyTjVwaC1OWUd5TEdTM0FyYnN6d1RrZE9hQU03VVV2cUNXMktlYVJNeGpqUkdMMUE?oc=5",
+      "publishedAt": "2026-06-13T02:22:00.000Z",
+      "titleEn": "Jeff Bezos' startup Prometheus does not have any corporate ties with Amazon or Blue Origin; as Bezos says",
+      "titleZh": "Jeff Bezos 的初创公司 Prometheus 与 Amazon 或 Blue Origin 无企业关联；Bezos 表示",
+      "abstractEn": "Jeff Bezos' startup Prometheus does not have any corporate ties with Amazon or Blue Origin; as Bezos says  The Times of India",
+      "abstractZh": "Jeff Bezos 的初创公司 Prometheus 与 Amazon 或 Blue Origin 无企业关联；Bezos 表示 —— The Times of India",
+      "authors": [
+        "The Times of India"
+      ],
+      "institution": "The Times of India",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:38bf2e017eeb",
+      "slug": "gnews-38bf2e017eeb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUW1xY3c4RGtkQ01qQjlNazVoeXNNdDl4SFNKeGlIZFdhQlVTbXpSV05EZ3UzeklyNEJSTXFpUW80Ql9IOTZ6QWxfZzNIbVl6UUVwWWlXXzhhOGNvd0U3Z3kyZktYTThpTDBreTZNNjJvQUlSd3g4ellBeXc2V19aTi1SS3dSbWNlT0VSa1QtRnNjT25ONkNBZ2Y3bnJQM3hTeGc?oc=5",
+      "publishedAt": "2026-06-13T02:16:25.000Z",
+      "titleEn": "Federal government orders Anthropic to pull Fable 5 and Mythos 5, three days after launch",
+      "titleZh": "联邦政府命令 Anthropic 在发布三天后撤回 Fable 5 和 Mythos 5",
+      "abstractEn": "Federal government orders Anthropic to pull Fable 5 and Mythos 5, three days after launch  The New Stack",
+      "abstractZh": "联邦政府命令 Anthropic 在发布三天后撤回 Fable 5 和 Mythos 5 —— The New Stack",
+      "authors": [
+        "The New Stack"
+      ],
+      "institution": "The New Stack",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48511908",
       "slug": "hn-48511908-open-source-ai-must-win",
       "source": "Hacker News",
@@ -188,6 +622,28 @@
       "score": 11,
       "commentCount": 1,
       "tags": []
+    },
+    {
+      "id": "gnews:65e6e90df4c2",
+      "slug": "gnews-65e6e90df4c2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdEFMYlljV2xiMUUtVkNfY21WRGhNNjNuZS1HVUNwYlVScUVHWkRUU3g1VzJZUEVWX3pfWGppYmVLX2xhSVZ4VmtYMVE0Wjd0X0VuaW51b2VIN2RNOGVtbGxLNEhOQjBIclhiMlhmODAzOHJ4ZXExbU1uQnM3NzdnMmxoY1k?oc=5",
+      "publishedAt": "2026-06-13T02:02:42.000Z",
+      "titleEn": "Anthropic suspends latest AI models after US blocks access to foreigners",
+      "titleZh": "美国禁止外国人访问后，Anthropic暂停最新AI模型",
+      "abstractEn": "Anthropic suspends latest AI models after US blocks access to foreigners  Financial Times",
+      "abstractZh": "美国禁止外国人访问后，Anthropic暂停最新AI模型  Financial Times",
+      "authors": [
+        "Financial Times"
+      ],
+      "institution": "Financial Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "hn:48511773",
