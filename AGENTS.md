@@ -16,6 +16,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 2. **引入 vitest 单测框架 + date/dedupe/toc 回归护栏（verify 第五关）**：装 `vitest`（devDep），加 `npm test`(=`vitest run`)/`test:watch` 脚本与根目录 `vitest.config.ts`（`include: app/**/*.test.ts + scripts/**/*.test.js`、`environment:node`、`globals:false`——刻意不开全局/不改 tsconfig types，否则 next build 的 `**/*.ts` 类型检查会因缺全局类型失败）。v1 只覆盖 3 个**历史事故**纯逻辑模块，断言锁死真实坑：**date**——`2026-06-04T20:30Z` 经 `getDateKey` 须得北京 `2026-06-05` 非 UTC `06-04`（"今天只 3 条"根因）；**dedupe**——`isJunkTitle('6/9/2026')`、同实体高相似并簇(dupCount≥2)/同公司异闻不并(守保守阈值)、代表条优先(tldrZh>非Google)；**toc**——H2+紧跟英文 H3 副标题不重复、相同双语标题折叠("目录/Contents 错乱"事故）。共 26 个 `it`。`verify.sh` 在「③ validate-data」后、「双构建」前插「④ 单元测试 `npx vitest run`」（双构建顺延⑤），CI 仍只调 `verify.sh`（守单一关卡）、ci.yml 的 paths 触发列表补 `vitest.config.ts`。测试文件与源码同目录、顶部显式 `import {describe,it,expect} from 'vitest'`；out/ 不会把 *.test.* 当路由。**坑**：validate-data.js 的 C1「UTC 分组坑」扫描是对 `app/**/*.ts` 原文做子串匹配（含 *.test.ts、连注释文本也算）——测试里要造日期键别裸用 `toISOString().slice(0,10)`，一律走 `getDateKey`，注释里也别写出该字面量。
 
+4. **明确「执行保证」边界（软规则 vs 硬关卡）**：在〈开发工作流〉加〈执行保证〉小节——CI/verify 是唯一对代码合并必然生效的硬闸；任务分流/派 agent/走全流程都是**软规则**（靠主会话读 AGENTS.md 后遵守，无外部系统能审计"是否真调用了 agent 军团"）。重任务走全流程是约定、主会话主动守；用户可一句「这个走完整流程」强制升级。澄清动机：避免把"写进文档"误当成"机械保证执行"。
+
 3. **每日推送内容增强（头条简介 + 几条标题）**：新增 `scripts/build-push-digest.js`（纯函数 `buildDigest(articles,now,windowHours)` + IO 包装），**Bark 与 Web Push 共用同一摘要**（消除原 Bark 标题逻辑写死在 YAML、Web Push 仅"新增 N 条"的不一致）。输出协议：第 1 行=标题(`📰 CyberFocus · 新增 N 条`)、其余=正文（头条 `📌 标题` + 一句话 `tldrZh`（仅 ~1/3 覆盖，有则放无则退回多放标题）+ `• 标题`×3 + `…等共 N 条`）。高价值源(各实验室官博)优先。workflow 两步均 `OUT=$(node scripts/build-push-digest.js)`→`head -1`取标题、`tail -n +2`取多行正文。默认窗口 3.5h（匹配批次）。
 
 ### 2026-06-10
@@ -69,6 +71,14 @@ This version has breaking changes — APIs, conventions, and file structure may 
 5. **统一关卡**：本地 `npm run verify` 与 CI 跑同一个 `scripts/verify.sh`（scripts 语法 / YAML / `validate-data.js` 数据+坑扫描 / 单元测试(vitest) / 双构建）。其中第五关「单元测试」= `npx vitest run`，护 date/dedupe/toc 三个纯逻辑痛点（顺序在 validate-data 之后、双构建之前，失败即非零退出不再跑构建）。新坑修复后**必须**在 validate-data.js 加防回归扫描（或对纯逻辑模块补 *.test.ts）+ 写进本文档。
 6. **完工三件套**：自验输出贴在返回里；新坑写入 AGENTS.md；改 SW 记得 bump 缓存版本。
 7. **后台 agent 跑长任务可能撞会话额度中止**（2026-06-10 哨兵 v1 实锤）：task-notification 会显示 `completed`，但 result 是额度提示——它常停在「代码写完、未自验、未提交」的半成品节点。**绝不直接合半成品**：主会话接管时先 `git status` + 实跑 + `npm run verify` 核对 worktree 真实状态，补做全部验证、把测试污染的 state 清成干净种子，再提交+PR。所以派 dev agent 务必 **worktree 隔离**，中止也不污染主检出。
+
+### 执行保证：哪些是硬的、哪些靠自觉（别高估"写下来"= "必然执行"）
+> 本规则**自动加载**（`CLAUDE.md` 只含 `@AGENTS.md`，每次会话开场拉入；跨会话由记忆 `cyberfocus-dev-workflow.md` 兜底）。但"加载了"≠"机械保证执行"，必须分清两类：
+
+- **硬关卡（机器强制、绕不过）**：只有 **CI / `verify`**——代码不过双构建+校验+单测，PR 就合不进 main。这是唯一对每次代码合并**必然生效**的闸。
+- **软规则（靠主会话读了照做）**：上面的「任务分流 / 派哪个 agent / 走不走全流程」全是软规则。**没有任何外部系统能审计"主会话到底有没有调用 agent 军团"**——派 agent 是对话里的编排行为，不落进代码、不留痕，CI 也看不见。
+- **由此的两条作业纪律**：① **重任务**（新功能/重构/多文件）走全流程是**约定**，主会话应主动遵守、不得图省事跳过；②**任务分流的判断是主会话做的**，用户随时可一句「这个走完整流程」**强制升级**，覆盖主会话的轻/重判定。
+- **认知边界**：想要"每个需求都 100% 机械地过完整军团"——技术上做不到（CI 管代码进 main，管不了对话编排）。能保证的上限 = 规则清晰自动加载 + CI 硬卡代码质量 + 主会话守约定 + 用户可随时强制升级。
 
 ### superpowers 等 skill 与本 6 角色的关系（2026-06-11 评估，避免误用）
 - **skill 是「方法」，6 角色是「分工」，正交**：skill 不替代角色，是角色/主会话采用的工作方法。
