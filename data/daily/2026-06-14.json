@@ -1,0 +1,473 @@
+{
+  "date": "2026-06-14",
+  "generatedAt": "2026-06-13T21:16:49.452Z",
+  "summary": {
+    "aiNews": [
+      "Anthropic 因美国禁令撤回最先进AI模型，涉及安全担忧与出口限制。",
+      "MENA地区初创公司5月融资增长202%，达4.547亿美元，显示AI投资热度。",
+      "警察因在多起案件中使用AI‘制造证据’被调查，引发伦理争议。"
+    ],
+    "papers": [],
+    "hrOrgs": [
+      "Mercer调查显示：AI被视为合作伙伴而非决策者，强调人机协作。"
+    ]
+  },
+  "articles": [
+    {
+      "id": "hn:48521279",
+      "slug": "hn-48521279-llms-arent-conscious-and-thinking-they-are-is-culturally-dangerous",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theintrinsicperspective.com/p/dont-dethrone-consciousness",
+      "commentUrl": "https://news.ycombinator.com/item?id=48521279",
+      "publishedAt": "2026-06-13T20:47:07.000Z",
+      "titleEn": "LLMs aren't conscious (and thinking they are is culturally dangerous)",
+      "titleZh": "LLM并不具备意识（认为它们有意识在文化上是危险的）",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "momentmaker"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:dee5aeb466c4",
+      "slug": "gnews-dee5aeb466c4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrdm8xMWZpaWZlSndEdWxyWUVXZmRBeTRnVHp2dlNGcnZzZ2FKdTFLX2NOamJQREo1X3oyaUZlOWNndnhxWjNkLURKLWFSVEZFb2pnTmx1RXVoR2dHOTY3TERnSQ?oc=5",
+      "publishedAt": "2026-06-13T20:14:08.000Z",
+      "titleEn": "Startup Wrap: MENA startup funding rises 202% to $454.7m in May",
+      "titleZh": "初创公司简报：MENA 地区初创公司融资在 5 月增长 202%，达到 4.547 亿美元",
+      "abstractEn": "Startup Wrap: MENA startup funding rises 202% to $454.7m in May  Arab News PK",
+      "abstractZh": "初创公司简报：MENA 地区初创公司融资在 5 月增长 202%，达到 4.547 亿美元 —— Arab News PK",
+      "authors": [
+        "Arab News PK"
+      ],
+      "institution": "Arab News PK",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b6e6b17c79a5",
+      "slug": "gnews-b6e6b17c79a5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVE81aFNhWUxBT3gybVRXVzFjQTROTjZYbnFFaWdKR2pDVFdLYVpCTmRWZkNQZHNqdDB0WHJFTklDUWp5T1BpenZYYVZIVFVUQ1A4d2E4dXlCX0F1SmRqamc1MEE1LUVRTWd5S2ZMMVIyNXlmbFlyM3B4RzNselo2ZHVpbFFkUTdMenczWFZleUFFSFUwQWxMOE9YUW5DWm9EYmR6SlNHWUJaNHFabWhvZk5qbDM2T2k2?oc=5",
+      "publishedAt": "2026-06-13T20:00:00.000Z",
+      "titleEn": "A GOP revolt over AI is taking shape",
+      "titleZh": "一场共和党对 AI 的反抗正在形成",
+      "abstractEn": "A GOP revolt over AI is taking shape  Politico",
+      "abstractZh": "一场共和党对 AI 的反抗正在形成 —— Politico",
+      "authors": [
+        "Politico"
+      ],
+      "institution": "Politico",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48520807",
+      "slug": "hn-48520807-police-officer-investigated-for-using-ai-to-create-evidence-in-multi",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "commentUrl": "https://news.ycombinator.com/item?id=48520807",
+      "publishedAt": "2026-06-13T19:54:55.000Z",
+      "titleEn": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "titleZh": "警察因在多起案件中使用AI‘制造证据’被调查",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "austinallegro"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 28,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "gnews:fe58e56e7d6b",
+      "slug": "gnews-fe58e56e7d6b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaXRnQW9XUHVXMnR2TXo1d1VpV0F4c0dPZ3pCaC02aFk4YUo5RGs5aGJGMEJURDllcGppSjVIei03UHNudkRSOHlWdXM2LVBBbEdaczdTemQ2aEYtaXdWc3Flb1ozeG8ySFoyRGFZUEduSlRBeUFOUzFyaFcwaGVocnowVmZndzN2Ymc?oc=5",
+      "publishedAt": "2026-06-13T19:41:25.000Z",
+      "titleEn": "Trump Blocks Foreigners From Using Anthropic’s Latest AI Tech",
+      "titleZh": "特朗普禁止外国人使用Anthropic的最新AI技术",
+      "abstractEn": "Trump Blocks Foreigners From Using Anthropic’s Latest AI Tech  Mother Jones",
+      "abstractZh": "特朗普禁止外国人使用Anthropic的最新AI技术  《Mother Jones》",
+      "authors": [
+        "Mother Jones"
+      ],
+      "institution": "Mother Jones",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f80163f71a4b",
+      "slug": "gnews-f80163f71a4b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTBINmZMTlZvc1RPNEkyWjk0VkxJY29QRHRtSUpjYTlZNWMtYWJlZkVpMUwxejFzSjVxdU02MHJVS1BKYUtCNkRObWYxTkdsMWJmcF9Bb3VQTnBDZktBenJ2SjFnR2VQUGZhY3RWWXBvWGwyZFNOV250VG5QVm5sTE1fWU4tQXc3enltTUZUWXZuM1pEMTFvSmlNdlEyamFwTFBrdXRkeGFWUjU2eVp4b0ozT3p6bG5JUHNWNV9Hcm1nSjcxbHYyd1NPWHVGNFB0azJmNTFLRWM?oc=5",
+      "publishedAt": "2026-06-13T19:26:30.000Z",
+      "titleEn": "Amazon voiced concerns about Anthropic AI models before US government's crackdown, source says",
+      "titleZh": "消息人士称，在美国政府打压前，亚马逊已对 Anthropic AI 模型表达担忧",
+      "abstractEn": "Amazon voiced concerns about Anthropic AI models before US government's crackdown, source says  Reuters",
+      "abstractZh": "消息人士称，在美国政府打压前，亚马逊已对 Anthropic AI 模型表达担忧 —— 路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4bcd220a6383",
+      "slug": "gnews-4bcd220a6383",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43ODBoREN5MEs1R0lwMURtTGZYQ3l1bmliRmg0dHFLV3E3eGlzdUpDWEwzN3RtalpyOXlZQm5UWWxLMGRKbjgzZlVvSdIBQkFVX3lxTE8yczZCT2hnUm84a0lpNHFxSm1iX1Q5M3dqc19KYUlrSlRSRkw4Mk51Ulo1T3B6RXpPZjFxU3EwOGVWUQ?oc=5",
+      "publishedAt": "2026-06-13T18:09:44.000Z",
+      "titleEn": "AI Startup Alumni Huawei Reaches USD100 Million Valuation",
+      "titleZh": "AI 初创公司 Alumni Huawei 估值达 1 亿美元",
+      "abstractEn": "AI Startup Alumni Huawei Reaches USD100 Million Valuation  VOI.id",
+      "abstractZh": "AI 初创公司 Alumni Huawei 估值达 1 亿美元 —— VOI.id",
+      "authors": [
+        "VOI.id"
+      ],
+      "institution": "VOI.id",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48519780",
+      "slug": "hn-48519780-ask-hn-did-we-witness-the-trinity-moment-for-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48519780",
+      "commentUrl": "https://news.ycombinator.com/item?id=48519780",
+      "publishedAt": "2026-06-13T18:02:39.000Z",
+      "titleEn": "Ask HN: Did we witness the \"Trinity moment\" for AI?",
+      "titleZh": "Ask HN：我们是否见证了AI的‘三位一体时刻’？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "vld_chk"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 16,
+      "tags": []
+    },
+    {
+      "id": "gnews:9500bed0d25f",
+      "slug": "gnews-9500bed0d25f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb3dwQVpWdEY5V28zYjAzTXY2Xzl0MDV2RDRrNTBvNVhYMGlzVzJac3k3SlRTMWh1SnpsNDJ4M0pTRXRZclkxNng0WTdCMTRLOUJ2ZkNxTE5SNG11SkZWQ3EzNWZvYnFOYVFrdmRhWGlJcGpIY0htUjVXQXFlSHM1bg?oc=5",
+      "publishedAt": "2026-06-13T17:50:17.000Z",
+      "titleEn": "Anthropic Pulls Its Most Powerful AI Models After U.S. Bars Foreign Access",
+      "titleZh": "Anthropic 在美国禁止外国访问后撤回其最强大的 AI 模型",
+      "abstractEn": "Anthropic Pulls Its Most Powerful AI Models After U.S. Bars Foreign Access  Time Magazine",
+      "abstractZh": "Anthropic 在美国禁止外国访问后撤回其最强大的 AI 模型 ——《时代》杂志",
+      "authors": [
+        "Time Magazine"
+      ],
+      "institution": "Time Magazine",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:68f412f8b234",
+      "slug": "gnews-68f412f8b234",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNUhUV250U2xkTVNyLWVOTW45WUw0bW5lRlhkdnlGc1g4VW1EclRMdlV0RlBxV1lwLU9tQ25Za0Y1NlVpa1Yzcm5fWmlWNGxuZHJ2SlVDeUdFeGxyd2NlRzZJSVdhbzNOYTQwQ29xVDRhelEwc0J0U0w5TThlcW5Kd0RzN253SUs2VDFHMUJvVkpKbmhES1UtVHB5OUFpNndSUzJjODlOX0UwVjZwclgyNjM0N2JtYTBtcXJzdFpOZjdjUjlQbngw?oc=5",
+      "publishedAt": "2026-06-13T17:44:00.000Z",
+      "titleEn": "'It's not a jailbreak' — Research leading to U.S. export restrictions on top Anthropic models was for defense, cybersecurity CEO says",
+      "titleZh": "这不是越狱——导致美国对顶级 Anthropic 模型实施出口限制的研究是为了防御，网络安全 CEO 表示",
+      "abstractEn": "'It's not a jailbreak' — Research leading to U.S. export restrictions on top Anthropic models was for defense, cybersecurity CEO says  Fortune",
+      "abstractZh": "这不是越狱——导致美国对顶级 Anthropic 模型实施出口限制的研究是为了防御，网络安全 CEO 表示 ——《财富》杂志",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48519519",
+      "slug": "hn-48519519-pwc-report-ai-making-medical-bills-higher",
+      "source": "Hacker News",
+      "sourceUrl": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48519519",
+      "publishedAt": "2026-06-13T17:39:14.000Z",
+      "titleEn": "PwC Report: AI Making Medical Bills Higher",
+      "titleZh": "普华永道报告：AI导致医疗费用上涨",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "karakoram"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 52,
+      "commentCount": 12,
+      "tags": []
+    },
+    {
+      "id": "hn:48519092",
+      "slug": "hn-48519092-amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropi",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "commentUrl": "https://news.ycombinator.com/item?id=48519092",
+      "publishedAt": "2026-06-13T16:57:49.000Z",
+      "titleEn": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "titleZh": "亚马逊CEO与美国官员会谈引发对Anthropic模型的打压",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ls612"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 322,
+      "commentCount": 253,
+      "tags": []
+    },
+    {
+      "id": "hn:48518969",
+      "slug": "hn-48518969-ai-coding-at-home-without-going-broke",
+      "source": "Hacker News",
+      "sourceUrl": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48518969",
+      "publishedAt": "2026-06-13T16:45:03.000Z",
+      "titleEn": "AI coding at home without going broke",
+      "titleZh": "在家进行AI编程，无需倾家荡产",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "sbochins"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 169,
+      "commentCount": 162,
+      "tags": []
+    },
+    {
+      "id": "gnews:939f2334fc62",
+      "slug": "gnews-939f2334fc62",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
+      "publishedAt": "2026-06-13T16:28:38.000Z",
+      "titleEn": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears",
+      "titleZh": "Anthropic 的 Claude Fable 5 和 Mythos 5 AI 因安全担忧被暂停",
+      "abstractEn": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears  BBC",
+      "abstractZh": "Anthropic 的 Claude Fable 5 和 Mythos 5 AI 因安全担忧被暂停 —— BBC",
+      "authors": [
+        "BBC"
+      ],
+      "institution": "BBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48518776",
+      "slug": "hn-48518776-us-ban-on-mythos-is-related-to-a-jailbreak-research-by-amazon-resear",
+      "source": "Hacker News",
+      "sourceUrl": "https://timesofindia.indiatimes.com/technology/tech-news/us-ban-on-anthropics-fable-5-and-mythos-5-has-amazon-link-researchers-from-amazon-used-a-series-of-prompts-to-/articleshow/131701361.cms",
+      "commentUrl": "https://news.ycombinator.com/item?id=48518776",
+      "publishedAt": "2026-06-13T16:27:10.000Z",
+      "titleEn": "US ban on Mythos is related to a jailbreak research by Amazon researchers",
+      "titleZh": "美国对Mythos的禁令与亚马逊研究人员的越狱研究有关",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "maxloh"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 6,
+      "tags": []
+    },
+    {
+      "id": "gnews:a4eb415043f9",
+      "slug": "gnews-a4eb415043f9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZTBNcDQ2QkhoNF82MkZNVFUwelE4Y0FyckJ5OEtIMlBadnlQNXZQS3dFTEtFNWxxWE9GZUxNMEU2RFdkd3dnYUdSMmlobWhzLUtjcGNYbXZ5WkVuQ3lDRkdhVXVpZjRXa0g4ZUxEVnpFWF8yWWdHUlZJWjlVMWQ3UEFqRVg?oc=5",
+      "publishedAt": "2026-06-13T16:15:00.000Z",
+      "titleEn": "Anthropic Pulls New AI Models. What It Means for an IPO.",
+      "titleZh": "Anthropic 撤回新 AI 模型。这对 IPO 意味着什么？",
+      "abstractEn": "Anthropic Pulls New AI Models. What It Means for an IPO.  Barron's",
+      "abstractZh": "Anthropic 撤回新 AI 模型。这对 IPO 意味着什么？——《巴伦周刊》",
+      "authors": [
+        "Barron's"
+      ],
+      "institution": "Barron's",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:92adf9e84d64",
+      "slug": "gnews-92adf9e84d64",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbXpnd2Nza0UxRnhuc1E1THB4NFNsbWVKM1JIRHJ3S3p4NWJxU0pSSEJpOWdEbFR2bWRYbjU3ZUc4QzJvQW5mbXNDR0NxTnRhMlN1SS1sTXNoRmVPbi1pSXRHczNPb2VMYktYN0YtQTdUN1VpZUpET0FsWTZoYWFhZVRjX013bXpVeW44TA?oc=5",
+      "publishedAt": "2026-06-13T15:34:18.000Z",
+      "titleEn": "Jeff Bezos’ Prometheus Just Raised $12B to Rebuild Engineering With AI",
+      "titleZh": "杰夫·贝佐斯的 Prometheus 刚刚筹集 120 亿美元，用 AI 重建工程",
+      "abstractEn": "Jeff Bezos’ Prometheus Just Raised $12B to Rebuild Engineering With AI  TTYBrand Africa",
+      "abstractZh": "杰夫·贝佐斯的 Prometheus 刚刚筹集 120 亿美元，用 AI 重建工程 —— TTYBrand Africa",
+      "authors": [
+        "TTYBrand Africa"
+      ],
+      "institution": "TTYBrand Africa",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:d8a5e629c3a2",
+      "slug": "gnews-d8a5e629c3a2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQk5yOW9mbzZSLUg4cFctR3I0UGdGX3RKNkJoUkNjV1NNVTFJX0JqdXBwS0RyREdHV1hnRGljdF9VMHp2THZaZFFJV2JpeXBGdzFXMEhheklRRklMN3hBcC1aaHo3VExsZXowWjFCeDcyQ0k5OW9sM2dmbUp4Nkpkc01TN0RCcUEtU3Ztb1djek5zYU5yRFV2VzktTjE4QnNMV2hXSWJIaWpiYVd1UG10Yl9uRWcybUF6OFRmMF9iQTZWN0NadmhGeU9B?oc=5",
+      "publishedAt": "2026-06-13T15:00:29.000Z",
+      "titleEn": "If You Have $10,000 And Want To Bet on AI and Robotics, These Are The Investments I'd Pick",
+      "titleZh": "如果你有1万美元并想押注AI和机器人技术，这些是我会选择的投资",
+      "abstractEn": "If You Have $10,000 And Want To Bet on AI and Robotics, These Are The Investments I'd Pick  24/7 Wall St.",
+      "abstractZh": "如果你有1万美元并想押注AI和机器人技术，这些是我会选择的投资  24/7 Wall St.",
+      "authors": [
+        "24/7 Wall St."
+      ],
+      "institution": "24/7 Wall St.",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:65c14183e206",
+      "slug": "gnews-65c14183e206",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaV8xTnpVa2Z0dG9CaExsSUNCMVQ2Ty1HNlgzaTg0aDQ0bEpGMnU5Q255QnBGNzlOdndyc0JBUXpVV0hpRmdYejNJS0ZMWE53SlNhUDFTOGJzQzFjeXN6bEcydHRwaWFYdHVxRDIxd1JJZnNqbmljbDNGQnN2a256dk1zMHhRZkR2VmZzY0wxbUREY3IxZUNLcGVkSUZLNlh3RkRPbEJLNW1icmc?oc=5",
+      "publishedAt": "2026-06-13T12:37:00.000Z",
+      "titleEn": "Anthropic to disable its most advanced AI models after US order limiting foreign access",
+      "titleZh": "Anthropic将根据美国限制外国访问的命令禁用其最先进的AI模型",
+      "abstractEn": "Anthropic to disable its most advanced AI models after US order limiting foreign access  The Guardian",
+      "abstractZh": "Anthropic将根据美国限制外国访问的命令禁用其最先进的AI模型  《卫报》",
+      "authors": [
+        "The Guardian"
+      ],
+      "institution": "The Guardian",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:0826ef11f2b0",
+      "slug": "gnews-0826ef11f2b0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV1l6R1B2TE1JdnZFR3BxRG5BMVRtOTcxZG1TWXZLa1BKaUlBbFM2VW9CeS1IYmRNa0YwRlFKN3c3dmZoc0tMWnZfT09VckFJT29KYlpISFNGb1dFcHdLczNaaFVJRUJXa084VVlpTkVZakVUMlc2MEtsbkcwVks4ZDFoXzg3NnM2Tm12LTh4c0JIdE8xdV9YWXJkTFg1S3FHcjFBUm5MRnc2NlF5Z0hIUVdBYWh1aGpYcVZxWlpCZEtDRmJRZXZqY05zbjJkWDVXZUV2YzNmNXNmMXc5bEMzOWNKNkRYU2NnTExfOUZPWQ?oc=5",
+      "publishedAt": "2026-06-13T09:00:00.000Z",
+      "titleEn": "Commissioners hear from Center for Appalachian Innovation, consider AI policy",
+      "titleZh": "专员们听取阿巴拉契亚创新中心的意见，并考虑 AI 政策",
+      "abstractEn": "Commissioners hear from Center for Appalachian Innovation, consider AI policy  Logan Daily News",
+      "abstractZh": "专员们听取阿巴拉契亚创新中心的意见，并考虑 AI 政策 ——《洛根每日新闻》",
+      "authors": [
+        "Logan Daily News"
+      ],
+      "institution": "Logan Daily News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:mercer:d3b5c9e2fec8",
+      "slug": "hrorg-mercer-d3b5c9e2fec8",
+      "source": "Mercer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSXJkczMxcjFTTWFkdkhMQjNSZkJ1SXg1X1F5ZHVJVUVadjhtT3c3WkFqZ0RzaXZzU2tuZXRiWDBCTVgyVXN2VmUtb0FyWmFGNzRjbV9DR3BwaWhwUUI3ZmVabk5oZ3JzV24zU09VQmEtYXJTU3dUWngzaDVFUTI0STR0SERMQXJJSFU0?oc=5",
+      "publishedAt": "2026-05-29T07:00:00.000Z",
+      "titleEn": "AI is a partner rather than a decision‑maker, survey shows",
+      "titleZh": "调查显示：AI 是合作伙伴而非决策者",
+      "abstractEn": "AI is a partner rather than a decision‑maker, survey shows  Funds Europe",
+      "abstractZh": "调查显示：AI 是合作伙伴而非决策者  Funds Europe",
+      "authors": [
+        "Funds Europe"
+      ],
+      "institution": "Funds Europe",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    }
+  ]
+}
