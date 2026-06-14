@@ -54,5 +54,54 @@
         "httpCode": "200"
       }
     ]
+  },
+  {
+    "ranAt": "2026-06-14T22:16:39.877Z",
+    "trigger": "piggyback",
+    "checks": [
+      {
+        "id": "C2",
+        "status": "fail",
+        "value": "4/28 静默",
+        "threshold": "高频2天/HR新闻7天/其余14天",
+        "note": "Korn Ferry 已静默 11.8 天（阈值 7 天，最后收录 2026-06-03）；FESCO 已静默 7.8 天（阈值 7 天，最后收录 2026-06-07）；中智咨询 已静默 37.9 天（阈值 7 天，最后收录 2026-05-08）；智联招聘 已静默 7.9 天（阈值 7 天，最后收录 2026-06-06）"
+      },
+      {
+        "id": "C3",
+        "status": "ok",
+        "value": "mercer=31(streak 0) korn-ferry=16(streak 0) fesco-adecco=10(streak 0)",
+        "threshold": "连续 2 批解析 0",
+        "note": "html 官网源解析正常"
+      },
+      {
+        "id": "C5a",
+        "status": "ok",
+        "value": 0,
+        "threshold": "退出码 0",
+        "note": "validate-data 退出码 0"
+      },
+      {
+        "id": "C5b",
+        "status": "fail",
+        "value": "aiNews: 昨日 67 vs 中位 116；papers: 中位数 2 太小跳过；hrOrgs: 昨日 1 vs 中位 8 ⚠️骤降；podcasts: 中位数 0 太小跳过",
+        "threshold": "昨日 < 7天中位数×30%",
+        "note": "板块 hrOrgs 昨日(2026-06-14)新增 1 条，仅为前 7 天中位数 8 的 13%（骤降>70%）"
+      },
+      {
+        "id": "C5c",
+        "status": "ok",
+        "value": null,
+        "threshold": "【一句话叙事】非空",
+        "note": "2026-06-14.md 叙事 OK（本周美股三大指数集体收涨，SpaceX IPO 首日表现亮眼成为市场焦点，同时美…）"
+      },
+      {
+        "id": "C6",
+        "status": "fail",
+        "value": 43,
+        "threshold": "≥50%（仅记周报）",
+        "note": "近 24h 可抓新闻 14 条，tldr 覆盖 6 条（43%）"
+      }
+    ],
+    "alertsSent": []
   }
 ]

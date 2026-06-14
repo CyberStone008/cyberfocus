@@ -1,16 +1,103 @@
 {
   "date": "2026-06-15",
-  "generatedAt": "2026-06-14T21:13:13.572Z",
+  "generatedAt": "2026-06-14T22:12:25.927Z",
   "summary": {
     "aiNews": [
-      "KPMG关于AI的报告被发现充斥AI幻觉，引发对专业机构AI应用可靠性的质疑。",
-      "Anthropic员工将与白宫官员会面，讨论AI安全限制措施，反映监管压力升级。",
-      "加拿大总理警告美国限制Anthropic模型，凸显过度依赖单一供应商的供应链风险。"
+      "亚马逊警告促使白宫关闭Anthropic的Mythos模型，引发对AI安全监管的争议。",
+      "加拿大总理卡尼警告：美国限制Anthropic模型暴露过度依赖单一供应商的风险。",
+      "印度23家初创公司6月8-13日融资超2.44亿美元，显示AI领域投资活跃。"
     ],
     "papers": [],
     "hrOrgs": []
   },
   "articles": [
+    {
+      "id": "gnews:4129e7f19792",
+      "slug": "gnews-4129e7f19792",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUl9hdGFDek5QV2FZR0RXYi1nanRLR2R5SjJ5Y2tLdDNvdEZQM0tKRlVUbzZkSWh0NTR6bVpxOTk5Tk4wZFRXSF9fc2ZTZlZPQXFJVk9yTjN6T2Z3Yjl5R2swaTRDZmVfOXdfWmV3cG5ZbnV1aGJjalFuNEEzbzJnZjJZUjVBY3BhSFF6UU5pdkRvaHA2TmEtaTVvSHB1d3JPWTV6dl8tbkRqLW11YWxXaDJLc2w?oc=5",
+      "publishedAt": "2026-06-14T21:10:00.000Z",
+      "titleEn": "A warning from Amazon led the White House to shut down Anthropic’s Mythos model",
+      "titleZh": "亚马逊的警告促使白宫关闭 Anthropic 的 Mythos 模型",
+      "abstractEn": "A warning from Amazon led the White House to shut down Anthropic’s Mythos model  Fortune",
+      "abstractZh": "亚马逊的警告促使白宫关闭 Anthropic 的 Mythos 模型  《财富》",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fafafb93ff44",
+      "slug": "gnews-fafafb93ff44",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTGhnNlR6MzAyRFpOdGE1VXFKdFVIZzRRTEJJSGVieUJ1SnFuTVk3OXc2VWpEbU9UZUYzbHQtbzY2Z09lVmRQQ0ZVZVhnS1FBYldmX0hYZFp4YmZHazNtVU9FVFVadVNxV3drN3ZkT2FvdnBFT0F6dWF3REpSOVhhNk03ZlVRQzZjeDROS1lB0gGTAUFVX3lxTE1RQ2VSWVR5OXMtZWVNbE93NzdkMHhWZUpDekNySlJCbFhzclo2ZmY0dE92cVJ0cTJoTF9sRkYzbDBCdDk3NFFoZFgyelBiQWVlc05hTmlYVms5bFAyMEZsQXFsRUNZZktRVEFOZGhIYVVoUl9IZTRYdzBqdU11TnFQMXY4Ukc2M0l3cXZvRWZIMURZMA?oc=5",
+      "publishedAt": "2026-06-14T20:49:00.000Z",
+      "titleEn": "Hegseth, White House allies intensify attacks on Anthropic",
+      "titleZh": "Hegseth 与白宫盟友加大对 Anthropic 的攻击",
+      "abstractEn": "Hegseth, White House allies intensify attacks on Anthropic  The Hill",
+      "abstractZh": "Hegseth 与白宫盟友加大对 Anthropic 的攻击  《国会山报》",
+      "authors": [
+        "The Hill"
+      ],
+      "institution": "The Hill",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:05ebf6718aff",
+      "slug": "gnews-05ebf6718aff",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IRi13SU9GdDlmNGNHT1F3bm1XLVdCanBBemxDVHFCM0RKdFdNZTl5WlptVV9kOTNyR0FkV1dUdi13dHViaEVPaWhQM0tnRW90WnJNQnNYSnlYNnR6Ylc1bUdITHF5ZTVUQk94bQ?oc=5",
+      "publishedAt": "2026-06-14T20:32:34.000Z",
+      "titleEn": "Ahead of G7, Carney says no one country will characterize new world order",
+      "titleZh": "G7 前夕，卡尼称没有哪个国家能单独定义新世界秩序",
+      "abstractEn": "Ahead of G7, Carney says no one country will characterize new world order  CBC",
+      "abstractZh": "G7 前夕，卡尼称没有哪个国家能单独定义新世界秩序  CBC",
+      "authors": [
+        "CBC"
+      ],
+      "institution": "CBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48532178",
+      "slug": "hn-48532178-ai-is-code-and-cant-be-prompted-into-being-smarter",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "commentUrl": "https://news.ycombinator.com/item?id=48532178",
+      "publishedAt": "2026-06-14T20:17:54.000Z",
+      "titleEn": "AI is code – and can't be prompted into being smarter",
+      "titleZh": "AI 是代码——无法通过提示变得更智能",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "wglb"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 6,
+      "commentCount": 0,
+      "tags": []
+    },
     {
       "id": "hn:48531568",
       "slug": "hn-48531568-kpmg-report-on-ai-found-riddled-with-ai-hallucinations",
@@ -164,6 +251,28 @@
       ]
     },
     {
+      "id": "gnews:92bda70988a9",
+      "slug": "gnews-92bda70988a9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaXg5YlFYd1F1Z25jZDRSbVk0QW1BVDNnRlVTbllYT0JfSzAtbzVtMzdLVGdYN1FTN0xrNWRkZTB3RmFxTmZvbFBRZXJSa0hHRGJCSUh2QXJfZFQxZEozZ2JrbE05aDV5c201NEdXbzVlTG9fRjBSelY3QkZEMjhFSdIBhgFBVV95cUxNTzZhRWYwdGZybHEtVm5wVjJITXhBQWlQWV84M0cwUElFcVhmbTZkdmdFZElvbXhYMGhUV1F1ZVZ0YnpjS01FRTBDT2NWdHlOWV9KMDhFUDJEZ3NoQk83dkJ4eE51N2Z1WWNKOGNkVHZOdlgyTnAyYjFvRDZGOUZyeV9la0EwZw?oc=5",
+      "publishedAt": "2026-06-14T17:59:00.000Z",
+      "titleEn": "Senate Democrat agrees with Trump administration on Anthropic model takedown",
+      "titleZh": "参议院民主党人同意特朗普政府对 Anthropic 模型下架的决定",
+      "abstractEn": "Senate Democrat agrees with Trump administration on Anthropic model takedown  The Hill",
+      "abstractZh": "参议院民主党人同意特朗普政府对 Anthropic 模型下架的决定  《国会山报》",
+      "authors": [
+        "The Hill"
+      ],
+      "institution": "The Hill",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:fdfdde019739",
       "slug": "gnews-fdfdde019739",
       "source": "Google AI News",
@@ -272,6 +381,28 @@
       ]
     },
     {
+      "id": "gnews:63d0c7f580dd",
+      "slug": "gnews-63d0c7f580dd",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGY0WVhtT3lJekhQY2ZCZmU5V0c5SmxaTWNaNmJhYzBJVFpWN1R4LTR2ZllVbkJQR0U4UXpwMTJwX0lNUXJqX1dIa0FqbTBlTWFETFYzUDRlcTR2ejd2OUx3aXZycFM1dTJ1LU1GU0luY2djOHlveG9aai1UR213bUtmQnpuTmF5VXpSS3VfSHlqUQ?oc=5",
+      "publishedAt": "2026-06-14T08:51:11.000Z",
+      "titleEn": "Anthropic Customers Seek Refunds After Fable 5 Shutdown",
+      "titleZh": "Anthropic 客户在 Fable 5 关闭后寻求退款",
+      "abstractEn": "Anthropic Customers Seek Refunds After Fable 5 Shutdown  Forbes",
+      "abstractZh": "Anthropic 客户在 Fable 5 关闭后寻求退款  《福布斯》",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:97bcf81e2cfb",
       "slug": "gnews-97bcf81e2cfb",
       "source": "Google AI News",
@@ -307,6 +438,28 @@
         "i-hls.com"
       ],
       "institution": "i-hls.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:940072bb16a6",
+      "slug": "gnews-940072bb16a6",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pazd3bmQyR1N1NUZHTDgxODNGQ2hLTFNRUGVpNl9JUnU3MTNBUks3RHZYSjVWOGJ0WlE4TVZ1dng3ZjNoUGJfLWhGbGQtVnFyRVk2UmI1Wnc5c2FvT3JvZDFsdEJqbzVQZC1Uc0ZWZ0tQMEljMTlwSVBkSXdXX2s?oc=5",
+      "publishedAt": "2026-06-14T05:53:22.000Z",
+      "titleEn": "Anthropic’s $35bn Chip Deal Signals AI’s New Money Race",
+      "titleZh": "Anthropic 350 亿美元芯片交易预示 AI 新一轮资金竞赛",
+      "abstractEn": "Anthropic’s $35bn Chip Deal Signals AI’s New Money Race  Memeburn",
+      "abstractZh": "Anthropic 350 亿美元芯片交易预示 AI 新一轮资金竞赛  Memeburn",
+      "authors": [
+        "Memeburn"
+      ],
+      "institution": "Memeburn",
       "docType": "Blog",
       "category": "social",
       "score": 0,
