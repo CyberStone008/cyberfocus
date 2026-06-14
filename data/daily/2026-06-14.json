@@ -1,18 +1,299 @@
 {
   "date": "2026-06-14",
-  "generatedAt": "2026-06-13T22:06:15.106Z",
+  "generatedAt": "2026-06-14T06:05:49.561Z",
   "summary": {
     "aiNews": [
-      "Anthropic 的 Fable 模型因安全担忧被美国政府暂停，引发 AI 监管新争议。",
-      "亚马逊 CEO 与白宫会谈后，Anthropic 撤回 Fable 和 Mythos 模型，出口限制生效。",
-      "MENA 地区 AI 初创公司 5 月融资增长 202%，达 4.547 亿美元，显示行业热度。"
+      "Anthropic因美国出口管制关闭Mythos模型访问，白宫24小时内施压导致Fable模型暂停。",
+      "Meta终止20亿美元Manus收购案，因中国撤资令，孤立中国AI初创公司。",
+      "特朗普政府与Anthropic重启争端，最新模型遭出口管制，引发法治争议。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Mercer 调查显示：AI 被视为合作伙伴而非决策者，强调人机协作角色。"
+      "Mercer调查显示：AI被视为合作伙伴而非决策者，强调人机协作而非替代。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:13161ba6b3ca",
+      "slug": "gnews-13161ba6b3ca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPbGppelBtWERZVDZRTHFFUVhaTEp5YU5WQ1VsdzlGM1hscmZaRU1LdjlSaWNNLWNDcXZCSDQ0WG5GWDFSejE3aEVCa01zZktIM00tY1Ftbi0zYTgwQ1RvSzB4MVhjanhkWm1QMUdueWhOZ2ZXLTZEZnBBNVVGOTFhck9jTFJFYTgxSmVVVkRZZkZXVUwzZ1hRYldneWlTU2JHMXV2bUtfN09LVjJIQUFub2wwdW9DTHMxRzc0aTY5T3NHUmN0Mnc0WEcySElLSHBuNk8weGpqNjlrSks3Sk84ZXl3eUZxWENLWWFqN1VNakV4dHlEYXd2SHdQSU0zTnBKNERHbllZNjdiX015a203Yk04LXN4UGwwNUNsU1ZYQ2FFdVN4YWdlYzdfaUVwd9IBswJBVV95cUxNdTc0YktRS0VpWHpoRmR4MXllUmNncW1DSkplb0Jra3RBZmtxc0tXbEJNYi02eWJBdlRVNERSQVJ3a28zOWxiRTgxN04xSG1yYmRaRFBTbnJ1dnFlYjhfUmltQnBoa05Cay1rZ0p2U0FVTTVjRGhYLTMzX0ZER2V6d1J4RFctd3ZXdjNrNFVRTTJDUzRhNERVZ2lfM2ZqYXdqN21EQ2FTS2RlazJuUlptQUJNX2M5eTJiLVdfelg5OUt3dzJrOHN0TUpjX3BJeDE2MFFLVTU3UW1ZV3o4UHdVNU5SY2pBTVZHM25VZGpfZnhZeTI4ZDhGVmVkS1ZUR1RBbThHejJIX3hCb1JVQlhsMVBuVDRldDhyV2xOMDJfckhOZFhDbzFZR2stVlVrS3NLNktn?oc=5",
+      "publishedAt": "2026-06-14T03:42:00.000Z",
+      "titleEn": "Meta's highest paid employee Alexandr Wang 'admits' the company's previous AI policy didn't work, says ot",
+      "titleZh": "Meta 薪酬最高员工 Alexandr Wang 承认公司此前 AI 政策未奏效",
+      "abstractEn": "Meta's highest paid employee Alexandr Wang 'admits' the company's previous AI policy didn't work, says ot  The Times of India",
+      "abstractZh": "Meta 薪酬最高员工 Alexandr Wang 承认公司此前的 AI 政策未奏效。来源：The Times of India",
+      "authors": [
+        "The Times of India"
+      ],
+      "institution": "The Times of India",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48523752",
+      "slug": "hn-48523752-making-claude-a-chemist",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "commentUrl": "https://news.ycombinator.com/item?id=48523752",
+      "publishedAt": "2026-06-14T02:55:36.000Z",
+      "titleEn": "Making Claude a Chemist",
+      "titleZh": "让Claude成为化学家",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "gmays"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 18,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "hn:48523664",
+      "slug": "hn-48523664-show-hn-bastion-isolated-linux-vms-for-background-coding-agents",
+      "source": "Hacker News",
+      "sourceUrl": "https://bastion.computer/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48523664",
+      "publishedAt": "2026-06-14T02:38:38.000Z",
+      "titleEn": "Show HN: Bastion – isolated Linux VMs for background coding agents",
+      "titleZh": "Show HN: Bastion – 用于后台编码代理的隔离Linux虚拟机",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "almostlit"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48523341",
+      "slug": "hn-48523341-the-whirlwind-24-hours-that-led-to-export-controls-on-anthropic",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+      "commentUrl": "https://news.ycombinator.com/item?id=48523341",
+      "publishedAt": "2026-06-14T01:37:22.000Z",
+      "titleEn": "The whirlwind 24 hours that led to export controls on Anthropic",
+      "titleZh": "导致Anthropic出口管制的24小时旋风",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ls612"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 15,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "gnews:b3758b5ed34b",
+      "slug": "gnews-b3758b5ed34b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVUFkVjhYalBRZFJXQmQ0SjJ4LS1DV2NRLWNBaHZQcGpPZE1IdFFxa2xXLV9sRDBSN0F3bHNWbXEwWGhwZWZ6R2lJT2YtZ2NSa0ZjSkV2cXcxeXNOSW1kdlhUQlRNNmZHcjRUUDdBck5YNC1Halk2a1l6US1uaXdranQtWHYtNnZTY25Melk5WXJZdkZtTFFMWmpWbnpxcDZTdXg5MzNxZkdZLW1yeFE?oc=5",
+      "publishedAt": "2026-06-14T01:09:00.000Z",
+      "titleEn": "Anthropic shuts down Mythos access after sweeping U.S. order",
+      "titleZh": "Anthropic在美国全面命令后关闭Mythos访问权限",
+      "abstractEn": "Anthropic shuts down Mythos access after sweeping U.S. order  Los Angeles Times",
+      "abstractZh": "Anthropic在美国全面命令后关闭Mythos访问权限  《洛杉矶时报》",
+      "authors": [
+        "Los Angeles Times"
+      ],
+      "institution": "Los Angeles Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:e5820fd74c40",
+      "slug": "gnews-e5820fd74c40",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTzJUS1dyaVZEYXg4d1JCcVJxeDM1NnZjU0lNc25oT3R2ay1GcFlwZlYyTzc3M0Y1blBjOGFFWkV5cGhnU1VuMUxJdmx5TDVEaGxMc3B4UTdYbTRiY2dXeFVYYUdlWHU3R3Rvb0l3emtraHZ0THFrcmpxd3AxSjFaOFhyVERWWlVOODUweEVaS2RvYmpPQ01aVXo1Q1JHUVRCTWFLZVVuMHhCbmVhUnpQREtB?oc=5",
+      "publishedAt": "2026-06-14T01:01:00.000Z",
+      "titleEn": "Meta Begins Dismantling $2 Billion Manus Acquisition Amid Chinese Divestiture Order",
+      "titleZh": "Meta 开始解散 20 亿美元 Manus 收购案，因中国撤资令",
+      "abstractEn": "Meta Begins Dismantling $2 Billion Manus Acquisition Amid Chinese Divestiture Order  IndexBox",
+      "abstractZh": "Meta 开始解散 20 亿美元 Manus 收购案，因中国撤资令。来源：IndexBox",
+      "authors": [
+        "IndexBox"
+      ],
+      "institution": "IndexBox",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:49f23f49c832",
+      "slug": "gnews-49f23f49c832",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWVhzZDAxRnI0OHVIdjk0TDI4UTBsLWN6Mi1ZU2tjZVZtTnNYQ1I2bl81elRjbWtxQTIwSkxSNzhlOGw0YVQ3WVlGYjYwWk1PVVNLS0hjczN5OEVqQXAzNHRheWxJMU8tbnZQTDFxM202ZnNJVC1Oby1zcVQtRk95NWsybw?oc=5",
+      "publishedAt": "2026-06-14T00:41:06.000Z",
+      "titleEn": "Trump Administration Reignites Its Feud With Anthropic Over Latest A.I. Models",
+      "titleZh": "特朗普政府因最新AI模型与Anthropic重启争端",
+      "abstractEn": "Trump Administration Reignites Its Feud With Anthropic Over Latest A.I. Models  The New York Times",
+      "abstractZh": "特朗普政府因最新AI模型与Anthropic重启争端  《纽约时报》",
+      "authors": [
+        "The New York Times"
+      ],
+      "institution": "The New York Times",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f83162215920",
+      "slug": "gnews-f83162215920",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56X1RVRFQyWDhqUThVUzBiTGFWRDV0QWR2YXF5Nmd2dGhZSDRTZng1VngtdjM2U29sYXpxTUlLbmJqVmlrQmlyM2RCVzl2eGRpVWNYd0wzeGhodmEwT2tPcFRGZw?oc=5",
+      "publishedAt": "2026-06-14T00:27:12.000Z",
+      "titleEn": "Meta ends Manus acquisition, isolates Chinese AI startup",
+      "titleZh": "Meta 终止 Manus 收购，孤立中国 AI 初创公司",
+      "abstractEn": "Meta ends Manus acquisition, isolates Chinese AI startup  mezha.net",
+      "abstractZh": "Meta 终止 Manus 收购，孤立中国 AI 初创公司。来源：mezha.net",
+      "authors": [
+        "mezha.net"
+      ],
+      "institution": "mezha.net",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f9d6bca986f7",
+      "slug": "gnews-f9d6bca986f7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDNNRzJOZEh3SDZkN2xfUVh6dVpGQVlsTUdhREl5enFZd0tpckxTekhKT2FkR1o2V2NXeXdkclZ6Z2RRWWZEMlpqSmRtQjNOMlRwdVhIQkNWeDFQZExpVjdkUnNRWExaNlhoSEJaVm1FR0NMZGE3bmtxU2tsQzNlNEtiU3RmLVFRY3M3OURTenBERGZKTi0zd2Z0YWJLY1Ns?oc=5",
+      "publishedAt": "2026-06-14T00:23:04.000Z",
+      "titleEn": "Trump Administration Veers from the Rule of Law in Singling Out Anthropic’s Latest Models",
+      "titleZh": "特朗普政府针对Anthropic最新模型的行为偏离法治原则",
+      "abstractEn": "Trump Administration Veers from the Rule of Law in Singling Out Anthropic’s Latest Models  Cato Institute",
+      "abstractZh": "特朗普政府针对Anthropic最新模型的行为偏离法治原则  《卡托研究所》",
+      "authors": [
+        "Cato Institute"
+      ],
+      "institution": "Cato Institute",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48522763",
+      "slug": "hn-48522763-is-there-a-name-for-the-type-of-comments-agents-add-where-they-leak",
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48522763",
+      "commentUrl": "https://news.ycombinator.com/item?id=48522763",
+      "publishedAt": "2026-06-14T00:04:51.000Z",
+      "titleEn": "Is there a name for the type of comments agents add where they leak the prompt?",
+      "titleZh": "代理泄露提示词时添加的注释类型是否有特定名称？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "xdennis"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 8,
+      "tags": []
+    },
+    {
+      "id": "hn:48522675",
+      "slug": "hn-48522675-state-attorneys-general-are-investigating-openai",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nytimes.com/2026/06/13/technology/states-investigating-openai.html",
+      "commentUrl": "https://news.ycombinator.com/item?id=48522675",
+      "publishedAt": "2026-06-13T23:52:19.000Z",
+      "titleEn": "State Attorneys General Are Investigating OpenAI",
+      "titleZh": "州检察长正在调查OpenAI",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "donohoe"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 52,
+      "commentCount": 3,
+      "tags": []
+    },
+    {
+      "id": "gnews:86852f341412",
+      "slug": "gnews-86852f341412",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRWdYSERUaE8wbE92czFzVUNyeHlyWHlkRjNsX0E1MEU1ZHRVMzNqbjZkZzRxdjNjT0V6dlZkY0hvMmdzMGt2VkRhM25QelhnU0l1QzFER3YxN05zd21aVTh6TG1mcnZndnJMS2ZWMm04OG40WDFWSlMxTHZZUUVGdG85RGtuNHowSlhR?oc=5",
+      "publishedAt": "2026-06-13T23:48:51.000Z",
+      "titleEn": "Anthropic’s Fable 5 Safeguards Were Always A ‘Judgement Call’",
+      "titleZh": "Anthropic的《寓言5》保障措施始终是‘判断性决策’",
+      "abstractEn": "Anthropic’s Fable 5 Safeguards Were Always A ‘Judgement Call’  Forbes",
+      "abstractZh": "Anthropic的《寓言5》保障措施始终是‘判断性决策’  《福布斯》",
+      "authors": [
+        "Forbes"
+      ],
+      "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:90f381a3d34b",
+      "slug": "gnews-90f381a3d34b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdmNyT0lUWmM2aVFRWTFwcjd3QmpMTGtWNnRQd0puTW5rZXhfaEUwRHVKajRveTVtWFNfTWdwLUZDZHlqUTJyVkFheGJaNzZrNF9rSUFXWWN3MDY1YTVaU29MR0JJTGJ6OC00aU9tdVhzLWVSeVZJa2JNTlJaVUdkbE1OUFdSemJ4RGx0SllydzBZRVpQSDlvUUNTSDVaNW00VVBacEJmaS1mWEUwNjFIZHlORk8xWHp5c2pzWGt5OG1QeUZhVWxPQ1pnbzgzd0RrdUdrRC1jVXA?oc=5",
+      "publishedAt": "2026-06-13T23:32:43.000Z",
+      "titleEn": "Inside the whirlwind 24 hours that led the White House to slap export controls on Anthropic",
+      "titleZh": "白宫对Anthropic实施出口管制的24小时旋风内幕",
+      "abstractEn": "Inside the whirlwind 24 hours that led the White House to slap export controls on Anthropic  Politico",
+      "abstractZh": "白宫对Anthropic实施出口管制的24小时旋风内幕  《政客》",
+      "authors": [
+        "Politico"
+      ],
+      "institution": "Politico",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:bd99b00b4795",
       "slug": "gnews-bd99b00b4795",
@@ -27,6 +308,28 @@
         "Forbes"
       ],
       "institution": "Forbes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3fa17edaf7da",
+      "slug": "gnews-3fa17edaf7da",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSG9WVGhXMzE3c05hMTA4SXFkUFlMNFlvNTdQUHdqVUVEZ245TGlYdkRlcThpSG5NQVZYMVh1bkJBS1NncE90RzdId1R3M2Qya1NPcFB5LUg2bHdxdUx2eGd3Mk9KVmFqcFpwNG4wSWZXN2tlLWk5VVlUTUhTR3Fib2Eya1kzN2R0VUZtd2F4eW1VT29BOW9tRQ?oc=5",
+      "publishedAt": "2026-06-13T21:11:25.000Z",
+      "titleEn": "Fable 5 and Mythos 5 remain suspended: \"The ball is in Anthropic’s court\"",
+      "titleZh": "Fable 5 和 Mythos 5 仍处于暂停状态：球在 Anthropic 一方",
+      "abstractEn": "Fable 5 and Mythos 5 remain suspended: \"The ball is in Anthropic’s court\"  The New Stack",
+      "abstractZh": "Fable 5 和 Mythos 5 仍处于暂停状态：球在 Anthropic 一方。来源：The New Stack",
+      "authors": [
+        "The New Stack"
+      ],
+      "institution": "The New Stack",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -570,6 +873,28 @@
         "The Guardian"
       ],
       "institution": "The Guardian",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ca693aa266ab",
+      "slug": "gnews-ca693aa266ab",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTkN3dWlPWlB3X0EwTEtLbTFJUXRENjVIaV9tRG81eThmRWR0TENQNUVKc2RMQUJsd1Z6TjEtUS0zLWtGSWExOVZQQjB4SHh0bDBfbjQwNEwzNFdhVUduSzFIVmgtTkZ6bGxqRVBrSWRzSXBGYUZhZjBpRm15X0l0YUJ5amdKUUJZa0hLM1Nn?oc=5",
+      "publishedAt": "2026-06-13T10:54:17.000Z",
+      "titleEn": "Clamour grows for reforms in UK’s healthcare AI regulation",
+      "titleZh": "英国医疗 AI 监管改革呼声日益高涨",
+      "abstractEn": "Clamour grows for reforms in UK’s healthcare AI regulation  Medical Buyer",
+      "abstractZh": "英国医疗 AI 监管改革呼声日益高涨。来源：Medical Buyer",
+      "authors": [
+        "Medical Buyer"
+      ],
+      "institution": "Medical Buyer",
       "docType": "Blog",
       "category": "social",
       "score": 0,
