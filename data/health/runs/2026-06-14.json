@@ -96,5 +96,26 @@
       }
     ],
     "alertsSent": []
+  },
+  {
+    "ranAt": "2026-06-14T00:00:01.545Z",
+    "trigger": "morning",
+    "checks": [
+      {
+        "id": "C1",
+        "status": "ok",
+        "value": 126,
+        "threshold": "快照存在且 generatedAt ≤ 北京08:00",
+        "note": "generatedAt=2026-06-13T22:06:15.106Z，相对 04:00 主批漂移 126 分钟"
+      },
+      {
+        "id": "C4",
+        "status": "ok",
+        "value": "主站 200+新鲜；Pages 200",
+        "threshold": "200 + 最新3条标题任一命中（网络类两击/逻辑类一击）",
+        "note": "主站与 Pages 均正常"
+      }
+    ],
+    "alertsSent": []
   }
 ]
