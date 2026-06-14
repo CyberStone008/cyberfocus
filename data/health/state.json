@@ -12,13 +12,13 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-14T10:33:07.541Z"
+      "lastSeenAt": "2026-06-14T15:18:26.492Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-13T10:08:53.989Z"
     },
     "Hacker News": {
-      "lastSeenAt": "2026-06-14T06:05:49.595Z"
+      "lastSeenAt": "2026-06-14T15:18:26.492Z"
     },
     "雷锋网": {
       "lastSeenAt": "2026-06-13T05:47:10.671Z"
@@ -172,8 +172,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T14:58:56.306Z",
-      "note": "Korn Ferry 已静默 11.5 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-14T15:22:36.398Z",
+      "note": "Korn Ferry 已静默 11.6 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -181,7 +181,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T14:58:56.306Z",
+      "lastFailedAt": "2026-06-14T15:22:36.398Z",
       "note": "中智咨询 已静默 37.6 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
@@ -199,7 +199,7 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T14:58:56.306Z",
+      "lastFailedAt": "2026-06-14T15:22:36.398Z",
       "note": "FESCO 已静默 7.5 天（阈值 7 天，最后收录 2026-06-07）"
     },
     "C2:智联招聘": {
@@ -208,8 +208,17 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T14:58:56.306Z",
+      "lastFailedAt": "2026-06-14T15:22:36.398Z",
       "note": "智联招聘 已静默 7.6 天（阈值 7 天，最后收录 2026-06-06）"
+    },
+    "C6:tldr-coverage": {
+      "status": "alerting",
+      "firstFailedAt": "2026-06-14T15:22:36.571Z",
+      "lastAlertedAt": null,
+      "lastAlertedDateBJ": null,
+      "resolvedAt": null,
+      "lastFailedAt": "2026-06-14T15:22:36.571Z",
+      "note": "tldr 覆盖率 47% 低于 50%（近 24h 可抓新闻 15 条，tldr 覆盖 7 条（47%））"
     }
   },
   "openIncidents": [
@@ -219,8 +228,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-14T14:58:56.306Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=11.5 threshold=7",
+      "lastSeenAt": "2026-06-14T15:22:36.398Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=11.6 threshold=7",
       "status": "open"
     },
     {
@@ -229,7 +238,7 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-14T14:58:56.306Z",
+      "lastSeenAt": "2026-06-14T15:22:36.398Z",
       "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=37.6 threshold=7",
       "status": "open"
     },
@@ -250,7 +259,7 @@
       "target": "FESCO",
       "severity": "warning",
       "firstSeenAt": "2026-06-14T06:09:58.062Z",
-      "lastSeenAt": "2026-06-14T14:58:56.306Z",
+      "lastSeenAt": "2026-06-14T15:22:36.398Z",
       "evidence": "lastSeenAt=2026-06-07T03:55:38.218Z ageDays=7.5 threshold=7",
       "status": "open"
     },
@@ -260,8 +269,18 @@
       "target": "智联招聘",
       "severity": "warning",
       "firstSeenAt": "2026-06-14T06:09:58.062Z",
-      "lastSeenAt": "2026-06-14T14:58:56.306Z",
+      "lastSeenAt": "2026-06-14T15:22:36.398Z",
       "evidence": "lastSeenAt=2026-06-06T23:46:47.302Z ageDays=7.6 threshold=7",
+      "status": "open"
+    },
+    {
+      "id": "C6-tldr-coverage-mqdxnyqj",
+      "checkId": "C6",
+      "target": "tldr-coverage",
+      "severity": "warning",
+      "firstSeenAt": "2026-06-14T15:22:36.571Z",
+      "lastSeenAt": "2026-06-14T15:22:36.571Z",
+      "evidence": "近 24h 可抓新闻 15 条，tldr 覆盖 7 条（47%）",
       "status": "open"
     }
   ],
@@ -339,7 +358,7 @@
       "podcasts": 0
     },
     "2026-06-14": {
-      "aiNews": 53,
+      "aiNews": 67,
       "papers": 0,
       "hrOrgs": 1,
       "podcasts": 0
@@ -350,7 +369,7 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-14T10:32:57.801Z",
+  "lastFetchConsumedRanAt": "2026-06-14T15:18:15.409Z",
   "netFail": {},
   "barkDeliveries": [
     {
@@ -359,5 +378,5 @@
       "title": "📡 CyberFocus 哨兵周报"
     }
   ],
-  "updatedAt": "2026-06-14T14:58:57.421Z"
+  "updatedAt": "2026-06-14T15:22:36.571Z"
 }

@@ -1,18 +1,233 @@
 {
   "date": "2026-06-14",
-  "generatedAt": "2026-06-14T10:33:07.507Z",
+  "generatedAt": "2026-06-14T15:18:26.455Z",
   "summary": {
     "aiNews": [
-      "中国政府叫停Meta收购中国AI初创公司Manus，双方拟取消交易，涉及20亿美元。",
-      "特朗普政府因最新AI模型与Anthropic重启争端，并实施出口管制，引发法治争议。",
-      "Anthropic暂停新模型访问，印度辩论其AI未来；Claude Fable 5对比GPT 5.5引关注。"
+      "美国各州无视特朗普联邦控制，积极推进AI监管，多州立法势头增强。",
+      "美国政府要求Anthropic阻止全球访问顶级AI模型，引发法国与欧洲担忧。",
+      "中国政府叫停Meta收购中国AI初创公司Manus，双方拟取消交易。"
     ],
     "papers": [],
     "hrOrgs": [
-      "Mercer调查显示：AI被视为合作伙伴而非决策者，强调人机协作而非替代。"
+      "Mercer调查显示：AI被视为合作伙伴而非决策者，强调人机协作角色。"
     ]
   },
   "articles": [
+    {
+      "id": "gnews:54a805968399",
+      "slug": "gnews-54a805968399",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaG5QV2o2NHlIRUVKU3RXUUZGVmw0QzhPQkcxZ2VSMGtPa1BIVGwtenJwSGNPN2g0MEJrWllOMjNnZXUtSU9mVk80TVZjeWI4MTI0eFF3VzBIQzRNSlZBc3d0Y3VKWFE3OTdxVS1JZ2JEdklFWWI2VFRCZmhXa1BPaG5ZSURpeHJZaUpDRENhcVNMWS1qN202LVZNZXdYWkNQVEhMNjZn?oc=5",
+      "publishedAt": "2026-06-14T15:05:02.000Z",
+      "titleEn": "AI Regulation Gains Momentum Across States Amid Federal Pushback",
+      "titleZh": "在联邦阻力下，各州 AI 监管势头渐强",
+      "abstractEn": "AI Regulation Gains Momentum Across States Amid Federal Pushback  GuruFocus",
+      "abstractZh": "在联邦阻力下，各州 AI 监管势头渐强  GuruFocus",
+      "authors": [
+        "GuruFocus"
+      ],
+      "institution": "GuruFocus",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48527817",
+      "slug": "hn-48527817-cloud-based-llm-gold-rush-is-ending",
+      "source": "Hacker News",
+      "sourceUrl": "https://automato.substack.com/p/apple-wwdc-and-the-fable-5-embargo",
+      "commentUrl": "https://news.ycombinator.com/item?id=48527817",
+      "publishedAt": "2026-06-14T14:56:35.000Z",
+      "titleEn": "Cloud-based LLM gold rush is ending",
+      "titleZh": "基于云的 LLM 淘金热即将结束",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "andrewstetsenko"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48527700",
+      "slug": "hn-48527700-no-everyone-is-not-using-ai-for-everything",
+      "source": "Hacker News",
+      "sourceUrl": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "commentUrl": "https://news.ycombinator.com/item?id=48527700",
+      "publishedAt": "2026-06-14T14:44:29.000Z",
+      "titleEn": "No, everyone is not using AI for everything",
+      "titleZh": "不，并非所有人都在用 AI 做所有事",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "yegg"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 4,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48527574",
+      "slug": "hn-48527574-eu-commission-looking-at-practical-consequences-of-anthropic-decisio",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48527574",
+      "publishedAt": "2026-06-14T14:33:11.000Z",
+      "titleEn": "EU Commission looking at practical consequences of Anthropic decision",
+      "titleZh": "欧盟委员会关注 Anthropic 决策的实际影响",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tartoran"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 9,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:eb2063443aa5",
+      "slug": "gnews-eb2063443aa5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVlFMSkdGRlpvcjZHUjh4Wlo0amx3amJsbHpuUVloTUxXcjBQVF9XWUdoRDlEeGtPMlFWTDlKNUFnTUxSLWIwLU9ZZHljTDdjckJoaWpzUWtGa1BjMWxUdWVKM081V1paSmxaVmxSa1ZJdG1pVGhkQ1JGQjFGZDg3M2VlSlZVQk9kRlF4UEI5NjQ5c1djbUJBZ3N0Tm9yZC1BeVdpdjR6UUJ1TjZWaTNmNGNGN2lhQQ?oc=5",
+      "publishedAt": "2026-06-14T14:29:44.000Z",
+      "titleEn": "States press ahead with AI regulation despite Trump's push for federal control (OPENAI:Private)",
+      "titleZh": "尽管特朗普推动联邦控制，各州仍积极推进 AI 监管（OPENAI：私有）",
+      "abstractEn": "States press ahead with AI regulation despite Trump's push for federal control (OPENAI:Private)  Seeking Alpha",
+      "abstractZh": "尽管特朗普推动联邦控制，各州仍积极推进 AI 监管（OPENAI：私有）  Seeking Alpha",
+      "authors": [
+        "Seeking Alpha"
+      ],
+      "institution": "Seeking Alpha",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:586a24d66be2",
+      "slug": "gnews-586a24d66be2",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0JVZ1VmVE9Tam15QlVrVURFYkFKaDRCenItc1JZWGlaakl3ZmhIUVFfbE4yMUhaQmdIUDlHVnJxT1FONWdBWW1ZREFPcHJBQVhIUFdYd28tNEVzSS1FdVZBcGNLdG01bDB3T2p2dnpBSDY1UUV5N3N5dEx3ejZJZk9zNzZxRlhPdnJHYmRPeDlrQzNVMGxSYkg4YUoxQ21lbURBY0ZpczRpSkU3SktvbUxpQdIBuAFBVV95cUxONGMzSmFWQzJhLWV5ckJsX2dXQ2FuVk5rMjQ5dGZjblRVSzNuUU9lRjRMOHRzdGRUQ2RPbGJBMTFmczM3eEZHYVA1bG1vUFVjWkYzQUpMRXN5dmVjV0t3YTJlRlBmbDhmSkZlTXJsSXM4V0pHeDc0cmpBS1ROQkxxcDkzcmFjVjVaOVZwNGhOU3FwNENFZ0g3RzFmaC1maXNjTEQ3TGlZaWhXeU5iWTN4Q1ctRVd6eVNt?oc=5",
+      "publishedAt": "2026-06-14T14:10:01.000Z",
+      "titleEn": "US asks Anthropic to block global access to top AI models: Why it matters",
+      "titleZh": "美国要求 Anthropic 阻止全球访问顶级 AI 模型：为何此事至关重要",
+      "abstractEn": "US asks Anthropic to block global access to top AI models: Why it matters  Al Jazeera",
+      "abstractZh": "美国要求 Anthropic 阻止全球访问顶级 AI 模型：为何此事至关重要  半岛电视台",
+      "authors": [
+        "Al Jazeera"
+      ],
+      "institution": "Al Jazeera",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48527297",
+      "slug": "hn-48527297-kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations",
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48527297",
+      "publishedAt": "2026-06-14T14:01:35.000Z",
+      "titleEn": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "titleZh": "KPMG 因明显幻觉问题撤回 AI 使用报告",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "Brajeshwar"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 26,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:9b9689f86b4d",
+      "slug": "gnews-9b9689f86b4d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU1A2RGdlNnhkaWlCbjZ0Z1NNQjRwakFBOWhoMFpQXzdDbjdKY0E1cWJJRy1JNlEtYzBaUFdqT3l6b1hPSy1pSzM5RXhoTWgtUWNtanhHQlNmTldjejJ2V0hTZTBfYUhPaG9EY1FjYjFCZVF6OXdZUXlubXN4d2x6U1I1dXZIajA3cnV0RzVRTFh4c1J5MTJaT1V6ejlOWm9hYlpWeg?oc=5",
+      "publishedAt": "2026-06-14T12:33:00.000Z",
+      "titleEn": "Doom-mongering Anthropic is reaping what it sowed with AI ban",
+      "titleZh": "危言耸听的 Anthropic 正自食其果：AI 禁令引发的反噬",
+      "abstractEn": "Doom-mongering Anthropic is reaping what it sowed with AI ban  The Telegraph",
+      "abstractZh": "危言耸听的 Anthropic 正自食其果：AI 禁令引发的反噬  《每日电讯报》",
+      "authors": [
+        "The Telegraph"
+      ],
+      "institution": "The Telegraph",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48526193",
+      "slug": "hn-48526193-reinventing-control-theory-one-feature-at-a-time-the-fallacy-of-agen",
+      "source": "Hacker News",
+      "sourceUrl": "https://medium.com/agileinsider/reinventing-control-theory-one-feature-at-a-time-the-fallacy-of-agentic-loops-01dd533615de",
+      "commentUrl": "https://news.ycombinator.com/item?id=48526193",
+      "publishedAt": "2026-06-14T11:22:49.000Z",
+      "titleEn": "Reinventing Control Theory One Feature at a Time: The Fallacy of Agentic Loops",
+      "titleZh": "逐特征重塑控制理论：智能体循环的谬误",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "oddish-tv"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 11,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:b7581ac37ad4",
+      "slug": "gnews-b7581ac37ad4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJJajJBODVxWmRkSGRXVHQyZjlieURWQXJKYUNKN0VWUUo2cXN6d2JhQnc2R3FhZ1lQcmhhNE9OX21STWJEOEF0SWgxQlVKOWdTSW9yRkthTUNRcnpPdG9tNEdEdWl0M19KeldZb3d6VDE0V21udm1RQnJmLUtDQ2lsdjBSb1ZCa0M3QkNiQzR4QkZzZTNvcQ?oc=5",
+      "publishedAt": "2026-06-14T11:18:32.000Z",
+      "titleEn": "These 4 Artificial Intelligence Stocks Have Room to Run Thanks to Anthropic's New Fable Model",
+      "titleZh": "得益于 Anthropic 的新 Fable 模型，这四只人工智能股票仍有上涨空间",
+      "abstractEn": "These 4 Artificial Intelligence Stocks Have Room to Run Thanks to Anthropic's New Fable Model  The Motley Fool",
+      "abstractZh": "得益于 Anthropic 的新 Fable 模型，这四只人工智能股票仍有上涨空间  The Motley Fool",
+      "authors": [
+        "The Motley Fool"
+      ],
+      "institution": "The Motley Fool",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:35d638e9f81a",
       "slug": "gnews-35d638e9f81a",
@@ -93,6 +308,50 @@
         "Mashable"
       ],
       "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:186812088085",
+      "slug": "gnews-186812088085",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdThwU3hjelVwenEwTXR4Nnl5bm4tUFVlVUJmSl9XalAzc0t0bFhBeGhLUy1ndENDemlPNmlxZUdpY09iLWV4dUFIYkY2WnE4OGhESmI1MFVTanI5Nm1KRkVPV0lOcG5mR0ZDVGdBWFJFZUg1VnpTLUZnelhIa1NYVF9NdGpxZ2FPQmNEUU9tdjNvbk8zMFNJRVUxV0MyS1FwUHhzWkljVGozWDZZa3dYc0JDdXF1SEppTE1jOWFRM21wSjZsZDJfdjVVMUNoNS0td0ljQmVvYVpvbVVsVW5HcllJSTFDUm5faUNN?oc=5",
+      "publishedAt": "2026-06-14T07:57:19.000Z",
+      "titleEn": "'The AI war has begun': France and Europe worried as US blocks Anthropic's latest AI model",
+      "titleZh": "AI 战争已经打响：美国封锁 Anthropic 最新 AI 模型引发法国与欧洲担忧",
+      "abstractEn": "'The AI war has begun': France and Europe worried as US blocks Anthropic's latest AI model  Le Monde.fr",
+      "abstractZh": "AI 战争已经打响：美国封锁 Anthropic 最新 AI 模型引发法国与欧洲担忧  《世界报》",
+      "authors": [
+        "Le Monde.fr"
+      ],
+      "institution": "Le Monde.fr",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f4f0890919fb",
+      "slug": "gnews-f4f0890919fb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVkljMDF1blY1bU1xekswX2ZTUGNSREVfTFdRZVl3b2dsZGYtZ3RydnNzbjJOdWV1UkZ4Tk5lU1k2R0Yxam1TOWJIZkJ4X1UzSW9SWGF5OWp4WDNDQXBnLWU1RHNKVEoxZVhVSV82Wlo3cmRUajNKdGFCSjUxN0pjMVlZMXZOY2IwMHc?oc=5",
+      "publishedAt": "2026-06-14T07:13:02.000Z",
+      "titleEn": "SEBI is preparing to make AI part of market regulation",
+      "titleZh": "SEBI 准备将 AI 纳入市场监管体系",
+      "abstractEn": "SEBI is preparing to make AI part of market regulation  Startup Fortune",
+      "abstractZh": "SEBI 准备将 AI 纳入市场监管体系  Startup Fortune",
+      "authors": [
+        "Startup Fortune"
+      ],
+      "institution": "Startup Fortune",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -711,6 +970,28 @@
       ]
     },
     {
+      "id": "gnews:93e30208d991",
+      "slug": "gnews-93e30208d991",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdFdlSzZBNmVhMzk0X21SYjZXZlpmQjJGQlhjV0tBcDUzclhuWmpfcmxiMnU4eWliLS1ZT1k0NUl3d2VHaHBSZWZ4ejgtaC1WZThZTWpranBVdENUT3d5WDYxdndOUlN3MEZfVHBNVXAtMlphZXhaTlJySkRLU3VvZDNPajZOSU5GWEhvV2lHNkU2a2tYZDZXQWxld3FqZw?oc=5",
+      "publishedAt": "2026-06-13T19:18:30.000Z",
+      "titleEn": "Anthropic's Mythos Recall and the White House's Missing AI Safety Playbook",
+      "titleZh": "Anthropic 的 Mythos 召回事件与白宫缺失的 AI 安全行动手册",
+      "abstractEn": "Anthropic's Mythos Recall and the White House's Missing AI Safety Playbook  Tech Policy Press",
+      "abstractZh": "Anthropic 的 Mythos 召回事件与白宫缺失的 AI 安全行动手册  Tech Policy Press",
+      "authors": [
+        "Tech Policy Press"
+      ],
+      "institution": "Tech Policy Press",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:30f305f2755c",
       "slug": "gnews-30f305f2755c",
       "source": "Google AI News",
@@ -925,6 +1206,28 @@
       "score": 169,
       "commentCount": 162,
       "tags": []
+    },
+    {
+      "id": "gnews:4b2adde1c979",
+      "slug": "gnews-4b2adde1c979",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTHJmNV84UGpRM053UWpiLWlMUGo2RS10TVRnSV9Ydmp3N25ydlB2T3U1Rnl0WDdXRHVrMXM2eWcyNXQ5UmFldV9hX3hHQTY2Y1ZmRGVEaHlKNk1TMlpfSmlrQ0xGeWJydloybVB1NHNUdjdlV1dxUENFeV9HeHo3dkpxak5OVHZKdUYxRw?oc=5",
+      "publishedAt": "2026-06-13T16:31:00.000Z",
+      "titleEn": "Anthropic CEO Dario Amodei warned Mythos posed a national security threat. Washington just responded.",
+      "titleZh": "Anthropic CEO Dario Amodei 警告 Mythos 构成国家安全威胁，华盛顿刚刚做出回应",
+      "abstractEn": "Anthropic CEO Dario Amodei warned Mythos posed a national security threat. Washington just responded.  Business Insider",
+      "abstractZh": "Anthropic CEO Dario Amodei 警告 Mythos 构成国家安全威胁，华盛顿刚刚做出回应  Business Insider",
+      "authors": [
+        "Business Insider"
+      ],
+      "institution": "Business Insider",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
     },
     {
       "id": "gnews:939f2334fc62",
