@@ -1,11 +1,11 @@
 {
   "date": "2026-06-14",
-  "generatedAt": "2026-06-14T06:05:49.561Z",
+  "generatedAt": "2026-06-14T10:33:07.507Z",
   "summary": {
     "aiNews": [
-      "Anthropic因美国出口管制关闭Mythos模型访问，白宫24小时内施压导致Fable模型暂停。",
-      "Meta终止20亿美元Manus收购案，因中国撤资令，孤立中国AI初创公司。",
-      "特朗普政府与Anthropic重启争端，最新模型遭出口管制，引发法治争议。"
+      "中国政府叫停Meta收购中国AI初创公司Manus，双方拟取消交易，涉及20亿美元。",
+      "特朗普政府因最新AI模型与Anthropic重启争端，并实施出口管制，引发法治争议。",
+      "Anthropic暂停新模型访问，印度辩论其AI未来；Claude Fable 5对比GPT 5.5引关注。"
     ],
     "papers": [],
     "hrOrgs": [
@@ -13,6 +13,116 @@
     ]
   },
   "articles": [
+    {
+      "id": "gnews:35d638e9f81a",
+      "slug": "gnews-35d638e9f81a",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYU5pSkxLOVBaRm5jbGVFQW5xbU9JV3NfRUNramFyUEg3QU85bDB0Y2gwSVVIY0xBN0FXaThoQ1d0YVpfTVI1bjB2UjlGWWhTdlpnY21DOWdvZnBRT1NPOFNmTnVTSVQ0ZTYzNVhJSmFNV2hLX1FVejQzRU1PcTBhVEdfMEVZc0hwYXhnelFBZENlZmRmY29wX1I1dlFUX1k1d0lyckIwLXdsOVdGeU8tZ21oZFdJZw?oc=5",
+      "publishedAt": "2026-06-14T10:00:00.000Z",
+      "titleEn": "The pitfalls facing the bipartisan AI regulation bill",
+      "titleZh": "两党 AI 监管法案面临的陷阱",
+      "abstractEn": "The pitfalls facing the bipartisan AI regulation bill  Washington Examiner",
+      "abstractZh": "两党 AI 监管法案面临的陷阱  Washington Examiner",
+      "authors": [
+        "Washington Examiner"
+      ],
+      "institution": "Washington Examiner",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:42d9c9e0f336",
+      "slug": "gnews-42d9c9e0f336",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcGhoZlRxd3hGQi1KZzhpRkZsT0FBTGFaeVZDSzVoRU50b29GN0x1MlZDWEFGcklNZXVGNTFVM1oyNnBZejBHY3FVQ1BsSExXOHV4VF9ZTFJ5emNhVTV6WEhzTFN6S2NVbjFkQS1LUnBNSkUydVlCYzAxR0RRNDFnTGEwLTUzUdIBkwFBVV95cUxNRUdPUk10OE9kTWZ4V1YzS3NjQVJoQ2FRdjY2dUFoYlFZbDZvcGNlMHFPOGpuVXNrcFZTNEktRWRyQ3FZTW5XOVBFbGUwNkJNUWtZUFNGak1ReXFVdHREdTk0VzY3ZTZjRjVMNC1pRHpiaElSQTlHWTN4ajV2eTRiNGpST1lhVjQzZmRUYVdUTXJBRzA?oc=5",
+      "publishedAt": "2026-06-14T09:30:00.000Z",
+      "titleEn": "Artificial Intelligence (AI): 70 years in the making",
+      "titleZh": "人工智能（AI）：70年发展历程",
+      "abstractEn": "Artificial Intelligence (AI): 70 years in the making  EdexLive",
+      "abstractZh": "人工智能（AI）：70年发展历程  EdexLive",
+      "authors": [
+        "EdexLive"
+      ],
+      "institution": "EdexLive",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:31d945c976d0",
+      "slug": "gnews-31d945c976d0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU1Jac2ltWl9ZR0JmaVV0NGEtUE9VMWJGZjlXaGxTcHExNDA0M1gwN0RpdnZwc3g2ZzRMSGtWa0xrcGs2UFh6amF1SDlEVjQ4Ri1wR1pVeDNLT1NCNWo1TE5zWW9tOGt2UzVLSWRMUjAzbWUtdHI3RHFEeVFHalkxVUlVM1hIdWdSdnhoVUZyWQ?oc=5",
+      "publishedAt": "2026-06-14T09:07:25.000Z",
+      "titleEn": "Trump tried to block state AI regulations, but some states are forging ahead",
+      "titleZh": "特朗普试图阻止各州 AI 法规，但一些州仍在推进",
+      "abstractEn": "Trump tried to block state AI regulations, but some states are forging ahead  Yahoo",
+      "abstractZh": "特朗普试图阻止各州 AI 法规，但一些州仍在推进  Yahoo",
+      "authors": [
+        "Yahoo"
+      ],
+      "institution": "Yahoo",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:42914d3d7544",
+      "slug": "gnews-42914d3d7544",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ENkVmNkswcWNpaWJhSGFucVpaM19FOU9pZHd3SF9EYVlLTmxRRUhvcTUtWVNFcmNHdTRickxvaFE1RkpNZzdZRlBmVDB1NVJ4QWcxVEJaZUNuWGRnQVlLcjRyTll4UU9CMEE1VHBnVVVZZVRzOUxj?oc=5",
+      "publishedAt": "2026-06-14T09:00:00.000Z",
+      "titleEn": "Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned one and not the other?",
+      "titleZh": "Claude Fable 5 对比 GPT 5.5：这就是特朗普政府封禁一个而非另一个的原因吗？",
+      "abstractEn": "Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned one and not the other?  Mashable",
+      "abstractZh": "Claude Fable 5 对比 GPT 5.5：这就是特朗普政府封禁一个而非另一个的原因吗？  Mashable",
+      "authors": [
+        "Mashable"
+      ],
+      "institution": "Mashable",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:62f2156e085f",
+      "slug": "gnews-62f2156e085f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0xoNXZXT0xqRmlOWnJVcmN6ODZBNFlCamo2WjE3dllEQUIyaGczemY3TWhRVDF2TUpJMm13TDB5ZURiZ3NvRFp6SUZMczNEQm1nSEJrNkFaZEdvRTJwZHJXN1dIeXNWOEZQVlZEMkNYT1V3RlBlb2V4a19ta2NvSE12d2paaTA?oc=5",
+      "publishedAt": "2026-06-14T06:00:00.000Z",
+      "titleEn": "The Chinese government has put a stop to Meta's acquisition of Manus, a prominent AI startup from China, and reports indicate that both companies are preparing to cancel the acquisition.",
+      "titleZh": "中国政府叫停Meta收购中国知名AI初创公司Manus，双方拟取消交易",
+      "abstractEn": "The Chinese government has put a stop to Meta's acquisition of Manus, a prominent AI startup from China, and reports indicate that both companies are preparing to cancel the acquisition.  GIGAZINE",
+      "abstractZh": "中国政府已叫停Meta对中国知名AI初创公司Manus的收购，报道称双方正准备取消这笔交易。来源：GIGAZINE",
+      "authors": [
+        "GIGAZINE"
+      ],
+      "institution": "GIGAZINE",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
     {
       "id": "gnews:13161ba6b3ca",
       "slug": "gnews-13161ba6b3ca",
@@ -27,6 +137,28 @@
         "The Times of India"
       ],
       "institution": "The Times of India",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5ad9f9359fb0",
+      "slug": "gnews-5ad9f9359fb0",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSzI0NHRjZVk4aVB3UGVVUUtGWWU2amFEaHRCLTlmTnZ0SlhFdkROSFNNUTdyLS0tSWs3Q3d2U3pGSHFsS3M4MHk5cEtoNTFBNUtnWURPMzFQS3BYWnY0VFNPY2ZoRTh6MUxlbWg1QjdmQlBwZDl3OTJJLS04eGFnV3MtcW4wMWhqOThzVUk5Sm9Jc05SSHowTTJTVDl5Y0Z5VnBzZ3FFWV96aFU?oc=5",
+      "publishedAt": "2026-06-14T03:00:00.000Z",
+      "titleEn": "As Anthropic suspends access to new models, India debates its AI future",
+      "titleZh": "Anthropic 暂停新模型访问之际，印度辩论其 AI 未来",
+      "abstractEn": "As Anthropic suspends access to new models, India debates its AI future  Yahoo Finance",
+      "abstractZh": "Anthropic 暂停新模型访问之际，印度辩论其 AI 未来  Yahoo Finance",
+      "authors": [
+        "Yahoo Finance"
+      ],
+      "institution": "Yahoo Finance",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -230,6 +362,28 @@
       "tags": []
     },
     {
+      "id": "gnews:5504227a308e",
+      "slug": "gnews-5504227a308e",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWHpvRmdKUTBiRXhZOEhyTWJkV1RvREhMYWtrU0tkRm1Sdm9Yc2FXZnRfcFc0VWxERTRyMXIwUlhMSUZ0cUM4MDFONUtUX3dIbUNxTTZGakNMY1dET3hjbW9MenZES1pIeWJoTVc3U3dkbHFsU3NsMU1uVUx3WDExS1VZc2JaUVJLaDJxQVBSOWRTUy1qNlJMM2J2OEs4QXlvRExySw?oc=5",
+      "publishedAt": "2026-06-14T00:03:49.000Z",
+      "titleEn": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "titleZh": "据报道 Meta 在北京要求后撤销 20 亿美元 Manus 交易",
+      "abstractEn": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand  TechCrunch",
+      "abstractZh": "据报道 Meta 在北京要求后撤销 20 亿美元 Manus 交易  TechCrunch",
+      "authors": [
+        "TechCrunch"
+      ],
+      "institution": "TechCrunch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48522675",
       "slug": "hn-48522675-state-attorneys-general-are-investigating-openai",
       "source": "Hacker News",
@@ -286,6 +440,28 @@
         "Politico"
       ],
       "institution": "Politico",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4dc25c2e79a3",
+      "slug": "gnews-4dc25c2e79a3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXdCRlBNV1ExT2VkbEpwNnU5aEota2VpRmxYTERCUkdBRFVlZkc5bHhSb3M3elVQZWgzUkhnOVdUb1JfRWQ3Wkh4LW1ETUw1UEp2SWRqRUN6QWt6X1FKbzhpcDhFVnNxVWY2MmYwdTNrOXJIWmlPYzEyWjd5bUp1M0xfMkdsUEhrT2JTQVEtbHZGLXFXdy1kTGZuTXBIQWdvYXVHVHZhbEFHWk0xSEpXb3RxNWJjZHE0?oc=5",
+      "publishedAt": "2026-06-13T21:28:00.000Z",
+      "titleEn": "Anthropic shuts down latest AI models after sweeping US order",
+      "titleZh": "Anthropic 在美国全面命令后关闭最新 AI 模型",
+      "abstractEn": "Anthropic shuts down latest AI models after sweeping US order  AFR",
+      "abstractZh": "Anthropic 在美国全面命令后关闭最新 AI 模型  AFR",
+      "authors": [
+        "AFR"
+      ],
+      "institution": "AFR",
       "docType": "Blog",
       "category": "social",
       "score": 0,
@@ -600,6 +776,28 @@
       "tags": []
     },
     {
+      "id": "gnews:650153b878a3",
+      "slug": "gnews-650153b878a3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRjZSNTRNdXd3dW1rejZQWEI2dnRLRkxjVkR2SHhlRFphOF9tV1h3aEdBMGJDOWpPcUhXdkJwZUFkS29TcDd5ejFHUWlZakFJa2hQNU54cHEyYm9LQS1oWTk4ZEREY1lvX09hSnhHN2Z1cFYwRzhPa2JFOV9CVUVyMDZxVzQyaWZibEtHRE9kQ3FKRk53ZFFOMU5FT3kyYkp2UVh4NGxDYnI?oc=5",
+      "publishedAt": "2026-06-13T18:00:39.000Z",
+      "titleEn": "Here's what Claude Fable 5 means for crypto and DeFi",
+      "titleZh": "Claude Fable 5 对加密货币和 DeFi 意味着什么",
+      "abstractEn": "Here's what Claude Fable 5 means for crypto and DeFi  CoinDesk",
+      "abstractZh": "Claude Fable 5 对加密货币和 DeFi 意味着什么  CoinDesk",
+      "authors": [
+        "CoinDesk"
+      ],
+      "institution": "CoinDesk",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:bc9b046fc3f3",
       "slug": "gnews-bc9b046fc3f3",
       "source": "Google AI News",
@@ -816,6 +1014,28 @@
       ]
     },
     {
+      "id": "gnews:b0f23c3d7171",
+      "slug": "gnews-b0f23c3d7171",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLWR5Qll4TmwtYlVMejkwN1M2UHdIYkg2TjQ1dmNZeGxqRmNhbThTeVVtQUxKdG5aYWdzVzhHWE5GLVRYbHp2YTNEcWk1U0FvYll2QzUtdmxJSENPeEZVc1hKSjB5X1dBWG9VWi1FMW0xMnJTV0d3Q3lRMGlaUFdWMVVZTFpyb1VVRFgzUllNSXFCUTlUSjYzN0RDOVpXUzktT2hsazNHampOd1dmNGRxRk1ET2J1aTZFZlhRSmw0VEg?oc=5",
+      "publishedAt": "2026-06-13T15:25:00.000Z",
+      "titleEn": "Anthropic takes its latest AI models offline to comply with Trump order",
+      "titleZh": "Anthropic 为遵守特朗普命令将最新 AI 模型下线",
+      "abstractEn": "Anthropic takes its latest AI models offline to comply with Trump order  The Independent",
+      "abstractZh": "Anthropic 为遵守特朗普命令将最新 AI 模型下线  The Independent",
+      "authors": [
+        "The Independent"
+      ],
+      "institution": "The Independent",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:e739f7c2f54d",
       "slug": "gnews-e739f7c2f54d",
       "source": "Google AI News",
@@ -851,6 +1071,28 @@
         "24/7 Wall St."
       ],
       "institution": "24/7 Wall St.",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:00537d55ec95",
+      "slug": "gnews-00537d55ec95",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZWdMbUNaYnZtMlRLYnRrZGR4RkRuLV82TndiMF93dWFudDFHSERrZzhtSXpoUFdGWnVuX3BfNFFZaW5FMjhOSEVPN292c1Y0VHI4cXIyNncwS2laOEhrOHlCXzFidTJKenVNZG52TDRybGtDcVhxU2JGZWtZLUpMSG5rLVR6U0ZsOTB3eXhvdGtObklNRkVyaGY0T21kcy1aUmllZlJvb1BLNFUtd09IU2dIY2tteTMtNkU2ZXdB?oc=5",
+      "publishedAt": "2026-06-13T13:42:42.000Z",
+      "titleEn": "Anthropic disables access to top-tier AI models after US ban on foreign use",
+      "titleZh": "Anthropic 在美国禁止外国使用后禁用顶级 AI 模型访问",
+      "abstractEn": "Anthropic disables access to top-tier AI models after US ban on foreign use  France 24",
+      "abstractZh": "Anthropic 在美国禁止外国使用后禁用顶级 AI 模型访问  France 24",
+      "authors": [
+        "France 24"
+      ],
+      "institution": "France 24",
       "docType": "Blog",
       "category": "social",
       "score": 0,

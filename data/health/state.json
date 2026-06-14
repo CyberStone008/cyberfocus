@@ -11,7 +11,7 @@
       "lastSeenAt": "2026-06-10T08:10:51.864Z"
     },
     "Google AI News": {
-      "lastSeenAt": "2026-06-14T06:05:49.595Z"
+      "lastSeenAt": "2026-06-14T10:33:07.541Z"
     },
     "量子位": {
       "lastSeenAt": "2026-06-13T10:08:53.989Z"
@@ -171,8 +171,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T06:09:58.062Z",
-      "note": "Korn Ferry 已静默 11.2 天（阈值 7 天，最后收录 2026-06-03）"
+      "lastFailedAt": "2026-06-14T10:37:12.353Z",
+      "note": "Korn Ferry 已静默 11.4 天（阈值 7 天，最后收录 2026-06-03）"
     },
     "C2:中智咨询": {
       "status": "alerting",
@@ -180,8 +180,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T06:09:58.062Z",
-      "note": "中智咨询 已静默 37.2 天（阈值 7 天，最后收录 2026-05-08）"
+      "lastFailedAt": "2026-06-14T10:37:12.353Z",
+      "note": "中智咨询 已静默 37.4 天（阈值 7 天，最后收录 2026-05-08）"
     },
     "C2:FESCO Adecco": {
       "status": "ok",
@@ -198,8 +198,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T06:09:58.062Z",
-      "note": "FESCO 已静默 7.1 天（阈值 7 天，最后收录 2026-06-07）"
+      "lastFailedAt": "2026-06-14T10:37:12.353Z",
+      "note": "FESCO 已静默 7.3 天（阈值 7 天，最后收录 2026-06-07）"
     },
     "C2:智联招聘": {
       "status": "alerting",
@@ -207,8 +207,8 @@
       "lastAlertedAt": null,
       "lastAlertedDateBJ": null,
       "resolvedAt": null,
-      "lastFailedAt": "2026-06-14T06:09:58.062Z",
-      "note": "智联招聘 已静默 7.3 天（阈值 7 天，最后收录 2026-06-06）"
+      "lastFailedAt": "2026-06-14T10:37:12.353Z",
+      "note": "智联招聘 已静默 7.5 天（阈值 7 天，最后收录 2026-06-06）"
     }
   },
   "openIncidents": [
@@ -218,8 +218,8 @@
       "target": "Korn Ferry",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-14T06:09:58.062Z",
-      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=11.2 threshold=7",
+      "lastSeenAt": "2026-06-14T10:37:12.353Z",
+      "evidence": "lastSeenAt=2026-06-03T02:03:06.567Z ageDays=11.4 threshold=7",
       "status": "open"
     },
     {
@@ -228,8 +228,8 @@
       "target": "中智咨询",
       "severity": "warning",
       "firstSeenAt": "2026-06-10T16:51:27.379Z",
-      "lastSeenAt": "2026-06-14T06:09:58.062Z",
-      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=37.2 threshold=7",
+      "lastSeenAt": "2026-06-14T10:37:12.353Z",
+      "evidence": "lastSeenAt=2026-05-08T00:45:02.180Z ageDays=37.4 threshold=7",
       "status": "open"
     },
     {
@@ -249,8 +249,8 @@
       "target": "FESCO",
       "severity": "warning",
       "firstSeenAt": "2026-06-14T06:09:58.062Z",
-      "lastSeenAt": "2026-06-14T06:09:58.062Z",
-      "evidence": "lastSeenAt=2026-06-07T03:55:38.218Z ageDays=7.1 threshold=7",
+      "lastSeenAt": "2026-06-14T10:37:12.353Z",
+      "evidence": "lastSeenAt=2026-06-07T03:55:38.218Z ageDays=7.3 threshold=7",
       "status": "open"
     },
     {
@@ -259,8 +259,8 @@
       "target": "智联招聘",
       "severity": "warning",
       "firstSeenAt": "2026-06-14T06:09:58.062Z",
-      "lastSeenAt": "2026-06-14T06:09:58.062Z",
-      "evidence": "lastSeenAt=2026-06-06T23:46:47.302Z ageDays=7.3 threshold=7",
+      "lastSeenAt": "2026-06-14T10:37:12.353Z",
+      "evidence": "lastSeenAt=2026-06-06T23:46:47.302Z ageDays=7.5 threshold=7",
       "status": "open"
     }
   ],
@@ -338,7 +338,7 @@
       "podcasts": 0
     },
     "2026-06-14": {
-      "aiNews": 42,
+      "aiNews": 53,
       "papers": 0,
       "hrOrgs": 1,
       "podcasts": 0
@@ -349,8 +349,8 @@
     "korn-ferry": 0,
     "fesco-adecco": 0
   },
-  "lastFetchConsumedRanAt": "2026-06-14T06:05:38.885Z",
+  "lastFetchConsumedRanAt": "2026-06-14T10:32:57.801Z",
   "netFail": {},
   "barkDeliveries": [],
-  "updatedAt": "2026-06-14T06:09:58.257Z"
+  "updatedAt": "2026-06-14T10:37:12.522Z"
 }
