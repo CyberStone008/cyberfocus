@@ -215,5 +215,47 @@
       }
     ],
     "alertsSent": []
+  },
+  {
+    "ranAt": "2026-06-14T14:58:57.422Z",
+    "trigger": "weekly",
+    "checks": [
+      {
+        "id": "C2",
+        "status": "fail",
+        "value": "4/28 静默",
+        "threshold": "高频2天/HR新闻7天/其余14天",
+        "note": "Korn Ferry 已静默 11.5 天（阈值 7 天，最后收录 2026-06-03）；FESCO 已静默 7.5 天（阈值 7 天，最后收录 2026-06-07）；中智咨询 已静默 37.6 天（阈值 7 天，最后收录 2026-05-08）；智联招聘 已静默 7.6 天（阈值 7 天，最后收录 2026-06-06）"
+      },
+      {
+        "id": "C6",
+        "status": "ok",
+        "value": 54,
+        "threshold": "≥50%（仅记周报）",
+        "note": "近 24h 可抓新闻 13 条，tldr 覆盖 7 条（54%）"
+      },
+      {
+        "id": "C7",
+        "status": "ok",
+        "value": 0,
+        "threshold": "受理失败仅入周报",
+        "note": "近 7 天 Bark 受理失败 0 次"
+      },
+      {
+        "id": "WEEKLY",
+        "status": "ok",
+        "value": null,
+        "threshold": null,
+        "note": "周报 Bark HTTP=200"
+      }
+    ],
+    "alertsSent": [
+      {
+        "checkId": "WEEKLY",
+        "target": "weekly-report",
+        "title": "📡 CyberFocus 哨兵周报",
+        "httpCode": "200"
+      }
+    ]
   }
 ]
