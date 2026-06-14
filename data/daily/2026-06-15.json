@@ -1,0 +1,319 @@
+{
+  "date": "2026-06-15",
+  "generatedAt": "2026-06-14T21:13:13.572Z",
+  "summary": {
+    "aiNews": [
+      "KPMG关于AI的报告被发现充斥AI幻觉，引发对专业机构AI应用可靠性的质疑。",
+      "Anthropic员工将与白宫官员会面，讨论AI安全限制措施，反映监管压力升级。",
+      "加拿大总理警告美国限制Anthropic模型，凸显过度依赖单一供应商的供应链风险。"
+    ],
+    "papers": [],
+    "hrOrgs": []
+  },
+  "articles": [
+    {
+      "id": "hn:48531568",
+      "slug": "hn-48531568-kpmg-report-on-ai-found-riddled-with-ai-hallucinations",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cityam.com/kpmg-report-on-ai-found-riddled-with-ai-hallucinations/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48531568",
+      "publishedAt": "2026-06-14T19:23:43.000Z",
+      "titleEn": "KPMG report on AI found riddled with AI hallucinations",
+      "titleZh": "KPMG关于AI的报告被发现充斥着AI幻觉",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "chrisjj"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 7,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "hn:48531211",
+      "slug": "hn-48531211-anthropic-staff-to-meet-white-house-officials-next-week",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48531211",
+      "publishedAt": "2026-06-14T18:58:24.000Z",
+      "titleEn": "Anthropic staff to meet White House officials next week",
+      "titleZh": "Anthropic员工将于下周与白宫官员会面",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mfiguiere"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 14,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "gnews:4d66f28de3ff",
+      "slug": "gnews-4d66f28de3ff",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS1puU0dkYnZwM3RyYlhtV0RfcFFuQnNUVU9fclRwNmViMXF6dVVKTVlfSnFKMUk3MXM4cFV5djRQVGxqMVBGaEFlUFRMYXFiVFJKOTZHWmVHd0pXclVTRTltS3NiVmctVUxYVjNwWHlRMDFGUWdwUmZmVTRJMWk5c1VsamFQNS03MEtITzAtZmx2bG9TcDU5ZkVwcGRQTUxoeTlqVjNSM3lFbDdjcTdQVXVCVlBVMGpCLXc5UU8xeUEtT0JydWRFUlBpaw?oc=5",
+      "publishedAt": "2026-06-14T18:58:00.000Z",
+      "titleEn": "Anthropic, White House officials expected to discuss AI restrictions after safety concerns",
+      "titleZh": "Anthropic与白宫官员预计将在安全担忧后讨论AI限制措施",
+      "abstractEn": "Anthropic, White House officials expected to discuss AI restrictions after safety concerns  The News International",
+      "abstractZh": "Anthropic与白宫官员预计将在安全担忧后讨论AI限制措施  The News International",
+      "authors": [
+        "The News International"
+      ],
+      "institution": "The News International",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:3902a94dcfbf",
+      "slug": "gnews-3902a94dcfbf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPTElaQllES0s4aUZ4VEdoR3NOZ2t0QW1DNUY3Y1Z1Ry1QQ2l0UkVnUGZkZDFmblp6Xy1Qc0c0dnZFdEg1Wm5vanFpd0NfeUdUMGhyUUI4dDFkTUgycl81NkhLc1hLcGFOSENwWDJGQ0dRYTNpSXNIM0ZKcHlvTW9QWnkyZ2RZc2xMbnRNam45a25LaEVuYnJ2WFh1dzRFR3dZYkNFWFQ1bmxYajZab0ZVd25GMFRzYlJDRnhfbDQxbWVuOUtYWDVQaWRCcl84ZHJqS1hmY3lJWk0ya2F5RTh1bTJKMjhya1ZmQWtiVXZRZTBhMVNsdkRWelJrYkI5aE1K?oc=5",
+      "publishedAt": "2026-06-14T18:52:00.000Z",
+      "titleEn": "Canadian PM warns US restrictions on Anthropic show danger of relying too much on American providers",
+      "titleZh": "加拿大总理警告：美国对Anthropic的限制表明过度依赖美国供应商的风险",
+      "abstractEn": "Canadian PM warns US restrictions on Anthropic show danger of relying too much on American providers  Fortune",
+      "abstractZh": "加拿大总理警告：美国对Anthropic的限制表明过度依赖美国供应商的风险  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:5d32e6af95ab",
+      "slug": "gnews-5d32e6af95ab",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPclJDVmhBZG52UUJmRnU1QjJYNWYxZExnUDR5eUI1Uk1URzRQMkV6cHB2TkhVaEczc3lkYWNoOXc5SEsxY0YxdVo3MHRXdE05RlpFeG12TGlmVFFxd01CNnhVZllxd0U2VXlVZFVrWnZYUGRZZDBZelBQNkxvcTZIdi1MOFIwY1BKSDlPeEtocjR1ZThLSENlcHBR?oc=5",
+      "publishedAt": "2026-06-14T18:26:48.000Z",
+      "titleEn": "US order cutting access to Anthropic's AI models sparks criticism",
+      "titleZh": "美国限制访问 Anthropic AI 模型的命令引发批评",
+      "abstractEn": "US order cutting access to Anthropic's AI models sparks criticism  Yahoo",
+      "abstractZh": "美国限制访问 Anthropic AI 模型的命令引发批评  Yahoo",
+      "authors": [
+        "Yahoo"
+      ],
+      "institution": "Yahoo",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ac946b9377b5",
+      "slug": "gnews-ac946b9377b5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vVVcycFJySEg1SG5fcGRaeFF5Ml9rY1Nvdkc3ZXJfeWJycjFFcUt4X3ZuaHpERks1MzJoRThiQkRNZEk5M2s5ZTRoWTRKUFNQamc?oc=5",
+      "publishedAt": "2026-06-14T18:05:18.000Z",
+      "titleEn": "Between June 08 and June 13, 2026, as many as 23 Indian startups from diverse sectors raised over $244 million in funding from investors. These sectors include Robotics, Wealthtec, Quick Commerce, Deeptech, Fitness, Retail, Healthcare, AI, Fintech, EV, M",
+      "titleZh": "2026年6月8日至13日期间，多达23家来自不同领域的印度初创公司从投资者处融资超过2.44亿美元",
+      "abstractEn": "Between June 08 and June 13, 2026, as many as 23 Indian startups from diverse sectors raised over $244 million in funding from investors. These sectors include Robotics, Wealthtec, Quick Commerce, Deeptech, Fitness, Retail, Healthcare, AI, Fintech, EV, M  instagram.com",
+      "abstractZh": "2026年6月8日至13日期间，多达23家来自不同领域的印度初创公司从投资者处融资超过2.44亿美元。这些领域包括机器人技术、财富科技、即时零售、深度科技、健身、零售、医疗健康、人工智能、金融科技、电动汽车等。  instagram.com",
+      "authors": [
+        "instagram.com"
+      ],
+      "institution": "instagram.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:b1f83d9bffa3",
+      "slug": "gnews-b1f83d9bffa3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2FWcm1fOXNLcHhVRVJlOHNzU29INExFMkxTM2xpbzB0MzhmR2hKVTAwcGdRTFNLemFGV1J0Q2xsVU9fODBvNUZJU2VkN0o4Q3JYdnc5Qi1zbW10UHNTZXNnSzg3VVpXMktFNHBlSDlVVUJwOVNmMnNndXpDZjJYdDVYa3VaZw?oc=5",
+      "publishedAt": "2026-06-14T18:02:38.000Z",
+      "titleEn": "IMDA and Microsoft sign AI safety MOU",
+      "titleZh": "IMDA 与微软签署 AI 安全谅解备忘录",
+      "abstractEn": "IMDA and Microsoft sign AI safety MOU  Let's Data Science",
+      "abstractZh": "IMDA 与微软签署 AI 安全谅解备忘录  Let's Data Science",
+      "authors": [
+        "Let's Data Science"
+      ],
+      "institution": "Let's Data Science",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:fdfdde019739",
+      "slug": "gnews-fdfdde019739",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmxhU01PN0tSbEpERFdyTlhra0dQVHpKcnc0WnQ2Q1h6d3RBVHQ1TjFWdTY0T0hYTGhUdldIYV9JeHgtMGxtRERNWkh0Qm43ZGdDN1dJTnF5VzI4TjEwencyX2o3T0tqM1ByOUFxYm52cnJmWkd4eEx0dmZoMWliSDJTRFRiZks0T21vZlgySjd2bGNqekN4RVEzVWZmWjZtZjRIcA?oc=5",
+      "publishedAt": "2026-06-14T17:16:00.000Z",
+      "titleEn": "EU commission reviews practical impact of Anthropic decision",
+      "titleZh": "欧盟委员会审查 Anthropic 决策的实际影响",
+      "abstractEn": "EU commission reviews practical impact of Anthropic decision  The News International",
+      "abstractZh": "欧盟委员会审查 Anthropic 决策的实际影响  《新闻国际》",
+      "authors": [
+        "The News International"
+      ],
+      "institution": "The News International",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:553fa37cd09d",
+      "slug": "gnews-553fa37cd09d",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXFGZEdlWUdpQ2pJeXY5M3RvY1Nwb2dQQk82ZlhVMGhobGgwWWs0a05LX2d4dmN1ZHRTbllfU2hDSGFPRlozNzJpWXZRd1lUaUd3LVZUdjRrWE1GRXpybG5WdmFqZjFneFhjRnhOVXk3RlV3OGQtaTUwVFdHY21Hcmtxb2JCYTFiT1N4eFgxUWwxejA5cjE0dHUzcWtQTVBtdTA1WDNRLWtDY1NiMlQyRGNhamlKZw?oc=5",
+      "publishedAt": "2026-06-14T17:02:00.000Z",
+      "titleEn": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models",
+      "titleZh": "Carney称Anthropic禁令显示依赖大型AI模型的风险",
+      "abstractEn": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models  Bloomberg.com",
+      "abstractZh": "Carney称Anthropic禁令显示依赖大型AI模型的风险  Bloomberg.com",
+      "authors": [
+        "Bloomberg.com"
+      ],
+      "institution": "Bloomberg.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48528371",
+      "slug": "hn-48528371-rio-de-janeiros-homegrown-llm-appears-to-be-a-merge-of-an-existing-m",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "commentUrl": "https://news.ycombinator.com/item?id=48528371",
+      "publishedAt": "2026-06-14T15:37:31.000Z",
+      "titleEn": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "titleZh": "里约热内卢的‘本土’大语言模型疑似为现有模型的合并",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "unrvl22"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 215,
+      "commentCount": 119,
+      "tags": []
+    },
+    {
+      "id": "hn:48527946",
+      "slug": "hn-48527946-ponytail-make-your-ai-agent-think-like-the-laziest-senior-dev-in-the",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail",
+      "commentUrl": "https://news.ycombinator.com/item?id=48527946",
+      "publishedAt": "2026-06-14T15:08:17.000Z",
+      "titleEn": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "titleZh": "Ponytail——让你的AI智能体像房间里最懒的高级开发人员一样思考",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "mellosouls"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 15,
+      "commentCount": 1,
+      "tags": []
+    },
+    {
+      "id": "gnews:ac6f58681ae4",
+      "slug": "gnews-ac6f58681ae4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1N2TjhCLXhKUEVfUl9RUEYtWHRDUjk1VmY5U05GUXpKenczbThfSlUtNExrYkVTMkw2YlNhdlFpTFdKV01yUElsejZzc3RieWhOV0o3ZmRGdTRKYUhXSUgzTGxjeTBYSmM2WmV3MU9qVUVsb3dBVVgtajgtckpkSTdvQVlSQVg3YU1CbVhndW1tNFhjMHZnOEUzTXdqN1EzV2pXaUNGVdIBrAFBVV95cUxPUlZCb19ObnlKTTJubG9qMnhFR24ydk1ralZlNWt4VmNpYTlyLUozeUl0eUxaVi1SZzdOWVJ3WGw5TWg5WDFuV3NIM0RxV1VXdDhJbzYxSTl2cnhQS0hmdU1yYW9rbEw5ajE3NGJrb3hYYjFCUzFPa0t2c3pOY3NFWGlYYlJ5N3VZMHp5R0dBbWlEaUtNM205d2Y0elVxUzBSR1UwZ19Jc0s5a3Ux?oc=5",
+      "publishedAt": "2026-06-14T12:00:02.000Z",
+      "titleEn": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "titleZh": "Meta邀请Alexandr Wang构建新AI模型一年后，Zuckerberg需负责推销",
+      "abstractEn": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it  CNBC",
+      "abstractZh": "Meta邀请Alexandr Wang构建新AI模型一年后，Zuckerberg需负责推销  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:97bcf81e2cfb",
+      "slug": "gnews-97bcf81e2cfb",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdG5KVXh5cFBfdjl3eTVYaFZqd0lEdE1taEgxcFVrdWVMa2lBYkl3SEduV0FOOVpGc0lrdzhxNl9TeVBEeHZPWFl1MzVzM1BmSTVXdEh2Tk5KSlZETjZYcy1zWEtiZFpReUtiWHdUQ3l4alZYNDRGeGlvRkt5MnVpeng3bmw5S3BjRzM2cU1wUEtHd2lTRVR4V1Z4Qmd1TVVLYl9JcWl3?oc=5",
+      "publishedAt": "2026-06-14T08:26:52.000Z",
+      "titleEn": "New federal body to lead UAE's AI and digital government agenda",
+      "titleZh": "新联邦机构将领导阿联酋的AI与数字政府议程",
+      "abstractEn": "New federal body to lead UAE's AI and digital government agenda  Gulf News",
+      "abstractZh": "新联邦机构将领导阿联酋的AI与数字政府议程  Gulf News",
+      "authors": [
+        "Gulf News"
+      ],
+      "institution": "Gulf News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:821c4ed320f1",
+      "slug": "gnews-821c4ed320f1",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1wOE1taGVYMmlUNThtQ3hBUENlWHNIOXFXbGg2Q2puTnBHRnJHRGdNRU9MVEZVUUtDME9vSkkySXBoX1VGUldXUg?oc=5",
+      "publishedAt": "2026-06-14T08:00:29.000Z",
+      "titleEn": "Anthropic’s New AI Models Hit an Unexpected Roadblock",
+      "titleZh": "Anthropic的新AI模型遭遇意外障碍",
+      "abstractEn": "Anthropic’s New AI Models Hit an Unexpected Roadblock  i-hls.com",
+      "abstractZh": "Anthropic的新AI模型遭遇意外障碍  i-hls.com",
+      "authors": [
+        "i-hls.com"
+      ],
+      "institution": "i-hls.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    }
+  ]
+}
