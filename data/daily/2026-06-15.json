@@ -1,16 +1,623 @@
 {
   "date": "2026-06-15",
-  "generatedAt": "2026-06-15T06:39:04.170Z",
+  "generatedAt": "2026-06-15T13:28:07.192Z",
   "summary": {
     "aiNews": [
-      "Tin Men Capital领投Pints AI 560万美元融资，用于扩大增长。",
-      "清华系公司成立一年即获车厂订单，将具身智能送入真实产线。",
-      "美国政府叫停Anthropic最新Claude模型，称其‘鲁莽行为’引发出口管制。"
+      "Anthropic应美国政府指令，发布数天后禁用新Mythos级AI模型，引发安全与地缘政治争议。",
+      "Coram ai完成3500万美元B轮融资，用于AI技术研发与市场拓展。",
+      "Indeed的AI招聘助手帮助雇主招聘速度提升超30%，显著提高效率。"
     ],
     "papers": [],
-    "hrOrgs": []
+    "hrOrgs": [
+      "ManpowerGroup重返VivaTech，推动从AI愿景到劳动力现实的转变。",
+      "Indeed的AI招聘助手使雇主招聘速度提升超30%，改变招聘方式。"
+    ]
   },
   "articles": [
+    {
+      "id": "gnews:7ad6fc35bc28",
+      "slug": "gnews-7ad6fc35bc28",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbDZLOTZDQU9HdkZNaWQ2ejYtWUg1VDlfbTYtNnFUQVlnTUlwRXVCUDBEX0VON195T2F5ZTVIZ2Vub01tTXZMTUhrZ05aUjNVU0lwQXVzLXhkTDZTYUpnanAzel9xRXl6QkJ2LTVXLUk3X0RpWjJlaVZxX1RsZkk2Ykt3TXdfOTNCTkc4QTRucmhSUGdFTThxSERSc3Z4dl9xV1ZaSTlCVHdiSHc1NUpRTnl1LUV3QQ?oc=5",
+      "publishedAt": "2026-06-15T12:56:15.000Z",
+      "titleEn": "Anthropic disables latest AI model after US order limits foreign access",
+      "titleZh": "Anthropic因美国命令限制外国访问而禁用最新AI模型",
+      "abstractEn": "Anthropic disables latest AI model after US order limits foreign access  Data Center Dynamics",
+      "abstractZh": "Anthropic因美国命令限制外国访问而禁用最新AI模型  Data Center Dynamics",
+      "authors": [
+        "Data Center Dynamics"
+      ],
+      "institution": "Data Center Dynamics",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:53128de91e55",
+      "slug": "gnews-53128de91e55",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeGx6VWNZWDZxT3psNlJFamp1WnNXMUxjbGpCZGMxX0ZuWTJwdXFCMktzcC1qTTNUT29DZ3JkWWY0MlF1MGZPNy0yZDdBTTFEelZPRTNrUHNEZTRZdnRWQ2d2MFYwV1JNdW9ZYkpoM2tOeXpOUlNyUWtyMkY2c2NOMm1LVGt4MUxYeExQTXp6Skw3NEhoRTE0MTNKLTJCUkhkU2JIQ25CSzdZOVFXNXpOYmRrbEtWRmhMcjJBWm5hRGxVVE5ueU90Z2NkTVZ1LVJTU092N1dMYw?oc=5",
+      "publishedAt": "2026-06-15T12:50:38.000Z",
+      "titleEn": "Anthropic disables new Mythos-class models days after release in response to government directive",
+      "titleZh": "Anthropic应政府指令在发布数天后禁用新Mythos级模型",
+      "abstractEn": "Anthropic disables new Mythos-class models days after release in response to government directive  CNBC",
+      "abstractZh": "Anthropic应政府指令在发布数天后禁用新Mythos级模型  CNBC",
+      "authors": [
+        "CNBC"
+      ],
+      "institution": "CNBC",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:8fea5ffd4845",
+      "slug": "gnews-8fea5ffd4845",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzVaUzJsaGg2azRjRVdWYkhZVzI2ek9IWmNHMHpSLWJScEE3MGd2YVpIckdtS0dkemFsXzY1YmNjdUVXbG1zVF8xckVCcVlTeHdxRHk0M2lNckN3dk9KQUhVQVdFMzN0aDhnVHNEejlsOWRwYm1uZ2pzeEJjaTBScmIwZXUyXzR1alg3U2xrTTV4NXFqbmkzeUNMbUNGMldOdU92T2N2NFNmVW5UVXh1UmlYaG9mal9GOWMtaw?oc=5",
+      "publishedAt": "2026-06-15T12:47:01.000Z",
+      "titleEn": "Coram ai raises 35 million in series b funding",
+      "titleZh": "Coram ai 完成 3500 万美元 B 轮融资",
+      "abstractEn": "Coram ai raises 35 million in series b funding  Indiatimes",
+      "abstractZh": "Coram ai 完成 3500 万美元 B 轮融资  Indiatimes",
+      "authors": [
+        "Indiatimes"
+      ],
+      "institution": "Indiatimes",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:7dff25838045",
+      "slug": "hrorg-manpower-7dff25838045",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdThtdEo4U1Y2MDVQREpTeF8ydEktVHFJRVN4ckUtbnZpS3hINXQ3LTV1aFZDN0R4N2tDbGk3alc1Qk1nM19hazFwdmxOa3hwU1RPbVJIcVhiMGFWZEhxMUw5M2otbk4xVVExa3Vnd0QtWE9ndlpuYmxWV051WUpSdzduODNjSkpGTks4QVhFNW1IMXVBM1NVY1ZLcXlZbm1lOUhKNUlMZFl0bkhLdDEwWm1uRFJDLURwYVo2c2diN2VUbEU?oc=5",
+      "publishedAt": "2026-06-15T12:39:38.000Z",
+      "titleEn": "ManpowerGroup Inc Stock (US56418H1005): valuation and fundamentals in focus after a tough year for s",
+      "titleZh": "ManpowerGroup Inc 股票（US56418H1005）：经历艰难一年后的估值与基本面聚焦",
+      "abstractEn": "ManpowerGroup Inc Stock (US56418H1005): valuation and fundamentals in focus after a tough year for s  AD HOC NEWS",
+      "abstractZh": "ManpowerGroup Inc 股票（US56418H1005）：经历艰难一年后的估值与基本面聚焦  AD HOC NEWS",
+      "authors": [
+        "AD HOC NEWS"
+      ],
+      "institution": "AD HOC NEWS",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:4997d09b5a99",
+      "slug": "gnews-4997d09b5a99",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeHYwTU9YejlUVkhsaTNkc3ZZM0dXNWZSZjc1SjJuejNjcUQwTllaalBtUFpPeTlmSW1QZ1lnUFE0Rm0weUQtWWZWU2Q1LTZCMDkyUC0ySm0wQWx6a05Ja2ZvNjZkZ2dCWEVZWVktTkdFNnc0TVVpNmZrZF8waVdXNVlyemw0Mk44?oc=5",
+      "publishedAt": "2026-06-15T12:30:37.000Z",
+      "titleEn": "The Weekly Notable Startup Funding Report: 6/15/26",
+      "titleZh": "每周值得关注的初创公司融资报告：2026年6月15日",
+      "abstractEn": "The Weekly Notable Startup Funding Report: 6/15/26  AlleyWatch",
+      "abstractZh": "每周值得关注的初创公司融资报告：2026年6月15日  AlleyWatch",
+      "authors": [
+        "AlleyWatch"
+      ],
+      "institution": "AlleyWatch",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:658c590673ac",
+      "slug": "gnews-658c590673ac",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTFJaRUEtQl9TTk1SYVZUclJtVlNMVFJhMGxzRC15OWdqTlRud3pBNkJRYVowZF9lcHJlZFN6MjhxV0NMU3NDQUxXNVdzY20xTEVFeWYwSHNHZ0tENUJta1VCVWE0UUthWmtneER2VzkwNGlIQmJESTFUYXJFeTEzMWYxMWFLMzc1Nko0cW5Fa21NTHFPRFNuR0ZfMWNIZ0lUX1p5RGQ3LXQ5bTlObWlYZWx0SkxXZzg?oc=5",
+      "publishedAt": "2026-06-15T12:10:16.000Z",
+      "titleEn": "Attackers can turn AI agent guardrails into denial-of-service weapons",
+      "titleZh": "攻击者可将AI智能体护栏转化为拒绝服务武器",
+      "abstractEn": "Attackers can turn AI agent guardrails into denial-of-service weapons  csoonline.com",
+      "abstractZh": "攻击者可将AI智能体护栏转化为拒绝服务武器  csoonline.com",
+      "authors": [
+        "csoonline.com"
+      ],
+      "institution": "csoonline.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:69dd3c2d813b",
+      "slug": "gnews-69dd3c2d813b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdFc1a1RQMWpoMUlWQm9YXzdtdmpNbDhld0tici1yNFJLNXNJb2g4TmtqczNBSGlVanlVTDFDU0k4SlVhcGhiWGhUQ3JBZXlRLTdxQzBKUXpXMUVGYnVzdUFQQmRrWWxTcXZxV01QUUdrZ2dValQwZjRLVE8xR0RQbXBCUlZxdFltZVJOYlI2SUhIMXVjMFoteDhaZ29wbTN6Rk92eFRwdHp6MWVuVnlKc2JR?oc=5",
+      "publishedAt": "2026-06-15T12:09:18.000Z",
+      "titleEn": "Cyber leaders urge US to lift curbs on Anthropic's security models",
+      "titleZh": "网络领袖敦促美国解除对Anthropic安全模型的限制",
+      "abstractEn": "Cyber leaders urge US to lift curbs on Anthropic's security models  Reuters",
+      "abstractZh": "网络领袖敦促美国解除对Anthropic安全模型的限制  Reuters",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:9474800a9fd5",
+      "slug": "hrorg-manpower-9474800a9fd5",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQlVqZGpHQm9VWnVsUGZRT1M3THpMS1FjM2JGVUlwVF90ckRJSHNxVWZRSkdfanhsVjVyRUlITGxPSzZSQnRKLTFVdFJvQTZCeXRvV2xIYXRYNlpuZk16QnlMQXJ0bG92V3Fybmt2SzR2YW1faXV2a0xxbFBVUVk2a1p0NHN0SUdBOVhNRGxud2xhemZyOXNIY3djWlVYbV8xemJjbzhXd2dHYkU4UVpfaFlUWk1PNWoyNTllbGozb2syUk5ac0pLTFE0N0FWamgyOXp4cHFCUDBzbHA1b2E4?oc=5",
+      "publishedAt": "2026-06-15T12:01:00.000Z",
+      "titleEn": "ManpowerGroup Returns to VivaTech to Power the Shift from AI Ambition to Workforce Reality",
+      "titleZh": "ManpowerGroup 重返 VivaTech，推动从 AI 愿景到劳动力现实的转变",
+      "abstractEn": "ManpowerGroup Returns to VivaTech to Power the Shift from AI Ambition to Workforce Reality  PR Newswire",
+      "abstractZh": "ManpowerGroup 重返 VivaTech，推动从 AI 愿景到劳动力现实的转变  PR Newswire",
+      "authors": [
+        "PR Newswire"
+      ],
+      "institution": "PR Newswire",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:manpower:fadf5008b1e8",
+      "slug": "hrorg-manpower-fadf5008b1e8",
+      "source": "ManpowerGroup",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWFmMk9rX1NWa0VtcVpQZ1FkTjlVakMyb1EydHZXRGYybXFuc2hnQXVDdDhwM3VtdXBmUVJyalVQWFp3RkNUV00xVm1IZV9QeXE4aUlZT2xxQUcteGJtQ21Fb2VsSU9QaXlRQU5pNFNSWHJIcWJJekgtM3Rsck5iRFFpQkZqdkw1MmY5V00zdk4wVGQ2LURubjhENFVMQ3FoOFJWN3NGLU9NLWd3WW1QODNIajlfbHc?oc=5",
+      "publishedAt": "2026-06-15T12:01:00.000Z",
+      "titleEn": "Inside VivaTech: how AI is changing who gets hired and how",
+      "titleZh": "VivaTech 内幕：AI 如何改变招聘对象与方式",
+      "abstractEn": "Inside VivaTech: how AI is changing who gets hired and how  Stock Titan",
+      "abstractZh": "VivaTech 内幕：AI 如何改变招聘对象与方式  Stock Titan",
+      "authors": [
+        "Stock Titan"
+      ],
+      "institution": "Stock Titan",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "hrorg:randstad:8573c32be809",
+      "slug": "hrorg-randstad-8573c32be809",
+      "source": "Randstad",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNnh1WnF4RTJYZEI0TVZpQWxwVDV0cV8xU2xsZnRTV3hOa2txb3NFTDItdnprc1B0TWswTy1zOWdTaE5FbnFaeW05UE1rUzh1Q0pBLVVjVm5helFlMXhxd1owMnJPM242b3FYeXJOT3Z2NVBuREJqWUZLcWNsb3BnWFhEWEtTQU1yaDNLQ1BZWjJkUQ?oc=5",
+      "publishedAt": "2026-06-15T11:55:34.000Z",
+      "titleEn": "Greece’s most attractive employers for 2026",
+      "titleZh": "希腊 2026 年最具吸引力雇主",
+      "abstractEn": "Greece’s most attractive employers for 2026  eKathimerini.com",
+      "abstractZh": "希腊 2026 年最具吸引力雇主  eKathimerini.com",
+      "authors": [
+        "eKathimerini.com"
+      ],
+      "institution": "eKathimerini.com",
+      "docType": "Report",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "gnews:632209c1b7db",
+      "slug": "gnews-632209c1b7db",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbDlJNzNldjBwV2FkX21aTDVIcW1wOEtaTzlmR0NhVUt4NThGUDdSYUg1aW8xX1QybWh4S0JCMVVNNHQzSDNvLWNNa2pYYzBYTjhGRWJyblQ1S2lBaFhXODJvQXpqdHFUdWZ3V3NENW4zVFRkUDBZYS1HR3BxalE2WVVRc2libzg5TWI4ai1fTEJqajRFeHYtS0lGX0RWZy1yM2Y4TkkyR3V3R3pLN1pfVlNJbWVhRF9kbE16RW91SVNpVXJD?oc=5",
+      "publishedAt": "2026-06-15T11:49:33.000Z",
+      "titleEn": "Finnish startup Rotomate raises €2.1M pre-seed to develop AI software for industrial maintenance",
+      "titleZh": "芬兰初创公司 Rotomate 获210万欧元种子前轮融资，用于开发工业维护AI软件",
+      "abstractEn": "Finnish startup Rotomate raises €2.1M pre-seed to develop AI software for industrial maintenance  BeBeez International",
+      "abstractZh": "芬兰初创公司 Rotomate 获210万欧元种子前轮融资，用于开发工业维护AI软件  BeBeez International",
+      "authors": [
+        "BeBeez International"
+      ],
+      "institution": "BeBeez International",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f923e93274fa",
+      "slug": "gnews-f923e93274fa",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORGM4dWZqdEFpVmdnNGhSUUhWNy1nQjdUY0J6VlZfc0NucHhlREpEQ1UyY3BhNXFPc2kyRnBpWjJWQllJS1hpLTZXRjR1enJYMkptYjItN19LRXE5Q2oycUNtUnFRaTZoU2tTV1NrYlNCRXowMXZGU25HRFQxcE1jSV9IdkpiTlFuNGEzWEQ0ZUJwNmdNd1lJeXAwa1JtdzZhMXRzb2ZuQm1JUQ?oc=5",
+      "publishedAt": "2026-06-15T11:01:59.000Z",
+      "titleEn": "AI CityXchange - Singapore and Microsoft sign MoU on AI safety and security",
+      "titleZh": "AI CityXchange - 新加坡与微软签署AI安全与保障谅解备忘录",
+      "abstractEn": "AI CityXchange - Singapore and Microsoft sign MoU on AI safety and security  Smart Cities World",
+      "abstractZh": "AI CityXchange - 新加坡与微软签署AI安全与保障谅解备忘录  《智慧城市世界》",
+      "authors": [
+        "Smart Cities World"
+      ],
+      "institution": "Smart Cities World",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a8f500bf8aca",
+      "slug": "gnews-a8f500bf8aca",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Rc0RfdUdVYUVEQ0w2dE5sNnZvUU1ZQ0ZLdzR3RF83VjgxZ2xVdXdac1FMNUVQcjBBendmSjlmRDd3SUNJMXF1a1Z2QlhNd09kMkVKbkgtSnNUR1ZkM0NacVhYc0xBRkR1blRabzlQMFZzaFRuelRB?oc=5",
+      "publishedAt": "2026-06-15T11:00:23.000Z",
+      "titleEn": "The AI Startup Funding Boom Is Not A Global Phenomenon",
+      "titleZh": "AI初创公司融资热潮并非全球现象",
+      "abstractEn": "The AI Startup Funding Boom Is Not A Global Phenomenon  Crunchbase News",
+      "abstractZh": "AI初创公司融资热潮并非全球现象  Crunchbase News",
+      "authors": [
+        "Crunchbase News"
+      ],
+      "institution": "Crunchbase News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:69ee46cf8cf4",
+      "slug": "gnews-69ee46cf8cf4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHNDdGFhR2hlX1ViWmJ5T3dlVmlBVE9nZUpUWVlyeW1kRjk3Rmhiem02dHA0TEVjN05sNHMwYlotM3hhQl9sMElIY0VkRXFIcmpaWF9yQU5BcUswTElWUTNYSGpkbmk4X2w0QmM0SGFTaFpNSFI5QVhtNUpsWkVCNG8yZTNmRm5TWnNha0pMS01Zd20tRTZtOUpGUUxubnM5ajBYWFdhT250dGJJUHZSRmZVYXdzOUx0UnFfbWYyVTRidFdZTzlWVkc4NXI?oc=5",
+      "publishedAt": "2026-06-15T10:47:25.000Z",
+      "titleEn": "Madrid’s Orbio raises €18.09 million Series A to scale AI workforce platform for frontline teams",
+      "titleZh": "马德里 Orbio 完成 1809 万欧元 A 轮融资，扩展面向一线团队的 AI 劳动力平台",
+      "abstractEn": "Madrid’s Orbio raises €18.09 million Series A to scale AI workforce platform for frontline teams  EU-Startups",
+      "abstractZh": "马德里 Orbio 完成 1809 万欧元 A 轮融资，扩展面向一线团队的 AI 劳动力平台  EU-Startups",
+      "authors": [
+        "EU-Startups"
+      ],
+      "institution": "EU-Startups",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hrorg:recruit:3212d9a87e8d",
+      "slug": "hrorg-recruit-3212d9a87e8d",
+      "source": "Recruit Holdings",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUdLMmpXMmZaTThvS0E4cGFhXzYtYnhnVld5dGl2S0N2MTVXZnIzWjlWX0ROM3dGemNJeWkwb09UTjkwMzRablNEeUpVa2xNV3pzOUpkZXU0QTNOQlBMREdkSnh1MEVSVndIYVlZOGZfeWRwNVh6UUk5dzlpREg0NHYwaF93OTJ6aW84NTVqMDNrR3VWN3Z3VWxQVTB1MzZoaW55NkxOc3dvbUJyZnNJRFU4WGhLelBlZGs4Z0F5eXlpSGhKXzRvR0ZR?oc=5",
+      "publishedAt": "2026-06-15T10:30:00.000Z",
+      "titleEn": "Indeed's AI-Powered Sourcing Assistant Helps Employers Hire Over 30% Faster",
+      "titleZh": "Indeed 的 AI 驱动招聘助手帮助雇主招聘速度提升超过 30%",
+      "abstractEn": "Indeed's AI-Powered Sourcing Assistant Helps Employers Hire Over 30% Faster  Business Wire",
+      "abstractZh": "Indeed 的 AI 驱动招聘助手帮助雇主招聘速度提升超过 30%  Business Wire",
+      "authors": [
+        "Business Wire"
+      ],
+      "institution": "Business Wire",
+      "docType": "News",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "人服动态"
+      ]
+    },
+    {
+      "id": "gnews:81d4b08c2657",
+      "slug": "gnews-81d4b08c2657",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPejVQZzM1a1E1WTJhXzBJaW5VOFZkVXlyRWxjN084VERRbjhIQWJGem9pZlZwRkVoeUtoR0dhQzJ1YV9OWTgyTFd1YXphQkpoTTJGRHV0X2JObDN3MGw0ekxYNGh4SVhlX0NhZDZScld0cHB4a0hWN3QtdVBJVmN6ZjNGOERldXBqdmFqVkY4Yzd1R0k?oc=5",
+      "publishedAt": "2026-06-15T10:27:14.000Z",
+      "titleEn": "SA’s draft AI policy officially retracted",
+      "titleZh": "南非AI政策草案正式撤回",
+      "abstractEn": "SA’s draft AI policy officially retracted  ITWeb",
+      "abstractZh": "南非AI政策草案正式撤回  ITWeb",
+      "authors": [
+        "ITWeb"
+      ],
+      "institution": "ITWeb",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:4498054d0770",
+      "slug": "gnews-4498054d0770",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDhXMnhLSWJmbnlubVMxVG0xT2RpTWNFYzNyekJNdXZkaTRvQ2haeHAyaFNTSXBaVThPYU4tbGk3TlJlc3FGSXhOQmlYaldjUEN1OEdWVEdLSDFOU2ZyRnRtc1Z3d1hRUDNZaFpnOWJ0ZGVJenJOT0I4d3lBb1E2akkzTjZXRFlVRE5TMkd1NVFGS2g1UUxTbHdybw?oc=5",
+      "publishedAt": "2026-06-15T10:10:28.000Z",
+      "titleEn": "US blocks Fable 5 access for non-US nationals: AI safety or geopolitical kill switch?",
+      "titleZh": "美国限制非美国公民访问Fable 5：AI安全还是地缘政治开关？",
+      "abstractEn": "US blocks Fable 5 access for non-US nationals: AI safety or geopolitical kill switch?  MediaNama",
+      "abstractZh": "美国限制非美国公民访问Fable 5：AI安全还是地缘政治开关？  MediaNama",
+      "authors": [
+        "MediaNama"
+      ],
+      "institution": "MediaNama",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48539078",
+      "slug": "hn-48539078-anthropics-safety-superpower",
+      "source": "Hacker News",
+      "sourceUrl": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "commentUrl": "https://news.ycombinator.com/item?id=48539078",
+      "publishedAt": "2026-06-15T10:06:35.000Z",
+      "titleEn": "Anthropic's Safety Superpower",
+      "titleZh": "Anthropic 的安全超能力",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "swolpers"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 125,
+      "commentCount": 97,
+      "tags": []
+    },
+    {
+      "id": "gnews:b60b04d3a3a3",
+      "slug": "gnews-b60b04d3a3a3",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORURZM0ctS1NNX0pEUkd6Z280c1l1NVNWczZtV19oSTBGNUNVRVp0TnE0ZHlwMTJ5Vi1adlVaQ0hxRjBEOGhPbnU5RVZqQ0lhbGJfbkxBY2VqWlJZYzE3dldTLXlieS1ma1B3VGU4SnZsWUdya2UwMGYxbU1WZWdkZ3ZJYUg3Zw?oc=5",
+      "publishedAt": "2026-06-15T09:49:00.000Z",
+      "titleEn": "Anthropic rushes to put out its latest fire in Washington",
+      "titleZh": "Anthropic急于扑灭其在华盛顿的最新火情",
+      "abstractEn": "Anthropic rushes to put out its latest fire in Washington  Fortune",
+      "abstractZh": "Anthropic急于扑灭其在华盛顿的最新火情  Fortune",
+      "authors": [
+        "Fortune"
+      ],
+      "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-transportation-ksyxjzfpdveiggxz-html",
+      "slug": "es9-suv",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/transportation/KSYxJzfPdVeIgGXz.html",
+      "publishedAt": "2026-06-15T09:37:00.000Z",
+      "titleEn": "蔚来ES9正式上市，定位科技行政旗舰SUV",
+      "titleZh": "蔚来 ES9 正式上市，定位科技行政旗舰 SUV",
+      "abstractEn": "蔚来宣布科技行政旗舰SUV——蔚来ES9正式上市。ES9行政豪华版售价498,000元起，采用BaaS电池租用方式购买，售价390,000元起；行政签名版售价558,000元起，采用BaaS电池租用方式购买，售价 450,000元起；地平线特别版售价628,000元起，采用BaaS电池租用方式购买，售价520,000元起。蔚来ES9将于5月28日起正式开启交付。\n\n \n\n科技行政旗舰SUV蔚来ES9正式上市\n\n科技行政旗舰SUV蔚来ES9版型与价格\n \n即日起至2026年7月31日（含）前锁单并购买蔚来ES9的用户，将享受以下权益：5年免费全域领航辅助 NOP+使用权、飞航行政五件套和ES9专属提车礼盒。ES9首任车主还可享受6年免费车联网服务、6年或15万公里整车质保服务、10年不限里程三电质保服务和终身免费道路救援。蔚来还为老用户提供了ES9的专属复购礼遇：蔚来ES8创始版首任车主可享",
+      "abstractZh": "蔚来宣布科技行政旗舰 SUV——蔚来 ES9 正式上市。ES9 行政豪华版售价 498,000 元起，采用 BaaS 电池租用方式购买，售价 390,000 元起；行政签名版售价 558,000 元起，采用 BaaS 电池租用方式购买，售价 450,000 元起；地平线特别版售价 628,000 元起，采用 BaaS 电池租用方式购买，售价 520,000 元起。蔚来 ES9 将于 5 月 28 日起正式开启交付。\n\n科技行政旗舰 SUV 蔚来 ES9 正式上市\n\n科技行政旗舰 SUV 蔚来 ES9 版型与价格\n即日起至 2026 年 7 月 31 日（含）前锁单并购买蔚来 ES9 的用户，将享受以下权益：5 年免费全域领航辅助 NOP+ 使用权、飞航行政五件套和 ES9 专属提车礼盒。ES9 首任车主还可享受 6 年免费车联网服务、6 年或 15 万公里整车质保服务、10 年不限里程三",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-cjoecil965dppqsy-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/cjoeciL965DpPQsY.html",
+      "publishedAt": "2026-06-15T09:35:00.000Z",
+      "titleEn": "全球 AI “黑马神话”一夜反转，被指套壳阿里千问",
+      "titleZh": "全球 AI “黑马神话”一夜反转，被指套壳阿里千问",
+      "abstractEn": "6 月 15 日，由巴西里约市政府旗下 IT 公司 IplanRIO 推出的“官方”开源模型Rio-3.5-Open-397B ，全球走红，被奉为拉美开源大模型的新势力。不到 24 小时，这场所谓 AI “黑马神话”就宣告反转，该模型被指控称是“套壳”阿里千问 Qwen 3.5 和Nex N2 Pro 的权重混合版本。目前，IplanRIO 已在开源社区 Hugging Face 公开致歉，承认“因操作失误”上传了用于对比的合并基线版本。\n\n\nRio-3.5-Open-397B近两天走红AI开源社区，凭借“397B 参数、开放权重、MIT 许可协议”三大核心卖点，并标榜性能优越，刷爆全球 AI 圈。该模型开源后，立刻遭到AI开发社区质疑，HuggingFace研究员王铁震发文称，通过AI自动检查Rio-3.5-Open-397B在GitHub上的代码库，惊人发现Rio-3.5-Open-3",
+      "abstractZh": "6 月 15 日，由巴西里约市政府旗下 IT 公司 IplanRIO 推出的“官方”开源模型 Rio-3.5-Open-397B，全球走红，被奉为拉美开源大模型的新势力。不到 24 小时，这场所谓 AI “黑马神话”就宣告反转，该模型被指控称是“套壳”阿里千问 Qwen 3.5 和 Nex N2 Pro 的权重混合版本。目前，IplanRIO 已在开源社区 Hugging Face 公开致歉，承认“因操作失误”上传了用于对比的合并基线版本。\n\nRio-3.5-Open-397B 近两天走红 AI 开源社区，凭借“397B 参数、开放权重、MIT 许可协议”三大核心卖点，并标榜性能优越，刷爆全球 AI 圈。该模型开源后，立刻遭到 AI 开发社区质疑，HuggingFace 研究员王铁震发文称，通过 AI 自动",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48538833",
+      "slug": "hn-48538833-show-hn-i-wrote-a-c-ray-tracer-from-scratch-without-ai",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/themartiano/luz",
+      "commentUrl": "https://news.ycombinator.com/item?id=48538833",
+      "publishedAt": "2026-06-15T09:34:10.000Z",
+      "titleEn": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "titleZh": "Show HN：我手写了一个不含 AI 的 C++ 光线追踪器",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "martiano"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 42,
+      "commentCount": 13,
+      "tags": []
+    },
+    {
+      "id": "gnews:e80007249921",
+      "slug": "gnews-e80007249921",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY0dpZGRncWtKX1VkQ3VwQ3Z2LXJiMGRmZXdHZ2tWNzJPYWoxSDNmUlA0RVpSNnlvbGF4bjVQNkp1ODJrMWlfWFlmRXR1RjNZdDV4OHo3aWRiUHJXMDlsaE55UnB3cGtieWVDdWJWLUZGc2o2SS1yMExrTDVOWklvX2NhQndOOURwenlR?oc=5",
+      "publishedAt": "2026-06-15T09:10:41.000Z",
+      "titleEn": "Industry weighs AI safety against innovation",
+      "titleZh": "行业权衡AI安全与创新",
+      "abstractEn": "Industry weighs AI safety against innovation  IBS Intelligence",
+      "abstractZh": "行业权衡AI安全与创新  IBS Intelligence",
+      "authors": [
+        "IBS Intelligence"
+      ],
+      "institution": "IBS Intelligence",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-zgpimcfdstkpxcsn-html",
+      "slug": "97-pp-ocrv6-ocr",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/ZgPImCFdSTkpxCSn.html",
+      "publishedAt": "2026-06-15T08:51:00.000Z",
+      "titleEn": "97毫秒！百度 PP-OCRv6 把 OCR 带进毫秒时代",
+      "titleZh": "97 毫秒！百度 PP-OCRv6 把 OCR 带进毫秒时代",
+      "abstractEn": "近日，百度文心正式发布新一代OCR模型PP-OCRv6，一次性推出Tiny、Small、Medium三档模型，支持 50 多种语言，覆盖浏览器端、嵌入式设备到服务器等主流场景。公开结果显示，PP-OCRv6再次刷新OCR领域评测纪录，综合性能位居全球第一。\n其中，PP-OCRv6 Tiny的尺寸仅1.5MB，可直接部署于本地浏览器环境，单图预测最快仅需 97 毫秒。用户数据无需上传云端即可完成OCR处理，在保障隐私安全的同时，大幅降低部署门槛。有开发者评价，PP-OCRv6可能是全球唯一可在浏览器环境运行的高精度OCR模型，为 Agent 装上一双眼睛，能够在智能办公、教育、工业等场景提供更加轻量、高效的视觉感知能力。﻿\n在性能方面，PP-OCRv6在保持轻量化优势的同时进一步提升识别精度和推理速度，综合性能显著增强。PP-OCRv6在文本检测和文本识别任务中分别取得86.2和83.2的成",
+      "abstractZh": "近日，百度文心正式发布新一代 OCR 模型 PP-OCRv6，一次性推出 Tiny、Small、Medium 三档模型，支持 50 多种语言，覆盖浏览器端、嵌入式设备到服务器等主流场景。公开结果显示，PP-OCRv6 再次刷新 OCR 领域评测纪录，综合性能位居全球第一。\n其中，PP-OCRv6 Tiny 的尺寸仅 1.5MB，可直接部署于本地浏览器环境，单图预测最快仅需 97 毫秒。用户数据无需上传云端即可完成 OCR 处理，在保障隐私安全的同时，大幅降低部署门槛。有开发者评价，PP-OCRv6 可能是全球唯一可在浏览器环境运行的高精度 OCR 模型，为 Agent 装上一双眼睛，能够在智能办公、教育、工业等场景提供更加轻量、高效的视觉感知能力。\n在性能方面，PP-OCRv6 在保持轻量化优势的同时进一步提升识别精度和",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-wrfeczgo0hmrxnva-html",
+      "slug": "rlhf-icml-2026",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/wRfEczgo0HmrXNVa.html",
+      "publishedAt": "2026-06-15T07:39:00.000Z",
+      "titleEn": "从最优传输角度训练奖励模型：让 RLHF 学会「忽略错误偏好」丨ICML 2026",
+      "titleZh": "从最优传输角度训练奖励模型：让 RLHF 学会「忽略错误偏好」丨ICML 2026",
+      "abstractEn": "SelectiveRM：从点对点拟合噪声偏好，转向带选择机制的分布对齐，重构奖励模型的训练目标。\n\n\n\n作者丨潘黎铖\n\n\n\n\n                                                                                                     \n\n\n在大语言模型对齐研究中，一个看似自然、却值得重新审视的问题长期存在：\n一方面，RLHF、RLAIF、GRPO等方法不断推动模型对齐能力演进；另一方面，奖励模型训练阶段却普遍默认一个前提——收集到的偏好标注能够准确反映真实人类偏好。\n但现实并非如此。无论是人工标注、众包反馈，还是LLM-as-a-Judge，偏好数据都不可避免地包含噪声：标注疲劳、主观分歧、随机失误、模型幻觉，都可能让“观测偏好”偏离“真实偏好”。\n这使得奖励模型训练面临一个根本问题：如果监督信号",
+      "abstractZh": "SelectiveRM：从点对点拟合噪声偏好，转向带选择机制的分布对齐，重构奖励模型的训练目标。\n\n作者丨潘黎铖\n\n在大语言模型对齐研究中，一个看似自然、却值得重新审视的问题长期存在：\n一方面，RLHF、RLAIF、GRPO 等方法不断推动模型对齐能力演进；另一方面，奖励模型训练阶段却普遍默认一个前提——收集到的偏好标注能够准确反映真实人类偏好。\n但现实并非如此。无论是人工标注、众包反馈，还是 LLM-as-a-Judge，偏好数据都不可避免地包含噪声：标注疲劳、主观分歧、随机失误",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:5e3ed4004299",
+      "slug": "gnews-5e3ed4004299",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHRXVzRjdXVzTXJmb0d5eVJXXzEyM3htbEt5SEc5am4tTHI0MTZaMF9BWDI3R2xPOHExMDd1X3BrM180ZVJ6ZnF3VlJLUXBGSG01M0JMVnRjYUlEREdYVUx5blUzOUgwS1FUdjZ5OTlVREViRW9IeGNDQjJYSHRRMUIwTVJJR0h6MjI1MmUxcUVYcWxRZU5qemNSTVdzZG5VOGxHbklqQmxHZnp1ejJV?oc=5",
+      "publishedAt": "2026-06-15T07:22:22.000Z",
+      "titleEn": "MRC Ventures Releases Hawk Warden, a Production-Proven AI Safety Platform for Singapore Manufacturers",
+      "titleZh": "MRC Ventures 发布 Hawk Warden，一款面向新加坡制造商的经生产验证的AI安全平台",
+      "abstractEn": "MRC Ventures Releases Hawk Warden, a Production-Proven AI Safety Platform for Singapore Manufacturers  The National Law Review",
+      "abstractZh": "MRC Ventures 发布 Hawk Warden，一款面向新加坡制造商的经生产验证的AI安全平台  《国家法律评论》",
+      "authors": [
+        "The National Law Review"
+      ],
+      "institution": "The National Law Review",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48537641",
+      "slug": "hn-48537641-openrouter-fusion-api",
+      "source": "Hacker News",
+      "sourceUrl": "https://openrouter.ai/openrouter/fusion",
+      "commentUrl": "https://news.ycombinator.com/item?id=48537641",
+      "publishedAt": "2026-06-15T07:10:57.000Z",
+      "titleEn": "Openrouter Fusion API",
+      "titleZh": "Openrouter Fusion API",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "tdchaitanya"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 95,
+      "commentCount": 30,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435802-html",
+      "slug": "4-0-24-noiz-ai",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435802.html",
+      "publishedAt": "2026-06-15T06:52:30.000Z",
+      "titleEn": "4步出声，单卡0.24秒！Noiz AI联合港科大清华，开源音频生成大模型",
+      "titleZh": "4 步出声，单卡 0.24 秒！Noiz AI 联合港科大清华，开源音频生成大模型",
+      "abstractEn": "还能听懂时间戳",
+      "abstractZh": "还能听懂时间戳",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
     {
       "id": "gnews:ed0d3ae1255f",
       "slug": "gnews-ed0d3ae1255f",
@@ -34,6 +641,26 @@
       ]
     },
     {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-sqyihwgyfzai5tcj-html",
+      "slug": "ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/sqyIHwGyFzai5Tcj.html",
+      "publishedAt": "2026-06-15T06:27:00.000Z",
+      "titleEn": "进球、切片、全网爆：如何打造一座跑赢热搜的赛事“AI短视频工厂”？",
+      "titleZh": "进球、切片、全网爆：如何打造一座跑赢热搜的赛事“AI短视频工厂”？",
+      "abstractEn": "一场赛事真正的流量争夺，往往不只发生在直播间，也发生在赛后几分钟的短视频分发链路里。谁能更快把进球、争议判罚、庆祝名场面切出来，谁就更有机会吃到热搜红利。\n三分钟高光全网飞，人工剪辑为什么跑不赢热搜？\n进球哨音响起的那一刻，观众的第一反应不是回味，而是打开社交平台——有没有人已经把这一刻切出来了？等五分钟还没看到，热情就凉了。仍靠传统回放的团队，往往已经错失第一波流量。\n这要求直播和短视频必须同时进行——比赛进入伤停补时，短视频倒计时就已开始。但人工模式注意力有限，还容易漏掉那些进球之外的“次高光”。关键抢断、争议黄牌、教练反应，恰恰是社交平台上最容易被讨论的话题。\n所以，赛事二创最需要的不是“后期大师”，而是一套能稳定、批量、自动化产出高光切片的能力。\n赛事二创需要的不是“后期大师”，火山引擎 AI MediaKit 用“边播边发”跑赢热搜窗口\n面对这种速度要求，AI短视频工厂的核心任务",
+      "abstractZh": "一场赛事真正的流量争夺，往往不只发生在直播间，也发生在赛后几分钟的短视频分发链路里。谁能更快把进球、争议判罚、庆祝名场面切出来，谁就更有机会吃到热搜红利。\n三分钟高光全网飞，人工剪辑为什么跑不赢热搜？\n进球哨音响起的那一刻，观众的第一反应不是回味，而是打开社交平台——有没有人已经把这一刻切出来了？等五分钟还没看到，热情就凉了。仍靠传统回放的团队，往往已经错失第一波流量。\n这要求直播和短视频必须同时进行——比赛进入伤停补时，短视频倒计时就已开始。但人工模式注意力有限，还容易漏掉那些进球之外的“次高光”。关键抢断、争议黄牌、教练反应，恰恰是社交平台上最容易被讨论的话题。\n所以，赛事二创最需要的不是“后期大师”，而是一套能稳定、批量、自动化产出高光切片的能力。\n赛事二创需要的不是“后期大师”，火山",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
       "id": "量子位:https-www-qbitai-com-2026-06-435574-html",
       "slug": "",
       "source": "量子位",
@@ -54,6 +681,28 @@
       "tags": []
     },
     {
+      "id": "gnews:60e558918880",
+      "slug": "gnews-60e558918880",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY2U0SWxHRTM1QktDa0RVbHVkalNxZ20zcjlGc1VTWmMybkF0eExZd1R1XzA5Yk9jQ1Z2T2FPMnJGRnhDdzNPMERCbkh6RGhZSjV6d2RRa2FhRnlZakVWT1lGUUpnQ0p5RWtOYmlFRlhsLTNiVDdLZDd0VWdvZDJST2o5MGpwWmZoZmZjaWdIdFBxYkphLS1DRUtwMUNOTzhtcmZOb3NMTlhUdWRCazVuQ2ZqY3VlNUZjY1c1X0NWcXJzcHFjaV9ya3Y1OF9SRkNpamc?oc=5",
+      "publishedAt": "2026-06-15T05:53:22.000Z",
+      "titleEn": "Berlin’s Qorelo raises €3 million five months after launch to tackle SAP’s 2027 transformation crunch",
+      "titleZh": "柏林 Qorelo 成立五个月后融资 300 万欧元，应对 SAP 2027 转型危机",
+      "abstractEn": "Berlin’s Qorelo raises €3 million five months after launch to tackle SAP’s 2027 transformation crunch  EU-Startups",
+      "abstractZh": "柏林 Qorelo 成立五个月后融资 300 万欧元，应对 SAP 2027 转型危机  EU-Startups",
+      "authors": [
+        "EU-Startups"
+      ],
+      "institution": "EU-Startups",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "量子位:https-www-qbitai-com-2026-06-435558-html",
       "slug": "fable-5-orcarouter",
       "source": "量子位",
@@ -71,6 +720,91 @@
       "category": "social",
       "score": 0,
       "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-id1hkgc0ahwzduwb-html",
+      "slug": "vla-k02",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/id1HKgC0ahWZduWb.html",
+      "publishedAt": "2026-06-15T05:37:00.000Z",
+      "titleEn": "魔法原子上交会首秀VLA K02大模型，完成具身智能从“执行”到“理解”的能力跃迁",
+      "titleZh": "魔法原子上交会首秀VLA K02大模型，完成具身智能从“执行”到“理解”的能力跃迁",
+      "abstractEn": "6月13日，第十二届中国（上海）国际技术进出口交易会（CSITF）在上海圆满闭幕。此次盛会，作为全球具身智能领域的领军企业，魔法原子（MagicLab）携全栈技术矩阵重磅亮相。\n展会现场，魔法原子不仅带来了全家族明星产品的沉浸式动态展示，更首次在国内公开发布两大核心技术成果：自研Magic-VLA K02大模型与Magic-Mix世界模型。此次双模型线下首秀，既是魔法原子 \"智能大脑\" 核心能力的首次公开呈现，更标志着公司全栈自研技术体系完成全面升级。\n\n长序任务真机实操，Magic-VLA K02展现稳定作业能力\n展会现场，魔法原子携全系列智能机器人产品亮相，完成多场景动态能力展演。MagicBot Gen1通用人形机器人、Z1高动态双足机器人、MagicDog系列四足机器狗及智能咖啡机器人悉数登场，全面覆盖工业作业、商业服务、家庭等多元应用场景，完整展现全场景落地作业能力。\n本次展演的",
+      "abstractZh": "6月13日，第十二届中国（上海）国际技术进出口交易会（CSITF）在上海圆满闭幕。此次盛会，作为全球具身智能领域的领军企业，魔法原子（MagicLab）携全栈技术矩阵重磅亮相。\n展会现场，魔法原子不仅带来了全家族明星产品的沉浸式动态展示，更首次在国内公开发布两大核心技术成果：自研Magic-VLA K02大模型与Magic-Mix世界模型。此次双模型线下首秀，既是魔法原子 '智能大脑' 核心能力的首次公开呈现，更标志着公司全栈自研技术体系完成全面升级。\n\n长序任务真机实操，Magic-VLA K02展现稳定作业能力\n展会现场，魔法原子携全系列智能机器人产品亮相，完成多场景动态能力展演。MagicBot Gen1通用人形机器人、Z1高动态双足机器人、MagicDog系列四足机器狗及智能咖啡机器",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:04b05c60c39f",
+      "slug": "gnews-04b05c60c39f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWUVIU0ViT3BGZlhWcXpuc3h0cldnZ18tU3laR1BPQ28ya1dvclRvQzJSbDZnd05IeEwxeDFGZW1xRE9mYnJGcXBVd3N6dVJHLVZubWtnMW5ZRHNmZnQ4MHlGd0dCLTUzZmhYNlUxY2VNSzE5Z3ZlUWVvWkFOb2FFLUEwcU5iUjE1V2NUSzAxeEZZTDA?oc=5",
+      "publishedAt": "2026-06-15T05:16:23.000Z",
+      "titleEn": "US Begins AI Regulation, Anthropic Takes Direct Hit",
+      "titleZh": "美国启动AI监管，Anthropic 首当其冲",
+      "abstractEn": "US Begins AI Regulation, Anthropic Takes Direct Hit  Seoul Economic Daily",
+      "abstractZh": "美国启动AI监管，Anthropic 首当其冲  《首尔经济日报》",
+      "authors": [
+        "Seoul Economic Daily"
+      ],
+      "institution": "Seoul Economic Daily",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:a2f98c7690ee",
+      "slug": "gnews-a2f98c7690ee",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
+      "publishedAt": "2026-06-15T05:01:23.000Z",
+      "titleEn": "Anthropic Releases and Temporarily Suspends Claude Fable 5",
+      "titleZh": "Anthropic发布并暂时暂停Claude Fable 5",
+      "abstractEn": "Anthropic Releases and Temporarily Suspends Claude Fable 5  infoq.com",
+      "abstractZh": "Anthropic发布并暂时暂停Claude Fable 5  infoq.com",
+      "authors": [
+        "infoq.com"
+      ],
+      "institution": "infoq.com",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48536776",
+      "slug": "hn-48536776-apple-foundation-models",
+      "source": "Hacker News",
+      "sourceUrl": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "commentUrl": "https://news.ycombinator.com/item?id=48536776",
+      "publishedAt": "2026-06-15T04:55:34.000Z",
+      "titleEn": "Apple Foundation Models",
+      "titleZh": "Apple 基础模型",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "MehrdadKhnzd"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 265,
+      "commentCount": 102,
       "tags": []
     },
     {
@@ -260,6 +994,28 @@
       "tags": []
     },
     {
+      "id": "gnews:2587f2a82620",
+      "slug": "gnews-2587f2a82620",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc0R1TGZXYVhEUVNtRzZ2SVdweGtjY0d3T2haX2Z1bnppeDJaaTdZT1JkX2U5bGZxM2ZoY3hVV3FZNlZieS1fQkJ5YW9pRXpaQnpZcDhZMWFuXzNFR1dmRHFrSzU1bExwLUx5Z040ZWY1MXc5ZWNPWlp2dF9pMjlTT1dmaG9GeHFJRHBlOGxEeDE3RjI3SGUzZWJSQ0FVNWQxaTczVlZfN3EzODNH?oc=5",
+      "publishedAt": "2026-06-15T01:51:00.000Z",
+      "titleEn": "Breakingviews - Anthropic becomes a cautionary sovereign-AI fable",
+      "titleZh": "Breakingviews - Anthropic 成为一则警示性的主权AI寓言",
+      "abstractEn": "Breakingviews - Anthropic becomes a cautionary sovereign-AI fable  Reuters",
+      "abstractZh": "Breakingviews - Anthropic 成为一则警示性的主权AI寓言  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "gnews:1acd84aa5c5b",
       "slug": "gnews-1acd84aa5c5b",
       "source": "Google AI News",
@@ -302,6 +1058,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-zaobao-z1reycedmooljv3s-html",
+      "slug": "tp-link-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/zaobao/z1REYcEDmooLjV3S.html",
+      "publishedAt": "2026-06-15T00:27:00.000Z",
+      "titleEn": "网件反咬TP-Link：「美国公司」是骗局，本质仍是中国企业；乌克兰使用AI无人机自主猎杀俄士兵；山姆客服回应极速达买到临期商品",
+      "titleZh": "网件反咬TP-Link：「美国公司」是骗局，本质仍是中国企业；乌克兰使用AI无人机自主猎杀俄士兵；山姆客服回应极速达买到临期商品",
+      "abstractEn": "要闻提示\n\n\n\n\n\n\n1.网件反诉TP-Link：宣称 “美国公司” 是虚假宣传，本质仍是中国企业\n2.百度搜索疑似调整AI结果权重，网页链接重新优先\n3.只能第一！余承东：鸿蒙彻底告别安卓、华为突破封锁麒麟芯全面回归\n4.携程被罚 1000 万：未落实数据出境安全评估要求、违法出境个人信息\n5.山姆客服回应极速达买到临期商品：可以在订单中备注“不要临期”\n6.机器人伴侣U1内置养成系专属情感大模型，仅限成人购买使用\n7.三位网易制作人入职4399，包括前梦幻事业部负责人林云枫\n8.人类首次！乌克兰使用“终结者”AI无人机自主猎杀俄士兵\n\n\n\n\n\n今日头条\n\n\n\n\n\n\n\n\n网件反诉TP-Link：宣称 “美国公司” 是虚假宣传，本质仍是中国企业\n\n\n\n\n6月14日消息，日前，美国网络设备巨头网件（Netgear）对其最大竞争对手TP-Link提起反诉，指控后者违反贸易法规进行虚假宣传。此前",
+      "abstractZh": "要闻提示\n\n\n\n\n\n\n1.网件反诉TP-Link：宣称 “美国公司” 是虚假宣传，本质仍是中国企业\n2.百度搜索疑似调整AI结果权重，网页链接重新优先\n3.只能第一！余承东：鸿蒙彻底告别安卓、华为突破封锁麒麟芯全面回归\n4.携程被罚 1000 万：未落实数据出境安全评估要求、违法出境个人信息\n5.山姆客服回应极速达买到临期商品：可以在订单中备注“不要临期”\n6.机器人伴侣U1内置养成系专属情感大模型，仅限成人购买使用\n7.三位网易制作人入职4399，包括前梦幻事业部负责人林云枫\n8.人类首次！乌克兰使用“终结者”AI无人机自主猎杀俄士兵\n\n\n\n\n\n今日头条\n\n\n\n\n\n\n\n\n网件反诉TP-Link：宣称 “美国公司” 是虚假宣传，本质仍是中国企业\n\n\n\n\n6月14日消息，日前，美国网络设备巨头",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
     },
     {
       "id": "gnews:1cd7688335cc",
@@ -784,6 +1560,28 @@
       ]
     },
     {
+      "id": "gnews:d20986886fd7",
+      "slug": "gnews-d20986886fd7",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORWk0Q29faC1zSGx3UGk5Yi1aUGhkcU5MZV9MZExaVFZueU1IZ3lFS0JRVTdjUkQ0aXhJV05qNGVvRVh4OW5aY2UxSWMyTlJtR3pYaW1URll4RGozcUZxVlNmdnBPNk5hUXlwamdIeV8xLXV2NThfSWpqR0U3T2dCNHE1LXVaRUZtZXNSVHJtbnhMbUhFSGdrQmpDT3gtZlkzc1V1Q1Vha1BDcXNEc0F1WEFxQkRvRXhRUkkxX3ZXRUktLVk?oc=5",
+      "publishedAt": "2026-06-14T16:00:49.000Z",
+      "titleEn": "Which jobs are most at risk from the irresistible rise of artificial intelligence?",
+      "titleZh": "哪些工作最易受到人工智能不可阻挡崛起的冲击？",
+      "abstractEn": "Which jobs are most at risk from the irresistible rise of artificial intelligence?  The Spinoff",
+      "abstractZh": "哪些工作最易受到人工智能不可阻挡崛起的冲击？  The Spinoff",
+      "authors": [
+        "The Spinoff"
+      ],
+      "institution": "The Spinoff",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
       "id": "hn:48528371",
       "slug": "hn-48528371-rio-de-janeiros-homegrown-llm-appears-to-be-a-merge-of-an-existing-m",
       "source": "Hacker News",
@@ -934,6 +1732,26 @@
       "tags": [
         "AI News"
       ]
+    },
+    {
+      "id": "deepmind:4cca0ecb",
+      "source": "Google DeepMind",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSGxaODhWMGdPMm1mQ2phVTB4bkszM2d4S3NzWVBIT2wzdG5YNmpZUmxjdW55cEM2UEFWb0JZdzVLTjRlU3JfVEFuS25icXZUTWJNdmwzeFBuLVZoTURxU2l2UmkxUGY5LWRxUW13c2pKa0xXOFM4WENkb28zZjl0WGJCSWh1VklpQTBHV1hvY3V4YVQ4cXdfMmQxQV9rZw?oc=5",
+      "publishedAt": "2026-06-09T13:00:19.000Z",
+      "titleEn": "Gemini’s guided learning: results from a randomized controlled trial in Sierra Leone - Google DeepMind",
+      "abstractEn": "[Google DeepMind] Gemini’s guided learning: results from a randomized controlled trial in Sierra Leone - Google DeepMind",
+      "authors": [],
+      "category": "research",
+      "titleZh": "Gemini 的引导式学习：塞拉利昂随机对照试验结果 - Google DeepMind",
+      "abstractZh": "[Google DeepMind] Gemini 的引导式学习：塞拉利昂随机对照试验结果 - Google DeepMind",
+      "contentMd": "## 核心贡献：AI 引导式学习在真实教育场景中的首次大规模验证\n### Key Contributions: First Large-Scale Validation of AI-Guided Learning in Real-World Education\n\n本文介绍了 Google DeepMind 与相关机构在塞拉利昂开展的一项随机对照试验（Randomized Controlled Trial, RCT），旨在评估其 AI 系统 Gemini 在引导式学习（Guided Learning）场景中的实际效果。这是 AI 辅助教育领域少有的、在发展中国家真实课堂环境中进行的严格实验。研究首次提供了关于生成式 AI 如何通过个性化引导，而非直接给出答案，来提升学生数学与英语学习成果的因果证据。其核心贡献在于，将 AI 从实验室的“辅助工具”角色，推进到能够独立承担部分教学引导职能的“学习伙伴”角色，并验证了其在资源受限环境下的可行性与有效性。\n\n> 💡 **背景**：引导式学习强调通过提问、提示和逐步拆解问题来激发学生主动思考，而非直接灌输知识。Gemini 在此研究中被设计为遵循这一教学法。\n\n## 研究背景：教育不平等的技术解困之路\n### Background: A Technological Path to Alleviating Educational Inequality\n\n全球范围内，尤其是在撒哈拉以南非洲地区，教育资源匮乏、合格教师短缺是长期困扰教育发展的核心难题。塞拉利昂作为典型的发展中国家，面临着班级规模过大、教学材料不足以及学生基础水平参差不齐等严峻挑战。传统的远程教育或录播课程难以提供针对性的互动反馈。Google DeepMind 选择在此地开展 RCT，正是为了检验 AI 能否在“最后一公里”弥合教育鸿沟。该研究基于一个核心假设：如果 AI 能够模拟优秀教师的引导策略，为每个学生提供实时、个性化的学习路径，那么即使在没有足够人类教师的情况下，学生的学习效果也能得到显著改善。这一背景使得该研究不仅具有技术探索意义，更承载着深刻的社会价值。\n\n## 技术方法：基于 Gemini 的引导式学习系统设计\n### Technical Approach: Designing a Guided Learning System with Gemini\n\n研究团队构建了一套基于 Gemini 模型的引导式学习系统。其技术核心并非让 AI 直接输出答案，而是通过多轮对话，引导学生自己推导出结论。具体而言，系统会：\n1.  **诊断学情**：通过初始问题评估学生当前的知识掌握水平。\n2.  **动态拆解**：将复杂问题分解为若干子步骤，每一步都提供提示（Hints）或反问（Socratic Questions）。\n3.  **自适应反馈**：根据学生的回答，实时调整后续问题的难度和引导方向，避免学生因挫败感而放弃。\n4.  **内容对齐**：所有教学内容均与塞拉利昂国家课程大纲对齐，确保学习内容的本地化与合规性。\n\n> ⚠️ **注意**：该研究强调，Gemini 在此过程中不生成任何未经审核的“创造性”内容，所有引导路径均经过教育专家预设与验证，以最大程度降低 AI 幻觉风险。\n\n## 主要发现：显著提升学习成果，尤其惠及后进生\n### Key Findings: Significant Learning Gains, Especially for Struggling Students\n\n随机对照试验的结果令人振奋。与接受传统课堂教学的对照组相比，使用 Gemini 引导式学习系统的实验组学生在标准化测试中取得了统计学上显著的进步。关键发现包括：\n- **整体提升**：实验组学生的数学和英语平均得分显著高于对照组，效果量（Effect Size）在教育干预研究中属于中等偏上水平。\n- **后进生受益最大**：初始成绩处于最低四分位数的学生，其进步幅度最为明显。这表明 AI 的个性化引导能够有效弥补基础薄弱学生的学习短板，缩小班级内的成绩差距。\n- **参与度提高**：实验组学生的课堂专注度和主动提问频率均有所上升，AI 的即时反馈机制有效维持了学生的学习动机。\n\n> 💡 **背景**：RCT 是评估因果效应的“黄金标准”。该研究通过随机分组，排除了学生自身能力差异等混淆因素，使得结论具有较高的可信度。\n\n## 意义与影响：AI 教育从“辅助”走向“赋能”\n### Significance & Impact: From “Assistance” to “Empowerment” in AI Education\n\n这项研究的意义超越了单一的技术测试。它首次以严谨的实证数据证明，生成式 AI 不仅能在发达国家的精英课堂中发挥作用，更能成为发展中国家破解教育公平难题的有力工具。其影响体现在三个层面：\n1.  **对教育政策**：为政府和非营利组织提供了可复制的技术方案，证明在教师短缺地区，AI 可以作为有效的教学补充，而非替代品。\n2.  **对 AI 研发**：验证了“引导式学习”这一交互范式在真实场景中的有效性，为后续 AI 教育产品的设计提供了关键设计原则——即“少给答案，多给路径”。\n3.  **对伦理边界**：研究强调了 AI 在教育中的“辅助”定位，通过严格的内容审核和教学法约束，避免了技术滥用可能带来的认知风险。\n\n未来，随着 Gemini 等模型能力的进一步提升，这种“AI 引导员”模式有望在全球更多资源匮乏地区落地，真正实现“因材施教”的教育理想。",
+      "tldrZh": "塞拉利昂真实课堂的随机对照试验首次证实，Gemini 引导式学习系统能显著提升学生数学与英语成绩，尤其对后进生效果最明显，为 AI 在资源匮乏地区承担教学引导角色提供了因果证据。",
+      "translator": {
+        "model": "DeepSeek",
+        "translatedAt": "2026-06-15T13:28:03.689Z"
+      },
+      "featured": true,
+      "featuredDate": "2026-06-15"
     }
   ]
 }
