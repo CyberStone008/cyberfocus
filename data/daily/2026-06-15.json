@@ -1,16 +1,461 @@
 {
   "date": "2026-06-15",
-  "generatedAt": "2026-06-14T22:12:25.927Z",
+  "generatedAt": "2026-06-15T06:39:04.170Z",
   "summary": {
     "aiNews": [
-      "亚马逊警告促使白宫关闭Anthropic的Mythos模型，引发对AI安全监管的争议。",
-      "加拿大总理卡尼警告：美国限制Anthropic模型暴露过度依赖单一供应商的风险。",
-      "印度23家初创公司6月8-13日融资超2.44亿美元，显示AI领域投资活跃。"
+      "Tin Men Capital领投Pints AI 560万美元融资，用于扩大增长。",
+      "清华系公司成立一年即获车厂订单，将具身智能送入真实产线。",
+      "美国政府叫停Anthropic最新Claude模型，称其‘鲁莽行为’引发出口管制。"
     ],
     "papers": [],
     "hrOrgs": []
   },
   "articles": [
+    {
+      "id": "gnews:ed0d3ae1255f",
+      "slug": "gnews-ed0d3ae1255f",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRjRnd2dUcmE2RUVSZFVaa3hyNGlKSEx3M2MyN2RhQnVVZGZDV3ZraTFwN3daRVlYTFFNTUFCOEdaSGZTZjRTMnhEZUc2UU15Z2FkQzBrUXU2Ymx6V3lVdWVtQV9wVy0wTHYxMmxraTZGdFNCcWh1Z09lX0JtUGVsOWl3QXFFNEYwcjk3OXBRSV9NelNRNUtKanVSSDRMUUVsX3BkeE5ZMVdGQTN1SF9fWU5reFVSWk5K?oc=5",
+      "publishedAt": "2026-06-15T06:33:58.000Z",
+      "titleEn": "Tin Men Capital Leads Pints AI's $5.6M Funding to Scale Growth",
+      "titleZh": "Tin Men Capital领投Pints AI的560万美元融资以扩大增长",
+      "abstractEn": "Tin Men Capital Leads Pints AI's $5.6M Funding to Scale Growth  Asia Business Outlook",
+      "abstractZh": "Tin Men Capital领投Pints AI的560万美元融资以扩大增长  Asia Business Outlook",
+      "authors": [
+        "Asia Business Outlook"
+      ],
+      "institution": "Asia Business Outlook",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435574-html",
+      "slug": "",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435574.html",
+      "publishedAt": "2026-06-15T06:08:58.000Z",
+      "titleEn": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
+      "titleZh": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
+      "abstractEn": "过去两年，具身智能行业最热的关键词是人形机器人。但未来几年，更重要的关键词或许会变成另一件事：智能生产力。",
+      "abstractZh": "过去两年，具身智能行业最热的关键词是人形机器人。但未来几年，更重要的关键词或许会变成另一件事：智能生产力。",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435558-html",
+      "slug": "fable-5-orcarouter",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435558.html",
+      "publishedAt": "2026-06-15T05:43:15.000Z",
+      "titleEn": "低成本复刻Fable 5的路子找到了：OrcaRouter多模型组队，性能反超",
+      "titleZh": "低成本复刻《Fable 5》的路子找到了：OrcaRouter 多模型组队，性能反超",
+      "abstractEn": "原来最强AI不是一个AI",
+      "abstractZh": "原来最强AI不是一个AI",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-robot-fufjkclurryp0ye4-html",
+      "slug": "10-a",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/robot/FufjKCluRRyP0ye4.html",
+      "publishedAt": "2026-06-15T04:32:00.000Z",
+      "titleEn": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
+      "titleZh": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
+      "abstractEn": "雷峰网获悉，6 月 15 日海洋具身智能公司世航智能宣布完成超 10 亿元 A 轮融资，为目前全球海洋机器人领域规模最大的单轮融资。\n雷峰网了解到，该轮新投资方包括上河动量基金、新加坡淡马锡旗下 Vertex Growth、中信集团农业产业基金、誉尊资本、上市公司大洋电机；老股东金沙江创投、祥峰中国、华映资本、长石资本等全部大比例超额追投。本轮融资将主要用于核心技术研发、全球化市场拓展及产业链生态建设，推动海洋机器人在复杂水下场景的规模化应用。\n世航智能创始人兼 CEO 陈晓博为 1989 年出生的哈尔滨工程大学校友，深耕海洋机器人领域 19 年，28 岁获国防科技进步一等奖，是该奖项最年轻获奖者之一，曾主导研发全国首台商用水下清洗机器人。\n\n技术层面，世航智能今年 4 月发布海洋具身大模型 “沧穹 CEORION”。不同于传统水下机器人依赖人工遥控或预设程序，该模型采用统一端到端架构，将",
+      "abstractZh": "雷峰网获悉，6 月 15 日海洋具身智能公司世航智能宣布完成超 10 亿元 A 轮融资，为目前全球海洋机器人领域规模最大的单轮融资。\n雷峰网了解到，该轮新投资方包括上河动量基金、新加坡淡马锡旗下 Vertex Growth、中信集团农业产业基金、誉尊资本、上市公司大洋电机；老股东金沙江创投、祥峰中国、华映资本、长石资本等全部大比例超额追投。本轮融资将主要用于核心技术研发、全球化市场拓展及产业链生态建设，推动海洋机器人在复杂水下场景的规模化应用。\n世航智能创始人兼 CEO 陈晓博为 1989 年出生的哈尔滨工程大学校友，深耕海洋机器人领域 19 年，28 岁获国防科技进步一等奖，是该奖项最年轻获奖者之一，曾主导研发全国首台商用水下清洗机器人。\n\n技术层面，世航智能今年 4 月发布海洋具身大模型",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:759b751058a4",
+      "slug": "gnews-759b751058a4",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYWJYdUEyTmF0LXd3eUJMUVZjTkJyRHQ4cWYxYXdZNmN0emlTXzRHcUVadmlMNE5la0JUSjJJR0pLYnEtd3N3VGJkSncxeXpSbDlNU2E5ajhRem82NllIMlJfY2JtZlp1bWdfTDk2NnFrcUtqeFN1TXFueVJMa2ZKVVF5ZERlQzN2TlFQa1RvdEN2MVBIdk9nRkp0N3lCZFNJT2FxVU82V2dvM2xvd1BVRVNYVQ?oc=5",
+      "publishedAt": "2026-06-15T04:16:14.000Z",
+      "titleEn": "Macron outlines G7 agenda on global crises, economy and AI safety",
+      "titleZh": "马克龙概述G7议程：全球危机、经济与AI安全",
+      "abstractEn": "Macron outlines G7 agenda on global crises, economy and AI safety  Awaz The Voice",
+      "abstractZh": "马克龙概述G7议程：全球危机、经济与AI安全  Awaz The Voice",
+      "authors": [
+        "Awaz The Voice"
+      ],
+      "institution": "Awaz The Voice",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:cb0b03f0abcf",
+      "slug": "gnews-cb0b03f0abcf",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
+      "publishedAt": "2026-06-15T04:08:34.000Z",
+      "titleEn": "Why the US government shut down Anthropic’s latest Claude AI model",
+      "titleZh": "美国政府为何叫停Anthropic最新Claude AI模型",
+      "abstractEn": "Why the US government shut down Anthropic’s latest Claude AI model  The Conversation",
+      "abstractZh": "美国政府为何叫停Anthropic最新Claude AI模型  《对话》",
+      "authors": [
+        "The Conversation"
+      ],
+      "institution": "The Conversation",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435531-html",
+      "slug": "agent",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435531.html",
+      "publishedAt": "2026-06-15T03:40:26.000Z",
+      "titleEn": "Agent时代，华为云开始重新造地基了",
+      "titleZh": "Agent时代，华为云开始重新造地基了",
+      "abstractEn": "Agentic新基建",
+      "abstractZh": "Agentic新基建",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "量子位:https-www-qbitai-com-2026-06-435520-html",
+      "slug": "ai-matrix-game-3-5",
+      "source": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/06/435520.html",
+      "publishedAt": "2026-06-15T03:24:30.000Z",
+      "titleEn": "智源大会 | 天工AI重新定义世界模型，公布Matrix-Game 3.5 最新技术突破",
+      "titleZh": "智源大会 | 天工AI重新定义世界模型，公布 Matrix-Game 3.5 最新技术突破",
+      "abstractEn": "昆仑万维将持续深耕，步履不停",
+      "abstractZh": "昆仑万维将持续深耕，步履不停",
+      "authors": [
+        "量子位"
+      ],
+      "institution": "量子位",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "hn:48536112",
+      "slug": "hn-48536112-inside-the-24-hours-that-led-to-pulling-fable-5",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.businessinsider.com/why-white-house-ordered-export-controls-anthropic-mythos-fable-2026-6",
+      "commentUrl": "https://news.ycombinator.com/item?id=48536112",
+      "publishedAt": "2026-06-15T03:08:01.000Z",
+      "titleEn": "Inside the 24 hours that led to pulling Fable 5",
+      "titleZh": "导致《Fable 5》下架的24小时内幕",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "twostorytower"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 12,
+      "commentCount": 5,
+      "tags": []
+    },
+    {
+      "id": "hn:48535797",
+      "slug": "hn-48535797-ai-has-amnesia-heres-every-system-built-to-fix-it",
+      "source": "Hacker News",
+      "sourceUrl": "https://medium.com/@alanayalag/your-ai-has-amnesia-heres-every-system-built-to-fix-it-ad7dee117a75",
+      "commentUrl": "https://news.ycombinator.com/item?id=48535797",
+      "publishedAt": "2026-06-15T02:16:24.000Z",
+      "titleEn": "AI Has Amnesia. Here's Every System Built to Fix It",
+      "titleZh": "AI 患有失忆症。以下是为此构建的每一个系统",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "AlanAAG"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 11,
+      "commentCount": 2,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-industrynews-d1eqrpsxbw4c1jjr-html",
+      "slug": "ai-ai",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/industrynews/d1EqrpsXBW4c1JjR.html",
+      "publishedAt": "2026-06-15T02:16:00.000Z",
+      "titleEn": "健康AI阿福测试“医生把关”新功能：打开“AI+医生”协作想象空间",
+      "titleZh": "健康AI阿福测试“医生把关”新功能：打开“AI+医生”协作想象空间",
+      "abstractEn": "6月15日，健康AI应用\"蚂蚁阿福\"宣布“拍皮肤”功能升级：可识别皮肤病种类从50种增至100多种，覆盖99%的线上就医常见皮肤问题。同时，阿福还上线了“医生把关”这一新服务：用户获得阿福的解答后，可选择邀请三甲医院的医生对阿福的分析结果进行复核并补充意见。这也是国内首个落地\"AI问答+医生把关\"协作模式的AI应用，为AI与医生的合作提供了可行路径，打开了“AI+医生”赛道的想象空间。\n \n \n阿福的测试数据显示，15%的用户会选择“医生把关”，阿福分析结果与医生把关的一致率超过90%。\n \n阿福回答后“医生把关”，15%的用户会用这个功能\n \n记者在阿福App的“拍皮肤”功能中体验了完整链路：当阿福分析完皮肤问题并给出建议后，系统会提示可邀请三甲医院主治医生把关阿福的回答结果。\n \n记者点击\"免费确认\"后，系统约5秒内完成了医生匹配，显示该医生来自某三甲医院皮肤科。线上授权后很快收到了医",
+      "abstractZh": "6月15日，健康AI应用'蚂蚁阿福'宣布“拍皮肤”功能升级：可识别皮肤病种类从50种增至100多种，覆盖99%的线上就医常见皮肤问题。同时，阿福还上线了“医生把关”这一新服务：用户获得阿福的解答后，可选择邀请三甲医院的医生对阿福的分析结果进行复核并补充意见。这也是国内首个落地'AI问答+医生把关'协作模式的AI应用，为AI与医生的合作提供了可行路径，打开了“AI+医生”赛道的想象空间。\n \n \n阿福的测试数据显示，15%的用户会选择“医生把关”，阿福分析结果与医生把关的一致率超过90%。\n \n阿福回答后“医生把关”，15%的用户会用这个功能\n \n记者在阿福App的“拍皮肤”功能中体验了完整链路：当阿福分析完皮肤问题并给出建议后，系统会提示可邀请三甲医院主治医生把关阿福的回答结果。\n \n记者点",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "雷锋网:https-www-leiphone-com-category-weiwu-nmg4pgklnqreykmk-html",
+      "slug": "soulx",
+      "source": "雷锋网",
+      "sourceUrl": "https://www.leiphone.com/category/weiwu/NmG4PGKLNQreYKmk.html",
+      "publishedAt": "2026-06-15T02:05:00.000Z",
+      "titleEn": "首发丨家庭柔性机器人公司「SoulX」获高瓴投资，首款「拥抱机器人」年内上市",
+      "titleZh": "首发丨家庭柔性机器人公司「SoulX」获高瓴投资，首款「拥抱机器人」年内上市",
+      "abstractEn": "陪你睡觉的机器人来了。\n作者丨姚单\n\n编辑丨董子博\n\n\n\n\n\n\n\n\n雷峰网·鲸犀获悉，家庭柔性机器人公司弘火智能「SoulX」已完成天使轮融资，由高瓴创投投资，向阳资本担任独家财务顾问。本轮融资将用于首款睡眠安抚机器人MoYa的量产和推广。这款产品预计2026年年内在北美率先上市。\nSoulX创始人郑潜为哈工大机器人背景出身，后在浙大控制学院深耕神经科学，是外骨骼、脑机接口领域的连续创业者。这次创业，郑潜组建了一支高度交叉的团队，成员背景覆盖工业与医疗康复柔性机器人、脑机接口、情感交互与心理健康AI、柔性电子、汽车智能座舱与舒适系统供应链，以及家居与艺术设计等领域。\n一直以来，郑潜想要做的是一个普惠的、大众能感知到的产品，但他当年做的事情在过去的节点还是离普通人太遥远了，这个念头最终落在了“睡觉、拥抱”这件事上。\n\n\n\n01\n\n\n市场缺口与现有方案的局限\n\n\n\n\n要理解郑潜所选的创业方向，",
+      "abstractZh": "陪你睡觉的机器人来了。\n作者丨姚单\n\n编辑丨董子博\n\n\n\n\n\n\n\n\n雷峰网·鲸犀获悉，家庭柔性机器人公司弘火智能「SoulX」已完成天使轮融资，由高瓴创投投资，向阳资本担任独家财务顾问。本轮融资将用于首款睡眠安抚机器人MoYa的量产和推广。这款产品预计2026年年内在北美率先上市。\nSoulX创始人郑潜为哈工大机器人背景出身，后在浙大控制学院深耕神经科学，是外骨骼、脑机接口领域的连续创业者。这次创业，郑潜组建了一支高度交叉的团队，成员背景覆盖工业与医疗康复柔性机器人、脑机接口、情感交互与心理健康AI、柔性电子、汽车智能座舱与舒适系统供应链，以及家居与艺术设计等领域。\n一直以来，郑潜想要做的是一个普惠的、大众能感知到的产品，但他当年做的事情在过去的节点还是离普通人太遥远了，这个念头最终落在了“",
+      "authors": [
+        "雷锋网"
+      ],
+      "institution": "雷锋网",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": []
+    },
+    {
+      "id": "gnews:1acd84aa5c5b",
+      "slug": "gnews-1acd84aa5c5b",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPelNfOGQ1TGRrWFQ4dnR5Mm5wMzlsNklJZWxhN1p1OEd6SXB2VkFoNDJWdFBaNW5KMnYwVDJBNjRUdFdpbHBZdDJyWU5jdlVFMWZzYjFMTm9vWjdoeTIySko1d3lxcU5BV1p6VVNINno2VXlxaG5MRDduQ3pleG1rTXlsVHpoTEJpQkpYd1N1N3I2QU51eWxpdzR3MDE5ZWlPVlE?oc=5",
+      "publishedAt": "2026-06-15T01:32:03.000Z",
+      "titleEn": "Opinion: Australia’s AI policy reaches its first milestone this week",
+      "titleZh": "观点：澳大利亚AI政策本周迎来首个里程碑",
+      "abstractEn": "Opinion: Australia’s AI policy reaches its first milestone this week  Pulse+IT News",
+      "abstractZh": "观点：澳大利亚AI政策本周迎来首个里程碑  Pulse+IT News",
+      "authors": [
+        "Pulse+IT News"
+      ],
+      "institution": "Pulse+IT News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:28ab41d900b5",
+      "slug": "gnews-28ab41d900b5",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB5M2RIbUFud1NSbFE4UFAxM3kzTkJoem84TTJRakdieUJsQ21naVpYZGxaLUY0S0ZOZFdVTk9saU5WVWFsQzMySldadlg1a2pxYk9tWl84Q2pxQWc2QU51b2YwQktkM0FyR3l0eDVPUURiNEpSeUwzZUhzeElnREcwZkItUldaSTI1N3R2U2tqY2ZPeHVDMll2Y2ZrQ0UzZ1ZzamNzNVhJa3dlaVlDdQ?oc=5",
+      "publishedAt": "2026-06-15T01:12:00.000Z",
+      "titleEn": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions",
+      "titleZh": "Anthropic派遣员工赴华盛顿，紧急解决AI出口限制问题",
+      "abstractEn": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions  WSJ",
+      "abstractZh": "Anthropic派遣员工赴华盛顿，紧急解决AI出口限制问题  《华尔街日报》",
+      "authors": [
+        "WSJ"
+      ],
+      "institution": "WSJ",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:1cd7688335cc",
+      "slug": "gnews-1cd7688335cc",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMGhWZVJ3WUdteEFtM1FPYVhDcThGcTB0LTl0blJlSE9YZElJSGlrVWNxRkRFSWc1cVNZenh4aXVDM3czUS16VktFa2ZFOGwxamppN2tYQjFhVERnVGtjaVhKaTJybzZCcGFTdFBldUVsMHh1QVRNQmx6SFhERnpleUJmdTYzdlg3X3BnbUhlSXoxSVlVeWRVWEw2aTlJRGxYQzV0M3hhMWRuYWFPVk0wWlpFSjN4MWx4Wlp2eNIBwgFBVV95cUxNNURscjEzcnV6bVZlRHo3V3p1ZklCbEoyM25nYjVSMjl3N1FaZGJtb0dEVHNPdTBTdGlYcnhiSXJFRE42cDM1aHJrdVppS3doVHRZWmQ1bVdiT2lZRnlsczBYbW5OWkp1WGEzYXlNVjdJTVpxY0hFcUNuVGpLYTdWMDNrVHFnMWlPcDdWQkF5YWFYanJsenNaU1hGb1lpMWJkSHFka1hRMTJYTU5zNXl1ZEpYTGdCUUw4S0VzX0xhMnFVZw?oc=5",
+      "publishedAt": "2026-06-15T00:27:00.000Z",
+      "titleEn": "Trump admin says Anthropic's 'recklessness' triggered export controls on latest AI models",
+      "titleZh": "特朗普政府称Anthropic的‘鲁莽行为’引发对最新AI模型的出口管制",
+      "abstractEn": "Trump admin says Anthropic's 'recklessness' triggered export controls on latest AI models  Fox Business",
+      "abstractZh": "特朗普政府称Anthropic的‘鲁莽行为’引发对最新AI模型的出口管制  Fox Business",
+      "authors": [
+        "Fox Business"
+      ],
+      "institution": "Fox Business",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:111a9e9cc535",
+      "slug": "gnews-111a9e9cc535",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4alpsTVRjbTk4OWVtSGxxNWtJLXZSMWhDekFUa2dPVzZFX1h2ZjhIeWJPdmtfY2g2UnhUT2JCWEN3VzU4REo0NVp5a0dLZkdERlUybHVYWmd2T2Qxd2VTTnlCVUJyQ0xEMkE?oc=5",
+      "publishedAt": "2026-06-15T00:25:01.000Z",
+      "titleEn": "Tyler Cowen: A Dangerous Turn in AI Regulation",
+      "titleZh": "Tyler Cowen：AI监管的危险转向",
+      "abstractEn": "Tyler Cowen: A Dangerous Turn in AI Regulation  The Free Press",
+      "abstractZh": "Tyler Cowen：AI监管的危险转向  《自由新闻》",
+      "authors": [
+        "The Free Press"
+      ],
+      "institution": "The Free Press",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ee1e7258e1d9",
+      "slug": "gnews-ee1e7258e1d9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uMkJtTlNBalBxNWxuLVlzbHlsaTFGdXdmUks2Z1pqZ0IyZkNyYmZUU1JkYlc4emNMclpXUWo1aEpyRVJRX3VKQnlScl93bkdrN1pBeWlaVVNSeWk2cmh5dlpWRF9ZTkY2LW9qMw?oc=5",
+      "publishedAt": "2026-06-15T00:15:49.000Z",
+      "titleEn": "Introducing the OpenAI Partner Network",
+      "titleZh": "OpenAI合作伙伴网络正式推出",
+      "abstractEn": "Introducing the OpenAI Partner Network  OpenAI",
+      "abstractZh": "OpenAI合作伙伴网络正式推出  OpenAI",
+      "authors": [
+        "OpenAI"
+      ],
+      "institution": "OpenAI",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:f12d1a76c5fe",
+      "slug": "gnews-f12d1a76c5fe",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcHpPNTl3TmdRVHlOekxnSHpOTUdLcDJVWktzSjJ4V3V5OFFZeV9XWlVNamQwUjRYaVlTb3RFREc1RGQ0SHR4MUxYVWZEZHVIN3h4cmJWanVKM1p1WkxWTjZSX2hsMEZDdVJKMzhTbVFobDlVYzZUQ0JMX0hhaXNEa3c1M19hSUJMZWJGOHJWOGo0eFhiQjI1X1hwVVIzZzJfMkVMQnlUYlY2a1hXN20xR3RWNXpReC1XQ0F6aVR3?oc=5",
+      "publishedAt": "2026-06-15T00:00:43.000Z",
+      "titleEn": "White House forces Anthropic to disable new frontier models following abrupt export ban",
+      "titleZh": "白宫在突然实施出口禁令后迫使Anthropic禁用新前沿模型",
+      "abstractEn": "White House forces Anthropic to disable new frontier models following abrupt export ban  SiliconANGLE",
+      "abstractZh": "白宫在突然实施出口禁令后迫使Anthropic禁用新前沿模型  SiliconANGLE",
+      "authors": [
+        "SiliconANGLE"
+      ],
+      "institution": "SiliconANGLE",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:09c5b99cf190",
+      "slug": "gnews-09c5b99cf190",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Fb3o0Q2dWcy04ZWU3RWJKVlJlbUhsUTluWWFiSDJDakZVRG9veUdjcGJiUElyTDYyRDE2OEhuUVJycmlqRmRfTk1fM0MxcW1Ca1VaV1oyWXFvSjFHV1VER200cDVUcFU?oc=5",
+      "publishedAt": "2026-06-14T23:08:35.000Z",
+      "titleEn": "Asiana IDT Obtains AI Safety, Low-Carbon Certifications",
+      "titleZh": "Asiana IDT获得AI安全与低碳认证",
+      "abstractEn": "Asiana IDT Obtains AI Safety, Low-Carbon Certifications  thelec.net",
+      "abstractZh": "Asiana IDT获得AI安全与低碳认证  thelec.net",
+      "authors": [
+        "thelec.net"
+      ],
+      "institution": "thelec.net",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:ddd60b343141",
+      "slug": "gnews-ddd60b343141",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekFzN2VSVEQ1RjJqLWRNdklFc2YzNGNjei1oMW5CdnRxbUdzcUpQdUFaQV9YTlZvNGpIUXIyZEo2Nk5HVlRySGdmV0YwMS1qRFg2X0FoU3RrTHhwV1hBZnU0alRSdHNIRkEzZ2lYQ2lWdnJ1UmJ2QWZIOHNWMEdXaEx1Mkh1ekxjQmhwN2VyX3RFRXI2OHlnaDZYMUwzSzdPTjlBLVpmZ09IQ2t3d2trLUpUTmlxZw?oc=5",
+      "publishedAt": "2026-06-14T23:01:27.000Z",
+      "titleEn": "Google DeepMind and partners put $10M behind multi-agent AI safety research",
+      "titleZh": "Google DeepMind与合作伙伴投入1000万美元用于多智能体AI安全研究",
+      "abstractEn": "Google DeepMind and partners put $10M behind multi-agent AI safety research  EdTech Innovation Hub",
+      "abstractZh": "Google DeepMind与合作伙伴投入1000万美元用于多智能体AI安全研究  EdTech Innovation Hub",
+      "authors": [
+        "EdTech Innovation Hub"
+      ],
+      "institution": "EdTech Innovation Hub",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "hn:48533504",
+      "slug": "hn-48533504-did-anthropic-ask-for-this",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "commentUrl": "https://news.ycombinator.com/item?id=48533504",
+      "publishedAt": "2026-06-14T22:23:05.000Z",
+      "titleEn": "Did Anthropic ask for this?",
+      "titleZh": "Anthropic 是否主动要求了这一点？",
+      "abstractEn": "",
+      "abstractZh": null,
+      "authors": [
+        "ad8e"
+      ],
+      "institution": "Hacker News",
+      "docType": "Blog",
+      "category": "social",
+      "score": 180,
+      "commentCount": 152,
+      "tags": []
+    },
     {
       "id": "gnews:4129e7f19792",
       "slug": "gnews-4129e7f19792",
@@ -176,6 +621,28 @@
         "Fortune"
       ],
       "institution": "Fortune",
+      "docType": "Blog",
+      "category": "social",
+      "score": 0,
+      "commentCount": 0,
+      "tags": [
+        "AI News"
+      ]
+    },
+    {
+      "id": "gnews:45146e1b02a9",
+      "slug": "gnews-45146e1b02a9",
+      "source": "Google AI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY25vQUsydXcweHNma1h1T1BCaVdNOHEyTG9rcnA5Z1BNcmNhVEgtUlhoMWhLTFJsTnhVT1lCcDZTWHFWcE1OXzJmaERvZDBXbXhjYTk1djRfN1Z4TUR2Z3U5NlVjYU8yNHNYcWlORDUtbzBCY1dyS21jWUVaRnROZTIxTi0wNjNHX2dGR1ZGa2VTOEVyOHlmV01yTFQ4YUNBSUw1TjlJZmo3bkwxVUtWQw?oc=5",
+      "publishedAt": "2026-06-14T18:28:00.000Z",
+      "titleEn": "Anthropic staff to meet White House officials next week, Axios reports",
+      "titleZh": "Axios报道：Anthropic员工将于下周与白宫官员会面",
+      "abstractEn": "Anthropic staff to meet White House officials next week, Axios reports  Reuters",
+      "abstractZh": "Axios报道：Anthropic员工将于下周与白宫官员会面  路透社",
+      "authors": [
+        "Reuters"
+      ],
+      "institution": "Reuters",
       "docType": "Blog",
       "category": "social",
       "score": 0,
